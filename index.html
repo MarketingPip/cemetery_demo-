@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crediton Cemetery Heritage Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/api/placeholder/1200/600');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 60vh;
+    }
+
+    .grave-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -1rem;
+      top: 0.25rem;
+      height: 1rem;
+      width: 1rem;
+      background-color: #4b5563;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body class="font-sans bg-gray-100">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-3">
+      <div class="flex justify-between items-center">
+        <div class="flex items-center space-x-2">
+          <i class="fas fa-tree text-green-400"></i>
+          <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <a href="#home" class="hover:text-green-400 transition">Home</a>
+          <a href="#map" class="hover:text-green-400 transition">Interactive Map</a>
+          <a href="#exhibits" class="hover:text-green-400 transition">Virtual Exhibits</a>
+          <a href="#search" class="hover:text-green-400 transition">Search Records</a>
+          <a href="#timeline" class="hover:text-green-400 transition">Historical Timeline</a>
+          <a href="#donate" class="hover:text-green-400 transition">Support Us</a>
+        </div>
+        <div class="md:hidden">
+          <button id="menu-toggle" class="focus:outline-none">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden">
+      <div class="container mx-auto px-4 py-2 flex flex-col space-y-3">
+        <a href="#home" class="block hover:text-green-400 transition">Home</a>
+        <a href="#map" class="block hover:text-green-400 transition">Interactive Map</a>
+        <a href="#exhibits" class="block hover:text-green-400 transition">Virtual Exhibits</a>
+        <a href="#search" class="block hover:text-green-400 transition">Search Records</a>
+        <a href="#timeline" class="block hover:text-green-400 transition">Historical Timeline</a>
+        <a href="#donate" class="block hover:text-green-400 transition">Support Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-image flex items-center justify-center text-center text-white">
+    <div class="container mx-auto px-4">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Preserving Crediton's Heritage</h1>
+      <p class="text-xl md:text-2xl mb-8">Connecting generations through digital preservation of our community's history</p>
+      <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 justify-center">
+        <a href="#map" class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition">
+          Explore Cemetery Map
+        </a>
+        <a href="#search" class="bg-gray-700 hover:bg-gray-800 text-white font-bold py-3 px-6 rounded-lg transition">
+          Search Ancestors
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-12 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+          <img src="https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=h:1000,cg:true" alt="Crediton Cemetery" class="rounded-lg shadow-lg">
+        </div>
+        <div class="md:w-1/2">
+          <h2 class="text-3xl font-bold mb-4 text-gray-800">About Our Project</h2>
+          <p class="text-gray-600 mb-6">
+            The Crediton Cemetery Heritage Portal is dedicated to preserving the rich history and genealogical
+            significance of one of Ontario's historic cemeteries. Established in the 1850s, Crediton Cemetery
+            serves as the final resting place for generations of local families and notable community figures.
+          </p>
+          <p class="text-gray-600 mb-6">
+            Our digital preservation initiative aims to create a comprehensive resource that connects family
+            researchers, historians, and community members with accurate information about those interred here,
+            while preserving the stories and cultural heritage that might otherwise be lost to time.
+          </p>
+          <div class="grid grid-cols-2 gap-4 text-center">
+            <div class="bg-gray-100 p-4 rounded-lg">
+              <span class="block text-3xl font-bold text-green-600 mb-2">500+</span>
+              <span class="text-gray-600">Grave Records</span>
+            </div>
+            <div class="bg-gray-100 p-4 rounded-lg">
+              <span class="block text-3xl font-bold text-green-600 mb-2">170+</span>
+              <span class="text-gray-600">Years of History</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Map Section -->
+  <section id="map" class="py-12 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center text-gray-800">Interactive Cemetery Map</h2>
+      <p class="text-gray-600 text-center max-w-3xl mx-auto mb-8">
+        Explore our interactive map to discover the layout of Crediton Cemetery.
+        Click on plots to view information about those interred and access links to additional resources.
+      </p>
+
+ <div class="bg-white rounded-lg shadow-lg p-4 mb-8">
+  <div id="cemetery-map" class="relative h-96 border border-gray-300 rounded"></div>
+  <div class="flex justify-end mt-4">
+    <button id="zoom-in" class="bg-gray-200 hover:bg-gray-300 p-2 rounded mr-2">
+      <i class="fas fa-search-plus"></i>
+    </button>
+    <button id="zoom-out" class="bg-gray-200 hover:bg-gray-300 p-2 rounded mr-2">
+      <i class="fas fa-search-minus"></i>
+    </button>
+    <button id="reset-view" class="bg-gray-200 hover:bg-gray-300 p-2 rounded">
+      <i class="fas fa-sync-alt"></i>
+    </button>
+  </div>
+</div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="selected-graves">
+        <!-- Sample graves - these will be dynamically populated based on map selection -->
+        <div class="grave-card bg-white rounded-lg shadow-lg overflow-hidden transition duration-300">
+          <img src="/api/placeholder/400/300" alt="Smith Family Plot" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="font-bold text-xl mb-2">Smith Family Plot</h3>
+            <p class="text-gray-600 mb-4">Section A, Plot 23</p>
+            <div class="flex flex-col space-y-2">
+              <div class="flex items-center">
+                <i class="fas fa-user mr-2 text-green-600"></i>
+                <span>John Smith (1842-1915)</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-user mr-2 text-green-600"></i>
+                <span>Mary Smith (1845-1918)</span>
+              </div>
+            </div>
+            <div class="mt-4 flex justify-between">
+              <a href="https://www.findagrave.com" target="_blank" class="text-blue-600 hover:text-blue-800 flex items-center">
+                <i class="fas fa-external-link-alt mr-1"></i> View on FindAGrave
+              </a>
+              <button class="text-gray-600 hover:text-gray-800">
+                <i class="fas fa-info-circle"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="grave-card bg-white rounded-lg shadow-lg overflow-hidden transition duration-300">
+          <img src="/api/placeholder/400/300" alt="Johnson Monument" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="font-bold text-xl mb-2">Johnson Monument</h3>
+            <p class="text-gray-600 mb-4">Section B, Plot 15</p>
+            <div class="flex flex-col space-y-2">
+              <div class="flex items-center">
+                <i class="fas fa-user mr-2 text-green-600"></i>
+                <span>Rev. William Johnson (1820-1890)</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-star mr-2 text-yellow-600"></i>
+                <span>Community Founder</span>
+              </div>
+            </div>
+            <div class="mt-4 flex justify-between">
+              <a href="https://www.findagrave.com" target="_blank" class="text-blue-600 hover:text-blue-800 flex items-center">
+                <i class="fas fa-external-link-alt mr-1"></i> View on FindAGrave
+              </a>
+              <button class="text-gray-600 hover:text-gray-800">
+                <i class="fas fa-info-circle"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="grave-card bg-white rounded-lg shadow-lg overflow-hidden transition duration-300">
+          <img src="/api/placeholder/400/300" alt="Miller Family Plot" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="font-bold text-xl mb-2">Miller Family Plot</h3>
+            <p class="text-gray-600 mb-4">Section C, Plot 8</p>
+            <div class="flex flex-col space-y-2">
+              <div class="flex items-center">
+                <i class="fas fa-user mr-2 text-green-600"></i>
+                <span>James Miller (1855-1920)</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-user mr-2 text-green-600"></i>
+                <span>Elizabeth Miller (1858-1925)</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-user mr-2 text-green-600"></i>
+                <span>Thomas Miller (1880-1918)</span>
+              </div>
+            </div>
+            <div class="mt-4 flex justify-between">
+              <a href="https://www.findagrave.com" target="_blank" class="text-blue-600 hover:text-blue-800 flex items-center">
+                <i class="fas fa-external-link-alt mr-1"></i> View on FindAGrave
+              </a>
+              <button class="text-gray-600 hover:text-gray-800">
+                <i class="fas fa-info-circle"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Virtual Exhibits Section -->
+  <section id="exhibits" class="py-12 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center text-gray-800">Virtual Exhibits</h2>
+      <p class="text-gray-600 text-center max-w-3xl mx-auto mb-8">
+        Explore our digital exhibits showcasing the rich history and heritage of Crediton Cemetery and its community.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="/api/placeholder/400/300" alt="Pioneers of Crediton" class="w-full h-56 object-cover">
+          <div class="p-4">
+            <h3 class="font-bold text-xl mb-2">Pioneers of Crediton</h3>
+            <p class="text-gray-600 mb-4">
+              Discover the stories of the founding families who established Crediton in the 1850s.
+              This exhibit features rare photographs, documents, and personal accounts.
+            </p>
+            <button id="exhibit-1-btn" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded transition">
+              View Exhibit
+            </button>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="/api/placeholder/400/300" alt="Architectural Heritage" class="w-full h-56 object-cover">
+          <div class="p-4">
+            <h3 class="font-bold text-xl mb-2">Monumental Art & Symbolism</h3>
+            <p class="text-gray-600 mb-4">
+              Explore the artistic and symbolic elements found in Crediton's historic monuments and markers,
+              reflecting changing attitudes toward death and remembrance.
+            </p>
+            <button id="exhibit-2-btn" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded transition">
+              View Exhibit
+            </button>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="/api/placeholder/400/300" alt="War Veterans" class="w-full h-56 object-cover">
+          <div class="p-4">
+            <h3 class="font-bold text-xl mb-2">Veterans Memorial</h3>
+            <p class="text-gray-600 mb-4">
+              Honor the memory of local veterans from various conflicts who are interred at Crediton Cemetery,
+              including their service records and personal stories.
+            </p>
+            <button id="exhibit-3-btn" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded transition">
+              View Exhibit
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Virtual Exhibit Modal -->
+      <div id="exhibit-modal" class="fixed inset-0 bg-black bg-opacity-75 hidden flex items-center justify-center z-50 p-4">
+        <div class="bg-white rounded-lg max-w-4xl w-full max-h-screen overflow-y-auto">
+          <div class="p-4 border-b border-gray-200 flex justify-between items-center">
+            <h3 id="modal-title" class="font-bold text-xl">Exhibit Title</h3>
+            <button id="close-modal" class="focus:outline-none">
+              <i class="fas fa-times text-gray-500 hover:text-gray-800"></i>
+            </button>
+          </div>
+          <div id="modal-content" class="p-4">
+            <!-- Content will be loaded dynamically -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Search Section -->
+  <section id="search" class="py-12 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center text-gray-800">Search Cemetery Records</h2>
+      <p class="text-gray-600 text-center max-w-3xl mx-auto mb-8">
+        Use our database to find information about individuals interred at Crediton Cemetery.
+        Our records include dates, family connections, and links to external resources.
+      </p>
+
+      <div class="bg-white rounded-lg shadow-lg p-6 mb-8">
+        <form id="search-form" class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+          <div class="flex-1">
+            <label for="surname" class="block text-gray-700 mb-2">Surname</label>
+            <input type="text" id="surname" name="surname" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-green-600">
+          </div>
+          <div class="flex-1">
+            <label for="given-name" class="block text-gray-700 mb-2">Given Name</label>
+            <input type="text" id="given-name" name="given-name" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-green-600">
+          </div>
+          <div class="flex-1">
+            <label for="year" class="block text-gray-700 mb-2">Year Range</label>
+            <div class="flex items-center space-x-2">
+              <input type="number" id="year-from" name="year-from" placeholder="From" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-green-600">
+              <span>-</span>
+              <input type="number" id="year-to" name="year-to" placeholder="To" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-green-600">
+            </div>
+          </div>
+          <div class="flex items-end">
+            <button type="submit" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded transition w-full md:w-auto">
+              <i class="fas fa-search mr-2"></i> Search
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div id="search-results" class="bg-white rounded-lg shadow-lg p-6">
+        <h3 class="font-bold text-xl mb-4">Search Results</h3>
+        <div class="overflow-x-auto">
+          <table class="min-w-full bg-white">
+            <thead class="bg-gray-100">
+              <tr>
+                <th class="py-3 px-4 text-left">Name</th>
+                <th class="py-3 px-4 text-left">Birth</th>
+                <th class="py-3 px-4 text-left">Death</th>
+                <th class="py-3 px-4 text-left">Location</th>
+                <th class="py-3 px-4 text-left">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Sample results - would be populated dynamically -->
+              <tr class="border-b hover:bg-gray-50">
+                <td class="py-3 px-4">John Smith</td>
+                <td class="py-3 px-4">Aug 15, 1842</td>
+                <td class="py-3 px-4">Mar 24, 1915</td>
+                <td class="py-3 px-4">Section A, Plot 23</td>
+                <td class="py-3 px-4">
+                  <a href="#" class="text-blue-600 hover:text-blue-800 mr-3">View Details</a>
+                  <a href="https://www.findagrave.com" target="_blank" class="text-blue-600 hover:text-blue-800">FindAGrave</a>
+                </td>
+              </tr>
+              <tr class="border-b hover:bg-gray-50">
+                <td class="py-3 px-4">Mary Smith</td>
+                <td class="py-3 px-4">Nov 3, 1845</td>
+                <td class="py-3 px-4">Jan 12, 1918</td>
+                <td class="py-3 px-4">Section A, Plot 23</td>
+                <td class="py-3 px-4">
+                  <a href="#" class="text-blue-600 hover:text-blue-800 mr-3">View Details</a>
+                  <a href="https://www.findagrave.com" target="_blank" class="text-blue-600 hover:text-blue-800">FindAGrave</a>
+                </td>
+              </tr>
+              <tr class="border-b hover:bg-gray-50">
+                <td class="py-3 px-4">Rev. William Johnson</td>
+                <td class="py-3 px-4">Jun 12, 1820</td>
+                <td class="py-3 px-4">Sep 5, 1890</td>
+                <td class="py-3 px-4">Section B, Plot 15</td>
+                <td class="py-3 px-4">
+                  <a href="#" class="text-blue-600 hover:text-blue-800 mr-3">View Details</a>
+                  <a href="https://www.findagrave.com" target="_blank" class="text-blue-600 hover:text-blue-800">FindAGrave</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Historical Timeline Section --> 
+<section id="timeline" class="py-12 bg-white"> 
+<div class="container mx-auto px-4"> 
+    <h2 class="text-3xl font-bold mb-8 text-center text-gray-800">Historical Timeline</h2> 
+    <p class="text-gray-600 text-center max-w-3xl mx-auto mb-8"> 
+        Explore key events in the history of Crediton Cemetery and the surrounding community. 
+    </p> 
+    <div class="relative border-l-4 border-gray-400 ml-6 pl-6 space-y-12"> 
+        <div class="timeline-item relative"> 
+            <div class="bg-white rounded-lg shadow-lg p-6"> 
+                <h3 class="font-bold text-xl mb-2">1850s - Establishment</h3> 
+                <p class="text-gray-600 mb-4"> 
+                    The cemetery was established following the founding of Crediton. The first burial took place in 1853, marking the beginning of the cemetery's history. 
+                </p> 
+                <img src="/api/placeholder/600/300" alt="Historical Image" class="w-full h-40 object-cover rounded mb-4"> 
+            </div> 
+        </div> 
+        <div class="timeline-item relative"> 
+            <div class="bg-white rounded-lg shadow-lg p-6"> 
+                <h3 class="font-bold text-xl mb-2">1870s - Expansion</h3> 
+                <p class="text-gray-600 mb-4"> 
+                    As the community grew, the cemetery was expanded to accommodate additional plots. Several prominent community leaders were interred during this period. 
+                </p> 
+                <img src="/api/placeholder/600/300" alt="Historical Image" class="w-full h-40 object-cover rounded mb-4"> 
+            </div> 
+        </div> 
+        <div class="timeline-item relative"> 
+            <div class="bg-white rounded-lg shadow-lg p-6"> 
+                <h3 class="font-bold text-xl mb-2">1918-1919 - Influenza Pandemic</h3> 
+                <p class="text-gray-600 mb-4"> 
+                    The cemetery saw an increase in burials during the Spanish Flu pandemic, reflecting the global health crisis's impact on the local community. 
+                </p> 
+                <img src="/api/placeholder/600/300" alt="Historical Image" class="w-full h-40 object-cover rounded mb-4"> 
+            </div> 
+        </div> 
+        <div class="timeline-item relative"> 
+            <div class="bg-white rounded-lg shadow-lg p-6"> 
+                <h3 class="font-bold text-xl mb-2">1950s - Centennial</h3> 
+                <p class="text-gray-600 mb-4"> 
+                    The cemetery celebrated its centennial with restoration projects and the publication of a historical record documenting notable burials. 
+                </p> 
+                <img src="/api/placeholder/600/300" alt="Historical Image" class="w-full h-40 object-cover rounded mb-4"> 
+            </div> 
+        </div> 
+        <div class="timeline-item relative"> 
+            <div class="bg-white rounded-lg shadow-lg p-6"> 
+                <h3 class="font-bold text-xl mb-2">2023 - Digital Preservation Initiative</h3> 
+                <p class="text-gray-600 mb-4"> 
+                    Launch of the Crediton Cemetery Heritage Portal project to digitally preserve records, create virtual exhibits, and connect with genealogy resources. 
+                </p> 
+                <img src="/api/placeholder/600/300" alt="Historical Image" class="w-full h-40 object-cover rounded mb-4"> 
+            </div> 
+        </div> 
+    </div> 
+</div> 
+</section> 
+
+<!-- Support Section -->
+<section id="donate" class="py-16 bg-gray-100">
+  <div class="container mx-auto px-6 lg:px-12">
+    <h2 class="text-4xl font-bold text-center text-gray-800 mb-6">Support Our Heritage Work</h2>
+    <p class="text-lg text-gray-600 text-center max-w-2xl mx-auto mb-12">
+      Help us preserve the heritage of Crediton Cemetery for future generations. Your support enables our digital preservation and genealogical research efforts.
+    </p>
+
+    <!-- Support Options -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+      <div class="bg-white rounded-xl shadow-md p-8 text-center transition hover:shadow-lg">
+        <i class="fas fa-donate text-5xl text-green-600 mb-4"></i>
+        <h3 class="text-2xl font-semibold mb-2">Make a Donation</h3>
+        <p class="text-gray-600 mb-6">
+          Your contribution funds digitization, preservation, and educational initiatives.
+        </p>
+        <button class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition">
+          Donate Now
+        </button>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-md p-8 text-center transition hover:shadow-lg">
+        <i class="fas fa-hands-helping text-5xl text-green-600 mb-4"></i>
+        <h3 class="text-2xl font-semibold mb-2">Volunteer</h3>
+        <p class="text-gray-600 mb-6">
+          Join us in research, photography, data entry, and event support.
+        </p>
+        <button class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition">
+          Get Involved
+        </button>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-md p-8 text-center transition hover:shadow-lg">
+        <i class="fas fa-camera text-5xl text-green-600 mb-4"></i>
+        <h3 class="text-2xl font-semibold mb-2">Contribute Materials</h3>
+        <p class="text-gray-600 mb-4">
+          Share historical photographs, documents, or family records.
+        </p>
+        <a href="#" class="text-blue-600 hover:text-blue-800 flex items-center justify-center font-semibold">
+          <i class="fas fa-external-link-alt mr-2"></i> Explore Exhibit
+        </a>
+      </div>
+    </div>
+
+    <!-- Featured Exhibits -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="bg-white rounded-xl shadow-md overflow-hidden transition hover:shadow-lg">
+        <img src="/api/placeholder/400/300" alt="Historic Monuments" class="w-full h-56 object-cover">
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold mb-2">Historic Monuments</h3>
+          <p class="text-gray-600 mb-4">Discover the memorials and monuments that have withstood the test of time.</p>
+          <a href="#" class="text-blue-600 hover:text-blue-800 flex items-center font-semibold">
+            <i class="fas fa-external-link-alt mr-2"></i> Explore Exhibit
+          </a>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-md overflow-hidden transition hover:shadow-lg">
+        <img src="/api/placeholder/400/300" alt="Notable Figures" class="w-full h-56 object-cover">
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold mb-2">Notable Figures</h3>
+          <p class="text-gray-600 mb-4">Learn about influential individuals interred at Crediton.</p>
+          <a href="#" class="text-blue-600 hover:text-blue-800 flex items-center font-semibold">
+            <i class="fas fa-external-link-alt mr-2"></i> Explore Exhibit
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Support Us Section -->
+  <section id="donate" class="py-12 bg-gray-800 text-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-6">Support Our Project</h2>
+      <p class="text-lg mb-6"> Help us continue our work of preserving Crediton Cemetery's history by making a donation. Your support is invaluable to our efforts. </p> <a href="https://www.paypal.com" class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition"> Donate Now </a>
+    </div>
+  </section> <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; 2025 Crediton Cemetery Heritage Portal. All rights reserved.</p>
+      <div class="flex justify-center space-x-6 mt-4"> <a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a> <a href="#" class="text-gray-400 hover:text-white">Terms of Service</a> <a href="#" class="text-gray-400 hover:text-white">Contact</a> </div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', () => {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+    
+    document.addEventListener("DOMContentLoaded", function () {
+      const map = L.map("cemetery-map").setView([51.505, -0.09], 13);
+
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution: "&copy; OpenStreetMap contributors"
+    }).addTo(map);
+
+    // Example marker (replace with actual cemetery coordinates)
+    L.marker([43.29868, -81.55274]).addTo(map)
+      .bindPopup("Cemetery Entrance").openPopup();
+
+      map.setView([43.29868, -81.55274], 13)
+      
+    document.getElementById("zoom-in").addEventListener("click", () => map.zoomIn());
+    document.getElementById("zoom-out").addEventListener("click", () => map.zoomOut());
+    document.getElementById("reset-view").addEventListener("click", () => map.setView([43.29868, -81.55274], 13));
+});
+
+  </script>
+</body>
+
+</html>
