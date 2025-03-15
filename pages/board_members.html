@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<title>Board Members | Crediton Cemetery Heritage Portal</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<style>
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+  }
+  
+  .board-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+  }
+</style>
+
+<body class="bg-gray-100 font-sans">
+  <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
+    <div class="px-4 py-3 container mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+          <i class="fas fa-tree text-green-400"></i>
+          <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <a class="transition hover:text-green-400" href="#home">Home</a>
+          <a class="transition hover:text-green-400" href="#map">Interactive Map</a>
+          <a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a>
+          <a class="transition hover:text-green-400" href="#search">Search Records</a>
+          <a class="transition hover:text-green-400" href="#timeline">Historical Timeline</a>
+          <a class="transition hover:text-green-400" href="#donate">Support Us</a>
+        </div>
+        <div class="md:hidden">
+          <button class="focus:outline-none" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden md:hidden" id="mobile-menu">
+      <div class="px-4 container mx-auto flex flex-col py-2 space-y-3">
+        <a class="transition hover:text-green-400 block" href="#home">Home</a>
+        <a class="transition hover:text-green-400 block" href="#map">Interactive Map</a>
+        <a class="transition hover:text-green-400 block" href="#exhibits">Virtual Exhibits</a>
+        <a class="transition hover:text-green-400 block" href="#search">Search Records</a>
+        <a class="transition hover:text-green-400 block" href="#timeline">Historical Timeline</a>
+        <a class="transition hover:text-green-400 block" href="#donate">Support Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="flex items-center justify-center hero-image text-center text-white" id="board-hero">
+    <div class="px-4 container mx-auto">
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl">Board Members</h1>
+      <p class="mb-8 md:text-2xl text-xl">Meet the dedicated individuals who oversee and guide the Crediton Cemetery initiatives</p>
+    </div>
+  </section>
+
+  <section class="bg-white py-12" id="board">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Our Leadership Team</h2>
+      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">The Crediton Cemetery is managed by a volunteer board of directors who are committed to preserving the cemetery's historical significance while ensuring its ongoing care and development. These community members dedicate their time and expertise to maintaining this important heritage site.</p>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Board Member Card 1 -->
+        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden board-card">
+          <img alt="Derek Kenney" class="w-full h-64 object-cover" src="/api/placeholder/400/400">
+          <div class="p-6">
+            <h3 class="font-bold text-xl mb-2">Derek Kenney</h3>
+            <p class="text-gray-700">Board Chair</p>
+            <div class="mt-4 pt-4 border-t border-gray-200">
+              <p class="text-gray-600 text-sm italic">"Preserving our community's heritage is a responsibility we take seriously."</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Board Member Card 2 -->
+        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden board-card">
+          <img alt="Heather Clarke" class="w-full h-64 object-cover" src="/api/placeholder/400/400">
+          <div class="p-6">
+            <h3 class="font-bold text-xl mb-2">Heather Clarke</h3>
+            <p class="text-gray-700">Vice Chair</p>
+            <div class="mt-4 pt-4 border-t border-gray-200">
+              <p class="text-gray-600 text-sm italic">"Connecting generations through our shared history strengthens our community."</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Board Member Card 3 -->
+        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden board-card">
+          <img alt="Krysta Clarke" class="w-full h-64 object-cover" src="/api/placeholder/400/400">
+          <div class="p-6">
+            <h3 class="font-bold text-xl mb-2">Krysta Clarke</h3>
+            <p class="text-gray-700">Secretary</p>
+            <div class="mt-4 pt-4 border-t border-gray-200">
+              <p class="text-gray-600 text-sm italic">"Documenting our past ensures these stories live on for future generations."</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Board Member Card 4 -->
+        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden board-card">
+          <img alt="Mark Baker" class="w-full h-64 object-cover" src="/api/placeholder/400/400">
+          <div class="p-6">
+            <h3 class="font-bold text-xl mb-2">Mark Baker</h3>
+            <p class="text-gray-700">Treasurer</p>
+            <div class="mt-4 pt-4 border-t border-gray-200">
+              <p class="text-gray-600 text-sm italic">"Responsible stewardship ensures we honor those who came before us."</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Board Member Card 5 -->
+        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden board-card">
+          <img alt="Robert Pertschy" class="w-full h-64 object-cover" src="/api/placeholder/400/400">
+          <div class="p-6">
+            <h3 class="font-bold text-xl mb-2">Robert Pertschy</h3>
+            <p class="text-gray-700">Director</p>
+            <div class="mt-4 pt-4 border-t border-gray-200">
+              <p class="text-gray-600 text-sm italic">"Every headstone tells a story that deserves to be preserved."</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Board Member Card 6 -->
+        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden board-card">
+          <img alt="Bob Van Valkengoed" class="w-full h-64 object-cover" src="/api/placeholder/400/400">
+          <div class="p-6">
+            <h3 class="font-bold text-xl mb-2">Bob Van Valkengoed</h3>
+            <p class="text-gray-700">Director</p>
+            <div class="mt-4 pt-4 border-t border-gray-200">
+              <p class="text-gray-600 text-sm italic">"Our cemetery reflects the cultural heritage of our entire community."</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Board Member Card 7 -->
+        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden board-card">
+          <img alt="Dave Cottel" class="w-full h-64 object-cover" src="/api/placeholder/400/400">
+          <div class="p-6">
+            <h3 class="font-bold text-xl mb-2">Dave Cottel</h3>
+            <p class="text-gray-700">Director</p>
+            <div class="mt-4 pt-4 border-t border-gray-200">
+              <p class="text-gray-600 text-sm italic">"Maintaining these grounds is an honor and a privilege."</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Board Member Card 8 -->
+        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden board-card">
+          <img alt="Bill Payne" class="w-full h-64 object-cover" src="/api/placeholder/400/400">
+          <div class="p-6">
+            <h3 class="font-bold text-xl mb-2">Bill Payne</h3>
+            <p class="text-gray-700">Director</p>
+            <div class="mt-4 pt-4 border-t border-gray-200">
+              <p class="text-gray-600 text-sm italic">"I'm proud to contribute to preserving Crediton's historical legacy."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-gray-100 py-12">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Board Responsibilities</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <div class="flex items-center mb-4">
+            <div class="rounded-full bg-green-100 p-3 mr-4">
+              <i class="fas fa-hand-holding-heart text-green-600 text-xl"></i>
+            </div>
+            <h3 class="font-bold text-xl">Cemetery Care</h3>
+          </div>
+          <p class="text-gray-600">Overseeing the maintenance and preservation of cemetery grounds, monuments, and facilities to ensure they remain respectful places of remembrance.</p>
+        </div>
+        
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <div class="flex items-center mb-4">
+            <div class="rounded-full bg-green-100 p-3 mr-4">
+              <i class="fas fa-book-open text-green-600 text-xl"></i>
+            </div>
+            <h3 class="font-bold text-xl">Historical Preservation</h3>
+          </div>
+          <p class="text-gray-600">Managing historical records, supporting genealogical research, and promoting awareness of the cemetery's cultural and historical significance.</p>
+        </div>
+        
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <div class="flex items-center mb-4">
+            <div class="rounded-full bg-green-100 p-3 mr-4">
+              <i class="fas fa-users text-green-600 text-xl"></i>
+            </div>
+            <h3 class="font-bold text-xl">Community Engagement</h3>
+          </div>
+          <p class="text-gray-600">Facilitating community connections through educational programs, volunteer opportunities, and commemorative events that honor our shared heritage.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white py-12">
+    <div class="px-4 container mx-auto text-center">
+      <h2 class="font-bold text-3xl text-gray-800 mb-6">Join Our Efforts</h2>
+      <p class="text-gray-600 mx-auto max-w-3xl mb-8">The Crediton Cemetery Board welcomes community involvement. Whether through volunteering, attending events, or supporting our preservation initiatives, your participation helps ensure this important heritage site continues to serve our community.</p>
+      <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 justify-center">
+        <a href="#contact" class="font-bold text-white transition bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg">Contact the Board</a>
+        <a href="#volunteer" class="font-bold text-white transition bg-gray-700 hover:bg-gray-800 px-6 py-3 rounded-lg">Volunteer Opportunities</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="px-4 container mx-auto text-center">
+      <p>© 2025 Crediton Cemetery Heritage Portal. All rights reserved.</p>
+      <div class="flex justify-center mt-4 space-x-6">
+        <a class="hover:text-white text-gray-400" href="#">Privacy Policy</a>
+        <a class="hover:text-white text-gray-400" href="#">Terms of Service</a>
+        <a class="hover:text-white text-gray-400" href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', () => {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
