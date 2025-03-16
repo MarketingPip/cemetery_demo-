@@ -43,6 +43,8 @@ https://science.mcmaster.ca/ahead-by-a-century-the-life-and-legacy-of-trailblaze
 
 https://www.linkedin.com/posts/jayrobb_so-i-went-on-a-roadtrip-to-crediton-ontario-activity-7253142851407003648-grCm
 
+https://pubdocs.huroncounty.ca/WebLink/DocView.aspx?id=1291615&dbid=0&repo=CoH
+
 https://onlinelibrary.wiley.com/doi/pdf/10.12705/675.28
 
 https://www.linkedin.com/posts/mcmaster-faculty-of-science_internationalwomensday-activity-7303836244478763008-O6Nt
