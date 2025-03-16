@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Contact Us | Crediton Cemetery Heritage Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40vh;
+    }
+    .error-message {
+      display: none;
+      color: #dc2626; /* Tailwind's red-600 */
+      font-size: 0.875rem; /* Tailwind's text-sm */
+      margin-top: 0.25rem; /* Tailwind's mt-1 */
+    }
+    input:invalid:focus + .error-message,
+    select:invalid:focus + .error-message,
+    textarea:invalid:focus + .error-message {
+      display: block;
+    }
+    .form-message {
+      display: none;
+      padding: 1rem;
+      margin-top: 1rem;
+      border-radius: 0.5rem;
+      text-align: center;
+    }
+    .form-message.success {
+      background-color: #dcfce7; /* Tailwind's green-100 */
+      color: #166534; /* Tailwind's green-800 */
+    }
+    .form-message.error {
+      background-color: #fee2e2; /* Tailwind's red-100 */
+      color: #991b1b; /* Tailwind's red-800 */
+    }
+  </style>
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
+    <div class="px-4 py-3 container mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+          <i class="fas fa-tree text-green-400"></i>
+          <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <a class="transition hover:text-green-400" href="#home">Home</a>
+          <a class="transition hover:text-green-400" href="#map">Interactive Map</a>
+          <a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a>
+          <a class="transition hover:text-green-400" href="#search">Search Records</a>
+          <a class="transition hover:text-green-400" href="#timeline">Historical Timeline</a>
+          <a class="transition hover:text-green-400" href="#donate">Support Us</a>
+        </div>
+        <div class="md:hidden">
+          <button class="focus:outline-none" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden md:hidden" id="mobile-menu">
+      <div class="px-4 container mx-auto flex flex-col py-2 space-y-3">
+        <a class="transition hover:text-green-400 block" href="#home">Home</a>
+        <a class="transition hover:text-green-400 block" href="#map">Interactive Map</a>
+        <a class="transition hover:text-green-400 block" href="#exhibits">Virtual Exhibits</a>
+        <a class="transition hover:text-green-400 block" href="#search">Search Records</a>
+        <a class="transition hover:text-green-400 block" href="#timeline">Historical Timeline</a>
+        <a class="transition hover:text-green-400 block" href="#donate">Support Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex items-center justify-center hero-image text-center text-white" id="contact-hero">
+    <div class="px-4 container mx-auto">
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl">Contact Us</h1>
+      <p class="mb-8 md:text-2xl text-xl">Have questions or want to get involved? We’d love to hear from you!</p>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="bg-white py-12" id="contact-form">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Send Us a Message</h2>
+      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Fill out the form below to reach our team. Whether it’s about volunteering, donating, or sharing a story, we’ll get back to you soon.</p>
+      
+      <form id="contact-form" class="max-w-2xl mx-auto space-y-6" novalidate>
+        <!-- Name -->
+        <div>
+          <label for="name" class="block text-gray-700 font-semibold mb-2">Name</label>
+          <input type="text" id="name" name="name" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600" required>
+          <span class="error-message">Please enter your name.</span>
+        </div>
+
+        <!-- Email -->
+        <div>
+          <label for="email" class="block text-gray-700 font-semibold mb-2">Email</label>
+          <input type="email" id="email" name="email" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+          <span class="error-message">Please enter a valid email address.</span>
+        </div>
+
+        <!-- Subject -->
+        <div>
+          <label for="subject" class="block text-gray-700 font-semibold mb-2">Subject</label>
+          <select id="subject" name="subject" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600" required>
+            <option value="">Select a subject</option>
+            <option value="volunteer">Volunteering</option>
+            <option value="donate">Donation Inquiry</option>
+            <option value="story">Share a Story</option>
+            <option value="general">General Inquiry</option>
+          </select>
+          <span class="error-message">Please select a subject.</span>
+        </div>
+
+        <!-- Message -->
+        <div>
+          <label for="message" class="block text-gray-700 font-semibold mb-2">Message</label>
+          <textarea id="message" name="message" rows="5" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600" required></textarea>
+          <span class="error-message">Please enter your message.</span>
+        </div>
+
+        <!-- Form Feedback -->
+        <div id="form-feedback" class="form-message"></div>
+
+        <!-- Submit Button -->
+        <div class="text-center">
+          <button type="submit" class="font-bold text-white transition bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Additional Contact Info Section -->
+  <section class="bg-gray-100 py-12">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Other Ways to Reach Us</h2>
+      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Prefer a different method? Here’s how you can connect with us directly.</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Email -->
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <i class="fas fa-envelope text-green-600 text-3xl mb-4"></i>
+          <h3 class="font-bold text-xl text-gray-800 mb-2">Email</h3>
+          <p class="text-gray-600">info@creditoncemetery.org</p>
+        </div>
+        <!-- Mail -->
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <i class="fas fa-mail-bulk text-green-600 text-3xl mb-4"></i>
+          <h3 class="font-bold text-xl text-gray-800 mb-2">Mail</h3>
+          <p class="text-gray-600">Crediton Cemetery Heritage Portal<br>PO Box 123<br>Crediton, ON N0M 1M0</p>
+        </div>
+        <!-- Board Members -->
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <i class="fas fa-users text-green-600 text-3xl mb-4"></i>
+          <h3 class="font-bold text-xl text-gray-800 mb-2">Meet Our Board</h3>
+          <p class="text-gray-600">Learn about the team behind our efforts.</p>
+          <a href="#board-members" class="text-green-600 hover:underline mt-2 inline-block">View Board Members</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="px-4 container mx-auto text-center">
+      <p>© 2025 Crediton Cemetery Heritage Portal. All rights reserved.</p>
+      <div class="flex justify-center mt-4 space-x-6">
+        <a class="hover:text-white text-gray-400" href="#">Privacy Policy</a>
+        <a class="hover:text-white text-gray-400" href="#">Terms of Service</a>
+        <a class="hover:text-white text-gray-400" href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Form Validation Script -->
+  <script>
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent form submission for demo
+
+      const form = this;
+      const inputs = form.querySelectorAll('input, select, textarea');
+      const feedback = document.getElementById('form-feedback');
+      let isValid = true;
+
+      // Reset previous feedback
+      feedback.classList.remove('success', 'error');
+      feedback.style.display = 'none';
+      feedback.textContent = '';
+
+      // Validate inputs
+      inputs.forEach(input => {
+        if (!input.checkValidity()) {
+          input.classList.add('border-red-500');
+          isValid = false;
+        } else {
+          input.classList.remove('border-red-500');
+        }
+      });
+
+      // Show feedback
+      if (isValid) {
+        feedback.textContent = 'Thank you! Your message has been submitted successfully. (This is a demo—actual submission requires backend integration.)';
+        feedback.classList.add('success');
+        feedback.style.display = 'block';
+        form.reset(); // Clear form
+        setTimeout(() => {
+          feedback.style.display = 'none'; // Hide message after 5 seconds
+        }, 5000);
+      } else {
+        feedback.textContent = 'Please fill out all required fields correctly.';
+        feedback.classList.add('error');
+        feedback.style.display = 'block';
+      }
+    });
+
+    // Real-time validation feedback
+    document.querySelectorAll('input, select, textarea').forEach(input => {
+      input.addEventListener('input', function() {
+        if (this.checkValidity()) {
+          this.classList.remove('border-red-500');
+        }
+      });
+    });
+
+    // Mobile Menu Toggle
+    document.getElementById('menu-toggle').addEventListener('click', () => {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
