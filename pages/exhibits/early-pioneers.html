@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Pioneers of Crediton | Crediton Cemetery Heritage Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40vh;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
+    <div class="px-4 py-3 container mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+          <i class="fas fa-tree text-green-400"></i>
+          <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <a class="transition hover:text-green-400" href="#home">Home</a>
+          <a class="transition hover:text-green-400" href="#map">Interactive Map</a>
+          <a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a>
+          <a class="transition hover:text-green-400" href="#search">Search Records</a>
+          <a class="transition hover:text-green-400" href="#timeline">Historical Timeline</a>
+          <a class="transition hover:text-green-400" href="#donate">Support Us</a>
+        </div>
+        <div class="md:hidden">
+          <button class="focus:outline-none" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden md:hidden" id="mobile-menu">
+      <div class="px-4 container mx-auto flex flex-col py-2 space-y-3">
+        <a class="transition hover:text-green-400 block" href="#home">Home</a>
+        <a class="transition hover:text-green-400 block" href="#map">Interactive Map</a>
+        <a class="transition hover:text-green-400 block" href="#exhibits">Virtual Exhibits</a>
+        <a class="transition hover:text-green-400 block" href="#search">Search Records</a>
+        <a class="transition hover:text-green-400 block" href="#timeline">Historical Timeline</a>
+        <a class="transition hover:text-green-400 block" href="#donate">Support Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex items-center justify-center hero-image text-center text-white" id="exhibit-hero">
+    <div class="px-4 container mx-auto">
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl">Pioneers of Crediton</h1>
+      <p class="mb-8 md:text-2xl text-xl">Discover the stories of the founding families who established Crediton in the 1850s.</p>
+    </div>
+  </section>
+
+  <!-- Exhibit Content Section -->
+  <section class="bg-white py-12" id="exhibit-content">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Exhibit Overview</h2>
+      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">This exhibit features rare photographs, documents, and personal accounts that bring to life the resilience and spirit of Crediton’s earliest settlers. Learn about the families who shaped this community and their lasting legacy.</p>
+      
+      <div class="space-y-12">
+        <!-- Introduction -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="font-bold text-xl text-gray-800 mb-4">The Early Days</h3>
+            <p class="text-gray-600">In the 1830s and 1840s, settlers began arriving in what would become Crediton, Ontario, drawn by the promise of fertile land in the Huron Tract. Among the first was Barbara Shulz, buried in 1835, marking the beginning of Crediton Cemetery’s history. By the 1850s, families like the Stahls and Fahrners, many of German origin from Württemberg, established a thriving community known as "Schwabeland."</p>
+          </div>
+          <img alt="Early Crediton Settlers" class="w-full h-64 object-cover rounded-lg shadow-md" src="/api/placeholder/600/400">
+        </div>
+
+        <!-- Key Artifacts -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <img alt="Pioneer Family Photograph" class="w-full h-64 object-cover rounded-lg shadow-md" src="/api/placeholder/600/400">
+          <div>
+            <h3 class="font-bold text-xl text-gray-800 mb-4">Rare Photographs and Documents</h3>
+            <p class="text-gray-600">This exhibit showcases preserved photographs of pioneer families, alongside land deeds and personal letters. These artifacts offer a glimpse into daily life, from clearing land to building homes, and highlight the determination of Crediton’s founders.</p>
+          </div>
+        </div>
+
+        <!-- Personal Stories -->
+        <div>
+          <h3 class="font-bold text-xl text-gray-800 mb-4">Personal Accounts</h3>
+          <p class="text-gray-600 mb-4">Read excerpts from diaries and oral histories passed down through generations. One account from a Stahl family descendant recalls: <em>“The winters were harsh, but the land was ours to shape.”</em> These stories paint a vivid picture of sacrifice and community spirit.</p>
+          <blockquote class="border-l-4 border-green-600 pl-4 italic text-gray-600">"We built not just homes, but a future for those who’d come after us." – Anonymous Pioneer, 1858</blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Explore More Section -->
+  <section class="bg-gray-100 py-12">
+    <div class="px-4 container mx-auto text-center">
+      <h2 class="font-bold text-3xl text-gray-800 mb-6">Explore More</h2>
+      <p class="text-gray-600 mx-auto max-w-3xl mb-8">Want to dive deeper into Crediton’s history or contribute your own family stories? Explore other exhibits or share your insights with us.</p>
+      <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 justify-center">
+        <a href="#exhibits" class="font-bold text-white transition bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg">View All Exhibits</a>
+        <a href="#contact" class="font-bold text-white transition bg-gray-700 hover:bg-gray-800 px-6 py-3 rounded-lg">Contribute to This Exhibit</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="px-4 container mx-auto text-center">
+      <p>© 2025 Crediton Cemetery Heritage Portal. All rights reserved.</p>
+      <div class="flex justify-center mt-4 space-x-6">
+        <a class="hover:text-white text-gray-400" href="#">Privacy Policy</a>
+        <a class="hover:text-white text-gray-400" href="#">Terms of Service</a>
+        <a class="hover:text-white text-gray-400" href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Menu Toggle Script -->
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', () => {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
