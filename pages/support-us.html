@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Support Us | Crediton Cemetery Heritage Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40vh;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
+    <div class="px-4 py-3 container mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+          <i class="fas fa-tree text-green-400"></i>
+          <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <a class="transition hover:text-green-400" href="#home">Home</a>
+          <a class="transition hover:text-green-400" href="#map">Interactive Map</a>
+          <a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a>
+          <a class="transition hover:text-green-400" href="#search">Search Records</a>
+          <a class="transition hover:text-green-400" href="#timeline">Historical Timeline</a>
+          <a class="transition hover:text-green-400" href="#donate">Support Us</a>
+        </div>
+        <div class="md:hidden">
+          <button class="focus:outline-none" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden md:hidden" id="mobile-menu">
+      <div class="px-4 container mx-auto flex flex-col py-2 space-y-3">
+        <a class="transition hover:text-green-400 block" href="#home">Home</a>
+        <a class="transition hover:text-green-400 block" href="#map">Interactive Map</a>
+        <a class="transition hover:text-green-400 block" href="#exhibits">Virtual Exhibits</a>
+        <a class="transition hover:text-green-400 block" href="#search">Search Records</a>
+        <a class="transition hover:text-green-400 block" href="#timeline">Historical Timeline</a>
+        <a class="transition hover:text-green-400 block" href="#donate">Support Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex items-center justify-center hero-image text-center text-white" id="donate-hero">
+    <div class="px-4 container mx-auto">
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl">Support Us</h1>
+      <p class="mb-8 md:text-2xl text-xl">Your generosity helps preserve Crediton Cemetery’s history and maintain its grounds for future generations.</p>
+    </div>
+  </section>
+
+  <!-- Donation Options Section -->
+  <section class="bg-white py-12" id="donate-options">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">How You Can Help</h2>
+      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Every donation supports our efforts to maintain the cemetery, digitize records, and create educational exhibits. Choose the method that works best for you.</p>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- E-Transfer -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <div class="flex items-center mb-4">
+            <div class="rounded-full bg-green-100 p-3 mr-4">
+              <i class="fas fa-envelope text-green-600 text-xl"></i>
+            </div>
+            <h3 class="font-bold text-xl text-gray-800">E-Transfer</h3>
+          </div>
+          <p class="text-gray-600 mb-4">Send your donation securely via e-transfer to:</p>
+          <p class="text-green-600 font-semibold">donations@creditoncemetery.org</p>
+          <p class="text-gray-600 text-sm mt-2">Please include your name and "Donation" in the message field. We’ll email you a tax receipt.</p>
+        </div>
+
+        <!-- PayPal -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <div class="flex items-center mb-4">
+            <div class="rounded-full bg-green-100 p-3 mr-4">
+              <i class="fab fa-paypal text-green-600 text-xl"></i>
+            </div>
+            <h3 class="font-bold text-xl text-gray-800">PayPal</h3>
+          </div>
+          <p class="text-gray-600 mb-4">Donate quickly and easily online using PayPal.</p>
+          <a href="https://www.paypal.com/donate?hosted_button_id=EXAMPLE" target="_blank" class="font-bold text-white transition bg-green-600 hover:bg-green-700 px-4 py-2 rounded-lg inline-block">Donate with PayPal</a>
+          <p class="text-gray-600 text-sm mt-2">Tax receipts will be sent to your PayPal email address.</p>
+        </div>
+
+        <!-- Cheque/Cash via Mail -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <div class="flex items-center mb-4">
+            <div class="rounded-full bg-green-100 p-3 mr-4">
+              <i class="fas fa-mail-bulk text-green-600 text-xl"></i>
+            </div>
+            <h3 class="font-bold text-xl text-gray-800">Cheque or Cash</h3>
+          </div>
+          <p class="text-gray-600 mb-4">Mail your donation to:</p>
+          <p class="text-gray-600 font-semibold">Crediton Cemetery Heritage Fund<br>PO Box 123<br>Crediton, ON N0M 1M0</p>
+          <p class="text-gray-600 text-sm mt-2">Please include your contact info for a tax receipt.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact Section -->
+  <section class="bg-gray-100 py-12">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Your Impact</h2>
+      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Your contributions make a difference. Here’s how your support helps:</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <i class="fas fa-tools text-green-600 text-3xl mb-4"></i>
+          <h3 class="font-bold text-xl text-gray-800 mb-2">Grounds Maintenance</h3>
+          <p class="text-gray-600">Funds help keep the cemetery well-maintained, preserving its beauty and dignity.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <i class="fas fa-archive text-green-600 text-3xl mb-4"></i>
+          <h3 class="font-bold text-xl text-gray-800 mb-2">Historical Preservation</h3>
+          <p class="text-gray-600">Donations support digitizing records and protecting artifacts for future generations.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <i class="fas fa-book-open text-green-600 text-3xl mb-4"></i>
+          <h3 class="font-bold text-xl text-gray-800 mb-2">Educational Outreach</h3>
+          <p class="text-gray-600">Your support enables exhibits and programs that share Crediton’s rich history.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Thank You Section -->
+  <section class="bg-white py-12">
+    <div class="px-4 container mx-auto text-center">
+      <h2 class="font-bold text-3xl text-gray-800 mb-6">Thank You</h2>
+      <p class="text-gray-600 mx-auto max-w-3xl mb-8">We’re grateful for every donation, big or small. Together, we’re ensuring Crediton Cemetery remains a cherished heritage site. Questions? Contact us!</p>
+      <a href="#contact" class="font-bold text-white transition bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="px-4 container mx-auto text-center">
+      <p>© 2025 Crediton Cemetery Heritage Portal. All rights reserved.</p>
+      <div class="flex justify-center mt-4 space-x-6">
+        <a class="hover:text-white text-gray-400" href="#">Privacy Policy</a>
+        <a class="hover:text-white text-gray-400" href="#">Terms of Service</a>
+        <a class="hover:text-white text-gray-400" href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Menu Toggle Script -->
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', () => {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
