@@ -673,25 +673,31 @@ document.querySelectorAll('[data-dropdown-toggle]').forEach(button => {
       attribution: "&copy; OpenStreetMap contributors"
     }).addTo(map);
 
+
+ 
+      
     // Example marker (replace with actual cemetery coordinates)
-    L.marker([43.29868, -81.55274]).addTo(map)
-      .bindPopup("Cemetery Entrance").openPopup();
-
-
-
-// create popup contents
-var customPopup = "<b>My office</b><br/><img src='http://netdna.webdesignerdepot.com/uploads/2014/05/workspace_06_previo.jpg' alt='maptime logo gif' width='150px'/>";
 
 // specify popup options 
 var customOptions = {
-    'maxWidth': 400,
-    'width': 200,
-    'className' : 'popupCustom'
+   // 'maxWidth': 400,
+  //  'width': 200,
+   'className' : 'popupCustom'
 }
     
       
-// bind the custom popup 
-   L.marker.bindPopup(customPopup,customOptions);
+    L.marker([43.29868, -81.55274]).addTo(map)
+      .bindPopup(`
+    <div style="width: 200px; height: 100px;">
+      <h3>Cemetery Entrance</h3>
+      <p>Welcome to the cemetery!</p>
+      <img src="https://via.placeholder.com/100" alt="Cemetery Image" />
+    </div>
+  `, customOptions).openPopup();
+
+
+
+ 
       
       map.setView([43.29868, -81.55274], 13)
       
