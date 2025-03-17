@@ -97,27 +97,23 @@ function redirectToHome() {
     // Get the current URL
     const currentUrl = window.location.href;
 
-    // Check if the URL contains 'github.io'
-    if (currentUrl.indexOf('github.io') !== -1) {
-        // Split the URL into parts by "/"
-        const parts = currentUrl.split('/');
+    // Split the URL into parts by "/"
+    const parts = currentUrl.split('/');
 
-        // Check if there are more than 4 parts (e.g., domain, repo_name, sub, file path)
-        if (parts.length > 3) {  // More than 2 parts (like https://username.github.io/repo_name/sub/404.html)
-            // Check if the URL contains "404"
-                // Redirect to 404.html
-                const repoName = parts[3];  // Extract the repository name
-                const baseUrl = `https://${parts[2]}/${repoName}/404.html`;
-                window.location.href = baseUrl;  // Redirect to 404 page
-        } else {
-            // If the URL has exactly two parts (repo_name), do nothing (no redirect)
-            console.log("The URL has exactly two parts, no redirect.");
-        }
+    // Check if the URL contains 'github.io', is not already on a 404 page, and has more than 3 parts
+    if (currentUrl.indexOf('github.io') !== -1 && currentUrl.indexOf('404.html') === -1 && parts.length != 3) {
+        // The URL has more than 3 parts (like https://username.github.io/repo_name/sub/404.html)
+        // Redirect to 404.html
+        const repoName = parts[3];  // Extract the repository name
+        const baseUrl = `https://${parts[2]}/${repoName}/404.html`;
+        window.location.href = baseUrl;  // Redirect to 404.html
     } else {
-        // If not on github.io, do nothing
-        console.log("Not on GitHub Pages.");
+        // If the URL is already on 404.html or has exactly two or three parts, do nothing
+        console.log("Either on 404.html or URL has 2 or 3 parts, no redirect.");
     }
 }
+
+
     redirectToHome() 
 </script>
   <script>
