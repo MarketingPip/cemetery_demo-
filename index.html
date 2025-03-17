@@ -688,12 +688,36 @@ var customOptions = {
       
     L.marker([43.29868, -81.55274]).addTo(map)
       .bindPopup(`
-    <div style="width: 200px; height: 100px;">
-      <h3>Cemetery Entrance</h3>
-      <p>Welcome to the cemetery!</p>
-      <img src="https://via.placeholder.com/100" alt="Cemetery Image" />
-    </div>
-  `, customOptions).openPopup();
+                <div data-popover="" id="popover-repo" role="tooltip" class="absolute z-10 inline-block text-sm text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm w-96 dark:text-gray-400 dark:bg-gray-800 dark:border-gray-600 overflow-hidden opacity-0 invisible" data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(244.5px, 31.5px);">
+                    <div class="grid grid-cols-5">
+                        <div class="col-span-3 p-3">
+                            <div class="space-y-2">
+                                <h3 id="popover-title" class="font-semibold text-gray-900 dark:text-white">Termino.js</h3>
+                                <p id="popover-description" class="text-gray-700 dark:text-gray-300">Create a web based terminal on any website - great for games, animations, and real-world apps!</p>
+                                <p id="popover-owner" class="text-gray-600 dark:text-gray-400">Owner: MarketingPipeline</p>
+                                <p id="popover-language" class="text-gray-600 dark:text-gray-400">Language: JavaScript</p>
+                                <p id="popover-stars" class="text-gray-600 dark:text-gray-400">Stars: 604</p>
+                                <p id="popover-forks" class="text-gray-600 dark:text-gray-400">Forks: 15</p>
+                                <a id="popover-link" href="https://github.com/MarketingPipeline/Termino.js" class="flex items-center font-medium text-blue-600 dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:underline">
+                                    Visit Repository
+                                    <svg class="w-2 h-2 ms-1.5 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"></path>
+                                    </svg>
+                                </a>
+                                <a id="readme-link" href="https://raw.githubusercontent.com/MarketingPipeline/Termino.js/main/README.md" class="flex items-center font-medium text-blue-600 dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:underline" target="_blank">View README
+                                    <svg class="w-2 h-2 ms-1.5 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="popover-image-src" class="h-full w-full">
+                            <img id="popover-avatar" class="w-full h-full object-fill col-span-2 rounded-r-lg min-w-[160px]" alt="Owner Avatar" src="https://avatars.githubusercontent.com/u/86196361?v=4">
+                        </div>
+                    </div>
+                    <div data-popper-arrow="" style="position: absolute; left: 0px; transform: translate(190.5px, 0px);"></div>
+                </div>
+            `, customOptions).openPopup();
 
 
 
