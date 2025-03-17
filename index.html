@@ -34,6 +34,8 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
+   <!-- CSS for datepicker -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.3.4/dist/css/datepicker.min.css">
   <!-- Inline Styles for Custom Design -->
   <style>
     .hero-image {
@@ -593,7 +595,19 @@
         <a href="pages/contact-us" class="text-gray-400 hover:text-white">Contact</a> </div>
     </div>
   </footer>
-  <script>
+  <script type="module">
+    import { Datepicker } from "https://esm.sh/vanillajs-datepicker"; // Initialize Flowbite Datepicker
+const datepicker = new Datepicker(document.getElementById("year-from"), {
+  pickLevel: 2, // Set pickLevel to 2 for selecting a specific level (e.g., year, month, day)
+  format: "yyyy" // Format to display only the year
+});
+
+const datepicker2 = new Datepicker(document.getElementById("year-to"), {
+  pickLevel: 2, // Set pickLevel to 2 for selecting a specific level (e.g., year, month, day)
+  format: "yyyy" // Format to display only the year
+});
+    
+    
     document.getElementById('menu-toggle').addEventListener('click', () => {
       const mobileMenu = document.getElementById('mobile-menu');
       mobileMenu.classList.toggle('hidden');
