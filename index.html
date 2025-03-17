@@ -677,6 +677,22 @@ document.querySelectorAll('[data-dropdown-toggle]').forEach(button => {
     L.marker([43.29868, -81.55274]).addTo(map)
       .bindPopup("Cemetery Entrance").openPopup();
 
+
+
+// create popup contents
+var customPopup = "<b>My office</b><br/><img src='http://netdna.webdesignerdepot.com/uploads/2014/05/workspace_06_previo.jpg' alt='maptime logo gif' width='150px'/>";
+
+// specify popup options 
+var customOptions = {
+    'maxWidth': 400,
+    'width': 200,
+    'className' : 'popupCustom'
+}
+    
+      
+// bind the custom popup 
+   L.marker.bindPopup(customPopup,customOptions);
+      
       map.setView([43.29868, -81.55274], 13)
       
     document.getElementById("zoom-in").addEventListener("click", () => map.zoomIn());
