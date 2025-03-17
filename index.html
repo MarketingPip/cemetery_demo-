@@ -648,13 +648,22 @@ const datepicker2 = new Datepicker(document.getElementById("year-to"), {
   document.getElementById('mobile-menu').classList.toggle('translate-x-full');
 });
 
-// Handle Dropdown Toggle
+// Close menu when clicking any link with #
+document.querySelectorAll('#mobile-menu a[href^="#"]').forEach(link => {
+  link.addEventListener('click', () => {
+    document.getElementById('mobile-menu').classList.add('translate-x-full');
+  });
+});
+
+/* Handle Dropdown Toggle
+
 document.querySelectorAll('[data-dropdown-toggle]').forEach(button => {
   button.addEventListener('click', () => {
     const dropdown = button.nextElementSibling;
     dropdown.classList.toggle('hidden');
   });
 });
+*/
 
     
     document.addEventListener("DOMContentLoaded", function () {
