@@ -2759,18 +2759,25 @@ In Memory of <br/>Caroline Schroeder<br/>died Jan. 21, 1898<br/>aged 31 yrs. 7 m
         return;
       }
 
-      paginatedRecords.forEach(record => {
-        const row = document.createElement('tr');
-        row.innerHTML = `
-          <td class="px-6 py-4 text-sm text-gray-700">${record.name || 'N/A'}</td>
-          <td class="px-6 py-4 text-sm text-gray-700">${record.birth_date || 'N/A'}</td>
-          <td class="px-6 py-4 text-sm text-gray-700">${record.death_date || 'N/A'}</td>
-          <td class="px-6 py-4 text-sm text-gray-700">${record.location || 'N/A'}</td>
-          <td class="px-6 py-4 text-sm text-gray-700">${(record.parents && record.parents.length) ? 'Yes' : 'No'}</td>
-          <td class="px-6 py-4 text-sm text-gray-700"><a href="${record.memorial_url}" target="_blank" class="text-green-600 hover:underline">View Details</a></td>
-        `;
-        resultsBody.appendChild(row);
-      });
+
+      //           <td class="px-6 py-4 text-sm text-gray-700">${(record.parents && record.parents.length) ? 'Yes' : 'No'}</td>
+paginatedRecords.forEach((record, index) => {
+  const row = document.createElement('tr');
+  row.innerHTML = `
+    <td class="px-6 py-4 text-sm text-gray-700">${record.name || 'N/A'}</td>
+    <td class="px-6 py-4 text-sm text-gray-700">${record.birth_date || 'N/A'}</td>
+    <td class="px-6 py-4 text-sm text-gray-700">${record.death_date || 'N/A'}</td>
+    <td class="px-6 py-4 text-sm text-gray-700">${record.location || 'N/A'}</td>
+    <td class="px-6 py-4 text-sm text-gray-700"><a href="${record.memorial_url}" target="_blank" class="text-green-600 hover:underline">View Details</a></td>
+    <td class="py-3 px-4">
+      <!-- Modify this to assign the 'id' attribute dynamically -->
+      <a href="#" data-personID="${record.id || index}" class="text-blue-600 hover:text-blue-800 mr-3" id="person-${record.id || index}">View Details</a>
+      <a href="${record.memorial_url}" target="_blank" class="text-blue-600 hover:text-blue-800">FindAGrave</a>
+    </td>
+  `;
+  resultsBody.appendChild(row);
+});
+
 
       // Update pagination details
       showingStart.textContent = filteredRecords.length ? startIndex + 1 : 0;
@@ -2841,7 +2848,22 @@ In Memory of <br/>Caroline Schroeder<br/>died Jan. 21, 1898<br/>aged 31 yrs. 7 m
     }
 
     
-  
+
+
+   // Attach a single event listener to the document
+document.addEventListener('click', function(event) {
+  // Check if the clicked element has the 'data-personID' attribute
+  if (event.target && event.target.hasAttribute('data-personID')) {
+    const personID = event.target.getAttribute('data-personID');
+    // Handle the event and use the personID
+    alert('Clicked on person with ID:', personID);
+    
+    // Additional logic to handle the click (e.g., open a modal, load data, etc.)
+  }
+});
+
+    
+    
     // Initialize the app
     init();
     
