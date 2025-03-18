@@ -2634,8 +2634,9 @@ In Memory of <br/>Caroline Schroeder<br/>died Jan. 21, 1898<br/>aged 31 yrs. 7 m
         skipEmptyLines: true
       });
       
-      records = results.data.map(record => {
+      records = results.data.map((record, index) => {
         try {
+          record.id = index
           record.parents = record.parents ? JSON.parse(record.parents.replace(/'/g, '"').replace(/None/g, 'null')) : [];
           record.spouses = record.spouses ? JSON.parse(record.spouses.replace(/'/g, '"').replace(/None/g, 'null')) : [];
            if(record.gps){
@@ -2761,17 +2762,16 @@ In Memory of <br/>Caroline Schroeder<br/>died Jan. 21, 1898<br/>aged 31 yrs. 7 m
 
 
       //           <td class="px-6 py-4 text-sm text-gray-700">${(record.parents && record.parents.length) ? 'Yes' : 'No'}</td>
-paginatedRecords.forEach((record, index) => {
+paginatedRecords.forEach(record => {
   const row = document.createElement('tr');
   row.innerHTML = `
     <td class="px-6 py-4 text-sm text-gray-700">${record.name || 'N/A'}</td>
     <td class="px-6 py-4 text-sm text-gray-700">${record.birth_date || 'N/A'}</td>
     <td class="px-6 py-4 text-sm text-gray-700">${record.death_date || 'N/A'}</td>
     <td class="px-6 py-4 text-sm text-gray-700">${record.location || 'N/A'}</td>
-    <td class="px-6 py-4 text-sm text-gray-700"><a href="${record.memorial_url}" target="_blank" class="text-green-600 hover:underline">View Details</a></td>
     <td class="py-3 px-4">
       <!-- Modify this to assign the 'id' attribute dynamically -->
-      <a href="#" data-personID="${record.id || index}" class="text-blue-600 hover:text-blue-800 mr-3" id="person-${record.id || index}">View Details</a>
+      <a href="#" data-personID="${record.id}" class="text-blue-600 hover:text-blue-800 mr-3" id="person-${record.id || index}">View Details</a>
       <a href="${record.memorial_url}" target="_blank" class="text-blue-600 hover:text-blue-800">FindAGrave</a>
     </td>
   `;
