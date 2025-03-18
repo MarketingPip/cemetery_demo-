@@ -2854,6 +2854,7 @@ paginatedRecords.forEach(record => {
 document.addEventListener('click', function(event) {
   // Check if the clicked element has the 'data-personID' attribute
   if (event.target && event.target.hasAttribute('data-personID')) {
+    event.preventDefault();
     const personID = event.target.getAttribute('data-personID');
     // Handle the event and use the personID
     alert('Clicked on person with ID:' + personID);
