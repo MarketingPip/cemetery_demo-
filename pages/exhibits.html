@@ -89,23 +89,18 @@
     </div>
 
     <!-- Pagination Controls -->
-    <nav aria-label="Page navigation example" id="pagination">
-      <ul class="inline-flex -space-x-px text-sm">
-        <!-- Previous Button -->
-        <li>
-          <a id="prev" href="#" class="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-gray-100 hover:text-gray-700">Previous</a>
-        </li>
+<div class="flex justify-center space-x-2 items-center" id="pagination">
+  <button id="prev-page" class="px-3 py-1 rounded border border-gray-300 text-gray-700 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed" disabled>Previous</button>
+  <div id="page-numbers" class="flex space-x-2">
+    <!-- Page Numbers will be dynamically injected here -->
+  </div>
+  <button id="next-page" class="px-3 py-1 rounded border border-gray-300 text-gray-700 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed">Next</button>
+</div>
 
-        <!-- Page Numbers will be injected here -->
-        
-        <!-- Next Button -->
-        <li>
-          <a id="next" href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-gray-100 hover:text-gray-700">Next</a>
-        </li>
-      </ul>
-    </nav>
   </div>
 </section>
+
+
 
 
 
@@ -181,20 +176,102 @@ const exhibits = [
 
 
       
- const itemsPerPage = 2;  // Number of exhibits per page
-let currentPage = 1;
+ 
+// Initialize pagination and exhibit grid
+function initPagination({ 
+  records, 
+  recordsPerPage, 
+  currentPage, 
+  updateGridCallback, 
+  paginationContainerId 
+}) {
+  const paginationContainer = document.getElementById(paginationContainerId);
+  const pageNumbers = paginationContainer.querySelector('#page-numbers');
+  const prevPageBtn = paginationContainer.querySelector('#prev-page');
+  const nextPageBtn = paginationContainer.querySelector('#next-page');
 
-// Function to display exhibit cards
-function displayExhibits(page) {
-  const start = (page - 1) * itemsPerPage;
-  const end = start + itemsPerPage;
+  function updatePaginationControls() {
+    const pageCount = Math.ceil(records.length / recordsPerPage);
+    pageNumbers.innerHTML = '';
 
-  const exhibitGrid = document.getElementById("exhibit-grid");
-  exhibitGrid.innerHTML = '';
+    prevPageBtn.disabled = currentPage === 1;
+    nextPageBtn.disabled = currentPage === pageCount || pageCount === 0;
 
-  const exhibitsToDisplay = exhibits.slice(start, end);
+    const pageNumberWindowSize = 5;
+    let startPage = Math.max(1, currentPage - Math.floor(pageNumberWindowSize / 2));
+    let endPage = Math.min(pageCount, startPage + pageNumberWindowSize - 1);
+
+    if (endPage - startPage < pageNumberWindowSize - 1) {
+      startPage = Math.max(1, endPage - pageNumberWindowSize + 1);
+    }
+
+    if (startPage > 1) {
+      const ellipsis = document.createElement('span');
+      ellipsis.textContent = '...';
+      ellipsis.classList.add('px-3', 'py-1', 'text-gray-700');
+      pageNumbers.appendChild(ellipsis);
+    }
+
+    for (let i = startPage; i <= endPage; i++) {
+      const pageBtn = document.createElement('button');
+      pageBtn.textContent = i;
+      pageBtn.classList.add('px-3', 'py-1', 'border', 'rounded', 'text-gray-700', 'hover:bg-gray-50');
+      if (i === currentPage) {
+        pageBtn.classList.add('bg-gray-300');
+      }
+      pageBtn.addEventListener('click', () => {
+        currentPage = i;
+        updateGrid();
+        updatePaginationControls();
+      });
+      pageNumbers.appendChild(pageBtn);
+    }
+
+    if (endPage < pageCount) {
+      const ellipsis = document.createElement('span');
+      ellipsis.textContent = '...';
+      ellipsis.classList.add('px-3', 'py-1', 'text-gray-700');
+      pageNumbers.appendChild(ellipsis);
+    }
+  }
+
+  function updateGrid() {
+    const startIndex = (currentPage - 1) * recordsPerPage;
+    const endIndex = startIndex + recordsPerPage;
+    const recordsToDisplay = records.slice(startIndex, endIndex);
+
+    updateGridCallback(recordsToDisplay);
+  }
+
+  prevPageBtn.addEventListener('click', () => {
+    if (currentPage > 1) {
+      currentPage--;
+      updateGrid();
+      updatePaginationControls();
+    }
+  });
+
+  nextPageBtn.addEventListener('click', () => {
+    const pageCount = Math.ceil(records.length / recordsPerPage);
+    if (currentPage < pageCount) {
+      currentPage++;
+      updateGrid();
+      updatePaginationControls();
+    }
+  });
+
+  updateGrid();
+  updatePaginationControls();
+}
+
+// Callback function to update the exhibit grid
+function updateExhibitGrid(exhibitsToDisplay) {
+  const exhibitGrid = document.getElementById('exhibit-grid');
+  exhibitGrid.innerHTML = '';  // Clear existing exhibits
+
   exhibitsToDisplay.forEach(exhibit => {
-    const card = `
+    const exhibitCard = document.createElement('div');
+    exhibitCard.innerHTML = `
       <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden exhibit-card">
         <img alt="${exhibit.title}" class="w-full h-48 object-cover" src="${exhibit.image}">
         <div class="p-6">
@@ -204,71 +281,18 @@ function displayExhibits(page) {
         </div>
       </div>
     `;
-    exhibitGrid.innerHTML += card;
+    exhibitGrid.appendChild(exhibitCard);
   });
-
-  updatePagination();
 }
 
-// Function to update pagination controls (page numbers and buttons)
-function updatePagination() {
-  const totalPages = Math.ceil(exhibits.length / itemsPerPage);
-  const paginationContainer = document.getElementById('pagination');
-  const prevButton = document.getElementById('prev');
-  const nextButton = document.getElementById('next');
-  
-  const pageNumbersContainer = document.createElement('ul');
-  pageNumbersContainer.classList.add('inline-flex', '-space-x-px', 'text-sm');
-  
-  // Previous Button
-  prevButton.disabled = currentPage === 1;
-  prevButton.onclick = (e) => {
-    e.preventDefault();
-    if (currentPage > 1) {
-      currentPage--;
-      displayExhibits(currentPage);
-    }
-  };
-  
-  // Page Number Buttons
-  for (let i = 1; i <= totalPages; i++) {
-    const pageButton = document.createElement('li');
-    const pageLink = document.createElement('a');
-    pageLink.href = '#';
-    pageLink.textContent = i;
-    pageLink.classList.add('flex', 'items-center', 'justify-center', 'px-3', 'h-8', 'leading-tight', 'text-gray-500', 'bg-white', 'border', 'border-gray-300', 'hover:bg-gray-100', 'hover:text-gray-700');
-    
-    if (i === currentPage) {
-      pageLink.classList.add('text-blue-600', 'border-gray-300', 'bg-blue-50');
-    }
-
-    pageLink.onclick = (e) => {
-      e.preventDefault();
-      currentPage = i;
-      displayExhibits(currentPage);
-    };
-
-    pageButton.appendChild(pageLink);
-    pageNumbersContainer.appendChild(pageButton);
-  }
-  
-  paginationContainer.querySelector('ul').replaceWith(pageNumbersContainer);
-  
-  // Next Button
-  nextButton.disabled = currentPage === totalPages;
-  nextButton.onclick = (e) => {
-    e.preventDefault();
-    if (currentPage < totalPages) {
-      currentPage++;
-      displayExhibits(currentPage);
-    }
-  };
-}
-
-// Initial call to display the first page
-displayExhibits(currentPage);
-
-
+// Initialize the pagination for exhibits
+initPagination({
+  records: exhibits,
+  recordsPerPage: 3,  // Set number of exhibits per page
+  currentPage: 1,     // Initial page
+  updateGridCallback: updateExhibitGrid, // Callback to update exhibit grid
+  paginationContainerId: 'pagination'   // ID of the pagination container
+});
   </script>
 </body>
 </html>
