@@ -89,13 +89,24 @@
     </div>
 
     <!-- Pagination Controls -->
-    <div id="pagination" class="text-center mt-8">
-      <button id="prev" class="px-4 py-2 bg-gray-300 text-gray-800 rounded-lg disabled:opacity-50" disabled>Previous</button>
-      <span id="page-info" class="mx-4">Page 1</span>
-      <button id="next" class="px-4 py-2 bg-gray-300 text-gray-800 rounded-lg">Next</button>
-    </div>
+    <nav aria-label="Page navigation example" id="pagination">
+      <ul class="inline-flex -space-x-px text-sm">
+        <!-- Previous Button -->
+        <li>
+          <a id="prev" href="#" class="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-gray-100 hover:text-gray-700">Previous</a>
+        </li>
+
+        <!-- Page Numbers will be injected here -->
+        
+        <!-- Next Button -->
+        <li>
+          <a id="next" href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-gray-100 hover:text-gray-700">Next</a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </section>
+
 
 
   <!-- Contribute Section -->
@@ -170,7 +181,7 @@ const exhibits = [
 
 
       
- const itemsPerPage = 3;  // Number of exhibits per page
+ const itemsPerPage = 6;  // Number of exhibits per page
 let currentPage = 1;
 
 // Function to display exhibit cards
@@ -178,13 +189,9 @@ function displayExhibits(page) {
   const start = (page - 1) * itemsPerPage;
   const end = start + itemsPerPage;
 
-  // Get the container where exhibits will be injected
   const exhibitGrid = document.getElementById("exhibit-grid");
-
-  // Clear current exhibits
   exhibitGrid.innerHTML = '';
 
-  // Loop through the exhibits for the current page
   const exhibitsToDisplay = exhibits.slice(start, end);
   exhibitsToDisplay.forEach(exhibit => {
     const card = `
@@ -200,32 +207,68 @@ function displayExhibits(page) {
     exhibitGrid.innerHTML += card;
   });
 
-  // Update pagination info
-  document.getElementById("page-info").textContent = `Page ${currentPage}`;
-
-  // Enable/Disable pagination buttons
-  document.getElementById("prev").disabled = currentPage === 1;
-  document.getElementById("next").disabled = currentPage * itemsPerPage >= exhibits.length;
+  updatePagination();
 }
 
-// Event listener for previous button
-document.getElementById("prev").addEventListener("click", () => {
-  if (currentPage > 1) {
-    currentPage--;
-    displayExhibits(currentPage);
-  }
-});
+// Function to update pagination controls (page numbers and buttons)
+function updatePagination() {
+  const totalPages = Math.ceil(exhibits.length / itemsPerPage);
+  const paginationContainer = document.getElementById('pagination');
+  const prevButton = document.getElementById('prev');
+  const nextButton = document.getElementById('next');
+  
+  const pageNumbersContainer = document.createElement('ul');
+  pageNumbersContainer.classList.add('inline-flex', '-space-x-px', 'text-sm');
+  
+  // Previous Button
+  prevButton.disabled = currentPage === 1;
+  prevButton.onclick = (e) => {
+    e.preventDefault();
+    if (currentPage > 1) {
+      currentPage--;
+      displayExhibits(currentPage);
+    }
+  };
+  
+  // Page Number Buttons
+  for (let i = 1; i <= totalPages; i++) {
+    const pageButton = document.createElement('li');
+    const pageLink = document.createElement('a');
+    pageLink.href = '#';
+    pageLink.textContent = i;
+    pageLink.classList.add('flex', 'items-center', 'justify-center', 'px-3', 'h-8', 'leading-tight', 'text-gray-500', 'bg-white', 'border', 'border-gray-300', 'hover:bg-gray-100', 'hover:text-gray-700');
+    
+    if (i === currentPage) {
+      pageLink.classList.add('text-blue-600', 'border-gray-300', 'bg-blue-50');
+    }
 
-// Event listener for next button
-document.getElementById("next").addEventListener("click", () => {
-  if (currentPage * itemsPerPage < exhibits.length) {
-    currentPage++;
-    displayExhibits(currentPage);
+    pageLink.onclick = (e) => {
+      e.preventDefault();
+      currentPage = i;
+      displayExhibits(currentPage);
+    };
+
+    pageButton.appendChild(pageLink);
+    pageNumbersContainer.appendChild(pageButton);
   }
-});
+  
+  paginationContainer.querySelector('ul').replaceWith(pageNumbersContainer);
+  
+  // Next Button
+  nextButton.disabled = currentPage === totalPages;
+  nextButton.onclick = (e) => {
+    e.preventDefault();
+    if (currentPage < totalPages) {
+      currentPage++;
+      displayExhibits(currentPage);
+    }
+  };
+}
 
 // Initial call to display the first page
-displayExhibits(currentPage);     
+displayExhibits(currentPage);
+
+
   </script>
 </body>
 </html>
