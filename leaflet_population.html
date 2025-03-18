@@ -114,7 +114,7 @@
       <a href="#donate" class="hover:text-green-400 transition">Support Us</a>
     </div>
     <div class="md:hidden">
-      <button id="menu-toggle"  data-drawer-target="mobile-menu" data-drawer-toggle="mobile-menu" aria-controls="mobile-menu"  class="focus:outline-none">
+      <button id="menu-toggle" class="focus:outline-none">
         <i class="fas fa-bars"></i>
       </button>
     </div>
@@ -2879,7 +2879,7 @@ const datepicker2 = new Datepicker(document.getElementById("year-to"), {
 });
     
  document.getElementById('menu-toggle').addEventListener('click', () => {
- // document.getElementById('mobile-menu').classList.toggle('translate-x-full');
+  document.getElementById('mobile-menu').classList.toggle('translate-x-full');
 });
 
 // Close menu when clicking any link with #
@@ -3016,7 +3016,7 @@ document.addEventListener("DOMContentLoaded", function () {
           markers.addLayer(marker); // Add marker to cluster
         }
       }
-    });
+    }); 
   });
 
   // Set the initial view of the map
