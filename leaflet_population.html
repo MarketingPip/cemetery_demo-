@@ -2771,7 +2771,7 @@ paginatedRecords.forEach(record => {
     <td class="px-6 py-4 text-sm text-gray-700">${record.location || 'N/A'}</td>
     <td class="py-3 px-4">
       <!-- Modify this to assign the 'id' attribute dynamically -->
-      <a href="#" data-personID="${record.id}" class="text-blue-600 hover:text-blue-800 mr-3" id="person-${record.id || index}">View Details</a>
+      <a href="#" data-personID="${record.id}" class="text-blue-600 hover:text-blue-800 mr-3" id="person-${record.id}">View Details</a>
       <a href="${record.memorial_url}" target="_blank" class="text-blue-600 hover:text-blue-800">FindAGrave</a>
     </td>
   `;
