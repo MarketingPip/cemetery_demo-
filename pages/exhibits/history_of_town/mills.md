@@ -1,5 +1,6 @@
 ![image](https://github.com/user-attachments/assets/0dfb771b-2624-4bfa-b1c6-76d9b934dd54)
 
+Wuerth, Sylvester - Crediton - owned mill in 1938 https://www.collectionscanada.gc.ca/obj/001075/f2/e010780619_p2.pdf
 
 https://www.collectionscanada.gc.ca/obj/001075/f2/e010780621_p8.pdf
 
