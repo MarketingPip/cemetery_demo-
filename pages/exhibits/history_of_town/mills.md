@@ -1,6 +1,6 @@
 ![image](https://github.com/user-attachments/assets/0dfb771b-2624-4bfa-b1c6-76d9b934dd54)
 
-Wuerth, Sylvester - Crediton - owned mill in 1938 https://www.collectionscanada.gc.ca/obj/001075/f2/e010780619_p2.pdf
+Wuerth, Sylvester - Crediton - owned mill in 1938 https://www.collectionscanada.gc.ca/obj/001075/f2/e010780619_p2.pdf   https://publications.gc.ca/collections/collection_2019/statcan/32-D-26/CS32-D-26-1938-eng.pdf feed mills in 1938
 
 https://www.collectionscanada.gc.ca/obj/001075/f2/e010780619_p2.pdf - names of tons of people in crediton 
 
