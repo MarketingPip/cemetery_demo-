@@ -2,6 +2,8 @@
 
 Wuerth, Sylvester - Crediton - owned mill in 1938 https://www.collectionscanada.gc.ca/obj/001075/f2/e010780619_p2.pdf
 
+https://www.collectionscanada.gc.ca/obj/001075/f2/e010780619_p2.pdf - names of tons of people in crediton 
+
 https://www.collectionscanada.gc.ca/obj/001075/f2/e010780621_p8.pdf
 
 ![image](https://github.com/user-attachments/assets/9f622d32-589f-4c3a-b5d5-17a336bf970f)
