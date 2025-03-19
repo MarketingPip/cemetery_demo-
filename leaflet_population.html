@@ -3078,20 +3078,7 @@ function fadeOutAndHide(elementId) {
     
     if (element) {
         // Apply Tailwind fade-out transition classes
-        element.classList.add('transition-opacity', 'duration-500', 'opacity-100');
-
-        // Trigger the fade-out by changing the opacity to 0
-        element.classList.replace('opacity-100', 'opacity-0');
-
-        // Wait for the transition to finish, then delay an extra 0.5 seconds
-        element.addEventListener('transitionend', function onTransitionEnd() {
-            setTimeout(() => {
-                element.style.display = 'none';  // Hide the element after 0.5s
-            }, 500); 
-
-            // Remove the event listener to prevent memory leaks
-            element.removeEventListener('transitionend', onTransitionEnd);
-        });
+        element.classList.add('opacity-0', 'transition-opacity', 'duration-500');
     }
 }
 
