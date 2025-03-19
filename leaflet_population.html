@@ -3077,8 +3077,13 @@ function fadeOutAndHide(elementId) {
     const element = document.getElementById(elementId);
     
     if (element) {
-        // Apply Tailwind fade-out transition classes
+        // Apply Tailwind fade-out classes
         element.classList.add('opacity-0', 'transition-opacity', 'duration-500');
+
+        // Wait for the fade-out transition + 0.5s before hiding the element
+        setTimeout(() => {
+            element.classList.add('hidden');  // Hide the element
+        }, 500);  // Wait for 0.5s
     }
 }
 
@@ -3120,12 +3125,15 @@ backToTopBtn.addEventListener("click", () => {
 
     
   <!-- Back to Top Button -->
-  <button 
+<button 
     id="backToTopBtn" 
-    class="fixed bottom-8 right-8 hidden bg-blue-600 text-white p-4 rounded-full shadow-lg transition-opacity duration-300 hover:bg-blue-700"
+    class="fixed bottom-8 right-8 hidden bg-blue-600 text-white w-14 h-14 rounded-full shadow-xl transition-all duration-300 hover:bg-blue-700 hover:scale-110 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-blue-300"
     aria-label="Back to top">
-    ↑
-  </button>
+    <svg class="w-6 h-6 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+    </svg>
+</button>
+
   
 </body>
 
