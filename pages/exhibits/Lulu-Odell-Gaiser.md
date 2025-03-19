@@ -48,3 +48,5 @@ https://pubdocs.huroncounty.ca/WebLink/DocView.aspx?id=1291615&dbid=0&repo=CoH
 https://onlinelibrary.wiley.com/doi/pdf/10.12705/675.28
 
 https://www.linkedin.com/posts/mcmaster-faculty-of-science_internationalwomensday-activity-7303836244478763008-O6Nt
+
+https://www.rbg.ca/dr-lulu-odell-gaisers-impact-on-botany-and-beyond-at-rbg/
