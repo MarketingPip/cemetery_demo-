@@ -70,7 +70,14 @@
     }
 
 
-    html { scroll-behavior: smooth; } /* smoothen scrolling */
+  /* Smooth scrolling for all browsers */
+html {
+  scroll-behavior: smooth;          /* Standard */
+  -webkit-overflow-scrolling: touch; /* iOS Safari */
+  -ms-scroll-behavior: smooth;       /* Internet Explorer */
+  -moz-scroll-behavior: smooth;      /* Firefox */
+  -webkit-scroll-behavior: smooth;   /* Older WebKit browsers */
+}
 
 
    #preload {
@@ -81,7 +88,7 @@
     right: 0;
     width: 100%;
     height: 100vh;
-    background-color: var(--color-dark);
+    background-color: #1f2937;
     z-index: 100000;
     display: -webkit-box;
     display: -ms-flexbox;
