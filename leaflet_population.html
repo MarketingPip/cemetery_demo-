@@ -2947,13 +2947,16 @@ document.addEventListener("DOMContentLoaded", function () {
     className: 'popupCustom'
   };
 
-  // Example marker (replace with actual cemetery coordinates)
-  L.marker([43.29868, -81.55274], {
+
+    L.marker([43.29868, -81.55274], {
   icon: L.divIcon({
-      html: "Null Island",
+      html: "Crediton Cemetery",
       className: 'text-below-marker',
     })
 }).addTo(map)
+  
+  // Example marker (replace with actual cemetery coordinates)
+  L.marker([43.29868, -81.55274]).addTo(map)
     .bindPopup(`
       <div class="grid grid-cols-5 gap-4">
         <div class="col-span-3 p-3">
