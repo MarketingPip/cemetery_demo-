@@ -3053,6 +3053,59 @@ document.addEventListener("DOMContentLoaded", function () {
   // Set the initial view of the map
   map.setView([43.29868, -81.55274], 13);
 
+
+
+  // GeoJSON data for bounding box of Credtion
+const geojsonData ={
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Crediton Cemetery",
+        "location": "Crediton, Ontario, Canada",
+        "type": "Cemetery",
+        "established": "circa 1860",
+        "description": "A historic cemetery serving the Crediton community",
+        "address": "Near County Road 12, Crediton, ON",
+        "status": "Active",
+        "contact": {
+          "organization": "Crediton Cemetery Board",
+          "phone": "519-555-1234",
+          "email": "creditoncemetery@example.com"
+        },
+        "visiting_hours": "Dawn to Dusk"
+      },
+      "geometry": {
+        "coordinates": [
+          [-81.55479986184099, 43.300126225136836],
+          [-81.55203518800734, 43.30037642774607],
+          [-81.55177018041198, 43.2992452952557],
+          [-81.55213546115156, 43.29920880676022],
+          [-81.55207099984473, 43.29867190208515],
+          [-81.55344617439398, 43.2985467974018],
+          [-81.55354644753824, 43.298880409318144],
+          [-81.55358942174281, 43.29919316882703],
+          [-81.5545778284502, 43.29912540440358],
+          [-81.55479986184099, 43.30012101257117]
+        ],
+        "type": "LineString"
+      }
+    }
+  ]
+}
+
+// Add the GeoJSON to map
+L.geoJSON(geojsonData, {
+    style: function(feature) {
+        return {
+            color: "#ff0000",    // Line color
+            weight: 3,          // Line thickness
+            opacity: 0.8        // Line opacity
+        };
+    }
+}).addTo(map);
+
   // Event listeners for zoom buttons
   document.getElementById("zoom-in").addEventListener("click", () => map.zoomIn());
   document.getElementById("zoom-out").addEventListener("click", () => map.zoomOut());
