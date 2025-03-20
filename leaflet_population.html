@@ -2948,7 +2948,12 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   // Example marker (replace with actual cemetery coordinates)
-  L.marker([43.29868, -81.55274]).addTo(map)
+  L.marker([43.29868, -81.55274], {
+  icon: L.divIcon({
+      html: "Null Island",
+      className: 'text-below-marker',
+    })
+}).addTo(map)
     .bindPopup(`
       <div class="grid grid-cols-5 gap-4">
         <div class="col-span-3 p-3">
