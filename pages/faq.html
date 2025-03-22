@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>FAQ | Crediton Cemetery Heritage Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40vh;
+    }
+    .accordion-item {
+      border-bottom: 1px solid #e5e7eb; /* Tailwind's gray-200 */
+    }
+    .accordion-button {
+      width: 100%;
+      text-align: left;
+      padding: 1rem;
+      background: none;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 600;
+    }
+    .accordion-content {
+      display: none;
+      padding: 0 1rem 1rem 1rem;
+    }
+    .accordion-item.active .accordion-content {
+      display: block;
+    }
+    .accordion-button:hover {
+      background-color: #f3f4f6; /* Tailwind's gray-100 */
+    }
+  </style>
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
+    <div class="px-4 py-3 container mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+          <i class="fas fa-tree text-green-400"></i>
+          <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <a class="transition hover:text-green-400" href="#home">Home</a>
+          <a class="transition hover:text-green-400" href="#map">Interactive Map</a>
+          <a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a>
+          <a class="transition hover:text-green-400" href="#search">Search Records</a>
+          <a class="transition hover:text-green-400" href="#timeline">Historical Timeline</a>
+          <a class="transition hover:text-green-400" href="#donate">Support Us</a>
+        </div>
+        <div class="md:hidden">
+          <button class="focus:outline-none" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden md:hidden" id="mobile-menu">
+      <div class="px-4 container mx-auto flex flex-col py-2 space-y-3">
+        <a class="transition hover:text-green-400 block" href="#home">Home</a>
+        <a class="transition hover:text-green-400 block" href="#map">Interactive Map</a>
+        <a class="transition hover:text-green-400 block" href="#exhibits">Virtual Exhibits</a>
+        <a class="transition hover:text-green-400 block" href="#search">Search Records</a>
+        <a class="transition hover:text-green-400 block" href="#timeline">Historical Timeline</a>
+        <a class="transition hover:text-green-400 block" href="#donate">Support Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex items-center justify-center hero-image text-center text-white" id="faq-hero">
+    <div class="px-4 container mx-auto">
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl">Frequently Asked Questions</h1>
+      <p class="mb-8 md:text-2xl text-xl">Find answers to common questions about Crediton Cemetery and our portal.</p>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="bg-white py-12" id="faq-content">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Your Questions, Answered</h2>
+      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Browse below for information on records, volunteering, donating, and more. Still have questions? <a href="#contact" class="text-green-600 hover:underline">Contact us</a>.</p>
+      
+      <div class="max-w-4xl mx-auto space-y-2">
+        <!-- FAQ 1 -->
+        <div class="accordion-item">
+          <button class="accordion-button text-gray-800">
+            How do I find a specific grave or record?
+            <i class="fas fa-chevron-down text-green-600"></i>
+          </button>
+          <div class="accordion-content text-gray-600">
+            Use our <a href="#search" class="text-green-600 hover:underline">Search Records</a> page to look up names, dates, or keywords. You can also explore the <a href="#map" class="text-green-600 hover:underline">Interactive Map</a> for a visual guide to the cemetery layout. If you need assistance, feel free to <a href="#contact" class="text-green-600 hover:underline">reach out</a>.
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="accordion-item">
+          <button class="accordion-button text-gray-800">
+            Can I contribute family records or stories?
+            <i class="fas fa-chevron-down text-green-600"></i>
+          </button>
+          <div class="accordion-content text-gray-600">
+            Yes! We welcome contributions to enrich our archives. You can submit stories or records via our <a href="#contact" class="text-green-600 hover:underline">Contact Us</a> page or join as a volunteer to help with research and data entry—learn more on our <a href="#volunteer" class="text-green-600 hover:underline">Volunteer</a> page.
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="accordion-item">
+          <button class="accordion-button text-gray-800">
+            Are donations tax-deductible?
+            <i class="fas fa-chevron-down text-green-600"></i>
+          </button>
+          <div class="accordion-content text-gray-600">
+            Yes, donations to the Crediton Cemetery Heritage Fund are tax-deductible in Canada. After donating via e-transfer, PayPal, or mail (see our <a href="#donate" class="text-green-600 hover:underline">Donate</a> page), you’ll receive a tax receipt by email or mail, depending on your method.
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="accordion-item">
+          <button class="accordion-button text-gray-800">
+            How can I volunteer with the portal?
+            <i class="fas fa-chevron-down text-green-600"></i>
+          </button>
+          <div class="accordion-content text-gray-600">
+            We’d love your help! Opportunities include research, photography, data entry, and event support. Visit our <a href="#volunteer" class="text-green-600 hover:underline">Volunteer</a> page for details and to get in touch with our coordinator.
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="accordion-item">
+          <button class="accordion-button text-gray-800">
+            Can I visit Crediton Cemetery in person?
+            <i class="fas fa-chevron-down text-green-600"></i>
+          </button>
+          <div class="accordion-content text-gray-600">
+            Absolutely! The cemetery is open to the public daily from dawn to dusk. For directions or more info, <a href="#contact" class="text-green-600 hover:underline">contact us</a>. Check our <a href="#events" class="text-green-600 hover:underline">Events</a> page for guided tours or special visits.
+          </div>
+        </div>
+
+        <!-- FAQ 6 -->
+        <div class="accordion-item">
+          <button class="accordion-button text-gray-800">
+            What if I spot an error in a record or exhibit?
+            <i class="fas fa-chevron-down text-green-600"></i>
+          </button>
+          <div class="accordion-content text-gray-600">
+            We strive for accuracy but appreciate your vigilance. Please report any errors via our <a href="#contact" class="text-green-600 hover:underline">Contact Us</a> page, and our team will review and update as needed.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="bg-gray-100 py-12">
+    <div class="px-4 container mx-auto text-center">
+      <h2 class="font-bold text-3xl text-gray-800 mb-6">Still Have Questions?</h2>
+      <p class="text-gray-600 mx-auto max-w-3xl mb-8">If you didn’t find the answer you’re looking for, don’t hesitate to reach out to our team.</p>
+      <a href="#contact" class="font-bold text-white transition bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="px-4 container mx-auto text-center">
+      <p>© 2025 Crediton Cemetery Heritage Portal. All rights reserved.</p>
+      <div class="flex justify-center mt-4 space-x-6">
+        <a class="hover:text-white text-gray-400" href="#">Privacy Policy</a>
+        <a class="hover:text-white text-gray-400" href="#">Terms of Service</a>
+        <a class="hover:text-white text-gray-400" href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    // Accordion Toggle
+    document.querySelectorAll('.accordion-button').forEach(button => {
+      button.addEventListener('click', () => {
+        const item = button.parentElement;
+        const isActive = item.classList.contains('active');
+        
+        // Close all other items
+        document.querySelectorAll('.accordion-item').forEach(el => el.classList.remove('active'));
+        
+        // Toggle current item
+        if (!isActive) {
+          item.classList.add('active');
+        }
+      });
+    });
+
+    // Mobile Menu Toggle
+    document.getElementById('menu-toggle').addEventListener('click', () => {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
