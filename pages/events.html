@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Events | Crediton Cemetery Heritage Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40vh;
+    }
+    .event-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    }
+  </style>
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
+    <div class="px-4 py-3 container mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+          <i class="fas fa-tree text-green-400"></i>
+          <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <a class="transition hover:text-green-400" href="#home">Home</a>
+          <a class="transition hover:text-green-400" href="#map">Interactive Map</a>
+          <a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a>
+          <a class="transition hover:text-green-400" href="#search">Search Records</a>
+          <a class="transition hover:text-green-400" href="#timeline">Historical Timeline</a>
+          <a class="transition hover:text-green-400" href="#donate">Support Us</a>
+        </div>
+        <div class="md:hidden">
+          <button class="focus:outline-none" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden md:hidden" id="mobile-menu">
+      <div class="px-4 container mx-auto flex flex-col py-2 space-y-3">
+        <a class="transition hover:text-green-400 block" href="#home">Home</a>
+        <a class="transition hover:text-green-400 block" href="#map">Interactive Map</a>
+        <a class="transition hover:text-green-400 block" href="#exhibits">Virtual Exhibits</a>
+        <a class="transition hover:text-green-400 block" href="#search">Search Records</a>
+        <a class="transition hover:text-green-400 block" href="#timeline">Historical Timeline</a>
+        <a class="transition hover:text-green-400 block" href="#donate">Support Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex items-center justify-center hero-image text-center text-white" id="events-hero">
+    <div class="px-4 container mx-auto">
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl">Events</h1>
+      <p class="mb-8 md:text-2xl text-xl">Join us to celebrate and preserve Crediton Cemetery’s heritage.</p>
+    </div>
+  </section>
+
+  <!-- Events Intro Section -->
+  <section class="bg-white py-12" id="events-intro">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Upcoming & Past Events</h2>
+      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Discover opportunities to engage with Crediton Cemetery through tours, clean-up days, and special events. Want to suggest an event or volunteer? <a href="#contact" class="text-green-600 hover:underline">Contact us</a>.</p>
+    </div>
+  </section>
+
+  <!-- Upcoming Events Section -->
+  <section class="bg-gray-100 py-12" id="upcoming-events">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Upcoming Events</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto" id="upcoming-events-list">
+        <!-- Dynamically populated by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Past Events Section -->
+  <section class="bg-white py-12" id="past-events">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Past Events</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto" id="past-events-list">
+        <!-- Dynamically populated by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Get Involved Section -->
+  <section class="bg-gray-100 py-12">
+    <div class="px-4 container mx-auto text-center">
+      <h2 class="font-bold text-3xl text-gray-800 mb-6">Get Involved</h2>
+      <p class="text-gray-600 mx-auto max-w-3xl mb-8">Help make our events a success by volunteering or donating.</p>
+      <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 justify-center">
+        <a href="#volunteer" class="font-bold text-white transition bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg">Volunteer</a>
+        <a href="#donate" class="font-bold text-white transition bg-gray-700 hover:bg-gray-800 px-6 py-3 rounded-lg">Donate</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="px-4 container mx-auto text-center">
+      <p>© 2025 Crediton Cemetery Heritage Portal. All rights reserved.</p>
+      <div class="flex justify-center mt-4 space-x-6">
+        <a class="hover:text-white text-gray-400" href="#">Privacy Policy</a>
+        <a class="hover:text-white text-gray-400" href="#">Terms of Service</a>
+        <a class="hover:text-white text-gray-400" href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript for Dynamic Events -->
+  <script>
+  // JSON data for events (single object with all events)
+const eventsData = [
+  { "title": "Spring Cemetery Clean-Up", "date": "2023-04-26", "time": "9:00 AM - 12:00 PM", "location": "Crediton Cemetery", "description": "Join us to tidy up the grounds and prepare for spring. Bring gloves and small tools.", "image": "/api/placeholder/400/300", "link": "#event-spring-cleanup" },
+  { "title": "Heritage Walking Tour", "date": "2025-05-17", "time": "2:00 PM - 4:00 PM", "location": "Crediton Cemetery", "description": "Explore notable graves and hear stories from our historian guides.", "image": "/api/placeholder/400/300", "link": "#event-walking-tour" },
+  { "title": "Veterans’ Memorial Dedication", "date": "2024-11-11", "time": "11:00 AM - 12:00 PM", "location": "Crediton Cemetery", "description": "A ceremony to unveil a new plaque honoring local veterans.", "image": "/api/placeholder/400/300", "link": "#event-veterans-memorial" },
+  { "title": "Fall Photography Workshop", "date": "2024-10-05", "time": "1:00 PM - 3:00 PM", "location": "Crediton Cemetery", "description": "Learn to capture the beauty of the cemetery’s monuments.", "image": "/api/placeholder/400/300", "link": "#event-photography-workshop" }
+];
+
+// Function to check if the event date is past the current date
+function isEventPast(eventDate) {
+  const currentDate = new Date().toISOString().split('T')[0]; // Get current date in YYYY-MM-DD format
+  return eventDate < currentDate;
+}
+
+// Function to format the date into a human-readable format (e.g., "April 26, 2025")
+function formatDate(dateString) {
+  const date = new Date(dateString);
+  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+}
+
+// Function to generate event cards
+function generateEvents(containerId, events) {
+  const container = document.getElementById(containerId);
+  container.innerHTML = ''; // Clear existing content
+
+  if (events.length === 0) {
+    const noEvents = document.createElement('p');
+    noEvents.className = 'text-gray-600 text-center col-span-full';
+    noEvents.textContent = containerId === 'upcoming-events-list' 
+      ? 'No upcoming events scheduled. Check back soon!' 
+      : 'No past events recorded yet.';
+    container.appendChild(noEvents);
+    return;
+  }
+
+  events.forEach(event => {
+    const card = document.createElement('div');
+    card.className = 'transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden event-card';
+
+    const image = document.createElement('img');
+    image.src = event.image;
+    image.alt = event.title;
+    image.className = 'w-full h-48 object-cover';
+
+    const content = document.createElement('div');
+    content.className = 'p-6';
+
+    const title = document.createElement('h3');
+    title.className = 'font-bold text-xl text-gray-800 mb-2';
+    title.textContent = event.title;
+
+    const dateTime = document.createElement('p');
+    dateTime.className = 'text-gray-600 text-sm mb-2';
+    dateTime.innerHTML = `<strong>Date:</strong> ${formatDate(event.date)} <br> <strong>Time:</strong> ${event.time}`;
+
+    const location = document.createElement('p');
+    location.className = 'text-gray-600 text-sm mb-2';
+    location.innerHTML = `<strong>Location:</strong> ${event.location}`;
+
+    const description = document.createElement('p');
+    description.className = 'text-gray-600 mb-4';
+    description.textContent = event.description;
+
+    const link = document.createElement('a');
+    link.href = event.link;
+    link.className = 'font-bold text-green-600 hover:text-green-700 transition';
+    link.textContent = 'Learn More';
+
+    content.appendChild(title);
+    content.appendChild(dateTime);
+    content.appendChild(location);
+    content.appendChild(description);
+   // content.appendChild(link);
+   // card.appendChild(image);
+    card.appendChild(content);
+    container.appendChild(card);
+  });
+}
+
+// Populate events on page load
+document.addEventListener('DOMContentLoaded', () => {
+  // Separate events into upcoming and past based on current date
+  const upcomingEvents = eventsData.filter(event => !isEventPast(event.date)); // Only upcoming events
+  const pastEvents = eventsData.filter(event => isEventPast(event.date)); // Only past events
+
+  // Generate event cards for filtered events
+  generateEvents('upcoming-events-list', upcomingEvents);
+  generateEvents('past-events-list', pastEvents);
+});
+
+
+    // Mobile Menu Toggle
+    document.getElementById('menu-toggle').addEventListener('click', () => {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
