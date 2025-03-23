@@ -18,6 +18,20 @@
       transform: translateY(-5px);
       box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
     }
+
+    a[href$=".pdf"]:after {
+    content: "PDF";
+    background: #e83333;
+    border-radius: 0.0625rem;
+    color: #fff;
+    margin-left: 0.5rem;
+    display: inline-block;
+    padding: 0 0.5rem;
+    font: 400 1rem Open Sans,Helvetica,Arial,sans-serif;
+    height: 1.4rem;
+    line-height: 1.5rem;
+    vertical-align: baseline;
+}
   </style>
 </head>
 <body class="bg-gray-100 font-sans">
@@ -94,7 +108,7 @@
             <h3 class="font-bold text-xl text-gray-800">Genealogy Research Guide</h3>
           </div>
           <p class="text-gray-600 mb-4">Tips and templates for tracing family history using cemetery records.</p>
-          <a href="#download-genealogy" class="font-bold text-green-600 hover:text-green-700 transition">Download PDF</a>
+          <a href="#download-genealogy.pdf" class="font-bold text-green-600 hover:text-green-700 transition">Download PDF</a>
         </div>
 
         <!-- Resource 3 -->
