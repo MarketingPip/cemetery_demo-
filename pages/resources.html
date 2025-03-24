@@ -91,35 +91,7 @@
     <div class="px-4 container mx-auto">
       <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Downloadable Resources</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
-        <!-- Resource 1 -->
-        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md resource-card p-6">
-          <div class="flex items-center mb-4">
-            <i class="fas fa-file-pdf text-green-600 text-2xl mr-4"></i>
-            <h3 class="font-bold text-xl text-gray-800">Crediton Cemetery History Booklet</h3>
-          </div>
-          <p class="text-gray-600 mb-4">A concise guide to the cemetery’s history, from its founding in the 1830s to today.</p>
-          <a href="#download-history" class="font-bold text-green-600 hover:text-green-700 transition">Download PDF</a>
-        </div>
-
-        <!-- Resource 2 -->
-        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md resource-card p-6">
-          <div class="flex items-center mb-4">
-            <i class="fas fa-file-pdf text-green-600 text-2xl mr-4"></i>
-            <h3 class="font-bold text-xl text-gray-800">Genealogy Research Guide</h3>
-          </div>
-          <p class="text-gray-600 mb-4">Tips and templates for tracing family history using cemetery records.</p>
-          <a href="#download-genealogy.pdf" class="font-bold text-green-600 hover:text-green-700 transition">Download PDF</a>
-        </div>
-
-        <!-- Resource 3 -->
-        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md resource-card p-6">
-          <div class="flex items-center mb-4">
-            <i class="fas fa-file-pdf text-green-600 text-2xl mr-4"></i>
-            <h3 class="font-bold text-xl text-gray-800">Monument Symbolism Cheat Sheet</h3>
-          </div>
-          <p class="text-gray-600 mb-4">Decode the meanings behind common cemetery symbols and designs.</p>
-          <a href="#download-symbols" class="font-bold text-green-600 hover:text-green-700 transition">Download PDF</a>
-        </div>
+       <!---- Populated Dynamically ---> 
       </div>
     </div>
   </section>
@@ -129,25 +101,7 @@
     <div class="px-4 container mx-auto">
       <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">External Resources</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-        <!-- Link 1 -->
-        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md resource-card p-6">
-          <div class="flex items-center mb-4">
-            <i class="fas fa-link text-green-600 text-2xl mr-4"></i>
-            <h3 class="font-bold text-xl text-gray-800">Ontario Genealogical Society</h3>
-          </div>
-          <p class="text-gray-600 mb-4">Resources and support for tracing family histories in Ontario.</p>
-          <a href="https://ogs.on.ca" target="_blank" rel="noopener noreferrer" class="font-bold text-green-600 hover:text-green-700 transition">Visit Site</a>
-        </div>
-
-        <!-- Link 2 -->
-        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md resource-card p-6">
-          <div class="flex items-center mb-4">
-            <i class="fas fa-link text-green-600 text-2xl mr-4"></i>
-            <h3 class="font-bold text-xl text-gray-800">Library and Archives Canada</h3>
-          </div>
-          <p class="text-gray-600 mb-4">Access historical records, census data, and more for research.</p>
-          <a href="https://www.bac-lac.gc.ca" target="_blank" rel="noopener noreferrer" class="font-bold text-green-600 hover:text-green-700 transition">Visit Site</a>
-        </div>
+      <!---- Populated Dynamically ---> 
       </div>
     </div>
   </section>
@@ -181,6 +135,98 @@
 
     </div>
   </footer>
+
+
+  <script>
+// Define the JSON data
+const data = {
+  "downloadableResources": [
+    {
+      "title": "Crediton Cemetery History Booklet",
+      "description": "A concise guide to the cemetery’s history, from its founding in the 1830s to today.",
+      "link": "#download-history",
+      "icon": "fas fa-file-pdf",
+      "color": "text-green-600"
+    },
+    {
+      "title": "Genealogy Research Guide",
+      "description": "Tips and templates for tracing family history using cemetery records.",
+      "link": "#download-genealogy.pdf",
+      "icon": "fas fa-file-pdf",
+      "color": "text-green-600"
+    },
+    {
+      "title": "Monument Symbolism Cheat Sheet",
+      "description": "Decode the meanings behind common cemetery symbols and designs.",
+      "link": "#download-symbols",
+      "icon": "fas fa-file-pdf",
+      "color": "text-green-600"
+    }
+  ],
+  "externalResources": [
+    {
+      "title": "Ontario Genealogical Society",
+      "description": "Resources and support for tracing family histories in Ontario.",
+      "link": "https://ogs.on.ca",
+      "icon": "fas fa-link",
+      "color": "text-green-600"
+    },
+    {
+      "title": "Library and Archives Canada",
+      "description": "Access historical records, census data, and more for research.",
+      "link": "https://www.bac-lac.gc.ca",
+      "icon": "fas fa-link",
+      "color": "text-green-600"
+    }
+  ]
+};
+
+// Function to populate the Downloadable Resources
+function populateDownloadableResources() {
+  const resourcesContainer = document.getElementById('downloadable-resources').querySelector('.grid');
+  data.downloadableResources.forEach(resource => {
+    const resourceCard = document.createElement('div');
+    resourceCard.classList.add('transition', 'bg-white', 'hover:shadow-lg', 'rounded-lg', 'shadow-md', 'resource-card', 'p-6');
+    
+    resourceCard.innerHTML = `
+      <div class="flex items-center mb-4">
+        <i class="${resource.icon} ${resource.color} text-2xl mr-4"></i>
+        <h3 class="font-bold text-xl text-gray-800">${resource.title}</h3>
+      </div>
+      <p class="text-gray-600 mb-4">${resource.description}</p>
+      <a href="${resource.link}" class="font-bold text-green-600 hover:text-green-700 transition">Download PDF</a>
+    `;
+    
+    resourcesContainer.appendChild(resourceCard);
+  });
+}
+
+// Function to populate the External Resources
+function populateExternalResources() {
+  const externalLinksContainer = document.getElementById('external-links').querySelector('.grid');
+  data.externalResources.forEach(link => {
+    const linkCard = document.createElement('div');
+    linkCard.classList.add('transition', 'bg-white', 'hover:shadow-lg', 'rounded-lg', 'shadow-md', 'resource-card', 'p-6');
+    
+    linkCard.innerHTML = `
+      <div class="flex items-center mb-4">
+        <i class="${link.icon} ${link.color} text-2xl mr-4"></i>
+        <h3 class="font-bold text-xl text-gray-800">${link.title}</h3>
+      </div>
+      <p class="text-gray-600 mb-4">${link.description}</p>
+      <a href="${link.link}" target="_blank" rel="noopener noreferrer" class="font-bold text-green-600 hover:text-green-700 transition">Visit Site</a>
+    `;
+    
+    externalLinksContainer.appendChild(linkCard);
+  });
+}
+
+// Call the functions to populate the content
+document.addEventListener('DOMContentLoaded', () => {
+  populateDownloadableResources();
+  populateExternalResources();
+});
+</script>
 
   <!-- Mobile Menu Toggle Script -->
   <script>
