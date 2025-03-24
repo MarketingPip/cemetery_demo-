@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Tribute | Crediton Cemetery Heritage Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40vh;
+    }
+    .tab-btn.active {
+      border-bottom: 2px solid #10b981; /* Tailwind green-500 */
+      color: #10b981;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
+    <div class="px-4 py-3 container mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+          <i class="fas fa-tree text-green-400"></i>
+          <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <a class="transition hover:text-green-400" href="#home">Home</a>
+          <a class="transition hover:text-green-400" href="#map">Interactive Map</a>
+          <a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a>
+          <a class="transition hover:text-green-400" href="#search">Search Records</a>
+          <a class="transition hover:text-green-400" href="#timeline">Historical Timeline</a>
+          <a class="transition hover:text-green-400" href="#donate">Support Us</a>
+        </div>
+        <div class="md:hidden">
+          <button class="focus:outline-none" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden md:hidden" id="mobile-menu">
+      <div class="px-4 container mx-auto flex flex-col py-2 space-y-3">
+        <a class="transition hover:text-green-400 block" href="#home">Home</a>
+        <a class="transition hover:text-green-400 block" href="#map">Interactive Map</a>
+        <a class="transition hover:text-green-400 block" href="#exhibits">Virtual Exhibits</a>
+        <a class="transition hover:text-green-400 block" href="#search">Search Records</a>
+        <a class="transition hover:text-green-400 block" href="#timeline">Historical Timeline</a>
+        <a class="transition hover:text-green-400 block" href="#donate">Support Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex items-center justify-center hero-image text-center text-white" id="tribute-hero">
+    <div class="px-4 container mx-auto">
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl" id="tribute-name">Tribute</h1>
+      <p class="mb-8 md:text-2xl text-xl" id="tribute-dates">Dates</p>
+    </div>
+  </section>
+
+  <!-- Tribute Details Section -->
+<section class="bg-gray-100 min-h-screen w-full" id="tribute-details">
+  <div class="w-full">
+    <div class="bg-white rounded-lg shadow-lg w-full overflow-hidden flex flex-col">
+        <!-- Header -->
+        <div class="flex justify-between items-center p-4 border-b bg-gray-100 sticky top-0">
+          <h3 class="text-lg sm:text-xl font-semibold text-gray-900" id="tribute-header-name">Tribute Name</h3>    
+        </div>
+
+        <!-- Content -->
+        <div class="p-4 sm:p-6 space-y-4 overflow-y-auto flex-grow">
+          <!-- Person Info with Share & Print Buttons -->
+          <div class="flex flex-col sm:flex-row items-center">
+            <img id="tribute-image" alt="Tribute Photo" class="w-32 h-32 sm:w-40 sm:h-40 rounded-md mb-4 sm:mb-0 sm:mr-4 object-cover" src="/api/placeholder/400/300">
+            <div class="flex flex-col space-y-2 w-full">
+              <p><strong>Birth Date:</strong> <span id="tribute-birth">N/A</span></p>
+              <p><strong>Death Date:</strong> <span id="tribute-death">N/A</span></p>
+              <p><strong>Cemetery:</strong> <span id="tribute-cemetery">Crediton Cemetery</span></p>
+              <p><strong>Location:</strong> <span id="tribute-location">Crediton</span></p>
+              <!-- Share & Print Buttons -->
+              <div class="flex flex-wrap items-center gap-3 mt-3">
+                <a id="facebook-share" href="#" target="_blank" class="inline-flex items-center text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm p-2.5">
+                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12.07C22 6.53 17.52 2 12 2S2 6.53 2 12.07c0 5.02 3.66 9.18 8.44 9.93v-7.02h-2.5V12h2.5V9.79c0-2.46 1.5-3.81 3.71-3.81 1.06 0 2.19.19 2.19.19v2.4h-1.23c-1.21 0-1.58.75-1.58 1.52V12h2.68l-.43 2.98h-2.25v7.02c4.78-.75 8.44-4.91 8.44-9.93z"></path></svg>
+                  <span class="sr-only">Share on Facebook</span>
+                </a>
+                <a id="twitter-share" href="#" target="_blank" class="inline-flex items-center text-white bg-sky-500 hover:bg-sky-600 font-medium rounded-lg text-sm p-2.5">
+                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.95 4.57c-.89.39-1.84.65-2.83.77a4.92 4.92 0 0 0 2.17-2.71 9.69 9.69 0 0 1-3.09 1.18 4.88 4.88 0 0 0-8.3 4.45 13.84 13.84 0 0 1-10.06-5.1 4.82 4.82 0 0 0 1.5 6.49c-.82-.03-1.59-.25-2.26-.62v.06c0 2.28 1.6 4.18 3.72 4.61a4.9 4.9 0 0 1-2.19.08 4.88 4.88 0 0 0 4.57 3.4 9.83 9.83 0 0 1-7.26 2.03 13.85 13.85 0 0 1-7.49-2.18A19.6 19.6 0 0 0 8.92 22C19.07 22 24 14.9 24 8.68c0-.3-.01-.6-.02-.89A10.44 10.44 0 0 0 24 4.59z"></path></svg>
+                  <span class="sr-only">Share on Twitter</span>
+                </a>
+                <a id="linkedin-share" href="#" target="_blank" class="inline-flex items-center text-white bg-blue-600 hover:bg-blue-700 font-medium rounded-lg text-sm p-2.5">
+                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19.96 3.03H4.04C2.9 3.03 2 3.93 2 5.07v13.86c0 1.14.9 2.04 2.04 2.04h15.92c1.14 0 2.04-.9 2.04-2.04V5.07c0-1.14-.9-2.04-2.04-2.04zM7.27 18.44H4.89v-9.18h2.38v9.18zM6.08 8.37c-.77 0-1.39-.63-1.39-1.39 0-.77.62-1.39 1.39-1.39.76 0 1.39.62 1.39 1.39 0 .76-.63 1.39-1.39 1.39zm11.14 10.07h-2.38v-4.6c0-1.1-.4-1.85-1.38-1.85-.75 0-1.19.51-1.39 1.01-.07.18-.09.43-.09.69v4.75h-2.38s.03-7.71 0-8.51h2.38v1.21c.31-.48.87-1.16 2.12-1.16 1.55 0 2.72 1.01 2.72 3.17v5.29z"></path></svg>
+                  <span class="sr-only">Share on LinkedIn</span>
+                </a>
+                <button onclick="window.print()" class="inline-flex items-center text-white bg-green-600 hover:bg-green-700 font-medium rounded-lg text-sm p-2.5">
+                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6 6V3h12v3h2v4H4V6h2zm2 0h8V5H8v1zm-4 6h16v10H4V12zm2 2v6h12v-6H6zm3 1h2v4H9v-4zm4 0h2v4h-2v-4z"></path></svg>
+                  <span class="sr-only">Print</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bio -->
+          <div class="bg-gray-100 p-3 rounded text-sm" id="tribute-bio"><strong>Bio:</strong> N/A</div>
+
+          <!-- Grandchildren -->
+          <div id="tribute-grandchildren">
+            <h3 class="text-lg font-semibold">Grandchildren</h3>
+            <ul class="list-disc pl-5 text-sm" id="grandchildren-list"></ul>
+          </div>
+
+          <!-- Tabs Container -->
+          <div class="mt-6">
+            <div class="border-b border-gray-200">
+              <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="tabNav" role="tablist">
+                <li class="mr-2" role="presentation">
+                  <button class="inline-block p-4 border-b-2 rounded-t-lg tab-btn active" id="family-tree-tab" data-tabs-target="#family-tree-content" type="button" role="tab" aria-controls="family-tree-content" aria-selected="true">Family Tree</button>
+                </li>
+                <li class="mr-2" role="presentation">
+                  <button class="inline-block p-4 border-b-2 border-transparent rounded-t-lg tab-btn" id="location-tab" data-tabs-target="#location-content" type="button" role="tab" aria-controls="location-content" aria-selected="false">Location</button>
+                </li>
+                <li class="mr-2" role="presentation">
+                  <button class="inline-block p-4 border-b-2 border-transparent rounded-t-lg tab-btn" id="photos-tab" data-tabs-target="#photos-content" type="button" role="tab" aria-controls="photos-content" aria-selected="false">Photos</button>
+                </li>
+                <li class="mr-2" role="presentation">
+                  <button class="inline-block p-4 border-b-2 border-transparent rounded-t-lg tab-btn" id="resources-tab" data-tabs-target="#resources-content" type="button" role="tab" aria-controls="resources-content" aria-selected="false">Resources</button>
+                </li>
+              </ul>
+            </div>
+            <div class="mt-4">
+              <div class="tab-content block" id="family-tree-content" role="tabpanel" aria-labelledby="family-tree-tab">
+                <div class="flex items-center justify-center h-64 bg-gray-100 rounded-lg" id="family-tree-placeholder">
+                  <p class="text-gray-500">Family tree data not available</p>
+                </div>
+              </div>
+              <div class="tab-content hidden" id="location-content" role="tabpanel" aria-labelledby="location-tab">
+                <div class="flex items-center justify-center h-64 bg-gray-100 rounded-lg">
+                  <p class="text-gray-500">No location data available</p>
+                </div>
+              </div>
+              <div class="tab-content hidden" id="photos-content" role="tabpanel" aria-labelledby="photos-tab">
+                <div class="flex items-center justify-center h-64 bg-gray-100 rounded-lg">
+                  <p class="text-gray-500">No photos available</p>
+                </div>
+              </div>
+              <div class="tab-content hidden" id="resources-content" role="tabpanel" aria-labelledby="resources-tab">
+                <h3 class="text-lg font-semibold">Resources</h3>
+                <ul class="list-disc pl-5 text-sm" id="resources-list"></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="px-4 container mx-auto text-center">
+      <p>© 2025 Crediton Cemetery Heritage Portal. All rights reserved.</p>
+      <div class="flex justify-center mt-4 space-x-6">
+        <a class="hover:text-white text-gray-400" href="#">Privacy Policy</a>
+        <a class="hover:text-white text-gray-400" href="#">Terms of Service</a>
+        <a class="hover:text-white text-gray-400" href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript for Dynamic Tribute -->
+  <script>
+    // JSON data for tributes
+    const tributesData = [
+      {
+        "id": 0,
+        "name": "H. Reginald Abell",
+        "birthDate": "N/A",
+        "deathDate": "N/A",
+        "cemetery": "Crediton Cemetery",
+        "location": "Crediton",
+        "bio": "A beloved husband and father.",
+        "image": "https://images.findagrave.com/photos/2022/84/188035422_e82330c7-34bd-4e3a-97bb-700d03f566ee.jpeg?size=photos250",
+        "grandchildren": ["John Abell"],
+        "resources": []
+      },
+      {
+        "id": 1,
+        "name": "John Smith",
+        "birthDate": "1920",
+        "deathDate": "1995",
+        "cemetery": "Crediton Cemetery",
+        "location": "Crediton",
+        "bio": "A WWII veteran and beloved father.",
+        "image": "/api/placeholder/400/300",
+        "grandchildren": ["Sarah Smith", "Michael Smith"],
+        "resources": ["https://example.com/veteran-records"]
+      }
+    ];
+
+    // Function to populate tribute details
+    function populateTribute() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const tributeId = 1
+      const tribute = tributesData.find(t => t.id === tributeId);
+
+      if (!tribute) {
+        document.getElementById('tribute-name').textContent = "Tribute Not Found";
+        document.getElementById('tribute-dates').textContent = "";
+        document.getElementById('tribute-header-name').textContent = "Tribute Not Found";
+        document.getElementById('tribute-image').src = "/api/placeholder/400/300";
+        document.getElementById('tribute-image').alt = "No photo available";
+        document.getElementById('tribute-bio').innerHTML = "<strong>Bio:</strong> Sorry, we couldn’t find this tribute.";
+        document.getElementById('grandchildren-list').innerHTML = "";
+        return;
+      }
+
+      // Basic Info
+      document.getElementById('tribute-name').textContent = tribute.name;
+      document.title = `${tribute.name} | Crediton Cemetery Heritage Portal`;
+      document.getElementById('tribute-dates').textContent = `${tribute.birthDate} - ${tribute.deathDate}`;
+      document.getElementById('tribute-header-name').textContent = tribute.name;
+      document.getElementById('tribute-image').src = tribute.image;
+      document.getElementById('tribute-image').alt = `Photo of ${tribute.name}`;
+      document.getElementById('tribute-birth').textContent = tribute.birthDate;
+      document.getElementById('tribute-death').textContent = tribute.deathDate;
+      document.getElementById('tribute-cemetery').textContent = tribute.cemetery;
+      document.getElementById('tribute-location').textContent = tribute.location;
+      document.getElementById('tribute-bio').innerHTML = `<strong>Bio:</strong> ${tribute.bio}`;
+
+      // Share Links
+      const currentUrl = window.location.href;
+      document.getElementById('facebook-share').href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`;
+      document.getElementById('twitter-share').href = `https://twitter.com/intent/tweet?url=${encodeURIComponent(currentUrl)}&text=${encodeURIComponent(tribute.name)}`;
+      document.getElementById('linkedin-share').href = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(currentUrl)}`;
+
+      // Grandchildren
+      const grandchildrenList = document.getElementById('grandchildren-list');
+      grandchildrenList.innerHTML = '';
+      if (tribute.grandchildren.length > 0) {
+        tribute.grandchildren.forEach(child => {
+          const li = document.createElement('li');
+          li.textContent = child;
+          grandchildrenList.appendChild(li);
+        });
+      } else {
+        grandchildrenList.innerHTML = '<li>No grandchildren listed</li>';
+      }
+
+      // Resources
+      const resourcesList = document.getElementById('resources-list');
+      resourcesList.innerHTML = '';
+      if (tribute.resources.length > 0) {
+        tribute.resources.forEach(resource => {
+          const li = document.createElement('li');
+          li.innerHTML = `<a href="${resource}" class="text-blue-500 hover:underline" target="_blank">${resource}</a>`;
+          resourcesList.appendChild(li);
+        });
+      } else {
+        resourcesList.innerHTML = '<li>No resources available</li>';
+      }
+    }
+
+    // Tab Functionality
+    function setupTabs() {
+      const tabButtons = document.querySelectorAll('.tab-btn');
+      const tabContents = document.querySelectorAll('.tab-content');
+
+      tabButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          tabButtons.forEach(btn => btn.classList.remove('active'));
+          tabContents.forEach(content => content.classList.add('hidden'));
+
+          button.classList.add('active');
+          const targetId = button.getAttribute('data-tabs-target');
+          document.querySelector(targetId).classList.remove('hidden');
+        });
+      });
+    }
+
+    // Initialize on Page Load
+    document.addEventListener('DOMContentLoaded', () => {
+      populateTribute();
+      setupTabs();
+    });
+
+    // Mobile Menu Toggle
+    document.getElementById('menu-toggle').addEventListener('click', () => {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
