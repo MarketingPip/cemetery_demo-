@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Funeral Cost Estimator | Crediton Cemetery Heritage Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40vh;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
+    <div class="px-4 py-3 container mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+          <i class="fas fa-tree text-green-400"></i>
+          <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <a class="transition hover:text-green-400" href="#home">Home</a>
+          <a class="transition hover:text-green-400" href="#map">Interactive Map</a>
+          <a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a>
+          <a class="transition hover:text-green-400" href="#search">Search Records</a>
+          <a class="transition hover:text-green-400" href="#timeline">Historical Timeline</a>
+          <a class="transition hover:text-green-400" href="#donate">Support Us</a>
+        </div>
+        <div class="md:hidden">
+          <button class="focus:outline-none" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden md:hidden" id="mobile-menu">
+      <div class="px-4 container mx-auto flex flex-col py-2 space-y-3">
+        <a class="transition hover:text-green-400 block" href="#home">Home</a>
+        <a class="transition hover:text-green-400 block" href="#map">Interactive Map</a>
+        <a class="transition hover:text-green-400 block" href="#exhibits">Virtual Exhibits</a>
+        <a class="transition hover:text-green-400 block" href="#search">Search Records</a>
+        <a class="transition hover:text-green-400 block" href="#timeline">Historical Timeline</a>
+        <a class="transition hover:text-green-400 block" href="#donate">Support Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex items-center justify-center hero-image text-center text-white" id="estimator-hero">
+    <div class="px-4 container mx-auto">
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl">Funeral Cost Estimator</h1>
+      <p class="mb-8 md:text-2xl text-xl">Plan ahead with our interactive cost calculator.</p>
+    </div>
+  </section>
+
+  <!-- Estimator Intro Section -->
+  <section class="bg-white py-12" id="estimator-intro">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Estimate Your Costs</h2>
+      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Use this tool to estimate burial and related costs at Crediton Cemetery based on our current price list. Prices exclude HST unless noted. For full details or to proceed, <a href="#contact" class="text-green-600 hover:underline">contact us</a>.</p>
+    </div>
+  </section>
+
+  <!-- Estimator Form Section -->
+  <section class="bg-gray-100 py-12" id="estimator-form">
+    <div class="px-4 container mx-auto">
+      <form id="cost-estimator" class="max-w-2xl mx-auto space-y-6">
+        <!-- Purchase Type -->
+        <div>
+          <label for="purchase-type" class="block text-gray-700 font-semibold mb-2">Purchase Type</label>
+          <select id="purchase-type" name="purchase-type" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600">
+            <option value="none">None</option>
+            <option value="grave-traditional">Traditional Grave</option>
+            <option value="grave-cremation">Cremation Lot</option>
+            <option value="columbarium">Columbarium Niche</option>
+          </select>
+        </div>
+
+        <!-- Columbarium Selection (hidden unless selected) -->
+        <div id="columbarium-options" class="hidden space-y-4">
+          <label for="columbarium-number" class="block text-gray-700 font-semibold mb-2">Columbarium Number</label>
+          <select id="columbarium-number" name="columbarium-number" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600">
+            <option value="1">Columbarium #1</option>
+            <option value="2">Columbarium #2</option>
+            <option value="3">Columbarium #3</option>
+          </select>
+          <label for="columbarium-row" class="block text-gray-700 font-semibold mb-2">Row Selection</label>
+          <select id="columbarium-row" name="columbarium-row" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600">
+            <option value="top">Top Rows</option>
+            <option value="middle">Middle Rows</option>
+            <option value="bottom">Bottom Rows</option>
+          </select>
+        </div>
+
+        <!-- Interment Type -->
+        <div>
+          <label for="interment-type" class="block text-gray-700 font-semibold mb-2">Interment Type</label>
+          <select id="interment-type" name="interment-type" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600">
+            <option value="none">None</option>
+            <option value="adult">Adult Burial</option>
+            <option value="infant-child">Infant/Child Burial</option>
+            <option value="cremation">Cremation Burial</option>
+            <option value="niche">Niche Interment</option>
+            <option value="dual-burial-cremation">Dual: Burial & Cremation (same grave)</option>
+            <option value="dual-cremation">Dual: 2 Cremations (same lot)</option>
+            <option value="dual-niche">Dual: 2 Niches (same niche)</option>
+          </select>
+        </div>
+
+        <!-- Scheduling Options -->
+        <div>
+          <label class="block text-gray-700 font-semibold mb-2">Scheduling Options</label>
+          <div class="space-y-2">
+            <label class="flex items-center">
+              <input type="checkbox" id="saturday" name="saturday" class="mr-2">
+              <span class="text-gray-600">Saturday Before Noon</span>
+            </label>
+            <label class="flex items-center">
+              <input type="checkbox" id="after-hours" name="after-hours" class="mr-2">
+              <span class="text-gray-600">Weekday After 4 PM</span>
+            </label>
+            <label class="flex items-center">
+              <input type="checkbox" id="winter" name="winter" class="mr-2">
+              <span class="text-gray-600">Winter (Casket) Interment</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Marker Type -->
+        <div>
+          <label for="marker-type" class="block text-gray-700 font-semibold mb-2">Marker Type (Care & Maintenance)</label>
+          <select id="marker-type" name="marker-type" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600">
+            <option value="none">None</option>
+            <option value="flat-large">Flat Marker (>173 sq.in)</option>
+            <option value="upright-small">Upright Marker (≤4 ft)</option>
+            <option value="upright-large">Upright Marker (>4 ft)</option>
+          </select>
+        </div>
+
+        <!-- Additional Services -->
+        <div>
+          <label class="block text-gray-700 font-semibold mb-2">Additional Services</label>
+          <div class="space-y-2">
+            <label class="flex items-center">
+              <input type="checkbox" id="cleaning" name="cleaning" class="mr-2">
+              <span class="text-gray-600">Cleaning Stone</span>
+            </label>
+            <label class="flex items-center">
+              <input type="checkbox" id="raising" name="raising" class="mr-2">
+              <span class="text-gray-600">Raising Stone</span>
+            </label>
+            <label class="flex items-center">
+              <input type="checkbox" id="flat-install-small" name="flat-install-small" class="mr-2">
+              <span class="text-gray-600">Flat Marker Installation (≤173 sq.in)</span>
+            </label>
+            <label class="flex items-center">
+              <input type="checkbox" id="flat-install-large" name="flat-install-large" class="mr-2">
+              <span class="text-gray-600">Flat Marker Installation (>173 sq.in)</span>
+            </label>
+            <label class="flex items-center">
+              <input type="checkbox" id="staking" name="staking" class="mr-2">
+              <span class="text-gray-600">Staking Fee</span>
+            </label>
+            <label class="flex items-center">
+              <input type="checkbox" id="transfer" name="transfer" class="mr-2">
+              <span class="text-gray-600">Transfer Fee</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Flower Beds -->
+        <div>
+          <label for="flower-bed" class="block text-gray-700 font-semibold mb-2">Flower Bed</label>
+          <select id="flower-bed" name="flower-bed" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600">
+            <option value="none">None</option>
+            <option value="initial">Initial Annual Bed</option>
+            <option value="renewed">Renewed Annual Bed</option>
+            <option value="five-year">5-Year Flower Bed</option>
+          </select>
+        </div>
+
+        <button type="submit" class="w-full font-bold text-white transition bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg">Calculate Cost</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Results Section -->
+  <section class="bg-white py-12" id="results">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Estimated Cost</h2>
+      <div class="max-w-2xl mx-auto bg-gray-50 p-6 rounded-lg shadow-md" id="results-container">
+        <p class="text-gray-600 text-center">Select your options above and click "Calculate Cost" to see your estimate.</p>
+        <ul id="cost-breakdown" class="space-y-2 mt-4 hidden"></ul>
+        <p id="total-cost" class="font-bold text-xl text-gray-800 mt-6 hidden">Total: $0.00</p>
+      </div>
+      <p class="text-gray-600 text-center mt-6">Note: This estimate excludes HST. Care & Maintenance (40% of grave/15% of niche price) is included where applicable. Contact us for final pricing.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="px-4 container mx-auto text-center">
+      <p>© 2025 Crediton Cemetery Heritage Portal. All rights reserved.</p>
+      <div class="flex justify-center mt-4 space-x-6">
+        <a class="hover:text-white text-gray-400" href="#">Privacy Policy</a>
+        <a class="hover:text-white text-gray-400" href="#">Terms of Service</a>
+        <a class="hover:text-white text-gray-400" href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript for Cost Estimator -->
+  <script>
+    // JSON data for fees (updated from provided list)
+    const feesData = {
+      "graves": {
+        "traditional": 1415.50,
+        "cremation": 871.90
+      },
+      "columbariums": {
+        "1": { "top": 2554.56, "middle": 2260.87, "bottom": 1950.55 },
+        "2": { "top": 2554.56, "middle": 2260.87, "bottom": 1950.55 },
+        "3": { "top": 2554.56, "middle": 2260.87, "bottom": 1950.55 }
+      },
+      "interment": {
+        "adult": 927.83,
+        "infant-child": 448.70,
+        "cremation": 627.95,
+        "niche": 388.94,
+        "dual-burial-cremation": 1166.83,
+        "dual-cremation": 927.83,
+        "dual-niche": 568.20
+      },
+      "additional": {
+        "saturday-traditional": 445.31,
+        "saturday-cremation": 355.12,
+        "after-hours-traditional": 445.31,
+        "after-hours-cremation": 355.12,
+        "winter": 338.21,
+        "cleaning": 67.64,
+        "raising": 33.82,
+        "flat-install-small": 33.82,
+        "flat-install-large": 239.00,
+        "staking": 124.01,
+        "transfer": 92.44
+      },
+      "marker": {
+        "flat-large": 100.00,
+        "upright-small": 200.00,
+        "upright-large": 400.00
+      },
+      "flowerBeds": {
+        "initial": 236.75,
+        "renewed": 178.13,
+        "five-year": 770.00
+      },
+      "careMaintenance": {
+        "gravePercentage": 0.40, // 40% of grave price
+        "nichePercentage": 0.15 // 15% of niche price
+      }
+    };
+
+    // Form handling and calculation
+    document.getElementById('cost-estimator').addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      let total = 0;
+      const breakdown = [];
+
+      // Purchase Type
+      const purchaseType = document.getElementById('purchase-type').value;
+      if (purchaseType === 'grave-traditional') {
+        const cost = feesData.graves.traditional;
+        const cmCost = cost * feesData.careMaintenance.gravePercentage;
+        total += cost + cmCost;
+        breakdown.push(`Traditional Grave: $${cost.toFixed(2)}`);
+        breakdown.push(`Care & Maintenance (40%): $${cmCost.toFixed(2)}`);
+      } else if (purchaseType === 'grave-cremation') {
+        const cost = feesData.graves.cremation;
+        const cmCost = cost * feesData.careMaintenance.gravePercentage;
+        total += cost + cmCost;
+        breakdown.push(`Cremation Lot: $${cost.toFixed(2)}`);
+        breakdown.push(`Care & Maintenance (40%): $${cmCost.toFixed(2)}`);
+      } else if (purchaseType === 'columbarium') {
+        const columbariumNum = document.getElementById('columbarium-number').value;
+        const row = document.getElementById('columbarium-row').value;
+        const cost = feesData.columbariums[columbariumNum][row];
+        const cmCost = cost * feesData.careMaintenance.nichePercentage;
+        total += cost + cmCost;
+        breakdown.push(`Columbarium #${columbariumNum} (${row.charAt(0).toUpperCase() + row.slice(1)} Row): $${cost.toFixed(2)}`);
+        breakdown.push(`Care & Maintenance (15%): $${cmCost.toFixed(2)}`);
+      }
+
+      // Interment Type
+      const intermentType = document.getElementById('interment-type').value;
+      if (intermentType !== 'none') {
+        const cost = feesData.interment[intermentType];
+        total += cost;
+        const intermentLabels = {
+          "adult": "Adult Burial",
+          "infant-child": "Infant/Child Burial",
+          "cremation": "Cremation Burial",
+          "niche": "Niche Interment",
+          "dual-burial-cremation": "Dual: Burial & Cremation",
+          "dual-cremation": "Dual: 2 Cremations",
+          "dual-niche": "Dual: 2 Niches"
+        };
+        breakdown.push(`${intermentLabels[intermentType]}: $${cost.toFixed(2)}`);
+      }
+
+      // Scheduling Options
+      if (document.getElementById('saturday').checked && intermentType !== 'none') {
+        const isTraditional = intermentType === 'adult' || intermentType === 'infant-child';
+        const cost = isTraditional ? feesData.additional['saturday-traditional'] : feesData.additional['saturday-cremation'];
+        total += cost;
+        breakdown.push(`Saturday Before Noon: $${cost.toFixed(2)}`);
+      }
+      if (document.getElementById('after-hours').checked && intermentType !== 'none') {
+        const isTraditional = intermentType === 'adult' || intermentType === 'infant-child';
+        const cost = isTraditional ? feesData.additional['after-hours-traditional'] : feesData.additional['after-hours-cremation'];
+        total += cost;
+        breakdown.push(`Weekday After 4 PM: $${cost.toFixed(2)}`);
+      }
+      if (document.getElementById('winter').checked && (intermentType === 'adult' || intermentType === 'infant-child')) {
+        const cost = feesData.additional.winter;
+        total += cost;
+        breakdown.push(`Winter (Casket) Interment: $${cost.toFixed(2)}`);
+      }
+
+      // Additional Services
+      if (document.getElementById('cleaning').checked) {
+        const cost = feesData.additional.cleaning;
+        total += cost;
+        breakdown.push(`Cleaning Stone: $${cost.toFixed(2)}`);
+      }
+      if (document.getElementById('raising').checked) {
+        const cost = feesData.additional.raising;
+        total += cost;
+        breakdown.push(`Raising Stone: $${cost.toFixed(2)}`);
+      }
+      if (document.getElementById('flat-install-small').checked) {
+        const cost = feesData.additional['flat-install-small'];
+        total += cost;
+        breakdown.push(`Flat Marker Installation (≤173 sq.in): $${cost.toFixed(2)}`);
+      }
+      if (document.getElementById('flat-install-large').checked) {
+        const cost = feesData.additional['flat-install-large'];
+        total += cost;
+        breakdown.push(`Flat Marker Installation (>173 sq.in): $${cost.toFixed(2)}`);
+      }
+      if (document.getElementById('staking').checked) {
+        const cost = feesData.additional.staking;
+        total += cost;
+        breakdown.push(`Staking Fee: $${cost.toFixed(2)}`);
+      }
+      if (document.getElementById('transfer').checked) {
+        const cost = feesData.additional.transfer;
+        total += cost;
+        breakdown.push(`Transfer Fee: $${cost.toFixed(2)}`);
+      }
+
+      // Marker Type
+      const markerType = document.getElementById('marker-type').value;
+      if (markerType !== 'none') {
+        const cost = feesData.marker[markerType];
+        total += cost;
+        const markerLabels = {
+          'flat-large': 'Flat Marker (>173 sq.in)',
+          'upright-small': 'Upright Marker (≤4 ft)',
+          'upright-large': 'Upright Marker (>4 ft)'
+        };
+        breakdown.push(`Care & Maintenance - ${markerLabels[markerType]}: $${cost.toFixed(2)}`);
+      }
+
+      // Flower Beds
+      const flowerBed = document.getElementById('flower-bed').value;
+      if (flowerBed !== 'none') {
+        const cost = feesData.flowerBeds[flowerBed];
+        total += cost;
+        const flowerLabels = {
+          'initial': 'Initial Annual Bed',
+          'renewed': 'Renewed Annual Bed',
+          'five-year': '5-Year Flower Bed'
+        };
+        breakdown.push(`${flowerLabels[flowerBed]}: $${cost.toFixed(2)}`);
+      }
+
+      // Display Results
+      const resultsContainer = document.getElementById('results-container');
+      const costBreakdown = document.getElementById('cost-breakdown');
+      const totalCost = document.getElementById('total-cost');
+
+      resultsContainer.querySelector('p').classList.add('hidden');
+      costBreakdown.classList.remove('hidden');
+      totalCost.classList.remove('hidden');
+
+      costBreakdown.innerHTML = '';
+      breakdown.forEach(item => {
+        const li = document.createElement('li');
+        li.className = 'text-gray-600';
+        li.textContent = item;
+        costBreakdown.appendChild(li);
+      });
+
+      totalCost.textContent = `Total: $${total.toFixed(2)} (excl. HST)`;
+    });
+
+    // Toggle Columbarium Options visibility
+    document.getElementById('purchase-type').addEventListener('change', function() {
+      const columbariumOptions = document.getElementById('columbarium-options');
+      columbariumOptions.classList.toggle('hidden', this.value !== 'columbarium');
+    });
+
+    // Mobile Menu Toggle
+    document.getElementById('menu-toggle').addEventListener('click', () => {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
