@@ -31,3 +31,5 @@ December 5, 2006
 The Warsaw Uprising Museum has recovered a Halifax bomber believed to be JP 276 in which Flying Officer Harold Brown of Crediton Ontario was a crew member. ETM Television has interviewed a cousin of Flying Officer Brown. Request this Video
 ![image](https://github.com/user-attachments/assets/e459d47a-b338-411f-b4c1-b82c1012faf9)
 
+http://central.bac-lac.gc.ca/.redirect?app=kia&id=4263&lang=eng&ecopy=sww-24941-brown-harold_leonard-j26853
+
