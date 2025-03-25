@@ -6,6 +6,9 @@
   <title>Resources | Crediton Cemetery Heritage Portal</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Leaflet for Interactive Map -->
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /> 
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <style>
     .hero-image {
       background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
@@ -31,6 +34,43 @@
     height: 1.4rem;
     line-height: 1.5rem;
     vertical-align: baseline;
+}
+    
+        
+    /* Custom class for popover or any other element */
+.leaflet-popup-content-wrapper {
+    min-width: 22rem;
+    display: inline-block;        /* Set the element to inline-block */
+    font-size: 0.875rem;          /* Equivalent to text-sm */
+    color: #6B7280;               /* Text color gray-500 (Light mode) */
+    transition: opacity 0.3s;     /* Smooth transition for opacity */
+    background-color: #FFFFFF;    /* Background color white */
+    border: 1px solid #E5E7EB;    /* Border color gray-200 (Light mode) */
+    border-radius: 0.375rem;      /* Rounded corners (rounded-lg) */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); /* Shadow for depth */
+ 
+     
+    overflow: hidden;             /* Prevent overflow */
+}
+
+.leaflet-popup-content-wrapper.dark {
+    color: #D1D5DB;               /* Dark mode text color gray-400 */
+    background-color: #1F2937;    /* Dark mode background gray-800 */
+    border-color: #4B5563;        /* Dark mode border gray-600 */
+}
+
+    .leaflet-popup-content {
+    margin: unset;
+    }
+
+
+
+    .text-below-marker {
+  min-width: 100px;
+  left: -50px;
+  text-align: center;
+  min-height: 1.2em;
+  color:black;
 }
   </style>
 </head>
@@ -119,7 +159,7 @@
           </p>
           <p class="text-gray-600">Check our <a href="#events" class="text-green-600 hover:underline">Events</a> page for guided tours or special visits. Questions? <a href="#contact" class="text-green-600 hover:underline">Contact us</a>.</p>
         </div>
-        <img alt="Crediton Cemetery Map" class="w-full md:w-1/2 h-64 object-cover rounded-lg shadow-md" src="/api/placeholder/600/400">
+        <div id="cemetery-map" class="w-full md:w-1/2 h-64 object-cover rounded-lg shadow-md z-10"></div>
       </div>
     </div>
   </section>
@@ -401,6 +441,58 @@ document.addEventListener('DOMContentLoaded', () => {
       const mobileMenu = document.getElementById('mobile-menu');
       mobileMenu.classList.toggle('hidden');
     });
+    
+     
+    document.addEventListener("DOMContentLoaded", function () {
+      const map = L.map("cemetery-map").setView([51.505, -0.09], 13);
+
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution: "&copy; OpenStreetMap contributors"
+    }).addTo(map);
+
+
+ 
+      
+    // Example marker (replace with actual cemetery coordinates)
+
+// specify popup options 
+var customOptions = {
+   // 'maxWidth': 400,
+  //  'width': 200,
+   'className' : 'popupCustom'
+}
+    
+      
+    L.marker([43.29868, -81.55274]).addTo(map)
+      .bindPopup(`
+<div class="grid grid-cols-5 gap-4">
+                        <div class="col-span-3 p-3">
+                            <div class="space-y-2">
+                                <h3 id="popover-title" class="font-semibold text-gray-900 dark:text-white">Crediton Cemetery</h3>
+                                <p id="popover-description" class="text-gray-700 dark:text-gray-300">The Crediton Cemetery, located at <b>40 Victoria Avenue West, Crediton, Ontario, N0M 1M0</b>, <br>
+                                is a peaceful resting place that serves as a memorial to the community's history.
+                                </p>
+        
+                                <a id="readme-link" href="https://www.google.com/maps/dir/?api=1&destination=40%20Victoria%20Ave%20W,%20Crediton,%20ON%20N0M%201M0" class="flex items-center font-medium text-blue-600 dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:underline" target="_blank">Get Directions
+                                    <svg class="w-2 h-2 ms-1.5 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="popover-image-src" class="h-full w-full">
+                            <!-- Adjusted image size -->
+                            <img id="popover-avatar" class="w-full  h-full object-fill col-span-2 rounded-r-lg min-w-[160px]" alt="Owner Avatar" src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=RoZKv6Zz4zxYvZGyh_IWkQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=347.2649&pitch=0&thumbfov=100">
+                        </div>
+                    </div>`, customOptions).openPopup();
+
+
+
+ 
+      
+      map.setView([43.29868, -81.55274], 13)
+});
+
   </script>
 </body>
 </html>
