@@ -2970,114 +2970,7 @@ document.querySelectorAll('[data-dropdown-toggle]').forEach(button => {
 
     
 document.addEventListener("DOMContentLoaded", function () {
-// Initialize map with basic configuration
-const map = L.map("cemetery-map", {
-    preferCanvas: true,  // Enable canvas rendering from the start
-    zoomControl: true,
-    maxZoom: 18,
-    minZoom: 10
-}).setView([43.29868, -81.55274], 13);
-
-// Add tile layer with optimized settings
-L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    attribution: "© OpenStreetMap contributors",
-    tileSize: 256,
-    maxZoom: 18,
-    updateWhenIdle: true,  // Only load tiles when map movement stops
-    updateWhenZooming: false
-}).addTo(map);
-
-// Create marker cluster group with optimized settings
-const markers = L.markerClusterGroup({
-    maxClusterRadius: 80,
-    disableClusteringAtZoom: 15,
-    spiderfyOnMaxZoom: false,
-    chunkedLoading: true  // Load markers in chunks
-});
-
-// Popup template as a constant to avoid repeated string creation
-const popupTemplate = (data) => `
-    <div class="grid grid-cols-5 gap-4">
-        <div class="col-span-3 p-3">
-            <div class="space-y-2">
-                <h3 class="font-semibold text-gray-900 dark:text-white">${data.name}</h3>
-                <p class="text-gray-700 dark:text-gray-300">
-                    <b>Location:</b> ${data.location || 'N/A'}<br>
-                    <b>Born:</b> ${data.birth_date || 'N/A'}<br>
-                    <b>Passed:</b> ${data.death_date || 'N/A'}
-                </p>
-                ${data.url ? `<a href="${data.url}" class="text-blue-600 hover:underline" target="_blank">View ${data.linkText || 'Memorial'}</a>` : ''}
-            </div>
-        </div>
-        <div class="h-full w-full">
-            <img class="w-full h-full object-fill col-span-2 rounded-r-lg min-w-[160px]" alt="${data.name}" src="${data.image}">
-        </div>
-    </div>`;
-
-// Custom options as constant
-const customOptions = { className: 'popupCustom' };
-
-// Initial marker with optimized icon
-L.marker([43.29868, -81.55274], {
-    icon: L.divIcon({
-        html: "Crediton Cemetery",
-        className: 'text-below-marker',
-        iconSize: [100, 20]
-    })
-}).addTo(map);
-
-// Process cemetery data once and store
-const processedCemeteryData = records
-    .filter(record => record.gps?.latitude && record.gps?.longitude)
-    .map(record => ({
-        lat: parseFloat(record.gps.latitude),
-        lng: parseFloat(record.gps.longitude),
-        popupData: {
-            name: record.name,
-            location: record.location,
-            birth_date: record.birth_date,
-            death_date: record.death_date,
-            url: record.memorial_url,
-            linkText: 'Memorial',
-            image: record.image_url
-        }
-    }));
-
-// Function to update visible markers
-function updateMarkers() {
-    const bounds = map.getBounds();
-    markers.clearLayers();
-
-    processedCemeteryData.forEach(data => {
-        if (bounds.contains([data.lat, data.lng])) {
-            markers.addLayer(
-                L.marker([data.lat, data.lng])
-                    .bindPopup(popupTemplate(data.popupData), customOptions)
-            );
-        }
-    });
-}
-
-// Debounce function to limit update frequency
-function debounce(func, wait) {
-    let timeout;
-    return function executedFunction(...args) {
-        const later = () => {
-            clearTimeout(timeout);
-            func(...args);
-        };
-        clearTimeout(timeout);
-        timeout = setTimeout(later, wait);
-    };
-}
-
-// Add debounced event listener
-const debouncedUpdate = debounce(updateMarkers, 250);
-map.on('moveend zoomend', debouncedUpdate);
-
-// Initial marker update
-updateMarkers();
-
+ 
 // GeoJSON configuration
 const geojsonData = {
   "type": "FeatureCollection",
@@ -3118,19 +3011,148 @@ const geojsonData = {
   ]
 };
 
-// Add GeoJSON with optimized settings
+const map = L.map("cemetery-map", {
+    preferCanvas: true
+}).setView([51.505, -0.09], 13);
+
+// Tile Layer with optimized settings
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: "© OpenStreetMap contributors",
+    updateWhenIdle: true
+}).addTo(map);
+
+// Create marker cluster group
+const markers = L.markerClusterGroup({
+    chunkedLoading: true,
+    maxClusterRadius: 80
+});
+
+// Custom popup options
+const customOptions = {
+    className: 'popupCustom',
+    lazyload: true  // Add lazyload flag
+};
+
+// Popup content template
+const getPopupContent = (record) => `
+    <div class="grid grid-cols-5 gap-4">
+        <div class="col-span-3 p-3">
+            <div class="space-y-2">
+                <h3 class="font-semibold text-gray-900 dark:text-white">${record.name}</h3>
+                <p class="text-gray-700 dark:text-gray-300">
+                    <b>Location:</b> ${record.location || 'N/A'}<br>
+                    <b>Born:</b> ${record.birth_date || 'N/A'}<br>
+                    <b>Passed:</b> ${record.death_date || 'N/A'}
+                </p>
+                <a href="${record.memorial_url || '#'}" class="text-blue-600 hover:underline" target="_blank">View Memorial</a>
+            </div>
+        </div>
+        <div class="h-full w-full">
+            <img class="w-full h-full object-fill col-span-2 rounded-r-lg min-w-[160px]" alt="${record.name}" src="${record.image_url || ''}">
+        </div>
+    </div>`;
+
+// Initial marker
+L.marker([43.29868, -81.55274], {
+    icon: L.divIcon({
+        html: "Crediton Cemetery",
+        className: 'text-below-marker'
+    })
+}).addTo(map);
+
+// Specific Crediton Cemetery marker with lazy-loaded popup
+const creditonPopupContent = `
+    <div class="grid grid-cols-5 gap-4">
+        <div class="col-span-3 p-3">
+            <div class="space-y-2">
+                <h3 class="font-semibold text-gray-900 dark:text-white">Crediton Cemetery</h3>
+                <p class="text-gray-700 dark:text-gray-300">
+                    The Crediton Cemetery, located at <b>40 Victoria Avenue West, Crediton, Ontario, N0M 1M0</b>,<br>
+                    is a peaceful resting place that serves as a memorial to the community's history.
+                </p>
+                <a href="https://www.google.com/maps/dir/?api=1&destination=40%20Victoria%20Ave%20W,%20Crediton,%20ON%20N0M%201M0" 
+                   class="flex items-center font-medium text-blue-600 hover:underline" target="_blank">
+                    Get Directions
+                    <svg class="w-2 h-2 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="h-full w-full">
+            <img class="w-full h-full object-fill col-span-2 rounded-r-lg min-w-[160px]" 
+                 alt="Crediton Cemetery" 
+                 src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=RoZKv6Zz4zxYvZGyh_IWkQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=347.2649&pitch=0&thumbfov=100">
+        </div>
+    </div>`;
+
+// Add initial marker with lazy-loaded popup
+L.marker([43.29868, -81.55274])
+    .bindPopup(L.popup({
+        ...customOptions,
+        lazyload: creditonPopupContent
+    }))
+    .addTo(map);
+
+// Process cemetery data
+const cemeteryData = records.filter(record => record.gps);
+
+// Popup open handler for lazy loading
+map.on('popupopen', function(e) {
+    const popup = e.popup;
+    if (popup.options.lazyload && !popup.getContent()) {
+        popup.setContent(popup.options.lazyload);
+    }
+});
+
+// Update markers function
+function updateMarkers() {
+    const bounds = map.getBounds();
+    markers.clearLayers();
+
+    cemeteryData.forEach(record => {
+        let { latitude, longitude } = record.gps;
+        latitude = parseFloat(latitude);
+        longitude = parseFloat(longitude);
+
+        if (latitude && longitude && bounds.contains([latitude, longitude])) {
+            const marker = L.marker([latitude, longitude])
+                .bindPopup(L.popup({
+                    ...customOptions,
+                    lazyload: getPopupContent(record)
+                }));
+            markers.addLayer(marker);
+        }
+    });
+}
+
+// Debounce function
+function debounce(func, wait) {
+    let timeout;
+    return function(...args) {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(this, args), wait);
+    };
+}
+
+// Add debounced event listeners
+const debouncedUpdate = debounce(updateMarkers, 250);
+map.on('moveend zoomend', debouncedUpdate);
+
+// Initial setup
+map.addLayer(markers);
+map.setView([43.29868, -81.55274], 13);
+updateMarkers();
+
+ 
+
 L.geoJSON(geojsonData, {
     style: {
         color: "#ff0000",
         weight: 3,
         opacity: 0.8
-    },
-    interactive: false  // Disable interactions if not needed
+    }
 }).addTo(map);
-
-// Add markers to map
-map.addLayer(markers);
- 
 
   // Event listeners for zoom buttons
   document.getElementById("zoom-in").addEventListener("click", () => map.zoomIn());
