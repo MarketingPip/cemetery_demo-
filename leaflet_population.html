@@ -785,13 +785,27 @@ html {
 
 
    fadeOutAndHide('preload');  
+
+    
   </script> 
+
   
   <script type="module" defer>
     
-     import { Datepicker } from "https://esm.sh/vanillajs-datepicker"; // Initialize Flowbite Datepicker
     
-    document.addEventListener("DOMContentLoaded", () => {
+    
+      import { Datepicker } from "https://esm.sh/vanillajs-datepicker"; // Initialize Flowbite Datepicker
+    
+    const datepicker = new Datepicker(document.getElementById("year-from"), {
+  pickLevel: 2, // Set pickLevel to 2 for selecting a specific level (e.g., year, month, day)
+  format: "yyyy" // Format to display only the year
+});
+
+const datepicker2 = new Datepicker(document.getElementById("year-to"), {
+  pickLevel: 2, // Set pickLevel to 2 for selecting a specific level (e.g., year, month, day)
+  format: "yyyy" // Format to display only the year
+});
+        
 
     // Cemetery records data (CSV format)
     const csvData = `"memorial_url","name","birth_date","death_date","cemetery","location","bio","gps","image_url","parents","spouses","children","siblings"
@@ -2989,16 +3003,7 @@ document.addEventListener('click', function(event) {
     init();
     
 
-const datepicker = new Datepicker(document.getElementById("year-from"), {
-  pickLevel: 2, // Set pickLevel to 2 for selecting a specific level (e.g., year, month, day)
-  format: "yyyy" // Format to display only the year
-});
 
-const datepicker2 = new Datepicker(document.getElementById("year-to"), {
-  pickLevel: 2, // Set pickLevel to 2 for selecting a specific level (e.g., year, month, day)
-  format: "yyyy" // Format to display only the year
-});
-    
  document.getElementById('menu-toggle').addEventListener('click', () => {
   document.getElementById('mobile-menu').classList.toggle('translate-x-full');
 });
@@ -3240,7 +3245,6 @@ backToTopBtn.addEventListener("click", () => {
   
 });
 
-});      
 
 
 
