@@ -766,27 +766,6 @@ html {
 
   <script type="module" async>
    import "https://esm.sh/lazysizes";  // lazy load images
- 
-  // page loader
-
-    function fadeOutAndHide(elementId) {
-    const element = document.getElementById(elementId);
-    
-    if (element) {
-        // Apply Tailwind fade-out classes
-        element.classList.add('opacity-0', 'transition-opacity', 'duration-500');
-
-        // Wait for the fade-out transition + 0.5s before hiding the element
-        setTimeout(() => {
-            element.classList.add('hidden');  // Hide the element
-        }, 500);  // Wait for 0.5s
-    }
-}
-
-
-   fadeOutAndHide('preload');  
-
-    
   </script> 
 
   
@@ -3251,6 +3230,33 @@ backToTopBtn.addEventListener("click", () => {
 
   </script>
 
+
+  <script>
+
+// main.js
+document.addEventListener("DOMContentLoaded", () => {
+  
+  // page loader
+
+    function fadeOutAndHide(elementId) {
+    const element = document.getElementById(elementId);
+    
+    if (element) {
+        // Apply Tailwind fade-out classes
+        element.classList.add('opacity-0', 'transition-opacity', 'duration-500');
+
+        // Wait for the fade-out transition + 0.5s before hiding the element
+        setTimeout(() => {
+            element.classList.add('hidden');  // Hide the element
+        }, 500);  // Wait for 0.5s
+    }
+}
+
+
+   fadeOutAndHide('preload');  
+});
+    
+  </script>
   
 
    
