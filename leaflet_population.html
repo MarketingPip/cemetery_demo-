@@ -743,8 +743,11 @@ html {
 
 
 
-  <script type="module">
-     import "https://esm.sh/lazysizes";
+  <script type="module" async>
+   import "https://esm.sh/lazysizes";
+  </script> 
+  
+  <script type="module" defer>
     // Cemetery records data (CSV format)
     const csvData = `"memorial_url","name","birth_date","death_date","cemetery","location","bio","gps","image_url","parents","spouses","children","siblings"
 "https://www.findagrave.com/memorial/188035422/h-reginald-abell","H. Reginald Abell","1880-00-00","1959-00-00","Crediton Cemetery","Crediton","","","https://images.findagrave.com/photos/2022/84/188035422_e82330c7-34bd-4e3a-97bb-700d03f566ee.jpeg?size=photos250","[]","[{""name"": ""Lydia  Oestreicher Abell"", ""birth_date"": ""1896-00-00"", ""death_date"": ""1958-00-00"", ""profile_url"": ""/memorial/188035436/lydia-abell""}]","[]","[]"
