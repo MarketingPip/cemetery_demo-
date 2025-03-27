@@ -3191,22 +3191,6 @@ L.geoJSON(geojsonData, {
   document.getElementById("reset-view").addEventListener("click", () => map.setView([43.29868, -81.55274], 13));
 
 
-function fadeOutAndHide(elementId) {
-    const element = document.getElementById(elementId);
-    
-    if (element) {
-        // Apply Tailwind fade-out classes
-        element.classList.add('opacity-0', 'transition-opacity', 'duration-500');
-
-        // Wait for the fade-out transition + 0.5s before hiding the element
-        setTimeout(() => {
-            element.classList.add('hidden');  // Hide the element
-        }, 500);  // Wait for 0.5s
-    }
-}
-
-
-   fadeOutAndHide('preload');
 
 
 
@@ -3236,6 +3220,27 @@ backToTopBtn.addEventListener("click", () => {
 });
 
 });      
+
+
+// page loader
+
+    function fadeOutAndHide(elementId) {
+    const element = document.getElementById(elementId);
+    
+    if (element) {
+        // Apply Tailwind fade-out classes
+        element.classList.add('opacity-0', 'transition-opacity', 'duration-500');
+
+        // Wait for the fade-out transition + 0.5s before hiding the element
+        setTimeout(() => {
+            element.classList.add('hidden');  // Hide the element
+        }, 500);  // Wait for 0.5s
+    }
+}
+
+
+   fadeOutAndHide('preload');
+
   </script>
 
   
