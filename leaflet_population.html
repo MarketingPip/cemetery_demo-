@@ -788,6 +788,9 @@ html {
   </script> 
   
   <script type="module" defer>
+    
+     import { Datepicker } from "https://esm.sh/vanillajs-datepicker"; // Initialize Flowbite Datepicker
+    
     document.addEventListener("DOMContentLoaded", () => {
 
     // Cemetery records data (CSV format)
@@ -2985,8 +2988,7 @@ document.addEventListener('click', function(event) {
     // Initialize the app
     init();
     
-    
-     import { Datepicker } from "https://esm.sh/vanillajs-datepicker"; // Initialize Flowbite Datepicker
+
 const datepicker = new Datepicker(document.getElementById("year-from"), {
   pickLevel: 2, // Set pickLevel to 2 for selecting a specific level (e.g., year, month, day)
   format: "yyyy" // Format to display only the year
