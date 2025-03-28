@@ -1429,7 +1429,7 @@ backToTopBtn.addEventListener("click", () => {
     el.removeAttribute('disabled');
   });
 }
-   fadeOutAndHide('#preload');   
+   
   // enableAllResources(); // enable all disabled CSS and scripts. 
    // Initialize the app
 
@@ -1437,6 +1437,7 @@ backToTopBtn.addEventListener("click", () => {
 getCemeteryData().then(data => {
     csvData = data; // Array of objects with CSV headers as keys
     init();
+    fadeOutAndHide('#preload');
 });
 
   
