@@ -3282,24 +3282,30 @@ backToTopBtn.addEventListener("click", () => {
   
   // page loader
  
-    function fadeOutAndHide(elementId) {
+    function fadeOutAndHide(elementId, hide=true) {
     const element = document.querySelector(elementId);
     
     if (element) {
         // Apply Tailwind fade-out classes
         element.classList.add('opacity-0', 'transition-opacity', 'duration-500');
 
+
+       if(hide){
         // Wait for the fade-out transition + 0.5s before hiding the element
         setTimeout(() => {
             element.classList.add('hidden');  // Hide the element
         }, 500);  // Wait for 0.5s
+      }
+      
     }
 }
 
 
    fadeOutAndHide('#preload');   
-   fadeOutAndHide('.hero-image-loading');
-   document.querySelector("#home").classList.add("hero-image")
+   fadeOutAndHide('.hero-image-loading', false);
+   const heroSection = document.querySelector("#home");
+   heroSection.classList.remove("hero-image-loading");
+   heroSection.classList.add("hero-image");
   
 });
 
