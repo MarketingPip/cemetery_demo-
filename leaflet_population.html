@@ -3129,14 +3129,14 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 
 // Create marker cluster group
 const markers = L.markerClusterGroup({
-    chunkedLoading: false,
+    chunkedLoading: true,
     maxClusterRadius: 80
 });
 
 // Custom popup options
 const customOptions = {
     className: 'popupCustom',
-    lazyload: false  // Add lazyload flag
+    lazyload: true  // Add lazyload flag
 };
 
 // Popup content template
