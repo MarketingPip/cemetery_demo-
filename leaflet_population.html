@@ -31,13 +31,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   <!-- Include PapaParse for CSV Parsing -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" defer disabled></script>
 
   
   <!-- Leaflet for Interactive Map -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css"/> 
-  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css" disabled/> 
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js" defer disabled></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" defer disabled></script>
   <!--  <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js" async></script> --->
 
 
@@ -1230,7 +1230,7 @@ const map = L.map("cemetery-map", {
 // Tile Layer with optimized settings
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "© OpenStreetMap contributors",
-    updateWhenIdle: false
+    updateWhenIdle: true
 }).addTo(map);
 
 // Create marker cluster group
@@ -1426,11 +1426,12 @@ backToTopBtn.addEventListener("click", () => {
   });
 }
    
-  // enableAllResources(); // enable all disabled CSS and scripts. 
+  
    // Initialize the app
 
      // Example Usage
 getCemeteryData().then(data => {
+    enableAllResources(); // enable all disabled CSS and scripts. 
     csvData = data; // Array of objects with CSV headers as keys
     init();
     fadeOutAndHide('#preload');
@@ -1460,7 +1461,7 @@ getCemeteryData().then(data => {
   <!-- Back to Top Button -->
 <button 
     id="backToTopBtn" 
-    class="fixed bottom-8 right-8 hidden bg-blue-600 text-white w-14 h-14 rounded-full shadow-xl transition-all duration-300 hover:bg-blue-700 hover:scale-110 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-blue-300"
+    class="fixed z-20 bottom-8 right-8 hidden bg-blue-600 text-white w-14 h-14 rounded-full shadow-xl transition-all duration-300 hover:bg-blue-700 hover:scale-110 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-blue-300"
     aria-label="Back to top">
     <svg class="w-6 h-6 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
