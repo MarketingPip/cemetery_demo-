@@ -3124,19 +3124,19 @@ const map = L.map("cemetery-map", {
 // Tile Layer with optimized settings
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "© OpenStreetMap contributors",
-    updateWhenIdle: true
+    updateWhenIdle: false
 }).addTo(map);
 
 // Create marker cluster group
 const markers = L.markerClusterGroup({
-    chunkedLoading: true,
+    chunkedLoading: false,
     maxClusterRadius: 80
 });
 
 // Custom popup options
 const customOptions = {
     className: 'popupCustom',
-    lazyload: true  // Add lazyload flag
+    lazyload: false  // Add lazyload flag
 };
 
 // Popup content template
