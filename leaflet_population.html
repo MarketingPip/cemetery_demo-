@@ -1229,7 +1229,10 @@ async function loadLeaflet() {
 }
 
   
-function renderMap(){  
+function renderMap(pkg){ 
+
+const L = pkg
+
   
 const map = L.map("cemetery-map", {
     preferCanvas: true
