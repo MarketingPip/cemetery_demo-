@@ -293,8 +293,26 @@ html {
         Click on plots to view information about those interred and access links to additional resources.
       </p>
 
- <div class="bg-white rounded-lg shadow-lg p-4 mb-8">
-  <div id="cemetery-map" class="relative h-96 border border-gray-300 rounded z-10"></div>
+<div class="bg-white rounded-lg shadow-lg p-4 mb-8">
+   <div id="cemetery-map" class="hidden relative h-96 border border-gray-300 rounded z-10"></div>
+  <!-- Placeholder / Loading Spinner / Error Message -->
+  <div id="map-container" class="relative h-96 border border-gray-300 rounded z-10 flex items-center justify-center">
+    <!-- Loading Spinner -->
+    <div id="map-loading-spinner" class="hidden animate-spin w-12 h-12 border-4 border-gray-300 border-t-blue-500 rounded-full"></div>
+    
+    <!-- Error Message -->
+    <div id="error-message" class="hidden text-center">
+      <p class="text-red-500">Failed to load map data</p>
+      <button id="retry-btn" class="mt-2 px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded-lg">Retry</button>
+    </div>
+
+    <!-- Placeholder -->
+    <div id="map-placeholder" class="flex items-center justify-center w-full h-full bg-gray-100 rounded-lg">
+      <p class="text-gray-500">Loading cemetery map...</p>
+    </div>
+  </div>
+
+  <!-- Controls -->
   <div class="flex justify-end mt-4">
     <button id="zoom-in" class="bg-gray-200 hover:bg-gray-300 p-2 rounded mr-2">
       <i class="fas fa-search-plus"></i>
@@ -307,6 +325,7 @@ html {
     </button>
   </div>
 </div>
+
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="selected-graves">
         <!-- Sample graves - these will be dynamically populated based on map selection -->
@@ -3047,6 +3066,8 @@ const geojsonData = {
   ]
 };
 
+function renderMap(){  
+  
 const map = L.map("cemetery-map", {
     preferCanvas: true
 }).setView([51.505, -0.09], 13);
@@ -3084,7 +3105,7 @@ const getPopupContent = (record) => `
             </div>
         </div>
         <div class="h-full w-full">
-            <img class="lazyload w-full h-full object-fill col-span-2 rounded-r-lg min-w-[160px]" alt="${record.name}" src="${record.image_url || ''}">
+            <img class="lazyload w-full h-full object-fill col-span-2 rounded-r-lg min-w-[160px]" alt="${record.name}" data-src="${record.image_url || ''}">
         </div>
     </div>`;
 
@@ -3195,6 +3216,17 @@ L.geoJSON(geojsonData, {
   document.getElementById("zoom-out").addEventListener("click", () => map.zoomOut());
   document.getElementById("reset-view").addEventListener("click", () => map.setView([43.29868, -81.55274], 13));
 
+   
+  document.querySelector("#map-container").classList.add("hidden")
+  document.querySelector("#cemetery-map").classList.remove("hidden")
+}
+  
+try{
+  renderMap()
+  
+}  catch(err){
+  console.log(err.message)
+}
 
 
 
@@ -3222,22 +3254,9 @@ backToTopBtn.addEventListener("click", () => {
 });
 
   
-});
-
-
-
-
-
-  </script>
-
-
-  <script>
-
-// main.js
-document.addEventListener("DOMContentLoaded", () => {
   
   // page loader
-
+ 
     function fadeOutAndHide(elementId) {
     const element = document.getElementById(elementId);
     
@@ -3253,10 +3272,16 @@ document.addEventListener("DOMContentLoaded", () => {
 }
 
 
-   fadeOutAndHide('preload');  
+   fadeOutAndHide('preload');   
+  
 });
-    
+
+
+
+
+
   </script>
+ 
   
 
    
