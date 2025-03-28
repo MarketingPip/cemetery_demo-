@@ -37,7 +37,7 @@
   <!-- Leaflet for Interactive Map -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css"/> 
  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script> -->
   <!--  <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js" async></script> --->
 
 
@@ -1224,7 +1224,8 @@ const geojsonData = {
 
   // Lazy load leaflet
 async function loadLeaflet() {
-  const L = await import("https://esm.sh/leaflet);
+  const L = await import("https://esm.sh/leaflet");
+  await import("https://esm.sh/leaflet.markercluster");
   renderMap(L);
 }
 
