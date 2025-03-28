@@ -1431,10 +1431,10 @@ backToTopBtn.addEventListener("click", () => {
 
      // Example Usage
 getCemeteryData().then(data => {
-    enableAllResources(); // enable all disabled CSS and scripts. 
     csvData = data; // Array of objects with CSV headers as keys
     init();
     fadeOutAndHide('#preload');
+    enableAllResources(); // enable all disabled CSS and scripts for leaflet. 
     renderMap()
 });
 
