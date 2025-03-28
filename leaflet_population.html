@@ -31,22 +31,22 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   <!-- Include PapaParse for CSV Parsing -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" defer></script>
+  <script data-src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" defer disabled></script>
 
   
   <!-- Leaflet for Interactive Map -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css" disabled/> 
-  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js" defer disabled></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" defer disabled></script>
+  <link rel="stylesheet" data-src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css" disabled/> 
+  <script data-src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js" defer disabled></script>
+  <script data-src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" defer disabled></script>
   <!--  <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js" async></script> --->
 
 
   <!--- Plugin for Leaflet Cluster (home page only) ---> 
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.css"/>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.Default.css"/>
+  <link rel="stylesheet" data-src="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.css" disabled/>
+  <link rel="stylesheet" data-src="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.Default.css" disabled/>
   
    <!-- CSS for datepicker -->
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.3.4/dist/css/datepicker.min.css" disabled />
+   <link rel="stylesheet" data-src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.3.4/dist/css/datepicker.min.css" disabled />
    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet"/>
   <!-- Inline Styles for Custom Design -->
 
@@ -1419,9 +1419,31 @@ backToTopBtn.addEventListener("click", () => {
 }
 
 
-  function enableAllResources() {
-  document.querySelectorAll('link[disabled], script[disabled]').forEach(el => {
-    el.removeAttribute('disabled');
+function enableAllResources() {
+  document.querySelectorAll('[data-src]').forEach(el => {
+    const tagName = el.tagName.toLowerCase();
+    
+    // Create a new element
+    const newEl = document.createElement(tagName);
+    
+    // Copy attributes from the original element
+    for (const attr of el.attributes) {
+      if (attr.name !== 'data-src' && attr.name !== 'disabled') {
+        newEl.setAttribute(attr.name, attr.value);
+      }
+    }
+    
+    // Assign the source URL
+    if (tagName === 'link') {
+      newEl.rel = 'stylesheet';
+      newEl.href = el.getAttribute('data-src');
+    } else if (tagName === 'script') {
+      newEl.src = el.getAttribute('data-src');
+      newEl.defer = el.hasAttribute('defer');
+    }
+
+    // Replace the original element with the new one
+    el.replaceWith(newEl);
   });
 }
    
