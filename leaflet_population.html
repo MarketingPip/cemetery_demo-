@@ -3272,7 +3272,7 @@ L.geoJSON(geojsonData, {
   
 try{
   renderMap()
-  
+  window.dispatchEvent(new Event('resize')); // needs for weirdness in leaflet
 }  catch(err){
   console.log(err.message)
 }
