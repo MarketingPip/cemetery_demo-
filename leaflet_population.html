@@ -1224,7 +1224,7 @@ const geojsonData = {
 
   // Lazy load leaflet
 async function loadLeaflet() {
-  const L = await import("https://esm.sh/leaflet");
+  const L = (await import("https://esm.sh/leaflet")).default;
   await import("https://esm.sh/leaflet.markercluster");
   renderMap(L);
 }
