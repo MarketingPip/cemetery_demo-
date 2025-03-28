@@ -125,6 +125,24 @@ html {
 }  
 
 
+.img-placeholder {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: hsl(220, 20%, 90%);
+  /* Make background pulse so it looks kinda load-y */
+  animation: loading 0.8s infinite alternate;
+
+  /* Loading Image (can used a normal url / SVG if prefered) */
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.0' viewBox='0 0 128 128' %3E%3Cg%3E%3Cpath d='M64 128A64 64 0 0 1 18.34 19.16L21.16 22a60 60 0 1 0 52.8-17.17l.62-3.95A64 64 0 0 1 64 128z' fill='%23404040'/%3E%3CanimateTransform attributeName='transform' type='rotate' from='0 64 64' to='360 64 64' dur='1000ms' repeatCount='indefinite'%3E%3C/animateTransform%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 4rem;
+}
+    
+
+    
 
 @keyframes loading {
   to {
@@ -274,7 +292,7 @@ html {
     <div class="container mx-auto px-4">
       <div class="flex flex-col md:flex-row items-center">
         <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
-          <img data-src="https://i.ibb.co/PscMkjXr/rs-h-1000-cg-true-1.webp" class="lazyload rounded-lg shadow-lg object-fit">
+          <img data-src="https://i.ibb.co/PscMkjXr/rs-h-1000-cg-true-1.webp" class="img-placeholder rounded-lg shadow-lg object-fit">
         </div>
         <div class="md:w-1/2">
           <h2 class="text-3xl font-bold mb-4 text-gray-800">About Our Project</h2>
