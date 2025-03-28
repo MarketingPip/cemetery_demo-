@@ -35,19 +35,20 @@
 
   
   <!-- Leaflet for Interactive Map -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css" /> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css" disabled/> 
   <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
   <!--  <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js" async></script> --->
 
 
   <!--- Plugin for Leaflet Cluster (home page only) ---> 
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.Default.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.css" disabled />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.Default.css" disabled />
   
    <!-- CSS for datepicker -->
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.3.4/dist/css/datepicker.min.css">
-  <!-- Inline Styles for Custom Design --><link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.3.4/dist/css/datepicker.min.css" disabled />
+   <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" disabled />
+  <!-- Inline Styles for Custom Design -->
 
 
 
@@ -850,6 +851,15 @@ async function loadDatePicker() {
 }
 
 
+   // Debounce function
+function debounce(func, wait) {
+    let timeout;
+    return function(...args) {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(this, args), wait);
+    };
+} 
+
        async function getCemeteryData() {
     try {
         const response = await fetch('assets/cemetery_data.csv');
@@ -963,10 +973,12 @@ async function loadDatePicker() {
       });
 
       // Search form
+      // Apply debounce to filters and pagination
+      const debouncedRender = debounce(renderRecords, 300);
       searchForm.addEventListener('submit', (e) => {
         e.preventDefault();
         currentPage = 1; // Reset page on new search
-        renderRecords();
+        debouncedRender();
       });
     }
 
@@ -1136,8 +1148,7 @@ document.addEventListener('click', function(event) {
 
     
     
-    // Initialize the app
-    init();
+
     
 
 
@@ -1322,14 +1333,7 @@ function updateMarkers() {
     });
 }
 
-// Debounce function
-function debounce(func, wait) {
-    let timeout;
-    return function(...args) {
-        clearTimeout(timeout);
-        timeout = setTimeout(() => func.apply(this, args), wait);
-    };
-}
+
 
 // Add debounced event listeners
 const debouncedUpdate = debounce(updateMarkers, 250);
@@ -1415,7 +1419,17 @@ backToTopBtn.addEventListener("click", () => {
 }
 
 
+  function enableAllResources() {
+  document.querySelectorAll('link[disabled], script[disabled]').forEach(el => {
+    el.removeAttribute('disabled');
+  });
+}
+   
+   enableAllResources(); // enable all disabled CSS and scripts. 
+   // Initialize the app
+   init();
    fadeOutAndHide('#preload');   
+  
 //   const heroSection = document.querySelector("#home");
   // heroSection.classList.remove("hero-image-loading");
   // heroSection.classList.add("hero-image");
