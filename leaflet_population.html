@@ -109,7 +109,28 @@ html {
 }
 
 
-  
+  .hero-image-loading {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(data:image/svg+xml;charset=utf8,%3Csvg xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.0' viewBox='0 0 128 128' %3E%3Cg%3E%3Cpath d='M64 128A64 64 0 0 1 18.34 19.16L21.16 22a60 60 0 1 0 52.8-17.17l.62-3.95A64 64 0 0 1 64 128z' fill='%23404040'/%3E%3CanimateTransform attributeName='transform' type='rotate' from='0 64 64' to='360 64 64' dur='1000ms' repeatCount='indefinite'%3E%3C/animateTransform%3E%3C/g%3E%3C/svg%3E);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* width: 886px; */
+    background-size: contain;
+    background-color: hsl(220, 20%, 90%);
+  /* Make background pulse so it looks kinda load-y */
+  animation: loading 0.8s infinite alternate;
+}  
+
+
+
+@keyframes loading {
+  to {
+    background-color: hsl(220, 10%, 75%);
+  }
+}    
 
     
     /* Custom class for popover or any other element */
@@ -233,7 +254,7 @@ html {
 
 
   <!-- Hero Section -->
-  <section id="home" class="hero-image flex items-center justify-center text-center text-white">
+  <section id="home" class="hero-image-loading flex items-center justify-center text-center text-white">
     <div class="container mx-auto px-4">
       <h1 class="text-4xl md:text-6xl font-bold mb-4">Preserving Crediton's Heritage</h1>
       <p class="text-xl md:text-2xl mb-8">Connecting generations through digital preservation of our community's history</p>
@@ -3262,7 +3283,7 @@ backToTopBtn.addEventListener("click", () => {
   // page loader
  
     function fadeOutAndHide(elementId) {
-    const element = document.getElementById(elementId);
+    const element = document.querySelector(elementId);
     
     if (element) {
         // Apply Tailwind fade-out classes
@@ -3276,7 +3297,9 @@ backToTopBtn.addEventListener("click", () => {
 }
 
 
-   fadeOutAndHide('preload');   
+   fadeOutAndHide('#preload');   
+   fadeOutAndHide('.hero-image-loading');
+   document.querySelector("#home").classList.add("hero-image")
   
 });
 
