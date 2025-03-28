@@ -880,9 +880,11 @@ function debounce(func, wait) {
     
 
     // Cemetery records data (CSV format)
-    const csvData =  await getCemeteryData()
+    let csvData;
 
 
+
+    
       
     // App state
     let records = [];
@@ -1430,7 +1432,14 @@ backToTopBtn.addEventListener("click", () => {
    fadeOutAndHide('#preload');   
   // enableAllResources(); // enable all disabled CSS and scripts. 
    // Initialize the app
-   init();
+
+     // Example Usage
+getCemeteryData().then(data => {
+    csvData = data; // Array of objects with CSV headers as keys
+    init();
+});
+
+  
    
   
 //   const heroSection = document.querySelector("#home");
