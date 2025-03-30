@@ -854,6 +854,25 @@ async function loadDatePicker() {
 }
 
 
+
+function checkAndSetNameFromURL() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const name = urlParams.get('name');
+
+  if (name) {
+    const surnameInput = document.getElementById('surname');
+    if (surnameInput) {
+      surnameInput.value = name;
+      
+      // Scroll input into view smoothly
+      surnameInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      
+      // Call renderRecords function
+      renderRecords();
+    }
+  }
+}
+    
    // Debounce function
 function debounce(func, wait) {
     let timeout;
@@ -1440,23 +1459,7 @@ backToTopBtn.addEventListener("click", () => {
   });
 }
    
-function checkAndSetNameFromURL() {
-  const urlParams = new URLSearchParams(window.location.search);
-  const name = urlParams.get('name');
 
-  if (name) {
-    const surnameInput = document.getElementById('surname');
-    if (surnameInput) {
-      surnameInput.value = name;
-      
-      // Scroll input into view smoothly
-      surnameInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      
-      // Call renderRecords function
-      renderRecords();
-    }
-  }
-}
 
 
   
