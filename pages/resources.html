@@ -146,6 +146,18 @@
     </div>
   </section>
 
+
+  <!-- Tool Links Section -->
+  <section class="bg-gray-50 py-12" id="tools">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Tools</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+       <!---- Populated Dynamically ---> 
+      </div>
+    </div>
+  </section>
+
+  
   <!-- Visiting Section -->
   <section class="bg-gray-50 py-12" id="visiting">
     <div class="px-4 container mx-auto">
@@ -204,6 +216,22 @@ const data = {
       "icon": "fas fa-file-pdf",
       "color": "text-green-600"
     }
+  ],
+    "tools": [
+    {
+      "title": "Family Relationship Chart",
+      "description": "Explore the relationships to you and your family",
+      "link": "family-relationship-chart",
+      "icon": "fas fa-wrench",
+      "color": "text-green-600"
+    },
+    {
+      "title": "Funeral Cost Estimator",
+      "description": "Get an estimate on how much a funeral will be at Crediton",
+      "link": "funeral-cost-costimator",
+      "icon": "fas fa-wrench",
+      "color": "text-green-600"
+    }  
   ],
   "externalResources": [
     {
@@ -423,6 +451,28 @@ function populateDownloadableResources() {
   });
 }
 
+// Function to populate the tools
+function populateTools() {
+  const toolsContainer = document.getElementById('tools').querySelector('.grid');
+  
+  data.tools.forEach(tool => {
+    const toolCard = document.createElement('div');
+    toolCard.classList.add('transition', 'bg-white', 'hover:shadow-lg', 'rounded-lg', 'shadow-md', 'tool-card', 'p-6');
+    
+    toolCard.innerHTML = `
+      <div class="flex items-center mb-4">
+        <i class="${tool.icon} ${tool.color} text-2xl mr-4"></i>
+        <h3 class="font-bold text-xl text-gray-800">${tool.title}</h3>
+      </div>
+      <p class="text-gray-600 mb-4">${tool.description}</p>
+      <a href="${tool.link}" class="font-bold text-green-700 hover:text-green-900 transition">Download PDF</a>
+    `;
+    
+    toolsContainer.appendChild(toolCard);
+  });
+}
+    
+
 // Function to populate the External Resources
 function populateExternalResources() {
   const externalLinksContainer = document.getElementById('external-links').querySelector('.grid');
@@ -447,6 +497,7 @@ function populateExternalResources() {
 document.addEventListener('DOMContentLoaded', () => {
   populateDownloadableResources();
   populateExternalResources();
+  populateTools();
 });
 </script>
 
