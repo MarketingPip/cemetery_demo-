@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Jane Doe - Blog Author | Crediton Cemetery Heritage Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40vh;
+    }
+    .post-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    }
+  </style>
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
+    <div class="px-4 py-3 container mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+          <i class="fas fa-tree text-green-400"></i>
+          <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <a class="transition hover:text-green-400" href="#home">Home</a>
+          <a class="transition hover:text-green-400" href="#map">Interactive Map</a>
+          <a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a>
+          <a class="transition hover:text-green-400" href="#search">Search Records</a>
+          <a class="transition hover:text-green-400" href="#timeline">Historical Timeline</a>
+          <a class="transition hover:text-green-400" href="#donate">Support Us</a>
+        </div>
+        <div class="md:hidden">
+          <button class="focus:outline-none" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden md:hidden" id="mobile-menu">
+      <div class="px-4 container mx-auto flex flex-col py-2 space-y-3">
+        <a class="transition hover:text-green-400 block" href="#home">Home</a>
+        <a class="transition hover:text-green-400 block" href="#map">Interactive Map</a>
+        <a class="transition hover:text-green-400 block" href="#exhibits">Virtual Exhibits</a>
+        <a class="transition hover:text-green-400 block" href="#search">Search Records</a>
+        <a class="transition hover:text-green-400 block" href="#timeline">Historical Timeline</a>
+        <a class="transition hover:text-green-400 block" href="#donate">Support Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex items-center justify-center hero-image text-center text-white" id="author-hero">
+    <div class="px-4 container mx-auto">
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl">Jane Doe</h1>
+      <p class="mb-8 md:text-2xl text-xl">Heritage Volunteer & Blog Contributor</p>
+    </div>
+  </section>
+
+  <!-- Author Profile Section -->
+  <section class="bg-white py-12" id="author-profile">
+    <div class="px-4 container mx-auto">
+      <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8">
+        <img alt="Jane Doe" class="w-48 h-48 rounded-full object-cover shadow-md" src="/api/placeholder/200/200">
+        <div class="text-center md:text-left">
+          <h2 class="font-bold text-3xl text-gray-800 mb-4">About Jane</h2>
+          <p class="text-gray-600 mb-6">Jane Doe is a dedicated heritage volunteer with a passion for uncovering the stories of Crediton’s past. With a background in historical research and genealogy, she has contributed numerous articles to our blog, shedding light on the lives of pioneers, veterans, and the cemetery’s unique monuments. When she’s not digging through archives, Jane enjoys photography and sharing her findings with the community.</p>
+          <div class="flex justify-center md:justify-start space-x-4">
+            <a href="#" class="text-gray-600 hover:text-green-600"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-gray-600 hover:text-green-600"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-gray-600 hover:text-green-600"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Posts Section -->
+  <section class="bg-gray-100 py-12" id="author-posts">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Posts by Jane Doe</h2>
+      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Explore Jane’s contributions to our blog, where she brings Crediton’s history to life.</p>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Post 1 -->
+        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden post-card">
+          <img alt="Uncovering Crediton’s Past" class="w-full h-48 object-cover" src="/api/placeholder/400/300">
+          <div class="p-6">
+            <h3 class="font-bold text-xl mb-2">Uncovering Crediton’s Past: A New Discovery</h3>
+            <p class="text-gray-600 text-sm mb-2">March 15, 2025</p>
+            <p class="text-gray-600 mb-4">A recently found photograph and journal reveal new insights into Crediton’s pioneer families.</p>
+            <a href="#blog-post-1" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
+          </div>
+        </div>
+
+        <!-- Post 2 -->
+        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden post-card">
+          <img alt="Restoring a Veteran’s Headstone" class="w-full h-48 object-cover" src="/api/placeholder/400/300">
+          <div class="p-6">
+            <h3 class="font-bold text-xl mb-2">Restoring a Veteran’s Headstone</h3>
+            <p class="text-gray-600 text-sm mb-2">February 10, 2025</p>
+            <p class="text-gray-600 mb-oxid4">Follow our journey to honor a local hero by restoring their weathered memorial.</p>
+            <a href="#blog-post-2" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
+          </div>
+        </div>
+
+        <!-- Post 3 -->
+        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden post-card">
+          <img alt="The Symbolism of Monuments" class="w-full h-48 object-cover" src="/api/placeholder/400/300">
+          <div class="p-6">
+            <h3 class="font-bold text-xl mb-2">The Symbolism of Monuments</h3>
+            <p class="text-gray-600 text-sm mb-2">January 5, 2025</p>
+            <p class="text-gray-600 mb-4">Explore the hidden meanings behind Crediton’s historic cemetery markers.</p>
+            <a href="#blog-post-3" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-12">
+        <a href="#blog" class="font-bold text-white transition bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg">View All Blog Posts</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="px-4 container mx-auto text-center">
+      <p>© 2025 Crediton Cemetery Heritage Portal. All rights reserved.</p>
+      <div class="flex justify-center mt-4 space-x-6">
+        <a class="hover:text-white text-gray-400" href="#">Privacy Policy</a>
+        <a class="hover:text-white text-gray-400" href="#">Terms of Service</a>
+        <a class="hover:text-white text-gray-400" href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Menu Toggle Script -->
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', () => {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
