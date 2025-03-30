@@ -910,6 +910,7 @@ function debounce(func, wait) {
       parseData();
       setupEventListeners();
       renderRecords();
+      checkAndSetNameFromURL()
     }
 
     // Parse CSV data using PapaParse
@@ -1469,7 +1470,6 @@ getCemeteryData().then(data => {
     enableAllResources(); // enable all disabled CSS and scripts for leaflet. 
     loadDatePicker()
     loadLeaflet()
-    checkAndSetNameFromURL()
     //renderMap()
 });
 
