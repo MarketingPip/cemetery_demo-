@@ -853,25 +853,7 @@ async function loadDatePicker() {
   const datepicker2 = new Datepicker(document.getElementById("year-to"), { pickLevel: 2, format: "yyyy" });
 }
 
-
-
-function checkAndSetNameFromURL() {
-  const urlParams = new URLSearchParams(window.location.search);
-  const name = urlParams.get('name');
-
-  if (name) {
-    const surnameInput = document.getElementById('surname');
-    if (surnameInput) {
-      surnameInput.value = name;
-      
-      // Scroll input into view smoothly
-      surnameInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      
-      // Call renderRecords function
-      renderRecords();
-    }
-  }
-}
+ 
     
    // Debounce function
 function debounce(func, wait) {
@@ -929,7 +911,6 @@ function debounce(func, wait) {
       parseData();
       setupEventListeners();
       renderRecords();
-      checkAndSetNameFromURL()
     }
 
     // Parse CSV data using PapaParse
@@ -1007,6 +988,8 @@ function debounce(func, wait) {
       });
     }
 
+
+    
     // Render records: filter, sort, and update table/pagination
     function renderRecords() {
       const surname = document.getElementById('surname').value.trim().toLowerCase();
@@ -1461,6 +1444,27 @@ backToTopBtn.addEventListener("click", () => {
    
 
 
+function checkAndSetNameFromURL() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const name = urlParams.get('name');
+
+  if (name) {
+    const surnameInput = document.getElementById('surname');
+    const searchForm = document.getElementById('searchForm');  // Assuming your form has id="searchForm"
+
+    if (surnameInput) {
+      surnameInput.value = name;
+
+      // Scroll input into view smoothly
+      surnameInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      
+      // Trigger form submit
+      if (searchForm) {
+        searchForm.submit();
+      }
+    }
+  }
+}
 
   
    // Initialize the app
@@ -1471,8 +1475,9 @@ getCemeteryData().then(data => {
     init();
     fadeOutAndHide('#preload');
     enableAllResources(); // enable all disabled CSS and scripts for leaflet. 
-    loadDatePicker()
-    loadLeaflet()
+    loadDatePicker();
+    loadLeaflet();
+    checkAndSetNameFromURL();
     //renderMap()
 });
 
