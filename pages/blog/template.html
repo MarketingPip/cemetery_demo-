@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Uncovering Crediton’s Past: A New Discovery | Crediton Cemetery Heritage Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40vh;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 font-sans">
+
+<!-- Navigation -->
+<nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
+  <div class="px-4 py-3 container mx-auto">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center space-x-2">
+        <i class="fas fa-tree text-green-400"></i>
+        <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
+      </div>
+      <div class="hidden md:flex space-x-6">
+        <a class="transition hover:text-green-400" href="#home">Home</a>
+        <a class="transition hover:text-green-400" href="#map">Interactive Map</a>
+        <a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a>
+        <a class="transition hover:text-green-400" href="#search">Search Records</a>
+        <a class="transition hover:text-green-400" href="#timeline">Historical Timeline</a>
+        <a class="transition hover:text-green-400" href="#donate">Support Us</a>
+      </div>
+      <div class="md:hidden">
+        <button class="focus:outline-none" id="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="hidden md:hidden" id="mobile-menu">
+    <div class="px-4 container mx-auto flex flex-col py-2 space-y-3">
+      <a class="transition hover:text-green-400 block" href="#home">Home</a>
+      <a class="transition hover:text-green-400 block" href="#map">Interactive Map</a>
+      <a class="transition hover:text-green-400 block" href="#exhibits">Virtual Exhibits</a>
+      <a class="transition hover:text-green-400 block" href="#search">Search Records</a>
+      <a class="transition hover:text-green-400 block" href="#timeline">Historical Timeline</a>
+      <a class="transition hover:text-green-400 block" href="#donate">Support Us</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="flex items-center justify-center hero-image text-center text-white" id="blog-hero">
+  <div class="px-4 container mx-auto">
+    <h1 class="font-bold text-4xl mb-4 md:text-6xl">Uncovering Crediton’s Past: A New Discovery</h1>
+    <p class="mb-8 md:text-2xl text-xl">March 15, 2025 | By Jane Doe</p>
+  </div>
+</section>
+
+<!-- Breadcrumbs with Previous and Next Article -->
+<nav class="flex justify-between items-center px-4 py-3 container mx-auto" aria-label="Breadcrumb">
+  <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
+     
+      <li class="inline-flex items-center">
+        <a href="#" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white">
+          <svg class="w-3 h-3 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+            <path d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z"/>
+          </svg>
+          Home
+        </a>
+      </li>
+      <li>
+        <div class="flex items-center">
+          <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+          </svg>
+          <a href="#" class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">Blog</a>
+        </div>
+      </li>
+      <li aria-current="page">
+        <div class="flex items-center">
+          <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+          </svg>
+          <span class="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">Article Title Here</span>
+        </div>
+      </li>
+    </ol>
+
+
+  <!-- Previous & Next Buttons -->
+  <div class="flex space-x-4 ml-auto">
+    <a href="#previous" class="text-gray-600 hover:text-gray-800 transition">
+      <span class="inline sm:hidden">←</span>
+      <span class="hidden sm:inline">← Previous Article</span>
+    </a>
+    <a href="#next" class="text-gray-600 hover:text-gray-800 transition">
+      <span class="inline sm:hidden">→</span>
+      <span class="hidden sm:inline">Next Article →</span>
+    </a>
+  </div>
+</nav>
+
+<!-- Blog Post Content Section -->
+  <section class="bg-white py-12" id="blog-content">
+    <div class="px-4 container mx-auto max-w-4xl">
+      <div class="mb-12">
+        <img alt="Historical Artifact" class="w-full h-96 object-cover rounded-lg shadow-md mb-6" src="/api/placeholder/800/600">
+        <p class="text-gray-600 italic text-center">A recently uncovered photograph of a pioneer family, circa 1850s.</p>
+      </div>
+
+      <div class="space-y-6">
+        <!-- Introduction -->
+        <p class="text-gray-600">Last month, while sifting through a donated collection of family papers, our team stumbled upon a remarkable find: a photograph and journal from one of Crediton’s earliest settlers. This discovery sheds new light on the community’s founding in the 1850s and reaffirms the importance of preserving our shared history.</p>
+
+        <!-- Main Content -->
+        <h2 class="font-bold text-2xl text-gray-800 mb-4">The Find</h2>
+        <p class="text-gray-600">The photograph, faded but intact, depicts a family standing in front of a log cabin—likely one of the Stahl or Fahrner families, given their prominence among Crediton’s German settlers. Accompanying it was a journal page dated 1852, detailing the challenges of clearing land in Stephen Township. The entry reads: <em>“The forest is thick, but each tree felled brings us closer to home.”</em></p>
+        
+        <blockquote class="border-l-4 border-green-600 pl-4 italic text-gray-600 mb-6">"The forest is thick, but each tree felled brings us closer to home." – Journal Entry, 1852</blockquote>
+
+        <p class="text-gray-600">This artifact not only personalizes the pioneer experience but also connects directly to Crediton Cemetery, where many of these early settlers, like Barbara Shulz (d. 1835), are buried.</p>
+
+        <!-- Reflection -->
+        <h2 class="font-bold text-2xl text-gray-800 mb-4">Why It Matters</h2>
+        <p class="text-gray-600">Findings like these remind us that history is not static—it evolves with each new story we uncover. They enrich our virtual exhibits, such as “Pioneers of Crediton,” and deepen our understanding of the resilience that built this community. We’re now working to digitize and preserve these items for public access.</p>
+
+        <!-- Call to Action -->
+        <p class="text-gray-600">Do you have old photos, letters, or stories from Crediton’s past? Your contributions could be the next key to unlocking our history. Get in touch with us to share!</p>
+      </div>
+
+      <div class="mt-12 pt-6 border-t border-gray-200 flex items-center justify-between">
+        <div class="flex items-center space-x-4">
+          <img alt="Jane Doe" class="w-12 h-12 rounded-full object-cover" src="/api/placeholder/100/100">
+          <div>
+            <p class="text-gray-800 font-semibold">Jane Doe</p>
+            <p class="text-gray-600 text-sm">Heritage Volunteer</p>
+          </div>
+        </div>
+        <div class="flex space-x-4">
+          <a href="#" class="text-gray-600 hover:text-green-600"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-gray-600 hover:text-green-600"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-gray-600 hover:text-green-600"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Related Content Section -->
+  <section class="bg-gray-100 py-12">
+    <div class="px-4 container mx-auto text-center">
+      <h2 class="font-bold text-3xl text-gray-800 mb-6">Explore More</h2>
+      <p class="text-gray-600 mx-auto max-w-3xl mb-8">Dive deeper into Crediton’s history with related exhibits and posts, or share your own insights with us.</p>
+      <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 justify-center">
+        <a href="#exhibits" class="font-bold text-white transition bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg">View Exhibits</a>
+        <a href="#contact" class="font-bold text-white transition bg-gray-700 hover:bg-gray-800 px-6 py-3 rounded-lg">Contribute a Story</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="px-4 container mx-auto text-center">
+      <p>© 2025 Crediton Cemetery Heritage Portal. All rights reserved.</p>
+      <div class="flex justify-center mt-4 space-x-6">
+        <a class="hover:text-white text-gray-400" href="#">Privacy Policy</a>
+        <a class="hover:text-white text-gray-400" href="#">Terms of Service</a>
+        <a class="hover:text-white text-gray-400" href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+<script>
+  document.getElementById('menu-toggle').addEventListener('click', () => {
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileMenu.classList.toggle('hidden');
+  });
+</script>
+
+</body>
+</html>
