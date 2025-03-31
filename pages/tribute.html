@@ -18,6 +18,63 @@
       border-bottom: 2px solid #10b981; /* Tailwind green-500 */
       color: #10b981;
     }
+
+.image-placeholder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Placeholder styling with shimmer effect */
+.image-placeholder::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #e5e7eb;  /* Tailwind's bg-gray-200 */
+  border-radius: inherit; /* Match the border-radius of the image */
+  animation: shimmer 1.5s infinite linear;
+}
+
+/* Improved Shimmer animation */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  50% {
+    background-position: 1000px 0;
+  }
+  100% {
+    background-position: -1000px 0;
+  }
+}
+
+/* Apply a smoother shimmer with multiple gradient layers */
+.image-placeholder::before {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.2) 25%, 
+    rgba(255, 255, 255, 0.4) 50%, 
+    rgba(255, 255, 255, 0.2) 75%
+  );
+  background-size: 2000px 100%;
+  animation: shimmer 2s infinite linear;
+}
+
+/* Image styling */
+.image-placeholder img {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* When the image is loaded, reveal it */
+.image-placeholder.loaded img {
+  opacity: 1;
+}
+
   </style>
 </head>
 <body class="bg-gray-50 font-sans">
@@ -77,7 +134,7 @@
         <div class="p-4 sm:p-6 space-y-4 overflow-y-auto flex-grow">
           <!-- Person Info with Share & Print Buttons -->
           <div class="flex flex-col sm:flex-row items-center">
-            <img id="tribute-image" alt="Tribute Photo" class="w-32 h-32 sm:w-40 sm:h-40 rounded-md mb-4 sm:mb-0 sm:mr-4 object-cover" src="/api/placeholder/400/300">
+            <img id="tribute-image" alt="Tribute Photo" class="w-32 h-32 sm:w-40 sm:h-40 rounded-md mb-4 sm:mb-0 sm:mr-4 object-cover image-placeholder" src="/api/placeholder/400/300">
             <div class="flex flex-col space-y-2 w-full">
               <p><strong>Birth Date:</strong> <span id="tribute-birth">N/A</span></p>
               <p><strong>Death Date:</strong> <span id="tribute-death">N/A</span></p>
@@ -141,17 +198,17 @@
             </div>
             <div class="mt-4">
               <div class="tab-content block" id="family-tree-content" role="tabpanel" aria-labelledby="family-tree-tab">
-                <div class="flex items-center justify-center h-64 bg-gray-50 rounded-lg" id="family-tree-placeholder">
+                <div class="flex items-center justify-center h-64 bg-white rounded-lg" id="family-tree-placeholder">
                   <p class="text-gray-500">Family tree data not available</p>
                 </div>
               </div>
               <div class="tab-content hidden" id="location-content" role="tabpanel" aria-labelledby="location-tab">
-                <div class="flex items-center justify-center h-64 bg-gray-50 rounded-lg">
+                <div class="flex items-center justify-center h-64 bg-white rounded-lg">
                   <p class="text-gray-500">No location data available</p>
                 </div>
               </div>
               <div class="tab-content hidden" id="photos-content" role="tabpanel" aria-labelledby="photos-tab">
-                <div class="flex items-center justify-center h-64 bg-gray-50 rounded-lg">
+                <div class="flex items-center justify-center h-64 bg-white rounded-lg">
                   <p class="text-gray-500">No photos available</p>
                 </div>
               </div>
