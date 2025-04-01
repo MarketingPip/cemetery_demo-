@@ -40,10 +40,27 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage=true) => {
           birth_date: record.birth_date,
           death_date: record.death_date,
           location: record.location,
-          memorial_url:record.memorial_url
+          memorial_url:record.memorial_url,
+          image_url:record.image_url
         };
+
+
+       // Delete unwanted fields explicitly to make sure they are removed
+  
+        delete record.cemetery;
+        delete record.bio;
+        delete record.parents;
+        delete record.spouses;
+        delete record.children;
+        delete record.siblings;
+        
       } 
 
+
+
+
+
+        
           
         
       } catch (e) {
