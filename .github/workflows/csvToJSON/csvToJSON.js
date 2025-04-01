@@ -64,7 +64,9 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
         delete record.children;
         delete record.siblings;
       }
-      
+
+
+     if(!homePage){
 
       // Step 4: Write each record to a separate JSON file in assets/people/[id]
       const recordDirectoryPath = './assets/people';
@@ -73,9 +75,13 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
       await fs.writeFile(recordFilePath, JSON.stringify(record, null, 2), 'utf8');
       console.log(`Record ${record.id} written to ${recordFilePath}`);
 
+     }
+       
       return record;
     });
 
+
+   if(homePage){
     // Wait for all the record files to be written asynchronously
     const processedRecords = await Promise.all(records);
 
@@ -84,6 +90,7 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
     console.log(`Data successfully written to ${outputFilePath}`);
 
     return processedRecords;
+   }
   } catch (error) {
     console.error('Error processing CSV:', error);
     throw error;
@@ -97,7 +104,16 @@ const outputFilePath = './assets/cemetery_data.json'; // Replace with your desir
 
 convertCsvToJson(inputFilePath, outputFilePath)
   .then((jsonData) => {
-    console.log('Processed JSON Data:', jsonData);
+    console.log('Processed JSON Data for Home Page');
+  })
+  .catch((error) => {
+    console.error('Error:', error);
+  });
+
+
+convertCsvToJson(inputFilePath, outputFilePath, false)
+  .then((jsonData) => {
+    console.log('Processed JSON Data for People IDs');
   })
   .catch((error) => {
     console.error('Error:', error);
