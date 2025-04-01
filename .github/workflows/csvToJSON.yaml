@@ -24,17 +24,12 @@ jobs:
 
     - name: Install dependencies
       run: |
-        npm install  # Install npm dependencies (ensure 'papaparse' and others are listed in package.json)
+        npm install  # Install npm dependencies
 
     - name: Run CSV to JSON conversion script
       run: |
-        node .github/workflows/csv-to-json.js  # Path to your script in .github/workflows/
+        node .github/workflows/csvToJSON/csvToJSON.js  # Path to your script in .github/workflows/
 
-    - name: Upload resulting JSON as artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: output-json
-        path: output.json  # Specify the path to your output JSON file
 
     - name: Commit and push changes
       run: |
