@@ -25,9 +25,26 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage=true) => {
         record.spouses = record.spouses ? JSON.parse(record.spouses.replace(/'/g, '"').replace(/None/g, 'null')) : [];
         }
         // Handle 'gps' field (replace single quotes and parse JSON string)
-        if (record.gps) {
+        if (record.gps && record.gps.trim().length != 0) {
           record.gps = JSON.parse(record.gps.replaceAll("'", "`"));
+        } else{
+          record.gps = null;
         }
+
+         // If homePage is true, filter only required fields
+      if (homePage) {
+        record = {
+          id: record.id,
+          gps: record.gps,
+          name: record.name,
+          birth_date: record.birth_date,
+          death_date: record.death_date,
+          location: record.location
+        };
+      } 
+
+          
+        
       } catch (e) {
          if(!homePage){
         // If any parsing fails, set 'parents' and 'spouses' as empty arrays
@@ -35,7 +52,7 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage=true) => {
         record.spouses = [];
          }
       }
-
+      record.gps = null;
       return record;
     });
 
