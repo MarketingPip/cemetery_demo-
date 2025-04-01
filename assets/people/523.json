@@ -1,10 +1,23 @@
 {
-  "id": 523,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/237941536/blake-heath",
   "name": "Blake Heath",
   "birth_date": "1903-00-00",
   "death_date": "1991-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "237941536/blake-heath",
-  "image_url": "https://images.findagrave.com/photos/2022/84/237941536_22d2af36-291c-4d1a-9f7a-cbd30dc6c081.jpeg?size=photos250"
+  "bio": "husband of Lyla M. Kuhn",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/237941536_22d2af36-291c-4d1a-9f7a-cbd30dc6c081.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Lyla M.  Kuhn Heath",
+      "birth_date": "1905-00-00",
+      "death_date": "1973-00-00",
+      "profile_url": "/memorial/237941496/lyla_m-heath"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 523
 }

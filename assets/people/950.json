@@ -1,10 +1,23 @@
 {
-  "id": 950,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188136801/harry-a-schroeder",
   "name": "Harry A. Schroeder",
   "birth_date": "1935-00-00",
   "death_date": "1998-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188136801/harry-a-schroeder",
-  "image_url": "https://images.findagrave.com/photos/2021/153/188136801_fd31fda9-a84f-47ed-8113-1c68e09b742f.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2021/153/188136801_fd31fda9-a84f-47ed-8113-1c68e09b742f.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Barbara \"June\" Alcock Dale-Schroeder",
+      "birth_date": "1935-00-00",
+      "death_date": "2014-00-00",
+      "profile_url": "/memorial/163961490/barbara-dale-schroeder"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 950
 }

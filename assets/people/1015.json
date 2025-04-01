@@ -1,10 +1,16 @@
 {
-  "id": 1015,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188137953/brett-james-stewardson",
   "name": "Brett James Stewardson",
   "birth_date": "1981-00-00",
   "death_date": "2000-06-18",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188137953/brett-james-stewardson",
-  "image_url": "https://images.findagrave.com/photos/2018/209/188137953_0ff535c4-5804-4281-ad44-5d8ef5cf5548.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2018/209/188137953_0ff535c4-5804-4281-ad44-5d8ef5cf5548.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1015
 }

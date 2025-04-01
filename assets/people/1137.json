@@ -1,10 +1,16 @@
 {
-  "id": 1137,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/235707413/mary-wein",
   "name": "Mary Wein",
   "birth_date": "1879-00-00",
   "death_date": "1961-06-02",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "235707413/mary-wein",
-  "image_url": "https://images.findagrave.com/photos/2022/110/235707413_2bf545c1-a840-4a50-995c-729dcf8bca83.jpeg?size=photos250"
+  "bio": "WEIN\nDaniel Wein<br/>son of Louis &amp; Elizabeth Wein<br/>died Dec. 3, 1916 ae 35 yrs<br/>Pte. David Charles Wein<br/>born July 12, 1888<br/>killed in action in France<br/>died May 14, 1915<br/>Mary Wein<br/>died June 2, 1961 ae 82 yrs.</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/110/235707413_2bf545c1-a840-4a50-995c-729dcf8bca83.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1137
 }

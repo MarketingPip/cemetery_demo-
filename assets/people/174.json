@@ -1,10 +1,36 @@
 {
-  "id": 174,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188036509/christopher-friederich-eilber",
   "name": "Christopher Friederich Eilber",
   "birth_date": "1830-01-22",
   "death_date": "1919-09-19",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188036509/christopher-friederich-eilber",
-  "image_url": "https://images.findagrave.com/photos/2021/153/188036509_262efeac-17c1-4975-8efa-a2910f9e1839.jpeg?size=photos250"
+  "bio": "EILBER\nFather<br/>Christopher Eilber<br/>died Set. 7, 1919<br/>aged 89 yrs. 7 mos. 15 days.<br/>Emma Eilber Unger <br/>1875-1950</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2021/153/188036509_262efeac-17c1-4975-8efa-a2910f9e1839.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Johann Frederich   Eilber",
+      "birth_date": "1791-00-00",
+      "death_date": "1875-00-00",
+      "profile_url": "/memorial/188036570/johann_frederich-eilber"
+    },
+    {
+      "name": "Magdalena  Gaiser Eilber",
+      "birth_date": "1807-00-00",
+      "death_date": "1864-00-00",
+      "profile_url": "/memorial/236915839/magdalena-eilber"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Catherine   Eilber",
+      "birth_date": "1833-00-00",
+      "death_date": "1919-00-00",
+      "profile_url": "/memorial/231229920/catherine-eilber"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 174
 }

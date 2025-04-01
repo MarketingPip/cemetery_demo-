@@ -1,10 +1,36 @@
 {
-  "id": 736,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15640086/freeman-wesley-morlock",
   "name": "Freeman Wesley Morlock",
   "birth_date": "1888-08-31",
   "death_date": "1967-09-02",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15640086/freeman-wesley-morlock",
-  "image_url": "https://images.findagrave.com/photos/2006/248/15640086_115755811388.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/248/15640086_115755811388.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "William H.   Morlock",
+      "birth_date": "1862-00-00",
+      "death_date": "1948-00-00",
+      "profile_url": "/memorial/15978472/william_h-morlock"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Addileen (Muriel)  Gaiser Morlock",
+      "birth_date": "1901-00-00",
+      "death_date": "1986-00-00",
+      "profile_url": "/memorial/15640203/addileen_(muriel)-morlock"
+    },
+    {
+      "name": "Clara  Wein Morlock",
+      "birth_date": "1895-00-00",
+      "death_date": "1922-00-00",
+      "profile_url": "/memorial/15640157/clara-morlock"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 736
 }

@@ -1,10 +1,29 @@
 {
-  "id": 988,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/151921397/george-smith",
   "name": "Corporal George Smith   VVeteran",
   "birth_date": "1890-00-00",
   "death_date": "1918-12-31",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "151921397/george-smith",
-  "image_url": "https://images.findagrave.com/photos/2022/78/151921397_74bfbfd3-fa9e-4343-a324-ae5275ea31ae.png?size=photos250"
+  "bio": "YOUR LIFE FOR YOUR COUNTRY YOU NOBLY GAVE <br/>AT REST",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/78/151921397_74bfbfd3-fa9e-4343-a324-ae5275ea31ae.png?size=photos250",
+  "parents": [
+    {
+      "name": "William   Smith",
+      "birth_date": "1850-00-00",
+      "death_date": "1935-00-00",
+      "profile_url": "/memorial/188136962/william-smith"
+    },
+    {
+      "name": "Nancy  Eggert Smith",
+      "birth_date": "1862-00-00",
+      "death_date": "1935-00-00",
+      "profile_url": "/memorial/188136961/nancy-smith"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 988
 }

@@ -1,10 +1,23 @@
 {
-  "id": 745,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15791455/julius-morlock",
   "name": "Julius Morlock",
   "birth_date": "1839-10-06",
   "death_date": "1884-04-25",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15791455/julius-morlock",
-  "image_url": "https://images.findagrave.com/photos/2006/260/15791455_115859111913.jpg?size=photos250"
+  "bio": "MORLOCK\nin memory of<br/>Julius Morlock<br/>born Oct. 6, 1839 died April 25, 1884<br/>George E. 'orlock<br/>born Nov. 29, 1877 died Sept. 1, 1878<br/>Mary Ellen Morlock<br/>born Jan. 9, 1882 died July 11, 1903<br/>children of the above<br/>(no wife for Julius on t.s)</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/260/15791455_115859111913.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Fredericka Louise Maria  Bohler Morlock",
+      "birth_date": "1798-00-00",
+      "death_date": "1877-00-00",
+      "profile_url": "/memorial/9952954/fredericka_louise_maria-morlock"
+    }
+  ],
+  "spouses": [],
+  "children": "[{\"name\": \"John Wallace   Morlock\", \"birth_date\": \"1863-00-00\", \"death_date\": \"1933-00-00\", \"profile_url\": \"/memorial/66781225/john_wallace-morlock\"}, {\"name\": \"George E.   Morlock\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1878-00-00\", \"profile_url\": \"/memorial/15791519/george_e-morlock\"}, {\"name\": \"Mary Ellen   Morlock\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1903-00-00\", \"profile_url\": \"/memorial/15791572/mary_ellen-morlock\"}]",
+  "siblings": "[{\"name\": \"Matthew   Morlock\", \"birth_date\": \"1828-00-00\", \"death_date\": \"1923-00-00\", \"profile_url\": \"/memorial/15395989/matthew-morlock\"}, {\"name\": \"Louisa  Morlock Faist\", \"birth_date\": \"1833-00-00\", \"death_date\": \"1914-00-00\", \"profile_url\": \"/memorial/236920169/louisa-faist\"}, {\"name\": \"Gottlieb   Morlock\", \"birth_date\": \"1836-00-00\", \"death_date\": \"1910-00-00\", \"profile_url\": \"/memorial/15978080/gottlieb-morlock\"}]",
+  "id": 745
 }

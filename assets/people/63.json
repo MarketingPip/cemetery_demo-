@@ -1,10 +1,23 @@
 {
-  "id": 63,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188035602/john-h_e-bishop",
   "name": "John H. E. Bishop",
   "birth_date": "1916-00-00",
   "death_date": "1994-07-25",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188035602/john-h_e-bishop",
-  "image_url": "https://images.findagrave.com/photos/2022/86/188035602_62efcb76-4d9b-4424-9ee6-447e639eada3.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/188035602_62efcb76-4d9b-4424-9ee6-447e639eada3.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Adeline Mary May  Herd Bishop",
+      "birth_date": "1914-00-00",
+      "death_date": "2005-00-00",
+      "profile_url": "/memorial/188035596/adeline_mary_may-bishop"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 63
 }

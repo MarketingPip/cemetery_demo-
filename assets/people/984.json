@@ -1,10 +1,29 @@
 {
-  "id": 984,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/163913876/allan-smith",
   "name": "Allan “Roy” Smith",
   "birth_date": "1942-00-00",
   "death_date": "2015-06-18",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "163913876/allan-smith",
-  "image_url": "https://images.findagrave.com/photos/2016/155/163913876_1465094656.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2016/155/163913876_1465094656.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Alfred \"Alf\"  Smith",
+      "birth_date": "1917-00-00",
+      "death_date": "1997-00-00",
+      "profile_url": "/memorial/188136924/alfred-smith"
+    },
+    {
+      "name": "Menota May  Lockhart Smith",
+      "birth_date": "1916-00-00",
+      "death_date": "1999-00-00",
+      "profile_url": "/memorial/188136956/menota_may-smith"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Judith Anne  Smith Glavin\", \"birth_date\": \"1950-00-00\", \"death_date\": \"1997-00-00\", \"profile_url\": \"/memorial/155106902/judith_anne-glavin\"}]",
+  "id": 984
 }

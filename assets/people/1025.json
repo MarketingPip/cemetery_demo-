@@ -1,10 +1,23 @@
 {
-  "id": 1025,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15187523/edith-augusta-sweitzer",
   "name": "Edith Augusta Mangnus Sweitzer",
   "birth_date": "1892-09-24",
   "death_date": "1958-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15187523/edith-augusta-sweitzer",
-  "image_url": "https://images.findagrave.com/photos/2006/219/15187523_115505307742.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/219/15187523_115505307742.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "William H.   Sweitzer",
+      "birth_date": "1887-00-00",
+      "death_date": "1969-00-00",
+      "profile_url": "/memorial/15187530/william_h-sweitzer"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1025
 }

@@ -1,10 +1,29 @@
 {
-  "id": 635,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188113421/samuel-krein",
   "name": "Samuel Krein",
   "birth_date": "1879-00-00",
   "death_date": "1880-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188113421/samuel-krein",
-  "image_url": "https://images.findagrave.com/photos/2022/111/188113421_298c7935-86ed-4fef-992d-55af3046b3c6.jpeg?size=photos250"
+  "bio": "KREIN\n(end)Elizabeth<br/>wife of John KREIN<br/>died Mar. 23, 1912<br/>Aged 75 years 27 days<br/>Asleep in Jesus<br/>(front)John KREIN<br/>died April 8, 1902<br/>aged 75 yrs. 7 mos.<br/>Samuel KREIN<br/>died April 25, 1880<br/>aged 1 yr. 1 month.<br/>(back)Paul Messner<br/>died May 12, 1875<br/>ae 45 yrs.<br/>John Messner<br/>died Oct. 4, 1864<br/>ae 4 yrs. 6 mos.<br/>Regina Messner<br/>died July 26, 1893<br/>ae 29 yrs. 10 mos.</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/111/188113421_298c7935-86ed-4fef-992d-55af3046b3c6.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "John   Krein",
+      "birth_date": "1821-00-00",
+      "death_date": "1902-00-00",
+      "profile_url": "/memorial/188113418/john-krein"
+    },
+    {
+      "name": "Elizabeth Catherine  Finkbeiner Messner Krein",
+      "birth_date": "1837-00-00",
+      "death_date": "1912-00-00",
+      "profile_url": "/memorial/236913526/elizabeth_catherine-messner_krein"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Leah  Krine Northcott\", \"birth_date\": \"1856-00-00\", \"death_date\": \"1883-00-00\", \"profile_url\": \"/memorial/16577419/leah-northcott\"}]",
+  "id": 635
 }

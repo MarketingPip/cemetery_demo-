@@ -1,10 +1,29 @@
 {
-  "id": 442,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188113101/murray-edward-glanville",
   "name": "Murray Edward Glanville",
   "birth_date": "1950-07-16",
   "death_date": "1970-10-24",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188113101/murray-edward-glanville",
-  "image_url": "https://images.findagrave.com/photos/2022/112/188113101_aa419280-6880-4cb4-807b-861d4e3ef6ce.jpeg?size=photos250"
+  "bio": "GLANVILLE\nIn Loving Memory <br/>Murray E. Glanville<br/>1950-1970</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/112/188113101_aa419280-6880-4cb4-807b-861d4e3ef6ce.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Frank Adam   Glanville",
+      "birth_date": "1928-00-00",
+      "death_date": "1968-00-00",
+      "profile_url": "/memorial/42491740/frank_adam-glanville"
+    },
+    {
+      "name": "Shirley Mae  Regele Glanville Preszcator",
+      "birth_date": "1930-00-00",
+      "death_date": "2015-00-00",
+      "profile_url": "/memorial/254233208/shirley_mae-glanville_preszcator"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"David Leslie   Glanville\", \"birth_date\": \"1956-00-00\", \"death_date\": \"2024-00-00\", \"profile_url\": \"/memorial/263253992/david_leslie-glanville\"}]",
+  "id": 442
 }

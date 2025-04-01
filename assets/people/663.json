@@ -1,10 +1,23 @@
 {
-  "id": 663,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/239220273/marilyn-lamport",
   "name": "Marilyn Galloway Lamport",
   "birth_date": "1946-00-00",
   "death_date": "",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "239220273/marilyn-lamport",
-  "image_url": "https://images.findagrave.com/photos/2022/116/239220273_b4cfd140-5b72-4b07-b7aa-ec624098ce77.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/116/239220273_b4cfd140-5b72-4b07-b7aa-ec624098ce77.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Dennis   Lamport",
+      "birth_date": "1946-00-00",
+      "death_date": null,
+      "profile_url": "/memorial/239220491/dennis-lamport"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 663
 }

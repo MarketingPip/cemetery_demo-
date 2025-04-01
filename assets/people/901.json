@@ -1,10 +1,23 @@
 {
-  "id": 901,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188136587/grant-l-roeszler",
   "name": "Grant L. Roeszler",
   "birth_date": "1928-00-00",
   "death_date": "2003-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188136587/grant-l-roeszler",
-  "image_url": "https://images.findagrave.com/photos/2022/84/188136587_8527c590-6022-4d9c-9d11-b999b35ef370.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/188136587_8527c590-6022-4d9c-9d11-b999b35ef370.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "A. Doreen  Page Roeszler",
+      "birth_date": "1931-00-00",
+      "death_date": "1996-00-00",
+      "profile_url": "/memorial/188136548/a_doreen-roeszler"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 901
 }

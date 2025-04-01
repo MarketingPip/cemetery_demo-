@@ -1,10 +1,29 @@
 {
-  "id": 579,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/239124117/dewitt-harvey-holtzmann",
   "name": "Dewitt Harvey Holtzmann",
   "birth_date": "1893-07-13",
   "death_date": "1893-08-20",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "239124117/dewitt-harvey-holtzmann",
-  "image_url": "https://images.findagrave.com/photos/2022/112/239124117_436aed45-67a0-4f71-ab28-9b02b66ef752.jpeg?size=photos250"
+  "bio": "HOLTZMANN\nMary Linhart<br/>wife of Geoge Holtzmann Sr.<br/>died Mar. 1, 1901<br/>aged 68 yrs. 10 mos. 27 days<br/>George Holtzmann Sr.<br/>died Sept. 13, 1906<br/>aged 85 yrs. 6 mos. 7 ds.<br/>George H. Holtzmann Jr.<br/>died July 23, 1913<br/>aged 55 yrs. 11 mos. 23 ds.<br/>Leah Haist his wife<br/>died Aug. 31, 1938<br/>aged 77 yrs. 2 mos.<br/>Emanuel Holtzmann<br/>died 17 Dec. 1885<br/>aged 26 yrs. 2 mos. 17 ds.<br/>Catherine Holtzmann<br/>died Feb. 1, 1894<br/>aged 30 yrs. 4 mos. 16 ds.<br/>Dewitt Harvey<br/>son of J.H. &amp; Ellen Holtzmann<br/>born July 13, 1893<br/>died Aug. 20, 1893</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/112/239124117_436aed45-67a0-4f71-ab28-9b02b66ef752.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Jacob   Holtzmann",
+      "birth_date": "1866-00-00",
+      "death_date": "1929-00-00",
+      "profile_url": "/memorial/15640045/jacob-holtzmann"
+    },
+    {
+      "name": "Ellen  Morlock Holtzmann",
+      "birth_date": "1862-00-00",
+      "death_date": "1959-00-00",
+      "profile_url": "/memorial/15640007/ellen-holtzmann"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 579
 }

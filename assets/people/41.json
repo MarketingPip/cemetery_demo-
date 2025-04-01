@@ -1,10 +1,16 @@
 {
-  "id": 41,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/238055736/brooke-l-bell",
   "name": "Brooke L. Bell",
   "birth_date": "1991-00-00",
   "death_date": "2019-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "238055736/brooke-l-bell",
-  "image_url": "https://images.findagrave.com/photos/2022/86/238055736_7a653564-bf6a-4dec-a75f-b0c333585187.jpeg?size=photos250"
+  "bio": "BELL\nour daughter<br/>Brooke L. Bell<br/>1991-2019<br/>daughter of David and Roxane</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/238055736_7a653564-bf6a-4dec-a75f-b0c333585187.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 41
 }

@@ -1,10 +1,23 @@
 {
-  "id": 520,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/164207142/gerald-ross-haugh",
   "name": "Gerald Ross Haugh",
   "birth_date": "1926-00-00",
   "death_date": "2013-10-19",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "164207142/gerald-ross-haugh",
-  "image_url": "https://images.findagrave.com/photos/2016/160/164207142_1465528565.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2016/160/164207142_1465528565.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Mabel Irene  Finkbeiner Haugh",
+      "birth_date": "1928-00-00",
+      "death_date": "2015-00-00",
+      "profile_url": "/memorial/163915897/mabel_irene-haugh"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 520
 }

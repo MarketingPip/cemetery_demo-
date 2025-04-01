@@ -1,10 +1,23 @@
 {
-  "id": 1155,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188139238/sophia-friedricka_joh-wichert",
   "name": "Sophia Friedricka Joh. Eggert Wichert",
   "birth_date": "1828-00-00",
   "death_date": "1911-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188139238/sophia-friedricka_joh-wichert",
-  "image_url": "https://images.findagrave.com/photos/2022/113/188139238_9584df1b-b317-4031-a3b7-d82b1d60f92e.jpeg?size=photos250"
+  "bio": "WICHERT\nHier Ruht<br/>Jocheim Wichert<br/>Gestorben 2 Mar. 1907<br/>Alter 78 Jahr 2 monat und 12 tage<br/>his wife Sophia Eggert<br/>1829-1911</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/113/188139238_9584df1b-b317-4031-a3b7-d82b1d60f92e.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Jocheim   Wichert",
+      "birth_date": "1829-00-00",
+      "death_date": "1907-00-00",
+      "profile_url": "/memorial/188139231/jocheim-wichert"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1155
 }

@@ -1,10 +1,23 @@
 {
-  "id": 702,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188115149/robert-martin",
   "name": "Robert Martin",
   "birth_date": "1896-10-29",
   "death_date": "1972-08-20",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188115149/robert-martin",
-  "image_url": "https://images.findagrave.com/photos/2022/84/188115149_0254d4ec-6f79-4e8f-9907-7c84ea9d1baa.jpeg?size=photos250"
+  "bio": "MARTIN\nBELOVED HUSBAND OF</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/188115149_0254d4ec-6f79-4e8f-9907-7c84ea9d1baa.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Sina  Seidell Martin",
+      "birth_date": "1910-00-00",
+      "death_date": "1994-00-00",
+      "profile_url": "/memorial/188115151/sina-martin"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 702
 }

@@ -1,10 +1,29 @@
 {
-  "id": 774,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15708060/trueman-uriah-motz",
   "name": "Trueman Uriah Motz",
   "birth_date": "1904-01-01",
   "death_date": "1905-04-01",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15708060/trueman-uriah-motz",
-  "image_url": "https://images.findagrave.com/photos/2006/254/15708060_115807371494.jpg?size=photos250"
+  "bio": "MOTZ\nBUDDED ON EARTH TO BLOOM IN HEAVEN<br/>Trueman Uriah<br/>son of J.S. &amp; L. Motz<br/>born Jan. 1, 1904<br/>died April 1, 1905<br/>Josiah Motz<br/>born 1874<br/>died 1944<br/>his wife Lucy E. Heywood<br/>born 1876<br/>died 1948<br/>MOTZ<br/>Henry Motz<br/>born May 10, 1834<br/>died Feb. 13, 1913<br/>his wife Wilhelimina<br/>born Sept. 28, 1837<br/>died Aug. 18, 1881<br/>his wife Elizabeth<br/>born Oct. 27, 1847<br/>died Dec. 27, 1888<br/>May they rest in peace</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/254/15708060_115807371494.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Josiah S.   Motz",
+      "birth_date": "1872-00-00",
+      "death_date": "1944-00-00",
+      "profile_url": "/memorial/15708092/josiah_s-motz"
+    },
+    {
+      "name": "Lucy Ellen  Heywood Motz",
+      "birth_date": "1876-00-00",
+      "death_date": "1948-00-00",
+      "profile_url": "/memorial/15708108/lucy_ellen-motz"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 774
 }

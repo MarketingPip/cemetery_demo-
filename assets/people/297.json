@@ -1,10 +1,36 @@
 {
-  "id": 297,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/16330377/erma-irene-finkbeiner",
   "name": "Erma Irene Finkbeiner",
   "birth_date": "1900-04-01",
   "death_date": "1964-06-04",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "16330377/erma-irene-finkbeiner",
-  "image_url": "https://images.findagrave.com/photos/2006/298/16330377_116187378258.jpg?size=photos250"
+  "bio": "THY WILL BE DONE\n<br/>THY WILL BE DONE<br/>FINKBEINER<br/>Erma Irene<br/>Finkbeiner<br/>1900-1964<br/>thy will be done</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/298/16330377_116187378258.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Christian   Finkbeiner",
+      "birth_date": "1852-00-00",
+      "death_date": "1933-00-00",
+      "profile_url": "/memorial/16331339/christian-finkbeiner"
+    },
+    {
+      "name": "Magdalena  Gaiser Finkbeiner",
+      "birth_date": "1858-00-00",
+      "death_date": "1927-00-00",
+      "profile_url": "/memorial/16331358/magdalena-finkbeiner"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Henry Charles   Beaver",
+      "birth_date": "1879-00-00",
+      "death_date": "1968-00-00",
+      "profile_url": "/memorial/15554242/henry_charles-beaver"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 297
 }

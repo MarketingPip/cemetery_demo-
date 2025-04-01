@@ -1,10 +1,30 @@
 {
-  "id": 735,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15135166/frederick-john-morlock",
   "name": "Frederick John Morlock",
   "birth_date": "1924-12-05",
   "death_date": "1993-05-12",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15135166/frederick-john-morlock",
-  "image_url": "https://images.findagrave.com/photos/2006/214/15135166_115461828688.jpg?size=photos250"
+  "bio": "MORLOCK\nFrederick John<br/>MORLOCK<br/>19241993</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/214/15135166_115461828688.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Chester Gordon   Morlock",
+      "birth_date": "1902-00-00",
+      "death_date": "1993-00-00",
+      "profile_url": "/memorial/16539090/chester_gordon-morlock"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Gladys Elaine  Becker Morlock",
+      "birth_date": "1926-00-00",
+      "death_date": "2018-00-00",
+      "profile_url": "/memorial/199415670/gladys_elaine-morlock"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 735
 }

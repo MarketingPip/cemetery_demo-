@@ -1,10 +1,23 @@
 {
-  "id": 872,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/40098358/katherine-jane-ratz",
   "name": "Katherine Jane Ratz",
   "birth_date": "1955-00-00",
   "death_date": "2009-06-29",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "40098358/katherine-jane-ratz",
-  "image_url": "https://images.findagrave.com/photos/2022/86/40098358_38b92954-88d3-43b3-acf1-325341f57be1.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/40098358_38b92954-88d3-43b3-acf1-325341f57be1.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "William John   Ratz",
+      "birth_date": "1950-00-00",
+      "death_date": "1999-00-00",
+      "profile_url": "/memorial/238054698/william_john-ratz"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 872
 }

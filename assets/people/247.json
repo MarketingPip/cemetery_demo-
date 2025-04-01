@@ -1,10 +1,30 @@
 {
-  "id": 247,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188036992/george-fahrner",
   "name": "George Fahrner",
   "birth_date": "1842-10-12",
   "death_date": "1918-03-06",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188036992/george-fahrner",
-  "image_url": "https://images.findagrave.com/photos/2022/110/236145580_1389ca45-ee97-434e-9285-fae7e13bc09c.jpeg?size=photos250"
+  "bio": "George Fahrner 75 yrs 5 mos.\ndied Mar. 6, 1918 aged 75 yrs. 5 mos.<br/>Sheltered and safe from sorrow<br/>Christina Tau his wife<br/>died April 26, 1927 aged 74 yrs. 4 mos. 21 dys.<br/>their daughter <br/>Della<br/>born 1889 <br/>died 1983</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/110/236145580_1389ca45-ee97-434e-9285-fae7e13bc09c.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Jacob   Fahner",
+      "birth_date": "1804-00-00",
+      "death_date": "1879-00-00",
+      "profile_url": "/memorial/188037051/jacob-fahner"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Christina  Rau Fahrner",
+      "birth_date": "1853-00-00",
+      "death_date": "1927-00-00",
+      "profile_url": "/memorial/188036944/christina-fahrner"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 247
 }

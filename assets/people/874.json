@@ -1,10 +1,23 @@
 {
-  "id": 874,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/237943693/margaret-ratz",
   "name": "Margaret Scott Ratz",
   "birth_date": "1926-00-00",
   "death_date": "2017-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "237943693/margaret-ratz",
-  "image_url": "https://images.findagrave.com/photos/2022/84/237943693_36f3b164-26d8-445d-ad67-d841a65d1f7c.jpeg?size=photos250"
+  "bio": "RATZ\nMilton E. Ratz<br/>1893-1954<br/>his beloved wife<br/>Ada Fassold<br/>1902-1978<br/>their son John M.<br/>1924-1979<br/>his wife Margaret Scott<br/>1926-2017<br/>their son Paul Milton<br/>1954-2011</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/237943693_36f3b164-26d8-445d-ad67-d841a65d1f7c.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "John M   Ratz",
+      "birth_date": "1924-00-00",
+      "death_date": "1979-00-00",
+      "profile_url": "/memorial/15561401/john_m-ratz"
+    }
+  ],
+  "children": "[{\"name\": \"Paul Milton   Ratz\", \"birth_date\": \"1954-00-00\", \"death_date\": \"2011-00-00\", \"profile_url\": \"/memorial/188136502/paul_milton-ratz\"}]",
+  "siblings": "[]",
+  "id": 874
 }

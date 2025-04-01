@@ -1,10 +1,36 @@
 {
-  "id": 1115,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/237943360/emerson-wein",
   "name": "Emerson Wein",
   "birth_date": "1896-00-00",
   "death_date": "1994-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "237943360/emerson-wein",
-  "image_url": "https://images.findagrave.com/photos/2022/84/237943360_0caeac6e-cb7e-430f-a406-bada2d730b2c.jpeg?size=photos250"
+  "bio": "WEIN \nEmerson Wein<br/>1896-1994<br/>his wife<br/>Laurene M. Hirtzel<br/>1906-1996</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/237943360_0caeac6e-cb7e-430f-a406-bada2d730b2c.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Gottfried   Wein",
+      "birth_date": "1861-00-00",
+      "death_date": "1949-00-00",
+      "profile_url": "/memorial/36941679/gottfried-wein"
+    },
+    {
+      "name": "Veronica  Haist Wein",
+      "birth_date": "1871-00-00",
+      "death_date": "1954-00-00",
+      "profile_url": "/memorial/237943128/veronica-wein"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Laurene M.  Hirtzel Wein",
+      "birth_date": "1906-00-00",
+      "death_date": "1996-00-00",
+      "profile_url": "/memorial/188139149/laurene_m-wein"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1115
 }

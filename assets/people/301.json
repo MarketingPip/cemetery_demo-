@@ -1,10 +1,29 @@
 {
-  "id": 301,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/16581582/frederick-george-finkbeiner",
   "name": "Frederick George Finkbeiner",
   "birth_date": "1886-03-09",
   "death_date": "1910-06-14",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "16581582/frederick-george-finkbeiner",
-  "image_url": "https://images.findagrave.com/photos/2006/312/16581582_116313774243.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/312/16581582_116313774243.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "John   Finkbeiner",
+      "birth_date": "1845-00-00",
+      "death_date": "1922-00-00",
+      "profile_url": "/memorial/16581535/john-finkbeiner"
+    },
+    {
+      "name": "Barbara  Mast Finkbeiner",
+      "birth_date": "1851-00-00",
+      "death_date": "1939-00-00",
+      "profile_url": "/memorial/16581553/barbara-finkbeiner"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Wesley P   Finkbeiner\", \"birth_date\": \"1894-00-00\", \"death_date\": \"1896-00-00\", \"profile_url\": \"/memorial/16581621/wesley_p-finkbeiner\"}]",
+  "id": 301
 }

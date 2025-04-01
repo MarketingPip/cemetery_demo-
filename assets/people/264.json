@@ -1,10 +1,23 @@
 {
-  "id": 264,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188037311/jacob-bernhardt-faist",
   "name": "Jacob Bernhardt Faist",
   "birth_date": "1827-00-00",
   "death_date": "1887-04-05",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188037311/jacob-bernhardt-faist",
-  "image_url": "https://images.findagrave.com/photos/2022/112/188037311_73f755a7-7b50-4c3b-add9-8c0f870e7ea7.jpeg?size=photos250"
+  "bio": "J. Bernhardt Faist\nGest den Apr. 5, 1887<br/>Alter 59 Jahre 4 mo. und 13 tage.<br/>Louisa <br/>wife of J. B.  Faist<br/>died Jan. 20, 1914<br/>ae 80 yrs. 10 mos. 28 ds.</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/112/188037311_73f755a7-7b50-4c3b-add9-8c0f870e7ea7.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Louisa  Morlock Faist",
+      "birth_date": "1833-00-00",
+      "death_date": "1914-00-00",
+      "profile_url": "/memorial/236920169/louisa-faist"
+    }
+  ],
+  "children": "[{\"name\": \"George Ezra   Faist\", \"birth_date\": \"1871-00-00\", \"death_date\": \"1956-00-00\", \"profile_url\": \"/memorial/188037270/george_ezra-faist\"}]",
+  "siblings": "[]",
+  "id": 264
 }

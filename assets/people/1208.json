@@ -1,10 +1,29 @@
 {
-  "id": 1208,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/89079987/thomas-pilley-yearley",
   "name": "Thomas Pilley Yearley",
   "birth_date": "1823-07-11",
   "death_date": "1904-04-11",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "89079987/thomas-pilley-yearley",
-  "image_url": ""
+  "bio": "",
+  "gps": null,
+  "image_url": "",
+  "parents": [
+    {
+      "name": "Thomas   Yearley",
+      "birth_date": "1791-00-00",
+      "death_date": "1852-00-00",
+      "profile_url": "/memorial/116659621/thomas-yearley"
+    },
+    {
+      "name": "Frances  Shailer Yearley",
+      "birth_date": "1793-00-00",
+      "death_date": "1837-00-00",
+      "profile_url": "/memorial/116660136/frances-yearley"
+    }
+  ],
+  "spouses": [],
+  "children": "[{\"name\": \"William Edward   Yearley\", \"birth_date\": \"1854-00-00\", \"death_date\": \"1924-00-00\", \"profile_url\": \"/memorial/36949356/william_edward-yearley\"}]",
+  "siblings": "[{\"name\": \"Sarah Elizabeth  Yearley Cripps\", \"birth_date\": \"1818-00-00\", \"death_date\": \"1889-00-00\", \"profile_url\": \"/memorial/116659884/sarah_elizabeth-cripps\"}, {\"name\": \"George Samuel   Yearley\", \"birth_date\": \"1820-00-00\", \"death_date\": \"1886-00-00\", \"profile_url\": \"/memorial/87513980/george_samuel-yearley\"}, {\"name\": \"William   Yearley\", \"birth_date\": \"1826-00-00\", \"death_date\": null, \"profile_url\": \"/memorial/116662359/william-yearley\"}, {\"name\": \"Frances Ann  Yearley Huxtable\", \"birth_date\": \"1829-00-00\", \"death_date\": \"1918-00-00\", \"profile_url\": \"/memorial/190379809/frances_ann-huxtable\"}, {\"name\": \"Martha Eliza Jane  Yearley White\", \"birth_date\": \"1834-00-00\", \"death_date\": \"1921-00-00\", \"profile_url\": \"/memorial/116662232/martha_eliza_jane-white\"}]",
+  "id": 1208
 }

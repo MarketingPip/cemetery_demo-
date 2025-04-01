@@ -1,10 +1,16 @@
 {
-  "id": 36,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/38583301/russell-frederick-beaver",
   "name": "Russell Frederick Beaver",
   "birth_date": "1935-04-22",
   "death_date": "2002-04-07",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "38583301/russell-frederick-beaver",
-  "image_url": "https://images.findagrave.com/photos/2022/86/38583301_94cd003a-cda2-4fbb-8b60-acc4ba3bf356.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/38583301_94cd003a-cda2-4fbb-8b60-acc4ba3bf356.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 36
 }

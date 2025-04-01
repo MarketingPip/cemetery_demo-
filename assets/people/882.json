@@ -1,10 +1,36 @@
 {
-  "id": 882,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/176218955/william-henry-ratz",
   "name": "William Henry Ratz",
   "birth_date": "1880-11-23",
   "death_date": "1957-11-10",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "176218955/william-henry-ratz",
-  "image_url": "https://images.findagrave.com/photos/2022/83/176218955_4b34a73c-113b-461f-9e9a-012cea5bc446.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/83/176218955_4b34a73c-113b-461f-9e9a-012cea5bc446.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "John   Ratz",
+      "birth_date": "1853-00-00",
+      "death_date": "1942-00-00",
+      "profile_url": "/memorial/16550765/john-ratz"
+    },
+    {
+      "name": "Barbara  Finkbeiner Ratz",
+      "birth_date": "1854-00-00",
+      "death_date": "1924-00-00",
+      "profile_url": "/memorial/16550802/barbara-ratz"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Lavina  Fahner Ratz",
+      "birth_date": "1884-00-00",
+      "death_date": "1960-00-00",
+      "profile_url": "/memorial/176219048/lavina-ratz"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 882
 }

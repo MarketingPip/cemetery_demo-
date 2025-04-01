@@ -1,10 +1,36 @@
 {
-  "id": 441,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/223107890/cecil-edward-glanville",
   "name": "Cecil Edward Glanville",
   "birth_date": "1938-00-00",
   "death_date": "2021-02-17",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "223107890/cecil-edward-glanville",
-  "image_url": "https://images.findagrave.com/photos/2021/49/223107890_d88b30b1-3cfb-45a4-9243-632fe98fa985.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2021/49/223107890_d88b30b1-3cfb-45a4-9243-632fe98fa985.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Wilbert Edward   Glanville",
+      "birth_date": "1909-00-00",
+      "death_date": "1961-00-00",
+      "profile_url": "/memorial/16576322/wilbert_edward-glanville"
+    },
+    {
+      "name": "Harriet Lucinda  Neeb Glanville",
+      "birth_date": "1907-00-00",
+      "death_date": "1977-00-00",
+      "profile_url": "/memorial/16576323/harriet_lucinda-glanville"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Betty A.  Roeszler Glanville",
+      "birth_date": "1935-00-00",
+      "death_date": "2013-00-00",
+      "profile_url": "/memorial/238057538/betty_a-glanville"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 441
 }

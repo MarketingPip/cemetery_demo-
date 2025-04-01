@@ -1,10 +1,36 @@
 {
-  "id": 431,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188113083/william-b-gaiser",
   "name": "William B. Gaiser",
   "birth_date": "1862-07-04",
   "death_date": "1934-04-07",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188113083/william-b-gaiser",
-  "image_url": "https://images.findagrave.com/photos/2022/115/188113083_b89bd9e4-80ef-4de7-b8df-6cabcfe637b2.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/115/188113083_b89bd9e4-80ef-4de7-b8df-6cabcfe637b2.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Adam   Gaiser",
+      "birth_date": "1822-00-00",
+      "death_date": "1894-00-00",
+      "profile_url": "/memorial/239154587/adam-gaiser"
+    },
+    {
+      "name": "Magdalena  Braun Gaiser",
+      "birth_date": "1828-00-00",
+      "death_date": "1919-00-00",
+      "profile_url": "/memorial/239154582/magdalena-gaiser"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Sarah R.  Schwartz Gaiser",
+      "birth_date": "1864-00-00",
+      "death_date": "1937-00-00",
+      "profile_url": "/memorial/188113073/sarah_r-gaiser"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 431
 }

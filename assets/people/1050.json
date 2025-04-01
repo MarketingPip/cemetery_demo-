@@ -1,10 +1,16 @@
 {
-  "id": 1050,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/236919818/william-sweitzer",
   "name": "William Sweitzer",
   "birth_date": "1851-05-11",
   "death_date": "1873-10-02",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "236919818/william-sweitzer",
-  "image_url": "https://images.findagrave.com/photos/2022/112/236919818_35d1febb-0e76-4413-bc8c-981a887bb434.jpeg?size=photos250"
+  "bio": "William Sweitzer\ndied Oct. 2, 1873<br/>Aged 22 years 4 months 22 days</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/112/236919818_35d1febb-0e76-4413-bc8c-981a887bb434.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1050
 }

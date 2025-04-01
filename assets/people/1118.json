@@ -1,10 +1,23 @@
 {
-  "id": 1118,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188139038/georg-f-wein",
   "name": "Georg F Wein",
   "birth_date": "1792-00-00",
   "death_date": "1880-02-04",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188139038/georg-f-wein",
-  "image_url": "https://images.findagrave.com/photos/2022/110/188139038_855e4c52-095a-47b8-96e3-5bb2037dc523.jpeg?size=photos250"
+  "bio": "WEIN\nHier Ruth<br/>Georg F. Wein<br/>Gest Den 4 Feb. 1880<br/>Alter 83 Jahr. 1 mo. 4 tag.<br/>Heir Ruth <br/>Regina Wein<br/>Gest Den 5 Sep. 1886<br/>Alter 85 Jahr. 6 mo. 12 tag.</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/110/188139038_855e4c52-095a-47b8-96e3-5bb2037dc523.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Regina   Wein",
+      "birth_date": "1801-00-00",
+      "death_date": "1886-00-00",
+      "profile_url": "/memorial/236168027/regina-wein"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1118
 }

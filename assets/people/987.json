@@ -1,10 +1,16 @@
 {
-  "id": 987,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/238903586/elizabeth-smith",
   "name": "Elizabeth Smith",
   "birth_date": "1884-00-00",
   "death_date": "1908-01-25",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "238903586/elizabeth-smith",
-  "image_url": "https://images.findagrave.com/photos/2022/113/238903586_98cded1f-498f-4f93-9be7-50b267993bbe.jpeg?size=photos250"
+  "bio": "SMITH\nElizabeth Smith<br/>died Jan. 25, 1908<br/>aged 24 yrs.</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/113/238903586_98cded1f-498f-4f93-9be7-50b267993bbe.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 987
 }

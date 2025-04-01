@@ -1,10 +1,36 @@
 {
-  "id": 44,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/140379011/lloyd-bender",
   "name": "Lloyd Bender",
   "birth_date": "1935-00-00",
   "death_date": "2014-12-02",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "140379011/lloyd-bender",
-  "image_url": "https://images.findagrave.com/photos/2022/84/140379011_65515587-0fd0-493b-81c8-05f0a355de50.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/140379011_65515587-0fd0-493b-81c8-05f0a355de50.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Gordon Jacob   Bender",
+      "birth_date": "1910-00-00",
+      "death_date": "1988-00-00",
+      "profile_url": "/memorial/16575399/gordon_jacob-bender"
+    },
+    {
+      "name": "Violet Mildred  Frayne Bender",
+      "birth_date": "1912-00-00",
+      "death_date": "1985-00-00",
+      "profile_url": "/memorial/16575398/violet_mildred-bender"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Phyllis Elizabeth  Workman Bender",
+      "birth_date": "1938-00-00",
+      "death_date": "2016-00-00",
+      "profile_url": "/memorial/160944435/phyllis_elizabeth-bender"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 44
 }

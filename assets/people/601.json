@@ -1,10 +1,36 @@
 {
-  "id": 601,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/184059068/wilhelmine-jesney",
   "name": "Wilhelmine Flynn Jesney",
   "birth_date": "1908-07-06",
   "death_date": "1990-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "184059068/wilhelmine-jesney",
-  "image_url": "https://images.findagrave.com/photos/2022/84/184059068_c8949298-c31a-432a-a9af-90e183ca2a65.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/184059068_c8949298-c31a-432a-a9af-90e183ca2a65.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Joseph William   Flynn",
+      "birth_date": "1876-00-00",
+      "death_date": "1957-00-00",
+      "profile_url": "/memorial/185772364/joseph_william-flynn"
+    },
+    {
+      "name": "Sarah Ann \"Annie\" Edwards Flynn",
+      "birth_date": "1876-00-00",
+      "death_date": "1943-00-00",
+      "profile_url": "/memorial/185771731/sarah_ann-flynn"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "John William \"Jack\"  Jesney",
+      "birth_date": "1908-00-00",
+      "death_date": "1989-00-00",
+      "profile_url": "/memorial/184059061/john_william-jesney"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 601
 }

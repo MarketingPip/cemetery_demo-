@@ -1,10 +1,23 @@
 {
-  "id": 366,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15426527/samuel-justice-finkbeiner",
   "name": "Samuel Justice Finkbeiner",
   "birth_date": "1885-04-25",
   "death_date": "1934-01-19",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15426527/samuel-justice-finkbeiner",
-  "image_url": "https://images.findagrave.com/photos/2006/231/15426527_115608030807.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/231/15426527_115608030807.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Hazel  Ramp Finkbeiner",
+      "birth_date": "1891-00-00",
+      "death_date": "1971-00-00",
+      "profile_url": "/memorial/99610062/hazel-finkbeiner"
+    }
+  ],
+  "children": "[{\"name\": \"Shirley Jean  Finkbeiner Caldwell\", \"birth_date\": \"1925-00-00\", \"death_date\": \"2011-00-00\", \"profile_url\": \"/memorial/75627448/shirley_jean-caldwell\"}, {\"name\": \"Maxine Lucille  Finkbeiner Booth\", \"birth_date\": \"1927-00-00\", \"death_date\": \"2023-00-00\", \"profile_url\": \"/memorial/249273011/maxine_lucille-booth\"}]",
+  "siblings": "[]",
+  "id": 366
 }

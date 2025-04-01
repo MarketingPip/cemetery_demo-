@@ -1,10 +1,23 @@
 {
-  "id": 711,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/236143979/sophia-mellin",
   "name": "Sophia Mellin",
   "birth_date": "1835-00-00",
   "death_date": "1906-06-01",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "236143979/sophia-mellin",
-  "image_url": "https://images.findagrave.com/photos/2022/110/236143979_07c9140f-c6ee-4dd4-ab6d-f3fce09535dc.jpeg?size=photos250"
+  "bio": "MELLIN\nIn Memory of Henry Mellin<br/>died Feb. 15, 1896 aged 67 yrs.<br/>his wife Sophia<br/>died June 1, 1906 aged 71 yrs.</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/110/236143979_07c9140f-c6ee-4dd4-ab6d-f3fce09535dc.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Henry   Mellin",
+      "birth_date": "1829-00-00",
+      "death_date": "1896-00-00",
+      "profile_url": "/memorial/188115179/henry-mellin"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 711
 }

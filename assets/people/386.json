@@ -1,10 +1,16 @@
 {
-  "id": 386,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/238576219/marie-glade-fydenchuk",
   "name": "Marie Glade King Fydenchuk",
   "birth_date": "1928-08-13",
   "death_date": "2021-07-16",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "238576219/marie-glade-fydenchuk",
-  "image_url": "https://images.findagrave.com/photos/2022/97/238576219_b9891499-0382-47d6-9b3f-ad4b7ddecdd6.png?size=photos250"
+  "bio": "Aged 92 years",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/97/238576219_b9891499-0382-47d6-9b3f-ad4b7ddecdd6.png?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 386
 }

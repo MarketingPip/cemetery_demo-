@@ -1,10 +1,23 @@
 {
-  "id": 200,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188036799/lloyd-england",
   "name": "Lloyd England",
   "birth_date": "1895-12-21",
   "death_date": "1977-11-25",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188036799/lloyd-england",
-  "image_url": "https://images.findagrave.com/photos/2022/86/188036799_3168683b-b991-48d1-8265-4382c7ca00b4.jpeg?size=photos250"
+  "bio": "ENGLAND\nLloyd England<br/>Dec. 21, 1895-Nov. 25, 1977<br/>his wife Beatrice Van Alstyne<br/>June 16, 1895-June 21, 1982<br/>dear parents of<br/>Gerald T.<br/>Jacque W. 1922-1979<br/>Ruth E.</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/188036799_3168683b-b991-48d1-8265-4382c7ca00b4.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Beatrice Alice  Van Alstyne England",
+      "birth_date": "1895-00-00",
+      "death_date": "1982-00-00",
+      "profile_url": "/memorial/188036788/beatrice_alice-england"
+    }
+  ],
+  "children": "[{\"name\": \"Jacque W.   England\", \"birth_date\": \"1922-00-00\", \"death_date\": \"1979-00-00\", \"profile_url\": \"/memorial/238056132/jacque_w-england\"}]",
+  "siblings": "[]",
+  "id": 200
 }

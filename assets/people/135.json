@@ -1,10 +1,29 @@
 {
-  "id": 135,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/208918865/phyllis-mv-collett",
   "name": "Phyllis M.V. Jesney Collett",
   "birth_date": "1931-00-00",
   "death_date": "2020-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "208918865/phyllis-mv-collett",
-  "image_url": "https://images.findagrave.com/photos/2022/86/208918865_ca17ae19-ba2e-45dd-9d66-0c1013e9fec9.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/208918865_ca17ae19-ba2e-45dd-9d66-0c1013e9fec9.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "John William \"Jack\"  Jesney",
+      "birth_date": "1908-00-00",
+      "death_date": "1989-00-00",
+      "profile_url": "/memorial/184059061/john_william-jesney"
+    },
+    {
+      "name": "Wilhelmine  Flynn Jesney",
+      "birth_date": "1908-00-00",
+      "death_date": "1990-00-00",
+      "profile_url": "/memorial/184059068/wilhelmine-jesney"
+    }
+  ],
+  "spouses": [],
+  "children": "[{\"name\": \"Vicki Lynn   Collette\", \"birth_date\": \"1965-00-00\", \"death_date\": \"2019-00-00\", \"profile_url\": \"/memorial/208919423/vicki_lynn-collette\"}]",
+  "siblings": "[{\"name\": \"Alvin John \\\"Al\\\"  Flynn\", \"birth_date\": \"1926-00-00\", \"death_date\": \"2005-00-00\", \"profile_url\": \"/memorial/220497721/alvin_john-flynn\"}, {\"name\": \"Lillian Anna Laura  Jesney Kuhn\", \"birth_date\": \"1929-00-00\", \"death_date\": \"2008-00-00\", \"profile_url\": \"/memorial/41012220/lillian_anna_laura-kuhn\"}, {\"name\": \"Betty Lou  Jesney Denomme\", \"birth_date\": \"1946-00-00\", \"death_date\": \"1966-00-00\", \"profile_url\": \"/memorial/155075624/betty_lou-denomme\"}, {\"name\": \"Leslie John \\\"Les\\\"  Jesney\", \"birth_date\": \"1947-00-00\", \"death_date\": \"2013-00-00\", \"profile_url\": \"/memorial/229628140/leslie_john-jesney\"}]",
+  "id": 135
 }

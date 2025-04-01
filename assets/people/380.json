@@ -1,10 +1,23 @@
 {
-  "id": 380,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/238903786/minnie-fritz",
   "name": "Minnie Fritz",
   "birth_date": "1861-00-00",
   "death_date": "1936-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "238903786/minnie-fritz",
-  "image_url": "https://images.findagrave.com/photos/2022/113/238903786_38236918-626a-446f-a1ad-2bb4ab0d576d.jpeg?size=photos250"
+  "bio": "FRITZ\nWilliam Fritz<br/>born June 3, 1862-died July 11, 1908<br/>HE IS NOT DEAD BUT SLEEPETH<br/>Minnie<br/>wife of William J. Fritz<br/>born 1861-died 1936<br/>at rest</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/113/238903786_38236918-626a-446f-a1ad-2bb4ab0d576d.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "William J   Fritz",
+      "birth_date": "1862-00-00",
+      "death_date": "1908-00-00",
+      "profile_url": "/memorial/188037461/william_j-fritz"
+    }
+  ],
+  "children": "[{\"name\": \"Verda Maria   Fritz\", \"birth_date\": \"1896-00-00\", \"death_date\": \"1898-00-00\", \"profile_url\": \"/memorial/239160701/verda_maria-fritz\"}]",
+  "siblings": "[]",
+  "id": 380
 }

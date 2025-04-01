@@ -1,10 +1,23 @@
 {
-  "id": 590,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15473126/matilda-dena-humble",
   "name": "Matilda Dena Finkbeiner Humble",
   "birth_date": "1882-03-18",
   "death_date": "1926-03-19",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15473126/matilda-dena-humble",
-  "image_url": "https://images.findagrave.com/photos/2006/234/15473126_115634778094.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/234/15473126_115634778094.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "John Alvin   Humble",
+      "birth_date": "1878-00-00",
+      "death_date": "1953-00-00",
+      "profile_url": "/memorial/15473164/john_alvin-humble"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 590
 }

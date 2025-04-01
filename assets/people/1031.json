@@ -1,10 +1,23 @@
 {
-  "id": 1031,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15660752/jacob-sweitzer",
   "name": "Jacob Sweitzer",
   "birth_date": "1848-08-14",
   "death_date": "1925-07-08",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15660752/jacob-sweitzer",
-  "image_url": "https://images.findagrave.com/photos/2006/249/15660752_115769063103.jpg?size=photos250"
+  "bio": "Jacob Sweitzer\n1848-1925</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/249/15660752_115769063103.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Rosena  Kuhn Sweitzer",
+      "birth_date": "1849-00-00",
+      "death_date": "1931-00-00",
+      "profile_url": "/memorial/15660778/rosena-sweitzer"
+    }
+  ],
+  "children": "[{\"name\": \"Edward William   Sweitzer\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1957-00-00\", \"profile_url\": \"/memorial/15660853/edward_william-sweitzer\"}, {\"name\": \"Joseph   Sweitzer\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1885-00-00\", \"profile_url\": \"/memorial/15660572/joseph-sweitzer\"}]",
+  "siblings": "[]",
+  "id": 1031
 }

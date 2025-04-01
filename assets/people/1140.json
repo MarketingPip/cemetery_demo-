@@ -1,10 +1,23 @@
 {
-  "id": 1140,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15662334/mathew-wein",
   "name": "Mathew Wein",
   "birth_date": "1837-05-03",
   "death_date": "1912-05-07",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15662334/mathew-wein",
-  "image_url": "https://images.findagrave.com/photos/2006/250/15662334_115772009245.jpg?size=photos250"
+  "bio": "WEIN\nSON<br/>JOHN. F. WEIN<br/>1879-1946<br/>HIS WIFE MARY M. FINKBEINER<br/>1879-1958<br/>HENRY WEIN <br/>BORN MAY 25, 1881<br/>DIED AUG. 18, 1908<br/>MATHEW WEIN<br/>DIED MAY 7, 1912<br/>AGED 75 YRS. 4 DS.<br/>HIS WIFE EVA FAHNER<br/>DIED JAN. 10, 1912<br/>AGED 73 YRS. 4 MOS. 26 DS.<br/>SAMUEL WEIN<br/>1887-1964<br/>JOSEPH WEIN <br/>1883-1968<br/>GORDON L. PASCOE<br/>1910-1986</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/250/15662334_115772009245.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Eva  Fahner Wein",
+      "birth_date": "1847-00-00",
+      "death_date": "1921-00-00",
+      "profile_url": "/memorial/15662423/eva-wein"
+    }
+  ],
+  "children": "[{\"name\": \"Susie  Wein Pope\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1930-00-00\", \"profile_url\": \"/memorial/227904713/susie-pope\"}, {\"name\": \"John F.   Wein\", \"birth_date\": \"1879-00-00\", \"death_date\": \"1946-00-00\", \"profile_url\": \"/memorial/15662677/john_f-wein\"}, {\"name\": \"Henry   Wein\", \"birth_date\": \"1881-00-00\", \"death_date\": \"1908-00-00\", \"profile_url\": \"/memorial/15662484/henry-wein\"}]",
+  "siblings": "[]",
+  "id": 1140
 }

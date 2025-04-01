@@ -1,10 +1,29 @@
 {
-  "id": 1199,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15848598/gottlieb-wuerth",
   "name": "Gottlieb Wuerth",
   "birth_date": "",
   "death_date": "",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15848598/gottlieb-wuerth",
-  "image_url": "https://images.findagrave.com/photos/2006/264/15848598_115893902775.jpg?size=photos250"
+  "bio": "WUERTH\nFrederick Wuerth<br/>1842-1927<br/>Wilhelmina his wife<br/>1848-1930<br/>Charles<br/>1883-1889<br/>Emma<br/>1878-1887<br/>Cornelia-Eva-Gottlieb<br/>died in infancy<br/>Sylvester Wuerth<br/>1891-1983<br/>his beloved wife<br/>Alda M. Wein<br/>1892-1976<br/>their daughter Florence<br/>no date</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/264/15848598_115893902775.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Frederick John   Wuerth",
+      "birth_date": "1842-00-00",
+      "death_date": "1927-00-00",
+      "profile_url": "/memorial/15848394/frederick_john-wuerth"
+    },
+    {
+      "name": "Wilhelmina  Wolfe Wuerth",
+      "birth_date": "1848-00-00",
+      "death_date": "1930-00-00",
+      "profile_url": "/memorial/15848446/wilhelmina-wuerth"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Catherine  Wuerth Haist\", \"birth_date\": \"1869-00-00\", \"death_date\": \"1947-00-00\", \"profile_url\": \"/memorial/16581433/catherine-haist\"}, {\"name\": \"Caroline M  Wuerth Morlock\", \"birth_date\": \"1872-00-00\", \"death_date\": \"1963-00-00\", \"profile_url\": \"/memorial/16539262/caroline_m-morlock\"}, {\"name\": \"Elizabeth Ann  Wuerth Faist\", \"birth_date\": \"1875-00-00\", \"death_date\": \"1967-00-00\", \"profile_url\": \"/memorial/188037238/elizabeth_ann-faist\"}, {\"name\": \"Emma   Wuerth\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1887-00-00\", \"profile_url\": \"/memorial/238061476/emma-wuerth\"}, {\"name\": \"Charles   Wuerth\", \"birth_date\": \"1883-00-00\", \"death_date\": \"1889-00-00\", \"profile_url\": \"/memorial/15848525/charles-wuerth\"}, {\"name\": \"Simon Sylvester   Wuerth\", \"birth_date\": \"1891-00-00\", \"death_date\": \"1983-00-00\", \"profile_url\": \"/memorial/15848637/simon_sylvester-wuerth\"}, {\"name\": \"Cornelia   Wuerth\", \"birth_date\": null, \"death_date\": null, \"profile_url\": \"/memorial/15848547/cornelia-wuerth\"}, {\"name\": \"Eva   Wuerth\", \"birth_date\": null, \"death_date\": null, \"profile_url\": \"/memorial/15848581/eva-wuerth\"}]",
+  "id": 1199
 }

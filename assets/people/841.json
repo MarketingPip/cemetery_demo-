@@ -1,10 +1,16 @@
 {
-  "id": 841,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/237918908/infant_son-pfaff",
   "name": "Infant son Pfaff",
   "birth_date": "1971-03-25",
   "death_date": "1971-03-25",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "237918908/infant_son-pfaff",
-  "image_url": "https://images.findagrave.com/photos/2022/83/237918908_b676f2d3-0849-4885-8b34-71adfcb7f88a.jpeg?size=photos250"
+  "bio": "Infant son of\nPhyllis &amp; Emery<br/>PFAFF<br/>Mar. 25, 1971</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/83/237918908_b676f2d3-0849-4885-8b34-71adfcb7f88a.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 841
 }

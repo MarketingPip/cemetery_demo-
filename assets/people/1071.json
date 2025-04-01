@@ -1,10 +1,16 @@
 {
-  "id": 1071,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/191738547/gertrude-treller",
   "name": "Gertrude Treller",
   "birth_date": "1906-12-18",
   "death_date": "1908-09-14",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "191738547/gertrude-treller",
-  "image_url": "https://images.findagrave.com/photos/2018/209/191738547_aa87d210-d11c-42c5-ac78-0e4e70f368e2.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2018/209/191738547_aa87d210-d11c-42c5-ac78-0e4e70f368e2.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1071
 }

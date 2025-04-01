@@ -1,10 +1,23 @@
 {
-  "id": 45,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/160944435/phyllis-elizabeth-bender",
   "name": "Phyllis Elizabeth Workman Bender",
   "birth_date": "1938-00-00",
   "death_date": "2016-04-06",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "160944435/phyllis-elizabeth-bender",
-  "image_url": "https://images.findagrave.com/photos/2016/144/163251995_1464145038.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2016/144/163251995_1464145038.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Lloyd   Bender",
+      "birth_date": "1935-00-00",
+      "death_date": "2014-00-00",
+      "profile_url": "/memorial/140379011/lloyd-bender"
+    }
+  ],
+  "children": "[{\"name\": \"Ralph Lloyd   Bender\", \"birth_date\": \"1956-00-00\", \"death_date\": \"2017-00-00\", \"profile_url\": \"/memorial/186095508/ralph_lloyd-bender\"}]",
+  "siblings": "[]",
+  "id": 45
 }

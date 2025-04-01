@@ -1,10 +1,29 @@
 {
-  "id": 1088,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/128167507/gerrit-jan-vandeworp",
   "name": "Gerrit Jan “Gerry” Vandeworp",
   "birth_date": "1936-05-15",
   "death_date": "2014-04-17",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "128167507/gerrit-jan-vandeworp",
-  "image_url": "https://images.findagrave.com/photos/2017/114/128167507_1493131634.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2017/114/128167507_1493131634.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Evert   Vandeworp",
+      "birth_date": "1908-00-00",
+      "death_date": "1959-00-00",
+      "profile_url": "/memorial/18061400/evert-vandeworp"
+    },
+    {
+      "name": "Antje  Roessink Vandeworp",
+      "birth_date": "1915-00-00",
+      "death_date": "1995-00-00",
+      "profile_url": "/memorial/18061406/antje-vandeworp"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Antje Evertina \\\"Annie\\\"  Vandeworp\", \"birth_date\": \"1943-00-00\", \"death_date\": \"1943-00-00\", \"profile_url\": \"/memorial/204752890/antje_evertina-vandeworp\"}, {\"name\": \"Aaltje Alberta \\\"Alie\\\" Van De Worp Forth\", \"birth_date\": \"1947-00-00\", \"death_date\": \"2016-00-00\", \"profile_url\": \"/memorial/158528845/aaltje_alberta-forth\"}, {\"name\": \"John William   Vandeworp\", \"birth_date\": \"1956-00-00\", \"death_date\": \"1957-00-00\", \"profile_url\": \"/memorial/18061423/john_william-vandeworp\"}]",
+  "id": 1088
 }

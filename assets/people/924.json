@@ -1,10 +1,29 @@
 {
-  "id": 924,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188136686/herbert-schenk",
   "name": "Herbert Schenk",
   "birth_date": "1896-00-00",
   "death_date": "1979-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188136686/herbert-schenk",
-  "image_url": "https://images.findagrave.com/photos/2022/113/239154345_8f6dd833-43a3-44b2-bd5b-4baa89541261.jpeg?size=photos250"
+  "bio": "WEIN\nGodfried Wein<br/>died Sept. 14, 1916<br/>aged 82 yrs. 1 mo. 2 ds.<br/>There are no partings in heaven<br/>Agnes his wife<br/>died Nov. 5, 1919<br/>aged 84 yrs. 8 ms. 28 ds.<br/>John George<br/>son of Godfried &amp; Agnes Wein<br/>died May 6, 1889<br/>aged 25 yrs. 9 mos. 6 ds.<br/>(back)Paul Schink<br/>1854-1939<br/>his wife Wilhelmina Wein<br/>1863-1943<br/>their son Herbert<br/>1896-1979</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/113/239154345_8f6dd833-43a3-44b2-bd5b-4baa89541261.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Paul   Schink",
+      "birth_date": "1854-00-00",
+      "death_date": "1939-00-00",
+      "profile_url": "/memorial/188136701/paul-schink"
+    },
+    {
+      "name": "Wilhelmina  Wein Schink",
+      "birth_date": "1863-00-00",
+      "death_date": "1943-00-00",
+      "profile_url": "/memorial/188136712/wilhelmina-schink"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Karl Nelson   Schink\", \"birth_date\": \"1885-00-00\", \"death_date\": \"1887-00-00\", \"profile_url\": \"/memorial/188136753/karl_nelson-schink\"}]",
+  "id": 924
 }

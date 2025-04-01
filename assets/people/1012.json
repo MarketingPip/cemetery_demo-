@@ -1,10 +1,29 @@
 {
-  "id": 1012,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15977964/mary-stanley",
   "name": "Mary Hoffmann Stanley",
   "birth_date": "1855-12-26",
   "death_date": "1891-07-19",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15977964/mary-stanley",
-  "image_url": "https://images.findagrave.com/photos/2006/275/15977964_115988379079.jpg?size=photos250"
+  "bio": "d:\nHOFFMANN<br/>Christian Hofffann<br/>born Aug. 1, 1862-died Apr. 14, 1926<br/>his wife Hannah Balsden<br/>Dec. 28, 1862-Mar. 2, 1937<br/>their son Charlie<br/>born Oct. 20, 1906-died Apr. 11, 1981<br/>his wife Clara Morlock<br/>born Jan. 4, 1902-died Apr. 30, 1988<br/>(back)Peter Hoffmann<br/>born Mar.3, 1826-died Jan. 5, 1913<br/>his wife Johanna Callfas<br/>born Mar. 10, 1835-died Feb. 5, 1918<br/>their daughters<br/>Eliza Ann Hoffmann<br/>born May 11, 1866-died Apr. 15, 1890<br/>Mary Hoffmann<br/>wife of H. Stanley<br/>born Dec. 26, 1855-died July 19, 1891</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/275/15977964_115988379079.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Peter   Hoffmann",
+      "birth_date": "1826-00-00",
+      "death_date": "1913-00-00",
+      "profile_url": "/memorial/15977860/peter-hoffmann"
+    },
+    {
+      "name": "Johanna  Callfas Hoffmann",
+      "birth_date": "1835-00-00",
+      "death_date": "1918-00-00",
+      "profile_url": "/memorial/15977902/johanna-hoffmann"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Wilhelmina  Hoffman Stanley\", \"birth_date\": \"1854-00-00\", \"death_date\": \"1943-00-00\", \"profile_url\": \"/memorial/171870426/wilhelmina-stanley\"}, {\"name\": \"Christian   Hoffmann\", \"birth_date\": \"1862-00-00\", \"death_date\": \"1926-00-00\", \"profile_url\": \"/memorial/15977561/christian-hoffmann\"}, {\"name\": \"Eliza Ann   Hoffmann\", \"birth_date\": \"1866-00-00\", \"death_date\": \"1890-00-00\", \"profile_url\": \"/memorial/15977947/eliza_ann-hoffmann\"}, {\"name\": \"Wilhelm Henry   Hoffman\", \"birth_date\": \"1869-00-00\", \"death_date\": \"1942-00-00\", \"profile_url\": \"/memorial/184981119/wilhelm_henry-hoffman\"}]",
+  "id": 1012
 }

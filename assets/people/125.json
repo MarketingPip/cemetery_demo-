@@ -1,10 +1,16 @@
 {
-  "id": 125,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/277492908/john-ross-bullock",
   "name": "John Ross Bullock",
   "birth_date": "",
   "death_date": "2024-12-15",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "277492908/john-ross-bullock",
-  "image_url": ""
+  "bio": "",
+  "gps": null,
+  "image_url": "",
+  "parents": [],
+  "spouses": [],
+  "children": "[{\"name\": \"Arron John   Bullock\", \"birth_date\": \"1968-00-00\", \"death_date\": \"2007-00-00\", \"profile_url\": \"/memorial/41011929/arron_john-bullock\"}]",
+  "siblings": "[]",
+  "id": 125
 }

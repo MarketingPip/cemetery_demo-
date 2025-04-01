@@ -1,10 +1,36 @@
 {
-  "id": 1021,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15660817/adeline-priscilla-sweitzer",
   "name": "Adeline Priscilla Kaercher Sweitzer",
   "birth_date": "1879-05-04",
   "death_date": "1953-03-25",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15660817/adeline-priscilla-sweitzer",
-  "image_url": "https://images.findagrave.com/photos/2006/249/15660817_115769136749.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/249/15660817_115769136749.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Aaron   Kaercher",
+      "birth_date": "1853-00-00",
+      "death_date": "1916-00-00",
+      "profile_url": "/memorial/34372450/aaron-kaercher"
+    },
+    {
+      "name": "Sarah  Thaler Kaercher",
+      "birth_date": "1856-00-00",
+      "death_date": "1931-00-00",
+      "profile_url": "/memorial/34372538/sarah-kaercher"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Edward William   Sweitzer",
+      "birth_date": "1878-00-00",
+      "death_date": "1957-00-00",
+      "profile_url": "/memorial/15660853/edward_william-sweitzer"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1021
 }

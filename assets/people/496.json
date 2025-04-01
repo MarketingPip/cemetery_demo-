@@ -1,10 +1,36 @@
 {
-  "id": 496,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/16581414/john-haist",
   "name": "John Haist",
   "birth_date": "1865-00-00",
   "death_date": "1953-03-08",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "16581414/john-haist",
-  "image_url": "https://images.findagrave.com/photos/2006/312/16581414_116313637231.jpg?size=photos250"
+  "bio": "HAIST HIS WIFE THEIR DAUGHTER",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/312/16581414_116313637231.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "August   Haist",
+      "birth_date": "1839-00-00",
+      "death_date": "1912-00-00",
+      "profile_url": "/memorial/15697730/august-haist"
+    },
+    {
+      "name": "Barbara  Heist Haist",
+      "birth_date": "1836-00-00",
+      "death_date": "1918-00-00",
+      "profile_url": "/memorial/15697770/barbara-haist"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Catherine  Wuerth Haist",
+      "birth_date": "1869-00-00",
+      "death_date": "1947-00-00",
+      "profile_url": "/memorial/16581433/catherine-haist"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 496
 }

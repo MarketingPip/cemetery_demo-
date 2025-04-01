@@ -1,10 +1,36 @@
 {
-  "id": 1179,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/35456399/frederich-wilhelm-witzel",
   "name": "Frederich Wilhelm “Bill” Witzel",
   "birth_date": "1857-03-29",
   "death_date": "1935-03-05",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "35456399/frederich-wilhelm-witzel",
-  "image_url": "https://images.findagrave.com/photos/2020/227/35456399_5301cedc-9df3-40bc-8703-2df8c5ce020e.jpeg?size=photos250"
+  "bio": "ALEX NEEB 1876-1948\nHIS WIFE BARBARA WITZEL\n1883-1940\nTHEIR CHILDREN\nALFRED 1907-1909\nHARVEY 1920-1964\nESTHER 1910-1968\nWILLIAM WITZEL\nBORN MAR. 29, 1857\nDIED MAR. 5, 1935\nHIS WIFE MARY FINKBEINER\nBORN MAY 2, 1860-DIED MAY 3, 1927\nIRENE WITZEL\nBORN 1899-DIED 1947</br></br></br></br></br></br></br></br></br></br></br></br></br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2020/227/35456399_5301cedc-9df3-40bc-8703-2df8c5ce020e.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Johannes   Witzel",
+      "birth_date": "1820-00-00",
+      "death_date": "1917-00-00",
+      "profile_url": "/memorial/34871304/johannes-witzel"
+    },
+    {
+      "name": "Dorothea Rebecca \"Anna\" Schlarbaum Witzel",
+      "birth_date": "1824-00-00",
+      "death_date": "1897-00-00",
+      "profile_url": "/memorial/34871014/dorothea_rebecca-witzel"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Maria Anna \"Mary\" Finkbeiner Witzel",
+      "birth_date": "1860-00-00",
+      "death_date": "1927-00-00",
+      "profile_url": "/memorial/35457385/maria_anna-witzel"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1179
 }

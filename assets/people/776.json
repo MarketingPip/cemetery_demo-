@@ -1,10 +1,23 @@
 {
-  "id": 776,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/16627045/william-john-motz",
   "name": "William John Motz",
   "birth_date": "1893-11-21",
   "death_date": "1970-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "16627045/william-john-motz",
-  "image_url": "https://images.findagrave.com/photos/2006/315/16627045_116339441937.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/315/16627045_116339441937.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Bertha Elizabeth  Horney Motz",
+      "birth_date": "1899-00-00",
+      "death_date": "1969-00-00",
+      "profile_url": "/memorial/16627087/bertha_elizabeth-motz"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 776
 }

@@ -1,10 +1,16 @@
 {
-  "id": 1092,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/16539672/zella-erica-vaughan",
   "name": "Zella Erica Lamport Vaughan",
   "birth_date": "1899-11-07",
   "death_date": "2003-03-14",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "16539672/zella-erica-vaughan",
-  "image_url": "https://images.findagrave.com/photos/2006/310/16539672_116291382759.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/310/16539672_116291382759.jpg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1092
 }

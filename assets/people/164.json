@@ -1,10 +1,36 @@
 {
-  "id": 164,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188036387/harold-james-edwards",
   "name": "Harold James “Jim” Edwards",
   "birth_date": "1921-02-24",
   "death_date": "1989-03-05",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188036387/harold-james-edwards",
-  "image_url": "https://images.findagrave.com/photos/2022/86/188036387_8e562edd-2be2-4bfa-9635-db2c1bbec7a3.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/188036387_8e562edd-2be2-4bfa-9635-db2c1bbec7a3.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "John James   Edwards",
+      "birth_date": "1877-00-00",
+      "death_date": "1945-00-00",
+      "profile_url": "/memorial/197142037/john_james-edwards"
+    },
+    {
+      "name": "Isabella \"Bella\" Sims Edwards",
+      "birth_date": "1884-00-00",
+      "death_date": "1959-00-00",
+      "profile_url": "/memorial/197142178/isabella-edwards"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Doris Evelynn  Sims Edwards",
+      "birth_date": "1926-00-00",
+      "death_date": "2018-00-00",
+      "profile_url": "/memorial/236382714/doris_evelynn-edwards"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 164
 }

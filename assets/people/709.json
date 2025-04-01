@@ -1,10 +1,16 @@
 {
-  "id": 709,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/236144082/ethel-viola-mellin",
   "name": "Ethel Viola Mellin",
   "birth_date": "1883-00-00",
   "death_date": "1884-10-17",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "236144082/ethel-viola-mellin",
-  "image_url": "https://images.findagrave.com/photos/2022/110/236144082_1a510c0d-a1c9-423e-8b32-c35f70bd914c.jpeg?size=photos250"
+  "bio": "MELLIN\nIn Memory of Ethel Viola Mellin<br/>daughter of Adolph &amp; Susanna Mellin<br/>died Oct, 17, 1884 aged 1 yr. 28 ds.<br/>Not lost, blest thought<br/>But gone before<br/>Where we will meet<br/>To part no more</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/110/236144082_1a510c0d-a1c9-423e-8b32-c35f70bd914c.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 709
 }

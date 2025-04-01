@@ -1,10 +1,23 @@
 {
-  "id": 907,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/239172496/rosena-roeszler",
   "name": "Rosena Roeszler",
   "birth_date": "1822-03-11",
   "death_date": "1913-05-28",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "239172496/rosena-roeszler",
-  "image_url": "https://images.findagrave.com/photos/2022/114/239172496_8475af6f-18b5-45a6-821d-0380e20299c3.jpeg?size=photos250"
+  "bio": "GONE  BUT NOT FORGOTTEN\nROESZLER<br/>at rest<br/>George Roeszler<br/>born Oct. 26, 1826<br/>died Feb. 19, 1882<br/>Rosena his wife<br/>born Mar. 11, 1822<br/>died May 28, 1913<br/>Gone but not forgotten</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/114/239172496_8475af6f-18b5-45a6-821d-0380e20299c3.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "George   Roeszler",
+      "birth_date": "1826-00-00",
+      "death_date": "1882-00-00",
+      "profile_url": "/memorial/188136585/george-roeszler"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 907
 }

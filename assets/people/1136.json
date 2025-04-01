@@ -1,10 +1,16 @@
 {
-  "id": 1136,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/237944589/marven-leroy-wein",
   "name": "Marven Leroy Wein",
   "birth_date": "1929-00-00",
   "death_date": "2015-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "237944589/marven-leroy-wein",
-  "image_url": "https://images.findagrave.com/photos/2022/84/237944589_4087724c-0576-4576-93d6-18e2c5f203a7.jpeg?size=photos250"
+  "bio": "WEIN\nMarven Leroy<br/>1929-2015<br/>infant 1955 son<br/>Leonard Leroy</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/237944589_4087724c-0576-4576-93d6-18e2c5f203a7.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[{\"name\": \"Leonard Leroy   Wein\", \"birth_date\": \"1955-00-00\", \"death_date\": \"1955-00-00\", \"profile_url\": \"/memorial/188139174/leonard_leroy-wein\"}]",
+  "siblings": "[]",
+  "id": 1136
 }

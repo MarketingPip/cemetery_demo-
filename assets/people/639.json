@@ -1,10 +1,29 @@
 {
-  "id": 639,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188113453/adam-kuhn",
   "name": "Adam Kuhn",
   "birth_date": "1861-02-18",
   "death_date": "1883-04-16",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188113453/adam-kuhn",
-  "image_url": "https://images.findagrave.com/photos/2022/110/188113453_459dfcc4-9123-4539-a286-a0db38cfc224.jpeg?size=photos250"
+  "bio": "KUHN\nJOHN KUHN 1822-1900<br/>JOHANNA WIFE OF JOHN KUHN<br/>SEPT. 23, 1819-APR. 15, 1885<br/>HIER RUHT ADAM KUHN<br/>SON OF JOHN &amp; JOHANNA KUHN<br/>BORN FEB. 18, 1861 DIED APRIL 16, 1883</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/110/188113453_459dfcc4-9123-4539-a286-a0db38cfc224.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "John   Kuhn",
+      "birth_date": "1822-00-00",
+      "death_date": "1900-00-00",
+      "profile_url": "/memorial/235789634/john-kuhn"
+    },
+    {
+      "name": "Johanna   Kuhn",
+      "birth_date": "1819-00-00",
+      "death_date": "1885-00-00",
+      "profile_url": "/memorial/235789633/johanna-kuhn"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 639
 }

@@ -1,10 +1,16 @@
 {
-  "id": 707,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/272332481/john-mcdonald",
   "name": "John McDonald",
   "birth_date": "",
   "death_date": "1952-01-25",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "272332481/john-mcdonald",
-  "image_url": "https://images.findagrave.com/photos/2024/192/272332481_74a9bfb5-c998-477b-8763-25e826ed2bd7.png?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2024/192/272332481_74a9bfb5-c998-477b-8763-25e826ed2bd7.png?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 707
 }

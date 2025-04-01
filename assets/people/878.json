@@ -1,10 +1,23 @@
 {
-  "id": 878,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/163953310/olive-ila-ratz",
   "name": "Olive Ila Dinsdale Ratz",
   "birth_date": "1922-00-00",
   "death_date": "2014-08-02",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "163953310/olive-ila-ratz",
-  "image_url": "https://images.findagrave.com/photos/2016/156/163953310_1465171698.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2016/156/163953310_1465171698.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Earl W.   Ratz",
+      "birth_date": "1914-00-00",
+      "death_date": "1999-00-00",
+      "profile_url": "/memorial/188136478/earl_w-ratz"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 878
 }

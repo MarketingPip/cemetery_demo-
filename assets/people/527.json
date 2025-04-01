@@ -1,10 +1,23 @@
 {
-  "id": 527,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188113176/frederick-heitzman",
   "name": "Frederick Heitzman",
   "birth_date": "1840-00-00",
   "death_date": "1911-09-06",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188113176/frederick-heitzman",
-  "image_url": "https://images.findagrave.com/photos/2022/112/188113176_b65fa4bf-a38c-4a83-9321-d73e6b6c7a2b.jpeg?size=photos250"
+  "bio": "HEITZMAN\nFrederick Heitzman<br/>died Sept. 16, 1911<br/>aged 71 yrs. 3 mos.<br/>JESUS HAS COME AND BORNE THEE HOME, BEYOND THE STORMY BLAST</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/112/188113176_b65fa4bf-a38c-4a83-9321-d73e6b6c7a2b.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Dorothea  Eilber Heitzman",
+      "birth_date": "1845-00-00",
+      "death_date": "1884-00-00",
+      "profile_url": "/memorial/239063998/dorothea-heitzman"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 527
 }

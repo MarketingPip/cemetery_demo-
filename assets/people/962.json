@@ -1,10 +1,23 @@
 {
-  "id": 962,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15638477/william-michael-schwartz",
   "name": "William Michael Schwartz",
   "birth_date": "1897-01-31",
   "death_date": "1986-12-06",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15638477/william-michael-schwartz",
-  "image_url": "https://images.findagrave.com/photos/2006/248/15638477_115754744060.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/248/15638477_115754744060.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Alma Louise  Finkbeiner Schwartz",
+      "birth_date": "1900-00-00",
+      "death_date": "1987-00-00",
+      "profile_url": "/memorial/15638449/alma_louise-schwartz"
+    }
+  ],
+  "children": "[{\"name\": \"Claire Milton   Schwartz\", \"birth_date\": \"1934-00-00\", \"death_date\": \"2006-00-00\", \"profile_url\": \"/memorial/41013822/claire_milton-schwartz\"}]",
+  "siblings": "[]",
+  "id": 962
 }

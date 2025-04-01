@@ -1,10 +1,36 @@
 {
-  "id": 1153,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/70676033/william-henry-wenzel",
   "name": "William Henry Wenzel",
   "birth_date": "1857-09-29",
   "death_date": "1924-08-27",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "70676033/william-henry-wenzel",
-  "image_url": "https://images.findagrave.com/photos/2013/267/70676033_138016423803.jpg?size=photos250"
+  "bio": "WENZEL\nDora Wenzel\nwife of Frank Behnke\nborn Mar. 1, 1883<br/>died Nov. 1, 1923<br/>William H. Wenzel<br/>born Sept. 29, 1857<br/>died Aug. 27, 1924<br/>his wife Mary Eilber<br/>born July 19, 1860<br/>died Nov. 15, 1945<br/>(back)Catherine Wenzel<br/>born Mar. 11, 1852<br/>died Apr. 4, 1915<br/>aged 53 yrs.</br></br></br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2013/267/70676033_138016423803.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Heinrich   Wenzel",
+      "birth_date": "1813-00-00",
+      "death_date": "1880-00-00",
+      "profile_url": "/memorial/121895751/heinrich-wenzel"
+    },
+    {
+      "name": "Christina  Focht Wenzel",
+      "birth_date": "1822-00-00",
+      "death_date": "1890-00-00",
+      "profile_url": "/memorial/92883674/christina-wenzel"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Mary Ann  Eilber Wenzel",
+      "birth_date": "1860-00-00",
+      "death_date": "1945-00-00",
+      "profile_url": "/memorial/117647896/mary_ann-wenzel"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1153
 }

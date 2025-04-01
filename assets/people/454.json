@@ -1,10 +1,36 @@
 {
-  "id": 454,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15563013/milton-isaac-gower",
   "name": "Milton Isaac Gower",
   "birth_date": "1912-00-00",
   "death_date": "1986-08-25",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15563013/milton-isaac-gower",
-  "image_url": "https://images.findagrave.com/photos/2006/242/15563013_115703062900.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/242/15563013_115703062900.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Isaac Henry   Gower",
+      "birth_date": "1883-00-00",
+      "death_date": "1965-00-00",
+      "profile_url": "/memorial/15563690/isaac_henry-gower"
+    },
+    {
+      "name": "Mary  Pfaff Gower",
+      "birth_date": "1886-00-00",
+      "death_date": "1988-00-00",
+      "profile_url": "/memorial/15563745/mary-gower"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Marjorie K.  Kleinfeldt Gower",
+      "birth_date": "1915-00-00",
+      "death_date": "1971-00-00",
+      "profile_url": "/memorial/15563034/marjorie_k-gower"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 454
 }

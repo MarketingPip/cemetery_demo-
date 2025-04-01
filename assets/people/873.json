@@ -1,10 +1,36 @@
 {
-  "id": 873,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/176219048/lavina-ratz",
   "name": "Lavina Fahner Ratz",
   "birth_date": "1884-03-21",
   "death_date": "1960-09-10",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "176219048/lavina-ratz",
-  "image_url": "https://images.findagrave.com/photos/2022/83/176219048_51cba7cb-49a4-4239-bb2c-d7d4b35f2931.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/83/176219048_51cba7cb-49a4-4239-bb2c-d7d4b35f2931.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "John   Fahner",
+      "birth_date": "1854-00-00",
+      "death_date": "1942-00-00",
+      "profile_url": "/memorial/176230513/john-fahner"
+    },
+    {
+      "name": "Catherine  Gaiser Fahner",
+      "birth_date": "1859-00-00",
+      "death_date": "1936-00-00",
+      "profile_url": "/memorial/176230355/catherine-fahner"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "William Henry   Ratz",
+      "birth_date": "1880-00-00",
+      "death_date": "1957-00-00",
+      "profile_url": "/memorial/176218955/william_henry-ratz"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 873
 }

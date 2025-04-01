@@ -1,10 +1,29 @@
 {
-  "id": 641,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/16330289/caroline-kuhn",
   "name": "Caroline Kuhn",
   "birth_date": "1884-08-31",
   "death_date": "1973-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "16330289/caroline-kuhn",
-  "image_url": "https://images.findagrave.com/photos/2006/298/16330289_116187344355.jpg?size=photos250"
+  "bio": "KUHN\nCaroline L. Kuhn\n1884-1973\ndaughter\n(back)Conrad Kuhn\ndied June 15, 1933 aged 84 yrs. 2 mos.<br/>Elizabeth Sweitzer<br/>wife of Conrad Kuhn<br/>died Nov. 24, 1901<br/>aged 49 yrs. 9 mos.<br/>How desolate our home bereft of thee</br></br></br></br></br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/298/16330289_116187344355.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Conrad   Kuhn",
+      "birth_date": "1849-00-00",
+      "death_date": "1933-00-00",
+      "profile_url": "/memorial/16330196/conrad-kuhn"
+    },
+    {
+      "name": "Elizabeth  Sweitzer Kuhn",
+      "birth_date": "1853-00-00",
+      "death_date": "1902-00-00",
+      "profile_url": "/memorial/16330239/elizabeth-kuhn"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Henry John   Kuhn\", \"birth_date\": \"1876-00-00\", \"death_date\": \"1943-00-00\", \"profile_url\": \"/memorial/15563798/henry_john-kuhn\"}, {\"name\": \"Samuel   Kuhn\", \"birth_date\": \"1881-00-00\", \"death_date\": \"1938-00-00\", \"profile_url\": \"/memorial/15554412/samuel-kuhn\"}]",
+  "id": 641
 }

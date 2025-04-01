@@ -1,10 +1,29 @@
 {
-  "id": 406,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/239154761/jean-a-gaiser",
   "name": "Jean A. Gaiser",
   "birth_date": "1926-00-00",
   "death_date": "1928-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "239154761/jean-a-gaiser",
-  "image_url": "https://images.findagrave.com/photos/2022/113/239154761_1fa9a899-d2bc-4404-89a8-64796351a065.jpeg?size=photos250"
+  "bio": "GAISER\nIn memory of Adam Gaiser<br/>died Aug. 29, 1894 aged 71 yrs. 10 mos. 13 dys.<br/>Magdalena his wife<br/>1828-1919<br/>Mary A. Gaiser<br/>1852-1923<br/>Kathleen Morlock<br/>1908-1947<br/>wife of Royal Gaiser<br/>1905-1961<br/>thier infant daughter Jean A. 1928<br/>aged 2 years old<br/>Lila Pym<br/>1903-1990<br/>wife of Emery Gaiser<br/>1899-1991</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/113/239154761_1fa9a899-d2bc-4404-89a8-64796351a065.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Royal   Gaiser",
+      "birth_date": "1905-00-00",
+      "death_date": "1961-00-00",
+      "profile_url": "/memorial/239154792/royal-gaiser"
+    },
+    {
+      "name": "Kathleen  Morlock Gaiser",
+      "birth_date": "1908-00-00",
+      "death_date": "1947-00-00",
+      "profile_url": "/memorial/188113036/kathleen-gaiser"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 406
 }

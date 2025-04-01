@@ -1,10 +1,23 @@
 {
-  "id": 449,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188113126/wilfred-roy-goulding",
   "name": "Wilfred Roy Goulding",
   "birth_date": "1898-10-27",
   "death_date": "1981-12-18",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188113126/wilfred-roy-goulding",
-  "image_url": "https://images.findagrave.com/photos/2022/84/188113126_e3eb80af-2a80-4448-b31e-2e8cc3a41d5e.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/188113126_e3eb80af-2a80-4448-b31e-2e8cc3a41d5e.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Adeline Selena  Wein Goulding",
+      "birth_date": "1900-00-00",
+      "death_date": "1971-00-00",
+      "profile_url": "/memorial/188113123/adeline_selena-goulding"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 449
 }

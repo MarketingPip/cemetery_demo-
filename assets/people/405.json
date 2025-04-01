@@ -1,10 +1,29 @@
 {
-  "id": 405,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/16627163/jacob-gaiser",
   "name": "Jacob Gaiser",
   "birth_date": "1854-12-12",
   "death_date": "1928-06-10",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "16627163/jacob-gaiser",
-  "image_url": "https://images.findagrave.com/photos/2006/315/16627163_116339589912.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/315/16627163_116339589912.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Christina  Kutzli Gaiser",
+      "birth_date": "1858-00-00",
+      "death_date": "1896-00-00",
+      "profile_url": "/memorial/16627135/christina-gaiser"
+    },
+    {
+      "name": "Mary E  Truemner Gaiser",
+      "birth_date": "1860-00-00",
+      "death_date": "1936-00-00",
+      "profile_url": "/memorial/16627202/mary_e-gaiser"
+    }
+  ],
+  "children": "[{\"name\": \"Martha Mary  Gaiser Ratz\", \"birth_date\": \"1888-00-00\", \"death_date\": \"1971-00-00\", \"profile_url\": \"/memorial/15639893/martha_mary-ratz\"}, {\"name\": \"Albert Adam   Gaiser\", \"birth_date\": \"1891-00-00\", \"death_date\": \"1974-00-00\", \"profile_url\": \"/memorial/15639713/albert_adam-gaiser\"}]",
+  "siblings": "[]",
+  "id": 405
 }

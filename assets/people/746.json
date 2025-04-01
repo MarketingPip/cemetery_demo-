@@ -1,10 +1,36 @@
 {
-  "id": 746,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/16682023/lorne-roy-morlock",
   "name": "Lorne Roy Morlock",
   "birth_date": "1895-12-22",
   "death_date": "1964-01-14",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "16682023/lorne-roy-morlock",
-  "image_url": "https://images.findagrave.com/photos/2006/320/16682023_116378282878.jpg?size=photos250"
+  "bio": "FAHRNER\nCharles F. Fahrner<br/>born 1877 died 1948<br/>his wife<br/>Emma Treitz<br/>born 1879 died 1956<br/>Lorne R. Morlock<br/>born 1895 died 1964<br/>his wife Irene Fahrner 1908-1995</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/320/16682023_116378282878.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "William H.   Morlock",
+      "birth_date": "1862-00-00",
+      "death_date": "1948-00-00",
+      "profile_url": "/memorial/15978472/william_h-morlock"
+    },
+    {
+      "name": "Lydia  Haist Morlock",
+      "birth_date": "1867-00-00",
+      "death_date": "1943-00-00",
+      "profile_url": "/memorial/15978542/lydia-morlock"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Irene  Fahrner Morlock",
+      "birth_date": "1908-00-00",
+      "death_date": "1995-00-00",
+      "profile_url": "/memorial/16682045/irene-morlock"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 746
 }

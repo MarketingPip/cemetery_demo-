@@ -1,10 +1,16 @@
 {
-  "id": 773,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/239188554/mary-j-motz",
   "name": "Mary J. Motz",
   "birth_date": "1868-00-00",
   "death_date": "1893-01-21",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "239188554/mary-j-motz",
-  "image_url": "https://images.findagrave.com/photos/2022/114/239188554_dad50807-56c7-44ee-8128-6aa713e7f58e.jpeg?size=photos250"
+  "bio": "Aged 25 years 11 days",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/114/239188554_dad50807-56c7-44ee-8128-6aa713e7f58e.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 773
 }

@@ -1,10 +1,36 @@
 {
-  "id": 237,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/16681973/charles-frederick-fahrner",
   "name": "Charles Frederick Fahrner",
   "birth_date": "1877-00-00",
   "death_date": "1948-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "16681973/charles-frederick-fahrner",
-  "image_url": "https://images.findagrave.com/photos/2006/320/16681973_116378253533.jpg?size=photos250"
+  "bio": "FAHRNER\nCharles F. Fahrner<br/>born 1877 died 1948<br/>his wife<br/>Emma Treitz<br/>born 1879 died 1956<br/>Lorne R. Morlock<br/>born 1895 died 1964<br/>his wife Irene Fahrner 1908</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/320/16681973_116378253533.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "George   Fahrner",
+      "birth_date": "1842-00-00",
+      "death_date": "1918-00-00",
+      "profile_url": "/memorial/188036992/george-fahrner"
+    },
+    {
+      "name": "Christina  Rau Fahrner",
+      "birth_date": "1853-00-00",
+      "death_date": "1927-00-00",
+      "profile_url": "/memorial/188036944/christina-fahrner"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Emma Bertha  Treitz Fahrner",
+      "birth_date": "1879-00-00",
+      "death_date": "1956-00-00",
+      "profile_url": "/memorial/16681999/emma_bertha-fahrner"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 237
 }

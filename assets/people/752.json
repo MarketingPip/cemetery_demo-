@@ -1,10 +1,29 @@
 {
-  "id": 752,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15848830/martin-morlock",
   "name": "Martin Morlock",
   "birth_date": "1919-00-00",
   "death_date": "1976-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15848830/martin-morlock",
-  "image_url": "https://images.findagrave.com/photos/2006/264/15848830_115894032142.jpg?size=photos250"
+  "bio": "MORLOCK\nMary C. Martin<br/>1875-1949<br/>wife of Albert Morlock<br/>1877-1966<br/>thier son<br/>Martin B. Morlock<br/>1919-1976<br/>donated body to science<br/>Charlott Jans<br/>wife of N. Beaver<br/>died Aug. 4, 1907<br/>aged 92 years 6 mos. 16 ds.<br/>Magdalena Eilber<br/>1849-1936<br/>Heir Ruht<br/>Carl Eilber<br/>Gest Oct. 12, 1899<br/>Alter 74 Jahre 3 monate 20 tage<br/>Heir Ruht<br/>Agnes<br/>Galtin Von Carl Eilber<br/>Gest Oct. 18, 1896<br/>Alter 72 Jahre 2 monate 9 tage.</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/264/15848830_115894032142.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Albert Wesley   Morlock",
+      "birth_date": "1877-00-00",
+      "death_date": "1965-00-00",
+      "profile_url": "/memorial/15849051/albert_wesley-morlock"
+    },
+    {
+      "name": "Mary Catherine  Martin Morlock",
+      "birth_date": "1875-00-00",
+      "death_date": "1949-00-00",
+      "profile_url": "/memorial/15848956/mary_catherine-morlock"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 752
 }

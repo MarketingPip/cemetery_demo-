@@ -1,10 +1,36 @@
 {
-  "id": 1209,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/19193312/blanche-graham",
   "name": "Blanche Emma Wormood Graham",
   "birth_date": "1890-11-09",
   "death_date": "1960-04-17",
+  "cemetery": "Lake View Memorial Park",
   "location": "Oshkosh",
-  "memorial_url": "19193312/blanche-graham",
-  "image_url": "https://images.findagrave.com/photos/2007/122/19193312_117819212030.jpg?size=photos1024"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2007/122/19193312_117819212030.jpg?size=photos1024",
+  "parents": [
+    {
+      "name": "Norman Nelson   Wormood",
+      "birth_date": "1839-00-00",
+      "death_date": "1924-00-00",
+      "profile_url": "/memorial/11775558/norman_nelson-wormood"
+    },
+    {
+      "name": "Anna Elizabeth  Smith Wormood",
+      "birth_date": "1853-00-00",
+      "death_date": "1917-00-00",
+      "profile_url": "/memorial/98630606/anna_elizabeth-wormood"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "George Thomas   Graham",
+      "birth_date": "1882-00-00",
+      "death_date": "1935-00-00",
+      "profile_url": "/memorial/19228841/george_thomas-graham"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1209
 }

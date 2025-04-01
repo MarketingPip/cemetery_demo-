@@ -1,10 +1,23 @@
 {
-  "id": 920,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/60742271/gerald-austin-schenk",
   "name": "Gerald Austin “Jerry” Schenk",
   "birth_date": "1920-00-00",
   "death_date": "2010-10-26",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "60742271/gerald-austin-schenk",
-  "image_url": "https://images.findagrave.com/photos/2018/209/60742271_63b33dfc-99c9-4466-8c91-98bbc187866b.jpeg?size=photos250"
+  "bio": "SCHENK\nGerald Austin Schenk\nborn 1920 died 2010\nhis beloved wife<br/>Elodia Rita Cholette<br/>born 1925 died 1995<br/>Donald Arthur <br/>1952-1979<br/>his wife Bonnie L. Neeb<br/>loving father of Kathy, Kelly &amp; Kristian</br></br></br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2018/209/60742271_63b33dfc-99c9-4466-8c91-98bbc187866b.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Elodia Rita  Cholette Schenk",
+      "birth_date": "1925-00-00",
+      "death_date": "1995-00-00",
+      "profile_url": "/memorial/188136676/elodia_rita-schenk"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 920
 }

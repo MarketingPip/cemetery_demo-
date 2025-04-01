@@ -1,10 +1,16 @@
 {
-  "id": 615,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/261758859/ronald-thomas-kenney",
   "name": "Ronald Thomas “Ron” Kenney",
   "birth_date": "1950-00-00",
   "death_date": "2023-11-22",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "261758859/ronald-thomas-kenney",
-  "image_url": "https://images.findagrave.com/photos/2023/328/261758859_fe4d625b-0487-43a5-8e3f-a04c7df31fae.jpeg?size=photos250"
+  "bio": "Aged 73 years",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2023/328/261758859_fe4d625b-0487-43a5-8e3f-a04c7df31fae.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 615
 }

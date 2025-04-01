@@ -1,10 +1,23 @@
 {
-  "id": 327,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/239269438/joseph-g-finkbeiner",
   "name": "Joseph G Finkbeiner",
   "birth_date": "1889-00-00",
   "death_date": "1972-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "239269438/joseph-g-finkbeiner",
-  "image_url": "https://images.findagrave.com/photos/2022/127/239269438_079f915d-3826-47c7-ab09-ca872ae5cd6c.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/127/239269438_079f915d-3826-47c7-ab09-ca872ae5cd6c.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Hilda   Finkbeiner",
+      "birth_date": "1891-00-00",
+      "death_date": "1976-00-00",
+      "profile_url": "/memorial/239269521/hilda-finkbeiner"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 327
 }

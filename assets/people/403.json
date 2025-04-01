@@ -1,10 +1,29 @@
 {
-  "id": 403,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/239217541/infants-gaiser",
   "name": "Infants Gaiser",
   "birth_date": "",
   "death_date": "",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "239217541/infants-gaiser",
-  "image_url": "https://images.findagrave.com/photos/2022/115/239217541_3b6d4d37-14e5-4e22-99b4-209b4be33c15.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/115/239217541_3b6d4d37-14e5-4e22-99b4-209b4be33c15.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "George A.   Gaiser",
+      "birth_date": "1856-00-00",
+      "death_date": "1899-00-00",
+      "profile_url": "/memorial/188113009/george_a-gaiser"
+    },
+    {
+      "name": "Mary S.   Gaiser",
+      "birth_date": "1859-00-00",
+      "death_date": "1935-00-00",
+      "profile_url": "/memorial/239217449/mary_s-gaiser"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 403
 }

@@ -1,10 +1,29 @@
 {
-  "id": 485,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15580421/eleanor-haist",
   "name": "Eleanor Haist",
   "birth_date": "1929-12-12",
   "death_date": "1936-03-24",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15580421/eleanor-haist",
-  "image_url": "https://images.findagrave.com/photos/2006/244/15580421_115720203727.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/244/15580421_115720203727.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Wellington Roy   Haist",
+      "birth_date": "1895-00-00",
+      "death_date": "1970-00-00",
+      "profile_url": "/memorial/15580371/wellington_roy-haist"
+    },
+    {
+      "name": "Irene Louise  Willert Haist",
+      "birth_date": "1898-00-00",
+      "death_date": "1983-00-00",
+      "profile_url": "/memorial/15580408/irene_louise-haist"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Helen Louisa  Haist Jones Wasnidge\", \"birth_date\": \"1926-00-00\", \"death_date\": \"2014-00-00\", \"profile_url\": \"/memorial/38801701/helen_louisa-jones_wasnidge\"}, {\"name\": \"Roy Allen   Haist\", \"birth_date\": \"1931-00-00\", \"death_date\": \"1931-00-00\", \"profile_url\": \"/memorial/15580428/roy_allen-haist\"}]",
+  "id": 485
 }

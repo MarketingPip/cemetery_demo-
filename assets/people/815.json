@@ -1,10 +1,23 @@
 {
-  "id": 815,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/41012146/karl-erwin-ohmayer",
   "name": "Karl Erwin Ohmayer",
   "birth_date": "1915-00-00",
   "death_date": "2006-11-28",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "41012146/karl-erwin-ohmayer",
-  "image_url": "https://images.findagrave.com/photos/2009/234/41012146_125108905108.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2009/234/41012146_125108905108.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Dorothy I  Fahner Ohmayer",
+      "birth_date": "1913-00-00",
+      "death_date": "1987-00-00",
+      "profile_url": "/memorial/15650578/dorothy_i-ohmayer"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 815
 }

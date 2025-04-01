@@ -1,10 +1,16 @@
 {
-  "id": 20,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15554306/gertrude-elizabeth-beaver",
   "name": "Gertrude Elizabeth Beaver",
   "birth_date": "1912-07-05",
   "death_date": "2003-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15554306/gertrude-elizabeth-beaver",
-  "image_url": "https://images.findagrave.com/photos/2006/241/15554306_115694978269.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/241/15554306_115694978269.jpg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 20
 }

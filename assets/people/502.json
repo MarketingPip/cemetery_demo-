@@ -1,10 +1,23 @@
 {
-  "id": 502,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15563840/magdalena-haist",
   "name": "Magdalena Brown Haist",
   "birth_date": "1863-01-18",
   "death_date": "1937-05-28",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15563840/magdalena-haist",
-  "image_url": "https://images.findagrave.com/photos/2006/242/15563840_115703879981.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/242/15563840_115703879981.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Frederick   Haist",
+      "birth_date": "1864-00-00",
+      "death_date": "1936-00-00",
+      "profile_url": "/memorial/15563828/frederick-haist"
+    }
+  ],
+  "children": "[{\"name\": \"Laura May  Haist Gaiser\", \"birth_date\": \"1891-00-00\", \"death_date\": \"1980-00-00\", \"profile_url\": \"/memorial/188113040/laura_may-gaiser\"}, {\"name\": \"Everett George   Haist\", \"birth_date\": \"1894-00-00\", \"death_date\": \"1995-00-00\", \"profile_url\": \"/memorial/18593987/everett_george-haist\"}, {\"name\": \"Wellington Roy   Haist\", \"birth_date\": \"1895-00-00\", \"death_date\": \"1970-00-00\", \"profile_url\": \"/memorial/15580371/wellington_roy-haist\"}, {\"name\": \"Herbert Frederick   Haist\", \"birth_date\": \"1896-00-00\", \"death_date\": \"1993-00-00\", \"profile_url\": \"/memorial/107777871/herbert_frederick-haist\"}, {\"name\": \"Losetta Matilda  Haist Fahrner\", \"birth_date\": \"1899-00-00\", \"death_date\": \"1987-00-00\", \"profile_url\": \"/memorial/15571752/losetta_matilda-fahrner\"}, {\"name\": \"Clara Anita  Haist Ratz\", \"birth_date\": \"1901-00-00\", \"death_date\": \"1997-00-00\", \"profile_url\": \"/memorial/15561361/clara_anita-ratz\"}, {\"name\": \"Alma Elizabeth  Haist Morlock\", \"birth_date\": \"1903-00-00\", \"death_date\": \"1943-00-00\", \"profile_url\": \"/memorial/16539058/alma_elizabeth-morlock\"}]",
+  "siblings": "[]",
+  "id": 502
 }

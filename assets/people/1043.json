@@ -1,10 +1,36 @@
 {
-  "id": 1043,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15187255/milton-nyal-sweitzer",
   "name": "Milton Nyal Sweitzer",
   "birth_date": "1918-00-00",
   "death_date": "1988-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15187255/milton-nyal-sweitzer",
-  "image_url": "https://images.findagrave.com/photos/2006/219/15187255_115505130901.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/219/15187255_115505130901.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Matthew Christian   Sweitzer",
+      "birth_date": "1888-00-00",
+      "death_date": "1963-00-00",
+      "profile_url": "/memorial/15187323/matthew_christian-sweitzer"
+    },
+    {
+      "name": "Laura L  Ratz Sweitzer",
+      "birth_date": "1891-00-00",
+      "death_date": "1963-00-00",
+      "profile_url": "/memorial/15187299/laura_l-sweitzer"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Eva Belva  Comfort Sweitzer Grigg",
+      "birth_date": "1926-00-00",
+      "death_date": "2018-00-00",
+      "profile_url": "/memorial/237942400/eva_belva-sweitzer_grigg"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1043
 }

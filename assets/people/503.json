@@ -1,10 +1,23 @@
 {
-  "id": 503,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/236911413/margaretha-haist",
   "name": "Margaretha Haist",
   "birth_date": "1828-00-00",
   "death_date": "1901-09-17",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "236911413/margaretha-haist",
-  "image_url": "https://images.findagrave.com/photos/2022/111/236911413_e9813af0-5586-4180-b410-f734e41de8f6.jpeg?size=photos250"
+  "bio": "HAIST\nElizabeth<br/>died Aug. 248, 1881<br/>aged 46 yrs.<br/>Margaretha<br/>died Sept. 17, 1901<br/>aged 75 yrs.<br/>wives of Jacob HAIST<br/>Jacob HAIST<br/>died Feb. 16, 1912<br/>aged 85 yrs.<br/>Anna M. HAIST<br/>gestorben Marz. 17, 1878<br/>alter 9 mon.<br/>Karlina HAIST<br/>gestorben  Jan. 7, 1880<br/>alter 6 yahr.<br/>kinder von Jacob und Elizabeth HAIST<br/>Barbara HAIST<br/>gestorben  Aug. 6, 1868<br/>alter 8 yahr.<br/>Heinrich HAIST<br/>gestorben Dec. 17, 1872<br/>alter 5 yahr.<br/>kinder von Jacob &amp; Elizabeth HAIST</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/111/236911413_e9813af0-5586-4180-b410-f734e41de8f6.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Jacob   Haist",
+      "birth_date": "1827-00-00",
+      "death_date": "1912-00-00",
+      "profile_url": "/memorial/236911442/jacob-haist"
+    }
+  ],
+  "children": "[{\"name\": \"Dorothea  Steinacher Weber\", \"birth_date\": \"1856-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/261955862/dorothea-weber\"}]",
+  "siblings": "[]",
+  "id": 503
 }

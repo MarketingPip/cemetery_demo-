@@ -1,10 +1,23 @@
 {
-  "id": 242,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/22898523/ella-beatrice-fahrner",
   "name": "Ella Beatrice Beaver Fahrner",
   "birth_date": "1886-00-00",
   "death_date": "1960-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "22898523/ella-beatrice-fahrner",
-  "image_url": "https://images.findagrave.com/photos/2022/111/22898523_10ce41f9-151e-489a-b336-33d9ecc8b535.jpeg?size=photos250"
+  "bio": "(front)Ella Beatrice Beaver\n1886-1960<br/>wife of Everett Fahrner<br/>1887-1970<br/>their son<br/>Wallace S. FAHRNER<br/>1922-1987<br/>husband of Lois HAWK 1924-2003<br/>their daughter<br/>B. Elaine FAHRNER Ayres<br/>1924-2014</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/111/22898523_10ce41f9-151e-489a-b336-33d9ecc8b535.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Everett King   Fahrner",
+      "birth_date": "1887-00-00",
+      "death_date": "1970-00-00",
+      "profile_url": "/memorial/22898538/everett_king-fahrner"
+    }
+  ],
+  "children": "[{\"name\": \"Wallace   Fahrner\", \"birth_date\": \"1922-00-00\", \"death_date\": \"1987-00-00\", \"profile_url\": \"/memorial/236141703/wallace-fahrner\"}, {\"name\": \"Beatrice Elaine  Fahrner Ayres\", \"birth_date\": \"1928-00-00\", \"death_date\": \"2014-00-00\", \"profile_url\": \"/memorial/163944825/beatrice_elaine-ayres\"}]",
+  "siblings": "[]",
+  "id": 242
 }

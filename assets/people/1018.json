@@ -1,10 +1,29 @@
 {
-  "id": 1018,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/191737488/william-a-stewardson",
   "name": "William A. “Bill” Stewardson",
   "birth_date": "1940-03-29",
   "death_date": "2015-06-03",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "191737488/william-a-stewardson",
-  "image_url": "https://images.findagrave.com/photos/2018/209/191737488_963fd009-4cb3-476b-94bb-dd2855ed023c.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2018/209/191737488_963fd009-4cb3-476b-94bb-dd2855ed023c.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Susan  Littlejohn Stevenson",
+      "birth_date": "1869-00-00",
+      "death_date": "1950-00-00",
+      "profile_url": "/memorial/179520655/susan-stevenson"
+    },
+    {
+      "name": "Lois  Wanner Stewardson",
+      "birth_date": "1921-00-00",
+      "death_date": "1998-00-00",
+      "profile_url": "/memorial/188137964/lois-stewardson"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1018
 }

@@ -1,10 +1,23 @@
 {
-  "id": 981,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188136914/lillian-may-sinclair",
   "name": "Lillian May Smith Sinclair",
   "birth_date": "1887-00-00",
   "death_date": "1967-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188136914/lillian-may-sinclair",
-  "image_url": "https://images.findagrave.com/photos/2022/116/188136914_452051a1-1f5c-40e3-abfd-00b1b6d533d8.jpeg?size=photos250"
+  "bio": "AT REST\nf.s. FATHER MOTHER</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/116/188136914_452051a1-1f5c-40e3-abfd-00b1b6d533d8.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Nelson   Sinclair",
+      "birth_date": "1880-00-00",
+      "death_date": "1959-00-00",
+      "profile_url": "/memorial/188136916/nelson-sinclair"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 981
 }

@@ -1,10 +1,23 @@
 {
-  "id": 8,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/45433797/marion-cora-averill",
   "name": "Marion Cora Layton Averill",
   "birth_date": "1928-00-00",
   "death_date": "2009-12-06",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "45433797/marion-cora-averill",
-  "image_url": "https://images.findagrave.com/photos/2022/84/45433797_5763272a-9b37-4519-994b-97037f7d7a8d.jpeg?size=photos250"
+  "bio": "IN LOVING MEMORY\nAVERILL</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/45433797_5763272a-9b37-4519-994b-97037f7d7a8d.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "William Malcolm \"Joe\"  Averill",
+      "birth_date": "1912-00-00",
+      "death_date": "1981-00-00",
+      "profile_url": "/memorial/188035505/william_malcolm-averill"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 8
 }

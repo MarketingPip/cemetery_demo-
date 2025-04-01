@@ -1,10 +1,16 @@
 {
-  "id": 891,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/239170087/son-rivers",
   "name": "Son Rivers",
   "birth_date": "",
   "death_date": "1901-01-26",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "239170087/son-rivers",
-  "image_url": "https://images.findagrave.com/photos/2022/114/239170087_e4fc0415-3707-4bde-bd39-3f0f9287718d.jpeg?size=photos250"
+  "bio": "RIVERS\nIn Memory of infant son of<br/>Dr. J.H. &amp; Lottie Rivers<br/>died Jan. 24, 1901 (no age)<br/>also infant daughter of <br/>George and Ida Bloomfield<br/>died Oct. 3, 1901 (no age)</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/114/239170087_e4fc0415-3707-4bde-bd39-3f0f9287718d.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 891
 }

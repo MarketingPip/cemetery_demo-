@@ -1,10 +1,36 @@
 {
-  "id": 744,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/16539197/john-nicholas-morlock",
   "name": "John Nicholas Morlock",
   "birth_date": "1867-00-00",
   "death_date": "1951-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "16539197/john-nicholas-morlock",
-  "image_url": "https://images.findagrave.com/photos/2006/310/16539197_116291058274.jpg?size=photos250"
+  "bio": "MORLOCK\nAlma E. Haist<br/>1903-1943<br/>wife of Chester Gordon Morlock <br/>1902-1993<br/>his wife Alma I. Smith<br/>1903-2006<br/>(back)John N. Morlock<br/>1867-1951<br/>his wife Caroline M. Wuerth<br/>1872-1963</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/310/16539197_116291058274.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Gottlieb   Morlock",
+      "birth_date": "1836-00-00",
+      "death_date": "1910-00-00",
+      "profile_url": "/memorial/15978080/gottlieb-morlock"
+    },
+    {
+      "name": "Charlotte  Beaver Morlock",
+      "birth_date": "1840-00-00",
+      "death_date": "1925-00-00",
+      "profile_url": "/memorial/15978143/charlotte-morlock"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Caroline M  Wuerth Morlock",
+      "birth_date": "1872-00-00",
+      "death_date": "1963-00-00",
+      "profile_url": "/memorial/16539262/caroline_m-morlock"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 744
 }

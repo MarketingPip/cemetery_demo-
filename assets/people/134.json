@@ -1,10 +1,16 @@
 {
-  "id": 134,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/238605024/catharine-clump",
   "name": "Catharine Clump",
   "birth_date": "1849-00-00",
   "death_date": "1885-01-14",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "238605024/catharine-clump",
-  "image_url": "https://images.findagrave.com/photos/2022/113/238605024_d271bcbe-398c-4580-80b1-3ede96645a24.jpeg?size=photos250"
+  "bio": "CLUMP\nCatharine, the gallin of Adam Clump<br/>Starb Jan. 14, 1885<br/>Alter 35 Jahr 4 mos.</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/113/238605024_d271bcbe-398c-4580-80b1-3ede96645a24.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 134
 }

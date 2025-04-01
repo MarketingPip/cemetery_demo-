@@ -1,10 +1,36 @@
 {
-  "id": 22,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15554242/henry-charles-beaver",
   "name": "Henry Charles Beaver",
   "birth_date": "1879-12-04",
   "death_date": "1968-07-14",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15554242/henry-charles-beaver",
-  "image_url": "https://images.findagrave.com/photos/2006/241/15554242_115694941640.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/241/15554242_115694941640.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Nicholas   Beaver",
+      "birth_date": "1849-00-00",
+      "death_date": "1934-00-00",
+      "profile_url": "/memorial/16671364/nicholas-beaver"
+    },
+    {
+      "name": "Fredericka  Martin Beaver",
+      "birth_date": "1852-00-00",
+      "death_date": "1895-00-00",
+      "profile_url": "/memorial/16671374/fredericka-beaver"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Erma Irene   Finkbeiner",
+      "birth_date": "1900-00-00",
+      "death_date": "1964-00-00",
+      "profile_url": "/memorial/16330377/erma_irene-finkbeiner"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 22
 }

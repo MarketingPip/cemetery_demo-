@@ -1,10 +1,23 @@
 {
-  "id": 495,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/236171167/jacob-haist",
   "name": "Jacob Haist",
   "birth_date": "1791-00-00",
   "death_date": "1864-03-06",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "236171167/jacob-haist",
-  "image_url": "https://images.findagrave.com/photos/2022/111/236171167_20156052-9234-47a7-9863-bc83a2c6b551.jpeg?size=photos250"
+  "bio": "HAIST\nMartha Gaiser<br/>1873-1934<br/>beloved wife of <br/>Henry Haist<br/>1873-1963<br/>their sons<br/>1905 Royal H. 1979<br/>1911 Gordon 1979<br/>August Haist<br/>died July 21, 1912<br/>aged 72 yrs. 8 mos. 14 ds.<br/>Barbara, his wife<br/>died Dec. 24, 1918<br/>aged 82 yrs. 27 ds.<br/>Jacob Haist<br/>died Mar. 6, 1864<br/>aged 73 yrs<br/>his wife Ana Maria<br/>died Nov. 29, 1881<br/>aged 86 yrs.</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/111/236171167_20156052-9234-47a7-9863-bc83a2c6b551.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Ana Maria   Haist",
+      "birth_date": "1795-00-00",
+      "death_date": "1881-00-00",
+      "profile_url": "/memorial/236171206/ana_maria-haist"
+    }
+  ],
+  "children": "[{\"name\": \"August   Haist\", \"birth_date\": \"1839-00-00\", \"death_date\": \"1912-00-00\", \"profile_url\": \"/memorial/15697730/august-haist\"}]",
+  "siblings": "[]",
+  "id": 495
 }

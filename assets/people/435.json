@@ -1,10 +1,16 @@
 {
-  "id": 435,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/237809635/israel-geiser",
   "name": "Israel Geiser",
   "birth_date": "",
   "death_date": "1966-12-30",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "237809635/israel-geiser",
-  "image_url": ""
+  "bio": "",
+  "gps": null,
+  "image_url": "",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 435
 }

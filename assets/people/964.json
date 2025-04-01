@@ -1,10 +1,16 @@
 {
-  "id": 964,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15728621/magdalena-schwarz",
   "name": "Magdalena Schwarz",
   "birth_date": "1870-07-16",
   "death_date": "1870-09-27",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15728621/magdalena-schwarz",
-  "image_url": "https://images.findagrave.com/photos/2006/256/15728621_115824642653.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/256/15728621_115824642653.jpg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 964
 }

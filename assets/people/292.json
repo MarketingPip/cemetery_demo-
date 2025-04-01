@@ -1,10 +1,23 @@
 {
-  "id": 292,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/28931535/doreen-finkbeiner",
   "name": "Doreen Coultis Finkbeiner",
   "birth_date": "1924-00-00",
   "death_date": "2008-08-10",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "28931535/doreen-finkbeiner",
-  "image_url": "https://images.findagrave.com/photos/2008/223/28931535_121846071234.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2008/223/28931535_121846071234.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Harold Douglas   Finkbeiner",
+      "birth_date": "1923-00-00",
+      "death_date": "2004-00-00",
+      "profile_url": "/memorial/12524364/harold_douglas-finkbeiner"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 292
 }

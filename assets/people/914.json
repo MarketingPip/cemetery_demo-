@@ -1,10 +1,16 @@
 {
-  "id": 914,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188136644/william-saunders",
   "name": "William Saunders",
   "birth_date": "1823-00-00",
   "death_date": "1893-02-28",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188136644/william-saunders",
-  "image_url": "https://images.findagrave.com/photos/2022/114/188136644_062cb4a2-fc30-4608-809e-6a246281e8a3.jpeg?size=photos250"
+  "bio": "age 70 yrs\nHARVEY<br/>In memory of<br/>Grace Harvey<br/>died Apr. 8, 1893<br/>ae 21 yrs.<br/>Eileen Louisa<br/>born Mar. 21, 1879<br/>died Apr. 13, 1879<br/>James Harvey<br/>died Nov. 15, 1910<br/>in his 77th yr.<br/>Annie Harvey<br/>died Jan. 7, 1942<br/>in her 79th yr.<br/>In memory of Susan<br/>wife of James Harvey<br/>died Feb. 9, 1904<br/>ae 68 yrs. 9 ms. 20 ds.<br/>In memory of Wm. Saunders<br/>died Feb. 12, 1895<br/>ae 70 yrs.<br/>also Rich. Harvey<br/>died Sept. 29, 1890<br/>ae 17 yrs</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/114/188136644_062cb4a2-fc30-4608-809e-6a246281e8a3.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 914
 }

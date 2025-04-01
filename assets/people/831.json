@@ -1,10 +1,36 @@
 {
-  "id": 831,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/46461989/doris-louise-pfaff",
   "name": "Doris Louise Hill Pfaff",
   "birth_date": "1926-00-00",
   "death_date": "2010-01-06",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "46461989/doris-louise-pfaff",
-  "image_url": "https://images.findagrave.com/photos/2022/86/46461989_79557045-752a-4b10-86ee-64dada5b024d.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/46461989_79557045-752a-4b10-86ee-64dada5b024d.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Lawrence Neil   Hill",
+      "birth_date": "1901-00-00",
+      "death_date": "1971-00-00",
+      "profile_url": "/memorial/18594141/lawrence_neil-hill"
+    },
+    {
+      "name": "Leita  King Hill",
+      "birth_date": "1906-00-00",
+      "death_date": "1993-00-00",
+      "profile_url": "/memorial/18594143/leita-hill"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Allen I.   Pfaff",
+      "birth_date": "1923-00-00",
+      "death_date": "1994-00-00",
+      "profile_url": "/memorial/188136402/allen_i-pfaff"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 831
 }

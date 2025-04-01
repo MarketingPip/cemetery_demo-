@@ -1,10 +1,23 @@
 {
-  "id": 52,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/55150771/edmund-bertrand",
   "name": "Edmund Bertrand",
   "birth_date": "1875-00-00",
   "death_date": "1937-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "55150771/edmund-bertrand",
-  "image_url": "https://images.findagrave.com/photos/2022/84/55150771_3e86d52e-743b-41db-8a7a-6d1588c4cda3.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/55150771_3e86d52e-743b-41db-8a7a-6d1588c4cda3.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Martha A.  Richardson Bertrand",
+      "birth_date": "1879-00-00",
+      "death_date": "1957-00-00",
+      "profile_url": "/memorial/55150774/martha_a-bertrand"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 52
 }

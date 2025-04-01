@@ -1,10 +1,29 @@
 {
-  "id": 860,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/237942844/donald-l-ratz",
   "name": "Donald L. Ratz",
   "birth_date": "1925-00-00",
   "death_date": "2020-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "237942844/donald-l-ratz",
-  "image_url": "https://images.findagrave.com/photos/2023/219/237942844_ff0be514-1c1f-4582-9c33-12d08e3555b6.jpeg?size=photos250"
+  "bio": "RATZ\nRoy E. Ratz<br/>1887-1971<br/>his beloved wife<br/>Clara A. Haist<br/>1901-1997<br/>their son Donald L.<br/>1925-2020</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2023/219/237942844_ff0be514-1c1f-4582-9c33-12d08e3555b6.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Roy Ervin   Ratz",
+      "birth_date": "1897-00-00",
+      "death_date": "1971-00-00",
+      "profile_url": "/memorial/15561339/roy_ervin-ratz"
+    },
+    {
+      "name": "Clara Anita  Haist Ratz",
+      "birth_date": "1901-00-00",
+      "death_date": "1997-00-00",
+      "profile_url": "/memorial/15561361/clara_anita-ratz"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Harvey Ervin   Ratz\", \"birth_date\": \"1923-00-00\", \"death_date\": \"2015-00-00\", \"profile_url\": \"/memorial/150465137/harvey_ervin-ratz\"}]",
+  "id": 860
 }

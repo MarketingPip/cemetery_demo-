@@ -1,10 +1,29 @@
 {
-  "id": 782,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15650736/esther-neeb",
   "name": "Esther Neeb",
   "birth_date": "1910-00-00",
   "death_date": "1968-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15650736/esther-neeb",
-  "image_url": "https://images.findagrave.com/photos/2006/249/15650736_115764439625.jpg?size=photos250"
+  "bio": "ALEX NEEB 1876-1948\nHIS WIFE BARBARA WITZEL<br/>1883-1940<br/>THEIR CHILDREN<br/>ALFRED 1907-1909<br/>HARVEY 1920-1964<br/>ESTHER 1910-1968<br/>WILLIAM WITZEL<br/>BORN MAR. 29, 1857<br/>DIED MAR. 5, 1935<br/>HIS WIFE MARY FINKBEINER<br/>BORN MAY 2, 1860-DIED MAY 3, 1927<br/>IRENE WITZEL<br/>BORN 1899-DIED 1947</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/249/15650736_115764439625.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Alex   Neeb",
+      "birth_date": "1877-00-00",
+      "death_date": "1948-00-00",
+      "profile_url": "/memorial/15650644/alex-neeb"
+    },
+    {
+      "name": "Barbara  Witzel Neeb",
+      "birth_date": "1883-00-00",
+      "death_date": "1940-00-00",
+      "profile_url": "/memorial/15650701/barbara-neeb"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Alfred Herman   Neeb\", \"birth_date\": \"1907-00-00\", \"death_date\": \"1909-00-00\", \"profile_url\": \"/memorial/15650718/alfred_herman-neeb\"}, {\"name\": \"Erna E  Neeb MacDonald Allison\", \"birth_date\": \"1908-00-00\", \"death_date\": \"1998-00-00\", \"profile_url\": \"/memorial/271301726/erna_e-macdonald_allison\"}, {\"name\": \"Thelma  Neeb Pearce\", \"birth_date\": \"1913-00-00\", \"death_date\": \"1982-00-00\", \"profile_url\": \"/memorial/15803974/thelma-pearce\"}, {\"name\": \"Sydney   Neeb\", \"birth_date\": \"1919-00-00\", \"death_date\": \"2003-00-00\", \"profile_url\": \"/memorial/15117508/sydney-neeb\"}, {\"name\": \"Harvey   Neeb\", \"birth_date\": \"1920-00-00\", \"death_date\": \"1964-00-00\", \"profile_url\": \"/memorial/15650728/harvey-neeb\"}, {\"name\": \"Ward   Neeb\", \"birth_date\": \"1922-00-00\", \"death_date\": \"1985-00-00\", \"profile_url\": \"/memorial/15116965/ward-neeb\"}]",
+  "id": 782
 }

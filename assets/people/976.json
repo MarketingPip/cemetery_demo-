@@ -1,10 +1,16 @@
 {
-  "id": 976,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/239217654/barbara-shulz",
   "name": "Barbara Shulz",
   "birth_date": "1810-00-00",
   "death_date": "1835-11-24",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "239217654/barbara-shulz",
-  "image_url": "https://images.findagrave.com/photos/2022/115/239217654_3938c149-2c16-4d25-a6fe-b4ed019f05d1.jpeg?size=photos250"
+  "bio": "Aged 25 years 4 months\nwife of Frederich Shulz</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/115/239217654_3938c149-2c16-4d25-a6fe-b4ed019f05d1.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 976
 }

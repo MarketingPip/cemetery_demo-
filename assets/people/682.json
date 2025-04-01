@@ -1,10 +1,29 @@
 {
-  "id": 682,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/52082649/james-alan-lovie",
   "name": "James Alan Lovie",
   "birth_date": "1963-10-14",
   "death_date": "2010-04-26",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "52082649/james-alan-lovie",
-  "image_url": "https://images.findagrave.com/photos/2018/209/52082649_52b59e80-3613-4eba-a693-90b21e31f30a.jpeg?size=photos250"
+  "bio": "James Alan Lovie<br/>October 14 1963- April 26 2010<br/>BEST FRIEND AND HUSBAND OF<br/>CATHERINE ANNE(LYNNE)<br/>PROUD AND LOVING PARENTS OF<br/>MATTHEW, MICHAEL AND EMILY<br/><br/>YOUR SMILE AND LOVE LIT UP OUR LIVES ON EARTH<br/>YOUR SOUL NOW LIGHTS UP HEAVEN<br/>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2018/209/52082649_52b59e80-3613-4eba-a693-90b21e31f30a.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Carman Chester   Lovie",
+      "birth_date": "1917-00-00",
+      "death_date": "2009-00-00",
+      "profile_url": "/memorial/38371444/carman_chester-lovie"
+    },
+    {
+      "name": "Verna Ilene  Bullock Lovie",
+      "birth_date": "1922-00-00",
+      "death_date": "2011-00-00",
+      "profile_url": "/memorial/67025144/verna_ilene-lovie"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Kenneth John \\\"Ken\\\"  Lovie\", \"birth_date\": \"1941-00-00\", \"death_date\": \"2017-00-00\", \"profile_url\": \"/memorial/175104520/kenneth_john-lovie\"}, {\"name\": \"Stanley Wayne   Lovie\", \"birth_date\": \"1945-00-00\", \"death_date\": \"2014-00-00\", \"profile_url\": \"/memorial/155850898/stanley_wayne-lovie\"}]",
+  "id": 682
 }

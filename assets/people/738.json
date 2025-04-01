@@ -1,10 +1,23 @@
 {
-  "id": 738,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15820831/george-frederick_william-morlock",
   "name": "George Frederick William Morlock",
   "birth_date": "1824-01-21",
   "death_date": "1909-05-02",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15820831/george-frederick_william-morlock",
-  "image_url": "https://images.findagrave.com/photos/2006/262/15820831_115876133689.jpg?size=photos250"
+  "bio": "G. F. Morlock\ndied May 6, 1909<br/>aged 85 yrs. 3 mos. 11 ds.</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/262/15820831_115876133689.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Mary  Grenzebach Morlock",
+      "birth_date": "1827-00-00",
+      "death_date": "1890-00-00",
+      "profile_url": "/memorial/15820881/mary-morlock"
+    }
+  ],
+  "children": "[{\"name\": \"Mary  Morlock Falk\", \"birth_date\": \"1854-00-00\", \"death_date\": \"1950-00-00\", \"profile_url\": \"/memorial/114374739/mary-falk\"}, {\"name\": \"Louisa  Morlock Meyer\", \"birth_date\": \"1858-00-00\", \"death_date\": \"1929-00-00\", \"profile_url\": \"/memorial/105232464/louisa-meyer\"}, {\"name\": \"Lydia  Morlock Zoellner\", \"birth_date\": \"1860-00-00\", \"death_date\": \"1912-00-00\", \"profile_url\": \"/memorial/155571318/lydia-zoellner\"}, {\"name\": \"Samuel Franklin   Morlock\", \"birth_date\": \"1864-00-00\", \"death_date\": \"1921-00-00\", \"profile_url\": \"/memorial/11212048/samuel_franklin-morlock\"}, {\"name\": \"Ezra Henry   Morlock\", \"birth_date\": \"1866-00-00\", \"death_date\": \"1943-00-00\", \"profile_url\": \"/memorial/225579858/ezra_henry-morlock\"}]",
+  "siblings": "[]",
+  "id": 738
 }

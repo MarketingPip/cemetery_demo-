@@ -1,10 +1,23 @@
 {
-  "id": 90,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188035790/charles-brown",
   "name": "Charles Brown",
   "birth_date": "1833-00-00",
   "death_date": "1905-06-20",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188035790/charles-brown",
-  "image_url": "https://images.findagrave.com/photos/2022/110/188035790_acb6fe1e-f540-4fbf-a921-9edaf841fb62.jpeg?size=photos250"
+  "bio": "BROWN\nSamuel Brown<br/>died Nov. 11, 1916<br/>aged 59 yrs. 3 mos. 29 ds<br/>his wife<br/>Florina Siebert<br/>died June 29, 1948<br/>aged 85 yrs. 6 mos. 9 ds.<br/>Irwin Roy Brown<br/>died Sept. 14, 1852<br/>aged 6 yrs. 7 mos.<br/>Justina<br/>wife of Charles Brown<br/>died May 25, 1900<br/>aged 68 yrs. 1 mo. 18 ds.<br/>Charles Brown<br/>died June 20, 1905<br/>aged 72 yrs. 13 ds.<br/>their son Jonathan<br/>died July 25, 1867<br/>ae 5 yrs. 11 mos. 14 ds.</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/110/188035790_acb6fe1e-f540-4fbf-a921-9edaf841fb62.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Justina   Brown",
+      "birth_date": "1832-00-00",
+      "death_date": "1900-00-00",
+      "profile_url": "/memorial/235702559/justina-brown"
+    }
+  ],
+  "children": "[{\"name\": \"Samuel   Brown\", \"birth_date\": \"1859-00-00\", \"death_date\": \"1916-00-00\", \"profile_url\": \"/memorial/188035997/samuel-brown\"}, {\"name\": \"Jonathan   Brown\", \"birth_date\": \"1861-00-00\", \"death_date\": \"1867-00-00\", \"profile_url\": \"/memorial/235702702/jonathan-brown\"}, {\"name\": \"Aaron   Braun\", \"birth_date\": \"1863-00-00\", \"death_date\": \"1947-00-00\", \"profile_url\": \"/memorial/215892310/aaron-braun\"}, {\"name\": \"Rev Edward Caleb   Braun\", \"birth_date\": \"1870-00-00\", \"death_date\": \"1936-00-00\", \"profile_url\": \"/memorial/65361572/edward_caleb-braun\"}]",
+  "siblings": "[]",
+  "id": 90
 }

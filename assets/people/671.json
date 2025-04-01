@@ -1,10 +1,29 @@
 {
-  "id": 671,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/238054371/douglas-howard-lightfoot",
   "name": "Douglas Howard Lightfoot",
   "birth_date": "1945-10-30",
   "death_date": "2021-01-17",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "238054371/douglas-howard-lightfoot",
-  "image_url": "https://images.findagrave.com/photos/2022/86/238054371_de902fa0-4070-4c04-9394-f0d668fa03fd.jpeg?size=photos250"
+  "bio": "LIGHTFOOT\nDouglas Howard]Lightfoot<br/>Oct. 30, 1945<br/>Jan. 17, 2021<br/>married June 11, 1966<br/>Loving parents of Steve &amp; Mike<br/>cherished grandparents of<br/>Dylan, Cadyn, Paige, Todd &amp;Taylar</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/238054371_de902fa0-4070-4c04-9394-f0d668fa03fd.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "William Howard   Lightfoot",
+      "birth_date": "1905-00-00",
+      "death_date": "1979-00-00",
+      "profile_url": "/memorial/188114961/william_howard-lightfoot"
+    },
+    {
+      "name": "Doreen E.  Baker Lightfoot",
+      "birth_date": "1921-00-00",
+      "death_date": "2003-00-00",
+      "profile_url": "/memorial/188114950/doreen_e-lightfoot"
+    }
+  ],
+  "spouses": [],
+  "children": "[{\"name\": \"Michael John   Lightfoot\", \"birth_date\": \"1969-00-00\", \"death_date\": \"2004-00-00\", \"profile_url\": \"/memorial/188114955/michael_john-lightfoot\"}]",
+  "siblings": "[]",
+  "id": 671
 }

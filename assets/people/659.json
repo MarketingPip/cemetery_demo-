@@ -1,10 +1,29 @@
 {
-  "id": 659,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/16539631/edith-elvira-lamport",
   "name": "Edith Elvira Lamport",
   "birth_date": "1901-11-12",
   "death_date": "1903-04-15",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "16539631/edith-elvira-lamport",
-  "image_url": "https://images.findagrave.com/photos/2006/310/16539631_116291358678.jpg?size=photos250"
+  "bio": "LAMPORT\nSamuel G. Lamport<br/>1867-1944<br/>his wife Margaret Klumpp<br/>1871-1970<br/>Edith Elvira their daughter<br/>1901-1903<br/>(back)KLUMPP<br/>John Klumpp<br/>1834-1923<br/>his wife Agnes C. Zuefle<br/>1935-1906</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/310/16539631_116291358678.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Samuel G   Lamport",
+      "birth_date": "1869-00-00",
+      "death_date": "1944-00-00",
+      "profile_url": "/memorial/16539538/samuel_g-lamport"
+    },
+    {
+      "name": "Margaret  Klumpp Lamport",
+      "birth_date": "1871-00-00",
+      "death_date": "1970-00-00",
+      "profile_url": "/memorial/16539603/margaret-lamport"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Lloyd Samuel   Lamport\", \"birth_date\": \"1915-00-00\", \"death_date\": \"2002-00-00\", \"profile_url\": \"/memorial/41012313/lloyd_samuel-lamport\"}]",
+  "id": 659
 }

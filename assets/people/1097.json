@@ -1,10 +1,23 @@
 {
-  "id": 1097,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/237949184/jeannette-f-wales-lippert",
   "name": "Jeannette F. Schenk Wales-Lippert",
   "birth_date": "1935-00-00",
   "death_date": "2018-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "237949184/jeannette-f-wales-lippert",
-  "image_url": "https://images.findagrave.com/photos/2022/84/237949184_871e51f6-ee16-4d56-b737-b68c854a4001.jpeg?size=photos250"
+  "bio": "WALES\nGeorge E. Ted<br/>1939-2006<br/>Jeannette F.<br/>Schenk Lippert<br/>1935-2018</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/237949184_871e51f6-ee16-4d56-b737-b68c854a4001.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "George Edward \"Ted\"  Wales",
+      "birth_date": "1939-00-00",
+      "death_date": "2006-00-00",
+      "profile_url": "/memorial/41011914/george_edward-wales"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1097
 }

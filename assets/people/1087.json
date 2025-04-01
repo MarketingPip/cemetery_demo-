@@ -1,10 +1,16 @@
 {
-  "id": 1087,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/40309110/ryan-joseph-van_valkengoed",
   "name": "Ryan Joseph Van Valkengoed",
   "birth_date": "1990-12-28",
   "death_date": "2008-01-11",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "40309110/ryan-joseph-van_valkengoed",
-  "image_url": "https://images.findagrave.com/photos/2018/209/40309110_195d14c2-2471-4500-8601-49e4fccc7a73.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2018/209/40309110_195d14c2-2471-4500-8601-49e4fccc7a73.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1087
 }

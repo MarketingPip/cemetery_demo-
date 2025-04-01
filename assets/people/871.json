@@ -1,10 +1,36 @@
 {
-  "id": 871,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15561401/john-m-ratz",
   "name": "John M Ratz",
   "birth_date": "1924-00-00",
   "death_date": "1979-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15561401/john-m-ratz",
-  "image_url": "https://images.findagrave.com/photos/2006/241/15561401_115699757916.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/241/15561401_115699757916.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Milton Earl   Ratz",
+      "birth_date": "1893-00-00",
+      "death_date": "1954-00-00",
+      "profile_url": "/memorial/15561385/milton_earl-ratz"
+    },
+    {
+      "name": "Ada  Fassold Ratz",
+      "birth_date": "1902-00-00",
+      "death_date": "1978-00-00",
+      "profile_url": "/memorial/15561398/ada-ratz"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Margaret  Scott Ratz",
+      "birth_date": "1926-00-00",
+      "death_date": "2017-00-00",
+      "profile_url": "/memorial/237943693/margaret-ratz"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 871
 }

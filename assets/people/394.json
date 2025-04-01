@@ -1,10 +1,23 @@
 {
-  "id": 394,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/16627135/christina-gaiser",
   "name": "Christina Kutzli Gaiser",
   "birth_date": "1858-00-00",
   "death_date": "1896-09-04",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "16627135/christina-gaiser",
-  "image_url": "https://images.findagrave.com/photos/2006/315/16627135_116339552993.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/315/16627135_116339552993.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Jacob   Gaiser",
+      "birth_date": "1854-00-00",
+      "death_date": "1928-00-00",
+      "profile_url": "/memorial/16627163/jacob-gaiser"
+    }
+  ],
+  "children": "[{\"name\": \"Martha Mary  Gaiser Ratz\", \"birth_date\": \"1888-00-00\", \"death_date\": \"1971-00-00\", \"profile_url\": \"/memorial/15639893/martha_mary-ratz\"}, {\"name\": \"Albert Adam   Gaiser\", \"birth_date\": \"1891-00-00\", \"death_date\": \"1974-00-00\", \"profile_url\": \"/memorial/15639713/albert_adam-gaiser\"}]",
+  "siblings": "[]",
+  "id": 394
 }

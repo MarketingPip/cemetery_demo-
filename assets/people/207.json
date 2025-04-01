@@ -1,10 +1,23 @@
 {
-  "id": 207,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/236171436/mabel-ewald",
   "name": "Mabel Fahrner Ewald",
   "birth_date": "1889-00-00",
   "death_date": "1972-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "236171436/mabel-ewald",
-  "image_url": "https://images.findagrave.com/photos/2022/111/236171436_139aedd4-7291-4f1f-b545-66a9d82f64f7.jpeg?size=photos250"
+  "bio": "Otto S. Ewald\n1894-1932<br/>his wife Mabel Fahrner<br/>1889-1972</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/111/236171436_139aedd4-7291-4f1f-b545-66a9d82f64f7.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Otto Samuel   Ewald",
+      "birth_date": "1894-00-00",
+      "death_date": "1932-00-00",
+      "profile_url": "/memorial/136361738/otto_samuel-ewald"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 207
 }

@@ -1,10 +1,23 @@
 {
-  "id": 851,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188136466/charles-ernest-pinner",
   "name": "Charles Ernest Pinner",
   "birth_date": "1906-00-00",
   "death_date": "1995-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188136466/charles-ernest-pinner",
-  "image_url": "https://images.findagrave.com/photos/2022/86/188136466_8af6e43d-ce15-4c6b-9295-e9935afa4ec4.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/188136466_8af6e43d-ce15-4c6b-9295-e9935afa4ec4.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Edna Mae  Ted Pinner",
+      "birth_date": "1901-00-00",
+      "death_date": "1987-00-00",
+      "profile_url": "/memorial/188136469/edna_mae-pinner"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 851
 }

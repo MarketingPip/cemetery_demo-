@@ -1,10 +1,36 @@
 {
-  "id": 1060,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/46111142/edna-mae-tilley",
   "name": "Edna Mae Witzel Tilley",
   "birth_date": "1894-12-29",
   "death_date": "1974-11-09",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "46111142/edna-mae-tilley",
-  "image_url": "https://images.findagrave.com/photos/2022/83/46111142_39cfe801-d840-4103-a45d-b09fc5087a09.jpeg?size=photos250"
+  "bio": "REST IN PEACE",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/83/46111142_39cfe801-d840-4103-a45d-b09fc5087a09.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Frederich Wilhelm \"Bill\"  Witzel",
+      "birth_date": "1857-00-00",
+      "death_date": "1935-00-00",
+      "profile_url": "/memorial/35456399/frederich_wilhelm-witzel"
+    },
+    {
+      "name": "Maria Anna \"Mary\" Finkbeiner Witzel",
+      "birth_date": "1860-00-00",
+      "death_date": "1927-00-00",
+      "profile_url": "/memorial/35457385/maria_anna-witzel"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Alfred F.   Tilley",
+      "birth_date": "1897-00-00",
+      "death_date": "1991-00-00",
+      "profile_url": "/memorial/237918728/alfred_f-tilley"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1060
 }

@@ -1,10 +1,23 @@
 {
-  "id": 1107,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15662305/agnes-wein",
   "name": "Agnes Klumpp Wein",
   "birth_date": "1830-03-14",
   "death_date": "1912-12-19",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15662305/agnes-wein",
-  "image_url": "https://images.findagrave.com/photos/2006/252/15662305_115790619254.jpg?size=photos250"
+  "bio": "WEIN\nJOHN WEIN SR.\nDIED DEC. 30, 1904 AE 77 YRS. 2 MS. 18 DS.\nAGNES KLUMPP HIS WIFE<br/>DIED DEC. 19, 1912 AE 82 YRS. 9 MS. 5DS.</br></br></br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/252/15662305_115790619254.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "SR John   Wein",
+      "birth_date": "1827-00-00",
+      "death_date": "1904-00-00",
+      "profile_url": "/memorial/15662290/john-wein"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1107
 }

@@ -1,10 +1,23 @@
 {
-  "id": 192,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/236915839/magdalena-eilber",
   "name": "Magdalena Gaiser Eilber",
   "birth_date": "1807-05-13",
   "death_date": "1864-08-23",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "236915839/magdalena-eilber",
-  "image_url": "https://images.findagrave.com/photos/2022/112/236915839_c8ed9038-5455-4510-b997-d6995c494a22.jpeg?size=photos250"
+  "bio": "Frederich Eilber\nborn Sept. 4, 1791<br/>died Nov. 10, 1875<br/>Magdalena his wife<br/>born May 13, 1807<br/>died Aug. 23, 1864</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/112/236915839_c8ed9038-5455-4510-b997-d6995c494a22.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Frederick   Eilber",
+      "birth_date": "1791-00-00",
+      "death_date": "1875-00-00",
+      "profile_url": "/memorial/188036561/frederick-eilber"
+    }
+  ],
+  "children": "[{\"name\": \"Christopher Friederich   Eilber\", \"birth_date\": \"1830-00-00\", \"death_date\": \"1919-00-00\", \"profile_url\": \"/memorial/188036509/christopher_friederich-eilber\"}]",
+  "siblings": "[]",
+  "id": 192
 }

@@ -1,10 +1,23 @@
 {
-  "id": 263,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15553733/henry-moses-faist",
   "name": "Henry Moses Faist",
   "birth_date": "1877-00-00",
   "death_date": "1950-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15553733/henry-moses-faist",
-  "image_url": "https://images.findagrave.com/photos/2006/241/15553733_115694502257.jpg?size=photos250"
+  "bio": "FAIST\nBELOVED HUSBAND OF</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/241/15553733_115694502257.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Mary S  Roeszler Faist",
+      "birth_date": "1884-00-00",
+      "death_date": "1972-00-00",
+      "profile_url": "/memorial/15553758/mary_s-faist"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 263
 }

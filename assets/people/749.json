@@ -1,10 +1,16 @@
 {
-  "id": 749,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15395914/m-charles-morlock",
   "name": "M. Charles Morlock",
   "birth_date": "1923-00-00",
   "death_date": "1993-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15395914/m-charles-morlock",
-  "image_url": "https://images.findagrave.com/photos/2006/228/15395914_115582405309.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/228/15395914_115582405309.jpg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 749
 }

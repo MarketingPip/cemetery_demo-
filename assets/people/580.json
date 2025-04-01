@@ -1,10 +1,36 @@
 {
-  "id": 580,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15640007/ellen-holtzmann",
   "name": "Ellen Morlock Holtzmann",
   "birth_date": "1862-09-20",
   "death_date": "1959-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15640007/ellen-holtzmann",
-  "image_url": "https://images.findagrave.com/photos/2006/248/15640007_115755762438.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/248/15640007_115755762438.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Matthew   Morlock",
+      "birth_date": "1828-00-00",
+      "death_date": "1923-00-00",
+      "profile_url": "/memorial/15395989/matthew-morlock"
+    },
+    {
+      "name": "Magdalena  Beaver Morlock",
+      "birth_date": "1834-00-00",
+      "death_date": "1929-00-00",
+      "profile_url": "/memorial/15396027/magdalena-morlock"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Jacob   Holtzmann",
+      "birth_date": "1866-00-00",
+      "death_date": "1929-00-00",
+      "profile_url": "/memorial/15640045/jacob-holtzmann"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 580
 }

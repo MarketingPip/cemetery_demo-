@@ -1,10 +1,23 @@
 {
-  "id": 948,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188136795/daniel-schroeder",
   "name": "Daniel Schroeder",
   "birth_date": "1869-00-00",
   "death_date": "1937-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188136795/daniel-schroeder",
-  "image_url": "https://images.findagrave.com/photos/2022/110/188136795_ab71c2e1-dd73-4b33-8ad8-11d80874f3c0.jpeg?size=photos250"
+  "bio": "SCHROEDER\nDaniel Schroeder<br/>1869-1937<br/>his wife Catherine Lippert<br/>1876-1948</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/110/188136795_ab71c2e1-dd73-4b33-8ad8-11d80874f3c0.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Catherine  Lippert Schroeder",
+      "birth_date": "1876-00-00",
+      "death_date": "1948-00-00",
+      "profile_url": "/memorial/188136789/catherine-schroeder"
+    }
+  ],
+  "children": "[{\"name\": \"Lloyd Melvin   Schroeder\", \"birth_date\": \"1901-00-00\", \"death_date\": \"1969-00-00\", \"profile_url\": \"/memorial/189875783/lloyd_melvin-schroeder\"}]",
+  "siblings": "[]",
+  "id": 948
 }

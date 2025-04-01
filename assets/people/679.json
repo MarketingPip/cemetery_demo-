@@ -1,10 +1,16 @@
 {
-  "id": 679,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188114996/samuel-albert-link",
   "name": "Samuel Albert Link",
   "birth_date": "1887-00-00",
   "death_date": "1888-08-17",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188114996/samuel-albert-link",
-  "image_url": "https://images.findagrave.com/photos/2022/112/188114996_d5b6e89d-4a87-4b10-a346-c851d5277c46.jpeg?size=photos250"
+  "bio": "LINK\nJohn Link<br/>died Oct. 23, 1887<br/>aged 28 yrs. 9 mos. 14 ds.<br/>f.s. Samuel Albert<br/>son of William &amp; Christina Link<br/>died Aug. 17, 1888<br/>aged 1 yr. 25 days.</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/112/188114996_d5b6e89d-4a87-4b10-a346-c851d5277c46.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 679
 }

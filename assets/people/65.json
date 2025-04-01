@@ -1,10 +1,23 @@
 {
-  "id": 65,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188035639/a-irene-blyde",
   "name": "A. Irene Ross Blyde",
   "birth_date": "1928-00-00",
   "death_date": "1987-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188035639/a-irene-blyde",
-  "image_url": "https://images.findagrave.com/photos/2022/86/188035639_331a3f47-6222-414f-b8ff-7fecb3994418.jpeg?size=photos250"
+  "bio": "BLYDE\nA. Irene (Ross)<br/>1928-1987<br/>Wife<br/>George J. Blyde<br/>1927<br/>Husband</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/188035639_331a3f47-6222-414f-b8ff-7fecb3994418.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "George J   Blyde",
+      "birth_date": "1927-00-00",
+      "death_date": "2002-00-00",
+      "profile_url": "/memorial/39967549/george_j-blyde"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 65
 }

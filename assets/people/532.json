@@ -1,10 +1,29 @@
 {
-  "id": 532,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188113191/frederick-j-hey",
   "name": "Frederick J Hey",
   "birth_date": "1926-00-00",
   "death_date": "1933-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188113191/frederick-j-hey",
-  "image_url": "https://images.findagrave.com/photos/2022/116/188113191_34104742-d690-422b-b5b2-1543c8c082f2.jpeg?size=photos250"
+  "bio": "f.s. Frederick J",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/116/188113191_34104742-d690-422b-b5b2-1543c8c082f2.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Lloyd Edwin   Hey",
+      "birth_date": "1904-00-00",
+      "death_date": "1979-00-00",
+      "profile_url": "/memorial/188113201/lloyd_edwin-hey"
+    },
+    {
+      "name": "Helen Florence  Ellis Hey",
+      "birth_date": "1908-00-00",
+      "death_date": "1979-00-00",
+      "profile_url": "/memorial/188113196/helen_florence-hey"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 532
 }

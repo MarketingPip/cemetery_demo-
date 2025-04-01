@@ -1,10 +1,23 @@
 {
-  "id": 163,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/236382714/doris-evelynn-edwards",
   "name": "Doris Evelynn Sims Edwards",
   "birth_date": "1926-03-31",
   "death_date": "2018-11-05",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "236382714/doris-evelynn-edwards",
-  "image_url": "https://images.findagrave.com/photos/2022/86/236382714_4a1cdd3a-3f1c-4a7b-98e9-a5949df8edaa.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/236382714_4a1cdd3a-3f1c-4a7b-98e9-a5949df8edaa.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Harold James \"Jim\"  Edwards",
+      "birth_date": "1921-00-00",
+      "death_date": "1989-00-00",
+      "profile_url": "/memorial/188036387/harold_james-edwards"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 163
 }

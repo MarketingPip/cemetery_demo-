@@ -1,10 +1,16 @@
 {
-  "id": 1007,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188137895/irving-g_c-stahl",
   "name": "Irving G. C. Stahl",
   "birth_date": "1897-00-00",
   "death_date": "1989-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188137895/irving-g_c-stahl",
-  "image_url": "https://images.findagrave.com/photos/2022/112/188137895_6ab32b62-4c9b-4818-afa8-3c286d9affda.jpeg?size=photos250"
+  "bio": "STAHL\nLevi Stahl<br/>born Dec. 31, 1858<br/>died April 2nd. 1918<br/>his wife Rosina Finkbeiner<br/>born Dec. 13, 1865<br/>died Sept. 11, 1947<br/>at rest<br/>Diebold Stahl<br/>died Nov.9,1901 aged 81 yrs.<br/>Christina Stahl <br/>born July 10th, 1823<br/>died Mar. 23rd, 1916<br/>at rest<br/>In memory of David Stahl died Dec. 20, 1891<br/>aged 38 yrs.<br/>Irwing C. Stahl<br/>1897-1989<br/>Norman Kleinfeldt<br/>1900-1973<br/>his wife Lillian Stahl<br/>1896-1977</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/112/188137895_6ab32b62-4c9b-4818-afa8-3c286d9affda.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1007
 }

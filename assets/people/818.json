@@ -1,10 +1,16 @@
 {
-  "id": 818,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188136381/james-parsons",
   "name": "James Parsons",
   "birth_date": "1835-00-00",
   "death_date": "1906-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188136381/james-parsons",
-  "image_url": ""
+  "bio": "",
+  "gps": null,
+  "image_url": "",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 818
 }

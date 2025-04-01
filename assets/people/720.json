@@ -1,10 +1,23 @@
 {
-  "id": 720,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15640203/addileen-muriel-morlock",
   "name": "Addileen (Muriel) Gaiser Morlock",
   "birth_date": "1901-02-13",
   "death_date": "1986-04-26",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15640203/addileen-muriel-morlock",
-  "image_url": "https://images.findagrave.com/photos/2006/248/15640203_115755898081.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/248/15640203_115755898081.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Freeman Wesley   Morlock",
+      "birth_date": "1888-00-00",
+      "death_date": "1967-00-00",
+      "profile_url": "/memorial/15640086/freeman_wesley-morlock"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 720
 }

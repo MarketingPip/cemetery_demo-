@@ -1,10 +1,23 @@
 {
-  "id": 569,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15977860/peter-hoffmann",
   "name": "Peter Hoffmann",
   "birth_date": "1826-03-03",
   "death_date": "1913-01-05",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15977860/peter-hoffmann",
-  "image_url": "https://images.findagrave.com/photos/2006/275/15977860_115988283894.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/275/15977860_115988283894.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Johanna  Callfas Hoffmann",
+      "birth_date": "1835-00-00",
+      "death_date": "1918-00-00",
+      "profile_url": "/memorial/15977902/johanna-hoffmann"
+    }
+  ],
+  "children": "[{\"name\": \"Wilhelmina  Hoffman Stanley\", \"birth_date\": \"1854-00-00\", \"death_date\": \"1943-00-00\", \"profile_url\": \"/memorial/171870426/wilhelmina-stanley\"}, {\"name\": \"Mary  Hoffmann Stanley\", \"birth_date\": \"1855-00-00\", \"death_date\": \"1891-00-00\", \"profile_url\": \"/memorial/15977964/mary-stanley\"}, {\"name\": \"Christian   Hoffmann\", \"birth_date\": \"1862-00-00\", \"death_date\": \"1926-00-00\", \"profile_url\": \"/memorial/15977561/christian-hoffmann\"}, {\"name\": \"Eliza Ann   Hoffmann\", \"birth_date\": \"1866-00-00\", \"death_date\": \"1890-00-00\", \"profile_url\": \"/memorial/15977947/eliza_ann-hoffmann\"}, {\"name\": \"Wilhelm Henry   Hoffman\", \"birth_date\": \"1869-00-00\", \"death_date\": \"1942-00-00\", \"profile_url\": \"/memorial/184981119/wilhelm_henry-hoffman\"}, {\"name\": \"Jane Deborah  Hoffman Benedict\", \"birth_date\": \"1874-00-00\", \"death_date\": \"1935-00-00\", \"profile_url\": \"/memorial/218961482/jane_deborah-benedict\"}]",
+  "siblings": "[]",
+  "id": 569
 }

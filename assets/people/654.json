@@ -1,10 +1,16 @@
 {
-  "id": 654,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/238057241/james-w-lake",
   "name": "James W. “Jimmy” Lake",
   "birth_date": "1961-11-11",
   "death_date": "2014-02-15",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "238057241/james-w-lake",
-  "image_url": "https://images.findagrave.com/photos/2022/86/238057241_3cd4fb82-19a1-4fa6-bfba-9cb530fa5140.jpeg?size=photos250"
+  "bio": "LAKE_NINHAM\nJames (Jimmy)<br/>W. Lake<br/>Nov. 11, 1961<br/>Feb. 15, 2014</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/238057241_3cd4fb82-19a1-4fa6-bfba-9cb530fa5140.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 654
 }

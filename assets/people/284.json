@@ -1,10 +1,29 @@
 {
-  "id": 284,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/16656106/cathern-finkbeiner",
   "name": "Cathern Finkbeiner",
   "birth_date": "1885-03-10",
   "death_date": "1949-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "16656106/cathern-finkbeiner",
-  "image_url": "https://images.findagrave.com/photos/2006/317/16656106_116356751407.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/317/16656106_116356751407.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Christian F   Finkbeiner",
+      "birth_date": "1851-00-00",
+      "death_date": "1920-00-00",
+      "profile_url": "/memorial/16655986/christian_f-finkbeiner"
+    },
+    {
+      "name": "Caroline  Wolf Finkbeiner",
+      "birth_date": "1854-00-00",
+      "death_date": "1937-00-00",
+      "profile_url": "/memorial/16656009/caroline-finkbeiner"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Elizabeth M  Finkbeiner Goetz\", \"birth_date\": \"1876-00-00\", \"death_date\": \"1958-00-00\", \"profile_url\": \"/memorial/16627319/elizabeth_m-goetz\"}, {\"name\": \"Minnie Amelia \\\"Mena\\\" Finkbeiner Humble\", \"birth_date\": \"1879-00-00\", \"death_date\": \"1946-00-00\", \"profile_url\": \"/memorial/16627307/minnie_amelia-humble\"}]",
+  "id": 284
 }

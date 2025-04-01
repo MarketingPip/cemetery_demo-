@@ -1,10 +1,29 @@
 {
-  "id": 1011,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/239188082/charles-h-stanley",
   "name": "Charles H Stanley",
   "birth_date": "1882-00-00",
   "death_date": "1883-02-01",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "239188082/charles-h-stanley",
-  "image_url": "https://images.findagrave.com/photos/2022/114/239188082_44e12c2f-a685-4500-a928-b6f3b969af48.jpeg?size=photos250"
+  "bio": "STANLEY\nCharles s H. <br/>son of Robert &amp; Min Stanley<br/>died Feb. 1, 1883<br/>Aged 7 months 2 days</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/114/239188082_44e12c2f-a685-4500-a928-b6f3b969af48.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Robert   Stanley",
+      "birth_date": "1851-00-00",
+      "death_date": "1935-00-00",
+      "profile_url": "/memorial/171870710/robert-stanley"
+    },
+    {
+      "name": "Wilhelmina  Hoffman Stanley",
+      "birth_date": "1854-00-00",
+      "death_date": "1943-00-00",
+      "profile_url": "/memorial/171870426/wilhelmina-stanley"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Almeda M.  Stanley Hewitt\", \"birth_date\": \"1876-00-00\", \"death_date\": \"1956-00-00\", \"profile_url\": \"/memorial/218880793/almeda_m-hewitt\"}, {\"name\": \"Alma Jane   Stanley\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1881-00-00\", \"profile_url\": \"/memorial/239188165/alma_jane-stanley\"}, {\"name\": \"Mary (Mae) Venetta  Stanley Stretton\", \"birth_date\": \"1880-00-00\", \"death_date\": \"1951-00-00\", \"profile_url\": \"/memorial/249616877/mary_(mae)_venetta-stretton\"}]",
+  "id": 1011
 }

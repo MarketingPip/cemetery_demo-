@@ -1,10 +1,36 @@
 {
-  "id": 33,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/16671364/nicholas-beaver",
   "name": "Nicholas Beaver",
   "birth_date": "1849-05-12",
   "death_date": "1934-12-18",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "16671364/nicholas-beaver",
-  "image_url": "https://images.findagrave.com/photos/2006/319/16671364_116368773540.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/319/16671364_116368773540.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Charlotte  Yantz Beaver",
+      "birth_date": "1815-00-00",
+      "death_date": "1907-00-00",
+      "profile_url": "/memorial/22432721/charlotte-beaver"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Fredericka  Martin Beaver",
+      "birth_date": "1852-00-00",
+      "death_date": "1895-00-00",
+      "profile_url": "/memorial/16671374/fredericka-beaver"
+    },
+    {
+      "name": "Mary Caroline  Lutz Wuerth",
+      "birth_date": "1859-00-00",
+      "death_date": "1919-00-00",
+      "profile_url": "/memorial/16550445/mary_caroline-wuerth"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 33
 }

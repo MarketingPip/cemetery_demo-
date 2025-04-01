@@ -1,10 +1,36 @@
 {
-  "id": 78,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/40800650/gottlieb-k-braun",
   "name": "Gottlieb K. Braun",
   "birth_date": "1840-01-02",
   "death_date": "1930-10-20",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "40800650/gottlieb-k-braun",
-  "image_url": "https://images.findagrave.com/photos/2022/111/40800650_9582615a-6af4-4516-9bba-0e0159ddc3fe.jpeg?size=photos250"
+  "bio": "BRAUN\nBIS ZUM FROHEN WIEDERSEHN DROBEN<br/>Anna Maria<br/>Ehegattin Von Carl Braun<br/>Starb Den 2 Mai 1884<br/>Alter 80 Jahre und 2 monats<br/>AUS KINDLICHER LIEBE GEWIDMET<br/>Carl Braun<br/>Starb Den 16 April 1882<br/>Alter 85 Jahre 11 monate 24 tage<br/>Lydia Stahl Braun<br/>April 23, 1851<br/>Oct. 8, 1931<br/>Gotiob K. Braun<br/>Jan. 2, 1840<br/>Oct. 20, 1930</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/111/40800650_9582615a-6af4-4516-9bba-0e0159ddc3fe.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Carl   Braun",
+      "birth_date": "1796-00-00",
+      "death_date": "1882-00-00",
+      "profile_url": "/memorial/15790734/carl-braun"
+    },
+    {
+      "name": "Anna Maria  Klumpp Braun",
+      "birth_date": "1804-00-00",
+      "death_date": "1884-00-00",
+      "profile_url": "/memorial/15790761/anna_maria-braun"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Lydia  Stahl Braun",
+      "birth_date": "1851-00-00",
+      "death_date": "1931-00-00",
+      "profile_url": "/memorial/15790889/lydia-braun"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 78
 }

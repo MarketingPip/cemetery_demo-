@@ -1,10 +1,36 @@
 {
-  "id": 391,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188112993/catharine-gaiser",
   "name": "Catharine Engeland Gaiser",
   "birth_date": "1870-10-04",
   "death_date": "1927-05-17",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188112993/catharine-gaiser",
-  "image_url": "https://images.findagrave.com/photos/2022/116/188112993_18f450fd-f244-49fb-8f0e-ef872d6c2981.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/116/188112993_18f450fd-f244-49fb-8f0e-ef872d6c2981.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Lorentz   Engeland",
+      "birth_date": "1817-00-00",
+      "death_date": "1892-00-00",
+      "profile_url": "/memorial/255278258/lorentz-engeland"
+    },
+    {
+      "name": "Anna Gertrud \"Gertrude\" Schaake Engeland",
+      "birth_date": "1829-00-00",
+      "death_date": "1905-00-00",
+      "profile_url": "/memorial/255278256/anna_gertrud-engeland"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "John H.   Gaiser",
+      "birth_date": "1867-00-00",
+      "death_date": "1964-00-00",
+      "profile_url": "/memorial/188113030/john_h-gaiser"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 391
 }

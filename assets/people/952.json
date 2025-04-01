@@ -1,10 +1,42 @@
 {
-  "id": 952,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188136813/john-kaatz-schroeder",
   "name": "John Kaatz Schroeder",
   "birth_date": "1866-06-06",
   "death_date": "1944-07-24",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188136813/john-kaatz-schroeder",
-  "image_url": "https://images.findagrave.com/photos/2024/118/188136813_87856b6f-95f9-4e9a-846d-ed7e820373b2.jpeg?size=photos250"
+  "bio": "SCHROEDER\nIn Memory of<br/>Caroline Schroeder<br/>died Jan. 21, 1898<br/>aged 31 yrs. 7 mos. 21 ds.<br/>In Memory of Gideon Yaeger<br/>died Mar. 26, 1889<br/>Ae 29 yrs. 9 mos.<br/>John K. Schroeder<br/>1866-1944<br/>his wife Louise Wind<br/>1870-1952<br/>also 2 f.s<br/>John K. Schroeder<br/>1866-1944<br/>Louise Wind Schroeder<br/>1870-1952</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2024/118/188136813_87856b6f-95f9-4e9a-846d-ed7e820373b2.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Gottlieb   Schroeder",
+      "birth_date": "1834-00-00",
+      "death_date": "1907-00-00",
+      "profile_url": "/memorial/73696507/gottlieb-schroeder"
+    },
+    {
+      "name": "Louisa  Kaatz Schroeder",
+      "birth_date": "1835-00-00",
+      "death_date": "1925-00-00",
+      "profile_url": "/memorial/73697014/louisa-schroeder"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Caroline  Wind Schroeder",
+      "birth_date": "1866-00-00",
+      "death_date": "1898-00-00",
+      "profile_url": "/memorial/236179654/caroline-schroeder"
+    },
+    {
+      "name": "Louise  Wind Schroeder",
+      "birth_date": "1870-00-00",
+      "death_date": "1952-00-00",
+      "profile_url": "/memorial/188136815/louise-schroeder"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 952
 }

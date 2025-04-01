@@ -1,10 +1,23 @@
 {
-  "id": 290,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/35708448/delton-arva-finkbeiner",
   "name": "Delton Arva Finkbeiner",
   "birth_date": "1920-01-31",
   "death_date": "2003-08-20",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "35708448/delton-arva-finkbeiner",
-  "image_url": "https://images.findagrave.com/photos/2022/127/35708448_52c4a4c5-87d5-4d2c-be67-f47b6cbce676.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/127/35708448_52c4a4c5-87d5-4d2c-be67-f47b6cbce676.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Norma Ilene  Parsons Finkbeiner",
+      "birth_date": "1924-00-00",
+      "death_date": "1999-00-00",
+      "profile_url": "/memorial/35708452/norma_ilene-finkbeiner"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 290
 }

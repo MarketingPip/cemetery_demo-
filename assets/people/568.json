@@ -1,10 +1,36 @@
 {
-  "id": 568,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15977902/johanna-hoffmann",
   "name": "Johanna Callfas Hoffmann",
   "birth_date": "1835-03-10",
   "death_date": "1918-02-05",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15977902/johanna-hoffmann",
-  "image_url": "https://images.findagrave.com/photos/2006/275/15977902_115988327199.jpg?size=photos250"
+  "bio": "HOFFMANN\nChristian Hoffmann<br/>born Aug. 1, 1862-died Apr. 14, 1926<br/>his wife Hannah Balsden<br/>Dec. 28, 1862-Mar. 2, 1937<br/>their son Charlie<br/>born Oct. 20, 1906-died Apr. 11, 1981<br/>his wife Clara Morlock<br/>born Jan. 4, 1902-died Apr. 30, 1988<br/>(back)Peter Hoffmann<br/>born Mar.3, 1826-died Jan. 5, 1913<br/>his wife Johanna Callfas<br/>born Mar. 10, 1835-died Feb. 5, 1918<br/>their daughters<br/>Eliza Ann Hoffmann<br/>born May 11, 1866-died Apr. 15, 1890<br/>Mary Hoffmann<br/>wife of H. Stanley<br/>born Dec. 26, 1855-died July 19, 1891</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/275/15977902_115988327199.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "John   Callfas",
+      "birth_date": "1790-00-00",
+      "death_date": "1884-00-00",
+      "profile_url": "/memorial/248165681/john-callfas"
+    },
+    {
+      "name": "Eva Catharina  Rau Calfass",
+      "birth_date": "1795-00-00",
+      "death_date": "1848-00-00",
+      "profile_url": "/memorial/249035106/eva_catharina-calfass"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Peter   Hoffmann",
+      "birth_date": "1826-00-00",
+      "death_date": "1913-00-00",
+      "profile_url": "/memorial/15977860/peter-hoffmann"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 568
 }

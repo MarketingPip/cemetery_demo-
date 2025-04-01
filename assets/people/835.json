@@ -1,10 +1,29 @@
 {
-  "id": 835,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/237947115/gwendolyn-helen-pfaff",
   "name": "Gwendolyn Helen Pfaff",
   "birth_date": "1942-00-00",
   "death_date": "1968-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "237947115/gwendolyn-helen-pfaff",
-  "image_url": "https://images.findagrave.com/photos/2022/186/237947115_e2e60fbe-d291-4f74-a6a2-60329eb84745.jpeg?size=photos250"
+  "bio": "PFAFF\nOscar Pfaff<br/>1899-1991<br/>his wife<br/>Hazel Brethour<br/>1907-1997<br/>their daughter<br/>Gwendolyn Helen<br/>1942-1968</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/186/237947115_e2e60fbe-d291-4f74-a6a2-60329eb84745.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Oscar   Pfaff",
+      "birth_date": "1899-00-00",
+      "death_date": "1991-00-00",
+      "profile_url": "/memorial/188136430/oscar-pfaff"
+    },
+    {
+      "name": "Hazel  Brethour Pfaff",
+      "birth_date": "1907-00-00",
+      "death_date": "1997-00-00",
+      "profile_url": "/memorial/188136419/hazel-pfaff"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Marion Dolores  Pfaff Berge\", \"birth_date\": \"1933-00-00\", \"death_date\": \"2022-00-00\", \"profile_url\": \"/memorial/237140263/marion_dolores-berge\"}]",
+  "id": 835
 }

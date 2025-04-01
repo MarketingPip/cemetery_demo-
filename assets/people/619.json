@@ -1,10 +1,16 @@
 {
-  "id": 619,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188113384/thomas-kirkham",
   "name": "DRIVER Thomas Kirkham",
   "birth_date": "",
   "death_date": "1947-12-11",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188113384/thomas-kirkham",
-  "image_url": "https://images.findagrave.com/photos/2021/154/188113384_49faefbc-1c6e-48f8-af05-1057b3f51222.jpeg?size=photos250"
+  "bio": "REST IN PEACE!",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2021/154/188113384_49faefbc-1c6e-48f8-af05-1057b3f51222.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 619
 }

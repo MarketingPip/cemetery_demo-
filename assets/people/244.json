@@ -1,10 +1,23 @@
 {
-  "id": 244,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15571777/emmery-fahrner",
   "name": "Emmery Fahrner",
   "birth_date": "1893-06-30",
   "death_date": "1980-04-17",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15571777/emmery-fahrner",
-  "image_url": "https://images.findagrave.com/photos/2006/243/15571777_115711925632.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/243/15571777_115711925632.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Losetta Matilda  Haist Fahrner",
+      "birth_date": "1899-00-00",
+      "death_date": "1987-00-00",
+      "profile_url": "/memorial/15571752/losetta_matilda-fahrner"
+    }
+  ],
+  "children": "[{\"name\": \"Norma  Fahrner Palmer\", \"birth_date\": \"1928-00-00\", \"death_date\": \"2011-00-00\", \"profile_url\": \"/memorial/67161823/norma-palmer\"}]",
+  "siblings": "[]",
+  "id": 244
 }

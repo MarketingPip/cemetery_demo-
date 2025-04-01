@@ -1,10 +1,23 @@
 {
-  "id": 966,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/236170453/mary-magdelina-schwarz",
   "name": "Mary Magdelina Able Schwarz",
   "birth_date": "1834-02-14",
   "death_date": "1907-03-14",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "236170453/mary-magdelina-schwarz",
-  "image_url": "https://images.findagrave.com/photos/2022/110/236170453_c308bee7-59a5-479a-8477-d8469d3a0954.jpeg?size=photos250"
+  "bio": "SCHWARZ\nJacob Schwarz<br/>died Jan. 28, 1931<br/>aged 69 yrs.<br/>Louisa Haist, his wife<br/>died Feb. 1, 1942<br/>aged 70 yrs<br/>Magdelina Schwarz<br/>born July 16, 1870<br/>died Sept. 27, 1870<br/>aged 2 mos. 11 ds.<br/>Michael Schwarz<br/>born June 29, 1827<br/>died Sept. 22, 1878<br/>aged 51 yrs. 3 mos. 23 dys.<br/>Mary Magdelina<br/>wife of Michael Schwarz<br/>born Feb. 14, 1834<br/>died Mar. 14, 1907<br/>aged 73 yrs. 1 mon.<br/>their son<br/>Michael<br/>born June 2, 1872<br/>died Jan. 29, 1910<br/>aged 37 yrs. 7 mos. 27 dys.<br/>Lydia Schwarz<br/>wife of E.D. Wurm<br/>1875-1924</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/110/236170453_c308bee7-59a5-479a-8477-d8469d3a0954.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Michael   Schwarz Sr",
+      "birth_date": "1827-00-00",
+      "death_date": "1878-00-00",
+      "profile_url": "/memorial/188136855/michael-schwarz"
+    }
+  ],
+  "children": "[{\"name\": \"Magdelina   Schwarz\", \"birth_date\": \"1870-00-00\", \"death_date\": \"1870-00-00\", \"profile_url\": \"/memorial/236170325/magdelina-schwarz\"}, {\"name\": \"Michael   Schwarz Jr\", \"birth_date\": \"1872-00-00\", \"death_date\": \"1910-00-00\", \"profile_url\": \"/memorial/188136852/michael-schwarz\"}, {\"name\": \"Lydia  Schwartz Wurm\", \"birth_date\": \"1875-00-00\", \"death_date\": \"1924-00-00\", \"profile_url\": \"/memorial/15728684/lydia-wurm\"}]",
+  "siblings": "[]",
+  "id": 966
 }

@@ -1,10 +1,23 @@
 {
-  "id": 440,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/238057538/betty-a-glanville",
   "name": "Betty A. Roeszler Glanville",
   "birth_date": "1935-00-00",
   "death_date": "2013-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "238057538/betty-a-glanville",
-  "image_url": "https://images.findagrave.com/photos/2022/86/238057538_37f36338-9950-4905-aed3-f1db93695dd7.jpeg?size=photos250"
+  "bio": "in loving memory\nGLANVILLE<br/>Cecil E. Glanville<br/>1937-2021<br/>his beloved wife<br/>Betty A. Roeszler<br/>1936-2013</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/238057538_37f36338-9950-4905-aed3-f1db93695dd7.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Cecil Edward   Glanville",
+      "birth_date": "1938-00-00",
+      "death_date": "2021-00-00",
+      "profile_url": "/memorial/223107890/cecil_edward-glanville"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 440
 }

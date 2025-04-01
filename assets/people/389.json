@@ -1,10 +1,36 @@
 {
-  "id": 389,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15639713/albert-adam-gaiser",
   "name": "Albert Adam Gaiser",
   "birth_date": "1891-05-17",
   "death_date": "1974-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15639713/albert-adam-gaiser",
-  "image_url": "https://images.findagrave.com/photos/2006/248/15639713_115755540999.jpg?size=photos250"
+  "bio": "GAISER\nf.s. FATHER MOTHER</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/248/15639713_115755540999.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Jacob   Gaiser",
+      "birth_date": "1854-00-00",
+      "death_date": "1928-00-00",
+      "profile_url": "/memorial/16627163/jacob-gaiser"
+    },
+    {
+      "name": "Christina  Kutzli Gaiser",
+      "birth_date": "1858-00-00",
+      "death_date": "1896-00-00",
+      "profile_url": "/memorial/16627135/christina-gaiser"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Sybilla Charlotte  Morlock Gaiser",
+      "birth_date": "1893-00-00",
+      "death_date": "1949-00-00",
+      "profile_url": "/memorial/15639747/sybilla_charlotte-gaiser"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 389
 }

@@ -1,10 +1,23 @@
 {
-  "id": 911,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/40113349/velma-elizabeth-russell",
   "name": "Velma Elizabeth Webb Russell",
   "birth_date": "1923-00-00",
   "death_date": "2009-01-08",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "40113349/velma-elizabeth-russell",
-  "image_url": "https://images.findagrave.com/photos/2022/86/40113349_ddda4ced-73ab-47d4-b59e-69c0d484def4.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/40113349_ddda4ced-73ab-47d4-b59e-69c0d484def4.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "O. Clifford   Russell",
+      "birth_date": "1916-00-00",
+      "death_date": "1997-00-00",
+      "profile_url": "/memorial/188136625/o_clifford-russell"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 911
 }

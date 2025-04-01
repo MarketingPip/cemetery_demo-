@@ -1,10 +1,29 @@
 {
-  "id": 549,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/179830535/henry-hirtzel",
   "name": "Henry Hirtzel",
   "birth_date": "1857-06-22",
   "death_date": "1880-02-21",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "179830535/henry-hirtzel",
-  "image_url": "https://images.findagrave.com/photos/2022/110/179830535_b9c2cd03-2e67-4b3b-a24d-e7fdd64e6c72.jpeg?size=photos250"
+  "bio": "HIRTZEL<br/>MICHAEL  HIRTZEL<br/>BORN APR. 9 1829 – DIED MAY 4, 1917<br/>HIS WIFE CATHERINE KROFT<br/>BORN  NOV. 25, 1825 – DIED JAN. 16, 1882<br/>HIS WIFE CATHERINE KREIN<br/>BORN MAR. 28, 1846 – DIED MAR. 28, 1912<br/>HENRY  HIRTZEL<br/>BORN  JUNE 22, 1857 – DIED SEPT. 20, 1880<br/>[21 Feb 1880 on death record]<br/>SAMUEL HIRTZEL<br/>BORN JULY 10, 1879 – DIED DEC. 28, 1879<br/>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/110/179830535_b9c2cd03-2e67-4b3b-a24d-e7fdd64e6c72.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Michael   Hirtzel",
+      "birth_date": "1829-00-00",
+      "death_date": "1917-00-00",
+      "profile_url": "/memorial/179828867/michael-hirtzel"
+    },
+    {
+      "name": "Catherine  Kroft Hirtzel",
+      "birth_date": "1825-00-00",
+      "death_date": "1882-00-00",
+      "profile_url": "/memorial/179829096/catherine-hirtzel"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Elizabeth  Hirtzel Beaver\", \"birth_date\": \"1860-00-00\", \"death_date\": \"1943-00-00\", \"profile_url\": \"/memorial/16424598/elizabeth-beaver\"}, {\"name\": \"Catherine Margaret  Hirtzel Stark\", \"birth_date\": \"1865-00-00\", \"death_date\": \"1948-00-00\", \"profile_url\": \"/memorial/215805336/catherine_margaret-stark\"}, {\"name\": \"William   Hirtzel\", \"birth_date\": \"1872-00-00\", \"death_date\": \"1928-00-00\", \"profile_url\": \"/memorial/179826369/william-hirtzel\"}, {\"name\": \"Ludwig Phillip \\\"Louis\\\"  Hirtzel\", \"birth_date\": \"1874-00-00\", \"death_date\": \"1978-00-00\", \"profile_url\": \"/memorial/10215334/ludwig_phillip-hirtzel\"}, {\"name\": \"Samuel   Hirtzel\", \"birth_date\": \"1879-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/179830619/samuel-hirtzel\"}]",
+  "id": 549
 }

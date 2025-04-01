@@ -1,10 +1,16 @@
 {
-  "id": 144,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/238057773/mark-anthony-crocker",
   "name": "Mark Anthony Crocker",
   "birth_date": "1959-06-02",
   "death_date": "2021-05-25",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "238057773/mark-anthony-crocker",
-  "image_url": "https://images.findagrave.com/photos/2023/219/238057773_577d34b2-a7a5-49b7-b038-9db0e8c73b33.jpeg?size=photos250"
+  "bio": "CROCKER\nMark Anthony<br/>June 2, 1959<br/>May 25, 2021<br/>loved father of Madison<br/>beloved husband of<br/>Claire B. Finkbeiner</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2023/219/238057773_577d34b2-a7a5-49b7-b038-9db0e8c73b33.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 144
 }

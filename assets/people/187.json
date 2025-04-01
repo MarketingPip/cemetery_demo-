@@ -1,10 +1,36 @@
 {
-  "id": 187,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188036635/herbert-krattiger-eilber",
   "name": "Herbert Krattiger Eilber",
   "birth_date": "1881-00-00",
   "death_date": "1954-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188036635/herbert-krattiger-eilber",
-  "image_url": "https://images.findagrave.com/photos/2022/113/188036635_b41fe48e-2557-4629-a9c9-cc8f1b35b249.jpeg?size=photos250"
+  "bio": "EILBER\nHenry Eilber<br/>1857-1943<br/>his wife Elizabeth Krattiger<br/>1858-1941<br/>Mary L. Girwin<br/>1888-1948<br/>wife of Herbert K. Eilber<br/>1881-1954<br/>IHR SOHN<br/>VON 2 TER EHE<br/>Wesley<br/>Ges Sept. 27, 1886<br/>Alter 13 Jahr 3 monat 25 tag<br/>UNSERE ELTERN<br/>John Krattiger<br/>Ges Fe. 3, 1869<br/>Alter 48 Jahr 8 monat.<br/>Seine Gattin<br/>Anna Maria<br/>Ges. Mar. 28, 1886<br/>Alter 51 Jahr 4 monat 20 tag.</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/113/188036635_b41fe48e-2557-4629-a9c9-cc8f1b35b249.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Henry   Eilber",
+      "birth_date": "1857-00-00",
+      "death_date": "1943-00-00",
+      "profile_url": "/memorial/188036610/henry-eilber"
+    },
+    {
+      "name": "Elizabeth  Krattiger Eilber",
+      "birth_date": "1858-00-00",
+      "death_date": "1941-00-00",
+      "profile_url": "/memorial/188036540/elizabeth-eilber"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Mary L.  Girvin Eilber",
+      "birth_date": "1888-00-00",
+      "death_date": "1948-00-00",
+      "profile_url": "/memorial/188036717/mary_l-eilber"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 187
 }

@@ -1,10 +1,16 @@
 {
-  "id": 713,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188115188/christian-messner",
   "name": "Christian Messner",
   "birth_date": "1853-00-00",
   "death_date": "1865-11-24",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188115188/christian-messner",
-  "image_url": "https://images.findagrave.com/photos/2022/111/188115188_3f1fb94f-a955-4191-9960-7ead1feb7448.jpeg?size=photos250"
+  "bio": "KREIN\n(end)Elizabeth<br/>wife of John KREIN<br/>died Mar. 23, 1912<br/>Aged 75 years 27 days<br/>Asleep in Jesus<br/>(front)John KREIN<br/>died April 8, 1902<br/>aged 75 yrs. 7 mos.<br/>Samuel KREIN<br/>died April 25, 1880<br/>aged 1 yr. 1 month.<br/>(back)Paul Messner<br/>died May 12, 1875<br/>ae 45 yrs.<br/>John Messner<br/>died Oct. 4, 1864<br/>ae 4 yrs. 6 mos<br/>Christian MESSNER<br/>died Nov. 24, 1865<br/>ae 12 yrs. 6 mos.<br/>Regina Messner<br/>died July 26, 1893<br/>ae 29 yrs. 10 mos.</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/111/188115188_3f1fb94f-a955-4191-9960-7ead1feb7448.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 713
 }

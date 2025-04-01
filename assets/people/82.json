@@ -1,10 +1,29 @@
 {
-  "id": 82,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/39574301/r-keith-brintnell",
   "name": "R Keith Brintnell",
   "birth_date": "1930-08-20",
   "death_date": "2008-12-23",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "39574301/r-keith-brintnell",
-  "image_url": "https://images.findagrave.com/photos/2018/209/39574301_f3c55d7c-bf6d-448b-ac09-921679ee7eb5.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2018/209/39574301_f3c55d7c-bf6d-448b-ac09-921679ee7eb5.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Clifford   Brintnell",
+      "birth_date": "1896-00-00",
+      "death_date": "1983-00-00",
+      "profile_url": "/memorial/15803527/clifford-brintnell"
+    },
+    {
+      "name": "Hannah MAE  Faribairn Brintnell",
+      "birth_date": "1907-00-00",
+      "death_date": "1993-00-00",
+      "profile_url": "/memorial/15803528/hannah_mae-brintnell"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Barbara Mae  Brintnell Almasi\", \"birth_date\": \"1936-00-00\", \"death_date\": \"2017-00-00\", \"profile_url\": \"/memorial/73427996/barbara_mae-almasi\"}]",
+  "id": 82
 }

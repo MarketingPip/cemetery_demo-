@@ -1,10 +1,36 @@
 {
-  "id": 399,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188113009/george-a-gaiser",
   "name": "George A. Gaiser",
   "birth_date": "1856-09-16",
   "death_date": "1899-07-30",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188113009/george-a-gaiser",
-  "image_url": "https://images.findagrave.com/photos/2022/116/188113009_42efb452-4909-4dd6-ab9d-c790c1ea5d24.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/116/188113009_42efb452-4909-4dd6-ab9d-c790c1ea5d24.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Adam   Gaiser",
+      "birth_date": "1822-00-00",
+      "death_date": "1894-00-00",
+      "profile_url": "/memorial/239154587/adam-gaiser"
+    },
+    {
+      "name": "Magdalena  Braun Gaiser",
+      "birth_date": "1828-00-00",
+      "death_date": "1919-00-00",
+      "profile_url": "/memorial/239154582/magdalena-gaiser"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Mary S.   Gaiser",
+      "birth_date": "1859-00-00",
+      "death_date": "1935-00-00",
+      "profile_url": "/memorial/239217449/mary_s-gaiser"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 399
 }

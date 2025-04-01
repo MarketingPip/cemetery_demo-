@@ -1,10 +1,16 @@
 {
-  "id": 1112,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188138614/david-charles-wein",
   "name": "David Charles Wein",
   "birth_date": "1888-07-12",
   "death_date": "1915-05-14",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188138614/david-charles-wein",
-  "image_url": "https://images.findagrave.com/photos/2022/110/188138614_5c795db3-053e-4f0c-8e35-c04ced166904.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/110/188138614_5c795db3-053e-4f0c-8e35-c04ced166904.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1112
 }

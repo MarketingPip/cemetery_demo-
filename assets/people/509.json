@@ -1,10 +1,36 @@
 {
-  "id": 509,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15580371/wellington-roy-haist",
   "name": "Wellington Roy Haist",
   "birth_date": "1895-01-23",
   "death_date": "1970-01-29",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15580371/wellington-roy-haist",
-  "image_url": "https://images.findagrave.com/photos/2006/244/15580371_115720166829.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/244/15580371_115720166829.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Frederick   Haist",
+      "birth_date": "1864-00-00",
+      "death_date": "1936-00-00",
+      "profile_url": "/memorial/15563828/frederick-haist"
+    },
+    {
+      "name": "Magdalena  Brown Haist",
+      "birth_date": "1863-00-00",
+      "death_date": "1937-00-00",
+      "profile_url": "/memorial/15563840/magdalena-haist"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Irene Louise  Willert Haist",
+      "birth_date": "1898-00-00",
+      "death_date": "1983-00-00",
+      "profile_url": "/memorial/15580408/irene_louise-haist"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 509
 }

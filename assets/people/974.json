@@ -1,10 +1,23 @@
 {
-  "id": 974,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188136881/clarence-l-shoebottom",
   "name": "Clarence L. Shoebottom",
   "birth_date": "1898-00-00",
   "death_date": "1987-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188136881/clarence-l-shoebottom",
-  "image_url": "https://images.findagrave.com/photos/2022/116/188136881_7c729a7e-0f9e-4b79-9675-c92cd5222acb.jpeg?size=photos250"
+  "bio": "f.s. Martha Clarence",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/116/188136881_7c729a7e-0f9e-4b79-9675-c92cd5222acb.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Martha R.  Schroeder Shoebottom",
+      "birth_date": "1899-00-00",
+      "death_date": "1965-00-00",
+      "profile_url": "/memorial/188136886/martha_r-shoebottom"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 974
 }

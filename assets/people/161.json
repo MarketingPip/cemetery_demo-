@@ -1,10 +1,36 @@
 {
-  "id": 161,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188036363/stephen-r-dundas",
   "name": "Stephen R. Dundas",
   "birth_date": "1900-00-00",
   "death_date": "1975-05-18",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188036363/stephen-r-dundas",
-  "image_url": "https://images.findagrave.com/photos/2022/84/188036363_2345ba13-98ce-456a-9e3e-b2ff27c9bb1f.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/188036363_2345ba13-98ce-456a-9e3e-b2ff27c9bb1f.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Joseph   Dundas",
+      "birth_date": "1854-00-00",
+      "death_date": "1927-00-00",
+      "profile_url": "/memorial/163449053/joseph-dundas"
+    },
+    {
+      "name": "Elizabeth   Dundas",
+      "birth_date": "1863-00-00",
+      "death_date": "1936-00-00",
+      "profile_url": "/memorial/163449075/elizabeth-dundas"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Dorothy A.  Smith Dundas",
+      "birth_date": "1908-00-00",
+      "death_date": "1997-00-00",
+      "profile_url": "/memorial/188036357/dorothy_a-dundas"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 161
 }

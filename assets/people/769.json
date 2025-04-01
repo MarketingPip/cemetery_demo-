@@ -1,10 +1,36 @@
 {
-  "id": 769,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/16626938/henry-motz",
   "name": "Henry Motz",
   "birth_date": "1861-12-25",
   "death_date": "1939-09-24",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "16626938/henry-motz",
-  "image_url": "https://images.findagrave.com/photos/2006/315/16626938_116339315620.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/315/16626938_116339315620.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Henry   Motz",
+      "birth_date": "1834-00-00",
+      "death_date": "1913-00-00",
+      "profile_url": "/memorial/15707356/henry-motz"
+    },
+    {
+      "name": "Wilhelmina  Schnepf Motz",
+      "birth_date": "1836-00-00",
+      "death_date": "1881-00-00",
+      "profile_url": "/memorial/15707447/wilhelmina-motz"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Catherine Annie Maria  Messner Motz",
+      "birth_date": "1869-00-00",
+      "death_date": "1941-00-00",
+      "profile_url": "/memorial/16626989/catherine_annie_maria-motz"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 769
 }

@@ -1,10 +1,36 @@
 {
-  "id": 488,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15563828/frederick-haist",
   "name": "Frederick Haist",
   "birth_date": "1864-03-31",
   "death_date": "1936-04-07",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15563828/frederick-haist",
-  "image_url": "https://images.findagrave.com/photos/2006/242/15563828_115703864065.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/242/15563828_115703864065.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "August   Haist",
+      "birth_date": "1839-00-00",
+      "death_date": "1912-00-00",
+      "profile_url": "/memorial/15697730/august-haist"
+    },
+    {
+      "name": "Barbara  Heist Haist",
+      "birth_date": "1836-00-00",
+      "death_date": "1918-00-00",
+      "profile_url": "/memorial/15697770/barbara-haist"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Magdalena  Brown Haist",
+      "birth_date": "1863-00-00",
+      "death_date": "1937-00-00",
+      "profile_url": "/memorial/15563840/magdalena-haist"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 488
 }

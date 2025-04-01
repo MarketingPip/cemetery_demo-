@@ -1,10 +1,23 @@
 {
-  "id": 1174,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15660693/elizabeth-winer",
   "name": "Elizabeth Sweitzer Winer",
   "birth_date": "1871-00-00",
   "death_date": "1891-03-02",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15660693/elizabeth-winer",
-  "image_url": "https://images.findagrave.com/photos/2006/249/15660693_115769004819.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/249/15660693_115769004819.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "William Edward   Winer",
+      "birth_date": "1868-00-00",
+      "death_date": "1948-00-00",
+      "profile_url": "/memorial/15804132/william_edward-winer"
+    }
+  ],
+  "children": "[{\"name\": \"Norman   Winer\", \"birth_date\": \"1889-00-00\", \"death_date\": \"1908-00-00\", \"profile_url\": \"/memorial/15660715/norman-winer\"}]",
+  "siblings": "[]",
+  "id": 1174
 }

@@ -1,10 +1,36 @@
 {
-  "id": 1045,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15134804/samuel-sweitzer",
   "name": "Samuel Sweitzer",
   "birth_date": "1915-00-00",
   "death_date": "1977-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15134804/samuel-sweitzer",
-  "image_url": "https://images.findagrave.com/photos/2006/214/15134804_115461698931.jpg?size=photos250"
+  "bio": "SWEITZER(salmon granite stone)\nSamuel Sweitzer<br/>1915-1977<br/>his wife Ida A. Riard<br/>1923-1989<br/>(back)SWEITZER<br/>Brian Sweitzer <br/>1947-1981<br/>his wife Angela McAvany</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/214/15134804_115461698931.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "William H.   Sweitzer",
+      "birth_date": "1887-00-00",
+      "death_date": "1969-00-00",
+      "profile_url": "/memorial/15187530/william_h-sweitzer"
+    },
+    {
+      "name": "Ida  Ratz Sweitzer",
+      "birth_date": "1889-00-00",
+      "death_date": "1920-00-00",
+      "profile_url": "/memorial/16550965/ida-sweitzer"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Ida A  Riard Sweitzer",
+      "birth_date": "1923-00-00",
+      "death_date": "1989-00-00",
+      "profile_url": "/memorial/15134824/ida_a-sweitzer"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1045
 }

@@ -1,10 +1,30 @@
 {
-  "id": 444,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/16627319/elizabeth-m-goetz",
   "name": "Elizabeth M Finkbeiner Goetz",
   "birth_date": "1876-01-15",
   "death_date": "1958-04-25",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "16627319/elizabeth-m-goetz",
-  "image_url": "https://images.findagrave.com/photos/2006/315/16627319_116339756479.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/315/16627319_116339756479.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Caroline  Wolf Finkbeiner",
+      "birth_date": "1854-00-00",
+      "death_date": "1937-00-00",
+      "profile_url": "/memorial/16656009/caroline-finkbeiner"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Reuben Albert Justus   Goetz",
+      "birth_date": "1879-00-00",
+      "death_date": "1987-00-00",
+      "profile_url": "/memorial/16627347/reuben_albert_justus-goetz"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 444
 }

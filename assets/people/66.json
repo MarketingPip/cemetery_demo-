@@ -1,10 +1,23 @@
 {
-  "id": 66,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/39967549/george-j-blyde",
   "name": "George J Blyde",
   "birth_date": "1927-12-24",
   "death_date": "2002-07-04",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "39967549/george-j-blyde",
-  "image_url": "https://images.findagrave.com/photos/2022/86/39967549_1510438f-a0f8-4f84-a23a-85d73a2bb7b2.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/39967549_1510438f-a0f8-4f84-a23a-85d73a2bb7b2.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "A. Irene  Ross Blyde",
+      "birth_date": "1928-00-00",
+      "death_date": "1987-00-00",
+      "profile_url": "/memorial/188035639/a_irene-blyde"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 66
 }

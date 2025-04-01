@@ -1,10 +1,23 @@
 {
-  "id": 940,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/236187611/wilhelmina-schmidt",
   "name": "Wilhelmina Schmidt",
   "birth_date": "1837-00-00",
   "death_date": "1917-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "236187611/wilhelmina-schmidt",
-  "image_url": "https://images.findagrave.com/photos/2022/111/236187611_2560e3f9-83cf-4837-908a-5e34ba30960a.jpeg?size=photos250"
+  "bio": "SCHMIDT\nJohn M. Schmidt<br/>1831-1890<br/>his wife, Wilhelmina<br/>1837-1917<br/>Saloma Schmidt<br/>1866-1866<br/>Chas. W. Schmidt<br/>1873-1874<br/>Clara L. Schmidt<br/>1877-1879</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/111/236187611_2560e3f9-83cf-4837-908a-5e34ba30960a.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "John M.   Schmidt",
+      "birth_date": "1831-00-00",
+      "death_date": "1890-00-00",
+      "profile_url": "/memorial/188136762/john_m-schmidt"
+    }
+  ],
+  "children": "[{\"name\": \"Salome   Schmidt\", \"birth_date\": \"1866-00-00\", \"death_date\": \"1866-00-00\", \"profile_url\": \"/memorial/236187655/salome-schmidt\"}, {\"name\": \"Charles W.   Schmidt\", \"birth_date\": \"1873-00-00\", \"death_date\": \"1874-00-00\", \"profile_url\": \"/memorial/188136758/charles_w-schmidt\"}, {\"name\": \"Clara L.   Schmidt\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236187806/clara_l-schmidt\"}]",
+  "siblings": "[]",
+  "id": 940
 }

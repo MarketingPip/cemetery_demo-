@@ -1,10 +1,16 @@
 {
-  "id": 58,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/55150776/matilda-bertrand",
   "name": "Matilda Bertrand",
   "birth_date": "1877-00-00",
   "death_date": "1970-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "55150776/matilda-bertrand",
-  "image_url": "https://images.findagrave.com/photos/2022/112/55150776_8c2ff00d-192b-45a8-831b-48dbaa9dc0e5.jpeg?size=photos250"
+  "bio": "BERTRAND\nin memory of<br/>A. Louis Bertrand<br/>born Mar. 9, 1848<br/>died May 5, 1903<br/>Sarah Eilber his wife<br/>born May 14, 1854<br/>died Apr. 13, 1939<br/>John son of the above<br/>died June 15, 1890 ae 9 mos.<br/>(back)<br/>Mary Ellen Bertrand<br/>1881-1934<br/>Amelia Clara Bertrand<br/>1879-1942<br/>Matilda Bertrand<br/>1877-1970<br/>Madeline Bertrand<br/>1891-1972</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/112/55150776_8c2ff00d-192b-45a8-831b-48dbaa9dc0e5.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 58
 }

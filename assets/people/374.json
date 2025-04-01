@@ -1,10 +1,30 @@
 {
-  "id": 374,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/116885460/katherine-follis",
   "name": "Katherine Parker Follis",
   "birth_date": "1801-00-00",
   "death_date": "1877-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "116885460/katherine-follis",
-  "image_url": ""
+  "bio": "",
+  "gps": null,
+  "image_url": "",
+  "parents": [
+    {
+      "name": "Thomas   Parker",
+      "birth_date": "1770-00-00",
+      "death_date": null,
+      "profile_url": "/memorial/121259135/thomas-parker"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "John   Follis",
+      "birth_date": "1797-00-00",
+      "death_date": "1885-00-00",
+      "profile_url": "/memorial/116884906/john-follis"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 374
 }

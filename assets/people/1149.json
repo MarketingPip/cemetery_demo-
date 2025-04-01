@@ -1,10 +1,16 @@
 {
-  "id": 1149,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/236141567/william-wein",
   "name": "William Wein",
   "birth_date": "",
   "death_date": "1968-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "236141567/william-wein",
-  "image_url": "https://images.findagrave.com/photos/2022/110/236141567_3cc9ee0c-514f-40f9-b52b-e9f74e8e78e2.jpeg?size=photos250"
+  "bio": "WEIN, William\ndied 1968</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/110/236141567_3cc9ee0c-514f-40f9-b52b-e9f74e8e78e2.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1149
 }

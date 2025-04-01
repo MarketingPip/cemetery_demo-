@@ -1,10 +1,36 @@
 {
-  "id": 80,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15426343/mary-ann-braun",
   "name": "Mary Ann Morlock Braun",
   "birth_date": "1881-02-09",
   "death_date": "1968-10-12",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15426343/mary-ann-braun",
-  "image_url": "https://images.findagrave.com/photos/2006/231/15426343_115607839986.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/231/15426343_115607839986.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Gottlieb   Morlock",
+      "birth_date": "1836-00-00",
+      "death_date": "1910-00-00",
+      "profile_url": "/memorial/15978080/gottlieb-morlock"
+    },
+    {
+      "name": "Charlotte  Beaver Morlock",
+      "birth_date": "1840-00-00",
+      "death_date": "1925-00-00",
+      "profile_url": "/memorial/15978143/charlotte-morlock"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Otto Nelson   Braun",
+      "birth_date": "1886-00-00",
+      "death_date": "1943-00-00",
+      "profile_url": "/memorial/15426309/otto_nelson-braun"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 80
 }

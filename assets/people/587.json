@@ -1,10 +1,16 @@
 {
-  "id": 587,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/239120374/wilson-franklin-holtzmann",
   "name": "Wilson Franklin Holtzmann",
   "birth_date": "1884-00-00",
   "death_date": "1885-10-31",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "239120374/wilson-franklin-holtzmann",
-  "image_url": "https://images.findagrave.com/photos/2022/112/239120374_73a3ee1e-e9d6-4449-8e10-786d4149c6e8.jpeg?size=photos250"
+  "bio": "HOLTZMANN\nWilson Franklin Holtzmann<br/>died Oct. 31, 1885<br/>ae 1 yr. 1 mon. 11 days.</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/112/239120374_73a3ee1e-e9d6-4449-8e10-786d4149c6e8.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 587
 }

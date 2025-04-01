@@ -1,10 +1,23 @@
 {
-  "id": 516,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188113167/james-harvey",
   "name": "James Harvey",
   "birth_date": "1834-00-00",
   "death_date": "1910-11-15",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188113167/james-harvey",
-  "image_url": "https://images.findagrave.com/photos/2022/114/188113167_290e7433-b7a9-450d-b113-228de5dec56d.jpeg?size=photos250"
+  "bio": "HARVEY\nIn memory of <br/>Grace Harvey<br/>died Apr. 8, 1893<br/>ae 21 yrs.<br/>Eileen Louisa<br/>born Mar. 21, 1879<br/>died Apr. 13, 1879<br/>James Harvey <br/>died Nov. 15, 1910 <br/>in his 77th yr.<br/>Annie Harvey<br/>died Jan. 7, 1942<br/>in her 79th yr.<br/>In memory of Susan<br/>wife of James Harvey<br/>died Feb. 9, 1904<br/>ae 68 yrs. 9 ms. 20 ds.<br/>In memory of Wm. Saunders<br/>died Feb. 12, 1895<br/>ae 70 yrs.<br/>also Rich. Harvey<br/>died Sept. 29, 1890<br/>ae 17 yrs</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/114/188113167_290e7433-b7a9-450d-b113-228de5dec56d.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Susan   Harvey",
+      "birth_date": "1835-00-00",
+      "death_date": "1904-00-00",
+      "profile_url": "/memorial/239172197/susan-harvey"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 516
 }

@@ -1,10 +1,23 @@
 {
-  "id": 5,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/243040247/beth-attfield",
   "name": "Beth Cox Attfield",
   "birth_date": "1925-00-00",
   "death_date": "",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "243040247/beth-attfield",
-  "image_url": ""
+  "bio": "",
+  "gps": null,
+  "image_url": "",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Arthur Jesse   Attfield",
+      "birth_date": "1914-00-00",
+      "death_date": "1975-00-00",
+      "profile_url": "/memorial/127837907/arthur_jesse-attfield"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 5
 }

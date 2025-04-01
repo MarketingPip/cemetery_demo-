@@ -1,10 +1,29 @@
 {
-  "id": 747,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15396202/lulu-frances-morlock",
   "name": "Lulu Frances Morlock",
   "birth_date": "1905-00-00",
   "death_date": "1959-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15396202/lulu-frances-morlock",
-  "image_url": "https://images.findagrave.com/photos/2006/228/15396202_115582620109.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/228/15396202_115582620109.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Charles Edward   Morlock",
+      "birth_date": "1873-00-00",
+      "death_date": "1968-00-00",
+      "profile_url": "/memorial/15396172/charles_edward-morlock"
+    },
+    {
+      "name": "Emma  Grismore Morlock",
+      "birth_date": "1873-00-00",
+      "death_date": "1964-00-00",
+      "profile_url": "/memorial/15396194/emma-morlock"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Dr Carl Grismore   Morlock\", \"birth_date\": \"1906-00-00\", \"death_date\": \"2004-00-00\", \"profile_url\": \"/memorial/155254049/carl_grismore-morlock\"}, {\"name\": \"Ella Opal   Morlock\", \"birth_date\": \"1908-00-00\", \"death_date\": \"2001-00-00\", \"profile_url\": \"/memorial/15396208/ella_opal-morlock\"}]",
+  "id": 747
 }

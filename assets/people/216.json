@@ -1,10 +1,23 @@
 {
-  "id": 216,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15472950/edward-fahner",
   "name": "Edward Fahner",
   "birth_date": "1880-00-00",
   "death_date": "1956-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15472950/edward-fahner",
-  "image_url": "https://images.findagrave.com/photos/2006/234/15472950_115634715360.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/234/15472950_115634715360.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Rosina  Finkbeiner Fahner",
+      "birth_date": "1883-00-00",
+      "death_date": "1954-00-00",
+      "profile_url": "/memorial/15472888/rosina-fahner"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 216
 }

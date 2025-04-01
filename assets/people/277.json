@@ -1,10 +1,29 @@
 {
-  "id": 277,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/236168945/bernhard-finkbeiner",
   "name": "Bernhard Finkbeiner",
   "birth_date": "1870-00-00",
   "death_date": "1879-11-13",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "236168945/bernhard-finkbeiner",
-  "image_url": "https://images.findagrave.com/photos/2022/110/236168945_dafebb6e-e28e-469e-b47c-f16eed366fb9.jpeg?size=photos250"
+  "bio": "FINKBEINER\nIn Memory of Jacob Finkbeiner<br/>died Apr. 25, 1895<br/>aged 58 yrs. 9 mos. &amp; 6 days<br/>Rosina his wife<br/>died Oct. 18, 1926<br/>aged 86 yrs. 9 mos. 1 day<br/>In Memory of Jacob Finkbeiner<br/>died Nov. 3, 1879<br/>aged 5 yrs. 10 mos.<br/>Bernhard<br/>died Nov. 13, 1879<br/>aged 9 yrs. 7 mos.<br/>John<br/>died Nov. 14, 1879<br/>aged 7 yrs. 9 mos.<br/>Samuel<br/>died Nov. 23, 1879<br/>aged 3 yrs. 11 mos.<br/>Elizabeth<br/>died Dec. 8, 1879<br/>aged 1 yr. 3 mos.<br/>children of J. &amp; R. Finkbeiner</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/110/236168945_dafebb6e-e28e-469e-b47c-f16eed366fb9.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Jacob   Finkbeiner",
+      "birth_date": "1836-00-00",
+      "death_date": "1895-00-00",
+      "profile_url": "/memorial/22631608/jacob-finkbeiner"
+    },
+    {
+      "name": "Rosina  Guenter Finkbeiner",
+      "birth_date": "1840-00-00",
+      "death_date": "1926-00-00",
+      "profile_url": "/memorial/22631649/rosina-finkbeiner"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"John   Finkbeiner\", \"birth_date\": \"1872-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236168967/john-finkbeiner\"}, {\"name\": \"Jacob   Finkbeiner\", \"birth_date\": \"1874-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236168918/jacob-finkbeiner\"}, {\"name\": \"Samuel   Finkbeiner\", \"birth_date\": \"1876-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236169004/samuel-finkbeiner\"}, {\"name\": \"Elizabeth   Finkbeiner\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236169042/elizabeth-finkbeiner\"}, {\"name\": \"Emma  Finkbeiner Beaver\", \"birth_date\": \"1880-00-00\", \"death_date\": \"1964-00-00\", \"profile_url\": \"/memorial/15554269/emma-beaver\"}, {\"name\": \"Lydia Magdalena  Finkbeiner Huxtable\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1957-00-00\", \"profile_url\": \"/memorial/142698013/lydia_magdalena-huxtable\"}, {\"name\": \"Wesley Albert   Finkbeiner\", \"birth_date\": \"1885-00-00\", \"death_date\": \"1959-00-00\", \"profile_url\": \"/memorial/154960232/wesley_albert-finkbeiner\"}]",
+  "id": 277
 }

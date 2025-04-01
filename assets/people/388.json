@@ -1,10 +1,16 @@
 {
-  "id": 388,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/235790041/agatha-gaiser",
   "name": "Agatha Gaiser",
   "birth_date": "1830-00-00",
   "death_date": "1889-07-14",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "235790041/agatha-gaiser",
-  "image_url": "https://images.findagrave.com/photos/2022/110/235790041_983092d7-f53e-400c-b689-76f1e7389f7a.jpeg?size=photos250"
+  "bio": "GAISER\nIN MEMORU OF GEORGE A. GAISER<br/>DIED MARCH 7, 1902<br/>AGED 79 YRS. 9 MOS. 15 DS.<br/>SALOME SCHWARTZ 1866-1936<br/>WIFE OF WILLIAM H. GAISER 1864-1964<br/>LULU O DELL 1896-1963<br/>IN MEMORY OF AGATHA<br/>WIFE OF ADAM G. GAISER<br/>DIED JULY 14, 1889 AGED 59 YRS. 5 MS. 9 DS.<br/>CHRISTENA HEITZMAN<br/>BORN 1804 DIED FEB.2, 1896</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/110/235790041_983092d7-f53e-400c-b689-76f1e7389f7a.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 388
 }

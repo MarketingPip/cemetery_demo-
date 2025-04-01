@@ -1,10 +1,23 @@
 {
-  "id": 510,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15553968/clara-m-harris",
   "name": "Clara M Fahrner Harris",
   "birth_date": "1884-00-00",
   "death_date": "1978-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15553968/clara-m-harris",
-  "image_url": "https://images.findagrave.com/photos/2006/241/15553968_115694677838.jpg?size=photos250"
+  "bio": "FAHRNER\nf.s FATHER MOTHER HUSBAND WIFE</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/241/15553968_115694677838.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Frederick A   Harris",
+      "birth_date": "1880-00-00",
+      "death_date": "1966-00-00",
+      "profile_url": "/memorial/15553962/frederick_a-harris"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 510
 }

@@ -1,10 +1,23 @@
 {
-  "id": 620,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188113394/lillian-kleinfeldt",
   "name": "Lillian Stahl Kleinfeldt",
   "birth_date": "1896-00-00",
   "death_date": "1977-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188113394/lillian-kleinfeldt",
-  "image_url": "https://images.findagrave.com/photos/2022/112/188113394_1684d8ca-3337-4ce1-aa3a-9e1799b42ad0.jpeg?size=photos250"
+  "bio": "STAHL\nLevi Stahl<br/>born Dec. 31, 1858<br/>died April 2nd. 1918<br/>his wife Rosina Finkbeiner<br/>born Dec. 13, 1865<br/>died Sept. 11, 1947<br/>at rest<br/>Diebold Stahl<br/>died Nov.9,1901 aged 81 yrs.<br/>Christina Stahl <br/>born July 10th, 1823<br/>died Mar. 23rd, 1916<br/>at rest<br/>In memory of David Stahl died Dec. 20, 1891<br/>aged 38 yrs.<br/>Irwing C. Stahl<br/>1897-1989<br/>Norman Kleinfeldt<br/>1900-1973<br/>his wife Lillian Stahl<br/>1896-1977</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/112/188113394_1684d8ca-3337-4ce1-aa3a-9e1799b42ad0.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Norman Wesley   Kleinfeldt",
+      "birth_date": "1900-00-00",
+      "death_date": "1973-00-00",
+      "profile_url": "/memorial/188113398/norman_wesley-kleinfeldt"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 620
 }

@@ -1,10 +1,23 @@
 {
-  "id": 650,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/208919007/kenneth-gordon-kuhn",
   "name": "Kenneth Gordon Kuhn",
   "birth_date": "",
   "death_date": "1986-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "208919007/kenneth-gordon-kuhn",
-  "image_url": ""
+  "bio": "",
+  "gps": null,
+  "image_url": "",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Lillian Anna Laura  Jesney Kuhn",
+      "birth_date": "1929-00-00",
+      "death_date": "2008-00-00",
+      "profile_url": "/memorial/41012220/lillian_anna_laura-kuhn"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 650
 }

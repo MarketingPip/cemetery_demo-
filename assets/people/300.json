@@ -1,10 +1,36 @@
 {
-  "id": 300,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/44644684/florence-e-finkbeiner",
   "name": "Florence E Gedcke Finkbeiner",
   "birth_date": "1929-00-00",
   "death_date": "2009-10-28",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "44644684/florence-e-finkbeiner",
-  "image_url": "https://images.findagrave.com/photos/2015/272/44644684_1443626316.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2015/272/44644684_1443626316.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "John Addison   Gedcke",
+      "birth_date": "1888-00-00",
+      "death_date": "1968-00-00",
+      "profile_url": "/memorial/134765237/john_addison-gedcke"
+    },
+    {
+      "name": "Clara  Heinmiller Gedcke",
+      "birth_date": "1890-00-00",
+      "death_date": "1972-00-00",
+      "profile_url": "/memorial/134765323/clara-gedcke"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Gordon Charles   Finkbeiner",
+      "birth_date": "1925-00-00",
+      "death_date": "1997-00-00",
+      "profile_url": "/memorial/193878034/gordon_charles-finkbeiner"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 300
 }

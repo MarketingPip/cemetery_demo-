@@ -1,10 +1,36 @@
 {
-  "id": 604,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/237947789/harold-william-jones",
   "name": "Harold William Jones",
   "birth_date": "1919-00-00",
   "death_date": "2017-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "237947789/harold-william-jones",
-  "image_url": "https://images.findagrave.com/photos/2022/84/237947789_cb18f9a4-8dd6-4fbd-9253-a91cea328654.jpeg?size=photos250"
+  "bio": "JONES\nJohn Herbert Jones<br/>1883-1982<br/>his wife<br/>Lillian Finkbeiner<br/>1895-1984<br/>Harold William Jones<br/>1919-2017<br/>his wife<br/>Margaret Anna Love<br/>1923-2003</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/237947789_cb18f9a4-8dd6-4fbd-9253-a91cea328654.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "John Herbert   Jones",
+      "birth_date": "1893-00-00",
+      "death_date": "1982-00-00",
+      "profile_url": "/memorial/15563111/john_herbert-jones"
+    },
+    {
+      "name": "Lillian Frieda  Finkbeiner Jones",
+      "birth_date": "1895-00-00",
+      "death_date": "1984-00-00",
+      "profile_url": "/memorial/15563121/lillian_frieda-jones"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Margaret Anna  Love Jones",
+      "birth_date": "1923-00-00",
+      "death_date": "2003-00-00",
+      "profile_url": "/memorial/15563176/margaret_anna-jones"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 604
 }

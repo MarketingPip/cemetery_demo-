@@ -1,10 +1,36 @@
 {
-  "id": 265,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/236920169/louisa-faist",
   "name": "Louisa Morlock Faist",
   "birth_date": "1833-02-20",
   "death_date": "1914-01-20",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "236920169/louisa-faist",
-  "image_url": "https://images.findagrave.com/photos/2022/112/236920169_1b723315-ef0f-4246-8657-1c88d7d0b248.jpeg?size=photos250"
+  "bio": "J. Bernhardt Faist\nGest den Apr. 5, 1887<br/>Alter 59 Jahre 4 mo. und 13 tage.<br/>Louisa <br/>wife of J. B.  Faist<br/>died Jan. 20, 1914<br/>ae 80 yrs. 10 mos. 28 ds.</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/112/236920169_1b723315-ef0f-4246-8657-1c88d7d0b248.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Johann Christian   Morlock",
+      "birth_date": "1793-00-00",
+      "death_date": "1861-00-00",
+      "profile_url": "/memorial/248674553/johann_christian-morlock"
+    },
+    {
+      "name": "Fredericka Louise Maria  Bohler Morlock",
+      "birth_date": "1798-00-00",
+      "death_date": "1877-00-00",
+      "profile_url": "/memorial/9952954/fredericka_louise_maria-morlock"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Jacob Bernhardt   Faist",
+      "birth_date": "1827-00-00",
+      "death_date": "1887-00-00",
+      "profile_url": "/memorial/188037311/jacob_bernhardt-faist"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 265
 }

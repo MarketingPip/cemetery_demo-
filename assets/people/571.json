@@ -1,10 +1,23 @@
 {
-  "id": 571,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/239127240/winona-hoffmann",
   "name": "Winona Coxen Hoffmann",
   "birth_date": "1937-03-28",
   "death_date": "2019-12-27",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "239127240/winona-hoffmann",
-  "image_url": "https://images.findagrave.com/photos/2022/112/239127240_1c87c4a2-b322-4bce-8284-2e8eaba9a10e.jpeg?size=photos250"
+  "bio": "HOFFMANN\nChristian Hoffmann<br/>born Aug. 1, 1862-died Apr. 14, 1926<br/>his wife Hannah Balsden<br/>Dec. 28, 1862-Mar. 2, 1937<br/>their son Charlie<br/>born Oct. 20, 1906-died Apr. 11, 1981<br/>his wife Clara Morlock<br/>born Jan. 4, 1902-died Apr. 30, 1988<br/>(back)Peter Hoffmann<br/>born Mar.3, 1826-died Jan. 5, 1913<br/>his wife Johanna Callfas<br/>born Mar. 10, 1835-died Feb. 5, 1918<br/>their daughters<br/>Eliza Ann Hoffmann<br/>born May 11, 1866-died Apr. 15, 1890<br/>Mary Hoffmann<br/>wife of H. Stanley<br/>born Dec. 26, 1855-died July 19, 1891<br/>(side)their son<br/>Claire Leroy<br/>Aug. 1, 1934<br/>Feb. 16, 2020<br/>his wife<br/>Winona Ada<br/>Coxen<br/>Mar. 28, 1937<br/>Dec. 27, 2019<br/>married Oct. 19, 1957<br/>their son<br/>Robert Alan<br/>Hoffmann<br/>Oct. 20, 1958<br/>Apr. 10, 2006</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/112/239127240_1c87c4a2-b322-4bce-8284-2e8eaba9a10e.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Claire Leroy   Hoffmann",
+      "birth_date": "1934-00-00",
+      "death_date": "2020-00-00",
+      "profile_url": "/memorial/239127183/claire_leroy-hoffmann"
+    }
+  ],
+  "children": "[{\"name\": \"Robert   Hoffmann\", \"birth_date\": \"1958-00-00\", \"death_date\": \"2006-00-00\", \"profile_url\": \"/memorial/239127284/robert-hoffmann\"}]",
+  "siblings": "[]",
+  "id": 571
 }

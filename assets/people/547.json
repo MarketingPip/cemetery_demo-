@@ -1,10 +1,23 @@
 {
-  "id": 547,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/179829714/catherine-hirtzel",
   "name": "Catherine Krein Hirtzel",
   "birth_date": "1846-03-28",
   "death_date": "1912-03-28",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "179829714/catherine-hirtzel",
-  "image_url": "https://images.findagrave.com/photos/2022/110/179829714_9eb23469-2a1e-41dc-b2a4-12d2abe60144.jpeg?size=photos250"
+  "bio": "HIRTZEL<br/>MICHAEL  HIRTZEL<br/>BORN APR. 9 1829 – DIED MAY 4, 1917<br/>HIS WIFE CATHERINE KROFT<br/>BORN  NOV. 25, 1825 – DIED JAN. 16, 1882<br/>HIS WIFE CATHERINE KREIN<br/>BORN MAR. 28, 1846 – DIED MAR. 28, 1912<br/>HENRY  HIRTZEL<br/>BORN  JUNE 22, 1857 – DIED SEPT. 20, 1880<br/>[21 Feb 1880 on death record]<br/>SAMUEL HIRTZEL<br/>BORN JULY 10, 1879 – DIED DEC. 28, 1879<br/>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/110/179829714_9eb23469-2a1e-41dc-b2a4-12d2abe60144.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Michael   Hirtzel",
+      "birth_date": "1829-00-00",
+      "death_date": "1917-00-00",
+      "profile_url": "/memorial/179828867/michael-hirtzel"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 547
 }

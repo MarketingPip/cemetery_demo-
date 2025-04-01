@@ -1,10 +1,23 @@
 {
-  "id": 437,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/41012246/fred-clement-gibson",
   "name": "Fred Clement Gibson",
   "birth_date": "1931-00-00",
   "death_date": "2006-08-24",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "41012246/fred-clement-gibson",
-  "image_url": "https://images.findagrave.com/photos/2018/209/41012246_3fe681b4-3316-4e74-8981-4f917f4c195a.jpeg?size=photos250"
+  "bio": "GIBSON\nFred Gibson\n1931-2006\nhis wife Mary Haigh<br/>1938-2008<br/>their daughter<br/>Margaret<br/>1962-1972<br/>f.s. Margaret</br></br></br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2018/209/41012246_3fe681b4-3316-4e74-8981-4f917f4c195a.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Mary Muriel  Haigh Gibson",
+      "birth_date": "1938-00-00",
+      "death_date": "2008-00-00",
+      "profile_url": "/memorial/41014994/mary_muriel-gibson"
+    }
+  ],
+  "children": "[{\"name\": \"Margaret   Gibson\", \"birth_date\": \"1962-00-00\", \"death_date\": \"1972-00-00\", \"profile_url\": \"/memorial/191738097/margaret-gibson\"}]",
+  "siblings": "[]",
+  "id": 437
 }

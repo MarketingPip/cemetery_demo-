@@ -1,10 +1,36 @@
 {
-  "id": 370,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15961995/william-finkbeiner",
   "name": "William Finkbeiner",
   "birth_date": "1858-02-16",
   "death_date": "1937-03-14",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15961995/william-finkbeiner",
-  "image_url": "https://images.findagrave.com/photos/2006/273/15961995_115976214651.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/273/15961995_115976214651.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Michael   Finkbeiner",
+      "birth_date": "1825-00-00",
+      "death_date": "1892-00-00",
+      "profile_url": "/memorial/15961534/michael-finkbeiner"
+    },
+    {
+      "name": "Barbara  Haist Finkbeiner",
+      "birth_date": "1828-00-00",
+      "death_date": "1896-00-00",
+      "profile_url": "/memorial/15961580/barbara-finkbeiner"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Mary  Wein Finkbeiner",
+      "birth_date": "1871-00-00",
+      "death_date": "1958-00-00",
+      "profile_url": "/memorial/15849155/mary-finkbeiner"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 370
 }

@@ -1,10 +1,36 @@
 {
-  "id": 766,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/16626989/catherine-annie_maria-motz",
   "name": "Catherine Annie Maria Messner Motz",
   "birth_date": "1869-04-25",
   "death_date": "1941-10-28",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "16626989/catherine-annie_maria-motz",
-  "image_url": "https://images.findagrave.com/photos/2006/315/16626989_116339358589.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/315/16626989_116339358589.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Paul   Messner",
+      "birth_date": "1830-00-00",
+      "death_date": "1875-00-00",
+      "profile_url": "/memorial/188115199/paul-messner"
+    },
+    {
+      "name": "Elizabeth Catherine  Finkbeiner Messner Krein",
+      "birth_date": "1837-00-00",
+      "death_date": "1912-00-00",
+      "profile_url": "/memorial/236913526/elizabeth_catherine-messner_krein"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Henry   Motz",
+      "birth_date": "1861-00-00",
+      "death_date": "1939-00-00",
+      "profile_url": "/memorial/16626938/henry-motz"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 766
 }

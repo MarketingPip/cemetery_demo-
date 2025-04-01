@@ -1,10 +1,23 @@
 {
-  "id": 325,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/16658475/john-finkbeiner",
   "name": "John Finkbeiner",
   "birth_date": "1850-12-04",
   "death_date": "1914-12-04",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "16658475/john-finkbeiner",
-  "image_url": "https://images.findagrave.com/photos/2006/317/16658475_116357079241.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/317/16658475_116357079241.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Magdalena \"Lena\" Staebler Finkbeiner",
+      "birth_date": "1852-00-00",
+      "death_date": "1953-00-00",
+      "profile_url": "/memorial/16658485/magdalena-finkbeiner"
+    }
+  ],
+  "children": "[{\"name\": \"Caroline Lavina  Finkbeiner Currey\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1970-00-00\", \"profile_url\": \"/memorial/36479056/caroline_lavina-currey\"}]",
+  "siblings": "[]",
+  "id": 325
 }

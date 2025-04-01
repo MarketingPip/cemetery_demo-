@@ -1,10 +1,16 @@
 {
-  "id": 854,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/235790459/madilla-a-preeter",
   "name": "Madilla A. Preeter",
   "birth_date": "",
   "death_date": "",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "235790459/madilla-a-preeter",
-  "image_url": "https://images.findagrave.com/photos/2022/110/235790459_0de598bc-663c-47ca-8e35-2a3a6bb16aea.jpeg?size=photos250"
+  "bio": "PREETER\nMADILLA A. AND EDGAR M.<br/>CHILDREN OF JOHN &amp; ELIZABETH PREETER<br/>(NO DATES)</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/110/235790459_0de598bc-663c-47ca-8e35-2a3a6bb16aea.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 854
 }

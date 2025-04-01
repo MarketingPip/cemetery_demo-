@@ -1,10 +1,23 @@
 {
-  "id": 133,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188036151/hannah-clemann",
   "name": "Hannah Fritch Clemann",
   "birth_date": "1793-01-01",
   "death_date": "1868-03-10",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188036151/hannah-clemann",
-  "image_url": "https://images.findagrave.com/photos/2022/51/188036151_6e0ab79f-879e-4c8c-88a1-c89622ff7eed.png?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/51/188036151_6e0ab79f-879e-4c8c-88a1-c89622ff7eed.png?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Augustus   Clemann",
+      "birth_date": "1806-00-00",
+      "death_date": "1892-00-00",
+      "profile_url": "/memorial/188036139/augustus-clemann"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 133
 }

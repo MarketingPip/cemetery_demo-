@@ -1,10 +1,23 @@
 {
-  "id": 77,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188035718/david-braun",
   "name": "David Braun",
   "birth_date": "1848-11-14",
   "death_date": "1887-04-17",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188035718/david-braun",
-  "image_url": "https://images.findagrave.com/photos/2022/113/188035718_f5b72d41-3c1b-41ab-9a0f-e7c7f71008ab.jpeg?size=photos250"
+  "bio": "BRAUN\nDavid Braun<br/>Gestboren April 17, 1887<br/>Alter 38 Jahr 5 monat und 3 tag</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/113/188035718_f5b72d41-3c1b-41ab-9a0f-e7c7f71008ab.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Elizabeth Alice  Klumpp Finkbeiner",
+      "birth_date": "1853-00-00",
+      "death_date": "1934-00-00",
+      "profile_url": "/memorial/55876686/elizabeth_alice-finkbeiner"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 77
 }

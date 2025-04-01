@@ -1,10 +1,23 @@
 {
-  "id": 142,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188036218/earl-joseph-coughtrey",
   "name": "Earl Joseph Coughtrey",
   "birth_date": "1923-12-10",
   "death_date": "1987-06-18",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188036218/earl-joseph-coughtrey",
-  "image_url": "https://images.findagrave.com/photos/2022/83/188036218_3f1d9e15-36f6-4382-909b-a2be609fdfba.jpeg?size=photos250"
+  "bio": "GOUGHTREY\nEarl Joseph<br/>Dec. 11, 1923-Jun, 18, 1987<br/>Corrie J.<br/>CONFURIUS<br/>Aug. 21, 1916-<br/>In God We Trust</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/83/188036218_3f1d9e15-36f6-4382-909b-a2be609fdfba.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Corrie J.  Confurius Coughtrey",
+      "birth_date": "1916-00-00",
+      "death_date": "2016-00-00",
+      "profile_url": "/memorial/237918574/corrie_j-coughtrey"
+    }
+  ],
+  "children": "[{\"name\": \"Fred   Coughtrey\", \"birth_date\": \"1952-00-00\", \"death_date\": \"1972-00-00\", \"profile_url\": \"/memorial/188036226/fred-coughtrey\"}]",
+  "siblings": "[]",
+  "id": 142
 }

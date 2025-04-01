@@ -1,10 +1,23 @@
 {
-  "id": 83,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/40173780/marie-gabrielle-brousseau",
   "name": "Marie Gabrielle “Gay” Lafreniere Brousseau",
   "birth_date": "1927-00-00",
   "death_date": "2008-06-23",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "40173780/marie-gabrielle-brousseau",
-  "image_url": "https://images.findagrave.com/photos/2022/86/40173780_72ddc9fd-189e-4ad6-8257-ae2de6c9ee2f.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/40173780_72ddc9fd-189e-4ad6-8257-ae2de6c9ee2f.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Raymond Joseph   Brousseau",
+      "birth_date": "1933-00-00",
+      "death_date": "2013-00-00",
+      "profile_url": "/memorial/164497895/raymond_joseph-brousseau"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 83
 }

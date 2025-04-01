@@ -1,10 +1,23 @@
 {
-  "id": 69,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/239240455/roger-james-bowers",
   "name": "Roger James Bowers",
   "birth_date": "",
   "death_date": "1972-01-24",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "239240455/roger-james-bowers",
-  "image_url": ""
+  "bio": "",
+  "gps": null,
+  "image_url": "",
+  "parents": [
+    {
+      "name": "Frederick G. \"Rick\"  Bowers",
+      "birth_date": "1955-00-00",
+      "death_date": "1979-00-00",
+      "profile_url": "/memorial/188035664/frederick_g-bowers"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 69
 }

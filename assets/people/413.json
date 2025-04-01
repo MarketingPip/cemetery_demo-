@@ -1,10 +1,29 @@
 {
-  "id": 413,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/239213966/lydia-gaiser",
   "name": "Lydia Gaiser",
   "birth_date": "1889-09-03",
   "death_date": "1897-08-29",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "239213966/lydia-gaiser",
-  "image_url": "https://images.findagrave.com/photos/2022/115/239213966_9c81f6e0-3535-4c47-a6c1-0f8e5715ddba.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/115/239213966_9c81f6e0-3535-4c47-a6c1-0f8e5715ddba.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Gottfried   Gaiser",
+      "birth_date": "1845-00-00",
+      "death_date": "1931-00-00",
+      "profile_url": "/memorial/228334191/gottfried-gaiser"
+    },
+    {
+      "name": "Wilhelmine  Guenther Gaiser",
+      "birth_date": "1856-00-00",
+      "death_date": "1933-00-00",
+      "profile_url": "/memorial/228334304/wilhelmine-gaiser"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Wilbert J.   Gaiser\", \"birth_date\": \"1892-00-00\", \"death_date\": \"1920-00-00\", \"profile_url\": \"/memorial/188113079/wilbert_j-gaiser\"}]",
+  "id": 413
 }

@@ -1,10 +1,29 @@
 {
-  "id": 1076,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/238057988/norman-r-tripp",
   "name": "Norman R. Tripp",
   "birth_date": "1934-00-00",
   "death_date": "2019-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "238057988/norman-r-tripp",
-  "image_url": "https://images.findagrave.com/photos/2022/86/238057988_e54012dd-88d7-44ef-8609-c0e59e37bf49.jpeg?size=photos250"
+  "bio": "God grant me the serenity....\nTRIPP<br/>Norman R.<br/>Tripp<br/>1934-2019</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/238057988_e54012dd-88d7-44ef-8609-c0e59e37bf49.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Harold Washington   Tripp",
+      "birth_date": "1902-00-00",
+      "death_date": "1997-00-00",
+      "profile_url": "/memorial/36940975/harold_washington-tripp"
+    },
+    {
+      "name": "Iverna B  Jinks Tripp",
+      "birth_date": "1907-00-00",
+      "death_date": "1977-00-00",
+      "profile_url": "/memorial/36940993/iverna_b-tripp"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Florence BERNICE  Tripp Ford\", \"birth_date\": \"1928-00-00\", \"death_date\": \"2007-00-00\", \"profile_url\": \"/memorial/45608840/florence_bernice-ford\"}]",
+  "id": 1076
 }

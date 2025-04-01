@@ -1,10 +1,16 @@
 {
-  "id": 700,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/86399946/william-brian-mann",
   "name": "William Brian “Bill” Mann",
   "birth_date": "",
   "death_date": "2012-03-07",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "86399946/william-brian-mann",
-  "image_url": "https://images.findagrave.com/photos/2018/209/86399946_53aaa2f9-49d0-497b-9773-8b9d8298a03d.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2018/209/86399946_53aaa2f9-49d0-497b-9773-8b9d8298a03d.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 700
 }

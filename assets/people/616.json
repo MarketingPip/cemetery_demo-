@@ -1,10 +1,29 @@
 {
-  "id": 616,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188113375/e-bruce-kienzle",
   "name": "E. Bruce Kienzle",
   "birth_date": "1889-00-00",
   "death_date": "1977-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188113375/e-bruce-kienzle",
-  "image_url": "https://images.findagrave.com/photos/2022/114/188113375_55f9d096-7ac3-4068-bd34-f83a11f5d0c9.jpeg?size=photos250"
+  "bio": "KIENZLE\nMagdalena Boyer<br/>wife of G. K. Kienzle<br/>died Nov. 28, 1911 ae 52 yrs. 8 mos. 4 ds.<br/>THERE ARE NO PARTINGS IN HEAVEN<br/>George K. Kienzle<br/>born June 16, 1854 <br/>died Apr. 6, 1950<br/>(end)E. Bruce Kienzle<br/>1889-1977<br/>son</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/114/188113375_55f9d096-7ac3-4068-bd34-f83a11f5d0c9.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "George K.   Kienzle",
+      "birth_date": "1854-00-00",
+      "death_date": "1950-00-00",
+      "profile_url": "/memorial/188113378/george_k-kienzle"
+    },
+    {
+      "name": "Magdelena  Boyer Kienzle",
+      "birth_date": "1859-00-00",
+      "death_date": "1911-00-00",
+      "profile_url": "/memorial/188113382/magdelena-kienzle"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 616
 }

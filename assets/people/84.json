@@ -1,10 +1,23 @@
 {
-  "id": 84,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/164497895/raymond-joseph-brousseau",
   "name": "Raymond Joseph Brousseau",
   "birth_date": "1933-00-00",
   "death_date": "2013-02-03",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "164497895/raymond-joseph-brousseau",
-  "image_url": "https://images.findagrave.com/photos/2016/162/164497895_1465687546.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2016/162/164497895_1465687546.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Marie Gabrielle \"Gay\" Lafreniere Brousseau",
+      "birth_date": "1927-00-00",
+      "death_date": "2008-00-00",
+      "profile_url": "/memorial/40173780/marie_gabrielle-brousseau"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 84
 }

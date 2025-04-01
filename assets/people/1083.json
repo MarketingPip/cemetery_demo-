@@ -1,10 +1,16 @@
 {
-  "id": 1083,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/261568565/jeffery-scott-unwin",
   "name": "Jeffery Scott Unwin",
   "birth_date": "1990-00-00",
   "death_date": "2023-07-27",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "261568565/jeffery-scott-unwin",
-  "image_url": "https://images.findagrave.com/photos/2023/320/261568565_f8cbf3a2-ed78-40d5-8a6a-c85595f3f714.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2023/320/261568565_f8cbf3a2-ed78-40d5-8a6a-c85595f3f714.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1083
 }

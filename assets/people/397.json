@@ -1,10 +1,23 @@
 {
-  "id": 397,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188113005/frederick-gaiser",
   "name": "Frederick Gaiser",
   "birth_date": "1860-00-00",
   "death_date": "1948-11-17",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188113005/frederick-gaiser",
-  "image_url": "https://images.findagrave.com/photos/2022/115/188113005_91641286-881a-463f-adce-37d04591f298.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/115/188113005_91641286-881a-463f-adce-37d04591f298.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Lydia  Wein Gaiser",
+      "birth_date": "1866-00-00",
+      "death_date": "1940-00-00",
+      "profile_url": "/memorial/239204503/lydia-gaiser"
+    }
+  ],
+  "children": "[{\"name\": \"Luella Agnes   Gaiser\", \"birth_date\": \"1892-00-00\", \"death_date\": \"1895-00-00\", \"profile_url\": \"/memorial/239205322/luella_agnes-gaiser\"}]",
+  "siblings": "[]",
+  "id": 397
 }

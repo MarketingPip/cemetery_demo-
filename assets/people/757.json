@@ -1,10 +1,30 @@
 {
-  "id": 757,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15395989/matthew-morlock",
   "name": "Matthew Morlock",
   "birth_date": "1828-02-24",
   "death_date": "1923-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15395989/matthew-morlock",
-  "image_url": "https://images.findagrave.com/photos/2006/228/15395989_115582472667.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/228/15395989_115582472667.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Fredericka Louise Maria  Bohler Morlock",
+      "birth_date": "1798-00-00",
+      "death_date": "1877-00-00",
+      "profile_url": "/memorial/9952954/fredericka_louise_maria-morlock"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Magdalena  Beaver Morlock",
+      "birth_date": "1834-00-00",
+      "death_date": "1929-00-00",
+      "profile_url": "/memorial/15396027/magdalena-morlock"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 757
 }

@@ -1,10 +1,23 @@
 {
-  "id": 179,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188036561/frederick-eilber",
   "name": "Frederick Eilber",
   "birth_date": "1791-09-04",
   "death_date": "1875-11-10",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188036561/frederick-eilber",
-  "image_url": "https://images.findagrave.com/photos/2022/121/188036561_b4790ace-5788-494b-8993-0ad345273ccb.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/121/188036561_b4790ace-5788-494b-8993-0ad345273ccb.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Magdalena  Gaiser Eilber",
+      "birth_date": "1807-00-00",
+      "death_date": "1864-00-00",
+      "profile_url": "/memorial/236915839/magdalena-eilber"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 179
 }

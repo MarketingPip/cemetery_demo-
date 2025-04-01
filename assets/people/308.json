@@ -1,10 +1,16 @@
 {
-  "id": 308,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15821827/henry-finkbeiner",
   "name": "Henry Finkbeiner",
   "birth_date": "1858-07-15",
   "death_date": "1905-12-14",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15821827/henry-finkbeiner",
-  "image_url": "https://images.findagrave.com/photos/2006/262/15821827_115876769916.jpg?size=photos250"
+  "bio": "FINKBEINER\nHenry Finkbeiner<br/>died Dec. 14, 1905<br/>aged 48 yrs.</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/262/15821827_115876769916.jpg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 308
 }

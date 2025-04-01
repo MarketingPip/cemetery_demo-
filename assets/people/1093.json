@@ -1,10 +1,16 @@
 {
-  "id": 1093,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188138464/lorne-c-voight",
   "name": "Lorne C. Voight",
   "birth_date": "1910-00-00",
   "death_date": "1995-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188138464/lorne-c-voight",
-  "image_url": "https://images.findagrave.com/photos/2022/127/188138464_20118aae-d4e6-4235-9a54-7d321ccf76ed.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/127/188138464_20118aae-d4e6-4235-9a54-7d321ccf76ed.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1093
 }

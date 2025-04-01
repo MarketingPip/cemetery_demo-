@@ -1,10 +1,23 @@
 {
-  "id": 505,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15821552/mary-haist",
   "name": "Mary Morlock Haist",
   "birth_date": "1868-00-00",
   "death_date": "1940-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15821552/mary-haist",
-  "image_url": "https://images.findagrave.com/photos/2006/262/15821552_115876594189.jpg?size=photos250"
+  "bio": "HAIST\nJoseph Haist<br/>1858-1928<br/>his wife Mary A. Morlock<br/>1868-1940</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/262/15821552_115876594189.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Joseph   Haist",
+      "birth_date": "1868-00-00",
+      "death_date": "1928-00-00",
+      "profile_url": "/memorial/15821537/joseph-haist"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 505
 }

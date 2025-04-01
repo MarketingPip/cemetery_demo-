@@ -1,10 +1,16 @@
 {
-  "id": 39,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/236143671/rene-blakely-beck",
   "name": "Rene Blakely Beck",
   "birth_date": "1956-00-00",
   "death_date": "1975-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "236143671/rene-blakely-beck",
-  "image_url": "https://images.findagrave.com/photos/2022/110/236143671_3f9095de-a36e-47da-a652-d4eaf373d8f2.jpeg?size=photos250"
+  "bio": "BECK\nRene Blakely<br/>born 1956-died 1975<br/>son of Blakely &amp; Louise Beck</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/110/236143671_3f9095de-a36e-47da-a652-d4eaf373d8f2.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 39
 }

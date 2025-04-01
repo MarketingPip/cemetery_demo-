@@ -1,10 +1,23 @@
 {
-  "id": 715,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188115199/paul-messner",
   "name": "Paul Messner",
   "birth_date": "1830-00-00",
   "death_date": "1875-05-12",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188115199/paul-messner",
-  "image_url": "https://images.findagrave.com/photos/2022/111/188115199_8b16eadb-9184-4e26-97da-b3a4e67fc2c2.jpeg?size=photos250"
+  "bio": "KREIN\n(end)Elizabeth<br/>wife of John KREIN<br/>died Mar. 23, 1912<br/>Aged 75 years 27 days<br/>Asleep in Jesus<br/>(front)John KREIN<br/>died April 8, 1902<br/>aged 75 yrs. 7 mos.<br/>Samuel KREIN<br/>died April 25, 1880<br/>aged 1 yr. 1 month.<br/>(back)Paul Messner<br/>died May 12, 1875<br/>ae 45 yrs.<br/>John Messner<br/>died Oct. 4, 1864<br/>ae 4 yrs. 6 mos.<br/>Regina Messner<br/>died July 26, 1893<br/>ae 29 yrs. 10 mos.</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/111/188115199_8b16eadb-9184-4e26-97da-b3a4e67fc2c2.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Elizabeth Catherine  Finkbeiner Messner Krein",
+      "birth_date": "1837-00-00",
+      "death_date": "1912-00-00",
+      "profile_url": "/memorial/236913526/elizabeth_catherine-messner_krein"
+    }
+  ],
+  "children": "[{\"name\": \"Paul   Messner Jr\", \"birth_date\": \"1858-00-00\", \"death_date\": \"1932-00-00\", \"profile_url\": \"/memorial/155416464/paul-messner\"}, {\"name\": \"Catherine Annie Maria  Messner Motz\", \"birth_date\": \"1869-00-00\", \"death_date\": \"1941-00-00\", \"profile_url\": \"/memorial/16626989/catherine_annie_maria-motz\"}, {\"name\": \"Jacob   Messner\", \"birth_date\": \"1869-00-00\", \"death_date\": \"1958-00-00\", \"profile_url\": \"/memorial/179071566/jacob-messner\"}]",
+  "siblings": "[]",
+  "id": 715
 }

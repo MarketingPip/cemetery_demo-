@@ -1,10 +1,42 @@
 {
-  "id": 972,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/239219476/florence-morlock-sepa",
   "name": "Florence Morlock Braun Sepa",
   "birth_date": "1910-11-29",
   "death_date": "2002-05-21",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "239219476/florence-morlock-sepa",
-  "image_url": "https://images.findagrave.com/photos/2022/116/239219476_2be999c7-27b6-47a1-842d-ef46f0c72c73.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/116/239219476_2be999c7-27b6-47a1-842d-ef46f0c72c73.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Otto Nelson   Braun",
+      "birth_date": "1886-00-00",
+      "death_date": "1943-00-00",
+      "profile_url": "/memorial/15426309/otto_nelson-braun"
+    },
+    {
+      "name": "Mary Ann  Morlock Braun",
+      "birth_date": "1881-00-00",
+      "death_date": "1968-00-00",
+      "profile_url": "/memorial/15426343/mary_ann-braun"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Charles \"Norman\"   Ricker",
+      "birth_date": "1910-00-00",
+      "death_date": "1968-00-00",
+      "profile_url": "/memorial/270968207/charles_%22norman%22-ricker"
+    },
+    {
+      "name": "Amilcare Cipriani \"A. C., Mickey\"  Sepa",
+      "birth_date": "1917-00-00",
+      "death_date": "2011-00-00",
+      "profile_url": "/memorial/101210603/amilcare_cipriani-sepa"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 972
 }

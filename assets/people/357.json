@@ -1,10 +1,36 @@
 {
-  "id": 357,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/35708452/norma-ilene-finkbeiner",
   "name": "Norma Ilene Parsons Finkbeiner",
   "birth_date": "1924-00-00",
   "death_date": "1999-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "35708452/norma-ilene-finkbeiner",
-  "image_url": "https://images.findagrave.com/photos/2022/127/35708452_bc28443c-f915-4d06-b0a9-d6866fbd4435.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/127/35708452_bc28443c-f915-4d06-b0a9-d6866fbd4435.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Frederick Earl   Parsons",
+      "birth_date": "1893-00-00",
+      "death_date": "1962-00-00",
+      "profile_url": "/memorial/16577501/frederick_earl-parsons"
+    },
+    {
+      "name": "Gladys Violet  Delve Parsons",
+      "birth_date": "1897-00-00",
+      "death_date": "1950-00-00",
+      "profile_url": "/memorial/16577500/gladys_violet-parsons"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Delton Arva   Finkbeiner",
+      "birth_date": "1920-00-00",
+      "death_date": "2003-00-00",
+      "profile_url": "/memorial/35708448/delton_arva-finkbeiner"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 357
 }

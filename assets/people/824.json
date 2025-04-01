@@ -1,10 +1,16 @@
 {
-  "id": 824,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15684460/gordon-l-pascoe",
   "name": "Gordon L. Pascoe",
   "birth_date": "1910-00-00",
   "death_date": "1986-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15684460/gordon-l-pascoe",
-  "image_url": "https://images.findagrave.com/photos/2006/252/15684460_115790667212.jpg?size=photos250"
+  "bio": "WEIN\nSON<br/>JOHN. F. WEIN<br/>1879-1946<br/>HIS WIFE MARY M. FINKBEINER<br/>1879-1958<br/>HENRY WEIN <br/>BORN MAY 25, 1881<br/>DIED AUG. 18, 1908<br/>MATHEW WEIN<br/>DIED MAY 7, 1912<br/>AGED 75 YRS. 4 DS.<br/>HIS WIFE EVA FAHNER<br/>DIED JAN. 10, 1912<br/>AGED 73 YRS. 4 MOS. 26 DS.<br/>SAMUEL WEIN<br/>1887-1964<br/>JOSEPH WEIN <br/>1883-1968<br/>GORDON L. PASCOE<br/>1910-1986</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/252/15684460_115790667212.jpg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 824
 }

@@ -1,10 +1,29 @@
 {
-  "id": 997,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15821471/roy-l-smith",
   "name": "Roy L. Smith",
   "birth_date": "1901-00-00",
   "death_date": "1907-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15821471/roy-l-smith",
-  "image_url": "https://images.findagrave.com/photos/2006/262/15821471_115876544380.jpg?size=photos250"
+  "bio": "(font)SMITH\nMary WUERTH<br/>wife of Jacob SMITH<br/>1837-1928<br/>John F. SMITH<br/>1865-1954<br/>his wife Mary Ann KLUMPP<br/>1870-1959<br/>Roy L. son of John F &amp; Mary Ann SMITH<br/>1901-1907<br/>Asleep in Jesus<br/>(back)SMITH<br/>Eldon SMITH<br/>1912-1995<br/>his wife<br/>Ruth VARLEY<br/>1922-2019<br/>GREEN<br/>her son<br/>1950 Ronald GREEN 2020<br/>his wife<br/>1957 Jane DUDEK</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/262/15821471_115876544380.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "John F.   Smith",
+      "birth_date": "1865-00-00",
+      "death_date": "1954-00-00",
+      "profile_url": "/memorial/15821352/john_f-smith"
+    },
+    {
+      "name": "Mary Ann  Klumpp Smith",
+      "birth_date": "1870-00-00",
+      "death_date": "1959-00-00",
+      "profile_url": "/memorial/15821423/mary_ann-smith"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 997
 }

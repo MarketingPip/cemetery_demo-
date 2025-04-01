@@ -1,10 +1,23 @@
 {
-  "id": 764,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188115236/nathaniel-c-motley",
   "name": "Nathaniel C. Motley",
   "birth_date": "1898-00-00",
   "death_date": "1969-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188115236/nathaniel-c-motley",
-  "image_url": "https://images.findagrave.com/photos/2022/115/188115236_6c9873ee-89a2-451d-8f4f-c8eacb160db1.jpeg?size=photos250"
+  "bio": "MOTLEY",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/115/188115236_6c9873ee-89a2-451d-8f4f-c8eacb160db1.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "A. Grace  Baguley Motley",
+      "birth_date": "1905-00-00",
+      "death_date": "1992-00-00",
+      "profile_url": "/memorial/188115233/a_grace-motley"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 764
 }

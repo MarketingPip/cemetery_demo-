@@ -1,10 +1,36 @@
 {
-  "id": 1027,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15650873/garnet-william-sweitzer",
   "name": "Garnet William Sweitzer",
   "birth_date": "1892-01-24",
   "death_date": "1968-07-25",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15650873/garnet-william-sweitzer",
-  "image_url": "https://images.findagrave.com/photos/2006/249/15650873_115764563375.jpg?size=photos250"
+  "bio": "Lillian Gaiser\nborn Oct. 19, 1891<br/>died May 14, 1960<br/>wife of Garnet W. Sweitzer<br/>born Jan 24, 1892<br/>died July 25, 1968</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/249/15650873_115764563375.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "John   Sweitzer",
+      "birth_date": "1859-00-00",
+      "death_date": "1919-00-00",
+      "profile_url": "/memorial/15650824/john-sweitzer"
+    },
+    {
+      "name": "Magdalena  Wein Sweitzer",
+      "birth_date": "1869-00-00",
+      "death_date": "1951-00-00",
+      "profile_url": "/memorial/15650838/magdalena-sweitzer"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Lillian  Gaiser Sweitzer",
+      "birth_date": "1891-00-00",
+      "death_date": "1960-00-00",
+      "profile_url": "/memorial/15650898/lillian-sweitzer"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1027
 }

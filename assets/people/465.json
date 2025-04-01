@@ -1,10 +1,29 @@
 {
-  "id": 465,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188113152/john-matthew-guenther",
   "name": "John Matthew Guenther",
   "birth_date": "1944-00-00",
   "death_date": "1969-12-24",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188113152/john-matthew-guenther",
-  "image_url": "https://images.findagrave.com/photos/2022/84/188113152_259f75d9-612e-4046-bd29-5db731936923.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/188113152_259f75d9-612e-4046-bd29-5db731936923.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Carl F.   Guenther",
+      "birth_date": "1911-00-00",
+      "death_date": "1975-00-00",
+      "profile_url": "/memorial/188113148/carl_f-guenther"
+    },
+    {
+      "name": "Mabel A.  Harlton Guenther",
+      "birth_date": "1921-00-00",
+      "death_date": "2010-00-00",
+      "profile_url": "/memorial/188113154/mabel_a-guenther"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Janet Louise   Guenther\", \"birth_date\": \"1955-00-00\", \"death_date\": \"1970-00-00\", \"profile_url\": \"/memorial/237944436/janet_louise-guenther\"}]",
+  "id": 465
 }

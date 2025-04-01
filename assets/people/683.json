@@ -1,10 +1,36 @@
 {
-  "id": 683,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/158033806/clara-macdonald",
   "name": "Clara Wenzel MacDonald",
   "birth_date": "1885-07-01",
   "death_date": "1943-11-13",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "158033806/clara-macdonald",
-  "image_url": "https://images.findagrave.com/photos/2018/209/158033806_bd07104b-5bd6-41a2-a137-96f2f2baf427.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2018/209/158033806_bd07104b-5bd6-41a2-a137-96f2f2baf427.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "William Henry   Wenzel",
+      "birth_date": "1857-00-00",
+      "death_date": "1924-00-00",
+      "profile_url": "/memorial/70676033/william_henry-wenzel"
+    },
+    {
+      "name": "Mary Ann  Eilber Wenzel",
+      "birth_date": "1860-00-00",
+      "death_date": "1945-00-00",
+      "profile_url": "/memorial/117647896/mary_ann-wenzel"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "John   MacDonald",
+      "birth_date": "1878-00-00",
+      "death_date": "1952-00-00",
+      "profile_url": "/memorial/158033845/john-macdonald"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 683
 }

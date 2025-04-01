@@ -1,10 +1,36 @@
 {
-  "id": 1058,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188138140/ross-denison-taylor",
   "name": "Ross Denison Taylor",
   "birth_date": "1906-03-19",
   "death_date": "1982-06-01",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188138140/ross-denison-taylor",
-  "image_url": "https://images.findagrave.com/photos/2022/83/188138140_fa386dfa-05ed-43e3-894c-a8c0a61a6776.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/83/188138140_fa386dfa-05ed-43e3-894c-a8c0a61a6776.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Frederick   Taylor",
+      "birth_date": "1870-00-00",
+      "death_date": "1937-00-00",
+      "profile_url": "/memorial/178274563/frederick-taylor"
+    },
+    {
+      "name": "Louise  Dennison Taylor",
+      "birth_date": "1872-00-00",
+      "death_date": "1926-00-00",
+      "profile_url": "/memorial/178274567/louise-taylor"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Lydia \"Luella\"  Gower Taylor",
+      "birth_date": "1908-00-00",
+      "death_date": "2003-00-00",
+      "profile_url": "/memorial/188138132/lydia_%22luella%22-taylor"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1058
 }

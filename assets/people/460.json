@@ -1,10 +1,29 @@
 {
-  "id": 460,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188113142/joyce-eleanor-greenwood",
   "name": "Joyce Eleanor French Greenwood",
   "birth_date": "1932-00-00",
   "death_date": "1963-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188113142/joyce-eleanor-greenwood",
-  "image_url": "https://images.findagrave.com/photos/2022/84/188113142_4a156e06-1e52-46cf-8bcd-839cfc659bf8.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/188113142_4a156e06-1e52-46cf-8bcd-839cfc659bf8.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Norman E.   French",
+      "birth_date": "1901-00-00",
+      "death_date": "1976-00-00",
+      "profile_url": "/memorial/188037406/norman_e-french"
+    },
+    {
+      "name": "Eva  Oestreicher French",
+      "birth_date": "1904-00-00",
+      "death_date": "1990-00-00",
+      "profile_url": "/memorial/188037391/eva-french"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 460
 }

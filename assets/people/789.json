@@ -1,10 +1,23 @@
 {
-  "id": 789,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188115277/aaron-e-oestreicher",
   "name": "Aaron E. Oestreicher",
   "birth_date": "1893-00-00",
   "death_date": "1966-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188115277/aaron-e-oestreicher",
-  "image_url": "https://images.findagrave.com/photos/2022/84/188115277_c92ee8a8-343f-4c8a-8798-9eaf29110ccf.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/188115277_c92ee8a8-343f-4c8a-8798-9eaf29110ccf.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Flora Jane  Lane Oestreicher",
+      "birth_date": "1892-00-00",
+      "death_date": "1954-00-00",
+      "profile_url": "/memorial/188115340/flora_jane-oestreicher"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 789
 }

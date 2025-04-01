@@ -1,10 +1,36 @@
 {
-  "id": 245,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/236179463/ervin-g-fahrner",
   "name": "Ervin G. Fahrner",
   "birth_date": "1891-00-00",
   "death_date": "1955-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "236179463/ervin-g-fahrner",
-  "image_url": "https://images.findagrave.com/photos/2022/111/236179463_949f5a12-ce2c-4049-9b60-7ead7ba174ee.jpeg?size=photos250"
+  "bio": "FAHRNER\nElizabeth E. Sauer<br/>1884-1967<br/>wife<br/>Erwin G. Fahrner<br/>1891-1955<br/>husband</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/111/236179463_949f5a12-ce2c-4049-9b60-7ead7ba174ee.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Christian   Fahrner",
+      "birth_date": "1863-00-00",
+      "death_date": "1952-00-00",
+      "profile_url": "/memorial/236179174/christian-fahrner"
+    },
+    {
+      "name": "Wilhelmina  Guenther Fahrner",
+      "birth_date": "1861-00-00",
+      "death_date": "1925-00-00",
+      "profile_url": "/memorial/236179135/wilhelmina-fahrner"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Elizabeth E.  Sauer Fahrner",
+      "birth_date": "1884-00-00",
+      "death_date": "1967-00-00",
+      "profile_url": "/memorial/236179468/elizabeth_e-fahrner"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 245
 }

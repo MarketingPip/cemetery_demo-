@@ -1,10 +1,29 @@
 {
-  "id": 379,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/239094352/mary-louise-fritz",
   "name": "Mary Louise Fritz",
   "birth_date": "1935-06-22",
   "death_date": "2016-08-01",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "239094352/mary-louise-fritz",
-  "image_url": "https://images.findagrave.com/photos/2022/112/239094352_0cf46415-cb85-4c2e-b88c-f1a0e200b136.jpeg?size=photos250"
+  "bio": "FRITZ\nWard C. Fritz<br/>1901-1986<br/>husband of<br/>Bernice E. Eilber<br/>1913-1990<br/>and their daughter<br/>Mary Louise E. 1935-2016<br/>LINK<br/>In memory Of Samuel Link<br/>died Mar. 21, 1890<br/>aged 27 yrs.<br/>Dorothia Eilber<br/>wife of Samuel Link<br/>born Dec. 16, 1864<br/>died Nov. 18, 1915<br/>LINK<br/>Ella Beatrice Link<br/>born April 2, 1889<br/>died Feb. 21, 1962</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/112/239094352_0cf46415-cb85-4c2e-b88c-f1a0e200b136.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Ward C.   Fritz",
+      "birth_date": "1901-00-00",
+      "death_date": "1986-00-00",
+      "profile_url": "/memorial/188037443/ward_c-fritz"
+    },
+    {
+      "name": "Bernice E.  Eilber Fritz",
+      "birth_date": "1913-00-00",
+      "death_date": "1990-00-00",
+      "profile_url": "/memorial/188037430/bernice_e-fritz"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 379
 }

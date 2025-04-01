@@ -1,10 +1,36 @@
 {
-  "id": 742,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15396077/herbert-charles-morlock",
   "name": "Herbert Charles Morlock",
   "birth_date": "1890-07-02",
   "death_date": "1948-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15396077/herbert-charles-morlock",
-  "image_url": "https://images.findagrave.com/photos/2006/228/15396077_115582534425.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/228/15396077_115582534425.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "William H.   Morlock",
+      "birth_date": "1862-00-00",
+      "death_date": "1948-00-00",
+      "profile_url": "/memorial/15978472/william_h-morlock"
+    },
+    {
+      "name": "Lydia  Haist Morlock",
+      "birth_date": "1867-00-00",
+      "death_date": "1943-00-00",
+      "profile_url": "/memorial/15978542/lydia-morlock"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Mary Adeline  Finkbeiner Morlock",
+      "birth_date": "1892-00-00",
+      "death_date": "1958-00-00",
+      "profile_url": "/memorial/15396133/mary_adeline-morlock"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 742
 }

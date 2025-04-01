@@ -1,10 +1,16 @@
 {
-  "id": 1098,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/237979925/elizabeth-r-warden",
   "name": "Elizabeth R Warden",
   "birth_date": "1940-00-00",
   "death_date": "",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "237979925/elizabeth-r-warden",
-  "image_url": ""
+  "bio": "",
+  "gps": null,
+  "image_url": "",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1098
 }

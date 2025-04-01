@@ -1,10 +1,23 @@
 {
-  "id": 447,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188113114/mildred-goodman",
   "name": "Mildred Schroeder Goodman",
   "birth_date": "1903-00-00",
   "death_date": "1998-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188113114/mildred-goodman",
-  "image_url": "https://images.findagrave.com/photos/2022/127/188113114_2935c231-3ce7-4a0c-bccf-1ff65ca9d27a.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/127/188113114_2935c231-3ce7-4a0c-bccf-1ff65ca9d27a.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Charles Webster   Goodman",
+      "birth_date": "1899-00-00",
+      "death_date": "1983-00-00",
+      "profile_url": "/memorial/188113111/charles_webster-goodman"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 447
 }

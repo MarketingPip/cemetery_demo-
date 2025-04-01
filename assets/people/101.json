@@ -1,10 +1,23 @@
 {
-  "id": 101,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188035921/florina-brown",
   "name": "Florina Siebert Brown",
   "birth_date": "1863-00-00",
   "death_date": "1948-06-29",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188035921/florina-brown",
-  "image_url": "https://images.findagrave.com/photos/2022/110/188035921_0c2c9b04-4579-4ee8-8c42-e1e9f4cceab1.jpeg?size=photos250"
+  "bio": "BROWN\nSamuel Brown<br/>died Nov. 11, 1916<br/>aged 59 yrs. 3 mos. 29 ds<br/>his wife<br/>Florina Siebert<br/>died June 29, 1948<br/>aged 85 yrs. 6 mos. 9 ds.<br/>Irwin Roy Brown<br/>died Sept. 14, 1852<br/>aged 6 yrs. 7 mos.<br/>Justina<br/>wife of Charles Brown<br/>died May 25, 1900<br/>aged 68 yrs. 1 mo. 18 ds.<br/>Charles Brown<br/>died June 20, 1905<br/>aged 72 yrs. 13 ds.<br/>their son Jonathan<br/>died July 25, 1867<br/>ae 5 yrs. 11 mos. 14 ds.</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/110/188035921_0c2c9b04-4579-4ee8-8c42-e1e9f4cceab1.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Samuel   Brown",
+      "birth_date": "1859-00-00",
+      "death_date": "1916-00-00",
+      "profile_url": "/memorial/188035997/samuel-brown"
+    }
+  ],
+  "children": "[{\"name\": \"Idella E.  Brown Burn\", \"birth_date\": \"1888-00-00\", \"death_date\": \"1974-00-00\", \"profile_url\": \"/memorial/209173829/idella_e-burn\"}]",
+  "siblings": "[]",
+  "id": 101
 }

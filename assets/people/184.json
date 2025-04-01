@@ -1,10 +1,16 @@
 {
-  "id": 184,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/191738505/grace-eilber",
   "name": "Grace Eilber",
   "birth_date": "1878-11-24",
   "death_date": "1886-03-24",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "191738505/grace-eilber",
-  "image_url": "https://images.findagrave.com/photos/2018/209/191738505_7085a8c0-58bd-409b-86d6-ceab789a3318.jpeg?size=photos250"
+  "bio": "EILBER\nGrace Eilber<br/>born Nov. 24, 1878-died Mar. 24, 1886<br/>Ezra Eilber<br/>born Jan. 21, 1884-died Mar. 24, 1886<br/>Gertrude Eilber<br/>born Dec. 18, 1906-died Sept. 14, 1908<br/>Louis Raymond <br/>1867-1928<br/>his wife Martha Eilber<br/>1873-1947<br/>Mother<br/>Fredericka<br/>wife of George Frederick Eilber<br/>born Nov. 27, 1840<br/>died Dec. 26, 1926<br/>Father<br/>George Frederick Eilber<br/>born Sept. 15, 1823<br/>died Jan. 27, 1918<br/>John Frederick Eilber<br/>born Nov. 25, 1868<br/>died Oct. 9, 1905<br/>his wife, Elizabeth<br/>born July 14, 1871<br/>died July 14, 1962</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2018/209/191738505_7085a8c0-58bd-409b-86d6-ceab789a3318.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 184
 }

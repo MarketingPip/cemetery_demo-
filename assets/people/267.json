@@ -1,10 +1,29 @@
 {
-  "id": 267,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/257965958/nola-lillian-faist",
   "name": "Nola Lillian Faist",
   "birth_date": "1905-11-14",
   "death_date": "2001-04-08",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "257965958/nola-lillian-faist",
-  "image_url": ""
+  "bio": "",
+  "gps": null,
+  "image_url": "",
+  "parents": [
+    {
+      "name": "George Ezra   Faist",
+      "birth_date": "1871-00-00",
+      "death_date": "1956-00-00",
+      "profile_url": "/memorial/188037270/george_ezra-faist"
+    },
+    {
+      "name": "Elizabeth Ann  Wuerth Faist",
+      "birth_date": "1875-00-00",
+      "death_date": "1967-00-00",
+      "profile_url": "/memorial/188037238/elizabeth_ann-faist"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 267
 }

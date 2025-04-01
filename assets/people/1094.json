@@ -1,10 +1,36 @@
 {
-  "id": 1094,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188138492/audrey-margaret-wade",
   "name": "Audrey Margaret Speiran Wade",
   "birth_date": "1908-04-14",
   "death_date": "1994-08-24",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188138492/audrey-margaret-wade",
-  "image_url": "https://images.findagrave.com/photos/2022/84/188138492_01d8e91d-bb77-433e-bd4f-7c662f750bd9.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/188138492_01d8e91d-bb77-433e-bd4f-7c662f750bd9.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Charles Elgin   Speiran",
+      "birth_date": "1878-00-00",
+      "death_date": "1939-00-00",
+      "profile_url": "/memorial/250972050/charles_elgin-speiran"
+    },
+    {
+      "name": "Florence M  Chater Speiran",
+      "birth_date": "1880-00-00",
+      "death_date": "1960-00-00",
+      "profile_url": "/memorial/236384175/florence_m-speiran"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "John Harper   Wade",
+      "birth_date": "1906-00-00",
+      "death_date": "1975-00-00",
+      "profile_url": "/memorial/188138496/john_harper-wade"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1094
 }

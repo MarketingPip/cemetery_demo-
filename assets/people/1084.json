@@ -1,10 +1,16 @@
 {
-  "id": 1084,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/22080292/jolene-louise-unwin",
   "name": "Jolene Louise Unwin",
   "birth_date": "1987-11-14",
   "death_date": "2007-10-09",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "22080292/jolene-louise-unwin",
-  "image_url": "https://images.findagrave.com/photos/2007/332/22080292_119637448761.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2007/332/22080292_119637448761.jpg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1084
 }

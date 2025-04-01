@@ -1,10 +1,16 @@
 {
-  "id": 530,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/238052154/jeffrey-m-hendrickson",
   "name": "Jeffrey M. Hendrickson",
   "birth_date": "1987-00-00",
   "death_date": "2006-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "238052154/jeffrey-m-hendrickson",
-  "image_url": "https://images.findagrave.com/photos/2022/86/238052154_ee2cd1a9-5e19-4fb6-93f8-c9b8ec5a6d68.jpeg?size=photos250"
+  "bio": "Jeffrey M.\n1987-2006<br/>son of Jim &amp; Joanne<br/>brother of Jennifer</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/238052154_ee2cd1a9-5e19-4fb6-93f8-c9b8ec5a6d68.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 530
 }

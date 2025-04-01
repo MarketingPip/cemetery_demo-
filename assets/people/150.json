@@ -1,10 +1,16 @@
 {
-  "id": 150,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/39576575/phyllis-vivian_mary-degraw",
   "name": "Phyllis Vivian Mary Hanton Degraw",
   "birth_date": "1922-01-29",
   "death_date": "2008-10-11",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "39576575/phyllis-vivian_mary-degraw",
-  "image_url": "https://images.findagrave.com/photos/2022/86/39576575_ce652009-f19d-40dc-b98d-1053c71433ba.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/39576575_ce652009-f19d-40dc-b98d-1053c71433ba.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 150
 }

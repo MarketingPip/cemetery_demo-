@@ -1,10 +1,16 @@
 {
-  "id": 855,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/39886936/john-n-pritchard",
   "name": "John N Pritchard",
   "birth_date": "1947-12-15",
   "death_date": "2002-06-13",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "39886936/john-n-pritchard",
-  "image_url": "https://images.findagrave.com/photos/2022/86/39886936_dd0ee0a1-a98f-4c80-b23a-74bc5cba9550.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/39886936_dd0ee0a1-a98f-4c80-b23a-74bc5cba9550.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 855
 }

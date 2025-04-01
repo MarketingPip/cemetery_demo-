@@ -1,10 +1,16 @@
 {
-  "id": 681,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15580445/marilyn-listoen",
   "name": "Marilyn Listoen",
   "birth_date": "1956-00-00",
   "death_date": "1962-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15580445/marilyn-listoen",
-  "image_url": "https://images.findagrave.com/photos/2006/244/15580445_115720225878.jpg?size=photos250"
+  "bio": "Grandchildren of Wellington R Haist and Irene L Willert",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/244/15580445_115720225878.jpg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 681
 }

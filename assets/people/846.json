@@ -1,10 +1,29 @@
 {
-  "id": 846,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/40131503/william-henry-pfaff",
   "name": "William Henry Pfaff",
   "birth_date": "1926-00-00",
   "death_date": "2003-11-21",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "40131503/william-henry-pfaff",
-  "image_url": "https://images.findagrave.com/photos/2022/83/40131503_4039da30-045b-41fe-a513-0fbafeca0268.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/83/40131503_4039da30-045b-41fe-a513-0fbafeca0268.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Henry Christian   Pfaff",
+      "birth_date": "1893-00-00",
+      "death_date": "1974-00-00",
+      "profile_url": "/memorial/35821719/henry_christian-pfaff"
+    },
+    {
+      "name": "Thalma Witzel   Pfaff",
+      "birth_date": "1891-00-00",
+      "death_date": "1962-00-00",
+      "profile_url": "/memorial/35821406/thalma_witzel-pfaff"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 846
 }

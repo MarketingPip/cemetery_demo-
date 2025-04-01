@@ -1,10 +1,29 @@
 {
-  "id": 864,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188136487/glen-william-ratz",
   "name": "Glen William Ratz",
   "birth_date": "1948-00-00",
   "death_date": "1970-06-14",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188136487/glen-william-ratz",
-  "image_url": "https://images.findagrave.com/photos/2022/83/188136487_d6550f33-b7ae-4408-bfab-358ef56eb031.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/83/188136487_d6550f33-b7ae-4408-bfab-358ef56eb031.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Ervin Albert   Ratz",
+      "birth_date": "1915-00-00",
+      "death_date": "2000-00-00",
+      "profile_url": "/memorial/188136483/ervin_albert-ratz"
+    },
+    {
+      "name": "Nola Eliza  Isaac Ratz",
+      "birth_date": "1918-00-00",
+      "death_date": "2006-00-00",
+      "profile_url": "/memorial/41015199/nola_eliza-ratz"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 864
 }

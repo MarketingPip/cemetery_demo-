@@ -1,10 +1,16 @@
 {
-  "id": 706,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188115171/john-arthur-mcdermott",
   "name": "John Arthur “Jack” McDermott",
   "birth_date": "1937-10-19",
   "death_date": "1981-05-27",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188115171/john-arthur-mcdermott",
-  "image_url": "https://images.findagrave.com/photos/2022/86/188115171_b1f6ad6a-f303-4029-ac02-d35c338c3fce.jpeg?size=photos250"
+  "bio": "McDERMOTT\nJOHN ARTHUR (JACK)<br/>1937 - 1981<br/>BELOVED HUSBAND OF <br/>KATHRYN A. BOSHART</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/188115171_b1f6ad6a-f303-4029-ac02-d35c338c3fce.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 706
 }

@@ -1,10 +1,29 @@
 {
-  "id": 717,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/236913526/elizabeth-catherine-messner_krein",
   "name": "Elizabeth Catherine Finkbeiner Messner Krein",
   "birth_date": "1837-02-27",
   "death_date": "1912-03-23",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "236913526/elizabeth-catherine-messner_krein",
-  "image_url": "https://images.findagrave.com/photos/2022/111/236913526_f5e40283-bb7d-4148-9b04-6084f3bb86ac.jpeg?size=photos250"
+  "bio": "KREIN\n(end)Elizabeth<br/>wife of John KREIN<br/>died Mar. 23, 1912<br/>Aged 75 years 27 days<br/>Asleep in Jesus<br/>(front)John KREIN<br/>died April 8, 1902<br/>aged 75 yrs. 7 mos.<br/>Samuel KREIN<br/>died April 25, 1880<br/>aged 1 yr. 1 month.<br/>(back)Paul Messner<br/>died May 12, 1875<br/>ae 45 yrs.<br/>John Messner<br/>died Oct. 4, 1864<br/>ae 4 yrs. 6 mos.<br/>Regina Messner<br/>died July 26, 1893<br/>ae 29 yrs. 10 mos.</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/111/236913526_f5e40283-bb7d-4148-9b04-6084f3bb86ac.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Paul   Messner",
+      "birth_date": "1830-00-00",
+      "death_date": "1875-00-00",
+      "profile_url": "/memorial/188115199/paul-messner"
+    },
+    {
+      "name": "John   Krein",
+      "birth_date": "1821-00-00",
+      "death_date": "1902-00-00",
+      "profile_url": "/memorial/188113418/john-krein"
+    }
+  ],
+  "children": "[{\"name\": \"Paul   Messner Jr\", \"birth_date\": \"1858-00-00\", \"death_date\": \"1932-00-00\", \"profile_url\": \"/memorial/155416464/paul-messner\"}, {\"name\": \"Catherine Annie Maria  Messner Motz\", \"birth_date\": \"1869-00-00\", \"death_date\": \"1941-00-00\", \"profile_url\": \"/memorial/16626989/catherine_annie_maria-motz\"}, {\"name\": \"Jacob   Messner\", \"birth_date\": \"1869-00-00\", \"death_date\": \"1958-00-00\", \"profile_url\": \"/memorial/179071566/jacob-messner\"}, {\"name\": \"Samuel   Krein\", \"birth_date\": \"1879-00-00\", \"death_date\": \"1880-00-00\", \"profile_url\": \"/memorial/188113421/samuel-krein\"}]",
+  "siblings": "[]",
+  "id": 717
 }

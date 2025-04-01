@@ -1,10 +1,30 @@
 {
-  "id": 209,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188036893/albert-p-fahner",
   "name": "Albert P. Fahner",
   "birth_date": "1884-00-00",
   "death_date": "1962-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188036893/albert-p-fahner",
-  "image_url": "https://images.findagrave.com/photos/2022/110/188036893_c5f84387-be32-4a46-af4e-a5d05863a32a.jpeg?size=photos250"
+  "bio": "FAHNER\nCharles C. Fahner<br/>born 1876 died 1921<br/>Albert P. Fahner<br/>born 1884 died 1962<br/>his wife, Minnie Triebner<br/>born 1885 died 1965</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/110/188036893_c5f84387-be32-4a46-af4e-a5d05863a32a.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Tobias   Fahner",
+      "birth_date": "1839-00-00",
+      "death_date": "1906-00-00",
+      "profile_url": "/memorial/188037143/tobias-fahner"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Minnie  Triebner Fahner",
+      "birth_date": "1885-00-00",
+      "death_date": "1965-00-00",
+      "profile_url": "/memorial/188037100/minnie-fahner"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 209
 }

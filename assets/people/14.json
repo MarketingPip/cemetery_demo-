@@ -1,10 +1,29 @@
 {
-  "id": 14,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15790995/christian-beaver",
   "name": "Christian Beaver",
   "birth_date": "1846-12-22",
   "death_date": "1928-05-26",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15790995/christian-beaver",
-  "image_url": "https://images.findagrave.com/photos/2006/260/15790995_115858738363.jpg?size=photos250"
+  "bio": "In Memory of\nAmelia Jane<br/>wife of Christian Beaver<br/>died Jan. 2, 1902<br/>aged 47 yrs. 5 mos. 2 ds.<br/>Christian Beaver<br/>died May 26, 1928<br/>aged 81 yrs. 5 mos. 4 ds.<br/>BEAVER</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/260/15790995_115858738363.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Amelia Jane  Parsons Beaver",
+      "birth_date": "1854-00-00",
+      "death_date": "1902-00-00",
+      "profile_url": "/memorial/15790949/amelia_jane-beaver"
+    },
+    {
+      "name": "Hortense   Beaver",
+      "birth_date": "1864-00-00",
+      "death_date": "1906-00-00",
+      "profile_url": "/memorial/236911772/hortense-beaver"
+    }
+  ],
+  "children": "[{\"name\": \"Son   Beaver\", \"birth_date\": \"1894-00-00\", \"death_date\": \"1894-00-00\", \"profile_url\": \"/memorial/236912036/son-beaver\"}]",
+  "siblings": "[]",
+  "id": 14
 }

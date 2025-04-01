@@ -1,10 +1,29 @@
 {
-  "id": 317,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/16331140/jacob-finkbeiner",
   "name": "Jacob Finkbeiner",
   "birth_date": "1849-09-10",
   "death_date": "1861-03-12",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "16331140/jacob-finkbeiner",
-  "image_url": "https://images.findagrave.com/photos/2006/298/16331140_116187938854.jpg?size=photos250"
+  "bio": "FINKBEINER\nJacob Finkbeiner\nGestboren Den. Marz. 12, 1861 In Alter\nvon 11 Jahr 6 monate 2 tage.\nHeir Ruht\nRosina<br/>Ehefrau von Jacob Finkbeiner<br/>Gestboren Dec Feb. 3, 1882 In Alter<br/>von 54 Jahr 5 tagen<br/>Ruhe uhrer a sche<br/>Jacob Finkbeiner<br/>gestboren den Apr. 8, 1900 In Alter<br/>von 79 Jahr. 6 mo. 18 tag.<br/>Magdalena<br/>wife of Christian Finkbeiner<br/>died Dec. 8, 1927<br/>aged 69 years<br/>Christian Finkbeiner<br/>died Dec. 12, 1933 aged 81 yrs.</br></br></br></br></br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/298/16331140_116187938854.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Jacob   Finkbeiner",
+      "birth_date": "1820-00-00",
+      "death_date": "1900-00-00",
+      "profile_url": "/memorial/16330892/jacob-finkbeiner"
+    },
+    {
+      "name": "Rosina  Schatz Finkbeiner",
+      "birth_date": "1828-00-00",
+      "death_date": "1882-00-00",
+      "profile_url": "/memorial/16330944/rosina-finkbeiner"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Michael   Finkbeiner\", \"birth_date\": \"1856-00-00\", \"death_date\": \"1926-00-00\", \"profile_url\": \"/memorial/16671570/michael-finkbeiner\"}, {\"name\": \"Fredrick   Finkbeiner\", \"birth_date\": \"1858-00-00\", \"death_date\": \"1934-00-00\", \"profile_url\": \"/memorial/143602042/fredrick-finkbeiner\"}]",
+  "id": 317
 }

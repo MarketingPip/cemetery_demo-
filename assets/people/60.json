@@ -1,10 +1,23 @@
 {
-  "id": 60,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/48858506/charmaine-bierling",
   "name": "Charmaine Schenk Bierling",
   "birth_date": "1950-06-23",
   "death_date": "2010-02-22",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "48858506/charmaine-bierling",
-  "image_url": "https://images.findagrave.com/photos/2018/209/48858506_28bea99e-91f6-48f3-9ce1-134a4675a240.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2018/209/48858506_28bea99e-91f6-48f3-9ce1-134a4675a240.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "W. John   Bierling",
+      "birth_date": "1949-00-00",
+      "death_date": "2019-00-00",
+      "profile_url": "/memorial/238051794/w_john-bierling"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 60
 }

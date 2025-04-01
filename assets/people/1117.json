@@ -1,10 +1,29 @@
 {
-  "id": 1117,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/16414049/ezra-wein",
   "name": "Ezra Wein",
   "birth_date": "1888-04-04",
   "death_date": "1924-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "16414049/ezra-wein",
-  "image_url": "https://images.findagrave.com/photos/2006/304/16414049_116239897155.jpg?size=photos250"
+  "bio": "WEIN\nIn memory of John G. Wein<br/>1851-1919<br/>his beloved wife Leah Beaver<br/>1859-1913<br/>their sons<br/>1888 Ezra 1924<br/>1883 Samuel 1949</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/304/16414049_116239897155.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "John George   Wein",
+      "birth_date": "1851-00-00",
+      "death_date": "1919-00-00",
+      "profile_url": "/memorial/16331552/john_george-wein"
+    },
+    {
+      "name": "Leah  Beaver Wein",
+      "birth_date": "1859-00-00",
+      "death_date": "1913-00-00",
+      "profile_url": "/memorial/16413875/leah-wein"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Samuel   Wein\", \"birth_date\": \"1883-00-00\", \"death_date\": \"1949-00-00\", \"profile_url\": \"/memorial/16414070/samuel-wein\"}]",
+  "id": 1117
 }

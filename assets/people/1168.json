@@ -1,10 +1,23 @@
 {
-  "id": 1168,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15820584/martha-wilker",
   "name": "Martha Morlock Wilker",
   "birth_date": "1850-00-00",
   "death_date": "1943-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15820584/martha-wilker",
-  "image_url": "https://images.findagrave.com/photos/2006/262/15820584_115875998129.jpg?size=photos250"
+  "bio": "Leonard Wilker\n1846-1920<br/>Matilda Morlock<br/>his wife<br/>1850-1943</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/262/15820584_115875998129.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Leonard   Wilker",
+      "birth_date": "1846-00-00",
+      "death_date": "1920-00-00",
+      "profile_url": "/memorial/15820486/leonard-wilker"
+    }
+  ],
+  "children": "[{\"name\": \"Mary  Wilker Zimmerman\", \"birth_date\": \"1873-00-00\", \"death_date\": \"1957-00-00\", \"profile_url\": \"/memorial/49844902/mary-zimmerman\"}]",
+  "siblings": "[]",
+  "id": 1168
 }

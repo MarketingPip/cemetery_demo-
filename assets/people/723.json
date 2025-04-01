@@ -1,10 +1,23 @@
 {
-  "id": 723,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/14495743/alma-irene-morlock",
   "name": "Alma Irene Smith Morlock",
   "birth_date": "1903-11-01",
   "death_date": "2006-06-02",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "14495743/alma-irene-morlock",
-  "image_url": "https://images.findagrave.com/photos/2006/213/14495743_115452551202.jpg?size=photos250"
+  "bio": "MORLOCK\nAlma E. Haist<br/>1903-1943<br/>wife of Chester Gordon Morlock <br/>1902-1993<br/>his wife Alma I. Smith<br/>1903-2006<br/>(back)John N. Morlock<br/>1867-1951<br/>his wife Caroline M. Wuerth<br/>1872-1963</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/213/14495743_115452551202.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Chester Gordon   Morlock",
+      "birth_date": "1902-00-00",
+      "death_date": "1993-00-00",
+      "profile_url": "/memorial/16539090/chester_gordon-morlock"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 723
 }

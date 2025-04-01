@@ -1,10 +1,42 @@
 {
-  "id": 1051,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15187530/william-h-sweitzer",
   "name": "William H. Sweitzer",
   "birth_date": "1887-00-00",
   "death_date": "1969-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15187530/william-h-sweitzer",
-  "image_url": "https://images.findagrave.com/photos/2006/219/15187530_115505314250.jpg?size=photos250"
+  "bio": "RATZ (black granite)\nGordon Marcius<br/>son of John &amp; Barbara Ratz<br/>died Oct. 18, 1908<br/>ae 8 yrs. 4 mos. 17 ds.<br/>Ida Ratz<br/>wife of William Sweitzer<br/>born Apr. 10, 1889-died Jan. 10, 1920<br/>Gone but not forgotten<br/>(back)John Ratz<br/>born Apr. 18, 1853-died June 21, 1942<br/>Barbara Finkbeiner<br/>wife of John Ratz<br/>born Feb. 16, 1856-died Jan. 6, 1924<br/>in her 67th year.<br/>Simon V. Ratz<br/>born Nov. 26, 1883-died Feb. 28, 1947</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/219/15187530_115505314250.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Samuel   Sweitzer",
+      "birth_date": "1857-00-00",
+      "death_date": "1911-00-00",
+      "profile_url": "/memorial/15684591/samuel-sweitzer"
+    },
+    {
+      "name": "Louisa or Lydia  Morlock Sweitzer",
+      "birth_date": "1860-00-00",
+      "death_date": "1952-00-00",
+      "profile_url": "/memorial/15697687/louisa_or_lydia-sweitzer"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Ida  Ratz Sweitzer",
+      "birth_date": "1889-00-00",
+      "death_date": "1920-00-00",
+      "profile_url": "/memorial/16550965/ida-sweitzer"
+    },
+    {
+      "name": "Edith Augusta  Mangnus Sweitzer",
+      "birth_date": "1892-00-00",
+      "death_date": "1958-00-00",
+      "profile_url": "/memorial/15187523/edith_augusta-sweitzer"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1051
 }

@@ -1,10 +1,23 @@
 {
-  "id": 595,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/237948315/ruth-l-insley",
   "name": "Ruth L. Schwartz Insley",
   "birth_date": "1928-00-00",
   "death_date": "2017-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "237948315/ruth-l-insley",
-  "image_url": "https://images.findagrave.com/photos/2022/84/237948315_a2b6242e-1d14-46a6-91ab-cdb65ba02530.jpeg?size=photos250"
+  "bio": "In Loving Memory\nINSLEY<br/>1922 Edward M. Insley 1997<br/>husband of<br/>1928 Ruth L. Schwartz 2017</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/237948315_a2b6242e-1d14-46a6-91ab-cdb65ba02530.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Edward Murray   Insley",
+      "birth_date": "1922-00-00",
+      "death_date": "1997-00-00",
+      "profile_url": "/memorial/188113320/edward_murray-insley"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 595
 }

@@ -1,10 +1,23 @@
 {
-  "id": 512,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/237948874/alfred-jp-harvey",
   "name": "Alfred J.P. “Al” Harvey",
   "birth_date": "1935-07-05",
   "death_date": "2015-12-13",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "237948874/alfred-jp-harvey",
-  "image_url": "https://images.findagrave.com/photos/2022/84/237948874_33e3134b-e2ab-44a0-b535-017c7b91eab0.jpeg?size=photos250"
+  "bio": "In Loving Memory\nHARVEY<br/>Madeline<br/>Marie<br/>Romphf<br/>Mar. 18, 1940<br/>June 7, 2013<br/>Alfred J.P.<br/>Harvey<br/>July 5, 1935<br/>Dec. 13, 2015<br/>Because he lives, we shall live also John14:19</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/237948874_33e3134b-e2ab-44a0-b535-017c7b91eab0.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Madeline Marie  Romphf Harvey",
+      "birth_date": "1940-00-00",
+      "death_date": "2013-00-00",
+      "profile_url": "/memorial/237949057/madeline_marie-harvey"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 512
 }

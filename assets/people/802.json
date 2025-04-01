@@ -1,10 +1,23 @@
 {
-  "id": 802,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15820668/herman-oestreicher",
   "name": "Herman Oestreicher",
   "birth_date": "1857-00-00",
   "death_date": "1952-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15820668/herman-oestreicher",
-  "image_url": "https://images.findagrave.com/photos/2006/262/15820668_115876081051.jpg?size=photos250"
+  "bio": "(front) Herman Oestreicher\n1857-1952<br/>Matilda Morlock<br/>his wife<br/>1862-1943</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/262/15820668_115876081051.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Matilda  Morlock Oestreicher",
+      "birth_date": "1862-00-00",
+      "death_date": "1943-00-00",
+      "profile_url": "/memorial/15820654/matilda-oestreicher"
+    }
+  ],
+  "children": "[{\"name\": \"Matilda   Oestreicher\", \"birth_date\": \"1894-00-00\", \"death_date\": \"1983-00-00\", \"profile_url\": \"/memorial/236912317/matilda-oestreicher\"}, {\"name\": \"Clara L.   Oestreicher\", \"birth_date\": \"1899-00-00\", \"death_date\": null, \"profile_url\": \"/memorial/236912274/clara_l-oestreicher\"}, {\"name\": \"Hannah Irene   Oestreicher\", \"birth_date\": \"1901-00-00\", \"death_date\": \"1902-00-00\", \"profile_url\": \"/memorial/236912368/hannah_irene-oestreicher\"}]",
+  "siblings": "[]",
+  "id": 802
 }

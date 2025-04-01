@@ -1,10 +1,16 @@
 {
-  "id": 820,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/280827956/john-richard-parsons",
   "name": "John Richard Parsons",
   "birth_date": "1856-00-00",
   "death_date": "1921-10-23",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "280827956/john-richard-parsons",
-  "image_url": "https://images.findagrave.com/photos/2025/75/280827956_2f663253-bb3c-4ed4-987c-236a3983d9d7.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2025/75/280827956_2f663253-bb3c-4ed4-987c-236a3983d9d7.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 820
 }

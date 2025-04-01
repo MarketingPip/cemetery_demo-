@@ -1,10 +1,23 @@
 {
-  "id": 877,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/41015199/nola-eliza-ratz",
   "name": "Nola Eliza Isaac Ratz",
   "birth_date": "1918-00-00",
   "death_date": "2006-11-14",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "41015199/nola-eliza-ratz",
-  "image_url": "https://images.findagrave.com/photos/2015/272/41015199_1443621155.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2015/272/41015199_1443621155.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Ervin Albert   Ratz",
+      "birth_date": "1915-00-00",
+      "death_date": "2000-00-00",
+      "profile_url": "/memorial/188136483/ervin_albert-ratz"
+    }
+  ],
+  "children": "[{\"name\": \"Glen William   Ratz\", \"birth_date\": \"1948-00-00\", \"death_date\": \"1970-00-00\", \"profile_url\": \"/memorial/188136487/glen_william-ratz\"}]",
+  "siblings": "[]",
+  "id": 877
 }

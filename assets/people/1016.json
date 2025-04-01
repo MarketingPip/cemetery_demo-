@@ -1,10 +1,29 @@
 {
-  "id": 1016,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/191737552/glen-henry-stewardson",
   "name": "Glen Henry Stewardson",
   "birth_date": "1943-00-00",
   "death_date": "2013-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "191737552/glen-henry-stewardson",
-  "image_url": "https://images.findagrave.com/photos/2018/209/191737552_cfc927ad-b4fb-4c4d-800f-2654c7a1a323.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2018/209/191737552_cfc927ad-b4fb-4c4d-800f-2654c7a1a323.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Willis Orval   Stewardson",
+      "birth_date": "1917-00-00",
+      "death_date": "1987-00-00",
+      "profile_url": "/memorial/188137985/willis_orval-stewardson"
+    },
+    {
+      "name": "Lois  Wanner Stewardson",
+      "birth_date": "1921-00-00",
+      "death_date": "1998-00-00",
+      "profile_url": "/memorial/188137964/lois-stewardson"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Willis Stanley Ecron   Stewardson\", \"birth_date\": \"1941-00-00\", \"death_date\": \"2009-00-00\", \"profile_url\": \"/memorial/44646061/willis_stanley_ecron-stewardson\"}]",
+  "id": 1016
 }

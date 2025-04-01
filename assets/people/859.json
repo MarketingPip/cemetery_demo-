@@ -1,10 +1,36 @@
 {
-  "id": 859,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15561361/clara-anita-ratz",
   "name": "Clara Anita Haist Ratz",
   "birth_date": "1901-05-26",
   "death_date": "1997-10-07",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15561361/clara-anita-ratz",
-  "image_url": "https://images.findagrave.com/photos/2006/241/15561361_115699703832.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/241/15561361_115699703832.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Frederick   Haist",
+      "birth_date": "1864-00-00",
+      "death_date": "1936-00-00",
+      "profile_url": "/memorial/15563828/frederick-haist"
+    },
+    {
+      "name": "Magdalena  Brown Haist",
+      "birth_date": "1863-00-00",
+      "death_date": "1937-00-00",
+      "profile_url": "/memorial/15563840/magdalena-haist"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Roy Ervin   Ratz",
+      "birth_date": "1897-00-00",
+      "death_date": "1971-00-00",
+      "profile_url": "/memorial/15561339/roy_ervin-ratz"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 859
 }

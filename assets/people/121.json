@@ -1,10 +1,23 @@
 {
-  "id": 121,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/41012968/charles-edward-browning",
   "name": "Charles Edward Browning",
   "birth_date": "1921-00-00",
   "death_date": "2005-03-10",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "41012968/charles-edward-browning",
-  "image_url": "https://images.findagrave.com/photos/2015/272/41012968_1443626390.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2015/272/41012968_1443626390.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Ina Doris   Browning",
+      "birth_date": "1923-00-00",
+      "death_date": "2003-00-00",
+      "profile_url": "/memorial/113519581/ina_doris-browning"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 121
 }

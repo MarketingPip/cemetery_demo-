@@ -1,10 +1,23 @@
 {
-  "id": 25,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/236911772/hortense-beaver",
   "name": "Hortense Beaver",
   "birth_date": "1864-09-25",
   "death_date": "1906-03-26",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "236911772/hortense-beaver",
-  "image_url": "https://images.findagrave.com/photos/2022/121/236911772_dd41846a-2062-4588-bed8-1774deba6194.jpeg?size=photos250"
+  "bio": "Aged 41 years 6 months 1 day",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/121/236911772_dd41846a-2062-4588-bed8-1774deba6194.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Christian   Beaver",
+      "birth_date": "1846-00-00",
+      "death_date": "1928-00-00",
+      "profile_url": "/memorial/15790995/christian-beaver"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 25
 }

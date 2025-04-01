@@ -1,10 +1,23 @@
 {
-  "id": 675,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188114978/dorothea-link",
   "name": "Dorothea Eilber Link",
   "birth_date": "1864-12-16",
   "death_date": "1915-11-18",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188114978/dorothea-link",
-  "image_url": "https://images.findagrave.com/photos/2022/112/188114978_e78073f4-01a9-45d8-8bd2-19ee83822c68.jpeg?size=photos250"
+  "bio": "FRITZ\nWard C. Fritz<br/>1901-1986<br/>husband of<br/>Bernice E. Eilber<br/>1913-1990<br/>and their daughter<br/>Mary Louise E. 1935-2016<br/>LINK<br/>In memory Of Samuel Link<br/>died Mar. 21, 1890<br/>aged 27 yrs.<br/>Dorothia Eilber<br/>wife of Samuel Link<br/>born Dec. 16, 1864<br/>died Nov. 18, 1915<br/>LINK<br/>Ella Beatrice Link<br/>born April 2, 1889<br/>died Feb. 21, 1962</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/112/188114978_e78073f4-01a9-45d8-8bd2-19ee83822c68.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Samuel   Link",
+      "birth_date": "1863-00-00",
+      "death_date": "1890-00-00",
+      "profile_url": "/memorial/188114986/samuel-link"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 675
 }

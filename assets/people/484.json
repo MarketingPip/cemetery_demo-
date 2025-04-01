@@ -1,10 +1,23 @@
 {
-  "id": 484,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15563237/christian-wesley-haist",
   "name": "Christian Wesley Haist",
   "birth_date": "1878-11-22",
   "death_date": "1962-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15563237/christian-wesley-haist",
-  "image_url": "https://images.findagrave.com/photos/2006/242/15563237_115703256326.jpg?size=photos250"
+  "bio": "HAIST\nfs FATHER MOTHER</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/242/15563237_115703256326.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Lydia Anna  Schwanz Haist",
+      "birth_date": "1883-00-00",
+      "death_date": "1951-00-00",
+      "profile_url": "/memorial/15563260/lydia_anna-haist"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 484
 }

@@ -1,10 +1,23 @@
 {
-  "id": 943,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/173321208/john-mathew-schneider",
   "name": "John Mathew Schneider",
   "birth_date": "1835-09-05",
   "death_date": "1901-11-07",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "173321208/john-mathew-schneider",
-  "image_url": "https://images.findagrave.com/photos/2020/221/173321208_df15e02b-72c7-4913-8044-9f62857dd3f2.jpeg?size=photos250"
+  "bio": "HE HAS GONE TO MANSIONS OF REST",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2020/221/173321208_df15e02b-72c7-4913-8044-9f62857dd3f2.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Sopheronia  Taft Schneider",
+      "birth_date": "1834-00-00",
+      "death_date": "1917-00-00",
+      "profile_url": "/memorial/36398199/sopheronia-schneider"
+    }
+  ],
+  "children": "[{\"name\": \"Charles Marshall   Schneider\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1927-00-00\", \"profile_url\": \"/memorial/173290691/charles_marshall-schneider\"}, {\"name\": \"William M.   Taylor\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1943-00-00\", \"profile_url\": \"/memorial/36398289/william_m-taylor\"}, {\"name\": \"Arthur Franklin \\\"Frank\\\"  Taylor\", \"birth_date\": \"1880-00-00\", \"death_date\": \"1963-00-00\", \"profile_url\": \"/memorial/18085355/arthur_franklin-taylor\"}]",
+  "siblings": "[]",
+  "id": 943
 }

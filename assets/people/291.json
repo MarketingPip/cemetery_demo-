@@ -1,10 +1,36 @@
 {
-  "id": 291,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/41028526/donald-leroy-finkbeiner",
   "name": "Donald Leroy Finkbeiner",
   "birth_date": "1936-00-00",
   "death_date": "2008-12-21",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "41028526/donald-leroy-finkbeiner",
-  "image_url": "https://images.findagrave.com/photos/2018/63/41028526_6e2ddf09-5e9e-45c6-bd8a-69c127612774.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2018/63/41028526_6e2ddf09-5e9e-45c6-bd8a-69c127612774.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Irvine Faist   Finkbeiner",
+      "birth_date": "1904-00-00",
+      "death_date": "1977-00-00",
+      "profile_url": "/memorial/15145573/irvine_faist-finkbeiner"
+    },
+    {
+      "name": "Lavina Viola  Smith Finkbeiner",
+      "birth_date": "1898-00-00",
+      "death_date": "1984-00-00",
+      "profile_url": "/memorial/15145833/lavina_viola-finkbeiner"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Lorna Alma  Hayden Finkbeiner",
+      "birth_date": "1941-00-00",
+      "death_date": null,
+      "profile_url": "/memorial/274279668/lorna_alma-finkbeiner"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 291
 }

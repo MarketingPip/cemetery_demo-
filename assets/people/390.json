@@ -1,10 +1,29 @@
 {
-  "id": 390,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188037502/borden-l-gaiser",
   "name": "Borden L. Gaiser",
   "birth_date": "1911-00-00",
   "death_date": "1973-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188037502/borden-l-gaiser",
-  "image_url": "https://images.findagrave.com/photos/2022/116/188037502_74457ff1-4f48-4fd9-a2d1-f1e3ae45480f.jpeg?size=photos250"
+  "bio": "salmon granite",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/116/188037502_74457ff1-4f48-4fd9-a2d1-f1e3ae45480f.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "William B.   Gaiser",
+      "birth_date": "1862-00-00",
+      "death_date": "1934-00-00",
+      "profile_url": "/memorial/188113083/william_b-gaiser"
+    },
+    {
+      "name": "Sarah R.  Schwartz Gaiser",
+      "birth_date": "1864-00-00",
+      "death_date": "1937-00-00",
+      "profile_url": "/memorial/188113073/sarah_r-gaiser"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Chester W   Gaiser\", \"birth_date\": \"1891-00-00\", \"death_date\": \"1892-00-00\", \"profile_url\": \"/memorial/239203831/chester_w-gaiser\"}]",
+  "id": 390
 }

@@ -1,10 +1,29 @@
 {
-  "id": 94,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15966039/daniel-brown",
   "name": "Daniel Brown",
   "birth_date": "",
   "death_date": "1882-07-14",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15966039/daniel-brown",
-  "image_url": "https://images.findagrave.com/photos/2006/274/15966039_115980211869.jpg?size=photos250"
+  "bio": "BROWN\nIn memory of Mary B. Fees<br/>wife of John Brown<br/>died June 25, 1906<br/>aged 73 yrs. 6 mos. 28 ds.<br/>Sophia Kleinfeldt<br/>wife of B. Brown<br/>died Dec. 27, 1911<br/>aged 51 yrs. 6 mos. 9 days.<br/>Bernard Brown<br/>1858-1942<br/>Hier Ruhte<br/>Jonathan<br/>Starb Dec. 13, 1872<br/>Alter 2 Jahre 11 mo 12 tag<br/>also Daniel<br/>Starb July 4, 1882<br/>Alter 10 Jaher 2 mo.<br/>kinder von John &amp; Mary Brown<br/>John Brown<br/>Starb Sept. 6, 1888<br/>Alter 69 Jaher 10 mos.<br/>f.s. Harold L. Brown<br/>missing in action<br/>1924-1944</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/274/15966039_115980211869.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "John   Brown",
+      "birth_date": "1818-00-00",
+      "death_date": "1888-00-00",
+      "profile_url": "/memorial/15965732/john-brown"
+    },
+    {
+      "name": "Mary Barbara  Fees Brown",
+      "birth_date": "1832-00-00",
+      "death_date": "1906-00-00",
+      "profile_url": "/memorial/15965666/mary_barbara-brown"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Bernard   Brown\", \"birth_date\": \"1858-00-00\", \"death_date\": \"1942-00-00\", \"profile_url\": \"/memorial/15965429/bernard-brown\"}, {\"name\": \"Jonathan   Brown\", \"birth_date\": \"1869-00-00\", \"death_date\": \"1872-00-00\", \"profile_url\": \"/memorial/15965849/jonathan-brown\"}, {\"name\": \"George Wesley   Brown\", \"birth_date\": \"1874-00-00\", \"death_date\": \"1965-00-00\", \"profile_url\": \"/memorial/10723063/george_wesley-brown\"}]",
+  "id": 94
 }

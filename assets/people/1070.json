@@ -1,10 +1,16 @@
 {
-  "id": 1070,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188138300/william-o-treitz",
   "name": "William O. Treitz",
   "birth_date": "1892-00-00",
   "death_date": "1901-03-21",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188138300/william-o-treitz",
-  "image_url": "https://images.findagrave.com/photos/2022/110/188138300_a2236725-4560-4c0c-b2e6-00cf138761ba.jpeg?size=photos250"
+  "bio": "TREITZ\nJohn Treitz<br/>died Oct. 2, 1921 ae 70 yrs<br/>Caroline W. wife of John Treitz<br/>died Dec.21, 1900 ae 42 ys. 4 mos. 1d dys<br/>William O. Treitz<br/>died Mar. 21, 1901 ae 78 yrs. 8 mos.<br/>Carrie Treitz<br/>died April 2, 1892 ae 1 yr. 6 mos.<br/>Eizea Treitz<br/>died March 18, 1887 ae 9 mos.<br/>John Treitz<br/>died April 2, 1893 ae 76 yrs. 7 mos. 19 ds.<br/>his wife Catherine Finkbeiner<br/>died Jan. 28, 1907 ae 86 yrs.<br/>Carolyn wife of John Krein<br/>died July4, 1880 ae 25 yrs. 9 mos.<br/>f.s. also with Carolyn information</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/110/188138300_a2236725-4560-4c0c-b2e6-00cf138761ba.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1070
 }

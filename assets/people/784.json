@@ -1,10 +1,23 @@
 {
-  "id": 784,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15117523/mary-triphenia-neeb",
   "name": "Mary Triphenia Forsey Neeb",
   "birth_date": "1917-12-29",
   "death_date": "1999-03-09",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15117523/mary-triphenia-neeb",
-  "image_url": "https://images.findagrave.com/photos/2006/213/15117523_115452477855.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/213/15117523_115452477855.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Sydney   Neeb",
+      "birth_date": "1919-00-00",
+      "death_date": "2003-00-00",
+      "profile_url": "/memorial/15117508/sydney-neeb"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 784
 }

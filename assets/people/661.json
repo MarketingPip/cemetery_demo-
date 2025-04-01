@@ -1,10 +1,36 @@
 {
-  "id": 661,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/41012313/lloyd-samuel-lamport",
   "name": "Lloyd Samuel Lamport",
   "birth_date": "1915-00-00",
   "death_date": "2002-01-01",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "41012313/lloyd-samuel-lamport",
-  "image_url": "https://images.findagrave.com/photos/2022/83/41012313_bd463dea-8a93-4868-b489-15c39ada1d21.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/83/41012313_bd463dea-8a93-4868-b489-15c39ada1d21.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Samuel G   Lamport",
+      "birth_date": "1869-00-00",
+      "death_date": "1944-00-00",
+      "profile_url": "/memorial/16539538/samuel_g-lamport"
+    },
+    {
+      "name": "Margaret  Klumpp Lamport",
+      "birth_date": "1871-00-00",
+      "death_date": "1970-00-00",
+      "profile_url": "/memorial/16539603/margaret-lamport"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Elva B.  Turnbull Lamport",
+      "birth_date": "1917-00-00",
+      "death_date": "1994-00-00",
+      "profile_url": "/memorial/188113501/elva_b-lamport"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 661
 }

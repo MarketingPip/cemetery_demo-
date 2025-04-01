@@ -1,10 +1,23 @@
 {
-  "id": 790,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188115291/barbara-oestreicher",
   "name": "Barbara Fees Oestreicher",
   "birth_date": "1829-00-00",
   "death_date": "1911-04-11",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188115291/barbara-oestreicher",
-  "image_url": "https://images.findagrave.com/photos/2018/209/188115291_41d68de2-1b0e-48b9-9c31-44a1ed9f5fb1.jpeg?size=photos250"
+  "bio": "OESTREICHER\nKatherine<br/>wife of Daniel Oestreicher<br/>1870-1922<br/>Daniel Oestreicher<br/>born Feb. 18, 1866<br/>died May 24, 1948<br/>his wife Lydia Kobe<br/>born Sept. 10, 1882<br/>died Feb. 14, 1965<br/>Barbara Fees<br/>beloved wife ofJ.M. Oestreicher<br/>died Apr. 11, 1911<br/>ae 82 yrs. 8 mos. 6 ds.<br/>Elizabeth Oestreicher<br/>wife of Conrad Kuhn<br/>1862-1950<br/>J. Michael Oestreicher<br/>Geboren Den 9 Nov. 1819<br/>Stare Den 15 Sept. 1900<br/>Alter 80 J. 10 m. 6 t.</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2018/209/188115291_41d68de2-1b0e-48b9-9c31-44a1ed9f5fb1.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "J. Michael   Oestreicher",
+      "birth_date": "1819-00-00",
+      "death_date": "1900-00-00",
+      "profile_url": "/memorial/188115370/j_michael-oestreicher"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 790
 }

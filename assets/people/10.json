@@ -1,10 +1,23 @@
 {
-  "id": 10,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/164498762/joseph-francis-barrett",
   "name": "Joseph Francis Barrett",
   "birth_date": "1932-03-07",
   "death_date": "2012-12-18",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "164498762/joseph-francis-barrett",
-  "image_url": "https://images.findagrave.com/photos/2016/162/164498762_1465689477.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2016/162/164498762_1465689477.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Margaret Mary \"Peggy\" Noonan Barrett",
+      "birth_date": "1929-00-00",
+      "death_date": "2019-00-00",
+      "profile_url": "/memorial/206780551/margaret_mary-barrett"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 10
 }

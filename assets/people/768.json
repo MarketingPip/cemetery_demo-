@@ -1,10 +1,36 @@
 {
-  "id": 768,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15707995/elizabeth-motz",
   "name": "Elizabeth Porter Motz",
   "birth_date": "1847-10-27",
   "death_date": "1888-12-27",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15707995/elizabeth-motz",
-  "image_url": "https://images.findagrave.com/photos/2022/283/15707995_91dd27a6-25cc-4a26-83c8-8fa7755418cc.jpeg?size=photos250"
+  "bio": "MOTZ<br/>MAY THEY REST IN PEACE<br/>Trueman Uriah<br/>son of J.S. &amp; L. Motz<br/>born Jan. 1, 1904<br/>died April 1, 1905<br/>Josiah Motz<br/>born 1874<br/>died 1944<br/>his wife Lucy E. Heywood<br/>born 1876<br/>died 1948<br/>MOTZ<br/>Henry Motz<br/>born May 10, 1834<br/>died Feb. 13, 1913<br/>his wife Wilhelimina<br/>born Sept. 28, 1837<br/>died Aug. 18, 1881<br/>his wife Elizabeth<br/>born Oct. 27, 1847<br/>died Dec. 27, 1888<br/>May they rest in peace",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/283/15707995_91dd27a6-25cc-4a26-83c8-8fa7755418cc.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Julian  Werner Porter",
+      "birth_date": "1809-00-00",
+      "death_date": "1896-00-00",
+      "profile_url": "/memorial/15678785/julian-porter"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Henry   Motz",
+      "birth_date": "1834-00-00",
+      "death_date": "1913-00-00",
+      "profile_url": "/memorial/15707356/henry-motz"
+    },
+    {
+      "name": "William   Benoit",
+      "birth_date": "1833-00-00",
+      "death_date": "1914-00-00",
+      "profile_url": "/memorial/133063347/william-benoit"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 768
 }

@@ -1,10 +1,23 @@
 {
-  "id": 166,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188036421/cora-a-eggert",
   "name": "Cora A. Stahl Eggert",
   "birth_date": "1900-00-00",
   "death_date": "1979-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188036421/cora-a-eggert",
-  "image_url": "https://images.findagrave.com/photos/2022/84/188036421_8fc1ab2d-b942-40e8-b950-04a7a37ba0b5.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/188036421_8fc1ab2d-b942-40e8-b950-04a7a37ba0b5.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Ervin E.   Eggert",
+      "birth_date": "1894-00-00",
+      "death_date": "1973-00-00",
+      "profile_url": "/memorial/188036433/ervin_e-eggert"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 166
 }

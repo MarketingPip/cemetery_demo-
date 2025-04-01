@@ -1,10 +1,16 @@
 {
-  "id": 701,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188115135/dale-a-marshall",
   "name": "Dale A. Yuill Marshall",
   "birth_date": "1954-00-00",
   "death_date": "2012-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188115135/dale-a-marshall",
-  "image_url": "https://images.findagrave.com/photos/2022/86/188115135_497002d4-8505-47b2-b607-9c02a91fbe55.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/188115135_497002d4-8505-47b2-b607-9c02a91fbe55.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 701
 }

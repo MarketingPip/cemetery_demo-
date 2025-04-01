@@ -1,10 +1,23 @@
 {
-  "id": 215,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/41420706/donald-ray-fahner",
   "name": "Donald Ray Fahner",
   "birth_date": "1959-07-13",
   "death_date": "2008-03-05",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "41420706/donald-ray-fahner",
-  "image_url": "https://images.findagrave.com/photos/2018/209/41420706_ea9eaa7a-ace9-46f4-80b6-46524b258375.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2018/209/41420706_ea9eaa7a-ace9-46f4-80b6-46524b258375.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Grace Irene  Ortwein Fahner",
+      "birth_date": "1921-00-00",
+      "death_date": "2004-00-00",
+      "profile_url": "/memorial/41012529/grace_irene-fahner"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"John William   Fahner\", \"birth_date\": \"1951-00-00\", \"death_date\": \"2007-00-00\", \"profile_url\": \"/memorial/21860648/john_william-fahner\"}]",
+  "id": 215
 }

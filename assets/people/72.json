@@ -1,10 +1,36 @@
 {
-  "id": 72,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188035687/susan-bowman",
   "name": "Susan Wein Bowman",
   "birth_date": "1868-00-00",
   "death_date": "1944-10-07",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188035687/susan-bowman",
-  "image_url": "https://images.findagrave.com/photos/2022/83/188035687_a669f98b-d88d-488c-8230-3d994805e414.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/83/188035687_a669f98b-d88d-488c-8230-3d994805e414.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Godfried   Wein",
+      "birth_date": "1834-00-00",
+      "death_date": "1916-00-00",
+      "profile_url": "/memorial/188139056/godfried-wein"
+    },
+    {
+      "name": "Agnes  Fahner Wein",
+      "birth_date": "1835-00-00",
+      "death_date": "1919-00-00",
+      "profile_url": "/memorial/189806364/agnes-wein"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "William J.   Bowman",
+      "birth_date": "1864-00-00",
+      "death_date": "1941-00-00",
+      "profile_url": "/memorial/188035695/william_j-bowman"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 72
 }

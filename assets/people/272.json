@@ -1,10 +1,29 @@
 {
-  "id": 272,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15571908/amy-lulu-finkbeiner",
   "name": "Amy Lulu Finkbeiner",
   "birth_date": "1912-02-22",
   "death_date": "1920-04-01",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15571908/amy-lulu-finkbeiner",
-  "image_url": "https://images.findagrave.com/photos/2006/243/15571908_115712035276.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/243/15571908_115712035276.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "George Michael   Finkbeiner",
+      "birth_date": "1880-00-00",
+      "death_date": "1938-00-00",
+      "profile_url": "/memorial/15571819/george_michael-finkbeiner"
+    },
+    {
+      "name": "Mary Isabella  Amy Finkbeiner",
+      "birth_date": "1883-00-00",
+      "death_date": "1962-00-00",
+      "profile_url": "/memorial/15571842/mary_isabella-finkbeiner"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Russell E   Finkbeiner\", \"birth_date\": \"1913-00-00\", \"death_date\": \"1984-00-00\", \"profile_url\": \"/memorial/15553640/russell_e-finkbeiner\"}, {\"name\": \"Helen K  Finkbeiner Fawcett\", \"birth_date\": \"1915-00-00\", \"death_date\": \"1962-00-00\", \"profile_url\": \"/memorial/15294761/helen_k-fawcett\"}, {\"name\": \"Lillian Irene  Finkbeiner Hendry\", \"birth_date\": \"1921-00-00\", \"death_date\": \"2008-00-00\", \"profile_url\": \"/memorial/222449218/lillian_irene-hendry\"}]",
+  "id": 272
 }

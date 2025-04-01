@@ -1,10 +1,23 @@
 {
-  "id": 1069,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/98543806/wilhelmina-treitz",
   "name": "Wilhelmina Gaiser Treitz",
   "birth_date": "1861-05-09",
   "death_date": "1892-02-27",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "98543806/wilhelmina-treitz",
-  "image_url": "https://images.findagrave.com/photos/2022/112/98543806_91980577-2f10-4c01-8641-1f28acf90d0b.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/112/98543806_91980577-2f10-4c01-8641-1f28acf90d0b.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Charles   Treitz",
+      "birth_date": "1859-00-00",
+      "death_date": "1943-00-00",
+      "profile_url": "/memorial/98543051/charles-treitz"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1069
 }

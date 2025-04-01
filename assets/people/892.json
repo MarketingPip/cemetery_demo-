@@ -1,10 +1,16 @@
 {
-  "id": 892,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188136540/t-j_harold-robinson",
   "name": "T. J. Harold Robinson",
   "birth_date": "1903-00-00",
   "death_date": "1982-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188136540/t-j_harold-robinson",
-  "image_url": "https://images.findagrave.com/photos/2022/84/188136540_9624e39a-1878-47d7-9487-e9232765fa0a.jpeg?size=photos250"
+  "bio": "REST IN PEACE",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/188136540_9624e39a-1878-47d7-9487-e9232765fa0a.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 892
 }

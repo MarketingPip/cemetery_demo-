@@ -1,10 +1,29 @@
 {
-  "id": 698,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188115122/john-wesley-mangnus",
   "name": "John Wesley Mangnus",
   "birth_date": "1881-00-00",
   "death_date": "1884-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188115122/john-wesley-mangnus",
-  "image_url": "https://images.findagrave.com/photos/2022/110/188115122_56d14662-1eb6-494f-9154-2fcbe3d04d5d.jpeg?size=photos250"
+  "bio": "John Wesley Mangnus\nborn 1881 died 1884<br/>Marie<br/>born 1885 died 1896<br/>Fredericka Mangnus<br/>born 1850 died 1915<br/>Mrs. Gottfried Mangnus<br/>Gottifried Mangnus<br/>born 1847 died 1925<br/>James Morris Mangnus</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/110/188115122_56d14662-1eb6-494f-9154-2fcbe3d04d5d.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Gottfried C. L.   Mangnus",
+      "birth_date": "1847-00-00",
+      "death_date": "1925-00-00",
+      "profile_url": "/memorial/188115116/gottfried_c_l-mangnus"
+    },
+    {
+      "name": "Fredericka  Proechel Mangnus",
+      "birth_date": "1850-00-00",
+      "death_date": "1915-00-00",
+      "profile_url": "/memorial/188115096/fredericka-mangnus"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Marie   Mangnus\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1885-00-00\", \"profile_url\": \"/memorial/236151868/marie-mangnus\"}]",
+  "id": 698
 }

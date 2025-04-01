@@ -1,10 +1,23 @@
 {
-  "id": 691,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15561417/john-murdoch-mackay",
   "name": "John Murdoch MacKay",
   "birth_date": "1905-12-28",
   "death_date": "2003-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15561417/john-murdoch-mackay",
-  "image_url": "https://images.findagrave.com/photos/2006/241/15561417_115699789812.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/241/15561417_115699789812.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Dorothy Elizabeth  Amy MacKay",
+      "birth_date": "1920-00-00",
+      "death_date": "2017-00-00",
+      "profile_url": "/memorial/192696658/dorothy_elizabeth-mackay"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 691
 }

@@ -1,10 +1,16 @@
 {
-  "id": 162,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/238052084/kaitlyn-eastabrook",
   "name": "Kaitlyn Eastabrook",
   "birth_date": "1991-11-16",
   "death_date": "2013-09-23",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "238052084/kaitlyn-eastabrook",
-  "image_url": "https://images.findagrave.com/photos/2022/86/238052084_87a73bb8-0d12-4dd8-a962-ff85d185de66.jpeg?size=photos250"
+  "bio": "Kaitlyn\nEastabrook<br/>Nov. 16, 1991<br/>Sept. 23, 2013<br/>EASTABROOK<br/>you can't spell<br/>awesome<br/>without me</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/238052084_87a73bb8-0d12-4dd8-a962-ff85d185de66.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 162
 }

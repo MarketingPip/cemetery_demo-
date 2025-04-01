@@ -1,10 +1,23 @@
 {
-  "id": 1101,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188138551/james-henry-webb",
   "name": "James Henry Webb",
   "birth_date": "1887-02-13",
   "death_date": "1939-10-12",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188138551/james-henry-webb",
-  "image_url": "https://images.findagrave.com/photos/2018/209/188138551_9710f6ca-6935-45cd-9aee-55b327f633e8.jpeg?size=photos250"
+  "bio": "IN HEAVEN WE PART NO MORE",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2018/209/188138551_9710f6ca-6935-45cd-9aee-55b327f633e8.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Emma  Wein Webb",
+      "birth_date": "1887-00-00",
+      "death_date": "1965-00-00",
+      "profile_url": "/memorial/188138539/emma-webb"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1101
 }

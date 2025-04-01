@@ -1,10 +1,23 @@
 {
-  "id": 114,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/239125707/margaret-brown",
   "name": "Margaret Brown",
   "birth_date": "1821-07-19",
   "death_date": "1906-05-15",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "239125707/margaret-brown",
-  "image_url": "https://images.findagrave.com/photos/2022/112/239125707_19664399-86ea-41a3-8038-5c339c02619e.jpeg?size=photos250"
+  "bio": "BROWN\nIn memory of Adam Brown<br/>born Jan. 11, 1813-died July 22, 1869<br/>Margaret his wife<br/>born July 19, 1821-died May 15, 1906<br/>Adolph<br/>born Nov. 16, 1857-died Feb. 24, 1866<br/>(back)Charles <br/>born Mar. 11, 1863-died Dec. 24, 1893<br/>Wm. H. Brown<br/>1860-1947</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/112/239125707_19664399-86ea-41a3-8038-5c339c02619e.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Adam   Brown",
+      "birth_date": "1813-00-00",
+      "death_date": "1869-00-00",
+      "profile_url": "/memorial/188035758/adam-brown"
+    }
+  ],
+  "children": "[{\"name\": \"Adolph   Brown\", \"birth_date\": \"1857-00-00\", \"death_date\": \"1866-00-00\", \"profile_url\": \"/memorial/188035776/adolph-brown\"}, {\"name\": \"William H.   Brown\", \"birth_date\": \"1860-00-00\", \"death_date\": \"1947-00-00\", \"profile_url\": \"/memorial/188036013/william_h-brown\"}, {\"name\": \"Charles   Brown\", \"birth_date\": \"1863-00-00\", \"death_date\": \"1893-00-00\", \"profile_url\": \"/memorial/188035798/charles-brown\"}]",
+  "siblings": "[]",
+  "id": 114
 }

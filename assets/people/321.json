@@ -1,10 +1,16 @@
 {
-  "id": 321,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15821778/jacob-finkbeiner",
   "name": "Jacob Finkbeiner",
   "birth_date": "1863-03-17",
   "death_date": "1926-10-23",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15821778/jacob-finkbeiner",
-  "image_url": "https://images.findagrave.com/photos/2006/262/15821778_115876738221.jpg?size=photos250"
+  "bio": "Jacob Finkbeiner\ndied Oct. 23, 1926<br/>aged 63 yrs.</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/262/15821778_115876738221.jpg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 321
 }

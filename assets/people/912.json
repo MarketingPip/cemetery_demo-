@@ -1,10 +1,29 @@
 {
-  "id": 912,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188136633/myrtle-sansone",
   "name": "Myrtle Lawson Sansone",
   "birth_date": "1901-00-00",
   "death_date": "1960-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188136633/myrtle-sansone",
-  "image_url": "https://images.findagrave.com/photos/2022/127/188136633_24dfada5-f039-4600-835e-08e2f2dd7d20.jpeg?size=photos250"
+  "bio": "LAWSON\nThomas B. Lawson<br/>1871-1916<br/>his wife Sophia Brown Bier<br/>1878-1934<br/>their daughter Myrtle<br/>wife of Michael Sansone<br/>1901-1960</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/127/188136633_24dfada5-f039-4600-835e-08e2f2dd7d20.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Thomas B.   Lawson",
+      "birth_date": "1871-00-00",
+      "death_date": "1916-00-00",
+      "profile_url": "/memorial/188114940/thomas_b-lawson"
+    },
+    {
+      "name": "Sophia M.  Brown Lawson Bier",
+      "birth_date": "1878-00-00",
+      "death_date": "1934-00-00",
+      "profile_url": "/memorial/188114931/sophia_m-lawson_bier"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 912
 }

@@ -1,10 +1,36 @@
 {
-  "id": 785,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15117508/sydney-neeb",
   "name": "Sydney Neeb",
   "birth_date": "1919-00-00",
   "death_date": "2003-09-14",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15117508/sydney-neeb",
-  "image_url": "https://images.findagrave.com/photos/2006/213/15117508_115452463653.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/213/15117508_115452463653.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Alex   Neeb",
+      "birth_date": "1877-00-00",
+      "death_date": "1948-00-00",
+      "profile_url": "/memorial/15650644/alex-neeb"
+    },
+    {
+      "name": "Barbara  Witzel Neeb",
+      "birth_date": "1883-00-00",
+      "death_date": "1940-00-00",
+      "profile_url": "/memorial/15650701/barbara-neeb"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Mary Triphenia  Forsey Neeb",
+      "birth_date": "1917-00-00",
+      "death_date": "1999-00-00",
+      "profile_url": "/memorial/15117523/mary_triphenia-neeb"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 785
 }

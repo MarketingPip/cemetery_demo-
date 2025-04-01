@@ -1,10 +1,29 @@
 {
-  "id": 123,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/269021463/alma-katherine-brunzlow",
   "name": "Alma Katherine Gower Brunzlow",
   "birth_date": "1918-10-18",
   "death_date": "2024-03-26",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "269021463/alma-katherine-brunzlow",
-  "image_url": "https://images.findagrave.com/photos/2024/93/269021463_38fc0763-86ef-4010-a29d-67bc07075061.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2024/93/269021463_38fc0763-86ef-4010-a29d-67bc07075061.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Isaac Henry   Gower",
+      "birth_date": "1883-00-00",
+      "death_date": "1965-00-00",
+      "profile_url": "/memorial/15563690/isaac_henry-gower"
+    },
+    {
+      "name": "Mary  Pfaff Gower",
+      "birth_date": "1886-00-00",
+      "death_date": "1988-00-00",
+      "profile_url": "/memorial/15563745/mary-gower"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Vera Mary Elizabeth  Gower Bullock\", \"birth_date\": \"1905-00-00\", \"death_date\": \"2001-00-00\", \"profile_url\": \"/memorial/188036061/vera_mary_elizabeth-bullock\"}, {\"name\": \"Henry   Gower\", \"birth_date\": \"1906-00-00\", \"death_date\": \"1906-00-00\", \"profile_url\": \"/memorial/241152797/henry-gower\"}, {\"name\": \"Lydia \\\"Luella\\\"  Gower Taylor\", \"birth_date\": \"1908-00-00\", \"death_date\": \"2003-00-00\", \"profile_url\": \"/memorial/188138132/lydia_%22luella%22-taylor\"}, {\"name\": \"Milton Isaac   Gower\", \"birth_date\": \"1912-00-00\", \"death_date\": \"1986-00-00\", \"profile_url\": \"/memorial/15563013/milton_isaac-gower\"}]",
+  "id": 123
 }

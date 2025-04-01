@@ -1,10 +1,29 @@
 {
-  "id": 170,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/239203453/beaulah-f-eilber",
   "name": "Beaulah F Eilber",
   "birth_date": "1897-00-00",
   "death_date": "1898-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "239203453/beaulah-f-eilber",
-  "image_url": "https://images.findagrave.com/photos/2022/116/239203453_ad70b51f-b876-4ff9-9b1e-6fda9ec1759d.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/116/239203453_ad70b51f-b876-4ff9-9b1e-6fda9ec1759d.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Charles   Eilber",
+      "birth_date": "1862-00-00",
+      "death_date": "1938-00-00",
+      "profile_url": "/memorial/188036498/charles-eilber"
+    },
+    {
+      "name": "Sarah  Merner Eilber",
+      "birth_date": "1866-00-00",
+      "death_date": "1934-00-00",
+      "profile_url": "/memorial/188036757/sarah-eilber"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 170
 }

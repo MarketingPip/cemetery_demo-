@@ -1,10 +1,36 @@
 {
-  "id": 867,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/150465137/harvey-ervin-ratz",
   "name": "Harvey Ervin Ratz",
   "birth_date": "1923-00-00",
   "death_date": "2015-08-08",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "150465137/harvey-ervin-ratz",
-  "image_url": "https://images.findagrave.com/photos/2023/227/150465137_529ab1f0-d47e-44a7-896e-454c0bdb8c4c.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2023/227/150465137_529ab1f0-d47e-44a7-896e-454c0bdb8c4c.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Roy Ervin   Ratz",
+      "birth_date": "1897-00-00",
+      "death_date": "1971-00-00",
+      "profile_url": "/memorial/15561339/roy_ervin-ratz"
+    },
+    {
+      "name": "Clara Anita  Haist Ratz",
+      "birth_date": "1901-00-00",
+      "death_date": "1997-00-00",
+      "profile_url": "/memorial/15561361/clara_anita-ratz"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Barbara \"Barb\" Shoebottom Westman",
+      "birth_date": "1938-00-00",
+      "death_date": "2022-00-00",
+      "profile_url": "/memorial/240582878/barbara-westman"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 867
 }

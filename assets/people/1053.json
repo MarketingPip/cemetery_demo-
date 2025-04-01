@@ -1,10 +1,42 @@
 {
-  "id": 1053,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/237942400/eva-belva-sweitzer_grigg",
   "name": "Eva Belva Comfort Sweitzer Grigg",
   "birth_date": "1926-00-00",
   "death_date": "2018-12-05",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "237942400/eva-belva-sweitzer_grigg",
-  "image_url": "https://images.findagrave.com/photos/2023/221/237942400_0e424660-1108-4139-9e10-f33a3727e6bb.jpeg?size=photos250"
+  "bio": "SWEITZER\nStuart M. Sweitzer<br/>1925-1976<br/>his beloved wife<br/>Doris M. Comfort<br/>1927-2016<br/>Milton N. Sweitzer<br/>1916-1988<br/>his beloved wife Eva B. Comfort<br/>1926-2018</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2023/221/237942400_0e424660-1108-4139-9e10-f33a3727e6bb.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Alton Wilford   Comfort",
+      "birth_date": "1903-00-00",
+      "death_date": "1964-00-00",
+      "profile_url": "/memorial/148799669/alton_wilford-comfort"
+    },
+    {
+      "name": "Elsie L.  McPherson Comfort",
+      "birth_date": "1904-00-00",
+      "death_date": "1998-00-00",
+      "profile_url": "/memorial/150638183/elsie_l-comfort"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Milton Nyal   Sweitzer",
+      "birth_date": "1918-00-00",
+      "death_date": "1988-00-00",
+      "profile_url": "/memorial/15187255/milton_nyal-sweitzer"
+    },
+    {
+      "name": "Ivan   Grigg",
+      "birth_date": "1933-00-00",
+      "death_date": "2016-00-00",
+      "profile_url": "/memorial/199355184/ivan-grigg"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1053
 }

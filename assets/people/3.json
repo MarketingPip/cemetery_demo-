@@ -1,10 +1,30 @@
 {
-  "id": 3,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15561443/louise-marian-amy",
   "name": "Louise Marian Haist Amy",
   "birth_date": "1889-07-17",
   "death_date": "1953-02-21",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15561443/louise-marian-amy",
-  "image_url": "https://images.findagrave.com/photos/2006/241/15561443_115699819923.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/241/15561443_115699819923.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Frederick   Haist",
+      "birth_date": "1864-00-00",
+      "death_date": "1936-00-00",
+      "profile_url": "/memorial/15563828/frederick-haist"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Arthur James   Amy",
+      "birth_date": "1889-00-00",
+      "death_date": "1978-00-00",
+      "profile_url": "/memorial/15561434/arthur_james-amy"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 3
 }

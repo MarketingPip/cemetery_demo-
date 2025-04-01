@@ -1,10 +1,36 @@
 {
-  "id": 1203,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15848637/simon-sylvester-wuerth",
   "name": "Simon Sylvester Wuerth",
   "birth_date": "1891-04-29",
   "death_date": "1983-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15848637/simon-sylvester-wuerth",
-  "image_url": "https://images.findagrave.com/photos/2006/264/15848637_115893922077.jpg?size=photos250"
+  "bio": "WUERTH\nFrederick Wuerth<br/>1842-1927<br/>Wilhelmina his wife<br/>1848-1930<br/>Charles<br/>1883-1889<br/>Emma<br/>1878-1887<br/>Cornelia-Eva-Gottlieb<br/>died in infancy<br/>Sylvester Wuerth<br/>1891-1983<br/>his beloved wife<br/>Alda M. Wein<br/>1892-1976<br/>their daughter Florence<br/>no date</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/264/15848637_115893922077.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Frederick John   Wuerth",
+      "birth_date": "1842-00-00",
+      "death_date": "1927-00-00",
+      "profile_url": "/memorial/15848394/frederick_john-wuerth"
+    },
+    {
+      "name": "Wilhelmina  Wolfe Wuerth",
+      "birth_date": "1848-00-00",
+      "death_date": "1930-00-00",
+      "profile_url": "/memorial/15848446/wilhelmina-wuerth"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Alda May  Wein Wuerth",
+      "birth_date": "1892-00-00",
+      "death_date": "1976-00-00",
+      "profile_url": "/memorial/15848682/alda_may-wuerth"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1203
 }

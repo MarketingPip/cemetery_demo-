@@ -1,10 +1,36 @@
 {
-  "id": 1181,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/35457385/maria-anna-witzel",
   "name": "Maria Anna “Mary” Finkbeiner Witzel",
   "birth_date": "1860-05-02",
   "death_date": "1927-05-03",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "35457385/maria-anna-witzel",
-  "image_url": "https://images.findagrave.com/photos/2020/227/35457385_863de4de-29af-4ec5-977d-caaa2ef749e1.jpeg?size=photos250"
+  "bio": "ALEX NEEB 1876-1948\nHIS WIFE BARBARA WITZEL\n1883-1940\nTHEIR CHILDREN\nALFRED 1907-1909\nHARVEY 1920-1964\nESTHER 1910-1968\nWILLIAM WITZEL\nBORN MAR. 29, 1857\nDIED MAR. 5, 1935\nHIS WIFE MARY FINKBEINER\nBORN MAY 2, 1860-DIED MAY 3, 1927\nIRENE WITZEL\nBORN 1899-DIED 1947</br></br></br></br></br></br></br></br></br></br></br></br></br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2020/227/35457385_863de4de-29af-4ec5-977d-caaa2ef749e1.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Michael   Finkbeiner",
+      "birth_date": "1825-00-00",
+      "death_date": "1892-00-00",
+      "profile_url": "/memorial/15961534/michael-finkbeiner"
+    },
+    {
+      "name": "Barbara  Haist Finkbeiner",
+      "birth_date": "1828-00-00",
+      "death_date": "1896-00-00",
+      "profile_url": "/memorial/15961580/barbara-finkbeiner"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Frederich Wilhelm \"Bill\"  Witzel",
+      "birth_date": "1857-00-00",
+      "death_date": "1935-00-00",
+      "profile_url": "/memorial/35456399/frederich_wilhelm-witzel"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1181
 }

@@ -1,10 +1,16 @@
 {
-  "id": 787,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188115264/charles-edward-ness",
   "name": "Charles Edward Ness",
   "birth_date": "1931-02-09",
   "death_date": "1954-01-12",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188115264/charles-edward-ness",
-  "image_url": "https://images.findagrave.com/photos/2023/146/188115264_f4fa44a7-89b1-4771-8830-6b2fd616d6da.jpeg?size=photos250"
+  "bio": "NESS\n13391 F/O C. E. Ness<br/>3 A.W.D.T.U. North Bay<br/>killed Jan. 12, 1954<br/>24 years old<br/>husband of Pauline Faist<br/>buried at the site of the crash<br/>Mulock Lake, Ont.</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2023/146/188115264_f4fa44a7-89b1-4771-8830-6b2fd616d6da.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 787
 }

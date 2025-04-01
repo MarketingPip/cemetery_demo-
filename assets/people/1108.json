@@ -1,10 +1,23 @@
 {
-  "id": 1108,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188138590/albert-w-wein",
   "name": "Albert W. Wein",
   "birth_date": "1885-08-15",
   "death_date": "1947-06-04",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188138590/albert-w-wein",
-  "image_url": "https://images.findagrave.com/photos/2022/51/188138590_38308f3e-6483-4d35-9070-f04b8fca319f.jpeg?size=photos250"
+  "bio": "WEIN\nAlbert W. Wein<br/>Aug. 15, 1885<br/>June 4, 1947<br/>father</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/51/188138590_38308f3e-6483-4d35-9070-f04b8fca319f.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Mina Annie  Andress Wein",
+      "birth_date": "1897-00-00",
+      "death_date": "1982-00-00",
+      "profile_url": "/memorial/155371990/mina_annie-wein"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1108
 }

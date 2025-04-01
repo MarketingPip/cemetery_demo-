@@ -1,10 +1,23 @@
 {
-  "id": 21,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/237944197/greta-beaver",
   "name": "Greta Dearing Beaver",
   "birth_date": "1912-00-00",
   "death_date": "1992-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "237944197/greta-beaver",
-  "image_url": "https://images.findagrave.com/photos/2022/84/237944197_6cd32cde-7bdd-40b9-a615-83d0ff7fa872.jpeg?size=photos250"
+  "bio": "BEAVER\nMaurice Beaver<br/>1910-1980<br/>his wife<br/>Greta Dearing<br/>1912-1992</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/237944197_6cd32cde-7bdd-40b9-a615-83d0ff7fa872.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Maurice   Beaver",
+      "birth_date": "1910-00-00",
+      "death_date": "1980-00-00",
+      "profile_url": "/memorial/237944161/maurice-beaver"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 21
 }

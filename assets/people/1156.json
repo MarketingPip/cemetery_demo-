@@ -1,10 +1,16 @@
 {
-  "id": 1156,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/166678986/mavis-wilds",
   "name": "Mavis Bennewies Wilds",
   "birth_date": "1937-00-00",
   "death_date": "2016-04-16",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "166678986/mavis-wilds",
-  "image_url": "https://images.findagrave.com/photos/2022/86/166678986_1e5120bf-cbd7-4f0c-9536-418fceb7f24b.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/166678986_1e5120bf-cbd7-4f0c-9536-418fceb7f24b.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1156
 }

@@ -1,10 +1,23 @@
 {
-  "id": 475,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/235445900/donald-edward_james-haines",
   "name": "Donald Edward James Haines",
   "birth_date": "1939-00-00",
   "death_date": "2021-12-29",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "235445900/donald-edward_james-haines",
-  "image_url": "https://images.findagrave.com/photos/2023/216/235445900_151e994e-76ac-458b-a03d-602f8be695c3.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2023/216/235445900_151e994e-76ac-458b-a03d-602f8be695c3.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Ruth Elaine Beatrice \"Tuddy\"  Haines",
+      "birth_date": "1942-00-00",
+      "death_date": "2022-00-00",
+      "profile_url": "/memorial/257296484/ruth_elaine_beatrice-haines"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 475
 }

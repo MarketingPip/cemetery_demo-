@@ -1,10 +1,23 @@
 {
-  "id": 103,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/238605596/george-brown",
   "name": "George Brown",
   "birth_date": "",
   "death_date": "1908-05-06",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "238605596/george-brown",
-  "image_url": "https://images.findagrave.com/photos/2022/113/238605596_5abf85d7-e2ed-40ba-bda6-11af3e651d96.jpeg?size=photos250"
+  "bio": "BROWN\nIn memory of George Brown<br/>died May 6, 1908<br/>aged 86 yrs. 6 mos.<br/>In memory of Eva Catherine<br/>wife of George Brown <br/>died Jan. 7, 1900<br/>aged 77 yrs. 2 mos.<br/>BLESSED ARE THE DEAD WHICH DIED IN THE LORD</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/113/238605596_5abf85d7-e2ed-40ba-bda6-11af3e651d96.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Eva Catherine   Brown",
+      "birth_date": "1822-00-00",
+      "death_date": "1900-00-00",
+      "profile_url": "/memorial/238605582/eva_catherine-brown"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 103
 }

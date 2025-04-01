@@ -1,10 +1,29 @@
 {
-  "id": 1036,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15684666/louisa-f-sweitzer",
   "name": "Louisa F. Sweitzer",
   "birth_date": "1883-09-01",
   "death_date": "1889-06-12",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15684666/louisa-f-sweitzer",
-  "image_url": "https://images.findagrave.com/photos/2006/252/15684666_115790867308.jpg?size=photos250"
+  "bio": "SWEITZER\nat rest<br/>Samuel Sweitzer<br/>born Sept. 27, 1857<br/>died Sept. 26, 1911<br/>Louisa F.<br/>born Sept. 1, 1883<br/>died June 12, 1889<br/>Victoria M.<br/>born May 24, 1895<br/>died Aug. 24, 1896<br/>Maryann<br/>born Mar. 5, 1885<br/>died 1885<br/>Lydia Morlock<br/>wife of Samuel Sweitzer<br/>born 1860<br/>died 1952<br/>their son Simon<br/>born 1882<br/>died 1957</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/252/15684666_115790867308.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Samuel   Sweitzer",
+      "birth_date": "1857-00-00",
+      "death_date": "1911-00-00",
+      "profile_url": "/memorial/15684591/samuel-sweitzer"
+    },
+    {
+      "name": "Louisa or Lydia  Morlock Sweitzer",
+      "birth_date": "1860-00-00",
+      "death_date": "1952-00-00",
+      "profile_url": "/memorial/15697687/louisa_or_lydia-sweitzer"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Simon   Sweitzer\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1957-00-00\", \"profile_url\": \"/memorial/236152226/simon-sweitzer\"}, {\"name\": \"Maryann   Sweitzer\", \"birth_date\": \"1885-00-00\", \"death_date\": \"1885-00-00\", \"profile_url\": \"/memorial/15684744/maryann-sweitzer\"}, {\"name\": \"William H.   Sweitzer\", \"birth_date\": \"1887-00-00\", \"death_date\": \"1969-00-00\", \"profile_url\": \"/memorial/15187530/william_h-sweitzer\"}, {\"name\": \"Victoria M.   Sweitzer\", \"birth_date\": \"1895-00-00\", \"death_date\": \"1896-00-00\", \"profile_url\": \"/memorial/15684685/victoria_m-sweitzer\"}]",
+  "id": 1036
 }

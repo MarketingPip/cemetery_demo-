@@ -1,10 +1,16 @@
 {
-  "id": 593,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/237942090/gordon-wellington-hutchinson",
   "name": "Gordon Wellington Hutchinson",
   "birth_date": "1939-08-30",
   "death_date": "2015-10-27",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "237942090/gordon-wellington-hutchinson",
-  "image_url": "https://images.findagrave.com/photos/2022/84/237942090_a4f2d387-718e-4aee-b426-1c087aab28a3.jpeg?size=photos250"
+  "bio": "HUTCHINSON\nGordon Wellington<br/>Hutchinson<br/>Aug. 30, 1939<br/>Oct. 27, 2015<br/>married Mar. 24, 1962<br/>Loved parents of <br/>Brad, Karen, Keith &amp; Kevin</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/237942090_a4f2d387-718e-4aee-b426-1c087aab28a3.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 593
 }

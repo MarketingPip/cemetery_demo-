@@ -1,10 +1,29 @@
 {
-  "id": 718,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188115206/chester-ross-mitton",
   "name": "Chester Ross Mitton",
   "birth_date": "1929-04-10",
   "death_date": "1980-08-24",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188115206/chester-ross-mitton",
-  "image_url": "https://images.findagrave.com/photos/2021/191/188115206_6da3e3b4-aa0b-4a0c-8144-d30cfe828e40.jpeg?size=photos250"
+  "bio": "MITTON\nChester<br/>died 1980<br/>MITTON<br/>Christopher (baby)<br/>died 1981</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2021/191/188115206_6da3e3b4-aa0b-4a0c-8144-d30cfe828e40.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Thomas Pressley   Mitton",
+      "birth_date": "1895-00-00",
+      "death_date": "1976-00-00",
+      "profile_url": "/memorial/191650252/thomas_pressley-mitton"
+    },
+    {
+      "name": "Mary Leona  Cuthbertson Mitton",
+      "birth_date": "1886-00-00",
+      "death_date": "1935-00-00",
+      "profile_url": "/memorial/191650303/mary_leona-mitton"
+    }
+  ],
+  "spouses": [],
+  "children": "[{\"name\": \"Helen Margaret  Mitton Vincent\", \"birth_date\": \"1955-00-00\", \"death_date\": \"2018-00-00\", \"profile_url\": \"/memorial/198655876/helen_margaret-vincent\"}, {\"name\": \"Christopher   Mitton\", \"birth_date\": null, \"death_date\": \"1981-00-00\", \"profile_url\": \"/memorial/236142295/christopher-mitton\"}]",
+  "siblings": "[{\"name\": \"Elis 'Mervin'   Mitton\", \"birth_date\": \"1922-00-00\", \"death_date\": \"1995-00-00\", \"profile_url\": \"/memorial/213435864/elis_&#39;mervin&#39;-mitton\"}, {\"name\": \"PTE Orville Lamont   Mitton\", \"birth_date\": \"1925-00-00\", \"death_date\": \"1993-00-00\", \"profile_url\": \"/memorial/204089227/orville_lamont-mitton\"}, {\"name\": \"Stella May   Mitton\", \"birth_date\": \"1927-00-00\", \"death_date\": \"1927-00-00\", \"profile_url\": \"/memorial/191647510/stella_may-mitton\"}, {\"name\": \"Irvin Nolan   Mitton\", \"birth_date\": \"1931-00-00\", \"death_date\": \"1931-00-00\", \"profile_url\": \"/memorial/191658550/irvin_nolan-mitton\"}]",
+  "id": 718
 }

@@ -1,10 +1,29 @@
 {
-  "id": 550,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/41012852/henry-donald-hirtzel",
   "name": "Henry Donald Hirtzel",
   "birth_date": "1914-00-00",
   "death_date": "2004-12-20",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "41012852/henry-donald-hirtzel",
-  "image_url": "https://images.findagrave.com/photos/2022/116/41012852_e78f6232-57a1-48d8-a51d-66d142fcb6ac.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/116/41012852_e78f6232-57a1-48d8-a51d-66d142fcb6ac.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "John T.   Hirtzel",
+      "birth_date": "1876-00-00",
+      "death_date": "1945-00-00",
+      "profile_url": "/memorial/188113232/john_t-hirtzel"
+    },
+    {
+      "name": "Laura M.  Treitz Hirtzel",
+      "birth_date": "1880-00-00",
+      "death_date": "1960-00-00",
+      "profile_url": "/memorial/188113249/laura_m-hirtzel"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Maurice C.   Hirtzel\", \"birth_date\": \"1916-00-00\", \"death_date\": \"1983-00-00\", \"profile_url\": \"/memorial/188113242/maurice_c-hirtzel\"}]",
+  "id": 550
 }

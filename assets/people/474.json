@@ -1,10 +1,23 @@
 {
-  "id": 474,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15553859/lovina-guettinger",
   "name": "Lovina Klumpp Guettinger",
   "birth_date": "1885-00-00",
   "death_date": "1949-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15553859/lovina-guettinger",
-  "image_url": "https://images.findagrave.com/photos/2006/241/15553859_115694609373.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/241/15553859_115694609373.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Ernest   Guettinger",
+      "birth_date": "1882-00-00",
+      "death_date": "1972-00-00",
+      "profile_url": "/memorial/15553846/ernest-guettinger"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 474
 }

@@ -1,10 +1,29 @@
 {
-  "id": 129,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/50187672/keith-rodger-case",
   "name": "Keith Rodger Case",
   "birth_date": "1958-00-00",
   "death_date": "2010-03-21",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "50187672/keith-rodger-case",
-  "image_url": "https://images.findagrave.com/photos/2018/209/50187672_9207cc44-3146-4089-bfbd-f56c1de66076.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2018/209/50187672_9207cc44-3146-4089-bfbd-f56c1de66076.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Wallace Elmer   Case",
+      "birth_date": "1926-00-00",
+      "death_date": "2011-00-00",
+      "profile_url": "/memorial/64608066/wallace_elmer-case"
+    },
+    {
+      "name": "Patricia   Case",
+      "birth_date": "1929-00-00",
+      "death_date": "1999-00-00",
+      "profile_url": "/memorial/243589690/patricia-case"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Ernest \\\"Ernie\\\"  Case\", \"birth_date\": \"1946-00-00\", \"death_date\": \"2023-00-00\", \"profile_url\": \"/memorial/255625031/ernest-case\"}, {\"name\": \"Kenneth Wayne \\\"Ken\\\"  Case\", \"birth_date\": \"1956-00-00\", \"death_date\": \"1983-00-00\", \"profile_url\": \"/memorial/198655074/kenneth_wayne-case\"}]",
+  "id": 129
 }

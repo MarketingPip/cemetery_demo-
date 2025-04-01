@@ -1,10 +1,36 @@
 {
-  "id": 320,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/16668101/jacob-finkbeiner",
   "name": "Jacob Finkbeiner",
   "birth_date": "1852-08-01",
   "death_date": "1933-02-16",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "16668101/jacob-finkbeiner",
-  "image_url": "https://images.findagrave.com/photos/2006/318/16668101_116365245517.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/318/16668101_116365245517.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Michael   Finkbeiner",
+      "birth_date": "1825-00-00",
+      "death_date": "1892-00-00",
+      "profile_url": "/memorial/15961534/michael-finkbeiner"
+    },
+    {
+      "name": "Barbara  Haist Finkbeiner",
+      "birth_date": "1828-00-00",
+      "death_date": "1896-00-00",
+      "profile_url": "/memorial/15961580/barbara-finkbeiner"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Anna  Schwartz Finkbeiner",
+      "birth_date": "1858-00-00",
+      "death_date": "1925-00-00",
+      "profile_url": "/memorial/16668283/anna-finkbeiner"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 320
 }

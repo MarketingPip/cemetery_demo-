@@ -1,10 +1,23 @@
 {
-  "id": 145,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/37986608/winnifred-pearl-crocker",
   "name": "Winnifred Pearl “Winn” Tilley Crocker",
   "birth_date": "1935-00-00",
   "death_date": "2009-05-09",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "37986608/winnifred-pearl-crocker",
-  "image_url": "https://images.findagrave.com/photos/2009/362/46113269_126214186430.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2009/362/46113269_126214186430.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Edna Mae  Witzel Tilley",
+      "birth_date": "1894-00-00",
+      "death_date": "1974-00-00",
+      "profile_url": "/memorial/46111142/edna_mae-tilley"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 145
 }

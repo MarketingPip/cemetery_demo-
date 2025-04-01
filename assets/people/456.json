@@ -1,10 +1,23 @@
 {
-  "id": 456,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15639569/bernice-catherine-grace",
   "name": "Bernice Catherine Haist Grace",
   "birth_date": "1922-03-20",
   "death_date": "1992-01-25",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15639569/bernice-catherine-grace",
-  "image_url": "https://images.findagrave.com/photos/2006/248/15639569_115755477101.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/248/15639569_115755477101.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Oren B.   Grace",
+      "birth_date": "1915-00-00",
+      "death_date": "2012-00-00",
+      "profile_url": "/memorial/188113134/oren_b-grace"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 456
 }

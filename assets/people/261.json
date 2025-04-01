@@ -1,10 +1,36 @@
 {
-  "id": 261,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188037270/george-ezra-faist",
   "name": "George Ezra Faist",
   "birth_date": "1871-06-04",
   "death_date": "1956-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188037270/george-ezra-faist",
-  "image_url": "https://images.findagrave.com/photos/2022/112/188037270_97d09466-c3ee-4493-bdf3-c07d49a9177b.jpeg?size=photos250"
+  "bio": "FAIST\nG. Ezra Faist<br/>1871-1956<br/>his wife Elizabeth Wuerth<br/>1875-1967</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/112/188037270_97d09466-c3ee-4493-bdf3-c07d49a9177b.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Jacob Bernhardt   Faist",
+      "birth_date": "1827-00-00",
+      "death_date": "1887-00-00",
+      "profile_url": "/memorial/188037311/jacob_bernhardt-faist"
+    },
+    {
+      "name": "Louisa  Morlock Faist",
+      "birth_date": "1833-00-00",
+      "death_date": "1914-00-00",
+      "profile_url": "/memorial/236920169/louisa-faist"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Elizabeth Ann  Wuerth Faist",
+      "birth_date": "1875-00-00",
+      "death_date": "1967-00-00",
+      "profile_url": "/memorial/188037238/elizabeth_ann-faist"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 261
 }

@@ -1,10 +1,23 @@
 {
-  "id": 124,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/41011929/arron-john-bullock",
   "name": "Arron John Bullock",
   "birth_date": "1968-00-00",
   "death_date": "2007-03-27",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "41011929/arron-john-bullock",
-  "image_url": "https://images.findagrave.com/photos/2020/125/41011929_17f10c01-800f-483a-a668-ef26b6d734fc.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2020/125/41011929_17f10c01-800f-483a-a668-ef26b6d734fc.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "John Ross   Bullock",
+      "birth_date": null,
+      "death_date": "2024-00-00",
+      "profile_url": "/memorial/277492908/john_ross-bullock"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 124
 }

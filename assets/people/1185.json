@@ -1,10 +1,36 @@
 {
-  "id": 1185,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188139331/harold-c-wolfe",
   "name": "Harold C. Wolfe",
   "birth_date": "1917-00-00",
   "death_date": "1990-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188139331/harold-c-wolfe",
-  "image_url": "https://images.findagrave.com/photos/2022/114/188139331_17a62936-940c-4690-9370-179429e173bd.jpeg?size=photos250"
+  "bio": "ROESZLER\nIn memory of Elizabeth<br/>wife of John Roeszler<br/>died Sept. 9 , 1918<br/>in her 61 st year<br/>John Roeszler<br/>died May 17, 1946<br/>in his 91 st year<br/>Emerson, their son<br/>1898-1984<br/>Thomas C. their son<br/>1886-1933<br/>(back)Herbert C. Roeszler<br/>1899-1900<br/>Albert Wolfe<br/>1884-1959<br/>his wife Rosina Roeszler<br/>1883-1963<br/>Harold C. Wolfe<br/>1917-1990<br/>his wife<br/>Nita Mae Riley<br/>1926-1992</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/114/188139331_17a62936-940c-4690-9370-179429e173bd.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Albert   Wolfe",
+      "birth_date": "1884-00-00",
+      "death_date": "1959-00-00",
+      "profile_url": "/memorial/188139324/albert-wolfe"
+    },
+    {
+      "name": "Rosina  Roeszler Wolfe",
+      "birth_date": "1883-00-00",
+      "death_date": "1963-00-00",
+      "profile_url": "/memorial/188139369/rosina-wolfe"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Nita Mae  Riley Wolfe",
+      "birth_date": "1926-00-00",
+      "death_date": "1992-00-00",
+      "profile_url": "/memorial/188139341/nita_mae-wolfe"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1185
 }

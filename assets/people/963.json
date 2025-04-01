@@ -1,10 +1,16 @@
 {
-  "id": 963,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188136840/g-f-schwarz",
   "name": "G. F. Schwarz",
   "birth_date": "1861-00-00",
   "death_date": "1894-03-10",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188136840/g-f-schwarz",
-  "image_url": "https://images.findagrave.com/photos/2022/113/188136840_5255772a-5846-4aaa-97db-b501bfda9c82.jpeg?size=photos250"
+  "bio": "Alter 52 Jah. 5 mo. 11 tg.",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/113/188136840_5255772a-5846-4aaa-97db-b501bfda9c82.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 963
 }

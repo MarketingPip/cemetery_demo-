@@ -1,10 +1,23 @@
 {
-  "id": 147,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188036257/mary-patricia-cuillerier",
   "name": "Mary Patricia Guinan Cuillerier",
   "birth_date": "1916-00-00",
   "death_date": "2002-06-07",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188036257/mary-patricia-cuillerier",
-  "image_url": "https://images.findagrave.com/photos/2018/209/188036257_9433dee1-ddbf-4c10-bce5-195190cb24f3.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2018/209/188036257_9433dee1-ddbf-4c10-bce5-195190cb24f3.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Edward Alexander   Cuillerier",
+      "birth_date": "1925-00-00",
+      "death_date": "2013-00-00",
+      "profile_url": "/memorial/164497077/edward_alexander-cuillerier"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 147
 }

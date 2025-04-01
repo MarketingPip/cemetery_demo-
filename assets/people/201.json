@@ -1,10 +1,23 @@
 {
-  "id": 201,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188036818/pearl-e-england",
   "name": "Pearl E. Vannatter England",
   "birth_date": "1919-00-00",
   "death_date": "1998-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188036818/pearl-e-england",
-  "image_url": "https://images.findagrave.com/photos/2022/86/188036818_b4f2ff21-ba61-493b-be5c-d31140aed7a5.jpeg?size=photos250"
+  "bio": "ENGLAND(salmon marble stone)\nJacque W. England<br/>1922-1979<br/>his wife<br/>Pearl E. Vannatter<br/>1919-1998</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/188036818_b4f2ff21-ba61-493b-be5c-d31140aed7a5.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Jacque W.   England",
+      "birth_date": "1922-00-00",
+      "death_date": "1979-00-00",
+      "profile_url": "/memorial/238056132/jacque_w-england"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 201
 }

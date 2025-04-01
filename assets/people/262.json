@@ -1,10 +1,36 @@
 {
-  "id": 262,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/48871528/gwendolyn-faist",
   "name": "Gwendolyn “Gwen” Arends Faist",
   "birth_date": "1909-00-00",
   "death_date": "2001-05-05",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "48871528/gwendolyn-faist",
-  "image_url": "https://images.findagrave.com/photos/2022/112/48871528_f8a8a272-0440-4198-98ce-1205a19cc66b.jpeg?size=photos250"
+  "bio": "FAIST\nThe Rev. Frederick M. Faist<br/>B.A.: B.D.<br/>1908-1982<br/>his wife Gwendolyn Arends<br/>1909-2001</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/112/48871528_f8a8a272-0440-4198-98ce-1205a19cc66b.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "John A.   Arends",
+      "birth_date": "1859-00-00",
+      "death_date": "1948-00-00",
+      "profile_url": "/memorial/46307098/john_a-arends"
+    },
+    {
+      "name": "Ellen Jazina  Steenblock Arends",
+      "birth_date": "1864-00-00",
+      "death_date": "1953-00-00",
+      "profile_url": "/memorial/46307126/ellen_jazina-arends"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Rev Frederick Morton   Faist",
+      "birth_date": "1908-00-00",
+      "death_date": "1982-00-00",
+      "profile_url": "/memorial/188037263/frederick_morton-faist"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 262
 }

@@ -1,10 +1,29 @@
 {
-  "id": 416,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/239154633/mary-a-gaiser",
   "name": "Mary A. Gaiser",
   "birth_date": "1852-00-00",
   "death_date": "1923-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "239154633/mary-a-gaiser",
-  "image_url": "https://images.findagrave.com/photos/2022/113/239154633_907c88f1-b674-455e-9f27-7e0bc14efbdd.jpeg?size=photos250"
+  "bio": "GAISER\nIn memory of Adam Gaiser<br/>died Aug. 29, 1894 aged 71 yrs. 10 mos. 13 dys.<br/>Magdalena his wife<br/>1828-1919<br/>Mary A. Gaiser<br/>1852-1923<br/>Kathleen Morlock<br/>1908-1947<br/>wife of Royal Gaiser<br/>1905-1961<br/>thier infant daughter Jean A. 1928<br/>aged 2 years old<br/>Lila Pym<br/>1903-1990<br/>wife of Emery Gaiser<br/>1899-1991</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/113/239154633_907c88f1-b674-455e-9f27-7e0bc14efbdd.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Adam   Gaiser",
+      "birth_date": "1822-00-00",
+      "death_date": "1894-00-00",
+      "profile_url": "/memorial/239154587/adam-gaiser"
+    },
+    {
+      "name": "Magdalena  Braun Gaiser",
+      "birth_date": "1828-00-00",
+      "death_date": "1919-00-00",
+      "profile_url": "/memorial/239154582/magdalena-gaiser"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"George A.   Gaiser\", \"birth_date\": \"1856-00-00\", \"death_date\": \"1899-00-00\", \"profile_url\": \"/memorial/188113009/george_a-gaiser\"}, {\"name\": \"Magdalena  Gaiser Finkbeiner\", \"birth_date\": \"1858-00-00\", \"death_date\": \"1927-00-00\", \"profile_url\": \"/memorial/16331358/magdalena-finkbeiner\"}, {\"name\": \"William B.   Gaiser\", \"birth_date\": \"1862-00-00\", \"death_date\": \"1934-00-00\", \"profile_url\": \"/memorial/188113083/william_b-gaiser\"}, {\"name\": \"Levi   Gaiser\", \"birth_date\": \"1865-00-00\", \"death_date\": \"1930-00-00\", \"profile_url\": \"/memorial/54691204/levi-gaiser\"}, {\"name\": \"John Noah   Gaiser\", \"birth_date\": \"1868-00-00\", \"death_date\": \"1930-00-00\", \"profile_url\": \"/memorial/54691203/john_noah-gaiser\"}]",
+  "id": 416
 }

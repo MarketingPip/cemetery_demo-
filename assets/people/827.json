@@ -1,10 +1,16 @@
 {
-  "id": 827,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/41011902/william-john-payne",
   "name": "William John Payne",
   "birth_date": "1934-00-00",
   "death_date": "2005-02-04",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "41011902/william-john-payne",
-  "image_url": "https://images.findagrave.com/photos/2015/272/41011902_1443623432.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2015/272/41011902_1443623432.jpg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 827
 }

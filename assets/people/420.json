@@ -1,10 +1,16 @@
 {
-  "id": 420,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/239218624/pearl-gaiser",
   "name": "Pearl Gaiser",
   "birth_date": "1893-00-00",
   "death_date": "1967-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "239218624/pearl-gaiser",
-  "image_url": "https://images.findagrave.com/photos/2022/116/239218624_de55c11b-4119-4354-9212-6f1433294d73.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/116/239218624_de55c11b-4119-4354-9212-6f1433294d73.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 420
 }

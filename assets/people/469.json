@@ -1,10 +1,16 @@
 {
-  "id": 469,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/237809054/matthew-guenther",
   "name": "Mrs Matthew Guenther",
   "birth_date": "",
   "death_date": "",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "237809054/matthew-guenther",
-  "image_url": "https://images.findagrave.com/photos/2022/113/237809054_c166ee3b-8d68-4851-82d0-585db46edc51.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/113/237809054_c166ee3b-8d68-4851-82d0-585db46edc51.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 469
 }

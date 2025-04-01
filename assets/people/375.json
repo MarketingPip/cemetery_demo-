@@ -1,10 +1,16 @@
 {
-  "id": 375,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/59500974/mabel-alberta-fraser",
   "name": "Mabel Alberta Harlton Fraser",
   "birth_date": "",
   "death_date": "2010-09-10",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "59500974/mabel-alberta-fraser",
-  "image_url": ""
+  "bio": "",
+  "gps": null,
+  "image_url": "",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 375
 }

@@ -1,10 +1,16 @@
 {
-  "id": 186,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15426262/henry-f-eilber",
   "name": "Henry F Eilber",
   "birth_date": "1866-09-13",
   "death_date": "1939-06-15",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15426262/henry-f-eilber",
-  "image_url": "https://images.findagrave.com/photos/2006/231/15426262_115607695763.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/231/15426262_115607695763.jpg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 186
 }

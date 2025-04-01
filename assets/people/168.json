@@ -1,10 +1,23 @@
 {
-  "id": 168,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188036444/henry-eggert",
   "name": "Henry Eggert",
   "birth_date": "1831-00-00",
   "death_date": "1885-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188036444/henry-eggert",
-  "image_url": "https://images.findagrave.com/photos/2022/113/188036444_c49577ac-04df-45f6-917a-1708cc7e5fe9.jpeg?size=photos250"
+  "bio": "EGGERT\nHenry Eggert<br/>1831-1885<br/>his wife Christina Bohn<br/>1824-1896</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/113/188036444_c49577ac-04df-45f6-917a-1708cc7e5fe9.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Christina  Bohn Eggert",
+      "birth_date": "1824-00-00",
+      "death_date": "1896-00-00",
+      "profile_url": "/memorial/188036409/christina-eggert"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 168
 }

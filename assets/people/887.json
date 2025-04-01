@@ -1,10 +1,23 @@
 {
-  "id": 887,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188136511/louis-raymond",
   "name": "Louis Raymond",
   "birth_date": "1867-00-00",
   "death_date": "1928-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188136511/louis-raymond",
-  "image_url": "https://images.findagrave.com/photos/2018/209/188136511_108e8271-290e-4270-baaf-33c6b5664637.jpeg?size=photos250"
+  "bio": "EILBER\nGrace Eilber<br/>born Nov. 24, 1878-died Mar. 24, 1886<br/>Ezra Eilber<br/>born Jan. 21, 1884-died Mar. 24, 1886<br/>Gertrude Eilber<br/>born Dec. 18, 1906-died Sept. 14, 1908<br/>Louis Raymond <br/>1867-1928<br/>his wife Martha Eilber<br/>1873-1947<br/>Mother<br/>Fredericka<br/>wife of George Frederick Eilber<br/>born Nov. 27, 1840<br/>died Dec. 26, 1926<br/>Father<br/>George Frederick Eilber<br/>born Sept. 15, 1823<br/>died Jan. 27, 1918<br/>John Frederick Eilber<br/>born Nov. 25, 1868<br/>died Oct. 9, 1905<br/>his wife, Elizabeth<br/>born July 14, 1871<br/>died July 14, 1962</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2018/209/188136511_108e8271-290e-4270-baaf-33c6b5664637.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Martha  Eilber Raymond",
+      "birth_date": "1873-00-00",
+      "death_date": "1947-00-00",
+      "profile_url": "/memorial/188136514/martha-raymond"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 887
 }

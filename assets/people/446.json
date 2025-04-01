@@ -1,10 +1,36 @@
 {
-  "id": 446,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188113111/charles-webster-goodman",
   "name": "Charles Webster Goodman",
   "birth_date": "1899-01-19",
   "death_date": "1983-10-13",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188113111/charles-webster-goodman",
-  "image_url": "https://images.findagrave.com/photos/2022/127/188113111_d1979366-7e94-42dd-b601-0a38ac2fa878.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/127/188113111_d1979366-7e94-42dd-b601-0a38ac2fa878.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Thomas B   Goodman",
+      "birth_date": "1860-00-00",
+      "death_date": "1921-00-00",
+      "profile_url": "/memorial/31106441/thomas_b-goodman"
+    },
+    {
+      "name": "Mary L \"Minnie\" Ross Goodman",
+      "birth_date": "1861-00-00",
+      "death_date": "1942-00-00",
+      "profile_url": "/memorial/31106502/mary_l-goodman"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Mildred  Schroeder Goodman",
+      "birth_date": "1903-00-00",
+      "death_date": "1998-00-00",
+      "profile_url": "/memorial/188113114/mildred-goodman"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 446
 }

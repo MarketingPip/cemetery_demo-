@@ -1,10 +1,36 @@
 {
-  "id": 1177,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/80330804/mathew-winer",
   "name": "Mathew Winer",
   "birth_date": "1838-05-28",
   "death_date": "1910-03-26",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "80330804/mathew-winer",
-  "image_url": "https://images.findagrave.com/photos/2011/315/80330804_132116326782.jpg?size=photos250"
+  "bio": "MATHEW WINER DIED MAR 26, 1910\nAGED 71 YRS. 9 MOS<br/>HIS WIFE MARY SCHULTZ<br/>DIED JUNE 2, 1911<br/>AGED 72 YRS. 2 MOS<br/>THEIR DAU LILLY ANN<br/>DIED DEC 10, 1901<br/>AGED 20 YRS. 9 MOS<br/>Gone But Not Forgotten</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2011/315/80330804_132116326782.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Paul   Winer",
+      "birth_date": "1787-00-00",
+      "death_date": "1877-00-00",
+      "profile_url": "/memorial/80385386/paul-winer"
+    },
+    {
+      "name": "Christina  Mallet Winer",
+      "birth_date": "1796-00-00",
+      "death_date": "1883-00-00",
+      "profile_url": "/memorial/80386603/christina-winer"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Mary D  Schultz Winer",
+      "birth_date": "1838-00-00",
+      "death_date": "1911-00-00",
+      "profile_url": "/memorial/80331143/mary_d-winer"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1177
 }

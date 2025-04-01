@@ -1,10 +1,23 @@
 {
-  "id": 1035,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15650898/lillian-sweitzer",
   "name": "Lillian Gaiser Sweitzer",
   "birth_date": "1891-10-19",
   "death_date": "1960-05-14",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15650898/lillian-sweitzer",
-  "image_url": "https://images.findagrave.com/photos/2006/249/15650898_115764577456.jpg?size=photos250"
+  "bio": "Lillian Gaiser\nborn Oct. 19, 1891<br/>died May 14, 1960<br/>wife of Garnet W. Sweitzer<br/>born Jan 24, 1892<br/>died July 25, 1968</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/249/15650898_115764577456.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Garnet William   Sweitzer",
+      "birth_date": "1892-00-00",
+      "death_date": "1968-00-00",
+      "profile_url": "/memorial/15650873/garnet_william-sweitzer"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1035
 }

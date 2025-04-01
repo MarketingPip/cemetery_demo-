@@ -1,10 +1,16 @@
 {
-  "id": 915,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188136655/george-c-scheffbuch",
   "name": "PVT George C. Scheffbuch",
   "birth_date": "1904-00-00",
   "death_date": "1974-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188136655/george-c-scheffbuch",
-  "image_url": "https://images.findagrave.com/photos/2022/110/188136655_6712f979-c265-4f65-872d-436dd0e22b05.jpeg?size=photos250"
+  "bio": "SCHEFFBUCH\nPte. George C. Scheffbuch<br/>1904-1974</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/110/188136655_6712f979-c265-4f65-872d-436dd0e22b05.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 915
 }

@@ -1,10 +1,23 @@
 {
-  "id": 93,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/239125998/christina-brown",
   "name": "Christina Klumpp Brown",
   "birth_date": "1819-00-00",
   "death_date": "1902-03-07",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "239125998/christina-brown",
-  "image_url": "https://images.findagrave.com/photos/2022/112/239125998_9c044477-5675-44b5-ae7d-7906364fbe7f.jpeg?size=photos250"
+  "bio": "WEIN\nLouis Wein<br/>died Sept. 6, 1911<br/>aged 88 yrs. 2 mos.<br/>his wife Elizabeth Brown<br/>1855-1942<br/>David Brown<br/>died Jan. 7, 1904<br/>aged 86 ys, 4 mos. 17 ds.<br/>Christina Klumpp<br/>wife of David Brown<br/>died Mar. 7, 1902<br/>aged 82 yrs. 3 mos.</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/112/239125998_9c044477-5675-44b5-ae7d-7906364fbe7f.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "David   Brown",
+      "birth_date": "1817-00-00",
+      "death_date": "1904-00-00",
+      "profile_url": "/memorial/188035812/david-brown"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 93
 }

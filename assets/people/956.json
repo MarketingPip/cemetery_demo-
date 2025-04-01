@@ -1,10 +1,36 @@
 {
-  "id": 956,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/123056872/sophia-alice-schroeder",
   "name": "Sophia Alice Ehlers Schroeder",
   "birth_date": "1841-00-00",
   "death_date": "1929-01-29",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "123056872/sophia-alice-schroeder",
-  "image_url": "https://images.findagrave.com/photos/2014/8/123056872_138930824543.jpg?size=photos250"
+  "bio": "SCHROEDER\nJohn Schroeder<br/>died Sept. 21, 1908<br/>aged 89 yrs. 11 mos. 19 ds.<br/>at rest<br/>his wife<br/>Sophia Ehlers<br/>1841-1929<br/>Anna<br/>died Jan. 12, 1881<br/>ae 1 mo. 28 ds.<br/>Wilhelm <br/>died May 12, 1885<br/>ae 6 yrs. 2 mos. 2 ds.<br/>Louisa<br/>died Apr. 17, 1875<br/>ae 2 mos. 29 ds.<br/>Elizabeth<br/>died Dec. 30, 1876<br/>ae 1 month</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2014/8/123056872_138930824543.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Johann Adolph   Ehlers",
+      "birth_date": "1813-00-00",
+      "death_date": "1885-00-00",
+      "profile_url": "/memorial/196699141/johann_adolph-ehlers"
+    },
+    {
+      "name": "Dorothea  Biemann Ehlers",
+      "birth_date": "1818-00-00",
+      "death_date": "1898-00-00",
+      "profile_url": "/memorial/196699198/dorothea-ehlers"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "John   Schroeder",
+      "birth_date": "1818-00-00",
+      "death_date": "1908-00-00",
+      "profile_url": "/memorial/123056607/john-schroeder"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 956
 }

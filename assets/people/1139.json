@@ -1,10 +1,23 @@
 {
-  "id": 1139,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15662687/mary-magdalena-wein",
   "name": "Mary Magdalena Finkbeiner Wein",
   "birth_date": "1879-05-04",
   "death_date": "1958-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15662687/mary-magdalena-wein",
-  "image_url": "https://images.findagrave.com/photos/2006/250/15662687_115772429923.jpg?size=photos250"
+  "bio": "WEIN\nSON<br/>JOHN. F. WEIN<br/>1879-1946<br/>HIS WIFE MARY M. FINKBEINER<br/>1879-1958<br/>HENRY WEIN <br/>BORN MAY 25, 1881<br/>DIED AUG. 18, 1908<br/>MATHEW WEIN<br/>DIED MAY 7, 1912<br/>AGED 75 YRS. 4 DS.<br/>HIS WIFE EVA FAHNER<br/>DIED JAN. 10, 1912<br/>AGED 73 YRS. 4 MOS. 26 DS.<br/>SAMUEL WEIN<br/>1887-1964<br/>JOSEPH WEIN <br/>1883-1968<br/>GORDON L. PASCOE<br/>1910-1986</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/250/15662687_115772429923.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "John F.   Wein",
+      "birth_date": "1879-00-00",
+      "death_date": "1946-00-00",
+      "profile_url": "/memorial/15662677/john_f-wein"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1139
 }

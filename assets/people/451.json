@@ -1,10 +1,23 @@
 {
-  "id": 451,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15563690/isaac-henry-gower",
   "name": "Isaac Henry Gower",
   "birth_date": "1883-04-10",
   "death_date": "1965-08-16",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15563690/isaac-henry-gower",
-  "image_url": "https://images.findagrave.com/photos/2006/242/15563690_115703718263.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/242/15563690_115703718263.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Mary  Pfaff Gower",
+      "birth_date": "1886-00-00",
+      "death_date": "1988-00-00",
+      "profile_url": "/memorial/15563745/mary-gower"
+    }
+  ],
+  "children": "[{\"name\": \"Vera Mary Elizabeth  Gower Bullock\", \"birth_date\": \"1905-00-00\", \"death_date\": \"2001-00-00\", \"profile_url\": \"/memorial/188036061/vera_mary_elizabeth-bullock\"}, {\"name\": \"Henry   Gower\", \"birth_date\": \"1906-00-00\", \"death_date\": \"1906-00-00\", \"profile_url\": \"/memorial/241152797/henry-gower\"}, {\"name\": \"Lydia \\\"Luella\\\"  Gower Taylor\", \"birth_date\": \"1908-00-00\", \"death_date\": \"2003-00-00\", \"profile_url\": \"/memorial/188138132/lydia_%22luella%22-taylor\"}, {\"name\": \"Milton Isaac   Gower\", \"birth_date\": \"1912-00-00\", \"death_date\": \"1986-00-00\", \"profile_url\": \"/memorial/15563013/milton_isaac-gower\"}, {\"name\": \"Alma Katherine  Gower Brunzlow\", \"birth_date\": \"1918-00-00\", \"death_date\": \"2024-00-00\", \"profile_url\": \"/memorial/269021463/alma_katherine-brunzlow\"}]",
+  "siblings": "[]",
+  "id": 451
 }

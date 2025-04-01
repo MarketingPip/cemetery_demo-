@@ -1,10 +1,23 @@
 {
-  "id": 382,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188037443/ward-c-fritz",
   "name": "Ward C. Fritz",
   "birth_date": "1901-00-00",
   "death_date": "1986-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188037443/ward-c-fritz",
-  "image_url": "https://images.findagrave.com/photos/2022/112/188037443_ca2d04f1-4772-4a8b-b68b-34d33e4e16d3.jpeg?size=photos250"
+  "bio": "FRITZ\nWard C. Fritz<br/>1901-1986<br/>husband of<br/>Bernice E. Eilber<br/>1913-1990<br/>and their daughter<br/>Mary Louise E. 1935-</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/112/188037443_ca2d04f1-4772-4a8b-b68b-34d33e4e16d3.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Bernice E.  Eilber Fritz",
+      "birth_date": "1913-00-00",
+      "death_date": "1990-00-00",
+      "profile_url": "/memorial/188037430/bernice_e-fritz"
+    }
+  ],
+  "children": "[{\"name\": \"Mary Louise   Fritz\", \"birth_date\": \"1935-00-00\", \"death_date\": \"2016-00-00\", \"profile_url\": \"/memorial/239094352/mary_louise-fritz\"}]",
+  "siblings": "[]",
+  "id": 382
 }

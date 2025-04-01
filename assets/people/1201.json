@@ -1,10 +1,23 @@
 {
-  "id": 1201,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/16550616/lucilla-wuerth",
   "name": "Lucilla Schwartz Wuerth",
   "birth_date": "1893-06-08",
   "death_date": "1979-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "16550616/lucilla-wuerth",
-  "image_url": "https://images.findagrave.com/photos/2006/311/16550616_116299665142.jpg?size=photos250"
+  "bio": "WUERTH\nAlfred E. Wuerth<br/>1891-1974<br/>his wife Lucilla Schwartz<br/>1893-1979<br/>(back)Gotteib Wuerth<br/>1841-1897<br/>his wife Mary C. Lutz<br/>1859-1919<br/>their son Theodore O.<br/>1880-1881<br/>Mary Lutz Wein<br/>died 1903 (no date or age)</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/311/16550616_116299665142.jpg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Alfred Emanuel   Wuerth",
+      "birth_date": "1891-00-00",
+      "death_date": "1974-00-00",
+      "profile_url": "/memorial/16550577/alfred_emanuel-wuerth"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 1201
 }

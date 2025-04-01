@@ -1,10 +1,29 @@
 {
-  "id": 491,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/236911589/henrich-haist",
   "name": "Henrich Haist",
   "birth_date": "1867-00-00",
   "death_date": "1872-12-17",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "236911589/henrich-haist",
-  "image_url": "https://images.findagrave.com/photos/2022/111/236911589_074fe19f-0c8f-4aee-95ea-0071972d3cd6.jpeg?size=photos250"
+  "bio": "HAIST\nElizabeth<br/>died Aug. 248, 1881<br/>aged 46 yrs.<br/>Margaretha<br/>died Sept. 17, 1901<br/>aged 75 yrs.<br/>wives of Jacob HAIST<br/>Jacob HAIST<br/>died Feb. 16, 1912<br/>aged 85 yrs.<br/>Anna M. HAIST<br/>gestorben Marz. 17, 1878<br/>alter 9 mon.<br/>Karlina HAIST<br/>gestorben  Jan. 7, 1880<br/>alter 6 yahr.<br/>kinder von Jacob und Elizabeth HAIST<br/>Barbara HAIST<br/>gestorben  Aug. 6, 1868<br/>alter 8 yahr.<br/>Heinrich HAIST<br/>gestorben Dec. 17, 1872<br/>alter 5 yahr.<br/>kinder von Jacob &amp; Elizabeth HAIST</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/111/236911589_074fe19f-0c8f-4aee-95ea-0071972d3cd6.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Jacob   Haist",
+      "birth_date": "1827-00-00",
+      "death_date": "1912-00-00",
+      "profile_url": "/memorial/236911442/jacob-haist"
+    },
+    {
+      "name": "Elizabeth   Haist",
+      "birth_date": "1835-00-00",
+      "death_date": "1881-00-00",
+      "profile_url": "/memorial/236911369/elizabeth-haist"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Barbara   Haist\", \"birth_date\": \"1860-00-00\", \"death_date\": \"1868-00-00\", \"profile_url\": \"/memorial/236911555/barbara-haist\"}, {\"name\": \"Karlina   Haist\", \"birth_date\": \"1874-00-00\", \"death_date\": \"1880-00-00\", \"profile_url\": \"/memorial/236911524/karlina-haist\"}, {\"name\": \"Anna M.   Haist\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1878-00-00\", \"profile_url\": \"/memorial/236911484/anna_m-haist\"}]",
+  "id": 491
 }

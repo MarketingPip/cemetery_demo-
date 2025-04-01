@@ -1,10 +1,29 @@
 {
-  "id": 884,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/239170007/anna_maria_mary-rau",
   "name": "Anna Maria \"Mary\" Rothfuss Rau",
   "birth_date": "1822-00-00",
   "death_date": "1905-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "239170007/anna_maria_mary-rau",
-  "image_url": "https://images.findagrave.com/photos/2022/114/239170007_c5e9907a-28b8-42d0-9ecc-9562661a3180.jpeg?size=photos250"
+  "bio": "RAU\nJacob Rau<br/>1816-1862<br/>Mary his wife<br/>1822-1905</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/114/239170007_c5e9907a-28b8-42d0-9ecc-9562661a3180.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Tobias   Fahner Sr",
+      "birth_date": "1819-00-00",
+      "death_date": "1903-00-00",
+      "profile_url": "/memorial/188037157/tobias-fahner"
+    },
+    {
+      "name": "Jacob   Rau",
+      "birth_date": "1816-00-00",
+      "death_date": "1862-00-00",
+      "profile_url": "/memorial/188136505/jacob-rau"
+    }
+  ],
+  "children": "[{\"name\": \"Christian   Fahrner\", \"birth_date\": \"1863-00-00\", \"death_date\": \"1952-00-00\", \"profile_url\": \"/memorial/236179174/christian-fahrner\"}]",
+  "siblings": "[]",
+  "id": 884
 }

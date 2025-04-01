@@ -1,10 +1,23 @@
 {
-  "id": 153,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/188036284/donald-v-dinney",
   "name": "Donald V. Dinney",
   "birth_date": "1929-00-00",
   "death_date": "1985-00-00",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "188036284/donald-v-dinney",
-  "image_url": "https://images.findagrave.com/photos/2022/86/188036284_35ad0b15-9aed-4db4-8f16-84e938b2b14b.jpeg?size=photos250"
+  "bio": "DINNEY(\nRobert C. Dinney<br/>1937-1986<br/>his wife Grace Desjardine<br/>1941-1997<br/>their son Shawn Michael <br/>1969-1979<br/>Thomas Robert<br/>1962-2017<br/>their sons<br/>Jason Charles<br/>his wife <br/>Cynthia L. Visser<br/>Darrel Douglas<br/>their granddaughters<br/>Ceceilia Grace<br/>1982-2018<br/>Tina Nicole<br/>(Dinney)Roulston<br/>(back)Donald V. Dinney<br/>1929-1985<br/>his wife Maria E. Clarke<br/>1931-2015<br/>Gary D. Dinney<br/>his wife<br/>Bonnie<br/>their son<br/>Donald G. Dinney</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/188036284_35ad0b15-9aed-4db4-8f16-84e938b2b14b.jpeg?size=photos250",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Marie Elizabeth  Clarke Dinney",
+      "birth_date": "1931-00-00",
+      "death_date": "2015-00-00",
+      "profile_url": "/memorial/163835074/marie_elizabeth-dinney"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 153
 }

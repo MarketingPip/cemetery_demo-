@@ -1,10 +1,29 @@
 {
-  "id": 395,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/192783313/doris-alice-gaiser",
   "name": "Doris Alice Gaiser",
   "birth_date": "1921-10-21",
   "death_date": "1921-11-17",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "192783313/doris-alice-gaiser",
-  "image_url": "https://images.findagrave.com/photos/2022/116/192783313_65266b41-94bd-4fa4-87b4-61609aef3b50.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/116/192783313_65266b41-94bd-4fa4-87b4-61609aef3b50.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "William Earnot   Gaiser",
+      "birth_date": "1889-00-00",
+      "death_date": "1948-00-00",
+      "profile_url": "/memorial/188113086/william_earnot-gaiser"
+    },
+    {
+      "name": "Laura May  Haist Gaiser",
+      "birth_date": "1891-00-00",
+      "death_date": "1980-00-00",
+      "profile_url": "/memorial/188113040/laura_may-gaiser"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Ruth Madeline   Gaiser\", \"birth_date\": \"1915-00-00\", \"death_date\": \"1923-00-00\", \"profile_url\": \"/memorial/192783230/ruth_madeline-gaiser\"}]",
+  "id": 395
 }

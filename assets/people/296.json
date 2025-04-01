@@ -1,10 +1,29 @@
 {
-  "id": 296,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/16668322/elizabeth-anna-finkbeiner",
   "name": "Elizabeth Anna Finkbeiner",
   "birth_date": "1890-00-00",
   "death_date": "1899-01-06",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "16668322/elizabeth-anna-finkbeiner",
-  "image_url": "https://images.findagrave.com/photos/2006/318/16668322_116365407157.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/318/16668322_116365407157.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Jacob   Finkbeiner",
+      "birth_date": "1852-00-00",
+      "death_date": "1933-00-00",
+      "profile_url": "/memorial/16668101/jacob-finkbeiner"
+    },
+    {
+      "name": "Anna  Schwartz Finkbeiner",
+      "birth_date": "1858-00-00",
+      "death_date": "1925-00-00",
+      "profile_url": "/memorial/16668283/anna-finkbeiner"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"George Michael   Finkbeiner\", \"birth_date\": \"1880-00-00\", \"death_date\": \"1938-00-00\", \"profile_url\": \"/memorial/15571819/george_michael-finkbeiner\"}]",
+  "id": 296
 }

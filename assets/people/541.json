@@ -1,10 +1,29 @@
 {
-  "id": 541,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/15135257/robert-bruce-hilborn",
   "name": "Robert Bruce Hilborn",
   "birth_date": "1927-07-04",
   "death_date": "1975-07-28",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "15135257/robert-bruce-hilborn",
-  "image_url": "https://images.findagrave.com/photos/2006/214/15135257_115461867026.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/214/15135257_115461867026.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "Seth Milne Lundy   Hilborn",
+      "birth_date": "1888-00-00",
+      "death_date": "1965-00-00",
+      "profile_url": "/memorial/132001435/seth_milne_lundy-hilborn"
+    },
+    {
+      "name": "Frieda Ardell  Gillrie Hilborn",
+      "birth_date": "1890-00-00",
+      "death_date": "1967-00-00",
+      "profile_url": "/memorial/132000459/frieda_ardell-hilborn"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Howard Douglas Gillrie \\\"Doug\\\"  Hilborn\", \"birth_date\": \"1929-00-00\", \"death_date\": \"2017-00-00\", \"profile_url\": \"/memorial/179428899/howard_douglas_gillrie-hilborn\"}]",
+  "id": 541
 }

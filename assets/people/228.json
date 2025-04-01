@@ -1,10 +1,36 @@
 {
-  "id": 228,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/59752346/norma-irene-fahner",
   "name": "Norma Irene Finkbeiner Fahner",
   "birth_date": "1917-00-00",
   "death_date": "2010-10-05",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "59752346/norma-irene-fahner",
-  "image_url": "https://images.findagrave.com/photos/2010/280/59752346_128655265977.jpg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2010/280/59752346_128655265977.jpg?size=photos250",
+  "parents": [
+    {
+      "name": "William Henry   Finkbeiner",
+      "birth_date": "1879-00-00",
+      "death_date": "1950-00-00",
+      "profile_url": "/memorial/15554551/william_henry-finkbeiner"
+    },
+    {
+      "name": "Ida Lily  Treitz Finkbeiner",
+      "birth_date": "1884-00-00",
+      "death_date": "1959-00-00",
+      "profile_url": "/memorial/15554622/ida_lily-finkbeiner"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Harold H   Fahner",
+      "birth_date": "1913-00-00",
+      "death_date": "2000-00-00",
+      "profile_url": "/memorial/15145510/harold_h-fahner"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 228
 }

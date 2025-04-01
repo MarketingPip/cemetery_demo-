@@ -1,10 +1,36 @@
 {
-  "id": 314,
-  "gps": null,
+  "memorial_url": "https://www.findagrave.com/memorial/231596440/irene-mary-finkbeiner",
   "name": "Irene Mary Gower Finkbeiner",
   "birth_date": "1918-06-21",
   "death_date": "2018-04-01",
+  "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "memorial_url": "231596440/irene-mary-finkbeiner",
-  "image_url": "https://images.findagrave.com/photos/2022/86/231596440_2cbc0488-1232-43d4-8356-ff6f09ac6d1a.jpeg?size=photos250"
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/231596440_2cbc0488-1232-43d4-8356-ff6f09ac6d1a.jpeg?size=photos250",
+  "parents": [
+    {
+      "name": "Daniel David   Gower",
+      "birth_date": "1879-00-00",
+      "death_date": "1971-00-00",
+      "profile_url": "/memorial/104983198/daniel_david-gower"
+    },
+    {
+      "name": "Caroline Elizabeth  Pfaff Gower",
+      "birth_date": "1889-00-00",
+      "death_date": "1963-00-00",
+      "profile_url": "/memorial/104983199/caroline_elizabeth-gower"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Allan Stewart   Finkbeiner",
+      "birth_date": "1922-00-00",
+      "death_date": "2008-00-00",
+      "profile_url": "/memorial/39760664/allan_stewart-finkbeiner"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "id": 314
 }
