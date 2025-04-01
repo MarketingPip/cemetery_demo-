@@ -272,39 +272,36 @@
 
   <!-- JavaScript for Dynamic Tribute -->
   <script>
-    // JSON data for tributes
-    const tributesData = [
-      {
-        "id": 0,
-        "name": "H. Reginald Abell",
-        "birthDate": "N/A",
-        "deathDate": "N/A",
-        "cemetery": "Crediton Cemetery",
-        "location": "Crediton",
-        "bio": "A beloved husband and father.",
-        "image": "https://images.findagrave.com/photos/2022/84/188035422_e82330c7-34bd-4e3a-97bb-700d03f566ee.jpeg?size=photos250",
-        "grandchildren": ["John Abell"],
-        "resources": []
-      },
-      {
-        "id": 1,
-        "name": "John Smith",
-        "birthDate": "1920",
-        "deathDate": "1995",
-        "cemetery": "Crediton Cemetery",
-        "location": "Crediton",
-        "bio": "A WWII veteran and beloved father.",
-        "image": "/api/placeholder/400/300",
-        "grandchildren": ["Sarah Smith", "Michael Smith"],
-        "resources": ["https://example.com/veteran-records"]
-      }
-    ];
+async function tributeData(tributeId) {
+  const url = `./assets/people/${tributeId}.json`; // Replace with the actual API URL
 
+  try {
+    // Fetch the JSON data from the URL
+    const response = await fetch(url);
+
+    // Check if the response status is OK (200-299 range)
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+
+    // Parse the response as JSON
+    const data = await response.json();
+
+    // Handle the fetched data (you can replace this with your own processing logic)
+    console.log('Fetched tribute data:', data);
+
+    return data; // Return the data so it can be used elsewhere
+  } catch (error) {
+    // Error handling for network errors or JSON parsing errors
+    console.error('Error fetching tribute data:', error);
+    return null; // Return null or handle the error as appropriate
+  }
+}
     // Function to populate tribute details
-    function populateTribute() {
+    async function populateTribute() {
       const urlParams = new URLSearchParams(window.location.search);
-      const tributeId = 1
-      const tribute = tributesData.find(t => t.id === tributeId);
+      const tributeId = urlParams.has('id') ? urlParams.get('id') : null;
+      const tribute = await tributeData(tributeId);
 
       if (!tribute) {
         document.getElementById('tribute-name').textContent = "Tribute Not Found";
@@ -381,8 +378,8 @@
     }
 
     // Initialize on Page Load
-    document.addEventListener('DOMContentLoaded', () => {
-      populateTribute();
+    document.addEventListener('DOMContentLoaded', async () => {
+      await populateTribute();
       setupTabs();
     });
 
