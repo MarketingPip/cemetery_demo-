@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "csv-to-json": "file:.github/workflows/csvToJSON"
+  }
+}
