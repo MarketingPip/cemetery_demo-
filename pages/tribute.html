@@ -282,6 +282,14 @@
   <!-- JavaScript for Dynamic Tribute -->
   <script>
 
+function parseJSON(json) {
+  try {
+    return JSON.parse(json);
+  } catch {
+    return [];
+  }
+}
+    
 function renderMarkmap(parents, spouses, children, grandchildren, person) {
   // Initialize the Markdown output
 
