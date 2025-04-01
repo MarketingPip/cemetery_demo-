@@ -5,6 +5,7 @@
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <title>Tribute | Crediton Cemetery Heritage Portal</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.14.1"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   <style>
     .hero-image {
@@ -281,6 +282,54 @@
   <!-- JavaScript for Dynamic Tribute -->
   <script>
 
+function renderMarkmap(parents, spouses, children, grandchildren, person) {
+  // Initialize the Markdown output
+
+  let markdown = `# ${person.name}`;
+  if (person.dob && person.dod) {
+    markdown += ` (${person.dob}–${person.dod})\n`;
+  } else {
+    markdown += "\n";
+  }
+  // Process parents, spouses, children, and grandchildren to generate markdown
+  if (parents && parents.length) {
+    markdown += `- Parents\n`;
+    parents.forEach((gc) => {
+      markdown += `    - ${gc.name}`;
+    });
+  }
+
+  if (spouses && spouses.length) {
+    markdown += `- Spouses\n`;
+    spouses.forEach((gc) => {
+      markdown += `    - ${gc.name}`;
+    });
+  }
+
+  if (children && children.length) {
+    markdown += `- Children\n`;
+    children.forEach((gc) => {
+      markdown += `    - ${gc.name}`;
+    });
+  }
+
+  if (grandchildren && grandchildren.length) {
+    markdown += `- Grandchildren:\n`;
+    grandchildren.forEach((gc) => {
+      markdown += `    - ${gc.name}`;
+    });
+  }
+
+  // Initialize Markmap
+  const { Transformer, Markmap, loadCSS, loadJS } = markmap;
+  const transformer = new Transformer();
+  const { root, features } = transformer.transform(markdown);
+
+  // Create the Markmap instance and pass the transformed data
+  Markmap.create("#markmap", {}, root);
+}    
+
+    
 function populateGenealogyLink(name, gender) {
   // Get the link element by ID
   const geneLink = document.getElementById('gene-link');
@@ -430,6 +479,23 @@ async function tributeData(tributeId) {
       document.getElementById('tribute-bio').innerHTML = `<strong>Bio:</strong> ${tribute.bio ? tribute.bio : 'Bio not available'}`;
 
 
+     const tabs = {location:document.querySelector("#location-content"),
+                   familyTree:document.querySelector("#family-tree-content"),
+                   photos:document.querySelector("#photos-content")
+                  }
+
+
+    const hasTreeData =
+  parseJSON(tribute.parents).length > 0 ||
+  parseJSON(tribute.spouses).length > 0 ||
+  parseJSON(tribute.children).length > 0 ||
+  parseJSON(tribute.grandchildren).length > 0;
+  
+
+     if(hasTreeData){
+     tabs.familyTree.innerHTML = `<svg id="markmap" class="w-full h-64"></svg>`;
+     renderMarkmap(parseJSON(person.parents), parseJSON(person.spouses), parseJSON(person.children), parseJSON(person.grandchildren), person);  
+     }
       // Share Links
       const currentUrl = window.location.href;
       document.getElementById('facebook-share').href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`;
