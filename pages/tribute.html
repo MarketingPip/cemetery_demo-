@@ -317,12 +317,12 @@ async function tributeData(tributeId) {
       // Basic Info
       document.getElementById('tribute-name').textContent = tribute.name;
       document.title = `${tribute.name} | Crediton Cemetery Heritage Portal`;
-      document.getElementById('tribute-dates').textContent = `${tribute.birthDate} - ${tribute.deathDate}`;
+      document.getElementById('tribute-dates').textContent = `${tribute.birth_date} - ${tribute.death_date}`;
       document.getElementById('tribute-header-name').textContent = tribute.name;
-      document.getElementById('tribute-image').src = tribute.image;
+      document.getElementById('tribute-image').src = tribute.image_url;
       document.getElementById('tribute-image').alt = `Photo of ${tribute.name}`;
-      document.getElementById('tribute-birth').textContent = tribute.birthDate;
-      document.getElementById('tribute-death').textContent = tribute.deathDate;
+      document.getElementById('tribute-birth').textContent = tribute.birth_date;
+      document.getElementById('tribute-death').textContent = tribute.death_date;
       document.getElementById('tribute-cemetery').textContent = tribute.cemetery;
       document.getElementById('tribute-location').textContent = tribute.location;
       document.getElementById('tribute-bio').innerHTML = `<strong>Bio:</strong> ${tribute.bio}`;
@@ -336,7 +336,7 @@ async function tributeData(tributeId) {
       // Grandchildren
       const grandchildrenList = document.getElementById('grandchildren-list');
       grandchildrenList.innerHTML = '';
-      if (tribute.grandchildren.length > 0) {
+      if (tribute.grandchildren && tribute.grandchildren.length > 0) {
         tribute.grandchildren.forEach(child => {
           const li = document.createElement('li');
           li.textContent = child;
@@ -349,7 +349,7 @@ async function tributeData(tributeId) {
       // Resources
       const resourcesList = document.getElementById('resources-list');
       resourcesList.innerHTML = '';
-      if (tribute.resources.length > 0) {
+      if (tribute.resources && tribute.resources.length > 0) {
         tribute.resources.forEach(resource => {
           const li = document.createElement('li');
           li.innerHTML = `<a href="${resource}" class="text-blue-500 hover:underline" target="_blank">${resource}</a>`;
