@@ -502,7 +502,7 @@ async function tributeData(tributeId) {
 
      if(hasTreeData){
      tabs.familyTree.innerHTML = `<svg id="markmap" class="w-full h-64"></svg>`;
-     renderMarkmap(parseJSON(person.parents), parseJSON(person.spouses), parseJSON(person.children), parseJSON(person.grandchildren), person);  
+     renderMarkmap(tribute.parents, tribute.spouses, parseJSON(person.children), parseJSON(person.grandchildren), tribute);  
      }
       // Share Links
       const currentUrl = window.location.href;
