@@ -155,6 +155,14 @@
   
 </nav>
 
+
+     <!-- Lightbox Modal -->
+    <div id="lightboxModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black bg-opacity-90">
+        <div class="relative w-full h-full flex items-center justify-center">
+            <button id="closeLightbox" class="absolute top-4 right-4 text-white text-3xl hover:text-gray-300">&times;</button>
+            <img id="lightboxImage" src="" alt="Enlarged photo" class="max-w-4xl max-h-screen p-4 object-contain">
+        </div>
+    </div>
   
   <!-- Tribute Details Section -->
 <section class="bg-gray-50 min-h-screen w-full" id="tribute-details">
@@ -291,6 +299,56 @@ function populateGenealogyLink(name, gender) {
   }
 }
 
+let lightbox = document.getElementById("lightboxModal");
+let lightboxImage = document.getElementById("lightboxImage");
+
+function openLightbox(imageUrl, caption) {
+  lightboxImage.src = imageUrl;
+  lightboxImage.alt = caption || "Enlarged photo";
+  lightbox.classList.remove("hidden");
+  lightbox.classList.add("flex");
+
+  // Create a reference to the event handler
+  lightbox._clickHandler = function (e) {
+    if (e.target !== lightboxImage) {
+      closeLightbox();
+    }
+  };
+
+  // Add event listener using the handler reference
+  lightbox.addEventListener("click", lightbox._clickHandler);
+}
+
+function closeLightbox() {
+  lightbox.classList.add("hidden");
+  lightbox.classList.remove("flex");
+
+  // Remove the event listener using the stored reference
+  if (lightbox._clickHandler) {
+    lightbox.removeEventListener("click", lightbox._clickHandler);
+    delete lightbox._clickHandler;
+  }
+}
+
+
+// Add lightbox functionality to all photos in the Photos tab
+function initLightBox(){    
+const photoItems = document.body.querySelectorAll("img");
+
+photoItems.forEach((img) => {
+  // Clone the image node to remove all existing event listeners
+  const newImg = img.cloneNode(true);
+  img.replaceWith(newImg);
+
+  // Add the new event listener
+  newImg.addEventListener("click", () => {
+    openLightbox(
+      newImg.getAttribute("data-fullsize"),
+      newImg.getAttribute("data-caption")
+    );
+  });
+ });
+}     
     
 async function tributeData(tributeId) {
   const url = `../assets/people/${tributeId}.json`; // Replace with the actual API URL
@@ -428,6 +486,7 @@ async function tributeData(tributeId) {
     document.addEventListener('DOMContentLoaded', async () => {
       await populateTribute();
       setupTabs();
+      initLightBox();
     });
 
     // Mobile Menu Toggle
