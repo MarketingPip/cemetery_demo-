@@ -396,10 +396,10 @@ function initLightBox(){
 const photoItems = document.body.querySelectorAll("img");
 
 photoItems.forEach((img) => {
+  // temp
+  img.setAttribute('data-fullsize', img.src);
   // Clone the image node to remove all existing event listeners
   const newImg = img.cloneNode(true);
-  // temp
-  newImg.setAttribute('data-fullsize', img.src);
   img.replaceWith(newImg);
 
 
