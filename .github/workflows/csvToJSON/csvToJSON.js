@@ -65,6 +65,12 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage=true) => {
         
       } catch (e) {
 
+      if(record.gps){
+
+      record.gps =  JSON.parse(record.gps.replaceAll("'", `"`))
+        
+      }
+          
                  // If homePage is true, filter only required fields
       if (homePage) {
         record = {
