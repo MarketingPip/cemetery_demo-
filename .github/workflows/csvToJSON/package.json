@@ -1,0 +1,13 @@
+{
+  "name": "csv-to-json",
+  "version": "1.0.0",
+  "description": "A Node.js script to convert CSV to JSON",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .github/workflows/csvToJSON/csvToJSON.js"
+  },
+  "author": "",
+  "dependencies": {
+    "papaparse": "^5.3.0"
+  }
+}
