@@ -310,22 +310,25 @@ function renderMarkmap(parents, spouses, children, grandchildren, person) {
   if (spouses && spouses.length) {
     markdown += `- Spouses\n`;
     spouses.forEach((gc) => {
-      markdown += `    - ${gc.name}`;
+      markdown += `    - ${gc.name}\n`;
     });
+    markdown += "\n";
   }
 
   if (children && children.length) {
     markdown += `- Children\n`;
     children.forEach((gc) => {
-      markdown += `    - ${gc.name}`;
+      markdown += `    - ${gc.name}\n`;
     });
+    markdown += "\n";
   }
 
   if (grandchildren && grandchildren.length) {
     markdown += `- Grandchildren:\n`;
     grandchildren.forEach((gc) => {
-      markdown += `    - ${gc.name}`;
+      markdown += `    - ${gc.name}\n`;
     });
+    markdown += "\n";
   }
 
   // Initialize Markmap
