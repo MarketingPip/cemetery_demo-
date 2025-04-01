@@ -40,7 +40,7 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage=true) => {
           birth_date: record.birth_date,
           death_date: record.death_date,
           location: record.location,
-          memorial_url:record.memorial_url,
+          memorial_url:record.memorial_url.split('/').slice(-2).join('/'),
           image_url:record.image_url
         };
 
