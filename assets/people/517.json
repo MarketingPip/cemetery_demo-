@@ -5,9 +5,12 @@
   "death_date": "2013-06-07",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "In Loving Memory\nHARVEY<br/>Madeline<br/>Marie<br/>Romphf<br/>Mar. 18, 1940<br/>June 7, 2013<br/>Alfred J.P.<br/>Harvey<br/>July 5, 1935<br/>Dec. 13, 2015<br/>Because he lives, we shall live also John14:19</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/84/237949057_d6e020a2-101a-41eb-b42b-edb6a92b35c1.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Ralph David   Romphf",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Romphf",
+  "inscription": "In Loving MemoryHARVEYMadelineMarieRomphfMar. 18, 1940June 7, 2013Alfred J.P.HarveyJuly 5, 1935Dec. 13, 2015Because he lives, we shall live also John14:19",
   "id": 517
 }

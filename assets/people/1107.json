@@ -5,9 +5,12 @@
   "death_date": "1912-12-19",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "She is the daughter of Johann Martin Klumpp and Regina Fahrner (they never married).",
   "bio": "WEIN\nJOHN WEIN SR.\nDIED DEC. 30, 1904 AE 77 YRS. 2 MS. 18 DS.\nAGNES KLUMPP HIS WIFE<br/>DIED DEC. 19, 1912 AE 82 YRS. 9 MS. 5DS.</br></br></br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/252/15662305_115790619254.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "row 1-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Klumpp",
+  "inscription": "WEINJOHN WEIN SR.DIED DEC. 30, 1904 AE 77 YRS. 2 MS. 18 DS.AGNES KLUMPP HIS WIFEDIED DEC. 19, 1912 AE 82 YRS. 9 MS. 5DS.",
   "id": 1107
 }

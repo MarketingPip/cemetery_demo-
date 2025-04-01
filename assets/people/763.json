@@ -5,9 +5,12 @@
   "death_date": "1992-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "MOTLEY",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/116/188115233_d4caf71f-a951-44bc-983a-52e1aca00d07.jpeg?size=photos250",
+  "image_credits": "Lorelei (Lorie), Louise...",
+  "image_credits_url": "/user/profile/50355487",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 24-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Baguley",
+  "inscription": "MOTLEY",
   "id": 763
 }

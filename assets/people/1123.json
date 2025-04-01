@@ -5,9 +5,12 @@
   "death_date": "1904-12-30",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Johann Georg Wein and his wife, Regina Gaisser",
   "bio": "WEIN age77yrs 2ms 18ds\nJOHN WEIN SR.<br/>DIED DEC. 30, 1904 AE 77 YRS. 2 MS. 18 DS.<br/>AGNES KLUMPP HIS WIFE<br/>DIED DEC. 19, 1912 AE 82 YRS. 9 MS. 5DS.</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/252/15662290_115790609977.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 1-7",
+  "title": "",
+  "prefix": "SR",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "WEIN age77yrs 2ms 18dsJOHN WEIN SR.DIED DEC. 30, 1904 AE 77 YRS. 2 MS. 18 DS.AGNES KLUMPP HIS WIFEDIED DEC. 19, 1912 AE 82 YRS. 9 MS. 5DS.",
   "id": 1123
 }

@@ -5,9 +5,12 @@
   "death_date": "1927-05-17",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/116/188112993_18f450fd-f244-49fb-8f0e-ef872d6c2981.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Lorentz   Engeland",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 17-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Engeland",
+  "inscription": "",
   "id": 391
 }

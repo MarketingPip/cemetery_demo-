@@ -5,9 +5,12 @@
   "death_date": "2020-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "DUNDAS\nDonald S. Dundas<br/>1947-2020</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/86/238051972_a7541fc4-abf5-445f-acb0-e711817aed6d.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Stephen R.   Dundas",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Geraldine Ann  Dundas Schenk\", \"birth_date\": \"1932-00-00\", \"death_date\": \"2019-00-00\", \"profile_url\": \"/memorial/238053974/geraldine_ann-schenk\"}]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "DUNDASDonald S. Dundas1947-2020",
   "id": 159
 }

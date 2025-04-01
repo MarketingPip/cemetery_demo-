@@ -5,9 +5,12 @@
   "death_date": "1925-07-08",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Son of Regina (Klenan?) and Henry Sweitzer",
   "bio": "Jacob Sweitzer\n1848-1925</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/249/15660752_115769063103.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Edward William   Sweitzer\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1957-00-00\", \"profile_url\": \"/memorial/15660853/edward_william-sweitzer\"}, {\"name\": \"Joseph   Sweitzer\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1885-00-00\", \"profile_url\": \"/memorial/15660572/joseph-sweitzer\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "row 1-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "Jacob Sweitzer1848-1925",
   "id": 1031
 }

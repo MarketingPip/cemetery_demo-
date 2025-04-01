@@ -5,9 +5,12 @@
   "death_date": "1947-09-21",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/83/188136822_e6cd5aae-dc28-4a5b-bf8d-257a566e1dda.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Daniel   Sachs",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 17-5",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Sachs",
+  "inscription": "",
   "id": 955
 }

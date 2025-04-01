@@ -5,9 +5,12 @@
   "death_date": "1929-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Son of Margaret and George Holtzmann",
+  "bio": "Son of Margaret and George Holtzmann",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/248/15640045_115755784360.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Dewitt Harvey   Holtzmann\", \"birth_date\": \"1893-00-00\", \"death_date\": \"1893-00-00\", \"profile_url\": \"/memorial/239124117/dewitt_harvey-holtzmann\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 14-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 584
 }

@@ -5,9 +5,12 @@
   "death_date": "1920-06-15",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Son of Mary and Mathew Finkbeiner, husband to Caroline Wolf",
+  "bio": "Son of Mary and Mathew Finkbeiner, husband to Caroline Wolf",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/317/16655986_116356636324.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Minnie Amelia \\\"Mena\\\" Finkbeiner Humble\", \"birth_date\": \"1879-00-00\", \"death_date\": \"1946-00-00\", \"profile_url\": \"/memorial/16627307/minnie_amelia-humble\"}, {\"name\": \"Cathern   Finkbeiner\", \"birth_date\": \"1885-00-00\", \"death_date\": \"1949-00-00\", \"profile_url\": \"/memorial/16656106/cathern-finkbeiner\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 11-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 288
 }

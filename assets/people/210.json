@@ -5,9 +5,12 @@
   "death_date": "1932-12-05",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "FAHNER\nCaroline Fahner<br/>died Dec. 5, 1932<br/>aged 80 yrs. 5 mos. 5 ds.</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/110/189810731_0d4d4cf5-6980-46ba-85f1-639e79aaef54.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Jacob   Fahner",
@@ -19,5 +22,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Agnes  Fahner Wein\", \"birth_date\": \"1835-00-00\", \"death_date\": \"1919-00-00\", \"profile_url\": \"/memorial/189806364/agnes-wein\"}, {\"name\": \"Tobias   Fahner\", \"birth_date\": \"1839-00-00\", \"death_date\": \"1906-00-00\", \"profile_url\": \"/memorial/188037143/tobias-fahner\"}, {\"name\": \"George   Fahrner\", \"birth_date\": \"1842-00-00\", \"death_date\": \"1918-00-00\", \"profile_url\": \"/memorial/188036992/george-fahrner\"}, {\"name\": \"Gottlieb   Fahner\", \"birth_date\": \"1846-00-00\", \"death_date\": \"1937-00-00\", \"profile_url\": \"/memorial/188037003/gottlieb-fahner\"}]",
+  "half_siblings": "[]",
+  "plot_value": "3-5",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "FAHNERCaroline Fahnerdied Dec. 5, 1932aged 80 yrs. 5 mos. 5 ds.",
   "id": 210
 }

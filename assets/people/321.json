@@ -1,16 +1,46 @@
 {
-  "memorial_url": "https://www.findagrave.com/memorial/15821778/jacob-finkbeiner",
+  "memorial_url": "https://www.findagrave.com/memorial/16668101/jacob-finkbeiner",
   "name": "Jacob Finkbeiner",
-  "birth_date": "1863-03-17",
-  "death_date": "1926-10-23",
+  "birth_date": "1852-08-01",
+  "death_date": "1933-02-16",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "Jacob Finkbeiner\ndied Oct. 23, 1926<br/>aged 63 yrs.</br>",
+  "part_bio": "Son of Barbara (Haist) and Michael Finkbeiner.---Birthdate taken from 1901 census",
+  "bio": "Son of Barbara (Haist) and Michael Finkbeiner.<br/>---<br/>Birthdate taken from 1901 census",
   "gps": null,
-  "image_url": "https://images.findagrave.com/photos/2006/262/15821778_115876738221.jpg?size=photos250",
-  "parents": [],
-  "spouses": [],
+  "image_url": "https://images.findagrave.com/photos/2006/318/16668101_116365245517.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Michael   Finkbeiner",
+      "birth_date": "1825-00-00",
+      "death_date": "1892-00-00",
+      "profile_url": "/memorial/15961534/michael-finkbeiner"
+    },
+    {
+      "name": "Barbara  Haist Finkbeiner",
+      "birth_date": "1828-00-00",
+      "death_date": "1896-00-00",
+      "profile_url": "/memorial/15961580/barbara-finkbeiner"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Anna  Schwartz Finkbeiner",
+      "birth_date": "1858-00-00",
+      "death_date": "1925-00-00",
+      "profile_url": "/memorial/16668283/anna-finkbeiner"
+    }
+  ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 12-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 321
 }

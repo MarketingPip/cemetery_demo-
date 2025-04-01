@@ -5,9 +5,12 @@
   "death_date": "1931-10-08",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Daughter of Christina (Preszcaton?) and Diebold Stahl, wife of Gottlieb Braun",
   "bio": "BRAUN\nBIS ZUM FROHEN WIEDERSEHN DROBEN<br/>Anna Maria<br/>Ehegattin Von Carl Braun<br/>Starb Den 2 Mai 1884<br/>Alter 80 Jahre und 2 monats<br/>AUS KINDLICHER LIEBE GEWIDMET<br/>Carl Braun<br/>Starb Den 16 April 1882<br/>Alter 85 Jahre 11 monate 24 tage<br/>Lydia Stahl Braun<br/>April 23, 1851<br/>Oct. 8, 1931<br/>Gotiob K. Braun<br/>Jan. 2, 1840<br/>Oct. 20, 1930</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/260/15790889_115858613710.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Christian Wesley   Braun\", \"birth_date\": \"1870-00-00\", \"death_date\": \"1873-00-00\", \"profile_url\": \"/memorial/236178959/christian_wesley-braun\"}, {\"name\": \"Mary Ellen  Braun Kelhofer\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1961-00-00\", \"profile_url\": \"/memorial/36747468/mary_ellen-kelhofer\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "4-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2006/260/15790889_115858609627.jpg?size=photos250', 'contributor_text': 'Scott Buschlen', 'contributor_href': 'https://www.findagrave.com/user/profile/46583152'}, {'src': 'https://images.findagrave.com/photos/2022/111/15790889_2f26e559-905d-44b5-b1ef-220de420e96f.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}]",
+  "maiden_name": "Stahl",
+  "inscription": "BRAUNBIS ZUM FROHEN WIEDERSEHN DROBENAnna MariaEhegattin Von Carl BraunStarb Den 2 Mai 1884Alter 80 Jahre und 2 monatsAUS KINDLICHER LIEBE GEWIDMETCarl BraunStarb Den 16 April 1882Alter 85 Jahre 11 monate 24 tageLydia Stahl BraunApril 23, 1851Oct. 8, 1931Gotiob K. BraunJan. 2, 1840Oct. 20, 1930",
   "id": 79
 }

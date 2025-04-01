@@ -5,9 +5,12 @@
   "death_date": "2016-02-14",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "On Sunday, February 14, 2016 of St. Marys and formerly of Huron Park in her 100th year. Beloved wife of the late Earl Coughtrey (1987). Dear mother of Marina Morrissey of Exeter and Sandy and Dave MacPherson of St. Marys. Dear grandmother and great-grandmother. Predeceased by a son Fred Coughtrey (1972). Corrie was the last remaining of her 15 siblings. She came to Canada as a war bride from Holland.",
   "bio": "COUGHTREY\nEarl <br/>Joseph<br/>Dec. 11, 1923<br/>June 18. 1987<br/>Corrie J.<br/>(Confurius)<br/>Aug. 21, 1916<br/>Feb. 14, 2016<br/>In God we trust</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/83/237918574_414fffb4-a45e-4b55-9c18-3f513b8aef26.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Fred   Coughtrey\", \"birth_date\": \"1952-00-00\", \"death_date\": \"1972-00-00\", \"profile_url\": \"/memorial/188036226/fred-coughtrey\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Confurius",
+  "inscription": "COUGHTREYEarl JosephDec. 11, 1923June 18. 1987Corrie J.(Confurius)Aug. 21, 1916Feb. 14, 2016In God we trust",
   "id": 141
 }

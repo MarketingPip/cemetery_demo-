@@ -5,9 +5,12 @@
   "death_date": "1873-01-24",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "BRAUN\nHier Rub el unifer Lirbling<br/>Chr. Wesley Braun<br/>hom Gottilob u Lydia Braun<br/>grb 31 Oct. 1870<br/>geft 24 Jan. 1873<br/>AH 2 Jah 2 mo.</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/111/236178959_378a575b-804a-45db-9b5c-5fb8fdc8b853.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Gottlieb K.   Braun",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Mary Ellen  Braun Kelhofer\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1961-00-00\", \"profile_url\": \"/memorial/36747468/mary_ellen-kelhofer\"}]",
+  "half_siblings": "[]",
+  "plot_value": "4-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "BRAUNHier Rub el unifer LirblingChr. Wesley Braunhom Gottilob u Lydia Braungrb 31 Oct. 1870geft 24 Jan. 1873AH 2 Jah 2 mo.",
   "id": 76
 }

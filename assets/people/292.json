@@ -5,9 +5,12 @@
   "death_date": "2008-08-10",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "FINKBEINER Peacefully, at South Huron Hospital, Exeter, Sunday, August 10, 2008, N. Doreen (Coultis) Finkbeiner of RR 2, Dashwood (Shipka), age 84. Beloved wife of the late Harold Douglas Finkbeiner (2004). Predeceased by grandson Kristopher Finkbeiner (1995) and brother Earl and his wife Jean Coultis, brothers-in-law Harold Kerslake and Tom Rosser.",
+  "bio": "FINKBEINER Peacefully, at South Huron Hospital, Exeter, Sunday, August 10, 2008, N. Doreen (Coultis) Finkbeiner of RR 2, Dashwood (Shipka), age 84. Beloved wife of the late Harold Douglas Finkbeiner (2004). Predeceased by grandson Kristopher Finkbeiner (1995) and brother Earl and his wife Jean Coultis, brothers-in-law Harold Kerslake and Tom Rosser.",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2008/223/28931535_121846071234.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Coultis",
+  "inscription": "",
   "id": 292
 }

@@ -5,9 +5,12 @@
   "death_date": "1977-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "MORLOCK\nBarry Herbert Morlock<br/>1948-1977</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/214/15134912_115461735216.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Ray Lennis   Morlock",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 25-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "MORLOCKBarry Herbert Morlock1948-1977",
   "id": 724
 }

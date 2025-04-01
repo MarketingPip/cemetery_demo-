@@ -5,9 +5,12 @@
   "death_date": "1941-10-28",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Daughter of Catherine and Paul Messner, wife of Henry Motz",
+  "bio": "Daughter of Catherine and Paul Messner, wife of Henry Motz",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/315/16626989_116339358589.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Paul   Messner",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 11-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Messner",
+  "inscription": "",
   "id": 766
 }

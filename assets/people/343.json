@@ -5,9 +5,12 @@
   "death_date": "1927-12-08",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "FINKBEINER\nJacob Finkbeiner<br/>Gestboren Den. Marz. 12, 1861 In Alter<br/>von 11 Jahr 6 monate 2 tage.<br/>Heir Ruht<br/>Rosina<br/>Ehefrau von Jacob Finkbeiner<br/>Gestboren Dec Feb. 3, 1882 In Alter<br/>von 54 Jahr 5 tagen<br/>Ruhe uhrer a sche<br/>Jacob Finkbeiner<br/>gestboren den Apr. 8, 1900 In Alter<br/>von 79 Jahr. 6 mo. 18 tag.<br/>Magdalena<br/>wife of Christian Finkbeiner<br/>died Dec. 8, 1927<br/>aged 69 years<br/>Christian Finkbeiner<br/>died Dec. 12, 1933 aged 81 yrs.</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/298/16331358_116188127734.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Adam   Gaiser",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 9-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Gaiser",
+  "inscription": "FINKBEINERJacob FinkbeinerGestboren Den. Marz. 12, 1861 In Altervon 11 Jahr 6 monate 2 tage.Heir RuhtRosinaEhefrau von Jacob FinkbeinerGestboren Dec Feb. 3, 1882 In Altervon 54 Jahr 5 tagenRuhe uhrer a scheJacob Finkbeinergestboren den Apr. 8, 1900 In Altervon 79 Jahr. 6 mo. 18 tag.Magdalenawife of Christian Finkbeinerdied Dec. 8, 1927aged 69 yearsChristian Finkbeinerdied Dec. 12, 1933 aged 81 yrs.",
   "id": 343
 }

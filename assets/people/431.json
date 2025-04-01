@@ -5,9 +5,12 @@
   "death_date": "1934-04-07",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/115/188113083_b89bd9e4-80ef-4de7-b8df-6cabcfe637b2.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Adam   Gaiser",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 12-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 431
 }

@@ -5,9 +5,12 @@
   "death_date": "1887-04-17",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "38 years 5 months 3 days",
   "bio": "BRAUN\nDavid Braun<br/>Gestboren April 17, 1887<br/>Alter 38 Jahr 5 monat und 3 tag</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/113/188035718_f5b72d41-3c1b-41ab-9a0f-e7c7f71008ab.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 9-5",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "BRAUNDavid BraunGestboren April 17, 1887Alter 38 Jahr 5 monat und 3 tag",
   "id": 77
 }

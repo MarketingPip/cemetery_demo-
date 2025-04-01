@@ -5,9 +5,12 @@
   "death_date": "1973-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Wife of Albert Holtzman",
+  "bio": "Wife of Albert Holtzman",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/312/16581695_116313855480.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 11-5",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Klumpp",
+  "inscription": "",
   "id": 576
 }

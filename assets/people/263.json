@@ -5,9 +5,12 @@
   "death_date": "1950-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Son of Louisa (Morlock) and Jacob Faist",
   "bio": "FAIST\nBELOVED HUSBAND OF</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/241/15553733_115694502257.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 18-5",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "FAISTBELOVED HUSBAND OF",
   "id": 263
 }

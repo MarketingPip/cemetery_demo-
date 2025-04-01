@@ -5,9 +5,12 @@
   "death_date": "2008-03-05",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "FAHNER: Suddenly, at Alexandra Hospital, Ingersoll, Wednesday, March 5, 2008, Donald Ray Fahner, of Thamesford, age 48. Loved twin brother of Ronald Scott Fahner of London, dear brother and brother-in-law of Nancy and Ron Cybulski of Kincardine, Marg and Jerry Finnen of Kitchener, and Linda Fahner of Crediton. Special friend of June McKenzie of Huron Park. Remembered by his nieces, nephews and their families. Predeceased by his brother John Fahner (2007), parents Clarence (1998) and Grace (Ortwein) (2004) Fahner and brother Charles in infancy. Resting at the T. Harry Hoffman & Sons Funeral Home, Dashwood, with visitation Friday 2 to 4 p.m. and 7 to 9 p.m.; where the Funeral Service will be held Saturday, March 8, 2008 at 11 a.m. Tracey Whitson-Bahro officiating. Interment Crediton Cemetery. If desired, memorial donations O.S.P.C.A or the charity of choice would be appreciated.",
+  "bio": "FAHNER: Suddenly, at Alexandra Hospital, Ingersoll, Wednesday, March 5, 2008, Donald Ray Fahner, of Thamesford, age 48. Loved twin brother of Ronald Scott Fahner of London, dear brother and brother-in-law of Nancy and Ron Cybulski of Kincardine, Marg and Jerry Finnen of Kitchener, and Linda Fahner of Crediton. Special friend of June McKenzie of Huron Park. Remembered by his nieces, nephews and their families. Predeceased by his brother <a href=\"http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&amp;GRid=21860648\">John Fahner</a> (2007), parents Clarence (1998) and Grace (Ortwein) (2004) Fahner and brother Charles in infancy. Resting at the T. Harry Hoffman &amp; Sons Funeral Home, Dashwood, with visitation Friday 2 to 4 p.m. and 7 to 9 p.m.; where the Funeral Service will be held Saturday, March 8, 2008 at 11 a.m. Tracey Whitson-Bahro officiating. Interment Crediton Cemetery. If desired, memorial donations O.S.P.C.A or the charity of choice would be appreciated. <br/>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2018/209/41420706_ea9eaa7a-ace9-46f4-80b6-46524b258375.jpeg?size=photos250",
+  "image_credits": "rossddickson",
+  "image_credits_url": "/user/profile/49188008",
   "parents": [
     {
       "name": "Grace Irene  Ortwein Fahner",
@@ -19,5 +22,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"John William   Fahner\", \"birth_date\": \"1951-00-00\", \"death_date\": \"2007-00-00\", \"profile_url\": \"/memorial/21860648/john_william-fahner\"}]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 215
 }

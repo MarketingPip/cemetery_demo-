@@ -5,9 +5,12 @@
   "death_date": "1947-06-28",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Daughter of F. William Witzel and Mary Anne Finkbeiner.",
   "bio": "ALEX NEEB 1876-1948\nHIS WIFE BARBARA WITZEL\n1883-1940\nTHEIR CHILDREN<br/>ALFRED 1907-1909<br/>HARVEY 1920-1964<br/>ESTHER 1910-1968<br/>WILLIAM WITZEL<br/>BORN MAR. 29, 1857<br/>DIED MAR. 5, 1935<br/>HIS WIFE MARY FINKBEINER<br/>BORN MAY 2, 1860-DIED MAY 3, 1927<br/>IRENE WITZEL<br/>BORN 1899-DIED 1947</br></br></br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/11/46110478_2f058843-0d47-423b-bce0-0bc1ffb84e71.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Frederich Wilhelm \"Bill\"  Witzel",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Matilda Lizzie  Witzel Lamport\", \"birth_date\": \"1881-00-00\", \"death_date\": \"1961-00-00\", \"profile_url\": \"/memorial/36933908/matilda_lizzie-lamport\"}, {\"name\": \"Barbara  Witzel Neeb\", \"birth_date\": \"1883-00-00\", \"death_date\": \"1940-00-00\", \"profile_url\": \"/memorial/15650701/barbara-neeb\"}, {\"name\": \"Ezra   Witzel\", \"birth_date\": \"1886-00-00\", \"death_date\": \"1937-00-00\", \"profile_url\": \"/memorial/190364441/ezra-witzel\"}, {\"name\": \"Ella  Witzel Heywood\", \"birth_date\": \"1890-00-00\", \"death_date\": \"1956-00-00\", \"profile_url\": \"/memorial/16576538/ella-heywood\"}, {\"name\": \"Thalma Witzel   Pfaff\", \"birth_date\": \"1891-00-00\", \"death_date\": \"1962-00-00\", \"profile_url\": \"/memorial/35821406/thalma_witzel-pfaff\"}, {\"name\": \"Edna Mae  Witzel Tilley\", \"birth_date\": \"1894-00-00\", \"death_date\": \"1974-00-00\", \"profile_url\": \"/memorial/46111142/edna_mae-tilley\"}]",
+  "half_siblings": "[]",
+  "plot_value": "2-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "ALEX NEEB 1876-1948HIS WIFE BARBARA WITZEL1883-1940THEIR CHILDRENALFRED 1907-1909HARVEY 1920-1964ESTHER 1910-1968WILLIAM WITZELBORN MAR. 29, 1857DIED MAR. 5, 1935HIS WIFE MARY FINKBEINERBORN MAY 2, 1860-DIED MAY 3, 1927IRENE WITZELBORN 1899-DIED 1947",
   "id": 1180
 }

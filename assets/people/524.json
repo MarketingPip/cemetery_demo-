@@ -5,9 +5,12 @@
   "death_date": "1973-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "wife of Blake S. Heath",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/84/237941496_6ba60dc3-741f-44a9-9743-1644eb4d9faa.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 16-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Kuhn",
+  "inscription": "wife of Blake S. Heath",
   "id": 524
 }

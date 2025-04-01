@@ -5,9 +5,12 @@
   "death_date": "2014-08-02",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Beloved wife of the late Earl William Ratz (1999). Loved mother of David “Dave” Ratz of RR 2, Dashwood and dear friend Cathy Pickering and Judy Deichert of London. Loving grandma of Dave (Jr) and Nicole “Nikki” Ratz of Whitby and great-grandma of Kaylee. Mark Deichert and Tya Lothi of London and her daughter Lillia. Paul Deichert and Meredith Brown of Stratford and great-grandma of William and Maeve. Remembered by her many nephews and their families. Predeceased by her parents Arthur and Elizabeth “Bessie” Dinsdale, sister Gertrude Jacquith, husband Jim, previous husband Harvey Stokes and nephew John Stokes. Olive was a long time and active member of the Grand Bend United Church and of the Shipka Community.",
+  "bio": "Beloved wife of the late Earl William Ratz (1999). Loved mother of David “Dave” Ratz of RR 2, Dashwood and dear friend Cathy Pickering and Judy Deichert of London. Loving grandma of Dave (Jr) and Nicole “Nikki” Ratz of Whitby and great-grandma of Kaylee. Mark Deichert and Tya Lothi of London and her daughter Lillia. Paul Deichert and Meredith Brown of Stratford and great-grandma of William and Maeve. Remembered by her many nephews and their families. Predeceased by her parents Arthur and Elizabeth “Bessie” Dinsdale, sister Gertrude Jacquith, husband Jim, previous husband Harvey Stokes and nephew John Stokes. <br/><br/>Olive was a long time and active member of the Grand Bend United Church and of the Shipka Community.<br/>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2016/156/163953310_1465171698.jpg?size=photos250",
+  "image_credits": "BWin",
+  "image_credits_url": "/user/profile/48483226",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Dinsdale",
+  "inscription": "",
   "id": 878
 }

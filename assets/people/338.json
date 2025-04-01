@@ -5,9 +5,12 @@
   "death_date": "1961-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Daughter of Fredericka (Geiger) and Michael Finkbeiner. Notice the surname on the stone is spelled Finkbiner.",
+  "bio": "Daughter of Fredericka (Geiger) and Michael Finkbeiner. Notice the surname on the stone is spelled Finkbiner.",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/319/16671515_116368942506.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "John   Finkbeiner",
@@ -19,5 +22,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 11-12",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 338
 }

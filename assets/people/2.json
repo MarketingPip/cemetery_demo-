@@ -5,9 +5,12 @@
   "death_date": "1978-02-28",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Son of Elizabeth (Dodds) and Thomas Amy",
+  "bio": "Son of Elizabeth (Dodds) and Thomas Amy",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/241/15561434_115699806925.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Thomas James   Amy",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 17-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 2
 }

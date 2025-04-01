@@ -5,9 +5,12 @@
   "death_date": "1879-06-11",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Infant son of Charlotte (Morlock) and Bernard Brown",
   "bio": "BROWN\nIn memory of Bernard Brown<br/>born July 3, 1850-died Nov. 13, 1921<br/>Charlotte Morlock his wife<br/>born Mar. 27, 1857-died Sept. 24, 1943<br/>(back)Mary Matilda<br/>Feb. 6, 1877-Sept. 11, 1877<br/>Edward Thomas<br/>Oct. 6, 1878-June 11, 1879<br/>Simon Peter<br/>June 6, 1881-Sept. 19, 1881<br/>George Wesley<br/>Aug. 21, 1882-Feb. 28, 1885<br/>Emerson Bernard<br/>Feb. 5, 1893-Nov. 26, 1897</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/306/16444298_116256992924.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Bernard   Brown",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Mary Matilda   Brown\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1877-00-00\", \"profile_url\": \"/memorial/16444215/mary_matilda-brown\"}, {\"name\": \"Simon Peter   Brown\", \"birth_date\": \"1881-00-00\", \"death_date\": \"1881-00-00\", \"profile_url\": \"/memorial/16444370/simon_peter-brown\"}, {\"name\": \"George Wesley   Brown\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1885-00-00\", \"profile_url\": \"/memorial/16444399/george_wesley-brown\"}, {\"name\": \"Emerson Bernard   Brown\", \"birth_date\": \"1896-00-00\", \"death_date\": \"1897-00-00\", \"profile_url\": \"/memorial/16444501/emerson_bernard-brown\"}]",
+  "half_siblings": "[]",
+  "plot_value": "Row 9-8",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "BROWNIn memory of Bernard Brownborn July 3, 1850-died Nov. 13, 1921Charlotte Morlock his wifeborn Mar. 27, 1857-died Sept. 24, 1943(back)Mary MatildaFeb. 6, 1877-Sept. 11, 1877Edward ThomasOct. 6, 1878-June 11, 1879Simon PeterJune 6, 1881-Sept. 19, 1881George WesleyAug. 21, 1882-Feb. 28, 1885Emerson BernardFeb. 5, 1893-Nov. 26, 1897",
   "id": 97
 }

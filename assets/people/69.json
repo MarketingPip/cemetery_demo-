@@ -5,9 +5,12 @@
   "death_date": "1972-01-24",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "infant son of Lorraine & Fred Bowers",
+  "bio": "infant son of Lorraine &amp; Fred Bowers",
   "gps": null,
   "image_url": "",
+  "image_credits": "",
+  "image_credits_url": "",
   "parents": [
     {
       "name": "Frederick G. \"Rick\"  Bowers",
@@ -19,5 +22,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 22-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 69
 }

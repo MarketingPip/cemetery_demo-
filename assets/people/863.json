@@ -5,9 +5,12 @@
   "death_date": "2013-10-24",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Dear sister-in-law of Olive Ratz of RR 2, Dashwood. Loved by her nieces and nephews, great-nieces and nephews, great-great-nieces and nephews and their families. Predeceased by her parents William and Lavina (Fahner) Ratz, sister Dorothy (Ray) Jones, brothers Earl Ratz and Ervin (Nola) Ratz.",
+  "bio": "Dear sister-in-law of Olive Ratz of RR 2, Dashwood. Loved by her nieces and nephews, great-nieces and nephews, great-great-nieces and nephews and their families. Predeceased by her parents William and Lavina (Fahner) Ratz, sister Dorothy (Ray) Jones, brothers Earl Ratz and Ervin (Nola) Ratz.",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2016/160/164206891_1465527846.jpg?size=photos250",
+  "image_credits": "BWin",
+  "image_credits_url": "/user/profile/48483226",
   "parents": [
     {
       "name": "William Henry   Ratz",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Ervin Albert   Ratz\", \"birth_date\": \"1915-00-00\", \"death_date\": \"2000-00-00\", \"profile_url\": \"/memorial/188136483/ervin_albert-ratz\"}]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2022/83/164206891_e6774586-724c-40e8-a3bc-feadd795b660.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 863
 }

@@ -5,9 +5,12 @@
   "death_date": "1991-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "In Loving Memory\nTILLEY<br/>Alfred F. Tilley<br/>1897-1991<br/>his beloved wife<br/>Edna Witzel<br/>1894-1974<br/>Rest in peace</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/83/237918728_0768a823-dbff-4ea4-84a2-78fccde1d8fa.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 22-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "In Loving MemoryTILLEYAlfred F. Tilley1897-1991his beloved wifeEdna Witzel1894-1974Rest in peace",
   "id": 1059
 }

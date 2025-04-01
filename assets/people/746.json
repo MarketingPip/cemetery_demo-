@@ -5,9 +5,12 @@
   "death_date": "1964-01-14",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Son of Lydia (Haist) and William Morlock, husband to Irene Fahrner",
   "bio": "FAHRNER\nCharles F. Fahrner<br/>born 1877 died 1948<br/>his wife<br/>Emma Treitz<br/>born 1879 died 1956<br/>Lorne R. Morlock<br/>born 1895 died 1964<br/>his wife Irene Fahrner 1908-1995</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/320/16682023_116378282878.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "William H.   Morlock",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 2-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "FAHRNERCharles F. Fahrnerborn 1877 died 1948his wifeEmma Treitzborn 1879 died 1956Lorne R. Morlockborn 1895 died 1964his wife Irene Fahrner 1908-1995",
   "id": 746
 }

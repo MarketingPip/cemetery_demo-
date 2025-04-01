@@ -5,9 +5,12 @@
   "death_date": "1926-03-19",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Daughter of Catherine (Haist) and Mathew Finkbeiner",
+  "bio": "Daughter of Catherine (Haist) and Mathew Finkbeiner",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/234/15473126_115634778094.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "1-8",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Finkbeiner",
+  "inscription": "",
   "id": 590
 }

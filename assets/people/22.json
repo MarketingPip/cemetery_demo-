@@ -5,9 +5,12 @@
   "death_date": "1968-07-14",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Son of Fredericka (Martin) and Nicholas Beaver",
+  "bio": "Son of Fredericka (Martin) and Nicholas Beaver",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/241/15554242_115694941640.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Nicholas   Beaver",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 18-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 22
 }

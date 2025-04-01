@@ -5,9 +5,12 @@
   "death_date": "1881-11-12",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "WUERTH\nAlfred E. Wuerth<br/>1891-1974<br/>his wife Lucilla Schwartz<br/>1893-1979<br/>(back)Gotteib Wuerth<br/>1841-1897<br/>his wife Mary C. Lutz<br/>1859-1919<br/>their son Theodore O.<br/>1880-1881<br/>Mary Lutz Wein<br/>died 1903 (no date or age)</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/311/16550478_116299534365.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Gottlieb   Wuerth",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Albertina Matilda  Wuerth Glanville\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1971-00-00\", \"profile_url\": \"/memorial/147359190/albertina_matilda-glanville\"}, {\"name\": \"Alfred Emanuel   Wuerth\", \"birth_date\": \"1891-00-00\", \"death_date\": \"1974-00-00\", \"profile_url\": \"/memorial/16550577/alfred_emanuel-wuerth\"}, {\"name\": \"Edgar E   Wuerth\", \"birth_date\": \"1896-00-00\", \"death_date\": \"1969-00-00\", \"profile_url\": \"/memorial/15553531/edgar_e-wuerth\"}]",
+  "half_siblings": "[]",
+  "plot_value": "row 10-9",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "WUERTHAlfred E. Wuerth1891-1974his wife Lucilla Schwartz1893-1979(back)Gotteib Wuerth1841-1897his wife Mary C. Lutz1859-1919their son Theodore O.1880-1881Mary Lutz Weindied 1903 (no date or age)",
   "id": 1204
 }

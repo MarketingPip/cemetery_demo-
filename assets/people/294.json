@@ -5,9 +5,12 @@
   "death_date": "1967-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Son of Anna (Schwartz) and Jacob Finkbeiner, husband to Liela Mollard",
+  "bio": "Son of Anna (Schwartz) and Jacob Finkbeiner, husband to Liela Mollard",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/319/16671051_116368574914.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 12-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 294
 }

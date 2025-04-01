@@ -5,9 +5,12 @@
   "death_date": "1920-04-01",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Amy died of pneumonia on April 1st according to her death record (#019304).",
+  "bio": "Amy died of pneumonia on April 1st according to her death record (#019304).",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/243/15571908_115712035276.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "George Michael   Finkbeiner",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Russell E   Finkbeiner\", \"birth_date\": \"1913-00-00\", \"death_date\": \"1984-00-00\", \"profile_url\": \"/memorial/15553640/russell_e-finkbeiner\"}, {\"name\": \"Helen K  Finkbeiner Fawcett\", \"birth_date\": \"1915-00-00\", \"death_date\": \"1962-00-00\", \"profile_url\": \"/memorial/15294761/helen_k-fawcett\"}, {\"name\": \"Lillian Irene  Finkbeiner Hendry\", \"birth_date\": \"1921-00-00\", \"death_date\": \"2008-00-00\", \"profile_url\": \"/memorial/222449218/lillian_irene-hendry\"}]",
+  "half_siblings": "[]",
+  "plot_value": "Row 16-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 272
 }

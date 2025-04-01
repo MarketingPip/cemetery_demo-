@@ -5,9 +5,12 @@
   "death_date": "1954-06-20",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/84/188138569_879160bb-40b0-415f-a0de-e95af33416da.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Walter David   Weber",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 1102
 }

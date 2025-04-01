@@ -5,9 +5,12 @@
   "death_date": "1923-03-22",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/116/192783230_6a5ce40b-e125-4abe-97e3-386065cac306.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "William Earnot   Gaiser",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Doris Alice   Gaiser\", \"birth_date\": \"1921-00-00\", \"death_date\": \"1921-00-00\", \"profile_url\": \"/memorial/192783313/doris_alice-gaiser\"}]",
+  "half_siblings": "[]",
+  "plot_value": "Row 15-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 423
 }

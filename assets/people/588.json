@@ -5,9 +5,12 @@
   "death_date": "1908-03-09",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "HUMBLE\nEmma K. Brown<br/>wife of P.M. Humble<br/>born Dec. 15, 1880<br/>died Mar. 9, 1908<br/>(back)Amelia L. Brown<br/>wife of F. Johnston<br/>born Apr. 20, 1877-died Feb. 16, 1909</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2015/69/143599504_1426081453.jpg?size=photos250",
+  "image_credits": "Edward Soldan Sr.",
+  "image_credits_url": "/user/profile/48234510",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "row 8-9",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2015/69/143599504_1426081416.jpg?size=photos250', 'contributor_text': 'Edward Soldan Sr.', 'contributor_href': 'https://www.findagrave.com/user/profile/48234510'}, {'src': 'https://images.findagrave.com/photos/2015/69/143599504_1426081384.jpg?size=photos250', 'contributor_text': 'Edward Soldan Sr.', 'contributor_href': 'https://www.findagrave.com/user/profile/48234510'}, {'src': 'https://images.findagrave.com/photos/2015/69/143599504_1426081346.jpg?size=photos250', 'contributor_text': 'Edward Soldan Sr.', 'contributor_href': 'https://www.findagrave.com/user/profile/48234510'}]",
+  "maiden_name": "Brown",
+  "inscription": "HUMBLEEmma K. Brownwife of P.M. Humbleborn Dec. 15, 1880died Mar. 9, 1908(back)Amelia L. Brownwife of F. Johnstonborn Apr. 20, 1877-died Feb. 16, 1909",
   "id": 588
 }

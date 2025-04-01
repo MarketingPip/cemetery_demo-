@@ -5,9 +5,12 @@
   "death_date": "2021-01-17",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "LIGHTFOOT\nDouglas Howard]Lightfoot<br/>Oct. 30, 1945<br/>Jan. 17, 2021<br/>married June 11, 1966<br/>Loving parents of Steve &amp; Mike<br/>cherished grandparents of<br/>Dylan, Cadyn, Paige, Todd &amp;Taylar</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/86/238054371_de902fa0-4070-4c04-9394-f0d668fa03fd.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "William Howard   Lightfoot",
@@ -16,14 +19,21 @@
       "profile_url": "/memorial/188114961/william_howard-lightfoot"
     },
     {
-      "name": "Doreen E.  Baker Lightfoot",
+      "name": "Doreen Elizabeth  Baker Lightfoot",
       "birth_date": "1921-00-00",
       "death_date": "2003-00-00",
-      "profile_url": "/memorial/188114950/doreen_e-lightfoot"
+      "profile_url": "/memorial/188114950/doreen_elizabeth-lightfoot"
     }
   ],
   "spouses": [],
   "children": "[{\"name\": \"Michael John   Lightfoot\", \"birth_date\": \"1969-00-00\", \"death_date\": \"2004-00-00\", \"profile_url\": \"/memorial/188114955/michael_john-lightfoot\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "LIGHTFOOTDouglas Howard]LightfootOct. 30, 1945Jan. 17, 2021married June 11, 1966Loving parents of Steve & Mikecherished grandparents ofDylan, Cadyn, Paige, Todd &Taylar",
   "id": 671
 }

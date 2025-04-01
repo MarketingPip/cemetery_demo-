@@ -5,9 +5,12 @@
   "death_date": "1906-03-26",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "Aged 41 years 6 months 1 day",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/121/236911772_dd41846a-2062-4588-bed8-1774deba6194.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "4-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "Aged 41 years 6 months 1 day",
   "id": 25
 }

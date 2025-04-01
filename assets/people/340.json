@@ -5,9 +5,12 @@
   "death_date": "1951-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Daughter of Louisa (Morlock) and Jacob Faist",
+  "bio": "Daughter of Louisa (Morlock) and Jacob Faist",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/247/15625226_115747157057.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Harrington Edward   Finkbeiner\", \"birth_date\": \"1897-00-00\", \"death_date\": \"1946-00-00\", \"profile_url\": \"/memorial/15049566/harrington_edward-finkbeiner\"}, {\"name\": \"Milton   Finkbeiner\", \"birth_date\": \"1906-00-00\", \"death_date\": \"1934-00-00\", \"profile_url\": \"/memorial/15625212/milton-finkbeiner\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "15-5",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Faist",
+  "inscription": "",
   "id": 340
 }

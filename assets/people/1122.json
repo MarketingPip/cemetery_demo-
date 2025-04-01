@@ -5,9 +5,12 @@
   "death_date": "1908-08-18",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Henry was the son of Eva (Fahrner) and Mathew Wein. He died in the line of duty as a fireman.---------Below is text mentioned in Disasters of London.August 18, 1908 - Westman's Hardware Fire2 lives lostAs Fire Chief Lawrence Clark and two of his men were pulling a hose inside this burning building the floor gave way, dumping them into the basement. As they tried to climb out, the remaining floor above them broke up, sending tons of heavy appliances raining down on them. Only one man, Fireman Cole, made it out alive.",
   "bio": "WEIN\nSON\nJOHN. F. WEIN\n1879-1946\nHIS WIFE MARY M. FINKBEINER\n1879-1958\nHENRY WEIN \nBORN MAY 25, 1881\nDIED AUG. 18, 1908\nMATHEW WEIN\nDIED MAY 7, 1912\nAGED 75 YRS. 4 DS.\nHIS WIFE EVA FAHNER\nDIED JAN. 10, 1912\nAGED 73 YRS. 4 MOS. 26 DS.\nSAMUEL WEIN\n1887-1964\nJOSEPH WEIN <br/>1883-1968<br/>GORDON L. PASCOE<br/>1910-1986</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/250/15662484_115772198299.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Mathew   Wein",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Susie  Wein Pope\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1930-00-00\", \"profile_url\": \"/memorial/227904713/susie-pope\"}, {\"name\": \"John F.   Wein\", \"birth_date\": \"1879-00-00\", \"death_date\": \"1946-00-00\", \"profile_url\": \"/memorial/15662677/john_f-wein\"}]",
+  "half_siblings": "[]",
+  "plot_value": "row 1-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "WEINSONJOHN. F. WEIN1879-1946HIS WIFE MARY M. FINKBEINER1879-1958HENRY WEIN BORN MAY 25, 1881DIED AUG. 18, 1908MATHEW WEINDIED MAY 7, 1912AGED 75 YRS. 4 DS.HIS WIFE EVA FAHNERDIED JAN. 10, 1912AGED 73 YRS. 4 MOS. 26 DS.SAMUEL WEIN1887-1964JOSEPH WEIN 1883-1968GORDON L. PASCOE1910-1986",
   "id": 1122
 }

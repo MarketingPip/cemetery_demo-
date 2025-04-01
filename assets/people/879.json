@@ -5,9 +5,12 @@
   "death_date": "2011-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "RATZ\nMilton E. Ratz<br/>1893-1954<br/>his beloved wife<br/>Ada Fassold<br/>1902-1978<br/>their son John M.<br/>1924-1979<br/>his wife Margaret Scott<br/>1926-2017<br/>their son Paul Milton<br/>1954-2011</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/84/188136502_7dd77c69-de56-4822-9331-fc7ceb577c19.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "John M   Ratz",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 17-9",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "RATZMilton E. Ratz1893-1954his beloved wifeAda Fassold1902-1978their son John M.1924-1979his wife Margaret Scott1926-2017their son Paul Milton1954-2011",
   "id": 879
 }

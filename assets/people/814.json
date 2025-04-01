@@ -5,9 +5,12 @@
   "death_date": "1987-12-17",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "husband of Karl E Ohaymer 1915-",
+  "bio": "husband of Karl E Ohaymer 1915-",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/249/15650578_115764277449.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 13-5",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Fahner",
+  "inscription": "",
   "id": 814
 }

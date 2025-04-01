@@ -5,9 +5,12 @@
   "death_date": "2018-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "WALES\nGeorge E. Ted<br/>1939-2006<br/>Jeannette F.<br/>Schenk Lippert<br/>1935-2018</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/84/237949184_871e51f6-ee16-4d56-b737-b68c854a4001.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Schenk",
+  "inscription": "WALESGeorge E. Ted1939-2006Jeannette F.Schenk Lippert1935-2018",
   "id": 1097
 }

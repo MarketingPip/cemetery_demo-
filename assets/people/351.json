@@ -5,9 +5,12 @@
   "death_date": "1912-08-04",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Daughter of Catherine (Haist) and Matthew Finkbeiner",
   "bio": "FINKBEINER\nin memory of Bertha<br/>died June 8, 1911<br/>ae 21 yrs 4 wks.<br/>Melissa<br/>died Aug. 4, 1912<br/>ae 24 yrs. 4 mos. 15 ds.<br/>Henry Emerson<br/>died Apr. 15, 1913<br/>ae 15 yrs. 11 mos. 15 ds.<br/>Amanda Barbara<br/>died June 13, 1914<br/>ae 28 yrs. 7 mos. 18 ds.<br/>children of Matthew and Catherine Finkbeiner<br/>in memory of Matthew Finkbeiner<br/>died Jan. 24, 1916<br/>ae 69 yrs. 3 mos. 12 ds.<br/>Catherine his wife<br/>died Oct. 11, 1921<br/>ae 70 yrs 5 mos. 27 ds.<br/>Charles William<br/>died Dec. 31, 1918<br/>ae 26 yrs. 5 mos. 3 ds.</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/263/15833617_115885476692.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Matthew   Finkbeiner",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Amanda Barbara   Finkbeiner\", \"birth_date\": \"1885-00-00\", \"death_date\": \"1914-00-00\", \"profile_url\": \"/memorial/15833644/amanda_barbara-finkbeiner\"}, {\"name\": \"Bertha   Finkbeiner\", \"birth_date\": \"1890-00-00\", \"death_date\": \"1911-00-00\", \"profile_url\": \"/memorial/15833604/bertha-finkbeiner\"}, {\"name\": \"Charles William   Finkbeiner\", \"birth_date\": \"1892-00-00\", \"death_date\": \"1918-00-00\", \"profile_url\": \"/memorial/15848198/charles_william-finkbeiner\"}, {\"name\": \"Henry Emerson   Finkbeiner\", \"birth_date\": \"1897-00-00\", \"death_date\": \"1913-00-00\", \"profile_url\": \"/memorial/15833630/henry_emerson-finkbeiner\"}]",
+  "half_siblings": "[{\"name\": \"Christena  Finkbeiner Dearing\", \"birth_date\": \"1874-00-00\", \"death_date\": \"1949-00-00\", \"profile_url\": \"/memorial/16575937/christena-dearing\"}]",
+  "plot_value": "6-8",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "FINKBEINERin memory of Berthadied June 8, 1911ae 21 yrs 4 wks.Melissadied Aug. 4, 1912ae 24 yrs. 4 mos. 15 ds.Henry Emersondied Apr. 15, 1913ae 15 yrs. 11 mos. 15 ds.Amanda Barbaradied June 13, 1914ae 28 yrs. 7 mos. 18 ds.children of Matthew and Catherine Finkbeinerin memory of Matthew Finkbeinerdied Jan. 24, 1916ae 69 yrs. 3 mos. 12 ds.Catherine his wifedied Oct. 11, 1921ae 70 yrs 5 mos. 27 ds.Charles Williamdied Dec. 31, 1918ae 26 yrs. 5 mos. 3 ds.",
   "id": 351
 }

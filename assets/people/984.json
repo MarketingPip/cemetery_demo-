@@ -5,9 +5,12 @@
   "death_date": "2015-06-18",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Beloved son of the late Alfred “Alf” (1997) and Menota “Note” (Lockhart) Smith (1999). Dear brother and brother-in-law of Joan (Ben) Miller of 5 Seasons Estates, Bayfield, John Randy (Maggie) Smith of RR 2, Dashwood, Tom (Jane) Glavin of RR 1, Crediton. Roy will be remembered by his many nieces, nephews and their families. Predeceased by his sister Judy Glavin (1997). Roy was a Real Estate Agent serving the London Area.",
+  "bio": "Beloved son of the late Alfred “Alf” (1997) and Menota “Note” (Lockhart) Smith (1999). Dear brother and brother-in-law of Joan (Ben) Miller of 5 Seasons Estates, Bayfield, John Randy (Maggie) Smith of RR 2, Dashwood, Tom (Jane) Glavin of RR 1, Crediton. Roy will be remembered by his many nieces, nephews and their families. Predeceased by his sister Judy Glavin (1997). <br/><br/>Roy was a Real Estate Agent serving the London Area.",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2016/155/163913876_1465094656.jpg?size=photos250",
+  "image_credits": "BWin",
+  "image_credits_url": "/user/profile/48483226",
   "parents": [
     {
       "name": "Alfred \"Alf\"  Smith",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Judith Anne  Smith Glavin\", \"birth_date\": \"1950-00-00\", \"death_date\": \"1997-00-00\", \"profile_url\": \"/memorial/155106902/judith_anne-glavin\"}]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 984
 }

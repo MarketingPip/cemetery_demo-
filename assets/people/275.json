@@ -5,9 +5,12 @@
   "death_date": "1939-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/312/16581553_116313749073.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Frederick George   Finkbeiner\", \"birth_date\": \"1886-00-00\", \"death_date\": \"1910-00-00\", \"profile_url\": \"/memorial/16581582/frederick_george-finkbeiner\"}, {\"name\": \"Wesley P   Finkbeiner\", \"birth_date\": \"1894-00-00\", \"death_date\": \"1896-00-00\", \"profile_url\": \"/memorial/16581621/wesley_p-finkbeiner\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 11-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Mast",
+  "inscription": "",
   "id": 275
 }

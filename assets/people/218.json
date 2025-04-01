@@ -5,9 +5,12 @@
   "death_date": "1937-12-24",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "FAHNER\nGottlieb Fahner<br/>June 29, 1846-Dec. 24, 1937<br/>his wife<br/>Caroline Wein<br/>born Mar. 5, 1849<br/>died Jan. 25, 1914<br/>at rest</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/110/188037003_f3431229-2407-4a39-ad28-7403de09fca7.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Jacob   Fahner",
@@ -26,5 +29,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "3-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "FAHNERGottlieb FahnerJune 29, 1846-Dec. 24, 1937his wifeCaroline Weinborn Mar. 5, 1849died Jan. 25, 1914at rest",
   "id": 218
 }

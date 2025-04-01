@@ -5,9 +5,12 @@
   "death_date": "1943-09-18",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Alma was the daughter of Magdalena Braun/Brown, and Frederick Haist.",
   "bio": "MORLOCK\nAlma E. Haist<br/>1903-1943<br/>wife of Chester Gordon Morlock <br/>1902-1993<br/>his wife Alma I. Smith<br/>1903-2006<br/>(back)John N. Morlock<br/>1867-1951<br/>his wife Caroline M. Wuerth<br/>1872-1963</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/310/16539058_116290971009.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Frederick   Haist",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "row 9-9",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Haist",
+  "inscription": "MORLOCKAlma E. Haist1903-1943wife of Chester Gordon Morlock 1902-1993his wife Alma I. Smith1903-2006(back)John N. Morlock1867-1951his wife Caroline M. Wuerth1872-1963",
   "id": 722
 }

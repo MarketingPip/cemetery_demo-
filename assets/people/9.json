@@ -5,9 +5,12 @@
   "death_date": "1981-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "AVERILL\nIn loving memory of<br/>William Malcolm (Joe) Averill<br/>born 1912 died 1981<br/>his wife Marion Cora Layton<br/>born 1928 died 2009<br/>f.s. Jeremy Averill<br/>infant son of Don. &amp; Lucy<br/>May 6, 1975</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/84/188035505_3068c3d1-f8aa-465c-ba66-e94991608aca.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 24-5",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "AVERILLIn loving memory ofWilliam Malcolm (Joe) Averillborn 1912 died 1981his wife Marion Cora Laytonborn 1928 died 2009f.s. Jeremy Averillinfant son of Don. & LucyMay 6, 1975",
   "id": 9
 }

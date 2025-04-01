@@ -5,9 +5,12 @@
   "death_date": "1868-03-10",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Daughter: Johana C Fredricka \"Rachel\" Clemann (1831–1895)11 Jul 1831 • Hanover, Region Hannover, Lower Saxony, Germany",
+  "bio": "Daughter: Johana C Fredricka \"Rachel\" Clemann (1831–1895)<br/>11 Jul 1831 • Hanover, Region Hannover, Lower Saxony, Germany",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/51/188036151_6e0ab79f-879e-4c8c-88a1-c89622ff7eed.png?size=photos250",
+  "image_credits": "fly by - Sherry",
+  "image_credits_url": "/user/profile/47482982",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "6-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Fritch",
+  "inscription": "",
   "id": 133
 }

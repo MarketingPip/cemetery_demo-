@@ -5,9 +5,12 @@
   "death_date": "2002-05-21",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/116/239219476_2be999c7-27b6-47a1-842d-ef46f0c72c73.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Otto Nelson   Braun",
@@ -38,5 +41,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 20-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Braun",
+  "inscription": "",
   "id": 972
 }

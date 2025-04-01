@@ -5,9 +5,12 @@
   "death_date": "1907-01-28",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/110/98544142_f090952d-c789-4824-9a81-0fe8c83196f6.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Charles   Treitz\", \"birth_date\": \"1859-00-00\", \"death_date\": \"1943-00-00\", \"profile_url\": \"/memorial/98543051/charles-treitz\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 1- Lot 2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Finkbeiner",
+  "inscription": "",
   "id": 1063
 }

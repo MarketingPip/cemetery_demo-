@@ -5,9 +5,12 @@
   "death_date": "1883-02-01",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "STANLEY\nCharles s H. <br/>son of Robert &amp; Min Stanley<br/>died Feb. 1, 1883<br/>Aged 7 months 2 days</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/114/239188082_44e12c2f-a685-4500-a928-b6f3b969af48.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Robert   Stanley",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Almeda M.  Stanley Hewitt\", \"birth_date\": \"1876-00-00\", \"death_date\": \"1956-00-00\", \"profile_url\": \"/memorial/218880793/almeda_m-hewitt\"}, {\"name\": \"Alma Jane   Stanley\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1881-00-00\", \"profile_url\": \"/memorial/239188165/alma_jane-stanley\"}, {\"name\": \"Mary (Mae) Venetta  Stanley Stretton\", \"birth_date\": \"1880-00-00\", \"death_date\": \"1951-00-00\", \"profile_url\": \"/memorial/249616877/mary_(mae)_venetta-stretton\"}]",
+  "half_siblings": "[]",
+  "plot_value": "row 11-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "STANLEYCharles s H. son of Robert & Min Stanleydied Feb. 1, 1883Aged 7 months 2 days",
   "id": 1011
 }

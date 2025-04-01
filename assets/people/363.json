@@ -5,9 +5,12 @@
   "death_date": "1984-11-25",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Son of Mary (Amy) and George Finkbeiner",
   "bio": "FINKBEINER\nf.s. CAROL ANN  FATHER  MOTHER</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/241/15553640_115694407157.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "George Michael   Finkbeiner",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "FINKBEINERf.s. CAROL ANN  FATHER  MOTHER",
   "id": 363
 }

@@ -5,9 +5,12 @@
   "death_date": "2019-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "BOWMAN\nWilliam J. Bowman<br/>1864-1941<br/>Susan Wein His wife<br/>1868-1944<br/>Rodney Bowman<br/>1909-1990<br/>Jean Burchill His wife<br/>1922-2019</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/83/237920848_ce2fd796-a88d-4dba-8b49-2623394e60d4.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 17-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Burchill",
+  "inscription": "BOWMANWilliam J. Bowman1864-1941Susan Wein His wife1868-1944Rodney Bowman1909-1990Jean Burchill His wife1922-2019",
   "id": 70
 }

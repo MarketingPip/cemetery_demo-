@@ -5,9 +5,12 @@
   "death_date": "1947-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "BROWN\nIn memory of Adam Brown<br/>born Jan. 11, 1813-died July 22, 1869<br/>Margaret his wife<br/>born July 19, 1821-died May 15, 1906<br/>Adolph<br/>born Nov. 16, 1857-died Feb. 24, 1866<br/>(back)Charles <br/>born Mar. 11, 1863-died Dec. 24, 1893<br/>Wm. H. Brown<br/>1860-1947</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/112/188036013_48021f5d-695d-4f96-9bf2-036bd85ca7fb.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Adam   Brown",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Adolph   Brown\", \"birth_date\": \"1857-00-00\", \"death_date\": \"1866-00-00\", \"profile_url\": \"/memorial/188035776/adolph-brown\"}, {\"name\": \"Charles   Brown\", \"birth_date\": \"1863-00-00\", \"death_date\": \"1893-00-00\", \"profile_url\": \"/memorial/188035798/charles-brown\"}]",
+  "half_siblings": "[]",
+  "plot_value": "Row 7-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "BROWNIn memory of Adam Brownborn Jan. 11, 1813-died July 22, 1869Margaret his wifeborn July 19, 1821-died May 15, 1906Adolphborn Nov. 16, 1857-died Feb. 24, 1866(back)Charles born Mar. 11, 1863-died Dec. 24, 1893Wm. H. Brown1860-1947",
   "id": 120
 }

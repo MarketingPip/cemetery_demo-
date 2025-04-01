@@ -5,9 +5,12 @@
   "death_date": "1972-08-20",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "MARTIN\nBELOVED HUSBAND OF</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/84/188115149_0254d4ec-6f79-4e8f-9907-7c84ea9d1baa.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 22-9",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "MARTINBELOVED HUSBAND OF",
   "id": 702
 }

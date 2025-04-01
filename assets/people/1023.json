@@ -5,9 +5,12 @@
   "death_date": "1922-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Wife of Daniel Sweitzer",
   "bio": "EILBER\nMother<br/>Catherine <br/>wife of Christopher Eilber<br/>died July 20, 1919<br/>aged 86 yrs. 1 mon. 8 days<br/>Caroline <br/>wife of Daniel Sweitzer<br/>1864-1922</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/51/231230083_d21b70a1-32b4-4f8e-9984-fbc5d124d8b9.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Christopher Friederich   Eilber",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Jacob C. \\\"Jake\\\"  Eilber\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1953-00-00\", \"profile_url\": \"/memorial/79714327/jacob_c-eilber\"}, {\"name\": \"Emma  Eilber Uncer\", \"birth_date\": \"1875-00-00\", \"death_date\": \"1950-00-00\", \"profile_url\": \"/memorial/231230160/emma-uncer\"}]",
+  "half_siblings": "[]",
+  "plot_value": "5-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Eilber",
+  "inscription": "EILBERMotherCatherine wife of Christopher Eilberdied July 20, 1919aged 86 yrs. 1 mon. 8 daysCaroline wife of Daniel Sweitzer1864-1922",
   "id": 1023
 }

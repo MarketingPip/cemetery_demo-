@@ -5,9 +5,12 @@
   "death_date": "1919-11-04",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "John was born in Wurttemberg Germany, the son of Agnes (Klumpp) and John Wein. He married Leah Beaver Dec 2 1879 in Huron County, Ontario.",
   "bio": "WEIN\nIn memory of John G. Wein<br/>1851-1919<br/>his beloved wife Leah Beaver<br/>1859-1913<br/>their sons<br/>1888 Ezra 1924<br/>1883 Samuel 1949</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/298/16331552_116188210966.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Samuel   Wein\", \"birth_date\": \"1883-00-00\", \"death_date\": \"1949-00-00\", \"profile_url\": \"/memorial/16414070/samuel-wein\"}, {\"name\": \"Ezra   Wein\", \"birth_date\": \"1888-00-00\", \"death_date\": \"1924-00-00\", \"profile_url\": \"/memorial/16414049/ezra-wein\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "row 9-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "WEINIn memory of John G. Wein1851-1919his beloved wife Leah Beaver1859-1913their sons1888 Ezra 19241883 Samuel 1949",
   "id": 1126
 }

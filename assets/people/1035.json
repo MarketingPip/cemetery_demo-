@@ -5,9 +5,12 @@
   "death_date": "1960-05-14",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Daughter of Saloma (Schwartz) and William Gaiser, wife of Garnet Sweitzer",
   "bio": "Lillian Gaiser\nborn Oct. 19, 1891<br/>died May 14, 1960<br/>wife of Garnet W. Sweitzer<br/>born Jan 24, 1892<br/>died July 25, 1968</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/249/15650898_115764577456.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "2-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2022/23/236142988_1e50bc81-d172-496c-afcb-116e9ef1d7a9.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}]",
+  "maiden_name": "Gaiser",
+  "inscription": "Lillian Gaiserborn Oct. 19, 1891died May 14, 1960wife of Garnet W. Sweitzerborn Jan 24, 1892died July 25, 1968",
   "id": 1035
 }

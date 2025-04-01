@@ -5,9 +5,12 @@
   "death_date": "1906-09-14",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Wife of John Klumpp",
   "bio": "LAMPORT\nSamuel G. Lamport<br/>1867-1944<br/>his wife Margaret Klumpp<br/>1871-1970<br/>Edith Elvira their daughter<br/>1901-1903<br/>(back)KLUMPP<br/>John Klumpp<br/>1834-1923<br/>his wife Agnes C. Zuefle<br/>1935-1906</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/310/16539780_116291468571.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Margaret  Klumpp Lamport\", \"birth_date\": \"1871-00-00\", \"death_date\": \"1970-00-00\", \"profile_url\": \"/memorial/16539603/margaret-lamport\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 9-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Zuefle",
+  "inscription": "LAMPORTSamuel G. Lamport1867-1944his wife Margaret Klumpp1871-1970Edith Elvira their daughter1901-1903(back)KLUMPPJohn Klumpp1834-1923his wife Agnes C. Zuefle1935-1906",
   "id": 622
 }

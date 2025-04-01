@@ -5,9 +5,12 @@
   "death_date": "2009-10-14",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Willis Stanley Ecron Stewardson  At South Huron Hospital, Exeter on Wednesday, October 14, 2009 Willis Ecron Stewardson formerly of Crediton in his 69th year. Dear brother and brother-in-law of William and Esther Stewardson of Corbett, Glen Stewardson of Clinton, Bob Stewardson of St. Thomas, Cam and Theresa Stewardson of Exeter and Linda Wilson of Dorchester. Also missed by his nieces and nephews. Predeceased by his parents Willis and Lois Stewardson.Friends may call at the Haskett Funeral Home, 370 William Street, 1 west of Main, Exeter on Friday 2-4 and 7-9 PM. A family graveside service will be held at a later date. Cremation with interment Crediton Cemetery. Donations to the South Huron Hospital Foundation would be appreciated by the family",
+  "bio": "Willis Stanley Ecron Stewardson <br/> <br/>At South Huron Hospital, Exeter on Wednesday, October 14, 2009 Willis Ecron Stewardson formerly of Crediton in his 69th year. Dear brother and brother-in-law of William and Esther Stewardson of Corbett, Glen Stewardson of Clinton, Bob Stewardson of St. Thomas, Cam and Theresa Stewardson of Exeter and Linda Wilson of Dorchester. Also missed by his nieces and nephews. Predeceased by his parents Willis and Lois Stewardson.<br/><br/>Friends may call at the Haskett Funeral Home, 370 William Street, 1 west of Main, Exeter on Friday 2-4 and 7-9 PM. A family graveside service will be held at a later date. Cremation with interment Crediton Cemetery. Donations to the South Huron Hospital Foundation would be appreciated by the family<br/>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/86/44646061_91790266-7313-4a24-8ec5-cccdbc71d29a.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Willis Orval   Stewardson",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Glen Henry   Stewardson\", \"birth_date\": \"1943-00-00\", \"death_date\": \"2013-00-00\", \"profile_url\": \"/memorial/191737552/glen_henry-stewardson\"}]",
+  "half_siblings": "[{\"name\": \"William A. \\\"Bill\\\"  Stewardson\", \"birth_date\": \"1940-00-00\", \"death_date\": \"2015-00-00\", \"profile_url\": \"/memorial/191737488/william_a-stewardson\"}]",
+  "plot_value": "28-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 1020
 }

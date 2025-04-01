@@ -5,9 +5,12 @@
   "death_date": "",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2025/46/274279668_c2c86e2a-4496-4f86-8593-781092eed84a.jpeg?size=photos250",
+  "image_credits": "Murray",
+  "image_credits_url": "/user/profile/49421091",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Hayden",
+  "inscription": "",
   "id": 335
 }

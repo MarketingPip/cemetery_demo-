@@ -5,9 +5,12 @@
   "death_date": "1884-05-31",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "wife of Frederick Heitzmann",
   "bio": "HEITZMAN (old gray marble stone broken)\nIn memory of Dorothea Eilber<br/>wife of Frederick Heitzman<br/>died May 31, 1884<br/>Aged 39 years 16 days</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/112/239063998_969bfebe-527f-4c70-bec9-aacdf59ad701.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 7-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Eilber",
+  "inscription": "HEITZMAN (old gray marble stone broken)In memory of Dorothea Eilberwife of Frederick Heitzmandied May 31, 1884Aged 39 years 16 days",
   "id": 526
 }

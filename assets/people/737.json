@@ -5,9 +5,12 @@
   "death_date": "1878-09-01",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Son of Julius Morlock and Ellen Horne",
   "bio": "MORLOCK\nin memory of<br/>Julius Morlock<br/>born Oct. 6, 1839 died April 25, 1884<br/>George E. 'orlock<br/>born Nov. 29, 1877 died Sept. 1, 1878<br/>Mary Ellen Morlock<br/>born Jan. 9, 1882 died July 11, 1903<br/>children of the above<br/>(no wife for Julius on t.s)</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/260/15791519_115859140357.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Julius   Morlock",
@@ -19,5 +22,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"John Wallace   Morlock\", \"birth_date\": \"1863-00-00\", \"death_date\": \"1933-00-00\", \"profile_url\": \"/memorial/66781225/john_wallace-morlock\"}, {\"name\": \"Mary Ellen   Morlock\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1903-00-00\", \"profile_url\": \"/memorial/15791572/mary_ellen-morlock\"}]",
+  "half_siblings": "[]",
+  "plot_value": "row 1-5",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "MORLOCKin memory ofJulius Morlockborn Oct. 6, 1839 died April 25, 1884George E. 'orlockborn Nov. 29, 1877 died Sept. 1, 1878Mary Ellen Morlockborn Jan. 9, 1882 died July 11, 1903children of the above(no wife for Julius on t.s)",
   "id": 737
 }

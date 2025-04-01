@@ -5,9 +5,12 @@
   "death_date": "1961-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Son of Rebecca (Rosenberger) and George Humble. Percy was previously married to Emma Braun in 1907, she died in 1908. Then Percy married Minnie Finkbeiner in 1911",
+  "bio": "Son of Rebecca (Rosenberger) and George Humble. Percy was previously married to Emma Braun in 1907, she died in 1908. Then Percy married Minnie Finkbeiner in 1911",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/315/16627338_116339794094.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "George Whitfield   Humble",
@@ -38,5 +41,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 11-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 592
 }

@@ -1,16 +1,33 @@
 {
-  "memorial_url": "https://www.findagrave.com/memorial/188113462/elizabeth-kuhn",
-  "name": "Elizabeth Oestreicher Kuhn",
-  "birth_date": "1862-00-00",
-  "death_date": "1950-00-00",
+  "memorial_url": "https://www.findagrave.com/memorial/16330239/elizabeth-kuhn",
+  "name": "Elizabeth Sweitzer Kuhn",
+  "birth_date": "1853-02-17",
+  "death_date": "1902-11-24",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "Elizabeth Ostreicher\nwife of Conrad Kuhn<br/>1862-1950</br>",
+  "part_bio": "Daughter of Fredericka and Henry Sweitzer, wife of Conrad Kuhn.",
+  "bio": "KUHN\nCaroline L. Kuhn<br/>1884-1973<br/>daughter<br/>(back)Conrad Kuhn<br/>died June 15, 1933 aged 84 yrs. 2 mos.<br/>Elizabeth Sweitzer<br/>wife of Conrad Kuhn<br/>died Nov. 24, 1901<br/>aged 49 yrs. 9 mos.<br/>How desolate our home bereft of thee</br>",
   "gps": null,
-  "image_url": "https://images.findagrave.com/photos/2018/209/188113462_572c55f3-0bf3-460b-acf7-c315649eb554.jpeg?size=photos250",
+  "image_url": "https://images.findagrave.com/photos/2006/298/16330239_116187316032.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
-  "spouses": [],
-  "children": "[]",
+  "spouses": [
+    {
+      "name": "Conrad   Kuhn",
+      "birth_date": "1849-00-00",
+      "death_date": "1933-00-00",
+      "profile_url": "/memorial/16330196/conrad-kuhn"
+    }
+  ],
+  "children": "[{\"name\": \"Henry John   Kuhn\", \"birth_date\": \"1876-00-00\", \"death_date\": \"1943-00-00\", \"profile_url\": \"/memorial/15563798/henry_john-kuhn\"}, {\"name\": \"Samuel   Kuhn\", \"birth_date\": \"1881-00-00\", \"death_date\": \"1938-00-00\", \"profile_url\": \"/memorial/15554412/samuel-kuhn\"}, {\"name\": \"Caroline   Kuhn\", \"birth_date\": \"1884-00-00\", \"death_date\": \"1973-00-00\", \"profile_url\": \"/memorial/16330289/caroline-kuhn\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "row 8-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Sweitzer",
+  "inscription": "KUHNCaroline L. Kuhn1884-1973daughter(back)Conrad Kuhndied June 15, 1933 aged 84 yrs. 2 mos.Elizabeth Sweitzerwife of Conrad Kuhndied Nov. 24, 1901aged 49 yrs. 9 mos.How desolate our home bereft of thee",
   "id": 644
 }

@@ -5,9 +5,12 @@
   "death_date": "1989-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "SWEITZER(salmon granite stone)\nSamuel Sweitzer<br/>1915-1977<br/>his wife Ida A. Riard<br/>1923-1989<br/>(back)SWEITZER<br/>Brian Sweitzer <br/>1947-1981<br/>his wife Angela McAvany</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/214/15134824_115461705698.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 27-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Riard",
+  "inscription": "SWEITZER(salmon granite stone)Samuel Sweitzer1915-1977his wife Ida A. Riard1923-1989(back)SWEITZERBrian Sweitzer 1947-1981his wife Angela McAvany",
   "id": 1030
 }

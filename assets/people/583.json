@@ -5,9 +5,12 @@
   "death_date": "1913-07-23",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "HOLTZMANN\nMary Linhart<br/>wife of Geoge Holtzmann Sr.<br/>died Mar. 1, 1901<br/>aged 68 yrs. 10 mos. 27 days<br/>George Holtzmann Sr.<br/>died Sept. 13, 1908<br/>aged 85 yrs. 6 mos. 7 ds. <br/>George H. Holtzmann Jr.<br/>died July 23, 1913<br/>aged 55 yrs. 11 mos. 23 ds.<br/>Leah Haist his wife<br/>died Aug. 31, 1938<br/>aged 77 yrs. 2 mos.<br/>Emanuel Holtzmann<br/>died 17 Dec. 1885<br/>aged 26 yrs. 2 mos. 17 ds.<br/>Catherine Holtzmann<br/>died Feb. 1, 1894<br/>aged 30 yrs. 4 mos. 16 ds.<br/>Dewitt Harvey<br/>son of J.H. &amp; Ellen Holtzmann<br/>born July 13, 1893<br/>died Aug. 20, 1893</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/112/188113296_2b153783-f0e1-4fe7-a7c3-92fa04465ef9.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "George   Holtzmann Sr",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 7-5",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "HOLTZMANNMary Linhartwife of Geoge Holtzmann Sr.died Mar. 1, 1901aged 68 yrs. 10 mos. 27 daysGeorge Holtzmann Sr.died Sept. 13, 1908aged 85 yrs. 6 mos. 7 ds. George H. Holtzmann Jr.died July 23, 1913aged 55 yrs. 11 mos. 23 ds.Leah Haist his wifedied Aug. 31, 1938aged 77 yrs. 2 mos.Emanuel Holtzmanndied 17 Dec. 1885aged 26 yrs. 2 mos. 17 ds.Catherine Holtzmanndied Feb. 1, 1894aged 30 yrs. 4 mos. 16 ds.Dewitt Harveyson of J.H. & Ellen Holtzmannborn July 13, 1893died Aug. 20, 1893",
   "id": 583
 }

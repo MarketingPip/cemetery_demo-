@@ -5,9 +5,12 @@
   "death_date": "1960-09-10",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/83/176219048_51cba7cb-49a4-4239-bb2c-d7d4b35f2931.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "John   Fahner",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "20-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Fahner",
+  "inscription": "",
   "id": 873
 }

@@ -5,9 +5,12 @@
   "death_date": "1980-08-24",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "MITTON\nChester<br/>died 1980<br/>MITTON<br/>Christopher (baby)<br/>died 1981</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2021/191/188115206_6da3e3b4-aa0b-4a0c-8144-d30cfe828e40.jpeg?size=photos250",
+  "image_credits": "Charles Thompson",
+  "image_credits_url": "/user/profile/49543254",
   "parents": [
     {
       "name": "Thomas Pressley   Mitton",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[{\"name\": \"Helen Margaret  Mitton Vincent\", \"birth_date\": \"1955-00-00\", \"death_date\": \"2018-00-00\", \"profile_url\": \"/memorial/198655876/helen_margaret-vincent\"}, {\"name\": \"Christopher   Mitton\", \"birth_date\": null, \"death_date\": \"1981-00-00\", \"profile_url\": \"/memorial/236142295/christopher-mitton\"}]",
   "siblings": "[{\"name\": \"Elis 'Mervin'   Mitton\", \"birth_date\": \"1922-00-00\", \"death_date\": \"1995-00-00\", \"profile_url\": \"/memorial/213435864/elis_&#39;mervin&#39;-mitton\"}, {\"name\": \"PTE Orville Lamont   Mitton\", \"birth_date\": \"1925-00-00\", \"death_date\": \"1993-00-00\", \"profile_url\": \"/memorial/204089227/orville_lamont-mitton\"}, {\"name\": \"Stella May   Mitton\", \"birth_date\": \"1927-00-00\", \"death_date\": \"1927-00-00\", \"profile_url\": \"/memorial/191647510/stella_may-mitton\"}, {\"name\": \"Irvin Nolan   Mitton\", \"birth_date\": \"1931-00-00\", \"death_date\": \"1931-00-00\", \"profile_url\": \"/memorial/191658550/irvin_nolan-mitton\"}]",
+  "half_siblings": "[]",
+  "plot_value": "27-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "MITTONChesterdied 1980MITTONChristopher (baby)died 1981",
   "id": 718
 }

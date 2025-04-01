@@ -5,9 +5,12 @@
   "death_date": "1889-03-26",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "SCHROEDER\nIn Memory of <br/>Caroline Schroeder<br/>died Jan. 21, 1898<br/>aged 31 yrs. 7 mos. 21 ds.<br/>In Memory of Gideon Yaeger<br/>died Mar. 26, 1889<br/>Ae 29 yrs. 9 mos.<br/>John K. Schroeder <br/>1866-1944<br/>his wife Louise Wind<br/>1870-1952<br/>also 2 f.s<br/>John K. Schroeder<br/>1866-1944<br/>Louise Wind Schroeder<br/>1870-1952</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/111/188139398_bb1b42b6-db48-4544-90b3-da6586879aee.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Conrad   Jaeger",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "4-5",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "SCHROEDERIn Memory of Caroline Schroederdied Jan. 21, 1898aged 31 yrs. 7 mos. 21 ds.In Memory of Gideon Yaegerdied Mar. 26, 1889Ae 29 yrs. 9 mos.John K. Schroeder 1866-1944his wife Louise Wind1870-1952also 2 f.sJohn K. Schroeder1866-1944Louise Wind Schroeder1870-1952",
   "id": 1207
 }

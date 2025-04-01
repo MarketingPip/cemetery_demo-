@@ -5,9 +5,12 @@
   "death_date": "1949-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Husband to Mildred Klumpp",
+  "bio": "Husband to Mildred Klumpp",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/312/16581691_116313842739.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 11-5",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 577
 }

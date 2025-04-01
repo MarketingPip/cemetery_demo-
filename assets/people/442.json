@@ -5,9 +5,12 @@
   "death_date": "1970-10-24",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "The Huron Expositor - November 5, 1970Murray Edward Glanville of Crediton passed away on October 24 in his 21st year.  He was the son of Mrs. Stanley Preszcator and the late Frank Glanville.  He leaves to mourn his loss his mother, the former Shirley Regele, his step-father, brothers, Richard of Parkhill, David of Crediton, sisters Mrs. Philip (Muriel) Biernaskie of Kitchener, Mrs. Ron (Elaine) Foran of Blyth, Kathy, Lorna, Brenda and Barbie of Crediton, step-brothers Edward of Centralia, Larry and Wilfred of Stratford, step-sisters Tammy and Barbara of Crediton; his grandparents, Mr. and Mrs. Ed. Regele, great-grandmother Mrs. Joe Thornton and grandfather Harold Glanville of Manitoulin Island.  The funeral was held on Tuesday, October 27 from Hopper-Hockey funeral parlor in Exeter.  Burial was in Crediton cemetery with Rev. Rhude officiating.  Pallbearers were Russell Pfaff, Robert Haist, Leslie Jisney, John Rahner, Barry Bullock, and Donald Averill.",
   "bio": "GLANVILLE\nIn Loving Memory <br/>Murray E. Glanville<br/>1950-1970</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/112/188113101_aa419280-6880-4cb4-807b-861d4e3ef6ce.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Frank Adam   Glanville",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"David Leslie   Glanville\", \"birth_date\": \"1956-00-00\", \"death_date\": \"2024-00-00\", \"profile_url\": \"/memorial/263253992/david_leslie-glanville\"}]",
+  "half_siblings": "[]",
+  "plot_value": "5-9",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "GLANVILLEIn Loving Memory Murray E. Glanville1950-1970",
   "id": 442
 }

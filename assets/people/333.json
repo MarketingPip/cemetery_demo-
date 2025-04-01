@@ -5,9 +5,12 @@
   "death_date": "1970-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Daughter of Wilhelmina (Guenther) and Christian Fahrner, wife of Herbert Finkbeiner",
   "bio": "FINKBEINER\nRoy H. Finkbeiner<br/>1897-1990<br/>his wife Lily M. Fahrner<br/>1888-1970<br/>William Finkbeiner<br/>1858-1937<br/>his wife Mary Wein<br/>1871-1958<br/>Michael Finkbeiner<br/>born 25 Aug. 1825<br/>died 30 June 1892<br/>Barbara Finkbeiner<br/>born 28 Nov. 1828<br/>died 5 Dec. 1896<br/>Christian Finkbeiner<br/>born 12 Aug. 1849<br/>died 17 Aug. 1878<br/>aged 29 Jahre 5 tag.</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/273/15961917_115976179265.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "row 7-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Fahrner",
+  "inscription": "FINKBEINERRoy H. Finkbeiner1897-1990his wife Lily M. Fahrner1888-1970William Finkbeiner1858-1937his wife Mary Wein1871-1958Michael Finkbeinerborn 25 Aug. 1825died 30 June 1892Barbara Finkbeinerborn 28 Nov. 1828died 5 Dec. 1896Christian Finkbeinerborn 12 Aug. 1849died 17 Aug. 1878aged 29 Jahre 5 tag.",
   "id": 333
 }

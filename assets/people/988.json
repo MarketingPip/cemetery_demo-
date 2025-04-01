@@ -1,13 +1,16 @@
 {
   "memorial_url": "https://www.findagrave.com/memorial/151921397/george-smith",
-  "name": "Corporal George Smith   VVeteran",
+  "name": "Corporal George Smith   ",
   "birth_date": "1890-00-00",
   "death_date": "1918-12-31",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Military Service Number: 799941Age: 28 Enlisted with the 134th Battalion (48th Highlanders)transferred to the  15th Battalion (48th Highlanders) Son of William and Nancy Smith, of Dashwood, Ont.Commemorated on Page 502 of the First World War Book of Remembrance. Request a copy of this page.",
   "bio": "YOUR LIFE FOR YOUR COUNTRY YOU NOBLY GAVE <br/>AT REST",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/78/151921397_74bfbfd3-fa9e-4343-a324-ae5275ea31ae.png?size=photos250",
+  "image_credits": "Operation:PictureMe",
+  "image_credits_url": "/user/profile/47833248",
   "parents": [
     {
       "name": "William   Smith",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 14-1",
+  "title": "Veteran",
+  "prefix": "Corporal",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2021/154/151921397_8d56045c-deba-43a5-8304-cbaa0c8c7f47.jpeg?size=photos250', 'contributor_text': 'Kathleen Hodgins', 'contributor_href': 'https://www.findagrave.com/user/profile/47390529'}, {'src': 'https://images.findagrave.com/photos/2021/213/151921397_649d711c-bc22-460b-882d-12e23613033a.png?size=photos250', 'contributor_text': 'Operation:PictureMe', 'contributor_href': 'https://www.findagrave.com/user/profile/47833248'}, {'src': 'https://images.findagrave.com/photos/2017/240/151921397_1503930405659.png?size=photos250', 'contributor_text': 'Operation:PictureMe', 'contributor_href': 'https://www.findagrave.com/user/profile/47833248'}, {'src': 'https://images.findagrave.com/photos/2022/116/151921397_d1c2f0ef-4a40-45e2-a563-7c0e49dc88ea.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}]",
+  "maiden_name": "",
+  "inscription": "YOUR LIFE FOR YOUR COUNTRY YOU NOBLY GAVE AT REST",
   "id": 988
 }

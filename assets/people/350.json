@@ -5,9 +5,12 @@
   "death_date": "1969-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Son of Margaret (Waugh) and Alfred Finkbeiner",
+  "bio": "Son of Margaret (Waugh) and Alfred Finkbeiner",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/249/15649211_115763286677.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Randy Albert   Finkbeiner\", \"birth_date\": \"1955-00-00\", \"death_date\": \"1988-00-00\", \"profile_url\": \"/memorial/15649238/randy_albert-finkbeiner\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 13-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 350
 }

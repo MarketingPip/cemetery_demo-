@@ -5,9 +5,12 @@
   "death_date": "1919-11-05",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "WEIN\nGodfried Wein<br/>died Sept. 14, 1916<br/>aged 82 yrs. 1 mo. 2 ds.<br/>There are no partings in heaven<br/>Agnes his wife<br/>died Nov. 5, 1919<br/>aged 84 yrs. 8 ms. 28 ds.<br/>John George<br/>son of Godfried &amp; Agnes Wein<br/>died May 6, 1889<br/>aged 25 yrs. 9 mos. 6 ds.<br/>(back)Paul Schink <br/>1854-1939<br/>his wife Wilhelmina Wein<br/>1863-1943<br/>their son Herbert<br/>1896-1979</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/113/189806364_e6d0e932-1493-4992-81c5-6e89ba18dde3.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Jacob   Fahner",
@@ -26,5 +29,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "row 8-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2018/137/189806364_4da55b95-5f0f-449a-832e-802e05818f7a.jpeg?size=photos250', 'contributor_text': 'Jean and Frank Andreae', 'contributor_href': 'https://www.findagrave.com/user/profile/48371821'}]",
+  "maiden_name": "Fahner",
+  "inscription": "WEINGodfried Weindied Sept. 14, 1916aged 82 yrs. 1 mo. 2 ds.There are no partings in heavenAgnes his wifedied Nov. 5, 1919aged 84 yrs. 8 ms. 28 ds.John Georgeson of Godfried & Agnes Weindied May 6, 1889aged 25 yrs. 9 mos. 6 ds.(back)Paul Schink 1854-1939his wife Wilhelmina Wein1863-1943their son Herbert1896-1979",
   "id": 1106
 }

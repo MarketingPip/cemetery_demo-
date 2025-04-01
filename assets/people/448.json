@@ -5,9 +5,12 @@
   "death_date": "1971-10-31",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "f.s. FATHER MOTHER",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/84/188113123_ec2a6bc1-5345-4050-a756-128601e5e55f.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 13-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Wein",
+  "inscription": "f.s. FATHER MOTHER",
   "id": 448
 }

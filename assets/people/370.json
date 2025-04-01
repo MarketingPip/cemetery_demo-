@@ -5,9 +5,12 @@
   "death_date": "1937-03-14",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Son of Barbara (Haist) and Michael Finkbeiner, husband to Mary Wein",
+  "bio": "Son of Barbara (Haist) and Michael Finkbeiner, husband to Mary Wein",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/273/15961995_115976214651.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Michael   Finkbeiner",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 370
 }

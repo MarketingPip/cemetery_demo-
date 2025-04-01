@@ -5,9 +5,12 @@
   "death_date": "1894-02-24",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "Infant son (no name)\nof Christian &amp; Amelia Beaver<br/>died Feb. 24, 1894<br/>Aged 18 days</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/111/236912036_ced5b741-6e9e-48fb-b29b-43e523d6bce0.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Christian   Beaver",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "4-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "Infant son (no name)of Christian & Amelia Beaverdied Feb. 24, 1894Aged 18 days",
   "id": 37
 }

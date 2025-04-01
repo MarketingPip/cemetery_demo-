@@ -5,9 +5,12 @@
   "death_date": "2003-09-14",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Son of Barbara (Witzel) and Alex Neeb",
+  "bio": "Son of Barbara (Witzel) and Alex Neeb",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/213/15117508_115452463653.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Alex   Neeb",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 785
 }

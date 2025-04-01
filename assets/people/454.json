@@ -5,9 +5,12 @@
   "death_date": "1986-08-25",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Son of Mary (Pfaff) and Issac Gower",
+  "bio": "Son of Mary (Pfaff) and Issac Gower",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/242/15563013_115703062900.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Isaac Henry   Gower",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 454
 }

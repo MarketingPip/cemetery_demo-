@@ -5,9 +5,12 @@
   "death_date": "1934-01-01",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/247/15625212_115747145744.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "George   Finkbeiner",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Harrington Edward   Finkbeiner\", \"birth_date\": \"1897-00-00\", \"death_date\": \"1946-00-00\", \"profile_url\": \"/memorial/15049566/harrington_edward-finkbeiner\"}]",
+  "half_siblings": "[]",
+  "plot_value": "Row 15-5",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 355
 }

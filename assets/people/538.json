@@ -5,9 +5,12 @@
   "death_date": "1987-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "f.s. ZEEN WESLEY",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/83/188113210_7ad62dc5-a1fc-42a9-aef1-37f39cc7ac3f.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 22-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "f.s. ZEEN WESLEY",
   "id": 538
 }

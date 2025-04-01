@@ -5,9 +5,12 @@
   "death_date": "1984-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/116/188139264_3f17ba7b-8190-4f4e-836c-4f8a766fe12b.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -25,5 +28,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 18-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Kenney",
+  "inscription": "",
   "id": 1161
 }

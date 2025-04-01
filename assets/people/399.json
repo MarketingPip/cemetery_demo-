@@ -5,9 +5,12 @@
   "death_date": "1899-07-30",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/116/188113009_42efb452-4909-4dd6-ab9d-c790c1ea5d24.jpeg?size=photos250",
+  "image_credits": "Lorelei (Lorie), Louise...",
+  "image_credits_url": "/user/profile/50355487",
   "parents": [
     {
       "name": "Adam   Gaiser",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 12-9",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 399
 }

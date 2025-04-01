@@ -5,9 +5,12 @@
   "death_date": "1931-10-04",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Son of Michael & Barbara GaiserMarried Wilhelmine Guenther at Stephen Township, Ontario on July 20, 1875",
   "bio": "small gray marble",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/115/228334191_1cf59448-4c68-47b6-b2bf-d957103e4db4.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Lydia   Gaiser\", \"birth_date\": \"1889-00-00\", \"death_date\": \"1897-00-00\", \"profile_url\": \"/memorial/239213966/lydia-gaiser\"}, {\"name\": \"Wilbert J.   Gaiser\", \"birth_date\": \"1892-00-00\", \"death_date\": \"1920-00-00\", \"profile_url\": \"/memorial/188113079/wilbert_j-gaiser\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 12-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "small gray marble",
   "id": 402
 }

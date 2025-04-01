@@ -5,9 +5,12 @@
   "death_date": "1984-05-13",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Son of Anna Mary (Wein) and William Finkbeiner",
   "bio": "FINKBEINER (gray granite stone)\nLorne Rueben<br/>May 23, 1901-May 13, 1984<br/>his beloved wife Laura E. England<br/>July 15, 1907-Nov. 10, 1994</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/213/15126012_115458150757.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "William   Finkbeiner",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 28-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "FINKBEINER (gray granite stone)Lorne RuebenMay 23, 1901-May 13, 1984his beloved wife Laura E. EnglandJuly 15, 1907-Nov. 10, 1994",
   "id": 337
 }

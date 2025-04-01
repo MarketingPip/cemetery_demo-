@@ -5,9 +5,12 @@
   "death_date": "1958-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Daughter of Fredericka (Prochl) and Gottfried Mangnus",
+  "bio": "Daughter of Fredericka (Prochl) and Gottfried Mangnus",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/219/15187523_115505307742.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 21-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Mangnus",
+  "inscription": "",
   "id": 1025
 }

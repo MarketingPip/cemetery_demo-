@@ -5,9 +5,12 @@
   "death_date": "1946-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Daughter of Carolina (Wolf) and Christian Finkbeiner",
+  "bio": "Daughter of Carolina (Wolf) and Christian Finkbeiner",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/315/16627307_116339738472.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Christian F   Finkbeiner",
@@ -26,5 +29,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 11-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Finkbeiner",
+  "inscription": "",
   "id": 591
 }

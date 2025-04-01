@@ -5,9 +5,12 @@
   "death_date": "2001-10-06",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/182/188036061_767bc176-62cd-467f-b3e8-582355cc96d0.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Isaac Henry   Gower",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 21-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Gower",
+  "inscription": "",
   "id": 127
 }

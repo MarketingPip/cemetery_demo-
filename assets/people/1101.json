@@ -5,9 +5,12 @@
   "death_date": "1939-10-12",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "IN HEAVEN WE PART NO MORE",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2018/209/188138551_9710f6ca-6935-45cd-9aee-55b327f633e8.jpeg?size=photos250",
+  "image_credits": "rossddickson",
+  "image_credits_url": "/user/profile/49188008",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 16-5",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "IN HEAVEN WE PART NO MORE",
   "id": 1101
 }

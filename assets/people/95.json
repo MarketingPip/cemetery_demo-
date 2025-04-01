@@ -5,9 +5,12 @@
   "death_date": "1904-01-07",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "WEIN\nLouis Wein<br/>died Sept. 6, 1911<br/>aged 88 yrs. 2 mos.<br/>his wife Elizabeth Brown<br/>1855-1942<br/>David Brown<br/>died Jan. 7, 1904<br/>aged 86 ys, 4 mos. 17 ds.<br/>Christina Klumpp<br/>wife of David Brown<br/>died Mar. 7, 1902<br/>aged 82 yrs. 3 mos.</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/112/188035812_698301d3-3d04-4456-9283-1a048de72847.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 7-9",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "WEINLouis Weindied Sept. 6, 1911aged 88 yrs. 2 mos.his wife Elizabeth Brown1855-1942David Browndied Jan. 7, 1904aged 86 ys, 4 mos. 17 ds.Christina Klumppwife of David Browndied Mar. 7, 1902aged 82 yrs. 3 mos.",
   "id": 95
 }

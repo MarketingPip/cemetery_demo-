@@ -5,9 +5,12 @@
   "death_date": "1973-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Son of Emma (Finkbeiner) and Henry Charles Beaver. He lived in Hamilton where he is engaged in the construction business.",
+  "bio": "Son of Emma (Finkbeiner) and Henry Charles Beaver. He lived in Hamilton where he is engaged in the construction business.",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/241/15554293_115694966459.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Henry Charles   Beaver",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Eugene Harry   Beaver\", \"birth_date\": \"1916-00-00\", \"death_date\": \"1988-00-00\", \"profile_url\": \"/memorial/18593245/eugene_harry-beaver\"}]",
+  "half_siblings": "[]",
+  "plot_value": "Row 18-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 26
 }

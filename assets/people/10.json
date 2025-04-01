@@ -5,9 +5,12 @@
   "death_date": "2012-12-18",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Beloved husband of Margaret Mary “Peggy” (Noonan) Barrett. Loved father and father-in-law of Patricia “Pat” and Joe Glavin of RR 1, Crediton, Kevin and Pauline Barrett of Centralia and Joe Barrett of Crediton. Loving grandpa of Christine Glavin-Joiner and husband Sean, Colleen and husband Matt Anstett, Katie Glavin (Cody), Lindsay Barrett (Jared), Kaylee Barrett (Josh), Becky Barrett (Kaleb) and Kerri Barrett, loving great-grandpa of Aidan and Ryan. Dear brother and brother-in-law of Rita Gregory of South Beloit, IL. and Paddy and Myra Barrett of Ireland, Remembered by his nieces, nephews and their families. He will be deeply missed by all. Predeceased by sisters Mary Rehob and Phyllis McKay.Joe was a long time employee of Waugh & McKewn of London and Dashwood Industries.",
+  "bio": "Beloved husband of Margaret Mary “Peggy” (Noonan) Barrett. Loved father and father-in-law of Patricia “Pat” and Joe Glavin of RR 1, Crediton, Kevin and Pauline Barrett of Centralia and Joe Barrett of Crediton. Loving grandpa of Christine Glavin-Joiner and husband Sean, Colleen and husband Matt Anstett, Katie Glavin (Cody), Lindsay Barrett (Jared), Kaylee Barrett (Josh), Becky Barrett (Kaleb) and Kerri Barrett, loving great-grandpa of Aidan and Ryan. Dear brother and brother-in-law of Rita Gregory of South Beloit, IL. and Paddy and Myra Barrett of Ireland, Remembered by his nieces, nephews and their families. He will be deeply missed by all. Predeceased by sisters Mary Rehob and Phyllis McKay.<br/><br/>Joe was a long time employee of Waugh &amp; McKewn of London and Dashwood Industries.",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2016/162/164498762_1465689477.jpg?size=photos250",
+  "image_credits": "BWin",
+  "image_credits_url": "/user/profile/48483226",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 10
 }

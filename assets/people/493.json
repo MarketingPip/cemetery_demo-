@@ -5,9 +5,12 @@
   "death_date": "1983-12-12",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Daughter of Henrietta (Grube) and Louis Willert",
+  "bio": "Daughter of Henrietta (Grube) and Louis Willert",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/244/15580408_115720194352.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Helen Louisa  Haist Jones Wasnidge\", \"birth_date\": \"1926-00-00\", \"death_date\": \"2014-00-00\", \"profile_url\": \"/memorial/38801701/helen_louisa-jones_wasnidge\"}, {\"name\": \"Eleanor   Haist\", \"birth_date\": \"1929-00-00\", \"death_date\": \"1936-00-00\", \"profile_url\": \"/memorial/15580421/eleanor-haist\"}, {\"name\": \"Roy Allen   Haist\", \"birth_date\": \"1931-00-00\", \"death_date\": \"1931-00-00\", \"profile_url\": \"/memorial/15580428/roy_allen-haist\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 15-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Willert",
+  "inscription": "",
   "id": 493
 }

@@ -5,9 +5,12 @@
   "death_date": "1896-02-15",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "MELLIN\nIn Memory of Henry Mellin<br/>died Feb. 15, 1896 aged 67 yrs.<br/>his wife Sophia<br/>died June 1, 1906 aged 71 yrs.</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/110/188115179_5860c588-fa66-4c39-95dd-880ae4e3df50.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "2-5",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "MELLINIn Memory of Henry Mellindied Feb. 15, 1896 aged 67 yrs.his wife Sophiadied June 1, 1906 aged 71 yrs.",
   "id": 710
 }

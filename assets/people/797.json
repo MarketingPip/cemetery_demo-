@@ -5,9 +5,12 @@
   "death_date": "1954-01-16",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/84/188115340_a991b67e-c998-400c-b079-f490699e4e1f.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "James Henry   Lane",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "19-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Lane",
+  "inscription": "",
   "id": 797
 }

@@ -5,9 +5,12 @@
   "death_date": "1892-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/115/239203831_925be5ee-c3dd-4f55-a454-d8b3b0412641.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "William B.   Gaiser",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Borden L.   Gaiser\", \"birth_date\": \"1911-00-00\", \"death_date\": \"1973-00-00\", \"profile_url\": \"/memorial/188037502/borden_l-gaiser\"}]",
+  "half_siblings": "[]",
+  "plot_value": "Row 12-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 393
 }

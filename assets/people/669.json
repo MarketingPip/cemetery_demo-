@@ -5,9 +5,12 @@
   "death_date": "1934-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Parents: John Brown and Bertha Malin",
+  "bio": "Parents: John Brown and Bertha Malin",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/112/188114931_6af6546a-db86-446f-9fa5-01cdd97b29d1.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -25,5 +28,12 @@
   ],
   "children": "[{\"name\": \"Myrtle  Lawson Sansone\", \"birth_date\": \"1901-00-00\", \"death_date\": \"1960-00-00\", \"profile_url\": \"/memorial/188136633/myrtle-sansone\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 8-8",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Brown",
+  "inscription": "",
   "id": 669
 }

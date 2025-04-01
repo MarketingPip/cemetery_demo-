@@ -5,9 +5,12 @@
   "death_date": "1974-11-09",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Wife of Alfred Tilley whom she married on Nov 10, 1927. Daughter of F. William Witzel and Mary Anne Finkbeiner.",
   "bio": "REST IN PEACE",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/83/46111142_39cfe801-d840-4103-a45d-b09fc5087a09.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Frederich Wilhelm \"Bill\"  Witzel",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 22-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Witzel",
+  "inscription": "REST IN PEACE",
   "id": 1060
 }

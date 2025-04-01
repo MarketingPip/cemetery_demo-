@@ -5,9 +5,12 @@
   "death_date": "1905-04-01",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Son of Lucy (Heywood) and Josiah Motz",
   "bio": "MOTZ\nBUDDED ON EARTH TO BLOOM IN HEAVEN<br/>Trueman Uriah<br/>son of J.S. &amp; L. Motz<br/>born Jan. 1, 1904<br/>died April 1, 1905<br/>Josiah Motz<br/>born 1874<br/>died 1944<br/>his wife Lucy E. Heywood<br/>born 1876<br/>died 1948<br/>MOTZ<br/>Henry Motz<br/>born May 10, 1834<br/>died Feb. 13, 1913<br/>his wife Wilhelimina<br/>born Sept. 28, 1837<br/>died Aug. 18, 1881<br/>his wife Elizabeth<br/>born Oct. 27, 1847<br/>died Dec. 27, 1888<br/>May they rest in peace</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/254/15708060_115807371494.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Josiah S.   Motz",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "2-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "MOTZBUDDED ON EARTH TO BLOOM IN HEAVENTrueman Uriahson of J.S. & L. Motzborn Jan. 1, 1904died April 1, 1905Josiah Motzborn 1874died 1944his wife Lucy E. Heywoodborn 1876died 1948MOTZHenry Motzborn May 10, 1834died Feb. 13, 1913his wife Wilheliminaborn Sept. 28, 1837died Aug. 18, 1881his wife Elizabethborn Oct. 27, 1847died Dec. 27, 1888May they rest in peace",
   "id": 774
 }

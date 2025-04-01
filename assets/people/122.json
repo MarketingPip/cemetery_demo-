@@ -5,9 +5,12 @@
   "death_date": "",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Born in Nova Scotia, the daughter of Edward Ernest Killen and Anna Bertha Ramsey of Gay' River, Nova Scotia. Her older brother George was born in 1922 and her younger brother Albert was born in 1926.  She leaves her son Charles \"Charlie\" and Doreen Browning of Crediton, Allen \"Al\" and Linda Browning of White Rock, BC., Lee and Susan Browning of Edmonton as well as her husband Charles \"Chuck\" Edward Browning.",
+  "bio": "Born in Nova Scotia, the daughter of Edward Ernest Killen and Anna Bertha Ramsey of Gay' River, Nova Scotia. Her older brother George was born in 1922 and her younger brother Albert was born in 1926.  She leaves her son Charles \"Charlie\" and Doreen Browning of Crediton, Allen \"Al\" and Linda Browning of White Rock, BC., Lee and Susan Browning of Edmonton as well as her husband Charles \"Chuck\" Edward Browning.",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/86/113519581_81d139b8-5111-44ba-9e89-a42e2433cfa0.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 122
 }

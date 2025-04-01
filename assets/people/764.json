@@ -5,9 +5,12 @@
   "death_date": "1969-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "married to A. Grace Baguley",
   "bio": "MOTLEY",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/115/188115236_6c9873ee-89a2-451d-8f4f-c8eacb160db1.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 24-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "MOTLEY",
   "id": 764
 }

@@ -5,9 +5,12 @@
   "death_date": "1949-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Daughter of Caroline (Wolf) and Christian Finkbeiner",
+  "bio": "Daughter of Caroline (Wolf) and Christian Finkbeiner",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/317/16656106_116356751407.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Christian F   Finkbeiner",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Elizabeth M  Finkbeiner Goetz\", \"birth_date\": \"1876-00-00\", \"death_date\": \"1958-00-00\", \"profile_url\": \"/memorial/16627319/elizabeth_m-goetz\"}, {\"name\": \"Minnie Amelia \\\"Mena\\\" Finkbeiner Humble\", \"birth_date\": \"1879-00-00\", \"death_date\": \"1946-00-00\", \"profile_url\": \"/memorial/16627307/minnie_amelia-humble\"}]",
+  "half_siblings": "[]",
+  "plot_value": "Row 11-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 284
 }

@@ -5,9 +5,12 @@
   "death_date": "2021-12-29",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2023/216/235445900_151e994e-76ac-458b-a03d-602f8be695c3.jpeg?size=photos250",
+  "image_credits": "Slick",
+  "image_credits_url": "/user/profile/50973252",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "19-13",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 475
 }

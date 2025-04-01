@@ -5,9 +5,12 @@
   "death_date": "1942-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "FAHNER\nJohn Fahner<br/>1854-1942<br/>his wife Catherine Gaiser<br/>1859-1936<br/>their son<br/>Edwin<br/>1892-1959<br/>their daughter Pearl<br/>1894-1970<br/>Tobias Fahner Sr.<br/>died June 1, 1903<br/>aged 83 yrs. 7 mos. 15 ds.<br/>his wife Margretha<br/>died Jan. 15, 1862 aged 37 yrs.</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/117/176230513_a74eb40b-f91e-4100-9f76-fc1f6305bf9d.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Tobias   Fahner Sr",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "row 7-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "FAHNERJohn Fahner1854-1942his wife Catherine Gaiser1859-1936their sonEdwin1892-1959their daughter Pearl1894-1970Tobias Fahner Sr.died June 1, 1903aged 83 yrs. 7 mos. 15 ds.his wife Margrethadied Jan. 15, 1862 aged 37 yrs.",
   "id": 223
 }

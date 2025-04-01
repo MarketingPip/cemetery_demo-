@@ -5,9 +5,12 @@
   "death_date": "2004-12-20",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "HIRTZEL: Peacefully, at Exeter Villa, Monday, December 20, 2004, Henry \"Harry\" Donald Hirtzel, 90, formerly of Crediton. Lovingly remembered by his nieces, nephews and their families. Predeceased by brothers Laurence and Maurice Hirtzel, sisters Laurene Wein and Dorothy Renney. Resting at the T. Harry Hoffman & Sons Funeral Home, Dashwood, with visitation Wednesday 3 to 5 p.m. and 7 to 9 p.m.; where the Funeral Service will be held Thursday, December 23, 2004 at 11 a.m. The Rev. Sheila Macgregor officiating. Interment Crediton Cemetery. If desired, memorial donations Zion United Church, Crediton or charity of choice would be appreciated. Harry and his brother Maurice were Registered Horned Hereford breeders and herdsmen, farming on the family homestead, south of Crediton.",
+  "bio": "HIRTZEL: Peacefully, at Exeter Villa, Monday, December 20, 2004, Henry \"Harry\" Donald Hirtzel, 90, formerly of Crediton. Lovingly remembered by his nieces, nephews and their families. Predeceased by brothers Laurence and Maurice Hirtzel, sisters Laurene Wein and Dorothy Renney. Resting at the T. Harry Hoffman &amp; Sons Funeral Home, Dashwood, with visitation Wednesday 3 to 5 p.m. and 7 to 9 p.m.; where the Funeral Service will be held Thursday, December 23, 2004 at 11 a.m. The Rev. Sheila Macgregor officiating. Interment Crediton Cemetery. If desired, memorial donations Zion United Church, Crediton or charity of choice would be appreciated. Harry and his brother Maurice were Registered Horned Hereford breeders and herdsmen, farming on the family homestead, south of Crediton.<br/>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/116/41012852_e78f6232-57a1-48d8-a51d-66d142fcb6ac.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "John T.   Hirtzel",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Maurice C.   Hirtzel\", \"birth_date\": \"1916-00-00\", \"death_date\": \"1983-00-00\", \"profile_url\": \"/memorial/188113242/maurice_c-hirtzel\"}]",
+  "half_siblings": "[]",
+  "plot_value": "Row 17-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 550
 }

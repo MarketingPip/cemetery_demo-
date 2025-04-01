@@ -5,9 +5,12 @@
   "death_date": "1962-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "FAHNER\nCharles C. Fahner<br/>born 1876 died 1921<br/>Albert P. Fahner<br/>born 1884 died 1962<br/>his wife, Minnie Triebner<br/>born 1885 died 1965</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/110/188036893_c5f84387-be32-4a46-af4e-a5d05863a32a.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Tobias   Fahner",
@@ -26,5 +29,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "2-11",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "FAHNERCharles C. Fahnerborn 1876 died 1921Albert P. Fahnerborn 1884 died 1962his wife, Minnie Triebnerborn 1885 died 1965",
   "id": 209
 }

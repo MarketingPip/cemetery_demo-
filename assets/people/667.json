@@ -5,9 +5,12 @@
   "death_date": "1858-10-20",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "The Lang family was part of the Evangelical church in Crediton. According to the Huron County Branch, O.G.S., \"The original log church of Crediton Evangelical congregation was where the Zion United Church now stands in the village of Crediton. A frame church was later built on same site. Still later a small brick church was erected. The present brick church was built in 1864. The first cemetery of this congregation was beside the churches at the village location, but stones were moved in 1868 to the present cemetery site.\"\"Sister Margaretha Lang, wife of Jacob Lang, died in childbed on 20 October, in Stephen Twp., C.W., at the age of 38 yrs., 10 mo.  About 5 years ago she was converted and joined the Evangelical Community and she was a respected member until the End.  She leaves a griefstricken husband and four children, the youngest of who soon followed her.  May she have eternal rest.  Joh. Stabler\"--obituary translated from Der Christliche Botschafter, Jan. 15, 1859. This was the German newspaper of the Evangelical Association.Margaret and her husband Jacob Lang had four known children: Mary Magdalene (Cornelia) Lang  Crawford (almost 5 yrs. old when her mother died), Catherine (Kate) Lang Jackson (almost 4 yrs. old), Christine Lang (about 3 yrs. old and who died about 1861), and the baby who died shortly after Margaret did.It is believed that Peter Hoffman, who is also buried in Crediton Cemetery, was Margaret's brother. Another sibling is thought to be Christian Hoffman, who married Jacob Lang's sister, Christina.",
+  "bio": "The Lang family was part of the Evangelical church in Crediton. According to the Huron County Branch, O.G.S., \"The original log church of Crediton Evangelical congregation was where the Zion United Church now stands in the village of Crediton. A frame church was later built on same site. Still later a small brick church was erected. The present brick church was built in 1864. The first cemetery of this congregation was beside the churches at the village location, but stones were moved in 1868 to the present cemetery site.\"<br/><br/>\"Sister Margaretha Lang, wife of Jacob Lang, died in childbed on 20 October, in Stephen Twp., C.W., at the age of 38 yrs., 10 mo.  About 5 years ago she was converted and joined the Evangelical Community and she was a respected member until the End.  She leaves a griefstricken husband and four children, the youngest of who soon followed her.  May she have eternal rest.  Joh. Stabler\"<br/>--obituary translated from Der Christliche Botschafter, Jan. 15, 1859. This was the German newspaper of the Evangelical Association.<br/><br/>Margaret and her husband Jacob Lang had four known children: Mary Magdalene (Cornelia) Lang  Crawford (almost 5 yrs. old when her mother died), Catherine (Kate) Lang Jackson (almost 4 yrs. old), Christine Lang (about 3 yrs. old and who died about 1861), and the baby who died shortly after Margaret did.<br/><br/>It is believed that Peter Hoffman, who is also buried in Crediton Cemetery, was Margaret's brother. Another sibling is thought to be Christian Hoffman, who married Jacob Lang's sister, Christina.",
   "gps": null,
   "image_url": "",
+  "image_credits": "",
+  "image_credits_url": "",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Cornelia  Lang Crawford\", \"birth_date\": \"1853-00-00\", \"death_date\": \"1903-00-00\", \"profile_url\": \"/memorial/69052561/cornelia-crawford\"}, {\"name\": \"Kate  Lang Jackson\", \"birth_date\": \"1854-00-00\", \"death_date\": \"1934-00-00\", \"profile_url\": \"/memorial/70082590/kate-jackson\"}, {\"name\": \"Christine   Lang\", \"birth_date\": \"1855-00-00\", \"death_date\": \"1861-00-00\", \"profile_url\": \"/memorial/133441240/christine-lang\"}, {\"name\": \"Infant   Lang\", \"birth_date\": \"1858-00-00\", \"death_date\": \"1858-00-00\", \"profile_url\": \"/memorial/133559629/infant-lang\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Grave unmarked. Please see notes below regarding burial.",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Hoffman",
+  "inscription": "",
   "id": 667
 }

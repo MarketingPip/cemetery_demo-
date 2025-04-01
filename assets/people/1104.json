@@ -5,9 +5,12 @@
   "death_date": "2001-08-17",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Son of Mabel (Battler) and Daniel Weber",
+  "bio": "Son of Mabel (Battler) and Daniel Weber",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/241/15553556_115694319520.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Robert Larry   Weber\", \"birth_date\": \"1954-00-00\", \"death_date\": \"1954-00-00\", \"profile_url\": \"/memorial/188138569/robert_larry-weber\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 1104
 }

@@ -5,9 +5,12 @@
   "death_date": "2002-01-01",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "LAMPORT: Peacefully, at Stratford General Hospital, on Tuesday, January 1, 2002, Lloyd Samuel Lamport of R. R. #2, Crediton, in his 87th year. Beloved husband of the late Elva Bernice (Turnbull) Lamport (1994). Loved father of Dennis and Marilyn Lamport of R. R. #2, Crediton. Dear Papa of Gerald and Kimberly Lamport of London, Joelle and Ray Lewis of Goderich, Christine and Shannon Houston of Crediton. Loving great-grandpa of Kyra and Bryn Lewis, Sarah and Jessica Houston. Loved brother of Zella Vaughan of Long Beach, California and uncle of Gayle and Roland Bumler of Detroit. Predeceased by his sisters Edith, Eileen, Marguerite, Thelma, Agnes, parents Samuel and Margaret (Ziefley) Lamport. Resting at the T. Harry Hoffman & Sons Funeral Home, Dashwood, with visitation Thursday afternoon and evening; where the Funeral Service will be held on Friday, January 4, 2002 at 11 A.M. Mr. Bob Heywood officiating. Interment Crediton Cemetery. If desired, memorial donations to a charity of your choice.",
+  "bio": "LAMPORT: Peacefully, at Stratford General Hospital, on Tuesday, January 1, 2002, Lloyd Samuel Lamport of R. R. #2, Crediton, in his 87th year. Beloved husband of the late Elva Bernice (Turnbull) Lamport (1994). Loved father of Dennis and Marilyn Lamport of R. R. #2, Crediton. Dear Papa of Gerald and Kimberly Lamport of London, Joelle and Ray Lewis of Goderich, Christine and Shannon Houston of Crediton. Loving great-grandpa of Kyra and Bryn Lewis, Sarah and Jessica Houston. Loved brother of <a href=\"http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&amp;GRid=16539672\">Zella Vaughan</a> of Long Beach, California and uncle of Gayle and Roland Bumler of Detroit. Predeceased by his sisters <a href=\"http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&amp;GRid=16539631\">Edith</a>, Eileen, Marguerite, Thelma, Agnes, parents Samuel and Margaret (Ziefley) Lamport. Resting at the T. Harry Hoffman &amp; Sons Funeral Home, Dashwood, with visitation Thursday afternoon and evening; where the Funeral Service will be held on Friday, January 4, 2002 at 11 A.M. Mr. Bob Heywood officiating. Interment Crediton Cemetery. If desired, memorial donations to a charity of your choice.<br/><br/>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/83/41012313_bd463dea-8a93-4868-b489-15c39ada1d21.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Samuel G   Lamport",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 13-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 661
 }

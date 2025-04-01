@@ -5,9 +5,12 @@
   "death_date": "1920-02-18",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "FINKBEINER\nKarl U. Finkbeiner<br/>died Sept. 25, 1913<br/>aged 71 yrs. 11 mos. 5 ds.<br/>at rest<br/>his wife<br/>Eva<br/>died Jan. 28, 1930<br/>in her 82nd year<br/>their daughter, Minnie<br/>died Feb. 18, 1920<br/>in her 29th year</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/110/236169204_4f0e4282-7dcb-42bf-add8-fc5b53cd41fc.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Karl U.   Finkbeiner",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "3-9",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "FINKBEINERKarl U. Finkbeinerdied Sept. 25, 1913aged 71 yrs. 11 mos. 5 ds.at resthis wifeEvadied Jan. 28, 1930in her 82nd yeartheir daughter, Minniedied Feb. 18, 1920in her 29th year",
   "id": 356
 }

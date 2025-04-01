@@ -5,9 +5,12 @@
   "death_date": "1908-07-11",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "FRITZ\nWilliam Fritz<br/>born June 3, 1862-died July 11, 1908<br/>HE IS NOT DEAD BUT SLEEPETH<br/>Minnie<br/>wife of William J. Fritz<br/>born 1861-died 1936<br/>at rest</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/113/188037461_7e5d99c3-194a-48f0-87c3-0b360ab4c42a.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Verda Maria   Fritz\", \"birth_date\": \"1896-00-00\", \"death_date\": \"1898-00-00\", \"profile_url\": \"/memorial/239160701/verda_maria-fritz\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 9-15",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "FRITZWilliam Fritzborn June 3, 1862-died July 11, 1908HE IS NOT DEAD BUT SLEEPETHMinniewife of William J. Fritzborn 1861-died 1936at rest",
   "id": 383
 }

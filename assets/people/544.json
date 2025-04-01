@@ -5,9 +5,12 @@
   "death_date": "1921-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/244/15580219_115720039991.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Clifford   Hill",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[{\"name\": \"Orville   Hill\", \"birth_date\": \"1921-00-00\", \"death_date\": \"1927-00-00\", \"profile_url\": \"/memorial/15580222/orville-hill\"}]",
+  "plot_value": "Row 16-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 544
 }

@@ -5,9 +5,12 @@
   "death_date": "1973-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Daughter of Lena (Boyer) and Charles Kienzle",
+  "bio": "Daughter of Lena (Boyer) and Charles Kienzle",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/242/15563805_115703834007.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Stuart Claire   Kuhn\", \"birth_date\": \"1909-00-00\", \"death_date\": \"1974-00-00\", \"profile_url\": \"/memorial/15554714/stuart_claire-kuhn\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 16-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Kienzle",
+  "inscription": "",
   "id": 638
 }

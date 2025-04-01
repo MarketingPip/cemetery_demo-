@@ -5,9 +5,12 @@
   "death_date": "2019-10-02",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "SCHENK\nGeraldine Ann Dundas<br/>1932-2019</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2023/219/238053974_d65b8944-75c4-4e97-b3bd-88b651200ba5.jpeg?v=1691445947&size=photos250",
+  "image_credits": "Slick",
+  "image_credits_url": "/user/profile/50973252",
   "parents": [
     {
       "name": "Stephen R.   Dundas",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Donald S.   Dundas\", \"birth_date\": \"1947-00-00\", \"death_date\": \"2020-00-00\", \"profile_url\": \"/memorial/238051972/donald_s-dundas\"}]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2022/86/238053974_90f5c72b-35c8-4b9c-99f7-0b721728763f.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}]",
+  "maiden_name": "Dundas",
+  "inscription": "SCHENKGeraldine Ann Dundas1932-2019",
   "id": 921
 }

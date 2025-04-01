@@ -5,9 +5,12 @@
   "death_date": "1979-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Daughter of Anna (Schwartz) and Jacob Finkbeiner",
+  "bio": "Daughter of Anna (Schwartz) and Jacob Finkbeiner",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/242/15563069_115703112639.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 16-9",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Finkbeiner",
+  "inscription": "",
   "id": 816
 }

@@ -292,7 +292,7 @@
   {
     "id": 29,
     "gps": null,
-    "name": "Margaret Beaver",
+    "name": "Margaret Holtzmann Beaver",
     "birth_date": "1853-00-00",
     "death_date": "1917-00-00",
     "location": "Crediton",
@@ -1052,7 +1052,7 @@
   {
     "id": 105,
     "gps": null,
-    "name": "Flying Officer Harold Leonard Brown   VVeteran",
+    "name": "Flying Officer Harold Leonard Brown   ",
     "birth_date": "1924-12-03",
     "death_date": "1944-08-05",
     "location": "Crediton",
@@ -1962,22 +1962,22 @@
   {
     "id": 196,
     "gps": null,
-    "name": "Sarah Finkbeiner Eilber",
-    "birth_date": "1832-12-13",
-    "death_date": "1899-03-23",
-    "location": "Crediton",
-    "memorial_url": "15832651/sarah-eilber",
-    "image_url": "https://images.findagrave.com/photos/2006/263/15832651_115884830886.jpg?size=photos250"
-  },
-  {
-    "id": 197,
-    "gps": null,
     "name": "Sarah Merner Eilber",
     "birth_date": "1866-00-00",
     "death_date": "1934-00-00",
     "location": "Crediton",
     "memorial_url": "188036757/sarah-eilber",
     "image_url": "https://images.findagrave.com/photos/2022/116/188036757_232f1a1a-467a-4098-a4df-dbff222c3d76.jpeg?size=photos250"
+  },
+  {
+    "id": 197,
+    "gps": null,
+    "name": "Sarah Finkbeiner Eilber",
+    "birth_date": "1832-12-13",
+    "death_date": "1899-03-23",
+    "location": "Crediton",
+    "memorial_url": "15832651/sarah-eilber",
+    "image_url": "https://images.findagrave.com/photos/2006/263/15832651_115884830886.jpg?size=photos250"
   },
   {
     "id": 198,
@@ -2534,7 +2534,7 @@
     "gps": null,
     "name": "Mabel Wenzel Fahrner",
     "birth_date": "1895-00-00",
-    "death_date": "1983-00-00",
+    "death_date": "1983-06-09",
     "location": "Crediton",
     "memorial_url": "15580255/mabel-fahrner",
     "image_url": "https://images.findagrave.com/photos/2006/244/15580255_115720080729.jpg?size=photos250"
@@ -2863,21 +2863,21 @@
     "id": 286,
     "gps": null,
     "name": "Christian Finkbeiner",
-    "birth_date": "1849-08-12",
-    "death_date": "1878-08-17",
-    "location": "Crediton",
-    "memorial_url": "15961756/christian-finkbeiner",
-    "image_url": "https://images.findagrave.com/photos/2006/273/15961756_115976089491.jpg?size=photos250"
-  },
-  {
-    "id": 287,
-    "gps": null,
-    "name": "Christian Finkbeiner",
     "birth_date": "1852-08-10",
     "death_date": "1933-12-12",
     "location": "Crediton",
     "memorial_url": "16331339/christian-finkbeiner",
     "image_url": "https://images.findagrave.com/photos/2006/298/16331339_116188038402.jpg?size=photos250"
+  },
+  {
+    "id": 287,
+    "gps": null,
+    "name": "Christian Finkbeiner",
+    "birth_date": "1849-08-12",
+    "death_date": "1878-08-17",
+    "location": "Crediton",
+    "memorial_url": "15961756/christian-finkbeiner",
+    "image_url": "https://images.findagrave.com/photos/2006/273/15961756_115976089491.jpg?size=photos250"
   },
   {
     "id": 288,
@@ -3203,21 +3203,21 @@
     "id": 320,
     "gps": null,
     "name": "Jacob Finkbeiner",
-    "birth_date": "1852-08-01",
-    "death_date": "1933-02-16",
-    "location": "Crediton",
-    "memorial_url": "16668101/jacob-finkbeiner",
-    "image_url": "https://images.findagrave.com/photos/2006/318/16668101_116365245517.jpg?size=photos250"
-  },
-  {
-    "id": 321,
-    "gps": null,
-    "name": "Jacob Finkbeiner",
     "birth_date": "1863-03-17",
     "death_date": "1926-10-23",
     "location": "Crediton",
     "memorial_url": "15821778/jacob-finkbeiner",
     "image_url": "https://images.findagrave.com/photos/2006/262/15821778_115876738221.jpg?size=photos250"
+  },
+  {
+    "id": 321,
+    "gps": null,
+    "name": "Jacob Finkbeiner",
+    "birth_date": "1852-08-01",
+    "death_date": "1933-02-16",
+    "location": "Crediton",
+    "memorial_url": "16668101/jacob-finkbeiner",
+    "image_url": "https://images.findagrave.com/photos/2006/318/16668101_116365245517.jpg?size=photos250"
   },
   {
     "id": 322,
@@ -3233,21 +3233,21 @@
     "id": 323,
     "gps": null,
     "name": "John Finkbeiner",
-    "birth_date": "1845-12-27",
-    "death_date": "1922-06-14",
-    "location": "Crediton",
-    "memorial_url": "16581535/john-finkbeiner",
-    "image_url": "https://images.findagrave.com/photos/2006/312/16581535_116313740074.jpg?size=photos250"
-  },
-  {
-    "id": 324,
-    "gps": null,
-    "name": "John Finkbeiner",
     "birth_date": "1872-00-00",
     "death_date": "1879-11-14",
     "location": "Crediton",
     "memorial_url": "236168967/john-finkbeiner",
     "image_url": "https://images.findagrave.com/photos/2022/110/236168967_b0246dcb-e812-4761-a18b-653ecfc84301.jpeg?size=photos250"
+  },
+  {
+    "id": 324,
+    "gps": null,
+    "name": "John Finkbeiner",
+    "birth_date": "1845-12-27",
+    "death_date": "1922-06-14",
+    "location": "Crediton",
+    "memorial_url": "16581535/john-finkbeiner",
+    "image_url": "https://images.findagrave.com/photos/2006/312/16581535_116313740074.jpg?size=photos250"
   },
   {
     "id": 325,
@@ -4272,7 +4272,7 @@
   {
     "id": 427,
     "gps": null,
-    "name": "Private Wesley A. Gaiser   VVeteran",
+    "name": "Private Wesley A. Gaiser   ",
     "birth_date": "1890-00-00",
     "death_date": "1918-00-00",
     "location": "Crediton",
@@ -4812,22 +4812,22 @@
   {
     "id": 481,
     "gps": null,
-    "name": "Barbara Heist Haist",
-    "birth_date": "1836-11-25",
-    "death_date": "1918-12-24",
-    "location": "Crediton",
-    "memorial_url": "15697770/barbara-haist",
-    "image_url": "https://images.findagrave.com/photos/2006/253/15697770_115798723165.jpg?size=photos250"
-  },
-  {
-    "id": 482,
-    "gps": null,
     "name": "Barbara Haist",
     "birth_date": "1860-00-00",
     "death_date": "1868-08-06",
     "location": "Crediton",
     "memorial_url": "236911555/barbara-haist",
     "image_url": "https://images.findagrave.com/photos/2022/111/236911555_8672ca10-a99f-4203-b119-46183423f6eb.jpeg?size=photos250"
+  },
+  {
+    "id": 482,
+    "gps": null,
+    "name": "Barbara Heist Haist",
+    "birth_date": "1836-11-25",
+    "death_date": "1918-12-24",
+    "location": "Crediton",
+    "memorial_url": "15697770/barbara-haist",
+    "image_url": "https://images.findagrave.com/photos/2006/253/15697770_115798723165.jpg?size=photos250"
   },
   {
     "id": 483,
@@ -6253,21 +6253,21 @@
     "id": 625,
     "gps": null,
     "name": "John Klumpp",
-    "birth_date": "1865-00-00",
-    "death_date": "1952-00-00",
-    "location": "Crediton",
-    "memorial_url": "15728813/john-klumpp",
-    "image_url": "https://images.findagrave.com/photos/2006/256/15728813_115824778042.jpg?size=photos250"
-  },
-  {
-    "id": 626,
-    "gps": null,
-    "name": "John Klumpp",
     "birth_date": "1834-01-01",
     "death_date": "1923-07-13",
     "location": "Crediton",
     "memorial_url": "16539744/john-klumpp",
     "image_url": "https://images.findagrave.com/photos/2006/310/16539744_116291442727.jpg?size=photos250"
+  },
+  {
+    "id": 626,
+    "gps": null,
+    "name": "John Klumpp",
+    "birth_date": "1865-00-00",
+    "death_date": "1952-00-00",
+    "location": "Crediton",
+    "memorial_url": "15728813/john-klumpp",
+    "image_url": "https://images.findagrave.com/photos/2006/256/15728813_115824778042.jpg?size=photos250"
   },
   {
     "id": 627,
@@ -6432,22 +6432,22 @@
   {
     "id": 643,
     "gps": null,
-    "name": "Elizabeth Sweitzer Kuhn",
-    "birth_date": "1853-02-17",
-    "death_date": "1902-11-24",
-    "location": "Crediton",
-    "memorial_url": "16330239/elizabeth-kuhn",
-    "image_url": "https://images.findagrave.com/photos/2006/298/16330239_116187316032.jpg?size=photos250"
-  },
-  {
-    "id": 644,
-    "gps": null,
     "name": "Elizabeth Oestreicher Kuhn",
     "birth_date": "1862-00-00",
     "death_date": "1950-00-00",
     "location": "Crediton",
     "memorial_url": "188113462/elizabeth-kuhn",
     "image_url": "https://images.findagrave.com/photos/2018/209/188113462_572c55f3-0bf3-460b-acf7-c315649eb554.jpeg?size=photos250"
+  },
+  {
+    "id": 644,
+    "gps": null,
+    "name": "Elizabeth Sweitzer Kuhn",
+    "birth_date": "1853-02-17",
+    "death_date": "1902-11-24",
+    "location": "Crediton",
+    "memorial_url": "16330239/elizabeth-kuhn",
+    "image_url": "https://images.findagrave.com/photos/2006/298/16330239_116187316032.jpg?size=photos250"
   },
   {
     "id": 645,
@@ -6702,11 +6702,11 @@
   {
     "id": 670,
     "gps": null,
-    "name": "Doreen E. Baker Lightfoot",
+    "name": "Doreen Elizabeth Baker Lightfoot",
     "birth_date": "1921-00-00",
-    "death_date": "2003-00-00",
+    "death_date": "2003-01-19",
     "location": "Crediton",
-    "memorial_url": "188114950/doreen-e-lightfoot",
+    "memorial_url": "188114950/doreen-elizabeth-lightfoot",
     "image_url": "https://images.findagrave.com/photos/2022/86/188114950_0385ee12-05e0-492d-a749-f4b52a0d15fb.jpeg?size=photos250"
   },
   {
@@ -9882,7 +9882,7 @@
   {
     "id": 988,
     "gps": null,
-    "name": "Corporal George Smith   VVeteran",
+    "name": "Corporal George Smith   ",
     "birth_date": "1890-00-00",
     "death_date": "1918-12-31",
     "location": "Crediton",
@@ -11433,21 +11433,21 @@
     "id": 1143,
     "gps": null,
     "name": "Samuel Wein",
-    "birth_date": "1887-00-00",
-    "death_date": "1964-00-00",
-    "location": "Crediton",
-    "memorial_url": "15662366/samuel-wein",
-    "image_url": "https://images.findagrave.com/photos/2006/250/15662366_115772041244.jpg?size=photos250"
-  },
-  {
-    "id": 1144,
-    "gps": null,
-    "name": "Samuel Wein",
     "birth_date": "1883-07-02",
     "death_date": "1949-00-00",
     "location": "Crediton",
     "memorial_url": "16414070/samuel-wein",
     "image_url": "https://images.findagrave.com/photos/2006/304/16414070_116239920518.jpg?size=photos250"
+  },
+  {
+    "id": 1144,
+    "gps": null,
+    "name": "Samuel Wein",
+    "birth_date": "1887-00-00",
+    "death_date": "1964-00-00",
+    "location": "Crediton",
+    "memorial_url": "15662366/samuel-wein",
+    "image_url": "https://images.findagrave.com/photos/2006/250/15662366_115772041244.jpg?size=photos250"
   },
   {
     "id": 1145,
@@ -12082,21 +12082,11 @@
   {
     "id": 1208,
     "gps": null,
-    "name": "Thomas Pilley Yearley",
-    "birth_date": "1823-07-11",
-    "death_date": "1904-04-11",
-    "location": "Crediton",
-    "memorial_url": "89079987/thomas-pilley-yearley",
-    "image_url": ""
-  },
-  {
-    "id": 1209,
-    "gps": null,
-    "name": "Blanche Emma Wormood Graham",
-    "birth_date": "1890-11-09",
-    "death_date": "1960-04-17",
-    "location": "Oshkosh",
-    "memorial_url": "19193312/blanche-graham",
-    "image_url": "https://images.findagrave.com/photos/2007/122/19193312_117819212030.jpg?size=photos1024"
+    "name": "Albert Gregorius Ruf",
+    "birth_date": "1830-08-15",
+    "death_date": "1912-04-04",
+    "location": "Williamstown",
+    "memorial_url": "5016895/albert-ruf",
+    "image_url": "https://images.findagrave.com/photos/2000/300/5016895_962891569.jpg?size=photos1024"
   }
 ]

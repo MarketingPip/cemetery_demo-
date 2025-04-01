@@ -5,9 +5,12 @@
   "death_date": "1983-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "KENNEY (charcoal granite stone)\nClifford C. Kenney<br/>1908-1983<br/>his wife Mary C. Davey<br/>1920-2012<br/>rest in peace</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2018/209/188113359_8067676b-51e6-432b-8442-d4a8dbafd8c4.jpeg?size=photos250",
+  "image_credits": "rossddickson",
+  "image_credits_url": "/user/profile/49188008",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 28-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "KENNEY (charcoal granite stone)Clifford C. Kenney1908-1983his wife Mary C. Davey1920-2012rest in peace",
   "id": 612
 }

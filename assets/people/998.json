@@ -5,9 +5,12 @@
   "death_date": "2019-12-09",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "(font)SMITH\nMary WUERTH<br/>wife of Jacob SMITH<br/>1837-1928<br/>John F. SMITH<br/>1865-1954<br/>his wife Mary Ann KLUMPP<br/>1870-1959<br/>Roy L. son of John F &amp; Mary Ann SMITH<br/>1901-1907<br/>Asleep in Jesus<br/>(back)SMITH<br/>Eldon SMITH<br/>1912-1995<br/>his wife<br/>Ruth VARLEY<br/>1922-2019<br/>GREEN<br/>her son<br/>1950 Ronald GREEN 2020<br/>his wife<br/>1957 Jane DUDEK</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/111/239060241_62a2b349-4240-4d0c-b20f-c4da0d6cf8a9.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Ronald   Green\", \"birth_date\": \"1950-00-00\", \"death_date\": \"2020-00-00\", \"profile_url\": \"/memorial/239060995/ronald-green\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "4-12",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Varley",
+  "inscription": "(font)SMITHMary WUERTHwife of Jacob SMITH1837-1928John F. SMITH1865-1954his wife Mary Ann KLUMPP1870-1959Roy L. son of John F & Mary Ann SMITH1901-1907Asleep in Jesus(back)SMITHEldon SMITH1912-1995his wifeRuth VARLEY1922-2019GREENher son1950 Ronald GREEN 2020his wife1957 Jane DUDEK",
   "id": 998
 }

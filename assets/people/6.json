@@ -5,9 +5,12 @@
   "death_date": "2023-04-22",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2023/214/257286546_6417c1ef-58e3-44bc-9cec-bc6b0dfeedc2.jpeg?size=photos250",
+  "image_credits": "Slick",
+  "image_credits_url": "/user/profile/50973252",
   "parents": [],
   "spouses": [
     {
@@ -25,5 +28,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Cox",
+  "inscription": "",
   "id": 6
 }

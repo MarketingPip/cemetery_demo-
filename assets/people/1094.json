@@ -5,9 +5,12 @@
   "death_date": "1994-08-24",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/84/188138492_01d8e91d-bb77-433e-bd4f-7c662f750bd9.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Charles Elgin   Speiran",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 23-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Speiran",
+  "inscription": "",
   "id": 1094
 }

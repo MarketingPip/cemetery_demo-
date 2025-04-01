@@ -5,9 +5,12 @@
   "death_date": "1891-03-02",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Elizabeth's info is on the back of Rosena (Kuhn) and Jacob Sweitzer's stone",
+  "bio": "Elizabeth's info is on the back of Rosena (Kuhn) and Jacob Sweitzer's stone",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/249/15660693_115769004819.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Norman   Winer\", \"birth_date\": \"1889-00-00\", \"death_date\": \"1908-00-00\", \"profile_url\": \"/memorial/15660715/norman-winer\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "row 1-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Sweitzer",
+  "inscription": "",
   "id": 1174
 }

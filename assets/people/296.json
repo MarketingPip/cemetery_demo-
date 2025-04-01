@@ -5,9 +5,12 @@
   "death_date": "1899-01-06",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Inscription says she was 9 yrs old.",
+  "bio": "Inscription says she was 9 yrs old.",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/318/16668322_116365407157.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Jacob   Finkbeiner",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"George Michael   Finkbeiner\", \"birth_date\": \"1880-00-00\", \"death_date\": \"1938-00-00\", \"profile_url\": \"/memorial/15571819/george_michael-finkbeiner\"}]",
+  "half_siblings": "[]",
+  "plot_value": "Row 12-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 296
 }

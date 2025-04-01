@@ -5,9 +5,12 @@
   "death_date": "2016-08-01",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "FRITZ\nWard C. Fritz<br/>1901-1986<br/>husband of<br/>Bernice E. Eilber<br/>1913-1990<br/>and their daughter<br/>Mary Louise E. 1935-2016<br/>LINK<br/>In memory Of Samuel Link<br/>died Mar. 21, 1890<br/>aged 27 yrs.<br/>Dorothia Eilber<br/>wife of Samuel Link<br/>born Dec. 16, 1864<br/>died Nov. 18, 1915<br/>LINK<br/>Ella Beatrice Link<br/>born April 2, 1889<br/>died Feb. 21, 1962</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/112/239094352_0cf46415-cb85-4c2e-b88c-f1a0e200b136.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Ward C.   Fritz",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "5-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "FRITZWard C. Fritz1901-1986husband ofBernice E. Eilber1913-1990and their daughterMary Louise E. 1935-2016LINKIn memory Of Samuel Linkdied Mar. 21, 1890aged 27 yrs.Dorothia Eilberwife of Samuel Linkborn Dec. 16, 1864died Nov. 18, 1915LINKElla Beatrice Linkborn April 2, 1889died Feb. 21, 1962",
   "id": 379
 }

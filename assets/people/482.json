@@ -1,29 +1,40 @@
 {
-  "memorial_url": "https://www.findagrave.com/memorial/236911555/barbara-haist",
-  "name": "Barbara Haist",
-  "birth_date": "1860-00-00",
-  "death_date": "1868-08-06",
+  "memorial_url": "https://www.findagrave.com/memorial/15697770/barbara-haist",
+  "name": "Barbara Heist Haist",
+  "birth_date": "1836-11-25",
+  "death_date": "1918-12-24",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "HAIST\nElizabeth<br/>died Aug. 248, 1881<br/>aged 46 yrs.<br/>Margaretha<br/>died Sept. 17, 1901<br/>aged 75 yrs.<br/>wives of Jacob HAIST<br/>Jacob HAIST<br/>died Feb. 16, 1912<br/>aged 85 yrs.<br/>Anna M. HAIST<br/>gestorben Marz. 17, 1878<br/>alter 9 mon.<br/>Karlina HAIST<br/>gestorben  Jan. 7, 1880<br/>alter 6 yahr.<br/>kinder von Jacob und Elizabeth HAIST<br/>Barbara HAIST<br/>gestorben  Aug. 6, 1868<br/>alter 8 yahr.<br/>Heinrich HAIST<br/>gestorben Dec. 17, 1872<br/>alter 5 yahr.<br/>kinder von Jacob &amp; Elizabeth HAIST</br>",
+  "part_bio": "Daughter of Elizabeth and Joseph Heist",
+  "bio": "Daughter of Elizabeth and Joseph Heist",
   "gps": null,
-  "image_url": "https://images.findagrave.com/photos/2022/111/236911555_8672ca10-a99f-4203-b119-46183423f6eb.jpeg?size=photos250",
+  "image_url": "https://images.findagrave.com/photos/2006/253/15697770_115798723165.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
-      "name": "Jacob   Haist",
-      "birth_date": "1827-00-00",
-      "death_date": "1912-00-00",
-      "profile_url": "/memorial/236911442/jacob-haist"
-    },
-    {
-      "name": "Elizabeth   Haist",
-      "birth_date": "1835-00-00",
-      "death_date": "1881-00-00",
-      "profile_url": "/memorial/236911369/elizabeth-haist"
+      "name": "Joseph   Haist",
+      "birth_date": "1802-00-00",
+      "death_date": "1876-00-00",
+      "profile_url": "/memorial/155773829/joseph-haist"
     }
   ],
-  "spouses": [],
+  "spouses": [
+    {
+      "name": "August   Haist",
+      "birth_date": "1839-00-00",
+      "death_date": "1912-00-00",
+      "profile_url": "/memorial/15697730/august-haist"
+    }
+  ],
   "children": "[]",
-  "siblings": "[{\"name\": \"Henrich   Haist\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1872-00-00\", \"profile_url\": \"/memorial/236911589/henrich-haist\"}, {\"name\": \"Karlina   Haist\", \"birth_date\": \"1874-00-00\", \"death_date\": \"1880-00-00\", \"profile_url\": \"/memorial/236911524/karlina-haist\"}, {\"name\": \"Anna M.   Haist\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1878-00-00\", \"profile_url\": \"/memorial/236911484/anna_m-haist\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "13-11",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Heist",
+  "inscription": "",
   "id": 482
 }

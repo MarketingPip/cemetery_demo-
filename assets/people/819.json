@@ -5,9 +5,12 @@
   "death_date": "1906-09-07",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "Aged 77 years 6 months 27 days",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/114/239188920_ee4fb97b-38f1-4d1e-b411-ab53d9178661.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -17,7 +20,14 @@
       "profile_url": "/memorial/239188882/mary_ann-parsons"
     }
   ],
-  "children": "[]",
+  "children": "[{\"name\": \"William John   Parsons\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1936-00-00\", \"profile_url\": \"/memorial/235476888/william_john-parsons\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 11-13",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "Aged 77 years 6 months 27 days",
   "id": 819
 }

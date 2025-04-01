@@ -5,9 +5,12 @@
   "death_date": "1892-04-23",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "In memory of \nAugustus Clemann<br/>died Apr. 23, 1892<br/>ae 85 yrs. 5 mos. 17 ds.</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/112/188036139_a413184f-8dc5-441f-9830-f18f055a2a9f.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "6-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "In memory of Augustus Clemanndied Apr. 23, 1892ae 85 yrs. 5 mos. 17 ds.",
   "id": 132
 }

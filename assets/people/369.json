@@ -5,9 +5,12 @@
   "death_date": "1896-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Son of Barbara (Mast) and John Finkbeiner",
+  "bio": "Son of Barbara (Mast) and John Finkbeiner",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/312/16581621_116313812949.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "John   Finkbeiner",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Frederick George   Finkbeiner\", \"birth_date\": \"1886-00-00\", \"death_date\": \"1910-00-00\", \"profile_url\": \"/memorial/16581582/frederick_george-finkbeiner\"}]",
+  "half_siblings": "[]",
+  "plot_value": "Row 11-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 369
 }

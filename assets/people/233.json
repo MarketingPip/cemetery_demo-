@@ -5,9 +5,12 @@
   "death_date": "1903-06-01",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "1861 Census of CanadaTobias Fahnar age 40Margaret Fahnar age 36Ephal Fahnar age 14     (Eva)Fredrick Fahnar age 11Susana Fahnar age 9Madaline Fahnar age 7John Fahnar age 6per family Bible: Susannah Fahner (b. 13 May, 1851-d. 15 Sept. 1871) died in a fire in Detroit, Michigan.  No burial records found.",
   "bio": "THERE ARE NO PARTINGS IN HEAVEN",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2025/69/188037157_21191506-68f9-4427-ab53-ec0f5f8196ef.jpeg?size=photos250",
+  "image_credits": "Rick Fahner",
+  "image_credits_url": "/user/profile/51908492",
   "parents": [],
   "spouses": [
     {
@@ -25,5 +28,12 @@
   ],
   "children": "[{\"name\": \"Eva  Fahner Wein\", \"birth_date\": \"1847-00-00\", \"death_date\": \"1921-00-00\", \"profile_url\": \"/memorial/15662423/eva-wein\"}, {\"name\": \"Frederick J.   Fahner\", \"birth_date\": \"1849-00-00\", \"death_date\": \"1924-00-00\", \"profile_url\": \"/memorial/27178294/frederick_j-fahner\"}, {\"name\": \"Magdalena \\\"Lena\\\"  Fahner Kraft\", \"birth_date\": \"1853-00-00\", \"death_date\": \"1887-00-00\", \"profile_url\": \"/memorial/175610248/magdalena_%22lena%22-kraft\"}, {\"name\": \"John   Fahner\", \"birth_date\": \"1854-00-00\", \"death_date\": \"1942-00-00\", \"profile_url\": \"/memorial/176230513/john-fahner\"}, {\"name\": \"Christian   Fahrner\", \"birth_date\": \"1863-00-00\", \"death_date\": \"1952-00-00\", \"profile_url\": \"/memorial/236179174/christian-fahrner\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 7-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2022/112/188037157_ef40f890-f3aa-433b-bbcf-6cdecc2442ab.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}]",
+  "maiden_name": "",
+  "inscription": "THERE ARE NO PARTINGS IN HEAVEN",
   "id": 233
 }

@@ -5,9 +5,12 @@
   "death_date": "1994-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Daughter of Mary (Zinn) and Charles Treitz",
+  "bio": "Daughter of Mary (Zinn) and Charles Treitz",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/312/16581712_116313915111.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Allan Stewart   Finkbeiner\", \"birth_date\": \"1922-00-00\", \"death_date\": \"2008-00-00\", \"profile_url\": \"/memorial/39760664/allan_stewart-finkbeiner\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Treitz",
+  "inscription": "",
   "id": 298
 }

@@ -5,9 +5,12 @@
   "death_date": "2015-06-03",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2018/209/191737488_963fd009-4cb3-476b-94bb-dd2855ed023c.jpeg?size=photos250",
+  "image_credits": "rossddickson",
+  "image_credits_url": "/user/profile/49188008",
   "parents": [
     {
       "name": "Susan  Littlejohn Stevenson",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[{\"name\": \"Willis Stanley Ecron   Stewardson\", \"birth_date\": \"1941-00-00\", \"death_date\": \"2009-00-00\", \"profile_url\": \"/memorial/44646061/willis_stanley_ecron-stewardson\"}, {\"name\": \"Glen Henry   Stewardson\", \"birth_date\": \"1943-00-00\", \"death_date\": \"2013-00-00\", \"profile_url\": \"/memorial/191737552/glen_henry-stewardson\"}]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 1018
 }

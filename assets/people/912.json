@@ -5,9 +5,12 @@
   "death_date": "1960-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "LAWSON\nThomas B. Lawson<br/>1871-1916<br/>his wife Sophia Brown Bier<br/>1878-1934<br/>their daughter Myrtle<br/>wife of Michael Sansone<br/>1901-1960</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/127/188136633_24dfada5-f039-4600-835e-08e2f2dd7d20.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Thomas B.   Lawson",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 8-8",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Lawson",
+  "inscription": "LAWSONThomas B. Lawson1871-1916his wife Sophia Brown Bier1878-1934their daughter Myrtlewife of Michael Sansone1901-1960",
   "id": 912
 }

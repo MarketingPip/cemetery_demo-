@@ -5,9 +5,12 @@
   "death_date": "1948-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "EILBER\nHenry Eilber<br/>1857-1943<br/>his wife Elizabeth Krattiger<br/>1858-1941<br/>Mary L. Girwin<br/>1888-1948<br/>wife of Herbert K. Eilber<br/>1881-1954<br/>IHR SOHN<br/>VON 2 TER EHE<br/>Wesley<br/>Ges Sept. 27, 1886<br/>Alter 13 Jahr 3 monat 25 tag<br/>UNSERE ELTERN<br/>John Krattiger<br/>Ges Fe. 3, 1869<br/>Alter 48 Jahr 8 monat.<br/>Seine Gattin<br/>Anna Maria<br/>Ges. Mar. 28, 1886<br/>Alter 51 Jahr 4 monat 20 tag.</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/113/188036717_f6c513f0-0122-4f44-9e00-bc37144fa505.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Bernice E.  Eilber Fritz\", \"birth_date\": \"1913-00-00\", \"death_date\": \"1990-00-00\", \"profile_url\": \"/memorial/188037430/bernice_e-fritz\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 9-11",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2025/88/188036717_71c95ba7-3cd9-4fc3-9958-083b83a54a96.jpeg?size=photos250', 'contributor_text': 'Cheryl Clarridge', 'contributor_href': 'https://www.findagrave.com/user/profile/47667766'}]",
+  "maiden_name": "Girvin",
+  "inscription": "EILBERHenry Eilber1857-1943his wife Elizabeth Krattiger1858-1941Mary L. Girwin1888-1948wife of Herbert K. Eilber1881-1954IHR SOHNVON 2 TER EHEWesleyGes Sept. 27, 1886Alter 13 Jahr 3 monat 25 tagUNSERE ELTERNJohn KrattigerGes Fe. 3, 1869Alter 48 Jahr 8 monat.Seine GattinAnna MariaGes. Mar. 28, 1886Alter 51 Jahr 4 monat 20 tag.",
   "id": 194
 }

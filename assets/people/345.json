@@ -5,9 +5,12 @@
   "death_date": "1974-12-27",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Daughter of Lila (Paxman) and Alexander Hotson",
+  "bio": "Daughter of Lila (Paxman) and Alexander Hotson",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/248/15638522_115754797970.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Lilah  Finkbeiner Rosser\", \"birth_date\": \"1925-00-00\", \"death_date\": \"2009-00-00\", \"profile_url\": \"/memorial/36997313/lilah-rosser\"}, {\"name\": \"Audrey Eloise   Finkbeiner\", \"birth_date\": \"1927-00-00\", \"death_date\": \"2014-00-00\", \"profile_url\": \"/memorial/145204886/audrey_eloise-finkbeiner\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 15-8",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2022/184/15638522_6b1bb6d2-c3e3-4809-bb3d-38d5234f03fc.jpeg?size=photos250', 'contributor_text': 'Kimberly Fraser', 'contributor_href': 'https://www.findagrave.com/user/profile/46863018'}]",
+  "maiden_name": "Hotson",
+  "inscription": "",
   "id": 345
 }

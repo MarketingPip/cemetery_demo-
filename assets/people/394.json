@@ -5,9 +5,12 @@
   "death_date": "1896-09-04",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Daughter of Mary and Jacob Kutzli, 1st wife of Jacob Gaiser",
+  "bio": "Daughter of Mary and Jacob Kutzli, 1st wife of Jacob Gaiser",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/315/16627135_116339552993.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Martha Mary  Gaiser Ratz\", \"birth_date\": \"1888-00-00\", \"death_date\": \"1971-00-00\", \"profile_url\": \"/memorial/15639893/martha_mary-ratz\"}, {\"name\": \"Albert Adam   Gaiser\", \"birth_date\": \"1891-00-00\", \"death_date\": \"1974-00-00\", \"profile_url\": \"/memorial/15639713/albert_adam-gaiser\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "12-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Kutzli",
+  "inscription": "",
   "id": 394
 }

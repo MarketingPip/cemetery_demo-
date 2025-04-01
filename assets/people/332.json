@@ -5,9 +5,12 @@
   "death_date": "1992-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Wife of Edward Finkbeiner",
+  "bio": "Wife of Edward Finkbeiner",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/319/16671126_116368619535.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Mollard",
+  "inscription": "",
   "id": 332
 }

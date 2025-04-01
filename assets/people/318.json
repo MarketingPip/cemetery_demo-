@@ -5,9 +5,12 @@
   "death_date": "1895-04-25",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Born in Germany, the son of Agatha (Braun) and Johannes Finkbeiner. Husband to Rosina Guenter---Gunter, Guenter, Ginter",
   "bio": "FINKBEINER\nIn Memory of Jacob Finkbeiner\ndied Apr. 25, 1895\naged 58 yrs. 9 mos. &amp; 6 days\nRosina his wife\ndied Oct. 18, 1926<br/>aged 86 yrs. 9 mos. 1 day<br/>In Memory of Jacob Finkbeiner<br/>died Nov. 3, 1879<br/>aged 5 yrs. 10 mos.<br/>Bernhard<br/>died Nov. 13, 1879<br/>aged 9 yrs. 7 mos.<br/>John<br/>died Nov. 14, 1879<br/>aged 7 yrs. 9 mos.<br/>Samuel<br/>died Nov. 23, 1879<br/>aged 3 yrs. 11 mos.<br/>Elizabeth<br/>died Dec. 8, 1879<br/>aged 1 yr. 3 mos.<br/>children of J. &amp; R. Finkbeiner<br/>died Nov. 23, 1879</br></br></br></br></br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2007/306/22631608_119409389525.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Bernhard   Finkbeiner\", \"birth_date\": \"1870-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236168945/bernhard-finkbeiner\"}, {\"name\": \"John   Finkbeiner\", \"birth_date\": \"1872-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236168967/john-finkbeiner\"}, {\"name\": \"Jacob   Finkbeiner\", \"birth_date\": \"1874-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236168918/jacob-finkbeiner\"}, {\"name\": \"Samuel   Finkbeiner\", \"birth_date\": \"1876-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236169004/samuel-finkbeiner\"}, {\"name\": \"Elizabeth   Finkbeiner\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236169042/elizabeth-finkbeiner\"}, {\"name\": \"Emma  Finkbeiner Beaver\", \"birth_date\": \"1880-00-00\", \"death_date\": \"1964-00-00\", \"profile_url\": \"/memorial/15554269/emma-beaver\"}, {\"name\": \"Lydia Magdalena  Finkbeiner Huxtable\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1957-00-00\", \"profile_url\": \"/memorial/142698013/lydia_magdalena-huxtable\"}, {\"name\": \"Wesley Albert   Finkbeiner\", \"birth_date\": \"1885-00-00\", \"death_date\": \"1959-00-00\", \"profile_url\": \"/memorial/154960232/wesley_albert-finkbeiner\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "3-8",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "FINKBEINERIn Memory of Jacob Finkbeinerdied Apr. 25, 1895aged 58 yrs. 9 mos. & 6 daysRosina his wifedied Oct. 18, 1926aged 86 yrs. 9 mos. 1 dayIn Memory of Jacob Finkbeinerdied Nov. 3, 1879aged 5 yrs. 10 mos.Bernharddied Nov. 13, 1879aged 9 yrs. 7 mos.Johndied Nov. 14, 1879aged 7 yrs. 9 mos.Samueldied Nov. 23, 1879aged 3 yrs. 11 mos.Elizabethdied Dec. 8, 1879aged 1 yr. 3 mos.children of J. & R. Finkbeinerdied Nov. 23, 1879",
   "id": 318
 }

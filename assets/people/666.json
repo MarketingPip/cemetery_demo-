@@ -5,9 +5,12 @@
   "death_date": "",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "The Lang family was part of the Evangelical church in Crediton. According to the Huron County Branch, O.G.S., \"The original log church of Crediton Evangelical congregation was where the Zion United Church now stands in the village of Crediton. A frame church was later built on same site. Still later a small brick church was erected. The present brick church was built in 1864. The first cemetery of this congregation was beside the churches at the village location, but stones were moved in 1868 to the present cemetery site.\"\"Sister Margaretha Lang, wife of Jacob Lang, died in childbed on 20 October, in Stephen Twp., C.W., at the age of 38 yrs., 10 mo.  About 5 years ago she was converted and joined the Evangelical Community and she was a respected member until the End.  She leaves a griefstricken husband and four children, the youngest of who soon followed her.  May she have eternal rest.  Joh. Stabler\"--obituary translated from Der Christliche Botschafter, Jan. 15, 1859. This was the German newspaper of the Evangelical Association.",
+  "bio": "The Lang family was part of the Evangelical church in Crediton. According to the Huron County Branch, O.G.S., \"The original log church of Crediton Evangelical congregation was where the Zion United Church now stands in the village of Crediton. A frame church was later built on same site. Still later a small brick church was erected. The present brick church was built in 1864. The first cemetery of this congregation was beside the churches at the village location, but stones were moved in 1868 to the present cemetery site.\"<br/><br/>\"Sister Margaretha Lang, wife of Jacob Lang, died in childbed on 20 October, in Stephen Twp., C.W., at the age of 38 yrs., 10 mo.  About 5 years ago she was converted and joined the Evangelical Community and she was a respected member until the End.  She leaves a griefstricken husband and four children, the youngest of who soon followed her.  May she have eternal rest.  Joh. Stabler\"<br/>--obituary translated from Der Christliche Botschafter, Jan. 15, 1859. This was the German newspaper of the Evangelical Association.",
   "gps": null,
   "image_url": "",
+  "image_credits": "",
+  "image_credits_url": "",
   "parents": [
     {
       "name": "Jacob   Lang Sr",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Cornelia  Lang Crawford\", \"birth_date\": \"1853-00-00\", \"death_date\": \"1903-00-00\", \"profile_url\": \"/memorial/69052561/cornelia-crawford\"}, {\"name\": \"Kate  Lang Jackson\", \"birth_date\": \"1854-00-00\", \"death_date\": \"1934-00-00\", \"profile_url\": \"/memorial/70082590/kate-jackson\"}, {\"name\": \"Christine   Lang\", \"birth_date\": \"1855-00-00\", \"death_date\": \"1861-00-00\", \"profile_url\": \"/memorial/133441240/christine-lang\"}]",
+  "half_siblings": "[{\"name\": \"Jake   Lang\", \"birth_date\": \"1862-00-00\", \"death_date\": \"1912-00-00\", \"profile_url\": \"/memorial/49055308/jake-lang\"}, {\"name\": \"William   Lang\", \"birth_date\": \"1865-00-00\", \"death_date\": \"1949-00-00\", \"profile_url\": \"/memorial/123605014/william-lang\"}, {\"name\": \"Ella  Lang Houck\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1947-00-00\", \"profile_url\": \"/memorial/122944258/ella-houck\"}]",
+  "plot_value": "Grave unmarked. Please see notes below for burial details.",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 666
 }

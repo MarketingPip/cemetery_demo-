@@ -5,12 +5,15 @@
   "death_date": "1918-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/115/239188981_3c114eb7-b431-42ef-9f88-a9681ab3311e.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
-      "name": "Margaret   Beaver",
+      "name": "Margaret  Holtzmann Beaver",
       "birth_date": "1853-00-00",
       "death_date": "1917-00-00",
       "profile_url": "/memorial/239200457/margaret-beaver"
@@ -19,5 +22,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Albert Francis   Beaver\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1956-00-00\", \"profile_url\": \"/memorial/199177595/albert_francis-beaver\"}, {\"name\": \"Edith   Beaver\", \"birth_date\": \"1880-00-00\", \"death_date\": \"1920-00-00\", \"profile_url\": \"/memorial/239200570/edith-beaver\"}, {\"name\": \"Nelson   Beaver\", \"birth_date\": \"1892-00-00\", \"death_date\": \"1898-00-00\", \"profile_url\": \"/memorial/239200395/nelson-beaver\"}]",
+  "half_siblings": "[]",
+  "plot_value": "row 11-14",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 34
 }

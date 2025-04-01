@@ -5,9 +5,12 @@
   "death_date": "2001-04-08",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "",
+  "image_credits": "",
+  "image_credits_url": "",
   "parents": [
     {
       "name": "George Ezra   Faist",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 267
 }

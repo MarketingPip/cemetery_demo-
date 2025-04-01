@@ -5,9 +5,12 @@
   "death_date": "1981-12-18",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "son of David Goulding and Lenora May Fletcher.",
+  "bio": "son of David Goulding and Lenora May Fletcher.",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/84/188113126_e3eb80af-2a80-4448-b31e-2e8cc3a41d5e.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 13-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 449
 }

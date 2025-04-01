@@ -5,9 +5,12 @@
   "death_date": "1890-01-24",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Wife of William Morlock, aged 62-9-12",
   "bio": "MORLOCK\nat rest with Jesus<br/>Mary Grenzebach<br/>wife of Wm. Morlock<br/>died Jan. 24, 1890<br/>aged 62 yrs. 9 mos. 12 ds.</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/262/15820881_115876160845.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Mary  Morlock Falk\", \"birth_date\": \"1854-00-00\", \"death_date\": \"1950-00-00\", \"profile_url\": \"/memorial/114374739/mary-falk\"}, {\"name\": \"Louisa  Morlock Meyer\", \"birth_date\": \"1858-00-00\", \"death_date\": \"1929-00-00\", \"profile_url\": \"/memorial/105232464/louisa-meyer\"}, {\"name\": \"Lydia  Morlock Zoellner\", \"birth_date\": \"1860-00-00\", \"death_date\": \"1912-00-00\", \"profile_url\": \"/memorial/155571318/lydia-zoellner\"}, {\"name\": \"Samuel Franklin   Morlock\", \"birth_date\": \"1864-00-00\", \"death_date\": \"1921-00-00\", \"profile_url\": \"/memorial/11212048/samuel_franklin-morlock\"}, {\"name\": \"Ezra Henry   Morlock\", \"birth_date\": \"1866-00-00\", \"death_date\": \"1943-00-00\", \"profile_url\": \"/memorial/225579858/ezra_henry-morlock\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "4-11",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Grenzebach",
+  "inscription": "MORLOCKat rest with JesusMary Grenzebachwife of Wm. Morlockdied Jan. 24, 1890aged 62 yrs. 9 mos. 12 ds.",
   "id": 753
 }

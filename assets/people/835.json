@@ -5,9 +5,12 @@
   "death_date": "1968-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "PFAFF\nOscar Pfaff<br/>1899-1991<br/>his wife<br/>Hazel Brethour<br/>1907-1997<br/>their daughter<br/>Gwendolyn Helen<br/>1942-1968</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/186/237947115_e2e60fbe-d291-4f74-a6a2-60329eb84745.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Oscar   Pfaff",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Marion Dolores  Pfaff Berge\", \"birth_date\": \"1933-00-00\", \"death_date\": \"2022-00-00\", \"profile_url\": \"/memorial/237140263/marion_dolores-berge\"}]",
+  "half_siblings": "[]",
+  "plot_value": "Row 20-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "PFAFFOscar Pfaff1899-1991his wifeHazel Brethour1907-1997their daughterGwendolyn Helen1942-1968",
   "id": 835
 }

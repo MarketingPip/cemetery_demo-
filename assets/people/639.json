@@ -5,9 +5,12 @@
   "death_date": "1883-04-16",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "KUHN\nJOHN KUHN 1822-1900<br/>JOHANNA WIFE OF JOHN KUHN<br/>SEPT. 23, 1819-APR. 15, 1885<br/>HIER RUHT ADAM KUHN<br/>SON OF JOHN &amp; JOHANNA KUHN<br/>BORN FEB. 18, 1861 DIED APRIL 16, 1883</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/110/188113453_459dfcc4-9123-4539-a286-a0db38cfc224.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "John   Kuhn",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "row 1-8",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "KUHNJOHN KUHN 1822-1900JOHANNA WIFE OF JOHN KUHNSEPT. 23, 1819-APR. 15, 1885HIER RUHT ADAM KUHNSON OF JOHN & JOHANNA KUHNBORN FEB. 18, 1861 DIED APRIL 16, 1883",
   "id": 639
 }

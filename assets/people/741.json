@@ -5,9 +5,12 @@
   "death_date": "2016-05-21",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "MORLOCK: Peacefully, at Exeter Villa, surrounded with the love of her family, on Saturday,  May 21, 2016,  Grace LaBelle (Hill) Morlock of Exeter Villa and formerly of Crediton, age 93. Beloved wife of the late Ray Lennis Morlock (2003). Loved mother and mother-in-law of Janet and Bruce McLennan of Beamsville, Jim and Nancy Morlock of RR 2, Crediton, Chris (Morlock) McNamara and her husband Bob of RR 2, Zurich. Predeceased by her son Barry Herbert Morlock (1977). Dear sister of Alwinna Galloway of St. Marys and will be remembered by her niece and nephews and their families. Loving grandma of Larry McLennan and his wife Pamela Easun-McLennan, Rob and Shelley McLennan, Mike and Kristen Morlock, Dave Morlock and his friend Linda McDougall, Lisa Morlock and her husband Peter Busse, Bill and Rebecca McNamara and eleven great grandchildren. Predeceased by her parents Garnet and Nora (Brown) Hill and brother-in-law Jack Galloway. Resting at the T. Harry Hoffman & Sons Funeral Home, Dashwood, with Visitation on Tuesday from 2 to 4 and 7 to 9 p.m. and where the Funeral Service will be held on Wednesday, May 25, 2016, at 11 am. Rev. Heather Weaver-Orosz of Beamsville, officiating. Interment Crediton Cemetery. If desired, memorial donations to Zion United Church, Crediton or a charity of your choice would be appreciated by the family.",
+  "bio": "MORLOCK: Peacefully, at Exeter Villa, surrounded with the love of her family, on Saturday,  May 21, 2016,  Grace LaBelle (Hill) Morlock of Exeter Villa and formerly of Crediton, age 93. Beloved wife of the late Ray Lennis Morlock (2003). Loved mother and mother-in-law of Janet and Bruce McLennan of Beamsville, Jim and Nancy Morlock of RR 2, Crediton, Chris (Morlock) McNamara and her husband Bob of RR 2, Zurich. Predeceased by her son Barry Herbert Morlock (1977). Dear sister of Alwinna Galloway of St. Marys and will be remembered by her niece and nephews and their families. Loving grandma of Larry McLennan and his wife Pamela Easun-McLennan, Rob and Shelley McLennan, Mike and Kristen Morlock, Dave Morlock and his friend Linda McDougall, Lisa Morlock and her husband Peter Busse, Bill and Rebecca McNamara and eleven great grandchildren. Predeceased by her parents Garnet and Nora (Brown) Hill and brother-in-law Jack Galloway. Resting at the T. Harry Hoffman &amp; Sons Funeral Home, Dashwood, with Visitation on Tuesday from 2 to 4 and 7 to 9 p.m. and where the Funeral Service will be held on Wednesday, May 25, 2016, at 11 am. Rev. Heather Weaver-Orosz of Beamsville, officiating. Interment Crediton Cemetery. If desired, memorial donations to Zion United Church, Crediton or a charity of your choice would be appreciated by the family.",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2016/144/163227110_1464135312.jpg?size=photos250",
+  "image_credits": "BWin",
+  "image_credits_url": "/user/profile/48483226",
   "parents": [
     {
       "name": "Garnet Verne   Hill",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2022/116/163227110_9f9f7776-2e31-418d-b407-90bd78e8f4f1.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}]",
+  "maiden_name": "Hill",
+  "inscription": "",
   "id": 741
 }

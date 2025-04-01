@@ -5,9 +5,12 @@
   "death_date": "1996-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/84/188139149_244e05f0-afe7-40ba-8486-9433233356f5.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 13-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Hirtzel",
+  "inscription": "",
   "id": 1129
 }

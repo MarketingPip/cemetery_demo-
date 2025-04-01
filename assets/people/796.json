@@ -5,9 +5,12 @@
   "death_date": "1960-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2021/153/188115334_9530b9b2-3d77-4172-824a-93ed3820462a.jpeg?size=photos250",
+  "image_credits": "Kathleen Hodgins",
+  "image_credits_url": "/user/profile/47390529",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Ruth  Oestreicher Wolfe\", \"birth_date\": \"1928-00-00\", \"death_date\": \"2013-00-00\", \"profile_url\": \"/memorial/139054376/ruth-wolfe\"}, {\"name\": \"Dorothy Elizabeth  Oestreicher Domm\", \"birth_date\": \"1929-00-00\", \"death_date\": \"2016-00-00\", \"profile_url\": \"/memorial/198938861/dorothy_elizabeth-domm\"}, {\"name\": \"Rev John Samuel   Oestreicher\", \"birth_date\": \"1934-00-00\", \"death_date\": \"2006-00-00\", \"profile_url\": \"/memorial/198940021/john_samuel-oestreicher\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 14-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Rose",
+  "inscription": "",
   "id": 796
 }

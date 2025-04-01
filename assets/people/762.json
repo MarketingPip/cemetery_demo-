@@ -5,9 +5,12 @@
   "death_date": "1948-04-24",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "MORLOCK\n(front)FATHER<br/>William H. Morlock<br/>died Apr. 24, 1948<br/>aged 85 yrs 5 mos. 19ds.<br/>MOTHER<br/>Lydia Haist<br/>wife of William H. Morlock<br/>died Sept. 27, 1942<br/>aged 76 yrs. 3 ms. 29 ds.<br/>(end)Wilber H. Morlock<br/>died Jan. 1, 1919<br/>aged 26 yrs. 10 ms. 6 ds.<br/>Clinton G. Morlock<br/>died June 4, 1942<br/>aged 43 yrs. 1 mo.<br/>(end)Clara S. Morlock<br/>died Apr. 10, 1871<br/>aged 6 yrs. 1 mo. 17 ds.<br/>Raymond A. Morlock<br/>died May 23, 1898<br/>aged 8 mos. 8 ds.<br/>(back)Charlotte Beaver<br/>wife of Gottielb Morlock<br/>died July 7, 1925<br/>aged 84 yrs. 9 mos. 27 ds.<br/>Gottielb Morlock<br/>died Nov. 3, 1910<br/>aged 74 yrs. 5 ms. 29 ds.<br/>at rest</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/275/15978472_115988713587.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Gottlieb   Morlock",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 8-11",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "MORLOCK(front)FATHERWilliam H. Morlockdied Apr. 24, 1948aged 85 yrs 5 mos. 19ds.MOTHERLydia Haistwife of William H. Morlockdied Sept. 27, 1942aged 76 yrs. 3 ms. 29 ds.(end)Wilber H. Morlockdied Jan. 1, 1919aged 26 yrs. 10 ms. 6 ds.Clinton G. Morlockdied June 4, 1942aged 43 yrs. 1 mo.(end)Clara S. Morlockdied Apr. 10, 1871aged 6 yrs. 1 mo. 17 ds.Raymond A. Morlockdied May 23, 1898aged 8 mos. 8 ds.(back)Charlotte Beaverwife of Gottielb Morlockdied July 7, 1925aged 84 yrs. 9 mos. 27 ds.Gottielb Morlockdied Nov. 3, 1910aged 74 yrs. 5 ms. 29 ds.at rest",
   "id": 762
 }

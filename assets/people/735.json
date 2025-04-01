@@ -5,9 +5,12 @@
   "death_date": "1993-05-12",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Son of Alma (Haist) and Chester Morlock",
   "bio": "MORLOCK\nFrederick John<br/>MORLOCK<br/>19241993</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/214/15135166_115461828688.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Chester Gordon   Morlock",
@@ -26,5 +29,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "23-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "MORLOCKFrederick JohnMORLOCK19241993",
   "id": 735
 }

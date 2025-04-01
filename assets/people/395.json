@@ -5,9 +5,12 @@
   "death_date": "1921-11-17",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/116/192783313_65266b41-94bd-4fa4-87b4-61609aef3b50.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "William Earnot   Gaiser",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Ruth Madeline   Gaiser\", \"birth_date\": \"1915-00-00\", \"death_date\": \"1923-00-00\", \"profile_url\": \"/memorial/192783230/ruth_madeline-gaiser\"}]",
+  "half_siblings": "[]",
+  "plot_value": "15-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 395
 }

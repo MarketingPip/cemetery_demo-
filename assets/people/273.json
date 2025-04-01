@@ -5,9 +5,12 @@
   "death_date": "1925-09-22",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Daughter of Magdalena and Michael Schwartz",
+  "bio": "Daughter of Magdalena and Michael Schwartz",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/318/16668283_116365377843.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"George Michael   Finkbeiner\", \"birth_date\": \"1880-00-00\", \"death_date\": \"1938-00-00\", \"profile_url\": \"/memorial/15571819/george_michael-finkbeiner\"}, {\"name\": \"Elizabeth Anna   Finkbeiner\", \"birth_date\": \"1890-00-00\", \"death_date\": \"1899-00-00\", \"profile_url\": \"/memorial/16668322/elizabeth_anna-finkbeiner\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 12-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Schwartz",
+  "inscription": "",
   "id": 273
 }

@@ -5,9 +5,12 @@
   "death_date": "1914-12-04",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "John was the son of Jacob Finkbeiner. His mother's name on his marriage record says Barbara, on his death record is says Rosina Shatz. His death record is dated Dec 2 1914",
+  "bio": "John was the son of Jacob Finkbeiner. His mother's name on his marriage record says Barbara, on his death record is says Rosina Shatz. His death record is dated Dec 2 1914",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/317/16658475_116357079241.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Caroline Lavina  Finkbeiner Currey\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1970-00-00\", \"profile_url\": \"/memorial/36479056/caroline_lavina-currey\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 11-11",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 325
 }

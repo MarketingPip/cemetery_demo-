@@ -5,9 +5,12 @@
   "death_date": "1999-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "HODGE\nWilliam A. Hodge<br/>1922-1969<br/>beloved husband of<br/>Eleanor J.<br/>McLeod<br/>1927-1993<br/>beloved wife of<br/>Lloyd Roeszler<br/>1929-1999</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/84/237948546_4e05f473-1173-49ee-a974-326b540b614a.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 18-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "HODGEWilliam A. Hodge1922-1969beloved husband ofEleanor J.McLeod1927-1993beloved wife ofLloyd Roeszler1929-1999",
   "id": 905
 }

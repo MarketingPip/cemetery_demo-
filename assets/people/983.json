@@ -5,9 +5,12 @@
   "death_date": "1997-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/86/188136924_9f5cfe2a-bc5d-4844-a4b6-0ebf214e2558.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Allan \\\"Roy\\\"  Smith\", \"birth_date\": \"1942-00-00\", \"death_date\": \"2015-00-00\", \"profile_url\": \"/memorial/163913876/allan-smith\"}, {\"name\": \"Judith Anne  Smith Glavin\", \"birth_date\": \"1950-00-00\", \"death_date\": \"1997-00-00\", \"profile_url\": \"/memorial/155106902/judith_anne-glavin\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 983
 }

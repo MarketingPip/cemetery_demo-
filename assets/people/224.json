@@ -5,9 +5,12 @@
   "death_date": "2007-09-29",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Son of Clarence (1998) and Grace (Ortwein) (2003) Fahner. Beloved husband and best friend of Linda (Reid) (Towton) Fahner. Predeceased by his brother Charles in infancy.",
+  "bio": "Son of Clarence (1998) and Grace (Ortwein) (2003) Fahner. Beloved husband and best friend of Linda (Reid) (Towton) Fahner. Predeceased by his brother Charles in infancy.",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/84/21860648_686fe2f5-c4d2-4a3c-a623-b2e72ba24558.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Clarence W. \"Toby\"  Fahner",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Donald Ray   Fahner\", \"birth_date\": \"1959-00-00\", \"death_date\": \"2008-00-00\", \"profile_url\": \"/memorial/41420706/donald_ray-fahner\"}]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 224
 }

@@ -5,9 +5,12 @@
   "death_date": "1936-03-24",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/244/15580421_115720203727.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Wellington Roy   Haist",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Helen Louisa  Haist Jones Wasnidge\", \"birth_date\": \"1926-00-00\", \"death_date\": \"2014-00-00\", \"profile_url\": \"/memorial/38801701/helen_louisa-jones_wasnidge\"}, {\"name\": \"Roy Allen   Haist\", \"birth_date\": \"1931-00-00\", \"death_date\": \"1931-00-00\", \"profile_url\": \"/memorial/15580428/roy_allen-haist\"}]",
+  "half_siblings": "[]",
+  "plot_value": "Row 15-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 485
 }

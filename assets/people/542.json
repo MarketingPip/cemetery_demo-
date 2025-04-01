@@ -5,9 +5,12 @@
   "death_date": "1984-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/244/15580216_115720034050.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Orald   Hill\", \"birth_date\": \"1921-00-00\", \"death_date\": \"1921-00-00\", \"profile_url\": \"/memorial/15580219/orald-hill\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 16-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Haist",
+  "inscription": "",
   "id": 542
 }

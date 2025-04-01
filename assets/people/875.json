@@ -5,9 +5,12 @@
   "death_date": "1971-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Daughter of Christina (Kuttzli) and Jacob Gaiser",
+  "bio": "Daughter of Christina (Kuttzli) and Jacob Gaiser",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/248/15639893_115755686493.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Jacob   Gaiser",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 14-5",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Gaiser",
+  "inscription": "",
   "id": 875
 }

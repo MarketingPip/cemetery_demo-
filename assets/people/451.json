@@ -5,9 +5,12 @@
   "death_date": "1965-08-16",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Son of Mary (Bastard/Hodgers) and William Gower.----Conflicting info; Isaac's mother is named as Bastard on his marriage record, and Hodgers on his birth record. Isaac's birth year is listed as 1881 in the 1901 census, 1882 on his birth record, and 1883 on this stone.",
+  "bio": "Son of Mary (Bastard/Hodgers) and William Gower.<br/>----<br/>Conflicting info; Isaac's mother is named as Bastard on his marriage record, and Hodgers on his birth record. Isaac's birth year is listed as 1881 in the 1901 census, 1882 on his birth record, and 1883 on this stone.",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/242/15563690_115703718263.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Vera Mary Elizabeth  Gower Bullock\", \"birth_date\": \"1905-00-00\", \"death_date\": \"2001-00-00\", \"profile_url\": \"/memorial/188036061/vera_mary_elizabeth-bullock\"}, {\"name\": \"Henry   Gower\", \"birth_date\": \"1906-00-00\", \"death_date\": \"1906-00-00\", \"profile_url\": \"/memorial/241152797/henry-gower\"}, {\"name\": \"Lydia \\\"Luella\\\"  Gower Taylor\", \"birth_date\": \"1908-00-00\", \"death_date\": \"2003-00-00\", \"profile_url\": \"/memorial/188138132/lydia_%22luella%22-taylor\"}, {\"name\": \"Milton Isaac   Gower\", \"birth_date\": \"1912-00-00\", \"death_date\": \"1986-00-00\", \"profile_url\": \"/memorial/15563013/milton_isaac-gower\"}, {\"name\": \"Alma Katherine  Gower Brunzlow\", \"birth_date\": \"1918-00-00\", \"death_date\": \"2024-00-00\", \"profile_url\": \"/memorial/269021463/alma_katherine-brunzlow\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 16-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 451
 }

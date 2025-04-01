@@ -5,9 +5,12 @@
   "death_date": "",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "AT REST\nROESZLER<br/>at rest<br/>George Roeszler<br/>born Oct. 26, 1826<br/>died Feb. 19, 1882<br/>Rosena his wife<br/>born Mar. 11, 1822<br/>died May 28, 1913<br/>Gone but not forgotten</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/114/188136585_e5e92493-3dcd-4204-9fcc-3369c9af6928.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 10-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "AT RESTROESZLERat restGeorge Roeszlerborn Oct. 26, 1826died Feb. 19, 1882Rosena his wifeborn Mar. 11, 1822died May 28, 1913Gone but not forgotten",
   "id": 900
 }

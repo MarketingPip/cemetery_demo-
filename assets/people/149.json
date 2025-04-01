@@ -5,9 +5,12 @@
   "death_date": "2014-02-18",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Beloved wife of the late Harry A. Schroeder (1998) and the late Carman Dale (1978). Loved mother and mother-in-law of Donna and Fred Veenstra, Joan and Ivan Disher all of RR 4, Clinton, Brenda and Earl Scott of RR 1, Newton, Bruce Dale and Daren Dale both of RR 2, Centralia. Loving grandma of Jason (Candi) Veenstra, Kim (Matt) Veenstra, Randy (Kristine) Scott, Jamie (Jenna) Scott, Kelly (Rod) Scott, Megan (Bill) Disher, Melissa Disher, Stephanie Disher and great-grandma of Madison Scott. Dear sister of Jean Storey and Joan Baxter. Loved by her many nieces, nephews and their families. Predeceased by her parents Richard and Eliza (Kirkconnell) Alcock, grandson Matthew Disher, siblings Beacham, Eric, Isabelle, Ruth, Mary and Helen.",
+  "bio": "Beloved wife of the late Harry A. Schroeder (1998) and the late Carman Dale (1978). Loved mother and mother-in-law of Donna and Fred Veenstra, Joan and Ivan Disher all of RR 4, Clinton, Brenda and Earl Scott of RR 1, Newton, Bruce Dale and Daren Dale both of RR 2, Centralia. Loving grandma of Jason (Candi) Veenstra, Kim (Matt) Veenstra, Randy (Kristine) Scott, Jamie (Jenna) Scott, Kelly (Rod) Scott, Megan (Bill) Disher, Melissa Disher, Stephanie Disher and great-grandma of Madison Scott. Dear sister of Jean Storey and Joan Baxter. Loved by her many nieces, nephews and their families. Predeceased by her parents Richard and Eliza (Kirkconnell) Alcock, grandson Matthew Disher, siblings Beacham, Eric, Isabelle, Ruth, Mary and Helen.",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2016/156/163961490_1465186176.jpg?size=photos250",
+  "image_credits": "BWin",
+  "image_credits_url": "/user/profile/48483226",
   "parents": [
     {
       "name": "Richard Beecham   Alcock",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Alcock",
+  "inscription": "",
   "id": 149
 }

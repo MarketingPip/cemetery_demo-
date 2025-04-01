@@ -5,9 +5,12 @@
   "death_date": "1949-09-08",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Spouse:Veronica Haist",
+  "bio": "Spouse:<br/>Veronica Haist",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/84/36941679_ae205c0d-720a-4b59-9831-f377865ce2a4.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Wesley   Wein\", \"birth_date\": \"1888-00-00\", \"death_date\": \"1959-00-00\", \"profile_url\": \"/memorial/36941489/wesley-wein\"}, {\"name\": \"Aaron   Wein\", \"birth_date\": \"1890-00-00\", \"death_date\": \"1973-00-00\", \"profile_url\": \"/memorial/15638798/aaron-wein\"}, {\"name\": \"Edwin   Wein\", \"birth_date\": \"1892-00-00\", \"death_date\": \"1955-00-00\", \"profile_url\": \"/memorial/188138628/edwin-wein\"}, {\"name\": \"Emerson   Wein\", \"birth_date\": \"1896-00-00\", \"death_date\": \"1994-00-00\", \"profile_url\": \"/memorial/237943360/emerson-wein\"}, {\"name\": \"Melvin Leaverne   Wein\", \"birth_date\": \"1902-00-00\", \"death_date\": \"1982-00-00\", \"profile_url\": \"/memorial/68935686/melvin_leaverne-wein\"}, {\"name\": \"Maleeta E.   Wein\", \"birth_date\": \"1905-00-00\", \"death_date\": \"1955-00-00\", \"profile_url\": \"/memorial/237943179/maleeta_e-wein\"}, {\"name\": \"Leonard Jacob   Wein\", \"birth_date\": \"1907-00-00\", \"death_date\": \"1988-00-00\", \"profile_url\": \"/memorial/188139165/leonard_jacob-wein\"}, {\"name\": \"Lloyd Elmer \\\"Sparky\\\"  Wein\", \"birth_date\": \"1909-00-00\", \"death_date\": \"2006-00-00\", \"profile_url\": \"/memorial/15194958/lloyd_elmer-wein\"}, {\"name\": \"Lawrence Arnold   Wein\", \"birth_date\": \"1912-00-00\", \"death_date\": \"1980-00-00\", \"profile_url\": \"/memorial/16578367/lawrence_arnold-wein\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 14-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 1121
 }

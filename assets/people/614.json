@@ -5,9 +5,12 @@
   "death_date": "2012-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "REST IN PEACE",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2018/209/188113369_2bce02a1-3fd5-462b-8f2e-76c8288b067a.jpeg?size=photos250",
+  "image_credits": "rossddickson",
+  "image_credits_url": "/user/profile/49188008",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 28-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Davey",
+  "inscription": "REST IN PEACE",
   "id": 614
 }

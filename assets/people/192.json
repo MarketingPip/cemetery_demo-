@@ -5,9 +5,12 @@
   "death_date": "1864-08-23",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "Frederich Eilber\nborn Sept. 4, 1791<br/>died Nov. 10, 1875<br/>Magdalena his wife<br/>born May 13, 1807<br/>died Aug. 23, 1864</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/112/236915839_c8ed9038-5455-4510-b997-d6995c494a22.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Christopher Friederich   Eilber\", \"birth_date\": \"1830-00-00\", \"death_date\": \"1919-00-00\", \"profile_url\": \"/memorial/188036509/christopher_friederich-eilber\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 5-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Gaiser",
+  "inscription": "Frederich Eilberborn Sept. 4, 1791died Nov. 10, 1875Magdalena his wifeborn May 13, 1807died Aug. 23, 1864",
   "id": 192
 }

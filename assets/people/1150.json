@@ -5,9 +5,12 @@
   "death_date": "2019-01-19",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Mr. Wilmar Wein, formerly of Exeter and Crediton, passed away peacefully at the age of 92 years. He was the lovingly devoted husband of Louise, with whom he was blessed to share 65 memorable years of marriage. Wilmar was the proud dad of Barbara (Paul) and Paul (Jacqueline), and the adored grandpa of five grandchildren and four great-grandchildren. He will always be lovingly remembered by his sister Arliss (Cecil), and by his cousins, nephews and nieces. Wilmar was predeceased by his parents Aaron and Cora (née Truemner) Wein.",
+  "bio": "<p>Mr. Wilmar Wein, formerly of Exeter and Crediton, passed away peacefully at the age of 92 years. He was the lovingly devoted husband of Louise, with whom he was blessed to share 65 memorable years of marriage. Wilmar was the proud dad of Barbara (Paul) and Paul (Jacqueline), and the adored grandpa of five grandchildren and four great-grandchildren. He will always be lovingly remembered by his sister Arliss (Cecil), and by his cousins, nephews and nieces. Wilmar was predeceased by his parents Aaron and Cora (née Truemner) Wein.</p><p><br/></p>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/84/198068689_7bc251ad-a38a-43cc-ba04-f4d4733b3059.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Aaron   Wein",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 1150
 }

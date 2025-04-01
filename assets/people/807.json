@@ -5,9 +5,12 @@
   "death_date": "1965-02-14",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "OESTREICHER\nKatherine<br/>wife of Daniel Oestreicher<br/>1870-1922<br/>Daniel Oestreicher<br/>born Feb. 18, 1866<br/>died May 24, 1948<br/>his wife Lydia Kobe<br/>born Sept. 10, 1882<br/>died Feb. 14, 1965<br/>Barbara Fees<br/>beloved wife ofJ.M. Oestreicher<br/>died Apr. 11, 1911<br/>ae 82 yrs. 8 mos. 6 ds.<br/>Elizabeth Oestreicher<br/>wife of Conrad Kuhn<br/>1862-1950<br/>J. Michael Oestreicher<br/>Geboren Den 9 Nov. 1819<br/>Stare Den 15 Sept. 1900<br/>Alter 80 J. 10 m. 6 t.</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2018/209/188115395_d4e006e2-b47e-4251-98e6-805e6fe2ffe1.jpeg?size=photos250",
+  "image_credits": "rossddickson",
+  "image_credits_url": "/user/profile/49188008",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "6-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Kobe",
+  "inscription": "OESTREICHERKatherinewife of Daniel Oestreicher1870-1922Daniel Oestreicherborn Feb. 18, 1866died May 24, 1948his wife Lydia Kobeborn Sept. 10, 1882died Feb. 14, 1965Barbara Feesbeloved wife ofJ.M. Oestreicherdied Apr. 11, 1911ae 82 yrs. 8 mos. 6 ds.Elizabeth Oestreicherwife of Conrad Kuhn1862-1950J. Michael OestreicherGeboren Den 9 Nov. 1819Stare Den 15 Sept. 1900Alter 80 J. 10 m. 6 t.",
   "id": 807
 }

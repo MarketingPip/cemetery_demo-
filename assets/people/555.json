@@ -5,9 +5,12 @@
   "death_date": "1983-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/116/188113242_da97deb7-dbe1-48c9-aaf4-1ba8ac654a38.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "John T.   Hirtzel",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Henry Donald   Hirtzel\", \"birth_date\": \"1914-00-00\", \"death_date\": \"2004-00-00\", \"profile_url\": \"/memorial/41012852/henry_donald-hirtzel\"}]",
+  "half_siblings": "[]",
+  "plot_value": "Row 17-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 555
 }

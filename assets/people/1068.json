@@ -5,9 +5,12 @@
   "death_date": "1928-12-10",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Mary married Charles Treitz on November 2, 1892 in Mildmay,​ Bruce County,​ Ontario,​ Canada.",
+  "bio": "Mary married Charles Treitz on November 2, 1892 in Mildmay,​ Bruce County,​ Ontario,​ Canada.<br/>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/112/98543167_2bd55f5f-b3db-4d83-abf5-323314939375.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "George Ernest   Zinn",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Zinn",
+  "inscription": "",
   "id": 1068
 }

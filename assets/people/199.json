@@ -5,9 +5,12 @@
   "death_date": "1979-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "ENGLAND\nJacque W. England<br/>1922-1979<br/>his wife<br/>Pearl E. Vannatter<br/>1919-1998</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/86/238056132_17182f95-e9e4-4f7e-b07a-ad6c345b1a74.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Lloyd   England",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 27-9",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "ENGLANDJacque W. England1922-1979his wifePearl E. Vannatter1919-1998",
   "id": 199
 }

@@ -5,9 +5,12 @@
   "death_date": "2003-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Son of Florence (McGregor) and Archibald MacKay",
+  "bio": "Son of Florence (McGregor) and Archibald MacKay",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/241/15561417_115699789812.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2022/84/15561417_86cb7b7d-23bd-461a-b856-3f20f6a32c91.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 691
 }

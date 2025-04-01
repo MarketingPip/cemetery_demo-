@@ -5,9 +5,12 @@
   "death_date": "1943-11-13",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "MacDonald---November 13, 1943, Clara, wife of John MacDonald; mother of Corp. Frederick A. MacDonald; daughter of Mrs. Mary Wenzel; sister of Mrs. C. Berg and Mrs. Herbert Fahrner. Funeral service at chapel of the Wm. R. Hamilton Co., Cass Ave. at Alexandrine, Monday at 8:30 p.m. Interment at Crediton, Ontario.Detroit Free Press, Nov. 14, 1943 Sunday, page 12.Born in Crediton, Huron co., Ontario, Canada",
+  "bio": "MacDonald---November 13, 1943, Clara, wife of John MacDonald; mother of Corp. Frederick A. MacDonald; daughter of Mrs. Mary Wenzel; sister of Mrs. C. Berg and Mrs. Herbert Fahrner. Funeral service at chapel of the Wm. R. Hamilton Co., Cass Ave. at Alexandrine, Monday at 8:30 p.m. Interment at Crediton, Ontario.<br/>Detroit Free Press, Nov. 14, 1943 Sunday, page 12.<br/><br/>Born in Crediton, Huron co., Ontario, Canada",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2018/209/158033806_bd07104b-5bd6-41a2-a137-96f2f2baf427.jpeg?size=photos250",
+  "image_credits": "rossddickson",
+  "image_credits_url": "/user/profile/49188008",
   "parents": [
     {
       "name": "William Henry   Wenzel",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 16, Lot 4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Wenzel",
+  "inscription": "",
   "id": 683
 }

@@ -5,9 +5,12 @@
   "death_date": "1962-10-28",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Daughter of Elizabeth (Dodds) and Thomas Amy",
+  "bio": "Daughter of Elizabeth (Dodds) and Thomas Amy",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2008/137/26884197_121103884346.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Thomas James   Amy",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Amy",
+  "inscription": "",
   "id": 348
 }

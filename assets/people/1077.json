@@ -5,9 +5,12 @@
   "death_date": "1994-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/215/15146074_115470404678.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Ronald  Wayne Truemner\", \"birth_date\": \"1942-00-00\", \"death_date\": \"1989-00-00\", \"profile_url\": \"/memorial/15146103/ronald-truemner\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 21-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Sanders",
+  "inscription": "",
   "id": 1077
 }

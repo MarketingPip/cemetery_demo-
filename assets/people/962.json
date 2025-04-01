@@ -5,9 +5,12 @@
   "death_date": "1986-12-06",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Son of Louisa (Haist) and Jacob Schwartz",
+  "bio": "Son of Louisa (Haist) and Jacob Schwartz",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/248/15638477_115754744060.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Claire Milton   Schwartz\", \"birth_date\": \"1934-00-00\", \"death_date\": \"2006-00-00\", \"profile_url\": \"/memorial/41013822/claire_milton-schwartz\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 15-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 962
 }

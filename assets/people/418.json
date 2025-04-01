@@ -5,9 +5,12 @@
   "death_date": "1935-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/115/239217449_f59b07aa-0c97-405f-88f7-73265be900c5.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Infants   Gaiser\", \"birth_date\": null, \"death_date\": null, \"profile_url\": \"/memorial/239217541/infants-gaiser\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 12-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 418
 }

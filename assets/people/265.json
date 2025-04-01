@@ -5,9 +5,12 @@
   "death_date": "1914-01-20",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "J. Bernhardt Faist\nGest den Apr. 5, 1887<br/>Alter 59 Jahre 4 mo. und 13 tage.<br/>Louisa <br/>wife of J. B.  Faist<br/>died Jan. 20, 1914<br/>ae 80 yrs. 10 mos. 28 ds.</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/112/236920169_1b723315-ef0f-4246-8657-1c88d7d0b248.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Johann Christian   Morlock",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "6-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Morlock",
+  "inscription": "J. Bernhardt FaistGest den Apr. 5, 1887Alter 59 Jahre 4 mo. und 13 tage.Louisa wife of J. B.  Faistdied Jan. 20, 1914ae 80 yrs. 10 mos. 28 ds.",
   "id": 265
 }

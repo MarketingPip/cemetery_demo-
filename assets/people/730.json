@@ -5,9 +5,12 @@
   "death_date": "1871-04-10",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Clara shares her stone with Charlotte Beaver, Gottlieb Morlock, Lydia Haist, William Morlock.",
+  "bio": "Clara shares her stone with Charlotte Beaver, Gottlieb Morlock, Lydia Haist, William Morlock.",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/275/15978192_115988539977.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Gottlieb   Morlock",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"William H.   Morlock\", \"birth_date\": \"1862-00-00\", \"death_date\": \"1948-00-00\", \"profile_url\": \"/memorial/15978472/william_h-morlock\"}, {\"name\": \"John Nicholas   Morlock\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1951-00-00\", \"profile_url\": \"/memorial/16539197/john_nicholas-morlock\"}, {\"name\": \"Charles Edward   Morlock\", \"birth_date\": \"1873-00-00\", \"death_date\": \"1968-00-00\", \"profile_url\": \"/memorial/15396172/charles_edward-morlock\"}, {\"name\": \"Albert Wesley   Morlock\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1965-00-00\", \"profile_url\": \"/memorial/15849051/albert_wesley-morlock\"}, {\"name\": \"Mary Ann  Morlock Braun\", \"birth_date\": \"1881-00-00\", \"death_date\": \"1968-00-00\", \"profile_url\": \"/memorial/15426343/mary_ann-braun\"}]",
+  "half_siblings": "[]",
+  "plot_value": "Row 8-11",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 730
 }

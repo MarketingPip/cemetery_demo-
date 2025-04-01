@@ -5,9 +5,12 @@
   "death_date": "2004-09-29",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Son of Lorne and Margaret (HOTSON) FINKBEINER.",
+  "bio": "Son of Lorne and Margaret (HOTSON) FINKBEINER.",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/213/12524364_115452492059.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 307
 }

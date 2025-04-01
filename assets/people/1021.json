@@ -5,9 +5,12 @@
   "death_date": "1953-03-25",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Daughter of Sarah (Thaler) and Aaron Kaercher",
+  "bio": "Daughter of Sarah (Thaler) and Aaron Kaercher",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/249/15660817_115769136749.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Aaron   Kaercher",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "row 1-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2011/46/15660817_129788787981.jpg?size=photos250', 'contributor_text': 'Kimberly Fraser', 'contributor_href': 'https://www.findagrave.com/user/profile/46863018'}]",
+  "maiden_name": "Kaercher",
+  "inscription": "",
   "id": 1021
 }

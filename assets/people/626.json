@@ -1,23 +1,46 @@
 {
-  "memorial_url": "https://www.findagrave.com/memorial/16539744/john-klumpp",
+  "memorial_url": "https://www.findagrave.com/memorial/15728813/john-klumpp",
   "name": "John Klumpp",
-  "birth_date": "1834-01-01",
-  "death_date": "1923-07-13",
+  "birth_date": "1865-00-00",
+  "death_date": "1952-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "LAMPORT\nSamuel G. Lamport<br/>1867-1944<br/>his wife Margaret Klumpp<br/>1871-1970<br/>Edith Elvira their daughter<br/>1901-1903<br/>(back)KLUMPP<br/>John Klumpp<br/>1834-1923<br/>his wife Agnes C. Zuefle<br/>1935-1906</br>",
+  "part_bio": "",
+  "bio": "KLUMPP\nMichael Klumpp<br/>born 1831<br/>died 1926<br/>his wife Elizabeth Heyrock<br/>born 1838<br/>died 1916<br/>Lydia Sweitzer (nee Klumpp)<br/>born 1873 died 1916<br/>Martha <br/>born 1875<br/>died 1877<br/>William <br/>born 1878<br/>died 1881<br/>John Klumpp<br/>born 1865<br/>died 1952<br/>his wife Lydia Fahrner<br/>born 1871<br/>died 1936<br/>their daughter Florence<br/>born 1893<br/>died 1894</br>",
   "gps": null,
-  "image_url": "https://images.findagrave.com/photos/2006/310/16539744_116291442727.jpg?size=photos250",
-  "parents": [],
-  "spouses": [
+  "image_url": "https://images.findagrave.com/photos/2006/256/15728813_115824778042.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
     {
-      "name": "Agnes Catherine  Zuefle Klumpp",
-      "birth_date": "1835-00-00",
-      "death_date": "1906-00-00",
-      "profile_url": "/memorial/16539780/agnes_catherine-klumpp"
+      "name": "Michael   Klumpp",
+      "birth_date": "1831-00-00",
+      "death_date": "1926-00-00",
+      "profile_url": "/memorial/16681729/michael-klumpp"
+    },
+    {
+      "name": "Elizabeth Barbara  Heyrock Klumpp",
+      "birth_date": "1838-00-00",
+      "death_date": "1916-00-00",
+      "profile_url": "/memorial/16681785/elizabeth_barbara-klumpp"
     }
   ],
-  "children": "[{\"name\": \"Margaret  Klumpp Lamport\", \"birth_date\": \"1871-00-00\", \"death_date\": \"1970-00-00\", \"profile_url\": \"/memorial/16539603/margaret-lamport\"}]",
+  "spouses": [
+    {
+      "name": "Lydia  Fahner Klumpp",
+      "birth_date": "1871-00-00",
+      "death_date": "1938-00-00",
+      "profile_url": "/memorial/15728852/lydia-klumpp"
+    }
+  ],
+  "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "2-9",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "KLUMPPMichael Klumppborn 1831died 1926his wife Elizabeth Heyrockborn 1838died 1916Lydia Sweitzer (nee Klumpp)born 1873 died 1916Martha born 1875died 1877William born 1878died 1881John Klumppborn 1865died 1952his wife Lydia Fahrnerborn 1871died 1936their daughter Florenceborn 1893died 1894",
   "id": 626
 }

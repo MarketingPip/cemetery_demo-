@@ -5,9 +5,12 @@
   "death_date": "1997-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/84/188136419_b9e2b38d-d1f6-43d1-ad5a-9d40dcdf3ad7.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Marion Dolores  Pfaff Berge\", \"birth_date\": \"1933-00-00\", \"death_date\": \"2022-00-00\", \"profile_url\": \"/memorial/237140263/marion_dolores-berge\"}, {\"name\": \"Gwendolyn Helen   Pfaff\", \"birth_date\": \"1942-00-00\", \"death_date\": \"1968-00-00\", \"profile_url\": \"/memorial/237947115/gwendolyn_helen-pfaff\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 20-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Brethour",
+  "inscription": "",
   "id": 836
 }

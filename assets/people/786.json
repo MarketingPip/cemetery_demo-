@@ -5,9 +5,12 @@
   "death_date": "1869-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Joseph Nelson and Anna Follis (Fallas or Fallis) were married about 1858.Their children:Alexander Nelson born March 25, 1860. Mary Ann Nelson born April 9, 1863.Elizabeth Ann Nelson born February 1, 1867.",
+  "bio": "Joseph Nelson and Anna Follis (Fallas or Fallis) were married about 1858.<br/><br/><br/>Their children:<br/><br/>Alexander Nelson born March 25, 1860. <br/><br/>Mary Ann Nelson born April 9, 1863.<br/><br/>Elizabeth Ann Nelson born February 1, 1867.<br/>",
   "gps": null,
   "image_url": "",
+  "image_credits": "",
+  "image_credits_url": "",
   "parents": [
     {
       "name": "Alexander   Nelson",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 786
 }

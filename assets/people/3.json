@@ -5,9 +5,12 @@
   "death_date": "1953-02-21",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Daughter of Magdalena (Braun) and Frederick Haist",
+  "bio": "Daughter of Magdalena (Braun) and Frederick Haist",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/241/15561443_115699819923.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Frederick   Haist",
@@ -26,5 +29,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 17-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Haist",
+  "inscription": "",
   "id": 3
 }

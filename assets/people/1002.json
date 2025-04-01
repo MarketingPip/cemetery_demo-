@@ -5,9 +5,12 @@
   "death_date": "1906-09-10",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "STAEBLER\nRev. Joh. G. Staebler<br/>gest 23 Aug. 1909<br/>Ult 85 Jah. 7 mon. 28 tg.<br/>Chriftianna, the Frau von Joh Staebler<br/>Gest 10 Sept. 1906<br/>Ult 77 Jahr. 6 mo. 27 tg.</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/113/188137840_ff2b7a12-6b12-4d1e-9714-4c56fa07145c.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Johann   Stabler\", \"birth_date\": \"1857-00-00\", \"death_date\": \"1864-00-00\", \"profile_url\": \"/memorial/102287992/johann-stabler\"}, {\"name\": \"Henry Thomas   Staebler\", \"birth_date\": \"1871-00-00\", \"death_date\": \"1871-00-00\", \"profile_url\": \"/memorial/272789932/henry_thomas-staebler\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 8-5",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "STAEBLERRev. Joh. G. Staeblergest 23 Aug. 1909Ult 85 Jah. 7 mon. 28 tg.Chriftianna, the Frau von Joh StaeblerGest 10 Sept. 1906Ult 77 Jahr. 6 mo. 27 tg.",
   "id": 1002
 }

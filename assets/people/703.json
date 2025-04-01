@@ -5,9 +5,12 @@
   "death_date": "1994-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "MARTIN\nTHE LORD IS MY SHEPHERD</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/84/188115151_df87e9f8-b8a2-4526-b5b7-7090d7933729.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 22-9",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Seidell",
+  "inscription": "MARTINTHE LORD IS MY SHEPHERD",
   "id": 703
 }

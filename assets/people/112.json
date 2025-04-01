@@ -5,9 +5,12 @@
   "death_date": "1872-12-13",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Jonathan's death date is clear. His age was calculated using the age at death recorded on the stone: 2y, 11m, 17d. However, it should be noted that the days are not clear on the stone, it could be 1 day, 12 days, or 17 days.",
   "bio": "BROWN\nIn memory of Mary B. Fees<br/>wife of John Brown<br/>died June 25, 1906<br/>aged 73 yrs. 6 mos. 28 ds.<br/>Sophia Kleinfeldt<br/>wife of B. Brown<br/>died Dec. 27, 1911<br/>aged 51 yrs. 6 mos. 9 days.<br/>Bernard Brown<br/>1858-1942<br/>Hier Ruhte<br/>Jonathan<br/>Starb Dec. 13, 1872<br/>Alter 2 Jahre 11 mo 12 tag<br/>also Daniel<br/>Starb July 4, 1882<br/>Alter 10 Jaher 2 mo.<br/>kinder von John &amp; Mary Brown<br/>John Brown<br/>Starb Sept. 6, 1888<br/>Alter 69 Jaher 10 mos.<br/>f.s. Harold L. Brown<br/>missing in action<br/>1924-1944</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/274/15965849_115980094760.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "John   Brown",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Bernard   Brown\", \"birth_date\": \"1858-00-00\", \"death_date\": \"1942-00-00\", \"profile_url\": \"/memorial/15965429/bernard-brown\"}, {\"name\": \"Daniel   Brown\", \"birth_date\": \"1872-00-00\", \"death_date\": \"1882-00-00\", \"profile_url\": \"/memorial/15966039/daniel-brown\"}, {\"name\": \"George Wesley   Brown\", \"birth_date\": \"1874-00-00\", \"death_date\": \"1965-00-00\", \"profile_url\": \"/memorial/10723063/george_wesley-brown\"}]",
+  "half_siblings": "[]",
+  "plot_value": "row 7-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "BROWNIn memory of Mary B. Feeswife of John Browndied June 25, 1906aged 73 yrs. 6 mos. 28 ds.Sophia Kleinfeldtwife of B. Browndied Dec. 27, 1911aged 51 yrs. 6 mos. 9 days.Bernard Brown1858-1942Hier RuhteJonathanStarb Dec. 13, 1872Alter 2 Jahre 11 mo 12 tagalso DanielStarb July 4, 1882Alter 10 Jaher 2 mo.kinder von John & Mary BrownJohn BrownStarb Sept. 6, 1888Alter 69 Jaher 10 mos.f.s. Harold L. Brownmissing in action1924-1944",
   "id": 112
 }

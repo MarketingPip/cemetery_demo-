@@ -5,9 +5,12 @@
   "death_date": "1952-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Husband of Clara Wenzel.",
+  "bio": "Husband of Clara Wenzel.",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2018/209/158033845_86177e06-1806-48a1-bfe6-f45a28b0af03.jpeg?size=photos250",
+  "image_credits": "rossddickson",
+  "image_credits_url": "/user/profile/49188008",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Frederick   MacDonald\", \"birth_date\": \"1914-00-00\", \"death_date\": \"1981-00-00\", \"profile_url\": \"/memorial/188115017/frederick-macdonald\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 16, Lot 4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 686
 }

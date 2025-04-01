@@ -5,9 +5,12 @@
   "death_date": "1987-12-09",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Wife of Austin Everett Fahrner.",
   "bio": "In Loving Memory of\nLorraine Violet Plinkas<br/>Mar. 2, 1924-December 9, 1987<br/>Austin Everett<br/>June 18, 1920</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/86/22898562_60090e32-9ef9-4f29-a5f3-3dc1ed2b906d.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "28-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Polinkas",
+  "inscription": "In Loving Memory ofLorraine Violet PlinkasMar. 2, 1924-December 9, 1987Austin EverettJune 18, 1920",
   "id": 251
 }

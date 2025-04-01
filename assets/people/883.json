@@ -5,9 +5,12 @@
   "death_date": "1999-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "RATZ\nWilli8am John<br/>1950-1999<br/>Katherine Jane<br/>1954-2009</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/86/238054698_551fe94f-a04a-420c-a29a-ca084463fb96.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "RATZWilli8am John1950-1999Katherine Jane1954-2009",
   "id": 883
 }

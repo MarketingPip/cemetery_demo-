@@ -5,9 +5,12 @@
   "death_date": "2001-05-05",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "FAIST, GWEN - Peacefully, with her family by her side, on Saturday, May 5, 2001 at Fairview Mennonite Home, Cambridge, in her 92nd year. Beloved wife of the late Rev. Frederick M. Faist (1982). Loving mother of Barbara and her husband Ronald Zophy of Streetsboro, OH, Marion and her husband Dennis Jutzi of Troy, ON and Charles (Chuck) Faist and his wife Dianne of Burlington, ON. Cherished grandmother of Allen Zophy of Louisville, KY, Ann-Marie and her husband Scott Rohe of Livermore, CA, Heather and her husband Joe Amodeo of Kitchener, ON, Bradley Jutzi of Troy, Todd Johnson and his wife Kellye of Tulsa, OK, Shawn Faist and his wife Cheryl of Brantford, ON, Landon Faist of Brantford, ON and Byron Faist of Hamilton, ON and great-grandmother of Bryan Faist and Hunter, Hannah, Hayden and Hallye Johnson. Friends were received at Little's Funeral Home (519-623-1290), 223 Main Street East, Cambridge. Memorial Service was conducted at St. Luke's United Church, Cambridge on May 8, 2001. Private family interment at Crediton Cemetery, Crediton, ON. As expressions of sympathy, donations may be made to the Fairview Mennonite Home, 799 Concession Road, Cambridge, ON N3H 4L1. (19-Exeter Times-Advocate, May 10, 2001)",
   "bio": "FAIST\nThe Rev. Frederick M. Faist<br/>B.A.: B.D.<br/>1908-1982<br/>his wife Gwendolyn Arends<br/>1909-2001</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/112/48871528_f8a8a272-0440-4198-98ce-1205a19cc66b.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "John A.   Arends",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "6-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Arends",
+  "inscription": "FAISTThe Rev. Frederick M. FaistB.A.: B.D.1908-1982his wife Gwendolyn Arends1909-2001",
   "id": 262
 }

@@ -5,9 +5,12 @@
   "death_date": "2020-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "RATZ\nRoy E. Ratz<br/>1887-1971<br/>his beloved wife<br/>Clara A. Haist<br/>1901-1997<br/>their son Donald L.<br/>1925-2020</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2023/219/237942844_ff0be514-1c1f-4582-9c33-12d08e3555b6.jpeg?size=photos250",
+  "image_credits": "Slick",
+  "image_credits_url": "/user/profile/50973252",
   "parents": [
     {
       "name": "Roy Ervin   Ratz",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Harvey Ervin   Ratz\", \"birth_date\": \"1923-00-00\", \"death_date\": \"2015-00-00\", \"profile_url\": \"/memorial/150465137/harvey_ervin-ratz\"}]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2022/84/237942844_bfbb5fb4-e220-46da-ac4b-b48c3a5c0495.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}]",
+  "maiden_name": "",
+  "inscription": "RATZRoy E. Ratz1887-1971his beloved wifeClara A. Haist1901-1997their son Donald L.1925-2020",
   "id": 860
 }

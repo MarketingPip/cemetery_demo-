@@ -5,9 +5,12 @@
   "death_date": "1895-01-22",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Wife of Nicholas Beaver.---On the side of the stone it has Fredericka's full death date, and the inscription: 42 years, 1 month, 6 days.",
+  "bio": "Wife of Nicholas Beaver.<br/>---<br/>On the side of the stone it has Fredericka's full death date, and the inscription: 42 years, 1 month, 6 days.",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/319/16671374_116368781118.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"William Nicholas   Beaver\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1955-00-00\", \"profile_url\": \"/memorial/16671326/william_nicholas-beaver\"}, {\"name\": \"Henry Charles   Beaver\", \"birth_date\": \"1879-00-00\", \"death_date\": \"1968-00-00\", \"profile_url\": \"/memorial/15554242/henry_charles-beaver\"}, {\"name\": \"Herman Wesley   Beaver\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1939-00-00\", \"profile_url\": \"/memorial/16671209/herman_wesley-beaver\"}, {\"name\": \"Edwin   Beaver\", \"birth_date\": \"1885-00-00\", \"death_date\": \"1962-00-00\", \"profile_url\": \"/memorial/16575373/edwin-beaver\"}, {\"name\": \"Clara Maud   Beaver\", \"birth_date\": \"1887-00-00\", \"death_date\": \"1967-00-00\", \"profile_url\": \"/memorial/16671294/clara_maud-beaver\"}, {\"name\": \"Herbert V   Beaver\", \"birth_date\": \"1890-00-00\", \"death_date\": \"1970-00-00\", \"profile_url\": \"/memorial/16671266/herbert_v-beaver\"}, {\"name\": \"Frederick Homer   Beaver\", \"birth_date\": \"1893-00-00\", \"death_date\": \"1966-00-00\", \"profile_url\": \"/memorial/16671342/frederick_homer-beaver\"}, {\"name\": \"Pearl Fredericks   Beaver\", \"birth_date\": \"1895-00-00\", \"death_date\": null, \"profile_url\": \"/memorial/16671395/pearl_fredericks-beaver\"}, {\"name\": \"Daisy Delores  Davis Trader\", \"birth_date\": \"1926-00-00\", \"death_date\": \"2009-00-00\", \"profile_url\": \"/memorial/231834055/daisy_delores-trader\"}, {\"name\": \"Infant daughter   Beaver\", \"birth_date\": null, \"death_date\": null, \"profile_url\": \"/memorial/239217912/infant_daughter-beaver\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 12-8",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Martin",
+  "inscription": "",
   "id": 19
 }

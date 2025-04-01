@@ -5,9 +5,12 @@
   "death_date": "1930-10-20",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Son of Carl Braun and Anna Maria Klumpp, Husband of Lydia Stahl Braun and Father of Wesley John, Sophia Mathilda, Mary Ellen (Kelhofer), Anna Lydia, Christine Elizbeth, Charles D., Otto N., Frederich Wilhelm and Emma Vinona.",
   "bio": "BRAUN\nBIS ZUM FROHEN WIEDERSEHN DROBEN<br/>Anna Maria<br/>Ehegattin Von Carl Braun<br/>Starb Den 2 Mai 1884<br/>Alter 80 Jahre und 2 monats<br/>AUS KINDLICHER LIEBE GEWIDMET<br/>Carl Braun<br/>Starb Den 16 April 1882<br/>Alter 85 Jahre 11 monate 24 tage<br/>Lydia Stahl Braun<br/>April 23, 1851<br/>Oct. 8, 1931<br/>Gotiob K. Braun<br/>Jan. 2, 1840<br/>Oct. 20, 1930</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/111/40800650_9582615a-6af4-4516-9bba-0e0159ddc3fe.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Carl   Braun",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 4, Lot 1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "BRAUNBIS ZUM FROHEN WIEDERSEHN DROBENAnna MariaEhegattin Von Carl BraunStarb Den 2 Mai 1884Alter 80 Jahre und 2 monatsAUS KINDLICHER LIEBE GEWIDMETCarl BraunStarb Den 16 April 1882Alter 85 Jahre 11 monate 24 tageLydia Stahl BraunApril 23, 1851Oct. 8, 1931Gotiob K. BraunJan. 2, 1840Oct. 20, 1930",
   "id": 78
 }

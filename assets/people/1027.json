@@ -5,9 +5,12 @@
   "death_date": "1968-07-25",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Son of Magdalena (Wein) and John Sweitzer",
   "bio": "Lillian Gaiser\nborn Oct. 19, 1891<br/>died May 14, 1960<br/>wife of Garnet W. Sweitzer<br/>born Jan 24, 1892<br/>died July 25, 1968</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/249/15650873_115764563375.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "John   Sweitzer",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "2-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "Lillian Gaiserborn Oct. 19, 1891died May 14, 1960wife of Garnet W. Sweitzerborn Jan 24, 1892died July 25, 1968",
   "id": 1027
 }

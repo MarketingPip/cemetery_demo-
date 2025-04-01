@@ -5,9 +5,12 @@
   "death_date": "1876-12-30",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "SCHROEDER\nJohn Schroeder<br/>died Sept. 21, 1908<br/>aged 89 yrs. 11 mos. 19 ds.<br/>at rest<br/>his wife<br/>Sophia Ehlers<br/>1841-1929<br/>Anna<br/>died Jan. 12, 1881<br/>ae 1 mo. 28 ds.<br/>Wilhelm<br/>died May 12, 1885<br/>ae 6 yrs. 2 mos. 2 ds.<br/>Louisa<br/>died Apr. 17, 1875<br/>ae 2 mos. 29 ds.<br/>Elizabeth<br/>died Dec. 30, 1876<br/>ae 1 month</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/110/236168510_3b0a2265-f12a-47cb-b051-d2fe355d0e7e.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "John   Schroeder",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Henry   Schroeder\", \"birth_date\": \"1868-00-00\", \"death_date\": \"1929-00-00\", \"profile_url\": \"/memorial/31140436/henry-schroeder\"}, {\"name\": \"Louisa   Schroeder\", \"birth_date\": \"1875-00-00\", \"death_date\": \"1875-00-00\", \"profile_url\": \"/memorial/236168475/louisa-schroeder\"}, {\"name\": \"Wilhelm B.   Schroeder\", \"birth_date\": \"1879-00-00\", \"death_date\": \"1885-00-00\", \"profile_url\": \"/memorial/236168444/wilhelm_b-schroeder\"}, {\"name\": \"Anna   Schroeder\", \"birth_date\": \"1880-00-00\", \"death_date\": \"1881-00-00\", \"profile_url\": \"/memorial/236168397/anna-schroeder\"}]",
+  "half_siblings": "[]",
+  "plot_value": "3-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "SCHROEDERJohn Schroederdied Sept. 21, 1908aged 89 yrs. 11 mos. 19 ds.at resthis wifeSophia Ehlers1841-1929Annadied Jan. 12, 1881ae 1 mo. 28 ds.Wilhelmdied May 12, 1885ae 6 yrs. 2 mos. 2 ds.Louisadied Apr. 17, 1875ae 2 mos. 29 ds.Elizabethdied Dec. 30, 1876ae 1 month",
   "id": 949
 }

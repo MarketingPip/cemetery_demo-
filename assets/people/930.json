@@ -5,9 +5,12 @@
   "death_date": "1951-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/84/188136705_94f6ad50-3771-45ef-aef1-204914690a4e.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 14-8",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Witmer",
+  "inscription": "",
   "id": 930
 }

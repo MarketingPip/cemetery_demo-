@@ -5,9 +5,12 @@
   "death_date": "1972-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/84/188113015_2fa97a9f-ecf5-4d24-bc41-b307c78b2f01.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[{\"name\": \"Orland Frederick   Gaiser\", \"birth_date\": \"1925-00-00\", \"death_date\": \"1951-00-00\", \"profile_url\": \"/memorial/188113057/orland_frederick-gaiser\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 15-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Wolfe",
+  "inscription": "",
   "id": 401
 }

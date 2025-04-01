@@ -5,9 +5,12 @@
   "death_date": "1959-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
-  "bio": "",
+  "part_bio": "Daughter of Magdalena (Beaver) and Matthew Morlock",
+  "bio": "Daughter of Magdalena (Beaver) and Matthew Morlock",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/248/15640007_115755762438.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [
     {
       "name": "Matthew   Morlock",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 14-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Morlock",
+  "inscription": "",
   "id": 580
 }

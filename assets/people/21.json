@@ -5,9 +5,12 @@
   "death_date": "1992-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "BEAVER\nMaurice Beaver<br/>1910-1980<br/>his wife<br/>Greta Dearing<br/>1912-1992</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/84/237944197_6cd32cde-7bdd-40b9-a615-83d0ff7fa872.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [
     {
@@ -19,5 +22,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 24-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Dearing",
+  "inscription": "BEAVERMaurice Beaver1910-1980his wifeGreta Dearing1912-1992",
   "id": 21
 }

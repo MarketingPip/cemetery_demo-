@@ -5,9 +5,12 @@
   "death_date": "1928-05-26",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "Son of Christina (Prescadore?) and Phillip Beaver, married Amelia Parsons on Jan 1 1873. He died in Toronto General Hospital of pneumonia",
   "bio": "In Memory of\nAmelia Jane<br/>wife of Christian Beaver<br/>died Jan. 2, 1902<br/>aged 47 yrs. 5 mos. 2 ds.<br/>Christian Beaver<br/>died May 26, 1928<br/>aged 81 yrs. 5 mos. 4 ds.<br/>BEAVER</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2006/260/15790995_115858738363.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [
     {
@@ -25,5 +28,12 @@
   ],
   "children": "[{\"name\": \"Son   Beaver\", \"birth_date\": \"1894-00-00\", \"death_date\": \"1894-00-00\", \"profile_url\": \"/memorial/236912036/son-beaver\"}]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "4-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "In Memory ofAmelia Janewife of Christian Beaverdied Jan. 2, 1902aged 47 yrs. 5 mos. 2 ds.Christian Beaverdied May 26, 1928aged 81 yrs. 5 mos. 4 ds.BEAVER",
   "id": 14
 }

@@ -5,9 +5,12 @@
   "death_date": "2013-00-00",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2018/209/191737552_cfc927ad-b4fb-4c4d-800f-2654c7a1a323.jpeg?size=photos250",
+  "image_credits": "rossddickson",
+  "image_credits_url": "/user/profile/49188008",
   "parents": [
     {
       "name": "Willis Orval   Stewardson",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Willis Stanley Ecron   Stewardson\", \"birth_date\": \"1941-00-00\", \"death_date\": \"2009-00-00\", \"profile_url\": \"/memorial/44646061/willis_stanley_ecron-stewardson\"}]",
+  "half_siblings": "[{\"name\": \"William A. \\\"Bill\\\"  Stewardson\", \"birth_date\": \"1940-00-00\", \"death_date\": \"2015-00-00\", \"profile_url\": \"/memorial/191737488/william_a-stewardson\"}]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
   "id": 1016
 }

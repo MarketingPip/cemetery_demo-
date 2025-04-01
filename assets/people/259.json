@@ -5,9 +5,12 @@
   "death_date": "1967-09-25",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "FAIST\nG. Ezra Faist<br/>1871-1956<br/>his wife Elizabeth Wuerth<br/>1875-1967</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/112/188037238_144281c0-6333-4ead-bc81-b237c881be7c.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Frederick John   Wuerth",
@@ -32,5 +35,12 @@
   ],
   "children": "[]",
   "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "6-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Wuerth",
+  "inscription": "FAISTG. Ezra Faist1871-1956his wife Elizabeth Wuerth1875-1967",
   "id": 259
 }

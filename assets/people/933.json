@@ -5,9 +5,12 @@
   "death_date": "1887-07-25",
   "cemetery": "Crediton Cemetery",
   "location": "Crediton",
+  "part_bio": "",
   "bio": "SCHINK\nHier Ruht<br/>Karl Nelson<br/>sohn von Paul un Wilhelmine Schink<br/>Gest den 25 July 1887<br/>Alter 1 Jahn. 10 mo. 8 tag.</br>",
   "gps": null,
   "image_url": "https://images.findagrave.com/photos/2022/113/188136753_43be383c-7ef4-4c8f-8e7f-508a1b92e48b.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
   "parents": [
     {
       "name": "Paul   Schink",
@@ -25,5 +28,12 @@
   "spouses": [],
   "children": "[]",
   "siblings": "[{\"name\": \"Herbert   Schenk\", \"birth_date\": \"1896-00-00\", \"death_date\": \"1979-00-00\", \"profile_url\": \"/memorial/188136686/herbert-schenk\"}]",
+  "half_siblings": "[]",
+  "plot_value": "Row 8-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "SCHINKHier RuhtKarl Nelsonsohn von Paul un Wilhelmine SchinkGest den 25 July 1887Alter 1 Jahn. 10 mo. 8 tag.",
   "id": 933
 }
