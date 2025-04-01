@@ -494,8 +494,8 @@ async function tributeData(tributeId) {
 
 
     const hasTreeData =
-  parseJSON(tribute.parents).length > 0 ||
-  parseJSON(tribute.spouses).length > 0 ||
+  tribute.parents.length > 0 ||
+  tribute.spouses.length > 0 ||
   parseJSON(tribute.children).length > 0 ||
   parseJSON(tribute.grandchildren).length > 0;
   
