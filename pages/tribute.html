@@ -320,6 +320,14 @@ async function tributeData(tributeId) {
 
 
     function formatBirthDeathDates(birth_date, death_date) {
+
+  if(birth_date){
+    birth_date = birth_date.replace("-00-00", "-01-01")
+  }
+
+    if(death_date){
+    death_date = death_date.replace("-00-00", "-01-01")
+  }    
   // Ensure the birth_date and death_date are valid and in the correct format (YYYY-MM-DD)
   const birthYear = birth_date ? new Date(birth_date).getFullYear() : 'Unknown';
   const deathYear = death_date ? new Date(death_date).getFullYear() : 'Unknown';
@@ -349,10 +357,11 @@ async function tributeData(tributeId) {
       }
 
       // Basic Info
+      const formattedDates = formatBirthDeathDates(tribute.birth_date, tribute.death_date)
       document.getElementById('tribute-name').textContent = tribute.name;
       currentPageName.innerText = tribute.name;
-      document.title = `${tribute.name} | Crediton Cemetery Heritage Portal`;
-      document.getElementById('tribute-dates').textContent = formatBirthDeathDates(tribute.birth_date, tribute.death_date);
+      document.title = `${tribute.name} (${formattedDates.replaceAll(" ", "")}) | Crediton Cemetery Heritage Portal`;
+      document.getElementById('tribute-dates').textContent = formattedDates;
       document.getElementById('tribute-header-name').textContent = tribute.name;
       document.getElementById('tribute-image').src = tribute.image_url;
       document.getElementById('tribute-image').alt = `Photo of ${tribute.name}`;
