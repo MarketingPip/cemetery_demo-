@@ -1,7 +1,7 @@
 import fs from 'fs/promises'; // Using fs.promises for async operations
 import Papa from 'papaparse';
 
-const convertCsvToJson = async (filePath, outputFilePath) => {
+const convertCsvToJson = async (filePath, outputFilePath, homePage=true) => {
   try {
     // Step 1: Read the CSV file asynchronously
     const csvData = await fs.readFile(filePath, 'utf8');
@@ -17,20 +17,23 @@ const convertCsvToJson = async (filePath, outputFilePath) => {
       try {
         record.id = index;
 
+        if(!homePage){
         // Handle 'parents' field (replace 'None' with null and parse JSON string)
         record.parents = record.parents ? JSON.parse(record.parents.replace(/'/g, '"').replace(/None/g, 'null')) : [];
 
         // Handle 'spouses' field (replace 'None' with null and parse JSON string)
         record.spouses = record.spouses ? JSON.parse(record.spouses.replace(/'/g, '"').replace(/None/g, 'null')) : [];
-
+        }
         // Handle 'gps' field (replace single quotes and parse JSON string)
         if (record.gps) {
           record.gps = JSON.parse(record.gps.replaceAll("'", "`"));
         }
       } catch (e) {
+         if(!homePage){
         // If any parsing fails, set 'parents' and 'spouses' as empty arrays
         record.parents = [];
         record.spouses = [];
+         }
       }
 
       return record;
