@@ -64,13 +64,38 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage=true) => {
           
         
       } catch (e) {
+
+                 // If homePage is true, filter only required fields
+      if (homePage) {
+        record = {
+          id: record.id,
+          gps: record.gps,
+          name: record.name,
+          birth_date: record.birth_date,
+          death_date: record.death_date,
+          location: record.location,
+          memorial_url:record.memorial_url,
+          image_url:record.image_url
+        };
+
+
+       // Delete unwanted fields explicitly to make sure they are removed
+  
+        delete record.cemetery;
+        delete record.bio;
+        delete record.parents;
+        delete record.spouses;
+        delete record.children;
+        delete record.siblings;
+        
+      } 
+        
          if(!homePage){
         // If any parsing fails, set 'parents' and 'spouses' as empty arrays
         record.parents = [];
         record.spouses = [];
          }
       }
-      record.gps = null;
       return record;
     });
 
