@@ -20,7 +20,7 @@
       color: #10b981;
     }
 
-.image-placeholder {
+.image-placeholder { 
   position: relative;
   display: inline-block;
   width: 100%;
@@ -396,8 +396,6 @@ function initLightBox(){
 const photoItems = document.body.querySelectorAll("img");
 
 photoItems.forEach((img) => {
-  // temp
-  img.setAttribute('data-fullsize', img.src);
   // Clone the image node to remove all existing event listeners
   const newImg = img.cloneNode(true);
   img.replaceWith(newImg);
@@ -485,6 +483,7 @@ async function tributeData(tributeId) {
       document.getElementById('tribute-dates').textContent = formattedDates;
       document.getElementById('tribute-header-name').textContent = tribute.name;
       document.getElementById('tribute-image').src = tribute.image_url;
+      document.getElementById('tribute-image').setAttribute('data-fullsize', img.src); // temp
       document.getElementById('tribute-image').alt = `Photo of ${tribute.name}`;
       document.getElementById('tribute-birth').textContent = tribute.birth_date;
       document.getElementById('tribute-death').textContent = tribute.death_date;
