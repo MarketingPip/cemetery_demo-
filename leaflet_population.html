@@ -877,12 +877,12 @@ function debounce(func, wait) {
 
        async function getCemeteryData() {
     try {
-        const response = await fetch('assets/cemetery_data.csv');
+        const response = await fetch('assets/cemetery_data.json');
         if (!response.ok) {
             throw new Error(`Failed to fetch: ${response.status} ${response.statusText}`);
         }
         
-        const csvText = await response.text();
+        const csvText = await response.json();
         return csvText;
     } catch (error) {
         console.error('Error fetching cemetery data:', error);
