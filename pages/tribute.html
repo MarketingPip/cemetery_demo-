@@ -396,16 +396,11 @@ function initLightBox(){
 const photoItems = document.body.querySelectorAll("img");
 
 photoItems.forEach((img) => {
-  // Clone the image node to remove all existing event listeners
-  const newImg = img.cloneNode(true);
-  img.replaceWith(newImg);
-
-
   // Add the new event listener
-  newImg.addEventListener("click", () => {
+  img.addEventListener("click", () => {
     openLightbox(
-      newImg.getAttribute("data-fullsize"),
-      newImg.getAttribute("data-caption")
+      img.getAttribute("data-fullsize"),
+      img.getAttribute("data-caption")
     );
   });
  });
