@@ -48,8 +48,8 @@ const convertCsvToJson = async (filePath, outputFilePath) => {
 }
 
 // Example Usage
-const inputFilePath = './path_to_your_file.csv'; // Replace with your actual CSV file path
-const outputFilePath = './output.json'; // Replace with your desired output JSON file path
+const inputFilePath = './assets/cemetery_data.csv'; // Replace with your actual CSV file path
+const outputFilePath = './assets/cemetery_data.json'; // Replace with your desired output JSON file path
 
 convertCsvToJson(inputFilePath, outputFilePath)
   .then((jsonData) => {
