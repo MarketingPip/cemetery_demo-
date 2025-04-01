@@ -1410,21 +1410,25 @@ backToTopBtn.addEventListener("click", () => {
   
   // page loader
  
-    function fadeOutAndHide(elementId, hide=true) {
+function fadeOutAndHide(elementId, hide = true) {
     const element = document.querySelector(elementId);
-    
+
     if (element) {
         // Apply Tailwind fade-out classes
         element.classList.add('opacity-0', 'transition-opacity', 'duration-500');
 
+        // Listen for the end of the transition
+        const onTransitionEnd = () => {
+            if (hide) {
+                // Hide the element after the transition ends
+                element.classList.add('hidden');
+            }
+            // Remove the event listener after the transition ends
+            element.removeEventListener('transitionend', onTransitionEnd);
+        };
 
-       if(hide){
-        // Wait for the fade-out transition + 0.5s before hiding the element
-        setTimeout(() => {
-            element.classList.add('hidden');  // Hide the element
-        }, 500);  // Wait for 0.5s
-      }
-      
+        // Add the event listener for the transitionend event
+        element.addEventListener('transitionend', onTransitionEnd);
     }
 }
 
