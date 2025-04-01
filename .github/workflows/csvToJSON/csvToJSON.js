@@ -39,7 +39,8 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage=true) => {
           name: record.name,
           birth_date: record.birth_date,
           death_date: record.death_date,
-          location: record.location
+          location: record.location,
+          memorial_url:record.memorial_url
         };
       } 
 
