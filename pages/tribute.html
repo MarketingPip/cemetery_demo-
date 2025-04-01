@@ -400,6 +400,8 @@ photoItems.forEach((img) => {
   const newImg = img.cloneNode(true);
   img.replaceWith(newImg);
 
+  // temp
+  newImg.setAttribute('data-fullsize', img.src);
   // Add the new event listener
   newImg.addEventListener("click", () => {
     openLightbox(
