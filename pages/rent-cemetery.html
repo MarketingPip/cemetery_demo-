@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Renting Crediton Cemetery | Crediton Cemetery Heritage Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40vh;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 font-sans">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
+    <div class="px-4 py-3 container mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+          <i class="fas fa-tree text-green-400"></i>
+          <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <a class="transition hover:text-green-400" href="#home">Home</a>
+          <a class="transition hover:text-green-400" href="#map">Interactive Map</a>
+          <a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a>
+          <a class="transition hover:text-green-400" href="#search">Search Records</a>
+          <a class="transition hover:text-green-400" href="#timeline">Historical Timeline</a>
+          <a class="transition hover:text-green-400" href="#donate">Support Us</a>
+        </div>
+        <div class="md:hidden">
+          <button class="focus:outline-none" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden md:hidden" id="mobile-menu">
+      <div class="px-4 container mx-auto flex flex-col py-2 space-y-3">
+        <a class="transition hover:text-green-400 block" href="#home">Home</a>
+        <a class="transition hover:text-green-400 block" href="#map">Interactive Map</a>
+        <a class="transition hover:text-green-400 block" href="#exhibits">Virtual Exhibits</a>
+        <a class="transition hover:text-green-400 block" href="#search">Search Records</a>
+        <a class="transition hover:text-green-400 block" href="#timeline">Historical Timeline</a>
+        <a class="transition hover:text-green-400 block" href="#donate">Support Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex items-center justify-center hero-image text-center text-white" id="events-hero">
+    <div class="px-4 container mx-auto">
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl">Renting Crediton Cemetery</h1>
+      <p class="mb-8 md:text-2xl text-xl">Host an event or service at Crediton Cemetery. Learn about our facilities and booking process.</p>
+    </div>
+  </section>
+
+  <!-- Renting Information Section -->
+  <section class="bg-white py-12" id="renting-info">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Renting the Crediton Cemetery</h2>
+      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Crediton Cemetery offers a peaceful and historical setting for services, events, and gatherings. Here’s everything you need to know about renting the cemetery grounds.</p>
+    </div>
+  </section>
+
+  <!-- Facility Information Section -->
+  <section class="bg-gray-50 py-12" id="facility-info">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Facility Features</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="font-bold text-xl text-gray-800 mb-4">Scenic Grounds</h3>
+          <p class="text-gray-600 mb-4">Our cemetery is nestled in a serene location, perfect for commemorative services and peaceful gatherings.</p>
+          <p class="text-gray-600">Features include: beautiful greenery, peaceful pathways, and historical gravestones.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="font-bold text-xl text-gray-800 mb-4">Facilities</h3>
+          <p class="text-gray-600 mb-4">The cemetery offers benches and shaded areas, with nearby restroom access. A chapel for ceremonies is also available upon request.</p>
+          <p class="text-gray-600">For smaller gatherings, seating can be arranged. Outdoor events can be planned with suitable weather conditions.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="font-bold text-xl text-gray-800 mb-4">Parking & Accessibility</h3>
+          <p class="text-gray-600 mb-4">The cemetery offers ample parking spaces, with accessible paths for guests with mobility challenges. There are two accessible parking spots near the chapel entrance.</p>
+          <p class="text-gray-600">Paths and driveways are well-maintained to ensure ease of access for all visitors.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing and Booking Information -->
+  <section class="bg-white py-12" id="pricing-booking">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Pricing & Booking</h2>
+      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Renting the Crediton Cemetery is affordable and provides an unforgettable experience. To book, please get in touch with our team.</p>
+
+      <div class="max-w-lg mx-auto bg-green-700 text-white p-6 rounded-lg">
+        <h3 class="font-bold text-2xl mb-4">Rental Rates</h3>
+        <ul class="list-disc list-inside mb-4">
+          <li>Service Fee: $200</li>
+          <li>Chapel Use: $150 (if applicable)</li>
+          <li>Additional Fees for Extended Use: $50/hour</li>
+        </ul>
+        <p class="mb-4">For a custom quote or to inquire about availability, please contact us via the form below or call us at (555) 123-4567.</p>
+        <a href="contact-us" class="bg-white text-green-700 font-bold py-3 px-6 rounded-full">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="px-4 container mx-auto text-center">
+      <p class="text-lg">&copy; 2025 Crediton Cemetery Heritage Portal. All rights reserved.</p>
+      <p class="text-sm text-gray-400 mt-2">Created by Jared Van Valkengoed</p>
+      <div class="flex flex-wrap justify-center mt-6 space-x-6 space-y-2 sm:space-y-0">
+        <a href="privacy-policy" class="hover:text-white text-gray-400 transition-colors duration-300">Privacy Policy</a>
+        <a href="terms-of-service" class="hover:text-white text-gray-400 transition-colors duration-300">Terms of Service</a>
+        <a href="faq" class="hover:text-white text-gray-400 transition-colors duration-300">Frequently Asked Questions</a>
+        <a href="resources" class="hover:text-white text-gray-400 transition-colors duration-300">Resources</a>
+        <a href="contact-us" class="hover:text-white text-gray-400 transition-colors duration-300">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript for Mobile Menu Toggle -->
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', () => {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
