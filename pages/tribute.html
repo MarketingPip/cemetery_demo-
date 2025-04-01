@@ -210,7 +210,7 @@
           <!-- Resource to another page / tool -->
            <div>
             <h3 class="text-lg font-semibold">Is this person in your family tree?</h3>
-            <p class="text-sm">Learn more about how you are connected <a href="genealogy-tool?name=John%20Smith&gender=f" class="text-blue-600 hover:text-blue-800" title="Relationship Explorer">here</a>.</p>
+            <p class="text-sm">Learn more about how you are connected <a href="genealogy-tool" id="gene-link" class="text-blue-600 hover:text-blue-800" title="Relationship Explorer">here</a>.</p>
           </div>
           
           <!-- Tabs Container -->
@@ -272,6 +272,26 @@
 
   <!-- JavaScript for Dynamic Tribute -->
   <script>
+
+function populateGenealogyLink(name, gender) {
+  // Get the link element by ID
+  const geneLink = document.getElementById('gene-link');
+  
+  // Check if the element exists
+  if (geneLink) {
+    // Construct the URL with the dynamic parameters
+    const url = new URL(geneLink.href);  // Existing URL in the href attribute
+    url.searchParams.set('name', name);
+    url.searchParams.set('gender', gender);
+    
+    // Update the href attribute with the new URL
+    geneLink.href = url.toString();
+  } else {
+    console.error('Genealogy link element not found.');
+  }
+}
+
+    
 async function tributeData(tributeId) {
   const url = `../assets/people/${tributeId}.json`; // Replace with the actual API URL
 
@@ -333,6 +353,8 @@ async function tributeData(tributeId) {
       document.getElementById('twitter-share').href = `https://twitter.com/intent/tweet?url=${encodeURIComponent(currentUrl)}&text=${encodeURIComponent(tribute.name)}`;
       document.getElementById('linkedin-share').href = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(currentUrl)}`;
 
+      // Gene Link 
+      populateGenealogyLink(tribute.name, 'm');
       // Grandchildren
       const grandchildrenList = document.getElementById('grandchildren-list');
       grandchildrenList.innerHTML = '';
