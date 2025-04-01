@@ -483,7 +483,7 @@ async function tributeData(tributeId) {
       document.getElementById('tribute-dates').textContent = formattedDates;
       document.getElementById('tribute-header-name').textContent = tribute.name;
       document.getElementById('tribute-image').src = tribute.image_url;
-      document.getElementById('tribute-image').setAttribute('data-fullsize', img.src); // temp
+      document.getElementById('tribute-image').setAttribute('data-fullsize', tribute.image_url); // temp
       document.getElementById('tribute-image').alt = `Photo of ${tribute.name}`;
       document.getElementById('tribute-birth').textContent = tribute.birth_date;
       document.getElementById('tribute-death').textContent = tribute.death_date;
