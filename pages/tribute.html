@@ -398,10 +398,11 @@ const photoItems = document.body.querySelectorAll("img");
 photoItems.forEach((img) => {
   // Clone the image node to remove all existing event listeners
   const newImg = img.cloneNode(true);
-  img.replaceWith(newImg);
-
   // temp
   newImg.setAttribute('data-fullsize', img.src);
+  img.replaceWith(newImg);
+
+
   // Add the new event listener
   newImg.addEventListener("click", () => {
     openLightbox(
