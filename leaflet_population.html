@@ -1074,7 +1074,7 @@ function debounce(func, wait) {
         <td class="px-6 py-4">${record.death_date || 'N/A'}</td>
         <td class="px-6 py-4">${record.location || 'N/A'}</td>
         <td class="px-6 py-4">
-          <a href="#" data-personID="${record.id}" class="text-blue-600 hover:text-blue-800 mr-3" id="person-${record.id}">View Details</a>
+          <a href="pages/tribute?id=${record.id}" class="text-blue-600 hover:text-blue-800 mr-3">View Details</a>
           <a href="https://www.findagrave.com/memorial/${record.memorial_url}" target="_blank">FindAGrave</a>
         </td>`;
       fragment.appendChild(row);
@@ -1152,26 +1152,6 @@ function debounce(func, wait) {
     }
 
     
-
-
-   // Attach a single event listener to the document
-document.addEventListener('click', function(event) {
-  // Check if the clicked element has the 'data-personID' attribute
-  if (event.target && event.target.hasAttribute('data-personID')) {
-    event.preventDefault();
-    const personID = event.target.getAttribute('data-personID');
-    // Handle the event and use the personID
-    alert('Clicked on person with ID:' + personID);
-    
-    // Additional logic to handle the click (e.g., open a modal, load data, etc.)
-  }
-});
-
-    
-    
-
-    
-
 
  document.getElementById('menu-toggle').addEventListener('click', () => {
   document.getElementById('mobile-menu').classList.toggle('translate-x-full');
