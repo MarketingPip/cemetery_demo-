@@ -31,7 +31,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   <!-- Include PapaParse for CSV Parsing -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" defer></script>
+ <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" defer></script> ---> 
 
   
   <!-- Leaflet for Interactive Map -->
@@ -919,13 +919,13 @@ function debounce(func, wait) {
 
     // Initialize the application
     function init() {
-      parseData();
+    //  parseData();
       setupEventListeners();
       renderRecords();
     }
 
     // Parse CSV data using PapaParse
-    function parseData() {
+ /*   function parseData() {
       const results = Papa.parse(csvData, {
         header: true,
         skipEmptyLines: true
@@ -949,6 +949,8 @@ function debounce(func, wait) {
         return record;
       });
     }
+
+    */
 
     // Setup event listeners for sorting, pagination, and search
     function setupEventListeners() {
@@ -1482,7 +1484,7 @@ function checkAndSetNameFromURL() {
 
      // Example Usage
 getCemeteryData().then(data => {
-    csvData = data; // Array of objects with CSV headers as keys
+    records = data; // Array of objects with CSV headers as keys
     init();
     fadeOutAndHide('#preload');
     enableAllResources(); // enable all disabled CSS and scripts for leaflet. 
