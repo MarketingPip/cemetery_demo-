@@ -64,8 +64,11 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
         delete record.children;
         delete record.siblings;
       }
+      
 
       // Step 4: Write each record to a separate JSON file in assets/people/[id]
+      const recordDirectoryPath = './assets/people';
+      await fs.mkdir(recordDirectoryPath, { recursive: true }); // Ensure directory exists
       const recordFilePath = `./assets/people/${record.id}.json`;
       await fs.writeFile(recordFilePath, JSON.stringify(record, null, 2), 'utf8');
       console.log(`Record ${record.id} written to ${recordFilePath}`);
