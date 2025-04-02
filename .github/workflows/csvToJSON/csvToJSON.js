@@ -1,4 +1,4 @@
-import fs from 'fs/promises'; // Using fs.promises for async operations
+import fs from 'fs/promises';
 import Papa from 'papaparse';
 
 const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
@@ -12,15 +12,21 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
       skipEmptyLines: true
     });
 
-    // Step 3: Process the parsed data
-    const records = results.data.map(async (record, index) => {
-      // Ensure a unique ID for each record
-      record.id = record.id || index;  // Use the record's ID if it exists, else use the index
+    // Pre-process all records: assign IDs if missing.
+    // This creates a new array (allRecords) where each record is guaranteed to have an id.
+    const allRecords = results.data.map((record, index) => {
+      record.id = record.id || index;
+      return record;
+    });
 
+    // Process each record asynchronously.
+    const records = allRecords.map(async (record) => {
       // Helper function to parse JSON fields with error handling
       const parseJsonField = (field, defaultValue = []) => {
         try {
-          return field ? JSON.parse(field.replace(/'/g, '"').replace(/None/g, 'null')) : defaultValue;
+          return field
+            ? JSON.parse(field.replace(/'/g, '"').replace(/None/g, 'null'))
+            : defaultValue;
         } catch {
           return defaultValue;
         }
@@ -56,7 +62,7 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
           image_url: record.image_url
         };
 
-        // Delete unwanted fields explicitly to make sure they are removed
+        // Delete unwanted fields explicitly to ensure they are removed
         delete record.cemetery;
         delete record.bio;
         delete record.parents;
@@ -65,64 +71,60 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
         delete record.siblings;
       }
 
-
-
-      // Step 5: Write each record to a separate JSON file in assets/people/[id]
+      // For non-homePage records, update related people (spouses, parents, siblings)
       if (!homePage) {
+        // Process spouses
+        if (record.spouses && Array.isArray(record.spouses) && record.spouses.length) {
+          record.spouses = await Promise.all(record.spouses.map(async (spouse) => {
+            // Extract memorial ID from spouse's profile_url (e.g., /memorial/188035990/john_f-brown)
+            const spouseMemorialId = spouse.profile_url.split('/')[2];
+            // Use the pre-processed allRecords to find the matching record
+            const spouseRecord = allRecords.find(r => r.memorial_url.includes(spouseMemorialId));
+            if (spouseRecord) {
+              if (spouseRecord.image_url) {
+                spouse.image_url = spouseRecord.image_url;
+              }
+              spouse.id = spouseRecord.id;
+            } else {
+              console.log(`ID not found for spouse: ${spouse.name}`);
+            }
+            return spouse;
+          }));
+        }
 
-      // Step 4: Add image_url and id for spouses, parents, and siblings if they exist in the record
-if (record.spouses && Array.isArray(record.spouses) && record.spouses.length) {
-  record.spouses = await Promise.all(record.spouses.map(async (spouse) => {
-    // Extract memorial ID from spouse's profile_url (e.g., /memorial/188035990/john_f-brown)
-    const spouseMemorialId = spouse.profile_url.split('/')[2];  // Extract the ID part (188035990)
+        // Process parents
+        if (record.parents && Array.isArray(record.parents) && record.parents.length) {
+          record.parents = await Promise.all(record.parents.map(async (parent) => {
+            const parentMemorialId = parent.profile_url.split('/')[2];
+            const parentRecord = allRecords.find(r => r.memorial_url.includes(parentMemorialId));
+            if (parentRecord) {
+              if (parentRecord.image_url) {
+                parent.image_url = parentRecord.image_url;
+              }
+              parent.id = parentRecord.id;
+            }
+            return parent;
+          }));
+        }
 
-    // Find the corresponding record by comparing memorial URL with spouseMemorialId
-    const spouseRecord = results.data.find(r => r.memorial_url.includes(spouseMemorialId));  // Match on the full memorial URL
+        // Process siblings
+        if (record.siblings && Array.isArray(record.siblings) && record.siblings.length) {
+          record.siblings = await Promise.all(record.siblings.map(async (sibling) => {
+            const siblingMemorialId = sibling.profile_url.split('/')[2];
+            const siblingRecord = allRecords.find(r => r.memorial_url.includes(siblingMemorialId));
+            if (siblingRecord) {
+              if (siblingRecord.image_url) {
+                sibling.image_url = siblingRecord.image_url;
+              }
+              sibling.id = siblingRecord.id;
+            }
+            return sibling;
+          }));
+        }
 
-    if (spouseRecord && spouseRecord.image_url) {
-      spouse.image_url = spouseRecord.image_url; // Add image_url from the matched record
-    }
-
-    if (spouseRecord && spouseRecord.id !== undefined) {
-      spouse.id = spouseRecord.id;  // Add ID to spouse if it's found
-    } else {
-      console.log(`ID not found for spouse: ${spouse.name}`);
-    }
-    
-    return spouse;  // Return updated spouse object
-  }));
-}
-
-      if (record.parents && Array.isArray(record.parents) && record.parents.length) {
-        record.parents = await Promise.all(record.parents.map(async (parent) => {
-          const parentMemorialId = parent.profile_url.split('/')[2]; // Extract memorial ID from parent's URL
-          const parentRecord = results.data.find(r => r.memorial_url.includes(parentMemorialId)); // Find the record by memorial_id
-          if (parentRecord && parentRecord.image_url) {
-            parent.image_url = parentRecord.image_url;
-          }
-          if (parentRecord) {
-            parent.id = parentRecord.id; // Add ID if it's not a homepage
-          }
-          return parent;
-        }));
-      }
-
-      if (record.siblings && Array.isArray(record.siblings) && record.siblings.length) {
-        record.siblings = await Promise.all(record.siblings.map(async (sibling) => {
-          const siblingMemorialId = sibling.profile_url.split('/')[2]; // Extract memorial ID from sibling's URL
-          const siblingRecord = results.data.find(r => r.memorial_url.includes(siblingMemorialId)); // Find the record by memorial_id
-          if (siblingRecord && siblingRecord.image_url) {
-            sibling.image_url = siblingRecord.image_url;
-          }
-          if (siblingRecord) {
-            sibling.id = siblingRecord.id; // Add ID if it's not a homepage
-          }
-          return sibling;
-        }));
-      }
-        
+        // Write each non-homePage record to a separate JSON file in assets/people/[id]
         const recordDirectoryPath = './assets/people';
-        await fs.mkdir(recordDirectoryPath, { recursive: true }); // Ensure directory exists
+        await fs.mkdir(recordDirectoryPath, { recursive: true });
         const recordFilePath = `./assets/people/${record.id}.json`;
         await fs.writeFile(recordFilePath, JSON.stringify(record, null, 2), 'utf8');
         console.log(`Record ${record.id} written to ${recordFilePath}`);
@@ -132,31 +134,23 @@ if (record.spouses && Array.isArray(record.spouses) && record.spouses.length) {
     });
 
     if (homePage) {
-  // Step 1: Initialize an empty array to store processed records
-  const processedRecords = [];
+      // Process each record sequentially to ensure all asynchronous operations complete
+      const processedRecords = [];
+      for (const recordPromise of records) {
+        const processedRecord = await recordPromise;
+        processedRecords.push(processedRecord);
+      }
 
-  // Step 2: Process each record sequentially using a for...of loop
-  for (const record of records) {
-    // Wait for the record to be processed
-    const processedRecord = await record; // Ensure that each record is processed asynchronously
-
-    // Push the processed record to the array
-    processedRecords.push(processedRecord);
-  }
-
-  // Step 3: Write the final JSON array to the output file
-  await fs.writeFile(outputFilePath, JSON.stringify(processedRecords, null, 2), 'utf8');
-  console.log(`Data successfully written to ${outputFilePath}`);
-
-  // Return the processed records
-  return processedRecords;
-}
+      // Write the final JSON array to the output file
+      await fs.writeFile(outputFilePath, JSON.stringify(processedRecords, null, 2), 'utf8');
+      console.log(`Data successfully written to ${outputFilePath}`);
+      return processedRecords;
+    }
   } catch (error) {
     console.error('Error processing CSV:', error);
     throw error;
   }
 };
-
 
 // Example Usage
 const inputFilePath = './assets/cemetery_data.csv'; // Replace with your actual CSV file path
