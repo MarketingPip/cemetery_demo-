@@ -464,7 +464,7 @@ function renderFamily(family) {
 
     // Prepare sections, ensuring parents and spouse are always arrays and checking if they are defined
     const parentsSection = renderSection('Parents', Array.isArray(family.parents) && family.parents.length > 0 ? family.parents : []);
-    const spouseSection = renderSection('Spouse', Array.isArray(family.spouse) && family.spouse.length > 0 ? family.spouse : []);
+    const spouseSection = renderSection('Spouse', Array.isArray(family.spouses) && family.spouses.length > 0 ? family.spouses : []);
     const siblingsSection = renderSection('Siblings', Array.isArray(family.siblings) && family.siblings.length > 0 ? family.siblings : []);
     const childrenSection = renderSection('Children', Array.isArray(family.children) && family.children.length > 0 ? family.children : []);
 
