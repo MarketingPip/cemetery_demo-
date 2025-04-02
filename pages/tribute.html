@@ -437,10 +437,10 @@ async function tributeData(tributeId) {
 function renderPerson(person) {
     return `
         <div class="flex items-start gap-4">
-            <img src="${person.image || 'https://via.placeholder.com/100'}" alt="${person.name}" class="w-24 h-32 object-cover rounded-md border border-gray-700">
+            <img src="${person?.image || 'https://via.placeholder.com/100'}" alt="${person?.name}" class="w-24 h-32 object-cover rounded-md border border-gray-700">
             <div>
                 <p class="text-base md:text-lg font-medium">${person.name}</p>
-                <p class="text-sm md:text-base text-gray-400">${person.dates}</p>
+                <p class="text-sm md:text-base text-gray-400">${person?.dates}</p>
             </div>
         </div>
     `;
