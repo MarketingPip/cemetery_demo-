@@ -77,7 +77,7 @@ if (record.spouses && Array.isArray(record.spouses) && record.spouses.length) {
     const spouseMemorialId = spouse.profile_url.split('/')[2];  // Extract the ID part (188035990)
 
     // Find the corresponding record by comparing memorial URL with spouseMemorialId
-    const spouseRecord = results.data.find(r => r.memorial_url.includes(`/memorial/${spouseMemorialId}/`));  // Match on the full memorial URL
+    const spouseRecord = results.data.find(r => r.memorial_url.includes(spouseMemorialId));  // Match on the full memorial URL
 
     if (spouseRecord && spouseRecord.image_url) {
       spouse.image_url = spouseRecord.image_url; // Add image_url from the matched record
