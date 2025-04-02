@@ -65,6 +65,11 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
         delete record.siblings;
       }
 
+
+
+      // Step 5: Write each record to a separate JSON file in assets/people/[id]
+      if (!homePage) {
+
       // Step 4: Add image_url and id for spouses, parents, and siblings if they exist in the record
       if (record.spouses && Array.isArray(record.spouses) && record.spouses.length) {
         record.spouses = await Promise.all(record.spouses.map(async (spouse) => {
@@ -107,9 +112,7 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
           return sibling;
         }));
       }
-
-      // Step 5: Write each record to a separate JSON file in assets/people/[id]
-      if (!homePage) {
+        
         const recordDirectoryPath = './assets/people';
         await fs.mkdir(recordDirectoryPath, { recursive: true }); // Ensure directory exists
         const recordFilePath = `./assets/people/${record.id}.json`;
