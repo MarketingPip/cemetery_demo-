@@ -462,13 +462,13 @@ function renderSection(title, people) {
 function renderFamily(family) {
     const container = document.getElementById('family-members-container');
 
-    // Prepare sections, ensuring parents and spouse are always arrays
-    const parentsSection = renderSection('Parents', Array.isArray(family.parents) ? family.parents : [family.parents]);
-    const spouseSection = renderSection('Spouse', Array.isArray(family.spouse) ? family.spouse : [family.spouse]);
-    const siblingsSection = renderSection('Siblings', family.siblings || []);
-    const childrenSection = renderSection('Children', family.children || []);
+    // Prepare sections, ensuring parents and spouse are always arrays and checking if they are defined
+    const parentsSection = renderSection('Parents', Array.isArray(family.parents) && family.parents.length > 0 ? family.parents : []);
+    const spouseSection = renderSection('Spouse', Array.isArray(family.spouse) && family.spouse.length > 0 ? family.spouse : []);
+    const siblingsSection = renderSection('Siblings', Array.isArray(family.siblings) && family.siblings.length > 0 ? family.siblings : []);
+    const childrenSection = renderSection('Children', Array.isArray(family.children) && family.children.length > 0 ? family.children : []);
 
-    // Combine siblings and children into a grid layout
+    // Combine siblings and children into a grid layout if both sections exist
     const gridSection = (siblingsSection || childrenSection) ? `
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>${siblingsSection}</div>
