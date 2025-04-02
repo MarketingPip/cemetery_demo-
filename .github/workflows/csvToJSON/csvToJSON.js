@@ -162,19 +162,19 @@ if (record.spouses && Array.isArray(record.spouses) && record.spouses.length) {
 const inputFilePath = './assets/cemetery_data.csv'; // Replace with your actual CSV file path
 const outputFilePath = './assets/cemetery_data.json'; // Replace with your desired output JSON file path
 
-convertCsvToJson(inputFilePath, outputFilePath)
-  .then((jsonData) => {
+async function processCsvData(inputFilePath, outputFilePath) {
+  try {
+    // Process the home page data
+    await convertCsvToJson(inputFilePath, outputFilePath);
     console.log('Processed JSON Data for Home Page');
-  })
-  .catch((error) => {
-    console.error('Error:', error);
-  });
 
-
-convertCsvToJson(inputFilePath, outputFilePath, false)
-  .then((jsonData) => {
+    // Process the people IDs data
+    await convertCsvToJson(inputFilePath, outputFilePath, false);
     console.log('Processed JSON Data for People IDs');
-  })
-  .catch((error) => {
+  } catch (error) {
     console.error('Error:', error);
-  });
+  }
+}
+
+// Call the function
+processCsvData(inputFilePath, outputFilePath);
