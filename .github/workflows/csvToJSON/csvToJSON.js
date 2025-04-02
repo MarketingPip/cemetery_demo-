@@ -77,14 +77,12 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
           const spouseRecord = results.data.find(r => r.memorial_url.includes(spouseMemorialId)); // Find the record by memorial_id
           if (spouseRecord && spouseRecord.image_url) {
             spouse.image_url = spouseRecord.image_url;
-            console.log(`Found image for ${spouse.name} & ${spouseRecord.id}`)
+            console.log(`Found image for ${JSON.stringify(spouse)}`)
             
           }
           if (spouseRecord) {
             spouse.id = spouseRecord.id; // Add ID if it's not a homepage
-          } else {
-            console.log(`Couldn't find record for ${spouse.name}`)
-          }
+          } 
           return spouse;
         }));
       }
