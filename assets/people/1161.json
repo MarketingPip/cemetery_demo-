@@ -18,14 +18,16 @@
       "birth_date": "1868-00-00",
       "death_date": "1930-00-00",
       "profile_url": "/memorial/188139279/john-wilhelm",
-      "image_url": "https://images.findagrave.com/photos/2022/116/188139279_29ef8565-f5d8-4fbc-af5e-51455a5c84ef.jpeg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2022/116/188139279_29ef8565-f5d8-4fbc-af5e-51455a5c84ef.jpeg?size=photos250",
+      "id": 1163
     },
     {
       "name": "John E.   Wilhelm",
       "birth_date": "1895-00-00",
       "death_date": "1962-00-00",
       "profile_url": "/memorial/188139285/john_e-wilhelm",
-      "image_url": "https://images.findagrave.com/photos/2022/116/188139285_866c10bf-0490-4fcd-9237-7d241a11d6b2.jpeg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2022/116/188139285_866c10bf-0490-4fcd-9237-7d241a11d6b2.jpeg?size=photos250",
+      "id": 1164
     }
   ],
   "children": "[]",

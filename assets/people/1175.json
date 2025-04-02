@@ -17,14 +17,16 @@
       "birth_date": "1838-00-00",
       "death_date": "1910-00-00",
       "profile_url": "/memorial/80330804/mathew-winer",
-      "image_url": "https://images.findagrave.com/photos/2011/315/80330804_132116326782.jpg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2011/315/80330804_132116326782.jpg?size=photos250",
+      "id": 1177
     },
     {
       "name": "Mary D  Schultz Winer",
       "birth_date": "1838-00-00",
       "death_date": "1911-00-00",
       "profile_url": "/memorial/80331143/mary_d-winer",
-      "image_url": "https://images.findagrave.com/photos/2011/315/80331143_132116413135.jpg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2011/315/80331143_132116413135.jpg?size=photos250",
+      "id": 1176
     }
   ],
   "spouses": [],

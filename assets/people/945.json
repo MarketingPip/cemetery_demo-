@@ -18,14 +18,16 @@
       "birth_date": "1859-00-00",
       "death_date": "1889-00-00",
       "profile_url": "/memorial/188139398/gideon-yaeger",
-      "image_url": "https://images.findagrave.com/photos/2022/111/188139398_bb1b42b6-db48-4544-90b3-da6586879aee.jpeg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2022/111/188139398_bb1b42b6-db48-4544-90b3-da6586879aee.jpeg?size=photos250",
+      "id": 1207
     },
     {
       "name": "John Kaatz   Schroeder",
       "birth_date": "1866-00-00",
       "death_date": "1944-00-00",
       "profile_url": "/memorial/188136813/john_kaatz-schroeder",
-      "image_url": "https://images.findagrave.com/photos/2024/118/188136813_87856b6f-95f9-4e9a-846d-ed7e820373b2.jpeg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2024/118/188136813_87856b6f-95f9-4e9a-846d-ed7e820373b2.jpeg?size=photos250",
+      "id": 952
     }
   ],
   "children": "[{\"name\": \"Mina Rose  Yager Stabler\", \"birth_date\": \"1888-00-00\", \"death_date\": \"1951-00-00\", \"profile_url\": \"/memorial/14185372/mina_rose-stabler\"}, {\"name\": \"Emerson Reuben   Schroeder\", \"birth_date\": \"1894-00-00\", \"death_date\": \"1996-00-00\", \"profile_url\": \"/memorial/269890004/emerson_reuben-schroeder\"}, {\"name\": \"Leonard Roland   Schroeder\", \"birth_date\": \"1896-00-00\", \"death_date\": \"1954-00-00\", \"profile_url\": \"/memorial/269665897/leonard_roland-schroeder\"}]",

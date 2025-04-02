@@ -18,7 +18,8 @@
       "birth_date": "1815-00-00",
       "death_date": "1893-00-00",
       "profile_url": "/memorial/98544054/john_b-treitz",
-      "image_url": "https://images.findagrave.com/photos/2022/110/98544054_bcace45d-7a6a-41ce-aec2-b470505e7f31.jpeg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2022/110/98544054_bcace45d-7a6a-41ce-aec2-b470505e7f31.jpeg?size=photos250",
+      "id": 1067
     }
   ],
   "children": "[{\"name\": \"Charles   Treitz\", \"birth_date\": \"1859-00-00\", \"death_date\": \"1943-00-00\", \"profile_url\": \"/memorial/98543051/charles-treitz\"}]",

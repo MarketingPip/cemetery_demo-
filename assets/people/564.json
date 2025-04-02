@@ -18,7 +18,8 @@
       "birth_date": "1937-00-00",
       "death_date": "2019-00-00",
       "profile_url": "/memorial/239127240/winona-hoffmann",
-      "image_url": "https://images.findagrave.com/photos/2022/112/239127240_1c87c4a2-b322-4bce-8284-2e8eaba9a10e.jpeg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2022/112/239127240_1c87c4a2-b322-4bce-8284-2e8eaba9a10e.jpeg?size=photos250",
+      "id": 571
     }
   ],
   "children": "[{\"name\": \"Robert   Hoffmann\", \"birth_date\": \"1958-00-00\", \"death_date\": \"2006-00-00\", \"profile_url\": \"/memorial/239127284/robert-hoffmann\"}]",

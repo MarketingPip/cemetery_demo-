@@ -18,7 +18,8 @@
       "birth_date": "1841-00-00",
       "death_date": "1929-00-00",
       "profile_url": "/memorial/123056872/sophia_alice-schroeder",
-      "image_url": "https://images.findagrave.com/photos/2014/8/123056872_138930824543.jpg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2014/8/123056872_138930824543.jpg?size=photos250",
+      "id": 956
     }
   ],
   "children": "[{\"name\": \"Henry   Schroeder\", \"birth_date\": \"1868-00-00\", \"death_date\": \"1929-00-00\", \"profile_url\": \"/memorial/31140436/henry-schroeder\"}, {\"name\": \"Louisa   Schroeder\", \"birth_date\": \"1875-00-00\", \"death_date\": \"1875-00-00\", \"profile_url\": \"/memorial/236168475/louisa-schroeder\"}, {\"name\": \"Elizabeth   Schroeder\", \"birth_date\": \"1876-00-00\", \"death_date\": \"1876-00-00\", \"profile_url\": \"/memorial/236168510/elizabeth-schroeder\"}, {\"name\": \"Wilhelm B.   Schroeder\", \"birth_date\": \"1879-00-00\", \"death_date\": \"1885-00-00\", \"profile_url\": \"/memorial/236168444/wilhelm_b-schroeder\"}, {\"name\": \"Anna   Schroeder\", \"birth_date\": \"1880-00-00\", \"death_date\": \"1881-00-00\", \"profile_url\": \"/memorial/236168397/anna-schroeder\"}]",

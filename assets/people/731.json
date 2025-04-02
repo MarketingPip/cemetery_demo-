@@ -17,14 +17,16 @@
       "birth_date": "1862-00-00",
       "death_date": "1948-00-00",
       "profile_url": "/memorial/15978472/william_h-morlock",
-      "image_url": "https://images.findagrave.com/photos/2006/275/15978472_115988713587.jpg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2006/275/15978472_115988713587.jpg?size=photos250",
+      "id": 762
     },
     {
       "name": "Lydia  Haist Morlock",
       "birth_date": "1867-00-00",
       "death_date": "1943-00-00",
       "profile_url": "/memorial/15978542/lydia-morlock",
-      "image_url": "https://images.findagrave.com/photos/2006/275/15978542_115988748138.jpg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2006/275/15978542_115988748138.jpg?size=photos250",
+      "id": 748
     }
   ],
   "spouses": [],

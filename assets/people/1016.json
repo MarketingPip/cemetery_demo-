@@ -17,14 +17,16 @@
       "birth_date": "1917-00-00",
       "death_date": "1987-00-00",
       "profile_url": "/memorial/188137985/willis_orval-stewardson",
-      "image_url": "https://images.findagrave.com/photos/2018/209/188137985_b62bc081-a19e-404e-9bb4-13047b28ed7e.jpeg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2018/209/188137985_b62bc081-a19e-404e-9bb4-13047b28ed7e.jpeg?size=photos250",
+      "id": 1019
     },
     {
       "name": "Lois  Wanner Stewardson",
       "birth_date": "1921-00-00",
       "death_date": "1998-00-00",
       "profile_url": "/memorial/188137964/lois-stewardson",
-      "image_url": "https://images.findagrave.com/photos/2018/209/188137964_d080fe00-018c-409a-969b-b2c4327f492f.jpeg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2018/209/188137964_d080fe00-018c-409a-969b-b2c4327f492f.jpeg?size=photos250",
+      "id": 1017
     }
   ],
   "spouses": [],

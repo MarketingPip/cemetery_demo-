@@ -18,7 +18,8 @@
       "birth_date": "1900-00-00",
       "death_date": "1975-00-00",
       "profile_url": "/memorial/188036363/stephen_r-dundas",
-      "image_url": "https://images.findagrave.com/photos/2022/84/188036363_2345ba13-98ce-456a-9e3e-b2ff27c9bb1f.jpeg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2022/84/188036363_2345ba13-98ce-456a-9e3e-b2ff27c9bb1f.jpeg?size=photos250",
+      "id": 161
     }
   ],
   "children": "[{\"name\": \"Geraldine Ann  Dundas Schenk\", \"birth_date\": \"1932-00-00\", \"death_date\": \"2019-00-00\", \"profile_url\": \"/memorial/238053974/geraldine_ann-schenk\"}, {\"name\": \"Donald S.   Dundas\", \"birth_date\": \"1947-00-00\", \"death_date\": \"2020-00-00\", \"profile_url\": \"/memorial/238051972/donald_s-dundas\"}]",

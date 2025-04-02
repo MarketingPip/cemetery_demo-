@@ -18,7 +18,8 @@
       "birth_date": "1871-00-00",
       "death_date": "1942-00-00",
       "profile_url": "/memorial/15728573/louisa-schwartz",
-      "image_url": "https://images.findagrave.com/photos/2006/256/15728573_115824605451.jpg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2006/256/15728573_115824605451.jpg?size=photos250",
+      "id": 961
     }
   ],
   "children": "[{\"name\": \"Joseph Jacob   Swartz Sr\", \"birth_date\": \"1899-00-00\", \"death_date\": \"1983-00-00\", \"profile_url\": \"/memorial/69117691/joseph_jacob-swartz\"}]",

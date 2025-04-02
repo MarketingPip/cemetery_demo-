@@ -35,14 +35,16 @@
       "birth_date": "1861-00-00",
       "death_date": "1892-00-00",
       "profile_url": "/memorial/98543806/wilhelmina-treitz",
-      "image_url": "https://images.findagrave.com/photos/2022/112/98543806_91980577-2f10-4c01-8641-1f28acf90d0b.jpeg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2022/112/98543806_91980577-2f10-4c01-8641-1f28acf90d0b.jpeg?size=photos250",
+      "id": 1069
     },
     {
       "name": "Mary Magdalena  Zinn Treitz",
       "birth_date": "1857-00-00",
       "death_date": "1928-00-00",
       "profile_url": "/memorial/98543167/mary_magdalena-treitz",
-      "image_url": "https://images.findagrave.com/photos/2022/112/98543167_2bd55f5f-b3db-4d83-abf5-323314939375.jpeg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2022/112/98543167_2bd55f5f-b3db-4d83-abf5-323314939375.jpeg?size=photos250",
+      "id": 1068
     }
   ],
   "children": "[]",

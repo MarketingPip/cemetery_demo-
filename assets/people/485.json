@@ -17,14 +17,16 @@
       "birth_date": "1895-00-00",
       "death_date": "1970-00-00",
       "profile_url": "/memorial/15580371/wellington_roy-haist",
-      "image_url": "https://images.findagrave.com/photos/2006/244/15580371_115720166829.jpg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2006/244/15580371_115720166829.jpg?size=photos250",
+      "id": 509
     },
     {
       "name": "Irene Louise  Willert Haist",
       "birth_date": "1898-00-00",
       "death_date": "1983-00-00",
       "profile_url": "/memorial/15580408/irene_louise-haist",
-      "image_url": "https://images.findagrave.com/photos/2006/244/15580408_115720194352.jpg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2006/244/15580408_115720194352.jpg?size=photos250",
+      "id": 493
     }
   ],
   "spouses": [],

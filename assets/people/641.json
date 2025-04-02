@@ -17,14 +17,16 @@
       "birth_date": "1849-00-00",
       "death_date": "1933-00-00",
       "profile_url": "/memorial/16330196/conrad-kuhn",
-      "image_url": "https://images.findagrave.com/photos/2006/298/16330196_116187297539.jpg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2006/298/16330196_116187297539.jpg?size=photos250",
+      "id": 642
     },
     {
       "name": "Elizabeth  Sweitzer Kuhn",
       "birth_date": "1853-00-00",
       "death_date": "1902-00-00",
       "profile_url": "/memorial/16330239/elizabeth-kuhn",
-      "image_url": "https://images.findagrave.com/photos/2006/298/16330239_116187316032.jpg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2006/298/16330239_116187316032.jpg?size=photos250",
+      "id": 644
     }
   ],
   "spouses": [],

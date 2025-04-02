@@ -17,14 +17,16 @@
       "birth_date": "1854-00-00",
       "death_date": "1939-00-00",
       "profile_url": "/memorial/188136701/paul-schink",
-      "image_url": "https://images.findagrave.com/photos/2022/113/239154232_6bdb8a5a-cd8f-4d88-97d3-f0066d921e5d.jpeg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2022/113/239154232_6bdb8a5a-cd8f-4d88-97d3-f0066d921e5d.jpeg?size=photos250",
+      "id": 934
     },
     {
       "name": "Wilhelmina  Wein Schink",
       "birth_date": "1863-00-00",
       "death_date": "1943-00-00",
       "profile_url": "/memorial/188136712/wilhelmina-schink",
-      "image_url": "https://images.findagrave.com/photos/2022/113/239154276_343885b6-8320-492d-925a-f9e97d94bfc0.jpeg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2022/113/239154276_343885b6-8320-492d-925a-f9e97d94bfc0.jpeg?size=photos250",
+      "id": 935
     }
   ],
   "spouses": [],

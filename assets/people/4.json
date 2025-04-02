@@ -18,13 +18,15 @@
       "birth_date": "1925-00-00",
       "death_date": "2023-00-00",
       "profile_url": "/memorial/257286546/mary_elizabeth-attfield_cleave",
-      "image_url": "https://images.findagrave.com/photos/2023/214/257286546_6417c1ef-58e3-44bc-9cec-bc6b0dfeedc2.jpeg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2023/214/257286546_6417c1ef-58e3-44bc-9cec-bc6b0dfeedc2.jpeg?size=photos250",
+      "id": 6
     },
     {
       "name": "Beth  Cox Attfield",
       "birth_date": "1925-00-00",
       "death_date": null,
-      "profile_url": "/memorial/243040247/beth-attfield"
+      "profile_url": "/memorial/243040247/beth-attfield",
+      "id": 5
     }
   ],
   "children": "[]",

@@ -18,7 +18,8 @@
       "birth_date": "1865-00-00",
       "death_date": "1951-00-00",
       "profile_url": "/memorial/15625226/louisa_fredericka-finkbeiner",
-      "image_url": "https://images.findagrave.com/photos/2006/247/15625226_115747157057.jpg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2006/247/15625226_115747157057.jpg?size=photos250",
+      "id": 340
     }
   ],
   "children": "[{\"name\": \"Harrington Edward   Finkbeiner\", \"birth_date\": \"1897-00-00\", \"death_date\": \"1946-00-00\", \"profile_url\": \"/memorial/15049566/harrington_edward-finkbeiner\"}, {\"name\": \"Milton   Finkbeiner\", \"birth_date\": \"1906-00-00\", \"death_date\": \"1934-00-00\", \"profile_url\": \"/memorial/15625212/milton-finkbeiner\"}]",

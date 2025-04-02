@@ -18,7 +18,8 @@
       "birth_date": "1859-00-00",
       "death_date": "1919-00-00",
       "profile_url": "/memorial/16550445/mary_caroline-wuerth",
-      "image_url": "https://images.findagrave.com/photos/2006/311/16550445_116299508033.jpg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2006/311/16550445_116299508033.jpg?size=photos250",
+      "id": 1202
     }
   ],
   "children": "[{\"name\": \"Albertina Matilda  Wuerth Glanville\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1971-00-00\", \"profile_url\": \"/memorial/147359190/albertina_matilda-glanville\"}, {\"name\": \"Theodore Otto   Wuerth\", \"birth_date\": \"1880-00-00\", \"death_date\": \"1881-00-00\", \"profile_url\": \"/memorial/16550478/theodore_otto-wuerth\"}, {\"name\": \"Alfred Emanuel   Wuerth\", \"birth_date\": \"1891-00-00\", \"death_date\": \"1974-00-00\", \"profile_url\": \"/memorial/16550577/alfred_emanuel-wuerth\"}, {\"name\": \"Edgar E   Wuerth\", \"birth_date\": \"1896-00-00\", \"death_date\": \"1969-00-00\", \"profile_url\": \"/memorial/15553531/edgar_e-wuerth\"}]",

@@ -18,7 +18,8 @@
       "birth_date": "1883-00-00",
       "death_date": "1963-00-00",
       "profile_url": "/memorial/188139369/rosina-wolfe",
-      "image_url": "https://images.findagrave.com/photos/2022/114/188139369_9ae760d0-3b54-45fc-8f4d-644bff6c1f85.jpeg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2022/114/188139369_9ae760d0-3b54-45fc-8f4d-644bff6c1f85.jpeg?size=photos250",
+      "id": 1188
     }
   ],
   "children": "[{\"name\": \"Harold C.   Wolfe\", \"birth_date\": \"1917-00-00\", \"death_date\": \"1990-00-00\", \"profile_url\": \"/memorial/188139331/harold_c-wolfe\"}]",

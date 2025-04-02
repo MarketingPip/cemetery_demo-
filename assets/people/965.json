@@ -17,14 +17,16 @@
       "birth_date": "1827-00-00",
       "death_date": "1878-00-00",
       "profile_url": "/memorial/188136855/michael-schwarz",
-      "image_url": "https://images.findagrave.com/photos/2022/110/188136855_bfa27667-c4df-49ce-b9eb-25991b2928d9.jpeg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2022/110/188136855_bfa27667-c4df-49ce-b9eb-25991b2928d9.jpeg?size=photos250",
+      "id": 968
     },
     {
       "name": "Mary Magdelina  Able Schwarz",
       "birth_date": "1834-00-00",
       "death_date": "1907-00-00",
       "profile_url": "/memorial/236170453/mary_magdelina-schwarz",
-      "image_url": "https://images.findagrave.com/photos/2022/110/236170453_c308bee7-59a5-479a-8477-d8469d3a0954.jpeg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2022/110/236170453_c308bee7-59a5-479a-8477-d8469d3a0954.jpeg?size=photos250",
+      "id": 966
     }
   ],
   "spouses": [],

@@ -18,7 +18,8 @@
       "birth_date": "1796-00-00",
       "death_date": "1882-00-00",
       "profile_url": "/memorial/15790734/carl-braun",
-      "image_url": "https://images.findagrave.com/photos/2006/260/15790734_115858452283.jpg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2006/260/15790734_115858452283.jpg?size=photos250",
+      "id": 75
     }
   ],
   "children": "[{\"name\": \"Gottlieb K.   Braun\", \"birth_date\": \"1840-00-00\", \"death_date\": \"1930-00-00\", \"profile_url\": \"/memorial/40800650/gottlieb_k-braun\"}]",

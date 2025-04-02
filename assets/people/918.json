@@ -17,14 +17,16 @@
       "birth_date": "1894-00-00",
       "death_date": "1979-00-00",
       "profile_url": "/memorial/188136689/hugo-schenk",
-      "image_url": "https://images.findagrave.com/photos/2022/117/188136689_20af06b2-ad10-4d8b-b11d-62877af647df.jpeg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2022/117/188136689_20af06b2-ad10-4d8b-b11d-62877af647df.jpeg?size=photos250",
+      "id": 925
     },
     {
       "name": "Marion  Dowdell Schenk",
       "birth_date": "1906-00-00",
       "death_date": "1992-00-00",
       "profile_url": "/memorial/188136697/marion-schenk",
-      "image_url": "https://images.findagrave.com/photos/2022/117/188136697_041a0a0d-4f60-4232-af8f-4c6eb48df445.jpeg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2022/117/188136697_041a0a0d-4f60-4232-af8f-4c6eb48df445.jpeg?size=photos250",
+      "id": 928
     }
   ],
   "spouses": [],

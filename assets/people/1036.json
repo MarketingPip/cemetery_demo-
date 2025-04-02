@@ -17,14 +17,16 @@
       "birth_date": "1857-00-00",
       "death_date": "1911-00-00",
       "profile_url": "/memorial/15684591/samuel-sweitzer",
-      "image_url": "https://images.findagrave.com/photos/2006/252/15684591_115790778679.jpg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2006/252/15684591_115790778679.jpg?size=photos250",
+      "id": 1046
     },
     {
       "name": "Louisa or Lydia  Morlock Sweitzer",
       "birth_date": "1860-00-00",
       "death_date": "1952-00-00",
       "profile_url": "/memorial/15697687/louisa_or_lydia-sweitzer",
-      "image_url": "https://images.findagrave.com/photos/2006/253/15697687_115798737190.jpg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2006/253/15697687_115798737190.jpg?size=photos250",
+      "id": 1037
     }
   ],
   "spouses": [],

@@ -26,7 +26,8 @@
       "birth_date": "1864-00-00",
       "death_date": "1906-00-00",
       "profile_url": "/memorial/236911772/hortense-beaver",
-      "image_url": "https://images.findagrave.com/photos/2022/121/236911772_dd41846a-2062-4588-bed8-1774deba6194.jpeg?size=photos250"
+      "image_url": "https://images.findagrave.com/photos/2022/121/236911772_dd41846a-2062-4588-bed8-1774deba6194.jpeg?size=photos250",
+      "id": 25
     }
   ],
   "children": "[{\"name\": \"Son   Beaver\", \"birth_date\": \"1894-00-00\", \"death_date\": \"1894-00-00\", \"profile_url\": \"/memorial/236912036/son-beaver\"}]",
