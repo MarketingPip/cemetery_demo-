@@ -435,18 +435,12 @@ async function tributeData(tributeId) {
 
 // Function to render a single person (used for parents, spouse, siblings, children)
 function renderPerson(person) {
-  return `
+    return `
         <div class="flex items-start gap-4">
-            <img src="${
-              person.image || "https://via.placeholder.com/100"
-            }" alt="${
-    person.name
-  }" class="w-24 h-32 object-cover rounded-md border border-gray-700">
+            <img src="${person.image || 'https://via.placeholder.com/100'}" alt="${person.name}" class="w-24 h-32 object-cover rounded-md border border-gray-700">
             <div>
                 <p class="text-base md:text-lg font-medium">${person.name}</p>
-                <p class="text-sm md:text-base text-gray-400">${
-                  person.dates
-                }</p>
+                <p class="text-sm md:text-base text-gray-400">${person.dates}</p>
             </div>
         </div>
     `;
@@ -454,9 +448,9 @@ function renderPerson(person) {
 
 // Function to render a section (e.g., Parents, Spouse, Siblings, Children)
 function renderSection(title, people) {
-  if (!people || people.length === 0) return ""; // Return empty string if no people in this section
-  const peopleHTML = people.map((person) => renderPerson(person)).join("");
-  return `
+    if (!people || people.length === 0) return ''; // Return empty string if no people in this section
+    const peopleHTML = people.map(person => renderPerson(person)).join('');
+    return `
         <div class="mb-8">
             <h2 class="text-lg md:text-xl font-semibold mb-4">${title}</h2>
             <div class="space-y-6">${peopleHTML}</div>
@@ -466,38 +460,29 @@ function renderSection(title, people) {
 
 // Main function to render the entire family
 function renderFamily(family) {
-  const container = document.getElementById("family-members-container");
+    const container = document.getElementById('family-members-container');
 
-  // Prepare sections
-  const parentsSection = renderSection(
-    "Parents",
-    family.parents ? [family.parents] : []
-  );
-  const spouseSection = renderSection(
-    "Spouse",
-    family.spouse ? [family.spouse] : []
-  );
-  const siblingsSection = renderSection("Siblings", family.siblings || []);
-  const childrenSection = renderSection("Children", family.children || []);
+    // Prepare sections, ensuring parents and spouse are always arrays
+    const parentsSection = renderSection('Parents', Array.isArray(family.parents) ? family.parents : [family.parents]);
+    const spouseSection = renderSection('Spouse', Array.isArray(family.spouse) ? family.spouse : [family.spouse]);
+    const siblingsSection = renderSection('Siblings', family.siblings || []);
+    const childrenSection = renderSection('Children', family.children || []);
 
-  // Combine siblings and children into a grid layout
-  const gridSection =
-    siblingsSection || childrenSection
-      ? `
+    // Combine siblings and children into a grid layout
+    const gridSection = (siblingsSection || childrenSection) ? `
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>${siblingsSection}</div>
             <div>${childrenSection}</div>
         </div>
-    `
-      : "";
+    ` : '';
 
-  // Combine all sections
-  container.innerHTML = `
+    // Combine all sections
+    container.innerHTML = `
         ${parentsSection}
         ${spouseSection}
         ${gridSection}
     `;
-}    
+}
 
     function formatBirthDeathDates(birth_date, death_date) {
 
