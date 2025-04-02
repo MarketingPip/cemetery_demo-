@@ -80,6 +80,8 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
           }
           if (spouseRecord) {
             spouse.id = spouseRecord.id; // Add ID if it's not a homepage
+          } else {
+            console.log(`Couldn't find record for ${spouse.name}`)
           }
           return spouse;
         }));
