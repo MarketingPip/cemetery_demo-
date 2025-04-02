@@ -128,15 +128,25 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
     });
 
     if (homePage) {
-      // Wait for all the record files to be written asynchronously
-      const processedRecords = await Promise.all(records);
+  // Step 1: Initialize an empty array to store processed records
+  const processedRecords = [];
 
-      // Step 6: Write the final JSON array to the output file
-      await fs.writeFile(outputFilePath, JSON.stringify(processedRecords, null, 2), 'utf8');
-      console.log(`Data successfully written to ${outputFilePath}`);
+  // Step 2: Process each record sequentially using a for...of loop
+  for (const record of records) {
+    // Wait for the record to be processed
+    const processedRecord = await record; // Ensure that each record is processed asynchronously
 
-      return processedRecords;
-    }
+    // Push the processed record to the array
+    processedRecords.push(processedRecord);
+  }
+
+  // Step 3: Write the final JSON array to the output file
+  await fs.writeFile(outputFilePath, JSON.stringify(processedRecords, null, 2), 'utf8');
+  console.log(`Data successfully written to ${outputFilePath}`);
+
+  // Return the processed records
+  return processedRecords;
+}
   } catch (error) {
     console.error('Error processing CSV:', error);
     throw error;
