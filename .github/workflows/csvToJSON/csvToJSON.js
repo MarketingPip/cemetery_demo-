@@ -68,6 +68,51 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
 
      if(!homePage){
 
+
+        // Add image_url and id for spouses, parents, and siblings if they exist in the record
+        if (record.spouses && record.spouses.length) {
+          record.spouses = await Promise.all(record.spouses.map(async (spouse) => {
+            const spouseMemorialId = spouse.profile_url.split('/')[2]; // Extract memorial ID from spouse's URL
+            const spouseRecord = results.data.find(r => r.memorial_url.includes(spouseMemorialId)); // Find the record by memorial_id
+            if (spouseRecord && spouseRecord.image_url) {
+              spouse.image_url = spouseRecord.image_url;
+            }
+            if (spouseRecord) {
+              spouse.id = spouseRecord.id; // Add ID if it's not a homepage
+            }
+            return spouse;
+          }));
+        }
+
+        if (record.parents && record.parents.length) {
+          record.parents = await Promise.all(record.parents.map(async (parent) => {
+            const parentMemorialId = parent.profile_url.split('/')[2]; // Extract memorial ID from parent's URL
+            const parentRecord = results.data.find(r => r.memorial_url.includes(parentMemorialId)); // Find the record by memorial_id
+            if (parentRecord && parentRecord.image_url) {
+              parent.image_url = parentRecord.image_url;
+            }
+            if (parentRecord) {
+              parent.id = parentRecord.id; // Add ID if it's not a homepage
+            }
+            return parent;
+          }));
+        }
+
+        if (record.siblings && record.siblings.length) {
+          record.siblings = await Promise.all(record.siblings.map(async (sibling) => {
+            const siblingMemorialId = sibling.profile_url.split('/')[2]; // Extract memorial ID from sibling's URL
+            const siblingRecord = results.data.find(r => r.memorial_url.includes(siblingMemorialId)); // Find the record by memorial_id
+            if (siblingRecord && siblingRecord.image_url) {
+              sibling.image_url = siblingRecord.image_url;
+            }
+            if (siblingRecord) {
+              sibling.id = siblingRecord.id; // Add ID if it's not a homepage
+            }
+            return sibling;
+          }));
+        }
+
+       
       // Step 4: Write each record to a separate JSON file in assets/people/[id]
       const recordDirectoryPath = './assets/people';
       await fs.mkdir(recordDirectoryPath, { recursive: true }); // Ensure directory exists
