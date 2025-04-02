@@ -71,21 +71,27 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
       if (!homePage) {
 
       // Step 4: Add image_url and id for spouses, parents, and siblings if they exist in the record
-      if (record.spouses && Array.isArray(record.spouses) && record.spouses.length) {
-        record.spouses = await Promise.all(record.spouses.map(async (spouse) => {
-          const spouseMemorialId = spouse.profile_url.split('/')[2]; // Extract memorial ID from spouse's URL
-          const spouseRecord = results.data.find(r => r.memorial_url.includes(spouseMemorialId)); // Find the record by memorial_id
-          if (spouseRecord && spouseRecord.image_url) {
-            spouse.image_url = spouseRecord.image_url;
-            console.log(`Found image for ${JSON.stringify(spouse)}`)
-            
-          }
-          if (spouseRecord) {
-            spouse.id = spouseRecord.id; // Add ID if it's not a homepage
-          } 
-          return spouse;
-        }));
-      }
+if (record.spouses && Array.isArray(record.spouses) && record.spouses.length) {
+  record.spouses = await Promise.all(record.spouses.map(async (spouse) => {
+    // Extract memorial ID from spouse's profile_url (e.g., /memorial/188035990/john_f-brown)
+    const spouseMemorialId = spouse.profile_url.split('/')[2];  // Extract the ID part (188035990)
+
+    // Find the corresponding record by comparing memorial URL with spouseMemorialId
+    const spouseRecord = results.data.find(r => r.memorial_url.includes(`/memorial/${spouseMemorialId}/`));  // Match on the full memorial URL
+
+    if (spouseRecord && spouseRecord.image_url) {
+      spouse.image_url = spouseRecord.image_url; // Add image_url from the matched record
+    }
+
+    if (spouseRecord && spouseRecord.id !== undefined) {
+      spouse.id = spouseRecord.id;  // Add ID to spouse if it's found
+    } else {
+      console.log(`ID not found for spouse: ${spouse.name}`);
+    }
+    
+    return spouse;  // Return updated spouse object
+  }));
+}
 
       if (record.parents && Array.isArray(record.parents) && record.parents.length) {
         record.parents = await Promise.all(record.parents.map(async (parent) => {
