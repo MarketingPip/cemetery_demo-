@@ -16,13 +16,17 @@
       "name": "William Henry   Finkbeiner",
       "birth_date": "1879-00-00",
       "death_date": "1950-00-00",
-      "profile_url": "/memorial/15554551/william_henry-finkbeiner"
+      "profile_url": "/memorial/15554551/william_henry-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15554551_115695119240.jpg?size=photos250",
+      "id": 371
     },
     {
       "name": "Ida Lily  Treitz Finkbeiner",
       "birth_date": "1884-00-00",
       "death_date": "1959-00-00",
-      "profile_url": "/memorial/15554622/ida_lily-finkbeiner"
+      "profile_url": "/memorial/15554622/ida_lily-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15554622_115695159894.jpg?size=photos250",
+      "id": 312
     }
   ],
   "spouses": [
@@ -30,7 +34,9 @@
       "name": "Harold H   Fahner",
       "birth_date": "1913-00-00",
       "death_date": "2000-00-00",
-      "profile_url": "/memorial/15145510/harold_h-fahner"
+      "profile_url": "/memorial/15145510/harold_h-fahner",
+      "image_url": "https://images.findagrave.com/photos/2006/215/15145510_115470100117.jpg?size=photos250",
+      "id": 220
     }
   ],
   "children": "[]",

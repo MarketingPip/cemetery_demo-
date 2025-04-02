@@ -16,13 +16,17 @@
       "name": "Otto Nelson   Braun",
       "birth_date": "1886-00-00",
       "death_date": "1943-00-00",
-      "profile_url": "/memorial/15426309/otto_nelson-braun"
+      "profile_url": "/memorial/15426309/otto_nelson-braun",
+      "image_url": "https://images.findagrave.com/photos/2006/231/15426309_115607806642.jpg?size=photos250",
+      "id": 81
     },
     {
       "name": "Mary Ann  Morlock Braun",
       "birth_date": "1881-00-00",
       "death_date": "1968-00-00",
-      "profile_url": "/memorial/15426343/mary_ann-braun"
+      "profile_url": "/memorial/15426343/mary_ann-braun",
+      "image_url": "https://images.findagrave.com/photos/2006/231/15426343_115607839986.jpg?size=photos250",
+      "id": 80
     }
   ],
   "spouses": [

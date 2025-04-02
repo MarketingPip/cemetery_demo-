@@ -17,7 +17,9 @@
       "name": "Ana Maria   Haist",
       "birth_date": "1795-00-00",
       "death_date": "1881-00-00",
-      "profile_url": "/memorial/236171206/ana_maria-haist"
+      "profile_url": "/memorial/236171206/ana_maria-haist",
+      "image_url": "https://images.findagrave.com/photos/2022/111/236171206_8822d4f6-0fe2-40d0-9f4a-1ab6528fe7d6.jpeg?size=photos250",
+      "id": 477
     }
   ],
   "children": "[{\"name\": \"August   Haist\", \"birth_date\": \"1839-00-00\", \"death_date\": \"1912-00-00\", \"profile_url\": \"/memorial/15697730/august-haist\"}]",

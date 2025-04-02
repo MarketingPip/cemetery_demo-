@@ -16,13 +16,17 @@
       "name": "Clifford   Hill",
       "birth_date": "1894-00-00",
       "death_date": "1960-00-00",
-      "profile_url": "/memorial/15580207/clifford-hill"
+      "profile_url": "/memorial/15580207/clifford-hill",
+      "image_url": "https://images.findagrave.com/photos/2006/244/15580207_115720026695.jpg?size=photos250",
+      "id": 543
     },
     {
       "name": "Alvernia  Haist Hill",
       "birth_date": "1897-00-00",
       "death_date": "1984-00-00",
-      "profile_url": "/memorial/15580216/alvernia-hill"
+      "profile_url": "/memorial/15580216/alvernia-hill",
+      "image_url": "https://images.findagrave.com/photos/2006/244/15580216_115720034050.jpg?size=photos250",
+      "id": 542
     }
   ],
   "spouses": [],

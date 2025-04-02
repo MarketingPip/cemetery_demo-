@@ -16,13 +16,17 @@
       "name": "George   Finkbeiner",
       "birth_date": "1866-00-00",
       "death_date": "1953-00-00",
-      "profile_url": "/memorial/15625186/george-finkbeiner"
+      "profile_url": "/memorial/15625186/george-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/247/15625186_115747137587.jpg?size=photos250",
+      "id": 304
     },
     {
       "name": "Louisa Fredericka  Faist Finkbeiner",
       "birth_date": "1865-00-00",
       "death_date": "1951-00-00",
-      "profile_url": "/memorial/15625226/louisa_fredericka-finkbeiner"
+      "profile_url": "/memorial/15625226/louisa_fredericka-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/247/15625226_115747157057.jpg?size=photos250",
+      "id": 340
     }
   ],
   "spouses": [],

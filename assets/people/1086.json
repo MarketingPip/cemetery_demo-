@@ -17,13 +17,17 @@
       "name": "Henry A.   Trick",
       "birth_date": "1892-00-00",
       "death_date": "1957-00-00",
-      "profile_url": "/memorial/188138338/henry_a-trick"
+      "profile_url": "/memorial/188138338/henry_a-trick",
+      "image_url": "https://images.findagrave.com/photos/2022/117/188138338_6177f6e5-9e15-44ce-aa26-f851e5624ced.jpeg?size=photos250",
+      "id": 1075
     },
     {
       "name": "Cecil W.   Van Horne",
       "birth_date": "1909-00-00",
       "death_date": "1980-00-00",
-      "profile_url": "/memorial/188138411/cecil_w-van_horne"
+      "profile_url": "/memorial/188138411/cecil_w-van_horne",
+      "image_url": "https://images.findagrave.com/photos/2022/117/188138411_5599fd54-7d48-4c6c-af77-5db9bbd7ea9d.jpeg?size=photos250",
+      "id": 1085
     }
   ],
   "children": "[]",

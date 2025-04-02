@@ -16,13 +16,17 @@
       "name": "Paul   Messner",
       "birth_date": "1830-00-00",
       "death_date": "1875-00-00",
-      "profile_url": "/memorial/188115199/paul-messner"
+      "profile_url": "/memorial/188115199/paul-messner",
+      "image_url": "https://images.findagrave.com/photos/2022/111/188115199_8b16eadb-9184-4e26-97da-b3a4e67fc2c2.jpeg?size=photos250",
+      "id": 715
     },
     {
       "name": "Elizabeth Catherine  Finkbeiner Messner Krein",
       "birth_date": "1837-00-00",
       "death_date": "1912-00-00",
-      "profile_url": "/memorial/236913526/elizabeth_catherine-messner_krein"
+      "profile_url": "/memorial/236913526/elizabeth_catherine-messner_krein",
+      "image_url": "https://images.findagrave.com/photos/2022/111/236913526_f5e40283-bb7d-4148-9b04-6084f3bb86ac.jpeg?size=photos250",
+      "id": 717
     }
   ],
   "spouses": [
@@ -30,7 +34,8 @@
       "name": "Henry   Motz",
       "birth_date": "1861-00-00",
       "death_date": "1939-00-00",
-      "profile_url": "/memorial/16626938/henry-motz"
+      "profile_url": "/memorial/16626938/henry-motz",
+      "image_url": "https://images.findagrave.com/photos/2006/315/16626938_116339315620.jpg?size=photos250"
     }
   ],
   "children": "[]",

@@ -17,7 +17,9 @@
       "name": "George A.   Gaiser",
       "birth_date": "1856-00-00",
       "death_date": "1899-00-00",
-      "profile_url": "/memorial/188113009/george_a-gaiser"
+      "profile_url": "/memorial/188113009/george_a-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2022/116/188113009_42efb452-4909-4dd6-ab9d-c790c1ea5d24.jpeg?size=photos250",
+      "id": 399
     }
   ],
   "children": "[{\"name\": \"Infants   Gaiser\", \"birth_date\": null, \"death_date\": null, \"profile_url\": \"/memorial/239217541/infants-gaiser\"}]",

@@ -16,13 +16,17 @@
       "name": "Lorne Reuben   Finkbeiner",
       "birth_date": "1901-00-00",
       "death_date": "1984-00-00",
-      "profile_url": "/memorial/15126012/lorne_reuben-finkbeiner"
+      "profile_url": "/memorial/15126012/lorne_reuben-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/213/15126012_115458150757.jpg?size=photos250",
+      "id": 337
     },
     {
       "name": "Laura Ethel  England Finkbeiner",
       "birth_date": "1907-00-00",
       "death_date": "1994-00-00",
-      "profile_url": "/memorial/15126038/laura_ethel-finkbeiner"
+      "profile_url": "/memorial/15126038/laura_ethel-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/213/15126038_115458177510.jpg?size=photos250",
+      "id": 330
     }
   ],
   "spouses": [
@@ -30,7 +34,9 @@
       "name": "Gerald Ross   Haugh",
       "birth_date": "1926-00-00",
       "death_date": "2013-00-00",
-      "profile_url": "/memorial/164207142/gerald_ross-haugh"
+      "profile_url": "/memorial/164207142/gerald_ross-haugh",
+      "image_url": "https://images.findagrave.com/photos/2016/160/164207142_1465528565.jpg?size=photos250",
+      "id": 520
     }
   ],
   "children": "[]",

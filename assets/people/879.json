@@ -16,13 +16,17 @@
       "name": "John M   Ratz",
       "birth_date": "1924-00-00",
       "death_date": "1979-00-00",
-      "profile_url": "/memorial/15561401/john_m-ratz"
+      "profile_url": "/memorial/15561401/john_m-ratz",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15561401_115699757916.jpg?size=photos250",
+      "id": 871
     },
     {
       "name": "Margaret  Scott Ratz",
       "birth_date": "1926-00-00",
       "death_date": "2017-00-00",
-      "profile_url": "/memorial/237943693/margaret-ratz"
+      "profile_url": "/memorial/237943693/margaret-ratz",
+      "image_url": "https://images.findagrave.com/photos/2022/84/237943693_36f3b164-26d8-445d-ad67-d841a65d1f7c.jpeg?size=photos250",
+      "id": 874
     }
   ],
   "spouses": [],

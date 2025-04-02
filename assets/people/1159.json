@@ -17,7 +17,9 @@
       "name": "Eckhardt   Wilhelm",
       "birth_date": "1829-00-00",
       "death_date": "1913-00-00",
-      "profile_url": "/memorial/15832870/eckhardt-wilhelm"
+      "profile_url": "/memorial/15832870/eckhardt-wilhelm",
+      "image_url": "https://images.findagrave.com/photos/2006/263/15832870_115884980178.jpg?size=photos250",
+      "id": 1158
     }
   ],
   "children": "[{\"name\": \"Henry   Wilhelm\", \"birth_date\": \"1861-00-00\", \"death_date\": \"1875-00-00\", \"profile_url\": \"/memorial/15833335/henry-wilhelm\"}, {\"name\": \"Catherine   Wilhelm\", \"birth_date\": \"1863-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/15833360/catherine-wilhelm\"}, {\"name\": \"Louis   Wilhelm\", \"birth_date\": \"1876-00-00\", \"death_date\": \"1881-00-00\", \"profile_url\": \"/memorial/15833385/louis-wilhelm\"}]",

@@ -16,7 +16,9 @@
       "name": "Jacob   Fahner",
       "birth_date": "1804-00-00",
       "death_date": "1879-00-00",
-      "profile_url": "/memorial/188037051/jacob-fahner"
+      "profile_url": "/memorial/188037051/jacob-fahner",
+      "image_url": "https://images.findagrave.com/photos/2022/110/188037051_d6a6eaef-2b38-491c-827b-14101553996f.jpeg?size=photos250",
+      "id": 222
     }
   ],
   "spouses": [
@@ -24,7 +26,8 @@
       "name": "Godfried   Wein",
       "birth_date": "1834-00-00",
       "death_date": "1916-00-00",
-      "profile_url": "/memorial/188139056/godfried-wein"
+      "profile_url": "/memorial/188139056/godfried-wein",
+      "image_url": "https://images.findagrave.com/photos/2022/121/188139056_8f26e528-45b1-47fc-a80b-65f59653a8a2.jpeg?size=photos250"
     }
   ],
   "children": "[]",

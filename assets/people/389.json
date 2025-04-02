@@ -16,13 +16,17 @@
       "name": "Jacob   Gaiser",
       "birth_date": "1854-00-00",
       "death_date": "1928-00-00",
-      "profile_url": "/memorial/16627163/jacob-gaiser"
+      "profile_url": "/memorial/16627163/jacob-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2006/315/16627163_116339589912.jpg?size=photos250",
+      "id": 405
     },
     {
       "name": "Christina  Kutzli Gaiser",
       "birth_date": "1858-00-00",
       "death_date": "1896-00-00",
-      "profile_url": "/memorial/16627135/christina-gaiser"
+      "profile_url": "/memorial/16627135/christina-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2006/315/16627135_116339552993.jpg?size=photos250",
+      "id": 394
     }
   ],
   "spouses": [
@@ -30,7 +34,8 @@
       "name": "Sybilla Charlotte  Morlock Gaiser",
       "birth_date": "1893-00-00",
       "death_date": "1949-00-00",
-      "profile_url": "/memorial/15639747/sybilla_charlotte-gaiser"
+      "profile_url": "/memorial/15639747/sybilla_charlotte-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2006/248/15639747_115755558879.jpg?size=photos250"
     }
   ],
   "children": "[]",

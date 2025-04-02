@@ -16,13 +16,16 @@
       "name": "Jacob   Sweitzer",
       "birth_date": "1848-00-00",
       "death_date": "1925-00-00",
-      "profile_url": "/memorial/15660752/jacob-sweitzer"
+      "profile_url": "/memorial/15660752/jacob-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/249/15660752_115769063103.jpg?size=photos250",
+      "id": 1031
     },
     {
       "name": "Rosena  Kuhn Sweitzer",
       "birth_date": "1849-00-00",
       "death_date": "1931-00-00",
-      "profile_url": "/memorial/15660778/rosena-sweitzer"
+      "profile_url": "/memorial/15660778/rosena-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/249/15660778_115769091265.jpg?size=photos250"
     }
   ],
   "spouses": [],

@@ -16,13 +16,17 @@
       "name": "John Jacob   Eilber",
       "birth_date": "1830-00-00",
       "death_date": "1901-00-00",
-      "profile_url": "/memorial/15832587/john_jacob-eilber"
+      "profile_url": "/memorial/15832587/john_jacob-eilber",
+      "image_url": "https://images.findagrave.com/photos/2006/263/15832587_115884793236.jpg?size=photos250",
+      "id": 190
     },
     {
       "name": "Sarah  Finkbeiner Eilber",
       "birth_date": "1832-00-00",
       "death_date": "1899-00-00",
-      "profile_url": "/memorial/15832651/sarah-eilber"
+      "profile_url": "/memorial/15832651/sarah-eilber",
+      "image_url": "https://images.findagrave.com/photos/2006/263/15832651_115884830886.jpg?size=photos250",
+      "id": 197
     }
   ],
   "spouses": [
@@ -30,7 +34,9 @@
       "name": "A. Louis   Bertrand",
       "birth_date": "1848-00-00",
       "death_date": "1903-00-00",
-      "profile_url": "/memorial/55150769/a_louis-bertrand"
+      "profile_url": "/memorial/55150769/a_louis-bertrand",
+      "image_url": "https://images.findagrave.com/photos/2022/112/55150769_e588b201-25b3-42d6-94cf-575a61f392b4.jpeg?size=photos250",
+      "id": 50
     }
   ],
   "children": "[]",

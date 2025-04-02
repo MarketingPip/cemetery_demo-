@@ -16,7 +16,9 @@
       "name": "Mary  Wuerth Smith",
       "birth_date": "1837-00-00",
       "death_date": "1928-00-00",
-      "profile_url": "/memorial/15820934/mary-smith"
+      "profile_url": "/memorial/15820934/mary-smith",
+      "image_url": "https://images.findagrave.com/photos/2006/262/15820934_115876434252.jpg?size=photos250",
+      "id": 993
     }
   ],
   "spouses": [
@@ -24,7 +26,8 @@
       "name": "Mary Ann  Klumpp Smith",
       "birth_date": "1870-00-00",
       "death_date": "1959-00-00",
-      "profile_url": "/memorial/15821423/mary_ann-smith"
+      "profile_url": "/memorial/15821423/mary_ann-smith",
+      "image_url": "https://images.findagrave.com/photos/2006/262/15821423_115876517179.jpg?size=photos250"
     }
   ],
   "children": "[]",

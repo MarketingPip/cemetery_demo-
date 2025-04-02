@@ -17,7 +17,9 @@
       "name": "Herman   Oestreicher",
       "birth_date": "1857-00-00",
       "death_date": "1952-00-00",
-      "profile_url": "/memorial/15820668/herman-oestreicher"
+      "profile_url": "/memorial/15820668/herman-oestreicher",
+      "image_url": "https://images.findagrave.com/photos/2006/262/15820668_115876081051.jpg?size=photos250",
+      "id": 802
     }
   ],
   "children": "[{\"name\": \"Matilda   Oestreicher\", \"birth_date\": \"1894-00-00\", \"death_date\": \"1983-00-00\", \"profile_url\": \"/memorial/236912317/matilda-oestreicher\"}, {\"name\": \"Clara L.   Oestreicher\", \"birth_date\": \"1899-00-00\", \"death_date\": null, \"profile_url\": \"/memorial/236912274/clara_l-oestreicher\"}, {\"name\": \"Hannah Irene   Oestreicher\", \"birth_date\": \"1901-00-00\", \"death_date\": \"1902-00-00\", \"profile_url\": \"/memorial/236912368/hannah_irene-oestreicher\"}]",

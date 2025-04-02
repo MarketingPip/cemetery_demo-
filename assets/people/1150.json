@@ -16,13 +16,17 @@
       "name": "Aaron   Wein",
       "birth_date": "1890-00-00",
       "death_date": "1973-00-00",
-      "profile_url": "/memorial/15638798/aaron-wein"
+      "profile_url": "/memorial/15638798/aaron-wein",
+      "image_url": "https://images.findagrave.com/photos/2006/248/15638798_115755040181.jpg?size=photos250",
+      "id": 1105
     },
     {
       "name": "Cora Rosina  Truemner Wein",
       "birth_date": "1895-00-00",
       "death_date": "1994-00-00",
-      "profile_url": "/memorial/15638846/cora_rosina-wein"
+      "profile_url": "/memorial/15638846/cora_rosina-wein",
+      "image_url": "https://images.findagrave.com/photos/2006/248/15638846_115755062627.jpg?size=photos250",
+      "id": 1110
     }
   ],
   "spouses": [],

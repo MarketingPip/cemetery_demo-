@@ -16,13 +16,17 @@
       "name": "John   Treitz",
       "birth_date": "1851-00-00",
       "death_date": "1921-00-00",
-      "profile_url": "/memorial/188138292/john-treitz"
+      "profile_url": "/memorial/188138292/john-treitz",
+      "image_url": "https://images.findagrave.com/photos/2022/110/188138292_55401f4c-cf7d-433e-9d0e-6012ce1185eb.jpeg?size=photos250",
+      "id": 1066
     },
     {
       "name": "Caroline   Treitz",
       "birth_date": "1858-00-00",
       "death_date": "1900-00-00",
-      "profile_url": "/memorial/235706830/caroline-treitz"
+      "profile_url": "/memorial/235706830/caroline-treitz",
+      "image_url": "https://images.findagrave.com/photos/2022/110/235706830_3a4d2396-a23e-44b0-8483-9ead64a19e43.jpeg?size=photos250",
+      "id": 1061
     }
   ],
   "spouses": [
@@ -30,7 +34,8 @@
       "name": "William Henry   Finkbeiner",
       "birth_date": "1879-00-00",
       "death_date": "1950-00-00",
-      "profile_url": "/memorial/15554551/william_henry-finkbeiner"
+      "profile_url": "/memorial/15554551/william_henry-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15554551_115695119240.jpg?size=photos250"
     }
   ],
   "children": "[]",

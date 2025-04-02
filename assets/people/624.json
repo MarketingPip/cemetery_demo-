@@ -16,13 +16,15 @@
       "name": "John   Klumpp",
       "birth_date": "1865-00-00",
       "death_date": "1952-00-00",
-      "profile_url": "/memorial/15728813/john-klumpp"
+      "profile_url": "/memorial/15728813/john-klumpp",
+      "image_url": "https://images.findagrave.com/photos/2006/256/15728813_115824778042.jpg?size=photos250"
     },
     {
       "name": "Lydia  Fahner Klumpp",
       "birth_date": "1871-00-00",
       "death_date": "1938-00-00",
-      "profile_url": "/memorial/15728852/lydia-klumpp"
+      "profile_url": "/memorial/15728852/lydia-klumpp",
+      "image_url": "https://images.findagrave.com/photos/2006/256/15728852_115824787534.jpg?size=photos250"
     }
   ],
   "spouses": [],

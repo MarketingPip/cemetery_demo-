@@ -16,13 +16,17 @@
       "name": "Godfried   Wein",
       "birth_date": "1834-00-00",
       "death_date": "1916-00-00",
-      "profile_url": "/memorial/188139056/godfried-wein"
+      "profile_url": "/memorial/188139056/godfried-wein",
+      "image_url": "https://images.findagrave.com/photos/2022/121/188139056_8f26e528-45b1-47fc-a80b-65f59653a8a2.jpeg?size=photos250",
+      "id": 1120
     },
     {
       "name": "Agnes  Fahner Wein",
       "birth_date": "1835-00-00",
       "death_date": "1919-00-00",
-      "profile_url": "/memorial/189806364/agnes-wein"
+      "profile_url": "/memorial/189806364/agnes-wein",
+      "image_url": "https://images.findagrave.com/photos/2022/113/189806364_e6d0e932-1493-4992-81c5-6e89ba18dde3.jpeg?size=photos250",
+      "id": 1106
     }
   ],
   "spouses": [
@@ -30,7 +34,8 @@
       "name": "William J.   Bowman",
       "birth_date": "1864-00-00",
       "death_date": "1941-00-00",
-      "profile_url": "/memorial/188035695/william_j-bowman"
+      "profile_url": "/memorial/188035695/william_j-bowman",
+      "image_url": "https://images.findagrave.com/photos/2022/83/188035695_d3a8ea45-78de-4b1b-bf4d-2e067f758b78.jpeg?size=photos250"
     }
   ],
   "children": "[]",

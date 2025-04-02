@@ -16,13 +16,17 @@
       "name": "Henry   Motz",
       "birth_date": "1834-00-00",
       "death_date": "1913-00-00",
-      "profile_url": "/memorial/15707356/henry-motz"
+      "profile_url": "/memorial/15707356/henry-motz",
+      "image_url": "https://images.findagrave.com/photos/2006/254/15707356_115806921114.jpg?size=photos250",
+      "id": 770
     },
     {
       "name": "Wilhelmina  Schnepf Motz",
       "birth_date": "1836-00-00",
       "death_date": "1881-00-00",
-      "profile_url": "/memorial/15707447/wilhelmina-motz"
+      "profile_url": "/memorial/15707447/wilhelmina-motz",
+      "image_url": "https://images.findagrave.com/photos/2006/254/15707447_115807245278.jpg?size=photos250",
+      "id": 775
     }
   ],
   "spouses": [
@@ -30,7 +34,9 @@
       "name": "Catherine Annie Maria  Messner Motz",
       "birth_date": "1869-00-00",
       "death_date": "1941-00-00",
-      "profile_url": "/memorial/16626989/catherine_annie_maria-motz"
+      "profile_url": "/memorial/16626989/catherine_annie_maria-motz",
+      "image_url": "https://images.findagrave.com/photos/2006/315/16626989_116339358589.jpg?size=photos250",
+      "id": 766
     }
   ],
   "children": "[]",

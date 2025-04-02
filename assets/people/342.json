@@ -17,7 +17,9 @@
       "name": "John   Finkbeiner",
       "birth_date": "1850-00-00",
       "death_date": "1914-00-00",
-      "profile_url": "/memorial/16658475/john-finkbeiner"
+      "profile_url": "/memorial/16658475/john-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/317/16658475_116357079241.jpg?size=photos250",
+      "id": 325
     }
   ],
   "children": "[{\"name\": \"Caroline Lavina  Finkbeiner Currey\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1970-00-00\", \"profile_url\": \"/memorial/36479056/caroline_lavina-currey\"}]",

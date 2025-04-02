@@ -16,7 +16,9 @@
       "name": "Jacob   Fahner",
       "birth_date": "1804-00-00",
       "death_date": "1879-00-00",
-      "profile_url": "/memorial/188037051/jacob-fahner"
+      "profile_url": "/memorial/188037051/jacob-fahner",
+      "image_url": "https://images.findagrave.com/photos/2022/110/188037051_d6a6eaef-2b38-491c-827b-14101553996f.jpeg?size=photos250",
+      "id": 222
     }
   ],
   "spouses": [
@@ -24,7 +26,9 @@
       "name": "Sophia   Fahner",
       "birth_date": "1850-00-00",
       "death_date": "1924-00-00",
-      "profile_url": "/memorial/238612944/sophia-fahner"
+      "profile_url": "/memorial/238612944/sophia-fahner",
+      "image_url": "https://images.findagrave.com/photos/2022/112/238612944_1cf79024-5898-4ceb-a416-4110a9ee8e78.jpeg?size=photos250",
+      "id": 231
     }
   ],
   "children": "[]",

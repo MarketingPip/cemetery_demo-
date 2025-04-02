@@ -16,13 +16,17 @@
       "name": "William H.   Morlock",
       "birth_date": "1862-00-00",
       "death_date": "1948-00-00",
-      "profile_url": "/memorial/15978472/william_h-morlock"
+      "profile_url": "/memorial/15978472/william_h-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/275/15978472_115988713587.jpg?size=photos250",
+      "id": 762
     },
     {
       "name": "Lydia  Haist Morlock",
       "birth_date": "1867-00-00",
       "death_date": "1943-00-00",
-      "profile_url": "/memorial/15978542/lydia-morlock"
+      "profile_url": "/memorial/15978542/lydia-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/275/15978542_115988748138.jpg?size=photos250",
+      "id": 748
     }
   ],
   "spouses": [
@@ -30,7 +34,8 @@
       "name": "Mary Adeline  Finkbeiner Morlock",
       "birth_date": "1892-00-00",
       "death_date": "1958-00-00",
-      "profile_url": "/memorial/15396133/mary_adeline-morlock"
+      "profile_url": "/memorial/15396133/mary_adeline-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/228/15396133_115582560957.jpg?size=photos250"
     }
   ],
   "children": "[]",

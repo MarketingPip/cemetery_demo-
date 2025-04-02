@@ -16,7 +16,9 @@
       "name": "Chester Gordon   Morlock",
       "birth_date": "1902-00-00",
       "death_date": "1993-00-00",
-      "profile_url": "/memorial/16539090/chester_gordon-morlock"
+      "profile_url": "/memorial/16539090/chester_gordon-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/310/16539090_116290997367.jpg?size=photos250",
+      "id": 728
     }
   ],
   "spouses": [
@@ -24,7 +26,8 @@
       "name": "Gladys Elaine  Becker Morlock",
       "birth_date": "1926-00-00",
       "death_date": "2018-00-00",
-      "profile_url": "/memorial/199415670/gladys_elaine-morlock"
+      "profile_url": "/memorial/199415670/gladys_elaine-morlock",
+      "image_url": "https://images.findagrave.com/photos/2022/84/199415670_c6e94021-3370-4bdf-9ec9-71c2d6906d59.jpeg?size=photos250"
     }
   ],
   "children": "[]",

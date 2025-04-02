@@ -17,7 +17,9 @@
       "name": "Eva  Fahner Wein",
       "birth_date": "1847-00-00",
       "death_date": "1921-00-00",
-      "profile_url": "/memorial/15662423/eva-wein"
+      "profile_url": "/memorial/15662423/eva-wein",
+      "image_url": "https://images.findagrave.com/photos/2006/250/15662423_115772131125.jpg?size=photos250",
+      "id": 1116
     }
   ],
   "children": "[{\"name\": \"Susie  Wein Pope\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1930-00-00\", \"profile_url\": \"/memorial/227904713/susie-pope\"}, {\"name\": \"John F.   Wein\", \"birth_date\": \"1879-00-00\", \"death_date\": \"1946-00-00\", \"profile_url\": \"/memorial/15662677/john_f-wein\"}, {\"name\": \"Henry   Wein\", \"birth_date\": \"1881-00-00\", \"death_date\": \"1908-00-00\", \"profile_url\": \"/memorial/15662484/henry-wein\"}]",

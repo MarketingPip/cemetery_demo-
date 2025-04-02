@@ -17,7 +17,9 @@
       "name": "Jacob   Schwartz",
       "birth_date": "1861-00-00",
       "death_date": "1931-00-00",
-      "profile_url": "/memorial/15728490/jacob-schwartz"
+      "profile_url": "/memorial/15728490/jacob-schwartz",
+      "image_url": "https://images.findagrave.com/photos/2006/256/15728490_115824559168.jpg?size=photos250",
+      "id": 960
     }
   ],
   "children": "[{\"name\": \"Joseph Jacob   Swartz Sr\", \"birth_date\": \"1899-00-00\", \"death_date\": \"1983-00-00\", \"profile_url\": \"/memorial/69117691/joseph_jacob-swartz\"}]",

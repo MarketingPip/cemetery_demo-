@@ -16,13 +16,17 @@
       "name": "Lloyd   England",
       "birth_date": "1895-00-00",
       "death_date": "1977-00-00",
-      "profile_url": "/memorial/188036799/lloyd-england"
+      "profile_url": "/memorial/188036799/lloyd-england",
+      "image_url": "https://images.findagrave.com/photos/2022/86/188036799_3168683b-b991-48d1-8265-4382c7ca00b4.jpeg?size=photos250",
+      "id": 200
     },
     {
       "name": "Beatrice Alice  Van Alstyne England",
       "birth_date": "1895-00-00",
       "death_date": "1982-00-00",
-      "profile_url": "/memorial/188036788/beatrice_alice-england"
+      "profile_url": "/memorial/188036788/beatrice_alice-england",
+      "image_url": "https://images.findagrave.com/photos/2022/86/188036788_cbb2ef8b-ed86-47c0-8940-ebbb456d6d3d.jpeg?size=photos250",
+      "id": 198
     }
   ],
   "spouses": [
@@ -30,7 +34,8 @@
       "name": "Pearl E.  Vannatter England",
       "birth_date": "1919-00-00",
       "death_date": "1998-00-00",
-      "profile_url": "/memorial/188036818/pearl_e-england"
+      "profile_url": "/memorial/188036818/pearl_e-england",
+      "image_url": "https://images.findagrave.com/photos/2022/86/188036818_b4f2ff21-ba61-493b-be5c-d31140aed7a5.jpeg?size=photos250"
     }
   ],
   "children": "[]",

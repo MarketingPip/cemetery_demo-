@@ -16,13 +16,17 @@
       "name": "Everett King   Fahrner",
       "birth_date": "1887-00-00",
       "death_date": "1970-00-00",
-      "profile_url": "/memorial/22898538/everett_king-fahrner"
+      "profile_url": "/memorial/22898538/everett_king-fahrner",
+      "image_url": "https://images.findagrave.com/photos/2022/111/22898538_93ec027a-02d8-4477-b432-10c78ce3e77f.jpeg?size=photos250",
+      "id": 246
     },
     {
       "name": "Ella Beatrice  Beaver Fahrner",
       "birth_date": "1886-00-00",
       "death_date": "1960-00-00",
-      "profile_url": "/memorial/22898523/ella_beatrice-fahrner"
+      "profile_url": "/memorial/22898523/ella_beatrice-fahrner",
+      "image_url": "https://images.findagrave.com/photos/2022/111/22898523_10ce41f9-151e-489a-b336-33d9ecc8b535.jpeg?size=photos250",
+      "id": 242
     }
   ],
   "spouses": [],

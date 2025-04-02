@@ -16,13 +16,17 @@
       "name": "John   Schroeder",
       "birth_date": "1818-00-00",
       "death_date": "1908-00-00",
-      "profile_url": "/memorial/123056607/john-schroeder"
+      "profile_url": "/memorial/123056607/john-schroeder",
+      "image_url": "https://images.findagrave.com/photos/2014/8/123056607_138930791074.jpg?size=photos250",
+      "id": 951
     },
     {
       "name": "Sophia Alice  Ehlers Schroeder",
       "birth_date": "1841-00-00",
       "death_date": "1929-00-00",
-      "profile_url": "/memorial/123056872/sophia_alice-schroeder"
+      "profile_url": "/memorial/123056872/sophia_alice-schroeder",
+      "image_url": "https://images.findagrave.com/photos/2014/8/123056872_138930824543.jpg?size=photos250",
+      "id": 956
     }
   ],
   "spouses": [],

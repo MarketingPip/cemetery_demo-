@@ -16,13 +16,17 @@
       "name": "William Henry   Ratz",
       "birth_date": "1880-00-00",
       "death_date": "1957-00-00",
-      "profile_url": "/memorial/176218955/william_henry-ratz"
+      "profile_url": "/memorial/176218955/william_henry-ratz",
+      "image_url": "https://images.findagrave.com/photos/2022/83/176218955_4b34a73c-113b-461f-9e9a-012cea5bc446.jpeg?size=photos250",
+      "id": 882
     },
     {
       "name": "Lavina  Fahner Ratz",
       "birth_date": "1884-00-00",
       "death_date": "1960-00-00",
-      "profile_url": "/memorial/176219048/lavina-ratz"
+      "profile_url": "/memorial/176219048/lavina-ratz",
+      "image_url": "https://images.findagrave.com/photos/2022/83/176219048_51cba7cb-49a4-4239-bb2c-d7d4b35f2931.jpeg?size=photos250",
+      "id": 873
     }
   ],
   "spouses": [
@@ -30,7 +34,8 @@
       "name": "Nola Eliza  Isaac Ratz",
       "birth_date": "1918-00-00",
       "death_date": "2006-00-00",
-      "profile_url": "/memorial/41015199/nola_eliza-ratz"
+      "profile_url": "/memorial/41015199/nola_eliza-ratz",
+      "image_url": "https://images.findagrave.com/photos/2015/272/41015199_1443621155.jpg?size=photos250"
     }
   ],
   "children": "[]",

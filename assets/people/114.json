@@ -17,7 +17,9 @@
       "name": "Adam   Brown",
       "birth_date": "1813-00-00",
       "death_date": "1869-00-00",
-      "profile_url": "/memorial/188035758/adam-brown"
+      "profile_url": "/memorial/188035758/adam-brown",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188035758_50305662-16e4-4471-8a06-c6df3cfe48f9.jpeg?size=photos250",
+      "id": 85
     }
   ],
   "children": "[{\"name\": \"Adolph   Brown\", \"birth_date\": \"1857-00-00\", \"death_date\": \"1866-00-00\", \"profile_url\": \"/memorial/188035776/adolph-brown\"}, {\"name\": \"William H.   Brown\", \"birth_date\": \"1860-00-00\", \"death_date\": \"1947-00-00\", \"profile_url\": \"/memorial/188036013/william_h-brown\"}, {\"name\": \"Charles   Brown\", \"birth_date\": \"1863-00-00\", \"death_date\": \"1893-00-00\", \"profile_url\": \"/memorial/188035798/charles-brown\"}]",

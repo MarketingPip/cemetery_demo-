@@ -17,7 +17,9 @@
       "name": "John   English",
       "birth_date": "1872-00-00",
       "death_date": "1952-00-00",
-      "profile_url": "/memorial/188036847/john-english"
+      "profile_url": "/memorial/188036847/john-english",
+      "image_url": "https://images.findagrave.com/photos/2022/114/188036847_c7919420-f5b9-4e2b-88f8-dfbdfeff7973.jpeg?size=photos250",
+      "id": 203
     }
   ],
   "children": "[{\"name\": \"Raymond Garfield   English\", \"birth_date\": \"1898-00-00\", \"death_date\": null, \"profile_url\": \"/memorial/253118573/raymond_garfield-english\"}]",

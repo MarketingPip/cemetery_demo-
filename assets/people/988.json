@@ -16,13 +16,15 @@
       "name": "William   Smith",
       "birth_date": "1850-00-00",
       "death_date": "1935-00-00",
-      "profile_url": "/memorial/188136962/william-smith"
+      "profile_url": "/memorial/188136962/william-smith",
+      "image_url": "https://images.findagrave.com/photos/2022/116/188136962_9738224a-3e37-4b2e-b841-77c4094bbc9e.jpeg?size=photos250"
     },
     {
       "name": "Nancy  Eggert Smith",
       "birth_date": "1862-00-00",
       "death_date": "1935-00-00",
-      "profile_url": "/memorial/188136961/nancy-smith"
+      "profile_url": "/memorial/188136961/nancy-smith",
+      "image_url": "https://images.findagrave.com/photos/2022/116/188136961_a603e3a6-06fd-4dc3-ba0a-1c1f221a5bc0.jpeg?size=photos250"
     }
   ],
   "spouses": [],

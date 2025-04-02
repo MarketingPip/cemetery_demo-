@@ -17,7 +17,9 @@
       "name": "Robert   Martin",
       "birth_date": "1896-00-00",
       "death_date": "1972-00-00",
-      "profile_url": "/memorial/188115149/robert-martin"
+      "profile_url": "/memorial/188115149/robert-martin",
+      "image_url": "https://images.findagrave.com/photos/2022/84/188115149_0254d4ec-6f79-4e8f-9907-7c84ea9d1baa.jpeg?size=photos250",
+      "id": 702
     }
   ],
   "children": "[]",

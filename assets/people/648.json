@@ -17,7 +17,9 @@
       "name": "Johanna   Kuhn",
       "birth_date": "1819-00-00",
       "death_date": "1885-00-00",
-      "profile_url": "/memorial/235789633/johanna-kuhn"
+      "profile_url": "/memorial/235789633/johanna-kuhn",
+      "image_url": "https://images.findagrave.com/photos/2022/110/235789633_2621fee0-c38c-4514-b4e6-ea589a7a5aba.jpeg?size=photos250",
+      "id": 647
     }
   ],
   "children": "[{\"name\": \"Adam   Kuhn\", \"birth_date\": \"1861-00-00\", \"death_date\": \"1883-00-00\", \"profile_url\": \"/memorial/188113453/adam-kuhn\"}]",

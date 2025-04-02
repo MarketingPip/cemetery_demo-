@@ -17,7 +17,9 @@
       "name": "Christianna   Staebler",
       "birth_date": "1829-00-00",
       "death_date": "1906-00-00",
-      "profile_url": "/memorial/188137840/christianna-staebler"
+      "profile_url": "/memorial/188137840/christianna-staebler",
+      "image_url": "https://images.findagrave.com/photos/2022/113/188137840_ff2b7a12-6b12-4d1e-9714-4c56fa07145c.jpeg?size=photos250",
+      "id": 1002
     }
   ],
   "children": "[{\"name\": \"Johann   Stabler\", \"birth_date\": \"1857-00-00\", \"death_date\": \"1864-00-00\", \"profile_url\": \"/memorial/102287992/johann-stabler\"}, {\"name\": \"Henry Thomas   Staebler\", \"birth_date\": \"1871-00-00\", \"death_date\": \"1871-00-00\", \"profile_url\": \"/memorial/272789932/henry_thomas-staebler\"}]",

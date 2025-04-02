@@ -16,13 +16,17 @@
       "name": "John B.   Treitz",
       "birth_date": "1815-00-00",
       "death_date": "1893-00-00",
-      "profile_url": "/memorial/98544054/john_b-treitz"
+      "profile_url": "/memorial/98544054/john_b-treitz",
+      "image_url": "https://images.findagrave.com/photos/2022/110/98544054_bcace45d-7a6a-41ce-aec2-b470505e7f31.jpeg?size=photos250",
+      "id": 1067
     },
     {
       "name": "Catherine  Finkbeiner Treitz",
       "birth_date": "1821-00-00",
       "death_date": "1907-00-00",
-      "profile_url": "/memorial/98544142/catherine-treitz"
+      "profile_url": "/memorial/98544142/catherine-treitz",
+      "image_url": "https://images.findagrave.com/photos/2022/110/98544142_f090952d-c789-4824-9a81-0fe8c83196f6.jpeg?size=photos250",
+      "id": 1063
     }
   ],
   "spouses": [
@@ -30,13 +34,15 @@
       "name": "Wilhelmina  Gaiser Treitz",
       "birth_date": "1861-00-00",
       "death_date": "1892-00-00",
-      "profile_url": "/memorial/98543806/wilhelmina-treitz"
+      "profile_url": "/memorial/98543806/wilhelmina-treitz",
+      "image_url": "https://images.findagrave.com/photos/2022/112/98543806_91980577-2f10-4c01-8641-1f28acf90d0b.jpeg?size=photos250"
     },
     {
       "name": "Mary Magdalena  Zinn Treitz",
       "birth_date": "1857-00-00",
       "death_date": "1928-00-00",
-      "profile_url": "/memorial/98543167/mary_magdalena-treitz"
+      "profile_url": "/memorial/98543167/mary_magdalena-treitz",
+      "image_url": "https://images.findagrave.com/photos/2022/112/98543167_2bd55f5f-b3db-4d83-abf5-323314939375.jpeg?size=photos250"
     }
   ],
   "children": "[]",

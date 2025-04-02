@@ -17,7 +17,9 @@
       "name": "Jacob   Sweitzer",
       "birth_date": "1848-00-00",
       "death_date": "1925-00-00",
-      "profile_url": "/memorial/15660752/jacob-sweitzer"
+      "profile_url": "/memorial/15660752/jacob-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/249/15660752_115769063103.jpg?size=photos250",
+      "id": 1031
     }
   ],
   "children": "[{\"name\": \"Edward William   Sweitzer\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1957-00-00\", \"profile_url\": \"/memorial/15660853/edward_william-sweitzer\"}, {\"name\": \"Joseph   Sweitzer\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1885-00-00\", \"profile_url\": \"/memorial/15660572/joseph-sweitzer\"}]",

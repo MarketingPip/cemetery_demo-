@@ -17,7 +17,9 @@
       "name": "Margaret  Klumpp Lamport",
       "birth_date": "1871-00-00",
       "death_date": "1970-00-00",
-      "profile_url": "/memorial/16539603/margaret-lamport"
+      "profile_url": "/memorial/16539603/margaret-lamport",
+      "image_url": "https://images.findagrave.com/photos/2006/310/16539603_116291327917.jpg?size=photos250",
+      "id": 662
     }
   ],
   "children": "[{\"name\": \"Edith Elvira   Lamport\", \"birth_date\": \"1901-00-00\", \"death_date\": \"1903-00-00\", \"profile_url\": \"/memorial/16539631/edith_elvira-lamport\"}, {\"name\": \"Lloyd Samuel   Lamport\", \"birth_date\": \"1915-00-00\", \"death_date\": \"2002-00-00\", \"profile_url\": \"/memorial/41012313/lloyd_samuel-lamport\"}]",

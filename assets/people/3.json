@@ -16,7 +16,9 @@
       "name": "Frederick   Haist",
       "birth_date": "1864-00-00",
       "death_date": "1936-00-00",
-      "profile_url": "/memorial/15563828/frederick-haist"
+      "profile_url": "/memorial/15563828/frederick-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563828_115703864065.jpg?size=photos250",
+      "id": 488
     }
   ],
   "spouses": [
@@ -24,7 +26,9 @@
       "name": "Arthur James   Amy",
       "birth_date": "1889-00-00",
       "death_date": "1978-00-00",
-      "profile_url": "/memorial/15561434/arthur_james-amy"
+      "profile_url": "/memorial/15561434/arthur_james-amy",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15561434_115699806925.jpg?size=photos250",
+      "id": 2
     }
   ],
   "children": "[]",

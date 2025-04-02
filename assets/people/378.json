@@ -16,13 +16,17 @@
       "name": "Herbert Krattiger   Eilber",
       "birth_date": "1881-00-00",
       "death_date": "1954-00-00",
-      "profile_url": "/memorial/188036635/herbert_krattiger-eilber"
+      "profile_url": "/memorial/188036635/herbert_krattiger-eilber",
+      "image_url": "https://images.findagrave.com/photos/2022/113/188036635_b41fe48e-2557-4629-a9c9-cc8f1b35b249.jpeg?size=photos250",
+      "id": 187
     },
     {
       "name": "Mary L.  Girvin Eilber",
       "birth_date": "1888-00-00",
       "death_date": "1948-00-00",
-      "profile_url": "/memorial/188036717/mary_l-eilber"
+      "profile_url": "/memorial/188036717/mary_l-eilber",
+      "image_url": "https://images.findagrave.com/photos/2022/113/188036717_f6c513f0-0122-4f44-9e00-bc37144fa505.jpeg?size=photos250",
+      "id": 194
     }
   ],
   "spouses": [
@@ -30,7 +34,8 @@
       "name": "Ward C.   Fritz",
       "birth_date": "1901-00-00",
       "death_date": "1986-00-00",
-      "profile_url": "/memorial/188037443/ward_c-fritz"
+      "profile_url": "/memorial/188037443/ward_c-fritz",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188037443_ca2d04f1-4772-4a8b-b68b-34d33e4e16d3.jpeg?size=photos250"
     }
   ],
   "children": "[]",

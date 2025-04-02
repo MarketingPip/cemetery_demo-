@@ -16,13 +16,17 @@
       "name": "Isaac Henry   Gower",
       "birth_date": "1883-00-00",
       "death_date": "1965-00-00",
-      "profile_url": "/memorial/15563690/isaac_henry-gower"
+      "profile_url": "/memorial/15563690/isaac_henry-gower",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563690_115703718263.jpg?size=photos250",
+      "id": 451
     },
     {
       "name": "Mary  Pfaff Gower",
       "birth_date": "1886-00-00",
       "death_date": "1988-00-00",
-      "profile_url": "/memorial/15563745/mary-gower"
+      "profile_url": "/memorial/15563745/mary-gower",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563745_115703768465.jpg?size=photos250",
+      "id": 453
     }
   ],
   "spouses": [
@@ -30,7 +34,8 @@
       "name": "Ross Denison   Taylor",
       "birth_date": "1906-00-00",
       "death_date": "1982-00-00",
-      "profile_url": "/memorial/188138140/ross_denison-taylor"
+      "profile_url": "/memorial/188138140/ross_denison-taylor",
+      "image_url": "https://images.findagrave.com/photos/2022/83/188138140_fa386dfa-05ed-43e3-894c-a8c0a61a6776.jpeg?size=photos250"
     }
   ],
   "children": "[]",

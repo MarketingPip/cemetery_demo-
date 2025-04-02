@@ -16,13 +16,17 @@
       "name": "John   Haist",
       "birth_date": "1865-00-00",
       "death_date": "1953-00-00",
-      "profile_url": "/memorial/16581414/john-haist"
+      "profile_url": "/memorial/16581414/john-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/312/16581414_116313637231.jpg?size=photos250",
+      "id": 496
     },
     {
       "name": "Catherine  Wuerth Haist",
       "birth_date": "1869-00-00",
       "death_date": "1947-00-00",
-      "profile_url": "/memorial/16581433/catherine-haist"
+      "profile_url": "/memorial/16581433/catherine-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/312/16581433_116313655251.jpg?size=photos250",
+      "id": 483
     }
   ],
   "spouses": [],

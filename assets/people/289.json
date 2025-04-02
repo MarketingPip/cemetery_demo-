@@ -16,13 +16,17 @@
       "name": "Michael   Finkbeiner",
       "birth_date": "1854-00-00",
       "death_date": "1929-00-00",
-      "profile_url": "/memorial/16581719/michael-finkbeiner"
+      "profile_url": "/memorial/16581719/michael-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/312/16581719_116313941901.jpg?size=photos250",
+      "id": 352
     },
     {
       "name": "Caroline  Sweitzer Finkbeiner",
       "birth_date": "1855-00-00",
       "death_date": "1908-00-00",
-      "profile_url": "/memorial/16581734/caroline-finkbeiner"
+      "profile_url": "/memorial/16581734/caroline-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/312/16581734_116313974467.jpg?size=photos250",
+      "id": 281
     }
   ],
   "spouses": [
@@ -30,7 +34,8 @@
       "name": "Estrella  Treitz Finkbeiner",
       "birth_date": "1896-00-00",
       "death_date": "1994-00-00",
-      "profile_url": "/memorial/16581712/estrella-finkbeiner"
+      "profile_url": "/memorial/16581712/estrella-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/312/16581712_116313915111.jpg?size=photos250"
     }
   ],
   "children": "[]",

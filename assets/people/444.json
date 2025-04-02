@@ -16,7 +16,9 @@
       "name": "Caroline  Wolf Finkbeiner",
       "birth_date": "1854-00-00",
       "death_date": "1937-00-00",
-      "profile_url": "/memorial/16656009/caroline-finkbeiner"
+      "profile_url": "/memorial/16656009/caroline-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/317/16656009_116356663384.jpg?size=photos250",
+      "id": 280
     }
   ],
   "spouses": [
@@ -24,7 +26,8 @@
       "name": "Reuben Albert Justus   Goetz",
       "birth_date": "1879-00-00",
       "death_date": "1987-00-00",
-      "profile_url": "/memorial/16627347/reuben_albert_justus-goetz"
+      "profile_url": "/memorial/16627347/reuben_albert_justus-goetz",
+      "image_url": "https://images.findagrave.com/photos/2006/315/16627347_116339810315.jpg?size=photos250"
     }
   ],
   "children": "[]",

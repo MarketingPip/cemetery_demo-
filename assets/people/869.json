@@ -16,13 +16,17 @@
       "name": "John   Ratz",
       "birth_date": "1853-00-00",
       "death_date": "1942-00-00",
-      "profile_url": "/memorial/16550765/john-ratz"
+      "profile_url": "/memorial/16550765/john-ratz",
+      "image_url": "https://images.findagrave.com/photos/2006/311/16550765_116299802309.jpg?size=photos250",
+      "id": 870
     },
     {
       "name": "Barbara  Finkbeiner Ratz",
       "birth_date": "1854-00-00",
       "death_date": "1924-00-00",
-      "profile_url": "/memorial/16550802/barbara-ratz"
+      "profile_url": "/memorial/16550802/barbara-ratz",
+      "image_url": "https://images.findagrave.com/photos/2006/311/16550802_116299825561.jpg?size=photos250",
+      "id": 858
     }
   ],
   "spouses": [
@@ -30,7 +34,8 @@
       "name": "Martha Mary  Gaiser Ratz",
       "birth_date": "1888-00-00",
       "death_date": "1971-00-00",
-      "profile_url": "/memorial/15639893/martha_mary-ratz"
+      "profile_url": "/memorial/15639893/martha_mary-ratz",
+      "image_url": "https://images.findagrave.com/photos/2006/248/15639893_115755686493.jpg?size=photos250"
     }
   ],
   "children": "[]",

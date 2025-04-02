@@ -16,13 +16,17 @@
       "name": "Adam   Gaiser",
       "birth_date": "1822-00-00",
       "death_date": "1894-00-00",
-      "profile_url": "/memorial/239154587/adam-gaiser"
+      "profile_url": "/memorial/239154587/adam-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2022/113/239154587_fb4a2870-c727-412c-b45a-3a891f04268a.jpeg?size=photos250",
+      "id": 387
     },
     {
       "name": "Magdalena  Braun Gaiser",
       "birth_date": "1828-00-00",
       "death_date": "1919-00-00",
-      "profile_url": "/memorial/239154582/magdalena-gaiser"
+      "profile_url": "/memorial/239154582/magdalena-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2022/113/239154582_e87cc32d-f66d-442a-bef6-c1ab4c5ec534.jpeg?size=photos250",
+      "id": 415
     }
   ],
   "spouses": [],

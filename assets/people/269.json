@@ -16,13 +16,17 @@
       "name": "Daniel C   Finkbeiner",
       "birth_date": "1887-00-00",
       "death_date": "1959-00-00",
-      "profile_url": "/memorial/16581705/daniel_c-finkbeiner"
+      "profile_url": "/memorial/16581705/daniel_c-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/312/16581705_116313894837.jpg?size=photos250",
+      "id": 289
     },
     {
       "name": "Estrella  Treitz Finkbeiner",
       "birth_date": "1896-00-00",
       "death_date": "1994-00-00",
-      "profile_url": "/memorial/16581712/estrella-finkbeiner"
+      "profile_url": "/memorial/16581712/estrella-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/312/16581712_116313915111.jpg?size=photos250",
+      "id": 298
     }
   ],
   "spouses": [
@@ -30,7 +34,8 @@
       "name": "Irene Mary  Gower Finkbeiner",
       "birth_date": "1918-00-00",
       "death_date": "2018-00-00",
-      "profile_url": "/memorial/231596440/irene_mary-finkbeiner"
+      "profile_url": "/memorial/231596440/irene_mary-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2022/86/231596440_2cbc0488-1232-43d4-8356-ff6f09ac6d1a.jpeg?size=photos250"
     }
   ],
   "children": "[]",

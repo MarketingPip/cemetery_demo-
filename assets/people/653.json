@@ -16,13 +16,17 @@
       "name": "Henry John   Kuhn",
       "birth_date": "1876-00-00",
       "death_date": "1943-00-00",
-      "profile_url": "/memorial/15563798/henry_john-kuhn"
+      "profile_url": "/memorial/15563798/henry_john-kuhn",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563798_115703823212.jpg?size=photos250",
+      "id": 646
     },
     {
       "name": "Ada  Kienzle Kuhn",
       "birth_date": "1882-00-00",
       "death_date": "1973-00-00",
-      "profile_url": "/memorial/15563805/ada-kuhn"
+      "profile_url": "/memorial/15563805/ada-kuhn",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563805_115703834007.jpg?size=photos250",
+      "id": 638
     }
   ],
   "spouses": [
@@ -30,7 +34,9 @@
       "name": "Grace May  Boettger Kuhn",
       "birth_date": "1905-00-00",
       "death_date": "2011-00-00",
-      "profile_url": "/memorial/64615878/grace_may-kuhn"
+      "profile_url": "/memorial/64615878/grace_may-kuhn",
+      "image_url": "https://images.findagrave.com/photos/2011/23/64615878_129589178516.jpg?size=photos250",
+      "id": 645
     }
   ],
   "children": "[]",

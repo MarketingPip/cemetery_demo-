@@ -16,13 +16,17 @@
       "name": "Michael   Finkbeiner",
       "birth_date": "1825-00-00",
       "death_date": "1892-00-00",
-      "profile_url": "/memorial/15961534/michael-finkbeiner"
+      "profile_url": "/memorial/15961534/michael-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/273/15961534_115975993895.jpg?size=photos250",
+      "id": 353
     },
     {
       "name": "Barbara  Haist Finkbeiner",
       "birth_date": "1828-00-00",
       "death_date": "1896-00-00",
-      "profile_url": "/memorial/15961580/barbara-finkbeiner"
+      "profile_url": "/memorial/15961580/barbara-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/273/15961580_115976010328.jpg?size=photos250",
+      "id": 276
     }
   ],
   "spouses": [
@@ -30,7 +34,9 @@
       "name": "Anna  Schwartz Finkbeiner",
       "birth_date": "1858-00-00",
       "death_date": "1925-00-00",
-      "profile_url": "/memorial/16668283/anna-finkbeiner"
+      "profile_url": "/memorial/16668283/anna-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/318/16668283_116365377843.jpg?size=photos250",
+      "id": 273
     }
   ],
   "children": "[]",

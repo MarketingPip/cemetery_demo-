@@ -16,13 +16,15 @@
       "name": "John   Brown",
       "birth_date": "1818-00-00",
       "death_date": "1888-00-00",
-      "profile_url": "/memorial/15965732/john-brown"
+      "profile_url": "/memorial/15965732/john-brown",
+      "image_url": "https://images.findagrave.com/photos/2006/274/15965732_115980022828.jpg?size=photos250"
     },
     {
       "name": "Mary Barbara  Fees Brown",
       "birth_date": "1832-00-00",
       "death_date": "1906-00-00",
-      "profile_url": "/memorial/15965666/mary_barbara-brown"
+      "profile_url": "/memorial/15965666/mary_barbara-brown",
+      "image_url": "https://images.findagrave.com/photos/2006/274/15965666_115979996321.jpg?size=photos250"
     }
   ],
   "spouses": [],

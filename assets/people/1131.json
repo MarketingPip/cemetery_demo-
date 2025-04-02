@@ -16,13 +16,17 @@
       "name": "Gottfried   Wein",
       "birth_date": "1861-00-00",
       "death_date": "1949-00-00",
-      "profile_url": "/memorial/36941679/gottfried-wein"
+      "profile_url": "/memorial/36941679/gottfried-wein",
+      "image_url": "https://images.findagrave.com/photos/2022/84/36941679_ae205c0d-720a-4b59-9831-f377865ce2a4.jpeg?size=photos250",
+      "id": 1121
     },
     {
       "name": "Veronica  Haist Wein",
       "birth_date": "1871-00-00",
       "death_date": "1954-00-00",
-      "profile_url": "/memorial/237943128/veronica-wein"
+      "profile_url": "/memorial/237943128/veronica-wein",
+      "image_url": "https://images.findagrave.com/photos/2022/84/237943128_d96bfbbf-5714-4765-867b-7811c870958b.jpeg?size=photos250",
+      "id": 1147
     }
   ],
   "spouses": [
@@ -30,7 +34,9 @@
       "name": "Gladys  Lewis Wein",
       "birth_date": "1910-00-00",
       "death_date": "1996-00-00",
-      "profile_url": "/memorial/188139049/gladys-wein"
+      "profile_url": "/memorial/188139049/gladys-wein",
+      "image_url": "https://images.findagrave.com/photos/2022/84/188139049_ba83b891-18b4-491b-b7a1-82d2ca5ff39f.jpeg?size=photos250",
+      "id": 1119
     }
   ],
   "children": "[]",

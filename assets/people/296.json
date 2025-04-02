@@ -16,13 +16,16 @@
       "name": "Jacob   Finkbeiner",
       "birth_date": "1852-00-00",
       "death_date": "1933-00-00",
-      "profile_url": "/memorial/16668101/jacob-finkbeiner"
+      "profile_url": "/memorial/16668101/jacob-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/318/16668101_116365245517.jpg?size=photos250"
     },
     {
       "name": "Anna  Schwartz Finkbeiner",
       "birth_date": "1858-00-00",
       "death_date": "1925-00-00",
-      "profile_url": "/memorial/16668283/anna-finkbeiner"
+      "profile_url": "/memorial/16668283/anna-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/318/16668283_116365377843.jpg?size=photos250",
+      "id": 273
     }
   ],
   "spouses": [],

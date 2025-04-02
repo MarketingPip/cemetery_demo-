@@ -17,7 +17,8 @@
       "name": "John   Klumpp",
       "birth_date": "1834-00-00",
       "death_date": "1923-00-00",
-      "profile_url": "/memorial/16539744/john-klumpp"
+      "profile_url": "/memorial/16539744/john-klumpp",
+      "image_url": "https://images.findagrave.com/photos/2006/310/16539744_116291442727.jpg?size=photos250"
     }
   ],
   "children": "[{\"name\": \"Margaret  Klumpp Lamport\", \"birth_date\": \"1871-00-00\", \"death_date\": \"1970-00-00\", \"profile_url\": \"/memorial/16539603/margaret-lamport\"}]",

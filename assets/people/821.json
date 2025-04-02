@@ -17,7 +17,9 @@
       "name": "John   Parsons",
       "birth_date": "1829-00-00",
       "death_date": "1906-00-00",
-      "profile_url": "/memorial/239188920/john-parsons"
+      "profile_url": "/memorial/239188920/john-parsons",
+      "image_url": "https://images.findagrave.com/photos/2022/114/239188920_ee4fb97b-38f1-4d1e-b411-ab53d9178661.jpeg?size=photos250",
+      "id": 819
     }
   ],
   "children": "[{\"name\": \"William John   Parsons\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1936-00-00\", \"profile_url\": \"/memorial/235476888/william_john-parsons\"}]",

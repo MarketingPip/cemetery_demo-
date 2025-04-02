@@ -16,13 +16,16 @@
       "name": "William Earnot   Gaiser",
       "birth_date": "1889-00-00",
       "death_date": "1948-00-00",
-      "profile_url": "/memorial/188113086/william_earnot-gaiser"
+      "profile_url": "/memorial/188113086/william_earnot-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2022/116/188113086_ce2006d1-667d-4030-9cc0-6367a233367d.jpeg?size=photos250"
     },
     {
       "name": "Laura May  Haist Gaiser",
       "birth_date": "1891-00-00",
       "death_date": "1980-00-00",
-      "profile_url": "/memorial/188113040/laura_may-gaiser"
+      "profile_url": "/memorial/188113040/laura_may-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2022/116/188113040_d2306a72-7257-4c46-aff9-216fbde335fe.jpeg?size=photos250",
+      "id": 409
     }
   ],
   "spouses": [],

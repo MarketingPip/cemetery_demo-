@@ -16,13 +16,17 @@
       "name": "Tobias   Fahner Sr",
       "birth_date": "1819-00-00",
       "death_date": "1903-00-00",
-      "profile_url": "/memorial/188037157/tobias-fahner"
+      "profile_url": "/memorial/188037157/tobias-fahner",
+      "image_url": "https://images.findagrave.com/photos/2025/69/188037157_21191506-68f9-4427-ab53-ec0f5f8196ef.jpeg?size=photos250",
+      "id": 233
     },
     {
       "name": "Margretha   Fahner",
       "birth_date": "1825-00-00",
       "death_date": "1862-00-00",
-      "profile_url": "/memorial/239124397/margretha-fahner"
+      "profile_url": "/memorial/239124397/margretha-fahner",
+      "image_url": "https://images.findagrave.com/photos/2025/69/239124397_7c6ced6a-3fae-4c1d-9adc-fa9bf6305500.jpeg?size=photos250",
+      "id": 226
     }
   ],
   "spouses": [
@@ -30,7 +34,8 @@
       "name": "Mathew   Wein",
       "birth_date": "1837-00-00",
       "death_date": "1912-00-00",
-      "profile_url": "/memorial/15662334/mathew-wein"
+      "profile_url": "/memorial/15662334/mathew-wein",
+      "image_url": "https://images.findagrave.com/photos/2006/250/15662334_115772009245.jpg?size=photos250"
     }
   ],
   "children": "[]",

@@ -16,13 +16,16 @@
       "name": "William Michael   Schwartz",
       "birth_date": "1897-00-00",
       "death_date": "1986-00-00",
-      "profile_url": "/memorial/15638477/william_michael-schwartz"
+      "profile_url": "/memorial/15638477/william_michael-schwartz",
+      "image_url": "https://images.findagrave.com/photos/2006/248/15638477_115754744060.jpg?size=photos250"
     },
     {
       "name": "Alma Louise  Finkbeiner Schwartz",
       "birth_date": "1900-00-00",
       "death_date": "1987-00-00",
-      "profile_url": "/memorial/15638449/alma_louise-schwartz"
+      "profile_url": "/memorial/15638449/alma_louise-schwartz",
+      "image_url": "https://images.findagrave.com/photos/2006/248/15638449_115754723512.jpg?size=photos250",
+      "id": 958
     }
   ],
   "spouses": [],

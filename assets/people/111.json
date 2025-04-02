@@ -16,13 +16,16 @@
       "name": "Charles   Brown",
       "birth_date": "1833-00-00",
       "death_date": "1905-00-00",
-      "profile_url": "/memorial/188035790/charles-brown"
+      "profile_url": "/memorial/188035790/charles-brown",
+      "image_url": "https://images.findagrave.com/photos/2022/110/188035790_acb6fe1e-f540-4fbf-a921-9edaf841fb62.jpeg?size=photos250",
+      "id": 90
     },
     {
       "name": "Justina   Brown",
       "birth_date": "1832-00-00",
       "death_date": "1900-00-00",
-      "profile_url": "/memorial/235702559/justina-brown"
+      "profile_url": "/memorial/235702559/justina-brown",
+      "image_url": "https://images.findagrave.com/photos/2022/110/235702559_c7b842e3-930b-4b92-9c19-391064990f7f.jpeg?size=photos250"
     }
   ],
   "spouses": [],

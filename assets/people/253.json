@@ -16,13 +16,17 @@
       "name": "William Henry   Wenzel",
       "birth_date": "1857-00-00",
       "death_date": "1924-00-00",
-      "profile_url": "/memorial/70676033/william_henry-wenzel"
+      "profile_url": "/memorial/70676033/william_henry-wenzel",
+      "image_url": "https://images.findagrave.com/photos/2013/267/70676033_138016423803.jpg?size=photos250",
+      "id": 1153
     },
     {
       "name": "Mary Ann  Eilber Wenzel",
       "birth_date": "1860-00-00",
       "death_date": "1945-00-00",
-      "profile_url": "/memorial/117647896/mary_ann-wenzel"
+      "profile_url": "/memorial/117647896/mary_ann-wenzel",
+      "image_url": "https://images.findagrave.com/photos/2013/267/117647896_138016880966.jpg?size=photos250",
+      "id": 1152
     }
   ],
   "spouses": [
@@ -30,13 +34,16 @@
       "name": "Herbert   Fahrner",
       "birth_date": "1892-00-00",
       "death_date": "1966-00-00",
-      "profile_url": "/memorial/15580249/herbert-fahrner"
+      "profile_url": "/memorial/15580249/herbert-fahrner",
+      "image_url": "https://images.findagrave.com/photos/2006/244/15580249_115720073938.jpg?size=photos250",
+      "id": 249
     },
     {
       "name": "Alvernia  Haist Hill",
       "birth_date": "1897-00-00",
       "death_date": "1984-00-00",
-      "profile_url": "/memorial/15580216/alvernia-hill"
+      "profile_url": "/memorial/15580216/alvernia-hill",
+      "image_url": "https://images.findagrave.com/photos/2006/244/15580216_115720034050.jpg?size=photos250"
     }
   ],
   "children": "[]",

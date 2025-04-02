@@ -17,7 +17,9 @@
       "name": "John Herbert   Jones",
       "birth_date": "1893-00-00",
       "death_date": "1982-00-00",
-      "profile_url": "/memorial/15563111/john_herbert-jones"
+      "profile_url": "/memorial/15563111/john_herbert-jones",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563111_115703148818.jpg?size=photos250",
+      "id": 606
     }
   ],
   "children": "[{\"name\": \"Harold William   Jones\", \"birth_date\": \"1919-00-00\", \"death_date\": \"2017-00-00\", \"profile_url\": \"/memorial/237947789/harold_william-jones\"}]",

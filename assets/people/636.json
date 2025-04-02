@@ -16,13 +16,17 @@
       "name": "Heinrich Edward   Fahner",
       "birth_date": "1878-00-00",
       "death_date": "1964-00-00",
-      "profile_url": "/memorial/37097302/heinrich_edward-fahner"
+      "profile_url": "/memorial/37097302/heinrich_edward-fahner",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188037043_71c4a67c-f419-4e65-9134-494fde87287d.jpeg?size=photos250",
+      "id": 221
     },
     {
       "name": "Lydia Ann  Wein Fahner",
       "birth_date": "1881-00-00",
       "death_date": "1944-00-00",
-      "profile_url": "/memorial/37097312/lydia_ann-fahner"
+      "profile_url": "/memorial/37097312/lydia_ann-fahner",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188037083_673deb26-9bef-4f37-a524-01b5d301bb7b.jpeg?size=photos250",
+      "id": 225
     }
   ],
   "spouses": [
@@ -30,7 +34,8 @@
       "name": "Ross   Krueger",
       "birth_date": "1912-00-00",
       "death_date": "1979-00-00",
-      "profile_url": "/memorial/188113438/ross-krueger"
+      "profile_url": "/memorial/188113438/ross-krueger",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188113438_9564f11f-ce94-4615-9d66-bda034ffde82.jpeg?size=photos250"
     }
   ],
   "children": "[]",

@@ -17,7 +17,9 @@
       "name": "Fred Clement   Gibson",
       "birth_date": "1931-00-00",
       "death_date": "2006-00-00",
-      "profile_url": "/memorial/41012246/fred_clement-gibson"
+      "profile_url": "/memorial/41012246/fred_clement-gibson",
+      "image_url": "https://images.findagrave.com/photos/2018/209/41012246_3fe681b4-3316-4e74-8981-4f917f4c195a.jpeg?size=photos250",
+      "id": 437
     }
   ],
   "children": "[{\"name\": \"Margaret   Gibson\", \"birth_date\": \"1962-00-00\", \"death_date\": \"1972-00-00\", \"profile_url\": \"/memorial/191738097/margaret-gibson\"}]",

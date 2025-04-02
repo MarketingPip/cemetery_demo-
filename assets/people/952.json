@@ -30,13 +30,16 @@
       "name": "Caroline  Wind Schroeder",
       "birth_date": "1866-00-00",
       "death_date": "1898-00-00",
-      "profile_url": "/memorial/236179654/caroline-schroeder"
+      "profile_url": "/memorial/236179654/caroline-schroeder",
+      "image_url": "https://images.findagrave.com/photos/2024/103/236179654_138c9b45-2b33-4e6e-a91d-1d9f22cfcf9e.jpeg?size=photos250",
+      "id": 945
     },
     {
       "name": "Louise  Wind Schroeder",
       "birth_date": "1870-00-00",
       "death_date": "1952-00-00",
-      "profile_url": "/memorial/188136815/louise-schroeder"
+      "profile_url": "/memorial/188136815/louise-schroeder",
+      "image_url": "https://images.findagrave.com/photos/2021/153/188136815_640c6573-919c-4c37-a9a9-ede4fb1226a2.jpeg?size=photos250"
     }
   ],
   "children": "[]",

@@ -16,13 +16,17 @@
       "name": "George   Holtzmann Sr",
       "birth_date": "1823-00-00",
       "death_date": "1908-00-00",
-      "profile_url": "/memorial/188113302/george-holtzmann"
+      "profile_url": "/memorial/188113302/george-holtzmann",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188113302_4791c1b6-03ef-4421-b669-f3e4c2790a5e.jpeg?size=photos250",
+      "id": 582
     },
     {
       "name": "Mary  Linhart Holtzmann",
       "birth_date": "1832-00-00",
       "death_date": "1901-00-00",
-      "profile_url": "/memorial/188113309/mary-holtzmann"
+      "profile_url": "/memorial/188113309/mary-holtzmann",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188113309_be2eb622-aea6-4ddb-85dd-c446eb6ae75b.jpeg?size=photos250",
+      "id": 586
     }
   ],
   "spouses": [
@@ -30,7 +34,8 @@
       "name": "Leah  Haist Holtzmann",
       "birth_date": "1861-00-00",
       "death_date": "1938-00-00",
-      "profile_url": "/memorial/188113304/leah-holtzmann"
+      "profile_url": "/memorial/188113304/leah-holtzmann",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188113304_094051c6-7c10-42ae-ab99-2980bd01979f.jpeg?size=photos250"
     }
   ],
   "children": "[]",

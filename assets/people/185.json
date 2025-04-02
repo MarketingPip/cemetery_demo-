@@ -16,7 +16,9 @@
       "name": "John Jacob   Eilber",
       "birth_date": "1830-00-00",
       "death_date": "1901-00-00",
-      "profile_url": "/memorial/15832587/john_jacob-eilber"
+      "profile_url": "/memorial/15832587/john_jacob-eilber",
+      "image_url": "https://images.findagrave.com/photos/2006/263/15832587_115884793236.jpg?size=photos250",
+      "id": 190
     }
   ],
   "spouses": [
@@ -24,7 +26,9 @@
       "name": "Elizabeth  Krattiger Eilber",
       "birth_date": "1858-00-00",
       "death_date": "1941-00-00",
-      "profile_url": "/memorial/188036540/elizabeth-eilber"
+      "profile_url": "/memorial/188036540/elizabeth-eilber",
+      "image_url": "https://images.findagrave.com/photos/2022/113/188036540_e3370ba7-88ea-4f67-8a07-5eb5258c34ae.jpeg?size=photos250",
+      "id": 176
     }
   ],
   "children": "[]",

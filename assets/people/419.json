@@ -16,13 +16,17 @@
       "name": "Lloyd R.   Gaiser",
       "birth_date": "1902-00-00",
       "death_date": "1978-00-00",
-      "profile_url": "/memorial/188113048/lloyd_r-gaiser"
+      "profile_url": "/memorial/188113048/lloyd_r-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2022/84/188113048_784a62ba-9553-4fec-bd2b-a8aba5ba51f1.jpeg?size=photos250",
+      "id": 411
     },
     {
       "name": "Gladys L.  Wolfe Gaiser",
       "birth_date": "1903-00-00",
       "death_date": "1972-00-00",
-      "profile_url": "/memorial/188113015/gladys_l-gaiser"
+      "profile_url": "/memorial/188113015/gladys_l-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2022/84/188113015_2fa97a9f-ecf5-4d24-bc41-b307c78b2f01.jpeg?size=photos250",
+      "id": 401
     }
   ],
   "spouses": [],

@@ -16,7 +16,9 @@
       "name": "Tobias   Fahner",
       "birth_date": "1839-00-00",
       "death_date": "1906-00-00",
-      "profile_url": "/memorial/188037143/tobias-fahner"
+      "profile_url": "/memorial/188037143/tobias-fahner",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188037143_fe1ba48d-f22a-4758-9916-4d342a9771ae.jpeg?size=photos250",
+      "id": 232
     }
   ],
   "spouses": [
@@ -24,7 +26,8 @@
       "name": "Minnie  Triebner Fahner",
       "birth_date": "1885-00-00",
       "death_date": "1965-00-00",
-      "profile_url": "/memorial/188037100/minnie-fahner"
+      "profile_url": "/memorial/188037100/minnie-fahner",
+      "image_url": "https://images.findagrave.com/photos/2022/110/188037100_7fbf2767-9760-40d4-9496-22defb653749.jpeg?size=photos250"
     }
   ],
   "children": "[]",

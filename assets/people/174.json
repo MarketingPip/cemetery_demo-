@@ -16,13 +16,17 @@
       "name": "Johann Frederich   Eilber",
       "birth_date": "1791-00-00",
       "death_date": "1875-00-00",
-      "profile_url": "/memorial/188036570/johann_frederich-eilber"
+      "profile_url": "/memorial/188036570/johann_frederich-eilber",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188036570_1e86420a-9b5a-44da-be09-797ff0ef4212.jpeg?size=photos250",
+      "id": 188
     },
     {
       "name": "Magdalena  Gaiser Eilber",
       "birth_date": "1807-00-00",
       "death_date": "1864-00-00",
-      "profile_url": "/memorial/236915839/magdalena-eilber"
+      "profile_url": "/memorial/236915839/magdalena-eilber",
+      "image_url": "https://images.findagrave.com/photos/2022/112/236915839_c8ed9038-5455-4510-b997-d6995c494a22.jpeg?size=photos250",
+      "id": 192
     }
   ],
   "spouses": [
@@ -30,7 +34,9 @@
       "name": "Catherine   Eilber",
       "birth_date": "1833-00-00",
       "death_date": "1919-00-00",
-      "profile_url": "/memorial/231229920/catherine-eilber"
+      "profile_url": "/memorial/231229920/catherine-eilber",
+      "image_url": "https://images.findagrave.com/photos/2022/51/231229920_95412efe-ad76-42a3-bab5-256e69219142.jpeg?size=photos250",
+      "id": 172
     }
   ],
   "children": "[]",

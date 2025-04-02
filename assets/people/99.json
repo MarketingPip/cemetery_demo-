@@ -16,13 +16,17 @@
       "name": "Bernard   Brown",
       "birth_date": "1850-00-00",
       "death_date": "1921-00-00",
-      "profile_url": "/memorial/16414218/bernard-brown"
+      "profile_url": "/memorial/16414218/bernard-brown",
+      "image_url": "https://images.findagrave.com/photos/2006/304/16414218_116240052823.jpg?size=photos250",
+      "id": 87
     },
     {
       "name": "Charlotte  Morlock Brown",
       "birth_date": "1857-00-00",
       "death_date": "1943-00-00",
-      "profile_url": "/memorial/16414306/charlotte-brown"
+      "profile_url": "/memorial/16414306/charlotte-brown",
+      "image_url": "https://images.findagrave.com/photos/2006/304/16414306_116240102074.jpg?size=photos250",
+      "id": 92
     }
   ],
   "spouses": [],

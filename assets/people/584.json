@@ -17,7 +17,9 @@
       "name": "Ellen  Morlock Holtzmann",
       "birth_date": "1862-00-00",
       "death_date": "1959-00-00",
-      "profile_url": "/memorial/15640007/ellen-holtzmann"
+      "profile_url": "/memorial/15640007/ellen-holtzmann",
+      "image_url": "https://images.findagrave.com/photos/2006/248/15640007_115755762438.jpg?size=photos250",
+      "id": 580
     }
   ],
   "children": "[{\"name\": \"Dewitt Harvey   Holtzmann\", \"birth_date\": \"1893-00-00\", \"death_date\": \"1893-00-00\", \"profile_url\": \"/memorial/239124117/dewitt_harvey-holtzmann\"}]",

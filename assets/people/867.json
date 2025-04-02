@@ -16,13 +16,17 @@
       "name": "Roy Ervin   Ratz",
       "birth_date": "1897-00-00",
       "death_date": "1971-00-00",
-      "profile_url": "/memorial/15561339/roy_ervin-ratz"
+      "profile_url": "/memorial/15561339/roy_ervin-ratz",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15561339_115699687647.jpg?size=photos250",
+      "id": 880
     },
     {
       "name": "Clara Anita  Haist Ratz",
       "birth_date": "1901-00-00",
       "death_date": "1997-00-00",
-      "profile_url": "/memorial/15561361/clara_anita-ratz"
+      "profile_url": "/memorial/15561361/clara_anita-ratz",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15561361_115699703832.jpg?size=photos250",
+      "id": 859
     }
   ],
   "spouses": [

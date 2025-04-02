@@ -16,13 +16,17 @@
       "name": "Carl   Braun",
       "birth_date": "1796-00-00",
       "death_date": "1882-00-00",
-      "profile_url": "/memorial/15790734/carl-braun"
+      "profile_url": "/memorial/15790734/carl-braun",
+      "image_url": "https://images.findagrave.com/photos/2006/260/15790734_115858452283.jpg?size=photos250",
+      "id": 75
     },
     {
       "name": "Anna Maria  Klumpp Braun",
       "birth_date": "1804-00-00",
       "death_date": "1884-00-00",
-      "profile_url": "/memorial/15790761/anna_maria-braun"
+      "profile_url": "/memorial/15790761/anna_maria-braun",
+      "image_url": "https://images.findagrave.com/photos/2006/260/15790761_115858477756.jpg?size=photos250",
+      "id": 74
     }
   ],
   "spouses": [
@@ -30,7 +34,8 @@
       "name": "Lydia  Stahl Braun",
       "birth_date": "1851-00-00",
       "death_date": "1931-00-00",
-      "profile_url": "/memorial/15790889/lydia-braun"
+      "profile_url": "/memorial/15790889/lydia-braun",
+      "image_url": "https://images.findagrave.com/photos/2006/260/15790889_115858613710.jpg?size=photos250"
     }
   ],
   "children": "[]",

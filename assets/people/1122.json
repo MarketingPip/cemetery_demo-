@@ -16,13 +16,16 @@
       "name": "Mathew   Wein",
       "birth_date": "1837-00-00",
       "death_date": "1912-00-00",
-      "profile_url": "/memorial/15662334/mathew-wein"
+      "profile_url": "/memorial/15662334/mathew-wein",
+      "image_url": "https://images.findagrave.com/photos/2006/250/15662334_115772009245.jpg?size=photos250"
     },
     {
       "name": "Eva  Fahner Wein",
       "birth_date": "1847-00-00",
       "death_date": "1921-00-00",
-      "profile_url": "/memorial/15662423/eva-wein"
+      "profile_url": "/memorial/15662423/eva-wein",
+      "image_url": "https://images.findagrave.com/photos/2006/250/15662423_115772131125.jpg?size=photos250",
+      "id": 1116
     }
   ],
   "spouses": [],

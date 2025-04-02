@@ -16,13 +16,17 @@
       "name": "Henry Christian   Pfaff",
       "birth_date": "1893-00-00",
       "death_date": "1974-00-00",
-      "profile_url": "/memorial/35821719/henry_christian-pfaff"
+      "profile_url": "/memorial/35821719/henry_christian-pfaff",
+      "image_url": "https://images.findagrave.com/photos/2022/83/35821719_b572ea3d-3ff4-4982-ad46-ee2a4c5fe48e.jpeg?size=photos250",
+      "id": 838
     },
     {
       "name": "Thalma Witzel   Pfaff",
       "birth_date": "1891-00-00",
       "death_date": "1962-00-00",
-      "profile_url": "/memorial/35821406/thalma_witzel-pfaff"
+      "profile_url": "/memorial/35821406/thalma_witzel-pfaff",
+      "image_url": "https://images.findagrave.com/photos/2022/83/35821406_bf37f687-e8bf-4d74-adfe-c8fc622c3014.jpeg?size=photos250",
+      "id": 845
     }
   ],
   "spouses": [],

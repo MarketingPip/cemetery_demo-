@@ -16,13 +16,16 @@
       "name": "Albert Wesley   Morlock",
       "birth_date": "1877-00-00",
       "death_date": "1965-00-00",
-      "profile_url": "/memorial/15849051/albert_wesley-morlock"
+      "profile_url": "/memorial/15849051/albert_wesley-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/264/15849051_115894140994.jpg?size=photos250",
+      "id": 721
     },
     {
       "name": "Mary Catherine  Martin Morlock",
       "birth_date": "1875-00-00",
       "death_date": "1949-00-00",
-      "profile_url": "/memorial/15848956/mary_catherine-morlock"
+      "profile_url": "/memorial/15848956/mary_catherine-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/264/15848956_115894101180.jpg?size=photos250"
     }
   ],
   "spouses": [],

@@ -17,7 +17,9 @@
       "name": "Eldon   Smith",
       "birth_date": "1912-00-00",
       "death_date": "1995-00-00",
-      "profile_url": "/memorial/15821497/eldon-smith"
+      "profile_url": "/memorial/15821497/eldon-smith",
+      "image_url": "https://images.findagrave.com/photos/2006/262/15821497_115876560704.jpg?size=photos250",
+      "id": 986
     }
   ],
   "children": "[{\"name\": \"Ronald   Green\", \"birth_date\": \"1950-00-00\", \"death_date\": \"2020-00-00\", \"profile_url\": \"/memorial/239060995/ronald-green\"}]",

@@ -17,7 +17,9 @@
       "name": "Lloyd   Bender",
       "birth_date": "1935-00-00",
       "death_date": "2014-00-00",
-      "profile_url": "/memorial/140379011/lloyd-bender"
+      "profile_url": "/memorial/140379011/lloyd-bender",
+      "image_url": "https://images.findagrave.com/photos/2022/84/140379011_65515587-0fd0-493b-81c8-05f0a355de50.jpeg?size=photos250",
+      "id": 44
     }
   ],
   "children": "[{\"name\": \"Ralph Lloyd   Bender\", \"birth_date\": \"1956-00-00\", \"death_date\": \"2017-00-00\", \"profile_url\": \"/memorial/186095508/ralph_lloyd-bender\"}]",

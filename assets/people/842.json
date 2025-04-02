@@ -16,13 +16,17 @@
       "name": "Heinrich C. \"Henry\"  Pfaff",
       "birth_date": "1859-00-00",
       "death_date": "1937-00-00",
-      "profile_url": "/memorial/188136423/heinrich_c-pfaff"
+      "profile_url": "/memorial/188136423/heinrich_c-pfaff",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188136423_91991804-c11c-455c-9fbe-1753341c1f3d.jpeg?size=photos250",
+      "id": 837
     },
     {
       "name": "Elizabeth  Schmidt Pfaff",
       "birth_date": "1859-00-00",
       "death_date": "1947-00-00",
-      "profile_url": "/memorial/188136414/elizabeth-pfaff"
+      "profile_url": "/memorial/188136414/elizabeth-pfaff",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188136414_21ab87b8-dfb6-4f59-9f69-41b06ad3bb8e.jpeg?size=photos250",
+      "id": 833
     }
   ],
   "spouses": [
@@ -30,7 +34,9 @@
       "name": "Hazel  Brethour Pfaff",
       "birth_date": "1907-00-00",
       "death_date": "1997-00-00",
-      "profile_url": "/memorial/188136419/hazel-pfaff"
+      "profile_url": "/memorial/188136419/hazel-pfaff",
+      "image_url": "https://images.findagrave.com/photos/2022/84/188136419_b9e2b38d-d1f6-43d1-ad5a-9d40dcdf3ad7.jpeg?size=photos250",
+      "id": 836
     }
   ],
   "children": "[]",

@@ -16,13 +16,17 @@
       "name": "Irvine Faist   Finkbeiner",
       "birth_date": "1904-00-00",
       "death_date": "1977-00-00",
-      "profile_url": "/memorial/15145573/irvine_faist-finkbeiner"
+      "profile_url": "/memorial/15145573/irvine_faist-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/215/15145573_115470138045.jpg?size=photos250",
+      "id": 315
     },
     {
       "name": "Lavina Viola  Smith Finkbeiner",
       "birth_date": "1898-00-00",
       "death_date": "1984-00-00",
-      "profile_url": "/memorial/15145833/lavina_viola-finkbeiner"
+      "profile_url": "/memorial/15145833/lavina_viola-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/215/15145833_115470313935.jpg?size=photos250",
+      "id": 331
     }
   ],
   "spouses": [
@@ -30,7 +34,8 @@
       "name": "Lorna Alma  Hayden Finkbeiner",
       "birth_date": "1941-00-00",
       "death_date": null,
-      "profile_url": "/memorial/274279668/lorna_alma-finkbeiner"
+      "profile_url": "/memorial/274279668/lorna_alma-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2025/46/274279668_c2c86e2a-4496-4f86-8593-781092eed84a.jpeg?size=photos250"
     }
   ],
   "children": "[]",

@@ -16,13 +16,17 @@
       "name": "John Herbert   Jones",
       "birth_date": "1893-00-00",
       "death_date": "1982-00-00",
-      "profile_url": "/memorial/15563111/john_herbert-jones"
+      "profile_url": "/memorial/15563111/john_herbert-jones",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563111_115703148818.jpg?size=photos250",
+      "id": 606
     },
     {
       "name": "Lillian Frieda  Finkbeiner Jones",
       "birth_date": "1895-00-00",
       "death_date": "1984-00-00",
-      "profile_url": "/memorial/15563121/lillian_frieda-jones"
+      "profile_url": "/memorial/15563121/lillian_frieda-jones",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563121_115703156335.jpg?size=photos250",
+      "id": 607
     }
   ],
   "spouses": [
@@ -30,7 +34,8 @@
       "name": "Margaret Anna  Love Jones",
       "birth_date": "1923-00-00",
       "death_date": "2003-00-00",
-      "profile_url": "/memorial/15563176/margaret_anna-jones"
+      "profile_url": "/memorial/15563176/margaret_anna-jones",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563176_115703201727.jpg?size=photos250"
     }
   ],
   "children": "[]",

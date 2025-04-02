@@ -16,13 +16,16 @@
       "name": "Adam   Brown",
       "birth_date": "1813-00-00",
       "death_date": "1869-00-00",
-      "profile_url": "/memorial/188035758/adam-brown"
+      "profile_url": "/memorial/188035758/adam-brown",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188035758_50305662-16e4-4471-8a06-c6df3cfe48f9.jpeg?size=photos250",
+      "id": 85
     },
     {
       "name": "Margaret   Brown",
       "birth_date": "1821-00-00",
       "death_date": "1906-00-00",
-      "profile_url": "/memorial/239125707/margaret-brown"
+      "profile_url": "/memorial/239125707/margaret-brown",
+      "image_url": "https://images.findagrave.com/photos/2022/112/239125707_19664399-86ea-41a3-8038-5c339c02619e.jpeg?size=photos250"
     }
   ],
   "spouses": [],

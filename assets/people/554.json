@@ -17,7 +17,9 @@
       "name": "George   Hirtzel",
       "birth_date": "1858-00-00",
       "death_date": "1936-00-00",
-      "profile_url": "/memorial/239243752/george-hirtzel"
+      "profile_url": "/memorial/239243752/george-hirtzel",
+      "image_url": "https://images.findagrave.com/photos/2022/116/239243752_47d0abf5-206e-4c3f-a568-de7ed25854df.jpeg?size=photos250",
+      "id": 548
     }
   ],
   "children": "[{\"name\": \"Ivan   Hirtzel\", \"birth_date\": \"1892-00-00\", \"death_date\": \"1972-00-00\", \"profile_url\": \"/memorial/188113229/ivan-hirtzel\"}]",

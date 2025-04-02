@@ -16,13 +16,17 @@
       "name": "Thomas B.   Lawson",
       "birth_date": "1871-00-00",
       "death_date": "1916-00-00",
-      "profile_url": "/memorial/188114940/thomas_b-lawson"
+      "profile_url": "/memorial/188114940/thomas_b-lawson",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188114940_8d48988a-5b48-4454-8c75-1d010431c4f3.jpeg?size=photos250",
+      "id": 668
     },
     {
       "name": "Sophia M.  Brown Lawson Bier",
       "birth_date": "1878-00-00",
       "death_date": "1934-00-00",
-      "profile_url": "/memorial/188114931/sophia_m-lawson_bier"
+      "profile_url": "/memorial/188114931/sophia_m-lawson_bier",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188114931_6af6546a-db86-446f-9fa5-01cdd97b29d1.jpeg?size=photos250",
+      "id": 669
     }
   ],
   "spouses": [],

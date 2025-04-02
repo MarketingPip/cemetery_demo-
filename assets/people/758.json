@@ -16,13 +16,17 @@
       "name": "Herbert Charles   Morlock",
       "birth_date": "1890-00-00",
       "death_date": "1948-00-00",
-      "profile_url": "/memorial/15396077/herbert_charles-morlock"
+      "profile_url": "/memorial/15396077/herbert_charles-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/228/15396077_115582534425.jpg?size=photos250",
+      "id": 742
     },
     {
       "name": "Mary Adeline  Finkbeiner Morlock",
       "birth_date": "1892-00-00",
       "death_date": "1958-00-00",
-      "profile_url": "/memorial/15396133/mary_adeline-morlock"
+      "profile_url": "/memorial/15396133/mary_adeline-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/228/15396133_115582560957.jpg?size=photos250",
+      "id": 754
     }
   ],
   "spouses": [
@@ -30,7 +34,9 @@
       "name": "Grace LaBelle  Hill Morlock",
       "birth_date": "1923-00-00",
       "death_date": "2016-00-00",
-      "profile_url": "/memorial/163227110/grace_labelle-morlock"
+      "profile_url": "/memorial/163227110/grace_labelle-morlock",
+      "image_url": "https://images.findagrave.com/photos/2016/144/163227110_1464135312.jpg?size=photos250",
+      "id": 741
     }
   ],
   "children": "[]",

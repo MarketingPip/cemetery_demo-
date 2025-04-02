@@ -17,7 +17,9 @@
       "name": "Albert Wesley   Morlock",
       "birth_date": "1877-00-00",
       "death_date": "1965-00-00",
-      "profile_url": "/memorial/15849051/albert_wesley-morlock"
+      "profile_url": "/memorial/15849051/albert_wesley-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/264/15849051_115894140994.jpg?size=photos250",
+      "id": 721
     }
   ],
   "children": "[{\"name\": \"Martin   Morlock\", \"birth_date\": \"1919-00-00\", \"death_date\": \"1976-00-00\", \"profile_url\": \"/memorial/15848830/martin-morlock\"}]",

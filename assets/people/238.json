@@ -16,13 +16,17 @@
       "name": "Tobias   Fahner Sr",
       "birth_date": "1819-00-00",
       "death_date": "1903-00-00",
-      "profile_url": "/memorial/188037157/tobias-fahner"
+      "profile_url": "/memorial/188037157/tobias-fahner",
+      "image_url": "https://images.findagrave.com/photos/2025/69/188037157_21191506-68f9-4427-ab53-ec0f5f8196ef.jpeg?size=photos250",
+      "id": 233
     },
     {
       "name": "Anna Maria \"Mary\"  Rothfuss Rau",
       "birth_date": "1822-00-00",
       "death_date": "1905-00-00",
-      "profile_url": "/memorial/239170007/anna_maria_%22mary%22-rau"
+      "profile_url": "/memorial/239170007/anna_maria_%22mary%22-rau",
+      "image_url": "https://images.findagrave.com/photos/2022/114/239170007_c5e9907a-28b8-42d0-9ecc-9562661a3180.jpeg?size=photos250",
+      "id": 884
     }
   ],
   "spouses": [
@@ -30,7 +34,8 @@
       "name": "Wilhelmina  Guenther Fahrner",
       "birth_date": "1861-00-00",
       "death_date": "1925-00-00",
-      "profile_url": "/memorial/236179135/wilhelmina-fahrner"
+      "profile_url": "/memorial/236179135/wilhelmina-fahrner",
+      "image_url": "https://images.findagrave.com/photos/2022/111/236179135_fe71d0c3-6ec6-49f5-99ff-bb61532c7093.jpeg?size=photos250"
     }
   ],
   "children": "[]",

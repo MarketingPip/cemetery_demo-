@@ -17,7 +17,9 @@
       "name": "Christian   Hoffmann",
       "birth_date": "1862-00-00",
       "death_date": "1926-00-00",
-      "profile_url": "/memorial/15977561/christian-hoffmann"
+      "profile_url": "/memorial/15977561/christian-hoffmann",
+      "image_url": "https://images.findagrave.com/photos/2006/275/15977561_115988080038.jpg?size=photos250",
+      "id": 563
     }
   ],
   "children": "[{\"name\": \"Charlie   Hoffmann\", \"birth_date\": \"1906-00-00\", \"death_date\": \"1981-00-00\", \"profile_url\": \"/memorial/15977736/charlie-hoffmann\"}]",

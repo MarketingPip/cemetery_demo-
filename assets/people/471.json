@@ -17,7 +17,9 @@
       "name": "Catherine  Wolf Guenther",
       "birth_date": "1842-00-00",
       "death_date": "1925-00-00",
-      "profile_url": "/memorial/188113149/catherine-guenther"
+      "profile_url": "/memorial/188113149/catherine-guenther",
+      "image_url": "https://images.findagrave.com/photos/2022/111/188113149_f393ddbc-9b88-4041-b3ba-295e367a6b52.jpeg?size=photos250",
+      "id": 462
     }
   ],
   "children": "[{\"name\": \"Wilhelmina  Guenther Fahrner\", \"birth_date\": \"1861-00-00\", \"death_date\": \"1925-00-00\", \"profile_url\": \"/memorial/236179135/wilhelmina-fahrner\"}, {\"name\": \"Henry   Guenther\", \"birth_date\": \"1862-00-00\", \"death_date\": \"1913-00-00\", \"profile_url\": \"/memorial/228555904/henry-guenther\"}]",

@@ -16,13 +16,17 @@
       "name": "John   Sweitzer",
       "birth_date": "1859-00-00",
       "death_date": "1919-00-00",
-      "profile_url": "/memorial/15650824/john-sweitzer"
+      "profile_url": "/memorial/15650824/john-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/249/15650824_115764528749.jpg?size=photos250",
+      "id": 1032
     },
     {
       "name": "Magdalena  Wein Sweitzer",
       "birth_date": "1869-00-00",
       "death_date": "1951-00-00",
-      "profile_url": "/memorial/15650838/magdalena-sweitzer"
+      "profile_url": "/memorial/15650838/magdalena-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/249/15650838_115764541827.jpg?size=photos250",
+      "id": 1040
     }
   ],
   "spouses": [
@@ -30,7 +34,8 @@
       "name": "Lillian  Gaiser Sweitzer",
       "birth_date": "1891-00-00",
       "death_date": "1960-00-00",
-      "profile_url": "/memorial/15650898/lillian-sweitzer"
+      "profile_url": "/memorial/15650898/lillian-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/249/15650898_115764577456.jpg?size=photos250"
     }
   ],
   "children": "[]",

@@ -16,13 +16,17 @@
       "name": "Frederick   Haist",
       "birth_date": "1864-00-00",
       "death_date": "1936-00-00",
-      "profile_url": "/memorial/15563828/frederick-haist"
+      "profile_url": "/memorial/15563828/frederick-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563828_115703864065.jpg?size=photos250",
+      "id": 488
     },
     {
       "name": "Magdalena  Brown Haist",
       "birth_date": "1863-00-00",
       "death_date": "1937-00-00",
-      "profile_url": "/memorial/15563840/magdalena-haist"
+      "profile_url": "/memorial/15563840/magdalena-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563840_115703879981.jpg?size=photos250",
+      "id": 502
     }
   ],
   "spouses": [
@@ -30,7 +34,9 @@
       "name": "Irene Louise  Willert Haist",
       "birth_date": "1898-00-00",
       "death_date": "1983-00-00",
-      "profile_url": "/memorial/15580408/irene_louise-haist"
+      "profile_url": "/memorial/15580408/irene_louise-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/244/15580408_115720194352.jpg?size=photos250",
+      "id": 493
     }
   ],
   "children": "[]",

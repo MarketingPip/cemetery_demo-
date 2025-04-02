@@ -16,13 +16,15 @@
       "name": "John   Kuhn",
       "birth_date": "1822-00-00",
       "death_date": "1900-00-00",
-      "profile_url": "/memorial/235789634/john-kuhn"
+      "profile_url": "/memorial/235789634/john-kuhn",
+      "image_url": "https://images.findagrave.com/photos/2022/110/235789634_387843cd-563d-44c3-9886-baba5086f394.jpeg?size=photos250"
     },
     {
       "name": "Johanna   Kuhn",
       "birth_date": "1819-00-00",
       "death_date": "1885-00-00",
-      "profile_url": "/memorial/235789633/johanna-kuhn"
+      "profile_url": "/memorial/235789633/johanna-kuhn",
+      "image_url": "https://images.findagrave.com/photos/2022/110/235789633_2621fee0-c38c-4514-b4e6-ea589a7a5aba.jpeg?size=photos250"
     }
   ],
   "spouses": [],

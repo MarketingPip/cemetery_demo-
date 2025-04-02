@@ -16,13 +16,17 @@
       "name": "George Michael   Finkbeiner",
       "birth_date": "1880-00-00",
       "death_date": "1938-00-00",
-      "profile_url": "/memorial/15571819/george_michael-finkbeiner"
+      "profile_url": "/memorial/15571819/george_michael-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/243/15571819_115711971049.jpg?size=photos250",
+      "id": 305
     },
     {
       "name": "Mary Isabella  Amy Finkbeiner",
       "birth_date": "1883-00-00",
       "death_date": "1962-00-00",
-      "profile_url": "/memorial/15571842/mary_isabella-finkbeiner"
+      "profile_url": "/memorial/15571842/mary_isabella-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2008/137/26884197_121103884346.jpg?size=photos250",
+      "id": 348
     }
   ],
   "spouses": [
@@ -30,7 +34,9 @@
       "name": "Dorothy  Ryckman Finkbeiner",
       "birth_date": "1913-00-00",
       "death_date": "1985-00-00",
-      "profile_url": "/memorial/15553671/dorothy-finkbeiner"
+      "profile_url": "/memorial/15553671/dorothy-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15553671_115694429765.jpg?size=photos250",
+      "id": 293
     }
   ],
   "children": "[]",

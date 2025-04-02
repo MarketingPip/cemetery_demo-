@@ -16,13 +16,17 @@
       "name": "Bernard   Brown",
       "birth_date": "1858-00-00",
       "death_date": "1942-00-00",
-      "profile_url": "/memorial/15965429/bernard-brown"
+      "profile_url": "/memorial/15965429/bernard-brown",
+      "image_url": "https://images.findagrave.com/photos/2006/274/15965429_115979875007.jpg?size=photos250",
+      "id": 88
     },
     {
       "name": "Sophia  Kleinfeldt Brown",
       "birth_date": "1860-00-00",
       "death_date": "1911-00-00",
-      "profile_url": "/memorial/15965519/sophia-brown"
+      "profile_url": "/memorial/15965519/sophia-brown",
+      "image_url": "https://images.findagrave.com/photos/2006/274/15965519_115979890314.jpg?size=photos250",
+      "id": 119
     }
   ],
   "spouses": [
@@ -30,7 +34,9 @@
       "name": "Edith Lovinia  Klemmer Brown",
       "birth_date": "1882-00-00",
       "death_date": "1931-00-00",
-      "profile_url": "/memorial/188035818/edith_lovinia-brown"
+      "profile_url": "/memorial/188035818/edith_lovinia-brown",
+      "image_url": "https://images.findagrave.com/photos/2022/98/188035818_05f988c8-44a1-487d-b833-885eb9fc2dfb.jpeg?size=photos250",
+      "id": 96
     }
   ],
   "children": "[]",

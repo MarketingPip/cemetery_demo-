@@ -17,13 +17,17 @@
       "name": "Alma Elizabeth  Haist Morlock",
       "birth_date": "1903-00-00",
       "death_date": "1943-00-00",
-      "profile_url": "/memorial/16539058/alma_elizabeth-morlock"
+      "profile_url": "/memorial/16539058/alma_elizabeth-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/310/16539058_116290971009.jpg?size=photos250",
+      "id": 722
     },
     {
       "name": "Alma Irene  Smith Morlock",
       "birth_date": "1903-00-00",
       "death_date": "2006-00-00",
-      "profile_url": "/memorial/14495743/alma_irene-morlock"
+      "profile_url": "/memorial/14495743/alma_irene-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/213/14495743_115452551202.jpg?size=photos250",
+      "id": 723
     }
   ],
   "children": "[{\"name\": \"Frederick John   Morlock\", \"birth_date\": \"1924-00-00\", \"death_date\": \"1993-00-00\", \"profile_url\": \"/memorial/15135166/frederick_john-morlock\"}]",

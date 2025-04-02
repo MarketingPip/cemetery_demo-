@@ -16,13 +16,16 @@
       "name": "Simon Sylvester   Wuerth",
       "birth_date": "1891-00-00",
       "death_date": "1983-00-00",
-      "profile_url": "/memorial/15848637/simon_sylvester-wuerth"
+      "profile_url": "/memorial/15848637/simon_sylvester-wuerth",
+      "image_url": "https://images.findagrave.com/photos/2006/264/15848637_115893922077.jpg?size=photos250"
     },
     {
       "name": "Alda May  Wein Wuerth",
       "birth_date": "1892-00-00",
       "death_date": "1976-00-00",
-      "profile_url": "/memorial/15848682/alda_may-wuerth"
+      "profile_url": "/memorial/15848682/alda_may-wuerth",
+      "image_url": "https://images.findagrave.com/photos/2006/264/15848682_115893943108.jpg?size=photos250",
+      "id": 1190
     }
   ],
   "spouses": [],

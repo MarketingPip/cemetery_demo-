@@ -16,13 +16,17 @@
       "name": "Samuel   Sweitzer",
       "birth_date": "1857-00-00",
       "death_date": "1911-00-00",
-      "profile_url": "/memorial/15684591/samuel-sweitzer"
+      "profile_url": "/memorial/15684591/samuel-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/252/15684591_115790778679.jpg?size=photos250",
+      "id": 1046
     },
     {
       "name": "Louisa or Lydia  Morlock Sweitzer",
       "birth_date": "1860-00-00",
       "death_date": "1952-00-00",
-      "profile_url": "/memorial/15697687/louisa_or_lydia-sweitzer"
+      "profile_url": "/memorial/15697687/louisa_or_lydia-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/253/15697687_115798737190.jpg?size=photos250",
+      "id": 1037
     }
   ],
   "spouses": [
@@ -30,13 +34,17 @@
       "name": "Ida  Ratz Sweitzer",
       "birth_date": "1889-00-00",
       "death_date": "1920-00-00",
-      "profile_url": "/memorial/16550965/ida-sweitzer"
+      "profile_url": "/memorial/16550965/ida-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/311/16550965_116299929479.jpg?size=photos250",
+      "id": 1029
     },
     {
       "name": "Edith Augusta  Mangnus Sweitzer",
       "birth_date": "1892-00-00",
       "death_date": "1958-00-00",
-      "profile_url": "/memorial/15187523/edith_augusta-sweitzer"
+      "profile_url": "/memorial/15187523/edith_augusta-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/219/15187523_115505307742.jpg?size=photos250",
+      "id": 1025
     }
   ],
   "children": "[]",

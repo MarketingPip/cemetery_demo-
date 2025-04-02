@@ -16,13 +16,17 @@
       "name": "Christopher Friederich   Eilber",
       "birth_date": "1830-00-00",
       "death_date": "1919-00-00",
-      "profile_url": "/memorial/188036509/christopher_friederich-eilber"
+      "profile_url": "/memorial/188036509/christopher_friederich-eilber",
+      "image_url": "https://images.findagrave.com/photos/2021/153/188036509_262efeac-17c1-4975-8efa-a2910f9e1839.jpeg?size=photos250",
+      "id": 174
     },
     {
       "name": "Catherine   Eilber",
       "birth_date": "1833-00-00",
       "death_date": "1919-00-00",
-      "profile_url": "/memorial/231229920/catherine-eilber"
+      "profile_url": "/memorial/231229920/catherine-eilber",
+      "image_url": "https://images.findagrave.com/photos/2022/51/231229920_95412efe-ad76-42a3-bab5-256e69219142.jpeg?size=photos250",
+      "id": 172
     }
   ],
   "spouses": [],

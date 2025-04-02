@@ -16,13 +16,17 @@
       "name": "George   Fahrner",
       "birth_date": "1842-00-00",
       "death_date": "1918-00-00",
-      "profile_url": "/memorial/188036992/george-fahrner"
+      "profile_url": "/memorial/188036992/george-fahrner",
+      "image_url": "https://images.findagrave.com/photos/2022/110/236145580_1389ca45-ee97-434e-9285-fae7e13bc09c.jpeg?size=photos250",
+      "id": 247
     },
     {
       "name": "Christina  Rau Fahrner",
       "birth_date": "1853-00-00",
       "death_date": "1927-00-00",
-      "profile_url": "/memorial/188036944/christina-fahrner"
+      "profile_url": "/memorial/188036944/christina-fahrner",
+      "image_url": "https://images.findagrave.com/photos/2022/110/236145574_05e2dd16-70e3-4def-bc8b-134eed4cc4fb.jpeg?size=photos250",
+      "id": 239
     }
   ],
   "spouses": [
@@ -30,7 +34,8 @@
       "name": "Samuel   Kuhn",
       "birth_date": "1881-00-00",
       "death_date": "1938-00-00",
-      "profile_url": "/memorial/15554412/samuel-kuhn"
+      "profile_url": "/memorial/15554412/samuel-kuhn",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15554412_115695053876.jpg?size=photos250"
     }
   ],
   "children": "[]",

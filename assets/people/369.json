@@ -16,13 +16,17 @@
       "name": "John   Finkbeiner",
       "birth_date": "1845-00-00",
       "death_date": "1922-00-00",
-      "profile_url": "/memorial/16581535/john-finkbeiner"
+      "profile_url": "/memorial/16581535/john-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/312/16581535_116313740074.jpg?size=photos250",
+      "id": 324
     },
     {
       "name": "Barbara  Mast Finkbeiner",
       "birth_date": "1851-00-00",
       "death_date": "1939-00-00",
-      "profile_url": "/memorial/16581553/barbara-finkbeiner"
+      "profile_url": "/memorial/16581553/barbara-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/312/16581553_116313749073.jpg?size=photos250",
+      "id": 275
     }
   ],
   "spouses": [],

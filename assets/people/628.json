@@ -16,13 +16,16 @@
       "name": "Michael   Klumpp",
       "birth_date": "1831-00-00",
       "death_date": "1926-00-00",
-      "profile_url": "/memorial/16681729/michael-klumpp"
+      "profile_url": "/memorial/16681729/michael-klumpp",
+      "image_url": "https://images.findagrave.com/photos/2006/320/16681729_116378053470.jpg?size=photos250"
     },
     {
       "name": "Elizabeth Barbara  Heyrock Klumpp",
       "birth_date": "1838-00-00",
       "death_date": "1916-00-00",
-      "profile_url": "/memorial/16681785/elizabeth_barbara-klumpp"
+      "profile_url": "/memorial/16681785/elizabeth_barbara-klumpp",
+      "image_url": "https://images.findagrave.com/photos/2006/320/16681785_116378081198.jpg?size=photos250",
+      "id": 623
     }
   ],
   "spouses": [],

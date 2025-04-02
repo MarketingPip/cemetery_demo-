@@ -17,7 +17,9 @@
       "name": "Paul   Schink",
       "birth_date": "1854-00-00",
       "death_date": "1939-00-00",
-      "profile_url": "/memorial/188136701/paul-schink"
+      "profile_url": "/memorial/188136701/paul-schink",
+      "image_url": "https://images.findagrave.com/photos/2022/113/239154232_6bdb8a5a-cd8f-4d88-97d3-f0066d921e5d.jpeg?size=photos250",
+      "id": 934
     }
   ],
   "children": "[{\"name\": \"Karl Nelson   Schink\", \"birth_date\": \"1885-00-00\", \"death_date\": \"1887-00-00\", \"profile_url\": \"/memorial/188136753/karl_nelson-schink\"}, {\"name\": \"Herbert   Schenk\", \"birth_date\": \"1896-00-00\", \"death_date\": \"1979-00-00\", \"profile_url\": \"/memorial/188136686/herbert-schenk\"}]",

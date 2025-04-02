@@ -16,13 +16,16 @@
       "name": "Frederick John   Wuerth",
       "birth_date": "1842-00-00",
       "death_date": "1927-00-00",
-      "profile_url": "/memorial/15848394/frederick_john-wuerth"
+      "profile_url": "/memorial/15848394/frederick_john-wuerth",
+      "image_url": "https://images.findagrave.com/photos/2006/264/15848394_115893799546.jpg?size=photos250",
+      "id": 1198
     },
     {
       "name": "Wilhelmina  Wolfe Wuerth",
       "birth_date": "1848-00-00",
       "death_date": "1930-00-00",
-      "profile_url": "/memorial/15848446/wilhelmina-wuerth"
+      "profile_url": "/memorial/15848446/wilhelmina-wuerth",
+      "image_url": "https://images.findagrave.com/photos/2006/264/15848446_115893837408.jpg?size=photos250"
     }
   ],
   "spouses": [],

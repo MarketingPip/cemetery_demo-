@@ -16,13 +16,17 @@
       "name": "August   Haist",
       "birth_date": "1839-00-00",
       "death_date": "1912-00-00",
-      "profile_url": "/memorial/15697730/august-haist"
+      "profile_url": "/memorial/15697730/august-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/253/15697730_115798729250.jpg?size=photos250",
+      "id": 480
     },
     {
       "name": "Barbara  Heist Haist",
       "birth_date": "1836-00-00",
       "death_date": "1918-00-00",
-      "profile_url": "/memorial/15697770/barbara-haist"
+      "profile_url": "/memorial/15697770/barbara-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/253/15697770_115798723165.jpg?size=photos250",
+      "id": 482
     }
   ],
   "spouses": [
@@ -30,7 +34,9 @@
       "name": "Catherine  Wuerth Haist",
       "birth_date": "1869-00-00",
       "death_date": "1947-00-00",
-      "profile_url": "/memorial/16581433/catherine-haist"
+      "profile_url": "/memorial/16581433/catherine-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/312/16581433_116313655251.jpg?size=photos250",
+      "id": 483
     }
   ],
   "children": "[]",

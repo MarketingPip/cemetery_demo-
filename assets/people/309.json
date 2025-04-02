@@ -16,13 +16,16 @@
       "name": "Matthew   Finkbeiner",
       "birth_date": "1846-00-00",
       "death_date": "1916-00-00",
-      "profile_url": "/memorial/15847967/matthew-finkbeiner"
+      "profile_url": "/memorial/15847967/matthew-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/264/15847967_115893418231.jpg?size=photos250"
     },
     {
       "name": "Catherine   Finkbeiner",
       "birth_date": "1851-00-00",
       "death_date": "1921-00-00",
-      "profile_url": "/memorial/238060911/catherine-finkbeiner"
+      "profile_url": "/memorial/238060911/catherine-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2022/86/238060911_cb7a6f36-8eb1-4fb2-bee1-d0d2134acc52.jpeg?size=photos250",
+      "id": 283
     }
   ],
   "spouses": [],

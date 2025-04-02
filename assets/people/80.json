@@ -16,13 +16,17 @@
       "name": "Gottlieb   Morlock",
       "birth_date": "1836-00-00",
       "death_date": "1910-00-00",
-      "profile_url": "/memorial/15978080/gottlieb-morlock"
+      "profile_url": "/memorial/15978080/gottlieb-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/275/15978080_115988462165.jpg?size=photos250",
+      "id": 740
     },
     {
       "name": "Charlotte  Beaver Morlock",
       "birth_date": "1840-00-00",
       "death_date": "1925-00-00",
-      "profile_url": "/memorial/15978143/charlotte-morlock"
+      "profile_url": "/memorial/15978143/charlotte-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/275/15978143_115988500547.jpg?size=photos250",
+      "id": 727
     }
   ],
   "spouses": [
@@ -30,7 +34,8 @@
       "name": "Otto Nelson   Braun",
       "birth_date": "1886-00-00",
       "death_date": "1943-00-00",
-      "profile_url": "/memorial/15426309/otto_nelson-braun"
+      "profile_url": "/memorial/15426309/otto_nelson-braun",
+      "image_url": "https://images.findagrave.com/photos/2006/231/15426309_115607806642.jpg?size=photos250"
     }
   ],
   "children": "[]",

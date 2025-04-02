@@ -16,13 +16,17 @@
       "name": "Charles Frederick   Fahrner",
       "birth_date": "1877-00-00",
       "death_date": "1948-00-00",
-      "profile_url": "/memorial/16681973/charles_frederick-fahrner"
+      "profile_url": "/memorial/16681973/charles_frederick-fahrner",
+      "image_url": "https://images.findagrave.com/photos/2006/320/16681973_116378253533.jpg?size=photos250",
+      "id": 237
     },
     {
       "name": "Emma Bertha  Treitz Fahrner",
       "birth_date": "1879-00-00",
       "death_date": "1956-00-00",
-      "profile_url": "/memorial/16681999/emma_bertha-fahrner"
+      "profile_url": "/memorial/16681999/emma_bertha-fahrner",
+      "image_url": "https://images.findagrave.com/photos/2006/320/16681999_116378266085.jpg?size=photos250",
+      "id": 243
     }
   ],
   "spouses": [
@@ -30,7 +34,8 @@
       "name": "Lorne Roy   Morlock",
       "birth_date": "1895-00-00",
       "death_date": "1964-00-00",
-      "profile_url": "/memorial/16682023/lorne_roy-morlock"
+      "profile_url": "/memorial/16682023/lorne_roy-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/320/16682023_116378282878.jpg?size=photos250"
     }
   ],
   "children": "[]",

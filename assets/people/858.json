@@ -17,7 +17,8 @@
       "name": "John   Ratz",
       "birth_date": "1853-00-00",
       "death_date": "1942-00-00",
-      "profile_url": "/memorial/16550765/john-ratz"
+      "profile_url": "/memorial/16550765/john-ratz",
+      "image_url": "https://images.findagrave.com/photos/2006/311/16550765_116299802309.jpg?size=photos250"
     }
   ],
   "children": "[{\"name\": \"Jacob Albert   Ratz\", \"birth_date\": \"1879-00-00\", \"death_date\": \"1951-00-00\", \"profile_url\": \"/memorial/15639873/jacob_albert-ratz\"}, {\"name\": \"William Henry   Ratz\", \"birth_date\": \"1880-00-00\", \"death_date\": \"1957-00-00\", \"profile_url\": \"/memorial/176218955/william_henry-ratz\"}, {\"name\": \"Simon V   Ratz\", \"birth_date\": \"1883-00-00\", \"death_date\": \"1947-00-00\", \"profile_url\": \"/memorial/16550848/simon_v-ratz\"}, {\"name\": \"Clara  Ratz McPherson\", \"birth_date\": \"1885-00-00\", \"death_date\": \"1971-00-00\", \"profile_url\": \"/memorial/178153905/clara-mcpherson\"}, {\"name\": \"Ida  Ratz Sweitzer\", \"birth_date\": \"1889-00-00\", \"death_date\": \"1920-00-00\", \"profile_url\": \"/memorial/16550965/ida-sweitzer\"}, {\"name\": \"Laura L  Ratz Sweitzer\", \"birth_date\": \"1891-00-00\", \"death_date\": \"1963-00-00\", \"profile_url\": \"/memorial/15187299/laura_l-sweitzer\"}, {\"name\": \"Milton Earl   Ratz\", \"birth_date\": \"1893-00-00\", \"death_date\": \"1954-00-00\", \"profile_url\": \"/memorial/15561385/milton_earl-ratz\"}, {\"name\": \"Roy Ervin   Ratz\", \"birth_date\": \"1897-00-00\", \"death_date\": \"1971-00-00\", \"profile_url\": \"/memorial/15561339/roy_ervin-ratz\"}, {\"name\": \"Gordon Marcius   Ratz\", \"birth_date\": \"1900-00-00\", \"death_date\": \"1908-00-00\", \"profile_url\": \"/memorial/16550888/gordon_marcius-ratz\"}]",

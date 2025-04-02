@@ -16,13 +16,17 @@
       "name": "John   Roeszler",
       "birth_date": "1856-00-00",
       "death_date": "1946-00-00",
-      "profile_url": "/memorial/188136596/john-roeszler"
+      "profile_url": "/memorial/188136596/john-roeszler",
+      "image_url": "https://images.findagrave.com/photos/2022/114/188136596_95ce9bae-8963-48fb-873c-eccbd890d0aa.jpeg?size=photos250",
+      "id": 903
     },
     {
       "name": "Elizabeth   Roeszler",
       "birth_date": "1857-00-00",
       "death_date": "1918-00-00",
-      "profile_url": "/memorial/239172656/elizabeth-roeszler"
+      "profile_url": "/memorial/239172656/elizabeth-roeszler",
+      "image_url": "https://images.findagrave.com/photos/2022/114/239172656_1ba3535d-e0ee-4b0e-b2f3-46946f58f3c3.jpeg?size=photos250",
+      "id": 898
     }
   ],
   "spouses": [
@@ -30,7 +34,9 @@
       "name": "Albert   Wolfe",
       "birth_date": "1884-00-00",
       "death_date": "1959-00-00",
-      "profile_url": "/memorial/188139324/albert-wolfe"
+      "profile_url": "/memorial/188139324/albert-wolfe",
+      "image_url": "https://images.findagrave.com/photos/2022/114/188139324_9da08760-d2ab-464a-bba6-e0fbb48b2ab4.jpeg?size=photos250",
+      "id": 1184
     }
   ],
   "children": "[]",

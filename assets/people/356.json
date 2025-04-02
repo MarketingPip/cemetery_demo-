@@ -16,13 +16,17 @@
       "name": "Karl U.   Finkbeiner",
       "birth_date": "1841-00-00",
       "death_date": "1913-00-00",
-      "profile_url": "/memorial/236169165/karl_u-finkbeiner"
+      "profile_url": "/memorial/236169165/karl_u-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2022/110/236169165_e9e95e24-34c1-4501-8cd8-08f4292fabb6.jpeg?size=photos250",
+      "id": 328
     },
     {
       "name": "Eva   Finkbeiner",
       "birth_date": "1848-00-00",
       "death_date": "1930-00-00",
-      "profile_url": "/memorial/236169172/eva-finkbeiner"
+      "profile_url": "/memorial/236169172/eva-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2022/110/236169172_7059b44e-d190-4e2e-ae6b-568e906f527f.jpeg?size=photos250",
+      "id": 299
     }
   ],
   "spouses": [],

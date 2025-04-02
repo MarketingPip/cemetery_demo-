@@ -16,13 +16,17 @@
       "name": "Michael   Finkbeiner",
       "birth_date": "1825-00-00",
       "death_date": "1892-00-00",
-      "profile_url": "/memorial/15961534/michael-finkbeiner"
+      "profile_url": "/memorial/15961534/michael-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/273/15961534_115975993895.jpg?size=photos250",
+      "id": 353
     },
     {
       "name": "Barbara  Haist Finkbeiner",
       "birth_date": "1828-00-00",
       "death_date": "1896-00-00",
-      "profile_url": "/memorial/15961580/barbara-finkbeiner"
+      "profile_url": "/memorial/15961580/barbara-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/273/15961580_115976010328.jpg?size=photos250",
+      "id": 276
     }
   ],
   "spouses": [
@@ -30,7 +34,9 @@
       "name": "Frederich Wilhelm \"Bill\"  Witzel",
       "birth_date": "1857-00-00",
       "death_date": "1935-00-00",
-      "profile_url": "/memorial/35456399/frederich_wilhelm-witzel"
+      "profile_url": "/memorial/35456399/frederich_wilhelm-witzel",
+      "image_url": "https://images.findagrave.com/photos/2020/227/35456399_5301cedc-9df3-40bc-8703-2df8c5ce020e.jpeg?size=photos250",
+      "id": 1179
     }
   ],
   "children": "[]",

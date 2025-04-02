@@ -16,13 +16,17 @@
       "name": "William H.   Sweitzer",
       "birth_date": "1887-00-00",
       "death_date": "1969-00-00",
-      "profile_url": "/memorial/15187530/william_h-sweitzer"
+      "profile_url": "/memorial/15187530/william_h-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/219/15187530_115505314250.jpg?size=photos250",
+      "id": 1051
     },
     {
       "name": "Ida  Ratz Sweitzer",
       "birth_date": "1889-00-00",
       "death_date": "1920-00-00",
-      "profile_url": "/memorial/16550965/ida-sweitzer"
+      "profile_url": "/memorial/16550965/ida-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/311/16550965_116299929479.jpg?size=photos250",
+      "id": 1029
     }
   ],
   "spouses": [
@@ -30,7 +34,9 @@
       "name": "Ida A  Riard Sweitzer",
       "birth_date": "1923-00-00",
       "death_date": "1989-00-00",
-      "profile_url": "/memorial/15134824/ida_a-sweitzer"
+      "profile_url": "/memorial/15134824/ida_a-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/214/15134824_115461705698.jpg?size=photos250",
+      "id": 1030
     }
   ],
   "children": "[]",

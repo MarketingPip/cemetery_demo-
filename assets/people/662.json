@@ -16,13 +16,17 @@
       "name": "John   Klumpp",
       "birth_date": "1834-00-00",
       "death_date": "1923-00-00",
-      "profile_url": "/memorial/16539744/john-klumpp"
+      "profile_url": "/memorial/16539744/john-klumpp",
+      "image_url": "https://images.findagrave.com/photos/2006/310/16539744_116291442727.jpg?size=photos250",
+      "id": 625
     },
     {
       "name": "Agnes Catherine  Zuefle Klumpp",
       "birth_date": "1835-00-00",
       "death_date": "1906-00-00",
-      "profile_url": "/memorial/16539780/agnes_catherine-klumpp"
+      "profile_url": "/memorial/16539780/agnes_catherine-klumpp",
+      "image_url": "https://images.findagrave.com/photos/2006/310/16539780_116291468571.jpg?size=photos250",
+      "id": 622
     }
   ],
   "spouses": [
@@ -30,7 +34,8 @@
       "name": "Samuel G   Lamport",
       "birth_date": "1869-00-00",
       "death_date": "1944-00-00",
-      "profile_url": "/memorial/16539538/samuel_g-lamport"
+      "profile_url": "/memorial/16539538/samuel_g-lamport",
+      "image_url": "https://images.findagrave.com/photos/2006/310/16539538_116291278448.jpg?size=photos250"
     }
   ],
   "children": "[]",

@@ -16,13 +16,17 @@
       "name": "John   Fahner",
       "birth_date": "1854-00-00",
       "death_date": "1942-00-00",
-      "profile_url": "/memorial/176230513/john-fahner"
+      "profile_url": "/memorial/176230513/john-fahner",
+      "image_url": "https://images.findagrave.com/photos/2022/117/176230513_a74eb40b-f91e-4100-9f76-fc1f6305bf9d.jpeg?size=photos250",
+      "id": 223
     },
     {
       "name": "Catherine  Gaiser Fahner",
       "birth_date": "1859-00-00",
       "death_date": "1936-00-00",
-      "profile_url": "/memorial/176230355/catherine-fahner"
+      "profile_url": "/memorial/176230355/catherine-fahner",
+      "image_url": "https://images.findagrave.com/photos/2022/112/176230355_dd34f996-872d-463e-904a-2da7586619a4.jpeg?size=photos250",
+      "id": 212
     }
   ],
   "spouses": [],

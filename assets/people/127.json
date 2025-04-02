@@ -16,13 +16,17 @@
       "name": "Isaac Henry   Gower",
       "birth_date": "1883-00-00",
       "death_date": "1965-00-00",
-      "profile_url": "/memorial/15563690/isaac_henry-gower"
+      "profile_url": "/memorial/15563690/isaac_henry-gower",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563690_115703718263.jpg?size=photos250",
+      "id": 451
     },
     {
       "name": "Mary  Pfaff Gower",
       "birth_date": "1886-00-00",
       "death_date": "1988-00-00",
-      "profile_url": "/memorial/15563745/mary-gower"
+      "profile_url": "/memorial/15563745/mary-gower",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563745_115703768465.jpg?size=photos250",
+      "id": 453
     }
   ],
   "spouses": [
@@ -30,7 +34,9 @@
       "name": "Joseph Henry   Bullock",
       "birth_date": "1902-00-00",
       "death_date": "1965-00-00",
-      "profile_url": "/memorial/188036045/joseph_henry-bullock"
+      "profile_url": "/memorial/188036045/joseph_henry-bullock",
+      "image_url": "https://images.findagrave.com/photos/2020/125/188036045_1017c45c-9dde-4ccf-9d48-41aaadb2c923.jpeg?size=photos250",
+      "id": 126
     }
   ],
   "children": "[]",

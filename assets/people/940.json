@@ -17,7 +17,9 @@
       "name": "John M.   Schmidt",
       "birth_date": "1831-00-00",
       "death_date": "1890-00-00",
-      "profile_url": "/memorial/188136762/john_m-schmidt"
+      "profile_url": "/memorial/188136762/john_m-schmidt",
+      "image_url": "https://images.findagrave.com/photos/2022/111/188136762_3fb5845e-90fe-4558-9def-efe2a6c059e3.jpeg?size=photos250",
+      "id": 938
     }
   ],
   "children": "[{\"name\": \"Salome   Schmidt\", \"birth_date\": \"1866-00-00\", \"death_date\": \"1866-00-00\", \"profile_url\": \"/memorial/236187655/salome-schmidt\"}, {\"name\": \"Charles W.   Schmidt\", \"birth_date\": \"1873-00-00\", \"death_date\": \"1874-00-00\", \"profile_url\": \"/memorial/188136758/charles_w-schmidt\"}, {\"name\": \"Clara L.   Schmidt\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236187806/clara_l-schmidt\"}]",

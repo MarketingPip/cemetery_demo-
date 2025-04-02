@@ -16,13 +16,17 @@
       "name": "Albert   Wolfe",
       "birth_date": "1884-00-00",
       "death_date": "1959-00-00",
-      "profile_url": "/memorial/188139324/albert-wolfe"
+      "profile_url": "/memorial/188139324/albert-wolfe",
+      "image_url": "https://images.findagrave.com/photos/2022/114/188139324_9da08760-d2ab-464a-bba6-e0fbb48b2ab4.jpeg?size=photos250",
+      "id": 1184
     },
     {
       "name": "Rosina  Roeszler Wolfe",
       "birth_date": "1883-00-00",
       "death_date": "1963-00-00",
-      "profile_url": "/memorial/188139369/rosina-wolfe"
+      "profile_url": "/memorial/188139369/rosina-wolfe",
+      "image_url": "https://images.findagrave.com/photos/2022/114/188139369_9ae760d0-3b54-45fc-8f4d-644bff6c1f85.jpeg?size=photos250",
+      "id": 1188
     }
   ],
   "spouses": [
@@ -30,7 +34,8 @@
       "name": "Nita Mae  Riley Wolfe",
       "birth_date": "1926-00-00",
       "death_date": "1992-00-00",
-      "profile_url": "/memorial/188139341/nita_mae-wolfe"
+      "profile_url": "/memorial/188139341/nita_mae-wolfe",
+      "image_url": "https://images.findagrave.com/photos/2022/114/188139341_81684cbf-666c-4577-962b-018dc88402bb.jpeg?size=photos250"
     }
   ],
   "children": "[]",

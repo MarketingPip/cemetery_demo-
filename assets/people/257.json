@@ -16,13 +16,17 @@
       "name": "Tobias   Guenther",
       "birth_date": "1835-00-00",
       "death_date": "1920-00-00",
-      "profile_url": "/memorial/188113156/tobias-guenther"
+      "profile_url": "/memorial/188113156/tobias-guenther",
+      "image_url": "https://images.findagrave.com/photos/2022/111/188113156_bd8bfc23-8f5b-45ff-9f15-703915a89f4e.jpeg?size=photos250",
+      "id": 471
     },
     {
       "name": "Catherine  Wolf Guenther",
       "birth_date": "1842-00-00",
       "death_date": "1925-00-00",
-      "profile_url": "/memorial/188113149/catherine-guenther"
+      "profile_url": "/memorial/188113149/catherine-guenther",
+      "image_url": "https://images.findagrave.com/photos/2022/111/188113149_f393ddbc-9b88-4041-b3ba-295e367a6b52.jpeg?size=photos250",
+      "id": 462
     }
   ],
   "spouses": [
@@ -30,7 +34,9 @@
       "name": "Christian   Fahrner",
       "birth_date": "1863-00-00",
       "death_date": "1952-00-00",
-      "profile_url": "/memorial/236179174/christian-fahrner"
+      "profile_url": "/memorial/236179174/christian-fahrner",
+      "image_url": "https://images.findagrave.com/photos/2022/111/236179174_8450503e-3fa6-46ba-8f42-7383b5c945b6.jpeg?size=photos250",
+      "id": 238
     }
   ],
   "children": "[]",

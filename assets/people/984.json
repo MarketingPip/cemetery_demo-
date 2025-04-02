@@ -16,13 +16,16 @@
       "name": "Alfred \"Alf\"  Smith",
       "birth_date": "1917-00-00",
       "death_date": "1997-00-00",
-      "profile_url": "/memorial/188136924/alfred-smith"
+      "profile_url": "/memorial/188136924/alfred-smith",
+      "image_url": "https://images.findagrave.com/photos/2022/86/188136924_9f5cfe2a-bc5d-4844-a4b6-0ebf214e2558.jpeg?size=photos250",
+      "id": 983
     },
     {
       "name": "Menota May  Lockhart Smith",
       "birth_date": "1916-00-00",
       "death_date": "1999-00-00",
-      "profile_url": "/memorial/188136956/menota_may-smith"
+      "profile_url": "/memorial/188136956/menota_may-smith",
+      "image_url": "https://images.findagrave.com/photos/2022/86/188136956_b1fb2794-ed74-4d26-8e83-0206769b22d3.jpeg?size=photos250"
     }
   ],
   "spouses": [],

@@ -16,13 +16,17 @@
       "name": "Clifford   Hill",
       "birth_date": "1894-00-00",
       "death_date": "1960-00-00",
-      "profile_url": "/memorial/15580207/clifford-hill"
+      "profile_url": "/memorial/15580207/clifford-hill",
+      "image_url": "https://images.findagrave.com/photos/2006/244/15580207_115720026695.jpg?size=photos250",
+      "id": 543
     },
     {
       "name": "Mabel  Wenzel Fahrner",
       "birth_date": "1895-00-00",
       "death_date": "1983-00-00",
-      "profile_url": "/memorial/15580255/mabel-fahrner"
+      "profile_url": "/memorial/15580255/mabel-fahrner",
+      "image_url": "https://images.findagrave.com/photos/2006/244/15580255_115720080729.jpg?size=photos250",
+      "id": 253
     }
   ],
   "spouses": [],

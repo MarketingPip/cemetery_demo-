@@ -17,7 +17,9 @@
       "name": "George   Holtzmann Sr",
       "birth_date": "1823-00-00",
       "death_date": "1908-00-00",
-      "profile_url": "/memorial/188113302/george-holtzmann"
+      "profile_url": "/memorial/188113302/george-holtzmann",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188113302_4791c1b6-03ef-4421-b669-f3e4c2790a5e.jpeg?size=photos250",
+      "id": 582
     }
   ],
   "children": "[{\"name\": \"George H.   Holtzmann Jr\", \"birth_date\": \"1857-00-00\", \"death_date\": \"1913-00-00\", \"profile_url\": \"/memorial/188113296/george_h-holtzmann\"}, {\"name\": \"Emanuel   Holtzmann\", \"birth_date\": \"1859-00-00\", \"death_date\": \"1885-00-00\", \"profile_url\": \"/memorial/239123368/emanuel-holtzmann\"}]",
