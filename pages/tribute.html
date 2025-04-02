@@ -570,11 +570,13 @@ function renderFamily(family) {
 
       // Resources
       const resourcesList = document.getElementById('resources-list');
+      tribute.resources = [{url:tribute.memorial_url, title:"Find A Grave Tribute"}]; 
+      
       resourcesList.innerHTML = '';
       if (tribute.resources && tribute.resources.length > 0) {
         tribute.resources.forEach(resource => {
           const li = document.createElement('li');
-          li.innerHTML = `<a href="${resource}" class="text-blue-500 hover:underline" target="_blank">${resource}</a>`;
+          li.innerHTML = `<a href="${resource.url}" class="text-blue-500 hover:underline" target="_blank">${resource.title}</a>`;
           resourcesList.appendChild(li);
         });
       } else {
