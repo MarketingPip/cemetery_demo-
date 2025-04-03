@@ -77,3 +77,4 @@ collections:
 plugins:
   - jekyll-sitemap
   - file_creation_date
+  - expire_posts
