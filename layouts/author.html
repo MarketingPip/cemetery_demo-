@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "{{ page.author | capitalize }} - Blog Author | Crediton Cemetery Heritage Portal"
+title: "{{ page.name }} - Blog Author | Crediton Cemetery Heritage Portal"
 permalink: "/blog/authors/{{ page.author }}/"
-author: "jane_doe" # Use the author's identifier from _data/authors.yml
+author: "jane_doe"  # This should match the author file name without the .md extension
 ---
 
 <!DOCTYPE html>
@@ -51,8 +51,8 @@ author: "jane_doe" # Use the author's identifier from _data/authors.yml
   <!-- Hero Section -->
   <section class="flex items-center justify-center hero-image text-center text-white" id="author-hero">
     <div class="px-4 container mx-auto">
-      <h1 class="font-bold text-4xl mb-4 md:text-6xl">{{ site.data.authors[page.author].name }}</h1>
-      <p class="mb-8 md:text-2xl text-xl">{{ site.data.authors[page.author].role }}</p>
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl">{{ site.authors[page.author].name }}</h1>
+      <p class="mb-8 md:text-2xl text-xl">{{ site.authors[page.author].role }}</p>
     </div>
   </section>
 
@@ -60,14 +60,14 @@ author: "jane_doe" # Use the author's identifier from _data/authors.yml
   <section class="bg-white py-12" id="author-profile">
     <div class="px-4 container mx-auto">
       <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8">
-        <img alt="{{ site.data.authors[page.author].name }}" class="w-48 h-48 rounded-full object-cover shadow-md" src="{{ site.data.authors[page.author].image }}">
+        <img alt="{{ site.authors[page.author].name }}" class="w-48 h-48 rounded-full object-cover shadow-md" src="{{ site.authors[page.author].image }}">
         <div class="text-center md:text-left">
-          <h2 class="font-bold text-3xl text-gray-800 mb-4">About {{ site.data.authors[page.author].name }}</h2>
-          <p class="text-gray-600 mb-6">{{ site.data.authors[page.author].bio }}</p>
+          <h2 class="font-bold text-3xl text-gray-800 mb-4">About {{ site.authors[page.author].name }}</h2>
+          <p class="text-gray-600 mb-6">{{ site.authors[page.author].bio }}</p>
           <div class="flex justify-center md:justify-start space-x-4">
-            <a href="{{ site.data.authors[page.author].social.facebook }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-facebook-f"></i></a>
-            <a href="{{ site.data.authors[page.author].social.twitter }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-twitter"></i></a>
-            <a href="{{ site.data.authors[page.author].social.linkedin }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-linkedin-in"></i></a>
+            <a href="{{ site.authors[page.author].social.facebook }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-facebook-f"></i></a>
+            <a href="{{ site.authors[page.author].social.twitter }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-twitter"></i></a>
+            <a href="{{ site.authors[page.author].social.linkedin }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-linkedin-in"></i></a>
           </div>
         </div>
       </div>
@@ -77,11 +77,11 @@ author: "jane_doe" # Use the author's identifier from _data/authors.yml
   <!-- Blog Posts Section -->
   <section class="bg-gray-100 py-12" id="author-posts">
     <div class="px-4 container mx-auto">
-      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Posts by {{ site.data.authors[page.author].name }}</h2>
-      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Explore {{ site.data.authors[page.author].name }}’s contributions to our blog.</p>
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Posts by {{ site.authors[page.author].name }}</h2>
+      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Explore {{ site.authors[page.author].name }}’s contributions to our blog.</p>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {% for post in site.data.authors[page.author].posts %}
+        {% for post in site.authors[page.author].posts %}
         <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden post-card">
           <img alt="{{ post.title }}" class="w-full h-48 object-cover" src="/api/placeholder/400/300">
           <div class="p-6">
