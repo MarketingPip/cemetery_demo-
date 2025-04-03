@@ -1,6 +1,7 @@
 name: Update Author Posts
 
 on:
+  workflow_dispatch:  # Allow manual trigger
   push:
     branches:
       - main
