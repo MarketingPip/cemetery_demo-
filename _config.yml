@@ -48,3 +48,8 @@ exclude:
   - vendor
 # Timezone for timestamp conversion
 timezone: UTC
+
+collections:
+  authors:
+    output: true
+    permalink: /blog/authors/:path/
