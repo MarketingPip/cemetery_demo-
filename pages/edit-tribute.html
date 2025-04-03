@@ -1,0 +1,1757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character Set -->
+    <meta charset="UTF-8">
+    <!-- Viewport Settings for Mobile Optimization -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title for SEO -->
+    <title>Edit Memorial | Crediton Cemetery Heritage Portal</title>
+    <!-- Meta Description for SEO -->
+    <meta name="description" content="Edit memorial information for the Crediton Cemetery Heritage Portal. Update or add details about individuals buried in Crediton Cemetery.">
+    <!-- Meta Keywords for SEO -->
+    <meta name="keywords" content="Edit Memorial, Crediton Cemetery, Heritage Portal, Memorial Information, Cemetery Records, Genealogy, Family History">
+    <!-- Open Graph Meta Tags for better social media sharing -->
+    <meta property="og:title" content="Edit Memorial | Crediton Cemetery Heritage Portal">
+    <meta property="og:description" content="Edit memorial information for the Crediton Cemetery Heritage Portal. Update or add details about individuals buried in Crediton Cemetery.">
+    <meta property="og:image" content="https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55">
+    <meta property="og:url" content="https://www.creditoncemeteryheritageportal.com/edit-memorial">
+    <!-- Twitter Meta Tags for better sharing -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Edit Memorial | Crediton Cemetery Heritage Portal">
+    <meta name="twitter:description" content="Edit memorial information for the Crediton Cemetery Heritage Portal. Update or add details about individuals buried in Crediton Cemetery.">
+    <meta name="twitter:image" content="https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55">
+    <!-- Canonical Link to prevent duplicate content -->
+    <link rel="canonical" href="https://www.creditoncemeteryheritageportal.com/edit-memorial">
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom Styles -->
+    <style>
+        .hero-image {
+            background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 40vh;
+        }
+
+        .error-message {
+            display: none;
+            color: #dc2626;
+            /* Tailwind's red-600 */
+            font-size: 0.875rem;
+            /* Tailwind's text-sm */
+            margin-top: 0.25rem;
+            /* Tailwind's mt-1 */
+        }
+
+        input:invalid:focus+.error-message,
+        select:invalid:focus+.error-message,
+        textarea:invalid:focus+.error-message {
+            display: block;
+        }
+
+        .form-message {
+            display: none;
+            padding: 1rem;
+            margin-top: 1rem;
+            border-radius: 0.5rem;
+            text-align: center;
+        }
+
+        .form-message.success {
+            background-color: #dcfce7;
+            /* Tailwind's green-100 */
+            color: #166534;
+            /* Tailwind's green-800 */
+        }
+
+        .form-message.error {
+            background-color: #fee2e2;
+            /* Tailwind's red-100 */
+            color: #991b1b;
+            /* Tailwind's red-800 */
+        }
+
+        .relationship-card {
+            transition: all 0.3s ease;
+        }
+
+        .relationship-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Loading spinner styles */
+        .spinner {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border-left-color: #09f;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Custom tab styles */
+        .tab-active {
+            border-bottom: 3px solid #16a34a;
+            color: #16a34a;
+        }
+
+        /* Search results dropdown */
+        .search-results {
+            max-height: 300px;
+            overflow-y: auto;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 font-sans">
+    <!-- Navigation -->
+    <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
+        <div class="px-4 py-3 container mx-auto">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <i class="fas fa-tree text-green-400"></i>
+                    <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a class="transition hover:text-green-400" href="#home">Home</a>
+                    <a class="transition hover:text-green-400" href="#map">Interactive Map</a>
+                    <a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a>
+                    <a class="transition hover:text-green-400" href="#search">Search Records</a>
+                    <a class="transition hover:text-green-400" href="#timeline">Historical Timeline</a>
+                    <a class="transition hover:text-green-400" href="#donate">Support Us</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="focus:outline-none" id="menu-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="hidden md:hidden" id="mobile-menu">
+            <div class="px-4 container mx-auto flex flex-col py-2 space-y-3">
+                <a class="transition hover:text-green-400 block" href="#home">Home</a>
+                <a class="transition hover:text-green-400 block" href="#map">Interactive Map</a>
+                <a class="transition hover:text-green-400 block" href="#exhibits">Virtual Exhibits</a>
+                <a class="transition hover:text-green-400 block" href="#search">Search Records</a>
+                <a class="transition hover:text-green-400 block" href="#timeline">Historical Timeline</a>
+                <a class="transition hover:text-green-400 block" href="#donate">Support Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="flex items-center justify-center hero-image text-center text-white" id="edit-memorial-hero">
+        <div class="px-4 container mx-auto">
+            <h1 class="font-bold text-4xl mb-4 md:text-6xl">Edit Memorial</h1>
+            <p class="mb-8 md:text-2xl text-xl">Update or add information to our cemetery records</p>
+        </div>
+    </section>
+
+    <!-- Memorial Form Section -->
+    <section class="bg-white py-12">
+        <div class="px-4 container mx-auto">
+            <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center" id="memorial-heading">Edit Memorial Information</h2>
+            <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Please provide accurate information to help preserve the history of Crediton Cemetery.</p>
+
+            <!-- Search Form -->
+            <div class="max-w-3xl mx-auto mb-12 p-6 bg-gray-50 rounded-lg shadow-md">
+                <h3 class="font-bold text-xl mb-4 text-gray-800">Search Existing Records</h3>
+                <div class="flex flex-col md:flex-row gap-4 mb-4">
+                    <div class="flex-grow">
+                        <label for="search-name" class="block text-gray-700 font-semibold mb-2">Name</label>
+                        <input type="text" id="search-name" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition" placeholder="Search by name...">
+                    </div>
+                    <div class="md:mt-8">
+                        <button id="search-btn" class="w-full md:w-auto bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition">
+                            <i class="fas fa-search mr-2"></i>Search
+                        </button>
+                    </div>
+                </div>
+                <div id="search-results-container" class="hidden mt-4">
+                    <h4 class="font-semibold text-gray-700 mb-2">Search Results:</h4>
+                    <div id="search-results" class="search-results border border-gray-200 rounded-lg bg-white"></div>
+                </div>
+                <div class="text-center mt-6">
+                    <span class="text-gray-600">or</span>
+                    <button id="add-new-btn" class="block mx-auto mt-2 text-green-700 hover:text-green-900 font-semibold">
+                        Add New Memorial Record
+                    </button>
+                </div>
+            </div>
+
+            <form id="memorial-form" class="max-w-3xl mx-auto space-y-6" novalidate aria-live="polite">
+                <input type="hidden" id="memorial-id">
+                
+                <!-- Tabs Navigation -->
+                <div class="flex border-b border-gray-200 mb-6">
+                    <button type="button" class="tab-button tab-active py-2 px-4 font-medium text-gray-700" data-tab="basic-info">
+                        Basic Information
+                    </button>
+                    <button type="button" class="tab-button py-2 px-4 font-medium text-gray-700" data-tab="bio-info">
+                        Biography
+                    </button>
+                    <button type="button" class="tab-button py-2 px-4 font-medium text-gray-700" data-tab="family-info">
+                        Family Relationships
+                    </button>
+                    <button type="button" class="tab-button py-2 px-4 font-medium text-gray-700" data-tab="resources-info">
+                        Resources
+                    </button>
+                </div>
+
+                <!-- Basic Information Tab -->
+                <div id="basic-info" class="tab-content">
+                    <!-- Name -->
+                    <div class="mb-6">
+                        <label for="name" class="block text-gray-700 font-semibold mb-2">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter full name" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition" required>
+                        <span class="error-message hidden text-red-500 text-sm mt-1">Please enter a name.</span>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+                        <!-- Title -->
+                        <div>
+                            <label for="title" class="block text-gray-700 font-semibold mb-2">Title</label>
+                            <input type="text" id="title" name="title" placeholder="Title (optional)" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition">
+                        </div>
+                        <!-- Prefix -->
+                        <div>
+                            <label for="prefix" class="block text-gray-700 font-semibold mb-2">Prefix</label>
+                            <input type="text" id="prefix" name="prefix" placeholder="Prefix (optional)" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition">
+                        </div>
+                        <!-- Maiden Name -->
+                        <div>
+                            <label for="maiden-name" class="block text-gray-700 font-semibold mb-2">Maiden Name</label>
+                            <input type="text" id="maiden-name" name="maiden_name" placeholder="Maiden name (if applicable)" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition">
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                        <!-- Birth Date -->
+                        <div>
+                            <label for="birth-date" class="block text-gray-700 font-semibold mb-2">Birth Date</label>
+                            <input type="date" id="birth-date" name="birth_date" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition">
+                            <span class="text-gray-500 text-sm">Format: YYYY-MM-DD</span>
+                        </div>
+                        <!-- Death Date -->
+                        <div>
+                            <label for="death-date" class="block text-gray-700 font-semibold mb-2">Death Date</label>
+                            <input type="date" id="death-date" name="death_date" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition">
+                            <span class="text-gray-500 text-sm">Format: YYYY-MM-DD</span>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                        <!-- Cemetery -->
+                        <div>
+                            <label for="cemetery" class="block text-gray-700 font-semibold mb-2">Cemetery</label>
+                            <input type="text" id="cemetery" name="cemetery" placeholder="Cemetery name" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition" value="Crediton Cemetery" required>
+                            <span class="error-message hidden text-red-500 text-sm mt-1">Please enter the cemetery name.</span>
+                        </div>
+                        <!-- Location -->
+                        <div>
+                            <label for="location" class="block text-gray-700 font-semibold mb-2">Location</label>
+                            <input type="text" id="location" name="location" placeholder="Cemetery location" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition" value="Crediton" required>
+                            <span class="error-message hidden text-red-500 text-sm mt-1">Please enter the location.</span>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                        <!-- Plot Value -->
+                        <div>
+                            <label for="plot-value" class="block text-gray-700 font-semibold mb-2">Plot Information</label>
+                            <input type="text" id="plot-value" name="plot_value" placeholder="Section, Row, Plot # (if known)" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition">
+                        </div>
+                        <!-- GPS Coordinates -->
+                        <div>
+                            <label for="gps" class="block text-gray-700 font-semibold mb-2">GPS Coordinates</label>
+                            <input type="text" id="gps" name="gps" placeholder="Latitude, Longitude (if known)" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition">
+                        </div>
+                    </div>
+
+                    <!-- Inscription -->
+                    <div class="mb-6">
+                        <label for="inscription" class="block text-gray-700 font-semibold mb-2">Headstone Inscription</label>
+                        <textarea id="inscription" name="inscription" rows="3" placeholder="Text from headstone (if any)" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition"></textarea>
+                    </div>
+
+                    <!-- Memorial URL -->
+                    <div class="mb-6">
+                        <label for="memorial-url" class="block text-gray-700 font-semibold mb-2">Find A Grave URL</label>
+                        <input type="url" id="memorial-url" name="memorial_url" placeholder="https://www.findagrave.com/memorial/..." class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition">
+                    </div>
+
+                    <!-- Image URL -->
+                    <div class="mb-6">
+                        <label for="image-url" class="block text-gray-700 font-semibold mb-2">Image URL</label>
+                        <input type="url" id="image-url" name="image_url" placeholder="URL to headstone or memorial image" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition">
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- Image Credits -->
+                        <div>
+                            <label for="image-credits" class="block text-gray-700 font-semibold mb-2">Image Credits</label>
+                            <input type="text" id="image-credits" name="image_credits" placeholder="Name of photographer/contributor" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition">
+                        </div>
+                        <!-- Image Credits URL -->
+                        <div>
+                            <label for="image-credits-url" class="block text-gray-700 font-semibold mb-2">Credits URL</label>
+                            <input type="url" id="image-credits-url" name="image_credits_url" placeholder="URL to credit source" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Biography Tab -->
+                <div id="bio-info" class="tab-content hidden">
+                    <!-- Biography -->
+                    <div class="mb-6">
+                        <label for="biography" class="block text-gray-700 font-semibold mb-2">Full Biography</label>
+                        <textarea id="biography" name="bio" rows="10" placeholder="Enter complete biographical information" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition"></textarea>
+                        <p class="text-gray-500 text-sm mt-2">HTML formatting is allowed. Use &lt;br&gt; for line breaks.</p>
+                    </div>
+
+                    <!-- Partial Bio -->
+                    <div class="mb-6">
+                        <label for="part-bio" class="block text-gray-700 font-semibold mb-2">Partial Biography (Summary)</label>
+                        <textarea id="part-bio" name="part_bio" rows="5" placeholder="Enter a shorter version of the biography for listings" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition"></textarea>
+                        <p class="text-gray-500 text-sm mt-2">This will be displayed in search results and listings.</p>
+                    </div>
+                </div>
+
+                <!-- Family Relationships Tab -->
+                <div id="family-info" class="tab-content hidden">
+                    <!-- Parents Section -->
+                    <div class="mb-8">
+                        <h3 class="font-bold text-xl mb-4 text-gray-800">Parents</h3>
+                        <div id="parents-container">
+                            <!-- Parents will be added here -->
+                        </div>
+                        <button type="button" id="add-parent-btn" class="mt-4 bg-green-700 hover:bg-green-800 text-white font-semibold py-2 px-4 rounded transition flex items-center">
+                            <i class="fas fa-plus mr-2"></i> Add Parent
+                        </button>
+                    </div>
+
+                    <!-- Spouses Section -->
+                    <div class="mb-8">
+                        <h3 class="font-bold text-xl mb-4 text-gray-800">Spouses</h3>
+                        <div id="spouses-container">
+                            <!-- Spouses will be added here -->
+                        </div>
+                        <button type="button" id="add-spouse-btn" class="mt-4 bg-green-700 hover:bg-green-800 text-white font-semibold py-2 px-4 rounded transition flex items-center">
+                            <i class="fas fa-plus mr-2"></i> Add Spouse
+                        </button>
+                    </div>
+
+                    <!-- Children Section -->
+                    <div class="mb-8">
+                        <h3 class="font-bold text-xl mb-4 text-gray-800">Children</h3>
+                        <div id="children-container">
+                            <!-- Children will be added here -->
+                        </div>
+                        <button type="button" id="add-child-btn" class="mt-4 bg-green-700 hover:bg-green-800 text-white font-semibold py-2 px-4 rounded transition flex items-center">
+                            <i class="fas fa-plus mr-2"></i> Add Child
+                        </button>
+                    </div>
+
+                    <!-- Siblings Section -->
+                    <div class="mb-8">
+                        <h3 class="font-bold text-xl mb-4 text-gray-800">Siblings</h3>
+                        <div id="siblings-container">
+                            <!-- Siblings will be added here -->
+                        </div>
+                        <button type="button" id="add-sibling-btn" class="mt-4 bg-green-700 hover:bg-green-800 text-white font-semibold py-2 px-4 rounded transition flex items-center">
+                            <i class="fas fa-plus mr-2"></i> Add Sibling
+                        </button>
+                    </div>
+
+                    <!-- Half-Siblings Section -->
+                    <div class="mb-8">
+                        <h3 class="font-bold text-xl mb-4 text-gray-800">Half-Siblings</h3>
+                        <div id="half-siblings-container">
+                            <!-- Half-Siblings will be added here -->
+                        </div>
+                        <button type="button" id="add-half-sibling-btn" class="mt-4 bg-green-700 hover:bg-green-800 text-white font-semibold py-2 px-4 rounded transition flex items-center">
+                            <i class="fas fa-plus mr-2"></i> Add Half-Sibling
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Resources Tab -->
+                <div id="resources-info" class="tab-content hidden">
+                    <div class="mb-8">
+                        <h3 class="font-bold text-xl mb-4 text-gray-800">Additional Resources</h3>
+                        <div id="resources-container">
+                            <!-- Resources will be added here -->
+                        </div>
+                        <button type="button" id="add-resource-btn" class="mt-4 bg-green-700 hover:bg-green-800 text-white font-semibold py-2 px-4 rounded transition flex items-center">
+                            <i class="fas fa-plus mr-2"></i> Add Resource
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Form Feedback -->
+                <div id="form-feedback" class="hidden p-4 rounded-lg text-white text-center"></div>
+
+                <!-- Submit Button -->
+                <div class="text-center mt-10">
+                    <button type="submit" class="font-bold text-white transition bg-green-700 hover:bg-green-900 px-8 py-3 rounded-lg shadow-md">
+                        <span id="submit-text">Save Memorial</span>
+                        <svg id="loading-spinner" class="hidden ml-2 w-5 h-5 animate-spin" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Person Search Modal for Relationships -->
+    <div id="person-search-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden z-50">
+        <div class="bg-white rounded-lg p-6 w-full max-w-md">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="font-bold text-xl text-gray-800" id="modal-title">Search for Person</h3>
+                <button id="close-modal-btn" class="text-gray-500 hover:text-gray-700">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="mb-4">
+                <label for="modal-search" class="block text-gray-700 font-semibold mb-2">Search by Name</label>
+                <input type="text" id="modal-search" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition" placeholder="Type to search...">
+            </div>
+            <div id="modal-search-results" class="max-h-60 overflow-y-auto mb-4 border border-gray-200 rounded-lg bg-white"></div>
+            <div class="flex justify-between mt-6">
+                <button id="create-new-person-btn" class="text-blue-600 hover:text-blue-800">
+                    <i class="fas fa-plus mr-1"></i> Create New
+                </button>
+                <button id="modal-cancel-btn" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded transition">
+                    Cancel
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- New Person Form Modal -->
+    <div id="new-person-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden z-50">
+        <div class="bg-white rounded-lg p-6 w-full max-w-md max-h-screen overflow-y-auto">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="font-bold text-xl text-gray-800">Add New Person</h3>
+                <button id="close-new-person-modal-btn" class="text-gray-500 hover:text-gray-700">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <form id="new-person-form" class="space-y-4">
+                <!-- Name -->
+                <div>
+                    <label for="new-person-name" class="block text-gray-700 font-semibold mb-2">Full Name</label>
+                    <input type="text" id="new-person-name" name="name" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition" required>
+                </div>
+                <!-- Birth Date -->
+                <div>
+                    <label for="new-person-birth" class="block text-gray-700 font-semibold mb-2">Birth Date</label>
+                    <input type="date" id="new-person-birth" name="birth_date" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition">
+                </div>
+<!-- Death Date -->
+<div>
+    <label for="new-person-death" class="block text-gray-700 font-semibold mb-2">Death Date</label>
+    <input type="date" id="new-person-death" name="death_date" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition">
+</div>
+
+<!-- Cemetery -->
+<div>
+    <label for="new-person-cemetery" class="block text-gray-700 font-semibold mb-2">Cemetery</label>
+    <input type="text" id="new-person-cemetery" name="cemetery" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition" value="Crediton Cemetery">
+</div>
+
+<!-- Relationship Type (Hidden) -->
+<input type="hidden" id="new-person-relationship-type" name="relationship_type">
+
+<!-- Form Buttons -->
+<div class="flex justify-end space-x-3 mt-6">
+    <button type="button" id="new-person-cancel-btn" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded transition">
+        Cancel
+    </button>
+    <button type="submit" class="bg-green-700 hover:bg-green-800 text-white font-semibold py-2 px-4 rounded transition">
+        Add Person
+    </button>
+</div>
+</form>
+</div>
+</div>
+
+<!-- Confirmation Modal -->
+<div id="confirm-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden z-50">
+    <div class="bg-white rounded-lg p-6 w-full max-w-md">
+        <div class="mb-4">
+            <h3 class="font-bold text-xl text-gray-800 mb-2">Confirm Action</h3>
+            <p id="confirm-message" class="text-gray-600">Are you sure you want to perform this action?</p>
+        </div>
+        <div class="flex justify-end space-x-3 mt-6">
+            <button id="confirm-cancel-btn" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded transition">
+                Cancel
+            </button>
+            <button id="confirm-proceed-btn" class="bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded transition">
+                Proceed
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Person Relationship Template (Hidden) -->
+<template id="relationship-template">
+    <div class="relationship-item bg-gray-50 p-4 rounded-lg mb-4 shadow-sm" data-id="{id}">
+        <div class="flex justify-between items-start">
+            <div>
+                <h4 class="font-semibold text-gray-800">{name}</h4>
+                <p class="text-gray-600 text-sm">{dates}</p>
+                <p class="text-gray-500 text-sm mt-1">{details}</p>
+            </div>
+            <div class="flex space-x-2">
+                <button type="button" class="edit-relationship-btn text-blue-600 hover:text-blue-800">
+                    <i class="fas fa-edit"></i>
+                </button>
+                <button type="button" class="remove-relationship-btn text-red-600 hover:text-red-800">
+                    <i class="fas fa-trash-alt"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</template>
+
+<!-- Resource Item Template (Hidden) -->
+<template id="resource-template">
+    <div class="resource-item bg-gray-50 p-4 rounded-lg mb-4 shadow-sm" data-id="{id}">
+        <div class="flex justify-between items-start">
+            <div>
+                <h4 class="font-semibold text-gray-800">{title}</h4>
+                <p class="text-gray-600 text-sm">{type}</p>
+                <a href="{url}" target="_blank" class="text-blue-600 hover:text-blue-800 text-sm mt-1 block">{url}</a>
+                <p class="text-gray-500 text-sm mt-1">{description}</p>
+            </div>
+            <div class="flex space-x-2">
+                <button type="button" class="edit-resource-btn text-blue-600 hover:text-blue-800">
+                    <i class="fas fa-edit"></i>
+                </button>
+                <button type="button" class="remove-resource-btn text-red-600 hover:text-red-800">
+                    <i class="fas fa-trash-alt"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</template>
+
+<!-- Resource Form Modal -->
+<div id="resource-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden z-50">
+    <div class="bg-white rounded-lg p-6 w-full max-w-md">
+        <div class="flex justify-between items-center mb-4">
+            <h3 class="font-bold text-xl text-gray-800" id="resource-modal-title">Add Resource</h3>
+            <button id="close-resource-modal-btn" class="text-gray-500 hover:text-gray-700">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <form id="resource-form" class="space-y-4">
+            <input type="hidden" id="resource-id">
+            <!-- Title -->
+            <div>
+                <label for="resource-title" class="block text-gray-700 font-semibold mb-2">Title</label>
+                <input type="text" id="resource-title" name="title" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition" required>
+            </div>
+            <!-- Resource Type -->
+            <div>
+                <label for="resource-type" class="block text-gray-700 font-semibold mb-2">Resource Type</label>
+                <select id="resource-type" name="type" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition" required>
+                    <option value="">Select resource type</option>
+                    <option value="Document">Document</option>
+                    <option value="Newspaper">Newspaper</option>
+                    <option value="Census">Census Record</option>
+                    <option value="Birth Certificate">Birth Certificate</option>
+                    <option value="Death Certificate">Death Certificate</option>
+                    <option value="Marriage Certificate">Marriage Certificate</option>
+                    <option value="Military Record">Military Record</option>
+                    <option value="Obituary">Obituary</option>
+                    <option value="Photograph">Photograph</option>
+                    <option value="Website">Website</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <!-- URL -->
+            <div>
+                <label for="resource-url" class="block text-gray-700 font-semibold mb-2">URL</label>
+                <input type="url" id="resource-url" name="url" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition">
+            </div>
+            <!-- Description -->
+            <div>
+                <label for="resource-description" class="block text-gray-700 font-semibold mb-2">Description</label>
+                <textarea id="resource-description" name="description" rows="3" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition"></textarea>
+            </div>
+            <!-- Form Buttons -->
+            <div class="flex justify-end space-x-3 mt-6">
+                <button type="button" id="resource-cancel-btn" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded transition">
+                    Cancel
+                </button>
+                <button type="submit" class="bg-green-700 hover:bg-green-800 text-white font-semibold py-2 px-4 rounded transition">
+                    Save Resource
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Relationship Form Modal -->
+<div id="relationship-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden z-50">
+    <div class="bg-white rounded-lg p-6 w-full max-w-md">
+        <div class="flex justify-between items-center mb-4">
+            <h3 class="font-bold text-xl text-gray-800" id="relationship-modal-title">Edit Relationship</h3>
+            <button id="close-relationship-modal-btn" class="text-gray-500 hover:text-gray-700">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <form id="relationship-form" class="space-y-4">
+            <input type="hidden" id="relationship-id">
+            <input type="hidden" id="relationship-type">
+            <input type="hidden" id="related-person-id">
+            
+            <!-- Name (Read-only) -->
+            <div>
+                <label for="relationship-name" class="block text-gray-700 font-semibold mb-2">Name</label>
+                <input type="text" id="relationship-name" class="w-full p-3 border border-gray-300 rounded-lg bg-gray-100" readonly>
+            </div>
+            
+            <!-- Additional Details -->
+            <div>
+                <label for="relationship-details" class="block text-gray-700 font-semibold mb-2">Additional Details</label>
+                <textarea id="relationship-details" name="details" rows="3" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 transition" 
+                    placeholder="Additional information about this relationship"></textarea>
+            </div>
+            
+            <!-- Form Buttons -->
+            <div class="flex justify-end space-x-3 mt-6">
+                <button type="button" id="relationship-cancel-btn" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded transition">
+                    Cancel
+                </button>
+                <button type="submit" class="bg-green-700 hover:bg-green-800 text-white font-semibold py-2 px-4 rounded transition">
+                    Save Changes
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Search Results Card Template (Hidden) -->
+<template id="search-result-template">
+    <div class="search-result-card cursor-pointer hover:bg-gray-100 p-3 border-b border-gray-200" data-id="{id}">
+        <h4 class="font-semibold text-gray-800">{name}</h4>
+        <p class="text-gray-600 text-sm">{dates}</p>
+        <p class="text-gray-500 text-sm truncate">{cemetery}</p>
+    </div>
+</template>
+
+<!-- Footer -->
+<footer class="bg-gray-800 text-gray-300 py-8">
+    <div class="px-4 container mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="font-bold text-xl mb-4 text-white">Crediton Cemetery</h3>
+                <p class="mb-4">Preserving the history and heritage of our community through our cemetery records.</p>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-300 hover:text-white transition">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="text-gray-300 hover:text-white transition">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-gray-300 hover:text-white transition">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <h3 class="font-bold text-lg mb-4 text-white">Quick Links</h3>
+                <ul class="space-y-2">
+                    <li><a href="#home" class="hover:text-white transition">Home</a></li>
+                    <li><a href="#map" class="hover:text-white transition">Interactive Map</a></li>
+                    <li><a href="#exhibits" class="hover:text-white transition">Virtual Exhibits</a></li>
+                    <li><a href="#search" class="hover:text-white transition">Search Records</a></li>
+                    <li><a href="#timeline" class="hover:text-white transition">Historical Timeline</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-bold text-lg mb-4 text-white">Contact Us</h3>
+                <address class="not-italic mb-4">
+                    <p>Crediton Cemetery Historical Society</p>
+                    <p>123 Main Street</p>
+                    <p>Crediton, ON N0M 1M0</p>
+                </address>
+                <p><i class="fas fa-phone mr-2"></i> (519) 555-1234</p>
+                <p><i class="fas fa-envelope mr-2"></i> info@creditoncemetery.org</p>
+            </div>
+        </div>
+        <div class="border-t border-gray-700 mt-8 pt-6 text-center">
+            <p>&copy; 2025 Crediton Cemetery Heritage Portal. All rights reserved.</p>
+            <p class="text-sm mt-2">Developed by the Crediton Historical Society</p>
+        </div>
+    </div>
+</footer>
+
+<!-- JavaScript -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Toggle Mobile Menu
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    
+    if (menuToggle && mobileMenu) {
+        menuToggle.addEventListener('click', function() {
+            mobileMenu.classList.toggle('hidden');
+        });
+    }
+    
+    // Tab Navigation
+    const tabButtons = document.querySelectorAll('.tab-button');
+    const tabContents = document.querySelectorAll('.tab-content');
+    
+    tabButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            // Remove active class from all tabs
+            tabButtons.forEach(btn => btn.classList.remove('tab-active'));
+            tabContents.forEach(content => content.classList.add('hidden'));
+            
+            // Add active class to current tab
+            button.classList.add('tab-active');
+            const tabId = button.getAttribute('data-tab');
+            const currentTab = document.getElementById(tabId);
+            if (currentTab) {
+                currentTab.classList.remove('hidden');
+            }
+        });
+    });
+    
+    // Form validation
+    const memorialForm = document.getElementById('memorial-form');
+    if (memorialForm) {
+        memorialForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Basic validation
+            const name = document.getElementById('name');
+            const cemetery = document.getElementById('cemetery');
+            const location = document.getElementById('location');
+            
+            let isValid = true;
+            
+            // Validate required fields
+            if (!name.value.trim()) {
+                showError(name, 'Please enter a name.');
+                isValid = false;
+            } else {
+                hideError(name);
+            }
+            
+            if (!cemetery.value.trim()) {
+                showError(cemetery, 'Please enter the cemetery name.');
+                isValid = false;
+            } else {
+                hideError(cemetery);
+            }
+            
+            if (!location.value.trim()) {
+                showError(location, 'Please enter the location.');
+                isValid = false;
+            } else {
+                hideError(location);
+            }
+            
+            if (isValid) {
+                saveMemorial();
+            }
+        });
+    }
+    
+    // Error handling functions
+    function showError(input, message) {
+        const errorElement = input.nextElementSibling;
+        if (errorElement && errorElement.classList.contains('error-message')) {
+            errorElement.textContent = message;
+            errorElement.classList.remove('hidden');
+            input.classList.add('border-red-500');
+        }
+    }
+    
+    function hideError(input) {
+        const errorElement = input.nextElementSibling;
+        if (errorElement && errorElement.classList.contains('error-message')) {
+            errorElement.classList.add('hidden');
+            input.classList.remove('border-red-500');
+        }
+    }
+    
+    // Save memorial data
+    function saveMemorial() {
+        const submitText = document.getElementById('submit-text');
+        const loadingSpinner = document.getElementById('loading-spinner');
+        
+        // Show loading state
+        if (submitText) submitText.textContent = 'Saving...';
+        if (loadingSpinner) loadingSpinner.classList.remove('hidden');
+        
+        // Simulate API call with timeout
+        setTimeout(() => {
+            // Show success message
+            const formFeedback = document.getElementById('form-feedback');
+            if (formFeedback) {
+                formFeedback.classList.remove('hidden', 'bg-red-600');
+                formFeedback.classList.add('bg-green-600');
+                formFeedback.textContent = 'Memorial saved successfully!';
+            }
+            
+            // Reset loading state
+            if (submitText) submitText.textContent = 'Save Memorial';
+            if (loadingSpinner) loadingSpinner.classList.add('hidden');
+            
+            // Hide message after 3 seconds
+            setTimeout(() => {
+                if (formFeedback) formFeedback.classList.add('hidden');
+            }, 3000);
+        }, 1500);
+    }
+    
+    // Search functionality
+    const searchBtn = document.getElementById('search-btn');
+    const searchInput = document.getElementById('search-name');
+    const resultsContainer = document.getElementById('search-results-container');
+    const searchResults = document.getElementById('search-results');
+    
+    if (searchBtn && searchInput && resultsContainer && searchResults) {
+        searchBtn.addEventListener('click', function() {
+            const query = searchInput.value.trim();
+            if (query) {
+                // Simulate search with timeout
+                setTimeout(() => {
+                    // Display mock results (in a real app, this would be from an API)
+                    const mockResults = [
+                        { id: 1, name: 'John Smith', birth: '1850-04-15', death: '1925-07-22', cemetery: 'Crediton Cemetery' },
+                        { id: 2, name: 'Mary Johnson', birth: '1865-11-30', death: '1942-03-08', cemetery: 'Crediton Cemetery' },
+                        { id: 3, name: 'William Thompson', birth: '1872-09-05', death: '1951-12-17', cemetery: 'Crediton Cemetery' }
+                    ];
+                    
+                    searchResults.innerHTML = '';
+                    const resultTemplate = document.getElementById('search-result-template');
+                    
+                    if (mockResults.length === 0) {
+                        searchResults.innerHTML = '<p class="p-3 text-gray-600">No results found.</p>';
+                    } else {
+                        mockResults.forEach(result => {
+                            const dates = `${result.birth ? formatDate(result.birth) : '?'} - ${result.death ? formatDate(result.death) : '?'}`;
+                            const resultCard = resultTemplate.content.cloneNode(true);
+                            
+                            // Replace template placeholders
+                            const html = resultCard.firstElementChild.outerHTML
+                                .replace('{id}', result.id)
+                                .replace('{name}', result.name)
+                                .replace('{dates}', dates)
+                                .replace('{cemetery}', result.cemetery);
+                            
+                            searchResults.innerHTML += html;
+                        });
+                        
+                        // Add click event to search results
+                        const resultCards = searchResults.querySelectorAll('.search-result-card');
+                        resultCards.forEach(card => {
+                            card.addEventListener('click', function() {
+                                const id = this.getAttribute('data-id');
+                                loadMemorial(id);
+                            });
+                        });
+                    }
+                    
+                    resultsContainer.classList.remove('hidden');
+                }, 500);
+            }
+        });
+    }
+    
+    // Helper function to format dates
+    function formatDate(dateString) {
+        try {
+            const date = new Date(dateString);
+            return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+        } catch (e) {
+            return dateString;
+        }
+    }
+    
+    // Function to load memorial data
+    function loadMemorial(id) {
+        // Simulate API fetch with timeout
+        setTimeout(() => {
+            // Mock data (in a real app, this would come from an API)
+            const memorialData = {
+                id: id,
+                name: 'John Smith',
+                title: 'Rev.',
+                prefix: 'Dr.',
+                maiden_name: '',
+                birth_date: '1850-04-15',
+                death_date: '1925-07-22',
+                cemetery: 'Crediton Cemetery',
+                location: 'Crediton',
+                plot_value: 'Section A, Row 3, Plot 12',
+                gps: '43.450951, -81.227111',
+                inscription: 'Beloved father and community leader\nRest in peace',
+                memorial_url: 'https://www.findagrave.com/memorial/12345',
+                image_url: 'https://example.com/images/headstone12345.jpg',
+                image_credits: 'Jane Wilson',
+                image_credits_url: 'https://example.com/photographer',
+                bio: 'John Smith was born in England and immigrated to Canada in 1870. He was a respected teacher and community leader who founded the local school.',
+                part_bio: 'English immigrant, teacher and community leader.',
+                // Relationships would be populated here in a real application
+                parents: [],
+                spouses: [],
+                children: [],
+                siblings: [],
+                halfSiblings: [],
+                resources: []
+            };
+            
+            // Populate form fields
+            document.getElementById('memorial-id').value = memorialData.id;
+            document.getElementById('name').value = memorialData.name;
+            document.getElementById('title').value = memorialData.title;
+            document.getElementById('prefix').value = memorialData.prefix;
+            document.getElementById('maiden-name').value = memorialData.maiden_name;
+            document.getElementById('birth-date').value = memorialData.birth_date;
+            document.getElementById('death-date').value = memorialData.death_date;
+            document.getElementById('cemetery').value = memorialData.cemetery;
+            document.getElementById('location').value = memorialData.location;
+            document.getElementById('plot-value').value = memorialData.plot_value;
+            document.getElementById('gps').value = memorialData.gps;
+            document.getElementById('inscription').value = memorialData.inscription;
+            document.getElementById('memorial-url').value = memorialData.memorial_url;
+            document.getElementById('image-url').value = memorialData.image_url;
+            document.getElementById('image-credits').value = memorialData.image_credits;
+            document.getElementById('image-credits-url').value = memorialData.image_credits_url;
+            document.getElementById('biography').value = memorialData.bio;
+            document.getElementById('part-bio').value = memorialData.part_bio;
+            
+            // Update heading
+            document.getElementById('memorial-heading').textContent = 'Edit Memorial: ' + memorialData.name;
+            
+            // Hide search results
+            resultsContainer.classList.add('hidden');
+        }, 800);
+    }
+    
+    // Add New Memorial button
+    const addNewBtn = document.getElementById('add-new-btn');
+    if (addNewBtn) {
+        addNewBtn.addEventListener('click', function() {
+            // Clear the form
+            memorialForm.reset();
+            document.getElementById('memorial-id').value = '';
+            document.getElementById('memorial-heading').textContent = 'Add New Memorial';
+            
+            // Hide search results
+            resultsContainer.classList.add('hidden');
+            
+            // Clear relationship containers
+            document.getElementById('parents-container').innerHTML = '';
+            document.getElementById('spouses-container').innerHTML = '';
+            document.getElementById('children-container').innerHTML = '';
+            document.getElementById('siblings-container').innerHTML = '';
+            document.getElementById('half-siblings-container').innerHTML = '';
+            document.getElementById('resources-container').innerHTML = '';
+        });
+    }
+    
+    // Relationship buttons event listeners
+    const addParentBtn = document.getElementById('add-parent-btn');
+    const addSpouseBtn = document.getElementById('add-spouse-btn');
+    const addChildBtn = document.getElementById('add-child-btn');
+    const addSiblingBtn = document.getElementById('add-sibling-btn');
+    const addHalfSiblingBtn = document.getElementById('add-half-sibling-btn');
+    
+    if (addParentBtn) {
+        addParentBtn.addEventListener('click', () => openPersonSearchModal('parent'));
+    }
+    
+    if (addSpouseBtn) {
+        addSpouseBtn.addEventListener('click', () => openPersonSearchModal('spouse'));
+    }
+    
+    if (addChildBtn) {
+        addChildBtn.addEventListener('click', () => openPersonSearchModal('child'));
+    }
+    
+    if (addSiblingBtn) {
+        addSiblingBtn.addEventListener('click', () => openPersonSearchModal('sibling'));
+    }
+    
+    if (addHalfSiblingBtn) {
+        addHalfSiblingBtn.addEventListener('click', () => openPersonSearchModal('half-sibling'));
+    }
+    
+    // Resource button event listener
+    const addResourceBtn = document.getElementById('add-resource-btn');
+    if (addResourceBtn) {
+        addResourceBtn.addEventListener('click', openResourceModal);
+    }
+    
+    // Person search modal functionality
+    const personSearchModal = document.getElementById('person-search-modal');
+    const closeModalBtn = document.getElementById('close-modal-btn');
+    const modalCancelBtn = document.getElementById('modal-cancel-btn');
+    let currentRelationshipType = '';
+    
+    function openPersonSearchModal(relationshipType) {
+        currentRelationshipType = relationshipType;
+        document.getElementById('modal-title').textContent = `Search for ${capitalizeFirstLetter(relationshipType)}`;
+        document.getElementById('modal-search').value = '';
+        document.getElementById('modal-search-results').innerHTML = '';
+        personSearchModal.classList.remove('hidden');
+    }
+    
+    if (closeModalBtn) {
+        closeModalBtn.addEventListener('click', () => {
+            personSearchModal.classList.add('hidden');
+        });
+    }
+    
+    if (modalCancelBtn) {
+        modalCancelBtn.addEventListener('click', () => {
+            personSearchModal.classList.add('hidden');
+        });
+    }
+    
+    // Modal search functionality
+    const modalSearch = document.getElementById('modal-search');
+    const modalSearchResults = document.getElementById('modal-search-results');
+    
+    if (modalSearch) {
+        modalSearch.addEventListener('input', function() {
+            const query = this.value.trim();
+            if (query.length >= 2) {
+                // Simulate search results
+                setTimeout(() => {
+                    // Mock data
+                    const mockPeople = [
+                        { id: 1, name: 'John Smith', birth: '1850-04-15', death: '1925-07-22' },
+                        { id: 2, name: 'Mary Johnson', birth: '1865-11-30', death: '1942-03-08' },
+                        { id: 3, name: 'William Thompson', birth: '1872-09-05', death: '1951-12-17' }
+                    ];
+                    
+                    modalSearchResults.innerHTML = '';
+                    const resultTemplate = document.getElementById('search-result-template');
+                    
+                    mockPeople.forEach(person => {
+                        const dates = `${person.birth ? formatDate(person.birth) : '?'} - ${person.death ? formatDate(person.death) : '?'}`;
+                        const resultCard = resultTemplate.content.cloneNode(true);
+                        
+                        // Replace template placeholders
+                        const html = resultCard.firstElementChild.outerHTML
+                            .replace('{id}', person.id)
+                            .replace('{name}', person.name)
+                            .replace('{dates}', dates)
+                            .replace('{cemetery}', 'Crediton Cemetery');
+                        
+                        modalSearchResults.innerHTML += html;
+                    });
+                    
+                    // Add click event to search results
+                    const resultCards = modalSearchResults.querySelectorAll('.search-result-card');
+                    resultCards.forEach(card => {
+                        card.addEventListener('click', function() {
+                            const id = this.getAttribute('data-id');
+                            selectPerson(id);
+                        });
+                    });
+                }, 300);
+            } else {
+                modalSearchResults.innerHTML = '';
+            }
+        });
+    }
+    
+    // Create new person functionality
+    const createNewPersonBtn = document.getElementById('create-new-person-btn');
+    const newPersonModal = document.getElementById('new-person-modal');
+    const closeNewPersonModalBtn = document.getElementById('close-new-person-modal-btn');
+    const newPersonCancelBtn = document.getElementById('new-person-cancel-btn');
+    const newPersonForm = document.getElementById('new-person-form');
+    
+    if (createNewPersonBtn) {
+        createNewPersonBtn.addEventListener('click', function() {
+            personSearchModal.classList.add('hidden');
+            document.getElementById('new-person-relationship-type').value = currentRelationshipType;
+            newPersonModal.classList.remove('hidden');
+        });
+    }
+    
+    if (closeNewPersonModalBtn) {
+        closeNewPersonModalBtn.addEventListener('click', function() {
+            newPersonModal.classList.add('hidden');
+        });
+    }
+    
+    if (newPersonCancelBtn) {
+        newPersonCancelBtn.addEventListener('click', function() {
+            newPersonModal.classList.add('hidden');
+        });
+    }
+    
+    if (newPersonForm) {
+        newPersonForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Get form data
+          // Get form data
+const formData = new FormData(this);
+const personData = {
+  name: formData.get('name'),
+  title: formData.get('title'),
+  prefix: formData.get('prefix'),
+  maiden_name: formData.get('maiden_name'),
+  birth_date: formData.get('birth_date'),
+  death_date: formData.get('death_date'),
+  cemetery: formData.get('cemetery'),
+  relationshipType: formData.get('relationship_type')
+};
+
+// Simulate API call to create person
+setTimeout(() => {
+  // Generate a mock ID for the new person
+  const newPersonId = Math.floor(Math.random() * 10000) + 100;
+  
+  // Add relationship to the memorial
+  addRelationship({
+    id: newPersonId,
+    name: personData.name,
+    birth: personData.birth_date,
+    death: personData.death_date,
+    relationshipType: personData.relationshipType
+  });
+  
+  // Close the modal
+  newPersonModal.classList.add('hidden');
+  
+  // Show success message
+  showNotification('Person added successfully!', 'success');
+}, 800);
+});
+}
+
+// Function to select a person from search results
+function selectPerson(personId) {
+  // Simulate API call to get person details
+  setTimeout(() => {
+    // Mock person data (in a real app, this would come from an API)
+    const personData = {
+      id: personId,
+      name: 'John Smith',
+      birth: '1850-04-15',
+      death: '1925-07-22'
+    };
+    
+    // Add relationship
+    addRelationship({
+      id: personData.id,
+      name: personData.name,
+      birth: personData.birth,
+      death: personData.death,
+      relationshipType: currentRelationshipType
+    });
+    
+    // Close the modal
+    personSearchModal.classList.add('hidden');
+    
+    // Show success message
+    showNotification('Relationship added successfully!', 'success');
+  }, 500);
+}
+
+// Function to add a relationship to the memorial
+function addRelationship(person) {
+  const containerMap = {
+    'parent': 'parents-container',
+    'spouse': 'spouses-container',
+    'child': 'children-container',
+    'sibling': 'siblings-container',
+    'half-sibling': 'half-siblings-container'
+  };
+  
+  const container = document.getElementById(containerMap[person.relationshipType]);
+  if (!container) return;
+  
+  const relationshipTemplate = document.getElementById('relationship-template');
+  const relationshipItem = relationshipTemplate.content.cloneNode(true);
+  
+  // Format dates
+  const birthDate = person.birth ? formatDate(person.birth) : '?';
+  const deathDate = person.death ? formatDate(person.death) : '?';
+  const dates = `${birthDate} - ${deathDate}`;
+  
+  // Replace template placeholders
+  const relationshipDiv = relationshipItem.querySelector('.relationship-item');
+  relationshipDiv.setAttribute('data-id', person.id);
+  relationshipDiv.setAttribute('data-type', person.relationshipType);
+  
+  relationshipDiv.querySelector('h4').textContent = person.name;
+  relationshipDiv.querySelector('p:first-of-type').textContent = dates;
+  
+  // Set up edit and remove buttons
+  const editBtn = relationshipDiv.querySelector('.edit-relationship-btn');
+  const removeBtn = relationshipDiv.querySelector('.remove-relationship-btn');
+  
+  editBtn.addEventListener('click', () => {
+    openRelationshipModal(person.id, person.relationshipType, person.name);
+  });
+  
+  removeBtn.addEventListener('click', () => {
+    openConfirmModal(
+      `Are you sure you want to remove ${person.name} as a ${person.relationshipType}?`,
+      () => {
+        relationshipDiv.remove();
+        showNotification('Relationship removed successfully!', 'success');
+      }
+    );
+  });
+  
+  // Add the new relationship item to the container
+  container.appendChild(relationshipItem);
+}
+
+// Resource modal functionality
+const resourceModal = document.getElementById('resource-modal');
+const closeResourceModalBtn = document.getElementById('close-resource-modal-btn');
+const resourceCancelBtn = document.getElementById('resource-cancel-btn');
+const resourceForm = document.getElementById('resource-form');
+
+function openResourceModal(resourceId = null) {
+  if (resourceId) {
+    // Edit existing resource
+    document.getElementById('resource-modal-title').textContent = 'Edit Resource';
+    document.getElementById('resource-id').value = resourceId;
+    
+    // Get existing resource data (would come from API in a real app)
+    const resourceItem = document.querySelector(`.resource-item[data-id="${resourceId}"]`);
+    if (resourceItem) {
+      document.getElementById('resource-title').value = resourceItem.querySelector('h4').textContent;
+      document.getElementById('resource-type').value = resourceItem.querySelector('p:first-of-type').textContent;
+      document.getElementById('resource-url').value = resourceItem.querySelector('a').getAttribute('href');
+      document.getElementById('resource-description').value = resourceItem.querySelector('p:last-of-type').textContent;
+    }
+  } else {
+    // Add new resource
+    document.getElementById('resource-modal-title').textContent = 'Add Resource';
+    document.getElementById('resource-id').value = '';
+    resourceForm.reset();
+  }
+  
+  resourceModal.classList.remove('hidden');
+}
+
+if (closeResourceModalBtn) {
+  closeResourceModalBtn.addEventListener('click', () => {
+    resourceModal.classList.add('hidden');
+  });
+}
+
+if (resourceCancelBtn) {
+  resourceCancelBtn.addEventListener('click', () => {
+    resourceModal.classList.add('hidden');
+  });
+}
+
+if (resourceForm) {
+  resourceForm.addEventListener('submit', function(event) {
+    event.preventDefault();
+    
+    // Get form data
+    const formData = new FormData(this);
+    const resourceData = {
+      id: document.getElementById('resource-id').value || Math.floor(Math.random() * 10000) + 100,
+      title: formData.get('title'),
+      type: formData.get('type'),
+      url: formData.get('url'),
+      description: formData.get('description')
+    };
+    
+    // Add or update resource
+    addOrUpdateResource(resourceData);
+    
+    // Close the modal
+    resourceModal.classList.add('hidden');
+  });
+}
+
+// Function to add or update a resource
+function addOrUpdateResource(resource) {
+  const container = document.getElementById('resources-container');
+  if (!container) return;
+  
+  // Check if we're updating an existing resource
+  const existingResource = document.querySelector(`.resource-item[data-id="${resource.id}"]`);
+  if (existingResource) {
+    // Update existing resource
+    existingResource.querySelector('h4').textContent = resource.title;
+    existingResource.querySelector('p:first-of-type').textContent = resource.type;
+    
+    const linkElement = existingResource.querySelector('a');
+    linkElement.setAttribute('href', resource.url);
+    linkElement.textContent = resource.url;
+    
+    existingResource.querySelector('p:last-of-type').textContent = resource.description;
+    
+    showNotification('Resource updated successfully!', 'success');
+  } else {
+    // Add new resource
+    const resourceTemplate = document.getElementById('resource-template');
+    const resourceItem = resourceTemplate.content.cloneNode(true);
+    
+    // Replace template placeholders
+    const resourceDiv = resourceItem.querySelector('.resource-item');
+    resourceDiv.setAttribute('data-id', resource.id);
+    
+    resourceDiv.querySelector('h4').textContent = resource.title;
+    resourceDiv.querySelector('p:first-of-type').textContent = resource.type;
+    
+    const linkElement = resourceDiv.querySelector('a');
+    linkElement.setAttribute('href', resource.url);
+    linkElement.textContent = resource.url;
+    
+    resourceDiv.querySelector('p:last-of-type').textContent = resource.description;
+    
+    // Set up edit and remove buttons
+    const editBtn = resourceDiv.querySelector('.edit-resource-btn');
+    const removeBtn = resourceDiv.querySelector('.remove-resource-btn');
+    
+    editBtn.addEventListener('click', () => {
+      openResourceModal(resource.id);
+    });
+    
+    removeBtn.addEventListener('click', () => {
+      openConfirmModal(
+        `Are you sure you want to remove the resource "${resource.title}"?`,
+        () => {
+          resourceDiv.remove();
+          showNotification('Resource removed successfully!', 'success');
+        }
+      );
+    });
+    
+    // Add the new resource item to the container
+    container.appendChild(resourceItem);
+    
+    showNotification('Resource added successfully!', 'success');
+  }
+}
+
+// Relationship modal functionality
+const relationshipModal = document.getElementById('relationship-modal');
+const closeRelationshipModalBtn = document.getElementById('close-relationship-modal-btn');
+const relationshipCancelBtn = document.getElementById('relationship-cancel-btn');
+const relationshipForm = document.getElementById('relationship-form');
+
+function openRelationshipModal(personId, relationshipType, personName) {
+  document.getElementById('relationship-id').value = personId;
+  document.getElementById('relationship-type').value = relationshipType;
+  document.getElementById('relationship-name').value = personName;
+  
+  // Get existing details if any
+  const relationshipItem = document.querySelector(`.relationship-item[data-id="${personId}"][data-type="${relationshipType}"]`);
+  if (relationshipItem) {
+    const detailsElement = relationshipItem.querySelector('p:last-of-type');
+    document.getElementById('relationship-details').value = detailsElement ? detailsElement.textContent : '';
+  } else {
+    document.getElementById('relationship-details').value = '';
+  }
+  
+  relationshipModal.classList.remove('hidden');
+}
+
+if (closeRelationshipModalBtn) {
+  closeRelationshipModalBtn.addEventListener('click', () => {
+    relationshipModal.classList.add('hidden');
+  });
+}
+
+if (relationshipCancelBtn) {
+  relationshipCancelBtn.addEventListener('click', () => {
+    relationshipModal.classList.add('hidden');
+  });
+}
+
+if (relationshipForm) {
+  relationshipForm.addEventListener('submit', function(event) {
+    event.preventDefault();
+    
+    const personId = document.getElementById('relationship-id').value;
+    const relationshipType = document.getElementById('relationship-type').value;
+    const details = document.getElementById('relationship-details').value;
+    
+    // Update relationship details
+    updateRelationshipDetails(personId, relationshipType, details);
+    
+    // Close the modal
+    relationshipModal.classList.add('hidden');
+  });
+}
+
+// Function to update relationship details
+function updateRelationshipDetails(personId, relationshipType, details) {
+  const relationshipItem = document.querySelector(`.relationship-item[data-id="${personId}"][data-type="${relationshipType}"]`);
+  if (!relationshipItem) return;
+  
+  const detailsElement = relationshipItem.querySelector('p:last-of-type');
+  if (detailsElement) {
+    detailsElement.textContent = details;
+  }
+  
+  showNotification('Relationship details updated successfully!', 'success');
+}
+
+// Confirmation modal functionality
+const confirmModal = document.getElementById('confirm-modal');
+const confirmMessage = document.getElementById('confirm-message');
+const confirmCancelBtn = document.getElementById('confirm-cancel-btn');
+const confirmProceedBtn = document.getElementById('confirm-proceed-btn');
+let confirmCallback = null;
+
+function openConfirmModal(message, callback) {
+  confirmMessage.textContent = message;
+  confirmCallback = callback;
+  confirmModal.classList.remove('hidden');
+}
+
+if (confirmCancelBtn) {
+  confirmCancelBtn.addEventListener('click', () => {
+    confirmModal.classList.add('hidden');
+  });
+}
+
+if (confirmProceedBtn) {
+  confirmProceedBtn.addEventListener('click', () => {
+    if (confirmCallback) {
+      confirmCallback();
+    }
+    confirmModal.classList.add('hidden');
+  });
+}
+
+// Helper function to show notifications
+function showNotification(message, type = 'info') {
+  const formFeedback = document.getElementById('form-feedback');
+  if (!formFeedback) return;
+  
+  formFeedback.textContent = message;
+  formFeedback.classList.remove('hidden', 'bg-blue-600', 'bg-green-600', 'bg-red-600');
+  
+  switch (type) {
+    case 'success':
+      formFeedback.classList.add('bg-green-600');
+      break;
+    case 'error':
+      formFeedback.classList.add('bg-red-600');
+      break;
+    default:
+      formFeedback.classList.add('bg-blue-600');
+  }
+  
+  // Hide notification after 3 seconds
+  setTimeout(() => {
+    formFeedback.classList.add('hidden');
+  }, 3000);
+}
+
+// Helper function to capitalize first letter
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+// Initialize the page
+document.addEventListener('DOMContentLoaded', function() {
+  // Set the first tab as active by default
+  const defaultTab = document.querySelector('.tab-button');
+  if (defaultTab) {
+    defaultTab.click();
+  }
+  
+  // Add any additional initialization code here
+});
+
+// Advanced Search Functionality
+const advancedSearchBtn = document.getElementById('advanced-search-btn');
+const advancedSearchForm = document.getElementById('advanced-search-form');
+
+if (advancedSearchBtn) {
+  advancedSearchBtn.addEventListener('click', function() {
+    const advancedSearchSection = document.getElementById('advanced-search-section');
+    if (advancedSearchSection) {
+      advancedSearchSection.classList.toggle('hidden');
+    }
+  });
+}
+
+if (advancedSearchForm) {
+  advancedSearchForm.addEventListener('submit', function(event) {
+    event.preventDefault();
+    
+    // Get form data
+    const formData = new FormData(this);
+    const searchParams = {
+      name: formData.get('advanced-name'),
+      birthYear: formData.get('birth-year'),
+      deathYear: formData.get('death-year'),
+      cemetery: formData.get('advanced-cemetery'),
+      location: formData.get('advanced-location')
+    };
+    
+    // Filter out empty values
+    Object.keys(searchParams).forEach(key => {
+      if (!searchParams[key]) {
+        delete searchParams[key];
+      }
+    });
+    
+    // Simulate search with timeout
+    setTimeout(() => {
+      // Display mock results (in a real app, this would be from an API)
+      const mockResults = [
+        { id: 4, name: 'Elizabeth Brown', birth: '1838-01-23', death: '1910-05-17', cemetery: 'Crediton Cemetery' },
+        { id: 5, name: 'James Wilson', birth: '1842-06-12', death: '1918-11-02', cemetery: 'Crediton Cemetery' },
+        { id: 6, name: 'Sarah Davis', birth: '1855-03-28', death: '1932-08-14', cemetery: 'Crediton Cemetery' }
+      ];
+      
+      // Display results
+      const searchResults = document.getElementById('search-results');
+      searchResults.innerHTML = '';
+      
+      const resultTemplate = document.getElementById('search-result-template');
+      if (mockResults.length === 0) {
+        searchResults.innerHTML = '<p class="p-3 text-gray-600">No results found.</p>';
+      } else {
+        mockResults.forEach(result => {
+          const dates = `${result.birth ? formatDate(result.birth) : '?'} - ${result.death ? formatDate(result.death) : '?'}`;
+          const resultCard = resultTemplate.content.cloneNode(true);
+          
+          // Replace template placeholders
+          const html = resultCard.firstElementChild.outerHTML
+            .replace('{id}', result.id)
+            .replace('{name}', result.name)
+            .replace('{dates}', dates)
+            .replace('{cemetery}', result.cemetery);
+            
+          searchResults.innerHTML += html;
+        });
+        
+        // Add click event to search results
+        const resultCards = searchResults.querySelectorAll('.search-result-card');
+        resultCards.forEach(card => {
+          card.addEventListener('click', function() {
+            const id = this.getAttribute('data-id');
+            loadMemorial(id);
+          });
+        });
+      }
+      
+      // Show results container
+      const resultsContainer = document.getElementById('search-results-container');
+      if (resultsContainer) {
+        resultsContainer.classList.remove('hidden');
+      }
+    }, 800);
+  });
+}
+
+// Bulk Import/Export Functionality
+const importBtn = document.getElementById('import-btn');
+const exportBtn = document.getElementById('export-btn');
+
+if (importBtn) {
+  importBtn.addEventListener('click', function() {
+    // Create a file input element
+    const fileInput = document.createElement('input');
+    fileInput.type = 'file';
+    fileInput.accept = '.csv, .json';
+    
+    fileInput.addEventListener('change', function(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+      
+      // Read file content
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        const fileContent = e.target.result;
+        
+        // Process the file based on its type
+        if (file.name.endsWith('.csv')) {
+          processCSVImport(fileContent);
+        } else if (file.name.endsWith('.json')) {
+          processJSONImport(fileContent);
+        }
+      };
+      
+      reader.readAsText(file);
+    });
+    
+    // Trigger file selection dialog
+    fileInput.click();
+  });
+}
+
+if (exportBtn) {
+  exportBtn.addEventListener('click', function() {
+    // Simulate exporting data
+    const exportData = {
+      type: 'memorial_export',
+      date: new Date().toISOString(),
+      data: [
+        // Mock data for demonstration
+        {
+          id: 1,
+          name: 'John Smith',
+          birth_date: '1850-04-15',
+          death_date: '1925-07-22',
+          cemetery: 'Crediton Cemetery',
+          location: 'Crediton',
+          plot_value: 'Section A, Row 3, Plot 12'
+        },
+        {
+          id: 2,
+          name: 'Mary Johnson',
+          birth_date: '1865-11-30',
+          death_date: '1942-03-08',
+          cemetery: 'Crediton Cemetery',
+          location: 'Crediton',
+          plot_value: 'Section B, Row 1, Plot 5'
+        }
+      ]
+    };
+    
+    // Convert to JSON string
+    const jsonData = JSON.stringify(exportData, null, 2);
+    
+    // Create a download link
+    const blob = new Blob([jsonData], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    
+    const downloadLink = document.createElement('a');
+    downloadLink.href = url;
+    downloadLink.download = `memorial_export_${new Date().toISOString().split('T')[0]}.json`;
+    
+    // Trigger download
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    document.body.removeChild(downloadLink);
+    
+    // Show success message
+    showNotification('Export completed successfully!', 'success');
+  });
+}
+
+// Function to process CSV import
+function processCSVImport(csvContent) {
+  // In a real application, you would parse the CSV
+  // For this example, we'll just show a success message
+  showNotification('CSV import completed. 5 records imported.', 'success');
+}
+
+// Function to process JSON import
+function processJSONImport(jsonContent) {
+  try {
+    const importData = JSON.parse(jsonContent);
+    
+    // In a real application, you would process the JSON data
+    // For this example, we'll just show a success message
+    showNotification(`JSON import completed. ${importData.data ? importData.data.length : 0} records imported.`, 'success');
+  } catch (error) {
+    showNotification('Error importing JSON file. Please check the file format.', 'error');
+  }
+}
+
+// Image preview functionality
+const imageUrlInput = document.getElementById('image-url');
+const imagePreview = document.getElementById('image-preview');
+
+if (imageUrlInput && imagePreview) {
+  imageUrlInput.addEventListener('blur', function() {
+    const imageUrl = this.value.trim();
+    
+    if (imageUrl) {
+      // Show loading state
+      imagePreview.innerHTML = '<div class="flex justify-center items-center h-64"><i class="fas fa-spinner fa-spin text-gray-500 text-2xl"></i></div>';
+      
+      // Create a new image element to test loading
+      const img = new Image();
+      img.onload = function() {
+        // Success - show the image
+        imagePreview.innerHTML = `<img src="${imageUrl}" alt="Memorial Image" class="max-h-64 mx-auto rounded">`;
+      };
+      
+      img.onerror = function() {
+        // Error - show placeholder
+        imagePreview.innerHTML = '<div class="flex flex-col justify-center items-center h-64 bg-gray-100 rounded">' +
+          '<i class="fas fa-image text-gray-400 text-3xl mb-2"></i>' +
+          '<p class="text-gray-500">Image not available</p></div>';
+      };
+      
+      img.src = imageUrl;
+    } else {
+      // No URL - show empty state
+      imagePreview.innerHTML = '<div class="flex flex-col justify-center items-center h-64 bg-gray-100 rounded">' +
+        '<i class="fas fa-image text-gray-400 text-3xl mb-2"></i>' +
+        '<p class="text-gray-500">No image URL provided</p></div>';
+    }
+  });
+}
+
+// GPS Coordinates Map Preview
+const gpsInput = document.getElementById('gps');
+const mapPreview = document.getElementById('map-preview');
+
+if (gpsInput && mapPreview) {
+  gpsInput.addEventListener('blur', function() {
+    const coordinates = this.value.trim();
+    
+    if (coordinates && /^-?\d+(\.\d+)?,\s*-?\d+(\.\d+)?$/.test(coordinates)) {
+      // This is a simplified example. In a real application, you would:
+      // 1. Initialize a map library like Leaflet or Google Maps
+      // 2. Set the coordinates and add a marker
+      // For now, we'll just show a placeholder
+      mapPreview.innerHTML = `
+        <div class="relative bg-gray-100 rounded h-64">
+          <div class="absolute inset-0 flex flex-col items-center justify-center">
+            <i class="fas fa-map-marker-alt text-red-600 text-3xl mb-2"></i>
+            <p class="text-gray-700 font-medium">Map Location</p>
+            <p class="text-gray-500 text-sm">${coordinates}</p>
+          </div>
+        </div>
+      `;
+    } else {
+      mapPreview.innerHTML = `
+        <div class="flex flex-col justify-center items-center h-64 bg-gray-100 rounded">
+          <i class="fas fa-map text-gray-400 text-3xl mb-2"></i>
+          <p class="text-gray-500">No valid GPS coordinates</p>
+          <p class="text-gray-400 text-xs mt-1">Format: latitude, longitude</p>
+        </div>
+      `;
+    }
+  });
+}
+
+});
+  </script>
