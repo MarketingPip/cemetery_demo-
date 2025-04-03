@@ -119,7 +119,7 @@
       <div class="flex items-center space-x-4">
         <img alt="{{ page.author }}" class="w-12 h-12 rounded-full object-cover" src="{{ page.author_image | default: '/api/placeholder/100/100' }}">
         <div>
-          <a class="text-gray-700 font-semibold hover:text-gray-900" href="{{ site.baseurl }}/authors/{{ page.author | slugify }}">{{ page.author }}</a>
+          <a class="text-gray-700 font-semibold hover:text-gray-900" href="{{ site.baseurl }}/blog/authors/{{ page.author | slugify }}">{{ page.author }}</a>
           <p class="text-gray-700 text-sm">{{ page.author_role | default: "Heritage Volunteer" }}</p>
         </div>
       </div>
