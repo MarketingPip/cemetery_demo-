@@ -1,16 +1,19 @@
 module Jekyll
   class ExpirePosts < Generator
     safe true
-    
+
     def generate(site)
-      site.posts.each do |post|
-        # Check if the post has an expire_date
+      site.posts.docs.reject! do |post|
         if post.data['expire_date']
           expire_date = Date.parse(post.data['expire_date'])
-          # If the expire_date is in the past, mark it as unpublished
           if expire_date < Date.today
-            post.data['published'] = false
+            puts "Post '#{post.data['title']}' has expired and will not be rendered."
+            true  # Remove expired post from the collection
+          else
+            false
           end
+        else
+          false
         end
       end
     end
