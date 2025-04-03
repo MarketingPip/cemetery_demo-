@@ -28,7 +28,7 @@ permalink: /feed.xml
       <dc:creator>{{ post.author }}</dc:creator>
 
       <!-- Properly formatted pubDate for each post -->
-      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+      <pubDate>{{ post.path | file_creation_date | date_to_rfc822 }}</pubDate>
       <guid>{{ site.url }}{{ post.url | relative_url }}</guid>
     </item>
     {% endfor %}
