@@ -18,6 +18,10 @@
 # Changes the directory where Jekyll will look for plugins
 # plugins_dir:        _plugins
 
+# Optional: You can define where your posts are located (if in a custom folder)
+posts_dir: "pages/blog"
+#posts_dir: "_posts/blog"
+
 # Inclusion of recent posts in sidebar
 # recent_posts:       false
 # Inclusion/exclusion of future dated posts
@@ -33,7 +37,8 @@ kramdown:
     disable : true
 highlighter: none
 # Controls the URLs that posts are generated with.
-permalink:          /:year/:month/:day/:title/
+permalink: /blog/:title/
+# permalink:          /:year/:month/:day/:title/
 # A list of directories and files to exclude from the conversion
 exclude:
   - bin
