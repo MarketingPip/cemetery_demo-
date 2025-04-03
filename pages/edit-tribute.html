@@ -832,59 +832,64 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // Search functionality
-    const searchBtn = document.getElementById('search-btn');
-    const searchInput = document.getElementById('search-name');
-    const resultsContainer = document.getElementById('search-results-container');
-    const searchResults = document.getElementById('search-results');
-    
-    if (searchBtn && searchInput && resultsContainer && searchResults) {
-        searchBtn.addEventListener('click', function() {
-            const query = searchInput.value.trim();
-            if (query) {
-                // Simulate search with timeout
-                setTimeout(() => {
-                    // Display mock results (in a real app, this would be from an API)
-                    const mockResults = [
-                        { id: 1, name: 'John Smith', birth: '1850-04-15', death: '1925-07-22', cemetery: 'Crediton Cemetery' },
-                        { id: 2, name: 'Mary Johnson', birth: '1865-11-30', death: '1942-03-08', cemetery: 'Crediton Cemetery' },
-                        { id: 3, name: 'William Thompson', birth: '1872-09-05', death: '1951-12-17', cemetery: 'Crediton Cemetery' }
-                    ];
-                    
-                    searchResults.innerHTML = '';
-                    const resultTemplate = document.getElementById('search-result-template');
-                    
-                    if (mockResults.length === 0) {
-                        searchResults.innerHTML = '<p class="p-3 text-gray-600">No results found.</p>';
-                    } else {
-                        mockResults.forEach(result => {
-                            const dates = `${result.birth ? formatDate(result.birth) : '?'} - ${result.death ? formatDate(result.death) : '?'}`;
-                            const resultCard = resultTemplate.content.cloneNode(true);
-                            
-                            // Replace template placeholders
-                            const html = resultCard.firstElementChild.outerHTML
-                                .replace('{id}', result.id)
-                                .replace('{name}', result.name)
-                                .replace('{dates}', dates)
-                                .replace('{cemetery}', result.cemetery);
-                            
-                            searchResults.innerHTML += html;
-                        });
-                        
-                        // Add click event to search results
-                        const resultCards = searchResults.querySelectorAll('.search-result-card');
-                        resultCards.forEach(card => {
-                            card.addEventListener('click', async function() {
-                                const id = this.getAttribute('data-id');
-                                await loadMemorial(id);
-                            });
-                        });
-                    }
-                    
-                    resultsContainer.classList.remove('hidden');
-                }, 500);
-            }
+const searchBtn = document.getElementById('search-btn');
+const searchInput = document.getElementById('search-name');
+const resultsContainer = document.getElementById('search-results-container');
+const searchResults = document.getElementById('search-results');
+const resultTemplate = document.getElementById('search-result-template');
+
+if (searchBtn && searchInput && resultsContainer && searchResults) {
+    searchBtn.addEventListener('click', onSearch);
+
+    // Event delegation for dynamically added result cards
+    searchResults.addEventListener('click', onResultClick);
+}
+
+async function onSearch() {
+    const query = searchInput.value.trim();
+    if (query) {
+        // Simulate search with timeout (replace with actual API call)
+        setTimeout(() => {
+            const mockResults = getMockResults();
+            displayResults(mockResults);
+            resultsContainer.classList.remove('hidden');
+        }, 500);
+    }
+}
+
+function getMockResults() {
+    return [
+        { id: 1, name: 'John Smith', birth: '1850-04-15', death: '1925-07-22', cemetery: 'Crediton Cemetery' },
+        { id: 2, name: 'Mary Johnson', birth: '1865-11-30', death: '1942-03-08', cemetery: 'Crediton Cemetery' },
+        { id: 3, name: 'William Thompson', birth: '1872-09-05', death: '1951-12-17', cemetery: 'Crediton Cemetery' }
+    ];
+}
+
+function displayResults(results) {
+    searchResults.innerHTML = ''; // Clear previous results
+    if (results.length === 0) {
+        searchResults.innerHTML = '<p class="p-3 text-gray-600">No results found.</p>';
+    } else {
+        results.forEach(result => {
+            const dates = `${result.birth ? formatDate(result.birth) : '?'} - ${result.death ? formatDate(result.death) : '?'}`;
+            const resultCard = resultTemplate.content.cloneNode(true);
+            const html = resultCard.firstElementChild.outerHTML
+                .replace('{id}', result.id)
+                .replace('{name}', result.name)
+                .replace('{dates}', dates)
+                .replace('{cemetery}', result.cemetery);
+            searchResults.innerHTML += html;
         });
     }
+}
+
+async function onResultClick(event) {
+    // Ensure the click is on a result card
+    if (event.target.closest('.search-result-card')) {
+        const id = event.target.closest('.search-result-card').getAttribute('data-id');
+        await loadMemorial(id);
+    }
+}
     
     // Helper function to format dates
     function formatDate(dateString) {
