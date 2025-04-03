@@ -1,0 +1,15 @@
+{
+  "name": "update-author-posts",
+  "version": "1.0.0",
+  "description": "A script to update author files with new posts in Jekyll",
+  "main": "update-authors.js",
+  "scripts": {
+    "start": "node update-authors.js"
+  },
+  "dependencies": {
+    "yaml-front-matter": "^5.0.0"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
