@@ -30,7 +30,7 @@ posts_dir: "_posts"
 # Inclusion of recent posts in sidebar
 # recent_posts:       false
 # Inclusion/exclusion of future dated posts
-# future:             true
+future:             true
 # Produces an index for related posts. Install rb-gsl and libgsl to speed this up
 lsi:                false
 # Uses [engine] instead of Maruku
