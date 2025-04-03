@@ -10,16 +10,18 @@ permalink: /feed.xml
     <link>{{ site.url }}</link>
     <description>{{ site.description }}</description>
     <language>en-us</language>
-    <pubDate>{{ site.time | date_to_xmlschema }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
-
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    
+    <atom:link href="{{ site.url }}{{ "/feed.xml" | relative_url }}" rel="self" type="application/rss+xml" />
+    
     {% for post in site.posts limit:10 %}
     <item>
       <title>{{ post.title }}</title>
       <link>{{ site.url }}{{ post.url | relative_url }}</link>
       <description>{{ post.excerpt | strip_html | escape }}</description>
-      <author>{{ post.author }}</author>
-      <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+      <author>{{ post.author | default: "Unknown Author" }}</author>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       <guid>{{ site.url }}{{ post.url | relative_url }}</guid>
     </item>
     {% endfor %}
