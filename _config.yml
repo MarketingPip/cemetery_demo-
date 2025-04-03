@@ -17,6 +17,7 @@
 # destination:        _site
 # Changes the directory where Jekyll will look for plugins
 # plugins_dir:        _plugins
+baseurl: "/"
 
 # Optional: You can define where your posts are located (if in a custom folder)
 #posts_dir: "pages/blog"
@@ -37,7 +38,7 @@ kramdown:
     disable : true
 highlighter: none
 # Controls the URLs that posts are generated with.
-# permalink: /blog/:title/
+permalink: /blog/:title/
 # permalink:          /:year/:month/:day/:title/
 # A list of directories and files to exclude from the conversion
 exclude:
