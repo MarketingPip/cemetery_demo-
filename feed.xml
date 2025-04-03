@@ -4,26 +4,34 @@ permalink: /feed.xml
 ---
 
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>{{ site.title }}</title>
     <link>{{ site.url }}</link>
     <description>{{ site.description }}</description>
     <language>en-us</language>
+
+    <!-- Using the correct RFC-822 date format -->
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    
+
+    <!-- atom:link for self-reference -->
     <atom:link href="{{ site.url }}{{ "/feed.xml" | relative_url }}" rel="self" type="application/rss+xml" />
-    
+
     {% for post in site.posts limit:10 %}
     <item>
       <title>{{ post.title }}</title>
       <link>{{ site.url }}{{ post.url | relative_url }}</link>
       <description>{{ post.excerpt | strip_html | escape }}</description>
-      <author>{{ post.author | default: "Unknown Author" }}</author>
+
+      <!-- Using dc:creator for author attribution without revealing email -->
+      <dc:creator>{{ post.author }}</dc:creator>
+
+      <!-- Properly formatted pubDate for each post -->
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       <guid>{{ site.url }}{{ post.url | relative_url }}</guid>
     </item>
     {% endfor %}
   </channel>
+</rss>
 </rss>
