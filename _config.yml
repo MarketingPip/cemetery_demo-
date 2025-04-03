@@ -71,3 +71,9 @@ collections:
   blog:
     output: true
     permalink: /blog/:title/
+
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - file_creation_date
