@@ -1,0 +1,35 @@
+name: Update Author Posts
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '_posts/**/*'  # Trigger when files in the _posts folder change
+
+jobs:
+  update-author-posts:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run the script to update author posts
+        run: node update-authors.js
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add .
+          git commit -m "Update author posts after new post"
+          git push
