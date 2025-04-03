@@ -741,6 +741,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
+    
     // Form validation
     const memorialForm = document.getElementById('memorial-form');
     if (memorialForm) {
@@ -872,9 +873,9 @@ document.addEventListener('DOMContentLoaded', function() {
                         // Add click event to search results
                         const resultCards = searchResults.querySelectorAll('.search-result-card');
                         resultCards.forEach(card => {
-                            card.addEventListener('click', function() {
+                            card.addEventListener('click', async function() {
                                 const id = this.getAttribute('data-id');
-                                loadMemorial(id);
+                                await loadMemorial(id);
                             });
                         });
                     }
@@ -895,38 +896,35 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
     
+  async function tributeData(tributeId) {
+  const url = `../assets/people/${tributeId}.json`; // Replace with the actual API URL
+
+  try {
+    // Fetch the JSON data from the URL
+    const response = await fetch(url);
+
+    // Check if the response status is OK (200-299 range)
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+
+    // Parse the response as JSON
+    const data = await response.json();
+
+    // Handle the fetched data (you can replace this with your own processing logic)
+    console.log('Fetched tribute data:', data);
+
+    return data; // Return the data so it can be used elsewhere
+  } catch (error) {
+    // Error handling for network errors or JSON parsing errors
+    console.error('Error fetching tribute data:', error);
+    return null; // Return null or handle the error as appropriate
+  }
+}
+  
     // Function to load memorial data
-    function loadMemorial(id) {
-        // Simulate API fetch with timeout
-        setTimeout(() => {
-            // Mock data (in a real app, this would come from an API)
-            const memorialData = {
-                id: id,
-                name: 'John Smith',
-                title: 'Rev.',
-                prefix: 'Dr.',
-                maiden_name: '',
-                birth_date: '1850-04-15',
-                death_date: '1925-07-22',
-                cemetery: 'Crediton Cemetery',
-                location: 'Crediton',
-                plot_value: 'Section A, Row 3, Plot 12',
-                gps: '43.450951, -81.227111',
-                inscription: 'Beloved father and community leader\nRest in peace',
-                memorial_url: 'https://www.findagrave.com/memorial/12345',
-                image_url: 'https://example.com/images/headstone12345.jpg',
-                image_credits: 'Jane Wilson',
-                image_credits_url: 'https://example.com/photographer',
-                bio: 'John Smith was born in England and immigrated to Canada in 1870. He was a respected teacher and community leader who founded the local school.',
-                part_bio: 'English immigrant, teacher and community leader.',
-                // Relationships would be populated here in a real application
-                parents: [],
-                spouses: [],
-                children: [],
-                siblings: [],
-                halfSiblings: [],
-                resources: []
-            };
+    async function loadMemorial(id) {
+            const memorialData = await tributeData(id)
             
             // Populate form fields
             document.getElementById('memorial-id').value = memorialData.id;
@@ -953,7 +951,6 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Hide search results
             resultsContainer.classList.add('hidden');
-        }, 800);
     }
     
     // Add New Memorial button
@@ -1561,9 +1558,9 @@ if (advancedSearchForm) {
         // Add click event to search results
         const resultCards = searchResults.querySelectorAll('.search-result-card');
         resultCards.forEach(card => {
-          card.addEventListener('click', function() {
+          card.addEventListener('click', async function() {
             const id = this.getAttribute('data-id');
-            loadMemorial(id);
+            await loadMemorial(id);
           });
         });
       }
@@ -1753,5 +1750,24 @@ if (gpsInput && mapPreview) {
   });
 }
 
+ function checkAndSetNameFromURL() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const name = urlParams.get('name');
+  const id = urlParams.get('id');
+  if (name) {
+    const searchForm =  document.getElementById('search-name');  // Assuming your form has id="searchForm"
+
+    if (searchForm) {
+      searchForm.value = name;
+
+      // Scroll input into view smoothly
+      searchForm.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      
+     loadMemorial(id)
+    }
+  }
+}
+
+ 
 });
   </script>
