@@ -59,6 +59,11 @@ exclude:
 # Timezone for timestamp conversion
 timezone: UTC
 
+# RSS Feeds
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+
 collections:
   authors:
     output: true
