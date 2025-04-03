@@ -19,8 +19,8 @@
 # plugins_dir:        _plugins
 
 # Optional: You can define where your posts are located (if in a custom folder)
-posts_dir: "pages/blog"
-#posts_dir: "_posts/blog"
+#posts_dir: "pages/blog"
+posts_dir: "_posts"
 
 # Inclusion of recent posts in sidebar
 # recent_posts:       false
