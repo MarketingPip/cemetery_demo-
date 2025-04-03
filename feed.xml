@@ -15,7 +15,7 @@ permalink: /feed.xml
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 
-    <!-- Proper atom:link definition -->
+    <!-- Proper atom:link definition with matching location -->
     <atom:link href="{{ site.url }}{{ "/feed.xml" | relative_url }}" rel="self" type="application/rss+xml" />
 
     {% for post in site.posts limit:10 %}
