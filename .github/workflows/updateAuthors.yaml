@@ -25,7 +25,7 @@ jobs:
         run: npm install
 
       - name: Run the script to update author posts
-        run: node update-authors.js
+        run: node node .github/workflows/updateAuthors/update-authors.js
 
       - name: Commit changes
         run: |
