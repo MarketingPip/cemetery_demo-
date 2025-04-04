@@ -23,6 +23,3 @@ module Jekyll
     end
   end
 end
-
-# Register the filter with Jekyll
-Liquid::Template.registerFilter(Jekyll::FileCreationDateFilter)
