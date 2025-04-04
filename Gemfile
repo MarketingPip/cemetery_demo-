@@ -12,7 +12,7 @@ gem 'jekyll-assets'
 gem 'minify'
 
 # Optional: Use `jekyll-asset-minifier` for asset minification.
-gem 'jekyll-asset-minifier'
+gem 'jekyll-minifier'
 
 # You can also include any other plugins or gems you need for your project.
 # Example: gem 'jekyll-sitemap' for adding a sitemap.
