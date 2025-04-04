@@ -81,7 +81,9 @@ permalink: /events/
     <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Upcoming Events</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto" id="upcoming-events-list">
       {% assign today = 'now' | date: "%Y-%m-%d" %}
-      {% assign upcoming_events = site.data.events | select: "date", ">" | where: "date", today | sort: "date" %}
+      
+      {% assign upcoming_events = site.data.events | select: "date" | where: "date", ">", today %}
+      
       {% if upcoming_events.size > 0 %}
         {% for event in upcoming_events %}
           <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden event-card">
@@ -108,7 +110,9 @@ permalink: /events/
     <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Past Events</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto" id="past-events-list">
       {% assign today = 'now' | date: "%Y-%m-%d" %}
-      {% assign past_events = site.data.events | where: "date", "<", today | sort: "date" %}
+      
+      {% assign past_events = site.data.events | select: "date" | where: "date", "<", today %}
+      
       {% if past_events.size > 0 %}
         {% for event in past_events %}
           <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden event-card">
@@ -128,6 +132,7 @@ permalink: /events/
     </div>
   </div>
 </section>
+
 
 
 
