@@ -18,12 +18,12 @@ downloadableResources:
 tools:
   - title: "Family Relationship Chart"
     description: "Explore the relationships to you and your family"
-    link: "tools/family-relationship-chart"
+    link: "family-relationship-chart"
     icon: "fas fa-wrench"
     color: "text-green-600"
   - title: "Funeral Cost Estimator"
     description: "Get an estimate on how much a funeral will be at Crediton"
-    link: "tools/funeral-cost-estimator"
+    link: "funeral-cost-estimator"
     icon: "fas fa-wrench"
     color: "text-green-600"
 
