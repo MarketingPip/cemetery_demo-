@@ -83,3 +83,8 @@ plugins:
   - jekyll-sitemap
   - file_creation_date
   - expire_posts
+
+# _config.yml
+minify:
+  css: true    # Enable CSS minification
+  js: true     # Enable JS minification  
