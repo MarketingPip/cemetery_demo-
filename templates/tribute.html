@@ -442,7 +442,7 @@ async function tributeData(tributeId) {
 function renderPerson(person) {
     return `
             <!-- Wrap the whole card in an anchor tag to make it clickable -->
-        <a href="../tribute?id=${person?.id}"
+        <a href="tribute?id=${person?.id}"
            title="View ${person.name}'s memorial page" 
            aria-label="Link to ${person.name}'s memorial page">
         <div class="flex items-start gap-4">
