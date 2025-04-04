@@ -1,0 +1,295 @@
+---
+permalink: /resources/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Resources | Crediton Cemetery Heritage Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Leaflet for Interactive Map -->
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /> 
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40vh;
+    }
+    .resource-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    }
+
+    a[href$=".pdf"]:after {
+    content: "PDF";
+    background: #e83333;
+    border-radius: 0.0625rem;
+    color: #fff;
+    margin-left: 0.5rem;
+    display: inline-block;
+    padding: 0 0.5rem;
+    font: 400 1rem Open Sans,Helvetica,Arial,sans-serif;
+    height: 1.4rem;
+    line-height: 1.5rem;
+    vertical-align: baseline;
+}
+    
+        
+    /* Custom class for popover or any other element */
+.leaflet-popup-content-wrapper {
+    min-width: 22rem;
+    display: inline-block;        /* Set the element to inline-block */
+    font-size: 0.875rem;          /* Equivalent to text-sm */
+    color: #6B7280;               /* Text color gray-500 (Light mode) */
+    transition: opacity 0.3s;     /* Smooth transition for opacity */
+    background-color: #FFFFFF;    /* Background color white */
+    border: 1px solid #E5E7EB;    /* Border color gray-200 (Light mode) */
+    border-radius: 0.375rem;      /* Rounded corners (rounded-lg) */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); /* Shadow for depth */
+ 
+     
+    overflow: hidden;             /* Prevent overflow */
+}
+
+.leaflet-popup-content-wrapper.dark {
+    color: #D1D5DB;               /* Dark mode text color gray-400 */
+    background-color: #1F2937;    /* Dark mode background gray-800 */
+    border-color: #4B5563;        /* Dark mode border gray-600 */
+}
+
+    .leaflet-popup-content {
+    margin: unset;
+    }
+
+
+
+    .text-below-marker {
+  min-width: 100px;
+  left: -50px;
+  text-align: center;
+  min-height: 1.2em;
+  color:black;
+}
+  </style>
+</head>
+<body class="bg-gray-50 font-sans">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
+    <div class="px-4 py-3 container mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+          <i class="fas fa-tree text-green-400"></i>
+          <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <a class="transition hover:text-green-400" href="#home">Home</a>
+          <a class="transition hover:text-green-400" href="#map">Interactive Map</a>
+          <a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a>
+          <a class="transition hover:text-green-400" href="#search">Search Records</a>
+          <a class="transition hover:text-green-400" href="#timeline">Historical Timeline</a>
+          <a class="transition hover:text-green-400" href="#donate">Support Us</a>
+        </div>
+        <div class="md:hidden">
+          <button class="focus:outline-none" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden md:hidden" id="mobile-menu">
+      <div class="px-4 container mx-auto flex flex-col py-2 space-y-3">
+        <a class="transition hover:text-green-400 block" href="#home">Home</a>
+        <a class="transition hover:text-green-400 block" href="#map">Interactive Map</a>
+        <a class="transition hover:text-green-400 block" href="#exhibits">Virtual Exhibits</a>
+        <a class="transition hover:text-green-400 block" href="#search">Search Records</a>
+        <a class="transition hover:text-green-400 block" href="#timeline">Historical Timeline</a>
+        <a class="transition hover:text-green-400 block" href="#donate">Support Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex items-center justify-center hero-image text-center text-white" id="resources-hero">
+    <div class="px-4 container mx-auto">
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl">Resources</h1>
+      <p class="mb-8 md:text-2xl text-xl">Tools, guides, and links for exploring Crediton Cemetery’s history.</p>
+    </div>
+  </section>
+
+  <!-- Resources Intro Section -->
+  <section class="bg-white py-12" id="resources-intro">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Explore Our Resources</h2>
+      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Whether you’re a researcher, genealogist, educator, or visitor, we’ve compiled resources to help you learn more about Crediton Cemetery and its heritage. Have a resource to share? <a href="#contact" class="text-green-700 hover:text-green-900">Contact us</a>.</p>
+    </div>
+  </section>
+
+<!-- Downloadable Resources Section -->
+<section class="bg-gray-50 py-12" id="downloadable-resources">
+  <div class="px-4 container mx-auto">
+    <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Downloadable Resources</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+      
+      {% for resource in site.downloadable_resources %}
+        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md resource-card p-6">
+          <div class="flex items-center mb-4">
+            <i class="{{ resource.icon }} {{ resource.color }} text-2xl mr-4"></i>
+            <h3 class="font-bold text-xl text-gray-800">{{ resource.title }}</h3>
+          </div>
+          <p class="text-gray-600 mb-4">{{ resource.description }}</p>
+          <a href="{{ resource.link }}" class="font-bold text-green-700 hover:text-green-900 transition">Download PDF</a>
+        </div>
+      {% endfor %}
+      
+    </div>
+  </div>
+</section>
+
+
+<!-- External Links Section -->
+<section class="bg-white py-12" id="external-links">
+  <div class="px-4 container mx-auto">
+    <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">External Resources</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+      
+      {% for link in site.external_resources %}
+        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md resource-card p-6">
+          <div class="flex items-center mb-4">
+            <i class="{{ link.icon }} {{ link.color }} text-2xl mr-4"></i>
+            <h3 class="font-bold text-xl text-gray-800">{{ link.title }}</h3>
+          </div>
+          <p class="text-gray-600 mb-4">{{ link.description }}</p>
+          <a href="{{ link.link }}" target="_blank" rel="noopener noreferrer" class="font-bold text-green-700 hover:text-green-900 transition">Visit Site</a>
+        </div>
+      {% endfor %}
+      
+    </div>
+  </div>
+</section>
+
+
+
+ <!-- Tool Links Section -->
+<section class="bg-gray-50 py-12" id="tools">
+  <div class="px-4 container mx-auto">
+    <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Tools</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+      
+      {% for tool in site.tools %}
+        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md tool-card p-6">
+          <div class="flex items-center mb-4">
+            <i class="{{ tool.icon }} {{ tool.color }} text-2xl mr-4"></i>
+            <h3 class="font-bold text-xl text-gray-800">{{ tool.title }}</h3>
+          </div>
+          <p class="text-gray-600 mb-4">{{ tool.description }}</p>
+          <a href="{{ tool.link }}" class="font-bold text-green-700 hover:text-green-900 transition">View Tool</a>
+        </div>
+      {% endfor %}
+      
+    </div>
+  </div>
+</section>
+
+
+  
+  <!-- Visiting Section -->
+  <section class="bg-white py-12" id="visiting">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Visiting Crediton Cemetery</h2>
+      <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8">
+        <div class="md:w-1/2">
+          <p class="text-gray-600 mb-4"><strong>Hours:</strong> Open daily from dawn to dusk.</p>
+          <p class="text-gray-600 mb-4"><strong>Location:</strong> <a href="https://www.google.com/maps?daddr=40+Victoria+Avenue+West,+Crediton,+Ontario,+Canada" target="_blank"  class="text-blue-600 hover:text-blue-800 items-center"> 40 Victoria Avenue West, Crediton, Ontario, N0M 1M0.</a></p>
+          <p class="text-gray-600 mb-4"><strong>Directions:</strong><a href="https://www.google.com/maps?daddr=40+Victoria+Avenue+West,+Crediton,+Ontario,+Canada" target="_blank" class="text-blue-600 hover:text-blue-800 items-center">
+                Get Directions <i class="fas fa-external-link-alt ml-1"></i></a>
+          </p>
+          <p class="text-gray-600">Check our <a href="#events" class="text-green-700 hover:text-green-900">Events</a> page for guided tours or special visits. Questions? <a href="#contact" class="text-green-700 hover:text-green-900">Contact us</a>.</p>
+        </div>
+        <div id="cemetery-map" class="w-full md:w-1/2 h-64 object-cover rounded-lg shadow-md z-10"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="px-4 container mx-auto text-center">
+      <p>© 2025 Crediton Cemetery Heritage Portal. All rights reserved.</p>
+      <div class="flex justify-center mt-4 space-x-6">
+        <a class="hover:text-white text-gray-400" href="#">Privacy Policy</a>
+        <a class="hover:text-white text-gray-400" href="#">Terms of Service</a>
+        <a class="hover:text-white text-gray-400" href="#">Contact</a>
+      </div>
+
+
+    </div>
+  </footer>
+
+
+
+
+  <!-- Mobile Menu Toggle Script -->
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', () => {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+    
+     
+    document.addEventListener("DOMContentLoaded", function () {
+      const map = L.map("cemetery-map").setView([51.505, -0.09], 13);
+
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution: "&copy; OpenStreetMap contributors"
+    }).addTo(map);
+
+
+ 
+      
+    // Example marker (replace with actual cemetery coordinates)
+
+// specify popup options 
+var customOptions = {
+   // 'maxWidth': 400,
+  //  'width': 200,
+   'className' : 'popupCustom'
+}
+    
+      
+    L.marker([43.29868, -81.55274]).addTo(map)
+      .bindPopup(`
+<div class="grid grid-cols-5 gap-4">
+                        <div class="col-span-3 p-3">
+                            <div class="space-y-2">
+                                <h3 id="popover-title" class="font-semibold text-gray-900 dark:text-white">Crediton Cemetery</h3>
+                                <p id="popover-description" class="text-gray-700 dark:text-gray-300">The Crediton Cemetery, located at <b>40 Victoria Avenue West, Crediton, Ontario, N0M 1M0</b>, <br>
+                                is a peaceful resting place that serves as a memorial to the community's history.
+                                </p>
+        
+                                <a id="readme-link" href="https://www.google.com/maps/dir/?api=1&destination=40%20Victoria%20Ave%20W,%20Crediton,%20ON%20N0M%201M0" class="flex items-center font-medium text-blue-600 dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:underline" target="_blank">Get Directions
+                                    <svg class="w-2 h-2 ms-1.5 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="popover-image-src" class="h-full w-full">
+                            <!-- Adjusted image size -->
+                            <img id="popover-avatar" class="w-full  h-full object-fill col-span-2 rounded-r-lg min-w-[160px]" alt="Owner Avatar" src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=RoZKv6Zz4zxYvZGyh_IWkQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=347.2649&pitch=0&thumbfov=100">
+                        </div>
+                    </div>`, customOptions).openPopup();
+
+
+
+ 
+      
+      map.setView([43.29868, -81.55274], 13)
+});
+
+  </script>
+</body>
+</html>
