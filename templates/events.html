@@ -82,9 +82,9 @@ permalink: /events/
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto" id="upcoming-events-list">
       {% assign today = 'now' | date: "%Y-%m-%d" %}
       
-      <!-- Use select to filter upcoming events based on the date -->
+      <!-- Manually filter upcoming events by date using select -->
       {% assign upcoming_events = site.data.events | select: "date" %}
-      {% assign upcoming_events = upcoming_events | where: "date", ">", today %}
+      {% assign upcoming_events = upcoming_events | where_exp: "event", "event.date > today" %}
       
       {% if upcoming_events.size > 0 %}
         {% for event in upcoming_events %}
@@ -113,9 +113,9 @@ permalink: /events/
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto" id="past-events-list">
       {% assign today = 'now' | date: "%Y-%m-%d" %}
       
-      <!-- Use select to filter past events based on the date -->
+      <!-- Manually filter past events by date using select -->
       {% assign past_events = site.data.events | select: "date" %}
-      {% assign past_events = past_events | where: "date", "<", today %}
+      {% assign past_events = past_events | where_exp: "event", "event.date < today" %}
       
       {% if past_events.size > 0 %}
         {% for event in past_events %}
