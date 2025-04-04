@@ -83,7 +83,6 @@ collections:
 # Plugins
 plugins:
   - jekyll-sitemap
-  - octopress-minify-html
   - jekyll-assets
 
 minify_html: true
