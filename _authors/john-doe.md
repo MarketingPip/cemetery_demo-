@@ -1,10 +1,8 @@
 ---
 layout: author
-title: "Jane Doe - Blog Author | Crediton Cemetery Heritage Portal"
-author: "john-doe"
-name: "Jane Doe"
+name: "John Doe"
 role: "Historical Preservation Specialist"
-bio: "Jane is an expert in heritage conservation and has contributed extensively to local history projects."
+bio: "John is an expert in heritage conservation and has contributed extensively to local history projects."
 image: "/images/authors/jane_doe.jpg"
 social:
   facebook: "https://facebook.com/jane_doe"
