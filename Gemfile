@@ -13,10 +13,7 @@ gem 'minify'
 
 # Optional: Use `jekyll-asset-minifier` for asset minification.
 gem 'jekyll-minifier'
-
-# You can also include any other plugins or gems you need for your project.
-# Example: gem 'jekyll-sitemap' for adding a sitemap.
-# gem 'jekyll-sitemap'
+gem 'jekyll-sitemap'
 
 # If you're using any CSS preprocessors (like Sass), you can add this:
 gem 'sassc'
