@@ -1,15 +1,30 @@
-# _plugins/file_creation_date.rb
+require 'open3'
+require 'date'
 
 module Jekyll
   class Post
     def file_creation_date
+      # Get the full file path relative to the Jekyll source folder
       file_path = File.join(Jekyll.sites[0].source, self.path)
 
-      if File.exist?(file_path)
-        timestamp = File.ctime(file_path)
-        timestamp.strftime('%a, %d %b %Y %H:%M:%S +0000')
+      # Fetch the file's creation date using Git (first commit date)
+      get_git_creation_date(file_path)
+    end
+
+    # Method to get the creation date of the file using Git (first commit)
+    def get_git_creation_date(file)
+      # Execute git log to get the first commit date for the file
+      command = "git log --reverse --format=%cI -- #{file} | head -n 1"
+      
+      # Capture the output of the Git command
+      stdout, stderr, status = Open3.capture3(command)
+
+      if status.success? && !stdout.strip.empty?
+        # Parse the ISO 8601 formatted date returned by Git
+        DateTime.parse(stdout.strip)
       else
-        "Sat, 01 Jan 2000 00:00:00 +0000"
+        # If no output, return nil (indicating no creation date found)
+        nil
       end
     end
   end
