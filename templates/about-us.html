@@ -1,0 +1,148 @@
+---
+permalink: /about-us/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>About Us | Crediton Cemetery Heritage Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://archive.cloud.cwgc.org/images-cemetery-images-prod/2080149/Crediton-Evangelical-Cemetery--Ontario--22974.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40vh;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 font-sans">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
+    <div class="px-4 py-3 container mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+          <i class="fas fa-tree text-green-400"></i>
+          <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <a class="transition hover:text-green-400" href="#home">Home</a>
+          <a class="transition hover:text-green-400" href="#map">Interactive Map</a>
+          <a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a>
+          <a class="transition hover:text-green-400" href="#search">Search Records</a>
+          <a class="transition hover:text-green-400" href="#timeline">Historical Timeline</a>
+          <a class="transition hover:text-green-400" href="#donate">Support Us</a>
+        </div>
+        <div class="md:hidden">
+          <button class="focus:outline-none" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden md:hidden" id="mobile-menu">
+      <div class="px-4 container mx-auto flex flex-col py-2 space-y-3">
+        <a class="transition hover:text-green-400 block" href="#home">Home</a>
+        <a class="transition hover:text-green-400 block" href="#map">Interactive Map</a>
+        <a class="transition hover:text-green-400 block" href="#exhibits">Virtual Exhibits</a>
+        <a class="transition hover:text-green-400 block" href="#search">Search Records</a>
+        <a class="transition hover:text-green-400 block" href="#timeline">Historical Timeline</a>
+        <a class="transition hover:text-green-400 block" href="#donate">Support Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex items-center justify-center hero-image text-center text-white" id="about-hero">
+    <div class="px-4 container mx-auto">
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl">About Us</h1>
+      <p class="mb-8 md:text-2xl text-xl">Preserving the legacy of Crediton Cemetery for future generations.</p>
+    </div>
+  </section>
+
+  <!-- Mission Section -->
+  <section class="bg-white py-12" id="mission">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Our Mission</h2>
+      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">The Crediton Cemetery Heritage Portal is dedicated to preserving and sharing the rich history of Crediton Cemetery. Through digitizing records, creating virtual exhibits, and engaging the community, we aim to honor the memory of those buried here and ensure their stories endure.</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+        <div class="text-center">
+          <i class="fas fa-archive text-green-600 text-3xl mb-4"></i>
+          <h3 class="font-bold text-xl text-gray-800 mb-2">Preserve History</h3>
+          <p class="text-gray-600">Digitize records and artifacts to safeguard Crediton’s past.</p>
+        </div>
+        <div class="text-center">
+          <i class="fas fa-book-open text-green-600 text-3xl mb-4"></i>
+          <h3 class="font-bold text-xl text-gray-800 mb-2">Educate</h3>
+          <p class="text-gray-600">Share stories and exhibits to inspire learning and discovery.</p>
+        </div>
+        <div class="text-center">
+          <i class="fas fa-users text-green-600 text-3xl mb-4"></i>
+          <h3 class="font-bold text-xl text-gray-800 mb-2">Engage Community</h3>
+          <p class="text-gray-600">Connect people through volunteering, events, and contributions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- History Section -->
+  <section class="bg-gray-50 py-12" id="history">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Our History</h2>
+      <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8">
+        <img alt="Historical Crediton Cemetery" class="w-full md:w-1/2 h-64 object-cover rounded-lg shadow-md" src="https://www.wurm-hastings.com/headstones/crediton_cemet.jpg">
+        <div>
+          <p class="text-gray-600 mb-4">Crediton Cemetery was established in the early 1830s as settlers, many of German descent, began to make Stephen Township their home. The first recorded burial, Barbara Shulz in 1835, marks the beginning of a legacy that spans nearly two centuries. Over time, the cemetery became a resting place for pioneers, veterans, and community members, each headstone telling a story of resilience and heritage.</p>
+          <p class="text-gray-600">In 2020, a group of dedicated volunteers launched the Crediton Cemetery Heritage Portal to preserve these stories digitally. Today, we continue to expand our efforts with the support of donors, volunteers, and the community, ensuring this historic site remains a cherished resource.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="bg-white py-12" id="team">
+    <div class="px-4 container mx-auto text-center">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8">Our Team</h2>
+      <p class="text-gray-600 mx-auto max-w-3xl mb-12">Our work is driven by a passionate group of volunteers and board members who bring diverse skills and a shared commitment to Crediton’s heritage.</p>
+      <div class="flex justify-center">
+        <a href="../board-members" class="font-bold text-white transition bg-green-700 hover:bg-green-900 px-6 py-3 rounded-lg">Meet Our Board</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Get Involved Section -->
+  <section class="bg-gray-50 py-12">
+    <div class="px-4 container mx-auto text-center">
+      <h2 class="font-bold text-3xl text-gray-800 mb-6">Get Involved</h2>
+      <p class="text-gray-600 mx-auto max-w-3xl mb-8">Join us in preserving Crediton Cemetery’s legacy—whether through volunteering, donating, or sharing your stories.</p>
+      <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 justify-center">
+        <a href="#volunteer" class="font-bold text-white transition bg-green-700 hover:bg-green-900 px-6 py-3 rounded-lg">Volunteer</a>
+        <a href="#donate" class="font-bold text-white transition bg-gray-700 hover:bg-gray-800 px-6 py-3 rounded-lg">Donate</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="px-4 container mx-auto text-center">
+      <p>© 2025 Crediton Cemetery Heritage Portal. All rights reserved.</p>
+      <div class="flex justify-center mt-4 space-x-6">
+        <a class="hover:text-white text-gray-400" href="#">Privacy Policy</a>
+        <a class="hover:text-white text-gray-400" href="#">Terms of Service</a>
+        <a class="hover:text-white text-gray-400" href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Menu Toggle Script -->
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', () => {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
