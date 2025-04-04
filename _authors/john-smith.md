@@ -1,3 +1,5 @@
+---
+layout: author
 title: "Jane Doe - Blog Author | Crediton Cemetery Heritage Portal"
 author: "jane_doe"
 name: "Jane Doe"
@@ -17,3 +19,4 @@ posts:
     url: "/blog/2025/02/10/restoring-our-cemeteries"
     date: "February 10, 2025"
     excerpt: "A look into the efforts to preserve Crediton Cemetery's history."
+---
