@@ -21,6 +21,7 @@ module Jekyll
             # If the expire_date is valid and in the past, delete the post
             if expire_date && expire_date < Date.today
               # Remove the post from the collection
+              post.data['published'] = false
               site.posts.docs.delete(post)
               puts "Post '#{post.data['title']}' has expired and has been deleted."
             end
