@@ -112,7 +112,7 @@ jekyll-minifier:
   preserve_patterns:                # Default: (empty)
   uglifier_args:                    # Default: (empty)
 
-minify_html: false
+minify_html: true
 
 assets:
   compress: true  # Enable CSS and JS compression
