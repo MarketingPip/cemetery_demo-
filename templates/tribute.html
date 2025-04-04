@@ -222,7 +222,7 @@ permalink: /tribute/
           <!-- Resource to another page / tool -->
            <div>
             <h3 class="text-lg font-semibold">Is this person in your family tree?</h3>
-            <p class="text-sm">Learn more about how you are connected <a href="genealogy-tool" id="gene-link" class="text-blue-600 hover:text-blue-800" title="Relationship Explorer">here</a>.</p>
+            <p class="text-sm">Learn more about how you are connected <a href="../resources/tools/genealogy-tool" id="gene-link" class="text-blue-600 hover:text-blue-800" title="Relationship Explorer">here</a>.</p>
           </div>
           
           <!-- Tabs Container -->
@@ -440,7 +440,7 @@ async function tributeData(tributeId) {
 function renderPerson(person) {
     return `
             <!-- Wrap the whole card in an anchor tag to make it clickable -->
-        <a href="tribute?id=${person?.id}"
+        <a href="../tribute?id=${person?.id}"
            title="View ${person.name}'s memorial page" 
            aria-label="Link to ${person.name}'s memorial page">
         <div class="flex items-start gap-4">
