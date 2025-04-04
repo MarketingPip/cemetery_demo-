@@ -23,6 +23,8 @@ url:                https://marketingpip.github.io/
 plugins_dir:        _plugins
 baseurl: "/"
 
+env: production
+
 # Optional: You can define where your posts are located (if in a custom folder)
 #posts_dir: "pages/blog"
 posts_dir: "_posts"
