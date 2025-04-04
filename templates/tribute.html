@@ -336,14 +336,25 @@ function renderMarkmap(parents, spouses, children, grandchildren, person) {
     markdown += "\n";
   }
 
-  // Initialize Markmap
-  const { Transformer, Markmap, loadCSS, loadJS } = markmap;
+  const { Transformer } = markmap;
+
   const transformer = new Transformer();
   const { root, features } = transformer.transform(markdown);
 
-  // Create the Markmap instance and pass the transformed data
-  Markmap.create("#markmap", {}, root);
-}    
+  // Extract used assets (CSS and JS)
+  const { styles, scripts } = transformer.getUsedAssets(features);
+
+  // Load the assets (if any)
+  if (styles) loadCSS(styles);
+  if (scripts) {
+    loadJS(scripts, {
+      getMarkmap: () => markmap
+    });
+  }
+
+  // Create the mindmap
+  return Markmap.create("#markmap", opts, root);
+}
 
     
 function populateGenealogyLink(name, gender) {
