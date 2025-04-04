@@ -82,6 +82,9 @@ collections:
 plugins:
   - jekyll-sitemap
 
+assets:
+  compress: true  # Enable CSS and JS compression
+  minify: true    # Enable HTML minification
 # _config.yml
 minify:
   css: true    # Enable CSS minification
