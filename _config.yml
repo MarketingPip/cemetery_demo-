@@ -83,7 +83,7 @@ collections:
 # Plugins
 plugins:
   - jekyll-sitemap
-  - jekyll-minifier
+ # - jekyll-minifier
   - jekyll-assets
 
 jekyll-minifier:
