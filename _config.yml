@@ -47,6 +47,10 @@ permalink: /blog/:title/
 # A list of directories and files to exclude from the conversion
 exclude:
   - pages
+  - pages/blog
+  - pages/blog/author
+  - pages/exibits
+  - pages/exibits/history_of_town
   - bin
   - action-build
   - Gemfile
