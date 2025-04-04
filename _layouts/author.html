@@ -59,7 +59,7 @@
   <!-- Hero Section -->
   <section class="flex items-center justify-center hero-image text-center text-white" id="author-hero">
     <div class="px-4 container mx-auto">
-      <h1 class="font-bold text-4xl mb-4 md:text-6xl">{{ page.author | capitalize }}</h1>
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl">{{ page.name }}</h1>
       <p class="mb-8 md:text-2xl text-xl">{{ page.bio }}</p>
     </div>
   </section>
@@ -70,7 +70,7 @@
       <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8">
         <img alt="{{ page.author | capitalize }}" class="w-48 h-48 rounded-full object-cover shadow-md" src="{{ page.author_image }}">
         <div class="text-center md:text-left">
-          <h2 class="font-bold text-3xl text-gray-800 mb-4">About {{ page.name | capitalize }}</h2>
+          <h2 class="font-bold text-3xl text-gray-800 mb-4">About {{ page.name}}</h2>
           <p class="text-gray-600 mb-6">{{ page.bio }}</p>
           <div class="flex justify-center md:justify-start space-x-4">
             <a href="{{ page.social.facebook }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-facebook-f"></i></a>
@@ -85,8 +85,8 @@
   <!-- Blog Posts Section -->
   <section class="bg-gray-100 py-12" id="author-posts">
     <div class="px-4 container mx-auto">
-      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Posts by {{ page.author | capitalize }}</h2>
-      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Explore {{ page.author | capitalize }}’s contributions to our blog.</p>
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Posts by {{ page.name }}</h2>
+      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Explore {{ page.name }}’s contributions to our blog.</p>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {% for post in page.posts %}
