@@ -1,0 +1,151 @@
+---
+permalink: /events/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>{{ page.title }}</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40vh;
+    }
+    .event-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    }
+  </style>
+</head>
+<body class="bg-gray-50 font-sans">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
+    <div class="px-4 py-3 container mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+          <i class="fas fa-tree text-green-400"></i>
+          <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <a class="transition hover:text-green-400" href="#home">Home</a>
+          <a class="transition hover:text-green-400" href="#map">Interactive Map</a>
+          <a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a>
+          <a class="transition hover:text-green-400" href="#search">Search Records</a>
+          <a class="transition hover:text-green-400" href="#timeline">Historical Timeline</a>
+          <a class="transition hover:text-green-400" href="#donate">Support Us</a>
+        </div>
+        <div class="md:hidden">
+          <button class="focus:outline-none" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden md:hidden" id="mobile-menu">
+      <div class="px-4 container mx-auto flex flex-col py-2 space-y-3">
+        <a class="transition hover:text-green-400 block" href="#home">Home</a>
+        <a class="transition hover:text-green-400 block" href="#map">Interactive Map</a>
+        <a class="transition hover:text-green-400 block" href="#exhibits">Virtual Exhibits</a>
+        <a class="transition hover:text-green-400 block" href="#search">Search Records</a>
+        <a class="transition hover:text-green-400 block" href="#timeline">Historical Timeline</a>
+        <a class="transition hover:text-green-400 block" href="#donate">Support Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex items-center justify-center hero-image text-center text-white" id="events-hero">
+    <div class="px-4 container mx-auto">
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl">Events</h1>
+      <p class="mb-8 md:text-2xl text-xl">Join us to celebrate and preserve Crediton Cemetery’s heritage.</p>
+    </div>
+  </section>
+
+  <!-- Events Intro Section -->
+  <section class="bg-white py-12" id="events-intro">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Upcoming & Past Events</h2>
+      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Discover opportunities to engage with Crediton Cemetery through tours, clean-up days, and special events. Want to suggest an event or volunteer? <a href="contact-us" class="text-green-700 hover:text-green-900">Contact us</a>.</p>
+    </div>
+  </section>
+
+  <!-- Upcoming Events Section -->
+  <section class="bg-gray-50 py-12" id="upcoming-events">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Upcoming Events</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto" id="upcoming-events-list">
+        {% for event in site.events %}
+          {% if event.date >= 'now' %}
+            <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden event-card">
+              <img src="{{ event.image }}" alt="{{ event.title }}" class="w-full h-48 object-cover">
+              <div class="p-6">
+                <h3 class="font-bold text-xl text-gray-800 mb-2">{{ event.title }}</h3>
+                <p class="text-gray-600 text-sm mb-2"><strong>Date:</strong> {{ event.date | date: '%B %d, %Y' }} <br><strong>Time:</strong> {{ event.time }}</p>
+                <p class="text-gray-600 text-sm mb-2"><strong>Location:</strong> {{ event.location }}</p>
+                <p class="text-gray-600 mb-4">{{ event.description }}</p>
+                <a href="{{ event.link }}" class="font-bold text-green-700 hover:text-green-900 transition">Learn More</a>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- Past Events Section -->
+  <section class="bg-white py-12" id="past-events">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Past Events</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto" id="past-events-list">
+        {% for event in site.events %}
+          {% if event.date < 'now' %}
+            <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden event-card">
+              <img src="{{ event.image }}" alt="{{ event.title }}" class="w-full h-48 object-cover">
+              <div class="p-6">
+                <h3 class="font-bold text-xl text-gray-800 mb-2">{{ event.title }}</h3>
+                <p class="text-gray-600 text-sm mb-2"><strong>Date:</strong> {{ event.date | date: '%B %d, %Y' }} <br><strong>Time:</strong> {{ event.time }}</p>
+                <p class="text-gray-600 text-sm mb-2"><strong>Location:</strong> {{ event.location }}</p>
+                <p class="text-gray-600 mb-4">{{ event.description }}</p>
+                <a href="{{ event.link }}" class="font-bold text-green-700 hover:text-green-900 transition">Learn More</a>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- Get Involved Section -->
+  <section class="bg-gray-50 py-12">
+    <div class="px-4 container mx-auto text-center">
+      <h2 class="font-bold text-3xl text-gray-800 mb-6">Get Involved</h2>
+      <p class="text-gray-600 mx-auto max-w-3xl mb-8">Help make our events a success by volunteering or donating.</p>
+      <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 justify-center">
+        <a href="volunteer" class="font-bold text-white transition bg-green-700 hover:bg-green-900 px-6 py-3 rounded-lg">Volunteer</a>
+        <a href="support-us" class="font-bold text-white transition bg-gray-700 hover:bg-gray-800 px-6 py-3 rounded-lg">Donate</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="px-4 container mx-auto text-center">
+      <p class="text-lg">&copy; 2025 Crediton Cemetery Heritage Portal. All rights reserved.</p>
+      <p class="text-sm text-gray-400 mt-2">Created by Jared Van Valkengoed</p>
+      <div class="flex flex-wrap justify-center mt-6 space-x-6 space-y-2 sm:space-y-0">
+        <a href="privacy-policy" class="hover:text-white text-gray-400 transition-colors duration-300">Privacy Policy</a>
+        <a href="terms-of-service" class="hover:text-white text-gray-400 transition-colors duration-300">Terms of Service</a>
+        <a href="faq" class="hover:text-white text-gray-400 transition-colors duration-300">Frequently Asked Questions</a>
+        <a href="resources" class="hover:text-white text-gray-400 transition-colors duration-300">Resources</a>
+        <a href="contact-us" class="hover:text-white text-gray-400 transition-colors duration-300">Contact</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
