@@ -94,14 +94,14 @@
     <div class="flex space-x-4 ml-auto">
       {% if page.previous %}
         {% assign prev_slug = page.previous.url| split: '/' | last %}
-        <a href="{{ prev_slug }}" class="text-gray-600 hover:text-gray-800 transition">
+        <a href="../{{ prev_slug }}" class="text-gray-600 hover:text-gray-800 transition">
           <span class="inline sm:hidden">←</span>
           <span class="hidden sm:inline">← Previous Article</span>
         </a>
       {% endif %}
       {% if page.next %}
       {% assign next_slug = page.next.url | split: '/' | last %}
-        <a href="{{ next_slug }}" class="text-gray-600 hover:text-gray-800 transition">
+        <a href="../{{ next_slug }}" class="text-gray-600 hover:text-gray-800 transition">
           <span class="inline sm:hidden">→</span>
           <span class="hidden sm:inline">Next Article →</span>
         </a>
