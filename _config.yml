@@ -84,6 +84,9 @@ collections:
 plugins:
   - jekyll-sitemap
   - jekyll-minifier
+  - octopress-minify-html
+  - minify
+  - jekyll-assets
 
 jekyll-minifier:
   preserve_php: true                # Default: false
