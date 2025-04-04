@@ -19,6 +19,7 @@ module Jekyll
 
             # If expire_date is valid and in the past, remove the post from the collection
             if expire_date && expire_date < Date.today
+              post.data['published'] = false
               puts "Post '#{post.data['title']}' has expired and will not be rendered."
               true  # Remove expired post from the collection
             else
