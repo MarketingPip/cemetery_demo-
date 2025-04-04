@@ -81,8 +81,6 @@ collections:
 # Plugins
 plugins:
   - jekyll-sitemap
-  - file_creation_date
-  - expire_posts
 
 # _config.yml
 minify:
