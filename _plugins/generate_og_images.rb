@@ -13,7 +13,7 @@ module Jekyll
       # Configuration defaults
       og_folder = site.config['og_images_folder'] || 'assets/og-images'
       template_path = site.config['og_template'] || '_includes/og-template.html'
-      output_dir = File.join(site.dest, og_folder)
+      output_dir = File.join(site.source, og_folder)
 
       # Ensure output directory exists
       FileUtils.mkdir_p(output_dir) unless File.directory?(output_dir)
