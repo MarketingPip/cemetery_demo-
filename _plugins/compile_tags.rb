@@ -4,38 +4,41 @@ module Jekyll
     safe true
 
     def generate(site)
+      Jekyll.logger.info "Starting tag page generation..."
+
       # Collect all tags from posts
       all_tags = []
       site.posts.docs.each do |post|
         tags = post.data['tags'] || []
         all_tags += tags
       end
-
-      # Remove duplicate tags
       all_tags = all_tags.uniq
+      Jekyll.logger.info "Found tags: #{all_tags.join(', ')}"
 
       # Create a tag page for each tag
       all_tags.each do |tag|
-        # Define the directory and filename for the tag page
         dir = "blog/#{tag}"
         name = "index.html"
+        Jekyll.logger.info "Creating page for tag '#{tag}' at '#{dir}/#{name}'"
 
         # Create a new page
-        page = Jekyll::Page.new(site, site.source, dir, name)
-
-        # Set the front matter
-        page.data = {
-          'layout' => 'tag_page',
-          'tag' => tag,
-          'robots' => 'noindex'
-        }
-
-        # Content is optional; layout will handle rendering
-        page.content = ''
-
-        # Add the page to the site's pages collection
-        site.pages << page
+        begin
+          page = Jekyll::Page.new(site, site.source, dir, name)
+          page.data = {
+            'layout' => 'tag_page',
+            'tag' => tag,
+            'robots' => 'noindex'
+          }
+          page.content = ''
+          site.pages << page
+          Jekyll.logger.info "Page added for tag '#{tag}'"
+        rescue StandardError => e
+          Jekyll.logger.error "Error creating page for tag '#{tag}': #{e.message}"
+          raise # Re-raise to halt and show the full stack trace
+        end
       end
+
+      Jekyll.logger.info "Tag page generation complete."
     end
   end
 end
