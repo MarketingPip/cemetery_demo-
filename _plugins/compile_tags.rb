@@ -1,69 +1,38 @@
+# Filename: _plugins/compile_tags.rb
 require 'fileutils'
-require 'yaml'
 
-module Jekyll
-  class CompileTags < Generator
-    safe true
-    priority :high
+Jekyll::Hooks.register :posts, :post_write do
+  # Directory to save tag pages
+  TAG_DIR = '_tag'  # Folder for tag pages
 
-    def generate(site)
-      # Collect all tags from the posts
-      all_tags = collect_tags(site)
-      
-      # Remove old tag pages if any exist
-      remove_old_tag_pages(site)
+  # Ensure the tag directory exists
+  FileUtils.mkdir_p(TAG_DIR) unless File.exists?(TAG_DIR)
 
-      # Create tag pages for each tag
-      create_tag_pages(site, all_tags)
-    end
+  # Collect all tags from posts
+  all_tags = []
+  Jekyll.site.posts.docs.each do |post|
+    tags = post.data['tags'] || []
+    all_tags += tags
+  end
 
-    def collect_tags(site)
-      all_tags = []
+  # Remove duplicate tags
+  all_tags = all_tags.uniq
 
-      # Collect tags from each post
-      site.posts.docs.each do |post|
-        if post.data['tags']
-          all_tags.concat(post.data['tags'])
-        end
+  # Create a tag page for each tag
+  all_tags.each do |tag|
+    tag_file_path = File.join(TAG_DIR, "#{tag}.md")
+    
+    # Only create the tag page if it doesn't exist already
+    unless File.exist?(tag_file_path)
+      # Write the tag page with front matter
+      File.open(tag_file_path, 'w') do |f|
+        f.write("---\n")
+        f.write("layout: tagpage\n")
+        f.write("tag: #{tag}\n")
+        f.write("robots: noindex\n")
+        f.write("---\n\n")
+        f.write("This is the tag page for `#{tag}`.\n")
       end
-
-      # Remove duplicates and sort the tags
-      all_tags.uniq.sort
-    end
-
-    def remove_old_tag_pages(site)
-      # Remove old tag pages in the 'tag' directory
-      tag_dir = File.join(site.source, 'tag')
-      if File.directory?(tag_dir)
-        Dir.glob(File.join(tag_dir, '*.md')).each do |tag_page|
-          File.delete(tag_page)
-        end
-      end
-    end
-
-    def create_tag_pages(site, tags)
-      tag_dir = File.join(site.source, 'tag')
-
-      # Create the 'tag' directory if it doesn't exist
-      FileUtils.mkdir_p(tag_dir)
-
-      # Write a new tag page for each tag
-      tags.each do |tag|
-        tag_page_path = File.join(tag_dir, "#{tag}.md")
-
-        # Write the front matter and tag page content
-        File.open(tag_page_path, 'w') do |file|
-          file.write(<<~YAML)
-            ---
-            layout: tagpage
-            tag: #{tag}
-            robots: noindex
-            ---
-          YAML
-        end
-      end
-
-      puts "Generated tag pages for: #{tags.join(', ')}"
     end
   end
 end
