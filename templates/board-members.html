@@ -100,101 +100,21 @@ permalink: /board-members/
       <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">The Crediton Cemetery is managed by a volunteer board of directors who are committed to preserving the cemetery's historical significance while ensuring its ongoing care and development. These community members dedicate their time and expertise to maintaining this important heritage site.</p>
       
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <!-- Board Member Card 1 -->
-        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden board-card">
-          <img alt="Derek Kenney" class="w-full h-64 object-cover" src="https://placeholder.pagebee.io/api/random/400/400">
-          <div class="p-6">
-            <h3 class="font-bold text-xl mb-2">Derek Kenney</h3>
-            <p class="text-gray-700">Board Chair</p>
-            <div class="mt-4 pt-4 border-t border-gray-200">
-              <p class="text-gray-600 text-sm italic">"Preserving our community's heritage is a responsibility we take seriously."</p>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Board Member Card 2 -->
-        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden board-card">
-          <img alt="Heather Clarke" class="w-full h-64 object-cover" src="https://placeholder.pagebee.io/api/random/400/400">
-          <div class="p-6">
-            <h3 class="font-bold text-xl mb-2">Heather Clarke</h3>
-            <p class="text-gray-700">Vice Chair</p>
-            <div class="mt-4 pt-4 border-t border-gray-200">
-              <p class="text-gray-600 text-sm italic">"Connecting generations through our shared history strengthens our community."</p>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Board Member Card 3 -->
-        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden board-card">
-          <img alt="Krysta Clarke" class="w-full h-64 object-cover" src="https://placeholder.pagebee.io/api/random/400/400">
-          <div class="p-6">
-            <h3 class="font-bold text-xl mb-2">Krysta Clarke</h3>
-            <p class="text-gray-700">Secretary</p>
-            <div class="mt-4 pt-4 border-t border-gray-200">
-              <p class="text-gray-600 text-sm italic">"Documenting our past ensures these stories live on for future generations."</p>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Board Member Card 4 -->
-        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden board-card">
-          <img alt="Mark Baker" class="w-full h-64 object-cover" src="https://placeholder.pagebee.io/api/random/400/400">
-          <div class="p-6">
-            <h3 class="font-bold text-xl mb-2">Mark Baker</h3>
-            <p class="text-gray-700">Treasurer</p>
-            <div class="mt-4 pt-4 border-t border-gray-200">
-              <p class="text-gray-600 text-sm italic">"Responsible stewardship ensures we honor those who came before us."</p>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Board Member Card 5 -->
-        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden board-card">
-          <img alt="Robert Pertschy" class="w-full h-64 object-cover" src="https://placeholder.pagebee.io/api/random/400/400">
-          <div class="p-6">
-            <h3 class="font-bold text-xl mb-2">Robert Pertschy</h3>
-            <p class="text-gray-700">Director</p>
-            <div class="mt-4 pt-4 border-t border-gray-200">
-              <p class="text-gray-600 text-sm italic">"Every headstone tells a story that deserves to be preserved."</p>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Board Member Card 6 -->
-        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden board-card">
-          <img alt="Bob Van Valkengoed" class="w-full h-64 object-cover" src="https://placeholder.pagebee.io/api/random/400/400">
-          <div class="p-6">
-            <h3 class="font-bold text-xl mb-2">Bob Van Valkengoed</h3>
-            <p class="text-gray-700">Director</p>
-            <div class="mt-4 pt-4 border-t border-gray-200">
-              <p class="text-gray-600 text-sm italic">"Our cemetery reflects the cultural heritage of our entire community."</p>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Board Member Card 7 -->
-        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden board-card">
-          <img alt="Dave Cottel" class="w-full h-64 object-cover" src="https://placeholder.pagebee.io/api/random/400/400">
-          <div class="p-6">
-            <h3 class="font-bold text-xl mb-2">Dave Cottel</h3>
-            <p class="text-gray-700">Director</p>
-            <div class="mt-4 pt-4 border-t border-gray-200">
-              <p class="text-gray-600 text-sm italic">"Maintaining these grounds is an honor and a privilege."</p>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Board Member Card 8 -->
-        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden board-card">
-          <img alt="Bill Payne" class="w-full h-64 object-cover" src="https://placeholder.pagebee.io/api/random/400/400">
-          <div class="p-6">
-            <h3 class="font-bold text-xl mb-2">Bill Payne</h3>
-            <p class="text-gray-700">Director</p>
-            <div class="mt-4 pt-4 border-t border-gray-200">
-              <p class="text-gray-600 text-sm italic">"I'm proud to contribute to preserving Crediton's historical legacy."</p>
-            </div>
-          </div>
-        </div>
+       
+       {% for member in site.data.board_members %}
+  <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden board-card">
+    <img alt="{{ member.name }}" class="w-full h-64 object-cover" src="{{ member.image }}">
+    <div class="p-6">
+      <h3 class="font-bold text-xl mb-2">{{ member.name }}</h3>
+      <p class="text-gray-700">{{ member.title }}</p>
+      <div class="mt-4 pt-4 border-t border-gray-200">
+        <p class="text-gray-600 text-sm italic">{{ member.quote }}</p>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+ 
+       
       </div>
     </div>
   </section>
