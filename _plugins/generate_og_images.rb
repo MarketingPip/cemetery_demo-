@@ -12,9 +12,8 @@ module Jekyll
 
       og_folder = site.config['og_images_folder'] || 'assets/og-images'
       template_path = site.config['og_template'] || '_includes/og-template.html'
-      output_dir = File.join(site.dest, og_folder) # Changed from site.source to site.dest
+      output_dir = File.join(site.dest, og_folder)
 
-      # Ensure output directory exists with proper permissions
       begin
         FileUtils.mkdir_p(output_dir) unless File.directory?(output_dir)
         FileUtils.chmod(0755, output_dir)
@@ -51,7 +50,6 @@ module Jekyll
       og_image_path = File.join(output_dir, og_image_name)
       relative_path = File.join('/', og_folder, og_image_name)
 
-      # Check if template exists
       template_full_path = File.join(site.source, template_path)
       unless File.exist?(template_full_path)
         Jekyll.logger.error "Template not found: #{template_full_path}"
@@ -59,15 +57,13 @@ module Jekyll
       end
 
       html_content = render_template(site, template_path, post)
-      temp_html = File.join(Dir.tmpdir, "#{slug}-og-#{Time.now.to_i}.html") # Unique temp file
+      temp_html = File.join(Dir.tmpdir, "#{slug}-og-#{Time.now.to_i}.html")
       
       begin
         File.write(temp_html, html_content)
         generate_image(temp_html, og_image_path)
         
-        # Verify file was created
         if File.exist?(og_image_path)
-          # Add to Jekyll's static files to ensure inclusion in build
           site.static_files << Jekyll::StaticFile.new(site, site.source, og_folder, og_image_name)
           set_og_meta_tags(post, relative_path)
         else
@@ -83,9 +79,14 @@ module Jekyll
     def render_template(site, template_path, post)
       template = File.read(File.join(site.source, template_path))
       liquid = Liquid::Template.parse(template)
+      
+      raw_excerpt = post.data['excerpt'] || post.content[0..150] || "No preview available"
+      excerpt_content = raw_excerpt.is_a?(Jekyll::Excerpt) ? raw_excerpt.to_s : raw_excerpt
+      excerpt_content = "No preview available" if excerpt_content.nil? || excerpt_content.strip.empty?
+      
       liquid.render(
-        'title' => post.data['title']&.strip,
-        'excerpt' => (post.data['excerpt'] || post.content[0..150])&.strip,
+        'title' => post.data['title']&.strip || "Untitled",
+        'excerpt' => excerpt_content&.strip,
         'date' => post.date.strftime('%B %d, %Y'),
         'site' => site.config
       )
@@ -104,13 +105,15 @@ module Jekyll
     end
 
     def set_og_meta_tags(post, image_path)
-      excerpt = post.data['excerpt'] || post.content[0..150]
-      excerpt_content = excerpt.is_a?(Jekyll::Excerpt) ? excerpt.to_s : excerpt
+      raw_excerpt = post.data['excerpt'] || post.content[0..150] || "No preview available"
+      excerpt_content = raw_excerpt.is_a?(Jekyll::Excerpt) ? raw_excerpt.to_s : raw_excerpt
+      excerpt_content = "No preview available" if excerpt_content.nil? || excerpt_content.strip.empty?
+      
       post.data['og'] ||= {}
       post.data['og'].merge!({
         'image' => image_path,
         'type' => 'article',
-        'title' => post.data['title']&.strip,
+        'title' => post.data['title']&.strip || "Untitled",
         'description' => excerpt_content&.strip
       })
       Jekyll.logger.debug "Set OG meta tags for: #{post.path}"
