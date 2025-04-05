@@ -45,7 +45,7 @@ module Jekyll
         unless File.exist?(download_path)
           puts "Downloading #{image_url} to #{download_path}"
           begin
-            open(image_url) do |image|
+            URI.open(image_url) do |image|
               File.open(download_path, 'wb') do |f|
                 f.write(image.read)
               end
