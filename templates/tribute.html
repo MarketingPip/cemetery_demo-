@@ -457,7 +457,7 @@ function renderPerson(person) {
            title="View ${person.name}'s memorial page" 
            aria-label="Link to ${person.name}'s memorial page">
         <div class="flex items-start gap-4">
-            <img src="${person?.image_url || 'https://via.placeholder.com/100'}" alt="${person?.name}" class="w-24 h-32 object-cover rounded-md border border-gray-700">
+            <img src="${person?.image_url || './../assets/images/placeholder.png'}" alt="${person?.name}" class="w-24 h-32 object-cover rounded-md border border-gray-700">
             <div>
                 <p class="text-base md:text-lg font-medium">${person.name}</p>
                 <p class="text-sm md:text-base text-gray-400">${formatBirthDeathDates(person.birth_date, person.death_date)}</p>
@@ -534,7 +534,7 @@ function renderFamily(family) {
         document.getElementById('tribute-name').textContent = "Tribute Not Found";
         document.getElementById('tribute-dates').textContent = "";
         document.getElementById('tribute-header-name').textContent = "Tribute Not Found";
-        document.getElementById('tribute-image').src = "/api/placeholder/400/300";
+        document.getElementById('tribute-image').src = "./../assets/images/placeholder.png";
         document.getElementById('tribute-image').alt = "No photo available";
         document.getElementById('tribute-bio').innerHTML = "<strong>Bio:</strong> Sorry, we couldn’t find this tribute.";
         document.getElementById('grandchildren-list').innerHTML = "";
