@@ -37,7 +37,7 @@ module Jekyll
       return unless item.content
 
       Jekyll.logger.debug "Processing item: #{item.path || item.url}"
-      image_urls = item.content.scan(/(?:src|href)=["']?(https?:\/\/[^"'\s]+\.(?:jpg|jpeg|png|gif|svg))/i)
+      image_urls = item.content.scan(/(?:src|href)=["']?(https?:\/\/[^"'\s]+\.(?:jpg|jpeg|webp|png|gif|svg))/i)
 
       if image_urls.empty?
         Jekyll.logger.debug "No image URLs found in: #{item.path || item.url}"
