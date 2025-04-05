@@ -11,6 +11,7 @@ gem 'jekyll-assets'
 # Optional: Use `jekyll-asset-minifier` for asset minification.
 gem 'jekyll-minifier'
 gem 'jekyll-sitemap'
+gem 'octopress-minify-html'
 
 # If you're using any CSS preprocessors (like Sass), you can add this:
 # gem 'sassc'
