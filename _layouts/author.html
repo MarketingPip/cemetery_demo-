@@ -108,6 +108,8 @@
     </div>
   </section>
 
+
+  
   <!-- Footer -->
   <footer class="bg-gray-800 text-white py-6">
     <div class="px-4 container mx-auto text-center">
@@ -119,6 +121,29 @@
       </div>
     </div>
   </footer>
+
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "dateCreated": "{{ page.date_created | date_to_xmlschema }}",
+  "dateModified": "{{ page.date_modified | date_to_xmlschema }}",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "{{ page.name }}",
+    "alternateName": "{{ page.username }}",
+    "identifier": "{{ page.name }}",
+    "description": "{{ page.bio | escape }}",
+    "image": "{% if page.author_image %}{{ page.author_image }}{% else %}https://example.com/default-avatar.jpg{% endif %}",
+    "sameAs": [
+      {% if page.social.facebook %}"{{ page.social.facebook }}"{% endif %}
+      {% if page.social.twitter %}{% if page.social.facebook %}, {% endif %}"{{ page.social.twitter }}"{% endif %}
+      {% if page.social.linkedin %}{% if page.social.facebook or page.social.twitter %}, {% endif %}"{{ page.social.linkedin }}"{% endif %}
+    ]
+  }
+}
+</script>
 
   <!-- Mobile Menu Toggle Script -->
   <script>
