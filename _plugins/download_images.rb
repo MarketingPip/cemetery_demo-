@@ -23,7 +23,7 @@ module Jekyll
       end
 
       (site.pages + site.posts.docs).each do |item|
-        process_item(item, download_folder, destination_path)
+        process_item(item, download_folder, destination_path, site)
       end
 
       Jekyll.logger.info "Image download process complete."
@@ -31,7 +31,7 @@ module Jekyll
 
     private
 
-    def process_item(item, download_folder, destination_path)
+    def process_item(item, download_folder, destination_path, site)
       return unless item.content
 
       Jekyll.logger.debug "Processing item: #{item.path || item.url}"
@@ -45,14 +45,14 @@ module Jekyll
         image_url = url_match[0]
         Jekyll.logger.info "Found image URL: #{image_url}"
         begin
-          download_and_replace(image_url, item, download_folder, destination_path)
+          download_and_replace(image_url, item, download_folder, destination_path, site)
         rescue StandardError => e
           Jekyll.logger.error "Error processing '#{image_url}' in '#{item.path || item.url}': #{e.message}"
         end
       end
     end
 
-    def download_and_replace(image_url, item, download_folder, destination_path)
+    def download_and_replace(image_url, item, download_folder, destination_path, site)
       uri = URI.parse(image_url)
       file_name = sanitize_filename(File.basename(uri.path))
       download_path = File.join(destination_path, file_name)
