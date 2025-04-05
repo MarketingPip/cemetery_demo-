@@ -36,7 +36,7 @@ jobs:
         with:
            fetch-depth: 0
       - name: Compress Images
-        uses: MarketingPipeline/Image-Optimizer-Action@main
+        uses: MarketingPip/Image-Optimizer-Action@main
         with:
            filename: /assets/
            recursion: true
