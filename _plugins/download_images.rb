@@ -23,6 +23,8 @@ module Jekyll
     def ensure_directory_exists(download_folder)
       # Create the directory if it doesn't exist
       destination_path = File.join(Dir.pwd, download_folder)
+      
+      # Ensure the directory exists
       FileUtils.mkdir_p(destination_path) unless File.exists?(destination_path)
     end
 
