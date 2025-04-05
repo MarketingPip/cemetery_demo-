@@ -88,3 +88,5 @@ plugins:
 assets:
   compress: true  # Enable CSS and JS compression
   minify: true    # Enable HTML minification
+
+download_images_folder: "assets/images"
