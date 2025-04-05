@@ -7,7 +7,7 @@ module Jekyll
 
     def generate(site)
       # Directory to save tag pages
-      tag_dir = '_tag'  # Folder for tag pages
+      tag_dir = 'tag'  # Folder for tag pages
 
       # Ensure the tag directory exists
       tag_dir_path = File.join(site.source, tag_dir)
