@@ -21,15 +21,15 @@ module Jekyll
         name = "index.html"
         Jekyll.logger.info "Creating page for tag '#{tag}' at '#{dir}/#{name}'"
 
-        # Create a new page
+        # Use PageWithoutAFile for virtual pages
         begin
-          page = Jekyll::Page.new(site, site.source, dir, name)
+          page = Jekyll::PageWithoutAFile.new(site, site.source, dir, name)
           page.data = {
             'layout' => 'tag_page',
             'tag' => tag,
             'robots' => 'noindex'
           }
-          page.content = ''
+          page.content = '' # Content can be empty; layout handles rendering
           site.pages << page
           Jekyll.logger.info "Page added for tag '#{tag}'"
         rescue StandardError => e
