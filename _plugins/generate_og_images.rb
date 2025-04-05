@@ -10,16 +10,20 @@ module Jekyll
     def generate(site)
       Jekyll.logger.info "Starting Open Graph image generation..."
 
-      # Configuration defaults
       og_folder = site.config['og_images_folder'] || 'assets/og-images'
       template_path = site.config['og_template'] || '_includes/og-template.html'
-      output_dir = File.join(site.source, og_folder)
+      output_dir = File.join(site.dest, og_folder) # Changed from site.source to site.dest
 
-      # Ensure output directory exists
-      FileUtils.mkdir_p(output_dir) unless File.directory?(output_dir)
-      Jekyll.logger.info "OG image directory ensured: #{output_dir}"
+      # Ensure output directory exists with proper permissions
+      begin
+        FileUtils.mkdir_p(output_dir) unless File.directory?(output_dir)
+        FileUtils.chmod(0755, output_dir)
+        Jekyll.logger.info "OG image directory ensured: #{output_dir}"
+      rescue Errno::EACCES => e
+        Jekyll.logger.error "Permission denied creating directory: #{e.message}"
+        return
+      end
 
-      # Check if wkhtmltoimage is installed
       unless system('wkhtmltoimage --version >/dev/null 2>&1')
         Jekyll.logger.error "wkhtmltoimage not found. Please install it first."
         return
@@ -35,7 +39,6 @@ module Jekyll
     private
 
     def process_post(post, site, output_dir, og_folder, template_path)
-      # Check if post has an image (adjust this condition based on your setup)
       has_image = post.content =~ /(?:src|href)=["']?(https?:\/\/[^"'\s]+\.(?:jpg|jpeg|png|gif|svg))/i ||
                  post.data['image']
 
@@ -43,33 +46,46 @@ module Jekyll
 
       Jekyll.logger.info "Generating OG image for post: #{post.path}"
 
-      # Generate OG image filename
       slug = post.data['slug'] || post.basename_without_ext
       og_image_name = "#{slug}-og.png"
       og_image_path = File.join(output_dir, og_image_name)
       relative_path = File.join('/', og_folder, og_image_name)
 
-      # Render HTML template
+      # Check if template exists
+      template_full_path = File.join(site.source, template_path)
+      unless File.exist?(template_full_path)
+        Jekyll.logger.error "Template not found: #{template_full_path}"
+        return
+      end
+
       html_content = render_template(site, template_path, post)
-      temp_html = File.join(Dir.tmpdir, "#{slug}-og.html")
-      File.write(temp_html, html_content)
-
-      # Convert to image
-      generate_image(temp_html, og_image_path)
-
-      # Clean up temporary file
-      File.delete(temp_html) if File.exist?(temp_html)
-
-      # Set meta tags in post data
-      set_og_meta_tags(post, relative_path)
+      temp_html = File.join(Dir.tmpdir, "#{slug}-og-#{Time.now.to_i}.html") # Unique temp file
+      
+      begin
+        File.write(temp_html, html_content)
+        generate_image(temp_html, og_image_path)
+        
+        # Verify file was created
+        if File.exist?(og_image_path)
+          # Add to Jekyll's static files to ensure inclusion in build
+          site.static_files << Jekyll::StaticFile.new(site, site.source, og_folder, og_image_name)
+          set_og_meta_tags(post, relative_path)
+        else
+          Jekyll.logger.error "Image file was not created at: #{og_image_path}"
+        end
+      rescue StandardError => e
+        Jekyll.logger.error "Error processing post #{post.path}: #{e.message}"
+      ensure
+        File.delete(temp_html) if File.exist?(temp_html)
+      end
     end
 
     def render_template(site, template_path, post)
       template = File.read(File.join(site.source, template_path))
       liquid = Liquid::Template.parse(template)
       liquid.render(
-        'title' => post.data['title'],
-        'excerpt' => post.data['excerpt'] || post.content[0..150],
+        'title' => post.data['title']&.strip,
+        'excerpt' => (post.data['excerpt'] || post.content[0..150])&.strip,
         'date' => post.date.strftime('%B %d, %Y'),
         'site' => site.config
       )
@@ -80,9 +96,10 @@ module Jekyll
       stdout, stderr, status = Open3.capture3(cmd)
 
       if status.success?
-        Jekyll.logger.info "Generated OG image: #{output_path}"
+        Jekyll.logger.info "Generated OG image: #{output_path} (size: #{File.size?(output_path) || 0} bytes)"
       else
         Jekyll.logger.error "Failed to generate OG image: #{stderr}"
+        Jekyll.logger.debug "Command output: #{stdout}"
       end
     end
 
@@ -91,8 +108,8 @@ module Jekyll
       post.data['og'].merge!({
         'image' => image_path,
         'type' => 'article',
-        'title' => post.data['title'],
-        'description' => post.data['excerpt'] || post.content[0..150]
+        'title' => post.data['title']&.strip,
+        'description' => (post.data['excerpt'] || post.content[0..150])&.strip
       })
       Jekyll.logger.debug "Set OG meta tags for: #{post.path}"
     end
