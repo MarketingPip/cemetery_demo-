@@ -12,6 +12,7 @@ gem 'jekyll-assets'
 gem 'jekyll-minifier'
 gem 'jekyll-sitemap'
 gem 'jekyll-og-image'
+gem 'jekyll-seo-tag'
 
 # If you're using any CSS preprocessors (like Sass), you can add this:
 # gem 'sassc'
