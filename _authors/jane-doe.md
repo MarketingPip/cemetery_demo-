@@ -25,5 +25,9 @@ posts:
     url: /blog/2025/03/15/test
     date: 2025-03-15T22:39:53.000Z
     excerpt: ''
+  - title: test
+    url: /blog/2025/03/15/test
+    date: 2025-03-15T22:39:53.000Z
+    excerpt: ''
 ---
 
