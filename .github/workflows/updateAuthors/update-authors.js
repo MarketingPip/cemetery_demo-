@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import matter from 'gray-matter';
+import * as matter from 'gray-matter';
 
 // Directory where your posts and author files are located
 const postsDir = path.join(process.cwd(), '_posts');
