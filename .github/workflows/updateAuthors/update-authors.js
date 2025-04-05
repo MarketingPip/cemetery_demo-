@@ -19,6 +19,14 @@ const updateAuthorFile = (authorName, post) => {
       parsed.data.posts = [];
     }
 
+    const alreadyExists = parsed.data.posts.some(existingPost => existingPost.url === post.url);
+
+    if (alreadyExists) {
+      console.log(`Post already exists for author "${authorName}": ${post.title}`);
+      return;
+    }
+
+    // Add new post
     parsed.data.posts.push({
       title: post.title,
       url: post.url,
@@ -33,6 +41,7 @@ const updateAuthorFile = (authorName, post) => {
     console.log(`Author file not found for: ${authorName}`);
   }
 };
+
 
 // Function to scan for new posts
 const addPostToAuthor = (postFilePath) => {
