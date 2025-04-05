@@ -10,24 +10,29 @@ module Jekyll
     def generate(site)
       Jekyll.logger.info "Starting Open Graph image generation..."
 
+      # Configuration defaults
       og_folder = site.config['og_images_folder'] || 'assets/og-images'
       template_path = site.config['og_template'] || '_includes/og-template.html'
       output_dir = File.join(site.dest, og_folder)
 
+      # Ensure output directory exists and is writable
       begin
         FileUtils.mkdir_p(output_dir) unless File.directory?(output_dir)
-        FileUtils.chmod_R(0755, output_dir) # Recursive permissions
+        FileUtils.chmod_R(0755, output_dir)
         Jekyll.logger.info "OG image directory ensured: #{output_dir}"
       rescue Errno::EACCES => e
         Jekyll.logger.error "Permission denied creating directory: #{e.message}"
         return
       end
 
+      # Verify wkhtmltoimage is installed
       unless system('wkhtmltoimage --version >/dev/null 2>&1')
-        Jekyll.logger.error "wkhtmltoimage not found. Please install it first."
+        Jekyll.logger.error "wkhtmltoimage not found. Please ensure it’s installed (e.g., 'sudo apt-get install wkhtmltopdf')."
         return
       end
+      Jekyll.logger.info "wkhtmltoimage is installed and available."
 
+      # Process each post
       site.posts.docs.each do |post|
         process_post(post, site, output_dir, og_folder, template_path)
       end
@@ -38,46 +43,47 @@ module Jekyll
     private
 
     def process_post(post, site, output_dir, og_folder, template_path)
-      has_image = post.content =~ /(?:src|href)=["']?(https?:\/\/[^"'\s]+\.(?:jpg|jpeg|png|gif|svg))/i ||
-                 post.data['image']
-
+      # Skip if post already has an image
+      has_image = post.content =~ /(?:src|href)=["']?(https?:\/\/[^"'\s]+\.(?:jpg|jpeg|png|gif|svg))/i || post.data['image']
       return if has_image
 
       Jekyll.logger.info "Generating OG image for post: #{post.path}"
 
+      # Define file paths
       slug = post.data['slug'] || post.basename_without_ext
       og_image_name = "#{slug}-og.png"
       og_image_path = File.join(output_dir, og_image_name)
       relative_path = File.join('/', og_folder, og_image_name)
 
+      # Verify template exists
       template_full_path = File.join(site.source, template_path)
       unless File.exist?(template_full_path)
         Jekyll.logger.error "Template not found: #{template_full_path}"
         return
       end
 
+      # Render HTML and write to temp file
       html_content = render_template(site, template_path, post)
       temp_html = File.join(Dir.tmpdir, "#{slug}-og-#{Time.now.to_i}.html")
       
       begin
-        # Write temp file and verify
         File.write(temp_html, html_content)
         unless File.exist?(temp_html)
           Jekyll.logger.error "Failed to create temporary HTML file: #{temp_html}"
           return
         end
+        Jekyll.logger.debug "Temporary HTML file created: #{temp_html}"
 
-        # Generate image and get result
+        # Generate the image
         success = generate_image(temp_html, og_image_path)
         
-        if success && File.exist?(og_image_path) && File.size?(og_image_path).to_i > 0
-          Jekyll.logger.info "Verified image exists at: #{og_image_path}"
-          # Use site.dest as base since that's where the file actually lives
+        # Verify image creation before proceeding
+        if success && verify_file(og_image_path)
+          Jekyll.logger.info "Image verified at: #{og_image_path}"
           site.static_files << Jekyll::StaticFile.new(site, site.dest, og_folder, og_image_name)
           set_og_meta_tags(post, relative_path)
         else
-          Jekyll.logger.error "Image file was not created or is empty at: #{og_image_path}"
-          Jekyll.logger.debug "File exists? #{File.exist?(og_image_path)}, Size: #{File.size?(og_image_path) || 0}"
+          Jekyll.logger.error "Image generation failed or file is invalid at: #{og_image_path}"
         end
       rescue StandardError => e
         Jekyll.logger.error "Error processing post #{post.path}: #{e.message}"
@@ -113,22 +119,37 @@ module Jekyll
         stdout, stderr, status = Open3.capture3(cmd)
 
         if status.success?
-          # Give filesystem a moment to settle
-          sleep 0.1
-          if File.exist?(output_path) && File.size?(output_path).to_i > 0
-            Jekyll.logger.info "Generated OG image: #{output_path} (size: #{File.size?(output_path)} bytes)"
-            return true
-          else
-            Jekyll.logger.error "Image file not found or empty after generation at: #{output_path}"
-          end
+          Jekyll.logger.info "wkhtmltoimage executed successfully for: #{output_path}"
+          return true
         else
           Jekyll.logger.error "wkhtmltoimage failed: #{stderr}"
           Jekyll.logger.debug "Command output: #{stdout}"
+          return false
         end
       rescue Errno::EACCES => e
         Jekyll.logger.error "Permission error generating image: #{e.message}"
+        return false
       end
-      return false
+    end
+
+    def verify_file(file_path)
+      attempts = 0
+      max_attempts = 5
+      sleep_interval = 0.5
+
+      while attempts < max_attempts
+        if File.exist?(file_path) && File.size?(file_path).to_i > 0
+          Jekyll.logger.info "File verified - exists and non-empty: #{file_path} (size: #{File.size(file_path)} bytes)"
+          return true
+        else
+          Jekyll.logger.debug "Waiting for file: #{file_path} (Attempt #{attempts + 1}/#{max_attempts})"
+          sleep sleep_interval
+          attempts += 1
+        end
+      end
+      Jekyll.logger.error "File not created or empty after waiting: #{file_path}"
+      Jekyll.logger.debug "Exists? #{File.exist?(file_path)}, Size: #{File.size?(file_path) || 0}"
+      false
     end
 
     def set_og_meta_tags(post, image_path)
