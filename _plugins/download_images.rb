@@ -11,11 +11,9 @@ module Jekyll
     def generate(site)
       Jekyll.logger.info "Starting image download process..."
 
-      # Use source directory instead of dest for downloads
       download_folder = site.config['download_images_folder'] || 'assets/images'
       source_path = File.join(site.source, download_folder)
 
-      # Ensure the source directory exists
       begin
         FileUtils.mkdir_p(source_path) unless File.directory?(source_path)
         Jekyll.logger.info "Source directory ensured: #{source_path}"
@@ -24,7 +22,6 @@ module Jekyll
         return
       end
 
-      # Process pages and posts
       (site.pages + site.posts.docs).each do |item|
         process_item(item, download_folder, source_path, site)
       end
@@ -38,7 +35,6 @@ module Jekyll
       return unless item.content
 
       Jekyll.logger.debug "Processing item: #{item.path || item.url}"
-      # Match image URLs in src or href attributes
       image_urls = item.content.scan(/(?:src|href)=["']?(https?:\/\/[^"'\s]+\.(?:jpg|jpeg|png|gif|svg))/i)
 
       if image_urls.empty?
@@ -62,13 +58,11 @@ module Jekyll
       file_name = sanitize_filename(File.basename(uri.path))
       download_path = File.join(source_path, file_name)
 
-      # Relative path for the content replacement
       relative_path = File.join('/', download_folder, file_name)
       if site.config['gh_repo_name'] && !site.config['gh_repo_name'].empty?
         relative_path = "/#{site.config['gh_repo_name']}#{relative_path}"
       end
 
-      # Download the image if it doesn’t exist
       unless File.exist?(download_path)
         download_image(image_url, download_path)
         if File.exist?(download_path)
@@ -81,7 +75,6 @@ module Jekyll
         Jekyll.logger.debug "Image already exists at: #{download_path}"
       end
 
-      # Replace the URL in the content with the relative path
       item.content.gsub!(image_url, relative_path)
       Jekyll.logger.debug "Replaced URL with: #{relative_path}"
     end
@@ -89,10 +82,13 @@ module Jekyll
     def download_image(image_url, download_path)
       Jekyll.logger.debug "Attempting to download: #{image_url} to #{download_path}"
 
-      URI.open(image_url, 'rb', {
+      # Use a hash for custom headers with open-uri
+      open_uri_options = {
         read_timeout: 10,
-        'User-Agent': "Jekyll Image Downloader/#{Jekyll::VERSION}"
-      }) do |image|
+        "User-Agent" => "Jekyll Image Downloader/#{Jekyll::VERSION}" # String key for headers
+      }
+
+      URI.open(image_url, 'rb', open_uri_options) do |image|
         File.open(download_path, 'wb') do |file|
           bytes_written = file.write(image.read)
           Jekyll.logger.debug "Wrote #{bytes_written} bytes to #{download_path}"
