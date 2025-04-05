@@ -16,6 +16,17 @@
       height: 40vh;
     }
   </style>
+
+  {% if page.previous %}
+  {% assign prev_slug = page.previous.url | split: '/' | last %}
+  <link rel="prev" href="{{ page.previous.url | prepend: site.baseurl }}">
+{% endif %}
+
+{% if page.next %}
+  {% assign next_slug = page.next.url | split: '/' | last %}
+  <link rel="next" href="{{ page.next.url | prepend: site.baseurl }}">
+{% endif %}
+
 </head>
 <body class="bg-gray-100 font-sans">
 
