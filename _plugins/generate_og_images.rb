@@ -61,16 +61,18 @@ module Jekyll
       
       begin
         File.write(temp_html, html_content)
-        generate_image(temp_html, og_image_path)
+        success = generate_image(temp_html, og_image_path)
         
-        if File.exist?(og_image_path)
-          site.static_files << Jekyll::StaticFile.new(site, site.source, og_folder, og_image_name)
+        if success && File.exist?(og_image_path)
+          Jekyll.logger.info "Verified image exists at: #{og_image_path}"
+          site.static_files << Jekyll::StaticFile.new(site, site.dest, og_folder, og_image_name)
           set_og_meta_tags(post, relative_path)
         else
-          Jekyll.logger.error "Image file was not created at: #{og_image_path}"
+          Jekyll.logger.error "Image file was not created or is inaccessible at: #{og_image_path}"
         end
       rescue StandardError => e
         Jekyll.logger.error "Error processing post #{post.path}: #{e.message}"
+        Jekyll.logger.debug "Backtrace: #{e.backtrace.join("\n")}"
       ensure
         File.delete(temp_html) if File.exist?(temp_html)
       end
@@ -93,14 +95,20 @@ module Jekyll
     end
 
     def generate_image(html_file, output_path)
+      # Ensure output directory exists and is writable
+      output_dir = File.dirname(output_path)
+      FileUtils.mkdir_p(output_dir) unless File.directory?(output_dir)
+      
       cmd = "wkhtmltoimage --width 1200 --height 630 --quality 85 '#{html_file}' '#{output_path}'"
       stdout, stderr, status = Open3.capture3(cmd)
 
-      if status.success?
+      if status.success? && File.exist?(output_path)
         Jekyll.logger.info "Generated OG image: #{output_path} (size: #{File.size?(output_path) || 0} bytes)"
+        return true
       else
-        Jekyll.logger.error "Failed to generate OG image: #{stderr}"
+        Jekyll.logger.error "Failed to generate OG image at #{output_path}: #{stderr}"
         Jekyll.logger.debug "Command output: #{stdout}"
+        return false
       end
     end
 
