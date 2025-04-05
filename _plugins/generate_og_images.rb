@@ -104,12 +104,14 @@ module Jekyll
     end
 
     def set_og_meta_tags(post, image_path)
+      excerpt = post.data['excerpt'] || post.content[0..150]
+      excerpt_content = excerpt.is_a?(Jekyll::Excerpt) ? excerpt.to_s : excerpt
       post.data['og'] ||= {}
       post.data['og'].merge!({
         'image' => image_path,
         'type' => 'article',
         'title' => post.data['title']&.strip,
-        'description' => (post.data['excerpt'] || post.content[0..150])&.strip
+        'description' => excerpt_content&.strip
       })
       Jekyll.logger.debug "Set OG meta tags for: #{post.path}"
     end
