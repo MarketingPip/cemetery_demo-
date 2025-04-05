@@ -7,10 +7,10 @@ module Jekyll
 
     def generate(site)
       # Directory to save tag pages
-      TAG_DIR = '_tag'  # Folder for tag pages
+      tag_dir = '_tag'  # Folder for tag pages
 
       # Ensure the tag directory exists
-      FileUtils.mkdir_p(TAG_DIR) unless File.exists?(TAG_DIR)
+      FileUtils.mkdir_p(tag_dir) unless File.exists?(tag_dir)
 
       # Collect all tags from posts
       all_tags = []
@@ -24,7 +24,7 @@ module Jekyll
 
       # Create a tag page for each tag
       all_tags.each do |tag|
-        tag_file_path = File.join(TAG_DIR, "#{tag}.md")
+        tag_file_path = File.join(tag_dir, "#{tag}.md")
         
         # Only create the tag page if it doesn't exist already
         unless File.exist?(tag_file_path)
