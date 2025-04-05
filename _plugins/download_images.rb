@@ -72,7 +72,7 @@ module Jekyll
              # Prepend 'gh_repo_name' if it exists in the site configuration
         relative_path = File.join(download_folder, file_name)
         if site.config['gh_repo_name'] && !site.config['gh_repo_name'].empty?
-          relative_path = site.config['gh_repo_name'] + "/" + relative_path
+          relative_path =  "/" + site.config['gh_repo_name'] + "/" + relative_path
         end
       
       item.content.gsub!(image_url, site.config['url'] + relative_path)
