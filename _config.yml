@@ -78,16 +78,13 @@ collections:
   blog:
     output: true
     permalink: /blog/:title/
-  categories:
-    output: true
-    permalink: /blog/categories/:name/  
-
 
 # Plugins
 plugins:
  # - octopress-minify-html
   - jekyll-sitemap
   - jekyll-assets
+  - jekyll-tagging # write seperate pags for each tag
 assets:
   compress: true  # Enable CSS and JS compression
   minify: true    # Enable HTML minification
