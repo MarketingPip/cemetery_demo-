@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import yamlFront from 'yaml-front-matter';
+import matter from 'gray-matter';
 
 // Directory where your posts and author files are located
 const postsDir = path.join(process.cwd(), '_posts');
@@ -11,24 +11,23 @@ const updateAuthorFile = (authorName, post) => {
   const authorFilePath = path.join(authorsDir, `${authorName.toLowerCase().replace(/ /g, '-')}.md`);
 
   if (fs.existsSync(authorFilePath)) {
-    // Read the existing author's file
-    const authorData = yamlFront.loadFront(fs.readFileSync(authorFilePath, 'utf-8'));
+    const fileContent = fs.readFileSync(authorFilePath, 'utf-8');
+    const parsed = matter(fileContent);
 
-    // Check if the 'posts' array exists, if not, initialize it
-    if (!authorData.posts) {
-      authorData.posts = [];
+    // Ensure `posts` exists
+    if (!parsed.data.posts) {
+      parsed.data.posts = [];
     }
 
-    // Add the new post to the author's posts
-    authorData.posts.push({
+    parsed.data.posts.push({
       title: post.title,
       url: post.url,
       date: post.date,
-      excerpt: post.excerpt // Add excerpt as well (optional)
+      excerpt: post.excerpt
     });
 
-    // Write the updated author file back
-    fs.writeFileSync(authorFilePath, yamlFront.stringify(authorData));
+    const newContent = matter.stringify(parsed.content, parsed.data);
+    fs.writeFileSync(authorFilePath, newContent);
     console.log(`Updated posts for author: ${authorName}`);
   } else {
     console.log(`Author file not found for: ${authorName}`);
@@ -37,18 +36,23 @@ const updateAuthorFile = (authorName, post) => {
 
 // Function to scan for new posts
 const addPostToAuthor = (postFilePath) => {
-  const postData = yamlFront.loadFront(fs.readFileSync(postFilePath, 'utf-8'));
+  const fileContent = fs.readFileSync(postFilePath, 'utf-8');
+  const { data: postData, content } = matter(fileContent);
 
   // Extract the author name from the post front matter
   const authorName = postData.author;
 
   if (authorName) {
     console.log(postData);
+
+    const formattedDate = new Date(postData.date).toISOString().split('T')[0].split('-').join('/');
+    const slug = postData.title.toLowerCase().replace(/ /g, '-');
+
     const post = {
       title: postData.title,
-      url: `/blog/${postData.title.toLowerCase().replace(/ /g, '-')}`,
+      url: `/blog/${formattedDate}/${slug}`,
       date: postData.date,
-      excerpt: postData.excerpt // Optionally add the excerpt
+      excerpt: postData.excerpt || '' // Optional
     };
 
     // Update the author's file with the new post
