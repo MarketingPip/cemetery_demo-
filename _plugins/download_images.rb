@@ -57,8 +57,9 @@ module Jekyll
           puts "Image already exists: #{download_path}"
         end
 
-        # Replace the image URL with the path to the downloaded image
-        item.content.gsub!(image_url, File.join(download_folder, file_name))
+        # Replace the image URL with the relative path to the downloaded image
+        relative_image_path = File.join(download_folder, file_name).gsub(Dir.pwd + '/', '')
+        item.content.gsub!(image_url, relative_image_path)
       end
     end
 
