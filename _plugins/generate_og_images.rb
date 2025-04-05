@@ -16,7 +16,7 @@ module Jekyll
 
       begin
         FileUtils.mkdir_p(output_dir) unless File.directory?(output_dir)
-        FileUtils.chmod(0755, output_dir)
+        FileUtils.chmod_R(0755, output_dir) # Recursive permissions
         Jekyll.logger.info "OG image directory ensured: #{output_dir}"
       rescue Errno::EACCES => e
         Jekyll.logger.error "Permission denied creating directory: #{e.message}"
@@ -60,15 +60,24 @@ module Jekyll
       temp_html = File.join(Dir.tmpdir, "#{slug}-og-#{Time.now.to_i}.html")
       
       begin
+        # Write temp file and verify
         File.write(temp_html, html_content)
+        unless File.exist?(temp_html)
+          Jekyll.logger.error "Failed to create temporary HTML file: #{temp_html}"
+          return
+        end
+
+        # Generate image and get result
         success = generate_image(temp_html, og_image_path)
         
-        if success && File.exist?(og_image_path)
+        if success && File.exist?(og_image_path) && File.size?(og_image_path).to_i > 0
           Jekyll.logger.info "Verified image exists at: #{og_image_path}"
+          # Use site.dest as base since that's where the file actually lives
           site.static_files << Jekyll::StaticFile.new(site, site.dest, og_folder, og_image_name)
           set_og_meta_tags(post, relative_path)
         else
-          Jekyll.logger.error "Image file was not created or is inaccessible at: #{og_image_path}"
+          Jekyll.logger.error "Image file was not created or is empty at: #{og_image_path}"
+          Jekyll.logger.debug "File exists? #{File.exist?(og_image_path)}, Size: #{File.size?(og_image_path) || 0}"
         end
       rescue StandardError => e
         Jekyll.logger.error "Error processing post #{post.path}: #{e.message}"
@@ -95,21 +104,31 @@ module Jekyll
     end
 
     def generate_image(html_file, output_path)
-      # Ensure output directory exists and is writable
       output_dir = File.dirname(output_path)
-      FileUtils.mkdir_p(output_dir) unless File.directory?(output_dir)
-      
-      cmd = "wkhtmltoimage --width 1200 --height 630 --quality 85 '#{html_file}' '#{output_path}'"
-      stdout, stderr, status = Open3.capture3(cmd)
+      begin
+        FileUtils.mkdir_p(output_dir) unless File.directory?(output_dir)
+        FileUtils.chmod(0755, output_dir)
+        
+        cmd = "wkhtmltoimage --width 1200 --height 630 --quality 85 '#{html_file}' '#{output_path}'"
+        stdout, stderr, status = Open3.capture3(cmd)
 
-      if status.success? && File.exist?(output_path)
-        Jekyll.logger.info "Generated OG image: #{output_path} (size: #{File.size?(output_path) || 0} bytes)"
-        return true
-      else
-        Jekyll.logger.error "Failed to generate OG image at #{output_path}: #{stderr}"
-        Jekyll.logger.debug "Command output: #{stdout}"
-        return false
+        if status.success?
+          # Give filesystem a moment to settle
+          sleep 0.1
+          if File.exist?(output_path) && File.size?(output_path).to_i > 0
+            Jekyll.logger.info "Generated OG image: #{output_path} (size: #{File.size?(output_path)} bytes)"
+            return true
+          else
+            Jekyll.logger.error "Image file not found or empty after generation at: #{output_path}"
+          end
+        else
+          Jekyll.logger.error "wkhtmltoimage failed: #{stderr}"
+          Jekyll.logger.debug "Command output: #{stdout}"
+        end
+      rescue Errno::EACCES => e
+        Jekyll.logger.error "Permission error generating image: #{e.message}"
       end
+      return false
     end
 
     def set_og_meta_tags(post, image_path)
