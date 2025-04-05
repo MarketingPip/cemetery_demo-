@@ -69,7 +69,7 @@ module Jekyll
         end
       end
 
-      item.content.gsub!(image_url, site.url + relative_path)
+      item.content.gsub!(image_url, site.config['url'] + relative_path)
       Jekyll.logger.debug "Replaced URL with: #{relative_path}"
     end
 
