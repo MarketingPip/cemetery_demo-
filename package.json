@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "csv-to-json": "file:.github/workflows/csvToJSON"
+    "csv-to-json": "file:.github/workflows/csvToJSON",
+    "update-author-posts": "file:.github/workflows/updateAuthors"
   }
 }
