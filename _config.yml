@@ -90,3 +90,7 @@ assets:
   minify: true    # Enable HTML minification
 
 download_images_folder: "assets/images"
+
+# Ensure assets/images is copied into the build directory
+include:
+  - assets
