@@ -88,8 +88,7 @@ plugins:
   - jekyll-seo-tag
 
 og_image:
-  output_dir: "_site/assets/images/og"
-  domain: "igor.works"
+  output_dir: "assets/images/og"
   force: true
   verbose: true
   border_bottom:
