@@ -84,6 +84,7 @@ plugins:
  # - octopress-minify-html
   - jekyll-sitemap
   - jekyll-assets
+  - jekyll-og-image
 assets:
   compress: true  # Enable CSS and JS compression
   minify: true    # Enable HTML minification
