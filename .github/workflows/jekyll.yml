@@ -53,7 +53,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-           ref: gh-pages         
+           ref: gh-pages
+           path: gh-pages  # Use a separate directory to avoid conflicts
       - name: Compress Images
         uses: MarketingPipeline/Image-Optimizer-Action@main
         with:
