@@ -33,7 +33,7 @@ module Jekyll
       # Download and save each image
       image_urls.each do |url|
         image_url = url[0] + url[1]
-        file_name = File.basename(URI.parse(image_url).path)
+        file_name = sanitize_filename(File.basename(URI.parse(image_url).path))
         download_path = File.join(Dir.pwd, download_folder, file_name)
 
         # Download the image if it doesn't already exist locally
@@ -53,6 +53,11 @@ module Jekyll
         # Replace the image URL with the path to the downloaded image
         item.content.gsub!(image_url, File.join(download_folder, file_name))
       end
+    end
+
+    # Method to sanitize the file name, removing any special characters
+    def sanitize_filename(file_name)
+      file_name.gsub(/[^0-9A-Za-z.\-]/, '_')
     end
   end
 end
