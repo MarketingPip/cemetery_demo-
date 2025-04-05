@@ -82,9 +82,9 @@ collections:
 
 # Plugins
 plugins:
-  - octopress-minify-html
+ # - octopress-minify-html
   - jekyll-sitemap
- # - jekyll-minifier
+  - jekyll-minifier
   - jekyll-assets
 
 jekyll-minifier:
