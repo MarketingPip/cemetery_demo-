@@ -9,7 +9,7 @@ module Jekyll
     priority :low
 
     def generate(site)
-      # Get the download folder path from the configuration
+      # Get the download folder path from the configuration (use default 'assets/images' if not defined)
       download_folder = site.config['download_images_folder'] || 'assets/images'
 
       # Ensure the directory for the downloaded images exists
@@ -23,13 +23,13 @@ module Jekyll
     def ensure_directory_exists(download_folder)
       # Create the directory if it doesn't exist
       destination_path = File.join(Dir.pwd, download_folder)
-      
+
       # Ensure the directory exists
       FileUtils.mkdir_p(destination_path) unless File.exists?(destination_path)
     end
 
     def download_external_images(item, download_folder)
-      # Regex to match all image URLs
+      # Regex to match all image URLs in the content (both src and href)
       image_urls = item.content.scan(/(?:src|href)="(https?:\/\/(?:[a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,})(\/[^\"]+\.(?:jpg|jpeg|png|gif|svg))"/)
 
       # Download and save each image
@@ -37,6 +37,9 @@ module Jekyll
         image_url = url[0] + url[1]
         file_name = sanitize_filename(File.basename(URI.parse(image_url).path))
         download_path = File.join(Dir.pwd, download_folder, file_name)
+
+        # Ensure the file path exists
+        ensure_directory_exists(download_folder)
 
         # Download the image if it doesn't already exist locally
         unless File.exist?(download_path)
@@ -50,6 +53,8 @@ module Jekyll
           rescue StandardError => e
             puts "Failed to download #{image_url}: #{e.message}"
           end
+        else
+          puts "Image already exists: #{download_path}"
         end
 
         # Replace the image URL with the path to the downloaded image
