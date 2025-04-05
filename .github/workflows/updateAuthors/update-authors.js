@@ -46,7 +46,7 @@ const addPostToAuthor = (postFilePath) => {
     console.log(postData);
     const post = {
       title: postData.title,
-      url: `/blog/${postData?.date.split('-').join('/')}/${postData.title.toLowerCase().replace(/ /g, '-')}`,
+      url: `/blog/${postData.title.toLowerCase().replace(/ /g, '-')}`,
       date: postData.date,
       excerpt: postData.excerpt // Optionally add the excerpt
     };
