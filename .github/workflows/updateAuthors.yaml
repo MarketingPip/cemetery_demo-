@@ -24,7 +24,7 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm install
+        run: npm install ./ .github/workflows/updateAuthors
 
       - name: Run the script to update author posts
         run: node .github/workflows/updateAuthors/update-authors.js
