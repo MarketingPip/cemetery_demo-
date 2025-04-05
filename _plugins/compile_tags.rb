@@ -33,7 +33,8 @@ module Jekyll
           File.open(tag_file_path, 'w') do |f|
             # Write the tag page with front matter
             f.write("---\n")
-            f.write("layout: tagpage\n")
+            f.write("layout: tag_page\n")
+            f.write("permalink: /blog/#{tag}\n")
             f.write("tag: #{tag}\n")
             f.write("robots: noindex\n")
             f.write("---\n\n")
