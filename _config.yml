@@ -84,17 +84,7 @@ plugins:
  # - octopress-minify-html
   - jekyll-sitemap
   - jekyll-assets
-  - jekyll-og-image
   - jekyll-seo-tag
-
-og_image:
-  output_dir: "assets/images/og"
-  force: true
-  verbose: true
-  border_bottom:
-    width: 20
-    fill:
-      - "#4285F4"
   
 assets:
   compress: true  # Enable CSS and JS compression
