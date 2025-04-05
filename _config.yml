@@ -88,6 +88,8 @@ assets:
   compress: true  # Enable CSS and JS compression
   minify: true    # Enable HTML minification
 
+gh_repo_name: cemetery_demo- # required for downloading images
+
 download_images_folder: "assets/images"
 
 # Ensure assets/images is copied into the build directory
