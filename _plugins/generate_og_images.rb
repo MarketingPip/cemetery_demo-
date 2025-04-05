@@ -13,7 +13,8 @@ module Jekyll
       # Configuration defaults
       og_folder = site.config['og_images_folder'] || 'assets/og-images'
       template_path = site.config['og_template'] || '_includes/og-template.html'
-      output_dir = File.join(site.dest, og_folder)
+      # Use source directory instead of dest
+      output_dir = File.join(site.source, og_folder)
 
       # Ensure output directory exists and is writable
       begin
@@ -80,7 +81,8 @@ module Jekyll
         # Verify image creation before proceeding
         if success && verify_file(og_image_path)
           Jekyll.logger.info "Image verified at: #{og_image_path}"
-          site.static_files << Jekyll::StaticFile.new(site, site.dest, og_folder, og_image_name)
+          # Add to static files using source directory
+          site.static_files << Jekyll::StaticFile.new(site, site.source, og_folder, og_image_name)
           set_og_meta_tags(post, relative_path)
         else
           Jekyll.logger.error "Image generation failed or file is invalid at: #{og_image_path}"
@@ -134,7 +136,7 @@ module Jekyll
 
     def verify_file(file_path)
       attempts = 0
-      max_attempts = 5
+      max_attempts =5
       sleep_interval = 0.5
 
       while attempts < max_attempts
