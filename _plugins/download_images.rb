@@ -12,12 +12,18 @@ module Jekyll
       # Get the download folder path from the configuration
       download_folder = site.config['download_images_folder'] || 'assets/images'
 
-      # Create the download folder if it doesn't exist
-      FileUtils.mkdir_p(download_folder)
+      # Ensure the directory for the downloaded images exists
+      ensure_directory_exists(download_folder)
 
       # Loop through all pages/posts in the site and find external image links
       site.pages.each { |page| download_external_images(page, download_folder) }
       site.posts.each { |post| download_external_images(post, download_folder) }
+    end
+
+    def ensure_directory_exists(download_folder)
+      # Create the directory if it doesn't exist
+      destination_path = File.join(Dir.pwd, download_folder)
+      FileUtils.mkdir_p(destination_path) unless File.exists?(destination_path)
     end
 
     def download_external_images(item, download_folder)
@@ -30,6 +36,7 @@ module Jekyll
         file_name = File.basename(URI.parse(image_url).path)
         download_path = File.join(Dir.pwd, download_folder, file_name)
 
+        # Download the image if it doesn't already exist locally
         unless File.exist?(download_path)
           puts "Downloading #{image_url} to #{download_path}"
           begin
