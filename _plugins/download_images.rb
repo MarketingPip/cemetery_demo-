@@ -6,7 +6,7 @@ require 'uri'
 module Jekyll
   class DownloadImages < Generator
     safe true
-    priority :low
+    priority :high
 
     def generate(site)
       Jekyll.logger.info "Starting image download process..."
@@ -14,6 +14,7 @@ module Jekyll
       download_folder = site.config['download_images_folder'] || 'assets/images'
       source_path = File.join(site.source, download_folder)
 
+      # Ensure the source directory exists
       begin
         FileUtils.mkdir_p(source_path) unless File.directory?(source_path)
         Jekyll.logger.info "Source directory ensured: #{source_path}"
@@ -22,6 +23,7 @@ module Jekyll
         return
       end
 
+      # Process pages and posts
       (site.pages + site.posts.docs).each do |item|
         process_item(item, download_folder, source_path, site)
       end
@@ -58,23 +60,34 @@ module Jekyll
       file_name = sanitize_filename(File.basename(uri.path))
       download_path = File.join(source_path, file_name)
 
+      # Define the relative path for replacement
       relative_path = File.join('/', download_folder, file_name)
-      if site.config['gh_repo_name'] && !site.config['gh_repo_name'].empty?
+      if ENV['JEKYLL_ENV'] == 'production' && site.config['gh_repo_name'] && !site.config['gh_repo_name'].empty?
         relative_path = "/#{site.config['gh_repo_name']}#{relative_path}"
       end
 
+      # Download and register the image if it doesn’t exist
       unless File.exist?(download_path)
         download_image(image_url, download_path)
         if File.exist?(download_path)
           Jekyll.logger.info "Successfully downloaded '#{image_url}' to '#{download_path}'"
+          # Add to static files immediately after download
+          site.static_files << Jekyll::StaticFile.new(site, site.source, download_folder, file_name)
+          Jekyll.logger.debug "Added to static files: #{relative_path}"
         else
           Jekyll.logger.error "Download appeared to succeed but file not found at: #{download_path}"
           return
         end
       else
         Jekyll.logger.debug "Image already exists at: #{download_path}"
+        # Ensure existing files are also registered if not already
+        unless site.static_files.any? { |sf| sf.path == download_path }
+          site.static_files << Jekyll::StaticFile.new(site, site.source, download_folder, file_name)
+          Jekyll.logger.debug "Registered existing file: #{relative_path}"
+        end
       end
 
+      # Replace the URL in the content
       item.content.gsub!(image_url, relative_path)
       Jekyll.logger.debug "Replaced URL with: #{relative_path}"
     end
@@ -82,13 +95,10 @@ module Jekyll
     def download_image(image_url, download_path)
       Jekyll.logger.debug "Attempting to download: #{image_url} to #{download_path}"
 
-      # Use a hash for custom headers with open-uri
-      open_uri_options = {
+      URI.open(image_url, 'rb', {
         read_timeout: 10,
-        "User-Agent" => "Jekyll Image Downloader/#{Jekyll::VERSION}" # String key for headers
-      }
-
-      URI.open(image_url, 'rb', open_uri_options) do |image|
+        "User-Agent" => "Jekyll Image Downloader/#{Jekyll::VERSION}"
+      }) do |image|
         File.open(download_path, 'wb') do |file|
           bytes_written = file.write(image.read)
           Jekyll.logger.debug "Wrote #{bytes_written} bytes to #{download_path}"
