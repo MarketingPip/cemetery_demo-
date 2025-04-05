@@ -78,6 +78,9 @@ collections:
   blog:
     output: true
     permalink: /blog/:title/
+  categories:
+    output: true
+    permalink: /blog/categories/:name/  
 
 
 # Plugins
