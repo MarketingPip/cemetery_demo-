@@ -1,0 +1,59 @@
+# _plugins/image_optimization.rb
+require 'mini_magick'
+require 'fileutils'
+
+module Jekyll
+  class ImageOptimization < Jekyll::Generator
+    safe true
+
+    def generate(site)
+      # Set directories for images to optimize
+      image_dir = site.config['image_dir'] || 'assets/images'
+      optimized_dir = 'assets/images/optimized'
+
+      # Create optimized directory if it doesn't exist
+      FileUtils.mkdir_p(optimized_dir)
+
+      # Iterate over all posts and pages
+      site.posts.docs.each do |post|
+        optimize_images_in_content(post, image_dir, optimized_dir)
+      end
+
+      site.pages.each do |page|
+        optimize_images_in_content(page, image_dir, optimized_dir)
+      end
+    end
+
+    # Method to check for image links and optimize
+    def optimize_images_in_content(item, image_dir, optimized_dir)
+      item.content.gsub!(/(src|data-src)="(\/?#{image_dir}\/[\w\/\-\.]+)"/) do |match|
+        image_path = $2
+        optimized_image_path = optimize_image(image_path, image_dir, optimized_dir)
+        "#{ $1 }=\"#{ optimized_image_path }\""
+      end
+    end
+
+    # Method to handle image optimization
+    def optimize_image(image_path, image_dir, optimized_dir)
+      # Construct full file paths
+      full_image_path = File.join(Dir.pwd, image_path)
+      file_extension = File.extname(image_path).downcase
+      optimized_image_path = File.join(optimized_dir, File.basename(image_path, '.*') + '.webp')
+
+      # Only process images if they exist and are not already WebP
+      if File.exist?(full_image_path) && file_extension != '.webp'
+        # Optimize image and save as WebP
+        image = MiniMagick::Image.open(full_image_path)
+        image.format 'webp'
+        image.quality 80  # Adjust the quality for compression
+        image.write(optimized_image_path)
+
+        # Return optimized image path
+        "/#{ optimized_image_path.gsub(Dir.pwd, '') }"
+      else
+        # If already in WebP or non-existent image, return original path
+        image_path
+      end
+    end
+  end
+end
