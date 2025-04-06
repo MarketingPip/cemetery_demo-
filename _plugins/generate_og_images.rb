@@ -167,6 +167,7 @@ module Jekyll
       excerpt_content = "No preview available" if excerpt_content.nil? || excerpt_content.strip.empty?
       
       post.data['og'] ||= {}
+      post.data['image'] = image_path
       post.data['og'].merge!({
         'image' => image_path,
         'type' => 'article',
