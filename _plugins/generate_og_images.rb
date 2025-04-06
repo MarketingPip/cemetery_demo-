@@ -13,7 +13,6 @@ module Jekyll
       # Configuration defaults
       og_folder = site.config['og_images_folder'] || 'assets/og-images'
       template_path = site.config['og_template'] || '_includes/og-template.html'
-      # Use source directory instead of dest
       output_dir = File.join(site.source, og_folder)
 
       # Ensure output directory exists and is writable
@@ -44,17 +43,26 @@ module Jekyll
     private
 
     def process_post(post, site, output_dir, og_folder, template_path)
-      # Skip if post already has an image
+      # Skip if post already has an image in content or front matter
       has_image = post.content =~ /(?:src|href)=["']?(https?:\/\/[^"'\s]+\.(?:jpg|jpeg|png|gif|svg))/i || post.data['image']
       return if has_image
 
-      Jekyll.logger.info "Generating OG image for post: #{post.path}"
+      Jekyll.logger.info "Processing OG image for post: #{post.path}"
 
       # Define file paths
       slug = post.data['slug'] || post.basename_without_ext
       og_image_name = "#{slug}-og.png"
       og_image_path = File.join(output_dir, og_image_name)
       relative_path = File.join('/', og_folder, og_image_name)
+
+      # Skip if image already exists and is non-empty
+      if File.exist?(og_image_path) && File.size?(og_image_path).to_i > 0
+        Jekyll.logger.info "OG image already exists, skipping generation: #{og_image_path}"
+        # Ensure it’s registered as a static file
+        site.static_files << Jekyll::StaticFile.new(site, site.source, og_folder, og_image_name)
+        set_og_meta_tags(post, relative_path)
+        return
+      end
 
       # Verify template exists
       template_full_path = File.join(site.source, template_path)
@@ -81,7 +89,6 @@ module Jekyll
         # Verify image creation before proceeding
         if success && verify_file(og_image_path)
           Jekyll.logger.info "Image verified at: #{og_image_path}"
-          # Add to static files using source directory
           site.static_files << Jekyll::StaticFile.new(site, site.source, og_folder, og_image_name)
           set_og_meta_tags(post, relative_path)
         else
@@ -136,7 +143,7 @@ module Jekyll
 
     def verify_file(file_path)
       attempts = 0
-      max_attempts =5
+      max_attempts = 5
       sleep_interval = 0.5
 
       while attempts < max_attempts
