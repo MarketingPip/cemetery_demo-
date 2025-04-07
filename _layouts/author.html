@@ -93,7 +93,7 @@
           {% assign expire_date = post.expire_date | date: "%Y-%m-%d" %}
           {% assign today = 'now' | date: "%Y-%m-%d" %}
 
-        {% if expire_date == nil or expire_date == "" or expire_date >= today or post.published != false %}
+        {% if expire_date == nil or expire_date == "" or expire_date >= today%}
         <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden post-card">
           <img alt="{{ post.title }}" class="w-full h-48 object-cover" src="{{ post.image }}">
           <div class="p-6">
