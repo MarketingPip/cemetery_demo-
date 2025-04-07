@@ -102,7 +102,7 @@ module Jekyll
       Jekyll.logger.debug "Attempting to download: #{image_url} to #{download_path}"
 
       URI.open(image_url, 'rb', {
-        read_timeout: 10,
+        read_timeout: 30,
         "User-Agent" => "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_0_7) Gecko/20100101 Firefox/63.6"
       }) do |image|
         File.open(download_path, 'wb') do |file|
