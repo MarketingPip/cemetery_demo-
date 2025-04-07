@@ -187,7 +187,7 @@ permalink: /resources/
             <h3 class="font-bold text-xl text-gray-800">{{ tool.title }}</h3>
           </div>
           <p class="text-gray-600 mb-4">{{ tool.description }}</p>
-          <a href="resources/tools/{{ tool.link }}" class="font-bold text-green-700 hover:text-green-900 transition">View Tool</a>
+          <a href="{{ base_url }}/tools/{{ tool.link }}" class="font-bold text-green-700 hover:text-green-900 transition">View Tool</a>
         </div>
       {% endfor %}
       
@@ -208,7 +208,7 @@ permalink: /resources/
           <p class="text-gray-600 mb-4"><strong>Directions:</strong><a href="https://www.google.com/maps?daddr=40+Victoria+Avenue+West,+Crediton,+Ontario,+Canada" target="_blank" class="text-blue-600 hover:text-blue-800 items-center">
                 Get Directions <i class="fas fa-external-link-alt ml-1"></i></a>
           </p>
-          <p class="text-gray-600">Check our <a href="#events" class="text-green-700 hover:text-green-900">Events</a> page for guided tours or special visits. Questions? <a href="#contact" class="text-green-700 hover:text-green-900">Contact us</a>.</p>
+          <p class="text-gray-600">Check our <a href="{{ base_url }}/events" class="text-green-700 hover:text-green-900" title="Find events in Crediton, Ontario, Canada">Events</a> page for guided tours or special visits. Questions? <a href="{{ base_url }}/contact-us" class="text-green-700 hover:text-green-900">Contact us</a>.</p>
         </div>
         <div id="cemetery-map" class="w-full md:w-1/2 h-64 object-cover rounded-lg shadow-md z-10"></div>
       </div>
