@@ -2,20 +2,11 @@
 require 'open-uri'
 require 'fileutils'
 require 'uri'
-require 'digest/md5'
 
 module Jekyll
   class DownloadImages < Generator
     safe true
     priority :high
-
-    # List of User-Agent strings to rotate through
-    USER_AGENTS = [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
-      "Mozilla/5.0 (X11; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0",
-      "Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Mobile/15E148 Safari/604.1"
-    ].freeze
 
     def generate(site)
       Jekyll.logger.info "Starting image download process..."
@@ -81,7 +72,7 @@ module Jekyll
       download_path = File.join(source_path, file_name)
       relative_path = File.join('/', download_folder, file_name)
       
-      if site.config['gh_repo_name'] && !site.config['gh_repo_name'].empty?
+      if ENV['JEKYLL_ENV'] == 'production' && site.config['gh_repo_name'] && !site.config['gh_repo_name'].empty?
         relative_path = "/#{site.config['gh_repo_name']}#{relative_path}"
       end
 
@@ -110,55 +101,21 @@ module Jekyll
     def download_image(image_url, download_path)
       Jekyll.logger.debug "Attempting to download: #{image_url} to #{download_path}"
 
-      max_retries = 3
-      retry_count = 0
-
-      loop do
-        begin
-          # Randomly select a User-Agent
-          user_agent = USER_AGENTS.sample
-          headers = {
-            "User-Agent" => user_agent,
-            "Accept" => "image/webp,image/apng,image/*,*/*;q=0.8",
-            "Referer" => "https://#{URI.parse(image_url).host}/", # Mimic a referral from the same domain
-            "Connection" => "keep-alive"
-          }
-
-          URI.open(image_url, 'rb', {
-            read_timeout: 30,
-            open_timeout: 10,
-            ssl_verify_mode: OpenSSL::SSL::VERIFY_PEER, # Ensure SSL verification
-            **headers
-          }) do |image|
-            File.open(download_path, 'wb') do |file|
-              bytes_written = file.write(image.read)
-              Jekyll.logger.debug "Wrote #{bytes_written} bytes to #{download_path}"
-            end
-          end
-          break # Exit loop if successful
-
-        rescue OpenURI::HTTPError => e
-          if e.message.include?("403 Forbidden") && retry_count < max_retries
-            retry_count += 1
-            sleep_time = 2**retry_count # Exponential backoff: 2s, 4s, 8s
-            Jekyll.logger.warn "403 Forbidden on '#{image_url}', retrying (#{retry_count}/#{max_retries}) after #{sleep_time}s..."
-            sleep(sleep_time)
-            next
-          else
-            Jekyll.logger.error "HTTP error downloading '#{image_url}': #{e.message}"
-            raise
-          end
-        rescue Errno::EACCES => e
-          Jekyll.logger.error "Permission denied saving to '#{download_path}': #{e.message}"
-          raise
-        rescue StandardError => e
-          Jekyll.logger.error "Unexpected error downloading '#{image_url}': #{e.message}"
-          raise if retry_count >= max_retries
-          retry_count += 1
-          sleep(2) # Simple delay for other errors
-          next
+      URI.open(image_url, 'rb', {
+        read_timeout: 10,
+        "User-Agent" => "Jekyll Image Downloader/#{Jekyll::VERSION}"
+      }) do |image|
+        File.open(download_path, 'wb') do |file|
+          bytes_written = file.write(image.read)
+          Jekyll.logger.debug "Wrote #{bytes_written} bytes to #{download_path}"
         end
       end
+    rescue OpenURI::HTTPError => e
+      Jekyll.logger.error "HTTP error downloading '#{image_url}': #{e.message}"
+      raise
+    rescue Errno::EACCES => e
+      Jekyll.logger.error "Permission denied saving to '#{download_path}': #{e.message}"
+      raise
     end
 
     def sanitize_filename(file_name)
