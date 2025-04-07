@@ -1,7 +1,7 @@
 module Jekyll
   class ExpirePosts < Generator
     safe true
-    priority :low # Set priority to low so it runs earlier
+    priority :high
 
     def generate(site)
       # Iterate over the posts in the site and reject expired ones
