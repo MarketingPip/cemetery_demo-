@@ -3,7 +3,7 @@ require 'open-uri'
 require 'fileutils'
 require 'uri'
 require 'digest/md5'
-require 'cloudflare_clearance'
+require 'httpparty'
 
 module Jekyll
   class DownloadImages < Generator
