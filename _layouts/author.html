@@ -98,14 +98,14 @@
             {% if post.excerpt %}
             <p class="text-gray-600 mb-4">{{ post.excerpt }}</p>
             {% endif %}
-            <a href="{{ post.url }}" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
+            <a href="{{ post.title }}" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
           </div>
         </div>
         {% endfor %}
       </div>
 
       <div class="text-center mt-12">
-        <a href="/blog" class="font-bold text-white transition bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg">View All Blog Posts</a>
+        <a href="../../blog" class="font-bold text-white transition bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg">View All Blog Posts</a>
       </div>
     </div>
   </section>
