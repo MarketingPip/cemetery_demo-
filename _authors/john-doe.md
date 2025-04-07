@@ -20,12 +20,4 @@ posts:
     url: /blog/2025/02/10/restoring-our-cemeteries
     date: 'February 10, 2025'
     excerpt: A look into the efforts to preserve Crediton Cemetery's history.
-  - title: test2
-    url: /blog/2025/03/15/test2
-    date: 2025-03-15T00:00:00.000Z
-    excerpt: ''
-  - title: test2
-    url: /blog/2025/03/15/test2
-    date: 2025-03-15T00:00:00.000Z
-    excerpt: ''
 ---
