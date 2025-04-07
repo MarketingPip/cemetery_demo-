@@ -90,7 +90,7 @@
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {% for post in page.posts %}
-        {% if page.published != false %} 
+        {% if post.published != false %} 
         <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden post-card">
           <img alt="{{ post.title }}" class="w-full h-48 object-cover" src="{{ post.image }}">
           <div class="p-6">
