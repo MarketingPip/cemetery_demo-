@@ -1,4 +1,5 @@
 {% if page.published != false %}
+{% assign base_url = site.baseurl | default: "" %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +10,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   <style>
     .hero-image {
-      background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url({{ page.hero_image | default: "https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg" }});
+      background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url({{ page.hero_image | default: "https://img1.wsimg.comf/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg" }});
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -18,14 +19,14 @@
   </style>
 {% seo %}
   
-{% assign base_url = site.baseurl | default: "" %}
+ 
 
 {% if page.previous %}
-  <link rel="prev" href="{{ base_url }}{{ page.previous.url }}">
+  <link rel="prev" href="{{ 'blog' | relative_url }}{{ page.previous.url }}">
 {% endif %}
 
 {% if page.next %}
-  <link rel="next" href="{{ base_url }}{{ page.next.url }}">
+  <link rel="next" href="{{ 'blog' | relative_url }}{{ page.next.url }}">
 {% endif %}
 
 
@@ -108,14 +109,14 @@
     <div class="flex space-x-4 ml-auto">
       {% if page.previous %}
         {% assign prev_slug = page.previous.url| split: '/' | last %}
-        <a href="{{ base_url }}/{{ prev_slug }}" class="text-gray-600 hover:text-gray-800 transition">
+        <a href="{{ 'blog' | relative_url }}/{{ prev_slug }}" class="text-gray-600 hover:text-gray-800 transition">
           <span class="inline sm:hidden">←</span>
           <span class="hidden sm:inline">← Previous Article</span>
         </a>
       {% endif %}
       {% if page.next %}
       {% assign next_slug = page.next.url | split: '/' | last %}
-        <a href="{{ base_url }}/{{ next_slug }}" class="text-gray-600 hover:text-gray-800 transition">
+        <a href="{{ 'blog' | relative_url }}/{{ next_slug }}" class="text-gray-600 hover:text-gray-800 transition">
           <span class="inline sm:hidden">→</span>
           <span class="hidden sm:inline">Next Article →</span>
         </a>
