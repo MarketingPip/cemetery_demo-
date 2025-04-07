@@ -97,7 +97,7 @@
     {% assign expire_date = expire_date | date: "%Y-%m-%d" %}
   {% endif %}
 
-  {% if expire_date == nil or expire_date == "" or expire_date >= today %}
+  {% if expire_date == nil or expire_date == "" or expire_date >= today and published != false %}
     <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden post-card">
       {% if post.image %}
         <img alt="{{ post.title | escape }}" class="w-full h-48 object-cover" src="{{ post.image | relative_url }}">
@@ -116,7 +116,7 @@
           <p class="text-gray-600 mb-4">{{ post.excerpt | strip_html | truncate: 150 }}</p>
         {% endif %}
         
-        <a href="{{ post.url | relative_url }}" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
+        <a href="{{ post.title | relative_url }}" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
       </div>
     </div>
   {% endif %}
