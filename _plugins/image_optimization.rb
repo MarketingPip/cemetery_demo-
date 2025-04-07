@@ -40,18 +40,27 @@ module Jekyll
       file_extension = File.extname(image_path).downcase
       optimized_image_path = File.join(optimized_dir, File.basename(image_path, '.*') + '.webp')
 
-      # Only process images if they exist and are not already WebP
-      if File.exist?(full_image_path) && file_extension != '.webp'
-        # Optimize image and save as WebP
+      # Only process images if they exist
+      if File.exist?(full_image_path)
+        # Open image using MiniMagick
         image = MiniMagick::Image.open(full_image_path)
-        image.format 'webp'
-        image.quality 80  # Adjust the quality for compression
+        
+        # If image is not already in WebP, convert it
+        if file_extension != '.webp'
+          # Convert non-WebP images to WebP format
+          image.format 'webp'
+        end
+        
+        # Compress image (adjust quality for both .webp and other formats)
+        image.quality 80  # Adjust the quality for compression (you can change this)
+
+        # Write the optimized image (either a new WebP or optimized WebP)
         image.write(optimized_image_path)
 
-        # Return optimized image path
+        # Return optimized image path (relative to the site root)
         "/#{ optimized_image_path.gsub(Dir.pwd, '') }"
       else
-        # If already in WebP or non-existent image, return original path
+        # If the image does not exist, return the original path
         image_path
       end
     end
