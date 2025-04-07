@@ -89,24 +89,25 @@
       <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Explore {{ page.name }}’s contributions to our blog.</p>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {% for post in page.posts %}
-          {% assign expire_date = post.expire_date | date: "%Y-%m-%d" %}
-          {% assign today = 'now' | date: "%Y-%m-%d" %}
+       {% for post in page.posts %}
+  {% assign expire_date = post.expire_date %}
+  {% assign today = 'now' | date: "%Y-%m-%d" %}
 
-        {% if expire_date == nil or expire_date == "" or expire_date >= today%}
-        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden post-card">
-          <img alt="{{ post.title }}" class="w-full h-48 object-cover" src="{{ post.image }}">
-          <div class="p-6">
-            <h3 class="font-bold text-xl mb-2">{{ post.title }}</h3>
-            <p class="text-gray-600 text-sm mb-2">{{ post.date | date: "%B %d, %Y" }}</p>
-            {% if post.excerpt %}
-            <p class="text-gray-600 mb-4">{{ post.excerpt }}</p>
-            {% endif %}
-            <a href="{{ site.url }}{{ 'blog' | relative_url }}/{{ post.title}}" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
-          </div>
-        </div>
+  {% if expire_date == nil or expire_date == "" or expire_date >= today %}
+    <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden post-card">
+      <img alt="{{ post.title }}" class="w-full h-48 object-cover" src="{{ post.image }}">
+      <div class="p-6">
+        <h3 class="font-bold text-xl mb-2">{{ post.title }}</h3>
+        <p class="text-gray-600 text-sm mb-2">{{ post.date | date: "%B %d, %Y" }}</p>
+        {% if post.excerpt %}
+          <p class="text-gray-600 mb-4">{{ post.excerpt }}</p>
         {% endif %}
-        {% endfor %}
+        <a href="{{ site.url }}{{ 'blog' | relative_url }}/{{ post.title | slugify }}" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
+
       </div>
 
       <div class="text-center mt-12">
