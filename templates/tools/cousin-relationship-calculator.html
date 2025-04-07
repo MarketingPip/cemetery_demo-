@@ -1,0 +1,206 @@
+---
+permalink: /resources/tools/cousin-relationship-calculator
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Common Ancestor Relationship Tool | {{site.title}}</title>
+  <meta name="description" content="Discover your precise familial relationship based on shared ancestors using our Common Ancestor Relationship Tool.">
+  <meta name="keywords" content="common ancestor tool, genealogy calculator, relationship finder, family history, Crediton Cemetery">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.creditoncemeteryheritageportal.com/family-relationship-explorer">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40vh;
+    }
+    .custom-border {
+      border-color: #4A704A;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 font-sans">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50" aria-label="Main Navigation">
+    <div class="px-4 py-3 container mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+          <i class="fas fa-tree text-green-400" aria-hidden="true"></i>
+          <a href="/" class="font-bold text-xl">Crediton Cemetery Heritage Portal</a>
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <a class="transition hover:text-green-400" href="/">Home</a>
+          <a class="transition hover:text-green-400" href="/interactive-map">Interactive Map</a>
+          <a class="transition hover:text-green-400" href="/virtual-exhibits">Virtual Exhibits</a>
+          <a class="transition hover:text-green-400" href="/search-records">Search Records</a>
+          <a class="transition hover:text-green-400" href="/historical-timeline">Historical Timeline</a>
+          <a class="transition hover:text-green-400" href="/support-us">Support Us</a>
+        </div>
+        <div class="md:hidden">
+          <button class="focus:outline-none" id="menu-toggle" aria-label="Toggle Mobile Menu">
+            <i class="fas fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden md:hidden" id="mobile-menu">
+      <div class="px-4 container mx-auto flex flex-col py-2 space-y-3">
+        <a class="transition hover:text-green-400 block" href="/">Home</a>
+        <a class="transition hover:text-green-400 block" href="/interactive-map">Interactive Map</a>
+        <a class="transition hover:text-green-400 block" href="/virtual-exhibits">Virtual Exhibits</a>
+        <a class="transition hover:text-green-400 block" href="/search-records">Search Records</a>
+        <a class="transition hover:text-green-400 block" href="/historical-timeline">Historical Timeline</a>
+        <a class="transition hover:text-green-400 block" href="/support-us">Support Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex items-center justify-center hero-image text-center text-white">
+    <div class="px-4 container mx-auto">
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl">Common Ancestor Relationship Tool</h1>
+      <p class="mb-8 md:text-2xl text-xl">Find out your exact relationship with a relative based on your shared ancestor</p>
+    </div>
+  </section>
+
+  <!-- Tool Section -->
+  <section class="bg-white py-12" id="relationship-tool">
+    <div class="px-4 container mx-auto max-w-2xl text-gray-800">
+      <div class="text-center mb-10">
+        <i class="fas fa-users text-green-600 text-5xl mb-4" aria-hidden="true"></i>
+        <h2 class="text-3xl font-bold mb-4">Choose Your Shared Ancestor’s Relationship</h2>
+        <p>Select how your shared ancestor relates to each of you to calculate your family connection.</p>
+      </div>
+
+      <div class="space-y-8">
+        <div>
+          <label for="select1" class="block text-sm font-medium mb-2">The common ancestor is <strong>your</strong>:</label>
+          <select id="select1" class="w-full p-2 border border-gray-300 rounded-md shadow-sm">
+            <option value="1">Grandparent</option>
+            <option value="2">Great Grandparent</option>
+            <option value="3">2nd Great Grandparent</option>
+            <option value="4">3rd Great Grandparent</option>
+            <option value="5">4th Great Grandparent</option>
+            <option value="6">5th Great Grandparent</option>
+            <option value="7">6th Great Grandparent</option>
+            <option value="8">7th Great Grandparent</option>
+            <option value="9">8th Great Grandparent</option>
+            <option value="10">9th Great Grandparent</option>
+            <option value="11">10th Great Grandparent</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="select2" class="block text-sm font-medium mb-2">The common ancestor is <strong>your relative’s</strong>:</label>
+          <select id="select2" class="w-full p-2 border border-gray-300 rounded-md shadow-sm">
+            <option value="1">Grandparent</option>
+            <option value="2">Great Grandparent</option>
+            <option value="3">2nd Great Grandparent</option>
+            <option value="4">3rd Great Grandparent</option>
+            <option value="5">4th Great Grandparent</option>
+            <option value="6">5th Great Grandparent</option>
+            <option value="7">6th Great Grandparent</option>
+            <option value="8">7th Great Grandparent</option>
+            <option value="9">8th Great Grandparent</option>
+            <option value="10">9th Great Grandparent</option>
+            <option value="11">10th Great Grandparent</option>
+          </select>
+        </div>
+
+        <div id="results" class="bg-green-50 p-4 rounded-lg shadow-md border-2 custom-border hidden">
+          <h3 class="text-xl font-semibold text-green-700 mb-3">Calculated Relationship</h3>
+          <p><strong>You are:</strong> <span id="relationship-result" class="text-gray-700"></span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- More Resources Section -->
+  <section class="bg-gray-50 py-12">
+    <div class="px-4 container mx-auto text-center">
+      <h2 class="font-bold text-3xl text-gray-800 mb-6">Explore More Genealogy Resources</h2>
+ <p class="text-gray-600 mx-auto max-w-3xl mb-8">Enhance your research with additional tools and resources from Crediton Cemetery.</p>
+    <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 justify-center">
+      <a href="../tools/family-relationship-chart" class="font-bold text-white transition bg-green-700 hover:bg-green-900 px-6 py-3 rounded-lg">View Genealogy Chart</a>
+        <a href="../../resources" class="font-bold text-white transition bg-gray-700 hover:bg-gray-800 px-6 py-3 rounded-lg">Browse Resources</a>
+ 
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8" aria-label="Footer">
+    <div class="px-4 container mx-auto text-center">
+      <p class="text-lg">© 2025 Crediton Cemetery Heritage Portal. All rights reserved.</p>
+      <p class="text-sm text-gray-400 mt-2">Created by Jared Van Valkengoed</p>
+      <div class="flex flex-wrap justify-center mt-6 space-x-6 space-y-2 sm:space-y-0">
+        <a href="/privacy-policy" class="hover:text-white text-gray-400 transition-colors duration-300">Privacy Policy</a>
+        <a href="/terms-of-service" class="hover:text-white text-gray-400 transition-colors duration-300">Terms of Service</a>
+        <a href="/faq" class="hover:text-white text-gray-400 transition-colors duration-300">Frequently Asked Questions</a>
+        <a href="/resources" class="hover:text-white text-gray-400 transition-colors duration-300">Resources</a>
+        <a href="/contact-us" class="hover:text-white text-gray-400 transition-colors duration-300">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    const select1 = document.getElementById('select1');
+    const select2 = document.getElementById('select2');
+    const resultBox = document.getElementById('results');
+    const resultText = document.getElementById('relationship-result');
+
+    const relationships = {
+      "1,1": "Sibling",
+      "1,2": "Aunt/Uncle or Niece/Nephew",
+      "2,2": "1st Cousin",
+      "2,3": "1st Cousin Once Removed",
+      "3,3": "2nd Cousin",
+      "3,4": "2nd Cousin Once Removed",
+      "4,4": "3rd Cousin",
+      "5,5": "4th Cousin",
+      "6,6": "5th Cousin",
+      "7,7": "6th Cousin",
+      "8,8": "7th Cousin",
+      "9,9": "8th Cousin",
+      "10,10": "9th Cousin",
+      "11,11": "10th Cousin"
+      // Add more combinations as needed
+    };
+
+    function getRelationship(val1, val2) {
+      const key = `${val1},${val2}`;
+      const altKey = `${val2},${val1}`;
+      return relationships[key] || relationships[altKey] || "Distant Relation";
+    }
+
+    function updateRelationship() {
+      const val1 = select1.value;
+      const val2 = select2.value;
+
+      if (val1 && val2) {
+        const relation = getRelationship(val1, val2);
+        resultText.textContent = relation;
+        resultBox.classList.remove('hidden');
+      } else {
+        resultBox.classList.add('hidden');
+      }
+    }
+
+    select1.addEventListener('change', updateRelationship);
+    select2.addEventListener('change', updateRelationship);
+    // Mobile Menu Toggle
+    document.getElementById('menu-toggle').addEventListener('click', () => {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body> 
+</html>
