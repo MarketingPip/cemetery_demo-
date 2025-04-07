@@ -10,5 +10,6 @@ social:
   facebook: 'https://facebook.com/jane_doe'
   twitter: 'https://twitter.com/jane_doe'
   linkedin: 'https://linkedin.com/in/jane_doe'
+posts:
 ---
 
