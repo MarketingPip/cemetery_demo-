@@ -35,8 +35,8 @@ module Jekyll
     private
 
     def update_author_file(site, authors_dir, author_name, post_info)
-      author_FILENAME = "#{author_name.downcase.gsub(/\s+/, '-')}.md"
-      author_path = File.join(authors_dir, author_filename)
+      author_filename = "#{author_name.downcase.gsub(/\s+/, '-')}.md" # Fixed to lowercase
+      author_path = File.join(authors_dir, author_filename) # Consistent use of author_filename
 
       if File.exist?(author_path)
         content = File.read(author_path)
@@ -46,11 +46,10 @@ module Jekyll
         unless parsed[:data]['posts'].any? { |p| p['url'] == post_info['url'] }
           parsed[:data]['posts'] << post_info
 
-          # Ensure content is a string, default to empty if nil
           parsed_content = parsed[:content] || ''
           new_content = "---\n#{parsed[:data].to_yaml}---\n#{parsed_content}"
           
-          Jekyll.logger.info "Writing to #{author_path}: #{new_content[0..100]}..." # Log first 100 chars
+          Jekyll.logger.info "Writing to #{author_path}: #{new_content[0..100]}..."
           File.write(author_path, new_content)
           Jekyll.logger.info "Updated file for author: #{author_name}"
 
@@ -67,7 +66,7 @@ module Jekyll
       doc = site.collections['authors'].docs.find { |d| d.basename == File.basename(filename, '.md') }
       if doc
         doc.data.merge!(data)
-        doc.content = content || '' # Ensure content is never nil
+        doc.content = content || ''
         Jekyll.logger.info "Updated in-memory doc for #{filename}"
       else
         new_doc = Jekyll::Document.new(
@@ -76,7 +75,7 @@ module Jekyll
         )
         new_doc.read
         new_doc.data.merge!(data)
-        new_doc.content = content || '' # Ensure content is never nil
+        new_doc.content = content || ''
         site.collections['authors'].docs << new_doc
         Jekyll.logger.info "Added new in-memory doc for #{filename}"
       end
