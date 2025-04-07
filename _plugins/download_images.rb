@@ -72,7 +72,7 @@ module Jekyll
       download_path = File.join(source_path, file_name)
       relative_path = File.join('/', download_folder, file_name)
       
-      if ENV['JEKYLL_ENV'] == 'production' && site.config['gh_repo_name'] && !site.config['gh_repo_name'].empty?
+      if site.config['gh_repo_name'] && !site.config['gh_repo_name'].empty?
         relative_path = "/#{site.config['gh_repo_name']}#{relative_path}"
       end
 
@@ -103,7 +103,7 @@ module Jekyll
 
       URI.open(image_url, 'rb', {
         read_timeout: 10,
-        "User-Agent" => "Jekyll Image Downloader/#{Jekyll::VERSION}"
+        "User-Agent" => "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_0_7) Gecko/20100101 Firefox/63.6"
       }) do |image|
         File.open(download_path, 'wb') do |file|
           bytes_written = file.write(image.read)
