@@ -3,6 +3,7 @@ require 'open-uri'
 require 'fileutils'
 require 'uri'
 require 'digest/md5'
+require 'cloudflare_clearance'
 
 module Jekyll
   class DownloadImages < Generator
@@ -100,39 +101,33 @@ module Jekyll
     end
 
     def download_image(image_url, download_path)
-      Jekyll.logger.debug "Attempting to download: #{image_url} to #{download_path}"
+      Jekyll.logger.debug "Attempting to download with Cloudflare clearance: #{image_url} to #{download_path}"
 
-      # Define the headers from the provided object
-      headers = {
-        "accept" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
-        "accept-language" => "en-US,en;q=0.9",
-        "cache-control" => "no-cache",
-        "pragma" => "no-cache",
-        "sec-ch-ua" => "\"Not_A Brand\";v=\"99\", \"Google Chrome\";v=\"109\", \"Chromium\";v=\"109\"",
-        "sec-ch-ua-mobile" => "?1",
-        "sec-ch-ua-platform" => "\"Android\"",
-        "sec-fetch-dest" => "document",
-        "sec-fetch-mode" => "navigate",
-        "sec-fetch-site" => "none",
-        "sec-fetch-user" => "?1",
-        "upgrade-insecure-requests" => "1"
-      }
+      begin
+        # Initialize CloudflareClearance with the base domain
+        uri = URI.parse(image_url)
+        base_url = "#{uri.scheme}://#{uri.host}"
+        clearance = CloudflareClearance.new(base_url)
 
-      URI.open(image_url, 'rb', {
-        read_timeout: 10,
-        **headers # Merge the headers into the options hash
-      }) do |image|
-        File.open(download_path, 'wb') do |file|
-          bytes_written = file.write(image.read)
-          Jekyll.logger.debug "Wrote #{bytes_written} bytes to #{download_path}"
+        # Perform the GET request to download the image
+        response = clearance.get(image_url)
+
+        if response.is_a?(Net::HTTPOK)
+          File.open(download_path, 'wb') do |file|
+            bytes_written = file.write(response.body)
+            Jekyll.logger.debug "Wrote #{bytes_written} bytes to #{download_path}"
+          end
+        else
+          Jekyll.logger.error "Non-200 response downloading '#{image_url}': #{response.code} #{response.message}"
+          raise OpenURI::HTTPError.new("#{response.code} #{response.message}", nil)
         end
+      rescue StandardError => e
+        Jekyll.logger.error "Error downloading '#{image_url}' with Cloudflare clearance: #{e.message}"
+        raise
+      rescue Errno::EACCES => e
+        Jekyll.logger.error "Permission denied saving to '#{download_path}': #{e.message}"
+        raise
       end
-    rescue OpenURI::HTTPError => e
-      Jekyll.logger.error "HTTP error downloading '#{image_url}': #{e.message}"
-      raise
-    rescue Errno::EACCES => e
-      Jekyll.logger.error "Permission denied saving to '#{download_path}': #{e.message}"
-      raise
     end
 
     def sanitize_filename(file_name)
