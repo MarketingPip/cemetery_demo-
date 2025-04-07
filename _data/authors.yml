@@ -20,3 +20,27 @@ jane-doe:
       url: "/blog/2025/01/05/the-symbolism-of-monuments"
       date: "January 5, 2025"
       excerpt: "Explore the hidden meanings behind Crediton’s historic cemetery markers."
+
+
+john-smith:
+  name: "John Smith"
+  bio: "Jane Doe is a dedicated heritage volunteer with a passion for uncovering the stories of Crediton’s past. With a background in historical research and genealogy, she has contributed numerous articles to our blog."
+  role: "Heritage Volunteer & Blog Contributor"
+  image: "/images/authors/jane_doe.jpg"
+  social:
+    facebook: "#"
+    twitter: "#"
+    linkedin: "#"
+  posts:
+    - title: "Uncovering Crediton’s Past: A New Discovery"
+      url: "/blog/2025/03/15/uncovering-creditons-past"
+      date: "March 15, 2025"
+      excerpt: "A recently found photograph and journal reveal new insights into Crediton’s pioneer families."
+    - title: "Restoring a Veteran’s Headstone"
+      url: "/blog/2025/02/10/restoring-a-veterans-headstone"
+      date: "February 10, 2025"
+      excerpt: "Follow our journey to honor a local hero by restoring their weathered memorial."
+    - title: "The Symbolism of Monuments"
+      url: "/blog/2025/01/05/the-symbolism-of-monuments"
+      date: "January 5, 2025"
+      excerpt: "Explore the hidden meanings behind Crediton’s historic cemetery markers."
