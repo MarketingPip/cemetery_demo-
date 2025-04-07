@@ -152,10 +152,10 @@ permalink: /resources/tools/cousin-relationship-calculator/
 
   <!-- Scripts -->
   <script>
-const select1 = document.querySelector('.select1');
-const select2 = document.querySelector('.select2');
-const resultBox = document.querySelector('.result-box');
-const resultText = document.querySelector('.result-text');
+const select1 = document.querySelector('#select1');
+const select2 = document.querySelector('#select2');
+const resultBox = document.querySelector('#results');
+const resultText = document.querySelector('#relationship-result');
 
 document.addEventListener('change', function(event) {
   if (event.target === select1 || event.target === select2) {
