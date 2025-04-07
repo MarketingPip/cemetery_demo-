@@ -93,16 +93,30 @@
   {% assign expire_date = post.expire_date %}
   {% assign today = 'now' | date: "%Y-%m-%d" %}
 
+  {% if expire_date %}
+    {% assign expire_date = expire_date | date: "%Y-%m-%d" %}
+  {% endif %}
+
   {% if expire_date == nil or expire_date == "" or expire_date >= today %}
     <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden post-card">
-      <img alt="{{ post.title }}" class="w-full h-48 object-cover" src="{{ post.image }}">
+      {% if post.image %}
+        <img alt="{{ post.title | escape }}" class="w-full h-48 object-cover" src="{{ post.image | relative_url }}">
+      {% else %}
+        <div class="w-full h-48 bg-gray-200"></div>
+      {% endif %}
+      
       <div class="p-6">
-        <h3 class="font-bold text-xl mb-2">{{ post.title }}</h3>
-        <p class="text-gray-600 text-sm mb-2">{{ post.date | date: "%B %d, %Y" }}</p>
-        {% if post.excerpt %}
-          <p class="text-gray-600 mb-4">{{ post.excerpt }}</p>
+        <h3 class="font-bold text-xl mb-2">{{ post.title | escape }}</h3>
+        
+        {% if post.date %}
+          <p class="text-gray-600 text-sm mb-2">{{ post.date | date: "%B %d, %Y" }}</p>
         {% endif %}
-        <a href="{{ site.url }}{{ 'blog' | relative_url }}/{{ post.title | slugify }}" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
+        
+        {% if post.excerpt %}
+          <p class="text-gray-600 mb-4">{{ post.excerpt | strip_html | truncate: 150 }}</p>
+        {% endif %}
+        
+        <a href="{{ post.url | relative_url }}" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
       </div>
     </div>
   {% endif %}
