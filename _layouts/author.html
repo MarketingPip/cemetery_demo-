@@ -89,7 +89,7 @@
       <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Explore {{ page.name }}’s contributions to our blog.</p>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-       {% for post in page.posts %}
+       {% for post in page.posts limit:10 %}
   {% assign expire_date = post.expire_date %}
   {% assign today = 'now' | date: "%Y-%m-%d" %}
 
