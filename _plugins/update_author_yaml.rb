@@ -21,10 +21,11 @@ module Jekyll
         formatted_date = post.data['date'].strftime('%Y/%m/%d')
         slug = post.data['title'].downcase.gsub(/\s+/, '-')
         
+        # Convert Time to ISO 8601 string to avoid Psych::DisallowedClass
         post_info = {
           'title' => post.data['title'],
           'url' => "/blog/#{formatted_date}/#{slug}",
-          'date' => post.data['date'].to_s,
+          'date' => post.data['date'].strftime('%Y-%m-%d'), # Convert to string
           'excerpt' => post.data['excerpt'] || ''
         }
 
@@ -52,7 +53,7 @@ module Jekyll
         unless parsed[:data]['posts'].any? { |p| p['url'] == post_info['url'] }
           parsed[:data]['posts'] << post_info
           
-          # Write updated content
+          # Write updated content with safe YAML dumping
           new_content = "---\n#{parsed[:data].to_yaml}---\n#{parsed[:content]}"
           File.write(author_path, new_content)
           Jekyll.logger.info "Updated posts for author: #{author_name}"
@@ -68,7 +69,8 @@ module Jekyll
       if content =~ /\A(---\s*\n.*?\n?)^(---\s*\n)/m
         front_matter = $1
         body = $POSTMATCH
-        data = YAML.load(front_matter) || {}
+        # Use safe_load to avoid class loading issues
+        data = YAML.safe_load(front_matter, permitted_classes: [Date, Time]) || {}
         { data: data, content: body }
       else
         { data: {}, content: content }
