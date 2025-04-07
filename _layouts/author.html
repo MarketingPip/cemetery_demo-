@@ -116,7 +116,7 @@
           <p class="text-gray-600 mb-4">{{ post.excerpt | strip_html | truncate: 150 }}</p>
         {% endif %}
         
-        <a href="{{ post.title | relative_url }}" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
+        <a href="{{ site.url }}{{ 'blog' | relative_url }}/{{ post.title | slugify }}"  title="Read blog post from {{page.name}}" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
       </div>
     </div>
   {% endif %}
