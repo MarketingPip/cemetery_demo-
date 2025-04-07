@@ -98,7 +98,7 @@
             {% if post.excerpt %}
             <p class="text-gray-600 mb-4">{{ post.excerpt }}</p>
             {% endif %}
-            <a href="{{ site.url }}{{ 'blog' | relative_url }}{{ post.title | relative_url }}" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
+            <a href="{{ site.url }}{{ 'blog' | relative_url }}{{ post.title}}" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
           </div>
         </div>
         {% endfor %}
