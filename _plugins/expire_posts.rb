@@ -30,6 +30,9 @@ module Jekyll
                 name = File.basename(path)
                 name += ".html" unless name.end_with?(".html")
 
+                if ENV['JEKYLL_ENV'] == 'production' && site.config['gh_repo_name'] && !site.config['gh_repo_name'].empty?
+                   url = "/#{site.config['gh_repo_name']}/#{url}"
+                end
                 page = Jekyll::PageWithoutAFile.new(site, site.source, dir, name)
                 page.content = <<~HTML
                   <!DOCTYPE html>
