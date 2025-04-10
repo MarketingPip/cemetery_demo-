@@ -1325,20 +1325,26 @@ L.marker([43.29868, -81.55274])
 
 // Process cemetery data
 const cemeteryData = records.filter(record => record.gps);
-let _debounceCancel = false
+  
+let _debounceTimeout = null; // Declare a variable to hold the timeout reference
+let _debounceCancel = false; // Flag to track debounce state
 
-function smoothLeafletDebounce(){
-  if(_debounceCancel){
-   return
+function smoothLeafletDebounce() {
+  // If there's an existing timeout, cancel it to prevent multiple timeouts from running
+  if (_debounceTimeout) {
+    clearTimeout(_debounceTimeout);
   }
+
   // Cancel debounce temporarily
   _debounceCancel = true;
 
-  // Reset debounce flag after 1 sec
-  setTimeout(() => {
+  // Set a new timeout and store its reference in _debounceTimeout
+  _debounceTimeout = setTimeout(() => {
     _debounceCancel = false;
-  }, 1000);	 
+    _debounceTimeout = null; // Reset the timeout reference after it completes
+  }, 1000);
 }
+
   
 markers.on('click', function (a) {
    smoothLeafletDebounce()
