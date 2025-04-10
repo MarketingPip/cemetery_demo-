@@ -1325,17 +1325,31 @@ L.marker([43.29868, -81.55274])
 
 // Process cemetery data
 const cemeteryData = records.filter(record => record.gps);
-
+let _debounceCancel = false
 // Popup open handler for lazy loading
-map.on('popupopen', function(e) {
-    const popup = e.popup;
-    if (popup.options.lazyload && !popup.getContent()) {
-        popup.setContent(popup.options.lazyload);
-    }
+map.on('popupopen', function (e) {
+  // Cancel debounce temporarily
+  _debounceCancel = true;
+
+  // Reset debounce flag after 500ms
+  setTimeout(() => {
+    _debounceCancel = false;
+  }, 500);
+
+  const popup = e.popup;
+
+  // Check if lazyload option is set and content is not yet loaded
+  if (popup.options.lazyload && !popup.getContent()) {
+    popup.setContent(popup.options.lazyload);
+  }
 });
+
 
 // Update markers function
 function updateMarkers() {
+    if(_debounceCancel){
+     return
+    }
     const bounds = map.getBounds();
     markers.clearLayers();
 
