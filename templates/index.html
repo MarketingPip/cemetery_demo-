@@ -1326,16 +1326,30 @@ L.marker([43.29868, -81.55274])
 // Process cemetery data
 const cemeteryData = records.filter(record => record.gps);
 let _debounceCancel = false
-// Popup open handler for lazy loading
-map.on('popupopen', function (e) {
+
+function smoothLeafletDebounce(){
+  if(_debounceCancel){
+   return
+  }
   // Cancel debounce temporarily
   _debounceCancel = true;
 
   // Reset debounce flag after 500ms
   setTimeout(() => {
     _debounceCancel = false;
-  }, 1000);
+  }, 500);	 
+}
+  
+markers.on('click', function (a) {
+   smoothLeafletDebounce()
+});
 
+markers.on('clusterclick', function (a) {
+	 smoothLeafletDebounce()
+});
+  
+// Popup open handler for lazy loading
+map.on('popupopen', function (e) {
   const popup = e.popup;
 
   // Check if lazyload option is set and content is not yet loaded
