@@ -1356,7 +1356,8 @@ markers.on('clusterclick', function (a) {
   
 // Popup open handler for lazy loading
 map.on('popupopen', function (e) {
-  smoothLeafletDebounce()	
+   _debounceCancel = true;
+  // smoothLeafletDebounce()	
   const popup = e.popup;
 
   // Check if lazyload option is set and content is not yet loaded
@@ -1364,6 +1365,10 @@ map.on('popupopen', function (e) {
     popup.setContent(popup.options.lazyload);
   }
 });
+
+map.on('popupclose', function (e) {
+  _debounceCancel = false;
+});  
 
 
 // Update markers function
