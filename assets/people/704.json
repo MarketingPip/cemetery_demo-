@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "Laura May Mathers\ndaughter of<br/>Marshall &amp; Rachel<br/>1907-1980</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983976",
+    "longitude": "-81.5526842"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/86/238057022_abd8a12e-5a40-4d50-b883-7d9a654ed198.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

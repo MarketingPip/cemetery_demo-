@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "Clara L. Oestreicher\n1899-<br/>Daughter</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985578",
+    "longitude": "-81.5527462"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/111/236912274_a67e8e8a-0c39-4709-89bb-7269000fb09d.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

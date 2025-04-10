@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Daughter of Elizabeth (Rader) and Eckhardt Wilhelm",
   "bio": "(back)WILHELM\nEckhardt Wilhelm<br/>1829-1912<br/>his wife Elizabeth Rader<br/>1840-1909<br/>their children<br/>1861 Henry 1875<br/>1863 Catherine 1879<br/>1876 Louis 1881<br/>Katherine Kaufeld<br/>1820-1882<br/>(front)HAIST<br/>Ezra Haist <br/>1869-1928<br/>his wife Annie Wilhelm<br/>1873-1954</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.298308",
+    "longitude": "-81.5523601"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/263/15833360_115885273053.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

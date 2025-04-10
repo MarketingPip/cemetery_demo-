@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "NESS\n13391 F/O C. E. Ness<br/>3 A.W.D.T.U. North Bay<br/>killed Jan. 12, 1954<br/>24 years old<br/>husband of Pauline Faist<br/>buried at the site of the crash<br/>Mulock Lake, Ont.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.29985",
+    "longitude": "-81.5537333"
+  },
   "image_url": "https://images.findagrave.com/photos/2023/146/188115264_f4fa44a7-89b1-4771-8830-6b2fd616d6da.jpeg?size=photos250",
   "image_credits": "Operation:PictureMe",
   "image_credits_url": "/user/profile/47833248",

@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Daughter of Eva (Fahrner) and Matthew Wein",
   "bio": "GONE BUT NOT FORGOTTEN\nJohn Sweitzer<br/>born Aug. 23, 1859<br/>died May 1, 1919<br/>his wife Magdalena Wein<br/>born May 19, 1889<br/>died Oct. 30, 1951<br/>Gone But Not Forgotten</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984125",
+    "longitude": "-81.5524845"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/249/15650838_115764541827.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

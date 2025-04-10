@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Son of Matthew Finkbeiner",
   "bio": "Jacob Finkbeiner\ndied Oct. 23, 1926<br/>aged 63 yrs.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984631",
+    "longitude": "-81.552832"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/262/15821778_115876738221.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

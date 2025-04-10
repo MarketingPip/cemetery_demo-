@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Son of Michael Hirtzel and his first wife Catherine (nee Kroft) Hirtzel.",
   "bio": "HIRTZEL<br/>MICHAEL  HIRTZEL<br/>BORN APR. 9 1829 – DIED MAY 4, 1917<br/>HIS WIFE CATHERINE KROFT<br/>BORN  NOV. 25, 1825 – DIED JAN. 16, 1882<br/>HIS WIFE CATHERINE KREIN<br/>BORN MAR. 28, 1846 – DIED MAR. 28, 1912<br/>HENRY  HIRTZEL<br/>BORN  JUNE 22, 1857 – DIED SEPT. 20, 1880<br/>[21 Feb 1880 on death record]<br/>SAMUEL HIRTZEL<br/>BORN JULY 10, 1879 – DIED DEC. 28, 1879<br/>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986056",
+    "longitude": "-81.5529049"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/110/179830619_020790c7-9dcb-477e-998e-d73890006fa5.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Joseph is listed on the back of the stone for Rosena (Kuhn) and Jacob Sweitzer",
   "bio": "SWEITZER\nJoseph Sweitzer<br/>1882-1885</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986368",
+    "longitude": "-81.5527333"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/249/15660572_115768941093.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

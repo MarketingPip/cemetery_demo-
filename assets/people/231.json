@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "FAHNER\nLydia Wein<br/>died Mar. 31, 1944 aged 63 yrs.<br/>wife of Henry Fahner<br/>died Nov. 19, 1964<br/>aged 86 yrs.<br/>their daughter Emma<br/>wife of Rose Krueger<br/>died June 5, 1979 aged 67 yrs.<br/>(back)Tobias Fahner<br/>died Aug. 20, 1906<br/>aged 67 yrs.<br/>Gone but not forgotten <br/>Sophia his wife<br/>died Apr. 14, 1924 aged 74 yrs.<br/>at rest</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.298439",
+    "longitude": "-81.5531285"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/112/238612944_1cf79024-5898-4ceb-a416-4110a9ee8e78.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

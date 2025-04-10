@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Daughter of Sarah Ann (Young) and Mathew England",
   "bio": "FINKBEINER (gray granite stone)\nLorne Rueben<br/>May 23, 1901-May 13, 1984<br/>his beloved wife Laura E. England<br/>July 15, 1907-Nov. 10, 1994</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2981939",
+    "longitude": "-81.55233"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/213/15126038_115458177510.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

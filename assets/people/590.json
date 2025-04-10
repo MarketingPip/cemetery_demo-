@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Daughter of Catherine (Haist) and Mathew Finkbeiner",
   "bio": "Daughter of Catherine (Haist) and Mathew Finkbeiner",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983784",
+    "longitude": "-81.5521408"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/234/15473126_115634778094.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "CROCKER\nMark Anthony<br/>June 2, 1959<br/>May 25, 2021<br/>loved father of Madison<br/>beloved husband of<br/>Claire B. Finkbeiner</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2988865",
+    "longitude": "-81.5527082"
+  },
   "image_url": "https://images.findagrave.com/photos/2023/219/238057773_577d34b2-a7a5-49b7-b038-9db0e8c73b33.jpeg?size=photos250",
   "image_credits": "Slick",
   "image_credits_url": "/user/profile/50973252",

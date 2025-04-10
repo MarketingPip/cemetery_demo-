@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "in loving memory\nGLANVILLE<br/>Cecil E. Glanville<br/>1937-2021<br/>his beloved wife<br/>Betty A. Roeszler<br/>1936-2013</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.298423",
+    "longitude": "-81.5530765"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/86/238057538_37f36338-9950-4905-aed3-f1db93695dd7.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

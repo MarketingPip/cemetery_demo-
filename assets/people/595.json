@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "In Loving Memory\nINSLEY<br/>1922 Edward M. Insley 1997<br/>husband of<br/>1928 Ruth L. Schwartz 2017</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984097",
+    "longitude": "-81.5524844"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/84/237948315_a2b6242e-1d14-46a6-91ab-cdb65ba02530.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

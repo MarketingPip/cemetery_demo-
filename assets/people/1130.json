@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Leah was born in Wellington Co, the daughter of Margaretha (Rothermal) and Peter Bieber. The name Beaver is the anglo version of Bieber.",
   "bio": "WEIN\nIn memory of John G. Wein<br/>1851-1919<br/>his beloved wife Leah Beaver<br/>1859-1913<br/>their sons<br/>1888 Ezra 1924<br/>1883 Samuel 1949</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983635",
+    "longitude": "-81.5526905"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/304/16413875_116239760176.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

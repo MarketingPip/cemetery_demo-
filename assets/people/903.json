@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "ROESZLER\nIn memory of Elizabeth<br/>wife of John Roeszler<br/>died Sept. 9 , 1918<br/>in her 61 st year<br/>John Roeszler<br/>died May 17, 1946<br/>in his 91 st year<br/>Emerson, their son<br/>1898-1984<br/>Thomas C. their son<br/>1886-1933<br/>(back)Herbert C. Roeszler<br/>1899-1900<br/>Albert Wolfe<br/>1884-1959<br/>his wife Rosina Roeszler<br/>1883-1963<br/>Harold C. Wolfe<br/>1917-1990<br/>his wife <br/>Nita Mae Riley<br/>1926-1992</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985196",
+    "longitude": "-81.5527762"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/114/188136596_95ce9bae-8963-48fb-873c-eccbd890d0aa.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

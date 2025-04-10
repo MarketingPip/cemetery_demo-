@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "Dean Louis Carl\nOestreicher<br/>1953-1981<br/>son</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985337",
+    "longitude": "-81.5524844"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/84/188115282_da36a833-0dbd-4fa7-9d86-588694862ed8.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "JONES\nJohn Herbert Jones<br/>1883-1982<br/>his wife<br/>Lillian Finkbeiner<br/>1895-1984<br/>Harold William Jones<br/>1919-2017<br/>his wife<br/>Margaret Anna Love<br/>1923-2003</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2982534",
+    "longitude": "-81.5525273"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/84/237947789_cb18f9a4-8dd6-4fbd-9253-a91cea328654.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

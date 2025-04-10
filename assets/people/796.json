@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2995528",
+    "longitude": "-81.5532417"
+  },
   "image_url": "https://images.findagrave.com/photos/2021/153/188115334_9530b9b2-3d77-4172-824a-93ed3820462a.jpeg?size=photos250",
   "image_credits": "Kathleen Hodgins",
   "image_credits_url": "/user/profile/47390529",

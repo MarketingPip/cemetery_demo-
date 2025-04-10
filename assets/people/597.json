@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "Mary J.\n1940-2017<br/>JEFFERIES</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983913",
+    "longitude": "-81.5521637"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/86/238052582_1bb6c620-5c6d-48d6-9c4b-7ff955d3a667.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

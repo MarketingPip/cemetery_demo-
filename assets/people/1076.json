@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "God grant me the serenity....\nTRIPP<br/>Norman R.<br/>Tripp<br/>1934-2019</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984854",
+    "longitude": "-81.5526476"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/86/238057988_e54012dd-88d7-44ef-8609-c0e59e37bf49.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

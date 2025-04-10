@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "BROWN\nSamuel Brown<br/>died Nov. 11, 1916<br/>aged 59 yrs. 3 mos. 29 ds<br/>his wife<br/>Florina Siebert<br/>died June 29, 1948<br/>aged 85 yrs. 6 mos. 9 ds.<br/>Irwin Roy Brown<br/>died Sept. 14, 1852<br/>aged 6 yrs. 7 mos.<br/>Justina<br/>wife of Charles Brown<br/>died May 25, 1900<br/>aged 68 yrs. 1 mo. 18 ds.<br/>Charles Brown<br/>died June 20, 1905<br/>aged 72 yrs. 13 ds.<br/>their son Jonathan<br/>died July 25, 1867<br/>ae 5 yrs. 11 mos. 14 ds.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2987478",
+    "longitude": "-81.5526991"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/110/188035921_0c2c9b04-4579-4ee8-8c42-e1e9f4cceab1.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "MORLOCK\nBarry Herbert Morlock<br/>1948-1977</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983734",
+    "longitude": "-81.5527462"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/214/15134912_115461735216.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "REST IN PEACE",
-  "gps": null,
+  "gps": {
+    "latitude": "43.29966",
+    "longitude": "-81.55275"
+  },
   "image_url": "https://images.findagrave.com/photos/2018/209/188113369_2bce02a1-3fd5-462b-8f2e-76c8288b067a.jpeg?size=photos250",
   "image_credits": "rossddickson",
   "image_credits_url": "/user/profile/49188008",

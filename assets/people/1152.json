@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "WENZEL\nDora Wenzel<br/>wife of Frank Behnke<br/>born Mar. 1, 1883<br/>died Nov. 1, 1923<br/>William H. Wenzel<br/>born Sept. 29, 1857<br/>died Aug. 27, 1924<br/>his wife Mary Eilber<br/>born July 19, 1860<br/>died Nov. 15, 1945<br/>(back)Catherine Wenzel<br/>born Mar. 11, 1852<br/>died Apr. 4, 1915<br/>aged 53 yrs.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983813",
+    "longitude": "-81.5527162"
+  },
   "image_url": "https://images.findagrave.com/photos/2013/267/117647896_138016880966.jpg?size=photos250",
   "image_credits": "Jim Macey",
   "image_credits_url": "/user/profile/47185696",

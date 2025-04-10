@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985999",
+    "longitude": "-81.552802"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/116/239245271_ebbf2611-3738-4db2-90df-ab2965b40a5c.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

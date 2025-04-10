@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Son of Catherine (Haist) and Matthew Finkbeiner",
   "bio": "FINKBEINER\nin memory of Bertha<br/>died June 8, 1911<br/>ae 21 yrs 4 wks.<br/>Melissa<br/>died Aug. 4, 1912<br/>ae 24 yrs. 4 mos. 15 ds.<br/>Henry Emerson<br/>died Apr. 15, 1913<br/>ae 15 yrs. 11 mos. 15 ds.<br/>Amanda Barbara<br/>died June 13, 1914<br/>ae 28 yrs. 7 mos. 18 ds.<br/>children of Matthew and Catherine Finkbeiner<br/>in memory of Matthew Finkbeiner<br/>died Jan. 24, 1916<br/>ae 69 yrs. 3 mos. 12 ds.<br/>Catherine his wife<br/>died Oct. 11, 1921<br/>ae 70 yrs 5 mos. 27 ds.<br/>Charles William<br/>died Dec. 31, 1918<br/>ae 26 yrs. 5 mos. 3 ds.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984712",
+    "longitude": "-81.5528708"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/263/15833630_115885486829.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "Kaitlyn\nEastabrook<br/>Nov. 16, 1991<br/>Sept. 23, 2013<br/>EASTABROOK<br/>you can't spell<br/>awesome<br/>without me</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985791",
+    "longitude": "-81.552862"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/86/238052084_87a73bb8-0d12-4dd8-a962-ff85d185de66.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

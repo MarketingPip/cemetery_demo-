@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "GUENTHER\nTobias Guenther<br/>born Aug. 12, 1835<br/>died Mar. 26, 1920<br/>Catherine Wolf, his wife<br/>born Feb. 2, 1842<br/>died Feb. 20, 1925<br/>at rest<br/>Wilhelmina , wife of C. Fahrner<br/>1861-1925<br/>Christian Fahrner<br/>1863-1952</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983062",
+    "longitude": "-81.552832"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/111/236179174_8450503e-3fa6-46ba-8f42-7383b5c945b6.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Daughter of Elizabeth and Joseph Heist",
   "bio": "Daughter of Elizabeth and Joseph Heist",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986816",
+    "longitude": "-81.5525273"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/253/15697770_115798723165.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

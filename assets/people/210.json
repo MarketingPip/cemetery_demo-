@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "FAHNER\nCaroline Fahner<br/>died Dec. 5, 1932<br/>aged 80 yrs. 5 mos. 5 ds.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984324",
+    "longitude": "-81.5527162"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/110/189810731_0d4d4cf5-6980-46ba-85f1-639e79aaef54.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

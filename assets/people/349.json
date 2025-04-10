@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "I have two pieces of information for Matthew. Both say his father is Matthew, one says his mother is Anne, the other says Barbara.",
   "bio": "I have two pieces of information for Matthew. Both say his father is Matthew, one says his mother is Anne, the other says Barbara.",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984628",
+    "longitude": "-81.5524414"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/264/15847967_115893418231.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

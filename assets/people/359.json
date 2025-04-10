@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "FINKBEINER\nRobert R.<br/>Finkbeiner<br/>1951-2016<br/>beloved son <br/>1985 Kristopher W.D. 1995</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985791",
+    "longitude": "-81.5526905"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/86/238055567_3d090d6b-d328-428d-81e1-ad45fcb3389f.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

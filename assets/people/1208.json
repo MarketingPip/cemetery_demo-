@@ -7,7 +7,10 @@
   "location": "Williamstown",
   "part_bio": "He was born in Merzig (near Trier), Prussia and emigrated to the USA in 1854. He married Caroline Froeschle in 1857, Dayton, OH.  He was a tanner and resided in Ohio until about 1870 when he settled in Williamstown WV and established a tannery.While still in Germany he was a member of the kaiser's bodyguard.[SETTLERS & BUILDERS OF OHIO, The Ohio Genealogical Society]His parents were Mathias Joseph Ruf and Angela (Schneider)Ruf of Merzig.",
   "bio": "He was born in Merzig (near Trier), Prussia and emigrated to the USA in 1854. He married Caroline Froeschle in 1857, Dayton, OH.  He was a tanner and resided in Ohio until about 1870 when he settled in Williamstown WV and established a tannery.<br/>While still in Germany he was a member of the kaiser's bodyguard.<br/><br/>[SETTLERS &amp; BUILDERS OF OHIO, The Ohio Genealogical Society]<br/><br/>His parents were Mathias Joseph Ruf and Angela (Schneider)Ruf of Merzig.",
-  "gps": null,
+  "gps": {
+    "latitude": "39.393578",
+    "longitude": "-81.4470473"
+  },
   "image_url": "https://images.findagrave.com/photos/2000/300/5016895_962891569.jpg?size=photos1024",
   "image_credits": "Louis Ruf",
   "image_credits_url": "/user/profile/6941778",

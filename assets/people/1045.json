@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "SWEITZER(salmon granite stone)\nSamuel Sweitzer<br/>1915-1977<br/>his wife Ida A. Riard<br/>1923-1989<br/>(back)SWEITZER<br/>Brian Sweitzer <br/>1947-1981<br/>his wife Angela McAvany</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984983",
+    "longitude": "-81.5525317"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/214/15134804_115461698931.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

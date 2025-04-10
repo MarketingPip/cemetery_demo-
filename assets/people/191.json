@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Daughter of Charlotte (Beaver) and Gottlieb Morlock",
   "bio": "Daughter of Charlotte (Beaver) and Gottlieb Morlock",
-  "gps": null,
+  "gps": {
+    "latitude": "43.298789",
+    "longitude": "-81.5527762"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/231/15426274_115607727998.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

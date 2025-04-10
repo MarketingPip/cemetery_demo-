@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "WUERTH\nAlfred E. Wuerth<br/>1891-1974<br/>his wife Lucilla Schwartz<br/>1893-1979<br/>(back)Gotteib Wuerth<br/>1841-1897<br/>his wife Mary C. Lutz<br/>1859-1919<br/>their son Theodore O.<br/>1880-1881<br/>Mary Lutz Wein<br/>died 1903 (no date or age)</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983804",
+    "longitude": "-81.5523556"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/311/16550478_116299534365.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

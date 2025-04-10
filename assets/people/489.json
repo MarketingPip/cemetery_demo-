@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "HAIST\nFrederick Louis Haist<br/>1924-2013<br/>his wife Donna Wilson<br/>In loving memory</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2998056",
+    "longitude": "-81.5527639"
+  },
   "image_url": "https://images.findagrave.com/photos/2018/209/191737620_9f6a0756-4d79-4b36-96ad-731231a3a33c.jpeg?size=photos250",
   "image_credits": "rossddickson",
   "image_credits_url": "/user/profile/49188008",

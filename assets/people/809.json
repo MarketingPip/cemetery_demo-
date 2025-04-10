@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "(front) Herman Oestreicher\n1857-1952<br/>Matilda Morlock<br/>his wife<br/>1862-1943</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984125",
+    "longitude": "-81.5524845"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/262/15820654_115876035373.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

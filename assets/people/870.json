@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "RATZ (black granite)\nGordon Marcius<br/>son of John &amp; Barbara Ratz<br/>died Oct. 18, 1908<br/>ae 8 yrs. 4 mos. 17 ds.<br/>Ida Ratz<br/>wife of William Sweitzer<br/>born Apr. 10, 1889-died Jan. 10, 1920<br/>Gone but not forgotten<br/>(back)John Ratz<br/>born Apr. 18, 1853-died June 21, 1942<br/>Barbara Finkbeiner<br/>wife of John Ratz<br/>born Feb. 16, 1856-died Jan. 6, 1924<br/>in her 67th year.<br/>Simon V. Ratz<br/>born Nov. 26, 1883-died Feb. 28, 1947</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2989123",
+    "longitude": "-81.5527591"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/311/16550765_116299802309.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

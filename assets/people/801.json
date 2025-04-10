@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "their daughter\nHannah Irene<br/>1901-1902</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984329",
+    "longitude": "-81.5524459"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/111/236912368_22c8fc53-56de-4937-a107-86a63958399d.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

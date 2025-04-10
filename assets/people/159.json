@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "DUNDAS\nDonald S. Dundas<br/>1947-2020</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983606",
+    "longitude": "-81.5525189"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/86/238051972_a7541fc4-abf5-445f-acb0-e711817aed6d.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

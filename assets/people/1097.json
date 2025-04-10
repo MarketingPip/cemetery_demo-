@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "WALES\nGeorge E. Ted<br/>1939-2006<br/>Jeannette F.<br/>Schenk Lippert<br/>1935-2018</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2982222",
+    "longitude": "-81.5523126"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/84/237949184_871e51f6-ee16-4d56-b737-b68c854a4001.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

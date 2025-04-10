@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "LIGHTFOOT\nDouglas Howard]Lightfoot<br/>Oct. 30, 1945<br/>Jan. 17, 2021<br/>married June 11, 1966<br/>Loving parents of Steve &amp; Mike<br/>cherished grandparents of<br/>Dylan, Cadyn, Paige, Todd &amp;Taylar</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983606",
+    "longitude": "-81.5527334"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/86/238054371_de902fa0-4070-4c04-9394-f0d668fa03fd.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

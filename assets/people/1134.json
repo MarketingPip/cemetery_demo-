@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "WEIN\nLouis Wein<br/>died Sept. 6, 1911<br/>aged 88 yrs. 2 mos.<br/>his wife Elizabeth Brown<br/>1855-1942<br/>David Brown<br/>died Jan. 7, 1904<br/>aged 86 ys, 4 mos. 17 ds.<br/>Christina Klumpp<br/>wife of David Brown<br/>died Mar. 7, 1902<br/>aged 82 yrs. 3 mos.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984844",
+    "longitude": "-81.5527334"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/112/239125912_7d6ec5d1-0de2-4ca3-8735-15f07a261283.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

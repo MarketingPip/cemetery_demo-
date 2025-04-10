@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "HOLTZMAN\nEster M. Haist<br/>wife of Harrison N. Holtzman<br/>1894-1932</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.298475",
+    "longitude": "-81.5527763"
+  },
   "image_url": "",
   "image_credits": "",
   "image_credits_url": "",

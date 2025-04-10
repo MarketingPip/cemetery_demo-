@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Son of Hannah (Clemann) and Henry Sweitzer, husband of Lydia Morlock",
   "bio": "SWEITZER\nat rest<br/>Samuel Sweitzer<br/>born Sept. 27, 1857<br/>died Sept. 26, 1911<br/>Louisa F.<br/>born Sept. 1, 1883<br/>died June 12, 1889<br/>Victoria M.<br/>born May 24, 1895<br/>died Aug. 24, 1896<br/>Maryann<br/>born Mar. 5, 1885<br/>died 1885<br/>Lydia Morlock<br/>wife of Samuel Sweitzer<br/>born 1860<br/>died 1952<br/>their son Simon<br/>born 1882<br/>died 1957</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983767",
+    "longitude": "-81.5530426"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/252/15684591_115790778679.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

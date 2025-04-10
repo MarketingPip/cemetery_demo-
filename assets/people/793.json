@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "OESTREICHER\nKatherine<br/>wife of Daniel Oestreicher<br/>1870-1922<br/>Daniel Oestreicher<br/>born Feb. 18, 1866<br/>died May 24, 1948<br/>his wife Lydia Kobe<br/>born Sept. 10, 1882<br/>died Feb. 14, 1965<br/>Barbara Fees<br/>beloved wife ofJ.M. Oestreicher<br/>died Apr. 11, 1911<br/>ae 82 yrs. 8 mos. 6 ds.<br/>Elizabeth Oestreicher<br/>wife of Conrad Kuhn<br/>1862-1950<br/>J. Michael Oestreicher<br/>Geboren Den 9 Nov. 1819<br/>Stare Den 15 Sept. 1900<br/>Alter 80 J. 10 m. 6 t.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2998278",
+    "longitude": "-81.5539861"
+  },
   "image_url": "https://images.findagrave.com/photos/2018/209/188115317_4d252ce6-1de5-41de-ac6c-b85b1053b4f7.jpeg?size=photos250",
   "image_credits": "rossddickson",
   "image_credits_url": "/user/profile/49188008",

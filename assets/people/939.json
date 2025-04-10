@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "SCHMIDT\nJohn M. Schmidt<br/>1831-1890<br/>his wife, Wilhelmina<br/>1837-1917<br/>Saloma Schmidt<br/>1866-1866<br/>Chas. W. Schmidt<br/>1873-1874<br/>Clara L. Schmidt<br/>1877-1879</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984226",
+    "longitude": "-81.552815"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/111/236187655_a28367a7-30eb-4a4a-8d13-68445133d764.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

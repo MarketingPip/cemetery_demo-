@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Daughter of Hannah (Sherk) and John Kuhn. Wife of Jacob Sweitzer",
   "bio": "Daughter of Hannah (Sherk) and John Kuhn. Wife of Jacob Sweitzer",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983247",
+    "longitude": "-81.552476"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/249/15660778_115769091265.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

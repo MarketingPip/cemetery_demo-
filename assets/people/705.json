@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "MAWHINNEY\nEdgar Roy Mawhinney<br/>Dec. 17, 1901<br/>Sept. 17, 1976</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984631",
+    "longitude": "-81.5525746"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/112/188115159_e98c74a9-53a4-4d0b-8f4b-f5a4d794f641.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

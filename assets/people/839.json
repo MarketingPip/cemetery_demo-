@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "PFAFF\nHenry C. Pfaff<br/>1859-1937<br/>his wife Elizabeth Schmidt<br/>1859-1947<br/>their son Herman Otto<br/>1901-1973</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983382",
+    "longitude": "-81.5527891"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/112/188136427_cd865613-7bf0-479d-80d6-ac94fb058c66.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

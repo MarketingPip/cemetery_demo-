@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Wife of Daniel Sweitzer",
   "bio": "EILBER\nMother<br/>Catherine <br/>wife of Christopher Eilber<br/>died July 20, 1919<br/>aged 86 yrs. 1 mon. 8 days<br/>Caroline <br/>wife of Daniel Sweitzer<br/>1864-1922</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2998389",
+    "longitude": "-81.5541833"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/51/231230083_d21b70a1-32b4-4f8e-9984-fbc5d124d8b9.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

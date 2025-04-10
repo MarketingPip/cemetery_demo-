@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Wife of William Morlock, aged 62-9-12",
   "bio": "MORLOCK\nat rest with Jesus<br/>Mary Grenzebach<br/>wife of Wm. Morlock<br/>died Jan. 24, 1890<br/>aged 62 yrs. 9 mos. 12 ds.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2987139",
+    "longitude": "-81.5529178"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/262/15820881_115876160845.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

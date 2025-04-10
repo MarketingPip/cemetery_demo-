@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "son of Thomas and Edith",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2996444",
+    "longitude": "-81.5527639"
+  },
   "image_url": "https://images.findagrave.com/photos/2018/209/188113362_795eab18-c922-4180-8274-3ef8dcf40d2f.jpeg?size=photos250",
   "image_credits": "rossddickson",
   "image_credits_url": "/user/profile/49188008",

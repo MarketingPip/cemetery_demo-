@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "FINKBEINER\nJacob Finkbeiner<br/>Gestboren Den. Marz. 12, 1861 In Alter<br/>von 11 Jahr 6 monate 2 tage.<br/>Heir Ruht<br/>Rosina<br/>Ehefrau von Jacob Finkbeiner<br/>Gestboren Dec Feb. 3, 1882 In Alter<br/>von 54 Jahr 5 tagen<br/>Ruhe uhrer a sche<br/>Jacob Finkbeiner<br/>gestboren den Apr. 8, 1900 In Alter<br/>von 79 Jahr. 6 mo. 18 tag.<br/>Magdalena<br/>wife of Christian Finkbeiner<br/>died Dec. 8, 1927<br/>aged 69 years<br/>Christian Finkbeiner<br/>died Dec. 12, 1933 aged 81 yrs.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984571",
+    "longitude": "-81.5529907"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/298/16331339_116188038402.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

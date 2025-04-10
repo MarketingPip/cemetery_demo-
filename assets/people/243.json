@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Daughter of Caroline (Haist) and John Treitz",
   "bio": "FAHRNER\nCharles F. Fahrner<br/>born 1877 died 1948<br/>his wife<br/>Emma Treitz<br/>born 1879 died 1956<br/>Lorne R. Morlock<br/>born 1895 died 1964<br/>his wife Irene Fahrner 1908</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984023",
+    "longitude": "-81.5530764"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/320/16681999_116378266085.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

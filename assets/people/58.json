@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "BERTRAND\nin memory of<br/>A. Louis Bertrand<br/>born Mar. 9, 1848<br/>died May 5, 1903<br/>Sarah Eilber his wife<br/>born May 14, 1854<br/>died Apr. 13, 1939<br/>John son of the above<br/>died June 15, 1890 ae 9 mos.<br/>(back)<br/>Mary Ellen Bertrand<br/>1881-1934<br/>Amelia Clara Bertrand<br/>1879-1942<br/>Matilda Bertrand<br/>1877-1970<br/>Madeline Bertrand<br/>1891-1972</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.29844",
+    "longitude": "-81.5524844"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/112/55150776_8c2ff00d-192b-45a8-831b-48dbaa9dc0e5.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

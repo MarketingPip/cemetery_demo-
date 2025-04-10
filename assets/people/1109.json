@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "WEIN\nThomas Wein<br/>born 1876 died 1950<br/>Tillie Wein<br/>born Oct. 26, 1882 died Aug. 21, 1965<br/>Christian Wein<br/>born 1879 died 1977<br/>his wife Priscilla Collingwood<br/>1897-1982<br/>WEIN<br/>John  F. Wein<br/>died April 8, 1924<br/>aged 83 yrs. 2 mos. and 6 dys.<br/>Wilhelimine his wife<br/>died Feb. 10, 1926<br/>aged 75 yrs. 2 mos. 8 ds.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986511",
+    "longitude": "-81.5526304"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/110/236167812_9d4d088b-3191-4c9b-b3cf-29d02cc980a7.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

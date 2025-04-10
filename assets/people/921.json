@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "SCHENK\nGeraldine Ann Dundas<br/>1932-2019</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986103",
+    "longitude": "-81.5529049"
+  },
   "image_url": "https://images.findagrave.com/photos/2023/219/238053974_d65b8944-75c4-4e97-b3bd-88b651200ba5.jpeg?v=1691445947&size=photos250",
   "image_credits": "Slick",
   "image_credits_url": "/user/profile/50973252",

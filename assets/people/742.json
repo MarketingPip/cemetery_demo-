@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Son of Lydia (Haist) and William Morlock. His birth year may be 1891",
   "bio": "Son of Lydia (Haist) and William Morlock. His birth year may be 1891",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984097",
+    "longitude": "-81.5523126"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/228/15396077_115582534425.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

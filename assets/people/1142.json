@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "WEIN\nHier Ruth<br/>Georg F. Wein<br/>Gest Den 4 Feb. 1880<br/>Alter 83 Jahr. 1 mo. 4 tag.<br/>Heir Ruth <br/>Regina Wein<br/>Gest Den 5 Sep. 1886<br/>Alter 85 Jahr. 6 mo. 12 tag.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985574",
+    "longitude": "-81.5530166"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/110/236168027_5524120d-6af5-4cc6-8309-7d10a0ed95ad.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "age 3yrs 11mos 25ds",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986717",
+    "longitude": "-81.552862"
+  },
   "image_url": "https://images.findagrave.com/photos/2017/152/179975600_1496464775.jpg?size=photos250",
   "image_credits": "Dean Weckman",
   "image_credits_url": "/user/profile/47729726",

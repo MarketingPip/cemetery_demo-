@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Daughter of Fredericka and Henry Sweitzer, wife of Conrad Kuhn.",
   "bio": "KUHN\nCaroline L. Kuhn<br/>1884-1973<br/>daughter<br/>(back)Conrad Kuhn<br/>died June 15, 1933 aged 84 yrs. 2 mos.<br/>Elizabeth Sweitzer<br/>wife of Conrad Kuhn<br/>died Nov. 24, 1901<br/>aged 49 yrs. 9 mos.<br/>How desolate our home bereft of thee</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2987069",
+    "longitude": "-81.5529907"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/298/16330239_116187316032.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

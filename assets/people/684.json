@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "f.s. MOTHER\ngray granite</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986624",
+    "longitude": "-81.5525016"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/117/239245901_b560e6b2-b9d1-4870-8de9-e21431626601.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

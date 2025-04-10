@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "GAISER\nIN MEMORU OF GEORGE A. GAISER<br/>DIED MARCH 7, 1902<br/>AGED 79 YRS. 9 MOS. 15 DS.<br/>SALOME SCHWARTZ 1866-1936<br/>WIFE OF WILLIAM H. GAISER 1864-1964<br/>LULU O DELL 1896-1963<br/>IN MEMORY OF AGATHA<br/>WIFE OF ADAM G. GAISER<br/>DIED JULY 14, 1889 AGED 59 YRS. 5 MS. 9 DS.<br/>CHRISTENA HEITZMAN<br/>BORN 1804 DIED FEB.2, 1896</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.298661",
+    "longitude": "-81.552403"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/110/235790064_fef2d1f7-bbae-4368-a22a-3b8304474fdb.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

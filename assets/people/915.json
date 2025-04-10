@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "SCHEFFBUCH\nPte. George C. Scheffbuch<br/>1904-1974</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986208",
+    "longitude": "-81.5529478"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/110/188136655_6712f979-c265-4f65-872d-436dd0e22b05.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

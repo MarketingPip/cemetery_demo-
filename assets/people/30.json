@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "BEAVER\nMaurice Beaver<br/>1910-1980<br/>his wife<br/>Greta Dearing<br/>1912-1992</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983775",
+    "longitude": "-81.5525702"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/84/237944161_28f3d49f-56ab-42de-859c-84470d4d212d.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

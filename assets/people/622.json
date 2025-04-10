@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Wife of John Klumpp",
   "bio": "LAMPORT\nSamuel G. Lamport<br/>1867-1944<br/>his wife Margaret Klumpp<br/>1871-1970<br/>Edith Elvira their daughter<br/>1901-1903<br/>(back)KLUMPP<br/>John Klumpp<br/>1834-1923<br/>his wife Agnes C. Zuefle<br/>1935-1906</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983804",
+    "longitude": "-81.5524414"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/310/16539780_116291468571.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Son of Lydia (Morlock) and Samuel Sweitzer",
   "bio": "SWEITZER\nMatthew C. Sweitzer<br/>1888-1963<br/>his beloved wife<br/>Laura L. Ratz<br/>1891-1963<br/>f.s. FATHER MOTHER</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983775",
+    "longitude": "-81.5528708"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/219/15187323_115505235249.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

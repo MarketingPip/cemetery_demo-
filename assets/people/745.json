@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Husband to Ellen Horne",
   "bio": "MORLOCK\nin memory of<br/>Julius Morlock<br/>born Oct. 6, 1839 died April 25, 1884<br/>George E. 'orlock<br/>born Nov. 29, 1877 died Sept. 1, 1878<br/>Mary Ellen Morlock<br/>born Jan. 9, 1882 died July 11, 1903<br/>children of the above<br/>(no wife for Julius on t.s)</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.298496",
+    "longitude": "-81.5523903"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/260/15791455_115859111913.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

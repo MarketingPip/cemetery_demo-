@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Son of Mary (Pfaff) and Issac Gower",
   "bio": "Son of Mary (Pfaff) and Issac Gower",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2988427",
+    "longitude": "-81.5525746"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/242/15563013_115703062900.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

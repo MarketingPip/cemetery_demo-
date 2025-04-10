@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "PREETER\nMADILLA A. AND EDGAR M.<br/>CHILDREN OF JOHN &amp; ELIZABETH PREETER<br/>(NO DATES)</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986417",
+    "longitude": "-81.5525702"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/110/235790492_215eb07d-100d-4967-9e7d-89ac1efdd75c.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

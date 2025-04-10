@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "BRAUN\nHier Rub el unifer Lirbling<br/>Chr. Wesley Braun<br/>hom Gottilob u Lydia Braun<br/>grb 31 Oct. 1870<br/>geft 24 Jan. 1873<br/>AH 2 Jah 2 mo.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985873",
+    "longitude": "-81.5527891"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/111/236178959_378a575b-804a-45db-9b5c-5fb8fdc8b853.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

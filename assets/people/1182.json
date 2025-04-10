@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "\"Vater\" is German for \"father.\"",
   "bio": "WOLF\n1885<br/>Vater<br/>Heinrich Wolf<br/>starb Den 8 January 1884<br/>Alter 76 Johr 8 Monat 10 Tag.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984378",
+    "longitude": "-81.5524888"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/112/238062013_9e9eaf8d-063a-43f3-9d20-86ba6f480f31.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

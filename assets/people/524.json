@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "wife of Blake S. Heath",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986275",
+    "longitude": "-81.552742"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/84/237941496_6ba60dc3-741f-44a9-9743-1644eb4d9faa.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

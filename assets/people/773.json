@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "Aged 25 years 11 days",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983804",
+    "longitude": "-81.5526561"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/114/239188554_dad50807-56c7-44ee-8128-6aa713e7f58e.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

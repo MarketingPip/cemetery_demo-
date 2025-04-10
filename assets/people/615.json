@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Haskett Funeral Home - Exeter KENNEY: Ronald \"Ron\" Thomas of Exeter Passed away peacefully with his family by his side at Exeter Villa on Wednesday, November 22, 2023 at the age of 73. Beloved Husband of Irene (Woodburn) for 51 years. Cherished father of Derek and Leanne Kenney, and Chad and Jacquelyn Kenney. Adored grandfather of Mitchell, Michael; and Christopher. Dear brother and brother-in-law of Doreen and Charles Browning. Fondly remembered by his nieces, nephews and the extended Kenney and Woodburn families. Predeceased by his parents Clifford and Mary (Davey) Kenney.Ron worked at Canada Post for almost 30 years and was very well known as the postmaster around Exeter. He was an active car enthusiast and loved taking his Mustang to many car shows around Southwestern Ontario. The family would like to extend a special thanks to Dr. Jadd as well as the staff at the Exeter Villa and Strathmere Lodge for the care and compassion provided to Ron during his time spent at each facility.Visitation will be held at the Haskett Funeral Home, 456 Main Street South, EXETER on Friday, November 24, 2023 from 2-4 PM and 6-8 PM.Ron's funeral service will be held the following day on Saturday, November 25 at 11 AM at the funeral home. Interment at Crediton Cemetery.Donations to Parkinson's Society – Southwestern Ontario, Canadian Cancer Society, or a charity of your choice in Ron's memory would be appreciated by the family. [See image gallery at www.haskettfh.com]",
   "bio": "Aged 73 years",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2988114",
+    "longitude": "-81.552387"
+  },
   "image_url": "https://images.findagrave.com/photos/2023/328/261758859_fe4d625b-0487-43a5-8e3f-a04c7df31fae.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

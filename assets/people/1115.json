@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "WEIN \nEmerson Wein<br/>1896-1994<br/>his wife<br/>Laurene M. Hirtzel<br/>1906-1996</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2982212",
+    "longitude": "-81.5525273"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/84/237943360_0caeac6e-cb7e-430f-a406-bada2d730b2c.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

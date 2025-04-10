@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "SCHENK\nWilliam Nelson Schenk<br/>1889-1980<br/>his wife Katherine C. Pfaff<br/>1895-1984<br/>their daughter Helen Doloris<br/>1922-1941</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.29986",
+    "longitude": "-81.55395"
+  },
   "image_url": "https://images.findagrave.com/photos/2018/209/191738682_1120384e-1f6f-4f92-b169-dd71c2a0ad04.jpeg?size=photos250",
   "image_credits": "rossddickson",
   "image_credits_url": "/user/profile/49188008",

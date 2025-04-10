@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "BLYDE\nA. Irene (Ross)<br/>1928-1987<br/>Wife<br/>George J. Blyde<br/>1927<br/>Husband</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985375",
+    "longitude": "-81.5526561"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/86/188035639_331a3f47-6222-414f-b8ff-7fecb3994418.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

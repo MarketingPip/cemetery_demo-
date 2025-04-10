@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Daughter of Magdalina (Beaver) and Matthew Morlock",
   "bio": "HAIST\nJoseph Haist<br/>1858-1928<br/>his wife Mary A. Morlock<br/>1868-1940</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986896",
+    "longitude": "-81.5525574"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/262/15821552_115876594189.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

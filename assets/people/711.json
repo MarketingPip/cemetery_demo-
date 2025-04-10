@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "MELLIN\nIn Memory of Henry Mellin<br/>died Feb. 15, 1896 aged 67 yrs.<br/>his wife Sophia<br/>died June 1, 1906 aged 71 yrs.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984978",
+    "longitude": "-81.5530426"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/110/236143979_07c9140f-c6ee-4dd4-ab6d-f3fce09535dc.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

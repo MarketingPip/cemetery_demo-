@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "HODGE\nWilliam A. Hodge<br/>1922-1969<br/>beloved husband of<br/>Eleanor J.<br/>McLeod<br/>1927-1993<br/>beloved wife of<br/>Lloyd Roeszler<br/>1929-1999</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985337",
+    "longitude": "-81.5523555"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/84/237948546_4e05f473-1173-49ee-a974-326b540b614a.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

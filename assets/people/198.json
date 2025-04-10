@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "ENGLAND(salmon granite stone)\nLloyd England<br/>Dec. 21, 1895-Nov. 25, 1977<br/>his wife Beatrice Van Alstyne<br/>June 16, 1895-June 21, 1982<br/>dear parents of<br/>Gerald T.<br/>Jacque W. 1922-1979<br/>Ruth E.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2982797",
+    "longitude": "-81.5527462"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/86/188036788_cbb2ef8b-ed86-47c0-8940-ebbb456d6d3d.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

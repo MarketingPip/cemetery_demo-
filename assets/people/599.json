@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "Baby Jesney\n1977</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.298339",
+    "longitude": "-81.5522546"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/84/237948215_2088d029-038d-44da-9026-658a7d0ba33f.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

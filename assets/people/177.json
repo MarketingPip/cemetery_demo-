@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Daughter of Louisa (Morlock) and Henry Eilber",
   "bio": "Daughter of Louisa (Morlock) and Henry Eilber",
-  "gps": null,
+  "gps": {
+    "latitude": "43.298508",
+    "longitude": "-81.5524331"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/231/15426253_115607684678.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

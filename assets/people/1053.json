@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Peacefully, with her daughter by her side, at Exeter Villa Nursing Home, Exeter, on Wednesday, December 5, 2018, Eva Belva (Comfort) Sweitzer-Grigg, of Exeter, formerly of Shipka, age 92.  Eva was born in Gainsborough Township, Fenwick, Ontario to Alton and Elsie (McPherson) Comfort.  Beloved wife of the late Milton Sweitzer (1988) and the late Ivan Grigg (2016).",
   "bio": "SWEITZER\nStuart M. Sweitzer<br/>1925-1976<br/>his beloved wife<br/>Doris M. Comfort<br/>1927-2016<br/>Milton N. Sweitzer<br/>1916-1988<br/>his beloved wife Eva B. Comfort<br/>1926-2018</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985034",
+    "longitude": "-81.552785"
+  },
   "image_url": "https://images.findagrave.com/photos/2023/221/237942400_0e424660-1108-4139-9e10-f33a3727e6bb.jpeg?size=photos250",
   "image_credits": "Slick",
   "image_credits_url": "/user/profile/50973252",

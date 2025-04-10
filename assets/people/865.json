@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "RATZ\nGordon Jacob Ratz<br/>born 1915 died 1976<br/>beloved husband of<br/>Helen Verlyn McLinchey<br/>1917-1989</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986232",
+    "longitude": "-81.5526604"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/86/188136491_d4714686-0172-4fe6-b3ab-cb4c5466bdb0.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

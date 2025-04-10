@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "FAHNER\nGottlieb Fahner<br/>June 29, 1846-Dec. 24, 1937<br/>his wife<br/>Caroline Wein<br/>born Mar. 5, 1849<br/>died Jan. 25, 1914<br/>at rest</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983075",
+    "longitude": "-81.5527162"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/110/188036903_fe9714bc-1906-4c4e-9fa2-f0f22085b64d.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "In Loving Memory\nTILLEY<br/>Alfred F. Tilley<br/>1897-1991<br/>his beloved wife<br/>Edna Witzel<br/>1894-1974<br/>Rest in peace</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985568",
+    "longitude": "-81.5528749"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/83/237918728_0768a823-dbff-4ea4-84a2-78fccde1d8fa.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

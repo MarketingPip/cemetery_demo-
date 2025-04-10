@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Son of Eva (Finkbeiner) and George Brown (Braun).",
   "bio": "BROWN\nIn memory of Bernard Brown<br/>born July 3, 1850-died Nov. 13, 1921<br/>Charlotte Morlock his wife<br/>born Mar. 27, 1857-died Sept. 24, 1943<br/>(back)Mary Matilda<br/>Feb. 6, 1877-Sept. 11, 1877<br/>Edward Thomas<br/>Oct. 6, 1878-June 11, 1879<br/>Simon Peter<br/>June 6, 1881-Sept. 19, 1881<br/>George Wesley<br/>Aug. 21, 1882-Feb. 28, 1885<br/>Emerson Bernard<br/>Feb. 5, 1893-Nov. 26, 1897</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983491",
+    "longitude": "-81.5524414"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/304/16414218_116240052823.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

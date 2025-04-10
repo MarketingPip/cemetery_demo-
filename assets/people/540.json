@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "HIGGINS\nIN MEMORY OF THOS. HIGGINS<br/>DIED SEPT. 2, 1889 AE 28 YRS</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2982354",
+    "longitude": "-81.5524844"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/110/235790396_c030b625-0fb4-4d30-98e2-6d82525d8118.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

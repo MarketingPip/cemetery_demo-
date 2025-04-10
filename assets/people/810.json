@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "Matilda Oestreicher\n1894-1983<br/>Daughter</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983392",
+    "longitude": "-81.5522743"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/111/236912317_3a3eb89b-6577-40c9-9016-e9fce09d97d7.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

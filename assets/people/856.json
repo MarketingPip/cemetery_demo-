@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Husband to Dorothy Fahner",
   "bio": "Husband to Dorothy Fahner",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986284",
+    "longitude": "-81.5525702"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/234/15472968_115634708145.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

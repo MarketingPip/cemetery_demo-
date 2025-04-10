@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Son of Magdalena (Beaver) and Mathew Morlock",
   "bio": "Son of Magdalena (Beaver) and Mathew Morlock",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983784",
+    "longitude": "-81.5523126"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/228/15395871_115582380332.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

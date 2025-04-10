@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "LIGHTFOOT\nWilliam Howard Lightfoot<br/>1905-1979<br/>his wife Doreen E. Baker<br/>1921-2003</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2996306",
+    "longitude": "-81.552825"
+  },
   "image_url": "https://images.findagrave.com/photos/2018/209/188114961_9a41855c-6b0f-4349-b467-265bc6663944.jpeg?size=photos250",
   "image_credits": "rossddickson",
   "image_credits_url": "/user/profile/49188008",

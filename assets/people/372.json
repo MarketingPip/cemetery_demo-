@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "FLYNN, Harry died 1976",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986624",
+    "longitude": "-81.5521841"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/84/188037365_247506b8-31af-450a-95dc-a3dc1c11c06a.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

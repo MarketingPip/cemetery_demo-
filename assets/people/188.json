@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "Frederich Eilber\nborn Sept. 4, 1791<br/>died Nov. 10, 1875<br/>Magdalena his wife<br/>born May 13, 1807<br/>died Aug. 23, 1864</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.299825",
+    "longitude": "-81.5542306"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/112/188036570_1e86420a-9b5a-44da-be09-797ff0ef4212.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

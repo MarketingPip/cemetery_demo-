@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "SWEITZER\nStuart M. Sweitzer<br/>1925-1976<br/>his beloved wife<br/>Doris M. Comfort<br/>1927-2016<br/>Milton N. Sweitzer<br/>1916-1988<br/>his beloved wife Eva B. Comfort<br/>1926-2018</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2979721",
+    "longitude": "-81.552742"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/84/237942359_1e4024ad-b3cf-42e9-9122-6f6f0949a70b.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

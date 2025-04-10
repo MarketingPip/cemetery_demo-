@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "SCHROEDER\nIn Memory of <br/>Caroline Schroeder<br/>died Jan. 21, 1898<br/>aged 31 yrs. 7 mos. 21 ds.<br/>In Memory of Gideon Yaeger<br/>died Mar. 26, 1889<br/>Ae 29 yrs. 9 mos.<br/>John K. Schroeder <br/>1866-1944<br/>his wife Louise Wind<br/>1870-1952<br/>also 2 f.s<br/>John K. Schroeder<br/>1866-1944<br/>Louise Wind Schroeder<br/>1870-1952</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2999528",
+    "longitude": "-81.5538861"
+  },
   "image_url": "https://images.findagrave.com/photos/2021/153/188136815_640c6573-919c-4c37-a9a9-ede4fb1226a2.jpeg?size=photos250",
   "image_credits": "Kathleen Hodgins",
   "image_credits_url": "/user/profile/47390529",

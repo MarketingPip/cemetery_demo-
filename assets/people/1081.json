@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "EILBER\nFather<br/>Christopher Eilber<br/>died Set. 7, 1919<br/>aged 89 yrs. 7 mos. 15 days.<br/>Emma Eilber Unger <br/>1875-1950</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2998389",
+    "longitude": "-81.5541833"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/51/231230160_0ecadd63-78b4-4720-b564-bed2896e2eb4.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "Kenneth N. Hayter\n1931-2014<br/>HAYTER</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2987571",
+    "longitude": "-81.5530336"
+  },
   "image_url": "https://images.findagrave.com/photos/2023/163/238051919_1039312f-2aa2-420a-a06f-23d022c68663.jpeg?size=photos250",
   "image_credits": "Smithy",
   "image_credits_url": "/user/profile/47806284",

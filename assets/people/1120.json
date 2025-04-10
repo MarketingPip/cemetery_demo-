@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "THERE ARE NO PARTINGS IN HEAVEN",
   "bio": "WEIN\nGodfried Wein<br/>died Sept. 14, 1916<br/>aged 82 yrs. 1 mo. 2 ds.<br/>There are no partings in heaven<br/>Agnes his wife<br/>died Nov. 5, 1919<br/>aged 84 yrs. 8 ms. 28 ds.<br/>John George<br/>son of Godfried &amp; Agnes Wein<br/>died May 6, 1889<br/>aged 25 yrs. 9 mos. 6 ds.<br/>(back)Paul Schink <br/>1854-1939<br/>his wife Wilhelmina Wein<br/>1863-1943<br/>their son Herbert<br/>1896-1979</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986304",
+    "longitude": "-81.5525703"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/121/188139056_8f26e528-45b1-47fc-a80b-65f59653a8a2.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

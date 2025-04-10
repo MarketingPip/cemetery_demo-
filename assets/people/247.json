@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "George Fahrner 75 yrs 5 mos.\ndied Mar. 6, 1918 aged 75 yrs. 5 mos.<br/>Sheltered and safe from sorrow<br/>Christina Tau his wife<br/>died April 26, 1927 aged 74 yrs. 4 mos. 21 dys.<br/>their daughter <br/>Della<br/>born 1889 <br/>died 1983</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.298496",
+    "longitude": "-81.5528191"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/110/236145580_1389ca45-ee97-434e-9285-fae7e13bc09c.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

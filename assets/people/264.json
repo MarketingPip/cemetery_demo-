@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "J. Bernhardt Faist\nGest den Apr. 5, 1887<br/>Alter 59 Jahre 4 mo. und 13 tage.<br/>Louisa <br/>wife of J. B.  Faist<br/>died Jan. 20, 1914<br/>ae 80 yrs. 10 mos. 28 ds.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.298589",
+    "longitude": "-81.5526604"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/112/188037311_73f755a7-7b50-4c3b-add9-8c0f870e7ea7.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

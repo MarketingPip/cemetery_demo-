@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Son of Martha (Gaiser) and Henry Haist",
   "bio": "HAIST\nMartha Gaiser<br/>1873-1934<br/>beloved wife of <br/>Henry Haist<br/>1873-1963<br/>their sons<br/>1905 Royal H. 1979<br/>1911 Gordon 1979<br/>August Haist<br/>died July 21, 1912<br/>aged 72 yrs. 8 mos. 14 ds.<br/>Barbara, his wife<br/>died Dec. 24, 1918<br/>aged 82 yrs. 27 ds.<br/>Jacob Haist<br/>died Mar. 6, 1864<br/>aged 73 yrs<br/>his wife Ana Maria<br/>died Nov. 29, 1881<br/>aged 86 yrs.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.29837",
+    "longitude": "-81.5525446"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/253/15698467_115799061610.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

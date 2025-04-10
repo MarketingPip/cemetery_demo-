@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Born in Germany. She was the wife of Jacob Finkbeiner.---Gunter/Guenter/Ginter",
   "bio": "FINKBEINER\nIn Memory of Jacob Finkbeiner\ndied Apr. 25, 1895\naged 58 yrs. 9 mos. &amp; 6 days\nRosina his wife\ndied Oct. 18, 1926<br/>aged 86 yrs. 9 mos. 1 day<br/>In Memory of Jacob Finkbeiner<br/>died Nov. 3, 1879<br/>aged 5 yrs. 10 mos.<br/>Bernhard<br/>died Nov. 13, 1879<br/>aged 9 yrs. 7 mos.<br/>John<br/>died Nov. 14, 1879<br/>aged 7 yrs. 9 mos.<br/>Samuel<br/>died Nov. 23, 1879<br/>aged 3 yrs. 11 mos.<br/>Elizabeth<br/>died Dec. 8, 1879<br/>aged 1 yr. 3 mos.<br/>children of J. &amp; R. Finkbeiner</br></br></br></br></br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985261",
+    "longitude": "-81.5526733"
+  },
   "image_url": "https://images.findagrave.com/photos/2007/306/22631649_119409407298.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

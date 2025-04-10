@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Infant daughter of Caroline (Sweitzer) and Michael Finkbeiner",
   "bio": "FINKBEINER\nLizzie Ann <br/>daughter of <br/>Caroline Sweitzer &amp; Michael Finkbeiner</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984983",
+    "longitude": "-81.5525746"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/312/16581739_116313999955.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

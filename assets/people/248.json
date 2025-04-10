@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Son of Regina and Jacob Fahrner",
   "bio": "Son of Regina and Jacob Fahrner",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2982441",
+    "longitude": "-81.5526991"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/241/15553942_115694653233.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

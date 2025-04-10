@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Wife of Jacob Smith",
   "bio": "SMITH\nMary Wuerth<br/>wife of Jacob Smith<br/>1873-1928<br/>John F. Smith<br/>1865-1954<br/>his wife Mary Ann Klup,s<br/>1870-1959<br/>Roy L. <br/>son of John F. &amp; Mary Ann Smith<br/>1901-1907<br/>asleep in Jesus</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984953",
+    "longitude": "-81.5527033"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/262/15820934_115876434252.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

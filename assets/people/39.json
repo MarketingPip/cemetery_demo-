@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "BECK\nRene Blakely<br/>born 1956-died 1975<br/>son of Blakely &amp; Louise Beck</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985272",
+    "longitude": "-81.5526047"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/110/236143671_3f9095de-a36e-47da-a652-d4eaf373d8f2.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

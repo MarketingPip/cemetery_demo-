@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Son of Susanah (Fetherstone) and John Heywood",
   "bio": "Son of Susanah (Fetherstone) and John Heywood",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986191",
+    "longitude": "-81.5529138"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/231/15426391_115607904224.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

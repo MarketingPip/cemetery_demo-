@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "BROWN\nIn memory of Adam Brown<br/>born Jan. 11, 1813-died July 22, 1869<br/>Margaret his wife<br/>born July 19, 1821-died May 15, 1906<br/>Adolph<br/>born Nov. 16, 1857-died Feb. 24, 1866<br/>(back)Charles <br/>born Mar. 11, 1863-died Dec. 24, 1893<br/>Wm. H. Brown<br/>1860-1947</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.298564",
+    "longitude": "-81.5528708"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/112/188035776_12f295cc-3e3c-4f81-92b8-1192951f12b5.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

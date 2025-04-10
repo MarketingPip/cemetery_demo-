@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "PICKERING\nIn loving memory<br/>John E. Pickering<br/>1924-982<br/>beloved husband of<br/>Marilyn R. Comfort</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985607",
+    "longitude": "-81.5520598"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/86/188136457_b1b174ce-cda9-465b-862a-0dd903906aa9.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

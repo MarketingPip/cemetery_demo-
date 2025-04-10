@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "BROWN\nIn memory of George Brown<br/>died May 6, 1908<br/>aged 86 yrs. 6 mos.<br/>In memory of Eva Catherine<br/>wife of George Brown <br/>died Jan. 7, 1900<br/>aged 77 yrs. 2 mos.<br/>BLESSED ARE THE DEAD WHICH DIED IN THE LORD</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983179",
+    "longitude": "-81.5522697"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/113/238605596_5abf85d7-e2ed-40ba-bda6-11af3e651d96.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

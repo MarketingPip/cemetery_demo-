@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "MITTON\nChester<br/>died 1980<br/>MITTON<br/>Christopher (baby)<br/>died 1981</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986312",
+    "longitude": "-81.5525274"
+  },
   "image_url": "https://images.findagrave.com/photos/2021/191/188115206_6da3e3b4-aa0b-4a0c-8144-d30cfe828e40.jpeg?size=photos250",
   "image_credits": "Charles Thompson",
   "image_credits_url": "/user/profile/49543254",

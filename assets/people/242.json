@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Daughter of Amelia Jane (Parsons) and Christian Beaver, wife of Everett Fahrner.",
   "bio": "(front)Ella Beatrice Beaver\n1886-1960<br/>wife of Everett Fahrner<br/>1887-1970<br/>their son<br/>Wallace S. FAHRNER<br/>1922-1987<br/>husband of Lois HAWK 1924-2003<br/>their daughter<br/>B. Elaine FAHRNER Ayres<br/>1924-2014</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985687",
+    "longitude": "-81.5523128"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/111/22898523_10ce41f9-151e-489a-b336-33d9ecc8b535.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

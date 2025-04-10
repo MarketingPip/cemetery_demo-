@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "RATZ\nRoy E. Ratz<br/>1887-1971<br/>his beloved wife<br/>Clara A. Haist<br/>1901-1997<br/>their son Donald L.<br/>1925-2020</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2982678",
+    "longitude": "-81.5523555"
+  },
   "image_url": "https://images.findagrave.com/photos/2023/219/237942844_ff0be514-1c1f-4582-9c33-12d08e3555b6.jpeg?size=photos250",
   "image_credits": "Slick",
   "image_credits_url": "/user/profile/50973252",

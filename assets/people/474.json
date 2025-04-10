@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "She is the daughter of  Johann Michael Klumpp and Elisabeth Barbara Heycock. She and Ernest were married 27 Jan 1909 in Stephen twp., Huron co., Ontario, Canada (Marriage license # 011720).",
   "bio": "She is the daughter of  Johann Michael Klumpp and Elisabeth Barbara Heycock. She and Ernest were married 27 Jan 1909 in Stephen twp., Huron co., Ontario, Canada (Marriage license # 011720).",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2981503",
+    "longitude": "-81.5526991"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/241/15553859_115694609373.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

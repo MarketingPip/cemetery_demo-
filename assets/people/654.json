@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "LAKE_NINHAM\nJames (Jimmy)<br/>W. Lake<br/>Nov. 11, 1961<br/>Feb. 15, 2014</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.298423",
+    "longitude": "-81.5525618"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/86/238057241_3cd4fb82-19a1-4fa6-bfba-9cb530fa5140.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

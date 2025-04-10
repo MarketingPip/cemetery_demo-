@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "ENGLAND(salmon marble stone)\nJacque W. England<br/>1922-1979<br/>his wife<br/>Pearl E. Vannatter<br/>1919-1998</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984358",
+    "longitude": "-81.552832"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/86/188036818_b4f2ff21-ba61-493b-be5c-d31140aed7a5.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

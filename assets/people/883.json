@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "RATZ\nWilli8am John<br/>1950-1999<br/>Katherine Jane<br/>1954-2009</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2987351",
+    "longitude": "-81.5530765"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/86/238054698_551fe94f-a04a-420c-a29a-ca084463fb96.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

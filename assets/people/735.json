@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Son of Alma (Haist) and Chester Morlock",
   "bio": "MORLOCK\nFrederick John<br/>MORLOCK<br/>19241993</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983188",
+    "longitude": "-81.5525274"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/214/15135166_115461828688.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

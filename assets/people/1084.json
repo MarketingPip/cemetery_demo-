@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Unexpectedly at London Health Sciences Centre, Victoria Hospital, as a result of a motor vehicle accident, age 19. Cherished daughter of Jim and Donna (Shoemaker) Unwin.",
   "bio": "Unexpectedly at London Health Sciences Centre, Victoria Hospital, as a result of a motor vehicle accident, age 19. Cherished daughter of Jim and Donna (Shoemaker) Unwin.",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2996861",
+    "longitude": "-81.5524583"
+  },
   "image_url": "https://images.findagrave.com/photos/2007/332/22080292_119637448761.jpg?size=photos250",
   "image_credits": "Anonymous",
   "image_credits_url": "/user/profile/46795196",

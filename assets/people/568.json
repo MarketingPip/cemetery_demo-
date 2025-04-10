@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Johanna was born in Puslinch Wellington Co, the daughter of Eva (Rowe) and John Calfas.",
   "bio": "HOFFMANN\nChristian Hoffmann<br/>born Aug. 1, 1862-died Apr. 14, 1926<br/>his wife Hannah Balsden<br/>Dec. 28, 1862-Mar. 2, 1937<br/>their son Charlie<br/>born Oct. 20, 1906-died Apr. 11, 1981<br/>his wife Clara Morlock<br/>born Jan. 4, 1902-died Apr. 30, 1988<br/>(back)Peter Hoffmann<br/>born Mar.3, 1826-died Jan. 5, 1913<br/>his wife Johanna Callfas<br/>born Mar. 10, 1835-died Feb. 5, 1918<br/>their daughters<br/>Eliza Ann Hoffmann<br/>born May 11, 1866-died Apr. 15, 1890<br/>Mary Hoffmann<br/>wife of H. Stanley<br/>born Dec. 26, 1855-died July 19, 1891</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985015",
+    "longitude": "-81.5524414"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/275/15977902_115988327199.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

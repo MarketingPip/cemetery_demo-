@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "SWEITZER\nWray W. Sweitzer<br/>1917-1988<br/>beloved husband of<br/>Madeline G. Rundle<br/>1923-2021<br/>in loving memory</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985853",
+    "longitude": "-81.5530036"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/86/238053388_078e2edd-2465-4e94-8267-52d20c292a05.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

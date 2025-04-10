@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Wife of Adam Clump",
   "bio": "CLUMP\nCatharine, the gallin of Adam Clump<br/>Starb Jan. 14, 1885<br/>Alter 35 Jahr 4 mos.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984116",
+    "longitude": "-81.5527849"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/113/238605024_d271bcbe-398c-4580-80b1-3ede96645a24.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "RAU\nJacob Rau<br/>1816-1862<br/>Mary his wife<br/>1822-1905</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2988492",
+    "longitude": "-81.5524414"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/114/239170007_c5e9907a-28b8-42d0-9ecc-9562661a3180.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

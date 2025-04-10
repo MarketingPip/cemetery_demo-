@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "78 yrs 2mos 12 dys",
   "bio": "WICHERT\nHier Ruht<br/>Jocheim Wichert<br/>Gestorben 2 Mar. 1907<br/>Alter 78 Jahr 2 monat und 12 tage<br/>his wife Sophia Eggert<br/>1829-1911</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985679",
+    "longitude": "-81.5529996"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/113/188139231_ace49cf2-75ed-4ff0-8e6b-91abfba76e92.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

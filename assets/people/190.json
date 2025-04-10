@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Husband to Sarah Finkbeiner",
   "bio": "EILBER\nSarah Finkbeiner<br/>wife of John Jacob Eilber<br/>died Mar. 23, 1899<br/>aged 68 yrs. 3 mos. 10 ds.<br/>John Jacob Eilber<br/>died Oct. 27, 1901<br/>aged 71 yrs. 9 mos. 10 ds.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985256",
+    "longitude": "-81.552832"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/263/15832587_115884793236.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

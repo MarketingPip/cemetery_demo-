@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "IN HEAVEN WE PART NO MORE",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2996667",
+    "longitude": "-81.5533"
+  },
   "image_url": "https://images.findagrave.com/photos/2018/209/188138551_9710f6ca-6935-45cd-9aee-55b327f633e8.jpeg?size=photos250",
   "image_credits": "rossddickson",
   "image_credits_url": "/user/profile/49188008",

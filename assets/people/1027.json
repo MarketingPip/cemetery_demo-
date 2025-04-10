@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Son of Magdalena (Wein) and John Sweitzer",
   "bio": "Lillian Gaiser\nborn Oct. 19, 1891<br/>died May 14, 1960<br/>wife of Garnet W. Sweitzer<br/>born Jan 24, 1892<br/>died July 25, 1968</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983727",
+    "longitude": "-81.552742"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/249/15650873_115764563375.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

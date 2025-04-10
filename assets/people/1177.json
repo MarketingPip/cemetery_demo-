@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "MATHEW WINER DIED MAR 26, 1910\nAGED 71 YRS. 9 MOS<br/>HIS WIFE MARY SCHULTZ<br/>DIED JUNE 2, 1911<br/>AGED 72 YRS. 2 MOS<br/>THEIR DAU LILLY ANN<br/>DIED DEC 10, 1901<br/>AGED 20 YRS. 9 MOS<br/>Gone But Not Forgotten</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2987344",
+    "longitude": "-81.5523903"
+  },
   "image_url": "https://images.findagrave.com/photos/2011/315/80330804_132116326782.jpg?size=photos250",
   "image_credits": "Kmclean",
   "image_credits_url": "/user/profile/47620333",

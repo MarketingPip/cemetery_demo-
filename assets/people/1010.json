@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "STANLEY\nAlma Jane S<br/>daughter of Robert &amp; Min<br/>Stanley<br/>died May 20, 1881<br/>Aged 3 years 5 months 21 days</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983491",
+    "longitude": "-81.5524414"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/114/239188165_d97f4047-e835-49ed-8c8c-4162669c4027.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

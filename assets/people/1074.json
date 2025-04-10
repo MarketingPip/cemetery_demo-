@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "In memory of Hannah Sweitzer\nwife of Christian Trick<br/>died June 14, 1938<br/>ae 76 yrs. 10 mos.<br/>Christian Trick<br/>died Oct. 6, 1941<br/>ae 80 yrs. 8 mos.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984641",
+    "longitude": "-81.5525317"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/112/188138331_59836d43-545a-4c2b-a3b8-b30be4c566c8.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

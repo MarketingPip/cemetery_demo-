@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2996778",
+    "longitude": "-81.55275"
+  },
   "image_url": "https://images.findagrave.com/photos/2018/209/188036171_419f7d6a-d1f5-4a75-9c07-16425fb71e44.jpeg?size=photos250",
   "image_credits": "rossddickson",
   "image_credits_url": "/user/profile/49188008",

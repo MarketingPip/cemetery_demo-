@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Jacob is the son of Rosina and Jacob Finkbeiner-------Inscription reads; gestorben den Mar 12 1861 im alter von 11 jahr 6 monat 2 tag. Roughly translates to; died on Mar 12 1861 at the age of 11 years 6 months 2 days",
   "bio": "FINKBEINER\nJacob Finkbeiner\nGestboren Den. Marz. 12, 1861 In Alter\nvon 11 Jahr 6 monate 2 tage.\nHeir Ruht\nRosina<br/>Ehefrau von Jacob Finkbeiner<br/>Gestboren Dec Feb. 3, 1882 In Alter<br/>von 54 Jahr 5 tagen<br/>Ruhe uhrer a sche<br/>Jacob Finkbeiner<br/>gestboren den Apr. 8, 1900 In Alter<br/>von 79 Jahr. 6 mo. 18 tag.<br/>Magdalena<br/>wife of Christian Finkbeiner<br/>died Dec. 8, 1927<br/>aged 69 years<br/>Christian Finkbeiner<br/>died Dec. 12, 1933 aged 81 yrs.</br></br></br></br></br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985054",
+    "longitude": "-81.5524414"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/298/16331140_116187938854.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

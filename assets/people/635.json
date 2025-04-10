@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "KREIN\n(end)Elizabeth<br/>wife of John KREIN<br/>died Mar. 23, 1912<br/>Aged 75 years 27 days<br/>Asleep in Jesus<br/>(front)John KREIN<br/>died April 8, 1902<br/>aged 75 yrs. 7 mos.<br/>Samuel KREIN<br/>died April 25, 1880<br/>aged 1 yr. 1 month.<br/>(back)Paul Messner<br/>died May 12, 1875<br/>ae 45 yrs.<br/>John Messner<br/>died Oct. 4, 1864<br/>ae 4 yrs. 6 mos.<br/>Regina Messner<br/>died July 26, 1893<br/>ae 29 yrs. 10 mos.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2982133",
+    "longitude": "-81.5530037"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/111/188113421_298c7935-86ed-4fef-992d-55af3046b3c6.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

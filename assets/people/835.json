@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "PFAFF\nOscar Pfaff<br/>1899-1991<br/>his wife<br/>Hazel Brethour<br/>1907-1997<br/>their daughter<br/>Gwendolyn Helen<br/>1942-1968</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985034",
+    "longitude": "-81.5528708"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/186/237947115_e2e60fbe-d291-4f74-a6a2-60329eb84745.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

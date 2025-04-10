@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "HUTCHINSON\nGordon Wellington<br/>Hutchinson<br/>Aug. 30, 1939<br/>Oct. 27, 2015<br/>married Mar. 24, 1962<br/>Loved parents of <br/>Brad, Karen, Keith &amp; Kevin</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986275",
+    "longitude": "-81.5528708"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/84/237942090_a4f2d387-718e-4aee-b426-1c087aab28a3.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

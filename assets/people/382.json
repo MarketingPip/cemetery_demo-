@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "FRITZ\nWard C. Fritz<br/>1901-1986<br/>husband of<br/>Bernice E. Eilber<br/>1913-1990<br/>and their daughter<br/>Mary Louise E. 1935-</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2988378",
+    "longitude": "-81.5530895"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/112/188037443_ca2d04f1-4772-4a8b-b68b-34d33e4e16d3.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

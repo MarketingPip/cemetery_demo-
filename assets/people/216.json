@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Son of Sophia (Schenk) and Tobias Fahner",
   "bio": "Son of Sophia (Schenk) and Tobias Fahner",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984941",
+    "longitude": "-81.5526561"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/234/15472950_115634715360.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

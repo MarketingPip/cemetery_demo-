@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Passed away at London Health Sciences Centre, University Hospital, London Ontario.52nd yearHusband of Tracy (Verhoeven) Mann.",
   "bio": "Passed away at London Health Sciences Centre, University Hospital, London Ontario.<br/>52nd year<br/>Husband of Tracy (Verhoeven) Mann.",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2998111",
+    "longitude": "-81.5526889"
+  },
   "image_url": "https://images.findagrave.com/photos/2018/209/86399946_53aaa2f9-49d0-497b-9773-8b9d8298a03d.jpeg?size=photos250",
   "image_credits": "rossddickson",
   "image_credits_url": "/user/profile/49188008",

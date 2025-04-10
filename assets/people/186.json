@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Son of Fredericka (Finkbeiner) and G F Eilber",
   "bio": "Son of Fredericka (Finkbeiner) and G F Eilber",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984144",
+    "longitude": "-81.5525618"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/231/15426262_115607695763.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

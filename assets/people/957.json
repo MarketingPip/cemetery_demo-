@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "SCHROEDER\nJohn Schroeder<br/>died Sept. 21, 1908<br/>aged 89 yrs. 11 mos. 19 ds.<br/>at rest<br/>his wife<br/>Sophia Ehlers<br/>1841-1929<br/>Anna<br/>died Jan. 12, 1881<br/>ae 1 mo. 28 ds.<br/>Wilhelm<br/>died May 12, 1885<br/>ae 6 yrs. 2 mos. 2 ds.<br/>Louisa<br/>died Apr. 17, 1875<br/>ae 2 mos. 29 ds.<br/>Elizabeth<br/>died Dec. 30, 1876<br/>ae 1 month</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983075",
+    "longitude": "-81.5523729"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/110/236168444_066019f6-0c0f-49e4-9415-2c24b0725b1b.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

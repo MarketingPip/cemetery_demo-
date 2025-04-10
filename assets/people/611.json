@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "Katherine Kaufeld\n1820-1882</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986515",
+    "longitude": "-81.5525746"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/263/15833419_115885312073.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "1861 Census of CanadaTobias Fahnar age 40Margaret Fahnar age 36Ephal Fahnar age 14     (Eva)Fredrick Fahnar age 11Susana Fahnar age 9Madaline Fahnar age 7John Fahnar age 6per family Bible: Susannah Fahner (b. 13 May, 1851-d. 15 Sept. 1871) died in a fire in Detroit, Michigan.  No burial records found.",
   "bio": "THERE ARE NO PARTINGS IN HEAVEN",
-  "gps": null,
+  "gps": {
+    "latitude": "43.298189",
+    "longitude": "-81.5528279"
+  },
   "image_url": "https://images.findagrave.com/photos/2025/69/188037157_21191506-68f9-4427-ab53-ec0f5f8196ef.jpeg?size=photos250",
   "image_credits": "Rick Fahner",
   "image_credits_url": "/user/profile/51908492",

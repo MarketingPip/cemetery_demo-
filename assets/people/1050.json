@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "William Sweitzer\ndied Oct. 2, 1873<br/>Aged 22 years 4 months 22 days</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2981206",
+    "longitude": "-81.5526604"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/112/236919818_35d1febb-0e76-4413-bc8c-981a887bb434.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

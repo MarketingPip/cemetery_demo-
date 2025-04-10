@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "FRITZ\nWard C. Fritz<br/>1901-1986<br/>husband of<br/>Bernice E. Eilber<br/>1913-1990<br/>and their daughter<br/>Mary Louise E. 1935-2016<br/>LINK<br/>In memory Of Samuel Link<br/>died Mar. 21, 1890<br/>aged 27 yrs.<br/>Dorothia Eilber<br/>wife of Samuel Link<br/>born Dec. 16, 1864<br/>died Nov. 18, 1915<br/>LINK<br/>Ella Beatrice Link<br/>born April 2, 1889<br/>died Feb. 21, 1962</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985333",
+    "longitude": "-81.5524715"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/112/188114978_e78073f4-01a9-45d8-8bd2-19ee83822c68.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

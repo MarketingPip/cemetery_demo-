@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "Melinda Trick\nwife of Eldred A. Lillow<br/>died June 14, 1913<br/>ae 23 yrs. 3 mos.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986827",
+    "longitude": "-81.5529178"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/112/188114966_6ecacef5-401c-4a92-b98a-d1acc7d00fa4.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

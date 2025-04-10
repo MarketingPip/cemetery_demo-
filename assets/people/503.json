@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "HAIST\nElizabeth<br/>died Aug. 248, 1881<br/>aged 46 yrs.<br/>Margaretha<br/>died Sept. 17, 1901<br/>aged 75 yrs.<br/>wives of Jacob HAIST<br/>Jacob HAIST<br/>died Feb. 16, 1912<br/>aged 85 yrs.<br/>Anna M. HAIST<br/>gestorben Marz. 17, 1878<br/>alter 9 mon.<br/>Karlina HAIST<br/>gestorben  Jan. 7, 1880<br/>alter 6 yahr.<br/>kinder von Jacob und Elizabeth HAIST<br/>Barbara HAIST<br/>gestorben  Aug. 6, 1868<br/>alter 8 yahr.<br/>Heinrich HAIST<br/>gestorben Dec. 17, 1872<br/>alter 5 yahr.<br/>kinder von Jacob &amp; Elizabeth HAIST</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984003",
+    "longitude": "-81.5528279"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/111/236911413_e9813af0-5586-4180-b410-f734e41de8f6.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

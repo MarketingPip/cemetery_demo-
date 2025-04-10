@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "WEIN\nGottfried Wein<br/>1861-1949<br/>his beloved wife<br/>Veron ica Haist<br/>1871-1954<br/>their daughter<br/>Maleeta E.<br/>1905-1955<br/>their son <br/>1892 Edwin 1955</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985659",
+    "longitude": "-81.5526991"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/84/237943128_d96bfbbf-5714-4765-867b-7811c870958b.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

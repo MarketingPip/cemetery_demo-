@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "FINKBEINER\nKarl U. Finkbeiner<br/>died Sept. 25, 1913<br/>aged 71 yrs. 11 mos. 5 ds.<br/>at rest<br/>his wife<br/>Eva<br/>died Jan. 28, 1930<br/>in her 82nd year<br/>their daughter, Minnie<br/>died Feb. 18, 1920<br/>in her 29th year</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984012",
+    "longitude": "-81.5527162"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/110/236169204_4f0e4282-7dcb-42bf-add8-fc5b53cd41fc.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

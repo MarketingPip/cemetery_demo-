@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "RIVERS\nIn Memory of infant son of<br/>Dr. J.H. &amp; Lottie Rivers<br/>died Jan. 24, 1901 (no age)<br/>also infant daughter of <br/>George and Ida Bloomfield<br/>died Oct. 3, 1901 (no age)</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984883",
+    "longitude": "-81.5527334"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/114/239170087_e4fc0415-3707-4bde-bd39-3f0f9287718d.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

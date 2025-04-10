@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Son of Christina (Prescadore?) and Phillip Beaver, married Amelia Parsons on Jan 1 1873. He died in Toronto General Hospital of pneumonia",
   "bio": "In Memory of\nAmelia Jane<br/>wife of Christian Beaver<br/>died Jan. 2, 1902<br/>aged 47 yrs. 5 mos. 2 ds.<br/>Christian Beaver<br/>died May 26, 1928<br/>aged 81 yrs. 5 mos. 4 ds.<br/>BEAVER</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986624",
+    "longitude": "-81.552699"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/260/15790995_115858738363.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "BENNEWIES\nJanet S.<br/>1950-1999</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985792",
+    "longitude": "-81.5527643"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/86/238052306_2a17caf4-673c-4592-b716-433f3005313b.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

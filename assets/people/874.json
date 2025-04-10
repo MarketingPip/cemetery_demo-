@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "RATZ\nMilton E. Ratz<br/>1893-1954<br/>his beloved wife<br/>Ada Fassold<br/>1902-1978<br/>their son John M.<br/>1924-1979<br/>his wife Margaret Scott<br/>1926-2017<br/>their son Paul Milton<br/>1954-2011</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985034",
+    "longitude": "-81.5529138"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/84/237943693_36f3b164-26d8-445d-ad67-d841a65d1f7c.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

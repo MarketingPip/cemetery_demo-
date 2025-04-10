@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "John Wesley Mangnus\nborn 1875 died 1881<br/>Marie<br/>born 1882 died 1885<br/>Fredericka Mangnus<br/>born 1850 died 1915<br/>Mrs. Gottfried Mangnus<br/>Gottifried Mangnus<br/>born 1847 died 1925<br/>James Morris Mangnus</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984392",
+    "longitude": "-81.5525273"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/110/236151911_10540f6a-501f-4f31-9073-b558706696f5.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

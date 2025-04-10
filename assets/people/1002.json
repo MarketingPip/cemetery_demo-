@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "STAEBLER\nRev. Joh. G. Staebler<br/>gest 23 Aug. 1909<br/>Ult 85 Jah. 7 mon. 28 tg.<br/>Chriftianna, the Frau von Joh Staebler<br/>Gest 10 Sept. 1906<br/>Ult 77 Jahr. 6 mo. 27 tg.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984883",
+    "longitude": "-81.5529478"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/113/188137840_ff2b7a12-6b12-4d1e-9714-4c56fa07145c.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

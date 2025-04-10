@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Son of Rebecca (Rosenberg) and George Humble",
   "bio": "Son of Rebecca (Rosenberg) and George Humble",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984409",
+    "longitude": "-81.552012"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/234/15473164_115634792701.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

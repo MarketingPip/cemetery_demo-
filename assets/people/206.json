@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "August was born in Jakobshagen, Templin, Brandenburg, Prussia, Germany to August Ewald and Friederike Henriette Schoenbeck. His mother died 6 Apr., one month after the birth of his sister Friederike on 6 Mar 1861. His father married Dorothea W Magnus on 12 Oct 1862. His parents had 11 more children. In May and June of 1882 the whole family immigrated to Canada including August's wife Mary and young daughter Bertha. They had followed Dorothea's sister Auguste Krause, brother's Gottfried and William, and mother Doro Magnus to Crediton. August and his sister Minnie Ewald Brown remained in Canada while the rest of the family moved to Elkton, Michigan in 1889 where his father purchased land at $1.50 an acre. August and Mary had at least 6 children: Bertha, Charles, Annie Telfer, Ida Redfern, Otto, and Ezra. August died of meningitis at age 55. I believe his wife and daughter Bertha are also buried in Crediton cemetery however there are no stones to indicate it. Crediton was listed as their place of burial on both death certificates.",
   "bio": "EWALD\nAugust Ewald<br/>died Mar. 24, 1913<br/>aged 55 ys.<br/>He died as he lived, a Christian</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986198",
+    "longitude": "-81.5526733"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/111/136285186_419249b1-f94d-4be1-9a60-7a001563743a.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Son of Elizabeth (Sweitzer) and William Winer",
   "bio": "Son of Elizabeth (Sweitzer) and William Winer",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2982623",
+    "longitude": "-81.5525189"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/249/15660715_115769022075.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

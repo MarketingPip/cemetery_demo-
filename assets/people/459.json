@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "(font)SMITH\nMary WUERTH<br/>wife of Jacob SMITH<br/>1837-1928<br/>John F. SMITH<br/>1865-1954<br/>his wife Mary Ann KLUMPP<br/>1870-1959<br/>Roy L. son of John F &amp; Mary Ann SMITH<br/>1901-1907<br/>Asleep in Jesus<br/>(back)SMITH<br/>Eldon SMITH<br/>1912-1995<br/>his wife<br/>Ruth VARLEY<br/>1922-2019<br/>GREEN<br/>her son<br/>1950 Ronald GREEN 2020<br/>his wife<br/>1957 Jane DUDEK</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984508",
+    "longitude": "-81.5523172"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/111/239060995_65553fa0-6da2-42b9-8da2-e1bd171179c9.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

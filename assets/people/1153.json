@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Husband of Mary Ann EilberWheelwright and carriage maker.",
   "bio": "WENZEL\nDora Wenzel\nwife of Frank Behnke\nborn Mar. 1, 1883<br/>died Nov. 1, 1923<br/>William H. Wenzel<br/>born Sept. 29, 1857<br/>died Aug. 27, 1924<br/>his wife Mary Eilber<br/>born July 19, 1860<br/>died Nov. 15, 1945<br/>(back)Catherine Wenzel<br/>born Mar. 11, 1852<br/>died Apr. 4, 1915<br/>aged 53 yrs.</br></br></br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.298475",
+    "longitude": "-81.5525016"
+  },
   "image_url": "https://images.findagrave.com/photos/2013/267/70676033_138016423803.jpg?size=photos250",
   "image_credits": "Alison Mitchell-Reid",
   "image_credits_url": "/user/profile/48240157",

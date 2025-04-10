@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Daughter of Barbara (Witzel) and Alex Neeb",
   "bio": "ALEX NEEB 1876-1948\nHIS WIFE BARBARA WITZEL<br/>1883-1940<br/>THEIR CHILDREN<br/>ALFRED 1907-1909<br/>HARVEY 1920-1964<br/>ESTHER 1910-1968<br/>WILLIAM WITZEL<br/>BORN MAR. 29, 1857<br/>DIED MAR. 5, 1935<br/>HIS WIFE MARY FINKBEINER<br/>BORN MAY 2, 1860-DIED MAY 3, 1927<br/>IRENE WITZEL<br/>BORN 1899-DIED 1947</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985673",
+    "longitude": "-81.552832"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/249/15650736_115764439625.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

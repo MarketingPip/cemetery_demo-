@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Parents: John Brown and Bertha Malin",
   "bio": "Parents: John Brown and Bertha Malin",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985991",
+    "longitude": "-81.5528279"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/112/188114931_6af6546a-db86-446f-9fa5-01cdd97b29d1.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

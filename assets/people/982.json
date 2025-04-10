@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "AT REST\nf.s. FATHER MOTHER</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2987535",
+    "longitude": "-81.5520979"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/116/188136916_cd7b6afb-5376-4352-b7b3-f1fcb7098995.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

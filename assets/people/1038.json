@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Daughter of Elizabeth (Heyrock) and Michael Klumpp, was married to August Sweitzer",
   "bio": "KLUMPP\nMichael Klumpp<br/>born 1831<br/>died 1926<br/>his wife Elizabeth Heyrock<br/>born 1838<br/>died 1916<br/>Lydia Sweitzer (nee Klumpp)<br/>born 1873 died 1916<br/>Martha <br/>born 1875<br/>died 1877<br/>William <br/>born 1878<br/>died 1881<br/>John Klumpp<br/>born 1865<br/>died 1952<br/>his wife Lydia Fahrner<br/>born 1871<br/>died 1936<br/>their daughter Florence<br/>born 1893<br/>died 1894</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986228",
+    "longitude": "-81.552785"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/320/16681816_116378112912.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

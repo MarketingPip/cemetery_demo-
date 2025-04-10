@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "McDERMOTT\nJOHN ARTHUR (JACK)<br/>1937 - 1981<br/>BELOVED HUSBAND OF <br/>KATHRYN A. BOSHART</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2982172",
+    "longitude": "-81.5525746"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/86/188115171_b1f6ad6a-f303-4029-ac02-d35c338c3fce.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

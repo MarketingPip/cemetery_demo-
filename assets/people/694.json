@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "MALLETT",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985034",
+    "longitude": "-81.5522697"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/116/188115078_24d25887-41c4-4238-8b25-a979afb66f53.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

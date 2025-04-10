@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "FAHNER\nJacob Fahner<br/>born Apr. 4, 1804<br/>died Apr. 28, 1879</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983387",
+    "longitude": "-81.5526733"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/110/188037051_d6a6eaef-2b38-491c-827b-14101553996f.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

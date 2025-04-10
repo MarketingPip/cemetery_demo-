@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "BROWN\nJohnF. Brown<br/>1841-1925<br/>his wife Bertha Mellin<br/>1855-1934</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983439",
+    "longitude": "-81.552772"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/112/188035990_3dcbf0f6-ca8d-4ce0-9fbd-ed21b762b58c.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

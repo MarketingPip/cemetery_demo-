@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Daughter of Barbara (Finkbeiner) and John Ratz",
   "bio": "Daughter of Barbara (Finkbeiner) and John Ratz",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2989097",
+    "longitude": "-81.5524414"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/219/15187299_115505168250.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

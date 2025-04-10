@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "FAHNER\nCharles C. Fahner<br/>born 1876 died 1921<br/>Albert P. Fahner<br/>born 1884 died 1962<br/>his wife, Minnie Triebner<br/>born 1885 died 1965</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985329",
+    "longitude": "-81.5525273"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/110/188037100_7fbf2767-9760-40d4-9496-22defb653749.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

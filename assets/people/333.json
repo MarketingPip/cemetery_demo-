@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Daughter of Wilhelmina (Guenther) and Christian Fahrner, wife of Herbert Finkbeiner",
   "bio": "FINKBEINER\nRoy H. Finkbeiner<br/>1897-1990<br/>his wife Lily M. Fahrner<br/>1888-1970<br/>William Finkbeiner<br/>1858-1937<br/>his wife Mary Wein<br/>1871-1958<br/>Michael Finkbeiner<br/>born 25 Aug. 1825<br/>died 30 June 1892<br/>Barbara Finkbeiner<br/>born 28 Nov. 1828<br/>died 5 Dec. 1896<br/>Christian Finkbeiner<br/>born 12 Aug. 1849<br/>died 17 Aug. 1878<br/>aged 29 Jahre 5 tag.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.298689",
+    "longitude": "-81.5526991"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/273/15961917_115976179265.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Passed away at South Huron Hospital, Exeter Ontario.91st year",
   "bio": "SCHENK\nGerald Austin Schenk\nborn 1920 died 2010\nhis beloved wife<br/>Elodia Rita Cholette<br/>born 1925 died 1995<br/>Donald Arthur <br/>1952-1979<br/>his wife Bonnie L. Neeb<br/>loving father of Kathy, Kelly &amp; Kristian</br></br></br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2996333",
+    "longitude": "-81.552825"
+  },
   "image_url": "https://images.findagrave.com/photos/2018/209/60742271_63b33dfc-99c9-4466-8c91-98bbc187866b.jpeg?size=photos250",
   "image_credits": "rossddickson",
   "image_credits_url": "/user/profile/49188008",

@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "GOUGHTREY\nEarl Joseph<br/>Dec. 11, 1923-Jun, 18, 1987<br/>Corrie J.<br/>CONFURIUS<br/>Aug. 21, 1916-<br/>In God We Trust</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984245",
+    "longitude": "-81.5526604"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/83/188036218_3f1d9e15-36f6-4382-909b-a2be609fdfba.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

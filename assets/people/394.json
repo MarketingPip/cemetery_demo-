@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Daughter of Mary and Jacob Kutzli, 1st wife of Jacob Gaiser",
   "bio": "Daughter of Mary and Jacob Kutzli, 1st wife of Jacob Gaiser",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986191",
+    "longitude": "-81.5525703"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/315/16627135_116339552993.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

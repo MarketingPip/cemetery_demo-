@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Daughter: Johana C Fredricka \"Rachel\" Clemann (1831–1895)11 Jul 1831 • Hanover, Region Hannover, Lower Saxony, Germany",
   "bio": "Daughter: Johana C Fredricka \"Rachel\" Clemann (1831–1895)<br/>11 Jul 1831 • Hanover, Region Hannover, Lower Saxony, Germany",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2987451",
+    "longitude": "-81.5524888"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/51/188036151_6e0ab79f-879e-4c8c-88a1-c89622ff7eed.png?size=photos250",
   "image_credits": "fly by - Sherry",
   "image_credits_url": "/user/profile/47482982",

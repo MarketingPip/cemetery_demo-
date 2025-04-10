@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "FAIST\nThe Rev. Frederick M. Faist<br/>B.A.: B.D.<br/>1908-1982<br/>his wife Gwendolyn Arends<br/>1909-2001</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985578",
+    "longitude": "-81.5527891"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/112/188037263_50209f16-527b-447e-b280-01872265bd62.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

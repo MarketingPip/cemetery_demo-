@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Daughter of Sarah (Thaler) and Aaron Kaercher",
   "bio": "Daughter of Sarah (Thaler) and Aaron Kaercher",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986368",
+    "longitude": "-81.5525618"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/249/15660817_115769136749.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "GAISER\nIn memory of Adam Gaiser<br/>died Aug. 29, 1894 aged 71 yrs. 10 mos. 13 dys.<br/>Magdalena his wife<br/>1828-1919<br/>Mary A. Gaiser<br/>1852-1923<br/>Kathleen Morlock<br/>1908-1947<br/>wife of Royal Gaiser<br/>1905-1961<br/>thier infant daughter Jean A. 1928<br/>aged 2 years old<br/>Lila Pym<br/>1903-1990<br/>wife of Emery Gaiser<br/>1899-1991</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985196",
+    "longitude": "-81.5529049"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/113/239154792_8e298397-2394-4923-b922-f6344792ab77.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

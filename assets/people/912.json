@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "LAWSON\nThomas B. Lawson<br/>1871-1916<br/>his wife Sophia Brown Bier<br/>1878-1934<br/>their daughter Myrtle<br/>wife of Michael Sansone<br/>1901-1960</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985196",
+    "longitude": "-81.5531194"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/127/188136633_24dfada5-f039-4600-835e-08e2f2dd7d20.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Daughter of Fredericka (Clemmer) and Henry Sweitzer. Henry is from Pennsylvania",
   "bio": "Daughter of Fredericka (Clemmer) and Henry Sweitzer. Henry is from Pennsylvania",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984628",
+    "longitude": "-81.5526561"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/312/16581734_116313974467.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

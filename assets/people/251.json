@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Wife of Austin Everett Fahrner.",
   "bio": "In Loving Memory of\nLorraine Violet Plinkas<br/>Mar. 2, 1924-December 9, 1987<br/>Austin Everett<br/>June 18, 1920</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985062",
+    "longitude": "-81.5526132"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/86/22898562_60090e32-9ef9-4f29-a5f3-3dc1ed2b906d.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Daughter of Louisa (Morlock) and Jacob Faist",
   "bio": "Daughter of Louisa (Morlock) and Jacob Faist",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985566",
+    "longitude": "-81.5522697"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/247/15625226_115747157057.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

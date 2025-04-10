@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "PINNER\nEdnaMae (Ted)<br/>1901-1987<br/>beloved wife of <br/>Charles Ernest<br/>1906-</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984125",
+    "longitude": "-81.5528278"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/86/188136469_11fd5765-f6c1-4c9a-be31-97fab0c2e0a2.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "SCHROEDER\nDaniel Schroeder<br/>1869-1937<br/>his wife Catherine Lippert<br/>1876-1948</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983075",
+    "longitude": "-81.552802"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/110/188136795_ab71c2e1-dd73-4b33-8ad8-11d80874f3c0.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

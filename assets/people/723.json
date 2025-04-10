@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Alma passed away peacefully, at Queensway Nursing Home, Hensall, Friday, June 2, 2006, Alma Irene (Smith) Morlock, age 102, formerly of Crediton. Beloved wife of the late C. Gordon Morlock (1993). Daughter of Mary Ann Klump and John Smith. Mother-in-law of Gladys (Becker) Morlock of Waterloo. Grandma of Scott and Janet Morlock, Lynn and Mike Keough and great-grandma of Mark, Peter and Weston Morlock, Austin, Kevin and Sean Keough. Remembered by her nephew Donald Finkbeiner, great-nieces, great-nephews and their families. Predeceased by Dr. Frederick Morlock (1993), brothers William, Roy and Eldon Smith, sisters Idella Sims, Beulah Sparling and Lavina Finkbeiner.",
   "bio": "MORLOCK\nAlma E. Haist<br/>1903-1943<br/>wife of Chester Gordon Morlock <br/>1902-1993<br/>his wife Alma I. Smith<br/>1903-2006<br/>(back)John N. Morlock<br/>1867-1951<br/>his wife Caroline M. Wuerth<br/>1872-1963</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983804",
+    "longitude": "-81.5526991"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/213/14495743_115452551202.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

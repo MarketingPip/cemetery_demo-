@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "EILBER\nGrace Eilber<br/>born Nov. 24, 1878-died Mar. 24, 1886<br/>Ezra Eilber<br/>born Jan. 21, 1884-died Mar. 24, 1886<br/>Gertrude Eilber<br/>born Dec. 18, 1906-died Sept. 14, 1908<br/>Louis Raymond <br/>1867-1928<br/>his wife Martha Eilber<br/>1873-1947<br/>Mother<br/>Fredericka<br/>wife of George Frederick Eilber<br/>born Nov. 27, 1840<br/>died Dec. 26, 1926<br/>Father<br/>George Frederick Eilber<br/>born Sept. 15, 1823<br/>died Jan. 27, 1918<br/>John Frederick Eilber<br/>born Nov. 25, 1868<br/>died Oct. 9, 1905<br/>his wife, Elizabeth<br/>born July 14, 1871<br/>died July 14, 1962</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2998694",
+    "longitude": "-81.5539333"
+  },
   "image_url": "https://images.findagrave.com/photos/2018/209/191738505_7085a8c0-58bd-409b-86d6-ceab789a3318.jpeg?size=photos250",
   "image_credits": "rossddickson",
   "image_credits_url": "/user/profile/49188008",

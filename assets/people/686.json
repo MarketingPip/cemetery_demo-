@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Husband of Clara Wenzel.",
   "bio": "Husband of Clara Wenzel.",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2996528",
+    "longitude": "-81.5533667"
+  },
   "image_url": "https://images.findagrave.com/photos/2018/209/158033845_86177e06-1806-48a1-bfe6-f45a28b0af03.jpeg?size=photos250",
   "image_credits": "rossddickson",
   "image_credits_url": "/user/profile/49188008",

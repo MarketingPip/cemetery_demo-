@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "FAHRNER\nElizabeth E. Sauer<br/>1884-1967<br/>wife<br/>Erwin G. Fahrner<br/>1891-1955<br/>husband</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985248",
+    "longitude": "-81.552403"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/111/236179463_949f5a12-ce2c-4049-9b60-7ead7ba174ee.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

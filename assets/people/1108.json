@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "WEIN\nAlbert W. Wein<br/>Aug. 15, 1885<br/>June 4, 1947<br/>father</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983695",
+    "longitude": "-81.552832"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/51/188138590_38308f3e-6483-4d35-9070-f04b8fca319f.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "HUMBLE\nEmma K. Brown<br/>wife of P.M. Humble<br/>born Dec. 15, 1880<br/>died Mar. 9, 1908<br/>(back)Amelia L. Brown<br/>wife of F. Johnston<br/>born Apr. 20, 1877-died Feb. 16, 1909</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2988502",
+    "longitude": "-81.5529563"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/112/188113342_bbd47024-66d3-4af7-8927-b3073b1fba30.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

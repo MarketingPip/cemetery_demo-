@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "Elizabeth Ostreicher\nwife of Conrad Kuhn<br/>1862-1950</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2998306",
+    "longitude": "-81.5539639"
+  },
   "image_url": "https://images.findagrave.com/photos/2018/209/188113462_572c55f3-0bf3-460b-acf7-c315649eb554.jpeg?size=photos250",
   "image_credits": "rossddickson",
   "image_credits_url": "/user/profile/49188008",

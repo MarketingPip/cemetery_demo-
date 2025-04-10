@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "Otto S. Ewald\n1894-1932<br/>his wife Mabel Fahrner<br/>1889-1972</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986823",
+    "longitude": "-81.5526733"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/111/236171436_139aedd4-7291-4f1f-b545-66a9d82f64f7.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

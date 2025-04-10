@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "KUHN\nJOHN KUHN 1822-1900<br/>JOHANNA WIFE OF JOHN KUHN<br/>SEPT. 23, 1819-APR. 15, 1885<br/>HIER RUHT ADAM KUHN<br/>SON OF JOHN &amp; JOHANNA KUHN<br/>BORN FEB. 18, 1861 DIED APRIL 16, 1883</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984737",
+    "longitude": "-81.5524888"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/110/188113453_459dfcc4-9123-4539-a286-a0db38cfc224.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

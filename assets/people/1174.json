@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Elizabeth's info is on the back of Rosena (Kuhn) and Jacob Sweitzer's stone",
   "bio": "Elizabeth's info is on the back of Rosena (Kuhn) and Jacob Sweitzer's stone",
-  "gps": null,
+  "gps": {
+    "latitude": "43.298668",
+    "longitude": "-81.5526476"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/249/15660693_115769004819.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

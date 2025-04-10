@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "DINNEY(black granite stone)\nRobert C. Dinney<br/>1937-1986<br/>his wife Grace Desjardine<br/>1941-1997<br/>their son Shawn Michael <br/>1969-1979<br/>Thomas Robert<br/>1962-2017<br/>thier sons<br/>Jason Charles<br/>his wife <br/>Cynthia L. Visser<br/>Datrrel Douglas<br/>their granddaughters<br/>Ceceilia Grace<br/>1982-2018<br/>Tina Nicole<br/>(Dinney)Roulston<br/>(back)Donald V. Dinney<br/>1929-1985<br/>his wife Maria E. Clarke<br/>1931-2015<br/>Gary D. Dinney<br/>his wife<br/>Bonnie<br/>their son<br/>Donald G. Dinney</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2999833",
+    "longitude": "-81.5528861"
+  },
   "image_url": "https://images.findagrave.com/photos/2021/154/228109891_ce629494-0054-4fd8-8568-4f57e5ebbf38.jpeg?size=photos250",
   "image_credits": "Deb Wilson",
   "image_credits_url": "/user/profile/48097223",

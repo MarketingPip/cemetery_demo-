@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Son of Wilhelmina (Wolfe) and Frederick Wuerth, husband to Alda May Wein",
   "bio": "WUERTH\nFrederick Wuerth<br/>1842-1927<br/>Wilhelmina his wife<br/>1848-1930<br/>Charles<br/>1883-1889<br/>Emma<br/>1878-1887<br/>Cornelia-Eva-Gottlieb<br/>died in infancy<br/>Sylvester Wuerth<br/>1891-1983<br/>his beloved wife<br/>Alda M. Wein<br/>1892-1976<br/>their daughter Florence<br/>no date</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985314",
+    "longitude": "-81.5526604"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/264/15848637_115893922077.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

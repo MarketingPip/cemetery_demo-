@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Son of Gertrude (Faust) and Henry Wilker, cause of death: cancer of the liver.",
   "bio": "Leonard Wilker\n1846-1920<br/>Matilda Morlock<br/>his wife<br/>1850-1943</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985266",
+    "longitude": "-81.552832"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/262/15820486_115875924805.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

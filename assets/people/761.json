@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Son of Lydia (Haist) and William Morlock.--------Conflicting information:His birth record lists him as Willert, born 16 May 1892.His death record lists him as Wilbur, aged: 26y 10m 6dHis stone lists him as Wilber, aged: 26y 10m 6dCalculations would make his birth Feb 24 1892.",
   "bio": "MORLOCK\n(front)FATHER\nWilliam H. Morlock\ndied Apr. 24, 1948\naged 85 yrs 5 mos. 19ds.\nMOTHER\nLydia Haist\nwife of William H. Morlock\ndied Sept. 27, 1942\naged 76 yrs. 3 ms. 29 ds.\n(end)Wilber H. Morlock\ndied Jan. 1, 1919\naged 26 yrs. 10 ms. 6 ds.\nClinton G. Morlock\ndied June 4, 1942\naged 43 yrs. 1 mo.<br/>(end)Clara S. Morlock<br/>died Apr. 10, 1871<br/>aged 6 yrs. 1 mo. 17 ds.<br/>Raymond A. Morlock<br/>died May 23, 1898<br/>aged 8 mos. 8 ds.<br/>(back)Charlotte Beaver<br/>wife of Gottielb Morlock<br/>died July 7, 1925<br/>aged 84 yrs. 9 mos. 27 ds.<br/>Gottielb Morlock<br/>died Nov. 3, 1910<br/>aged 74 yrs. 5 ms. 29 ds.<br/>at rest</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.298564",
+    "longitude": "-81.5524414"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/264/15848245_115893707779.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

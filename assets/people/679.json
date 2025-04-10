@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "LINK\nJohn Link<br/>died Oct. 23, 1887<br/>aged 28 yrs. 9 mos. 14 ds.<br/>f.s. Samuel Albert<br/>son of William &amp; Christina Link<br/>died Aug. 17, 1888<br/>aged 1 yr. 25 days.</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985952",
+    "longitude": "-81.5524844"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/112/188114996_d5b6e89d-4a87-4b10-a346-c851d5277c46.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

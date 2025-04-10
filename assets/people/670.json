@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "LIGHTFOOT: Peacefully at Huronview Home, Clinton on Sunday, January 19, 2003, Doreen Elizabeth (Baker) Lightfoot, formerly of Crediton, in her 82ndyear. Beloved wife of the late Wm. Howard Lightfoot (1979). Dearly loved mother of Doug and Phyllis Lightfoot of R.R. #1 Crediton. Loving grandma ofSteven & Rhonda Lightfoot of Crediton, Michael & Kristyn Lightfoot of Mount Carmel and cherished great-gramma of Dylan, Cadyn, Paige, Todd & Taylar.Resting at the T. Harry Hoffman & Sons Funeral Home, Dashwood, with visitation Monday afternoon and evening. The Funeral Service will be held atZion United Church, Crediton, on Tuesday, January 21, 2003 at 2:30 p.m. The Rev. Sheila Macgregor officiating. Interment Crediton Cemetery. If desiredmemorial donations to Zion United Church, Alzheimer Society or charity of choice would be appreciated. Doreen was active in her Church, U.C.W. andretired after 25 years with South Huron Hospital house-keeping department.Posted online at T. Harry Hoffman & Sons Funeral Home",
   "bio": "LIGHTFOOT<br/>William Howard Lightfoot<br/>1905-1979<br/>his wife Doreen E. Baker<br/>1921-2003",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983813",
+    "longitude": "-81.55233"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/86/188114950_0385ee12-05e0-492d-a749-f4b52a0d15fb.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

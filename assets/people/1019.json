@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "STEWARDSON\nWillis Orval<br/>1917-1987<br/>Father<br/>Lois WANNWE<br/>1921-1988<br/>Mother</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2998778",
+    "longitude": "-81.5528194"
+  },
   "image_url": "https://images.findagrave.com/photos/2018/209/188137985_b62bc081-a19e-404e-9bb4-13047b28ed7e.jpeg?size=photos250",
   "image_credits": "rossddickson",
   "image_credits_url": "/user/profile/49188008",

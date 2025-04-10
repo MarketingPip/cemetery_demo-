@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "GAISER, Israel died Dec. 30, 1966",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985687",
+    "longitude": "-81.5529565"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/115/236142027_c00bffa0-d891-4bcd-80b0-5b8c68107254.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "MELLIN\nIn Memory of Ethel Viola Mellin<br/>daughter of Adolph &amp; Susanna Mellin<br/>died Oct, 17, 1884 aged 1 yr. 28 ds.<br/>Not lost, blest thought<br/>But gone before<br/>Where we will meet<br/>To part no more</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2984978",
+    "longitude": "-81.5529138"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/110/236144082_1a510c0d-a1c9-423e-8b32-c35f70bd914c.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

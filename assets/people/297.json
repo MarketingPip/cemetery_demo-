@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "Erma was the daughter of Lena (Gaiser) and Christian Finkbeiner",
   "bio": "THY WILL BE DONE\n<br/>THY WILL BE DONE<br/>FINKBEINER<br/>Erma Irene<br/>Finkbeiner<br/>1900-1964<br/>thy will be done</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983491",
+    "longitude": "-81.5530855"
+  },
   "image_url": "https://images.findagrave.com/photos/2006/298/16330377_116187378258.jpg?size=photos250",
   "image_credits": "Scott Buschlen",
   "image_credits_url": "/user/profile/46583152",

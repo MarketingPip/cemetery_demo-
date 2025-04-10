@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "KIENZLE\nMagdalena Boyer<br/>wife of G. K. Kienzle<br/>died Nov. 28, 1911 ae 52 yrs. 8 mos. 4 ds.<br/>THERE ARE NO PARTINGS IN HEAVEN<br/>George K. Kienzle<br/>born June 16, 1854 <br/>died Apr. 6, 1950<br/>(end)E. Bruce Kienzle<br/>1889-1977<br/>son</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983323",
+    "longitude": "-81.5525618"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/114/188113375_55f9d096-7ac3-4068-bd34-f83a11f5d0c9.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

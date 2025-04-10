@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "FRITZ\nWilliam Fritz<br/>born June 3, 1862-died July 11, 1908<br/>HE IS NOT DEAD BUT SLEEPETH<br/>Minnie<br/>wife of William J. Fritz<br/>born 1861-died 1936<br/>at rest<br/>(side)Verda Maria<br/>dau. of<br/>Wm. &amp; Minnie J.<br/>Fritz<br/>born Sept. 14, 1896<br/>died Nov. 9, 1898</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2986304",
+    "longitude": "-81.5524844"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/113/239160701_f185793d-2dd1-4c40-b935-c723cb454fbb.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

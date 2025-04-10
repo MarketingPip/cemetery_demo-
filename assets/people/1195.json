@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "WUERTH\nFrederick Wuerth<br/>1842-1927<br/>Wilhelmina his wife<br/>1848-1930<br/>Charles<br/>1883-1889<br/>Emma<br/>1878-1887<br/>Cornelia-Evo-Gottlieb<br/>died in infancy<br/>Sylvester Wuerth<br/>1891-1983<br/>his beloved wife<br/>Alda M. Wein<br/>1892-1976<br/>their daughter Florence<br/>no date</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985627",
+    "longitude": "-81.552403"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/86/238061476_3d985dce-3e58-4da5-80e8-037382ad7be0.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "GIBSON: Suddenly, at her residence, as a result of a house fire, Friday, January 25, 2008, Mary Muriel (Haigh) Gibson, of Shipka, RR 2, Dashwood, age 69. Beloved wife of the late Fred Clement Gibson (2006). Loved mother of Irene Dodd, Katherine Gibson and companion Steve Marsh, all of London and the late Margaret Jean Gibson (1972). Loving grandma of Jamie Dodd of Tillsonburg. A Service for family and friends will take place at Crediton Cemetery, Thursday, January 31, 2008 at 1:30 p.m. Mr. Bob Heywood officiating. If desired, memorial donations to a charity of choice would be appreciated. T. Harry Hoffman & Sons Funeral Home, Dashwood, entrusted with arrangements.",
   "bio": "GIBSON\nFred Gibson\n1931-2006\nhis wife Mary Haigh<br/>1938-2008<br/>their daughter<br/>Margaret<br/>1962-1972<br/>f.s. Margaret</br></br></br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2983999",
+    "longitude": "-81.5527462"
+  },
   "image_url": "https://images.findagrave.com/photos/2018/209/41014994_1151a1f3-9ba0-459a-8ff6-6a6c45067e14.jpeg?size=photos250",
   "image_credits": "rossddickson",
   "image_credits_url": "/user/profile/49188008",

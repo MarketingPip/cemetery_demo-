@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "BELL\nour daughter<br/>Brooke L. Bell<br/>1991-2019<br/>daughter of David and Roxane</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2985479",
+    "longitude": "-81.5521758"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/86/238055736_7a653564-bf6a-4dec-a75f-b0c333585187.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",

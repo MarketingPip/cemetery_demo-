@@ -7,7 +7,10 @@
   "location": "Crediton",
   "part_bio": "",
   "bio": "SASS\nGrace  E.<br/>Nov. 3, 1920-Jan. 17, 2000</br>",
-  "gps": null,
+  "gps": {
+    "latitude": "43.2987351",
+    "longitude": "-81.552476"
+  },
   "image_url": "https://images.findagrave.com/photos/2022/86/238054125_4f0c066d-1f47-4860-8195-4546ba1f9c78.jpeg?size=photos250",
   "image_credits": "patricia van horn",
   "image_credits_url": "/user/profile/49867182",
