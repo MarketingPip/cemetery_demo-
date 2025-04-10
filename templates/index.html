@@ -1334,10 +1334,10 @@ function smoothLeafletDebounce(){
   // Cancel debounce temporarily
   _debounceCancel = true;
 
-  // Reset debounce flag after 500ms
+  // Reset debounce flag after 1 sec
   setTimeout(() => {
     _debounceCancel = false;
-  }, 500);	 
+  }, 1000);	 
 }
   
 markers.on('click', function (a) {
@@ -1345,11 +1345,12 @@ markers.on('click', function (a) {
 });
 
 markers.on('clusterclick', function (a) {
-	 smoothLeafletDebounce()
+    smoothLeafletDebounce()
 });
   
 // Popup open handler for lazy loading
 map.on('popupopen', function (e) {
+  smoothLeafletDebounce()	
   const popup = e.popup;
 
   // Check if lazyload option is set and content is not yet loaded
