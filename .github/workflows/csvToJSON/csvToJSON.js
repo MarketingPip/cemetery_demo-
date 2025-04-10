@@ -41,7 +41,7 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
       // Handle 'gps' field (replace single quotes and parse JSON string)
       if (record.gps && record.gps.trim().length) {
         try {
-          record.gps = JSON.parse(record.gps.replaceAll("'", "`"));
+          record.gps = parseJsonField(record.gps);
         } catch (e) {
           record.gps = null;
         }
