@@ -1106,7 +1106,7 @@ function debounce(func, wait) {
       prevPageBtn.disabled = currentPage === 1;
       nextPageBtn.disabled = currentPage === pageCount || pageCount === 0;
 
-      const pageNumberWindowSize = 5;
+      const pageNumberWindowSize = 3;
       let startPage = Math.max(1, currentPage - Math.floor(pageNumberWindowSize / 2));
       let endPage = Math.min(pageCount, startPage + pageNumberWindowSize - 1);
 
