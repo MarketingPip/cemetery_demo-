@@ -436,7 +436,7 @@ function debounce(func, wait) {
         <td class="px-6 py-4">${record.death_date || 'N/A'}</td>
         <td class="px-6 py-4">${record.location || 'N/A'}</td>
         <td class="px-6 py-4">
-          <a href="tribute?id=${record.id}" class="text-blue-600 hover:text-blue-800 mr-3">View Details</a>
+          <a href="../tribute?id=${record.id}" class="text-blue-600 hover:text-blue-800 mr-3">View Details</a>
           <a href="https://www.findagrave.com/memorial/${record.memorial_url}" target="_blank">FindAGrave</a>
         </td>`;
       fragment.appendChild(row);
