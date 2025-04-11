@@ -54,7 +54,7 @@ module Jekyll
       Jekyll.logger.info "Processing OG image for post: #{post.path}"
 
       # Define file paths
-      slug = post.data['slug'] ||post.data['permalink']
+      slug = post.data['slug'] || post.data['title']
       og_image_name = "#{slug}-og.png"
       og_image_path = File.join(output_dir, og_image_name)
       relative_path = File.join('/', og_folder, og_image_name)
