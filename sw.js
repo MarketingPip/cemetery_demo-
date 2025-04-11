@@ -7,7 +7,7 @@
  * @version 0.1
  */
 
-const PWA_ROOT = '/assets/js/pwa';
+const PWA_ROOT = './assets/js/pwa';
 
 // Import configs
 importScripts(PWA_ROOT + '/config.js');
