@@ -150,18 +150,15 @@ const PWA_CONFIG = {
         active: true,
         // Routes to
         routes: [
-            '/page1.html',
-            '/page2.html',
+       //     '/page1.html',
+        //    '/page2.html',
             // '/page3.html', (not precached)
             '/index.html',
             '/offline.html',
-            'https://fonts.googleapis.com/icon?family=Material+Icons',
-            'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css',
-            'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js',
-            '/pwa/pwa.js',
-            '/assets/app.css',
-            '/assets/app.js',
-            '/assets/logo.jpg',
+           // 'https://fonts.googleapis.com/icon?family=Material+Icons',
+         //   'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css',
+           // 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js',
+            './assets/pwa/pwa.js'
         ],
     }
 }
