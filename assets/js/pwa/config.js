@@ -13,7 +13,7 @@ const PWA_CONFIG = {
     // App config
     app: {
         // App name
-        name: 'Jfa PWA Toolkit Demo',
+        name: 'Crediton Cemetery Heritage Portal (PWA)',
         // App version
         version: 'v1',
     },
