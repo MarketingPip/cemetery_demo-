@@ -153,7 +153,7 @@ const PWA_CONFIG = {
        //     '/page1.html',
         //    '/page2.html',
             // '/page3.html', (not precached)
-            '/index.html',
+            './index.html',
         //    '/offline.html',
            // 'https://fonts.googleapis.com/icon?family=Material+Icons',
          //   'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css',
