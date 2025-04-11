@@ -37,6 +37,10 @@ module Jekyll
         process_post(post, site, output_dir, og_folder, template_path)
       end
 
+      site.pages.docs.each do |page|
+        process_post(page, site, output_dir, og_folder, template_path)
+      end      
+      
       Jekyll.logger.info "Open Graph image generation complete."
     end
 
