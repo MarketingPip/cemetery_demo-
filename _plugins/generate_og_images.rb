@@ -125,6 +125,7 @@ module Jekyll
         'title' => post.data['title']&.strip || "Untitled",
         'site' => site.config
       )
+      end
     end
 
     def generate_image(html_file, output_path)
