@@ -1,0 +1,1694 @@
+---
+permalink: /
+---
+{% assign base_url = site.baseurl | default: "" %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta Tags for SEO -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the Crediton Cemetery Heritage Portal, preserving the rich history and genealogy of one of Ontario's historic cemeteries. Discover grave records, interactive maps, and virtual exhibits.">
+  <meta name="keywords" content="Crediton Cemetery, cemetery history, genealogy, Ontario cemetery, historical records, family history, cemetery map, virtual exhibits, historical timeline">
+  <meta name="author" content="Crediton Cemetery Heritage Portal">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Crediton Cemetery Heritage Portal">
+  <meta property="og:description" content="Explore the Crediton Cemetery Heritage Portal and discover the history, genealogy, and cultural heritage of Crediton Cemetery through interactive maps, grave records, and exhibits.">
+  <meta property="og:image" content="https://placeholder.pagebee.io/api/random/1200/600">
+  <meta property="og:url" content="https://yourwebsite.com">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Crediton Cemetery Heritage Portal">
+  <meta name="twitter:description" content="Explore the Crediton Cemetery Heritage Portal and uncover historical records and cultural heritage from Crediton Cemetery.">
+  <meta name="twitter:image" content="https://placeholder.pagebee.io/api/random/1200/600">
+  <!-- Title -->
+  <title>{{site.title}} | Preserving Local History and Genealogy</title>
+
+  <!-- Favicon for Branding -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  
+  <!-- Tailwind CSS (for styling) -->
+  <script src="https://cdn.tailwindcss.com" async></script>
+  
+  <!-- Font Awesome Icons (for user interface) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Include PapaParse for CSV Parsing -->
+ <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" defer></script> ---> 
+
+  
+  <!-- Leaflet for Interactive Map -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css"/> 
+ 
+<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script> -->
+  <!--  <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js" async></script> --->
+
+
+  <!--- Plugin for Leaflet Cluster (home page only) ---> 
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.css" disabled />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.Default.css" disabled />
+  
+   <!-- CSS for datepicker -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.3.4/dist/css/datepicker.min.css" disabled />
+   <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet"/>
+  <!-- Inline Styles for Custom Design -->
+
+
+
+   <!-- Preload for font ---> 
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+
+<!-- Preconnect for Tailwind CSS -->
+<link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
+
+<!-- Preconnect for Font Awesome -->
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+
+<!-- Preconnect for PapaParse -->
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+
+<!-- Preconnect for Leaflet -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+<link rel="preconnect" href="https://unpkg.com" crossorigin>
+
+
+  <style>
+      .font-display-swap {
+    font-display: swap;
+  }
+    
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.ibb.co/hFGYpvpg/Crediton-ON-1.webp');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 60vh;
+    }
+
+    .grave-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -1rem;
+      top: 0.25rem;
+      height: 1rem;
+      width: 1rem;
+      background-color: #4b5563;
+      border-radius: 50%;
+    }
+
+
+  /* Smooth scrolling for all browsers */
+html {
+  scroll-behavior: smooth;          /* Standard */
+  -webkit-overflow-scrolling: touch; /* iOS Safari */
+  -ms-scroll-behavior: smooth;       /* Internet Explorer */
+  -moz-scroll-behavior: smooth;      /* Firefox */
+  -webkit-scroll-behavior: smooth;   /* Older WebKit browsers */
+}
+
+
+  .hero-image-loading {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(data:image/svg+xml;charset=utf8,%3Csvg xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.0' viewBox='0 0 128 128' %3E%3Cg%3E%3Cpath d='M64 128A64 64 0 0 1 18.34 19.16L21.16 22a60 60 0 1 0 52.8-17.17l.62-3.95A64 64 0 0 1 64 128z' fill='%23404040'/%3E%3CanimateTransform attributeName='transform' type='rotate' from='0 64 64' to='360 64 64' dur='1000ms' repeatCount='indefinite'%3E%3C/animateTransform%3E%3C/g%3E%3C/svg%3E);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* width: 886px; */
+    background-size: contain;
+    background-color: hsl(220, 20%, 90%);
+  /* Make background pulse so it looks kinda load-y */
+  animation: loading 0.8s infinite alternate;
+}  
+
+
+.img-placeholder {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: hsl(220, 20%, 90%);
+  /* Make background pulse so it looks kinda load-y */
+  animation: loading 0.8s infinite alternate;
+
+  /* Loading Image (can used a normal url / SVG if prefered) */
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.0' viewBox='0 0 128 128' %3E%3Cg%3E%3Cpath d='M64 128A64 64 0 0 1 18.34 19.16L21.16 22a60 60 0 1 0 52.8-17.17l.62-3.95A64 64 0 0 1 64 128z' fill='%23404040'/%3E%3CanimateTransform attributeName='transform' type='rotate' from='0 64 64' to='360 64 64' dur='1000ms' repeatCount='indefinite'%3E%3C/animateTransform%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 4rem;
+}
+    
+
+    
+
+@keyframes loading {
+  to {
+    background-color: hsl(220, 10%, 75%);
+  }
+}    
+
+    
+    /* Custom class for popover or any other element */
+.leaflet-popup-content-wrapper {
+    min-width: 22rem;
+    display: inline-block;        /* Set the element to inline-block */
+    font-size: 0.875rem;          /* Equivalent to text-sm */
+    color: #6B7280;               /* Text color gray-500 (Light mode) */
+    transition: opacity 0.3s;     /* Smooth transition for opacity */
+    background-color: #FFFFFF;    /* Background color white */
+    border: 1px solid #E5E7EB;    /* Border color gray-200 (Light mode) */
+    border-radius: 0.375rem;      /* Rounded corners (rounded-lg) */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); /* Shadow for depth */
+ 
+     
+    overflow: hidden;             /* Prevent overflow */
+}
+
+.leaflet-popup-content-wrapper.dark {
+    color: #D1D5DB;               /* Dark mode text color gray-400 */
+    background-color: #1F2937;    /* Dark mode background gray-800 */
+    border-color: #4B5563;        /* Dark mode border gray-600 */
+}
+
+    .leaflet-popup-content {
+    margin: unset;
+    }
+
+
+
+    .text-below-marker {
+  min-width: 100px;
+  left: -50px;
+  text-align: center;
+  min-height: 1.2em;
+  color:black;
+}
+    
+  </style>
+
+
+  <!-- Preconnect for hero image -->
+ <link rel="preconnect" href="https://cdn.statically.io" crossorigin>
+ <link rel="preconnect" href="https://i.ibb.co" crossorigin>
+  
+  <!-- Preload for image(s) referenced after the stylesheet used that requires image ---> 
+  <link rel="preload" as="image" href="https://i.ibb.co/hFGYpvpg/Crediton-ON-1.webp" fetchpriority="high" type="image/webp"/>
+  <link rel="preload" as="image" href="https://i.ibb.co/yn5TVb6Y/Crediton-Hero-Image.webp" fetchpriority="high" type="image/webp"/>
+  
+</head>
+
+<body class="font-sans bg-gray-50">
+
+<div id="preload" class="fixed top-0 left-0 w-full h-full bg-white flex items-center justify-center transition-opacity duration-300 z-50" style="background-color: #1f2937;">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="64" height="64">
+<path d="M0 0 C0.27087199 8.12615955 0.27087199 8.12615955 -2 12 C-2.39171753 13.65391846 -2.72057545 15.32345271 -3 17 C-3.2784375 18.6396875 -3.2784375 18.6396875 -3.5625 20.3125 C-3.706875 21.199375 -3.85125 22.08625 -4 23 C-4.66 23 -5.32 23 -6 23 C-6.268125 23.804375 -6.53625 24.60875 -6.8125 25.4375 C-7.204375 26.283125 -7.59625 27.12875 -8 28 C-8.99 28.33 -9.98 28.66 -11 29 C-11.66 29.99 -12.32 30.98 -13 32 C-15.3125 32.625 -15.3125 32.625 -18 33 C-21.46159235 33.57693206 -23.00129727 34.00086485 -26 36 C-23.19967261 39.52299252 -21.12394808 41.31468735 -16.6875 41.875 C-12.34842755 42.15118887 -8.2918397 41.61311996 -4 41 C-3 42 -3 42 -2.8125 45.375 C-3 49 -3 49 -5 52 C-5.99 52 -6.98 52 -8 52 C-8.020625 52.763125 -8.04125 53.52625 -8.0625 54.3125 C-8.371875 55.199375 -8.68125 56.08625 -9 57 C-11.29598193 58.08301035 -13.63477442 59.07796291 -16 60 C-16.680625 60.721875 -17.36125 61.44375 -18.0625 62.1875 C-20 64 -20 64 -23 64.5625 C-26.99575852 63.81329528 -27.62552637 62.22055045 -30 59 C-30.61101563 58.23042969 -31.22203125 57.46085937 -31.8515625 56.66796875 C-37.5173918 48.74329561 -38.41840918 41.45975267 -39 32 C-40.86011719 32.05800781 -40.86011719 32.05800781 -42.7578125 32.1171875 C-48.42511618 32.11468979 -51.95228204 30.04771796 -56 26 C-55.43181818 20.43181818 -55.43181818 20.43181818 -54 19 C-53.49940084 16.58517587 -53.49940084 16.58517587 -54 14 C-56.37402417 12.19212694 -56.37402417 12.19212694 -59 11 C-59.33 10.67 -59.66 10.34 -60 10 C-60.33 11.65 -60.66 13.3 -61 15 C-59.02 14.67 -57.04 14.34 -55 14 C-54.67 14.99 -54.34 15.98 -54 17 C-55.134375 17.12375 -56.26875 17.2475 -57.4375 17.375 C-59.2009375 17.684375 -59.2009375 17.684375 -61 18 C-61.33 18.66 -61.66 19.32 -62 20 C-62.66 20 -63.32 20 -64 20 C-63.85930804 17.87465341 -63.71229079 15.74972471 -63.5625 13.625 C-63.48128906 12.44164062 -63.40007813 11.25828125 -63.31640625 10.0390625 C-63 7 -63 7 -62 5 C-58.83884224 6.36983503 -58.0072908 6.9890638 -56 10 C-54.04922081 10.6889751 -54.04922081 10.6889751 -51.8125 11 C-47.51958897 11.81968204 -43.9522266 13.15002159 -40 15 C-39.27743171 10.51866426 -39.27743171 10.51866426 -39 6 C-38.68521554 4.66216607 -38.35412344 3.32796291 -38 2 C-29.57142857 0.57142857 -29.57142857 0.57142857 -25 3 C-25 3.99 -25 4.98 -25 6 C-26.65 6.66 -28.3 7.32 -30 8 C-29.0409375 8.5259375 -29.0409375 8.5259375 -28.0625 9.0625 C-25.17836168 11.77184206 -25.2899178 14.15858911 -25 18 C-25.66 18 -26.32 18 -27 18 C-27 19.65 -27 21.3 -27 23 C-24.14347391 20.63597841 -22.69468126 18.57043436 -21.5 15.125 C-19.03984436 8.14592689 -15.8949251 4.30533784 -9.328125 0.90234375 C-5.99478207 -0.38960628 -3.53194527 -0.37573886 0 0 Z M-5 2 C-5.99 2.66 -6.98 3.32 -8 4 C-6.35 3.67 -4.7 3.34 -3 3 C-3.66 2.67 -4.32 2.34 -5 2 Z M-36 4 C-36 4.33 -36 4.66 -36 5 C-33.36 5 -30.72 5 -28 5 C-28 4.67 -28 4.34 -28 4 C-30.64 4 -33.28 4 -36 4 Z M-9 8 C-6.525 8.495 -6.525 8.495 -4 9 C-4 8.01 -4 7.02 -4 6 C-6.32357511 5.81509993 -6.32357511 5.81509993 -9 8 Z M-34 10 C-33.67 11.65 -33.34 13.3 -33 15 C-32.01 14.67 -31.02 14.34 -30 14 C-30 14.66 -30 15.32 -30 16 C-29.34 16 -28.68 16 -28 16 C-28.11306697 14.04105639 -28.11306697 14.04105639 -29 12 C-31.49034386 10.70339566 -31.49034386 10.70339566 -34 10 Z M-12 10 C-13.98 13.96 -15.96 17.92 -18 22 C-18.99 21.67 -19.98 21.34 -21 21 C-21.928125 21.99 -21.928125 21.99 -22.875 23 C-25 25 -25 25 -27 25 C-27 27.31 -27 29.62 -27 32 C-26.21625 31.814375 -25.4325 31.62875 -24.625 31.4375 C-22 31 -22 31 -20 32 C-20.66 30.35 -21.32 28.7 -22 27 C-20.68 27.33 -19.36 27.66 -18 28 C-18 26.68 -18 25.36 -18 24 C-16.35 24.33 -14.7 24.66 -13 25 C-13.33 23.35 -13.66 21.7 -14 20 C-12.68 20.33 -11.36 20.66 -10 21 C-10.33 19.68 -10.66 18.36 -11 17 C-9.68 16.67 -8.36 16.34 -7 16 C-8.32 15.67 -9.64 15.34 -11 15 C-11 14.34 -11 13.68 -11 13 C-10.01 12.67 -9.02 12.34 -8 12 C-9.32 11.34 -10.64 10.68 -12 10 Z M-51 14 C-50.34 14.66 -49.68 15.32 -49 16 C-49 15.34 -49 14.68 -49 14 C-49.66 14 -50.32 14 -51 14 Z M-38 15 C-37.67 16.32 -37.34 17.64 -37 19 C-36.01 19 -35.02 19 -34 19 C-34.33 17.68 -34.66 16.36 -35 15 C-35.99 15 -36.98 15 -38 15 Z M-19 16 C-18 18 -18 18 -18 18 Z M-46 17 C-45.67 18.98 -45.34 20.96 -45 23 C-43.16299211 23.77242269 -43.16299211 23.77242269 -41 24 C-39.22809091 22.64555699 -39.22809091 22.64555699 -38 21 C-39.70892499 17.68539295 -39.70892499 17.68539295 -43.125 17.3125 C-44.07375 17.209375 -45.0225 17.10625 -46 17 Z M-49 18 C-52.06535671 20.44321789 -52.06535671 20.44321789 -53.1875 24 C-51.21333141 27.32491553 -48.64559781 29.00172538 -45 30 C-41.21494492 29.74596946 -37.65938315 28.97936475 -34 28 C-34.66 28.66 -35.32 29.32 -36 30 C-37.27474908 39.36792344 -35.44545867 47.21317955 -29.953125 54.84375 C-28.02177917 57.28190289 -26.05008986 59.66130526 -24 62 C-22.02463255 61.65213292 -22.02463255 61.65213292 -20 61 C-19.505 60.01 -19.505 60.01 -19 59 C-19.639375 58.71125 -20.27875 58.4225 -20.9375 58.125 C-23 57 -23 57 -24 55 C-22.9790625 55.5259375 -22.9790625 55.5259375 -21.9375 56.0625 C-18.1929519 57.25756854 -15.78194028 56.99900309 -12 56 C-11.34 54.68 -10.68 53.36 -10 52 C-12.97 51.01 -15.94 50.02 -19 49 C-15.04 49.33 -11.08 49.66 -7 50 C-6.34 48.02 -5.68 46.04 -5 44 C-6.175625 44.185625 -7.35125 44.37125 -8.5625 44.5625 C-12.54440107 45.07880334 -16.03198543 44.63488233 -20 44 C-20.99 44.495 -20.99 44.495 -22 45 C-22 44.34 -22 43.68 -22 43 C-22.78375 42.649375 -23.5675 42.29875 -24.375 41.9375 C-27.83017249 39.38725364 -28.01155415 37.38549723 -28.73828125 33.28515625 C-29.05542105 30.51609977 -29 27.78440536 -29 25 C-29.66 24.01 -30.32 23.02 -31 22 C-34.38969107 22.39415012 -36.6976702 22.81284346 -39.625 24.625 C-42 26 -42 26 -44.1875 25.9375 C-47.42383031 24.26353605 -47.89815482 21.30553553 -49 18 Z M-11 24 C-10.67 24.66 -10.34 25.32 -10 26 C-9.67 25.34 -9.34 24.68 -9 24 C-9.66 24 -10.32 24 -11 24 Z " fill="#C99D58" transform="translate(64,0)"/>
+</svg>
+</div>
+  
+ <!-- Navigation -->
+<nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-40">
+  <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+    <div class="flex items-center space-x-2">
+      <i class="fas fa-tree text-green-400"></i>
+      <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
+    </div>
+    <div class="hidden md:flex space-x-6">
+      <a href="#home" class="hover:text-green-400 transition">Home</a>
+      <a href="#map" class="hover:text-green-400 transition">Interactive Map</a>
+      <a href="#exhibits" class="hover:text-green-400 transition">Virtual Exhibits</a>
+      <a href="#search" class="hover:text-green-400 transition">Search Records</a>
+      <a href="#timeline" class="hover:text-green-400 transition">Historical Timeline</a>
+      <a href="#donate" class="hover:text-green-400 transition">Support Us</a>
+    </div>
+    <div class="md:hidden">
+      <button id="menu-toggle" class="focus:outline-none" aria-label="Navigation Menu Toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Sidebar Navigation (Flowbite) -->
+<aside id="mobile-menu" class="fixed top-0 right-0 h-full w-64 bg-gray-900 text-white shadow-lg transform translate-x-full transition-transform duration-300 md:hidden">
+  <div class="flex flex-col justify-between h-96 mt-20">
+    
+    <!-- Main Menu -->
+    <ul class="p-5 space-y-3">
+      <li>
+        <a href="#home" class="flex items-center p-2 rounded-lg hover:bg-gray-700">
+          <i class="fas fa-home mr-3"></i> Home
+        </a>
+      </li>
+    
+          <li>
+        <a href="#exhibits" class="flex items-center p-2 rounded-lg hover:bg-gray-700">
+          <i class="fas fa-landmark mr-3"></i> Interactive Map
+        </a>
+      </li>
+        <!-- Dropdown
+        <ul id="dropdown-menu" class="hidden space-y-2 pl-7">
+          <li><a href="#" class="block p-2 hover:text-green-400">Cemetery Map</a></li>
+          <li><a href="#" class="block p-2 hover:text-green-400">Grave Locator</a></li>
+        </ul>
+      </li> --> 
+       <li>
+        <a href="#exhibits" class="flex items-center p-2 rounded-lg hover:bg-gray-700">
+          <i class="fas fa-landmark mr-3"></i> Cemetery Map
+        </a>
+      </li>
+      <li>
+        <a href="#exhibits" class="flex items-center p-2 rounded-lg hover:bg-gray-700">
+          <i class="fas fa-landmark mr-3"></i> Virtual Exhibits
+        </a>
+      </li>
+      <li>
+        <a href="#search" class="flex items-center p-2 rounded-lg hover:bg-gray-700">
+          <i class="fas fa-search mr-3"></i> Search Records
+        </a>
+      </li>
+    </ul>
+
+    <!-- Footer Links -->
+    <div class="p-5 border-t border-gray-700">
+      <a href="#support" class="block p-2 hover:text-green-400">Support Us</a>
+      <a href="#contact" class="block p-2 hover:text-green-400">Contact</a>
+    </div>
+  </div>
+</aside>
+
+
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-image flex items-center justify-center text-center text-white font-display-swap">
+    <div class="container mx-auto px-4">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Preserving Crediton's Heritage</h1>
+      <p class="text-xl md:text-2xl mb-8">Connecting generations through digital preservation of our community's history</p>
+      <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 justify-center">
+        <a href="#map" class="bg-green-700 hover:bg-green-900 text-white font-bold py-3 px-6 rounded-lg transition">
+          Explore Cemetery Map
+        </a>
+        <a href="#search" class="bg-gray-700 hover:bg-gray-800 text-white font-bold py-3 px-6 rounded-lg transition">
+          Search Ancestors
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+<section class="py-12 bg-white font-display-swap">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+   
+          <!-- <img class="rounded-lg shadow-lg h-36 w-36" src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.0' viewBox='0 0 64 64'%3E%3Cg%3E%3Cpath d='M32 64A32 32 0 0 1 9.17 9.58L10.58 11a30 30 0 1 0 26.4-8.58l.31-1.97A32 32 0 0 1 32 64z' fill='%23404040'/%3E%3CanimateTransform attributeName='transform' type='rotate' from='0 32 32' to='360 32 32' dur='1s' repeatCount='indefinite'/%3E%3C/g%3E%3C/svg%3E"> --->
+
+             <img src="https://i.ibb.co/yn5TVb6Y/Crediton-Hero-Image.webp" class="rounded-lg shadow-lg" alt="Image of Crediton Cemetery Entrance"  height="464" width="265" style="width: 100%; height: auto;">
+          
+</div>
+
+
+        <div class="md:w-1/2">
+          <h2 class="text-3xl font-bold mb-4 text-gray-800">About Our Project</h2>
+          <p class="text-gray-600 mb-6">
+            The Crediton Cemetery Heritage Portal is dedicated to preserving the rich history and genealogical
+            significance of one of Ontario's historic cemeteries. Established in the 1850s, Crediton Cemetery
+            serves as the final resting place for generations of local families and notable community figures.
+          </p>
+          <p class="text-gray-600 mb-6">
+            Our digital preservation initiative aims to create a comprehensive resource that connects family
+            researchers, historians, and community members with accurate information about those interred here,
+            while preserving the stories and cultural heritage that might otherwise be lost to time.
+          </p>
+          <p class="text-gray-600 mb-6">
+  <strong>Learn more about our cemetery and board members by visiting our <a href="{{ base_url }}/about-us" class="text-blue-600 hover:text-blue-800 " title="About Our Cemetery and Board Members">about us page</a></strong>.
+  
+</p>
+
+
+<div class="grid grid-cols-2 gap-4 text-center">
+            <div class="bg-gray-50 p-4 rounded-lg">
+              <span class="block text-3xl font-bold text-green-800 mb-2">500+</span>
+              <span class="text-gray-600">Grave Records</span>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg">
+              <span class="block text-3xl font-bold text-green-800 mb-2">170+</span>
+              <span class="text-gray-600">Years of History</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Map Section -->
+  <section id="map" class="py-12 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center text-gray-800">Interactive Cemetery Map</h2>
+      <p class="text-gray-600 text-center max-w-3xl mx-auto mb-8">
+        Explore our interactive map to discover the layout of Crediton Cemetery.
+        Click on plots to view information about those interred and access links to additional resources.
+      </p>
+
+<div class="bg-white rounded-lg shadow-lg p-4 mb-8">
+   <div id="cemetery-map" class="hidden relative h-96 border border-gray-300 rounded z-10"></div>
+  <!-- Placeholder / Loading Spinner / Error Message -->
+  <div id="map-container" class="relative h-96 border border-gray-300 rounded z-10 flex items-center justify-center">
+    <!-- Loading Spinner -->
+    <div id="map-loading-spinner" class="hidden animate-spin w-12 h-12 border-4 border-gray-300 border-t-blue-500 rounded-full"></div>
+    
+    <!-- Error Message -->
+    <div id="error-message" class="hidden text-center">
+      <p class="text-red-500">Failed to load map data</p>
+      <button id="retry-btn" class="mt-2 px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded-lg">Retry</button>
+    </div>
+
+    <!-- Placeholder -->
+    <div id="map-placeholder" class="flex items-center justify-center w-full h-full bg-gray-100 rounded-lg">
+      <p class="text-gray-500">Loading cemetery map...</p>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <div class="flex justify-end mt-4">
+    <button id="zoom-in" class="bg-gray-200 hover:bg-gray-300 p-2 rounded mr-2" aria-label="Zoom in">
+      <i class="fas fa-search-plus"></i>
+    </button>
+    <button id="zoom-out" class="bg-gray-200 hover:bg-gray-300 p-2 rounded mr-2" aria-label="Zoom out">
+      <i class="fas fa-search-minus"></i>
+    </button>
+    <button id="reset-view" class="bg-gray-200 hover:bg-gray-300 p-2 rounded" aria-label="Reset view">
+      <i class="fas fa-sync-alt"></i>
+    </button>
+  </div>
+</div>
+
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="selected-graves">
+        <!-- Sample graves - these will be dynamically populated based on map selection -->
+        <div class="grave-card bg-white rounded-lg shadow-lg overflow-hidden transition duration-300">
+          <img data-src="https://images.findagrave.com/photos/2018/209/188136717_1acbd8cb-402a-4532-b31f-50ce59c15ddb.jpeg?size=photos250" alt="Smith Family Plot" class="lazyload w-full h-48 object-fit">
+          <div class="p-4">
+            <h3 class="font-bold text-xl mb-2">Schenk Family Plot</h3>
+            <p class="text-gray-600 mb-4">Section A, Plot 23</p>
+            <div class="flex flex-col space-y-2">
+              <div class="flex items-center">
+                <i class="fas fa-user mr-2 text-green-600"></i>
+                <span>William Nelson Schenk (1889-1980)</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-user mr-2 text-green-600"></i>
+                <span>Katherine (Pfaff) Schenk (1895-1984)</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-user mr-2 text-green-600"></i>
+                <span>Helen Deloris Schenk (1895-1984)</span>
+              </div>
+            </div>
+            <div class="mt-4 flex justify-between">
+              <a href="https://www.findagrave.com/memorial/188136717/william-nelson-schenk" target="_blank" class="text-blue-600 hover:text-blue-800 flex items-center">
+                <i class="fas fa-external-link-alt mr-1"></i> View on FindAGrave
+              </a>
+              <button class="text-gray-600 hover:text-gray-800">
+                <i class="fas fa-info-circle"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="grave-card bg-white rounded-lg shadow-lg overflow-hidden transition duration-300">
+          <img data-src="https://images.findagrave.com/photos/2022/115/239217654_3938c149-2c16-4d25-a6fe-b4ed019f05d1.jpeg?size=photos250" alt="Johnson Monument" class="lazyload w-full h-48 object-fit">
+          <div class="p-4">
+            <h3 class="font-bold text-xl mb-2">Shulz Monument</h3>
+            <p class="text-gray-600 mb-4">Section B, Plot 15</p>
+            <div class="flex flex-col space-y-2">
+              <div class="flex items-center">
+                <i class="fas fa-user mr-2 text-green-600"></i>
+                <span>Barbara Shulz (1810-1835)</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-star mr-2 text-yellow-600"></i>
+                <span>Oldest burial in cemetery</span>
+              </div>
+            </div>
+            <div class="mt-4 flex justify-between">
+              <a href="https://www.findagrave.com/memorial/239217654/barbara-shulz?size=photos250" target="_blank" class="text-blue-600 hover:text-blue-800 flex items-center">
+                <i class="fas fa-external-link-alt mr-1"></i> View on FindAGrave
+              </a>
+              <button class="text-gray-600 hover:text-gray-800">
+                <i class="fas fa-info-circle"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="grave-card bg-white rounded-lg shadow-lg overflow-hidden transition duration-300">
+          <img data-src="https://www.wurm-hastings.com/headstones/headstoneSweitzerGaiser.jpg" alt="Miller Family Plot" class="lazyload w-full h-48 object-fit">
+          <div class="p-4">
+            <h3 class="font-bold text-xl mb-2">Sweitzer Family Plot</h3>
+            <p class="text-gray-600 mb-4">Section C, Plot 8</p>
+            <div class="flex flex-col space-y-2">
+              <div class="flex items-center">
+                <i class="fas fa-user mr-2 text-green-600"></i>
+                <span>John Sweitzer (1859-1919)</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-user mr-2 text-green-600"></i>
+                <span>Lillian Gaiser (1891-1980)</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-user mr-2 text-green-600"></i>
+                <span>Garnet Wilmer Sweitzer (1892-1968)</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-user mr-2 text-green-600"></i>
+                <span>Magdalena Wein (1869-1951)</span>
+              </div>
+            </div>
+            <div class="mt-4 flex justify-between">
+              <a href="https://www.findagrave.com/memorial/15650824/john-sweitzer" target="_blank" class="text-blue-600 hover:text-blue-800 flex items-center">
+                <i class="fas fa-external-link-alt mr-1"></i> View on FindAGrave
+              </a>
+              <button class="text-gray-600 hover:text-gray-800">
+                <i class="fas fa-info-circle"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Virtual Exhibits Section -->
+  <section id="exhibits" class="py-12 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center text-gray-800">Virtual Exhibits</h2>
+      <p class="text-gray-600 text-center max-w-3xl mx-auto mb-8">
+        Explore our digital exhibits showcasing the rich history and heritage of Crediton Cemetery and its community.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img data-src="https://placeholder.pagebee.io/api/random/400/300" alt="Pioneers of Crediton" class="lazyload w-full h-56 object-cover">
+          <div class="p-4">
+            <h3 class="font-bold text-xl mb-2">Pioneers of Crediton</h3>
+            <p class="text-gray-600 mb-4">
+              Discover the stories of the founding families who established Crediton in the 1850s.
+              This exhibit features rare photographs, documents, and personal accounts.
+            </p>
+            <button id="exhibit-1-btn" class="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded transition">
+              View Exhibit
+            </button>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img data-src="https://placeholder.pagebee.io/api/random/400/300" alt="Architectural Heritage" class="lazyload w-full h-56 object-cover">
+          <div class="p-4">
+            <h3 class="font-bold text-xl mb-2">Monumental Art & Symbolism</h3>
+            <p class="text-gray-600 mb-4">
+              Explore the artistic and symbolic elements found in Crediton's historic monuments and markers,
+              reflecting changing attitudes toward death and remembrance.
+            </p>
+            <button id="exhibit-2-btn" class="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded transition">
+              View Exhibit
+            </button>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img data-src="https://placeholder.pagebee.io/api/random/400/300" alt="War Veterans" class="lazyload w-full h-56 object-cover">
+          <div class="p-4">
+            <h3 class="font-bold text-xl mb-2">Veterans Memorial</h3>
+            <p class="text-gray-600 mb-4">
+              Honor the memory of local veterans from various conflicts who are interred at Crediton Cemetery,
+              including their service records and personal stories.
+            </p>
+            <button id="exhibit-3-btn" class="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded transition">
+              View Exhibit
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Virtual Exhibit Modal -->
+      <div id="exhibit-modal" class="fixed inset-0 bg-black bg-opacity-75 hidden flex items-center justify-center z-30 p-4">
+        <div class="bg-white rounded-lg max-w-4xl w-full max-h-screen overflow-y-auto">
+          <div class="p-4 border-b border-gray-200 flex justify-between items-center">
+            <h3 id="modal-title" class="font-bold text-xl">Exhibit Title</h3>
+            <button id="close-modal" class="focus:outline-none">
+              <i class="fas fa-times text-gray-500 hover:text-gray-800"></i>
+            </button>
+          </div>
+          <div id="modal-content" class="p-4">
+            <!-- Content will be loaded dynamically -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-8 mx-auto px-4 text-center">
+      
+       <a href="{{ base_url }}/exhibits" class="bg-green-700 hover:bg-green-900 text-white font-bold py-3 px-6 rounded-lg transition">View All Exhibts </a>
+    </div>
+  </section>
+
+  <!-- Search Section -->
+  <section id="search" class="py-12 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center text-gray-800">Search Cemetery Records</h2>
+      <p class="text-gray-600 text-center max-w-3xl mx-auto mb-8">
+        Use our database to find information about individuals interred at Crediton Cemetery.
+        Our records include dates, family connections, and links to external resources.
+      </p>
+      <div class="bg-white rounded-lg shadow-lg p-6 mb-8">
+        <form id="search-form" class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+          <div class="flex-1">
+            <label for="surname" class="block text-gray-700 mb-2">Surname</label>
+            <input type="text" id="surname" name="surname" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-green-600" />
+          </div>
+          <div class="flex-1">
+            <label for="given-name" class="block text-gray-700 mb-2">Given Name</label>
+            <input type="text" id="given-name" name="given-name" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-green-600" />
+          </div>
+          <div class="flex-1">
+            <label for="year" class="block text-gray-700 mb-2">Year Range</label>
+            <div class="flex items-center space-x-2">
+              <input type="number" id="year-from" name="year-from" placeholder="From" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-green-600" />
+              <span>-</span>
+              <input type="number" id="year-to" name="year-to" placeholder="To" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-green-600" />
+            </div>
+          </div>
+          <div class="flex items-end">
+            <button type="submit" class="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-6 rounded transition w-full md:w-auto">
+              <i class="fas fa-search mr-2"></i> Search
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Results Section -->
+      <div id="results-container" class="bg-white rounded-lg shadow-lg p-6">
+        <div class="overflow-x-auto">
+          <table id="results-table" class="min-w-full divide-y divide-gray-200">
+            <thead class="bg-gray-50">
+              <tr>
+                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer" data-sort="name">
+                  Name <i class="fas fa-sort ml-1"></i>
+                </th>
+                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer" data-sort="birth_date">
+                  Birth Date <i class="fas fa-sort ml-1"></i>
+                </th>
+                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer" data-sort="death_date">
+                  Death Date <i class="fas fa-sort ml-1"></i>
+                </th>
+                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  Location
+                </th>
+                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  Details
+                </th>
+              </tr>
+            </thead>
+            <tbody id="results-body" class="bg-white divide-y divide-gray-200">
+              <!-- Results will be populated here -->
+              <tr>
+                <td colspan="6" class="px-6 py-4 text-center text-gray-500">
+                  No results found. Please try a different search.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        
+        <!-- Pagination -->
+        <div id="pagination" class="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0 mt-4">
+          <div class="text-sm text-gray-700">
+            Showing <span id="showing-start">0</span> to <span id="showing-end">0</span> of <span id="total-records">0</span> records
+          </div>
+          <div class="flex space-x-2">
+            <button id="prev-page" class="px-3 py-1 rounded border border-gray-300 text-gray-700 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed">
+              Previous
+            </button>
+            <div id="page-numbers" class="flex space-x-2">
+              <!-- Page numbers will be added here -->
+            </div>
+            <button id="next-page" class="px-3 py-1 rounded border border-gray-300 text-gray-700 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed">
+              Next
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Historical Timeline Section --> 
+<section class="bg-white py-12" id="timeline">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Timeline of Key Events</h2>
+      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Explore the rich history of Crediton Cemetery and the surrounding community through these significant milestones.</p>
+      <div class="relative border-l-4 border-gray-300 ml-4">
+        <div class="mb-8 ml-4">
+          <div class="absolute w-3 h-3 bg-gray-800 rounded-full -left-2 mt-1.5"></div>
+          <div class="flex items-center mb-1">
+            <h3 class="text-lg font-semibold text-gray-900">1824</h3>
+          </div>
+          <p class="text-base font-normal text-gray-500">Establishment of <a href="https://ontario.heritagepin.com/stephen-township-in-huron/" target="_blank" rel="noopener noreferrer" class="text-blue-800 hover:text-blue-900 "  title="Learn about Stephen Township history">Stephen Township</a></p>
+          <p class="text-sm text-gray-600">Part of the historic <a href="https://en.wikipedia.org/wiki/Huron_Tract" target="_blank" rel="noopener noreferrer" class="text-blue-800 hover:text-blue-900 "  title="Learn about the Huron Tract">Huron Tract</a>, surveyed and named for senior British government members.</p>
+        </div>
+        <div class="mb-8 ml-4">
+          <div class="absolute w-3 h-3 bg-gray-800 rounded-full -left-2 mt-1.5"></div>
+          <div class="flex items-center mb-1">
+            <h3 class="text-lg font-semibold text-gray-900">1835</h3>
+          </div>
+          <p class="text-base font-normal text-gray-500"><a href="https://en.wikipedia.org/wiki/Huron_County,_Ontario" target="_blank" rel="noopener noreferrer" class="text-blue-800 hover:text-blue-900 "  title="Learn about Huron County, Ontario">Huron County, Ontario</a> established</p>
+          <p class="text-sm text-gray-600">Formal county organization, including <a href="https://ontario.heritagepin.com/stephen-township-in-huron/" target="_blank" rel="noopener noreferrer" class="text-blue-800 hover:text-blue-900 "  title="Discover Stephen Township history">Stephen Township</a>.</p>
+        </div>
+        <div class="mb-8 ml-4">
+          <div class="absolute w-3 h-3 bg-gray-800 rounded-full -left-2 mt-1.5"></div>
+          <div class="flex items-center mb-1">
+            <h3 class="text-lg font-semibold text-gray-900">1835</h3>
+          </div>
+          <p class="text-base font-normal text-gray-500">First burial in Crediton Cemetery</p>
+          <p class="text-sm text-gray-600">Barbara Shulz (wife of Frederich Shulz) buried, indicating cemetery use by this date.</p>
+        </div>
+        <div class="mb-8 ml-4">
+          <div class="absolute w-3 h-3 bg-gray-800 rounded-full -left-2 mt-1.5"></div>
+          <div class="flex items-center mb-1">
+            <h3 class="text-lg font-semibold text-gray-900">1842</h3>
+          </div>
+          <p class="text-base font-normal text-gray-500">First assessment roll for Stephen Township</p>
+          <p class="text-sm text-gray-600">Indicates settlement and population in the township.</p>
+        </div>
+        <div class="mb-8 ml-4">
+          <div class="absolute w-3 h-3 bg-gray-800 rounded-full -left-2 mt-1.5"></div>
+          <div class="flex items-center mb-1">
+            <h3 class="text-lg font-semibold text-gray-900">1851</h3>
+          </div>
+          <p class="text-base font-normal text-gray-500"><a href="https://www.creditonuc.org/" target="_blank" rel="noopener noreferrer" class="text-blue-800 hover:text-blue-900 "  title="Learn about Zion United Church history">Zion United Church</a> services start in homes</p>
+          <p class="text-sm text-gray-600">Reflects early community organization and religious activity.</p>
+        </div>
+        <div class="mb-8 ml-4">
+          <div class="absolute w-3 h-3 bg-gray-800 rounded-full -left-2 mt-1.5"></div>
+          <div class="flex items-center mb-1">
+            <h3 class="text-lg font-semibold text-gray-900">1855</h3>
+          </div>
+          <p class="text-base font-normal text-gray-500">Construction of <a href="https://www.creditonuc.org/" target="_blank" rel="noopener noreferrer" class="text-blue-800 hover:text-blue-900 "  title="Learn about Zion United Church history">Zion United Church</a> building</p>
+          <p class="text-sm text-gray-600">First church building completed, serving as a community hub.</p>
+        </div>
+
+      <div class="mb-8 ml-4">
+        <div class="absolute w-3 h-3 bg-gray-800 rounded-full -left-2 mt-1.5"></div>
+        <div class="flex items-center mb-1">
+         <h3 class="text-lg font-semibold text-gray-900">1867</h3>
+         </div>
+         <p class="text-base font-normal text-gray-500">British North America Act receives Royal Assent <a href="https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliament-and-empire/collections1/parliament-and-canada/british-north-america-act-1867/" target="_blank" rel="noopener noreferrer" class="text-blue-800 hover:text-blue-900 "  title="Learn about the British North America Act">UK Parliament</a></p>
+         <p class="text-sm text-gray-600">The <a href="https://www.justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t11.html" target="_blank" rel="noopener noreferrer" class="text-blue-800 hover:text-blue-900 "  title="Read more about the British North America Act">British North America Act</a>, which established Canada, comes into effect, uniting Ontario, Quebec, New Brunswick, and Nova Scotia into the Dominion of Canada.</p>
+        </div>
+    
+        
+        <div class="mb-8 ml-4">
+          <div class="absolute w-3 h-3 bg-gray-800 rounded-full -left-2 mt-1.5"></div>
+          <div class="flex items-center mb-1">
+            <h3 class="text-lg font-semibold text-gray-900">Late 19th to early 20th century</h3>
+          </div>
+          <p class="text-base font-normal text-gray-500">Development of community services</p>
+          <p class="text-sm text-gray-600">Establishment of schools, post offices, and other essential services in <a href="https://digitalcollections.ucalgary.ca/archive/The-History-of-Stephen-Township-2R3BF1FJ9R0J1.html" target="_blank" rel="noopener noreferrer" class="text-blue-800 hover:text-blue-900 "  title="Read more about the history of Stephen Township">Stephen Township</a>, exact dates unclear.</p>
+        </div>
+        <div class="mb-8 ml-4">
+          <div class="absolute w-3 h-3 bg-gray-800 rounded-full -left-2 mt-1.5"></div>
+          <div class="flex items-center mb-1">
+            <h3 class="text-lg font-semibold text-gray-900">1968</h3>
+          </div>
+          <p class="text-base font-normal text-gray-500"><a href="https://www.creditonuc.org/" target="_blank" rel="noopener noreferrer" class="text-blue-800 hover:text-blue-900 "  title="Learn about Zion United Church history">Zion United Church</a> joins United Church of Canada</p>
+          <p class="text-sm text-gray-600">Formerly Evangelical United Brethren, reflecting denominational changes.</p>
+        </div>
+        <div class="mb-8 ml-4">
+          <div class="absolute w-3 h-3 bg-gray-800 rounded-full -left-2 mt-1.5"></div>
+          <div class="flex items-center mb-1">
+            <h3 class="text-lg font-semibold text-gray-900">2001</h3>
+          </div>
+          <p class="text-base font-normal text-gray-500"> Amalgamation into <a href="https://www.southhuron.ca/" target="_blank" rel="noopener noreferrer" class="text-blue-800 hover:text-blue-900 "  title="Explore community services development in South Huron Municipality">South Huron Municipality</a></p>
+          <p class="text-sm text-gray-600"><a href="https://ontario.heritagepin.com/stephen-township-in-huron/" target="_blank" rel="noopener noreferrer" class="text-blue-800 hover:text-blue-900 "  title="Learn about Stephen Township history">Stephen Township</a> merged with Usborne and Exeter, reshaping local governance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Support Section -->
+<section id="donate" class="py-16 bg-gray-50">
+  <div class="container mx-auto px-6 lg:px-12">
+    <h2 class="text-4xl font-bold text-center text-gray-800 mb-6">Support Our Heritage Work</h2>
+    <p class="text-lg text-gray-600 text-center max-w-2xl mx-auto mb-12">
+      Help us preserve the heritage of Crediton Cemetery for future generations. Your support enables our digital preservation and genealogical research efforts.
+    </p>
+
+    <!-- Support Options -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+      <div class="bg-white rounded-xl shadow-md p-8 text-center transition hover:shadow-lg">
+        <i class="fas fa-donate text-5xl text-green-600 mb-4"></i>
+        <h3 class="text-2xl font-semibold mb-2">Make a Donation</h3>
+        <p class="text-gray-600 mb-6">
+          Your contribution funds digitization, preservation, and educational initiatives.
+        </p>
+        <a href="{{ base_url }}/support-us">
+        <button class="bg-green-700 hover:bg-green-900 text-white font-bold py-3 px-6 rounded-lg transition">
+          Donate Now
+        </button>
+          </a>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-md p-8 text-center transition hover:shadow-lg">
+        <i class="fas fa-hands-helping text-5xl text-green-600 mb-4"></i>
+        <h3 class="text-2xl font-semibold mb-2">Volunteer</h3>
+        <p class="text-gray-600 mb-6">
+          Join us in research, photography, data entry, and event support.
+        </p>
+        <a href="{{ base_url }}/volunteer">
+        <button class="bg-green-700 hover:bg-green-900 text-white font-bold py-3 px-6 rounded-lg transition">
+          Get Involved
+        </button>
+        </a>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-md p-8 text-center transition hover:shadow-lg">
+        <i class="fas fa-camera text-5xl text-green-600 mb-4"></i>
+        <h3 class="text-2xl font-semibold mb-2">Contribute Materials</h3>
+        <p class="text-gray-600 mb-4">
+          Share historical photographs, documents, or family records.
+        </p>
+        <a href="#" class="text-blue-600 hover:text-blue-800 flex items-center justify-center font-semibold">
+          <i class="fas fa-external-link-alt mr-2"></i> Explore Exhibit
+        </a>
+      </div>
+    </div>
+
+    <!-- Featured Exhibits -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+      <div class="bg-white rounded-xl shadow-md overflow-hidden transition hover:shadow-lg">
+        <img data-src="https://i.ibb.co/Y4LtbgC2/Henry-Eilber-House-Crediton-1.webp" alt="Historic Monuments" class="lazyload w-full h-56 object-cover">
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold mb-2">Historic Monuments</h3>
+          <p class="text-gray-600 mb-4">Discover the memorials and monuments that have withstood the test of time.</p>
+          <a href="#" class="text-blue-600 hover:text-blue-800 flex items-center font-semibold">
+            <i class="fas fa-external-link-alt mr-2"></i> Explore Exhibit
+          </a>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-md overflow-hidden transition hover:shadow-lg">
+        <img data-src="https://i.ibb.co/tMQtWTGm/Lulu-Gaiser-Crediton-1.webp" alt="Notable Figures" class="lazyload w-full h-56 object-cover">
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold mb-2">Notable Figures</h3>
+          <p class="text-gray-600 mb-4">Learn about influential individuals interred at Crediton.</p>
+          <a href="#" class="text-blue-600 hover:text-blue-800 flex items-center font-semibold">
+            <i class="fas fa-external-link-alt mr-2"></i> Explore Exhibit
+          </a>
+        </div>
+      </div>
+    </div>
+  
+    
+    <div>   
+    <div class="bg-white rounded-xl shadow-md overflow-hidden transition hover:shadow-lg">
+        <img data-src="https://i.ibb.co/1YvcQXd9/Crediton-Community-Centre-1.webp" alt="Notable Figures" class="lazyload w-full h-56 object-cover">
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold mb-2">Upcoming Events</h3>
+          <p class="text-gray-600 mb-4">Learn about upcoming events in Crediton.</p>
+          <a href="{{ base_url }}/events" class="text-blue-600 hover:text-blue-800 flex items-center font-semibold">
+           Explore Upcoming Events
+          </a>
+        </div>
+      </div>
+  </div>
+  </div>
+</section>
+
+    <!-- Support Us Section -->
+  <section id="donate-footer" class="py-12 bg-gray-800 text-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-6">Support Our Project</h2>
+      <p class="text-lg mb-6"> Help us continue our work of preserving Crediton Cemetery's history by making a donation. Your support is invaluable to our efforts. </p> <a href="{{ base_url }}/support-us" class="bg-green-700 hover:bg-green-900 text-white font-bold py-3 px-6 rounded-lg transition"> Donate Now </a>
+    </div>
+  </section> 
+
+
+  <!-- Footer -->
+<footer class="bg-gray-800 text-white py-8">
+  <div class="px-4 container mx-auto text-center">
+    <p class="text-lg">&copy; 2025 Crediton Cemetery Heritage Portal. All rights reserved.</p>
+    <p class="text-sm text-gray-400 mt-2">Created by Jared Van Valkengoed</p>
+    <div class="flex flex-wrap justify-center mt-6 space-x-6 space-y-2 sm:space-y-0">
+      <a href="privacy-policy" class="hover:text-white text-gray-400 transition-colors duration-300">Privacy Policy</a>
+      <a href="terms-of-service" class="hover:text-white text-gray-400 transition-colors duration-300">Terms of Service</a>
+      <a href="faq" class="hover:text-white text-gray-400 transition-colors duration-300">Frequently Asked Questions</a>
+      <a href="resources" class="hover:text-white text-gray-400 transition-colors duration-300">Resources</a>
+      <a href="contact-us" class="hover:text-white text-gray-400 transition-colors duration-300">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script type="module" async>
+    import "https://esm.sh/lazysizes";  // lazy load images
+</script>
+  
+ 
+  
+  <script type="module">
+     import data from 'https://esm.sh/gh/marketingpip/cemetery_demo-@6f6d115/assets/geodata/south_huron.json' assert { type: "json" };
+        import stephen_township from 'https://esm.sh/gh/marketingpip/cemetery_demo-@6f6d115/assets/geodata/stephen.json' assert { type: "json" };
+    //
+// Lazy load datepicker only when needed
+async function loadDatePicker() {
+  const { Datepicker } = await import("https://esm.sh/vanillajs-datepicker");
+  const datepicker = new Datepicker(document.getElementById("year-from"), { pickLevel: 2, format: "yyyy" });
+  const datepicker2 = new Datepicker(document.getElementById("year-to"), { pickLevel: 2, format: "yyyy" });
+}
+
+ 
+    
+   // Debounce function
+function debounce(func, wait) {
+    let timeout;
+    return function(...args) {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(this, args), wait);
+    };
+} 
+
+       async function getCemeteryData() {
+    try {
+        const response = await fetch('https://marketingpip.github.io/cemetery_demo-/assets/cemetery_data.json');
+        if (!response.ok) {
+            throw new Error(`Failed to fetch: ${response.status} ${response.statusText}`);
+        }
+        
+        const csvText = await response.json();
+        return csvText;
+    } catch (error) {
+        console.error('Error fetching cemetery data:', error);
+        return [];
+    }
+}
+    
+
+    // Cemetery records data (CSV format)
+    let csvData;
+
+
+
+    
+      
+    // App state
+    let records = [];
+    let filteredRecords = [];
+    let currentPage = 1;
+    const recordsPerPage = 5;
+    let sortColumn = 'name';
+    let sortDirection = 'asc';
+
+    // DOM elements
+    const searchForm = document.getElementById('search-form');
+    const resultsBody = document.getElementById('results-body');
+    const prevPageBtn = document.getElementById('prev-page');
+    const nextPageBtn = document.getElementById('next-page');
+    const pageNumbers = document.getElementById('page-numbers');
+    const showingStart = document.getElementById('showing-start');
+    const showingEnd = document.getElementById('showing-end');
+    const totalRecords = document.getElementById('total-records');
+    const tableSortHeaders = document.querySelectorAll('th[data-sort]');
+
+    // Initialize the application
+    function init() {
+    //  parseData();
+      setupEventListeners();
+      renderRecords();
+    }
+
+    // Parse CSV data using PapaParse
+ /*   function parseData() {
+      const results = Papa.parse(csvData, {
+        header: true,
+        skipEmptyLines: true
+      });
+      
+      records = results.data.map((record, index) => {
+        try {
+          record.id = index
+          record.parents = record.parents ? JSON.parse(record.parents.replace(/'/g, '"').replace(/None/g, 'null')) : [];
+          record.spouses = record.spouses ? JSON.parse(record.spouses.replace(/'/g, '"').replace(/None/g, 'null')) : [];
+           if(record.gps){
+             record.gps = JSON.parse(record.gps.replaceAll("'", `"`))
+             
+           
+             //record.gps = JSON.parse(JSON.parse(record.gps.trim() )) 
+           }
+        } catch (e) {
+          record.parents = [];
+          record.spouses = [];
+        }
+        return record;
+      });
+    }
+
+    */
+
+    // Setup event listeners for sorting, pagination, and search
+    function setupEventListeners() {
+      // Sort table columns
+      tableSortHeaders.forEach(header => {
+        header.addEventListener('click', (e) => {
+          const column = e.currentTarget.dataset.sort; // Use currentTarget to reliably get the header element
+          if (column) {
+            // Toggle sort direction if clicking the same column
+            if (sortColumn === column) {
+              sortDirection = sortDirection === 'asc' ? 'desc' : 'asc';
+            } else {
+              sortColumn = column;
+              sortDirection = 'asc';
+            }
+            currentPage = 1; // Reset page on sort change
+            renderRecords();
+            updateSortIcons();
+          }
+        });
+      });
+
+      // Pagination buttons
+      prevPageBtn.addEventListener('click', () => {
+        if (currentPage > 1) {
+          currentPage--;
+          updateTable();
+          updatePagination();
+        }
+      }); 
+
+      nextPageBtn.addEventListener('click', () => {
+        const pageCount = Math.ceil(filteredRecords.length / recordsPerPage);
+        if (currentPage < pageCount) {
+          currentPage++;
+          updateTable();
+          updatePagination();
+        }
+      });
+
+      // Search form
+      // Apply debounce to filters and pagination
+      const debouncedRender = debounce(renderRecords, 300);
+      searchForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        currentPage = 1; // Reset page on new search
+        debouncedRender();
+      });
+    }
+
+
+    
+    // Render records: filter, sort, and update table/pagination
+    function renderRecords() {
+      const surname = document.getElementById('surname').value.trim().toLowerCase();
+      const givenName = document.getElementById('given-name').value.trim().toLowerCase();
+      const yearFrom = parseInt(document.getElementById('year-from').value);
+      const yearTo = parseInt(document.getElementById('year-to').value);
+
+      // Filter the records based on search criteria
+      filteredRecords = records.filter(record => {
+        const nameLower = record.name ? record.name.toLowerCase() : '';
+        const matchesSurname = !surname || nameLower.includes(surname);
+        const matchesGivenName = !givenName || nameLower.includes(givenName);
+        let matchesYearRange = true;
+        if (yearFrom) {
+          const birthYear = record.birth_date ? new Date(record.birth_date).getFullYear() : NaN;
+          matchesYearRange = matchesYearRange && birthYear >= yearFrom;
+        }
+        if (yearTo) {
+          const deathYear = record.death_date ? new Date(record.death_date).getFullYear() : NaN;
+          matchesYearRange = matchesYearRange && deathYear <= yearTo;
+        }
+        return matchesSurname && matchesGivenName && matchesYearRange;
+      });
+
+      // Sort filtered records
+      filteredRecords.sort((a, b) => {
+        let valA = a[sortColumn] || '';
+        let valB = b[sortColumn] || '';
+
+        // For date columns, compare timestamps
+        if (sortColumn === 'birth_date' || sortColumn === 'death_date') {
+          valA = new Date(valA).getTime() || 0;
+          valB = new Date(valB).getTime() || 0;
+        } else {
+          valA = valA.toLowerCase();
+          valB = valB.toLowerCase();
+        }
+
+        if (valA < valB) return sortDirection === 'asc' ? -1 : 1;
+        if (valA > valB) return sortDirection === 'asc' ? 1 : -1;
+        return 0;
+      });
+
+      updateTable();
+      updatePagination();
+    }
+
+    // Update the results table with paginated records
+    function updateTable() {
+  const startIndex = (currentPage - 1) * recordsPerPage;
+  const endIndex = startIndex + recordsPerPage;
+  const paginatedRecords = filteredRecords.slice(startIndex, endIndex);
+
+  resultsBody.innerHTML = '';
+
+  if (paginatedRecords.length === 0) {
+    resultsBody.innerHTML = `<tr><td colspan="6" class="px-6 py-4 text-center text-gray-500">No results found</td></tr>`;
+    return;
+  }
+
+  requestAnimationFrame(() => {
+    const fragment = document.createDocumentFragment();
+
+    paginatedRecords.forEach(record => {
+      const row = document.createElement('tr');
+      row.innerHTML = `
+        <td class="px-6 py-4">${record.name || 'N/A'}</td>
+        <td class="px-6 py-4">${record.birth_date || 'N/A'}</td>
+        <td class="px-6 py-4">${record.death_date || 'N/A'}</td>
+        <td class="px-6 py-4">${record.location || 'N/A'}</td>
+        <td class="px-6 py-4">
+          <a href="tribute?id=${record.id}" class="text-blue-600 hover:text-blue-800 mr-3">View Details</a>
+          <a href="https://www.findagrave.com/memorial/${record.memorial_url}" target="_blank">FindAGrave</a>
+        </td>`;
+      fragment.appendChild(row);
+    });
+
+    resultsBody.appendChild(fragment);
+  });
+
+        // Update pagination details
+      showingStart.textContent = filteredRecords.length ? startIndex + 1 : 0;
+      showingEnd.textContent = Math.min(endIndex, filteredRecords.length);
+      totalRecords.textContent = filteredRecords.length;
+}  
+
+    // Update pagination controls and page number buttons
+    function updatePagination() {
+      const pageCount = Math.ceil(filteredRecords.length / recordsPerPage);
+      pageNumbers.innerHTML = '';
+
+      // Disable/enable pagination buttons
+      prevPageBtn.disabled = currentPage === 1;
+      nextPageBtn.disabled = currentPage === pageCount || pageCount === 0;
+
+      const pageNumberWindowSize = 3;
+      let startPage = Math.max(1, currentPage - Math.floor(pageNumberWindowSize / 2));
+      let endPage = Math.min(pageCount, startPage + pageNumberWindowSize - 1);
+
+      if (endPage - startPage < pageNumberWindowSize - 1) {
+        startPage = Math.max(1, endPage - pageNumberWindowSize + 1);
+      }
+
+      // Previous ellipsis
+      if (startPage > 1) {
+        const ellipsis = document.createElement('span');
+        ellipsis.textContent = '...';
+        ellipsis.classList.add('px-3', 'py-1', 'text-gray-700');
+        pageNumbers.appendChild(ellipsis);
+      }
+
+      // Page number buttons
+      for (let i = startPage; i <= endPage; i++) {
+        const pageBtn = document.createElement('button');
+        pageBtn.textContent = i;
+        pageBtn.classList.add('px-3', 'py-1', 'border', 'rounded', 'text-gray-700', 'hover:bg-gray-50');
+        if (i === currentPage) {
+          pageBtn.classList.add('bg-gray-300');
+        }
+        pageBtn.addEventListener('click', () => {
+          currentPage = i;
+          updateTable();
+          updatePagination();
+        });
+        pageNumbers.appendChild(pageBtn);
+      }
+
+      // Next ellipsis
+      if (endPage < pageCount) {
+        const ellipsis = document.createElement('span');
+        ellipsis.textContent = '...';
+        ellipsis.classList.add('px-3', 'py-1', 'text-gray-700');
+        pageNumbers.appendChild(ellipsis);
+      }
+    }
+
+    // Update sort icons on table headers
+    function updateSortIcons() {
+      tableSortHeaders.forEach(header => {
+        const icon = header.querySelector('i');
+        if (header.dataset.sort === sortColumn) {
+          icon.className = sortDirection === 'asc' ? 'fas fa-sort-up ml-1' : 'fas fa-sort-down ml-1';
+        } else {
+          icon.className = 'fas fa-sort ml-1';
+        }
+      });
+    }
+
+    
+
+ document.getElementById('menu-toggle').addEventListener('click', () => {
+  document.getElementById('mobile-menu').classList.toggle('translate-x-full');
+});
+
+// Close menu when clicking any link with #
+document.querySelectorAll('#mobile-menu a[href^="#"]').forEach(link => {
+  link.addEventListener('click', () => {
+    document.getElementById('mobile-menu').classList.add('translate-x-full');
+  });
+});
+
+/* Handle Dropdown Toggle
+
+document.querySelectorAll('[data-dropdown-toggle]').forEach(button => {
+  button.addEventListener('click', () => {
+    const dropdown = button.nextElementSibling;
+    dropdown.classList.toggle('hidden');
+  });
+});
+*/
+
+    
+document.addEventListener("DOMContentLoaded", function () {
+ 
+// GeoJSON configuration
+const geojsonData = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Crediton Cemetery",
+        "location": "Crediton, Ontario, Canada",
+        "type": "Cemetery",
+        "established": "circa 1860",
+        "description": "A historic cemetery serving the Crediton community",
+        "address": "Near County Road 12, Crediton, ON",
+        "status": "Active",
+        "contact": {
+          "organization": "Crediton Cemetery Board",
+          "phone": "519-555-1234",
+          "email": "creditoncemetery@example.com"
+        },
+        "visiting_hours": "Dawn to Dusk"
+      },
+      "geometry": {
+        "coordinates": [
+          [-81.55479986184099, 43.300126225136836],
+          [-81.55203518800734, 43.30037642774607],
+          [-81.55177018041198, 43.2992452952557],
+          [-81.55213546115156, 43.29920880676022],
+          [-81.55207099984473, 43.29867190208515],
+          [-81.55344617439398, 43.2985467974018],
+          [-81.55354644753824, 43.298880409318144],
+          [-81.55358942174281, 43.29919316882703],
+          [-81.5545778284502, 43.29912540440358],
+          [-81.55479986184099, 43.30012101257117]
+        ],
+        "type": "LineString"
+      }
+    }
+  ]
+};
+
+
+  // Lazy load leaflet
+async function loadLeaflet() {
+  const L = (await import("https://esm.sh/leaflet")).default;
+  window.L = L;
+  await import("https://esm.sh/leaflet.markercluster");
+  renderMap(L);
+}
+
+  
+function renderMap(pkg){ 
+
+const L = pkg
+
+  
+const map = L.map("cemetery-map", {
+    preferCanvas: true
+}).setView([51.505, -0.09], 13);
+
+// Tile Layer with optimized settings
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: "© OpenStreetMap contributors",
+    updateWhenIdle: true
+}).addTo(map);
+
+// Create marker cluster group
+const markers = L.markerClusterGroup({
+    chunkedLoading: true,
+    maxClusterRadius: 80
+});
+
+// Custom popup options
+const customOptions = {
+    className: 'popupCustom',
+    lazyload: true  // Add lazyload flag
+};
+
+// Popup content template
+const getPopupContent = (record) => `
+    <div class="grid grid-cols-5 gap-4">
+        <div class="col-span-3 p-3">
+            <div class="space-y-2">
+                <h3 class="font-semibold text-gray-900 dark:text-white">${record.name}</h3>
+                <p class="text-gray-700 dark:text-gray-300">
+                    <b>Location:</b> ${record.location || 'N/A'}<br>
+                    <b>Born:</b> ${record.birth_date || 'N/A'}<br>
+                    <b>Passed:</b> ${record.death_date || 'N/A'}
+                </p>
+                <a href="${record.memorial_url || '#'}" class="text-blue-600 hover:" target="_blank">View Memorial</a>
+            </div>
+        </div>
+        <div class="h-full w-full">
+            <img class="lazyload w-full h-full object-fill col-span-2 rounded-r-lg min-w-[160px]" alt="${record.name}" data-src="${record.image_url || ''}">
+        </div>
+    </div>`;
+
+// Initial marker
+L.marker([43.29868, -81.55274], {
+    icon: L.divIcon({
+        html: "Crediton Cemetery",
+        className: 'text-below-marker'
+    })
+}).addTo(map);
+
+// Specific Crediton Cemetery marker with lazy-loaded popup
+const creditonPopupContent = `
+    <div class="grid grid-cols-5 gap-4">
+        <div class="col-span-3 p-3">
+            <div class="space-y-2">
+                <h3 class="font-semibold text-gray-900 dark:text-white">Crediton Cemetery</h3>
+                <p class="text-gray-700 dark:text-gray-300">
+                    The Crediton Cemetery, located at <b>40 Victoria Avenue West, Crediton, Ontario, N0M 1M0</b>,<br>
+                    is a peaceful resting place that serves as a memorial to the community's history.
+                </p>
+                <a href="https://www.google.com/maps/dir/?api=1&destination=40%20Victoria%20Ave%20W,%20Crediton,%20ON%20N0M%201M0" 
+                   class="flex items-center font-medium text-blue-600 hover:" target="_blank">
+                    Get Directions
+                    <svg class="w-2 h-2 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="h-full w-full">
+            <img class="lazyload w-full h-full object-fill col-span-2 rounded-r-lg min-w-[160px]" 
+                 alt="Crediton Cemetery" 
+                 data-src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=RoZKv6Zz4zxYvZGyh_IWkQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=347.2649&pitch=0&thumbfov=100">
+        </div>
+    </div>`;
+
+// Add initial marker with lazy-loaded popup
+L.marker([43.29868, -81.55274])
+    .bindPopup(L.popup({
+        ...customOptions,
+        lazyload: creditonPopupContent
+    }))
+    .addTo(map);
+
+// Process cemetery data
+const cemeteryData = records.filter(record => record.gps);
+  
+let _debounceTimeout = null; // Declare a variable to hold the timeout reference
+let _debounceCancel = false; // Flag to track debounce state
+
+function smoothLeafletDebounce() {
+  // If there's an existing timeout, cancel it to prevent multiple timeouts from running
+  if (_debounceTimeout) {
+    clearTimeout(_debounceTimeout);
+  }
+
+  // Cancel debounce temporarily
+  _debounceCancel = true;
+
+  // Set a new timeout and store its reference in _debounceTimeout
+  _debounceTimeout = setTimeout(() => {
+    _debounceCancel = false;
+    _debounceTimeout = null; // Reset the timeout reference after it completes
+  }, 1000);
+}
+
+  
+markers.on('click', function (a) {
+   smoothLeafletDebounce()
+});
+
+markers.on('clusterclick', function (a) {
+    smoothLeafletDebounce()
+});
+  
+// Popup open handler for lazy loading
+map.on('popupopen', function (e) {
+   _debounceCancel = true;
+  // smoothLeafletDebounce()	
+  const popup = e.popup;
+
+  // Check if lazyload option is set and content is not yet loaded
+  if (popup.options.lazyload && !popup.getContent()) {
+    popup.setContent(popup.options.lazyload);
+  }
+});
+
+map.on('popupclose', function (e) {
+  _debounceCancel = false;
+});  
+
+
+// Update markers function
+function updateMarkers() {
+    if(_debounceCancel){
+     return
+    }
+    const bounds = map.getBounds();
+    markers.clearLayers();
+
+    cemeteryData.forEach(record => {
+        let { latitude, longitude } = record.gps;
+        latitude = parseFloat(latitude);
+        longitude = parseFloat(longitude);
+
+        if (latitude && longitude && bounds.contains([latitude, longitude])) {
+            const marker = L.marker([latitude, longitude])
+                .bindPopup(L.popup({
+                    ...customOptions,
+                    lazyload: getPopupContent(record)
+                }));
+            markers.addLayer(marker);
+        }
+    });
+}
+
+
+
+// Add debounced event listeners
+const debouncedUpdate = debounce(updateMarkers, 250);
+map.on('moveend', debouncedUpdate);
+
+// Initial setup
+map.addLayer(markers);
+map.setView([43.29868, -81.55274], 13);
+updateMarkers();
+
+ 
+
+       function highlightFeatureOnMouseOver(e) {
+              e.target.setStyle({
+                color: 'red',
+                fillColor: '#ffffff',
+                opacity: 1,
+                //fillOpacity: 0,
+                weight: 4
+              });
+              
+              e.target.bringToFront();
+              //e.target.openPopup();
+          }
+          
+          function resetFeatureStyle(e) {
+            //newPolygons.resetStyle(e.target);
+              newPolygons.setStyle({
+                color: '#e600ff',
+                fillColor: '#fbff00',
+                opacity: 1,
+                weight: 1
+              });
+          }  
+const stephen_geo = L.geoJSON(stephen_township, {
+    style: {
+        color: "#00A9E0",
+      fillColor: '#fbff00',
+              opacity: 1,
+              weight: 1
+    }, 
+     onEachFeature: function(feature, layer) {
+        layer.options.clickable = false;
+                    layer.on({
+                       // click: zoomToClickedPolygon,
+                        mouseover: highlightFeatureOnMouseOver,
+                        mouseout: resetFeatureStyle
+                    });
+                    layer.bindPopup(L.popup({
+        ...customOptions,
+        lazyload: `<div class="grid grid-cols-5 gap-4">
+    <div class="col-span-3 p-3">
+        <div class="space-y-2">
+            <h3 class="font-semibold text-gray-900 dark:text-white">Stephen Township</h3>
+            <p class="text-gray-700 dark:text-gray-300">
+                Stephen Township is a historical township located in the southern part of Huron County, Ontario. It was one of the townships amalgamated to form the municipality of South Huron in 2001. Known for its agricultural landscape and small-town charm, Stephen Township is a part of the rich rural heritage of the region.
+            </p>
+            <a href="https://www.google.com/maps/search/?q=Stephen+Township,+Ontario" 
+               class="flex items-center font-medium text-blue-600 hover:" target="_blank">
+                Explore Stephen Township
+                <svg class="w-2 h-2 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <div class="h-full w-full">
+        <img class="lazyload w-full h-full object-fill col-span-2 rounded-r-lg min-w-[160px]" 
+             alt="Stephen Township" 
+             data-src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=RoZKv6Zz4zxYvZGyh_IWkQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=347.2649&pitch=0&thumbfov=100">
+    </div>
+</div>
+`
+    }));//
+                }
+}).addTo(map);
+
+  
+const newPolygons = L.geoJSON(data, {
+    style: {
+        color: "#ff0000",
+        weight: 3,
+        opacity: 0.8
+    }, 
+     onEachFeature: function(feature, layer) {
+       
+        layer.on('click', function (e) {
+          
+            // Check if the clicked feature (from the newPolygons GeoJSON) is inside the bounds of Stephen Township
+            var clickedLatLng = e.latlng;  // Get the clicked point (lat/lng)
+            var stephenBounds = stephen_geo.getBounds(); // Get the bounds of Stephen Township layer
+
+          
+          
+                const huronLayer = L.popup({
+        ...customOptions,
+        lazyload: `<div class="grid grid-cols-5 gap-4">
+    <div class="col-span-3 p-3">
+        <div class="space-y-2">
+            <h3 class="font-semibold text-gray-900 dark:text-white">South Huron</h3>
+            <p class="text-gray-700 dark:text-gray-300">
+                South Huron is a municipality located in the southern part of Huron County, Ontario. It was formed through the amalgamation of the townships of Stephen and Usborne with the Town of Exeter in 2001, as part of a provincial municipal restructuring. The community is known for its rural charm and strong local connections.
+            </p>
+            <a href="https://www.google.com/maps/search/?q=South+Huron,+Ontario" 
+               class="flex items-center font-medium text-blue-600 hover:" target="_blank">
+                Explore South Huron
+                <svg class="w-2 h-2 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <div class="h-full w-full">
+        <img class="lazyload w-full h-full object-fill col-span-2 rounded-r-lg min-w-[160px]" 
+             alt="South Huron Municipality" 
+             data-src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=RoZKv6Zz4zxYvZGyh_IWkQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=347.2649&pitch=0&thumbfov=100">
+    </div>
+</div>
+`
+    });//
+           layer.bindPopup(huronLayer)
+          
+            if (stephenBounds.contains(clickedLatLng)) {
+               stephen_geo.bringToFront();
+               stephen_geo.openPopup();
+              // layer.unbindPopup(huronLayer)
+            }else{
+      
+             
+              huronLayer.bringToFront();
+              huronLayer.openPopup();
+              console.log("f")
+            }
+        }),
+          
+                    layer.on({
+                       // click: zoomToClickedPolygon,
+                        mouseover: highlightFeatureOnMouseOver,
+                        mouseout: resetFeatureStyle
+                    });
+              
+                }
+}).addTo(map);
+  
+L.geoJSON(geojsonData, {
+    style: {
+        color: "#ff0000",
+        weight: 3,
+        opacity: 0.8
+    }
+}).addTo(map);
+
+  // Event listeners for zoom buttons
+  document.getElementById("zoom-in").addEventListener("click", () => map.zoomIn());
+  document.getElementById("zoom-out").addEventListener("click", () => map.zoomOut());
+  document.getElementById("reset-view").addEventListener("click", () => map.setView([43.29868, -81.55274], 13));
+
+   
+  document.querySelector("#map-container").classList.add("hidden")
+  document.querySelector("#cemetery-map").classList.remove("hidden")
+  window.dispatchEvent(new Event('resize')); // needs for weirdness in leaflet
+}
+  
+ 
+
+
+
+
+// Select the button
+const backToTopBtn = document.getElementById("backToTopBtn");
+
+// Show/hide the button when scrolling
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    backToTopBtn.classList.remove("hidden");
+    backToTopBtn.classList.add("opacity-100");
+  } else {
+    backToTopBtn.classList.add("hidden");
+    backToTopBtn.classList.remove("opacity-100");
+  }
+});
+
+// Smooth scroll to top when clicked
+backToTopBtn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+
+  
+  
+  // page loader
+ 
+function fadeOutAndHide(elementId, hide = true) {
+    const element = document.querySelector(elementId);
+
+    if (element) {
+        // Apply Tailwind fade-out classes
+        element.classList.add('opacity-0', 'transition-opacity', 'duration-500');
+
+        // Listen for the end of the transition
+        const onTransitionEnd = () => {
+            if (hide) {
+                // Hide the element after the transition ends
+                element.classList.add('hidden');
+            }
+            // Remove the event listener after the transition ends
+            element.removeEventListener('transitionend', onTransitionEnd);
+        };
+
+        // Add the event listener for the transitionend event
+        element.addEventListener('transitionend', onTransitionEnd);
+    }
+}
+
+
+  function enableAllResources() {
+  document.querySelectorAll('link[disabled], script[disabled]').forEach(el => {
+    el.removeAttribute('disabled');
+  });
+}
+   
+
+
+function checkAndSetNameFromURL() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const name = urlParams.get('name');
+
+  if (name) {
+    const surnameInput = document.getElementById('surname');
+    const searchForm = document.getElementById('search-form');  // Assuming your form has id="searchForm"
+
+    if (surnameInput) {
+      surnameInput.value = name;
+
+      // Scroll input into view smoothly
+      surnameInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      
+      // Trigger form submit
+      if (searchForm) {
+        searchForm.requestSubmit();
+      }
+    }
+  }
+}
+
+  
+   // Initialize the app
+
+     // Example Usage
+getCemeteryData().then(data => {
+    records = data; // Array of objects with CSV headers as keys
+    init();
+    fadeOutAndHide('#preload');
+    enableAllResources(); // enable all disabled CSS and scripts for leaflet. 
+    loadDatePicker();
+    loadLeaflet();
+    checkAndSetNameFromURL();
+    //renderMap()
+});
+
+  
+   
+  
+//   const heroSection = document.querySelector("#home");
+  // heroSection.classList.remove("hero-image-loading");
+  // heroSection.classList.add("hero-image");
+  
+});
+
+
+
+
+
+  </script>
+ 
+  
+
+   
+
+    
+  <!-- Back to Top Button -->
+<button 
+    id="backToTopBtn" 
+    class="fixed z-20 bottom-8 right-8 hidden bg-blue-600 text-white w-14 h-14 rounded-full shadow-xl transition-all duration-300 hover:bg-blue-700 hover:scale-110 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-blue-300"
+    aria-label="Back to top">
+    <svg class="w-6 h-6 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+    </svg>
+</button>
+
+  
+</body>
+
+</html>
