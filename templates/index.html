@@ -1189,9 +1189,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Stephen Township
 
-function renderStephenGeoData(leaflet, options){  
-const L = leaflet;
-const customOptions = options;
+function renderStephenGeoData(L, customOptions, map){  
   
 function highlightFeatureOnMouseOver(e) {
   e.target.setStyle({
@@ -1482,7 +1480,7 @@ map.setView([43.29868, -81.55274], 13);
 updateMarkers();
 
  
-renderStephenGeoData(L, customOptions);
+renderStephenGeoData(L, customOptions, map);
   
 L.geoJSON(geojsonData, {
     style: {
