@@ -21,7 +21,7 @@ const PWA_CONFIG = {
     // Service Worker config
     sw: {
         // Main service worker filepath (always root of project)
-        filepath: '/sw.js',
+        filepath: './sw.js',
         // Route of offline page
         offline_route: '/offline.html',
     },
