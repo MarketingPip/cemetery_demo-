@@ -235,7 +235,7 @@ function debounce(func, wait) {
 
        async function getCemeteryData() {
     try {
-        const response = await fetch('../../assets/cemetery_data.json');
+        const response = await fetch('./../assets/cemetery_data.json');
         if (!response.ok) {
             throw new Error(`Failed to fetch: ${response.status} ${response.statusText}`);
         }
