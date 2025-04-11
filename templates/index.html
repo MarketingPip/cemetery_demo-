@@ -1188,6 +1188,8 @@ document.addEventListener("DOMContentLoaded", function () {
 // GeoJSON configuration
 
 // Stephen Township
+
+function renderStephenGeoData(){  
   
 function highlightFeatureOnMouseOver(e) {
   e.target.setStyle({
@@ -1254,7 +1256,8 @@ const stephen_geo = L.geoJSON(stephen_township, {
     ); //
   }
 }).addTo(map);  
-  
+
+}  
 // Cemetery Data (Created Manually)  
 const geojsonData = {
   "type": "FeatureCollection",
@@ -1477,7 +1480,8 @@ map.setView([43.29868, -81.55274], 13);
 updateMarkers();
 
  
-
+renderStephenGeoData();
+  
 L.geoJSON(geojsonData, {
     style: {
         color: "#ff0000",
