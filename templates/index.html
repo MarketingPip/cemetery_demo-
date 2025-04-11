@@ -74,7 +74,9 @@ permalink: /
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 <link rel="preconnect" href="https://unpkg.com" crossorigin>
 
-
+      <!-- JFA PWA Toolkit -->
+  <script type="text/javascript" src="./assets/js/pwa/config.js"></script>
+  <script type="text/javascript" src="./assets/js/pwa/pwa.js"></script>
   <style>
       .font-display-swap {
     font-display: swap;
@@ -1603,7 +1605,8 @@ getCemeteryData().then(data => {
 
   
    
-  
+// Register Service Worker
+PWA.ServiceWorker.register();
 //   const heroSection = document.querySelector("#home");
   // heroSection.classList.remove("hero-image-loading");
   // heroSection.classList.add("hero-image");
@@ -1614,9 +1617,10 @@ getCemeteryData().then(data => {
 
 
 
+
   </script>
  
-  
+
 
    
 
