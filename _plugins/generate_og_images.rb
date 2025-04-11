@@ -38,7 +38,7 @@ module Jekyll
       end
 
       site.pages.each do |page|
-        process_post(page, site, output_dir, og_folder, template_path)
+        process_post(page, site, output_dir, og_folder, template_path, false)
       end      
       
       Jekyll.logger.info "Open Graph image generation complete."
@@ -46,7 +46,7 @@ module Jekyll
 
     private
 
-    def process_post(post, site, output_dir, og_folder, template_path)
+    def process_post(post, site, output_dir, og_folder, template_path, blogPost = true)
       # Skip if post already has an image in content or front matter
       has_image = post.content =~ /(?:src|href)=["']?(https?:\/\/[^"'\s]+\.(?:jpg|jpeg|png|gif|svg))/i || post.data['image']
       return if has_image
@@ -76,7 +76,7 @@ module Jekyll
       end
 
       # Render HTML and write to temp file
-      html_content = render_template(site, template_path, post)
+      html_content = render_template(site, template_path, post, blogPost)
       temp_html = File.join(Dir.tmpdir, "#{slug}-og-#{Time.now.to_i}.html")
       
       begin
@@ -106,18 +106,23 @@ module Jekyll
       end
     end
 
-    def render_template(site, template_path, post)
+    def render_template(site, template_path, post, renderBlogTemplate=true)
       template = File.read(File.join(site.source, template_path))
       liquid = Liquid::Template.parse(template)
       
       raw_excerpt = post.data['excerpt'] || post.content[0..150] || "No preview available"
       excerpt_content = raw_excerpt.is_a?(Jekyll::Excerpt) ? raw_excerpt.to_s : raw_excerpt
       excerpt_content = "No preview available" if excerpt_content.nil? || excerpt_content.strip.empty?
-      
-      liquid.render(
+      if renderBlogTemplate
+        liquid.render(
         'title' => post.data['title']&.strip || "Untitled",
         'excerpt' => excerpt_content&.strip,
         'date' => post.date.strftime('%B %d, %Y'),
+        'site' => site.config
+      )
+      else
+        liquid.render(
+        'title' => post.data['title']&.strip || "Untitled",
         'site' => site.config
       )
     end
