@@ -862,7 +862,7 @@ html {
  
   
   <script type="module">
-    
+import stephen_township from "https://esm.sh/gh/marketingpip/cemetery_demo-@6f6d115/assets/geodata/stephen.json" assert { type: "json" };    
    
     
 // Lazy load datepicker only when needed
@@ -1186,6 +1186,76 @@ document.querySelectorAll('[data-dropdown-toggle]').forEach(button => {
 document.addEventListener("DOMContentLoaded", function () {
  
 // GeoJSON configuration
+
+// Stephen Township
+  
+function highlightFeatureOnMouseOver(e) {
+  e.target.setStyle({
+    color: "red",
+    fillColor: "#ffffff",
+    opacity: 1,
+    //fillOpacity: 0,
+    weight: 4
+  });
+
+  e.target.bringToFront();
+  //e.target.openPopup();
+}
+
+function resetFeatureStyle(e) {
+  //newPolygons.resetStyle(e.target);
+  stephen_geo.setStyle({
+    color: "#e600ff",
+    fillColor: "#fbff00",
+    opacity: 1,
+    weight: 1
+  });
+}
+const stephen_geo = L.geoJSON(stephen_township, {
+  style: {
+    color: "#e600ff",
+    fillColor: "#fbff00",
+    opacity: 1,
+    weight: 1
+  },
+  onEachFeature: function (feature, layer) {
+    layer.on({
+      // click: zoomToClickedPolygon,
+      mouseover: highlightFeatureOnMouseOver,
+      mouseout: resetFeatureStyle
+    });
+    layer.bindPopup(
+      L.popup({
+        ...customOptions,
+        lazyload: `<div class="grid grid-cols-5 gap-4">
+    <div class="col-span-3 p-3">
+        <div class="space-y-2">
+            <h3 class="font-semibold text-gray-900 dark:text-white">Stephen Township</h3>
+            <p class="text-gray-700 dark:text-gray-300">
+                Stephen Township is a historical township located in the southern part of Huron County, Ontario. It was one of the townships amalgamated to form the municipality of South Huron in 2001. Known for its agricultural landscape and small-town charm, Stephen Township is a part of the rich rural heritage of the region.
+            </p>
+            <a href="https://digital.library.mcgill.ca/countyatlas/hur-m-stephen.htm" 
+               class="flex items-center font-medium text-blue-600 hover:" target="_blank" title="View the Stephen Township Atlas from McGill University">
+                Explore Stephen Township Atlas
+                <svg class="w-2 h-2 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <div class="h-full w-full">
+        <img class="lazyload w-full h-full object-fill col-span-2 rounded-r-lg min-w-[160px]" 
+             alt="Stephen Township" 
+             data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0LAVdGCH6DshaCnsRf__FKhA34RhYG2bKA&s">
+    </div>
+</div>
+`
+      })
+    ); //
+  }
+}).addTo(map);  
+  
+// Cemetery Data (Created Manually)  
 const geojsonData = {
   "type": "FeatureCollection",
   "features": [
