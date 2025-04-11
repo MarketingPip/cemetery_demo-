@@ -9,7 +9,7 @@
 
 // Main Service Worker:
 // --------------------
-
+try{
 // Import Workbox lib (https://developers.google.com/web/tools/workbox/)
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js");
 
@@ -82,4 +82,7 @@ if (PWA_CONFIG.push.active) {
 // Import Notificationclick Service Worker
 if (PWA_CONFIG.push.notification.notificationclick.active) {
     importScripts(PWA_ROOT + '/sw/notificationclick-sw.js');
+}
+}catch(err){
+console.log(err.message);
 }
