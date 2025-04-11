@@ -154,11 +154,11 @@ const PWA_CONFIG = {
         //    '/page2.html',
             // '/page3.html', (not precached)
             '/index.html',
-            '/offline.html',
+        //    '/offline.html',
            // 'https://fonts.googleapis.com/icon?family=Material+Icons',
          //   'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css',
            // 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js',
-            './assets/pwa/pwa.js'
+            './assets/js/pwa/pwa.js'
         ],
     }
 }
