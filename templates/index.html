@@ -986,10 +986,10 @@ async function loadDatePicker() {
 
 async function loadAutoComplete(data) {
   const  { autocomp } = await import("https://esm.sh/@knadh/autocomp");
-  autocomp(document.querySelector("#q"), {
+  autocomp(document.querySelector("#surname"), {
 	onQuery: async (val) => {
 		// fetch() or whatever that fetches/generates results.
-		return data;
+		return [...data].filter(p => p.toLowerCase().includes(query.toLowerCase()));
 	},
 
 	onSelect: (val) => {
