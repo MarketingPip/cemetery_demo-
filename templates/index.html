@@ -1583,9 +1583,6 @@ map.on('popupclose', function (e) {
 
 // Update markers function
 function updateMarkers() {
-    if(_debounceCancel){
-     return
-    }
     const bounds = map.getBounds();
     markers.clearLayers();
 
@@ -1608,8 +1605,8 @@ function updateMarkers() {
 
 
 // Add debounced event listeners
-const debouncedUpdate = debounce(updateMarkers, 250);
-map.on('moveend', debouncedUpdate);
+//const debouncedUpdate = debounce(updateMarkers, 250);
+map.on('moveend', updateMarkers);
 
 // Initial setup
 map.addLayer(markers);
