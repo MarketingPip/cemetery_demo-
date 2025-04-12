@@ -951,25 +951,32 @@ html {
  
   
   <script type="module">
-function getLastNames(data) {
+function getNames(data, getFirst = false) {
   const suffixes = new Set(["jr", "sr", "ii", "iii", "iv", "v"]);
-  
+
   return new Set(
     data.map(entry => {
       if (!entry.name) return null;
 
-      // Split name into parts
       const parts = entry.name.trim().split(/\s+/);
 
-      // Get last non-suffix part
-      for (let i = parts.length - 1; i >= 0; i--) {
-        const word = parts[i].replace(/\./g, '').toLowerCase();
-        if (!suffixes.has(word)) {
-          return parts[i].replace(/[^a-zA-Z'-]/g, ''); // clean up weird characters
+      if (getFirst) {
+        // Find first actual name (skip initials like "H.")
+        for (let i = 0; i < parts.length; i++) {
+          const cleaned = parts[i].replace(/\./g, '');
+          if (cleaned.length > 1) return cleaned;
         }
+        return null;
+      } else {
+        // Get last non-suffix part
+        for (let i = parts.length - 1; i >= 0; i--) {
+          const word = parts[i].replace(/\./g, '').toLowerCase();
+          if (!suffixes.has(word)) {
+            return parts[i].replace(/[^a-zA-Z'-]/g, '');
+          }
+        }
+        return null;
       }
-
-      return null;
     }).filter(Boolean)
   );
 }
@@ -984,27 +991,28 @@ async function loadDatePicker() {
   const datepicker2 = new Datepicker(document.getElementById("year-to"), { pickLevel: 2, format: "yyyy" });
 }
 
-async function loadAutoComplete(data) {
-  const  { autocomp } = await import("https://esm.sh/@knadh/autocomp");
-  autocomp(document.querySelector("#surname"), {
-	onQuery: async (query) => {
-		// fetch() or whatever that fetches/generates results.
-		return [...data].filter(p => p.toLowerCase().startsWith(query.toLowerCase())).slice(0, 10);
-	},
+async function loadAutoComplete(lastNames, firstNames) {
+  const { autocomp } = await import("https://esm.sh/@knadh/autocomp");
 
-	onSelect: (val) => {
-		return val;
-	},
-  	onRender: (o) => {
-		 
+  const createAutoComplete = (selector, names) => {
+    autocomp(document.querySelector(selector), {
+      onQuery: async (query) =>
+        [...names].filter(name =>
+          name.toLowerCase().startsWith(query.toLowerCase())
+        ).slice(0, 10),
 
-			const d = document.createElement("span");
- 
-		    d.appendChild(document.createTextNode(o));
-		   
-		    return d;
-		}
-});
+      onSelect: (val) => val,
+
+      onRender: (name) => {
+        const el = document.createElement("span");
+        el.textContent = name;
+        return el;
+      }
+    });
+  };
+
+  createAutoComplete("#surname", lastNames);
+  createAutoComplete("#given-name", firstNames);
 }
 
  
@@ -1731,7 +1739,7 @@ getCemeteryData().then(data => {
     loadDatePicker();
     loadLeaflet();
     checkAndSetNameFromURL();
-    loadAutoComplete(getLastNames(records)); 
+    loadAutoComplete(getNames(records), getNames(records, true)); 
     //renderMap()
 });
 
