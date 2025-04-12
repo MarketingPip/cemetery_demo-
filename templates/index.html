@@ -989,7 +989,7 @@ async function loadAutoComplete(data) {
   autocomp(document.querySelector("#surname"), {
 	onQuery: async (query) => {
 		// fetch() or whatever that fetches/generates results.
-		return [...data].filter(p => p.toLowerCase().includes(query.toLowerCase()));
+		return [...data].filter(p => p.toLowerCase().startsWith(query.toLowerCase())).slice(0, 10);
 	},
 
 	onSelect: (val) => {
