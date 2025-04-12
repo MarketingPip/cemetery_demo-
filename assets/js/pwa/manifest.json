@@ -4,7 +4,7 @@
     "name": "Crediton Cemetery Heritage Portal",
     "display": "standalone",
     "scope": "/", 
-    "start_url": "/",
+    "start_url": "/cemetery_demo-/",
     "short_name": "Crediton Cemetery Heritage Portal",
     "description": "A platform for exploring and preserving the history of Crediton Cemetery.",
     "orientation": "any",
