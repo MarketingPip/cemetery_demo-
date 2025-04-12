@@ -72,27 +72,9 @@ if (workbox) {
 
 
 
-
-const offlineFallbackPage = PWA_CONFIG.sw.offline_route;
-
-
-self.addEventListener("install", (event) => {
-  event.waitUntil(
-    caches.open("static-cache").then((cache) => {
-      return cache.addAll([offlineFallbackPage]);
-    })
-  );
-});
-
 if (workbox.navigationPreload.isSupported()) {
   workbox.navigationPreload.enable();
 }
-
-self.addEventListener("fetch", (event) => {
-  event.respondWith(
-    fetch(event.request).catch(() => caches.match(offlineFallbackPage))
-  );
-});
 
     
 } else {
