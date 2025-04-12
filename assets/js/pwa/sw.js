@@ -11,7 +11,7 @@
 // --------------------
 try{
 // Import Workbox lib (https://developers.google.com/web/tools/workbox/)
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js");
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.6.1/workbox-sw.js');
 
 if (workbox) {
     // Workbox configs
