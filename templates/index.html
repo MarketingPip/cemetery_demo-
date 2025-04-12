@@ -1220,6 +1220,7 @@ function debounce(func, wait) {
     const fragment = document.createDocumentFragment();
 
     paginatedRecords.forEach(record => {
+//           <a href="https://www.findagrave.com/memorial/${record.memorial_url}" target="_blank">FindAGrave</a>
       const row = document.createElement('tr');
       row.innerHTML = `
         <td class="px-6 py-4">${record.name || 'N/A'}</td>
@@ -1228,7 +1229,6 @@ function debounce(func, wait) {
         <td class="px-6 py-4">${record.location || 'N/A'}</td>
         <td class="px-6 py-4">
           <a href="tribute?id=${record.id}" class="text-blue-600 hover:text-blue-800 mr-3">View Details</a>
-          <a href="https://www.findagrave.com/memorial/${record.memorial_url}" target="_blank">FindAGrave</a>
         </td>`;
       fragment.appendChild(row);
     });
