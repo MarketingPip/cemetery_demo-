@@ -155,8 +155,14 @@ const PWA_CONFIG = {
             // '/page3.html', (not precached)
             './',
           //  './offline/index.html',
+            'offline/index.html',
+             '/offline/index.html',
+            './offline/index.html',
+            '/assets/js/pwa/pwa.js',
+            'assets/js/pwa/pwa.js',
             './index.html',
       /*      './offline.html',
+             
             '/offline.html',
             './offline/',
             './about-us/',
