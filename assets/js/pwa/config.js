@@ -23,7 +23,7 @@ const PWA_CONFIG = {
         // Main service worker filepath (always root of project)
         filepath: './sw.js',
         // Route of offline page
-        offline_route: './offline/',
+        offline_route: './offline/index.html',
     },
 
     // Push manager config
@@ -154,7 +154,7 @@ const PWA_CONFIG = {
         //    '/page2.html',
             // '/page3.html', (not precached)
             './',
-            'offline.html',
+            './offline/index.html',
             './index.html',
             './offline.html',
             '/offline.html',
