@@ -154,9 +154,9 @@ const PWA_CONFIG = {
         //    '/page2.html',
             // '/page3.html', (not precached)
             './',
-            './offline/index.html',
+          //  './offline/index.html',
             './index.html',
-            './offline.html',
+      /*      './offline.html',
             '/offline.html',
             './offline/',
             './about-us/',
@@ -171,7 +171,7 @@ const PWA_CONFIG = {
             './privacy-policy/',
             './terms-of-service/',
             './deleted/',
-             './resources/tools',
+             './resources/tools', */ 
            // 'https://fonts.googleapis.com/icon?family=Material+Icons',
          //   'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css',
            // 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js',
