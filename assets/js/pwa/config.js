@@ -182,6 +182,8 @@ const PWA_CONFIG = {
            // 'https://fonts.googleapis.com/icon?family=Material+Icons',
          //   'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css',
            // 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js',
+            'https://marketingpip.github.io/cemetery_demo-/assets/js/pwa/pwa.js',
+            'https://marketingpip.github.io/cemetery_demo-/assets/js/pwa/sw.js',
             './assets/js/pwa/pwa.js',
             './sw.js'
         ],
