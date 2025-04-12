@@ -156,6 +156,8 @@ const PWA_CONFIG = {
             './',
             './index.html',
             './offline.html',
+            '/offline.html',
+            './offline/',
             './about-us/',
             './faq/',
             './resources/',
