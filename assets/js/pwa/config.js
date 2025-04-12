@@ -172,7 +172,7 @@ const PWA_CONFIG = {
            // 'https://fonts.googleapis.com/icon?family=Material+Icons',
          //   'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css',
            // 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js',
-            './assets/js/pwa/pwa.js'
+            './assets/js/pwa/pwa.js',
             './sw.js'
         ],
     }
