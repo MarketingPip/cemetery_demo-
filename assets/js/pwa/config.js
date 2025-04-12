@@ -21,9 +21,9 @@ const PWA_CONFIG = {
     // Service Worker config
     sw: {
         // Main service worker filepath (always root of project)
-        filepath: './sw.js',
+        filepath: 'https://marketingpip.github.io/cemetery_demo-/sw.js',
         // Route of offline page
-        offline_route: './offline/index.html',
+        offline_route: 'https://marketingpip.github.io/cemetery_demo-/offline/index.html',
     },
 
     // Push manager config
