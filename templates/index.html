@@ -1560,16 +1560,16 @@ function smoothLeafletDebounce() {
   _debounceTimeout = setTimeout(() => {
     _debounceCancel = false;
     _debounceTimeout = null; // Reset the timeout reference after it completes
-  }, 5000);
+  }, 1000);
 }
 
   
 markers.on('click', function (a) {
- //  smoothLeafletDebounce()
+   smoothLeafletDebounce()
 });
 
 markers.on('clusterclick', function (a) {
-   // smoothLeafletDebounce()
+    smoothLeafletDebounce()
 });
   
 // Popup open handler for lazy loading
@@ -1613,14 +1613,13 @@ function updateMarkers() {
 
 
 // Add debounced event listeners
-// const debouncedUpdate = debounce(updateMarkers, 250);
+//const debouncedUpdate = debounce(updateMarkers, 250);
 map.on('moveend', updateMarkers);
 
 // Initial setup
-//updateMarkers();	
 map.addLayer(markers);
 map.setView([43.29868, -81.55274], 13);
-
+updateMarkers();
 
  
 renderStephenGeoData(L, customOptions, map);
