@@ -1212,9 +1212,35 @@ function debounce(func, wait) {
   resultsBody.innerHTML = '';
 
   if (paginatedRecords.length === 0) {
-    resultsBody.innerHTML = `<tr><td colspan="6" class="px-6 py-4 text-center text-gray-500">No results found</td></tr>`;
+
+    !document.querySelector('.pagination').classList.contains('hidden') && document.querySelector('.pagination').classList.add('hidden');
+    resultsBody.innerHTML = `<tr>
+  <td colspan="6" class="px-6 py-4 text-center text-gray-500">
+    <div class="mb-4 text-xl font-semibold">No results found</div>
+    <p class="mb-6 text-lg text-gray-600">We couldn’t find any cemetery records matching your search criteria. Please consider the following tips to refine your search:</p>
+    
+    <ul class="list-disc pl-6 mb-4 text-left text-gray-500">
+      <li>Try different spellings or abbreviations of names.</li>
+      <li>Use variations for German names (e.g., 'Schmidt' vs. 'Schmitt').</li>
+      <li>Search for both singular and plural forms (e.g., 'Smith' and 'Smythe').</li>
+      <li>Consider phonetic variations (e.g., 'Fischer' vs. 'Fisher').</li>
+      <li>Try initials or nicknames if available (e.g., 'J. Smith' or 'Johnny').</li>
+    </ul>
+
+    <div class="mb-4 text-gray-600">
+      <p class="mb-2">You are currently viewing the results of your search. If you are still unable to find the record, please try broadening your search or using our tips above.</p>
+      
+    </div>
+  </td>
+</tr>`;
+   
     return;
   }
+
+ if (paginatedRecords.length != 0) {
+   document.querySelector('.pagination').classList.contains('hidden') && document.querySelector('.pagination').classList.remove('hidden');
+  }
+	    
 
   requestAnimationFrame(() => {
     const fragment = document.createDocumentFragment();
