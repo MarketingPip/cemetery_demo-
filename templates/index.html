@@ -1213,7 +1213,7 @@ function debounce(func, wait) {
 
   if (paginatedRecords.length === 0) {
 
-    !document.querySelector('.pagination').classList.contains('hidden') && document.querySelector('.pagination').classList.add('hidden');
+    !document.querySelector('#pagination').classList.contains('hidden') && document.querySelector('#pagination').classList.add('hidden');
     resultsBody.innerHTML = `<tr>
   <td colspan="6" class="px-6 py-4 text-center text-gray-500">
     <div class="mb-4 text-xl font-semibold">No results found</div>
@@ -1238,7 +1238,7 @@ function debounce(func, wait) {
   }
 
  if (paginatedRecords.length != 0) {
-   document.querySelector('.pagination').classList.contains('hidden') && document.querySelector('.pagination').classList.remove('hidden');
+   document.querySelector('#pagination').classList.contains('hidden') && document.querySelector('#pagination').classList.remove('hidden');
   }
 	    
 
