@@ -17,13 +17,13 @@ module Jekyll
         next unless author_name
 
         formatted_date = post.data['date'].strftime('%Y/%m/%d')
-        slug = post.data['title'].downcase.strip.gsub(/[^\w\-]+/, '-').gsub(/-+/, '-')
+        slug = post.data['title'].downcase.strip.gsub(/[^\w]+/, '-').gsub(/^-|-$/, '')
 
         post_info = {
           'title' => post.data['title'],
           'url' => "/blog/#{formatted_date}/#{slug}",
           'date' => post.data['date'].strftime('%Y-%m-%d'),
-          'excerpt' => escape_excerpt(post.data['excerpt'] || '')
+          'excerpt' => escape_excerpt(post.data['excerpt'].to_s || '')
         }
 
         update_author_file(site, authors_dir, author_name, post_info)
@@ -39,8 +39,7 @@ module Jekyll
     end
 
     def update_author_file(site, authors_dir, author_name, post_info)
-      slug = author_name.downcase.strip.gsub(/[^\w\-]+/, '-').gsub(/-+/, '-')
-      author_filename = "#{slug}.md"
+      author_filename = "#{author_name.downcase.strip.gsub(/\s+/, '-')}.md"
       author_path = File.join(authors_dir, author_filename)
 
       if File.exist?(author_path)
@@ -53,7 +52,7 @@ module Jekyll
 
           parsed_content = parsed[:content] || ''
           new_content = "---\n#{parsed[:data].to_yaml}---\n#{parsed_content}"
-          
+
           Jekyll.logger.info "Writing to #{author_path}: #{new_content[0..100]}..."
           File.write(author_path, new_content)
           Jekyll.logger.info "Updated file for author: #{author_name}"
@@ -68,12 +67,10 @@ module Jekyll
     end
 
     def update_site_data(site, filename, data, content)
-      doc_basename = File.basename(filename, '.md')
-      existing_doc = site.collections['authors'].docs.find { |d| d.basename == doc_basename }
-
-      if existing_doc
-        existing_doc.data.merge!(data)
-        existing_doc.content = content || ''
+      doc = site.collections['authors'].docs.find { |d| d.basename == File.basename(filename, '.md') }
+      if doc
+        doc.data.merge!(data)
+        doc.content = content || ''
         Jekyll.logger.info "Updated in-memory doc for #{filename}"
       else
         new_doc = Jekyll::Document.new(
@@ -89,12 +86,7 @@ module Jekyll
     end
 
     def create_author_file(site, author_path, author_name, post_info)
-      slug = author_name.downcase.strip.gsub(/[^\w\-]+/, '-').gsub(/-+/, '-')
-      yaml_data = {
-        'name' => author_name,
-        'posts' => [post_info]
-      }
-      content = "---\n#{yaml_data.to_yaml}---\n"
+      content = "---\nname: #{author_name}\nposts:\n  - #{post_info.to_yaml.sub('---', '').strip}\n---\n"
       File.write(author_path, content)
       Jekyll.logger.info "Created new author file for: #{author_name} at #{author_path}"
 
