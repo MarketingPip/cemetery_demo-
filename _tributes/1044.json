@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15660778/rosena-sweitzer",
+  "name": "Rosena Kuhn Sweitzer",
+  "birth_date": "1849-03-14",
+  "death_date": "1931-07-03",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Daughter of Hannah (Sherk) and John Kuhn. Wife of Jacob Sweitzer",
+  "bio": "Daughter of Hannah (Sherk) and John Kuhn. Wife of Jacob Sweitzer",
+  "gps": {
+    "latitude": "43.2983247",
+    "longitude": "-81.552476"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/249/15660778_115769091265.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Jacob   Sweitzer",
+      "birth_date": "1848-00-00",
+      "death_date": "1925-00-00",
+      "profile_url": "/memorial/15660752/jacob-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/249/15660752_115769063103.jpg?size=photos250",
+      "id": 1031
+    }
+  ],
+  "children": "[{\"name\": \"Edward William   Sweitzer\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1957-00-00\", \"profile_url\": \"/memorial/15660853/edward_william-sweitzer\"}, {\"name\": \"Joseph   Sweitzer\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1885-00-00\", \"profile_url\": \"/memorial/15660572/joseph-sweitzer\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "row 1-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Kuhn",
+  "inscription": "",
+  "id": 1044,
+  "slug": "rosena-kuhn-sweitzer-1044"
+}

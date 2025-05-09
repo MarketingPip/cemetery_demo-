@@ -1,0 +1,46 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/126802314/lilly-ann-winer",
+  "name": "Lilly Ann Winer",
+  "birth_date": "",
+  "death_date": "1901-12-10",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "MATHEW WINER DIED MAR 26, 1910\nAGED 71 YRS. 9 MOS<br/>HIS WIFE MARY SCHULTZ<br/>DIED JUNE 2, 1911<br/>AGED 72 YRS. 2 MOS<br/>THEIR DAU LILLY ANN<br/>DIED DEC 10, 1901<br/>AGED 20 YRS. 9 MOS<br/>Gone But Not Forgotten</br>",
+  "gps": {
+    "latitude": "43.2984847",
+    "longitude": "-81.5523045"
+  },
+  "image_url": "https://images.findagrave.com/photos/2014/81/126802314_1395631292.jpg?size=photos250",
+  "image_credits": "Kmclean",
+  "image_credits_url": "/user/profile/47620333",
+  "parents": [
+    {
+      "name": "Mathew   Winer",
+      "birth_date": "1838-00-00",
+      "death_date": "1910-00-00",
+      "profile_url": "/memorial/80330804/mathew-winer",
+      "image_url": "https://images.findagrave.com/photos/2011/315/80330804_132116326782.jpg?size=photos250",
+      "id": 1177
+    },
+    {
+      "name": "Mary D  Schultz Winer",
+      "birth_date": "1838-00-00",
+      "death_date": "1911-00-00",
+      "profile_url": "/memorial/80331143/mary_d-winer",
+      "image_url": "https://images.findagrave.com/photos/2011/315/80331143_132116413135.jpg?size=photos250",
+      "id": 1176
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Paul   Winer\", \"birth_date\": \"1858-00-00\", \"death_date\": \"1943-00-00\", \"profile_url\": \"/memorial/80329543/paul-winer\"}, {\"name\": \"Christina  Winer Link\", \"birth_date\": \"1860-00-00\", \"death_date\": \"1935-00-00\", \"profile_url\": \"/memorial/111609632/christina-link\"}, {\"name\": \"Mary A.  Winer Dick\", \"birth_date\": \"1862-00-00\", \"death_date\": \"1925-00-00\", \"profile_url\": \"/memorial/35779216/mary_a-dick\"}, {\"name\": \"Anna Jane  Winer Jones\", \"birth_date\": \"1864-00-00\", \"death_date\": \"1952-00-00\", \"profile_url\": \"/memorial/164646311/anna_jane-jones\"}, {\"name\": \"John   Weiner\", \"birth_date\": \"1865-00-00\", \"death_date\": \"1942-00-00\", \"profile_url\": \"/memorial/99467895/john-weiner\"}, {\"name\": \"William Edward   Winer\", \"birth_date\": \"1868-00-00\", \"death_date\": \"1948-00-00\", \"profile_url\": \"/memorial/15804132/william_edward-winer\"}, {\"name\": \"Frank Wesley   Winer\", \"birth_date\": \"1871-00-00\", \"death_date\": \"1945-00-00\", \"profile_url\": \"/memorial/165236119/frank_wesley-winer\"}, {\"name\": \"Ida  Winer Hohmeier\", \"birth_date\": \"1875-00-00\", \"death_date\": \"1951-00-00\", \"profile_url\": \"/memorial/152188653/ida-hohmeier\"}, {\"name\": \"C Nelson   Winer\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1954-00-00\", \"profile_url\": \"/memorial/163509312/c_nelson-winer\"}, {\"name\": \"Eliza  Winer Link\", \"birth_date\": null, \"death_date\": \"1937-00-00\", \"profile_url\": \"/memorial/111519468/eliza-link\"}]",
+  "half_siblings": "[]",
+  "plot_value": "2-12",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "MATHEW WINER DIED MAR 26, 1910AGED 71 YRS. 9 MOSHIS WIFE MARY SCHULTZDIED JUNE 2, 1911AGED 72 YRS. 2 MOSTHEIR DAU LILLY ANNDIED DEC 10, 1901AGED 20 YRS. 9 MOSGone But Not Forgotten",
+  "id": 1175
+}

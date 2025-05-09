@@ -1,0 +1,56 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15662423/eva-wein",
+  "name": "Eva Fahner Wein",
+  "birth_date": "1847-08-15",
+  "death_date": "1921-01-10",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Daughter of Margaretha (Braun) and Tobia Fahrner",
+  "bio": "WEIN\nSON<br/>JOHN. F. WEIN<br/>1879-1946<br/>HIS WIFE MARY M. FINKBEINER<br/>1879-1958<br/>HENRY WEIN <br/>BORN MAY 25, 1881<br/>DIED AUG. 18, 1908<br/>MATHEW WEIN<br/>DIED MAY 7, 1912<br/>AGED 75 YRS. 4 DS.<br/>HIS WIFE EVA FAHNER<br/>DIED JAN. 10, 1912<br/>AGED 73 YRS. 4 MOS. 26 DS.<br/>SAMUEL WEIN<br/>1887-1964<br/>JOSEPH WEIN <br/>1883-1968<br/>GORDON L. PASCOE<br/>1910-1986</br>",
+  "gps": {
+    "latitude": "43.2984855",
+    "longitude": "-81.5526561"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/250/15662423_115772131125.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Tobias   Fahner Sr",
+      "birth_date": "1819-00-00",
+      "death_date": "1903-00-00",
+      "profile_url": "/memorial/188037157/tobias-fahner",
+      "image_url": "https://images.findagrave.com/photos/2025/69/188037157_21191506-68f9-4427-ab53-ec0f5f8196ef.jpeg?size=photos250",
+      "id": 233
+    },
+    {
+      "name": "Margretha   Fahner",
+      "birth_date": "1825-00-00",
+      "death_date": "1862-00-00",
+      "profile_url": "/memorial/239124397/margretha-fahner",
+      "image_url": "https://images.findagrave.com/photos/2025/69/239124397_7c6ced6a-3fae-4c1d-9adc-fa9bf6305500.jpeg?size=photos250",
+      "id": 226
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Mathew   Wein",
+      "birth_date": "1837-00-00",
+      "death_date": "1912-00-00",
+      "profile_url": "/memorial/15662334/mathew-wein",
+      "image_url": "https://images.findagrave.com/photos/2006/250/15662334_115772009245.jpg?size=photos250",
+      "id": 1140
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "row 1-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Fahner",
+  "inscription": "WEINSONJOHN. F. WEIN1879-1946HIS WIFE MARY M. FINKBEINER1879-1958HENRY WEIN BORN MAY 25, 1881DIED AUG. 18, 1908MATHEW WEINDIED MAY 7, 1912AGED 75 YRS. 4 DS.HIS WIFE EVA FAHNERDIED JAN. 10, 1912AGED 73 YRS. 4 MOS. 26 DS.SAMUEL WEIN1887-1964JOSEPH WEIN 1883-1968GORDON L. PASCOE1910-1986",
+  "id": 1116,
+  "slug": "eva-fahner-wein-1116"
+}

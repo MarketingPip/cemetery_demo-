@@ -1,0 +1,53 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15571819/george-michael-finkbeiner",
+  "name": "George Michael Finkbeiner",
+  "birth_date": "1880-08-24",
+  "death_date": "1938-07-04",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Annie (Schwartz) and Jacob Finkbeiner",
+  "bio": "Son of Annie (Schwartz) and Jacob Finkbeiner",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/243/15571819_115711971049.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Jacob   Finkbeiner",
+      "birth_date": "1852-00-00",
+      "death_date": "1933-00-00",
+      "profile_url": "/memorial/16668101/jacob-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/318/16668101_116365245517.jpg?size=photos250",
+      "id": 321
+    },
+    {
+      "name": "Anna  Schwartz Finkbeiner",
+      "birth_date": "1858-00-00",
+      "death_date": "1925-00-00",
+      "profile_url": "/memorial/16668283/anna-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/318/16668283_116365377843.jpg?size=photos250",
+      "id": 273
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Mary Isabella  Amy Finkbeiner",
+      "birth_date": "1883-00-00",
+      "death_date": "1962-00-00",
+      "profile_url": "/memorial/15571842/mary_isabella-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2008/137/26884197_121103884346.jpg?size=photos250",
+      "id": 348
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 16-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 305,
+  "slug": "george-michael-finkbeiner-305"
+}

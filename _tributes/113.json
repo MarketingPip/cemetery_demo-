@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/235702559/justina-brown",
+  "name": "Justina Brown",
+  "birth_date": "1832-00-00",
+  "death_date": "1900-05-25",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "BROWN\nSamuel Brown<br/>died Nov. 11, 1916<br/>aged 59 yrs. 3 mos. 29 ds<br/>his wife<br/>Florina Siebert<br/>died June 29, 1948<br/>aged 85 yrs. 6 mos. 9 ds.<br/>Irwin Roy Brown<br/>died Sept. 14, 1852<br/>aged 6 yrs. 7 mos.<br/>Justina<br/>wife of Charles Brown<br/>died May 25, 1900<br/>aged 68 yrs. 1 mo. 18 ds.<br/>Charles Brown<br/>died June 20, 1905<br/>aged 72 yrs. 13 ds.<br/>their son Jonathan<br/>died July 25, 1867<br/>ae 5 yrs. 11 mos. 14 ds.</br>",
+  "gps": {
+    "latitude": "43.2982775",
+    "longitude": "-81.5523903"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/110/235702559_c7b842e3-930b-4b92-9c19-391064990f7f.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Charles   Brown",
+      "birth_date": "1833-00-00",
+      "death_date": "1905-00-00",
+      "profile_url": "/memorial/188035790/charles-brown",
+      "image_url": "https://images.findagrave.com/photos/2022/110/188035790_acb6fe1e-f540-4fbf-a921-9edaf841fb62.jpeg?size=photos250",
+      "id": 90
+    }
+  ],
+  "children": "[{\"name\": \"Samuel   Brown\", \"birth_date\": \"1859-00-00\", \"death_date\": \"1916-00-00\", \"profile_url\": \"/memorial/188035997/samuel-brown\"}, {\"name\": \"Jonathan   Brown\", \"birth_date\": \"1861-00-00\", \"death_date\": \"1867-00-00\", \"profile_url\": \"/memorial/235702702/jonathan-brown\"}, {\"name\": \"Aaron   Braun\", \"birth_date\": \"1863-00-00\", \"death_date\": \"1947-00-00\", \"profile_url\": \"/memorial/215892310/aaron-braun\"}, {\"name\": \"Rev Edward Caleb   Braun\", \"birth_date\": \"1870-00-00\", \"death_date\": \"1936-00-00\", \"profile_url\": \"/memorial/65361572/edward_caleb-braun\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "row 1-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "BROWNSamuel Browndied Nov. 11, 1916aged 59 yrs. 3 mos. 29 dshis wifeFlorina Siebertdied June 29, 1948aged 85 yrs. 6 mos. 9 ds.Irwin Roy Browndied Sept. 14, 1852aged 6 yrs. 7 mos.Justinawife of Charles Browndied May 25, 1900aged 68 yrs. 1 mo. 18 ds.Charles Browndied June 20, 1905aged 72 yrs. 13 ds.their son Jonathandied July 25, 1867ae 5 yrs. 11 mos. 14 ds.",
+  "id": 113,
+  "slug": "justina-brown-113"
+}

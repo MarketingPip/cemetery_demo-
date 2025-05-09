@@ -1,0 +1,56 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/176218955/william-henry-ratz",
+  "name": "William Henry Ratz",
+  "birth_date": "1880-11-23",
+  "death_date": "1957-11-10",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": {
+    "latitude": "43.2985347",
+    "longitude": "-81.552012"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/83/176218955_4b34a73c-113b-461f-9e9a-012cea5bc446.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "John   Ratz",
+      "birth_date": "1853-00-00",
+      "death_date": "1942-00-00",
+      "profile_url": "/memorial/16550765/john-ratz",
+      "image_url": "https://images.findagrave.com/photos/2006/311/16550765_116299802309.jpg?size=photos250",
+      "id": 870
+    },
+    {
+      "name": "Barbara  Finkbeiner Ratz",
+      "birth_date": "1854-00-00",
+      "death_date": "1924-00-00",
+      "profile_url": "/memorial/16550802/barbara-ratz",
+      "image_url": "https://images.findagrave.com/photos/2006/311/16550802_116299825561.jpg?size=photos250",
+      "id": 858
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Lavina  Fahner Ratz",
+      "birth_date": "1884-00-00",
+      "death_date": "1960-00-00",
+      "profile_url": "/memorial/176219048/lavina-ratz",
+      "image_url": "https://images.findagrave.com/photos/2022/83/176219048_51cba7cb-49a4-4239-bb2c-d7d4b35f2931.jpeg?size=photos250",
+      "id": 873
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "20-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 882,
+  "slug": "william-henry-ratz-882"
+}

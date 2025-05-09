@@ -1,0 +1,61 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15580255/mabel-fahrner",
+  "name": "Mabel Wenzel Fahrner",
+  "birth_date": "1895-00-00",
+  "death_date": "1983-06-09",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "BERG-FAHRNER\nf.s. FATHER MOTHER</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/244/15580255_115720080729.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "William Henry   Wenzel",
+      "birth_date": "1857-00-00",
+      "death_date": "1924-00-00",
+      "profile_url": "/memorial/70676033/william_henry-wenzel",
+      "image_url": "https://images.findagrave.com/photos/2013/267/70676033_138016423803.jpg?size=photos250",
+      "id": 1153
+    },
+    {
+      "name": "Mary Ann  Eilber Wenzel",
+      "birth_date": "1860-00-00",
+      "death_date": "1945-00-00",
+      "profile_url": "/memorial/117647896/mary_ann-wenzel",
+      "image_url": "https://images.findagrave.com/photos/2013/267/117647896_138016880966.jpg?size=photos250",
+      "id": 1152
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Herbert   Fahrner",
+      "birth_date": "1892-00-00",
+      "death_date": "1966-00-00",
+      "profile_url": "/memorial/15580249/herbert-fahrner",
+      "image_url": "https://images.findagrave.com/photos/2006/244/15580249_115720073938.jpg?size=photos250",
+      "id": 249
+    },
+    {
+      "name": "Alvernia  Haist Hill",
+      "birth_date": "1897-00-00",
+      "death_date": "1984-00-00",
+      "profile_url": "/memorial/15580216/alvernia-hill",
+      "image_url": "https://images.findagrave.com/photos/2006/244/15580216_115720034050.jpg?size=photos250",
+      "id": 542
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 16-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2025/65/15580255_96a1bb8f-932b-4ff3-96d3-3881417baafe.jpeg?size=photos250', 'contributor_text': 'Kimberly Fraser', 'contributor_href': 'https://www.findagrave.com/user/profile/46863018'}]",
+  "maiden_name": "Wenzel",
+  "inscription": "BERG-FAHRNERf.s. FATHER MOTHER",
+  "id": 253,
+  "slug": "mabel-wenzel-fahrner-253"
+}

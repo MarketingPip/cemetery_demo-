@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/238051794/w-john-bierling",
+  "name": "W. John Bierling",
+  "birth_date": "1949-07-17",
+  "death_date": "2019-03-26",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "Charmaine Schenk Bierling\nJune 23, 1950 - Feb. 22, 2010<br/>W. John Bierling<br/>July 17, 1949-Mar. 26, 2019</br>",
+  "gps": {
+    "latitude": "43.298679",
+    "longitude": "-81.552832"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/86/238051794_42f793db-e853-4afb-8718-ec159a481dc4.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Charmaine  Schenk Bierling",
+      "birth_date": "1950-00-00",
+      "death_date": "2010-00-00",
+      "profile_url": "/memorial/48858506/charmaine-bierling",
+      "image_url": "https://images.findagrave.com/photos/2018/209/48858506_28bea99e-91f6-48f3-9ce1-134a4675a240.jpeg?size=photos250",
+      "id": 60
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "Charmaine Schenk BierlingJune 23, 1950 - Feb. 22, 2010W. John BierlingJuly 17, 1949-Mar. 26, 2019",
+  "id": 61,
+  "slug": "w-john-bierling-61"
+}

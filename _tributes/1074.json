@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188138331/hannah-trick",
+  "name": "Hannah Sweitzer Trick",
+  "birth_date": "1861-00-00",
+  "death_date": "1938-06-14",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "In memory of Hannah Sweitzer\nwife of Christian Trick<br/>died June 14, 1938<br/>ae 76 yrs. 10 mos.<br/>Christian Trick<br/>died Oct. 6, 1941<br/>ae 80 yrs. 8 mos.</br>",
+  "gps": {
+    "latitude": "43.2984641",
+    "longitude": "-81.5525317"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/112/188138331_59836d43-545a-4c2b-a3b8-b30be4c566c8.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Christian   Trick",
+      "birth_date": "1861-00-00",
+      "death_date": "1941-00-00",
+      "profile_url": "/memorial/188138321/christian-trick",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188138321_95a943db-4992-436d-a61e-8ca67f08acb5.jpeg?size=photos250",
+      "id": 1073
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "6-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Sweitzer",
+  "inscription": "In memory of Hannah Sweitzerwife of Christian Trickdied June 14, 1938ae 76 yrs. 10 mos.Christian Trickdied Oct. 6, 1941ae 80 yrs. 8 mos.",
+  "id": 1074,
+  "slug": "hannah-sweitzer-trick-1074"
+}

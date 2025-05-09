@@ -1,0 +1,46 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188035776/adolph-brown",
+  "name": "Adolph Brown",
+  "birth_date": "1857-11-16",
+  "death_date": "1866-02-24",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "BROWN\nIn memory of Adam Brown<br/>born Jan. 11, 1813-died July 22, 1869<br/>Margaret his wife<br/>born July 19, 1821-died May 15, 1906<br/>Adolph<br/>born Nov. 16, 1857-died Feb. 24, 1866<br/>(back)Charles <br/>born Mar. 11, 1863-died Dec. 24, 1893<br/>Wm. H. Brown<br/>1860-1947</br>",
+  "gps": {
+    "latitude": "43.298564",
+    "longitude": "-81.5528708"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/112/188035776_12f295cc-3e3c-4f81-92b8-1192951f12b5.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Adam   Brown",
+      "birth_date": "1813-00-00",
+      "death_date": "1869-00-00",
+      "profile_url": "/memorial/188035758/adam-brown",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188035758_50305662-16e4-4471-8a06-c6df3cfe48f9.jpeg?size=photos250",
+      "id": 85
+    },
+    {
+      "name": "Margaret   Brown",
+      "birth_date": "1821-00-00",
+      "death_date": "1906-00-00",
+      "profile_url": "/memorial/239125707/margaret-brown",
+      "image_url": "https://images.findagrave.com/photos/2022/112/239125707_19664399-86ea-41a3-8038-5c339c02619e.jpeg?size=photos250",
+      "id": 114
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"William H.   Brown\", \"birth_date\": \"1860-00-00\", \"death_date\": \"1947-00-00\", \"profile_url\": \"/memorial/188036013/william_h-brown\"}, {\"name\": \"Charles   Brown\", \"birth_date\": \"1863-00-00\", \"death_date\": \"1893-00-00\", \"profile_url\": \"/memorial/188035798/charles-brown\"}]",
+  "half_siblings": "[]",
+  "plot_value": "Row 7-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "BROWNIn memory of Adam Brownborn Jan. 11, 1813-died July 22, 1869Margaret his wifeborn July 19, 1821-died May 15, 1906Adolphborn Nov. 16, 1857-died Feb. 24, 1866(back)Charles born Mar. 11, 1863-died Dec. 24, 1893Wm. H. Brown1860-1947",
+  "id": 86
+}

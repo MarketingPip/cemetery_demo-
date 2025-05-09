@@ -1,0 +1,56 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15662677/john-f-wein",
+  "name": "John F. Wein",
+  "birth_date": "1879-01-20",
+  "death_date": "1946-04-28",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Eva (Fahrner) and Mathew Wein",
+  "bio": "WEIN\nSON<br/>JOHN. F. WEIN<br/>1879-1946<br/>HIS WIFE MARY M. FINKBEINER<br/>1879-1958<br/>HENRY WEIN <br/>BORN MAY 25, 1881<br/>DIED AUG. 18, 1908<br/>MATHEW WEIN<br/>DIED MAY 7, 1912<br/>AGED 75 YRS. 4 DS.<br/>HIS WIFE EVA FAHNER<br/>DIED JAN. 10, 1912<br/>AGED 73 YRS. 4 MOS. 26 DS.<br/>SAMUEL WEIN<br/>1887-1964<br/>JOSEPH WEIN <br/>1883-1968<br/>GORDON L. PASCOE<br/>1910-1986</br>",
+  "gps": {
+    "latitude": "43.2984737",
+    "longitude": "-81.5527891"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/250/15662677_115772409609.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Mathew   Wein",
+      "birth_date": "1837-00-00",
+      "death_date": "1912-00-00",
+      "profile_url": "/memorial/15662334/mathew-wein",
+      "image_url": "https://images.findagrave.com/photos/2006/250/15662334_115772009245.jpg?size=photos250",
+      "id": 1140
+    },
+    {
+      "name": "Eva  Fahner Wein",
+      "birth_date": "1847-00-00",
+      "death_date": "1921-00-00",
+      "profile_url": "/memorial/15662423/eva-wein",
+      "image_url": "https://images.findagrave.com/photos/2006/250/15662423_115772131125.jpg?size=photos250",
+      "id": 1116
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Mary Magdalena  Finkbeiner Wein",
+      "birth_date": "1879-00-00",
+      "death_date": "1958-00-00",
+      "profile_url": "/memorial/15662687/mary_magdalena-wein",
+      "image_url": "https://images.findagrave.com/photos/2006/250/15662687_115772429923.jpg?size=photos250",
+      "id": 1139
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "row 1-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "WEINSONJOHN. F. WEIN1879-1946HIS WIFE MARY M. FINKBEINER1879-1958HENRY WEIN BORN MAY 25, 1881DIED AUG. 18, 1908MATHEW WEINDIED MAY 7, 1912AGED 75 YRS. 4 DS.HIS WIFE EVA FAHNERDIED JAN. 10, 1912AGED 73 YRS. 4 MOS. 26 DS.SAMUEL WEIN1887-1964JOSEPH WEIN 1883-1968GORDON L. PASCOE1910-1986",
+  "id": 1125,
+  "slug": "john-f-wein-1125"
+}

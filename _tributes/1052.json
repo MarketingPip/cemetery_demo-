@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15134357/wray-william-sweitzer",
+  "name": "Wray William Sweitzer",
+  "birth_date": "1917-00-00",
+  "death_date": "1988-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/214/15134357_115461487298.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Madeline G.  Rundle Sweitzer",
+      "birth_date": "1923-00-00",
+      "death_date": "2021-00-00",
+      "profile_url": "/memorial/238053388/madeline_g-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2022/86/238053388_078e2edd-2465-4e94-8267-52d20c292a05.jpeg?size=photos250",
+      "id": 1039
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2022/86/15134357_d888643b-9c72-45d1-9cb9-f93a8c30ed6f.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 1052,
+  "slug": "wray-william-sweitzer-1052"
+}

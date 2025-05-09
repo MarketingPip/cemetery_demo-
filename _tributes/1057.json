@@ -1,0 +1,53 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188138132/lydia-luella-taylor",
+  "name": "Lydia \"Luella\" Gower Taylor",
+  "birth_date": "1908-04-12",
+  "death_date": "2003-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Member of Exeter United Church",
+  "bio": "Member of Exeter United Church",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/182/188138132_0797c1e7-9685-47d2-b0d7-1187b56e8cd8.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Isaac Henry   Gower",
+      "birth_date": "1883-00-00",
+      "death_date": "1965-00-00",
+      "profile_url": "/memorial/15563690/isaac_henry-gower",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563690_115703718263.jpg?size=photos250",
+      "id": 451
+    },
+    {
+      "name": "Mary  Pfaff Gower",
+      "birth_date": "1886-00-00",
+      "death_date": "1988-00-00",
+      "profile_url": "/memorial/15563745/mary-gower",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563745_115703768465.jpg?size=photos250",
+      "id": 453
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Ross Denison   Taylor",
+      "birth_date": "1906-00-00",
+      "death_date": "1982-00-00",
+      "profile_url": "/memorial/188138140/ross_denison-taylor",
+      "image_url": "https://images.findagrave.com/photos/2022/83/188138140_fa386dfa-05ed-43e3-894c-a8c0a61a6776.jpeg?size=photos250",
+      "id": 1058
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 17-11",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2022/179/188138132_1fbf111f-562e-4398-9c47-e5cfdb9d85fa.jpeg?size=photos250', 'contributor_text': 'Lisa Michelle Taylor', 'contributor_href': 'https://www.findagrave.com/user/profile/51089523'}, {'src': 'https://images.findagrave.com/photos/2022/83/188138132_4497c2d4-16fa-469f-9002-b1fce945ec74.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}]",
+  "maiden_name": "Gower",
+  "inscription": "",
+  "id": 1057,
+  "slug": "lydia-luella-gower-taylor-1057"
+}

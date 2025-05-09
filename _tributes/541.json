@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15135257/robert-bruce-hilborn",
+  "name": "Robert Bruce Hilborn",
+  "birth_date": "1927-07-04",
+  "death_date": "1975-07-28",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Frieda (Gillrie) and Seth Hilborn, husband to Pauline Joan Faist",
+  "bio": "Son of Frieda (Gillrie) and Seth Hilborn, husband to Pauline Joan Faist",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/214/15135257_115461867026.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Seth Milne Lundy   Hilborn",
+      "birth_date": "1888-00-00",
+      "death_date": "1965-00-00",
+      "profile_url": "/memorial/132001435/seth_milne_lundy-hilborn"
+    },
+    {
+      "name": "Frieda Ardell  Gillrie Hilborn",
+      "birth_date": "1890-00-00",
+      "death_date": "1967-00-00",
+      "profile_url": "/memorial/132000459/frieda_ardell-hilborn"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Howard Douglas Gillrie \\\"Doug\\\"  Hilborn\", \"birth_date\": \"1929-00-00\", \"death_date\": \"2017-00-00\", \"profile_url\": \"/memorial/179428899/howard_douglas_gillrie-hilborn\"}]",
+  "half_siblings": "[]",
+  "plot_value": "Row 23-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 541
+}

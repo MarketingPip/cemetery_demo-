@@ -1,0 +1,52 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/80331143/mary-d-winer",
+  "name": "Mary D Schultz Winer",
+  "birth_date": "1838-05-19",
+  "death_date": "1911-06-02",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Mrs. Mary Winer, who has been spending the past few months at the home of her daughter, Mrs. David Jones, northeast of the village, dropped dead in the yard Friday morning as the result of an attack of apoplexy. The deceased was 73 years of age and came here from her home in Crediton, Ontario. The remains were taken to that place Saturday and were accompanied by Mrs. Jones and Wesley Winer, a son of the deceased.www.sandusky.lib.mi.ushistoric obituaries Contributor: Terri (Haupt) Huizenga (48881555) • [email protected]",
+  "bio": "MATHEW WINER DIED MAR 26, 1910<br/>AGED 71 YRS. 9 MOS<br/>HIS WIFE MARY SCHULTZ<br/>DIED JUNE 2, 1911<br/>AGED 72 YRS. 2 MOS<br/>THEIR DAU LILLY ANN<br/>DIED DEC 10, 1901<br/>AGED 20 YRS. 9 MOS<br/>Gone But Not Forgotten",
+  "gps": {
+    "latitude": "43.2984847",
+    "longitude": "-81.5522616"
+  },
+  "image_url": "https://images.findagrave.com/photos/2011/315/80331143_132116413135.jpg?size=photos250",
+  "image_credits": "Kmclean",
+  "image_credits_url": "/user/profile/47620333",
+  "parents": [
+    {
+      "name": "Christopher   Schultz",
+      "birth_date": "1801-00-00",
+      "death_date": "1883-00-00",
+      "profile_url": "/memorial/164167472/christopher-schultz"
+    },
+    {
+      "name": "Mary   Schultz",
+      "birth_date": null,
+      "death_date": "1894-00-00",
+      "profile_url": "/memorial/164167471/mary-schultz"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Mathew   Winer",
+      "birth_date": "1838-00-00",
+      "death_date": "1910-00-00",
+      "profile_url": "/memorial/80330804/mathew-winer",
+      "image_url": "https://images.findagrave.com/photos/2011/315/80330804_132116326782.jpg?size=photos250",
+      "id": 1177
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "2-12",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2019/194/80331143_efb46c2d-5517-4dd7-8a2f-a75e21a55095.png?size=photos250', 'contributor_text': 'Terri (Haupt) Huizenga', 'contributor_href': 'https://www.findagrave.com/user/profile/48881555'}, {'src': 'https://images.findagrave.com/photos/2011/315/80331143_132116418452.jpg?size=photos250', 'contributor_text': 'Kmclean', 'contributor_href': 'https://www.findagrave.com/user/profile/47620333'}]",
+  "maiden_name": "Schultz",
+  "inscription": "MATHEW WINER DIED MAR 26, 1910AGED 71 YRS. 9 MOSHIS WIFE MARY SCHULTZDIED JUNE 2, 1911AGED 72 YRS. 2 MOSTHEIR DAU LILLY ANNDIED DEC 10, 1901AGED 20 YRS. 9 MOSGone But Not Forgotten",
+  "id": 1176,
+  "slug": "mary-d-schultz-winer-1176"
+}

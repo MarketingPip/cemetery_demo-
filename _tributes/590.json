@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15473126/matilda-dena-humble",
+  "name": "Matilda Dena Finkbeiner Humble",
+  "birth_date": "1882-03-18",
+  "death_date": "1926-03-19",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Daughter of Catherine (Haist) and Mathew Finkbeiner",
+  "bio": "Daughter of Catherine (Haist) and Mathew Finkbeiner",
+  "gps": {
+    "latitude": "43.2983784",
+    "longitude": "-81.5521408"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/234/15473126_115634778094.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "John Alvin   Humble",
+      "birth_date": "1878-00-00",
+      "death_date": "1953-00-00",
+      "profile_url": "/memorial/15473164/john_alvin-humble",
+      "image_url": "https://images.findagrave.com/photos/2006/234/15473164_115634792701.jpg?size=photos250",
+      "id": 589
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "1-8",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Finkbeiner",
+  "inscription": "",
+  "id": 590,
+  "slug": "matilda-dena-finkbeiner-humble-590"
+}

@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/238053388/madeline-g-sweitzer",
+  "name": "Madeline G. Rundle Sweitzer",
+  "birth_date": "1923-00-00",
+  "death_date": "2021-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "SWEITZER\nWray W. Sweitzer<br/>1917-1988<br/>beloved husband of<br/>Madeline G. Rundle<br/>1923-2021<br/>in loving memory</br>",
+  "gps": {
+    "latitude": "43.2985853",
+    "longitude": "-81.5530036"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/86/238053388_078e2edd-2465-4e94-8267-52d20c292a05.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Wray William   Sweitzer",
+      "birth_date": "1917-00-00",
+      "death_date": "1988-00-00",
+      "profile_url": "/memorial/15134357/wray_william-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/214/15134357_115461487298.jpg?size=photos250",
+      "id": 1052
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Rundle",
+  "inscription": "SWEITZERWray W. Sweitzer1917-1988beloved husband ofMadeline G. Rundle1923-2021in loving memory",
+  "id": 1039,
+  "slug": "madeline-g-rundle-sweitzer-1039"
+}

@@ -1,0 +1,53 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15707356/henry-motz",
+  "name": "Henry Motz",
+  "birth_date": "1834-05-10",
+  "death_date": "1913-02-13",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Sophia (Beaver) and Jacob Motz",
+  "bio": "MOTZ\nTrueman Uriah<br/>son of J.S. &amp; L. Motz<br/>born Jan. 1, 1904<br/>died April 1, 1905<br/>Josiah Motz<br/>born 1874<br/>died 1944<br/>his wife Lucy E. Heywood<br/>born 1876<br/>died 1948<br/>MOTZ<br/>Henry Motz<br/>born May 10, 1834<br/>died Feb. 13, 1913<br/>his wife Wilhelimina<br/>born Sept. 28, 1837<br/>died Aug. 18, 1881<br/>his wife Elizabeth<br/>born Oct. 27, 1847<br/>died Dec. 27, 1888<br/>May they rest in peace</br>",
+  "gps": {
+    "latitude": "43.2984804",
+    "longitude": "-81.5526367"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/254/15707356_115806921114.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Wilhelmina  Schnepf Motz",
+      "birth_date": "1836-00-00",
+      "death_date": "1881-00-00",
+      "profile_url": "/memorial/15707447/wilhelmina-motz",
+      "image_url": "https://images.findagrave.com/photos/2006/254/15707447_115807245278.jpg?size=photos250",
+      "id": 775
+    },
+    {
+      "name": "Elizabeth  Porter Motz",
+      "birth_date": "1847-00-00",
+      "death_date": "1888-00-00",
+      "profile_url": "/memorial/15707995/elizabeth-motz",
+      "image_url": "https://images.findagrave.com/photos/2022/283/15707995_91dd27a6-25cc-4a26-83c8-8fa7755418cc.jpeg?size=photos250",
+      "id": 768
+    },
+    {
+      "name": "Harriet P.   Moat",
+      "birth_date": null,
+      "death_date": "1855-00-00",
+      "profile_url": "/memorial/241591159/harriet_p-moat"
+    }
+  ],
+  "children": "[{\"name\": \"Henry   Moat\", \"birth_date\": \"1855-00-00\", \"death_date\": \"1855-00-00\", \"profile_url\": \"/memorial/241591160/henry-moat\"}, {\"name\": \"Henry   Motz\", \"birth_date\": \"1861-00-00\", \"death_date\": \"1939-00-00\", \"profile_url\": \"/memorial/16626938/henry-motz\"}, {\"name\": \"Henry   Motz\", \"birth_date\": \"1862-00-00\", \"death_date\": \"1952-00-00\", \"profile_url\": \"/memorial/8095661/henry-motz\"}, {\"name\": \"William   Motz\", \"birth_date\": \"1864-00-00\", \"death_date\": \"1948-00-00\", \"profile_url\": \"/memorial/8094448/william-motz\"}, {\"name\": \"Henrietta  Motz Wurtz\", \"birth_date\": \"1866-00-00\", \"death_date\": \"1933-00-00\", \"profile_url\": \"/memorial/8063565/henrietta-wurtz\"}, {\"name\": \"Jeremiah   Motz\", \"birth_date\": \"1870-00-00\", \"death_date\": \"1928-00-00\", \"profile_url\": \"/memorial/8092210/jeremiah-motz\"}, {\"name\": \"Josiah S.   Motz\", \"birth_date\": \"1872-00-00\", \"death_date\": \"1944-00-00\", \"profile_url\": \"/memorial/15708092/josiah_s-motz\"}, {\"name\": \"Henry   Moatz\", \"birth_date\": null, \"death_date\": \"1860-00-00\", \"profile_url\": \"/memorial/249006995/henry-moatz\"}, {\"name\": \"Henry   Moatz\", \"birth_date\": null, \"death_date\": \"1861-00-00\", \"profile_url\": \"/memorial/249007026/henry-moatz\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "2-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "MOTZTrueman Uriahson of J.S. & L. Motzborn Jan. 1, 1904died April 1, 1905Josiah Motzborn 1874died 1944his wife Lucy E. Heywoodborn 1876died 1948MOTZHenry Motzborn May 10, 1834died Feb. 13, 1913his wife Wilheliminaborn Sept. 28, 1837died Aug. 18, 1881his wife Elizabethborn Oct. 27, 1847died Dec. 27, 1888May they rest in peace",
+  "id": 770,
+  "slug": "henry-motz-770"
+}

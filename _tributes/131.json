@@ -1,0 +1,55 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188036125/james-brooks-cleave",
+  "name": "James Brooks “Jim” Cleave",
+  "birth_date": "1921-00-00",
+  "death_date": "2003-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "CLEAVE\nBELOVED HUSBAND OF <br/>BETH COX ATTFIELD<br/>LOVING FATHER OF BARRY HARVEY AND MARILYN</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/117/188036125_6264a680-3d6e-4afd-8615-10d472522aac.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Paul   Cleave",
+      "birth_date": "1880-00-00",
+      "death_date": "1975-00-00",
+      "profile_url": "/memorial/241207857/paul-cleave"
+    },
+    {
+      "name": "Florellinor  Watson Cleave",
+      "birth_date": "1891-00-00",
+      "death_date": "1981-00-00",
+      "profile_url": "/memorial/241980759/florellinor-cleave"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Phyllis Mae  White Gethke",
+      "birth_date": "1927-00-00",
+      "death_date": "2007-00-00",
+      "profile_url": "/memorial/198944214/phyllis_mae-gethke"
+    },
+    {
+      "name": "Mary Elizabeth \"Beth\" Cox Attfield Cleave",
+      "birth_date": "1925-00-00",
+      "death_date": "2023-00-00",
+      "profile_url": "/memorial/257286546/mary_elizabeth-attfield_cleave",
+      "image_url": "https://images.findagrave.com/photos/2023/214/257286546_6417c1ef-58e3-44bc-9cec-bc6b0dfeedc2.jpeg?size=photos250",
+      "id": 6
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "CLEAVEBELOVED HUSBAND OF BETH COX ATTFIELDLOVING FATHER OF BARRY HARVEY AND MARILYN",
+  "id": 131,
+  "slug": "james-brooks-jim-cleave-131"
+}

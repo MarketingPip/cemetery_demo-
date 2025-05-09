@@ -1,0 +1,53 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15638798/aaron-wein",
+  "name": "Aaron Wein",
+  "birth_date": "1890-10-24",
+  "death_date": "1973-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Veronica (Haist) and Gottfried Wein",
+  "bio": "Son of Veronica (Haist) and Gottfried Wein",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/248/15638798_115755040181.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Gottfried   Wein",
+      "birth_date": "1861-00-00",
+      "death_date": "1949-00-00",
+      "profile_url": "/memorial/36941679/gottfried-wein",
+      "image_url": "https://images.findagrave.com/photos/2022/84/36941679_ae205c0d-720a-4b59-9831-f377865ce2a4.jpeg?size=photos250",
+      "id": 1121
+    },
+    {
+      "name": "Veronica  Haist Wein",
+      "birth_date": "1871-00-00",
+      "death_date": "1954-00-00",
+      "profile_url": "/memorial/237943128/veronica-wein",
+      "image_url": "https://images.findagrave.com/photos/2022/84/237943128_d96bfbbf-5714-4765-867b-7811c870958b.jpeg?size=photos250",
+      "id": 1147
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Cora Rosina  Truemner Wein",
+      "birth_date": "1895-00-00",
+      "death_date": "1994-00-00",
+      "profile_url": "/memorial/15638846/cora_rosina-wein",
+      "image_url": "https://images.findagrave.com/photos/2006/248/15638846_115755062627.jpg?size=photos250",
+      "id": 1110
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 14-9",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 1105,
+  "slug": "aaron-wein-1105"
+}

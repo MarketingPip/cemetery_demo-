@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188138119/james-w-tate",
+  "name": "James W. Tate",
+  "birth_date": "1902-00-00",
+  "death_date": "1942-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/117/188138119_46629cdc-1458-4af5-ba2a-b51cd193bc6c.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Beatrice  Schenk Tate",
+      "birth_date": "1907-00-00",
+      "death_date": "2000-00-00",
+      "profile_url": "/memorial/188138110/beatrice-tate",
+      "image_url": "https://images.findagrave.com/photos/2022/117/188138110_898724c9-7501-4e13-8237-4d9831f0f4fd.jpeg?size=photos250",
+      "id": 1055
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 19-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 1056,
+  "slug": "james-w-tate-1056"
+}

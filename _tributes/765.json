@@ -1,0 +1,49 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/16627087/bertha-elizabeth-motz",
+  "name": "Bertha Elizabeth Horney Motz",
+  "birth_date": "1899-05-08",
+  "death_date": "1969-01-27",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Daughter of Mary (Balsden) and Charles Horney",
+  "bio": "Daughter of Mary (Balsden) and Charles Horney",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/315/16627087_116339469705.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Charles Henry   Horney",
+      "birth_date": "1850-00-00",
+      "death_date": "1924-00-00",
+      "profile_url": "/memorial/16576670/charles_henry-horney"
+    },
+    {
+      "name": "Mary Jane  Balsden Horney",
+      "birth_date": "1858-00-00",
+      "death_date": "1922-00-00",
+      "profile_url": "/memorial/16576671/mary_jane-horney"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "William John   Motz",
+      "birth_date": "1893-00-00",
+      "death_date": "1970-00-00",
+      "profile_url": "/memorial/16627045/william_john-motz",
+      "image_url": "https://images.findagrave.com/photos/2006/315/16627045_116339441937.jpg?size=photos250",
+      "id": 776
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 11-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Horney",
+  "inscription": "",
+  "id": 765,
+  "slug": "bertha-elizabeth-horney-motz-765"
+}

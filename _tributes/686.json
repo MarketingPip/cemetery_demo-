@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/158033845/john-macdonald",
+  "name": "John MacDonald",
+  "birth_date": "1878-00-00",
+  "death_date": "1952-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Husband of Clara Wenzel.",
+  "bio": "Husband of Clara Wenzel.",
+  "gps": {
+    "latitude": "43.2996528",
+    "longitude": "-81.5533667"
+  },
+  "image_url": "https://images.findagrave.com/photos/2018/209/158033845_86177e06-1806-48a1-bfe6-f45a28b0af03.jpeg?size=photos250",
+  "image_credits": "rossddickson",
+  "image_credits_url": "/user/profile/49188008",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Clara  Wenzel MacDonald",
+      "birth_date": "1885-00-00",
+      "death_date": "1943-00-00",
+      "profile_url": "/memorial/158033806/clara-macdonald",
+      "image_url": "https://images.findagrave.com/photos/2018/209/158033806_bd07104b-5bd6-41a2-a137-96f2f2baf427.jpeg?size=photos250",
+      "id": 683
+    }
+  ],
+  "children": "[{\"name\": \"Frederick   MacDonald\", \"birth_date\": \"1914-00-00\", \"death_date\": \"1981-00-00\", \"profile_url\": \"/memorial/188115017/frederick-macdonald\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 16, Lot 4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 686,
+  "slug": "john-macdonald-686"
+}

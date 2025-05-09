@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188035910/ellen-brown",
+  "name": "Ellen Fremlin Brown",
+  "birth_date": "1920-00-00",
+  "death_date": "2000-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "BROWN",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/83/188035910_73d2ad48-5670-432d-9748-825d4b3a3a39.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Frederich Charles   Brown",
+      "birth_date": "1918-00-00",
+      "death_date": "1978-00-00",
+      "profile_url": "/memorial/188035936/frederich_charles-brown",
+      "image_url": "https://images.findagrave.com/photos/2022/83/188035936_14d3d4b1-1c9a-45ff-acdb-4286651a1b34.jpeg?size=photos250",
+      "id": 102
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 24-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Fremlin",
+  "inscription": "BROWN",
+  "id": 98,
+  "slug": "ellen-fremlin-brown-98"
+}

@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/16627202/mary-e-gaiser",
+  "name": "Mary E Truemner Gaiser",
+  "birth_date": "1860-00-00",
+  "death_date": "1936-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "2nd wife of Jacob Gaiser. A hand written transcription of their marriage has her parents names on it, but it is hard to read; may read \"Wigand Truemner and Mary Treihert\". It is marriage record #007298-98",
+  "bio": "2nd wife of Jacob Gaiser. A hand written transcription of their marriage has her parents names on it, but it is hard to read; may read \"Wigand Truemner and Mary Treihert\". It is marriage record #007298-98",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/315/16627202_116339671662.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Jacob   Gaiser",
+      "birth_date": "1854-00-00",
+      "death_date": "1928-00-00",
+      "profile_url": "/memorial/16627163/jacob-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2006/315/16627163_116339589912.jpg?size=photos250",
+      "id": 405
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 12-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Truemner",
+  "inscription": "",
+  "id": 417,
+  "slug": "mary-e-truemner-gaiser-417"
+}

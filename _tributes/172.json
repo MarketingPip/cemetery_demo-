@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/231229920/catherine-eilber",
+  "name": "Catherine Eilber",
+  "birth_date": "1833-06-12",
+  "death_date": "1919-07-20",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "EILBER\nMother<br/>Catherine <br/>wife of Christopher Eilber<br/>died July 20, 1919<br/>aged 86 yrs. 1 mon. 8 days<br/>Caroline <br/>wife of Daniel Sweitzer<br/>1864-1922</br>",
+  "gps": {
+    "latitude": "43.2998389",
+    "longitude": "-81.5541833"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/51/231229920_95412efe-ad76-42a3-bab5-256e69219142.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Christopher Friederich   Eilber",
+      "birth_date": "1830-00-00",
+      "death_date": "1919-00-00",
+      "profile_url": "/memorial/188036509/christopher_friederich-eilber",
+      "image_url": "https://images.findagrave.com/photos/2021/153/188036509_262efeac-17c1-4975-8efa-a2910f9e1839.jpeg?size=photos250",
+      "id": 174
+    }
+  ],
+  "children": "[{\"name\": \"Caroline  Eilber Sweitzer\", \"birth_date\": \"1864-00-00\", \"death_date\": \"1922-00-00\", \"profile_url\": \"/memorial/231230083/caroline-sweitzer\"}, {\"name\": \"Emma  Eilber Uncer\", \"birth_date\": \"1875-00-00\", \"death_date\": \"1950-00-00\", \"profile_url\": \"/memorial/231230160/emma-uncer\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "5-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "EILBERMotherCatherine wife of Christopher Eilberdied July 20, 1919aged 86 yrs. 1 mon. 8 daysCaroline wife of Daniel Sweitzer1864-1922",
+  "id": 172,
+  "slug": "catherine-eilber-172"
+}

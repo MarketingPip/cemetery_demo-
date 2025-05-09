@@ -1,0 +1,56 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188037238/elizabeth-ann-faist",
+  "name": "Elizabeth Ann Wuerth Faist",
+  "birth_date": "1875-09-08",
+  "death_date": "1967-09-25",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "FAIST\nG. Ezra Faist<br/>1871-1956<br/>his wife Elizabeth Wuerth<br/>1875-1967</br>",
+  "gps": {
+    "latitude": "43.2984277",
+    "longitude": "-81.552476"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/112/188037238_144281c0-6333-4ead-bc81-b237c881be7c.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Frederick John   Wuerth",
+      "birth_date": "1842-00-00",
+      "death_date": "1927-00-00",
+      "profile_url": "/memorial/15848394/frederick_john-wuerth",
+      "image_url": "https://images.findagrave.com/photos/2006/264/15848394_115893799546.jpg?size=photos250",
+      "id": 1198
+    },
+    {
+      "name": "Wilhelmina  Wolfe Wuerth",
+      "birth_date": "1848-00-00",
+      "death_date": "1930-00-00",
+      "profile_url": "/memorial/15848446/wilhelmina-wuerth",
+      "image_url": "https://images.findagrave.com/photos/2006/264/15848446_115893837408.jpg?size=photos250",
+      "id": 1205
+    }
+  ],
+  "spouses": [
+    {
+      "name": "George Ezra   Faist",
+      "birth_date": "1871-00-00",
+      "death_date": "1956-00-00",
+      "profile_url": "/memorial/188037270/george_ezra-faist",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188037270_97d09466-c3ee-4493-bdf3-c07d49a9177b.jpeg?size=photos250",
+      "id": 261
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "6-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Wuerth",
+  "inscription": "FAISTG. Ezra Faist1871-1956his wife Elizabeth Wuerth1875-1967",
+  "id": 259,
+  "slug": "elizabeth-ann-wuerth-faist-259"
+}

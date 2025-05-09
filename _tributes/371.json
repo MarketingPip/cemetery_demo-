@@ -1,0 +1,53 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15554551/william-henry-finkbeiner",
+  "name": "William Henry Finkbeiner",
+  "birth_date": "1879-12-16",
+  "death_date": "1950-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Caroline (Schweitzer) and Michael Finkbeiner",
+  "bio": "Son of Caroline (Schweitzer) and Michael Finkbeiner",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/241/15554551_115695119240.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Michael   Finkbeiner",
+      "birth_date": "1854-00-00",
+      "death_date": "1929-00-00",
+      "profile_url": "/memorial/16581719/michael-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/312/16581719_116313941901.jpg?size=photos250",
+      "id": 352
+    },
+    {
+      "name": "Caroline  Sweitzer Finkbeiner",
+      "birth_date": "1855-00-00",
+      "death_date": "1908-00-00",
+      "profile_url": "/memorial/16581734/caroline-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/312/16581734_116313974467.jpg?size=photos250",
+      "id": 281
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Ida Lily  Treitz Finkbeiner",
+      "birth_date": "1884-00-00",
+      "death_date": "1959-00-00",
+      "profile_url": "/memorial/15554622/ida_lily-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15554622_115695159894.jpg?size=photos250",
+      "id": 312
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 17-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 371,
+  "slug": "william-henry-finkbeiner-371"
+}

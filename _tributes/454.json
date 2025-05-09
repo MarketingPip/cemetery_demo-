@@ -1,0 +1,56 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15563013/milton-isaac-gower",
+  "name": "Milton Isaac Gower",
+  "birth_date": "1912-00-00",
+  "death_date": "1986-08-25",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Mary (Pfaff) and Issac Gower",
+  "bio": "Son of Mary (Pfaff) and Issac Gower",
+  "gps": {
+    "latitude": "43.2988427",
+    "longitude": "-81.5525746"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/242/15563013_115703062900.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Isaac Henry   Gower",
+      "birth_date": "1883-00-00",
+      "death_date": "1965-00-00",
+      "profile_url": "/memorial/15563690/isaac_henry-gower",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563690_115703718263.jpg?size=photos250",
+      "id": 451
+    },
+    {
+      "name": "Mary  Pfaff Gower",
+      "birth_date": "1886-00-00",
+      "death_date": "1988-00-00",
+      "profile_url": "/memorial/15563745/mary-gower",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563745_115703768465.jpg?size=photos250",
+      "id": 453
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Marjorie K.  Kleinfeldt Gower",
+      "birth_date": "1915-00-00",
+      "death_date": "1971-00-00",
+      "profile_url": "/memorial/15563034/marjorie_k-gower",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563034_115703073973.jpg?size=photos250",
+      "id": 452
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 454,
+  "slug": "milton-isaac-gower-454"
+}

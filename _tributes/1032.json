@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15650824/john-sweitzer",
+  "name": "John Sweitzer",
+  "birth_date": "1859-08-23",
+  "death_date": "1919-05-01",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Fredericke and Henry Schweitzer",
+  "bio": "SWEITZER\nJohn Sweitzer<br/>born Aug. 23, 1859<br/>died May 1, 1919<br/>his wife Magdalena Wein<br/>born May 19, 1889<br/>died Oct. 30, 1951<br/>GONE BUT NOT FORGOTTEN</br>",
+  "gps": {
+    "latitude": "43.2985375",
+    "longitude": "-81.552699"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/249/15650824_115764528749.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Magdalena  Wein Sweitzer",
+      "birth_date": "1869-00-00",
+      "death_date": "1951-00-00",
+      "profile_url": "/memorial/15650838/magdalena-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/249/15650838_115764541827.jpg?size=photos250",
+      "id": 1040
+    }
+  ],
+  "children": "[{\"name\": \"Garnet William   Sweitzer\", \"birth_date\": \"1892-00-00\", \"death_date\": \"1968-00-00\", \"profile_url\": \"/memorial/15650873/garnet_william-sweitzer\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "2-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "SWEITZERJohn Sweitzerborn Aug. 23, 1859died May 1, 1919his wife Magdalena Weinborn May 19, 1889died Oct. 30, 1951GONE BUT NOT FORGOTTEN",
+  "id": 1032,
+  "slug": "john-sweitzer-1032"
+}

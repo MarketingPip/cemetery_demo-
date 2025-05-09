@@ -1,0 +1,53 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15563745/mary-gower",
+  "name": "Mary Pfaff Gower",
+  "birth_date": "1886-07-21",
+  "death_date": "1988-01-05",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Daughter of Elizabeth (Schmidt) and Henry Pfaff",
+  "bio": "Daughter of Elizabeth (Schmidt) and Henry Pfaff",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/242/15563745_115703768465.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Heinrich C. \"Henry\"  Pfaff",
+      "birth_date": "1859-00-00",
+      "death_date": "1937-00-00",
+      "profile_url": "/memorial/188136423/heinrich_c-pfaff",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188136423_91991804-c11c-455c-9fbe-1753341c1f3d.jpeg?size=photos250",
+      "id": 837
+    },
+    {
+      "name": "Elizabeth  Schmidt Pfaff",
+      "birth_date": "1859-00-00",
+      "death_date": "1947-00-00",
+      "profile_url": "/memorial/188136414/elizabeth-pfaff",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188136414_21ab87b8-dfb6-4f59-9f69-41b06ad3bb8e.jpeg?size=photos250",
+      "id": 833
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Isaac Henry   Gower",
+      "birth_date": "1883-00-00",
+      "death_date": "1965-00-00",
+      "profile_url": "/memorial/15563690/isaac_henry-gower",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563690_115703718263.jpg?size=photos250",
+      "id": 451
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Pfaff",
+  "inscription": "",
+  "id": 453,
+  "slug": "mary-pfaff-gower-453"
+}

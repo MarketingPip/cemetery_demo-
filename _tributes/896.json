@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188136574/charles-roeszler",
+  "name": "Charles Roeszler",
+  "birth_date": "1861-00-00",
+  "death_date": "1938-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/116/188136574_9a075863-ffb7-4d9d-af34-c0597e791771.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Mary  Wilhelm Roeszler",
+      "birth_date": "1870-00-00",
+      "death_date": "1948-00-00",
+      "profile_url": "/memorial/188136601/mary-roeszler",
+      "image_url": "https://images.findagrave.com/photos/2022/116/188136601_660b7392-c19d-4cb3-99bc-321dd54b82e8.jpeg?size=photos250",
+      "id": 906
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 18-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 896,
+  "slug": "charles-roeszler-896"
+}

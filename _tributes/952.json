@@ -1,0 +1,60 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188136813/john-kaatz-schroeder",
+  "name": "John Kaatz Schroeder",
+  "birth_date": "1866-06-06",
+  "death_date": "1944-07-24",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "SCHROEDER\nIn Memory of<br/>Caroline Schroeder<br/>died Jan. 21, 1898<br/>aged 31 yrs. 7 mos. 21 ds.<br/>In Memory of Gideon Yaeger<br/>died Mar. 26, 1889<br/>Ae 29 yrs. 9 mos.<br/>John K. Schroeder<br/>1866-1944<br/>his wife Louise Wind<br/>1870-1952<br/>also 2 f.s<br/>John K. Schroeder<br/>1866-1944<br/>Louise Wind Schroeder<br/>1870-1952</br>",
+  "gps": {
+    "latitude": "43.29995",
+    "longitude": "-81.5538861"
+  },
+  "image_url": "https://images.findagrave.com/photos/2024/118/188136813_87856b6f-95f9-4e9a-846d-ed7e820373b2.jpeg?size=photos250",
+  "image_credits": "FamilyResearcher",
+  "image_credits_url": "/user/profile/48029857",
+  "parents": [
+    {
+      "name": "Gottlieb   Schroeder",
+      "birth_date": "1834-00-00",
+      "death_date": "1907-00-00",
+      "profile_url": "/memorial/73696507/gottlieb-schroeder"
+    },
+    {
+      "name": "Louisa  Kaatz Schroeder",
+      "birth_date": "1835-00-00",
+      "death_date": "1925-00-00",
+      "profile_url": "/memorial/73697014/louisa-schroeder"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Caroline  Wind Schroeder",
+      "birth_date": "1866-00-00",
+      "death_date": "1898-00-00",
+      "profile_url": "/memorial/236179654/caroline-schroeder",
+      "image_url": "https://images.findagrave.com/photos/2024/103/236179654_138c9b45-2b33-4e6e-a91d-1d9f22cfcf9e.jpeg?size=photos250",
+      "id": 945
+    },
+    {
+      "name": "Louise  Wind Schroeder",
+      "birth_date": "1870-00-00",
+      "death_date": "1952-00-00",
+      "profile_url": "/memorial/188136815/louise-schroeder",
+      "image_url": "https://images.findagrave.com/photos/2021/153/188136815_640c6573-919c-4c37-a9a9-ede4fb1226a2.jpeg?size=photos250",
+      "id": 954
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "4-5",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2021/153/188136813_fc094923-f87e-47f1-8cd7-04b12df464e2.jpeg?size=photos250', 'contributor_text': 'Kathleen Hodgins', 'contributor_href': 'https://www.findagrave.com/user/profile/47390529'}, {'src': 'https://images.findagrave.com/photos/2021/153/188136813_4e49a973-a689-44e7-a432-8fe002e2a979.jpeg?size=photos250', 'contributor_text': 'Kathleen Hodgins', 'contributor_href': 'https://www.findagrave.com/user/profile/47390529'}, {'src': 'https://images.findagrave.com/photos/2021/153/188136813_d73a977b-2ca2-4e4c-a3be-a296e662aa26.jpeg?size=photos250', 'contributor_text': 'Kathleen Hodgins', 'contributor_href': 'https://www.findagrave.com/user/profile/47390529'}, {'src': 'https://images.findagrave.com/photos/2021/153/188136813_0e78f329-5ba8-464b-94d8-a35afecc008c.jpeg?size=photos250', 'contributor_text': 'Kathleen Hodgins', 'contributor_href': 'https://www.findagrave.com/user/profile/47390529'}, {'src': 'https://images.findagrave.com/photos/2022/311/188136813_b325064d-a77d-46ea-b898-a8c6a4331a10.png?size=photos250', 'contributor_text': 'Cay Bauman', 'contributor_href': 'https://www.findagrave.com/user/profile/49821024'}, {'src': 'https://images.findagrave.com/photos/2020/315/188136813_3621d344-7cc5-41ba-87dc-646dc0cab13a.png?size=photos250', 'contributor_text': 'Charles Riend', 'contributor_href': 'https://www.findagrave.com/user/profile/46537097'}, {'src': 'https://images.findagrave.com/photos/2022/111/188136813_ddf6189d-d793-48fb-b8c2-b7f499fa1efb.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}]",
+  "maiden_name": "",
+  "inscription": "SCHROEDERIn Memory ofCaroline Schroederdied Jan. 21, 1898aged 31 yrs. 7 mos. 21 ds.In Memory of Gideon Yaegerdied Mar. 26, 1889Ae 29 yrs. 9 mos.John K. Schroeder1866-1944his wife Louise Wind1870-1952also 2 f.sJohn K. Schroeder1866-1944Louise Wind Schroeder1870-1952",
+  "id": 952,
+  "slug": "john-kaatz-schroeder-952"
+}

@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188136494/helen-evelyn-ratz",
+  "name": "Helen Evelyn McLinchey Ratz",
+  "birth_date": "1917-00-00",
+  "death_date": "1989-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "RATZ\nGordon Jacob Ratz<br/>born 1915 died 1976<br/>beloved husband of<br/>Helen Verlyn McLinchey<br/>1917-1989</br>",
+  "gps": {
+    "latitude": "43.2985687",
+    "longitude": "-81.5525875"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/86/188136494_43d3f671-0c7a-4aa5-abd5-be034da35748.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Gordon Jacob   Ratz",
+      "birth_date": "1915-00-00",
+      "death_date": "1976-00-00",
+      "profile_url": "/memorial/188136491/gordon_jacob-ratz",
+      "image_url": "https://images.findagrave.com/photos/2022/86/188136491_d4714686-0172-4fe6-b3ab-cb4c5466bdb0.jpeg?size=photos250",
+      "id": 865
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 27-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "McLinchey",
+  "inscription": "RATZGordon Jacob Ratzborn 1915 died 1976beloved husband ofHelen Verlyn McLinchey1917-1989",
+  "id": 868,
+  "slug": "helen-evelyn-mclinchey-ratz-868"
+}

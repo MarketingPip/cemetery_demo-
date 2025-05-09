@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188138539/emma-webb",
+  "name": "Emma Wein Webb",
+  "birth_date": "1887-01-25",
+  "death_date": "1965-02-04",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": {
+    "latitude": "43.29967",
+    "longitude": "-81.5533"
+  },
+  "image_url": "https://images.findagrave.com/photos/2018/209/188138539_1f86ae58-9fc4-4b9d-939b-a0367282331c.jpeg?size=photos250",
+  "image_credits": "rossddickson",
+  "image_credits_url": "/user/profile/49188008",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "James Henry   Webb",
+      "birth_date": "1887-00-00",
+      "death_date": "1939-00-00",
+      "profile_url": "/memorial/188138551/james_henry-webb",
+      "image_url": "https://images.findagrave.com/photos/2018/209/188138551_9710f6ca-6935-45cd-9aee-55b327f633e8.jpeg?size=photos250",
+      "id": 1101
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 16-5",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Wein",
+  "inscription": "",
+  "id": 1100,
+  "slug": "emma-wein-webb-1100"
+}

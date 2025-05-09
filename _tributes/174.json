@@ -1,0 +1,56 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188036509/christopher-friederich-eilber",
+  "name": "Christopher Friederich Eilber",
+  "birth_date": "1830-01-22",
+  "death_date": "1919-09-19",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "EILBER\nFather<br/>Christopher Eilber<br/>died Set. 7, 1919<br/>aged 89 yrs. 7 mos. 15 days.<br/>Emma Eilber Unger <br/>1875-1950</br>",
+  "gps": {
+    "latitude": "43.2998675",
+    "longitude": "-81.5542425"
+  },
+  "image_url": "https://images.findagrave.com/photos/2021/153/188036509_262efeac-17c1-4975-8efa-a2910f9e1839.jpeg?size=photos250",
+  "image_credits": "Kathleen Hodgins",
+  "image_credits_url": "/user/profile/47390529",
+  "parents": [
+    {
+      "name": "Johann Frederich   Eilber",
+      "birth_date": "1791-00-00",
+      "death_date": "1875-00-00",
+      "profile_url": "/memorial/188036570/johann_frederich-eilber",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188036570_1e86420a-9b5a-44da-be09-797ff0ef4212.jpeg?size=photos250",
+      "id": 188
+    },
+    {
+      "name": "Magdalena  Gaiser Eilber",
+      "birth_date": "1807-00-00",
+      "death_date": "1864-00-00",
+      "profile_url": "/memorial/236915839/magdalena-eilber",
+      "image_url": "https://images.findagrave.com/photos/2022/112/236915839_c8ed9038-5455-4510-b997-d6995c494a22.jpeg?size=photos250",
+      "id": 192
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Catherine   Eilber",
+      "birth_date": "1833-00-00",
+      "death_date": "1919-00-00",
+      "profile_url": "/memorial/231229920/catherine-eilber",
+      "image_url": "https://images.findagrave.com/photos/2022/51/231229920_95412efe-ad76-42a3-bab5-256e69219142.jpeg?size=photos250",
+      "id": 172
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "5-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "EILBERFatherChristopher Eilberdied Set. 7, 1919aged 89 yrs. 7 mos. 15 days.Emma Eilber Unger 1875-1950",
+  "id": 174,
+  "slug": "christopher-friederich-eilber-174"
+}

@@ -1,0 +1,53 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15640086/freeman-wesley-morlock",
+  "name": "Freeman Wesley Morlock",
+  "birth_date": "1888-08-31",
+  "death_date": "1967-09-02",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Lydia (Haist) and William Morlock",
+  "bio": "Son of Lydia (Haist) and William Morlock",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/248/15640086_115755811388.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "William H.   Morlock",
+      "birth_date": "1862-00-00",
+      "death_date": "1948-00-00",
+      "profile_url": "/memorial/15978472/william_h-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/275/15978472_115988713587.jpg?size=photos250",
+      "id": 762
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Addileen (Muriel)  Gaiser Morlock",
+      "birth_date": "1901-00-00",
+      "death_date": "1986-00-00",
+      "profile_url": "/memorial/15640203/addileen_(muriel)-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/248/15640203_115755898081.jpg?size=photos250",
+      "id": 720
+    },
+    {
+      "name": "Clara  Wein Morlock",
+      "birth_date": "1895-00-00",
+      "death_date": "1922-00-00",
+      "profile_url": "/memorial/15640157/clara-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/248/15640157_115755865464.jpg?size=photos250",
+      "id": 729
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 14-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 736,
+  "slug": "freeman-wesley-morlock-736"
+}

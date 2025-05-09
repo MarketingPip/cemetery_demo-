@@ -1,0 +1,46 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188136673/edward-allen-schenk",
+  "name": "Edward Allen Schenk",
+  "birth_date": "1927-00-00",
+  "death_date": "1986-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": {
+    "latitude": "43.2984409",
+    "longitude": "-81.5523985"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/117/188136673_a78dbb11-c550-466f-9527-15fcda282705.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Hugo   Schenk",
+      "birth_date": "1894-00-00",
+      "death_date": "1979-00-00",
+      "profile_url": "/memorial/188136689/hugo-schenk",
+      "image_url": "https://images.findagrave.com/photos/2022/117/188136689_20af06b2-ad10-4d8b-b11d-62877af647df.jpeg?size=photos250",
+      "id": 925
+    },
+    {
+      "name": "Marion  Dowdell Schenk",
+      "birth_date": "1906-00-00",
+      "death_date": "1992-00-00",
+      "profile_url": "/memorial/188136697/marion-schenk",
+      "image_url": "https://images.findagrave.com/photos/2022/117/188136697_041a0a0d-4f60-4232-af8f-4c6eb48df445.jpeg?size=photos250",
+      "id": 928
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 19-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2022/117/188136673_eee78253-7b46-4285-b4eb-7e9509532c5c.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 918
+}

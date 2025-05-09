@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15638477/william-michael-schwartz",
+  "name": "William Michael Schwartz",
+  "birth_date": "1897-01-31",
+  "death_date": "1986-12-06",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Louisa (Haist) and Jacob Schwartz",
+  "bio": "Son of Louisa (Haist) and Jacob Schwartz",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/248/15638477_115754744060.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Alma Louise  Finkbeiner Schwartz",
+      "birth_date": "1900-00-00",
+      "death_date": "1987-00-00",
+      "profile_url": "/memorial/15638449/alma_louise-schwartz",
+      "image_url": "https://images.findagrave.com/photos/2006/248/15638449_115754723512.jpg?size=photos250",
+      "id": 958
+    }
+  ],
+  "children": "[{\"name\": \"Claire Milton   Schwartz\", \"birth_date\": \"1934-00-00\", \"death_date\": \"2006-00-00\", \"profile_url\": \"/memorial/41013822/claire_milton-schwartz\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 15-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 962,
+  "slug": "william-michael-schwartz-962"
+}

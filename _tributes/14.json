@@ -1,0 +1,47 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15790995/christian-beaver",
+  "name": "Christian Beaver",
+  "birth_date": "1846-12-22",
+  "death_date": "1928-05-26",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Christina (Prescadore?) and Phillip Beaver, married Amelia Parsons on Jan 1 1873. He died in Toronto General Hospital of pneumonia",
+  "bio": "In Memory of\nAmelia Jane<br/>wife of Christian Beaver<br/>died Jan. 2, 1902<br/>aged 47 yrs. 5 mos. 2 ds.<br/>Christian Beaver<br/>died May 26, 1928<br/>aged 81 yrs. 5 mos. 4 ds.<br/>BEAVER</br>",
+  "gps": {
+    "latitude": "43.2986624",
+    "longitude": "-81.552699"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/260/15790995_115858738363.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Amelia Jane  Parsons Beaver",
+      "birth_date": "1854-00-00",
+      "death_date": "1902-00-00",
+      "profile_url": "/memorial/15790949/amelia_jane-beaver",
+      "image_url": "https://images.findagrave.com/photos/2006/260/15790949_115858773186.jpg?size=photos250",
+      "id": 12
+    },
+    {
+      "name": "Hortense   Beaver",
+      "birth_date": "1864-00-00",
+      "death_date": "1906-00-00",
+      "profile_url": "/memorial/236911772/hortense-beaver",
+      "image_url": "https://images.findagrave.com/photos/2022/121/236911772_dd41846a-2062-4588-bed8-1774deba6194.jpeg?size=photos250",
+      "id": 25
+    }
+  ],
+  "children": "[{\"name\": \"Son   Beaver\", \"birth_date\": \"1894-00-00\", \"death_date\": \"1894-00-00\", \"profile_url\": \"/memorial/236912036/son-beaver\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "4-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "In Memory ofAmelia Janewife of Christian Beaverdied Jan. 2, 1902aged 47 yrs. 5 mos. 2 ds.Christian Beaverdied May 26, 1928aged 81 yrs. 5 mos. 4 ds.BEAVER",
+  "id": 14,
+  "slug": "christian-beaver-14"
+}

@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/16581719/michael-finkbeiner",
+  "name": "Michael Finkbeiner",
+  "birth_date": "1854-03-02",
+  "death_date": "1929-08-26",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Anna (Haist) and Michael Finkbeiner",
+  "bio": "Son of Anna (Haist) and Michael Finkbeiner",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/312/16581719_116313941901.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Caroline  Sweitzer Finkbeiner",
+      "birth_date": "1855-00-00",
+      "death_date": "1908-00-00",
+      "profile_url": "/memorial/16581734/caroline-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/312/16581734_116313974467.jpg?size=photos250",
+      "id": 281
+    }
+  ],
+  "children": "[{\"name\": \"William Henry   Finkbeiner\", \"birth_date\": \"1879-00-00\", \"death_date\": \"1950-00-00\", \"profile_url\": \"/memorial/15554551/william_henry-finkbeiner\"}, {\"name\": \"Daniel C   Finkbeiner\", \"birth_date\": \"1887-00-00\", \"death_date\": \"1959-00-00\", \"profile_url\": \"/memorial/16581705/daniel_c-finkbeiner\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 352,
+  "slug": "michael-finkbeiner-352"
+}

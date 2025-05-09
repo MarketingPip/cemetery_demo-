@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15553859/lovina-guettinger",
+  "name": "Lovina Klumpp Guettinger",
+  "birth_date": "1885-00-00",
+  "death_date": "1949-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "She is the daughter of  Johann Michael Klumpp and Elisabeth Barbara Heycock. She and Ernest were married 27 Jan 1909 in Stephen twp., Huron co., Ontario, Canada (Marriage license # 011720).",
+  "bio": "She is the daughter of  Johann Michael Klumpp and Elisabeth Barbara Heycock. She and Ernest were married 27 Jan 1909 in Stephen twp., Huron co., Ontario, Canada (Marriage license # 011720).",
+  "gps": {
+    "latitude": "43.2981503",
+    "longitude": "-81.5526991"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/241/15553859_115694609373.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Ernest   Guettinger",
+      "birth_date": "1882-00-00",
+      "death_date": "1972-00-00",
+      "profile_url": "/memorial/15553846/ernest-guettinger",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15553846_115694590348.jpg?size=photos250",
+      "id": 473
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "18-5",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Klumpp",
+  "inscription": "",
+  "id": 474,
+  "slug": "lovina-klumpp-guettinger-474"
+}

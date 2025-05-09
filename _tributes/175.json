@@ -1,0 +1,46 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/236187472/elizabeth-eilber",
+  "name": "Elizabeth Hardy Eilber",
+  "birth_date": "1871-07-14",
+  "death_date": "1962-07-14",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "EILBER\nGrace Eilber<br/>born Nov. 24, 1878-died Mar. 24, 1886<br/>Ezra Eilber<br/>born Jan. 21, 1884-died Mar. 24, 1886<br/>Gertrude Eilber<br/>born Dec. 18, 1906-died Sept. 14, 1908<br/>Louis Raymond<br/>1867-1928<br/>his wife Martha Eilber<br/>1873-1947<br/>Mother<br/>Fredericka<br/>wife of George Frederick Eilber<br/>born Nov. 27, 1840<br/>died Dec. 26, 1926<br/>Father<br/>George Frederick Eilber<br/>born Sept. 15, 1823<br/>died Jan. 27, 1918<br/>John Frederick Eilber<br/>born Nov. 25, 1868<br/>died Oct. 9, 1905<br/>his wife, Elizabeth<br/>born July 14, 1871<br/>died July 14, 1962</br>",
+  "gps": {
+    "latitude": "43.2999222",
+    "longitude": "-81.5539944"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/25/236187472_4712fbed-b177-4fb1-a5df-3357e3092102.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Andrew   Hardy",
+      "birth_date": "1840-00-00",
+      "death_date": "1930-00-00",
+      "profile_url": "/memorial/197464614/andrew-hardy"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "John Frederick   Eilber",
+      "birth_date": "1868-00-00",
+      "death_date": "1905-00-00",
+      "profile_url": "/memorial/188036700/john_frederick-eilber",
+      "image_url": "https://images.findagrave.com/photos/2021/154/188036700_9c56b663-b106-4b71-be0d-e16f1bd79019.jpeg?size=photos250",
+      "id": 189
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "4-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Hardy",
+  "inscription": "EILBERGrace Eilberborn Nov. 24, 1878-died Mar. 24, 1886Ezra Eilberborn Jan. 21, 1884-died Mar. 24, 1886Gertrude Eilberborn Dec. 18, 1906-died Sept. 14, 1908Louis Raymond1867-1928his wife Martha Eilber1873-1947MotherFrederickawife of George Frederick Eilberborn Nov. 27, 1840died Dec. 26, 1926FatherGeorge Frederick Eilberborn Sept. 15, 1823died Jan. 27, 1918John Frederick Eilberborn Nov. 25, 1868died Oct. 9, 1905his wife, Elizabethborn July 14, 1871died July 14, 1962",
+  "id": 175,
+  "slug": "elizabeth-hardy-eilber-175"
+}

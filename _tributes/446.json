@@ -1,0 +1,49 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188113111/charles-webster-goodman",
+  "name": "Charles Webster Goodman",
+  "birth_date": "1899-01-19",
+  "death_date": "1983-10-13",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/127/188113111_d1979366-7e94-42dd-b601-0a38ac2fa878.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Thomas B   Goodman",
+      "birth_date": "1860-00-00",
+      "death_date": "1921-00-00",
+      "profile_url": "/memorial/31106441/thomas_b-goodman"
+    },
+    {
+      "name": "Mary L \"Minnie\" Ross Goodman",
+      "birth_date": "1861-00-00",
+      "death_date": "1942-00-00",
+      "profile_url": "/memorial/31106502/mary_l-goodman"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Mildred  Schroeder Goodman",
+      "birth_date": "1903-00-00",
+      "death_date": "1998-00-00",
+      "profile_url": "/memorial/188113114/mildred-goodman",
+      "image_url": "https://images.findagrave.com/photos/2022/127/188113114_2935c231-3ce7-4a0c-bccf-1ff65ca9d27a.jpeg?size=photos250",
+      "id": 447
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "17-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 446,
+  "slug": "charles-webster-goodman-446"
+}

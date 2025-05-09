@@ -1,0 +1,56 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/158033806/clara-macdonald",
+  "name": "Clara Wenzel MacDonald",
+  "birth_date": "1885-07-01",
+  "death_date": "1943-11-13",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "MacDonald---November 13, 1943, Clara, wife of John MacDonald; mother of Corp. Frederick A. MacDonald; daughter of Mrs. Mary Wenzel; sister of Mrs. C. Berg and Mrs. Herbert Fahrner. Funeral service at chapel of the Wm. R. Hamilton Co., Cass Ave. at Alexandrine, Monday at 8:30 p.m. Interment at Crediton, Ontario.Detroit Free Press, Nov. 14, 1943 Sunday, page 12.Born in Crediton, Huron co., Ontario, Canada",
+  "bio": "MacDonald---November 13, 1943, Clara, wife of John MacDonald; mother of Corp. Frederick A. MacDonald; daughter of Mrs. Mary Wenzel; sister of Mrs. C. Berg and Mrs. Herbert Fahrner. Funeral service at chapel of the Wm. R. Hamilton Co., Cass Ave. at Alexandrine, Monday at 8:30 p.m. Interment at Crediton, Ontario.<br/>Detroit Free Press, Nov. 14, 1943 Sunday, page 12.<br/><br/>Born in Crediton, Huron co., Ontario, Canada",
+  "gps": {
+    "latitude": "43.2996528",
+    "longitude": "-81.5533667"
+  },
+  "image_url": "https://images.findagrave.com/photos/2018/209/158033806_bd07104b-5bd6-41a2-a137-96f2f2baf427.jpeg?size=photos250",
+  "image_credits": "rossddickson",
+  "image_credits_url": "/user/profile/49188008",
+  "parents": [
+    {
+      "name": "William Henry   Wenzel",
+      "birth_date": "1857-00-00",
+      "death_date": "1924-00-00",
+      "profile_url": "/memorial/70676033/william_henry-wenzel",
+      "image_url": "https://images.findagrave.com/photos/2013/267/70676033_138016423803.jpg?size=photos250",
+      "id": 1153
+    },
+    {
+      "name": "Mary Ann  Eilber Wenzel",
+      "birth_date": "1860-00-00",
+      "death_date": "1945-00-00",
+      "profile_url": "/memorial/117647896/mary_ann-wenzel",
+      "image_url": "https://images.findagrave.com/photos/2013/267/117647896_138016880966.jpg?size=photos250",
+      "id": 1152
+    }
+  ],
+  "spouses": [
+    {
+      "name": "John   MacDonald",
+      "birth_date": "1878-00-00",
+      "death_date": "1952-00-00",
+      "profile_url": "/memorial/158033845/john-macdonald",
+      "image_url": "https://images.findagrave.com/photos/2018/209/158033845_86177e06-1806-48a1-bfe6-f45a28b0af03.jpeg?size=photos250",
+      "id": 686
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 16, Lot 4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Wenzel",
+  "inscription": "",
+  "id": 683,
+  "slug": "clara-wenzel-macdonald-683"
+}

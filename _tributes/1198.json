@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15848394/frederick-john-wuerth",
+  "name": "Frederick John Wuerth",
+  "birth_date": "1842-06-15",
+  "death_date": "1927-03-01",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Eva (Rothfuss) and John Wuerth, husband to Wilhelmina Wolfe",
+  "bio": "WUERTH\nFrederick Wuerth<br/>1842-1927<br/>Wilhelmina his wife<br/>1848-1930<br/>Charles<br/>1883-1889<br/>Emma<br/>1878-1887<br/>Cornelia-Eva-Gottlieb<br/>died in infancy<br/>Sylvester Wuerth<br/>1891-1983<br/>his beloved wife<br/>Alda M. Wein<br/>1892-1976<br/>their daughter Florence<br/>no date</br>",
+  "gps": {
+    "latitude": "43.2985962",
+    "longitude": "-81.552785"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/264/15848394_115893799546.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Wilhelmina  Wolfe Wuerth",
+      "birth_date": "1848-00-00",
+      "death_date": "1930-00-00",
+      "profile_url": "/memorial/15848446/wilhelmina-wuerth",
+      "image_url": "https://images.findagrave.com/photos/2006/264/15848446_115893837408.jpg?size=photos250",
+      "id": 1205
+    }
+  ],
+  "children": "[{\"name\": \"Catherine  Wuerth Haist\", \"birth_date\": \"1869-00-00\", \"death_date\": \"1947-00-00\", \"profile_url\": \"/memorial/16581433/catherine-haist\"}, {\"name\": \"Caroline M  Wuerth Morlock\", \"birth_date\": \"1872-00-00\", \"death_date\": \"1963-00-00\", \"profile_url\": \"/memorial/16539262/caroline_m-morlock\"}, {\"name\": \"Elizabeth Ann  Wuerth Faist\", \"birth_date\": \"1875-00-00\", \"death_date\": \"1967-00-00\", \"profile_url\": \"/memorial/188037238/elizabeth_ann-faist\"}, {\"name\": \"Emma   Wuerth\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1887-00-00\", \"profile_url\": \"/memorial/238061476/emma-wuerth\"}, {\"name\": \"Charles   Wuerth\", \"birth_date\": \"1883-00-00\", \"death_date\": \"1889-00-00\", \"profile_url\": \"/memorial/15848525/charles-wuerth\"}, {\"name\": \"Simon Sylvester   Wuerth\", \"birth_date\": \"1891-00-00\", \"death_date\": \"1983-00-00\", \"profile_url\": \"/memorial/15848637/simon_sylvester-wuerth\"}, {\"name\": \"Cornelia   Wuerth\", \"birth_date\": null, \"death_date\": null, \"profile_url\": \"/memorial/15848547/cornelia-wuerth\"}, {\"name\": \"Eva   Wuerth\", \"birth_date\": null, \"death_date\": null, \"profile_url\": \"/memorial/15848581/eva-wuerth\"}, {\"name\": \"Gottlieb   Wuerth\", \"birth_date\": null, \"death_date\": null, \"profile_url\": \"/memorial/15848598/gottlieb-wuerth\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "6-9",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "WUERTHFrederick Wuerth1842-1927Wilhelmina his wife1848-1930Charles1883-1889Emma1878-1887Cornelia-Eva-Gottliebdied in infancySylvester Wuerth1891-1983his beloved wifeAlda M. Wein1892-1976their daughter Florenceno date",
+  "id": 1198,
+  "slug": "frederick-john-wuerth-1198"
+}

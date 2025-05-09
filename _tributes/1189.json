@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15553539/ada-miranda-wuerth",
+  "name": "Ada Miranda Brown Wuerth",
+  "birth_date": "1898-00-00",
+  "death_date": "1974-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Daughter of Elizabeth (Koehler) and Jacob Brown",
+  "bio": "Daughter of Elizabeth (Koehler) and Jacob Brown",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/241/15553539_115694284918.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Edgar E   Wuerth",
+      "birth_date": "1896-00-00",
+      "death_date": "1969-00-00",
+      "profile_url": "/memorial/15553531/edgar_e-wuerth",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15553531_115694270295.jpg?size=photos250",
+      "id": 1194
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 19-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Brown",
+  "inscription": "",
+  "id": 1189,
+  "slug": "ada-miranda-brown-wuerth-1189"
+}

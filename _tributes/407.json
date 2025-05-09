@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188113030/john-h-gaiser",
+  "name": "John H. Gaiser",
+  "birth_date": "1867-00-00",
+  "death_date": "1964-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/116/188113030_bd224d63-28d0-4225-be68-a688fc9f2ba1.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Catharine  Engeland Gaiser",
+      "birth_date": "1870-00-00",
+      "death_date": "1927-00-00",
+      "profile_url": "/memorial/188112993/catharine-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2022/116/188112993_18f450fd-f244-49fb-8f0e-ef872d6c2981.jpeg?size=photos250",
+      "id": 391
+    }
+  ],
+  "children": "[{\"name\": \"Lawrence Oscar \\\"Lorne\\\"  Gaiser\", \"birth_date\": \"1906-00-00\", \"death_date\": \"1970-00-00\", \"profile_url\": \"/memorial/184443545/lawrence_oscar-gaiser\"}, {\"name\": \"Clara Agatha  Gaiser Lamport\", \"birth_date\": \"1908-00-00\", \"death_date\": \"1993-00-00\", \"profile_url\": \"/memorial/188113494/clara_agatha-lamport\"}, {\"name\": \"William John   Gaiser\", \"birth_date\": \"1910-00-00\", \"death_date\": \"1974-00-00\", \"profile_url\": \"/memorial/239219785/william_john-gaiser\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 17-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 407,
+  "slug": "john-h-gaiser-407"
+}

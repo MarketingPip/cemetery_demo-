@@ -1,0 +1,44 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/257286546/mary-elizabeth-attfield_cleave",
+  "name": "Mary Elizabeth “Beth” Cox Attfield Cleave",
+  "birth_date": "1925-00-00",
+  "death_date": "2023-04-22",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2023/214/257286546_6417c1ef-58e3-44bc-9cec-bc6b0dfeedc2.jpeg?size=photos250",
+  "image_credits": "Slick",
+  "image_credits_url": "/user/profile/50973252",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Arthur Jesse   Attfield",
+      "birth_date": "1914-00-00",
+      "death_date": "1975-00-00",
+      "profile_url": "/memorial/127837907/arthur_jesse-attfield",
+      "image_url": "https://images.findagrave.com/photos/2022/117/127837907_cf435f92-658d-46e8-bdf1-62a72a678a94.jpeg?size=photos250",
+      "id": 4
+    },
+    {
+      "name": "James Brooks \"Jim\"  Cleave",
+      "birth_date": "1921-00-00",
+      "death_date": "2003-00-00",
+      "profile_url": "/memorial/188036125/james_brooks-cleave",
+      "image_url": "https://images.findagrave.com/photos/2022/117/188036125_6264a680-3d6e-4afd-8615-10d472522aac.jpeg?size=photos250",
+      "id": 131
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Cox",
+  "inscription": "",
+  "id": 6,
+  "slug": "mary-elizabeth-beth-cox-attfield-cleave-6"
+}

@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188139056/godfried-wein",
+  "name": "Godfried Wein",
+  "birth_date": "1834-00-00",
+  "death_date": "1916-09-14",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "THERE ARE NO PARTINGS IN HEAVEN",
+  "bio": "WEIN\nGodfried Wein<br/>died Sept. 14, 1916<br/>aged 82 yrs. 1 mo. 2 ds.<br/>There are no partings in heaven<br/>Agnes his wife<br/>died Nov. 5, 1919<br/>aged 84 yrs. 8 ms. 28 ds.<br/>John George<br/>son of Godfried &amp; Agnes Wein<br/>died May 6, 1889<br/>aged 25 yrs. 9 mos. 6 ds.<br/>(back)Paul Schink <br/>1854-1939<br/>his wife Wilhelmina Wein<br/>1863-1943<br/>their son Herbert<br/>1896-1979</br>",
+  "gps": {
+    "latitude": "43.2986304",
+    "longitude": "-81.5525703"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/121/188139056_8f26e528-45b1-47fc-a80b-65f59653a8a2.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Agnes  Fahner Wein",
+      "birth_date": "1835-00-00",
+      "death_date": "1919-00-00",
+      "profile_url": "/memorial/189806364/agnes-wein",
+      "image_url": "https://images.findagrave.com/photos/2022/113/189806364_e6d0e932-1493-4992-81c5-6e89ba18dde3.jpeg?size=photos250",
+      "id": 1106
+    }
+  ],
+  "children": "[{\"name\": \"John George   Wein\", \"birth_date\": \"1864-00-00\", \"death_date\": \"1889-00-00\", \"profile_url\": \"/memorial/188139133/john_george-wein\"}, {\"name\": \"Susan  Wein Bowman\", \"birth_date\": \"1868-00-00\", \"death_date\": \"1944-00-00\", \"profile_url\": \"/memorial/188035687/susan-bowman\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 8-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "WEINGodfried Weindied Sept. 14, 1916aged 82 yrs. 1 mo. 2 ds.There are no partings in heavenAgnes his wifedied Nov. 5, 1919aged 84 yrs. 8 ms. 28 ds.John Georgeson of Godfried & Agnes Weindied May 6, 1889aged 25 yrs. 9 mos. 6 ds.(back)Paul Schink 1854-1939his wife Wilhelmina Wein1863-1943their son Herbert1896-1979",
+  "id": 1120,
+  "slug": "godfried-wein-1120"
+}

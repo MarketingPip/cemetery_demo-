@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15848446/wilhelmina-wuerth",
+  "name": "Wilhelmina Wolfe Wuerth",
+  "birth_date": "1848-10-15",
+  "death_date": "1930-03-15",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": {
+    "latitude": "43.2983441",
+    "longitude": "-81.5527891"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/264/15848446_115893837408.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Frederick John   Wuerth",
+      "birth_date": "1842-00-00",
+      "death_date": "1927-00-00",
+      "profile_url": "/memorial/15848394/frederick_john-wuerth",
+      "image_url": "https://images.findagrave.com/photos/2006/264/15848394_115893799546.jpg?size=photos250",
+      "id": 1198
+    }
+  ],
+  "children": "[{\"name\": \"Catherine  Wuerth Haist\", \"birth_date\": \"1869-00-00\", \"death_date\": \"1947-00-00\", \"profile_url\": \"/memorial/16581433/catherine-haist\"}, {\"name\": \"Caroline M  Wuerth Morlock\", \"birth_date\": \"1872-00-00\", \"death_date\": \"1963-00-00\", \"profile_url\": \"/memorial/16539262/caroline_m-morlock\"}, {\"name\": \"Elizabeth Ann  Wuerth Faist\", \"birth_date\": \"1875-00-00\", \"death_date\": \"1967-00-00\", \"profile_url\": \"/memorial/188037238/elizabeth_ann-faist\"}, {\"name\": \"Emma   Wuerth\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1887-00-00\", \"profile_url\": \"/memorial/238061476/emma-wuerth\"}, {\"name\": \"Charles   Wuerth\", \"birth_date\": \"1883-00-00\", \"death_date\": \"1889-00-00\", \"profile_url\": \"/memorial/15848525/charles-wuerth\"}, {\"name\": \"Simon Sylvester   Wuerth\", \"birth_date\": \"1891-00-00\", \"death_date\": \"1983-00-00\", \"profile_url\": \"/memorial/15848637/simon_sylvester-wuerth\"}, {\"name\": \"Cornelia   Wuerth\", \"birth_date\": null, \"death_date\": null, \"profile_url\": \"/memorial/15848547/cornelia-wuerth\"}, {\"name\": \"Eva   Wuerth\", \"birth_date\": null, \"death_date\": null, \"profile_url\": \"/memorial/15848581/eva-wuerth\"}, {\"name\": \"Gottlieb   Wuerth\", \"birth_date\": null, \"death_date\": null, \"profile_url\": \"/memorial/15848598/gottlieb-wuerth\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "6-9",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Wolfe",
+  "inscription": "",
+  "id": 1205,
+  "slug": "wilhelmina-wolfe-wuerth-1205"
+}

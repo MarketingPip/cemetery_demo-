@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/184059061/john-william-jesney",
+  "name": "John William “Jack” Jesney",
+  "birth_date": "1908-07-30",
+  "death_date": "1989-02-03",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/184059061_03842a8c-577c-4331-808e-82880b1ffba3.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Wilhelmine  Flynn Jesney",
+      "birth_date": "1908-00-00",
+      "death_date": "1990-00-00",
+      "profile_url": "/memorial/184059068/wilhelmine-jesney",
+      "image_url": "https://images.findagrave.com/photos/2022/84/184059068_c8949298-c31a-432a-a9af-90e183ca2a65.jpeg?size=photos250",
+      "id": 601
+    }
+  ],
+  "children": "[{\"name\": \"Alvin John \\\"Al\\\"  Flynn\", \"birth_date\": \"1926-00-00\", \"death_date\": \"2005-00-00\", \"profile_url\": \"/memorial/220497721/alvin_john-flynn\"}, {\"name\": \"Lillian Anna Laura  Jesney Kuhn\", \"birth_date\": \"1929-00-00\", \"death_date\": \"2008-00-00\", \"profile_url\": \"/memorial/41012220/lillian_anna_laura-kuhn\"}, {\"name\": \"Phyllis M.V.  Jesney Collett\", \"birth_date\": \"1931-00-00\", \"death_date\": \"2020-00-00\", \"profile_url\": \"/memorial/208918865/phyllis_mv-collett\"}, {\"name\": \"Betty Lou  Jesney Denomme\", \"birth_date\": \"1946-00-00\", \"death_date\": \"1966-00-00\", \"profile_url\": \"/memorial/155075624/betty_lou-denomme\"}, {\"name\": \"Leslie John \\\"Les\\\"  Jesney\", \"birth_date\": \"1947-00-00\", \"death_date\": \"2013-00-00\", \"profile_url\": \"/memorial/229628140/leslie_john-jesney\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 600,
+  "slug": "john-william-jack-jesney-600"
+}

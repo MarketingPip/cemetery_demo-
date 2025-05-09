@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188036171/raymond-b-collett",
+  "name": "Raymond B. Collett",
+  "birth_date": "1912-00-00",
+  "death_date": "2007-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": {
+    "latitude": "43.2996778",
+    "longitude": "-81.55275"
+  },
+  "image_url": "https://images.findagrave.com/photos/2018/209/188036171_419f7d6a-d1f5-4a75-9c07-16425fb71e44.jpeg?size=photos250",
+  "image_credits": "rossddickson",
+  "image_credits_url": "/user/profile/49188008",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Reta Mary  Ratz Collett",
+      "birth_date": "1918-00-00",
+      "death_date": "2004-00-00",
+      "profile_url": "/memorial/188036179/reta_mary-collett",
+      "image_url": "https://images.findagrave.com/photos/2018/209/188036179_cdc88fba-d90e-4dfc-a3b3-81df4511598b.jpeg?size=photos250",
+      "id": 137
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 136,
+  "slug": "raymond-b-collett-136"
+}

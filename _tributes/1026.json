@@ -1,0 +1,53 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15660853/edward-william-sweitzer",
+  "name": "Edward William Sweitzer",
+  "birth_date": "1878-05-11",
+  "death_date": "1957-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/249/15660853_115769175750.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Jacob   Sweitzer",
+      "birth_date": "1848-00-00",
+      "death_date": "1925-00-00",
+      "profile_url": "/memorial/15660752/jacob-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/249/15660752_115769063103.jpg?size=photos250",
+      "id": 1031
+    },
+    {
+      "name": "Rosena  Kuhn Sweitzer",
+      "birth_date": "1849-00-00",
+      "death_date": "1931-00-00",
+      "profile_url": "/memorial/15660778/rosena-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/249/15660778_115769091265.jpg?size=photos250",
+      "id": 1044
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Adeline Priscilla  Kaercher Sweitzer",
+      "birth_date": "1879-00-00",
+      "death_date": "1953-00-00",
+      "profile_url": "/memorial/15660817/adeline_priscilla-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/249/15660817_115769136749.jpg?size=photos250",
+      "id": 1021
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 1026,
+  "slug": "edward-william-sweitzer-1026"
+}

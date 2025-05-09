@@ -1,0 +1,52 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188113320/edward-murray-insley",
+  "name": "Edward Murray Insley",
+  "birth_date": "1922-01-25",
+  "death_date": "1997-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": {
+    "latitude": "43.2996472",
+    "longitude": "-81.5530472"
+  },
+  "image_url": "https://images.findagrave.com/photos/2021/153/188113320_53cb5372-7275-4483-bb6f-ed6bc15bc074.jpeg?size=photos250",
+  "image_credits": "Kathleen Hodgins",
+  "image_credits_url": "/user/profile/47390529",
+  "parents": [
+    {
+      "name": "Clayton Phillip \"Fred\"  Insley",
+      "birth_date": "1888-00-00",
+      "death_date": "1961-00-00",
+      "profile_url": "/memorial/199330926/clayton_phillip-insley"
+    },
+    {
+      "name": "Pearl Elizabeth \"Lizzie\" Turner Insley",
+      "birth_date": "1894-00-00",
+      "death_date": "1974-00-00",
+      "profile_url": "/memorial/199330925/pearl_elizabeth-insley"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Ruth L.  Schwartz Insley",
+      "birth_date": "1928-00-00",
+      "death_date": "2017-00-00",
+      "profile_url": "/memorial/237948315/ruth_l-insley",
+      "image_url": "https://images.findagrave.com/photos/2022/84/237948315_a2b6242e-1d14-46a6-91ab-cdb65ba02530.jpeg?size=photos250",
+      "id": 595
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 594,
+  "slug": "edward-murray-insley-594"
+}

@@ -1,0 +1,46 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188136487/glen-william-ratz",
+  "name": "Glen William Ratz",
+  "birth_date": "1948-00-00",
+  "death_date": "1970-06-14",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": {
+    "latitude": "43.2984097",
+    "longitude": "-81.5523555"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/83/188136487_d6550f33-b7ae-4408-bfab-358ef56eb031.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Ervin Albert   Ratz",
+      "birth_date": "1915-00-00",
+      "death_date": "2000-00-00",
+      "profile_url": "/memorial/188136483/ervin_albert-ratz",
+      "image_url": "https://images.findagrave.com/photos/2022/83/188136483_2bdccce1-0b97-4bcb-b440-268c658f6cde.jpeg?size=photos250",
+      "id": 862
+    },
+    {
+      "name": "Nola Eliza  Isaac Ratz",
+      "birth_date": "1918-00-00",
+      "death_date": "2006-00-00",
+      "profile_url": "/memorial/41015199/nola_eliza-ratz",
+      "image_url": "https://images.findagrave.com/photos/2015/272/41015199_1443621155.jpg?size=photos250",
+      "id": 877
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "20-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2024/144/188136487_f86d5f82-2bc0-4ff6-883d-1972d606a6fc.png?size=photos250', 'contributor_text': 'Kimberly Fraser', 'contributor_href': 'https://www.findagrave.com/user/profile/46863018'}, {'src': 'https://images.findagrave.com/photos/2024/144/188136487_fb932d70-546d-4364-b822-0bf1b0d5cae6.png?size=photos250', 'contributor_text': 'Kimberly Fraser', 'contributor_href': 'https://www.findagrave.com/user/profile/46863018'}]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 864
+}

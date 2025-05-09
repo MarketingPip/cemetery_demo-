@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188113252/mary-a-hirtzel",
+  "name": "Mary A. Mantle Hirtzel",
+  "birth_date": "1861-00-00",
+  "death_date": "1929-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/116/188113252_104b8410-df7e-4098-8d53-52eda090afa0.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "George   Hirtzel",
+      "birth_date": "1858-00-00",
+      "death_date": "1936-00-00",
+      "profile_url": "/memorial/239243752/george-hirtzel",
+      "image_url": "https://images.findagrave.com/photos/2022/116/239243752_47d0abf5-206e-4c3f-a568-de7ed25854df.jpeg?size=photos250",
+      "id": 548
+    }
+  ],
+  "children": "[{\"name\": \"Ivan   Hirtzel\", \"birth_date\": \"1892-00-00\", \"death_date\": \"1972-00-00\", \"profile_url\": \"/memorial/188113229/ivan-hirtzel\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "17-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Mantle",
+  "inscription": "",
+  "id": 554,
+  "slug": "mary-a-mantle-hirtzel-554"
+}

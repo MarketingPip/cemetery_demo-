@@ -1,0 +1,46 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188138311/wesley-trevithick",
+  "name": "Wesley Trevithick",
+  "birth_date": "1873-06-02",
+  "death_date": "1886-09-27",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "IHR SON/VON 2 TER EHE",
+  "bio": "EILBER\nHenry Eilber<br/>1857-1943<br/>his wife Elizabeth Krattiger<br/>1858-1941<br/>Mary L. Girwin<br/>1888-1948<br/>wife of Herbert K. Eilber<br/>1881-1954<br/>IHR SOHN<br/>VON 2 TER EHE<br/>Wesley<br/>Ges Sept. 27, 1886<br/>Alter 13 Jahr 3 monat 25 tag<br/>UNSERE ELTERN<br/>John Krattiger<br/>Ges Fe. 3, 1869<br/>Alter 48 Jahr 8 monat.<br/>Seine Gattin<br/>Anna Maria<br/>Ges. Mar. 28, 1886<br/>Alter 51 Jahr 4 monat 20 tag.</br>",
+  "gps": {
+    "latitude": "43.2986132",
+    "longitude": "-81.5526047"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/113/238902855_348c370a-99b0-430e-8783-a3edf9278c82.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Henry   Eilber",
+      "birth_date": "1857-00-00",
+      "death_date": "1943-00-00",
+      "profile_url": "/memorial/188036610/henry-eilber",
+      "image_url": "https://images.findagrave.com/photos/2022/113/188036610_65daa0f3-a1b9-419c-b05d-c5ca9e2453e1.jpeg?size=photos250",
+      "id": 185
+    },
+    {
+      "name": "Elizabeth  Krattiger Eilber",
+      "birth_date": "1858-00-00",
+      "death_date": "1941-00-00",
+      "profile_url": "/memorial/188036540/elizabeth-eilber",
+      "image_url": "https://images.findagrave.com/photos/2022/113/188036540_e3370ba7-88ea-4f67-8a07-5eb5258c34ae.jpeg?size=photos250",
+      "id": 176
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Herbert Krattiger   Eilber\", \"birth_date\": \"1881-00-00\", \"death_date\": \"1954-00-00\", \"profile_url\": \"/memorial/188036635/herbert_krattiger-eilber\"}]",
+  "half_siblings": "[]",
+  "plot_value": "Row 9-11",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "EILBERHenry Eilber1857-1943his wife Elizabeth Krattiger1858-1941Mary L. Girwin1888-1948wife of Herbert K. Eilber1881-1954IHR SOHNVON 2 TER EHEWesleyGes Sept. 27, 1886Alter 13 Jahr 3 monat 25 tagUNSERE ELTERNJohn KrattigerGes Fe. 3, 1869Alter 48 Jahr 8 monat.Seine GattinAnna MariaGes. Mar. 28, 1886Alter 51 Jahr 4 monat 20 tag.",
+  "id": 1072
+}

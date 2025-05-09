@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188138096/henry-sweitzer",
+  "name": "Henry Sweitzer",
+  "birth_date": "1819-11-02",
+  "death_date": "1902-04-11",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "SWEITZER\nIn memory of Johana C. F.<br/>wife of Henry Sweitzer<br/>died Mar. 9, 1895<br/>Aged 64 years<br/>Henry Sweitzer<br/>died Apr. 11, 1902<br/>aged 82 yrs. 5 mos. 9 ds.</br>",
+  "gps": {
+    "latitude": "43.2983965",
+    "longitude": "-81.5524331"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/112/236919496_ac5f56e9-4be1-4666-bdcb-f1367c19ba7c.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Johana C. F.   Switzer",
+      "birth_date": "1831-00-00",
+      "death_date": "1895-00-00",
+      "profile_url": "/memorial/188138099/johana_c_f-switzer",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188138099_8ed5a635-0903-4790-889b-cc10da5e8a6e.jpeg?size=photos250",
+      "id": 1054
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "6-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "SWEITZERIn memory of Johana C. F.wife of Henry Sweitzerdied Mar. 9, 1895Aged 64 yearsHenry Sweitzerdied Apr. 11, 1902aged 82 yrs. 5 mos. 9 ds.",
+  "id": 1028,
+  "slug": "henry-sweitzer-1028"
+}

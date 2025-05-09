@@ -1,0 +1,43 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15554293/howard-finkbeiner-beaver",
+  "name": "Howard Finkbeiner Beaver",
+  "birth_date": "1908-05-10",
+  "death_date": "1973-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Emma (Finkbeiner) and Henry Charles Beaver. He lived in Hamilton where he is engaged in the construction business.",
+  "bio": "Son of Emma (Finkbeiner) and Henry Charles Beaver. He lived in Hamilton where he is engaged in the construction business.",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/241/15554293_115694966459.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Henry Charles   Beaver",
+      "birth_date": "1879-00-00",
+      "death_date": "1968-00-00",
+      "profile_url": "/memorial/15554242/henry_charles-beaver",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15554242_115694941640.jpg?size=photos250",
+      "id": 22
+    },
+    {
+      "name": "Emma  Finkbeiner Beaver",
+      "birth_date": "1880-00-00",
+      "death_date": "1964-00-00",
+      "profile_url": "/memorial/15554269/emma-beaver",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15554269_115694952851.jpg?size=photos250",
+      "id": 17
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Eugene Harry   Beaver\", \"birth_date\": \"1916-00-00\", \"death_date\": \"1988-00-00\", \"profile_url\": \"/memorial/18593245/eugene_harry-beaver\"}]",
+  "half_siblings": "[]",
+  "plot_value": "Row 18-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 26
+}

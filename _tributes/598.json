@@ -1,0 +1,38 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/238052204/rick-jefferies",
+  "name": "Rick Jefferies",
+  "birth_date": "1964-00-00",
+  "death_date": "2015-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "Rick Jefferies\n1964-2015<br/>son of Carl &amp; Mary</br>",
+  "gps": {
+    "latitude": "43.2983871",
+    "longitude": "-81.5520308"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/86/238052204_0268efba-b687-4a6d-86db-cb8614b5799d.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Mary J.   Jefferies",
+      "birth_date": "1940-00-00",
+      "death_date": "2017-00-00",
+      "profile_url": "/memorial/238052582/mary_j-jefferies",
+      "image_url": "https://images.findagrave.com/photos/2022/86/238052582_1bb6c620-5c6d-48d6-9c4b-7ff955d3a667.jpeg?size=photos250",
+      "id": 597
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "Rick Jefferies1964-2015son of Carl & Mary",
+  "id": 598
+}

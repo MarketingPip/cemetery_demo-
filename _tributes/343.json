@@ -1,0 +1,56 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/16331358/magdalena-finkbeiner",
+  "name": "Magdalena Gaiser Finkbeiner",
+  "birth_date": "1858-06-20",
+  "death_date": "1927-12-08",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "FINKBEINER\nJacob Finkbeiner<br/>Gestboren Den. Marz. 12, 1861 In Alter<br/>von 11 Jahr 6 monate 2 tage.<br/>Heir Ruht<br/>Rosina<br/>Ehefrau von Jacob Finkbeiner<br/>Gestboren Dec Feb. 3, 1882 In Alter<br/>von 54 Jahr 5 tagen<br/>Ruhe uhrer a sche<br/>Jacob Finkbeiner<br/>gestboren den Apr. 8, 1900 In Alter<br/>von 79 Jahr. 6 mo. 18 tag.<br/>Magdalena<br/>wife of Christian Finkbeiner<br/>died Dec. 8, 1927<br/>aged 69 years<br/>Christian Finkbeiner<br/>died Dec. 12, 1933 aged 81 yrs.</br>",
+  "gps": {
+    "latitude": "43.2983635",
+    "longitude": "-81.5523473"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/298/16331358_116188127734.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Adam   Gaiser",
+      "birth_date": "1822-00-00",
+      "death_date": "1894-00-00",
+      "profile_url": "/memorial/239154587/adam-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2022/113/239154587_fb4a2870-c727-412c-b45a-3a891f04268a.jpeg?size=photos250",
+      "id": 387
+    },
+    {
+      "name": "Magdalena  Braun Gaiser",
+      "birth_date": "1828-00-00",
+      "death_date": "1919-00-00",
+      "profile_url": "/memorial/239154582/magdalena-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2022/113/239154582_e87cc32d-f66d-442a-bef6-c1ab4c5ec534.jpeg?size=photos250",
+      "id": 415
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Christian   Finkbeiner",
+      "birth_date": "1852-00-00",
+      "death_date": "1933-00-00",
+      "profile_url": "/memorial/16331339/christian-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/298/16331339_116188038402.jpg?size=photos250",
+      "id": 286
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 9-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Gaiser",
+  "inscription": "FINKBEINERJacob FinkbeinerGestboren Den. Marz. 12, 1861 In Altervon 11 Jahr 6 monate 2 tage.Heir RuhtRosinaEhefrau von Jacob FinkbeinerGestboren Dec Feb. 3, 1882 In Altervon 54 Jahr 5 tagenRuhe uhrer a scheJacob Finkbeinergestboren den Apr. 8, 1900 In Altervon 79 Jahr. 6 mo. 18 tag.Magdalenawife of Christian Finkbeinerdied Dec. 8, 1927aged 69 yearsChristian Finkbeinerdied Dec. 12, 1933 aged 81 yrs.",
+  "id": 343,
+  "slug": "magdalena-gaiser-finkbeiner-343"
+}

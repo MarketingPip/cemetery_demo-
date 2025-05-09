@@ -1,0 +1,49 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188136822/mary-ann-schroeder",
+  "name": "Mary Ann Sachs Schroeder",
+  "birth_date": "1870-02-27",
+  "death_date": "1947-09-21",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/83/188136822_e6cd5aae-dc28-4a5b-bf8d-257a566e1dda.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Daniel   Sachs",
+      "birth_date": "1826-00-00",
+      "death_date": "1899-00-00",
+      "profile_url": "/memorial/179071620/daniel-sachs"
+    },
+    {
+      "name": "Anna Gela   Sachs",
+      "birth_date": "1835-00-00",
+      "death_date": "1875-00-00",
+      "profile_url": "/memorial/179071617/anna_gela-sachs"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Charles   Schroeder",
+      "birth_date": "1865-00-00",
+      "death_date": "1952-00-00",
+      "profile_url": "/memorial/188136792/charles-schroeder",
+      "image_url": "https://images.findagrave.com/photos/2022/83/188136792_0e2f0d27-5db5-4d22-86ae-c7362f785375.jpeg?size=photos250",
+      "id": 947
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 17-5",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Sachs",
+  "inscription": "",
+  "id": 955,
+  "slug": "mary-ann-sachs-schroeder-955"
+}

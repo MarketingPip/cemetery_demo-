@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15563237/christian-wesley-haist",
+  "name": "Christian Wesley Haist",
+  "birth_date": "1878-11-22",
+  "death_date": "1962-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Barbara (Heist) and August Haist",
+  "bio": "HAIST\nfs FATHER MOTHER</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/242/15563237_115703256326.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Lydia Anna  Schwanz Haist",
+      "birth_date": "1883-00-00",
+      "death_date": "1951-00-00",
+      "profile_url": "/memorial/15563260/lydia_anna-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563260_115703271042.jpg?size=photos250",
+      "id": 501
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 16-8",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "HAISTfs FATHER MOTHER",
+  "id": 484,
+  "slug": "christian-wesley-haist-484"
+}

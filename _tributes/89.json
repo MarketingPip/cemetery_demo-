@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/239133178/bertha-brown",
+  "name": "Bertha Brown",
+  "birth_date": "1855-00-00",
+  "death_date": "1934-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "BROWN\nJohn F. Brown<br/>1841-1924<br/>his wife Bertha Mellin<br/>1855-1934</br>",
+  "gps": {
+    "latitude": "43.2987082",
+    "longitude": "-81.5528749"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/112/239133178_d7edb4bf-a953-4f36-b68f-f1bb818afdaa.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "John F.   Brown",
+      "birth_date": "1841-00-00",
+      "death_date": "1925-00-00",
+      "profile_url": "/memorial/188035990/john_f-brown",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188035990_3dcbf0f6-ca8d-4ce0-9fbd-ed21b762b58c.jpeg?size=photos250",
+      "id": 110
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "row 8-8",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "BROWNJohn F. Brown1841-1924his wife Bertha Mellin1855-1934",
+  "id": 89,
+  "slug": "bertha-brown-89"
+}

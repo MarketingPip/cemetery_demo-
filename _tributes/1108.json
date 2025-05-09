@@ -1,0 +1,37 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188138590/albert-w-wein",
+  "name": "Albert W. Wein",
+  "birth_date": "1885-08-15",
+  "death_date": "1947-06-04",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "WEIN\nAlbert W. Wein<br/>Aug. 15, 1885<br/>June 4, 1947<br/>father</br>",
+  "gps": {
+    "latitude": "43.2983695",
+    "longitude": "-81.552832"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/51/188138590_38308f3e-6483-4d35-9070-f04b8fca319f.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Mina Annie  Andress Wein",
+      "birth_date": "1897-00-00",
+      "death_date": "1982-00-00",
+      "profile_url": "/memorial/155371990/mina_annie-wein"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "5-11",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "WEINAlbert W. WeinAug. 15, 1885June 4, 1947father",
+  "id": 1108,
+  "slug": "albert-w-wein-1108"
+}

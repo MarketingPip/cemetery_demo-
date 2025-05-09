@@ -1,0 +1,47 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/16539090/chester-gordon-morlock",
+  "name": "Chester Gordon Morlock",
+  "birth_date": "1902-03-10",
+  "death_date": "1993-10-27",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Caroline (Wuerth) and John Morlock",
+  "bio": "MORLOCK\nAlma E. Haist<br/>1903-1943<br/>wife of Chester Gordon Morlock <br/>1902-1993<br/>his wife Alma I. Smith<br/>1903-2006<br/>(back)John N. Morlock<br/>1867-1951<br/>his wife Caroline M. Wuerth<br/>1872-1963</br>",
+  "gps": {
+    "latitude": "43.2983947",
+    "longitude": "-81.5524331"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/310/16539090_116290997367.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Alma Elizabeth  Haist Morlock",
+      "birth_date": "1903-00-00",
+      "death_date": "1943-00-00",
+      "profile_url": "/memorial/16539058/alma_elizabeth-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/310/16539058_116290971009.jpg?size=photos250",
+      "id": 722
+    },
+    {
+      "name": "Alma Irene  Smith Morlock",
+      "birth_date": "1903-00-00",
+      "death_date": "2006-00-00",
+      "profile_url": "/memorial/14495743/alma_irene-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/213/14495743_115452551202.jpg?size=photos250",
+      "id": 723
+    }
+  ],
+  "children": "[{\"name\": \"Frederick John   Morlock\", \"birth_date\": \"1924-00-00\", \"death_date\": \"1993-00-00\", \"profile_url\": \"/memorial/15135166/frederick_john-morlock\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "row 9-9",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "MORLOCKAlma E. Haist1903-1943wife of Chester Gordon Morlock 1902-1993his wife Alma I. Smith1903-2006(back)John N. Morlock1867-1951his wife Caroline M. Wuerth1872-1963",
+  "id": 728,
+  "slug": "chester-gordon-morlock-728"
+}

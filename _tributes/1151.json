@@ -1,0 +1,42 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/239083028/catherine-wenzel",
+  "name": "Catherine “Kate” Wenzel",
+  "birth_date": "1862-03-11",
+  "death_date": "1915-04-04",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "WENZEL\nDora Wenzel<br/>wife of Frank Behnke<br/>born Mar. 1, 1883<br/>died Nov. 1, 1923<br/>William H. Wenzel<br/>born Sept. 29, 1857<br/>died Aug. 27, 1924<br/>his wife Mary Eilber<br/>born July 19, 1860<br/>died Nov. 15, 1945<br/>(back)Catherine Wenzel<br/>born Mar. 11, 1852<br/>died Apr. 4, 1915<br/>aged 53 yrs.</br>",
+  "gps": {
+    "latitude": "43.2981627",
+    "longitude": "-81.5527162"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/114/239083028_b8cdf282-a4a7-4332-ba2a-0982dadaebab.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Heinrich   Wenzel",
+      "birth_date": "1813-00-00",
+      "death_date": "1880-00-00",
+      "profile_url": "/memorial/121895751/heinrich-wenzel"
+    },
+    {
+      "name": "Christina  Focht Wenzel",
+      "birth_date": "1822-00-00",
+      "death_date": "1890-00-00",
+      "profile_url": "/memorial/92883674/christina-wenzel"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Marie  Wenzel Herrick\", \"birth_date\": \"1844-00-00\", \"death_date\": \"1931-00-00\", \"profile_url\": \"/memorial/49467165/marie-herrick\"}, {\"name\": \"William Henry   Wenzel\", \"birth_date\": \"1857-00-00\", \"death_date\": \"1924-00-00\", \"profile_url\": \"/memorial/70676033/william_henry-wenzel\"}, {\"name\": \"Andrew   Wenzel\", \"birth_date\": \"1859-00-00\", \"death_date\": \"1922-00-00\", \"profile_url\": \"/memorial/90235208/andrew-wenzel\"}]",
+  "half_siblings": "[]",
+  "plot_value": "Row 10-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "WENZELDora Wenzelwife of Frank Behnkeborn Mar. 1, 1883died Nov. 1, 1923William H. Wenzelborn Sept. 29, 1857died Aug. 27, 1924his wife Mary Eilberborn July 19, 1860died Nov. 15, 1945(back)Catherine Wenzelborn Mar. 11, 1852died Apr. 4, 1915aged 53 yrs.",
+  "id": 1151
+}

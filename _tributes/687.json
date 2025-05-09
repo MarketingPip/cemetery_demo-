@@ -1,0 +1,52 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188115028/daniel-joseph-macisaac",
+  "name": "Daniel Joseph MacIsaac",
+  "birth_date": "1884-01-22",
+  "death_date": "1938-12-24",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": {
+    "latitude": "43.2987847",
+    "longitude": "-81.5520549"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/116/188115028_02301391-515f-4f2e-91be-d08c680edada.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Ronald   MacIsaac",
+      "birth_date": "1828-00-00",
+      "death_date": "1897-00-00",
+      "profile_url": "/memorial/155188313/ronald-macisaac"
+    },
+    {
+      "name": "Mary  McEachen MacIsaac",
+      "birth_date": "1843-00-00",
+      "death_date": "1934-00-00",
+      "profile_url": "/memorial/155188208/mary-macisaac"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Lydia Samantha  Ort MacIsaac",
+      "birth_date": "1884-00-00",
+      "death_date": "1954-00-00",
+      "profile_url": "/memorial/188115037/lydia_samantha-macisaac",
+      "image_url": "https://images.findagrave.com/photos/2022/116/188115037_4748ff96-f3ca-4e22-9080-fb482ff4095a.jpeg?size=photos250",
+      "id": 688
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "15-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 687,
+  "slug": "daniel-joseph-macisaac-687"
+}

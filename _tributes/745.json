@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15791455/julius-morlock",
+  "name": "Julius Morlock",
+  "birth_date": "1839-10-06",
+  "death_date": "1884-04-25",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Husband to Ellen Horne",
+  "bio": "MORLOCK\nin memory of<br/>Julius Morlock<br/>born Oct. 6, 1839 died April 25, 1884<br/>George E. 'orlock<br/>born Nov. 29, 1877 died Sept. 1, 1878<br/>Mary Ellen Morlock<br/>born Jan. 9, 1882 died July 11, 1903<br/>children of the above<br/>(no wife for Julius on t.s)</br>",
+  "gps": {
+    "latitude": "43.298496",
+    "longitude": "-81.5523903"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/260/15791455_115859111913.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Fredericka Louise Maria  Bohler Morlock",
+      "birth_date": "1798-00-00",
+      "death_date": "1877-00-00",
+      "profile_url": "/memorial/9952954/fredericka_louise_maria-morlock"
+    }
+  ],
+  "spouses": [],
+  "children": "[{\"name\": \"John Wallace   Morlock\", \"birth_date\": \"1863-00-00\", \"death_date\": \"1933-00-00\", \"profile_url\": \"/memorial/66781225/john_wallace-morlock\"}, {\"name\": \"George E.   Morlock\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1878-00-00\", \"profile_url\": \"/memorial/15791519/george_e-morlock\"}, {\"name\": \"Mary Ellen   Morlock\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1903-00-00\", \"profile_url\": \"/memorial/15791572/mary_ellen-morlock\"}]",
+  "siblings": "[{\"name\": \"Matthew   Morlock\", \"birth_date\": \"1828-00-00\", \"death_date\": \"1923-00-00\", \"profile_url\": \"/memorial/15395989/matthew-morlock\"}, {\"name\": \"Louisa  Morlock Faist\", \"birth_date\": \"1833-00-00\", \"death_date\": \"1914-00-00\", \"profile_url\": \"/memorial/236920169/louisa-faist\"}, {\"name\": \"Gottlieb   Morlock\", \"birth_date\": \"1836-00-00\", \"death_date\": \"1910-00-00\", \"profile_url\": \"/memorial/15978080/gottlieb-morlock\"}]",
+  "half_siblings": "[]",
+  "plot_value": "row 1-5",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2022/110/15791455_3f92d198-ff27-4d68-b804-810ac7732ef6.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}, {'src': 'https://images.findagrave.com/photos/2020/238/15791455_1b8ebb50-8929-442e-be46-689bcd30a1f2.jpeg?size=photos250', 'contributor_text': 'Forget Me Not Gravesite Caregivers', 'contributor_href': 'https://www.findagrave.com/user/profile/50071948'}, {'src': 'https://images.findagrave.com/photos/2020/238/15791455_f3a26ca3-f7d1-4d6c-a032-b9504ef72fde.jpeg?size=photos250', 'contributor_text': 'Forget Me Not Gravesite Caregivers', 'contributor_href': 'https://www.findagrave.com/user/profile/50071948'}]",
+  "maiden_name": "",
+  "inscription": "MORLOCKin memory ofJulius Morlockborn Oct. 6, 1839 died April 25, 1884George E. 'orlockborn Nov. 29, 1877 died Sept. 1, 1878Mary Ellen Morlockborn Jan. 9, 1882 died July 11, 1903children of the above(no wife for Julius on t.s)",
+  "id": 745
+}

@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188113123/adeline-selena-goulding",
+  "name": "Adeline Selena Wein Goulding",
+  "birth_date": "1900-10-02",
+  "death_date": "1971-10-31",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "f.s. FATHER MOTHER",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/188113123_ec2a6bc1-5345-4050-a756-128601e5e55f.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Wilfred Roy   Goulding",
+      "birth_date": "1898-00-00",
+      "death_date": "1981-00-00",
+      "profile_url": "/memorial/188113126/wilfred_roy-goulding",
+      "image_url": "https://images.findagrave.com/photos/2022/84/188113126_e3eb80af-2a80-4448-b31e-2e8cc3a41d5e.jpeg?size=photos250",
+      "id": 449
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 13-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Wein",
+  "inscription": "f.s. FATHER MOTHER",
+  "id": 448,
+  "slug": "adeline-selena-wein-goulding-448"
+}

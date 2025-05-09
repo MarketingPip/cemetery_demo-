@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188113156/tobias-guenther",
+  "name": "Tobias Guenther",
+  "birth_date": "1835-08-12",
+  "death_date": "1920-03-26",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "GUENTHER\nTobias Guenther<br/>born Aug. 12, 1835<br/>died Mar. 26, 1920<br/>Catherine Wolf, his wife<br/>born Feb. 2, 1842<br/>died Feb. 20, 1925<br/>at rest<br/>Wilhelmina , wife of C. Fahrner<br/>1861-1925<br/>Christian Fahrner<br/>1863-1952</br>",
+  "gps": {
+    "latitude": "43.2987121",
+    "longitude": "-81.552832"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/111/188113156_bd8bfc23-8f5b-45ff-9f15-703915a89f4e.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Catherine  Wolf Guenther",
+      "birth_date": "1842-00-00",
+      "death_date": "1925-00-00",
+      "profile_url": "/memorial/188113149/catherine-guenther",
+      "image_url": "https://images.findagrave.com/photos/2022/111/188113149_f393ddbc-9b88-4041-b3ba-295e367a6b52.jpeg?size=photos250",
+      "id": 462
+    }
+  ],
+  "children": "[{\"name\": \"Wilhelmina  Guenther Fahrner\", \"birth_date\": \"1861-00-00\", \"death_date\": \"1925-00-00\", \"profile_url\": \"/memorial/236179135/wilhelmina-fahrner\"}, {\"name\": \"Henry   Guenther\", \"birth_date\": \"1862-00-00\", \"death_date\": \"1913-00-00\", \"profile_url\": \"/memorial/228555904/henry-guenther\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "4-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "GUENTHERTobias Guentherborn Aug. 12, 1835died Mar. 26, 1920Catherine Wolf, his wifeborn Feb. 2, 1842died Feb. 20, 1925at restWilhelmina , wife of C. Fahrner1861-1925Christian Fahrner1863-1952",
+  "id": 471,
+  "slug": "tobias-guenther-471"
+}

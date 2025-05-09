@@ -1,0 +1,52 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/123056872/sophia-alice-schroeder",
+  "name": "Sophia Alice Ehlers Schroeder",
+  "birth_date": "1841-00-00",
+  "death_date": "1929-01-29",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "SCHROEDER\nJohn Schroeder<br/>died Sept. 21, 1908<br/>aged 89 yrs. 11 mos. 19 ds.<br/>at rest<br/>his wife<br/>Sophia Ehlers<br/>1841-1929<br/>Anna<br/>died Jan. 12, 1881<br/>ae 1 mo. 28 ds.<br/>Wilhelm <br/>died May 12, 1885<br/>ae 6 yrs. 2 mos. 2 ds.<br/>Louisa<br/>died Apr. 17, 1875<br/>ae 2 mos. 29 ds.<br/>Elizabeth<br/>died Dec. 30, 1876<br/>ae 1 month</br>",
+  "gps": {
+    "latitude": "43.2983387",
+    "longitude": "-81.5525875"
+  },
+  "image_url": "https://images.findagrave.com/photos/2014/8/123056872_138930824543.jpg?size=photos250",
+  "image_credits": "Dean Harnack",
+  "image_credits_url": "/user/profile/47516399",
+  "parents": [
+    {
+      "name": "Johann Adolph   Ehlers",
+      "birth_date": "1813-00-00",
+      "death_date": "1885-00-00",
+      "profile_url": "/memorial/196699141/johann_adolph-ehlers"
+    },
+    {
+      "name": "Dorothea  Biemann Ehlers",
+      "birth_date": "1818-00-00",
+      "death_date": "1898-00-00",
+      "profile_url": "/memorial/196699198/dorothea-ehlers"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "John   Schroeder",
+      "birth_date": "1818-00-00",
+      "death_date": "1908-00-00",
+      "profile_url": "/memorial/123056607/john-schroeder",
+      "image_url": "https://images.findagrave.com/photos/2014/8/123056607_138930791074.jpg?size=photos250",
+      "id": 951
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "3-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Ehlers",
+  "inscription": "SCHROEDERJohn Schroederdied Sept. 21, 1908aged 89 yrs. 11 mos. 19 ds.at resthis wifeSophia Ehlers1841-1929Annadied Jan. 12, 1881ae 1 mo. 28 ds.Wilhelm died May 12, 1885ae 6 yrs. 2 mos. 2 ds.Louisadied Apr. 17, 1875ae 2 mos. 29 ds.Elizabethdied Dec. 30, 1876ae 1 month",
+  "id": 956,
+  "slug": "sophia-alice-ehlers-schroeder-956"
+}

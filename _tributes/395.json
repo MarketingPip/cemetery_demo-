@@ -1,0 +1,46 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/192783313/doris-alice-gaiser",
+  "name": "Doris Alice Gaiser",
+  "birth_date": "1921-10-21",
+  "death_date": "1921-11-17",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": {
+    "latitude": "43.2985566",
+    "longitude": "-81.5526991"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/116/192783313_65266b41-94bd-4fa4-87b4-61609aef3b50.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "William Earnot   Gaiser",
+      "birth_date": "1889-00-00",
+      "death_date": "1948-00-00",
+      "profile_url": "/memorial/188113086/william_earnot-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2022/116/188113086_ce2006d1-667d-4030-9cc0-6367a233367d.jpeg?size=photos250",
+      "id": 432
+    },
+    {
+      "name": "Laura May  Haist Gaiser",
+      "birth_date": "1891-00-00",
+      "death_date": "1980-00-00",
+      "profile_url": "/memorial/188113040/laura_may-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2022/116/188113040_d2306a72-7257-4c46-aff9-216fbde335fe.jpeg?size=photos250",
+      "id": 409
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Ruth Madeline   Gaiser\", \"birth_date\": \"1915-00-00\", \"death_date\": \"1923-00-00\", \"profile_url\": \"/memorial/192783230/ruth_madeline-gaiser\"}]",
+  "half_siblings": "[]",
+  "plot_value": "15-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 395
+}

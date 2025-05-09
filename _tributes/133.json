@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188036151/hannah-clemann",
+  "name": "Hannah Fritch Clemann",
+  "birth_date": "1793-01-01",
+  "death_date": "1868-03-10",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Daughter: Johana C Fredricka \"Rachel\" Clemann (1831–1895)11 Jul 1831 • Hanover, Region Hannover, Lower Saxony, Germany",
+  "bio": "Daughter: Johana C Fredricka \"Rachel\" Clemann (1831–1895)<br/>11 Jul 1831 • Hanover, Region Hannover, Lower Saxony, Germany",
+  "gps": {
+    "latitude": "43.2987451",
+    "longitude": "-81.5524888"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/51/188036151_6e0ab79f-879e-4c8c-88a1-c89622ff7eed.png?size=photos250",
+  "image_credits": "fly by - Sherry",
+  "image_credits_url": "/user/profile/47482982",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Augustus   Clemann",
+      "birth_date": "1806-00-00",
+      "death_date": "1892-00-00",
+      "profile_url": "/memorial/188036139/augustus-clemann",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188036139_a413184f-8dc5-441f-9830-f18f055a2a9f.jpeg?size=photos250",
+      "id": 132
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "6-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Fritch",
+  "inscription": "",
+  "id": 133,
+  "slug": "hannah-fritch-clemann-133"
+}

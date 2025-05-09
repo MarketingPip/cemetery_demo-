@@ -1,0 +1,49 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15563034/marjorie-k-gower",
+  "name": "Marjorie K. Kleinfeldt Gower",
+  "birth_date": "1915-00-00",
+  "death_date": "1971-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Daughter of Hannah (Schroeder) and John Kleinfeldt",
+  "bio": "Daughter of Hannah (Schroeder) and John Kleinfeldt",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/242/15563034_115703073973.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "John Philip   Kleinfeldt",
+      "birth_date": "1862-00-00",
+      "death_date": "1937-00-00",
+      "profile_url": "/memorial/16577031/john_philip-kleinfeldt"
+    },
+    {
+      "name": "Hannah Louise  Schroeder Kleinfeldt",
+      "birth_date": "1872-00-00",
+      "death_date": "1938-00-00",
+      "profile_url": "/memorial/36067589/hannah_louise-kleinfeldt"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Milton Isaac   Gower",
+      "birth_date": "1912-00-00",
+      "death_date": "1986-00-00",
+      "profile_url": "/memorial/15563013/milton_isaac-gower",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563013_115703062900.jpg?size=photos250",
+      "id": 454
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 16-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Kleinfeldt",
+  "inscription": "",
+  "id": 452,
+  "slug": "marjorie-k-kleinfeldt-gower-452"
+}

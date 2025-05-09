@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/239269521/hilda-finkbeiner",
+  "name": "Hilda Finkbeiner",
+  "birth_date": "1891-00-00",
+  "death_date": "1976-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "married to Joseph G Finkbeiner",
+  "bio": "married to Joseph G Finkbeiner",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/127/239269521_9b94043e-6ade-4de5-8a5c-9b106486b2eb.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Joseph G   Finkbeiner",
+      "birth_date": "1889-00-00",
+      "death_date": "1972-00-00",
+      "profile_url": "/memorial/239269438/joseph_g-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2022/127/239269438_079f915d-3826-47c7-ab09-ca872ae5cd6c.jpeg?size=photos250",
+      "id": 327
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 15-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 310,
+  "slug": "hilda-finkbeiner-310"
+}

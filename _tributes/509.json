@@ -1,0 +1,53 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15580371/wellington-roy-haist",
+  "name": "Wellington Roy Haist",
+  "birth_date": "1895-01-23",
+  "death_date": "1970-01-29",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/244/15580371_115720166829.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Frederick   Haist",
+      "birth_date": "1864-00-00",
+      "death_date": "1936-00-00",
+      "profile_url": "/memorial/15563828/frederick-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563828_115703864065.jpg?size=photos250",
+      "id": 488
+    },
+    {
+      "name": "Magdalena  Brown Haist",
+      "birth_date": "1863-00-00",
+      "death_date": "1937-00-00",
+      "profile_url": "/memorial/15563840/magdalena-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563840_115703879981.jpg?size=photos250",
+      "id": 502
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Irene Louise  Willert Haist",
+      "birth_date": "1898-00-00",
+      "death_date": "1983-00-00",
+      "profile_url": "/memorial/15580408/irene_louise-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/244/15580408_115720194352.jpg?size=photos250",
+      "id": 493
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 15-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 509,
+  "slug": "wellington-roy-haist-509"
+}

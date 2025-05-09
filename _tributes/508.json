@@ -1,0 +1,46 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15698467/royal-howard-haist",
+  "name": "Royal Howard Haist",
+  "birth_date": "1905-01-19",
+  "death_date": "1979-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Martha (Gaiser) and Henry Haist",
+  "bio": "HAIST\nMartha Gaiser<br/>1873-1934<br/>beloved wife of <br/>Henry Haist<br/>1873-1963<br/>their sons<br/>1905 Royal H. 1979<br/>1911 Gordon 1979<br/>August Haist<br/>died July 21, 1912<br/>aged 72 yrs. 8 mos. 14 ds.<br/>Barbara, his wife<br/>died Dec. 24, 1918<br/>aged 82 yrs. 27 ds.<br/>Jacob Haist<br/>died Mar. 6, 1864<br/>aged 73 yrs<br/>his wife Ana Maria<br/>died Nov. 29, 1881<br/>aged 86 yrs.</br>",
+  "gps": {
+    "latitude": "43.29837",
+    "longitude": "-81.5525446"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/253/15698467_115799061610.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Henry   Haist",
+      "birth_date": "1873-00-00",
+      "death_date": "1963-00-00",
+      "profile_url": "/memorial/15698186/henry-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/253/15698186_115798866721.jpg?size=photos250",
+      "id": 492
+    },
+    {
+      "name": "Martha M.  Gaiser Haist",
+      "birth_date": "1873-00-00",
+      "death_date": "1954-00-00",
+      "profile_url": "/memorial/15698280/martha_m-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/253/15698280_115799005487.jpg?size=photos250",
+      "id": 504
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Gordon   Haist\", \"birth_date\": \"1911-00-00\", \"death_date\": \"1979-00-00\", \"profile_url\": \"/memorial/15698481/gordon-haist\"}, {\"name\": \"Arthur Gerald \\\"Art\\\"  Haist\", \"birth_date\": \"1916-00-00\", \"death_date\": \"2002-00-00\", \"profile_url\": \"/memorial/15042881/arthur_gerald-haist\"}]",
+  "half_siblings": "[]",
+  "plot_value": "3-11",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "HAISTMartha Gaiser1873-1934beloved wife of Henry Haist1873-1963their sons1905 Royal H. 19791911 Gordon 1979August Haistdied July 21, 1912aged 72 yrs. 8 mos. 14 ds.Barbara, his wifedied Dec. 24, 1918aged 82 yrs. 27 ds.Jacob Haistdied Mar. 6, 1864aged 73 yrshis wife Ana Mariadied Nov. 29, 1881aged 86 yrs.",
+  "id": 508
+}

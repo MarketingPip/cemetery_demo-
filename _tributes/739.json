@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/199415670/gladys-elaine-morlock",
+  "name": "Gladys Elaine Becker Morlock",
+  "birth_date": "1926-00-00",
+  "death_date": "2018-01-06",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/199415670_c6e94021-3370-4bdf-9ec9-71c2d6906d59.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Frederick John   Morlock",
+      "birth_date": "1924-00-00",
+      "death_date": "1993-00-00",
+      "profile_url": "/memorial/15135166/frederick_john-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/214/15135166_115461828688.jpg?size=photos250",
+      "id": 735
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Becker",
+  "inscription": "",
+  "id": 739,
+  "slug": "gladys-elaine-becker-morlock-739"
+}

@@ -1,0 +1,44 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/191737488/william-a-stewardson",
+  "name": "William A. “Bill” Stewardson",
+  "birth_date": "1940-03-29",
+  "death_date": "2015-06-03",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": {
+    "latitude": "43.2998917",
+    "longitude": "-81.5527889"
+  },
+  "image_url": "https://images.findagrave.com/photos/2018/209/191737488_963fd009-4cb3-476b-94bb-dd2855ed023c.jpeg?size=photos250",
+  "image_credits": "rossddickson",
+  "image_credits_url": "/user/profile/49188008",
+  "parents": [
+    {
+      "name": "Susan  Littlejohn Stevenson",
+      "birth_date": "1869-00-00",
+      "death_date": "1950-00-00",
+      "profile_url": "/memorial/179520655/susan-stevenson"
+    },
+    {
+      "name": "Lois  Wanner Stewardson",
+      "birth_date": "1921-00-00",
+      "death_date": "1998-00-00",
+      "profile_url": "/memorial/188137964/lois-stewardson",
+      "image_url": "https://images.findagrave.com/photos/2018/209/188137964_d080fe00-018c-409a-969b-b2c4327f492f.jpeg?size=photos250",
+      "id": 1017
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[{\"name\": \"Willis Stanley Ecron   Stewardson\", \"birth_date\": \"1941-00-00\", \"death_date\": \"2009-00-00\", \"profile_url\": \"/memorial/44646061/willis_stanley_ecron-stewardson\"}, {\"name\": \"Glen Henry   Stewardson\", \"birth_date\": \"1943-00-00\", \"death_date\": \"2013-00-00\", \"profile_url\": \"/memorial/191737552/glen_henry-stewardson\"}]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 1018
+}

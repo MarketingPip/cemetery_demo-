@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188115348/gertrude-i-oestreicher",
+  "name": "Gertrude I. Gibson Oestreicher",
+  "birth_date": "1892-00-00",
+  "death_date": "1956-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/83/188115348_d6529b5e-15e7-4fc4-984f-3a0e4b13f6c3.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "William C. F.   Oestreicher",
+      "birth_date": "1892-00-00",
+      "death_date": "1977-00-00",
+      "profile_url": "/memorial/188115419/william_c_f-oestreicher",
+      "image_url": "https://images.findagrave.com/photos/2022/83/188115419_6a4af0f3-6573-4265-aaee-0c23ea284ab7.jpeg?size=photos250",
+      "id": 812
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 18-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Gibson",
+  "inscription": "",
+  "id": 798,
+  "slug": "gertrude-i-gibson-oestreicher-798"
+}

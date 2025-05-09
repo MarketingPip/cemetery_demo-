@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188113438/ross-krueger",
+  "name": "Ross Krueger",
+  "birth_date": "1912-00-00",
+  "death_date": "1979-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "FAHNER\nLydia Wein<br/>died Mar. 31, 1944 aged 63 yrs.<br/>wife of Henry Fahner<br/>died Nov. 19, 1964<br/>aged 86 yrs.<br/>their daughter Emma<br/>wife of Rose Krueger<br/>died June 5, 1979 aged 67 yrs.<br/>(back)Tobias Fahner<br/>died Aug. 20, 1906<br/>aged 67 yrs.<br/>Gone but not forgotten <br/>Sophia his wife<br/>died Apr. 14, 1924 aged 74 yrs.<br/>at rest</br>",
+  "gps": {
+    "latitude": "43.2983452",
+    "longitude": "-81.5526991"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/112/188113438_9564f11f-ce94-4615-9d66-bda034ffde82.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Erma  Fahner Krueger",
+      "birth_date": "1909-00-00",
+      "death_date": "1979-00-00",
+      "profile_url": "/memorial/188113434/erma-krueger",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188113434_d64f4bfe-88bd-451b-b39f-dfb117ef7ba3.jpeg?size=photos250",
+      "id": 636
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 8-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "FAHNERLydia Weindied Mar. 31, 1944 aged 63 yrs.wife of Henry Fahnerdied Nov. 19, 1964aged 86 yrs.their daughter Emmawife of Rose Kruegerdied June 5, 1979 aged 67 yrs.(back)Tobias Fahnerdied Aug. 20, 1906aged 67 yrs.Gone but not forgotten Sophia his wifedied Apr. 14, 1924 aged 74 yrs.at rest",
+  "id": 637,
+  "slug": "ross-krueger-637"
+}

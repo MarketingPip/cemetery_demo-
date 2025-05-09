@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15961534/michael-finkbeiner",
+  "name": "Michael Finkbeiner",
+  "birth_date": "1825-08-25",
+  "death_date": "1892-06-30",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Born in Germany, the son of Eva (Gunter) and Michael Finkbeiner. Husband to Barbara Haist",
+  "bio": "FINKBEINER\nRoy H. Finkbeiner<br/>1897-1990<br/>his wife Lily M. Fahrner<br/>1888-1970<br/>William Finkbeiner<br/>1858-1937<br/>his wife Mary Wein<br/>1871-1958<br/>Michael Finkbeiner<br/>born 25 Aug. 1825<br/>died 30 June 1892<br/>Barbara Finkbeiner<br/>born 28 Nov. 1828<br/>died 5 Dec. 1896<br/>Christian Finkbeiner<br/>born 12 Aug. 1849<br/>died 17 Aug. 1878<br/>aged 29 Jahre 5 tag.</br>",
+  "gps": {
+    "latitude": "43.2987654",
+    "longitude": "-81.5529907"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/273/15961534_115975993895.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Barbara  Haist Finkbeiner",
+      "birth_date": "1828-00-00",
+      "death_date": "1896-00-00",
+      "profile_url": "/memorial/15961580/barbara-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/273/15961580_115976010328.jpg?size=photos250",
+      "id": 276
+    }
+  ],
+  "children": "[{\"name\": \"Christian   Finkbeiner\", \"birth_date\": \"1849-00-00\", \"death_date\": \"1878-00-00\", \"profile_url\": \"/memorial/15961756/christian-finkbeiner\"}, {\"name\": \"Jacob   Finkbeiner\", \"birth_date\": \"1852-00-00\", \"death_date\": \"1933-00-00\", \"profile_url\": \"/memorial/16668101/jacob-finkbeiner\"}, {\"name\": \"William   Finkbeiner\", \"birth_date\": \"1858-00-00\", \"death_date\": \"1937-00-00\", \"profile_url\": \"/memorial/15961995/william-finkbeiner\"}, {\"name\": \"Maria Anna \\\"Mary\\\" Finkbeiner Witzel\", \"birth_date\": \"1860-00-00\", \"death_date\": \"1927-00-00\", \"profile_url\": \"/memorial/35457385/maria_anna-witzel\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "row 7-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "FINKBEINERRoy H. Finkbeiner1897-1990his wife Lily M. Fahrner1888-1970William Finkbeiner1858-1937his wife Mary Wein1871-1958Michael Finkbeinerborn 25 Aug. 1825died 30 June 1892Barbara Finkbeinerborn 28 Nov. 1828died 5 Dec. 1896Christian Finkbeinerborn 12 Aug. 1849died 17 Aug. 1878aged 29 Jahre 5 tag.",
+  "id": 353,
+  "slug": "michael-finkbeiner-353"
+}

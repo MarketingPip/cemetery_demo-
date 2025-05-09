@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188115411/samuel-l-oestreicher",
+  "name": "Samuel L. Oestreicher",
+  "birth_date": "1887-00-00",
+  "death_date": "1974-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/188115411_feed0572-cc73-469e-adda-86d1ecda977d.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Mary Magdelena  Ehlers Oestreicher",
+      "birth_date": "1886-00-00",
+      "death_date": "1958-00-00",
+      "profile_url": "/memorial/188115407/mary_magdelena-oestreicher",
+      "image_url": "https://images.findagrave.com/photos/2022/84/188115407_1584d8b3-1d17-43a5-bb22-976bda8abef0.jpeg?size=photos250",
+      "id": 808
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 14-5",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 811,
+  "slug": "samuel-l-oestreicher-811"
+}

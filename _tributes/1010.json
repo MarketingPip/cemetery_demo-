@@ -1,0 +1,42 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/239188165/alma-jane-stanley",
+  "name": "Alma Jane Stanley",
+  "birth_date": "1877-11-29",
+  "death_date": "1881-05-20",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "STANLEY\nAlma Jane S<br/>daughter of Robert &amp; Min<br/>Stanley<br/>died May 20, 1881<br/>Aged 3 years 5 months 21 days</br>",
+  "gps": {
+    "latitude": "43.2983491",
+    "longitude": "-81.5524414"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/114/239188165_d97f4047-e835-49ed-8c8c-4162669c4027.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Robert   Stanley",
+      "birth_date": "1851-00-00",
+      "death_date": "1935-00-00",
+      "profile_url": "/memorial/171870710/robert-stanley"
+    },
+    {
+      "name": "Wilhelmina  Hoffman Stanley",
+      "birth_date": "1854-00-00",
+      "death_date": "1943-00-00",
+      "profile_url": "/memorial/171870426/wilhelmina-stanley"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Almeda M.  Stanley Hewitt\", \"birth_date\": \"1876-00-00\", \"death_date\": \"1956-00-00\", \"profile_url\": \"/memorial/218880793/almeda_m-hewitt\"}, {\"name\": \"Mary (Mae) Venetta  Stanley Stretton\", \"birth_date\": \"1880-00-00\", \"death_date\": \"1951-00-00\", \"profile_url\": \"/memorial/249616877/mary_(mae)_venetta-stretton\"}, {\"name\": \"Charles H   Stanley\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1883-00-00\", \"profile_url\": \"/memorial/239188082/charles_h-stanley\"}]",
+  "half_siblings": "[]",
+  "plot_value": "row 11-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "STANLEYAlma Jane Sdaughter of Robert & MinStanleydied May 20, 1881Aged 3 years 5 months 21 days",
+  "id": 1010
+}

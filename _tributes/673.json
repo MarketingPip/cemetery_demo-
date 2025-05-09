@@ -1,0 +1,52 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188114961/william-howard-lightfoot",
+  "name": "William Howard Lightfoot",
+  "birth_date": "1905-00-00",
+  "death_date": "1979-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "LIGHTFOOT\nWilliam Howard Lightfoot<br/>1905-1979<br/>his wife Doreen E. Baker<br/>1921-2003</br>",
+  "gps": {
+    "latitude": "43.2996306",
+    "longitude": "-81.552825"
+  },
+  "image_url": "https://images.findagrave.com/photos/2018/209/188114961_9a41855c-6b0f-4349-b467-265bc6663944.jpeg?size=photos250",
+  "image_credits": "rossddickson",
+  "image_credits_url": "/user/profile/49188008",
+  "parents": [
+    {
+      "name": "William Thomas   Lightfoot",
+      "birth_date": "1877-00-00",
+      "death_date": "1948-00-00",
+      "profile_url": "/memorial/142977571/william_thomas-lightfoot"
+    },
+    {
+      "name": "Edith Jane  Keown Lightfoot",
+      "birth_date": "1880-00-00",
+      "death_date": "1928-00-00",
+      "profile_url": "/memorial/142977505/edith_jane-lightfoot"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Doreen Elizabeth  Baker Lightfoot",
+      "birth_date": "1921-00-00",
+      "death_date": "2003-00-00",
+      "profile_url": "/memorial/188114950/doreen_elizabeth-lightfoot",
+      "image_url": "https://images.findagrave.com/photos/2022/86/188114950_0385ee12-05e0-492d-a749-f4b52a0d15fb.jpeg?size=photos250",
+      "id": 670
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 27-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "LIGHTFOOTWilliam Howard Lightfoot1905-1979his wife Doreen E. Baker1921-2003",
+  "id": 673,
+  "slug": "william-howard-lightfoot-673"
+}

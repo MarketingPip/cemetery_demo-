@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15563111/john-herbert-jones",
+  "name": "John Herbert Jones",
+  "birth_date": "1893-00-00",
+  "death_date": "1982-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/242/15563111_115703148818.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Lillian Frieda  Finkbeiner Jones",
+      "birth_date": "1895-00-00",
+      "death_date": "1984-00-00",
+      "profile_url": "/memorial/15563121/lillian_frieda-jones",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563121_115703156335.jpg?size=photos250",
+      "id": 607
+    }
+  ],
+  "children": "[{\"name\": \"Harold William   Jones\", \"birth_date\": \"1919-00-00\", \"death_date\": \"2017-00-00\", \"profile_url\": \"/memorial/237947789/harold_william-jones\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 16-9",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 606,
+  "slug": "john-herbert-jones-606"
+}

@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/16331339/christian-finkbeiner",
+  "name": "Christian Finkbeiner",
+  "birth_date": "1852-08-10",
+  "death_date": "1933-12-12",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "FINKBEINER\nJacob Finkbeiner<br/>Gestboren Den. Marz. 12, 1861 In Alter<br/>von 11 Jahr 6 monate 2 tage.<br/>Heir Ruht<br/>Rosina<br/>Ehefrau von Jacob Finkbeiner<br/>Gestboren Dec Feb. 3, 1882 In Alter<br/>von 54 Jahr 5 tagen<br/>Ruhe uhrer a sche<br/>Jacob Finkbeiner<br/>gestboren den Apr. 8, 1900 In Alter<br/>von 79 Jahr. 6 mo. 18 tag.<br/>Magdalena<br/>wife of Christian Finkbeiner<br/>died Dec. 8, 1927<br/>aged 69 years<br/>Christian Finkbeiner<br/>died Dec. 12, 1933 aged 81 yrs.</br>",
+  "gps": {
+    "latitude": "43.2984571",
+    "longitude": "-81.5529907"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/298/16331339_116188038402.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Magdalena  Gaiser Finkbeiner",
+      "birth_date": "1858-00-00",
+      "death_date": "1927-00-00",
+      "profile_url": "/memorial/16331358/magdalena-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/298/16331358_116188127734.jpg?size=photos250",
+      "id": 343
+    }
+  ],
+  "children": "[{\"name\": \"Werner   Finkbeiner\", \"birth_date\": \"1881-00-00\", \"death_date\": \"1931-00-00\", \"profile_url\": \"/memorial/143777874/werner-finkbeiner\"}, {\"name\": \"Nelson   Finkbeiner\", \"birth_date\": \"1886-00-00\", \"death_date\": \"1934-00-00\", \"profile_url\": \"/memorial/158245947/nelson-finkbeiner\"}, {\"name\": \"Milton Adam Jacob   Finkbeiner\", \"birth_date\": \"1893-00-00\", \"death_date\": \"1965-00-00\", \"profile_url\": \"/memorial/214111917/milton_adam_jacob-finkbeiner\"}, {\"name\": \"Wilhelmina Eveline \\\"Minnie\\\" Finkbeiner LaFond\", \"birth_date\": \"1895-00-00\", \"death_date\": \"1939-00-00\", \"profile_url\": \"/memorial/245135270/wilhelmina_eveline-lafond\"}, {\"name\": \"Erma Irene   Finkbeiner\", \"birth_date\": \"1900-00-00\", \"death_date\": \"1964-00-00\", \"profile_url\": \"/memorial/16330377/erma_irene-finkbeiner\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 9-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "FINKBEINERJacob FinkbeinerGestboren Den. Marz. 12, 1861 In Altervon 11 Jahr 6 monate 2 tage.Heir RuhtRosinaEhefrau von Jacob FinkbeinerGestboren Dec Feb. 3, 1882 In Altervon 54 Jahr 5 tagenRuhe uhrer a scheJacob Finkbeinergestboren den Apr. 8, 1900 In Altervon 79 Jahr. 6 mo. 18 tag.Magdalenawife of Christian Finkbeinerdied Dec. 8, 1927aged 69 yearsChristian Finkbeinerdied Dec. 12, 1933 aged 81 yrs.",
+  "id": 286,
+  "slug": "christian-finkbeiner-286"
+}

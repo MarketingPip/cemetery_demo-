@@ -1,0 +1,56 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/16330377/erma-irene-finkbeiner",
+  "name": "Erma Irene Finkbeiner",
+  "birth_date": "1900-04-01",
+  "death_date": "1964-06-04",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Erma was the daughter of Lena (Gaiser) and Christian Finkbeiner",
+  "bio": "THY WILL BE DONE\n<br/>THY WILL BE DONE<br/>FINKBEINER<br/>Erma Irene<br/>Finkbeiner<br/>1900-1964<br/>thy will be done</br>",
+  "gps": {
+    "latitude": "43.2983491",
+    "longitude": "-81.5530855"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/298/16330377_116187378258.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Christian   Finkbeiner",
+      "birth_date": "1852-00-00",
+      "death_date": "1933-00-00",
+      "profile_url": "/memorial/16331339/christian-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/298/16331339_116188038402.jpg?size=photos250",
+      "id": 286
+    },
+    {
+      "name": "Magdalena  Gaiser Finkbeiner",
+      "birth_date": "1858-00-00",
+      "death_date": "1927-00-00",
+      "profile_url": "/memorial/16331358/magdalena-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/298/16331358_116188127734.jpg?size=photos250",
+      "id": 343
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Henry Charles   Beaver",
+      "birth_date": "1879-00-00",
+      "death_date": "1968-00-00",
+      "profile_url": "/memorial/15554242/henry_charles-beaver",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15554242_115694941640.jpg?size=photos250",
+      "id": 22
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 9-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "THY WILL BE DONETHY WILL BE DONEFINKBEINERErma IreneFinkbeiner1900-1964thy will be done",
+  "id": 297,
+  "slug": "erma-irene-finkbeiner-297"
+}

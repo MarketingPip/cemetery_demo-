@@ -1,0 +1,53 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15554714/stuart-claire-kuhn",
+  "name": "Stuart Claire Kuhn",
+  "birth_date": "1909-02-13",
+  "death_date": "1974-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/241/15554714_115695223263.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Henry John   Kuhn",
+      "birth_date": "1876-00-00",
+      "death_date": "1943-00-00",
+      "profile_url": "/memorial/15563798/henry_john-kuhn",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563798_115703823212.jpg?size=photos250",
+      "id": 646
+    },
+    {
+      "name": "Ada  Kienzle Kuhn",
+      "birth_date": "1882-00-00",
+      "death_date": "1973-00-00",
+      "profile_url": "/memorial/15563805/ada-kuhn",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563805_115703834007.jpg?size=photos250",
+      "id": 638
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Grace May  Boettger Kuhn",
+      "birth_date": "1905-00-00",
+      "death_date": "2011-00-00",
+      "profile_url": "/memorial/64615878/grace_may-kuhn",
+      "image_url": "https://images.findagrave.com/photos/2011/23/64615878_129589178516.jpg?size=photos250",
+      "id": 645
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 17-8",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 653,
+  "slug": "stuart-claire-kuhn-653"
+}

@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188115151/sina-martin",
+  "name": "Sina Seidell Martin",
+  "birth_date": "1910-00-00",
+  "death_date": "1994-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "MARTIN\nTHE LORD IS MY SHEPHERD</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/188115151_df87e9f8-b8a2-4526-b5b7-7090d7933729.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Robert   Martin",
+      "birth_date": "1896-00-00",
+      "death_date": "1972-00-00",
+      "profile_url": "/memorial/188115149/robert-martin",
+      "image_url": "https://images.findagrave.com/photos/2022/84/188115149_0254d4ec-6f79-4e8f-9907-7c84ea9d1baa.jpeg?size=photos250",
+      "id": 702
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 22-9",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Seidell",
+  "inscription": "MARTINTHE LORD IS MY SHEPHERD",
+  "id": 703,
+  "slug": "sina-seidell-martin-703"
+}

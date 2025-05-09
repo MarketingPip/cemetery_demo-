@@ -1,0 +1,44 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188138346/inez-m-van_horne",
+  "name": "Inez M. Fahner Trick Van Horne",
+  "birth_date": "1911-00-00",
+  "death_date": "1990-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/117/188138346_11a3fbf2-96bd-47d8-b8f2-50eaef22f8b1.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Henry A.   Trick",
+      "birth_date": "1892-00-00",
+      "death_date": "1957-00-00",
+      "profile_url": "/memorial/188138338/henry_a-trick",
+      "image_url": "https://images.findagrave.com/photos/2022/117/188138338_6177f6e5-9e15-44ce-aa26-f851e5624ced.jpeg?size=photos250",
+      "id": 1075
+    },
+    {
+      "name": "Cecil W.   Van Horne",
+      "birth_date": "1909-00-00",
+      "death_date": "1980-00-00",
+      "profile_url": "/memorial/188138411/cecil_w-van_horne",
+      "image_url": "https://images.findagrave.com/photos/2022/117/188138411_5599fd54-7d48-4c6c-af77-5db9bbd7ea9d.jpeg?size=photos250",
+      "id": 1085
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 21-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Fahner Trick",
+  "inscription": "",
+  "id": 1086,
+  "slug": "inez-m-fahner-trick-van-horne-1086"
+}

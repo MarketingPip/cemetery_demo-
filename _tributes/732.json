@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15395894/elizabeth-lizzian-morlock",
+  "name": "Elizabeth Lizzian Wolfe Morlock",
+  "birth_date": "1889-00-00",
+  "death_date": "1976-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Daughter of Elizabeth (Haist) and Charles Wolfe",
+  "bio": "Daughter of Elizabeth (Haist) and Charles Wolfe",
+  "gps": {
+    "latitude": "43.2986284",
+    "longitude": "-81.5523985"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/228/15395894_115582394931.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Simon John   Morlock",
+      "birth_date": "1876-00-00",
+      "death_date": "1954-00-00",
+      "profile_url": "/memorial/15395871/simon_john-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/228/15395871_115582380332.jpg?size=photos250",
+      "id": 760
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 20-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Wolfe",
+  "inscription": "",
+  "id": 732,
+  "slug": "elizabeth-lizzian-wolfe-morlock-732"
+}

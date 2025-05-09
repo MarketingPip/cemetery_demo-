@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188136902/georgie-sims",
+  "name": "Georgie Anderson Sims",
+  "birth_date": "1922-00-00",
+  "death_date": "1994-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/188136902_5b30b593-9115-4ea0-b655-d8f77a942878.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Fredrick John \"Fred\"  Sims",
+      "birth_date": "1920-00-00",
+      "death_date": "2007-00-00",
+      "profile_url": "/memorial/188136897/fredrick_john-sims",
+      "image_url": "https://images.findagrave.com/photos/2022/86/188136897_e0ed097a-641c-4890-a9c5-fd9371010bdd.jpeg?size=photos250",
+      "id": 978
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Anderson",
+  "inscription": "",
+  "id": 979,
+  "slug": "georgie-anderson-sims-979"
+}

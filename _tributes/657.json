@@ -1,0 +1,51 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188113494/clara-agatha-lamport",
+  "name": "Clara Agatha Gaiser Lamport",
+  "birth_date": "1908-07-03",
+  "death_date": "1993-02-15",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/116/188113494_b6ea3d6d-5c7a-46a8-8499-eb6dbefd21a6.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "John H.   Gaiser",
+      "birth_date": "1867-00-00",
+      "death_date": "1964-00-00",
+      "profile_url": "/memorial/188113030/john_h-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2022/116/188113030_bd224d63-28d0-4225-be68-a688fc9f2ba1.jpeg?size=photos250",
+      "id": 407
+    },
+    {
+      "name": "Catharine  Engeland Gaiser",
+      "birth_date": "1870-00-00",
+      "death_date": "1927-00-00",
+      "profile_url": "/memorial/188112993/catharine-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2022/116/188112993_18f450fd-f244-49fb-8f0e-ef872d6c2981.jpeg?size=photos250",
+      "id": 391
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Melvin Witzel   Lamport",
+      "birth_date": "1910-00-00",
+      "death_date": "1982-00-00",
+      "profile_url": "/memorial/225104854/melvin_witzel-lamport"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Gaiser",
+  "inscription": "",
+  "id": 657,
+  "slug": "clara-agatha-gaiser-lamport-657"
+}

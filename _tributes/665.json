@@ -1,0 +1,40 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/133441240/christine-lang",
+  "name": "Christine Lang",
+  "birth_date": "1855-00-00",
+  "death_date": "1861-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "The Lang family was part of the Evangelical church in Crediton. According to the Huron County Branch, O.G.S., \"The original log church of Crediton Evangelical congregation was where the Zion United Church now stands in the village of Crediton. A frame church was later built on same site. Still later a small brick church was erected. The present brick church was built in 1864. The first cemetery of this congregation was beside the churches at the village location, but stones were moved in 1868 to the present cemetery site.\"According to the 1861 census, Christine is said to be turning 6 in 1861, but she is also marked as \"member of family absent.\" Only deaths in 1860 were to be reported. Possibly she died prior to the census in 1861. She does not seem to have moved to Ohio and then Michigan with her father and her two older sisters later in 1861. (1861 Canadian Census, 2nd Ward, Stephen Twp., Huron Co., pg.13)",
+  "bio": "The Lang family was part of the Evangelical church in Crediton. According to the Huron County Branch, O.G.S., \"The original log church of Crediton Evangelical congregation was where the Zion United Church now stands in the village of Crediton. A frame church was later built on same site. Still later a small brick church was erected. The present brick church was built in 1864. The first cemetery of this congregation was beside the churches at the village location, but stones were moved in 1868 to the present cemetery site.\"<br/><br/>According to the 1861 census, Christine is said to be turning 6 in 1861, but she is also marked as \"member of family absent.\" Only deaths in 1860 were to be reported. Possibly she died prior to the census in 1861. She does not seem to have moved to Ohio and then Michigan with her father and her two older sisters later in 1861. (1861 Canadian Census, 2nd Ward, Stephen Twp., Huron Co., pg.13)",
+  "gps": null,
+  "image_url": "",
+  "image_credits": "",
+  "image_credits_url": "",
+  "parents": [
+    {
+      "name": "Jacob   Lang Sr",
+      "birth_date": "1819-00-00",
+      "death_date": "1897-00-00",
+      "profile_url": "/memorial/122943857/jacob-lang"
+    },
+    {
+      "name": "Margaret  Hoffman Lang",
+      "birth_date": "1819-00-00",
+      "death_date": "1858-00-00",
+      "profile_url": "/memorial/133441132/margaret-lang",
+      "id": 667
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Cornelia  Lang Crawford\", \"birth_date\": \"1853-00-00\", \"death_date\": \"1903-00-00\", \"profile_url\": \"/memorial/69052561/cornelia-crawford\"}, {\"name\": \"Kate  Lang Jackson\", \"birth_date\": \"1854-00-00\", \"death_date\": \"1934-00-00\", \"profile_url\": \"/memorial/70082590/kate-jackson\"}, {\"name\": \"Infant   Lang\", \"birth_date\": \"1858-00-00\", \"death_date\": \"1858-00-00\", \"profile_url\": \"/memorial/133559629/infant-lang\"}]",
+  "half_siblings": "[{\"name\": \"Jake   Lang\", \"birth_date\": \"1862-00-00\", \"death_date\": \"1912-00-00\", \"profile_url\": \"/memorial/49055308/jake-lang\"}, {\"name\": \"William   Lang\", \"birth_date\": \"1865-00-00\", \"death_date\": \"1949-00-00\", \"profile_url\": \"/memorial/123605014/william-lang\"}, {\"name\": \"Ella  Lang Houck\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1947-00-00\", \"profile_url\": \"/memorial/122944258/ella-houck\"}]",
+  "plot_value": "Grave unmarked. Please see notes below for burial details.",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 665
+}

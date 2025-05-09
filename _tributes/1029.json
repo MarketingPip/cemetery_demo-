@@ -1,0 +1,56 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/16550965/ida-sweitzer",
+  "name": "Ida Ratz Sweitzer",
+  "birth_date": "1889-04-10",
+  "death_date": "1920-01-10",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Daughter of Barbara (Finkbeiner) and John Ratz, wife of William Sweitzer (he was the son of Lydia Morlock and Samuel Sweitzer",
+  "bio": "RATZ (black granite)\nGordon Marcius<br/>son of John &amp; Barbara Ratz<br/>died Oct. 18, 1908<br/>ae 8 yrs. 4 mos. 17 ds.<br/>Ida Ratz<br/>wife of William Sweitzer<br/>born Apr. 10, 1889-died Jan. 10, 1920<br/>Gone but not forgotten<br/>(back)John Ratz<br/>born Apr. 18, 1853-died June 21, 1942<br/>Barbara Finkbeiner<br/>wife of John Ratz<br/>born Feb. 16, 1856-died Jan. 6, 1924<br/>in her 67th year.<br/>Simon V. Ratz<br/>born Nov. 26, 1883-died Feb. 28, 1947</br>",
+  "gps": {
+    "latitude": "43.298475",
+    "longitude": "-81.552845"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/311/16550965_116299929479.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "John   Ratz",
+      "birth_date": "1853-00-00",
+      "death_date": "1942-00-00",
+      "profile_url": "/memorial/16550765/john-ratz",
+      "image_url": "https://images.findagrave.com/photos/2006/311/16550765_116299802309.jpg?size=photos250",
+      "id": 870
+    },
+    {
+      "name": "Barbara  Finkbeiner Ratz",
+      "birth_date": "1854-00-00",
+      "death_date": "1924-00-00",
+      "profile_url": "/memorial/16550802/barbara-ratz",
+      "image_url": "https://images.findagrave.com/photos/2006/311/16550802_116299825561.jpg?size=photos250",
+      "id": 858
+    }
+  ],
+  "spouses": [
+    {
+      "name": "William H.   Sweitzer",
+      "birth_date": "1887-00-00",
+      "death_date": "1969-00-00",
+      "profile_url": "/memorial/15187530/william_h-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/219/15187530_115505314250.jpg?size=photos250",
+      "id": 1051
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 10-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Ratz",
+  "inscription": "RATZ (black granite)Gordon Marciusson of John & Barbara Ratzdied Oct. 18, 1908ae 8 yrs. 4 mos. 17 ds.Ida Ratzwife of William Sweitzerborn Apr. 10, 1889-died Jan. 10, 1920Gone but not forgotten(back)John Ratzborn Apr. 18, 1853-died June 21, 1942Barbara Finkbeinerwife of John Ratzborn Feb. 16, 1856-died Jan. 6, 1924in her 67th year.Simon V. Ratzborn Nov. 26, 1883-died Feb. 28, 1947",
+  "id": 1029,
+  "slug": "ida-ratz-sweitzer-1029"
+}

@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15563805/ada-kuhn",
+  "name": "Ada Kienzle Kuhn",
+  "birth_date": "1882-00-00",
+  "death_date": "1973-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Daughter of Lena (Boyer) and Charles Kienzle",
+  "bio": "Daughter of Lena (Boyer) and Charles Kienzle",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/242/15563805_115703834007.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Henry John   Kuhn",
+      "birth_date": "1876-00-00",
+      "death_date": "1943-00-00",
+      "profile_url": "/memorial/15563798/henry_john-kuhn",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563798_115703823212.jpg?size=photos250",
+      "id": 646
+    }
+  ],
+  "children": "[{\"name\": \"Stuart Claire   Kuhn\", \"birth_date\": \"1909-00-00\", \"death_date\": \"1974-00-00\", \"profile_url\": \"/memorial/15554714/stuart_claire-kuhn\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 16-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Kienzle",
+  "inscription": "",
+  "id": 638,
+  "slug": "ada-kienzle-kuhn-638"
+}

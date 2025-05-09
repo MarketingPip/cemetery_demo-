@@ -1,0 +1,46 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/238053974/geraldine-ann-schenk",
+  "name": "Geraldine Ann Dundas Schenk",
+  "birth_date": "1932-00-00",
+  "death_date": "2019-10-02",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "SCHENK\nGeraldine Ann Dundas<br/>1932-2019</br>",
+  "gps": {
+    "latitude": "43.2986103",
+    "longitude": "-81.5529049"
+  },
+  "image_url": "https://images.findagrave.com/photos/2023/219/238053974_d65b8944-75c4-4e97-b3bd-88b651200ba5.jpeg?v=1691445947&size=photos250",
+  "image_credits": "Slick",
+  "image_credits_url": "/user/profile/50973252",
+  "parents": [
+    {
+      "name": "Stephen R.   Dundas",
+      "birth_date": "1900-00-00",
+      "death_date": "1975-00-00",
+      "profile_url": "/memorial/188036363/stephen_r-dundas",
+      "image_url": "https://images.findagrave.com/photos/2022/84/188036363_2345ba13-98ce-456a-9e3e-b2ff27c9bb1f.jpeg?size=photos250",
+      "id": 161
+    },
+    {
+      "name": "Dorothy A.  Smith Dundas",
+      "birth_date": "1908-00-00",
+      "death_date": "1997-00-00",
+      "profile_url": "/memorial/188036357/dorothy_a-dundas",
+      "image_url": "https://images.findagrave.com/photos/2022/84/188036357_db52ae7b-6093-4ba3-9bde-8a8cb2b1a2d5.jpeg?size=photos250",
+      "id": 160
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Donald S.   Dundas\", \"birth_date\": \"1947-00-00\", \"death_date\": \"2020-00-00\", \"profile_url\": \"/memorial/238051972/donald_s-dundas\"}]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2022/86/238053974_90f5c72b-35c8-4b9c-99f7-0b721728763f.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}]",
+  "maiden_name": "Dundas",
+  "inscription": "SCHENKGeraldine Ann Dundas1932-2019",
+  "id": 921
+}

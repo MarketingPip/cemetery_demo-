@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188136875/hanna-m-schweitzer",
+  "name": "Hanna M. Finkbeiner Schweitzer",
+  "birth_date": "1884-00-00",
+  "death_date": "1967-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/116/188136875_7ab005a9-a6ea-4439-95bb-04400a4d9c47.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Edward   Schweitzer",
+      "birth_date": "1880-00-00",
+      "death_date": "1941-00-00",
+      "profile_url": "/memorial/188136870/edward-schweitzer",
+      "image_url": "https://images.findagrave.com/photos/2022/116/188136870_f63ebd58-f6cb-4303-a214-cc5fe8e95eaf.jpeg?size=photos250",
+      "id": 969
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 15-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Finkbeiner",
+  "inscription": "",
+  "id": 970,
+  "slug": "hanna-m-finkbeiner-schweitzer-970"
+}

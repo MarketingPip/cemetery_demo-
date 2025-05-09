@@ -1,0 +1,56 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15396077/herbert-charles-morlock",
+  "name": "Herbert Charles Morlock",
+  "birth_date": "1890-07-02",
+  "death_date": "1948-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Lydia (Haist) and William Morlock. His birth year may be 1891",
+  "bio": "Son of Lydia (Haist) and William Morlock. His birth year may be 1891",
+  "gps": {
+    "latitude": "43.2984097",
+    "longitude": "-81.5523126"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/228/15396077_115582534425.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "William H.   Morlock",
+      "birth_date": "1862-00-00",
+      "death_date": "1948-00-00",
+      "profile_url": "/memorial/15978472/william_h-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/275/15978472_115988713587.jpg?size=photos250",
+      "id": 762
+    },
+    {
+      "name": "Lydia  Haist Morlock",
+      "birth_date": "1867-00-00",
+      "death_date": "1943-00-00",
+      "profile_url": "/memorial/15978542/lydia-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/275/15978542_115988748138.jpg?size=photos250",
+      "id": 748
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Mary Adeline  Finkbeiner Morlock",
+      "birth_date": "1892-00-00",
+      "death_date": "1958-00-00",
+      "profile_url": "/memorial/15396133/mary_adeline-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/228/15396133_115582560957.jpg?size=photos250",
+      "id": 754
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "20-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 742,
+  "slug": "herbert-charles-morlock-742"
+}

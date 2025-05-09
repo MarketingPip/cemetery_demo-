@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15553671/dorothy-finkbeiner",
+  "name": "Dorothy Ryckman Finkbeiner",
+  "birth_date": "1913-00-00",
+  "death_date": "1985-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Daughter of Archie Ryckman and Cora Venner",
+  "bio": "Daughter of Archie Ryckman and Cora Venner",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/241/15553671_115694429765.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Russell E   Finkbeiner",
+      "birth_date": "1913-00-00",
+      "death_date": "1984-00-00",
+      "profile_url": "/memorial/15553640/russell_e-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15553640_115694407157.jpg?size=photos250",
+      "id": 363
+    }
+  ],
+  "children": "[{\"name\": \"Carol Ann   Finkbeiner\", \"birth_date\": \"1949-00-00\", \"death_date\": \"1952-00-00\", \"profile_url\": \"/memorial/15553689/carol_ann-finkbeiner\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Ryckman",
+  "inscription": "",
+  "id": 293,
+  "slug": "dorothy-ryckman-finkbeiner-293"
+}

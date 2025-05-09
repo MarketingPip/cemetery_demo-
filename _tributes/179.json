@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188036561/frederick-eilber",
+  "name": "Frederick Eilber",
+  "birth_date": "1791-09-04",
+  "death_date": "1875-11-10",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/121/188036561_b4790ace-5788-494b-8993-0ad345273ccb.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Magdalena  Gaiser Eilber",
+      "birth_date": "1807-00-00",
+      "death_date": "1864-00-00",
+      "profile_url": "/memorial/236915839/magdalena-eilber",
+      "image_url": "https://images.findagrave.com/photos/2022/112/236915839_c8ed9038-5455-4510-b997-d6995c494a22.jpeg?size=photos250",
+      "id": 192
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 5-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 179,
+  "slug": "frederick-eilber-179"
+}

@@ -1,0 +1,43 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188138569/robert-larry-weber",
+  "name": "Robert Larry Weber",
+  "birth_date": "1954-06-20",
+  "death_date": "1954-06-20",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/188138569_879160bb-40b0-415f-a0de-e95af33416da.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Walter David   Weber",
+      "birth_date": "1916-00-00",
+      "death_date": "2001-00-00",
+      "profile_url": "/memorial/15553556/walter_david-weber",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15553556_115694319520.jpg?size=photos250",
+      "id": 1104
+    },
+    {
+      "name": "Roxie Ilene  Doupe Weber",
+      "birth_date": "1923-00-00",
+      "death_date": "1993-00-00",
+      "profile_url": "/memorial/15553571/roxie_ilene-weber",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15553571_115694376634.jpg?size=photos250",
+      "id": 1103
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 1102
+}

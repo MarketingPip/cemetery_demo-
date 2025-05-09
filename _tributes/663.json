@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/239220273/marilyn-lamport",
+  "name": "Marilyn Galloway Lamport",
+  "birth_date": "1946-00-00",
+  "death_date": "",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/116/239220273_b4cfd140-5b72-4b07-b7aa-ec624098ce77.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Dennis   Lamport",
+      "birth_date": "1946-00-00",
+      "death_date": null,
+      "profile_url": "/memorial/239220491/dennis-lamport",
+      "image_url": "https://images.findagrave.com/photos/2022/116/239220491_26c89232-3b9e-4a89-85aa-e8ed833068e0.jpeg?size=photos250",
+      "id": 658
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 13-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Galloway",
+  "inscription": "",
+  "id": 663,
+  "slug": "marilyn-galloway-lamport-663"
+}

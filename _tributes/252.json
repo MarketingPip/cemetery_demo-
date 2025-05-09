@@ -1,0 +1,53 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15571752/losetta-matilda-fahrner",
+  "name": "Losetta Matilda Haist Fahrner",
+  "birth_date": "1899-05-17",
+  "death_date": "1987-07-27",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Daughter of Magdalena (Braun) and Frederick Haist",
+  "bio": "Daughter of Magdalena (Braun) and Frederick Haist",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/243/15571752_115711892289.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Frederick   Haist",
+      "birth_date": "1864-00-00",
+      "death_date": "1936-00-00",
+      "profile_url": "/memorial/15563828/frederick-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563828_115703864065.jpg?size=photos250",
+      "id": 488
+    },
+    {
+      "name": "Magdalena  Brown Haist",
+      "birth_date": "1863-00-00",
+      "death_date": "1937-00-00",
+      "profile_url": "/memorial/15563840/magdalena-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563840_115703879981.jpg?size=photos250",
+      "id": 502
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Emmery   Fahrner",
+      "birth_date": "1893-00-00",
+      "death_date": "1980-00-00",
+      "profile_url": "/memorial/15571777/emmery-fahrner",
+      "image_url": "https://images.findagrave.com/photos/2006/243/15571777_115711925632.jpg?size=photos250",
+      "id": 244
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 16-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Haist",
+  "inscription": "",
+  "id": 252,
+  "slug": "losetta-matilda-haist-fahrner-252"
+}

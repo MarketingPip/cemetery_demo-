@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/238605582/eva-catherine-brown",
+  "name": "Eva Catherine Brown",
+  "birth_date": "1822-00-00",
+  "death_date": "1900-01-07",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "BROWN\nIn memory of George Brown<br/>died May 6, 1908<br/>aged 86 yrs. 6 mos.<br/>In memory of Eva Catherine<br/>wife of George Brown <br/>died Jan. 7, 1900<br/>aged 77 yrs. 2 mos.<br/>BLESSED ARE THE DEAD WHICH DIED IN THE LORD</br>",
+  "gps": {
+    "latitude": "43.2984883",
+    "longitude": "-81.5529907"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/113/238605582_2c1f9ea1-d2e6-4691-99e9-4fd2954b0f3a.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "George   Brown",
+      "birth_date": null,
+      "death_date": "1908-00-00",
+      "profile_url": "/memorial/238605596/george-brown",
+      "image_url": "https://images.findagrave.com/photos/2022/113/238605596_5abf85d7-e2ed-40ba-bda6-11af3e651d96.jpeg?size=photos250",
+      "id": 103
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 9-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "BROWNIn memory of George Browndied May 6, 1908aged 86 yrs. 6 mos.In memory of Eva Catherinewife of George Brown died Jan. 7, 1900aged 77 yrs. 2 mos.BLESSED ARE THE DEAD WHICH DIED IN THE LORD",
+  "id": 100,
+  "slug": "eva-catherine-brown-100"
+}

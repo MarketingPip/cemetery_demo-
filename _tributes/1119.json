@@ -1,0 +1,49 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188139049/gladys-wein",
+  "name": "Gladys Lewis Wein",
+  "birth_date": "1910-00-00",
+  "death_date": "1996-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/188139049_ba83b891-18b4-491b-b7a1-82d2ca5ff39f.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Harry   Lewis",
+      "birth_date": "1887-00-00",
+      "death_date": "1961-00-00",
+      "profile_url": "/memorial/18134401/harry-lewis"
+    },
+    {
+      "name": "Annie Rebecca  Sims Lewis",
+      "birth_date": "1889-00-00",
+      "death_date": "1968-00-00",
+      "profile_url": "/memorial/18134404/annie_rebecca-lewis"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Leonard Jacob   Wein",
+      "birth_date": "1907-00-00",
+      "death_date": "1988-00-00",
+      "profile_url": "/memorial/188139165/leonard_jacob-wein",
+      "image_url": "https://images.findagrave.com/photos/2022/84/188139165_d38770f5-af0e-437c-8789-75d109309efe.jpeg?size=photos250",
+      "id": 1131
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 20-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Lewis",
+  "inscription": "",
+  "id": 1119,
+  "slug": "gladys-lewis-wein-1119"
+}

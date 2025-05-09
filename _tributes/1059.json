@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/237918728/alfred-f-tilley",
+  "name": "Alfred F. Tilley",
+  "birth_date": "1897-00-00",
+  "death_date": "1991-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "In Loving Memory\nTILLEY<br/>Alfred F. Tilley<br/>1897-1991<br/>his beloved wife<br/>Edna Witzel<br/>1894-1974<br/>Rest in peace</br>",
+  "gps": {
+    "latitude": "43.2985568",
+    "longitude": "-81.5528749"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/83/237918728_0768a823-dbff-4ea4-84a2-78fccde1d8fa.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Edna Mae  Witzel Tilley",
+      "birth_date": "1894-00-00",
+      "death_date": "1974-00-00",
+      "profile_url": "/memorial/46111142/edna_mae-tilley",
+      "image_url": "https://images.findagrave.com/photos/2022/83/46111142_39cfe801-d840-4103-a45d-b09fc5087a09.jpeg?size=photos250",
+      "id": 1060
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 22-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "In Loving MemoryTILLEYAlfred F. Tilley1897-1991his beloved wifeEdna Witzel1894-1974Rest in peace",
+  "id": 1059,
+  "slug": "alfred-f-tilley-1059"
+}

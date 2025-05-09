@@ -1,0 +1,43 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/16581582/frederick-george-finkbeiner",
+  "name": "Frederick George Finkbeiner",
+  "birth_date": "1886-03-09",
+  "death_date": "1910-06-14",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Barbara (Mast) and John Finkbeiner",
+  "bio": "Son of Barbara (Mast) and John Finkbeiner",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/312/16581582_116313774243.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "John   Finkbeiner",
+      "birth_date": "1845-00-00",
+      "death_date": "1922-00-00",
+      "profile_url": "/memorial/16581535/john-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/312/16581535_116313740074.jpg?size=photos250",
+      "id": 324
+    },
+    {
+      "name": "Barbara  Mast Finkbeiner",
+      "birth_date": "1851-00-00",
+      "death_date": "1939-00-00",
+      "profile_url": "/memorial/16581553/barbara-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/312/16581553_116313749073.jpg?size=photos250",
+      "id": 275
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Wesley P   Finkbeiner\", \"birth_date\": \"1894-00-00\", \"death_date\": \"1896-00-00\", \"profile_url\": \"/memorial/16581621/wesley_p-finkbeiner\"}]",
+  "half_siblings": "[]",
+  "plot_value": "Row 11-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 301
+}

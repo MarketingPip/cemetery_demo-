@@ -1,0 +1,49 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188136870/edward-schweitzer",
+  "name": "Edward Schweitzer",
+  "birth_date": "1880-03-05",
+  "death_date": "1941-01-05",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/116/188136870_f63ebd58-f6cb-4303-a214-cc5fe8e95eaf.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Nicholas Weicker   Schweitzer",
+      "birth_date": "1847-00-00",
+      "death_date": "1910-00-00",
+      "profile_url": "/memorial/179661064/nicholas_weicker-schweitzer"
+    },
+    {
+      "name": "Samanda  Schmidt Schweitzer",
+      "birth_date": "1855-00-00",
+      "death_date": "1911-00-00",
+      "profile_url": "/memorial/179661093/samanda-schweitzer"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Hanna M.  Finkbeiner Schweitzer",
+      "birth_date": "1884-00-00",
+      "death_date": "1967-00-00",
+      "profile_url": "/memorial/188136875/hanna_m-schweitzer",
+      "image_url": "https://images.findagrave.com/photos/2022/116/188136875_7ab005a9-a6ea-4439-95bb-04400a4d9c47.jpeg?size=photos250",
+      "id": 970
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 15-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 969,
+  "slug": "edward-schweitzer-969"
+}

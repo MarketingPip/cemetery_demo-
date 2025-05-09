@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188035422/h-reginald-abell",
+  "name": "H. Reginald Abell",
+  "birth_date": "1880-00-00",
+  "death_date": "1959-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/188035422_e82330c7-34bd-4e3a-97bb-700d03f566ee.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Lydia  Oestreicher Abell",
+      "birth_date": "1896-00-00",
+      "death_date": "1958-00-00",
+      "profile_url": "/memorial/188035436/lydia-abell",
+      "image_url": "https://images.findagrave.com/photos/2022/84/188035436_6bb34e96-647f-4ba5-9f21-97ccb26dc2ac.jpeg?size=photos250",
+      "id": 1
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 19-11",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 0,
+  "slug": "h-reginald-abell-0"
+}

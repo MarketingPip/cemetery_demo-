@@ -1,0 +1,45 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15561443/louise-marian-amy",
+  "name": "Louise Marian Haist Amy",
+  "birth_date": "1889-07-17",
+  "death_date": "1953-02-21",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Daughter of Magdalena (Braun) and Frederick Haist",
+  "bio": "Daughter of Magdalena (Braun) and Frederick Haist",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/241/15561443_115699819923.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Frederick   Haist",
+      "birth_date": "1864-00-00",
+      "death_date": "1936-00-00",
+      "profile_url": "/memorial/15563828/frederick-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563828_115703864065.jpg?size=photos250",
+      "id": 488
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Arthur James   Amy",
+      "birth_date": "1889-00-00",
+      "death_date": "1978-00-00",
+      "profile_url": "/memorial/15561434/arthur_james-amy",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15561434_115699806925.jpg?size=photos250",
+      "id": 2
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 17-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Haist",
+  "inscription": "",
+  "id": 3,
+  "slug": "louise-marian-haist-amy-3"
+}

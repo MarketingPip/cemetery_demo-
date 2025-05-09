@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/16671456/fredericka-finkbeiner",
+  "name": "Fredericka Geiger Finkbeiner",
+  "birth_date": "1857-00-00",
+  "death_date": "1937-04-11",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Wife of Michael Finkbeiner. Aged 80 years. I have approximated the birth year.---I noticed that the surname at the bottom of the stone is Finkbiner, and then Finkbeiner above.",
+  "bio": "Wife of Michael Finkbeiner. Aged 80 years. I have approximated the birth year.<br/>---<br/>I noticed that the surname at the bottom of the stone is Finkbiner, and then Finkbeiner above.",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/319/16671456_116368873512.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Michael   Finkbeiner",
+      "birth_date": "1856-00-00",
+      "death_date": "1926-00-00",
+      "profile_url": "/memorial/16671570/michael-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/319/16671570_116368989860.jpg?size=photos250",
+      "id": 354
+    }
+  ],
+  "children": "[{\"name\": \"Matilda  Finkbiner Wesley\", \"birth_date\": \"1886-00-00\", \"death_date\": \"1967-00-00\", \"profile_url\": \"/memorial/153246296/matilda-wesley\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 11-12",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2006/319/16671456_116368962007.jpg?size=photos250', 'contributor_text': 'Scott Buschlen', 'contributor_href': 'https://www.findagrave.com/user/profile/46583152'}]",
+  "maiden_name": "Geiger",
+  "inscription": "",
+  "id": 302,
+  "slug": "fredericka-geiger-finkbeiner-302"
+}

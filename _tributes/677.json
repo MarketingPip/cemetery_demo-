@@ -1,0 +1,37 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188114984/john-link",
+  "name": "John Link",
+  "birth_date": "1859-01-08",
+  "death_date": "1887-10-23",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "LINK\nJohn Link<br/>died Oct. 23, 1887<br/>aged 28 yrs. 9 mos. 14 ds.<br/>f.s. Samuel Albert<br/>son of William &amp; Christina Link<br/>died Aug. 17, 1888<br/>aged 1 yr. 25 days.</br>",
+  "gps": {
+    "latitude": "43.2984844",
+    "longitude": "-81.5529478"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/112/188114984_3341cb8a-adda-4e25-8257-68fb3f9a023d.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Mary Ann  Kernick Smith",
+      "birth_date": "1864-00-00",
+      "death_date": "1938-00-00",
+      "profile_url": "/memorial/94315676/mary_ann-smith"
+    }
+  ],
+  "children": "[{\"name\": \"Margaret Ellis  Link Werner\", \"birth_date\": \"1885-00-00\", \"death_date\": \"1981-00-00\", \"profile_url\": \"/memorial/103006164/margaret_ellis-werner\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 7-8",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "LINKJohn Linkdied Oct. 23, 1887aged 28 yrs. 9 mos. 14 ds.f.s. Samuel Albertson of William & Christina Linkdied Aug. 17, 1888aged 1 yr. 25 days.",
+  "id": 677,
+  "slug": "john-link-677"
+}

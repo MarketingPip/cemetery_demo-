@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188113073/sarah-r-gaiser",
+  "name": "Sarah R. Schwartz Gaiser",
+  "birth_date": "1864-00-00",
+  "death_date": "1937-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/115/188113073_8b273e9f-bdcd-400d-97bc-8585e6c6f1c7.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "William B.   Gaiser",
+      "birth_date": "1862-00-00",
+      "death_date": "1934-00-00",
+      "profile_url": "/memorial/188113083/william_b-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2022/115/188113083_b89bd9e4-80ef-4de7-b8df-6cabcfe637b2.jpeg?size=photos250",
+      "id": 431
+    }
+  ],
+  "children": "[{\"name\": \"Chester W   Gaiser\", \"birth_date\": \"1891-00-00\", \"death_date\": \"1892-00-00\", \"profile_url\": \"/memorial/239203831/chester_w-gaiser\"}, {\"name\": \"Borden L.   Gaiser\", \"birth_date\": \"1911-00-00\", \"death_date\": \"1973-00-00\", \"profile_url\": \"/memorial/188037502/borden_l-gaiser\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 12-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Schwartz",
+  "inscription": "",
+  "id": 425,
+  "slug": "sarah-r-schwartz-gaiser-425"
+}

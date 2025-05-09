@@ -1,0 +1,56 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/16539058/alma-elizabeth-morlock",
+  "name": "Alma Elizabeth Haist Morlock",
+  "birth_date": "1903-11-03",
+  "death_date": "1943-09-18",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Alma was the daughter of Magdalena Braun/Brown, and Frederick Haist.",
+  "bio": "MORLOCK\nAlma E. Haist<br/>1903-1943<br/>wife of Chester Gordon Morlock <br/>1902-1993<br/>his wife Alma I. Smith<br/>1903-2006<br/>(back)John N. Morlock<br/>1867-1951<br/>his wife Caroline M. Wuerth<br/>1872-1963</br>",
+  "gps": {
+    "latitude": "43.2983179",
+    "longitude": "-81.5526132"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/310/16539058_116290971009.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Frederick   Haist",
+      "birth_date": "1864-00-00",
+      "death_date": "1936-00-00",
+      "profile_url": "/memorial/15563828/frederick-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563828_115703864065.jpg?size=photos250",
+      "id": 488
+    },
+    {
+      "name": "Magdalena  Brown Haist",
+      "birth_date": "1863-00-00",
+      "death_date": "1937-00-00",
+      "profile_url": "/memorial/15563840/magdalena-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563840_115703879981.jpg?size=photos250",
+      "id": 502
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Chester Gordon   Morlock",
+      "birth_date": "1902-00-00",
+      "death_date": "1993-00-00",
+      "profile_url": "/memorial/16539090/chester_gordon-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/310/16539090_116290997367.jpg?size=photos250",
+      "id": 728
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "row 9-9",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Haist",
+  "inscription": "MORLOCKAlma E. Haist1903-1943wife of Chester Gordon Morlock 1902-1993his wife Alma I. Smith1903-2006(back)John N. Morlock1867-1951his wife Caroline M. Wuerth1872-1963",
+  "id": 722,
+  "slug": "alma-elizabeth-haist-morlock-722"
+}

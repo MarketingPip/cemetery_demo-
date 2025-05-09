@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/16581712/estrella-finkbeiner",
+  "name": "Estrella Treitz Finkbeiner",
+  "birth_date": "1896-06-13",
+  "death_date": "1994-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Daughter of Mary (Zinn) and Charles Treitz",
+  "bio": "Daughter of Mary (Zinn) and Charles Treitz",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/312/16581712_116313915111.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Daniel C   Finkbeiner",
+      "birth_date": "1887-00-00",
+      "death_date": "1959-00-00",
+      "profile_url": "/memorial/16581705/daniel_c-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/312/16581705_116313894837.jpg?size=photos250",
+      "id": 289
+    }
+  ],
+  "children": "[{\"name\": \"Allan Stewart   Finkbeiner\", \"birth_date\": \"1922-00-00\", \"death_date\": \"2008-00-00\", \"profile_url\": \"/memorial/39760664/allan_stewart-finkbeiner\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Treitz",
+  "inscription": "",
+  "id": 298,
+  "slug": "estrella-treitz-finkbeiner-298"
+}

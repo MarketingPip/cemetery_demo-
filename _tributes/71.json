@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188035679/rodney-bowman",
+  "name": "Rodney Bowman",
+  "birth_date": "1909-00-00",
+  "death_date": "1990-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/83/188035679_5d05dd8e-4ea3-43ed-928f-df7ba04a672b.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Jean  Burchill Bowman",
+      "birth_date": "1922-00-00",
+      "death_date": "2019-00-00",
+      "profile_url": "/memorial/237920848/jean-bowman",
+      "image_url": "https://images.findagrave.com/photos/2022/83/237920848_ce2fd796-a88d-4dba-8b49-2623394e60d4.jpeg?size=photos250",
+      "id": 70
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 17-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 71,
+  "slug": "rodney-bowman-71"
+}

@@ -1,0 +1,53 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15554242/henry-charles-beaver",
+  "name": "Henry Charles Beaver",
+  "birth_date": "1879-12-04",
+  "death_date": "1968-07-14",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Fredericka (Martin) and Nicholas Beaver",
+  "bio": "Son of Fredericka (Martin) and Nicholas Beaver",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/241/15554242_115694941640.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Nicholas   Beaver",
+      "birth_date": "1849-00-00",
+      "death_date": "1934-00-00",
+      "profile_url": "/memorial/16671364/nicholas-beaver",
+      "image_url": "https://images.findagrave.com/photos/2006/319/16671364_116368773540.jpg?size=photos250",
+      "id": 33
+    },
+    {
+      "name": "Fredericka  Martin Beaver",
+      "birth_date": "1852-00-00",
+      "death_date": "1895-00-00",
+      "profile_url": "/memorial/16671374/fredericka-beaver",
+      "image_url": "https://images.findagrave.com/photos/2006/319/16671374_116368781118.jpg?size=photos250",
+      "id": 19
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Erma Irene   Finkbeiner",
+      "birth_date": "1900-00-00",
+      "death_date": "1964-00-00",
+      "profile_url": "/memorial/16330377/erma_irene-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/298/16330377_116187378258.jpg?size=photos250",
+      "id": 297
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 18-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 22,
+  "slug": "henry-charles-beaver-22"
+}

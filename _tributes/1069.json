@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/98543806/wilhelmina-treitz",
+  "name": "Wilhelmina Gaiser Treitz",
+  "birth_date": "1861-05-09",
+  "death_date": "1892-02-27",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/112/98543806_91980577-2f10-4c01-8641-1f28acf90d0b.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Charles   Treitz",
+      "birth_date": "1859-00-00",
+      "death_date": "1943-00-00",
+      "profile_url": "/memorial/98543051/charles-treitz",
+      "image_url": "https://images.findagrave.com/photos/2022/112/98543051_c3de6baa-3034-4fea-8203-e4d94801bc06.jpeg?size=photos250",
+      "id": 1064
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 5-14",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Gaiser",
+  "inscription": "",
+  "id": 1069,
+  "slug": "wilhelmina-gaiser-treitz-1069"
+}

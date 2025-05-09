@@ -1,0 +1,46 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/176230877/edwin-fahner",
+  "name": "Edwin Fahner",
+  "birth_date": "1892-00-00",
+  "death_date": "1959-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "FAHNER\nJohn Fahner<br/>1854-1942<br/>his wife Catherine Gaiser<br/>1859-1936<br/>their son<br/>Edwin<br/>1892-1959<br/>their daughter Pearl<br/>1894-1970<br/>Tobias Fahner Sr.<br/>died June 1, 1903<br/>aged 83 yrs. 7 mos. 15 ds.<br/>his wife Margretha<br/>died Jan. 15, 1862 aged 37 yrs.</br>",
+  "gps": {
+    "latitude": "43.2985015",
+    "longitude": "-81.5522697"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/112/176230877_d1ad1b72-0596-46fe-a29b-41e2f0256072.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "John   Fahner",
+      "birth_date": "1854-00-00",
+      "death_date": "1942-00-00",
+      "profile_url": "/memorial/176230513/john-fahner",
+      "image_url": "https://images.findagrave.com/photos/2022/117/176230513_a74eb40b-f91e-4100-9f76-fc1f6305bf9d.jpeg?size=photos250",
+      "id": 223
+    },
+    {
+      "name": "Catherine  Gaiser Fahner",
+      "birth_date": "1859-00-00",
+      "death_date": "1936-00-00",
+      "profile_url": "/memorial/176230355/catherine-fahner",
+      "image_url": "https://images.findagrave.com/photos/2022/112/176230355_dd34f996-872d-463e-904a-2da7586619a4.jpeg?size=photos250",
+      "id": 212
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Lavina  Fahner Ratz\", \"birth_date\": \"1884-00-00\", \"death_date\": \"1960-00-00\", \"profile_url\": \"/memorial/176219048/lavina-ratz\"}, {\"name\": \"Ida  Fahner Sweet\", \"birth_date\": \"1886-00-00\", \"death_date\": \"1978-00-00\", \"profile_url\": \"/memorial/18593699/ida-sweet\"}, {\"name\": \"Louisa Susannah  Fahner Westcott\", \"birth_date\": \"1888-00-00\", \"death_date\": \"1972-00-00\", \"profile_url\": \"/memorial/16578400/louisa_susannah-westcott\"}, {\"name\": \"Pearl   Fahner\", \"birth_date\": \"1894-00-00\", \"death_date\": \"1970-00-00\", \"profile_url\": \"/memorial/176231123/pearl-fahner\"}]",
+  "half_siblings": "[]",
+  "plot_value": "row 7-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "FAHNERJohn Fahner1854-1942his wife Catherine Gaiser1859-1936their sonEdwin1892-1959their daughter Pearl1894-1970Tobias Fahner Sr.died June 1, 1903aged 83 yrs. 7 mos. 15 ds.his wife Margrethadied Jan. 15, 1862 aged 37 yrs.",
+  "id": 217
+}

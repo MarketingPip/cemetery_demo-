@@ -1,0 +1,50 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/5016895/albert-ruf",
+  "name": "Albert Gregorius Ruf",
+  "birth_date": "1830-08-15",
+  "death_date": "1912-04-04",
+  "cemetery": "Williamstown Cemetery Old",
+  "location": "Williamstown",
+  "part_bio": "He was born in Merzig (near Trier), Prussia and emigrated to the USA in 1854. He married Caroline Froeschle in 1857, Dayton, OH.  He was a tanner and resided in Ohio until about 1870 when he settled in Williamstown WV and established a tannery.While still in Germany he was a member of the kaiser's bodyguard.[SETTLERS & BUILDERS OF OHIO, The Ohio Genealogical Society]His parents were Mathias Joseph Ruf and Angela (Schneider)Ruf of Merzig.",
+  "bio": "He was born in Merzig (near Trier), Prussia and emigrated to the USA in 1854. He married Caroline Froeschle in 1857, Dayton, OH.  He was a tanner and resided in Ohio until about 1870 when he settled in Williamstown WV and established a tannery.<br/>While still in Germany he was a member of the kaiser's bodyguard.<br/><br/>[SETTLERS &amp; BUILDERS OF OHIO, The Ohio Genealogical Society]<br/><br/>His parents were Mathias Joseph Ruf and Angela (Schneider)Ruf of Merzig.",
+  "gps": {
+    "latitude": "39.393578",
+    "longitude": "-81.4470473"
+  },
+  "image_url": "https://images.findagrave.com/photos/2000/300/5016895_962891569.jpg?size=photos1024",
+  "image_credits": "Louis Ruf",
+  "image_credits_url": "/user/profile/6941778",
+  "parents": [
+    {
+      "name": "Mathias Joseph   Ruf",
+      "birth_date": "1799-00-00",
+      "death_date": "1855-00-00",
+      "profile_url": "/memorial/175283372/mathias_joseph-ruf"
+    },
+    {
+      "name": "Angela  Schneider Ruf",
+      "birth_date": "1794-00-00",
+      "death_date": "1844-00-00",
+      "profile_url": "/memorial/175283450/angela-ruf"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Caroline Friederike  Froeschle Ruf",
+      "birth_date": "1833-00-00",
+      "death_date": "1903-00-00",
+      "profile_url": "/memorial/5016904/caroline_friederike-ruf"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2000/300/5016895_962891569.jpg?size=photos250', 'contributor_text': '', 'contributor_href': 'https://www.findagrave.com/user/profile/6941778'}, {'src': 'https://images.findagrave.com/photos/2001/135/5016895_990066960.jpg?size=photos250', 'contributor_text': '', 'contributor_href': 'https://www.findagrave.com/user/profile/6941778'}, {'src': 'https://images.findagrave.com/photos/2000/300/5016895_962891932.jpg?size=photos250', 'contributor_text': '', 'contributor_href': 'https://www.findagrave.com/user/profile/6941778'}, {'src': 'https://images.findagrave.com/photos/2023/210/5016895_663d5771-8a51-4643-9879-88951aed662a.jpeg?size=photos250', 'contributor_text': '', 'contributor_href': 'https://www.findagrave.com/user/profile/51157384'}, {'src': 'https://images.findagrave.com/photos/2023/61/5016895_d151bf27-a7f7-46e6-afbe-193be72ab0c6.jpeg?size=photos250', 'contributor_text': '', 'contributor_href': 'https://www.findagrave.com/user/profile/51157384'}, {'src': 'https://images.findagrave.com/photos/2023/61/5016895_2a549505-c9d4-4739-ab7c-a1eb2ff85414.jpeg?size=photos250', 'contributor_text': '', 'contributor_href': 'https://www.findagrave.com/user/profile/51157384'}]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 1208,
+  "slug": "albert-gregorius-ruf-1208"
+}

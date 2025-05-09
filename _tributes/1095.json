@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188138496/john-harper-wade",
+  "name": "John Harper Wade",
+  "birth_date": "1906-00-00",
+  "death_date": "1975-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/188138496_56aedf25-1024-427e-8280-3dc4bc44f520.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Audrey Margaret  Speiran Wade",
+      "birth_date": "1908-00-00",
+      "death_date": "1994-00-00",
+      "profile_url": "/memorial/188138492/audrey_margaret-wade",
+      "image_url": "https://images.findagrave.com/photos/2022/84/188138492_01d8e91d-bb77-433e-bd4f-7c662f750bd9.jpeg?size=photos250",
+      "id": 1094
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 23-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 1095,
+  "slug": "john-harper-wade-1095"
+}

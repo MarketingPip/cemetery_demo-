@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/236168027/regina-wein",
+  "name": "Regina Wein",
+  "birth_date": "1801-00-00",
+  "death_date": "1886-09-05",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "WEIN\nHier Ruth<br/>Georg F. Wein<br/>Gest Den 4 Feb. 1880<br/>Alter 83 Jahr. 1 mo. 4 tag.<br/>Heir Ruth <br/>Regina Wein<br/>Gest Den 5 Sep. 1886<br/>Alter 85 Jahr. 6 mo. 12 tag.</br>",
+  "gps": {
+    "latitude": "43.2985574",
+    "longitude": "-81.5530166"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/110/236168027_5524120d-6af5-4cc6-8309-7d10a0ed95ad.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Georg F   Wein",
+      "birth_date": "1792-00-00",
+      "death_date": "1880-00-00",
+      "profile_url": "/memorial/188139038/georg_f-wein",
+      "image_url": "https://images.findagrave.com/photos/2022/110/188139038_855e4c52-095a-47b8-96e3-5bb2037dc523.jpeg?size=photos250",
+      "id": 1118
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "3-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "WEINHier RuthGeorg F. WeinGest Den 4 Feb. 1880Alter 83 Jahr. 1 mo. 4 tag.Heir Ruth Regina WeinGest Den 5 Sep. 1886Alter 85 Jahr. 6 mo. 12 tag.",
+  "id": 1142,
+  "slug": "regina-wein-1142"
+}

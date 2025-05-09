@@ -1,0 +1,53 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/239220491/dennis-lamport",
+  "name": "Dennis Lamport",
+  "birth_date": "1946-00-00",
+  "death_date": "",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/116/239220491_26c89232-3b9e-4a89-85aa-e8ed833068e0.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Lloyd Samuel   Lamport",
+      "birth_date": "1915-00-00",
+      "death_date": "2002-00-00",
+      "profile_url": "/memorial/41012313/lloyd_samuel-lamport",
+      "image_url": "https://images.findagrave.com/photos/2022/83/41012313_bd463dea-8a93-4868-b489-15c39ada1d21.jpeg?size=photos250",
+      "id": 661
+    },
+    {
+      "name": "Elva B.  Turnbull Lamport",
+      "birth_date": "1917-00-00",
+      "death_date": "1994-00-00",
+      "profile_url": "/memorial/188113501/elva_b-lamport",
+      "image_url": "https://images.findagrave.com/photos/2022/83/188113501_490ad07c-d5ef-4d25-a560-6c2a3e5d7b35.jpeg?size=photos250",
+      "id": 660
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Marilyn  Galloway Lamport",
+      "birth_date": "1946-00-00",
+      "death_date": null,
+      "profile_url": "/memorial/239220273/marilyn-lamport",
+      "image_url": "https://images.findagrave.com/photos/2022/116/239220273_b4cfd140-5b72-4b07-b7aa-ec624098ce77.jpeg?size=photos250",
+      "id": 663
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 13-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 658,
+  "slug": "dennis-lamport-658"
+}

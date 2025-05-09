@@ -1,0 +1,46 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/236911555/barbara-haist",
+  "name": "Barbara Haist",
+  "birth_date": "1860-00-00",
+  "death_date": "1868-08-06",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "HAIST\nElizabeth<br/>died Aug. 248, 1881<br/>aged 46 yrs.<br/>Margaretha<br/>died Sept. 17, 1901<br/>aged 75 yrs.<br/>wives of Jacob HAIST<br/>Jacob HAIST<br/>died Feb. 16, 1912<br/>aged 85 yrs.<br/>Anna M. HAIST<br/>gestorben Marz. 17, 1878<br/>alter 9 mon.<br/>Karlina HAIST<br/>gestorben  Jan. 7, 1880<br/>alter 6 yahr.<br/>kinder von Jacob und Elizabeth HAIST<br/>Barbara HAIST<br/>gestorben  Aug. 6, 1868<br/>alter 8 yahr.<br/>Heinrich HAIST<br/>gestorben Dec. 17, 1872<br/>alter 5 yahr.<br/>kinder von Jacob &amp; Elizabeth HAIST</br>",
+  "gps": {
+    "latitude": "43.2983884",
+    "longitude": "-81.552832"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/111/236911555_8672ca10-a99f-4203-b119-46183423f6eb.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Jacob   Haist",
+      "birth_date": "1827-00-00",
+      "death_date": "1912-00-00",
+      "profile_url": "/memorial/236911442/jacob-haist",
+      "image_url": "https://images.findagrave.com/photos/2022/111/236911442_7d14d039-fb94-4460-a11d-83f7f053c1ec.jpeg?size=photos250",
+      "id": 494
+    },
+    {
+      "name": "Elizabeth   Haist",
+      "birth_date": "1835-00-00",
+      "death_date": "1881-00-00",
+      "profile_url": "/memorial/236911369/elizabeth-haist",
+      "image_url": "https://images.findagrave.com/photos/2022/111/236911369_dd34a929-139b-4f83-9d6c-b893f54f4297.jpeg?size=photos250",
+      "id": 486
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Henrich   Haist\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1872-00-00\", \"profile_url\": \"/memorial/236911589/henrich-haist\"}, {\"name\": \"Karlina   Haist\", \"birth_date\": \"1874-00-00\", \"death_date\": \"1880-00-00\", \"profile_url\": \"/memorial/236911524/karlina-haist\"}, {\"name\": \"Anna M.   Haist\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1878-00-00\", \"profile_url\": \"/memorial/236911484/anna_m-haist\"}]",
+  "half_siblings": "[]",
+  "plot_value": "4-9",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "HAISTElizabethdied Aug. 248, 1881aged 46 yrs.Margarethadied Sept. 17, 1901aged 75 yrs.wives of Jacob HAISTJacob HAISTdied Feb. 16, 1912aged 85 yrs.Anna M. HAISTgestorben Marz. 17, 1878alter 9 mon.Karlina HAISTgestorben  Jan. 7, 1880alter 6 yahr.kinder von Jacob und Elizabeth HAISTBarbara HAISTgestorben  Aug. 6, 1868alter 8 yahr.Heinrich HAISTgestorben Dec. 17, 1872alter 5 yahr.kinder von Jacob & Elizabeth HAIST",
+  "id": 481
+}

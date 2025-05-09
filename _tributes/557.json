@@ -1,0 +1,46 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/179830619/samuel-hirtzel",
+  "name": "Samuel Hirtzel",
+  "birth_date": "1879-07-10",
+  "death_date": "1879-12-28",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Michael Hirtzel and his first wife Catherine (nee Kroft) Hirtzel.",
+  "bio": "HIRTZEL<br/>MICHAEL  HIRTZEL<br/>BORN APR. 9 1829 – DIED MAY 4, 1917<br/>HIS WIFE CATHERINE KROFT<br/>BORN  NOV. 25, 1825 – DIED JAN. 16, 1882<br/>HIS WIFE CATHERINE KREIN<br/>BORN MAR. 28, 1846 – DIED MAR. 28, 1912<br/>HENRY  HIRTZEL<br/>BORN  JUNE 22, 1857 – DIED SEPT. 20, 1880<br/>[21 Feb 1880 on death record]<br/>SAMUEL HIRTZEL<br/>BORN JULY 10, 1879 – DIED DEC. 28, 1879<br/>",
+  "gps": {
+    "latitude": "43.2986056",
+    "longitude": "-81.5529049"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/110/179830619_020790c7-9dcb-477e-998e-d73890006fa5.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Michael   Hirtzel",
+      "birth_date": "1829-00-00",
+      "death_date": "1917-00-00",
+      "profile_url": "/memorial/179828867/michael-hirtzel",
+      "image_url": "https://images.findagrave.com/photos/2022/110/179828867_4e909e4a-d22b-4f98-8199-910f6cc38dec.jpeg?size=photos250",
+      "id": 556
+    },
+    {
+      "name": "Catherine  Kroft Hirtzel",
+      "birth_date": "1825-00-00",
+      "death_date": "1882-00-00",
+      "profile_url": "/memorial/179829096/catherine-hirtzel",
+      "image_url": "https://images.findagrave.com/photos/2022/110/179829096_febf85fb-c743-463e-827e-50a5b890eea9.jpeg?size=photos250",
+      "id": 546
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Henry   Hirtzel\", \"birth_date\": \"1857-00-00\", \"death_date\": \"1880-00-00\", \"profile_url\": \"/memorial/179830535/henry-hirtzel\"}, {\"name\": \"Elizabeth  Hirtzel Beaver\", \"birth_date\": \"1860-00-00\", \"death_date\": \"1943-00-00\", \"profile_url\": \"/memorial/16424598/elizabeth-beaver\"}, {\"name\": \"Catherine Margaret  Hirtzel Stark\", \"birth_date\": \"1865-00-00\", \"death_date\": \"1948-00-00\", \"profile_url\": \"/memorial/215805336/catherine_margaret-stark\"}, {\"name\": \"William   Hirtzel\", \"birth_date\": \"1872-00-00\", \"death_date\": \"1928-00-00\", \"profile_url\": \"/memorial/179826369/william-hirtzel\"}, {\"name\": \"Ludwig Phillip \\\"Louis\\\"  Hirtzel\", \"birth_date\": \"1874-00-00\", \"death_date\": \"1978-00-00\", \"profile_url\": \"/memorial/10215334/ludwig_phillip-hirtzel\"}]",
+  "half_siblings": "[]",
+  "plot_value": "row 1-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "HIRTZELMICHAEL  HIRTZELBORN APR. 9 1829 – DIED MAY 4, 1917HIS WIFE CATHERINE KROFTBORN  NOV. 25, 1825 – DIED JAN. 16, 1882HIS WIFE CATHERINE KREINBORN MAR. 28, 1846 – DIED MAR. 28, 1912HENRY  HIRTZELBORN  JUNE 22, 1857 – DIED SEPT. 20, 1880[21 Feb 1880 on death record]SAMUEL HIRTZELBORN JULY 10, 1879 – DIED DEC. 28, 1879",
+  "id": 557
+}

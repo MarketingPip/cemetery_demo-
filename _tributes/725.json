@@ -1,0 +1,56 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/16539262/caroline-m-morlock",
+  "name": "Caroline M Wuerth Morlock",
+  "birth_date": "1872-00-00",
+  "death_date": "1963-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "MORLOCK\nAlma E. Haist<br/>1903-1943<br/>wife of Chester Gordon Morlock <br/>1902-1993<br/>his wife Alma I. Smith<br/>1903-2006<br/>(back)John N. Morlock<br/>1867-1951<br/>his wife Caroline M. Wuerth<br/>1872-1963</br>",
+  "gps": {
+    "latitude": "43.2984741",
+    "longitude": "-81.5529996"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/310/16539262_116291102731.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Frederick John   Wuerth",
+      "birth_date": "1842-00-00",
+      "death_date": "1927-00-00",
+      "profile_url": "/memorial/15848394/frederick_john-wuerth",
+      "image_url": "https://images.findagrave.com/photos/2006/264/15848394_115893799546.jpg?size=photos250",
+      "id": 1198
+    },
+    {
+      "name": "Wilhelmina  Wolfe Wuerth",
+      "birth_date": "1848-00-00",
+      "death_date": "1930-00-00",
+      "profile_url": "/memorial/15848446/wilhelmina-wuerth",
+      "image_url": "https://images.findagrave.com/photos/2006/264/15848446_115893837408.jpg?size=photos250",
+      "id": 1205
+    }
+  ],
+  "spouses": [
+    {
+      "name": "John Nicholas   Morlock",
+      "birth_date": "1867-00-00",
+      "death_date": "1951-00-00",
+      "profile_url": "/memorial/16539197/john_nicholas-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/310/16539197_116291058274.jpg?size=photos250",
+      "id": 744
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 9-9",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Wuerth",
+  "inscription": "MORLOCKAlma E. Haist1903-1943wife of Chester Gordon Morlock 1902-1993his wife Alma I. Smith1903-2006(back)John N. Morlock1867-1951his wife Caroline M. Wuerth1872-1963",
+  "id": 725,
+  "slug": "caroline-m-wuerth-morlock-725"
+}

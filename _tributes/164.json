@@ -1,0 +1,49 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188036387/harold-james-edwards",
+  "name": "Harold James “Jim” Edwards",
+  "birth_date": "1921-02-24",
+  "death_date": "1989-03-05",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/188036387_8e562edd-2be2-4bfa-9635-db2c1bbec7a3.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "John James   Edwards",
+      "birth_date": "1877-00-00",
+      "death_date": "1945-00-00",
+      "profile_url": "/memorial/197142037/john_james-edwards"
+    },
+    {
+      "name": "Isabella \"Bella\" Sims Edwards",
+      "birth_date": "1884-00-00",
+      "death_date": "1959-00-00",
+      "profile_url": "/memorial/197142178/isabella-edwards"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Doris Evelynn  Sims Edwards",
+      "birth_date": "1926-00-00",
+      "death_date": "2018-00-00",
+      "profile_url": "/memorial/236382714/doris_evelynn-edwards",
+      "image_url": "https://images.findagrave.com/photos/2022/86/236382714_4a1cdd3a-3f1c-4a7b-98e9-a5949df8edaa.jpeg?size=photos250",
+      "id": 163
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 164,
+  "slug": "harold-james-jim-edwards-164"
+}

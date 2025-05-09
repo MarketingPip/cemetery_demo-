@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188136886/martha-r-shoebottom",
+  "name": "Martha R. Schroeder Shoebottom",
+  "birth_date": "1899-00-00",
+  "death_date": "1965-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/116/188136886_8960b416-b332-4224-acc2-11201aee3e56.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Clarence L.   Shoebottom",
+      "birth_date": "1898-00-00",
+      "death_date": "1987-00-00",
+      "profile_url": "/memorial/188136881/clarence_l-shoebottom",
+      "image_url": "https://images.findagrave.com/photos/2022/116/188136881_7c729a7e-0f9e-4b79-9675-c92cd5222acb.jpeg?size=photos250",
+      "id": 974
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 13-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Schroeder",
+  "inscription": "",
+  "id": 975,
+  "slug": "martha-r-schroeder-shoebottom-975"
+}

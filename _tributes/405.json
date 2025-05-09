@@ -1,0 +1,44 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/16627163/jacob-gaiser",
+  "name": "Jacob Gaiser",
+  "birth_date": "1854-12-12",
+  "death_date": "1928-06-10",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Agnes (Heintzman) and George Adam Gaiser",
+  "bio": "Son of Agnes (Heintzman) and George Adam Gaiser",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/315/16627163_116339589912.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Christina  Kutzli Gaiser",
+      "birth_date": "1858-00-00",
+      "death_date": "1896-00-00",
+      "profile_url": "/memorial/16627135/christina-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2006/315/16627135_116339552993.jpg?size=photos250",
+      "id": 394
+    },
+    {
+      "name": "Mary E  Truemner Gaiser",
+      "birth_date": "1860-00-00",
+      "death_date": "1936-00-00",
+      "profile_url": "/memorial/16627202/mary_e-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2006/315/16627202_116339671662.jpg?size=photos250",
+      "id": 417
+    }
+  ],
+  "children": "[{\"name\": \"Martha Mary  Gaiser Ratz\", \"birth_date\": \"1888-00-00\", \"death_date\": \"1971-00-00\", \"profile_url\": \"/memorial/15639893/martha_mary-ratz\"}, {\"name\": \"Albert Adam   Gaiser\", \"birth_date\": \"1891-00-00\", \"death_date\": \"1974-00-00\", \"profile_url\": \"/memorial/15639713/albert_adam-gaiser\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 12-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 405,
+  "slug": "jacob-gaiser-405"
+}

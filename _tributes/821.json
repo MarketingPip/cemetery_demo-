@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/239188882/mary-ann-parsons",
+  "name": "Mary Ann Parsons",
+  "birth_date": "1829-00-00",
+  "death_date": "1882-06-02",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "Aged 53 years 19 days",
+  "gps": {
+    "latitude": "43.2985679",
+    "longitude": "-81.5523985"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/114/239188882_958370b2-7e7c-4a69-bc63-51a850187372.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "John   Parsons",
+      "birth_date": "1829-00-00",
+      "death_date": "1906-00-00",
+      "profile_url": "/memorial/239188920/john-parsons",
+      "image_url": "https://images.findagrave.com/photos/2022/114/239188920_ee4fb97b-38f1-4d1e-b411-ab53d9178661.jpeg?size=photos250",
+      "id": 819
+    }
+  ],
+  "children": "[{\"name\": \"William John   Parsons\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1936-00-00\", \"profile_url\": \"/memorial/235476888/william_john-parsons\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "row 11-13",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "Aged 53 years 19 days",
+  "id": 821,
+  "slug": "mary-ann-parsons-821"
+}

@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/236171167/jacob-haist",
+  "name": "Jacob Haist",
+  "birth_date": "1791-00-00",
+  "death_date": "1864-03-06",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "HAIST\nMartha Gaiser<br/>1873-1934<br/>beloved wife of <br/>Henry Haist<br/>1873-1963<br/>their sons<br/>1905 Royal H. 1979<br/>1911 Gordon 1979<br/>August Haist<br/>died July 21, 1912<br/>aged 72 yrs. 8 mos. 14 ds.<br/>Barbara, his wife<br/>died Dec. 24, 1918<br/>aged 82 yrs. 27 ds.<br/>Jacob Haist<br/>died Mar. 6, 1864<br/>aged 73 yrs<br/>his wife Ana Maria<br/>died Nov. 29, 1881<br/>aged 86 yrs.</br>",
+  "gps": {
+    "latitude": "43.2984324",
+    "longitude": "-81.552802"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/111/236171167_20156052-9234-47a7-9863-bc83a2c6b551.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Ana Maria   Haist",
+      "birth_date": "1795-00-00",
+      "death_date": "1881-00-00",
+      "profile_url": "/memorial/236171206/ana_maria-haist",
+      "image_url": "https://images.findagrave.com/photos/2022/111/236171206_8822d4f6-0fe2-40d0-9f4a-1ab6528fe7d6.jpeg?size=photos250",
+      "id": 477
+    }
+  ],
+  "children": "[{\"name\": \"August   Haist\", \"birth_date\": \"1839-00-00\", \"death_date\": \"1912-00-00\", \"profile_url\": \"/memorial/15697730/august-haist\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "3-11",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "HAISTMartha Gaiser1873-1934beloved wife of Henry Haist1873-1963their sons1905 Royal H. 19791911 Gordon 1979August Haistdied July 21, 1912aged 72 yrs. 8 mos. 14 ds.Barbara, his wifedied Dec. 24, 1918aged 82 yrs. 27 ds.Jacob Haistdied Mar. 6, 1864aged 73 yrshis wife Ana Mariadied Nov. 29, 1881aged 86 yrs.",
+  "id": 495,
+  "slug": "jacob-haist-495"
+}

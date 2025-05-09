@@ -1,0 +1,53 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15640007/ellen-holtzmann",
+  "name": "Ellen Morlock Holtzmann",
+  "birth_date": "1862-09-20",
+  "death_date": "1959-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Daughter of Magdalena (Beaver) and Matthew Morlock",
+  "bio": "Daughter of Magdalena (Beaver) and Matthew Morlock",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/248/15640007_115755762438.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Matthew   Morlock",
+      "birth_date": "1828-00-00",
+      "death_date": "1923-00-00",
+      "profile_url": "/memorial/15395989/matthew-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/228/15395989_115582472667.jpg?size=photos250",
+      "id": 757
+    },
+    {
+      "name": "Magdalena  Beaver Morlock",
+      "birth_date": "1834-00-00",
+      "death_date": "1929-00-00",
+      "profile_url": "/memorial/15396027/magdalena-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/228/15396027_115582486300.jpg?size=photos250",
+      "id": 750
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Jacob   Holtzmann",
+      "birth_date": "1866-00-00",
+      "death_date": "1929-00-00",
+      "profile_url": "/memorial/15640045/jacob-holtzmann",
+      "image_url": "https://images.findagrave.com/photos/2006/248/15640045_115755784360.jpg?size=photos250",
+      "id": 584
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 14-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Morlock",
+  "inscription": "",
+  "id": 580,
+  "slug": "ellen-morlock-holtzmann-580"
+}

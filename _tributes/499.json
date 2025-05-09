@@ -1,0 +1,43 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/16581464/lillian-lenora-haist",
+  "name": "Lillian Lenora Haist",
+  "birth_date": "1892-12-07",
+  "death_date": "1972-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Daughter of Catherine (Wuerth) and John Haist",
+  "bio": "Daughter of Catherine (Wuerth) and John Haist",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/312/16581464_116313680304.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "John   Haist",
+      "birth_date": "1865-00-00",
+      "death_date": "1953-00-00",
+      "profile_url": "/memorial/16581414/john-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/312/16581414_116313637231.jpg?size=photos250",
+      "id": 496
+    },
+    {
+      "name": "Catherine  Wuerth Haist",
+      "birth_date": "1869-00-00",
+      "death_date": "1947-00-00",
+      "profile_url": "/memorial/16581433/catherine-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/312/16581433_116313655251.jpg?size=photos250",
+      "id": 483
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 11-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 499
+}

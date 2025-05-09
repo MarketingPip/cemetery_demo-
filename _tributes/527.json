@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188113176/frederick-heitzman",
+  "name": "Frederick Heitzman",
+  "birth_date": "1840-00-00",
+  "death_date": "1911-09-06",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "HEITZMAN\nFrederick Heitzman<br/>died Sept. 16, 1911<br/>aged 71 yrs. 3 mos.<br/>JESUS HAS COME AND BORNE THEE HOME, BEYOND THE STORMY BLAST</br>",
+  "gps": {
+    "latitude": "43.2983284",
+    "longitude": "-81.5523044"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/112/188113176_b65fa4bf-a38c-4a83-9321-d73e6b6c7a2b.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Dorothea  Eilber Heitzman",
+      "birth_date": "1845-00-00",
+      "death_date": "1884-00-00",
+      "profile_url": "/memorial/239063998/dorothea-heitzman",
+      "image_url": "https://images.findagrave.com/photos/2022/112/239063998_969bfebe-527f-4c70-bec9-aacdf59ad701.jpeg?size=photos250",
+      "id": 526
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 8-12",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "HEITZMANFrederick Heitzmandied Sept. 16, 1911aged 71 yrs. 3 mos.JESUS HAS COME AND BORNE THEE HOME, BEYOND THE STORMY BLAST",
+  "id": 527,
+  "slug": "frederick-heitzman-527"
+}

@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188036581/george-e-eilber",
+  "name": "George E. Eilber",
+  "birth_date": "1876-00-00",
+  "death_date": "1949-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/83/188036581_0bd19165-30eb-4a03-ac93-b6a948a957ab.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Mary L.  Wolfe Eilber",
+      "birth_date": "1876-00-00",
+      "death_date": "1952-00-00",
+      "profile_url": "/memorial/188036730/mary_l-eilber",
+      "image_url": "https://images.findagrave.com/photos/2022/83/188036730_bfa074ce-c999-442d-b5de-6259fb323828.jpeg?size=photos250",
+      "id": 195
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 16-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 181,
+  "slug": "george-e-eilber-181"
+}

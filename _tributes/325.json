@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/16658475/john-finkbeiner",
+  "name": "John Finkbeiner",
+  "birth_date": "1850-12-04",
+  "death_date": "1914-12-04",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "John was the son of Jacob Finkbeiner. His mother's name on his marriage record says Barbara, on his death record is says Rosina Shatz. His death record is dated Dec 2 1914",
+  "bio": "John was the son of Jacob Finkbeiner. His mother's name on his marriage record says Barbara, on his death record is says Rosina Shatz. His death record is dated Dec 2 1914",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/317/16658475_116357079241.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Magdalena \"Lena\" Staebler Finkbeiner",
+      "birth_date": "1852-00-00",
+      "death_date": "1953-00-00",
+      "profile_url": "/memorial/16658485/magdalena-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/317/16658485_116357110395.jpg?size=photos250",
+      "id": 342
+    }
+  ],
+  "children": "[{\"name\": \"Caroline Lavina  Finkbeiner Currey\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1970-00-00\", \"profile_url\": \"/memorial/36479056/caroline_lavina-currey\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 11-11",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 325,
+  "slug": "john-finkbeiner-325"
+}

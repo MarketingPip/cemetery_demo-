@@ -1,0 +1,46 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15684685/victoria-m-sweitzer",
+  "name": "Victoria M. Sweitzer",
+  "birth_date": "1895-05-24",
+  "death_date": "1896-08-24",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Believed to be the daughter of Lydia (Morlock) and Samuel Sweitzer",
+  "bio": "SWEITZER\nat rest<br/>Samuel Sweitzer<br/>born Sept. 27, 1857<br/>died Sept. 26, 1911<br/>Louisa F.<br/>born Sept. 1, 1883<br/>died June 12, 1889<br/>Victoria M.<br/>born May 24, 1895<br/>died Aug. 24, 1896<br/>Maryann<br/>born Mar. 5, 1885<br/>died 1885<br/>Lydia Morlock<br/>wife of Samuel Sweitzer<br/>born 1860<br/>died 1952<br/>their son Simon<br/>born 1882<br/>died 1957</br>",
+  "gps": {
+    "latitude": "43.2985471",
+    "longitude": "-81.5529049"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/252/15684685_115790884242.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Samuel   Sweitzer",
+      "birth_date": "1857-00-00",
+      "death_date": "1911-00-00",
+      "profile_url": "/memorial/15684591/samuel-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/252/15684591_115790778679.jpg?size=photos250",
+      "id": 1046
+    },
+    {
+      "name": "Louisa or Lydia  Morlock Sweitzer",
+      "birth_date": "1860-00-00",
+      "death_date": "1952-00-00",
+      "profile_url": "/memorial/15697687/louisa_or_lydia-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/253/15697687_115798737190.jpg?size=photos250",
+      "id": 1037
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Simon   Sweitzer\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1957-00-00\", \"profile_url\": \"/memorial/236152226/simon-sweitzer\"}, {\"name\": \"Louisa F.   Sweitzer\", \"birth_date\": \"1883-00-00\", \"death_date\": \"1889-00-00\", \"profile_url\": \"/memorial/15684666/louisa_f-sweitzer\"}, {\"name\": \"Maryann   Sweitzer\", \"birth_date\": \"1885-00-00\", \"death_date\": \"1885-00-00\", \"profile_url\": \"/memorial/15684744/maryann-sweitzer\"}, {\"name\": \"William H.   Sweitzer\", \"birth_date\": \"1887-00-00\", \"death_date\": \"1969-00-00\", \"profile_url\": \"/memorial/15187530/william_h-sweitzer\"}]",
+  "half_siblings": "[]",
+  "plot_value": "2-14",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "SWEITZERat restSamuel Sweitzerborn Sept. 27, 1857died Sept. 26, 1911Louisa F.born Sept. 1, 1883died June 12, 1889Victoria M.born May 24, 1895died Aug. 24, 1896Maryannborn Mar. 5, 1885died 1885Lydia Morlockwife of Samuel Sweitzerborn 1860died 1952their son Simonborn 1882died 1957",
+  "id": 1049
+}

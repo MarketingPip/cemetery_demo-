@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/37097302/heinrich-edward-fahner",
+  "name": "Heinrich Edward Fahner",
+  "birth_date": "1878-10-05",
+  "death_date": "1964-11-19",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "FAHNER\nLydia Wein<br/>died Mar. 31, 1944 aged 63 yrs.<br/>wife of Henry Fahner<br/>died Nov. 19, 1964<br/>aged 86 yrs.<br/>their daughter Emma<br/>wife of Rose Krueger<br/>died June 5, 1979 aged 67 yrs.<br/>(back)Tobias Fahner<br/>died Aug. 20, 1906<br/>aged 67 yrs.<br/>Gone but not forgotten <br/>Sophia his wife<br/>died Apr. 14, 1924 aged 74 yrs.<br/>at rest</br>",
+  "gps": {
+    "latitude": "43.2982202",
+    "longitude": "-81.5522697"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/112/188037043_71c4a67c-f419-4e65-9134-494fde87287d.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Lydia Ann  Wein Fahner",
+      "birth_date": "1881-00-00",
+      "death_date": "1944-00-00",
+      "profile_url": "/memorial/37097312/lydia_ann-fahner",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188037083_673deb26-9bef-4f37-a524-01b5d301bb7b.jpeg?size=photos250",
+      "id": 225
+    }
+  ],
+  "children": "[{\"name\": \"Erma  Fahner Krueger\", \"birth_date\": \"1909-00-00\", \"death_date\": \"1979-00-00\", \"profile_url\": \"/memorial/188113434/erma-krueger\"}, {\"name\": \"Bernice Adileen  Fahner Jeffery\", \"birth_date\": \"1922-00-00\", \"death_date\": \"2002-00-00\", \"profile_url\": \"/memorial/16576817/bernice_adileen-jeffery\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 8-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "FAHNERLydia Weindied Mar. 31, 1944 aged 63 yrs.wife of Henry Fahnerdied Nov. 19, 1964aged 86 yrs.their daughter Emmawife of Rose Kruegerdied June 5, 1979 aged 67 yrs.(back)Tobias Fahnerdied Aug. 20, 1906aged 67 yrs.Gone but not forgotten Sophia his wifedied Apr. 14, 1924 aged 74 yrs.at rest",
+  "id": 221,
+  "slug": "heinrich-edward-fahner-221"
+}

@@ -1,0 +1,43 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15554269/emma-beaver",
+  "name": "Emma Finkbeiner Beaver",
+  "birth_date": "1880-05-17",
+  "death_date": "1964-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Daughter of Rosina (Guenther) and Jacob Finkbeiner",
+  "bio": "Daughter of Rosina (Guenther) and Jacob Finkbeiner",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/241/15554269_115694952851.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Jacob   Finkbeiner",
+      "birth_date": "1836-00-00",
+      "death_date": "1895-00-00",
+      "profile_url": "/memorial/22631608/jacob-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2007/306/22631608_119409389525.jpg?size=photos250",
+      "id": 318
+    },
+    {
+      "name": "Rosina  Guenter Finkbeiner",
+      "birth_date": "1840-00-00",
+      "death_date": "1926-00-00",
+      "profile_url": "/memorial/22631649/rosina-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2007/306/22631649_119409407298.jpg?size=photos250",
+      "id": 360
+    }
+  ],
+  "spouses": [],
+  "children": "[{\"name\": \"Howard Finkbeiner   Beaver\", \"birth_date\": \"1908-00-00\", \"death_date\": \"1973-00-00\", \"profile_url\": \"/memorial/15554293/howard_finkbeiner-beaver\"}, {\"name\": \"Eugene Harry   Beaver\", \"birth_date\": \"1916-00-00\", \"death_date\": \"1988-00-00\", \"profile_url\": \"/memorial/18593245/eugene_harry-beaver\"}]",
+  "siblings": "[{\"name\": \"Bernhard   Finkbeiner\", \"birth_date\": \"1870-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236168945/bernhard-finkbeiner\"}, {\"name\": \"John   Finkbeiner\", \"birth_date\": \"1872-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236168967/john-finkbeiner\"}, {\"name\": \"Jacob   Finkbeiner\", \"birth_date\": \"1874-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236168918/jacob-finkbeiner\"}, {\"name\": \"Samuel   Finkbeiner\", \"birth_date\": \"1876-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236169004/samuel-finkbeiner\"}, {\"name\": \"Elizabeth   Finkbeiner\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236169042/elizabeth-finkbeiner\"}, {\"name\": \"Lydia Magdalena  Finkbeiner Huxtable\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1957-00-00\", \"profile_url\": \"/memorial/142698013/lydia_magdalena-huxtable\"}, {\"name\": \"Wesley Albert   Finkbeiner\", \"birth_date\": \"1885-00-00\", \"death_date\": \"1959-00-00\", \"profile_url\": \"/memorial/154960232/wesley_albert-finkbeiner\"}]",
+  "half_siblings": "[]",
+  "plot_value": "Row 18-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Finkbeiner",
+  "inscription": "",
+  "id": 17
+}

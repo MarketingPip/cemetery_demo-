@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15145573/irvine-faist-finkbeiner",
+  "name": "Irvine Faist Finkbeiner",
+  "birth_date": "1904-01-09",
+  "death_date": "1977-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Louisa (Faist) and George Finkbeiner. His birth date is cut as 1903, but his birth record shows 1904 as his real birth year.",
+  "bio": "Son of Louisa (Faist) and George Finkbeiner. His birth date is cut as 1903, but his birth record shows 1904 as his real birth year.",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/215/15145573_115470138045.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Lavina Viola  Smith Finkbeiner",
+      "birth_date": "1898-00-00",
+      "death_date": "1984-00-00",
+      "profile_url": "/memorial/15145833/lavina_viola-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/215/15145833_115470313935.jpg?size=photos250",
+      "id": 331
+    }
+  ],
+  "children": "[{\"name\": \"Donald Leroy   Finkbeiner\", \"birth_date\": \"1936-00-00\", \"death_date\": \"2008-00-00\", \"profile_url\": \"/memorial/41028526/donald_leroy-finkbeiner\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 22-8",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 315,
+  "slug": "irvine-faist-finkbeiner-315"
+}

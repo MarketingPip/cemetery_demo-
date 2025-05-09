@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15580235/christian-berg",
+  "name": "Christian Berg",
+  "birth_date": "1898-00-00",
+  "death_date": "1957-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "f.s. Father Mother",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/244/15580235_115720058837.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Martha  Wenzel Berg",
+      "birth_date": "1887-00-00",
+      "death_date": "1962-00-00",
+      "profile_url": "/memorial/15580244/martha-berg",
+      "image_url": "https://images.findagrave.com/photos/2006/244/15580244_115720066867.jpg?size=photos250",
+      "id": 49
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 16-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "f.s. Father Mother",
+  "id": 48,
+  "slug": "christian-berg-48"
+}

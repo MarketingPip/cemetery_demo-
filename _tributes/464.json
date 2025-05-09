@@ -1,0 +1,46 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/237944436/janet-louise-guenther",
+  "name": "Janet Louise Guenther",
+  "birth_date": "1955-00-00",
+  "death_date": "1970-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "GUENTHER\nJohn Matther<br/>1944-1969<br/>his sister<br/>Janet Louise<br/>1955-1970<br/>dear children of<br/>Carl F. Guenther<br/>1911-1975<br/>his wife<br/>Mabel A. Harlton<br/>1921-2010</br>",
+  "gps": {
+    "latitude": "43.2986284",
+    "longitude": "-81.5530426"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/84/237944436_fbf6772c-1ff2-40f5-a269-e2da6f935dd2.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Carl F.   Guenther",
+      "birth_date": "1911-00-00",
+      "death_date": "1975-00-00",
+      "profile_url": "/memorial/188113148/carl_f-guenther",
+      "image_url": "https://images.findagrave.com/photos/2022/84/188113148_c6bae61e-d44e-458c-b447-99245f161bd3.jpeg?size=photos250",
+      "id": 461
+    },
+    {
+      "name": "Mabel A.  Harlton Guenther",
+      "birth_date": "1921-00-00",
+      "death_date": "2010-00-00",
+      "profile_url": "/memorial/188113154/mabel_a-guenther",
+      "image_url": "https://images.findagrave.com/photos/2022/84/188113154_1fbd7f3f-446e-4da0-9a8e-9c4d8aa59500.jpeg?size=photos250",
+      "id": 466
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"John Matthew   Guenther\", \"birth_date\": \"1944-00-00\", \"death_date\": \"1969-00-00\", \"profile_url\": \"/memorial/188113152/john_matthew-guenther\"}]",
+  "half_siblings": "[]",
+  "plot_value": "Row 21-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "GUENTHERJohn Matther1944-1969his sisterJanet Louise1955-1970dear children ofCarl F. Guenther1911-1975his wifeMabel A. Harlton1921-2010",
+  "id": 464
+}

@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/16581535/john-finkbeiner",
+  "name": "John Finkbeiner",
+  "birth_date": "1845-12-27",
+  "death_date": "1922-06-14",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Carl Ulrich Finkbeiner--information gathered from his death record",
+  "bio": "Son of Carl Ulrich Finkbeiner<br/>--<br/>information gathered from his death record",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/312/16581535_116313740074.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Barbara  Mast Finkbeiner",
+      "birth_date": "1851-00-00",
+      "death_date": "1939-00-00",
+      "profile_url": "/memorial/16581553/barbara-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/312/16581553_116313749073.jpg?size=photos250",
+      "id": 275
+    }
+  ],
+  "children": "[{\"name\": \"Frederick George   Finkbeiner\", \"birth_date\": \"1886-00-00\", \"death_date\": \"1910-00-00\", \"profile_url\": \"/memorial/16581582/frederick_george-finkbeiner\"}, {\"name\": \"Wesley P   Finkbeiner\", \"birth_date\": \"1894-00-00\", \"death_date\": \"1896-00-00\", \"profile_url\": \"/memorial/16581621/wesley_p-finkbeiner\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 11-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 324,
+  "slug": "john-finkbeiner-324"
+}

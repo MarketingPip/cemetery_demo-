@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188136908/idella-sims",
+  "name": "Idella Smith Sims",
+  "birth_date": "1891-00-00",
+  "death_date": "1989-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/188136908_f54a42b0-0d7f-4618-938c-45af143e247f.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Clayton   Sims",
+      "birth_date": "1894-00-00",
+      "death_date": "1965-00-00",
+      "profile_url": "/memorial/188136892/clayton-sims",
+      "image_url": "https://images.findagrave.com/photos/2022/84/188136892_da7042ee-4aae-4ca1-b22e-354092ab6ebf.jpeg?size=photos250",
+      "id": 977
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 21-5",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Smith",
+  "inscription": "",
+  "id": 980,
+  "slug": "idella-smith-sims-980"
+}

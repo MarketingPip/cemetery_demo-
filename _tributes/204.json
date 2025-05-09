@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188036866/mary-a-english",
+  "name": "Mary A. Sweitzer English",
+  "birth_date": "1874-00-00",
+  "death_date": "1918-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/114/188036866_99b22c39-9ec2-4252-b614-4227c75cabc4.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "John   English",
+      "birth_date": "1872-00-00",
+      "death_date": "1952-00-00",
+      "profile_url": "/memorial/188036847/john-english",
+      "image_url": "https://images.findagrave.com/photos/2022/114/188036847_c7919420-f5b9-4e2b-88f8-dfbdfeff7973.jpeg?size=photos250",
+      "id": 203
+    }
+  ],
+  "children": "[{\"name\": \"Raymond Garfield   English\", \"birth_date\": \"1898-00-00\", \"death_date\": null, \"profile_url\": \"/memorial/253118573/raymond_garfield-english\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 11-4",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Sweitzer",
+  "inscription": "",
+  "id": 204,
+  "slug": "mary-a-sweitzer-english-204"
+}

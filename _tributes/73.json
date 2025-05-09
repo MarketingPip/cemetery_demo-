@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188035695/william-j-bowman",
+  "name": "William J. Bowman",
+  "birth_date": "1864-00-00",
+  "death_date": "1941-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/83/188035695_d3a8ea45-78de-4b1b-bf4d-2e067f758b78.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Susan  Wein Bowman",
+      "birth_date": "1868-00-00",
+      "death_date": "1944-00-00",
+      "profile_url": "/memorial/188035687/susan-bowman",
+      "image_url": "https://images.findagrave.com/photos/2022/83/188035687_a669f98b-d88d-488c-8230-3d994805e414.jpeg?size=photos250",
+      "id": 72
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 17-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 73,
+  "slug": "william-j-bowman-73"
+}

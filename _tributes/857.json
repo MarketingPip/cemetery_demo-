@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15561398/ada-ratz",
+  "name": "Ada Fassold Ratz",
+  "birth_date": "1902-11-18",
+  "death_date": "1978-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Daughter of Clara (Hey) and Philip Fassold",
+  "bio": "Daughter of Clara (Hey) and Philip Fassold",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/241/15561398_115699752036.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Milton Earl   Ratz",
+      "birth_date": "1893-00-00",
+      "death_date": "1954-00-00",
+      "profile_url": "/memorial/15561385/milton_earl-ratz",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15561385_115699737318.jpg?size=photos250",
+      "id": 876
+    }
+  ],
+  "children": "[{\"name\": \"John M   Ratz\", \"birth_date\": \"1924-00-00\", \"death_date\": \"1979-00-00\", \"profile_url\": \"/memorial/15561401/john_m-ratz\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 17-9",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Fassold",
+  "inscription": "",
+  "id": 857,
+  "slug": "ada-fassold-ratz-857"
+}

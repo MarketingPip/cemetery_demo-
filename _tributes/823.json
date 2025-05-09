@@ -1,0 +1,49 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15563060/william-robert-parsons",
+  "name": "William Robert Parsons",
+  "birth_date": "1900-10-27",
+  "death_date": "1976-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/242/15563060_115703095476.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Robert Henry   Parsons",
+      "birth_date": "1870-00-00",
+      "death_date": "1955-00-00",
+      "profile_url": "/memorial/225459492/robert_henry-parsons"
+    },
+    {
+      "name": "Elizabeth Jane  Ryckman Parsons",
+      "birth_date": "1870-00-00",
+      "death_date": "1951-00-00",
+      "profile_url": "/memorial/225464536/elizabeth_jane-parsons"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Almeda M  Finkbeiner Parsons",
+      "birth_date": "1892-00-00",
+      "death_date": "1979-00-00",
+      "profile_url": "/memorial/15563069/almeda_m-parsons",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563069_115703112639.jpg?size=photos250",
+      "id": 816
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 16-9",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 823,
+  "slug": "william-robert-parsons-823"
+}

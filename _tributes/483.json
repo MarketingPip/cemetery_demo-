@@ -1,0 +1,53 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/16581433/catherine-haist",
+  "name": "Catherine Wuerth Haist",
+  "birth_date": "1869-00-00",
+  "death_date": "1947-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Daughter of Wilhemina (Wolf) and Fred Wuerth",
+  "bio": "Daughter of Wilhemina (Wolf) and Fred Wuerth",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/312/16581433_116313655251.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Frederick John   Wuerth",
+      "birth_date": "1842-00-00",
+      "death_date": "1927-00-00",
+      "profile_url": "/memorial/15848394/frederick_john-wuerth",
+      "image_url": "https://images.findagrave.com/photos/2006/264/15848394_115893799546.jpg?size=photos250",
+      "id": 1198
+    },
+    {
+      "name": "Wilhelmina  Wolfe Wuerth",
+      "birth_date": "1848-00-00",
+      "death_date": "1930-00-00",
+      "profile_url": "/memorial/15848446/wilhelmina-wuerth",
+      "image_url": "https://images.findagrave.com/photos/2006/264/15848446_115893837408.jpg?size=photos250",
+      "id": 1205
+    }
+  ],
+  "spouses": [
+    {
+      "name": "John   Haist",
+      "birth_date": "1865-00-00",
+      "death_date": "1953-00-00",
+      "profile_url": "/memorial/16581414/john-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/312/16581414_116313637231.jpg?size=photos250",
+      "id": 496
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 11-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Wuerth",
+  "inscription": "",
+  "id": 483,
+  "slug": "catherine-wuerth-haist-483"
+}

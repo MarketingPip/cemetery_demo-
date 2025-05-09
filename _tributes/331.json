@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15145833/lavina-viola-finkbeiner",
+  "name": "Lavina Viola Smith Finkbeiner",
+  "birth_date": "1898-09-18",
+  "death_date": "1984-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Daughter of Mary (Klumpp) and John Smith",
+  "bio": "Daughter of Mary (Klumpp) and John Smith",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/215/15145833_115470313935.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Irvine Faist   Finkbeiner",
+      "birth_date": "1904-00-00",
+      "death_date": "1977-00-00",
+      "profile_url": "/memorial/15145573/irvine_faist-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/215/15145573_115470138045.jpg?size=photos250",
+      "id": 315
+    }
+  ],
+  "children": "[{\"name\": \"Donald Leroy   Finkbeiner\", \"birth_date\": \"1936-00-00\", \"death_date\": \"2008-00-00\", \"profile_url\": \"/memorial/41028526/donald_leroy-finkbeiner\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 22-8",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Smith",
+  "inscription": "",
+  "id": 331,
+  "slug": "lavina-viola-smith-finkbeiner-331"
+}

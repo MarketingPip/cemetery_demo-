@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188036191/george-a-cook",
+  "name": "George A. Cook",
+  "birth_date": "1877-00-00",
+  "death_date": "1942-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2021/130/188036191_68ca0b0b-8d37-48fd-8cb4-76dbf0f82a2b.jpeg?size=photos250",
+  "image_credits": "Julie Fairbairn",
+  "image_credits_url": "/user/profile/50838455",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Lena M.  Wilhelm Cook",
+      "birth_date": "1882-00-00",
+      "death_date": "1967-00-00",
+      "profile_url": "/memorial/188036198/lena_m-cook",
+      "image_url": "https://images.findagrave.com/photos/2021/130/188036198_e36cb53c-8548-440f-a8a3-0fb40549f6c5.jpeg?size=photos250",
+      "id": 140
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 18-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 139,
+  "slug": "george-a-cook-139"
+}

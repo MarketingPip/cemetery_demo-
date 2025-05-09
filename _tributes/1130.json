@@ -1,0 +1,52 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/16413875/leah-wein",
+  "name": "Leah Beaver Wein",
+  "birth_date": "1859-00-00",
+  "death_date": "1913-02-24",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Leah was born in Wellington Co, the daughter of Margaretha (Rothermal) and Peter Bieber. The name Beaver is the anglo version of Bieber.",
+  "bio": "WEIN\nIn memory of John G. Wein<br/>1851-1919<br/>his beloved wife Leah Beaver<br/>1859-1913<br/>their sons<br/>1888 Ezra 1924<br/>1883 Samuel 1949</br>",
+  "gps": {
+    "latitude": "43.2983635",
+    "longitude": "-81.5526905"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/304/16413875_116239760176.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Peter   Beaver",
+      "birth_date": "1837-00-00",
+      "death_date": "1909-00-00",
+      "profile_url": "/memorial/227763866/peter-beaver"
+    },
+    {
+      "name": "Margaret  Rothaermel Beaver",
+      "birth_date": "1839-00-00",
+      "death_date": "1912-00-00",
+      "profile_url": "/memorial/227763910/margaret-beaver"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "John George   Wein",
+      "birth_date": "1851-00-00",
+      "death_date": "1919-00-00",
+      "profile_url": "/memorial/16331552/john_george-wein",
+      "image_url": "https://images.findagrave.com/photos/2006/298/16331552_116188210966.jpg?size=photos250",
+      "id": 1126
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "row 9-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Beaver",
+  "inscription": "WEINIn memory of John G. Wein1851-1919his beloved wife Leah Beaver1859-1913their sons1888 Ezra 19241883 Samuel 1949",
+  "id": 1130,
+  "slug": "leah-beaver-wein-1130"
+}

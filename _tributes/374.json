@@ -1,0 +1,42 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/116885460/katherine-follis",
+  "name": "Katherine Parker Follis",
+  "birth_date": "1801-00-00",
+  "death_date": "1877-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Susanna Follis born November 22, 1829 in Cleenish, Mullaghdun, Fermanagh, Ireland.James Follis born about 1830 in Fermanagh, Ireland.Mary Jane Follis born about 1833 in Manvers, Ontario.John Follis born May 20, 1834 in Manvers, Ontario.A son Follis born about 1836 in Manvers, Ontario.A son Follis born about 1837 in Manvers, Ontario.Catherine Follis born August 27, 1837 in Manvers, Ontario.Parker Follis born October 18, 1839 in Manvers, Ontario.Anna Follis born December 26, 1842 in Manvers, Ontario.",
+  "bio": "Susanna Follis born November 22, 1829 in Cleenish, Mullaghdun, Fermanagh, Ireland.<br/>James Follis born about 1830 in Fermanagh, Ireland.<br/>Mary Jane Follis born about 1833 in Manvers, Ontario.<br/>John Follis born May 20, 1834 in Manvers, Ontario.<br/>A son Follis born about 1836 in Manvers, Ontario.<br/>A son Follis born about 1837 in Manvers, Ontario.<br/>Catherine Follis born August 27, 1837 in Manvers, Ontario.<br/>Parker Follis born October 18, 1839 in Manvers, Ontario.<br/>Anna Follis born December 26, 1842 in Manvers, Ontario.<br/>",
+  "gps": null,
+  "image_url": "",
+  "image_credits": "",
+  "image_credits_url": "",
+  "parents": [
+    {
+      "name": "Thomas   Parker",
+      "birth_date": "1770-00-00",
+      "death_date": null,
+      "profile_url": "/memorial/121259135/thomas-parker"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "John   Follis",
+      "birth_date": "1797-00-00",
+      "death_date": "1885-00-00",
+      "profile_url": "/memorial/116884906/john-follis",
+      "id": 373
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Parker",
+  "inscription": "",
+  "id": 374,
+  "slug": "katherine-parker-follis-374"
+}

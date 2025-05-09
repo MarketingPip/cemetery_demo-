@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/55150774/martha-a-bertrand",
+  "name": "Martha A. Richardson Bertrand",
+  "birth_date": "1879-00-00",
+  "death_date": "1957-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/55150774_e7bc8d1f-540e-474e-8a49-6e2bd7569b35.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Edmund   Bertrand",
+      "birth_date": "1875-00-00",
+      "death_date": "1937-00-00",
+      "profile_url": "/memorial/55150771/edmund-bertrand",
+      "image_url": "https://images.findagrave.com/photos/2022/84/55150771_3e86d52e-743b-41db-8a7a-6d1588c4cda3.jpeg?size=photos250",
+      "id": 52
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 15-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Richardson",
+  "inscription": "",
+  "id": 56,
+  "slug": "martha-a-richardson-bertrand-56"
+}

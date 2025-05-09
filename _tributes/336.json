@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15638498/lorne-finkbeiner",
+  "name": "Lorne Finkbeiner",
+  "birth_date": "1891-08-24",
+  "death_date": "1943-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Magdalena (Gaiser) and Christian Finkbeiner",
+  "bio": "Son of Magdalena (Gaiser) and Christian Finkbeiner",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/248/15638498_115754771063.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Margaret Ann  Hotson Finkbeiner",
+      "birth_date": "1896-00-00",
+      "death_date": "1974-00-00",
+      "profile_url": "/memorial/15638522/margaret_ann-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/248/15638522_115754797970.jpg?size=photos250",
+      "id": 345
+    }
+  ],
+  "children": "[{\"name\": \"Lilah  Finkbeiner Rosser\", \"birth_date\": \"1925-00-00\", \"death_date\": \"2009-00-00\", \"profile_url\": \"/memorial/36997313/lilah-rosser\"}, {\"name\": \"Audrey Eloise   Finkbeiner\", \"birth_date\": \"1927-00-00\", \"death_date\": \"2014-00-00\", \"profile_url\": \"/memorial/145204886/audrey_eloise-finkbeiner\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 15-8",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 336,
+  "slug": "lorne-finkbeiner-336"
+}

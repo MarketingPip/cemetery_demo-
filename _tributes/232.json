@@ -1,0 +1,48 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188037143/tobias-fahner",
+  "name": "Tobias Fahner",
+  "birth_date": "1839-08-23",
+  "death_date": "1906-08-20",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "FAHNER\nLydia Wein<br/>died Mar. 31, 1944 aged 63 yrs.<br/>wife of Henry Fahner<br/>died Nov. 19, 1964<br/>aged 86 yrs.<br/>their daughter Emma<br/>wife of Rose Krueger<br/>died June 5, 1979 aged 67 yrs.<br/>(back)Tobias Fahner<br/>died Aug. 20, 1906<br/>aged 67 yrs.<br/>Gone but not forgotten <br/>Sophia his wife<br/>died Apr. 14, 1924 aged 74 yrs.<br/>at rest</br>",
+  "gps": {
+    "latitude": "43.2982035",
+    "longitude": "-81.5523473"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/112/188037143_fe1ba48d-f22a-4758-9916-4d342a9771ae.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Jacob   Fahner",
+      "birth_date": "1804-00-00",
+      "death_date": "1879-00-00",
+      "profile_url": "/memorial/188037051/jacob-fahner",
+      "image_url": "https://images.findagrave.com/photos/2022/110/188037051_d6a6eaef-2b38-491c-827b-14101553996f.jpeg?size=photos250",
+      "id": 222
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Sophia   Fahner",
+      "birth_date": "1850-00-00",
+      "death_date": "1924-00-00",
+      "profile_url": "/memorial/238612944/sophia-fahner",
+      "image_url": "https://images.findagrave.com/photos/2022/112/238612944_1cf79024-5898-4ceb-a416-4110a9ee8e78.jpeg?size=photos250",
+      "id": 231
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 8-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "FAHNERLydia Weindied Mar. 31, 1944 aged 63 yrs.wife of Henry Fahnerdied Nov. 19, 1964aged 86 yrs.their daughter Emmawife of Rose Kruegerdied June 5, 1979 aged 67 yrs.(back)Tobias Fahnerdied Aug. 20, 1906aged 67 yrs.Gone but not forgotten Sophia his wifedied Apr. 14, 1924 aged 74 yrs.at rest",
+  "id": 232,
+  "slug": "tobias-fahner-232"
+}

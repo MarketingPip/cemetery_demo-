@@ -1,0 +1,56 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15126012/lorne-reuben-finkbeiner",
+  "name": "Lorne Reuben Finkbeiner",
+  "birth_date": "1901-05-25",
+  "death_date": "1984-05-13",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Anna Mary (Wein) and William Finkbeiner",
+  "bio": "FINKBEINER (gray granite stone)\nLorne Rueben<br/>May 23, 1901-May 13, 1984<br/>his beloved wife Laura E. England<br/>July 15, 1907-Nov. 10, 1994</br>",
+  "gps": {
+    "latitude": "43.2984358",
+    "longitude": "-81.5524888"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/213/15126012_115458150757.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "William   Finkbeiner",
+      "birth_date": "1858-00-00",
+      "death_date": "1937-00-00",
+      "profile_url": "/memorial/15961995/william-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/273/15961995_115976214651.jpg?size=photos250",
+      "id": 370
+    },
+    {
+      "name": "Mary  Wein Finkbeiner",
+      "birth_date": "1871-00-00",
+      "death_date": "1958-00-00",
+      "profile_url": "/memorial/15849155/mary-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/264/15849155_115894186437.jpg?size=photos250",
+      "id": 347
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Laura Ethel  England Finkbeiner",
+      "birth_date": "1907-00-00",
+      "death_date": "1994-00-00",
+      "profile_url": "/memorial/15126038/laura_ethel-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/213/15126038_115458177510.jpg?size=photos250",
+      "id": 330
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 28-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "FINKBEINER (gray granite stone)Lorne RuebenMay 23, 1901-May 13, 1984his beloved wife Laura E. EnglandJuly 15, 1907-Nov. 10, 1994",
+  "id": 337,
+  "slug": "lorne-reuben-finkbeiner-337"
+}

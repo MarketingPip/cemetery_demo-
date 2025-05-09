@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/16539744/john-klumpp",
+  "name": "John Klumpp",
+  "birth_date": "1834-01-01",
+  "death_date": "1923-07-13",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "John was a shoe maker. He was the son of John Klumpp.",
+  "bio": "LAMPORT\nSamuel G. Lamport<br/>1867-1944<br/>his wife Margaret Klumpp<br/>1871-1970<br/>Edith Elvira their daughter<br/>1901-1903<br/>(back)KLUMPP<br/>John Klumpp<br/>1834-1923<br/>his wife Agnes C. Zuefle<br/>1935-1906</br>",
+  "gps": {
+    "latitude": "43.2985086",
+    "longitude": "-81.5529147"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/310/16539744_116291442727.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Agnes Catherine  Zuefle Klumpp",
+      "birth_date": "1835-00-00",
+      "death_date": "1906-00-00",
+      "profile_url": "/memorial/16539780/agnes_catherine-klumpp",
+      "image_url": "https://images.findagrave.com/photos/2006/310/16539780_116291468571.jpg?size=photos250",
+      "id": 622
+    }
+  ],
+  "children": "[{\"name\": \"Margaret  Klumpp Lamport\", \"birth_date\": \"1871-00-00\", \"death_date\": \"1970-00-00\", \"profile_url\": \"/memorial/16539603/margaret-lamport\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 9-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "LAMPORTSamuel G. Lamport1867-1944his wife Margaret Klumpp1871-1970Edith Elvira their daughter1901-1903(back)KLUMPPJohn Klumpp1834-1923his wife Agnes C. Zuefle1935-1906",
+  "id": 625,
+  "slug": "john-klumpp-625"
+}

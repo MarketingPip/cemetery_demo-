@@ -1,0 +1,52 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/237949057/madeline-marie-harvey",
+  "name": "Madeline Marie Romphf Harvey",
+  "birth_date": "1940-03-18",
+  "death_date": "2013-06-07",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "In Loving Memory\nHARVEY<br/>Madeline<br/>Marie<br/>Romphf<br/>Mar. 18, 1940<br/>June 7, 2013<br/>Alfred J.P.<br/>Harvey<br/>July 5, 1935<br/>Dec. 13, 2015<br/>Because he lives, we shall live also John14:19</br>",
+  "gps": {
+    "latitude": "43.2983957",
+    "longitude": "-81.5524397"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/84/237949057_d6e020a2-101a-41eb-b42b-edb6a92b35c1.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Ralph David   Romphf",
+      "birth_date": "1919-00-00",
+      "death_date": "1980-00-00",
+      "profile_url": "/memorial/242564087/ralph_david-romphf"
+    },
+    {
+      "name": "Norma Rebecca  Sims Romphf",
+      "birth_date": "1923-00-00",
+      "death_date": "1994-00-00",
+      "profile_url": "/memorial/242564104/norma_rebecca-romphf"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Alfred J.P. \"Al\"  Harvey",
+      "birth_date": "1935-00-00",
+      "death_date": "2015-00-00",
+      "profile_url": "/memorial/237948874/alfred_jp-harvey",
+      "image_url": "https://images.findagrave.com/photos/2022/84/237948874_33e3134b-e2ab-44a0-b535-017c7b91eab0.jpeg?size=photos250",
+      "id": 512
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Romphf",
+  "inscription": "In Loving MemoryHARVEYMadelineMarieRomphfMar. 18, 1940June 7, 2013Alfred J.P.HarveyJuly 5, 1935Dec. 13, 2015Because he lives, we shall live also John14:19",
+  "id": 517,
+  "slug": "madeline-marie-romphf-harvey-517"
+}

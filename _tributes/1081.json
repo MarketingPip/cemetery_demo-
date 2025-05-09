@@ -1,0 +1,46 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/231230160/emma-uncer",
+  "name": "Emma Eilber Uncer",
+  "birth_date": "1875-00-00",
+  "death_date": "1950-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "EILBER\nFather<br/>Christopher Eilber<br/>died Set. 7, 1919<br/>aged 89 yrs. 7 mos. 15 days.<br/>Emma Eilber Unger <br/>1875-1950</br>",
+  "gps": {
+    "latitude": "43.2998389",
+    "longitude": "-81.5541833"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/51/231230160_0ecadd63-78b4-4720-b564-bed2896e2eb4.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Christopher Friederich   Eilber",
+      "birth_date": "1830-00-00",
+      "death_date": "1919-00-00",
+      "profile_url": "/memorial/188036509/christopher_friederich-eilber",
+      "image_url": "https://images.findagrave.com/photos/2021/153/188036509_262efeac-17c1-4975-8efa-a2910f9e1839.jpeg?size=photos250",
+      "id": 174
+    },
+    {
+      "name": "Catherine   Eilber",
+      "birth_date": "1833-00-00",
+      "death_date": "1919-00-00",
+      "profile_url": "/memorial/231229920/catherine-eilber",
+      "image_url": "https://images.findagrave.com/photos/2022/51/231229920_95412efe-ad76-42a3-bab5-256e69219142.jpeg?size=photos250",
+      "id": 172
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Caroline  Eilber Sweitzer\", \"birth_date\": \"1864-00-00\", \"death_date\": \"1922-00-00\", \"profile_url\": \"/memorial/231230083/caroline-sweitzer\"}, {\"name\": \"Jacob C. \\\"Jake\\\"  Eilber\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1953-00-00\", \"profile_url\": \"/memorial/79714327/jacob_c-eilber\"}]",
+  "half_siblings": "[]",
+  "plot_value": "5-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Eilber",
+  "inscription": "EILBERFatherChristopher Eilberdied Set. 7, 1919aged 89 yrs. 7 mos. 15 days.Emma Eilber Unger 1875-1950",
+  "id": 1081
+}

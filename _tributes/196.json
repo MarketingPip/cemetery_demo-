@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188036757/sarah-eilber",
+  "name": "Sarah Merner Eilber",
+  "birth_date": "1866-00-00",
+  "death_date": "1934-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/116/188036757_232f1a1a-467a-4098-a4df-dbff222c3d76.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Charles   Eilber",
+      "birth_date": "1862-00-00",
+      "death_date": "1938-00-00",
+      "profile_url": "/memorial/188036498/charles-eilber",
+      "image_url": "https://images.findagrave.com/photos/2022/116/188036498_5e959f41-1386-415e-a47b-ebf488577fd8.jpeg?size=photos250",
+      "id": 173
+    }
+  ],
+  "children": "[{\"name\": \"Beaulah F   Eilber\", \"birth_date\": \"1897-00-00\", \"death_date\": \"1898-00-00\", \"profile_url\": \"/memorial/239203453/beaulah_f-eilber\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 12-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Merner",
+  "inscription": "",
+  "id": 196,
+  "slug": "sarah-merner-eilber-196"
+}

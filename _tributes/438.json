@@ -1,0 +1,46 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/191738097/margaret-gibson",
+  "name": "Margaret Gibson",
+  "birth_date": "1962-00-00",
+  "death_date": "1972-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "GIBSON f.s. Margaret\nFred Gibson<br/>1931-2006<br/>his wife Mary Haigh<br/>1938-2008<br/>their daughter<br/>Margaret<br/>1962-1972<br/>f.s. Margaret</br>",
+  "gps": {
+    "latitude": "43.2984116",
+    "longitude": "-81.5525273"
+  },
+  "image_url": "https://images.findagrave.com/photos/2018/209/191738097_d636f1e1-fc1f-44bd-a2ef-a59386269561.jpeg?size=photos250",
+  "image_credits": "rossddickson",
+  "image_credits_url": "/user/profile/49188008",
+  "parents": [
+    {
+      "name": "Fred Clement   Gibson",
+      "birth_date": "1931-00-00",
+      "death_date": "2006-00-00",
+      "profile_url": "/memorial/41012246/fred_clement-gibson",
+      "image_url": "https://images.findagrave.com/photos/2018/209/41012246_3fe681b4-3316-4e74-8981-4f917f4c195a.jpeg?size=photos250",
+      "id": 437
+    },
+    {
+      "name": "Mary Muriel  Haigh Gibson",
+      "birth_date": "1938-00-00",
+      "death_date": "2008-00-00",
+      "profile_url": "/memorial/41014994/mary_muriel-gibson",
+      "image_url": "https://images.findagrave.com/photos/2018/209/41014994_1151a1f3-9ba0-459a-8ff6-6a6c45067e14.jpeg?size=photos250",
+      "id": 439
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "4-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "GIBSON f.s. MargaretFred Gibson1931-2006his wife Mary Haigh1938-2008their daughterMargaret1962-1972f.s. Margaret",
+  "id": 438
+}

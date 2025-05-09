@@ -1,0 +1,53 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/192696658/dorothy-elizabeth-mackay",
+  "name": "Dorothy Elizabeth Amy MacKay",
+  "birth_date": "1920-00-00",
+  "death_date": "2017-09-16",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/84/192696658_472ebb68-9fe7-40f8-85b2-b7ce30b9db09.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Arthur James   Amy",
+      "birth_date": "1889-00-00",
+      "death_date": "1978-00-00",
+      "profile_url": "/memorial/15561434/arthur_james-amy",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15561434_115699806925.jpg?size=photos250",
+      "id": 2
+    },
+    {
+      "name": "Louise Marian  Haist Amy",
+      "birth_date": "1889-00-00",
+      "death_date": "1953-00-00",
+      "profile_url": "/memorial/15561443/louise_marian-amy",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15561443_115699819923.jpg?size=photos250",
+      "id": 3
+    }
+  ],
+  "spouses": [
+    {
+      "name": "John Murdoch   MacKay",
+      "birth_date": "1905-00-00",
+      "death_date": "2003-00-00",
+      "profile_url": "/memorial/15561417/john_murdoch-mackay",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15561417_115699789812.jpg?size=photos250",
+      "id": 691
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Amy",
+  "inscription": "",
+  "id": 690,
+  "slug": "dorothy-elizabeth-amy-mackay-690"
+}

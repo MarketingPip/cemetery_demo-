@@ -1,0 +1,46 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15978598/clinton-g-morlock",
+  "name": "Clinton G Morlock",
+  "birth_date": "",
+  "death_date": "1942-06-04",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Lydia (Haist) and William Morlock",
+  "bio": "MORLOCK\n(front)FATHER<br/>William H. Morlock<br/>died Apr. 24, 1948<br/>aged 85 yrs 5 mos. 19ds.<br/>MOTHER<br/>Lydia Haist<br/>wife of William H. Morlock<br/>died Sept. 27, 1942<br/>aged 76 yrs. 3 ms. 29 ds.<br/>(end)Wilber H. Morlock<br/>died Jan. 1, 1919<br/>aged 26 yrs. 10 ms. 6 ds.<br/>Clinton G. Morlock<br/>died June 4, 1942<br/>aged 43 yrs. 1 mo.<br/>(end)Clara S. Morlock<br/>died Apr. 10, 1871<br/>aged 6 yrs. 1 mo. 17 ds.<br/>Raymond A. Morlock<br/>died May 23, 1898<br/>aged 8 mos. 8 ds.<br/>(back)Charlotte Beaver<br/>wife of Gottielb Morlock<br/>died July 7, 1925<br/>aged 84 yrs. 9 mos. 27 ds.<br/>Gottielb Morlock<br/>died Nov. 3, 1910<br/>aged 74 yrs. 5 ms. 29 ds.<br/>at rest</br>",
+  "gps": {
+    "latitude": "43.2986265",
+    "longitude": "-81.552742"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/275/15978598_115988780068.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "William H.   Morlock",
+      "birth_date": "1862-00-00",
+      "death_date": "1948-00-00",
+      "profile_url": "/memorial/15978472/william_h-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/275/15978472_115988713587.jpg?size=photos250",
+      "id": 762
+    },
+    {
+      "name": "Lydia  Haist Morlock",
+      "birth_date": "1867-00-00",
+      "death_date": "1943-00-00",
+      "profile_url": "/memorial/15978542/lydia-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/275/15978542_115988748138.jpg?size=photos250",
+      "id": 748
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Freeman Wesley   Morlock\", \"birth_date\": \"1888-00-00\", \"death_date\": \"1967-00-00\", \"profile_url\": \"/memorial/15640086/freeman_wesley-morlock\"}, {\"name\": \"Herbert Charles   Morlock\", \"birth_date\": \"1890-00-00\", \"death_date\": \"1948-00-00\", \"profile_url\": \"/memorial/15396077/herbert_charles-morlock\"}, {\"name\": \"Wilber Henry   Morlock\", \"birth_date\": \"1892-00-00\", \"death_date\": \"1919-00-00\", \"profile_url\": \"/memorial/15848245/wilber_henry-morlock\"}, {\"name\": \"Sybilla Charlotte  Morlock Gaiser\", \"birth_date\": \"1893-00-00\", \"death_date\": \"1949-00-00\", \"profile_url\": \"/memorial/15639747/sybilla_charlotte-gaiser\"}, {\"name\": \"Lorne Roy   Morlock\", \"birth_date\": \"1895-00-00\", \"death_date\": \"1964-00-00\", \"profile_url\": \"/memorial/16682023/lorne_roy-morlock\"}, {\"name\": \"Raymond   Morlock\", \"birth_date\": \"1897-00-00\", \"death_date\": \"1898-00-00\", \"profile_url\": \"/memorial/15978236/raymond-morlock\"}, {\"name\": \"Clara  Morlock Hoffman\", \"birth_date\": \"1902-00-00\", \"death_date\": \"1988-00-00\", \"profile_url\": \"/memorial/15977764/clara-hoffman\"}]",
+  "half_siblings": "[]",
+  "plot_value": "Row8-11",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "MORLOCK(front)FATHERWilliam H. Morlockdied Apr. 24, 1948aged 85 yrs 5 mos. 19ds.MOTHERLydia Haistwife of William H. Morlockdied Sept. 27, 1942aged 76 yrs. 3 ms. 29 ds.(end)Wilber H. Morlockdied Jan. 1, 1919aged 26 yrs. 10 ms. 6 ds.Clinton G. Morlockdied June 4, 1942aged 43 yrs. 1 mo.(end)Clara S. Morlockdied Apr. 10, 1871aged 6 yrs. 1 mo. 17 ds.Raymond A. Morlockdied May 23, 1898aged 8 mos. 8 ds.(back)Charlotte Beaverwife of Gottielb Morlockdied July 7, 1925aged 84 yrs. 9 mos. 27 ds.Gottielb Morlockdied Nov. 3, 1910aged 74 yrs. 5 ms. 29 ds.at rest",
+  "id": 731
+}

@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188113418/john-krein",
+  "name": "John Krein",
+  "birth_date": "1821-00-00",
+  "death_date": "1902-04-08",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "KREIN\n(end)Elizabeth<br/>wife of John KREIN<br/>died Mar. 23, 1912<br/>Aged 75 years 27 days<br/>Asleep in Jesus<br/>(front)John KREIN<br/>died April 8, 1902<br/>aged 75 yrs. 7 mos.<br/>Samuel KREIN<br/>died April 25, 1880<br/>aged 1 yr. 1 month.<br/>(back)Paul Messner<br/>died May 12, 1875<br/>ae 45 yrs.<br/>John Messner<br/>died Oct. 4, 1864<br/>ae 4 yrs. 6 mos.<br/>Regina Messner<br/>died July 26, 1893<br/>ae 29 yrs. 10 mos.</br>",
+  "gps": {
+    "latitude": "43.2985646",
+    "longitude": "-81.5525145"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/111/188113418_02973359-74ac-40fb-91b3-84ddae7236e0.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Elizabeth Catherine  Finkbeiner Messner Krein",
+      "birth_date": "1837-00-00",
+      "death_date": "1912-00-00",
+      "profile_url": "/memorial/236913526/elizabeth_catherine-messner_krein",
+      "image_url": "https://images.findagrave.com/photos/2022/111/236913526_f5e40283-bb7d-4148-9b04-6084f3bb86ac.jpeg?size=photos250",
+      "id": 717
+    }
+  ],
+  "children": "[{\"name\": \"Leah  Krine Northcott\", \"birth_date\": \"1856-00-00\", \"death_date\": \"1883-00-00\", \"profile_url\": \"/memorial/16577419/leah-northcott\"}, {\"name\": \"Samuel   Krein\", \"birth_date\": \"1879-00-00\", \"death_date\": \"1880-00-00\", \"profile_url\": \"/memorial/188113421/samuel-krein\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 5-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "KREIN(end)Elizabethwife of John KREINdied Mar. 23, 1912Aged 75 years 27 daysAsleep in Jesus(front)John KREINdied April 8, 1902aged 75 yrs. 7 mos.Samuel KREINdied April 25, 1880aged 1 yr. 1 month.(back)Paul Messnerdied May 12, 1875ae 45 yrs.John Messnerdied Oct. 4, 1864ae 4 yrs. 6 mos.Regina Messnerdied July 26, 1893ae 29 yrs. 10 mos.",
+  "id": 634,
+  "slug": "john-krein-634"
+}

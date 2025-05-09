@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188036903/caroline-fahner",
+  "name": "Caroline Wein Fahner",
+  "birth_date": "1849-03-05",
+  "death_date": "1914-01-25",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "FAHNER\nGottlieb Fahner<br/>June 29, 1846-Dec. 24, 1937<br/>his wife<br/>Caroline Wein<br/>born Mar. 5, 1849<br/>died Jan. 25, 1914<br/>at rest</br>",
+  "gps": {
+    "latitude": "43.2983075",
+    "longitude": "-81.5527162"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/110/188036903_fe9714bc-1906-4c4e-9fa2-f0f22085b64d.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Gottlieb   Fahner",
+      "birth_date": "1846-00-00",
+      "death_date": "1937-00-00",
+      "profile_url": "/memorial/188037003/gottlieb-fahner",
+      "image_url": "https://images.findagrave.com/photos/2022/110/188037003_f3431229-2407-4a39-ad28-7403de09fca7.jpeg?size=photos250",
+      "id": 218
+    }
+  ],
+  "children": "[{\"name\": \"Franklin N. \\\"Frank\\\"  Fahner\", \"birth_date\": \"1884-00-00\", \"death_date\": \"1971-00-00\", \"profile_url\": \"/memorial/236152898/franklin_n-fahner\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "3-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Wein",
+  "inscription": "FAHNERGottlieb FahnerJune 29, 1846-Dec. 24, 1937his wifeCaroline Weinborn Mar. 5, 1849died Jan. 25, 1914at rest",
+  "id": 211,
+  "slug": "caroline-wein-fahner-211"
+}

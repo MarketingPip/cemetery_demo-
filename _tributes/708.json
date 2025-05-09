@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/114892739/james-arthur-mcleod",
+  "name": "James Arthur McLeod",
+  "birth_date": "1955-00-00",
+  "death_date": "2013-05-16",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/86/114892739_08e059df-cda3-4e01-82f7-072dfb061d1e.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "David James   McLeod",
+      "birth_date": "1924-00-00",
+      "death_date": "1997-00-00",
+      "profile_url": "/memorial/112079002/david_james-mcleod"
+    },
+    {
+      "name": "Shirley Doreen  Kernick McLeod",
+      "birth_date": "1930-00-00",
+      "death_date": "2000-00-00",
+      "profile_url": "/memorial/112079613/shirley_doreen-mcleod"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Leonard Noble   McLeod\", \"birth_date\": \"1949-00-00\", \"death_date\": \"1987-00-00\", \"profile_url\": \"/memorial/113236160/leonard_noble-mcleod\"}]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 708
+}

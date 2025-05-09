@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15580249/herbert-fahrner",
+  "name": "Herbert Fahrner",
+  "birth_date": "1892-00-00",
+  "death_date": "1966-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "BERG_FAHRNER\nf.s. FATHER MOTHER</br>",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/244/15580249_115720073938.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Mabel  Wenzel Fahrner",
+      "birth_date": "1895-00-00",
+      "death_date": "1983-00-00",
+      "profile_url": "/memorial/15580255/mabel-fahrner",
+      "image_url": "https://images.findagrave.com/photos/2006/244/15580255_115720080729.jpg?size=photos250",
+      "id": 253
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 16-1",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "BERG_FAHRNERf.s. FATHER MOTHER",
+  "id": 249,
+  "slug": "herbert-fahrner-249"
+}

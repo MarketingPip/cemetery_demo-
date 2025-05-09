@@ -1,0 +1,53 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188035687/susan-bowman",
+  "name": "Susan Wein Bowman",
+  "birth_date": "1868-00-00",
+  "death_date": "1944-10-07",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/83/188035687_a669f98b-d88d-488c-8230-3d994805e414.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [
+    {
+      "name": "Godfried   Wein",
+      "birth_date": "1834-00-00",
+      "death_date": "1916-00-00",
+      "profile_url": "/memorial/188139056/godfried-wein",
+      "image_url": "https://images.findagrave.com/photos/2022/121/188139056_8f26e528-45b1-47fc-a80b-65f59653a8a2.jpeg?size=photos250",
+      "id": 1120
+    },
+    {
+      "name": "Agnes  Fahner Wein",
+      "birth_date": "1835-00-00",
+      "death_date": "1919-00-00",
+      "profile_url": "/memorial/189806364/agnes-wein",
+      "image_url": "https://images.findagrave.com/photos/2022/113/189806364_e6d0e932-1493-4992-81c5-6e89ba18dde3.jpeg?size=photos250",
+      "id": 1106
+    }
+  ],
+  "spouses": [
+    {
+      "name": "William J.   Bowman",
+      "birth_date": "1864-00-00",
+      "death_date": "1941-00-00",
+      "profile_url": "/memorial/188035695/william_j-bowman",
+      "image_url": "https://images.findagrave.com/photos/2022/83/188035695_d3a8ea45-78de-4b1b-bf4d-2e067f758b78.jpeg?size=photos250",
+      "id": 73
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 17-6",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Wein",
+  "inscription": "",
+  "id": 72,
+  "slug": "susan-wein-bowman-72"
+}

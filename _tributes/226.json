@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/239124397/margretha-fahner",
+  "name": "Margretha Fahner",
+  "birth_date": "1825-00-00",
+  "death_date": "1862-01-15",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "FAHNER\nJohn Fahner<br/>1854-1942<br/>his wife Catherine Gaiser<br/>1859-1936<br/>their son<br/>Edwin<br/>1892-1959<br/>their daughter Pearl<br/>1894-1970<br/>Tobias Fahner Sr.<br/>died June 1, 1903<br/>aged 83 yrs. 7 mos. 15 ds.<br/>his wife Margretha<br/>died Jan. 15, 1862 aged 37 yrs.</br>",
+  "gps": {
+    "latitude": "43.2984702",
+    "longitude": "-81.5523126"
+  },
+  "image_url": "https://images.findagrave.com/photos/2025/69/239124397_7c6ced6a-3fae-4c1d-9adc-fa9bf6305500.jpeg?size=photos250",
+  "image_credits": "Rick Fahner",
+  "image_credits_url": "/user/profile/51908492",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Tobias   Fahner Sr",
+      "birth_date": "1819-00-00",
+      "death_date": "1903-00-00",
+      "profile_url": "/memorial/188037157/tobias-fahner",
+      "image_url": "https://images.findagrave.com/photos/2025/69/188037157_21191506-68f9-4427-ab53-ec0f5f8196ef.jpeg?size=photos250",
+      "id": 233
+    }
+  ],
+  "children": "[{\"name\": \"Eva  Fahner Wein\", \"birth_date\": \"1847-00-00\", \"death_date\": \"1921-00-00\", \"profile_url\": \"/memorial/15662423/eva-wein\"}, {\"name\": \"Frederick J.   Fahner\", \"birth_date\": \"1849-00-00\", \"death_date\": \"1924-00-00\", \"profile_url\": \"/memorial/27178294/frederick_j-fahner\"}, {\"name\": \"Magdalena \\\"Lena\\\"  Fahner Kraft\", \"birth_date\": \"1853-00-00\", \"death_date\": \"1887-00-00\", \"profile_url\": \"/memorial/175610248/magdalena_%22lena%22-kraft\"}, {\"name\": \"John   Fahner\", \"birth_date\": \"1854-00-00\", \"death_date\": \"1942-00-00\", \"profile_url\": \"/memorial/176230513/john-fahner\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "row 7-7",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2022/112/239124397_1b38f86c-843a-493e-9ddf-828db741b487.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}]",
+  "maiden_name": "",
+  "inscription": "FAHNERJohn Fahner1854-1942his wife Catherine Gaiser1859-1936their sonEdwin1892-1959their daughter Pearl1894-1970Tobias Fahner Sr.died June 1, 1903aged 83 yrs. 7 mos. 15 ds.his wife Margrethadied Jan. 15, 1862 aged 37 yrs.",
+  "id": 226,
+  "slug": "margretha-fahner-226"
+}

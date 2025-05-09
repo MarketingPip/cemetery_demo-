@@ -1,0 +1,56 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/16539197/john-nicholas-morlock",
+  "name": "John Nicholas Morlock",
+  "birth_date": "1867-00-00",
+  "death_date": "1951-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Charlotte (Beaver) and Gottlieb Morlock",
+  "bio": "MORLOCK\nAlma E. Haist<br/>1903-1943<br/>wife of Chester Gordon Morlock <br/>1902-1993<br/>his wife Alma I. Smith<br/>1903-2006<br/>(back)John N. Morlock<br/>1867-1951<br/>his wife Caroline M. Wuerth<br/>1872-1963</br>",
+  "gps": {
+    "latitude": "43.2984741",
+    "longitude": "-81.5522697"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/310/16539197_116291058274.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Gottlieb   Morlock",
+      "birth_date": "1836-00-00",
+      "death_date": "1910-00-00",
+      "profile_url": "/memorial/15978080/gottlieb-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/275/15978080_115988462165.jpg?size=photos250",
+      "id": 740
+    },
+    {
+      "name": "Charlotte  Beaver Morlock",
+      "birth_date": "1840-00-00",
+      "death_date": "1925-00-00",
+      "profile_url": "/memorial/15978143/charlotte-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/275/15978143_115988500547.jpg?size=photos250",
+      "id": 727
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Caroline M  Wuerth Morlock",
+      "birth_date": "1872-00-00",
+      "death_date": "1963-00-00",
+      "profile_url": "/memorial/16539262/caroline_m-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/310/16539262_116291102731.jpg?size=photos250",
+      "id": 725
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 9-9",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "MORLOCKAlma E. Haist1903-1943wife of Chester Gordon Morlock 1902-1993his wife Alma I. Smith1903-2006(back)John N. Morlock1867-1951his wife Caroline M. Wuerth1872-1963",
+  "id": 744,
+  "slug": "john-nicholas-morlock-744"
+}

@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/239120276/agnes-eilber",
+  "name": "Agnes Gattin Eilber",
+  "birth_date": "1824-08-09",
+  "death_date": "1896-10-18",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "MORLOCK\nMary C. Martin<br/>1875-1949<br/>wife of Albert Morlock<br/>1877-1966<br/>thier son<br/>Martin B. Morlock<br/>1919-1976<br/>donated body to science<br/>Charlott Jans<br/>wife of N. Beaver<br/>died Aug. 4, 1907<br/>aged 92 years 6 mos. 16 ds.<br/>Magdalena Eilber<br/>1849-1936<br/>Heir Ruht<br/>Carl Eilber<br/>Gest Oct. 12, 1899<br/>Alter 74 Jahre 3 monate 20 tage<br/>Heir Ruht<br/>Agnes<br/>Galtin Von Carl Eilber<br/>Gest Oct. 18, 1896<br/>Alter 72 Jahre 2 monate 9 tage.</br>",
+  "gps": {
+    "latitude": "43.2983452",
+    "longitude": "-81.5526561"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/112/239120276_8e276a2d-a3ad-4429-8ec2-cb26f69e2b09.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Carl   Eilber",
+      "birth_date": "1825-00-00",
+      "death_date": "1899-00-00",
+      "profile_url": "/memorial/188036480/carl-eilber",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188036480_d25b2fe5-fa71-4893-9efd-4f3ff2285a6a.jpeg?size=photos250",
+      "id": 171
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "row 7-3",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Gattin",
+  "inscription": "MORLOCKMary C. Martin1875-1949wife of Albert Morlock1877-1966thier sonMartin B. Morlock1919-1976donated body to scienceCharlott Janswife of N. Beaverdied Aug. 4, 1907aged 92 years 6 mos. 16 ds.Magdalena Eilber1849-1936Heir RuhtCarl EilberGest Oct. 12, 1899Alter 74 Jahre 3 monate 20 tageHeir RuhtAgnesGaltin Von Carl EilberGest Oct. 18, 1896Alter 72 Jahre 2 monate 9 tage.",
+  "id": 169,
+  "slug": "agnes-gattin-eilber-169"
+}

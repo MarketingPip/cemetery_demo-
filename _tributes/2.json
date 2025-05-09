@@ -1,0 +1,49 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15561434/arthur-james-amy",
+  "name": "Arthur James Amy",
+  "birth_date": "1889-09-06",
+  "death_date": "1978-02-28",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Son of Elizabeth (Dodds) and Thomas Amy",
+  "bio": "Son of Elizabeth (Dodds) and Thomas Amy",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/241/15561434_115699806925.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Thomas James   Amy",
+      "birth_date": "1860-00-00",
+      "death_date": "1920-00-00",
+      "profile_url": "/memorial/198615291/thomas_james-amy"
+    },
+    {
+      "name": "Elizabeth  Dodds Amy",
+      "birth_date": "1860-00-00",
+      "death_date": "1947-00-00",
+      "profile_url": "/memorial/198615230/elizabeth-amy"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Louise Marian  Haist Amy",
+      "birth_date": "1889-00-00",
+      "death_date": "1953-00-00",
+      "profile_url": "/memorial/15561443/louise_marian-amy",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15561443_115699819923.jpg?size=photos250",
+      "id": 3
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 17-10",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 2,
+  "slug": "arthur-james-amy-2"
+}

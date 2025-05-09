@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/237942359/doris-mary-sweitzer",
+  "name": "Doris Mary Comfort Sweitzer",
+  "birth_date": "1927-00-00",
+  "death_date": "2016-08-24",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "SWEITZER\nStuart M. Sweitzer<br/>1925-1976<br/>his beloved wife<br/>Doris M. Comfort<br/>1927-2016<br/>Milton N. Sweitzer<br/>1916-1988<br/>his beloved wife Eva B. Comfort<br/>1926-2018</br>",
+  "gps": {
+    "latitude": "43.2979721",
+    "longitude": "-81.552742"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/84/237942359_1e4024ad-b3cf-42e9-9122-6f6f0949a70b.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Stuart Matthew   Sweitzer",
+      "birth_date": "1925-00-00",
+      "death_date": "1976-00-00",
+      "profile_url": "/memorial/15187241/stuart_matthew-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/219/15187241_115505124697.jpg?size=photos250",
+      "id": 1048
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "20-5",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Comfort",
+  "inscription": "SWEITZERStuart M. Sweitzer1925-1976his beloved wifeDoris M. Comfort1927-2016Milton N. Sweitzer1916-1988his beloved wife Eva B. Comfort1926-2018",
+  "id": 1024,
+  "slug": "doris-mary-comfort-sweitzer-1024"
+}

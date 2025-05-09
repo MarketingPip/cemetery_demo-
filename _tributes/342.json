@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/16658485/magdalena-finkbeiner",
+  "name": "Magdalena “Lena” Staebler Finkbeiner",
+  "birth_date": "1852-08-29",
+  "death_date": "1953-08-04",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Daughter of Christina (Schell) and John Staebler",
+  "bio": "Daughter of Christina (Schell) and John Staebler",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2006/317/16658485_116357110395.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "John   Finkbeiner",
+      "birth_date": "1850-00-00",
+      "death_date": "1914-00-00",
+      "profile_url": "/memorial/16658475/john-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/317/16658475_116357079241.jpg?size=photos250",
+      "id": 325
+    }
+  ],
+  "children": "[{\"name\": \"Caroline Lavina  Finkbeiner Currey\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1970-00-00\", \"profile_url\": \"/memorial/36479056/caroline_lavina-currey\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row11-11",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2024/107/16658485_23af8e19-639a-4204-8ebe-adfd19e6951c.jpeg?size=photos250', 'contributor_text': 'David Eddy', 'contributor_href': 'https://www.findagrave.com/user/profile/51375749'}, {'src': 'https://images.findagrave.com/photos/2024/109/16658485_bc441901-bac0-4cc4-84d4-2501754070e6.jpeg?size=photos250', 'contributor_text': 'David Eddy', 'contributor_href': 'https://www.findagrave.com/user/profile/51375749'}, {'src': 'https://images.findagrave.com/photos/2024/109/16658485_f6b11884-e66d-4053-a9c7-e24d3717afc7.jpeg?size=photos250', 'contributor_text': 'David Eddy', 'contributor_href': 'https://www.findagrave.com/user/profile/51375749'}, {'src': 'https://images.findagrave.com/photos/2024/107/16658485_934970d1-483a-4f4e-85aa-7c40283c3873.jpeg?size=photos250', 'contributor_text': 'David Eddy', 'contributor_href': 'https://www.findagrave.com/user/profile/51375749'}, {'src': 'https://images.findagrave.com/photos/2024/107/16658485_d053826f-4aac-4648-ac1b-8c5bcd01a2d8.jpeg?size=photos250', 'contributor_text': 'David Eddy', 'contributor_href': 'https://www.findagrave.com/user/profile/51375749'}]",
+  "maiden_name": "Staebler",
+  "inscription": "",
+  "id": 342,
+  "slug": "magdalena-lena-staebler-finkbeiner-342"
+}

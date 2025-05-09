@@ -1,0 +1,36 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188138338/henry-a-trick",
+  "name": "Henry A. Trick",
+  "birth_date": "1892-00-00",
+  "death_date": "1957-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2022/117/188138338_6177f6e5-9e15-44ce-aa26-f851e5624ced.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Inez M.  Fahner Trick Van Horne",
+      "birth_date": "1911-00-00",
+      "death_date": "1990-00-00",
+      "profile_url": "/memorial/188138346/inez_m-van_horne",
+      "image_url": "https://images.findagrave.com/photos/2022/117/188138346_11a3fbf2-96bd-47d8-b8f2-50eaef22f8b1.jpeg?size=photos250",
+      "id": 1086
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 21-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 1075,
+  "slug": "henry-a-trick-1075"
+}

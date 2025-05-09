@@ -1,0 +1,39 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188137855/john-g-staebler",
+  "name": "Rev John G Staebler",
+  "birth_date": "1824-00-00",
+  "death_date": "1909-08-23",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "STAEBLER\nRev. Joh. G. Staebler<br/>gest 23 Aug. 1909<br/>Ult 85 Jah. 7 mon. 28 tg.<br/>Chriftianna, the Frau von Joh Staebler<br/>Gest 10 Sept. 1906<br/>Ult 77 Jahr. 6 mo. 27 tg.</br>",
+  "gps": {
+    "latitude": "43.2985054",
+    "longitude": "-81.5526132"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/113/188137855_4e6385ca-23d5-4ee6-96a7-e478f4be6e25.jpeg?size=photos250",
+  "image_credits": "patricia van horn",
+  "image_credits_url": "/user/profile/49867182",
+  "parents": [],
+  "spouses": [
+    {
+      "name": "Christianna   Staebler",
+      "birth_date": "1829-00-00",
+      "death_date": "1906-00-00",
+      "profile_url": "/memorial/188137840/christianna-staebler",
+      "image_url": "https://images.findagrave.com/photos/2022/113/188137840_ff2b7a12-6b12-4d1e-9714-4c56fa07145c.jpeg?size=photos250",
+      "id": 1002
+    }
+  ],
+  "children": "[{\"name\": \"Johann   Stabler\", \"birth_date\": \"1857-00-00\", \"death_date\": \"1864-00-00\", \"profile_url\": \"/memorial/102287992/johann-stabler\"}, {\"name\": \"Henry Thomas   Staebler\", \"birth_date\": \"1871-00-00\", \"death_date\": \"1871-00-00\", \"profile_url\": \"/memorial/272789932/henry_thomas-staebler\"}]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 8-5",
+  "title": "",
+  "prefix": "Rev",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "STAEBLERRev. Joh. G. Staeblergest 23 Aug. 1909Ult 85 Jah. 7 mon. 28 tg.Chriftianna, the Frau von Joh StaeblerGest 10 Sept. 1906Ult 77 Jahr. 6 mo. 27 tg.",
+  "id": 1003,
+  "slug": "rev-john-g-staebler-1003"
+}

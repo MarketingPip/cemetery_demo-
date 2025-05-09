@@ -1,0 +1,49 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15571842/mary-isabella-finkbeiner",
+  "name": "Mary Isabella Amy Finkbeiner",
+  "birth_date": "1883-06-12",
+  "death_date": "1962-10-28",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Daughter of Elizabeth (Dodds) and Thomas Amy",
+  "bio": "Daughter of Elizabeth (Dodds) and Thomas Amy",
+  "gps": null,
+  "image_url": "https://images.findagrave.com/photos/2008/137/26884197_121103884346.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Thomas James   Amy",
+      "birth_date": "1860-00-00",
+      "death_date": "1920-00-00",
+      "profile_url": "/memorial/198615291/thomas_james-amy"
+    },
+    {
+      "name": "Elizabeth  Dodds Amy",
+      "birth_date": "1860-00-00",
+      "death_date": "1947-00-00",
+      "profile_url": "/memorial/198615230/elizabeth-amy"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "George Michael   Finkbeiner",
+      "birth_date": "1880-00-00",
+      "death_date": "1938-00-00",
+      "profile_url": "/memorial/15571819/george_michael-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/243/15571819_115711971049.jpg?size=photos250",
+      "id": 305
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "Amy",
+  "inscription": "",
+  "id": 348,
+  "slug": "mary-isabella-amy-finkbeiner-348"
+}

@@ -1,0 +1,56 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188035948/henry-milton-brown",
+  "name": "Henry Milton Brown",
+  "birth_date": "1890-05-08",
+  "death_date": "1993-05-30",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "BROWN\nIn memory of Mary B. Fees<br/>wife of John Brown<br/>died June 25, 1906<br/>aged 73 yrs. 6 mos. 28 ds.<br/>Sophia Kleinfeldt<br/>wife of B. Brown<br/>died Dec. 27, 1911<br/>aged 51 yrs. 6 mos. 9 days.<br/>Bernard Brown<br/>1858-1942<br/>Henry Brown <br/>1890-1993<br/>his wife<br/>Edith Louisa Klemmer<br/>1882-1931<br/>Hier Ruhte<br/>Jonathan<br/>Starb Dec. 13, 1872<br/>Alter 2 Jahre 11 mo 12 tag<br/>also Daniel<br/>Starb July 4, 1882<br/>Alter 10 Jaher 2 mo.<br/>kinder von John &amp; Mary Brown<br/>John Brown<br/>Starb Sept. 6, 1888<br/>Alter 69 Jaher 10 mos.<br/>f.s. Harold L. Brown<br/>missing in action<br/>1924-1944</br>",
+  "gps": {
+    "latitude": "43.2983188",
+    "longitude": "-81.5527591"
+  },
+  "image_url": "https://images.findagrave.com/photos/2022/98/188035948_4922d19c-dd09-4303-bd33-72b6d3e5b64a.jpeg?size=photos250",
+  "image_credits": "Wenerber",
+  "image_credits_url": "/user/profile/50991386",
+  "parents": [
+    {
+      "name": "Bernard   Brown",
+      "birth_date": "1858-00-00",
+      "death_date": "1942-00-00",
+      "profile_url": "/memorial/15965429/bernard-brown",
+      "image_url": "https://images.findagrave.com/photos/2006/274/15965429_115979875007.jpg?size=photos250",
+      "id": 88
+    },
+    {
+      "name": "Sophia  Kleinfeldt Brown",
+      "birth_date": "1860-00-00",
+      "death_date": "1911-00-00",
+      "profile_url": "/memorial/15965519/sophia-brown",
+      "image_url": "https://images.findagrave.com/photos/2006/274/15965519_115979890314.jpg?size=photos250",
+      "id": 119
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Edith Lovinia  Klemmer Brown",
+      "birth_date": "1882-00-00",
+      "death_date": "1931-00-00",
+      "profile_url": "/memorial/188035818/edith_lovinia-brown",
+      "image_url": "https://images.findagrave.com/photos/2022/98/188035818_05f988c8-44a1-487d-b833-885eb9fc2dfb.jpeg?size=photos250",
+      "id": 96
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "Row 7-2",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "BROWNIn memory of Mary B. Feeswife of John Browndied June 25, 1906aged 73 yrs. 6 mos. 28 ds.Sophia Kleinfeldtwife of B. Browndied Dec. 27, 1911aged 51 yrs. 6 mos. 9 days.Bernard Brown1858-1942Henry Brown 1890-1993his wifeEdith Louisa Klemmer1882-1931Hier RuhteJonathanStarb Dec. 13, 1872Alter 2 Jahre 11 mo 12 tagalso DanielStarb July 4, 1882Alter 10 Jaher 2 mo.kinder von John & Mary BrownJohn BrownStarb Sept. 6, 1888Alter 69 Jaher 10 mos.f.s. Harold L. Brownmissing in action1924-1944",
+  "id": 106,
+  "slug": "henry-milton-brown-106"
+}

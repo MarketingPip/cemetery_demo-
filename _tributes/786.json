@@ -1,0 +1,47 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/116883082/joseph-nelson",
+  "name": "Joseph Nelson",
+  "birth_date": "1820-12-23",
+  "death_date": "1869-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "Joseph Nelson and Anna Follis (Fallas or Fallis) were married about 1858.Their children:Alexander Nelson born March 25, 1860. Mary Ann Nelson born April 9, 1863.Elizabeth Ann Nelson born February 1, 1867.",
+  "bio": "Joseph Nelson and Anna Follis (Fallas or Fallis) were married about 1858.<br/><br/><br/>Their children:<br/><br/>Alexander Nelson born March 25, 1860. <br/><br/>Mary Ann Nelson born April 9, 1863.<br/><br/>Elizabeth Ann Nelson born February 1, 1867.<br/>",
+  "gps": null,
+  "image_url": "",
+  "image_credits": "",
+  "image_credits_url": "",
+  "parents": [
+    {
+      "name": "Alexander   Nelson",
+      "birth_date": "1783-00-00",
+      "death_date": "1857-00-00",
+      "profile_url": "/memorial/121258238/alexander-nelson"
+    },
+    {
+      "name": "Elizabeth   Nelson",
+      "birth_date": "1786-00-00",
+      "death_date": "1865-00-00",
+      "profile_url": "/memorial/121258398/elizabeth-nelson"
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Anna  Follis Dickie",
+      "birth_date": "1842-00-00",
+      "death_date": "1915-00-00",
+      "profile_url": "/memorial/95337796/anna-dickie"
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 786,
+  "slug": "joseph-nelson-786"
+}

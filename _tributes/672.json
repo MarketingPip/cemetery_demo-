@@ -1,0 +1,38 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188114955/michael-john-lightfoot",
+  "name": "Michael John Lightfoot",
+  "birth_date": "1969-00-00",
+  "death_date": "2004-00-00",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": {
+    "latitude": "43.2995917",
+    "longitude": "-81.5528194"
+  },
+  "image_url": "https://images.findagrave.com/photos/2018/209/188114955_3f812d80-08fa-4691-97e0-ab3878c6ab72.jpeg?size=photos250",
+  "image_credits": "rossddickson",
+  "image_credits_url": "/user/profile/49188008",
+  "parents": [
+    {
+      "name": "Douglas Howard   Lightfoot",
+      "birth_date": "1945-00-00",
+      "death_date": "2021-00-00",
+      "profile_url": "/memorial/238054371/douglas_howard-lightfoot",
+      "image_url": "https://images.findagrave.com/photos/2022/86/238054371_de902fa0-4070-4c04-9394-f0d668fa03fd.jpeg?size=photos250",
+      "id": 671
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 672
+}

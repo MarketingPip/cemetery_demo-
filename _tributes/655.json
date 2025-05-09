@@ -1,0 +1,42 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/188113475/william-robert_stevenson-lambie",
+  "name": "William Robert Stevenson “Bob” Lambie",
+  "birth_date": "1928-00-00",
+  "death_date": "1997-09-18",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "",
+  "gps": {
+    "latitude": "43.2996056",
+    "longitude": "-81.5527194"
+  },
+  "image_url": "https://images.findagrave.com/photos/2018/209/188113475_700e95b6-4263-4cc0-99c5-9cdb90542936.jpeg?size=photos250",
+  "image_credits": "rossddickson",
+  "image_credits_url": "/user/profile/49188008",
+  "parents": [
+    {
+      "name": "William   Lambie",
+      "birth_date": "1870-00-00",
+      "death_date": "1935-00-00",
+      "profile_url": "/memorial/191380979/william-lambie"
+    },
+    {
+      "name": "Margaret Johnson  Stevenson Lambie",
+      "birth_date": "1871-00-00",
+      "death_date": "1947-00-00",
+      "profile_url": "/memorial/191380956/margaret_johnson-lambie"
+    }
+  ],
+  "spouses": [],
+  "children": "[]",
+  "siblings": "[{\"name\": \"Jean Campbell Stevenson  Lambie Andrews\", \"birth_date\": \"1898-00-00\", \"death_date\": \"1995-00-00\", \"profile_url\": \"/memorial/191434087/jean_campbell_stevenson-andrews\"}, {\"name\": \"Isabel   Lambie\", \"birth_date\": \"1909-00-00\", \"death_date\": \"1928-00-00\", \"profile_url\": \"/memorial/191381002/isabel-lambie\"}, {\"name\": \"Arthur Sheldon \\\"Art\\\"  Lambie\", \"birth_date\": \"1936-00-00\", \"death_date\": \"2015-00-00\", \"profile_url\": \"/memorial/201523724/arthur_sheldon-lambie\"}]",
+  "half_siblings": "[]",
+  "plot_value": "",
+  "title": "",
+  "prefix": "",
+  "photos": "[]",
+  "maiden_name": "",
+  "inscription": "",
+  "id": 655
+}

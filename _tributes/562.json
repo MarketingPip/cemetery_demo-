@@ -1,0 +1,56 @@
+{
+  "memorial_url": "https://www.findagrave.com/memorial/15977736/charlie-hoffmann",
+  "name": "Charlie Hoffmann",
+  "birth_date": "1906-10-20",
+  "death_date": "1981-04-11",
+  "cemetery": "Crediton Cemetery",
+  "location": "Crediton",
+  "part_bio": "",
+  "bio": "HOFFMANN\nChristian Hoffmann<br/>born Aug. 1, 1862-died Apr. 14, 1926<br/>his wife Hannah Balsden<br/>Dec. 28, 1862-Mar. 2, 1937<br/>their son Charlie<br/>born Oct. 20, 1906-died Apr. 11, 1981<br/>his wife Clara Morlock<br/>born Jan. 4, 1902-died Apr. 30, 1988<br/>(back)Peter Hoffmann<br/>born Mar.3, 1826-died Jan. 5, 1913<br/>his wife Johanna Callfas<br/>born Mar. 10, 1835-died Feb. 5, 1918<br/>their daughters<br/>Eliza Ann Hoffmann<br/>born May 11, 1866-died Apr. 15, 1890<br/>Mary Hoffmann<br/>wife of H. Stanley<br/>born Dec. 26, 1855-died July 19, 1891</br>",
+  "gps": {
+    "latitude": "43.298439",
+    "longitude": "-81.5530855"
+  },
+  "image_url": "https://images.findagrave.com/photos/2006/275/15977736_115988199360.jpg?size=photos250",
+  "image_credits": "Scott Buschlen",
+  "image_credits_url": "/user/profile/46583152",
+  "parents": [
+    {
+      "name": "Christian   Hoffmann",
+      "birth_date": "1862-00-00",
+      "death_date": "1926-00-00",
+      "profile_url": "/memorial/15977561/christian-hoffmann",
+      "image_url": "https://images.findagrave.com/photos/2006/275/15977561_115988080038.jpg?size=photos250",
+      "id": 563
+    },
+    {
+      "name": "Hannah  Balsden Hoffmann",
+      "birth_date": "1869-00-00",
+      "death_date": "1937-00-00",
+      "profile_url": "/memorial/15977722/hannah-hoffmann",
+      "image_url": "https://images.findagrave.com/photos/2006/275/15977722_115988191153.jpg?size=photos250",
+      "id": 567
+    }
+  ],
+  "spouses": [
+    {
+      "name": "Clara  Morlock Hoffmann",
+      "birth_date": "1902-00-00",
+      "death_date": "1988-00-00",
+      "profile_url": "/memorial/239126801/clara-hoffmann",
+      "image_url": "https://images.findagrave.com/photos/2022/112/239126801_5b33a5a2-979a-4cd4-8f62-9be3680c26a2.jpeg?size=photos250",
+      "id": 565
+    }
+  ],
+  "children": "[]",
+  "siblings": "[]",
+  "half_siblings": "[]",
+  "plot_value": "row 7-11",
+  "title": "",
+  "prefix": "",
+  "photos": "[{'src': 'https://images.findagrave.com/photos/2022/112/239126735_8ebd382f-a1c3-4332-b345-7fdb07728be2.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}]",
+  "maiden_name": "",
+  "inscription": "HOFFMANNChristian Hoffmannborn Aug. 1, 1862-died Apr. 14, 1926his wife Hannah BalsdenDec. 28, 1862-Mar. 2, 1937their son Charlieborn Oct. 20, 1906-died Apr. 11, 1981his wife Clara Morlockborn Jan. 4, 1902-died Apr. 30, 1988(back)Peter Hoffmannborn Mar.3, 1826-died Jan. 5, 1913his wife Johanna Callfasborn Mar. 10, 1835-died Feb. 5, 1918their daughtersEliza Ann Hoffmannborn May 11, 1866-died Apr. 15, 1890Mary Hoffmannwife of H. Stanleyborn Dec. 26, 1855-died July 19, 1891",
+  "id": 562,
+  "slug": "charlie-hoffmann-562"
+}
