@@ -145,8 +145,7 @@
         </div>
       </div>
       <div class="flex space-x-4">
-{% assign author_key = page.author | slugify %}
-{% assign author = site.collections['authors'] | where: "slug", author_key | first %}
+{% assign author = site.authors | where: "author", page.author | first %}
 
 {% if author %}
   <a href="{{ author.social.facebook }}" class="text-gray-600 hover:text-green-600">
@@ -161,6 +160,7 @@
 {% else %}
   <p>No social links available for this author.</p>
 {% endif %}
+
 
       </div>
     </div>
