@@ -145,23 +145,11 @@
         </div>
       </div>
       <div class="flex space-x-4">
-{% assign author = site.authors | where: "author", page.author | first %}
-
-{% if author %}
-  <a href="{{ author.social.facebook }}" class="text-gray-600 hover:text-green-600">
-    <i class="fab fa-facebook-f"></i>
-  </a>
-  <a href="{{ author.social.twitter }}" class="text-gray-600 hover:text-green-600">
-    <i class="fab fa-twitter"></i>
-  </a>
-  <a href="{{ author.social.linkedin }}" class="text-gray-600 hover:text-green-600">
-    <i class="fab fa-linkedin-in"></i>
-  </a>
-{% else %}
-  <p>No social links available for this author.</p>
-{% endif %}
-
-
+        <a href="{{ site.data.authors[page.author].social.facebook }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-facebook-f"></i></a>
+        <a href="{{ site.authors[page.author].name }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-facebook-f"></i></a>
+        <a href="{{ site.data.authors[page.author].name }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-facebook-f"></i></a>
+        <a href="{{ site.data.authors[page.author].social.twitter }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-twitter"></i></a>
+        <a href="{{ site.data.authors[page.author].social.linkedin }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-linkedin-in"></i></a>
       </div>
     </div>
   </div>
