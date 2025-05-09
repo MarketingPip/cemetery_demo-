@@ -78,9 +78,6 @@ collections:
   blog:
     output: true
     permalink: /blog/:title/
-  tributes:
-    output: true
-    permalink: /tribute/:slug/
 # Plugins
 plugins:
  # - octopress-minify-html
@@ -106,10 +103,3 @@ include:
 
 tag_page_layout: tag_page
 tag_page_dir: blog/tag
-
-defaults:
-  - scope:
-      path: ""
-      type: tributes
-    values:
-      layout: tribute
