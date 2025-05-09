@@ -18,12 +18,12 @@ module Jekyll
 
         formatted_date = post.data['date'].strftime('%Y/%m/%d')
         slug = post.data['title'].downcase.gsub(/\s+/, '-')
-        
+
         post_info = {
           'title' => post.data['title'],
           'url' => "/blog/#{formatted_date}/#{slug}",
           'date' => post.data['date'].strftime('%Y-%m-%d'),
-          'excerpt' => post.data['excerpt'] || ''
+          'excerpt' => escape_excerpt(post.data['excerpt'] || '')
         }
 
         update_author_file(site, authors_dir, author_name, post_info)
@@ -34,9 +34,15 @@ module Jekyll
 
     private
 
+    def escape_excerpt(excerpt)
+      return '' unless excerpt
+      excerpt = excerpt.to_s.strip.gsub("\r\n", "\n")
+      excerpt.split("\n").map(&:strip).join("\n")
+    end
+
     def update_author_file(site, authors_dir, author_name, post_info)
-      author_filename = "#{author_name.downcase.gsub(/\s+/, '-')}.md" # Fixed to lowercase
-      author_path = File.join(authors_dir, author_filename) # Consistent use of author_filename
+      author_filename = "#{author_name.downcase.gsub(/\s+/, '-')}.md"
+      author_path = File.join(authors_dir, author_filename)
 
       if File.exist?(author_path)
         content = File.read(author_path)
@@ -48,7 +54,7 @@ module Jekyll
 
           parsed_content = parsed[:content] || ''
           new_content = "---\n#{parsed[:data].to_yaml}---\n#{parsed_content}"
-          
+
           Jekyll.logger.info "Writing to #{author_path}: #{new_content[0..100]}..."
           File.write(author_path, new_content)
           Jekyll.logger.info "Updated file for author: #{author_name}"
@@ -82,7 +88,14 @@ module Jekyll
     end
 
     def create_author_file(site, author_path, author_name, post_info)
-      content = "---\nname: #{author_name}\nposts:\n  - #{post_info.to_yaml.sub('---', '').strip}\n---\n"
+      post_info['excerpt'] = escape_excerpt(post_info['excerpt'])
+
+      yaml_data = {
+        'name' => author_name,
+        'posts' => [post_info]
+      }
+
+      content = "---\n#{yaml_data.to_yaml}---\n"
       File.write(author_path, content)
       Jekyll.logger.info "Created new author file for: #{author_name} at #{author_path}"
 
