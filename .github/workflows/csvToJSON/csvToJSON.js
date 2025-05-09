@@ -1,6 +1,14 @@
 import fs from 'fs/promises';
 import Papa from 'papaparse';
 
+function slugify(name, id) {
+  return name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-') // dashes for spaces/punctuation
+    .replace(/^-+|-+$/g, '')     // trim leading/trailing dashes
+    + `-${id}`;
+}
+
 const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
   try {
     // Step 1: Read the CSV file asynchronously
@@ -90,6 +98,7 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
             }
             return spouse;
           }));
+          record.slug = slugify(record.name, record.id)
         }
 
         // Process parents
@@ -123,9 +132,9 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
         }
 
         // Write each non-homePage record to a separate JSON file in assets/people/[id]
-        const recordDirectoryPath = './assets/people';
+        const recordDirectoryPath = './_tributes';
         await fs.mkdir(recordDirectoryPath, { recursive: true });
-        const recordFilePath = `./assets/people/${record.id}.json`;
+        const recordFilePath = `${recordDirectoryPath}/${record.id}.json`;
         await fs.writeFile(recordFilePath, JSON.stringify(record, null, 2), 'utf8');
         console.log(`Record ${record.id} written to ${recordFilePath}`);
       }
