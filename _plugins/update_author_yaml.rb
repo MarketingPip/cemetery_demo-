@@ -1,4 +1,3 @@
-# Filename: _plugins/update_author_yaml.rb
 require 'yaml'
 
 module Jekyll
@@ -16,7 +15,7 @@ module Jekyll
         author_name = post.data['author']
         next unless author_name
 
-        formatted_date = post.data['date'].strftime('%Y/%m/%d')
+        formatted_date = post.data['date'].strftime('%Y/%m/%d') if post.data['date'].respond_to?(:strftime)
         slug = post.data['title'].downcase.gsub(/\s+/, '-')
         
         post_info = {
@@ -35,20 +34,20 @@ module Jekyll
     private
 
     def update_author_file(site, authors_dir, author_name, post_info)
-      author_filename = "#{author_name.downcase.gsub(/\s+/, '-')}.md" # Fixed to lowercase
-      author_path = File.join(authors_dir, author_filename) # Consistent use of author_filename
+      author_filename = "#{author_name.downcase.gsub(/\s+/, '-')}.md"
+      author_path = File.join(authors_dir, author_filename)
 
       if File.exist?(author_path)
         content = File.read(author_path)
         parsed = parse_front_matter(content)
 
-        parsed[:data]['posts'] ||= []
+        parsed[:data]['posts'] ||= []  # Initialize posts if missing
         unless parsed[:data]['posts'].any? { |p| p['url'] == post_info['url'] }
           parsed[:data]['posts'] << post_info
 
           parsed_content = parsed[:content] || ''
           new_content = "---\n#{parsed[:data].to_yaml}---\n#{parsed_content}"
-          
+
           Jekyll.logger.info "Writing to #{author_path}: #{new_content[0..100]}..."
           File.write(author_path, new_content)
           Jekyll.logger.info "Updated file for author: #{author_name}"
