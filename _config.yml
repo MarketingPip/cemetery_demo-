@@ -78,7 +78,7 @@ collections:
   blog:
     output: true
     permalink: /blog/:title/
-  tribute:
+  tributes:
     output: true
     permalink: /tribute/:slug/
 # Plugins
