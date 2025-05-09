@@ -48,7 +48,7 @@ end
 # Hook to copy _data/authors.yml to _site/data/authors.yml after build
 Jekyll::Hooks.register :site, :post_write do |site|
   source_path = File.join(site.source, '_data', 'authors.yml')
-  dest_path = File.join(site.dest, 'data', 'authors.yml')
+  dest_path = File.join(site.dest, '_data', 'authors.yml')
   if File.exist?(source_path)
     FileUtils.mkdir_p(File.dirname(dest_path))
     FileUtils.cp(source_path, dest_path)
