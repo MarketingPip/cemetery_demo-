@@ -78,7 +78,9 @@ collections:
   blog:
     output: true
     permalink: /blog/:title/
-
+  tribute:
+    output: true
+    permalink: /tribute/:slug/
 # Plugins
 plugins:
  # - octopress-minify-html
