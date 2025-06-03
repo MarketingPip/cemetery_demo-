@@ -144,7 +144,81 @@ permalink: /
   <link rel="manifest" href="./assets/js/pwa/manifest.json"></link>
   <script type="text/javascript" src="./assets/js/pwa/config.js"></script>
   <script type="text/javascript" src="./assets/js/pwa/pwa.js"></script>
+  <script type="text/javascript" src="./assets/js/pageTransition.js"></script>
+	
   <style>
+
+	  
+/* here we customize the transition, these are the shared styles for the old and new view*/      
+::view-transition-new(root),
+::view-transition-old(root) {
+  animation-duration: 300ms;
+  animation-timing-function: ease-out;
+  animation-direction: normal;
+}
+
+/* old view slides out to the left */
+::view-transition-old(root) {
+  animation-name: slide-out;
+}
+
+/* new view slides in from the right */
+::view-transition-new(root) {
+  animation-name: slide-in;
+  mix-blend-mode: normal;
+}
+
+/* class "back-transition" is added to the html element 
+ * to customize the back transition 
+ * new view
+ */
+.back-transition::view-transition-new(root) {
+  animation-name: slide-out-reverse;
+}
+
+/* customized back transition for old view */
+.back-transition::view-transition-old(root) {
+  animation-name: slide-in-reverse;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+
+@keyframes slide-out {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-20%);
+  }
+}
+
+@keyframes slide-out-reverse {
+  from {
+    transform: translateX(-20%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-in-reverse {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}      
+      
       .font-display-swap {
     font-display: swap;
   }
