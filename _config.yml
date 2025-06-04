@@ -23,7 +23,7 @@ url:                https://marketingpip.github.io
 plugins_dir:        _plugins
 baseurl: "/"
 
-logo: "https://flowbite.com/docs/images/logo.svg" # Replace with your logo URL
+logo: "assets/images/Crediton_Heritage_Logo3.svg" # Replace with your logo URL
 ## env: production
 
 # Optional: You can define where your posts are located (if in a custom folder)
