@@ -10,7 +10,7 @@
       <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
         <div>
           <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
-          <ul class="text-gray-500 dark:text-gray-400 font-medium">
+          <ul class="text-gray-400 dark:text-gray-400 font-medium">
             {% for resource in site.resources %}
               <li class="mb-4">
                 <a href="{{ resource.url }}" class="hover:underline">{{ resource.name }}</a>
@@ -20,10 +20,10 @@
         </div>
         <div>
           <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
-          <ul class="text-gray-500 dark:text-gray-400 font-medium">
+          <ul class="text-gray-400 dark:text-gray-400 font-medium">
             {% for social in site.social %}
               <li class="mb-4">
-                <a href="{{ social.url }}" class="hover:underline">{{ social.name }}</a>
+                <a href="{{ social.url }}" class="hover:text-white text-gray-400 transition-colors duration-300">{{ social.name }}</a>
               </li>
             {% endfor %}
           </ul>
