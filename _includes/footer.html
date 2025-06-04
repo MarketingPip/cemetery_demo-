@@ -21,11 +21,11 @@
           </ul>
         </div>
         <div>
-          <h2 class="mb-6 text-sm font-semibold uppercase text-white">Follow us</h2>
+          <h2 class="mb-6 text-sm font-semibold uppercase text-white">Legal</h2>
           <ul class="text-gray-400 dark:text-gray-400 font-medium">
-            {% for social in site.social %}
+             {% for policy in site.policys %}
               <li class="mb-4">
-                <a href="{{ social.url }}" class="hover:text-white text-gray-400 transition-colors duration-300">{{ social.name }}</a>
+                <a href="{{base_url}}/{{ resource.url }}" class="hover:text-white text-gray-400 transition-colors duration-300">{{ policy.name }}</a>
               </li>
             {% endfor %}
           </ul>
