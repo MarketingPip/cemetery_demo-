@@ -108,11 +108,17 @@ tag_page_dir: blog/tag
 
 
 resources:
-  - name: "Flowbite"
-    url: "https://flowbite.com/"
-  - name: "Tailwind CSS"
-    url: "https://tailwindcss.com/"
-
+  - name: "Resources"
+    url: "resources"
+  - name: "Frequently Asked Questions"
+    url: "faq"
+  - name: "Contact Us"
+    url: "contact-us"
+  - name: "Support Us"
+    url: "support-us"      
+  - name: "Blog"
+    url: "blog"   
+    
 social:
   - name: "Github"
     url: "https://github.com/themesberg/flowbite"
