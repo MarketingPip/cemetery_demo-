@@ -1,3 +1,5 @@
+{% assign base_url = site.baseurl | default: "" %}
+
 <footer class="bg-gray-800">
   <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
     <div class="md:flex md:justify-between">
@@ -9,11 +11,11 @@
       </div>
       <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
         <div>
-          <h2 class="mb-6 text-sm font-semibold uppercase text-white">Resources</h2>
+          <h2 class="mb-6 text-sm font-semibold uppercase text-white">Quick Links</h2>
           <ul class="text-gray-400 dark:text-gray-400 font-medium">
             {% for resource in site.resources %}
               <li class="mb-4">
-                <a href="{{ resource.url }}" class="hover:text-white text-gray-400 transition-colors duration-300">{{ resource.name }}</a>
+                <a href="{{base_url}}/{{ resource.url }}" class="hover:text-white text-gray-400 transition-colors duration-300">{{ resource.name }}</a>
               </li>
             {% endfor %}
           </ul>
@@ -28,17 +30,17 @@
             {% endfor %}
           </ul>
         </div>
-        <div>
+        <!----<div>
           <h2 class="mb-6 text-sm font-semibold uppercase text-white">Legal</h2>
           <ul class="text-gray-400 font-medium">
             <li class="mb-4">
-              <a href="{{ site.privacy_policy }}" class="hover:text-white text-gray-400 transition-colors duration-300">Privacy Policy</a>
+              <a href="{{base_url}}/{{ site.privacy_policy }}" class="hover:text-white text-gray-400 transition-colors duration-300">Privacy Policy</a>
             </li>
             <li>
-              <a href="{{ site.terms_conditions }}" class="hover:text-white text-gray-400 transition-colors duration-300">Terms &amp; Conditions</a>
+              <a href="{{base_url}}/{{ site.terms_conditions }}" class="hover:text-white text-gray-400 transition-colors duration-300">Terms &amp; Conditions</a>
             </li>
           </ul>
-        </div>
+        </div>--->
       </div>
     </div>
     <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
