@@ -1559,11 +1559,33 @@ const map = L.map("cemetery-map", {
     preferCanvas: true
 }).setView([51.505, -0.09], 13);
 
-// Tile Layer with optimized settings
-L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    attribution: "© OpenStreetMap contributors",
-    updateWhenIdle: true
-}).addTo(map);
+      // Base layers
+      const osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        //maxZoom: 19,
+        attribution: '© OpenStreetMap contributors',
+	updateWhenIdle: true      
+      });
+      
+      const satelliteLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+        //maxZoom: 19,
+        attribution: '© Esri, Maxar, GeoEye, Earthstar Geographics, CNES/Airbus DS, USDA, USGS, AeroGRID, IGN, and the GIS User Community',
+	updateWhenIdle: true        
+      });
+      
+     
+      osmLayer.addTo(map);
+      
+      // Initialize layer control
+      const layerControl = L.control.layers(
+        {
+          "Street Map": osmLayer,
+          "Satellite": satelliteLayer
+        },
+        {},
+        { collapsed: false }
+      ).addTo(map);
+	
+
 
 // Create marker cluster group
 const markers = L.markerClusterGroup({
