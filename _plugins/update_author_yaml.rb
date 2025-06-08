@@ -16,7 +16,7 @@ module Jekyll
         next unless author_name
 
         formatted_date = post.data['date'].strftime('%Y/%m/%d')
-        slug = post.basename.sub(/^\d{4}-\d{2}-\d{2}-/, '').sub(/\.md$/, '').downcase.strip.gsub(/[^\w]+/, '-').gsub(/^-|-$/, '')
+        slug = post.data['title'].downcase.gsub(/\s+/, '-')
 
         post_info = {
           'title' => post.data['title'],
