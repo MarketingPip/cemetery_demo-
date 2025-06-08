@@ -78,7 +78,11 @@ collections:
     permalink: /blog/authors/:path/
   blog:
     output: true
-    permalink: /blog/:title/
+    permalink: /blog/:title
+  books:
+    output: true
+    permalink: /resources/:collection/:title/
+    
 # Plugins
 plugins:
  # - octopress-minify-html
