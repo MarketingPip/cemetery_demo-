@@ -42,21 +42,29 @@ module Jekyll
         parsed = parse_front_matter(content)
 
         parsed[:data]['posts'] ||= []
-        unless parsed[:data]['posts'].any? { |p| p['url'] == post_info['url'] }
-          parsed[:data]['posts'] << post_info
+        existing_index = parsed[:data]['posts'].index { |p| p['url'] == post_info['url'] }
 
-          parsed_content = parsed[:content] || ''
-          yaml_content = parsed[:data].to_yaml.sub(/^---\n/, '')
-          new_content = "---\n#{yaml_content}---\n#{parsed_content}"
-
-          Jekyll.logger.info "Writing to #{author_path}: #{new_content[0..100]}..."
-          File.write(author_path, new_content)
-          Jekyll.logger.info "Updated file for author: #{author_name}"
-
-          update_site_data(site, author_filename, parsed[:data], parsed_content)
+        if existing_index
+          if parsed[:data]['posts'][existing_index] != post_info
+            parsed[:data]['posts'][existing_index] = post_info
+            Jekyll.logger.info "Updated existing post entry for author '#{author_name}': #{post_info['title']}"
+          else
+            Jekyll.logger.info "No changes for post entry: #{post_info['title']}"
+          end
         else
-          Jekyll.logger.info "Post already exists for author '#{author_name}': #{post_info['title']}"
+          parsed[:data]['posts'] << post_info
+          Jekyll.logger.info "Added new post entry for author '#{author_name}': #{post_info['title']}"
         end
+
+        parsed_content = parsed[:content] || ''
+        yaml_content = parsed[:data].to_yaml.sub(/^---\n/, '')
+        new_content = "---\n#{yaml_content}---\n#{parsed_content}"
+
+        File.write(author_path, new_content)
+        File.utime(Time.now, Time.now, author_path) # ensure mtime update
+        Jekyll.logger.info "Wrote updated file: #{author_path}"
+
+        update_site_data(site, author_filename, parsed[:data], parsed_content)
       else
         create_author_file(site, author_path, author_name, post_info)
       end
@@ -89,6 +97,8 @@ module Jekyll
       yaml_content = data.to_yaml.sub(/^---\n/, '')
       content = "---\n#{yaml_content}---\n"
       File.write(author_path, content)
+      File.utime(Time.now, Time.now, author_path)
+
       Jekyll.logger.info "Created new author file for: #{author_name} at #{author_path}"
 
       new_doc = Jekyll::Document.new(
@@ -100,11 +110,9 @@ module Jekyll
     end
 
     def parse_front_matter(content)
-      if content =~ /\A(---\s*\n.*?\n?)^(---\s*\n)/m
-        front_matter = $1
+      if content =~ /\A---\s*\n(.*?)\n---\s*\n?/m
+        data = YAML.safe_load($1, permitted_classes: [Date, Time]) || {}
         body = $POSTMATCH
-        data = YAML.safe_load(front_matter, permitted_classes: [Date, Time]) || {}
-        Jekyll.logger.debug "Parsed front matter: #{data.inspect}"
         { data: data, content: body }
       else
         Jekyll.logger.warn "No front matter found in content: #{content[0..50]}..."
