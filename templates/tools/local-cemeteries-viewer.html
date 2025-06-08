@@ -1,0 +1,461 @@
+---
+permalink: /resources/tools/local-cemeteries-viewer
+title: Resources
+---
+{% assign base_url = site.baseurl | default: "" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>KMZ File Viewer | Crediton Cemetery Heritage Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  
+  <!-- Leaflet (JS/CSS) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  
+  <!-- Leaflet-KMZ -->
+  <script src="https://unpkg.com/leaflet-kmz@1.0.9/dist/leaflet-kmz-src.js"></script>
+  
+  <style>
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 30vh;
+    }
+    
+    .map-container {
+      height: 70vh;
+      min-height: 500px;
+    }
+    
+    .leaflet-popup-content-wrapper {
+      min-width: 22rem;
+      font-size: 0.875rem;
+      color: #6B7280;
+      background-color: #FFFFFF;
+      border: 1px solid #E5E7EB;
+      border-radius: 0.375rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    }
+    
+    .leaflet-popup-content {
+      margin: unset;
+    }
+    
+    .loading-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(255, 255, 255, 0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+    }
+    
+    .file-upload-area {
+      border: 2px dashed #d1d5db;
+      border-radius: 0.5rem;
+      padding: 2rem;
+      text-align: center;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+    
+    .file-upload-area:hover {
+      border-color: #10b981;
+      background-color: #f0fdf4;
+    }
+    
+    .file-upload-area.dragover {
+      border-color: #10b981;
+      background-color: #f0fdf4;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 font-sans">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
+    <div class="px-4 py-3 container mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+          <i class="fas fa-tree text-green-400"></i>
+          <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <a class="transition hover:text-green-400" href="#home">Home</a>
+          <a class="transition hover:text-green-400" href="#map">Interactive Map</a>
+          <a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a>
+          <a class="transition hover:text-green-400" href="#search">Search Records</a>
+          <a class="transition hover:text-green-400" href="#timeline">Historical Timeline</a>
+          <a class="transition hover:text-green-400" href="#donate">Support Us</a>
+        </div>
+        <div class="md:hidden">
+          <button class="focus:outline-none" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden md:hidden" id="mobile-menu">
+      <div class="px-4 container mx-auto flex flex-col py-2 space-y-3">
+        <a class="transition hover:text-green-400 block" href="#home">Home</a>
+        <a class="transition hover:text-green-400 block" href="#map">Interactive Map</a>
+        <a class="transition hover:text-green-400 block" href="#exhibits">Virtual Exhibits</a>
+        <a class="transition hover:text-green-400 block" href="#search">Search Records</a>
+        <a class="transition hover:text-green-400 block" href="#timeline">Historical Timeline</a>
+        <a class="transition hover:text-green-400 block" href="#donate">Support Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex items-center justify-center hero-image text-center text-white">
+    <div class="px-4 container mx-auto">
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl">KMZ File Viewer</h1>
+      <p class="mb-8 md:text-2xl text-xl">Explore KMZ files and geographic data for Huron County Ontario Cemeteries</p>
+    </div>
+  </section>
+
+  <!-- Breadcrumbs -->
+  <div class="bg-white py-3 border-b">
+    <div class="container mx-auto px-4">
+      <nav class="flex" aria-label="Breadcrumb">
+        <ol class="inline-flex items-center space-x-1 md:space-x-3">
+          <li class="inline-flex items-center">
+            <a href="#" class="text-gray-700 hover:text-green-700">Home</a>
+          </li>
+          <li>
+            <div class="flex items-center">
+              <i class="fas fa-chevron-right text-gray-400 mx-2"></i>
+              <a href="#" class="text-gray-700 hover:text-green-700">Resources</a>
+            </div>
+          </li>
+          <li>
+            <div class="flex items-center">
+              <i class="fas fa-chevron-right text-gray-400 mx-2"></i>
+              <span class="text-gray-500">KMZ File Viewer</span>
+            </div>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Controls Section -->
+  <section class="bg-white py-6 border-b">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col lg:flex-row gap-6 items-center">
+        <!-- File Upload Area -->
+        <div class="flex-1">
+          <div class="file-upload-area" id="fileUploadArea">
+            <i class="fas fa-cloud-upload-alt text-4xl text-gray-400 mb-4"></i>
+            <h3 class="text-lg font-semibold text-gray-700 mb-2">Upload KMZ File</h3>
+            <p class="text-gray-500 mb-4">Drag and drop your KMZ file here, or click to browse</p>
+            <input type="file" id="fileInput" accept=".kmz,.kml" class="hidden">
+            <button id="browseButton" class="bg-green-700 hover:bg-green-800 text-white px-4 py-2 rounded-lg transition">
+              <i class="fas fa-folder-open mr-2"></i>Browse Files
+            </button>
+          </div>
+        </div>
+
+        <!-- Pre-loaded Files -->
+        <div class="flex-1">
+          <h3 class="text-lg font-semibold text-gray-700 mb-4">Pre-loaded Files</h3>
+          <div class="space-y-2">
+            <button id="loadHuronCounty" class="w-full bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition text-left">
+              <i class="fas fa-map-marked-alt mr-2"></i>Huron County Ontario Cemeteries
+            </button>
+            <button id="loadSampleData" class="w-full bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg transition text-left">
+              <i class="fas fa-globe mr-2"></i>Sample Geographic Data
+            </button>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <div class="flex-1">
+          <h3 class="text-lg font-semibold text-gray-700 mb-4">Map Controls</h3>
+          <div class="space-y-2">
+            <button id="fitBounds" class="w-full bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded-lg transition">
+              <i class="fas fa-expand-arrows-alt mr-2"></i>Fit to Data
+            </button>
+            <button id="clearLayers" class="w-full bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg transition">
+              <i class="fas fa-trash mr-2"></i>Clear All Layers
+            </button>
+            <button id="toggleSatellite" class="w-full bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition">
+              <i class="fas fa-satellite mr-2"></i>Toggle Satellite View
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section class="bg-white">
+    <div class="container mx-auto px-4 py-6">
+      <div class="relative">
+        <div id="map" class="map-container rounded-lg shadow-lg border"></div>
+        <div id="loadingOverlay" class="loading-overlay hidden">
+          <div class="text-center">
+            <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-green-700 mx-auto mb-4"></div>
+            <p class="text-gray-600">Loading KMZ file...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Info Section -->
+  <section class="bg-gray-50 py-12">
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">About KMZ Files</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">
+              <i class="fas fa-info-circle text-blue-600 mr-2"></i>What are KMZ Files?
+            </h3>
+            <p class="text-gray-600">
+              KMZ files are compressed KML (Keyhole Markup Language) files that contain geographic data including points, lines, polygons, and images. They're commonly used for displaying geographic information in mapping applications.
+            </p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">
+              <i class="fas fa-map-marked-alt text-green-600 mr-2"></i>Cemetery Mapping
+            </h3>
+            <p class="text-gray-600">
+              Our KMZ viewer helps visualize cemetery locations, burial plot boundaries, historical markers, and other geographic features related to cemetery heritage and genealogical research.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="px-4 container mx-auto text-center">
+      <p>© 2025 Crediton Cemetery Heritage Portal. All rights reserved.</p>
+      <div class="flex justify-center mt-4 space-x-6">
+        <a class="hover:text-white text-gray-400" href="#">Privacy Policy</a>
+        <a class="hover:text-white text-gray-400" href="#">Terms of Service</a>
+        <a class="hover:text-white text-gray-400" href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Initialize the map
+    let map;
+    let kmzLayer;
+    let layerControl;
+    let currentLayers = [];
+    let satelliteLayer;
+    let currentBaseLayer;
+
+    function initializeMap() {
+      // Initialize map centered on Huron County, Ontario
+      map = L.map('map').setView([43.6, -81.5], 10);
+      
+      // Base layers
+      const osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '© OpenStreetMap contributors'
+      });
+      
+      satelliteLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+        maxZoom: 19,
+        attribution: '© Esri, Maxar, GeoEye, Earthstar Geographics, CNES/Airbus DS, USDA, USGS, AeroGRID, IGN, and the GIS User Community'
+      });
+      
+      currentBaseLayer = osmLayer;
+      currentBaseLayer.addTo(map);
+      
+      // Initialize layer control
+      layerControl = L.control.layers(
+        {
+          "Street Map": osmLayer,
+          "Satellite": satelliteLayer
+        },
+        {},
+        { collapsed: false }
+      ).addTo(map);
+      
+      // Initialize KMZ layer
+      kmzLayer = L.kmzLayer();
+      kmzLayer.addTo(map);
+      
+      // Handle KMZ layer load events
+      kmzLayer.on('load', function(e) {
+        if (e.layer && e.name) {
+          layerControl.addOverlay(e.layer, e.name);
+          currentLayers.push({layer: e.layer, name: e.name});
+          
+          // Fit map to layer bounds
+          if (e.layer.getBounds && e.layer.getBounds().isValid()) {
+            map.fitBounds(e.layer.getBounds(), {padding: [20, 20]});
+          }
+        }
+        hideLoading();
+      });
+      
+      kmzLayer.on('error', function(e) {
+        hideLoading();
+        showError('Error loading KMZ file: ' + (e.error || 'Unknown error'));
+      });
+    }
+
+    function showLoading() {
+      document.getElementById('loadingOverlay').classList.remove('hidden');
+    }
+
+    function hideLoading() {
+      document.getElementById('loadingOverlay').classList.add('hidden');
+    }
+
+    function showError(message) {
+      alert(message);
+    }
+
+    function loadKMZFile(url, name) {
+      showLoading();
+      try {
+        kmzLayer.load(url);
+      } catch (error) {
+        hideLoading();
+        showError('Error loading KMZ file: ' + error.message);
+      }
+    }
+
+    function handleFileUpload(file) {
+      if (!file) return;
+      
+      if (!file.name.toLowerCase().endsWith('.kmz') && !file.name.toLowerCase().endsWith('.kml')) {
+        showError('Please select a KMZ or KML file.');
+        return;
+      }
+      
+      showLoading();
+      
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        try {
+          const blob = new Blob([e.target.result]);
+          const url = URL.createObjectURL(blob);
+          kmzLayer.load(url);
+        } catch (error) {
+          hideLoading();
+          showError('Error reading file: ' + error.message);
+        }
+      };
+      reader.onerror = function() {
+        hideLoading();
+        showError('Error reading file.');
+      };
+      reader.readAsArrayBuffer(file);
+    }
+
+    // Event listeners
+    document.addEventListener('DOMContentLoaded', function() {
+      initializeMap();
+      
+      // Mobile menu toggle
+      document.getElementById('menu-toggle').addEventListener('click', () => {
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenu.classList.toggle('hidden');
+      });
+      
+      // File upload events
+      const fileInput = document.getElementById('fileInput');
+      const fileUploadArea = document.getElementById('fileUploadArea');
+      const browseButton = document.getElementById('browseButton');
+      
+      browseButton.addEventListener('click', () => {
+        fileInput.click();
+      });
+      
+      fileUploadArea.addEventListener('click', () => {
+        fileInput.click();
+      });
+      
+      fileInput.addEventListener('change', (e) => {
+        if (e.target.files.length > 0) {
+          handleFileUpload(e.target.files[0]);
+        }
+      });
+      
+      // Drag and drop
+      fileUploadArea.addEventListener('dragover', (e) => {
+        e.preventDefault();
+        fileUploadArea.classList.add('dragover');
+      });
+      
+      fileUploadArea.addEventListener('dragleave', () => {
+        fileUploadArea.classList.remove('dragover');
+      });
+      
+      fileUploadArea.addEventListener('drop', (e) => {
+        e.preventDefault();
+        fileUploadArea.classList.remove('dragover');
+        
+        if (e.dataTransfer.files.length > 0) {
+          handleFileUpload(e.dataTransfer.files[0]);
+        }
+      });
+      
+      // Pre-loaded file buttons
+      document.getElementById('loadHuronCounty').addEventListener('click', () => {
+        // You would replace this URL with the actual URL to your KMZ file
+        // For demonstration, using a sample KMZ file
+        loadKMZFile('https://raruto.github.io/leaflet-kmz/examples/regions.kmz', 'Huron County Cemeteries');
+      });
+      
+      document.getElementById('loadSampleData').addEventListener('click', () => {
+        loadKMZFile('https://raruto.github.io/leaflet-kmz/examples/capitals.kmz', 'Sample Data');
+      });
+      
+      // Control buttons
+      document.getElementById('fitBounds').addEventListener('click', () => {
+        if (currentLayers.length > 0) {
+          const group = new L.featureGroup(currentLayers.map(l => l.layer));
+          if (group.getBounds().isValid()) {
+            map.fitBounds(group.getBounds(), {padding: [20, 20]});
+          }
+        }
+      });
+      
+      document.getElementById('clearLayers').addEventListener('click', () => {
+        currentLayers.forEach(layerInfo => {
+          if (layerInfo.layer) {
+            map.removeLayer(layerInfo.layer);
+            layerControl.removeLayer(layerInfo.layer);
+          }
+        });
+        currentLayers = [];
+      });
+      
+      document.getElementById('toggleSatellite').addEventListener('click', () => {
+        if (currentBaseLayer === satelliteLayer) {
+          map.removeLayer(satelliteLayer);
+          currentBaseLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '© OpenStreetMap contributors'
+          }).addTo(map);
+        } else {
+          map.removeLayer(currentBaseLayer);
+          currentBaseLayer = satelliteLayer;
+          satelliteLayer.addTo(map);
+        }
+      });
+    });
+  </script>
+</body>
+</html>
