@@ -3,6 +3,8 @@ permalink: /resources/tools/local-cemeteries-viewer
 title: Resources
 ---
 {% assign base_url = site.baseurl | default: "" %}
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -58,25 +60,6 @@ title: Resources
       align-items: center;
       justify-content: center;
       z-index: 1000;
-    }
-    
-    .file-upload-area {
-      border: 2px dashed #d1d5db;
-      border-radius: 0.5rem;
-      padding: 2rem;
-      text-align: center;
-      transition: all 0.3s ease;
-      cursor: pointer;
-    }
-    
-    .file-upload-area:hover {
-      border-color: #10b981;
-      background-color: #f0fdf4;
-    }
-    
-    .file-upload-area.dragover {
-      border-color: #10b981;
-      background-color: #f0fdf4;
     }
   </style>
 </head>
@@ -148,55 +131,6 @@ title: Resources
       </nav>
     </div>
   </div>
-
-  <!-- Controls Section -->
-  <section class="bg-white py-6 border-b">
-    <div class="container mx-auto px-4">
-      <div class="flex flex-col lg:flex-row gap-6 items-center">
-        <!-- File Upload Area -->
-        <div class="flex-1">
-          <div class="file-upload-area" id="fileUploadArea">
-            <i class="fas fa-cloud-upload-alt text-4xl text-gray-400 mb-4"></i>
-            <h3 class="text-lg font-semibold text-gray-700 mb-2">Upload KMZ File</h3>
-            <p class="text-gray-500 mb-4">Drag and drop your KMZ file here, or click to browse</p>
-            <input type="file" id="fileInput" accept=".kmz,.kml" class="hidden">
-            <button id="browseButton" class="bg-green-700 hover:bg-green-800 text-white px-4 py-2 rounded-lg transition">
-              <i class="fas fa-folder-open mr-2"></i>Browse Files
-            </button>
-          </div>
-        </div>
-
-        <!-- Pre-loaded Files -->
-        <div class="flex-1">
-          <h3 class="text-lg font-semibold text-gray-700 mb-4">Pre-loaded Files</h3>
-          <div class="space-y-2">
-            <button id="loadHuronCounty" class="w-full bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition text-left">
-              <i class="fas fa-map-marked-alt mr-2"></i>Huron County Ontario Cemeteries
-            </button>
-            <button id="loadSampleData" class="w-full bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg transition text-left">
-              <i class="fas fa-globe mr-2"></i>Sample Geographic Data
-            </button>
-          </div>
-        </div>
-
-        <!-- Controls -->
-        <div class="flex-1">
-          <h3 class="text-lg font-semibold text-gray-700 mb-4">Map Controls</h3>
-          <div class="space-y-2">
-            <button id="fitBounds" class="w-full bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded-lg transition">
-              <i class="fas fa-expand-arrows-alt mr-2"></i>Fit to Data
-            </button>
-            <button id="clearLayers" class="w-full bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg transition">
-              <i class="fas fa-trash mr-2"></i>Clear All Layers
-            </button>
-            <button id="toggleSatellite" class="w-full bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition">
-              <i class="fas fa-satellite mr-2"></i>Toggle Satellite View
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- Map Section -->
   <section class="bg-white">
@@ -311,6 +245,9 @@ title: Resources
         hideLoading();
         showError('Error loading KMZ file: ' + (e.error || 'Unknown error'));
       });
+      
+      // Load sample data by default
+      loadKMZFile('https://marketingpip.github.io/cemetery_demo-/Huron%20County%20Ontario%20Cemeteries%20(1)%20(1).kmz', 'Huron County Cemeteries');
     }
 
     function showLoading() {
@@ -335,34 +272,6 @@ title: Resources
       }
     }
 
-    function handleFileUpload(file) {
-      if (!file) return;
-      
-      if (!file.name.toLowerCase().endsWith('.kmz') && !file.name.toLowerCase().endsWith('.kml')) {
-        showError('Please select a KMZ or KML file.');
-        return;
-      }
-      
-      showLoading();
-      
-      const reader = new FileReader();
-      reader.onload = function(e) {
-        try {
-          const blob = new Blob([e.target.result]);
-          const url = URL.createObjectURL(blob);
-          kmzLayer.load(url);
-        } catch (error) {
-          hideLoading();
-          showError('Error reading file: ' + error.message);
-        }
-      };
-      reader.onerror = function() {
-        hideLoading();
-        showError('Error reading file.');
-      };
-      reader.readAsArrayBuffer(file);
-    }
-
     // Event listeners
     document.addEventListener('DOMContentLoaded', function() {
       initializeMap();
@@ -371,89 +280,6 @@ title: Resources
       document.getElementById('menu-toggle').addEventListener('click', () => {
         const mobileMenu = document.getElementById('mobile-menu');
         mobileMenu.classList.toggle('hidden');
-      });
-      
-      // File upload events
-      const fileInput = document.getElementById('fileInput');
-      const fileUploadArea = document.getElementById('fileUploadArea');
-      const browseButton = document.getElementById('browseButton');
-      
-      browseButton.addEventListener('click', () => {
-        fileInput.click();
-      });
-      
-      fileUploadArea.addEventListener('click', () => {
-        fileInput.click();
-      });
-      
-      fileInput.addEventListener('change', (e) => {
-        if (e.target.files.length > 0) {
-          handleFileUpload(e.target.files[0]);
-        }
-      });
-      
-      // Drag and drop
-      fileUploadArea.addEventListener('dragover', (e) => {
-        e.preventDefault();
-        fileUploadArea.classList.add('dragover');
-      });
-      
-      fileUploadArea.addEventListener('dragleave', () => {
-        fileUploadArea.classList.remove('dragover');
-      });
-      
-      fileUploadArea.addEventListener('drop', (e) => {
-        e.preventDefault();
-        fileUploadArea.classList.remove('dragover');
-        
-        if (e.dataTransfer.files.length > 0) {
-          handleFileUpload(e.dataTransfer.files[0]);
-        }
-      });
-      
-      // Pre-loaded file buttons
-      document.getElementById('loadHuronCounty').addEventListener('click', () => {
-        // You would replace this URL with the actual URL to your KMZ file
-        // For demonstration, using a sample KMZ file
-        loadKMZFile('https://marketingpip.github.io/cemetery_demo-/Huron%20County%20Ontario%20Cemeteries%20(1)%20(1).kmz', 'Huron County Cemeteries');
-      });
-      
-      document.getElementById('loadSampleData').addEventListener('click', () => {
-        loadKMZFile('https://raruto.github.io/leaflet-kmz/examples/capitals.kmz', 'Sample Data');
-      });
-      
-      // Control buttons
-      document.getElementById('fitBounds').addEventListener('click', () => {
-        if (currentLayers.length > 0) {
-          const group = new L.featureGroup(currentLayers.map(l => l.layer));
-          if (group.getBounds().isValid()) {
-            map.fitBounds(group.getBounds(), {padding: [20, 20]});
-          }
-        }
-      });
-      
-      document.getElementById('clearLayers').addEventListener('click', () => {
-        currentLayers.forEach(layerInfo => {
-          if (layerInfo.layer) {
-            map.removeLayer(layerInfo.layer);
-            layerControl.removeLayer(layerInfo.layer);
-          }
-        });
-        currentLayers = [];
-      });
-      
-      document.getElementById('toggleSatellite').addEventListener('click', () => {
-        if (currentBaseLayer === satelliteLayer) {
-          map.removeLayer(satelliteLayer);
-          currentBaseLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
-            attribution: '© OpenStreetMap contributors'
-          }).addTo(map);
-        } else {
-          map.removeLayer(currentBaseLayer);
-          currentBaseLayer = satelliteLayer;
-          satelliteLayer.addTo(map);
-        }
       });
     });
   </script>
