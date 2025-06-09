@@ -11,7 +11,7 @@ layout: default
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <title>Job Family Name | {{site.title}}</title>
+  <title>{{ page.title }} by {{ page.author }} | {{site.title}}</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 </head>
@@ -55,8 +55,8 @@ layout: default
 <!-- Hero Section -->
 <section class="flex items-center justify-center hero-image text-center text-white">
   <div class="px-4 container mx-auto">
-    <h1 class="font-bold text-4xl mb-4 md:text-6xl">Books</h1>
-    <p class="mb-8 md:text-2xl text-xl">A curated collection of books, reading history, and literary interests</p>
+    <h1 class="font-bold text-4xl mb-4 md:text-6xl">{{ page.title }}</h1>
+    <p class="mb-8 md:text-2xl text-xl"> by {{ page.author }}</p>
   </div>
 </section>
 
@@ -153,7 +153,7 @@ layout: default
           <div class="mt-2 container mx-auto max-w-4xl">
     
     
-    <a id="read-more" target="_blank" rel="noopener noreferrer" class="inline-block text-white bg-green-700 hover:bg-green-900 font-bold px-6 py-2 rounded transition duration-300" href="https://en.wikipedia.org/wiki/Huxley_family">Read more on Wikipedia</a>
+    <a id="read-more" target="_blank" rel="noopener noreferrer" class="inline-block text-white bg-green-700 hover:bg-green-900 font-bold px-6 py-2 rounded transition duration-300" href="{{ site.baseurl }}/resources/books/{{page.pdfName}}">View Book</a>
   </div>
         </div>
       </div>
