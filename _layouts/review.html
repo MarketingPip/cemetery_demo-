@@ -1,151 +1,100 @@
 ---
-layout: default
+permalink: /family-name/job.html
 ---
 {% include base_path %}
 
-    <h1> Thoughts on reading <i>{{page.title}}</i> by {{ page.author}}. </h1>
 
-   {% assign content = page.content | strip_newlines %}
 
-   {% if content == "" %}
+{% assign base_url = site.baseurl | default: "" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Job Family Name | {{site.title}}</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans">
 
-   <figure class="empty-review">
-   {% if page.cover %}
-   <img  alt="{{ page.title }} cover" src="{{ site.baseurl }}/images/covers/{{ page.cover }}" />
-   <figcaption>Cover of <em>{{ page.title }}</em></figcaption>
-   {% elsif page.olid %}
-   <img float: left alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false"/>
-   <figcaption>Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/olid/{{ page.olid }}">Open Library</a>.</figcaption>
-   {% elsif page.isbn %}
-   <img float: left alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg?default=false"/>
-   <figcaption>Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/isbn/{{ page.isbn }}">Open Library</a>.</figcaption>
-   {% endif %}
-   </figure>
+<!-- Navigation -->
+{% include nav.html %}
 
-   {% assign status = page.status | upcase %}
-   <b> {{status}} </b>
+<!-- Hero -->
+<section class="flex items-center justify-center bg-gray-900 text-white text-center py-20">
+  <div class="px-4 container mx-auto">
+    <h1 class="font-bold text-5xl">Job</h1>
+  </div>
+</section>
+
+<!-- Review Section -->
+<section class="bg-white py-12">
+  <div class="px-4 container mx-auto max-w-4xl">
+    <h2 class="text-3xl font-bold text-gray-800 mb-6"><i>{{ page.title }}</i> by {{ page.author }}</h2>
+
+    {% assign content = page.content | strip_newlines %}
+
+    {% if content == "" %}
+      <div class="flex flex-col sm:flex-row items-start sm:items-center">
+        {% if page.cover %}
+          <figure class="sm:mr-6 mb-6 sm:mb-0 w-64 mx-auto sm:mx-0">
+            <img class="rounded shadow-md" alt="{{ page.title }} cover" src="{{ site.baseurl }}/images/covers/{{ page.cover }}" />
+            <figcaption class="text-center text-sm text-gray-600 mt-2">Cover of <em>{{ page.title }}</em></figcaption>
+          </figure>
+        {% elsif page.olid %}
+          <figure class="sm:mr-6 mb-6 sm:mb-0 w-64 mx-auto sm:mx-0">
+            <img class="rounded shadow-md" alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false" />
+            <figcaption class="text-center text-sm text-gray-600 mt-2">Cover of <em>{{ page.title }}</em> on the <a class="underline text-blue-600" href="https://openlibrary.org/olid/{{ page.olid }}">Open Library</a>.</figcaption>
+          </figure>
+        {% elsif page.isbn %}
+          <figure class="sm:mr-6 mb-6 sm:mb-0 w-64 mx-auto sm:mx-0">
+            <img class="rounded shadow-md" alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg?default=false" />
+            <figcaption class="text-center text-sm text-gray-600 mt-2">Cover of <em>{{ page.title }}</em> on the <a class="underline text-blue-600" href="https://openlibrary.org/isbn/{{ page.isbn }}">Open Library</a>.</figcaption>
+          </figure>
+        {% endif %}
+        <div>
+          {% assign status = page.status | upcase %}
+          <span class="inline-block bg-yellow-100 text-yellow-800 px-3 py-1 rounded text-sm font-semibold uppercase tracking-wide">{{ status }}</span>
+        </div>
+      </div>
 
     {% else %}
+      <div class="flex flex-col sm:flex-row items-start sm:items-start">
+        {% if page.cover %}
+          <figure class="sm:mr-6 mb-6 sm:mb-0 w-64 mx-auto sm:mx-0">
+            <img class="rounded shadow-md" alt="{{ page.title }} cover" src="{{ site.baseurl }}/images/covers/{{ page.cover }}" />
+            <figcaption class="text-center text-sm text-gray-600 mt-2">Cover of <em>{{ page.title }}</em></figcaption>
+          </figure>
+        {% elsif page.olid %}
+          <figure class="sm:mr-6 mb-6 sm:mb-0 w-64 mx-auto sm:mx-0">
+            <img class="rounded shadow-md" alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false" />
+            <figcaption class="text-center text-sm text-gray-600 mt-2">Cover of <em>{{ page.title }}</em> on the <a class="underline text-blue-600" href="https://openlibrary.org/olid/{{ page.olid }}">Open Library</a>.</figcaption>
+          </figure>
+        {% elsif page.isbn %}
+          <figure class="sm:mr-6 mb-6 sm:mb-0 w-64 mx-auto sm:mx-0">
+            <img class="rounded shadow-md" alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg?default=false" />
+            <figcaption class="text-center text-sm text-gray-600 mt-2">Cover of <em>{{ page.title }}</em> on the <a class="underline text-blue-600" href="https://openlibrary.org/isbn/{{ page.isbn }}">Open Library</a>.</figcaption>
+          </figure>
+        {% endif %}
 
-    <figure>
-    {% if page.cover %}
-    <img alt="{{ page.title }} cover" src="{{ site.baseurl }}/images/covers/{{ page.cover }}" />
-    <figcaption>Cover of <em>{{ page.title }}</em></figcaption>
-    {% elsif page.olid %}
-    <img  alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false"/>
-    <figcaption>Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/olid/{{ page.olid }}">Open Library</a>.</figcaption>
-    {% elsif page.isbn %}
-    <img alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg?default=false"/>
-    <figcaption>Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/isbn/{{ page.isbn }}">Open Library</a>.</figcaption>
+        <div class="flex-1">
+          <h4 class="text-lg text-gray-700 font-semibold mb-2">
+            {% if page.start %} Start Date: {{ page.start | date: "%-d %B %Y" }}. {% endif %}
+            {% if page.end %} End Date: {{ page.end | date: "%-d %B %Y" }}. {% endif %}
+          </h4>
+          <div class="prose max-w-none text-gray-800">
+            {{ content }}
+          </div>
+        </div>
+      </div>
     {% endif %}
-    </figure>
-
-    <br class="mobile-break" clear="right"/>
-
-
-    <h4>
-    {% if page.start %} Start Date: {{page.start| date: "%-d %B %Y"}}. {% endif %}
-    {% if page.end %} End Date: {{page.end | date: "%-d %B %Y"}}. {% endif %}
-    </h4>
-
-    {{ content }}
-
-    {% endif %}
-
-    <style>
-    figure {
-      float: none;
-      width:250px;
-      display: block;
-      margin-right: auto;
-      margin-left: auto;
-
-    }
-    figure  > img {
-
-         vertical-align: top;
-         display: block;
-         margin-right: 0px;
-         margin-left: 0px;
-         padding: 0px;
-
-    }
-    figure figcaption {
-
-      display: block;
-      caption-side: bottom;
-      text-align: center;
-    }
-
-    @media screen and (min-width: 600px)  {
-
-      .empty-review{
-        float: left;
-        padding: 0px 20px 0px 0px;
-        }
+  </div>
+</section>
 
 
-        figure {
-
-              float: right;
-              display: table /* in-line block; */
-              border: 0px; /* 1px dotted gray */
-              margin: 2px 0px 0px 0px;  /* adjust as needed */
-              padding: 0px 0px 0px 20px;
-             /* top right bottom left */
+<!-- Footer -->
+{% include footer.html %}
 
 
-               }
-
-        figure > img {
-                width:300px;
-                vertical-align: bottom;
-                display: block;
-                margin-right: 0px;
-                margin-left: 0px;
-                margin-top: 0px
-                marigin-bottom: 0px;
-                padding: 10px;
-
-
-
-
-              }
-        figure figcaption {
-                /* border: 1px dotted blue; */
-                display: caption; /* block; */
-                caption-side: bottom;
-                text-align: center;
-
-                }
-
-        .mobile-break { display: none; }
-
-/* =Blockquote
--------------------------------------------------------------- */
-blockquote {
-
-    position: relative;
-    marign: 0px;
-    display: table;
-
-}
-blockquote:before, blockquote:after {
-
- /* properties to format the block quotes /*
-
-}
-blockquote:before {
-    top: 0;
-    left: 0;
-
-
-}
-blockquote:after {
-    top: 0;
-    right: 0;
-
-}
-
-
-  </style>
+</body>
+</html>
