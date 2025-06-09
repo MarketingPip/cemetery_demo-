@@ -3,7 +3,7 @@ layout: review
 title: "The history of Stephen Township"
 author: Susan Muriel Mack
 year: 1993
-isbn: OL26577025M
+isbn: 0920298877
 ---
 **Description**
 
