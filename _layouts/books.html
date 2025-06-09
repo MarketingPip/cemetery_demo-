@@ -1,154 +1,238 @@
 ---
 layout: default
+title: Books
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>KMZ File Viewer | Crediton Cemetery Heritage Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  
+ 
+ 
+  
+  <style>
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 30vh;
+    }
+    
+    .map-container {
+      height: 70vh;
+      min-height: 500px;
+    }
+    
+    .leaflet-popup-content-wrapper {
+      min-width: 22rem;
+      font-size: 0.875rem;
+      color: #6B7280;
+      background-color: #FFFFFF;
+      border: 1px solid #E5E7EB;
+      border-radius: 0.375rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    }
+    
+    .leaflet-popup-content {
+      margin: unset;
+    }
+    
+    .loading-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(255, 255, 255, 0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 font-sans">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
+    <div class="px-4 py-3 container mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+          <i class="fas fa-tree text-green-400"></i>
+          <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <a class="transition hover:text-green-400" href="#home">Home</a>
+          <a class="transition hover:text-green-400" href="#map">Interactive Map</a>
+          <a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a>
+          <a class="transition hover:text-green-400" href="#search">Search Records</a>
+          <a class="transition hover:text-green-400" href="#timeline">Historical Timeline</a>
+          <a class="transition hover:text-green-400" href="#donate">Support Us</a>
+        </div>
+        <div class="md:hidden">
+          <button class="focus:outline-none" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden md:hidden" id="mobile-menu">
+      <div class="px-4 container mx-auto flex flex-col py-2 space-y-3">
+        <a class="transition hover:text-green-400 block" href="#home">Home</a>
+        <a class="transition hover:text-green-400 block" href="#map">Interactive Map</a>
+        <a class="transition hover:text-green-400 block" href="#exhibits">Virtual Exhibits</a>
+        <a class="transition hover:text-green-400 block" href="#search">Search Records</a>
+        <a class="transition hover:text-green-400 block" href="#timeline">Historical Timeline</a>
+        <a class="transition hover:text-green-400 block" href="#donate">Support Us</a>
+      </div>
+    </div>
+  </nav>
 
-{{ content }}
 
-{% assign books=site.books %}
-
-<h2>{{page.list_title | default: "Books" }}</h2>
-
-{% if books.size > 0 %}
-
-  {% for book in books reversed %}
-      {% assign currentdate = book.date | date: "%Y" %}
-      {% if currentdate != date %}
-      {% unless forloop.first %}</ul>{% endunless %}
-       <h1 id="y{{book.date | date: "%Y"}}">{{ currentdate }}</h1>
-
-     <ul>
-     {% assign date = currentdate %}
-     {% endif %}
-
-        <figure class="book-cover">
-
-        <a href="{{ book.url | relative_url }}">
-
-        {% if book.cover %}
-
-        <img alt="{{ book.title }} cover" src="{{ site.baseurl }}/images/covers/{{ book.cover }}" style="height:200px" />
-
-        {% elsif book.olid %}
-
-        <img alt="{{ book.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ book.olid }}-L.jpg?default=false" style="height:200px" />
-
-        {% elsif book.isbn %}
-
-        <img alt="{{ book.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ book.isbn }}-L.jpg?default=false" style="height:200px" />
-
-        {% endif %}
-
-        {% if book.status %}
-          {% assign status = book.status | upcase | strip %}
-
-          {% if status  == "READING" %}
-
-            <figcaption class="reading">{{ status }}</figcaption>
-
-          {% elsif status  == "FINISHED" %}
-
-             <figcaption class = "finished">{{ status }}</figcaption>
-
-          {% elsif status  == "QUEUED" %}
-
-             <figcaption class = "queued">{{ status }}</figcaption>
-
-          {% elsif status  == "ABANDONED" %}
-
-            <figcaption class="abandoned">{{ status }}</figcaption>
-
-            {% elsif status  == "INTERESTED" %}
-
-              <figcaption class="interested">{{ status }}</figcaption>
+<!-- Hero Section -->
+<section class="flex items-center justify-center hero-image text-center text-white">
+  <div class="px-4 container mx-auto">
+    <h1 class="font-bold text-4xl mb-4 md:text-6xl">Books</h1>
+    <p class="mb-8 md:text-2xl text-xl">A curated collection of books, reading history, and literary interests</p>
+  </div>
+</section>
 
 
-            {% else %}
+  <!-- Breadcrumbs -->
+  <div class="bg-white py-3 border-b">
+    <div class="container mx-auto px-4">
+      <nav class="flex" aria-label="Breadcrumb">
+        <ol class="inline-flex items-center space-x-1 md:space-x-3">
+          <li class="inline-flex items-center">
+            <a href="#" class="text-gray-700 hover:text-green-700">Home</a>
+          </li>
+          <li>
+            <div class="flex items-center">
+              <i class="fas fa-chevron-right text-gray-400 mx-2"></i>
+              <a href="#" class="text-gray-700 hover:text-green-700">Resources</a>
+            </div>
+          </li>
+          <li>
+            <div class="flex items-center">
+              <i class="fas fa-chevron-right text-gray-400 mx-2"></i>
+              <span class="text-gray-500">KMZ File Viewer</span>
+            </div>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </div>
 
-            <figcaption class="uncategorized"> UNCATEGORIZED </figcaption>
+  <!-- Map Section -->
 
 
-        {% endif %}
-            {% else %}
+<section class="py-8">
+  <div class="container mx-auto px-4">
+    <h1 class="text-3xl font-bold mb-6 text-center">Books</h1>
 
-            <figcaption class="uncategorized"> UNCATEGORIZED </figcaption>
+    {% assign books_by_year = site.books | sort: "date" | reverse %}
+    {% assign current_year = "" %}
 
+    {% for book in books_by_year %}
+      {% assign book_year = book.date | date: "%Y" %}
+      {% if book_year != current_year %}
+        {% unless forloop.first %}</div>{% endunless %}
+        <h2 class="text-2xl font-semibold mt-10 mb-4" id="y{{ book_year }}">{{ book_year }}</h2>
+        <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        {% assign current_year = book_year %}
       {% endif %}
+
+      <div class="bg-white rounded-lg shadow p-4 flex flex-col items-center text-center">
+        <a href="{{ book.url | relative_url }}">
+          {% if book.cover %}
+            <img src="{{ site.baseurl }}/images/covers/{{ book.cover }}" alt="{{ book.title }} cover" class="h-48 mb-2 object-contain" />
+          {% elsif book.olid %}
+            <img src="https://covers.openlibrary.org/b/olid/{{ book.olid }}-L.jpg?default=false" alt="{{ book.title }} cover" class="h-48 mb-2 object-contain" />
+          {% elsif book.isbn %}
+            <img src="https://covers.openlibrary.org/b/isbn/{{ book.isbn }}-L.jpg?default=false" alt="{{ book.title }} cover" class="h-48 mb-2 object-contain" />
+          {% else %}
+            <div class="h-48 flex items-center justify-center bg-gray-200 mb-2 w-full text-sm text-gray-500">No cover</div>
+          {% endif %}
         </a>
-        </figure>
+        <h3 class="font-semibold text-lg mb-1">{{ book.title }}</h3>
+
+        {% assign status = book.status | upcase | strip %}
+        {% case status %}
+          {% when "READING" %}
+            <span class="bg-yellow-400 text-black text-xs px-2 py-1 rounded">Reading</span>
+          {% when "FINISHED" %}
+            <span class="bg-green-400 text-black text-xs px-2 py-1 rounded">Finished</span>
+          {% when "QUEUED" %}
+            <span class="bg-purple-400 text-black text-xs px-2 py-1 rounded">Queued</span>
+          {% when "ABANDONED" %}
+            <span class="bg-red-400 text-black text-xs px-2 py-1 rounded">Abandoned</span>
+          {% when "INTERESTED" %}
+            <span class="bg-blue-400 text-black text-xs px-2 py-1 rounded">Interested</span>
+          {% else %}
+            <span class="bg-gray-400 text-black text-xs px-2 py-1 rounded">Uncategorized</span>
+        {% endcase %}
+      </div>
+
+      {% if forloop.last %}</div>{% endif %}
+    {% endfor %}
+  </div>
+</section>
 
 
-  {% if forloop.last %}</ul>{% endif %}
-{% endfor %}
+  <!-- Info Section -->
+<!-- Info Section -->
+<section class="bg-gray-50 py-12">
+  <div class="container mx-auto px-4">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">About the Book Collection</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold text-gray-800 mb-4">
+            <i class="fas fa-book text-blue-600 mr-2"></i>Historical & Cultural Works
+          </h3>
+          <p class="text-gray-600">
+            This curated library includes local histories, biographies, genealogical records, and other significant publications related to the heritage of Huron County and surrounding areas.
+          </p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold text-gray-800 mb-4">
+            <i class="fas fa-archive text-green-600 mr-2"></i>Preservation & Access
+          </h3>
+          <p class="text-gray-600">
+            The books featured here support research, education, and preservation. Many are rare or out-of-print titles, digitized or cataloged to provide easier access for future generations.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
-{% endif %}
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="px-4 container mx-auto text-center">
+      <p>© 2025 Crediton Cemetery Heritage Portal. All rights reserved.</p>
+      <div class="flex justify-center mt-4 space-x-6">
+        <a class="hover:text-white text-gray-400" href="#">Privacy Policy</a>
+        <a class="hover:text-white text-gray-400" href="#">Terms of Service</a>
+        <a class="hover:text-white text-gray-400" href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
 
-<style>
-  figure {
-    display: inline-block;
-    text-align: center;
-    margin: 8px; /* adjust as needed */
-
-  }
-
-  figure img {
-    vertical-align: bottom;
-
-  }
-
-  .reading{
-    font-family: monospace;
-    color: #23212D;
-    text-transform: uppercase;
-    background-color: #f89406;
-
-  }
-
-  .finished{
-    font-family: monospace;
-    color: #23212D;
-    text-transform: uppercase;
-    background-color: #62c462;
-
-  }
-
-
-  .queued{
-    font-family: monospace;
-    color: #23212D;
-    text-transform: uppercase;
-    background-color: #9e76b5;
-
-  }
-
-  .abandoned{
-    font-family: monospace;
-    color: #23212D;
-    text-transform: uppercase;
-    background-color: #ee5f5b;
-
-  }
-
-  .interested{
-    font-family: monospace;
-    color: #23212D;
-    text-transform: uppercase;
-    background-color: #7691db;
-
-  }
-
-  .uncategorized{
-    font-family: monospace;
-    color: #23212D;
-    text-transform: uppercase;
-    background-color: #b0abb3;
-
-  }
-
-  /* mouse over link */
-a:hover {
-  color: #23212D;
-}
-
-  }
-</style>
+  <script>
+    // Event listeners
+    document.addEventListener('DOMContentLoaded', function() {      
+      // Mobile menu toggle
+      document.getElementById('menu-toggle').addEventListener('click', () => {
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenu.classList.toggle('hidden');
+      });
+    });
+  </script>
+</body>
+</html>
