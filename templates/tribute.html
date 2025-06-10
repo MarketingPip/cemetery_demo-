@@ -507,9 +507,6 @@ function renderSection(title, people) {
 // Main function to render the entire family
 function renderFamily(family) {
     const container = document.getElementById('family-members-container');
-
-    family.siblings = parseJSON(family.siblings)
-    family.children = parseJSON(family.children)
     // Prepare sections, ensuring parents and spouse are always arrays and checking if they are defined
     const parentsSection = renderSection('Parents', Array.isArray(family.parents) && family.parents.length > 0 ? family.parents : []);
     const spouseSection = renderSection('Spouse', Array.isArray(family.spouses) && family.spouses.length > 0 ? family.spouses : []);
@@ -601,8 +598,8 @@ if (siblingsSection && childrenSection) {
     const hasTreeData =
   tribute.parents.length > 0 ||
   tribute.spouses.length > 0 ||
-  parseJSON(tribute.children).length > 0 ||
-  parseJSON(tribute.grandchildren).length > 0;
+  tribute.children.length > 0 ||
+  tribute.grandchildren.length > 0;
   
 
      if(hasTreeData){
