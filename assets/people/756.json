@@ -26,7 +26,22 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"John Wallace   Morlock\", \"birth_date\": \"1863-00-00\", \"death_date\": \"1933-00-00\", \"profile_url\": \"/memorial/66781225/john_wallace-morlock\"}, {\"name\": \"George E.   Morlock\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1878-00-00\", \"profile_url\": \"/memorial/15791519/george_e-morlock\"}]",
+  "siblings": [
+    {
+      "name": "John Wallace   Morlock",
+      "birth_date": "1863-00-00",
+      "death_date": "1933-00-00",
+      "profile_url": "/memorial/66781225/john_wallace-morlock"
+    },
+    {
+      "name": "George E.   Morlock",
+      "birth_date": "1877-00-00",
+      "death_date": "1878-00-00",
+      "profile_url": "/memorial/15791519/george_e-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/260/15791519_115859140357.jpg?size=photos250",
+      "id": 737
+    }
+  ],
   "half_siblings": [],
   "plot_value": "row 1-5",
   "title": "",

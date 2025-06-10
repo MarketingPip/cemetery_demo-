@@ -30,7 +30,14 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Florence BERNICE  Tripp Ford\", \"birth_date\": \"1928-00-00\", \"death_date\": \"2007-00-00\", \"profile_url\": \"/memorial/45608840/florence_bernice-ford\"}]",
+  "siblings": [
+    {
+      "name": "Florence BERNICE  Tripp Ford",
+      "birth_date": "1928-00-00",
+      "death_date": "2007-00-00",
+      "profile_url": "/memorial/45608840/florence_bernice-ford"
+    }
+  ],
   "half_siblings": [],
   "plot_value": "",
   "title": "",

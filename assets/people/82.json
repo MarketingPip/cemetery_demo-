@@ -30,7 +30,14 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Barbara Mae  Brintnell Almasi\", \"birth_date\": \"1936-00-00\", \"death_date\": \"2017-00-00\", \"profile_url\": \"/memorial/73427996/barbara_mae-almasi\"}]",
+  "siblings": [
+    {
+      "name": "Barbara Mae  Brintnell Almasi",
+      "birth_date": "1936-00-00",
+      "death_date": "2017-00-00",
+      "profile_url": "/memorial/73427996/barbara_mae-almasi"
+    }
+  ],
   "half_siblings": [],
   "plot_value": "",
   "title": "",

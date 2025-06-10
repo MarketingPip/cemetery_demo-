@@ -34,7 +34,16 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Ezra   Wein\", \"birth_date\": \"1888-00-00\", \"death_date\": \"1924-00-00\", \"profile_url\": \"/memorial/16414049/ezra-wein\"}]",
+  "siblings": [
+    {
+      "name": "Ezra   Wein",
+      "birth_date": "1888-00-00",
+      "death_date": "1924-00-00",
+      "profile_url": "/memorial/16414049/ezra-wein",
+      "image_url": "https://images.findagrave.com/photos/2006/304/16414049_116239897155.jpg?size=photos250",
+      "id": 1117
+    }
+  ],
   "half_siblings": [],
   "plot_value": "Rw 9-6",
   "title": "",

@@ -34,7 +34,16 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"John Matthew   Guenther\", \"birth_date\": \"1944-00-00\", \"death_date\": \"1969-00-00\", \"profile_url\": \"/memorial/188113152/john_matthew-guenther\"}]",
+  "siblings": [
+    {
+      "name": "John Matthew   Guenther",
+      "birth_date": "1944-00-00",
+      "death_date": "1969-00-00",
+      "profile_url": "/memorial/188113152/john_matthew-guenther",
+      "image_url": "https://images.findagrave.com/photos/2022/84/188113152_259f75d9-612e-4046-bd29-5db731936923.jpeg?size=photos250",
+      "id": 465
+    }
+  ],
   "half_siblings": [],
   "plot_value": "Row 21-6",
   "title": "",

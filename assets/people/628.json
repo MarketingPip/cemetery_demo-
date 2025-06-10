@@ -34,7 +34,32 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"John   Klumpp\", \"birth_date\": \"1865-00-00\", \"death_date\": \"1952-00-00\", \"profile_url\": \"/memorial/15728813/john-klumpp\"}, {\"name\": \"Lydia  Klumpp Sweitzer\", \"birth_date\": \"1873-00-00\", \"death_date\": \"1916-00-00\", \"profile_url\": \"/memorial/16681816/lydia-sweitzer\"}, {\"name\": \"William   Klumpp\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1881-00-00\", \"profile_url\": \"/memorial/16681863/william-klumpp\"}]",
+  "siblings": [
+    {
+      "name": "John   Klumpp",
+      "birth_date": "1865-00-00",
+      "death_date": "1952-00-00",
+      "profile_url": "/memorial/15728813/john-klumpp",
+      "image_url": "https://images.findagrave.com/photos/2006/256/15728813_115824778042.jpg?size=photos250",
+      "id": 626
+    },
+    {
+      "name": "Lydia  Klumpp Sweitzer",
+      "birth_date": "1873-00-00",
+      "death_date": "1916-00-00",
+      "profile_url": "/memorial/16681816/lydia-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/320/16681816_116378112912.jpg?size=photos250",
+      "id": 1038
+    },
+    {
+      "name": "William   Klumpp",
+      "birth_date": "1878-00-00",
+      "death_date": "1881-00-00",
+      "profile_url": "/memorial/16681863/william-klumpp",
+      "image_url": "https://images.findagrave.com/photos/2006/320/16681863_116378155064.jpg?size=photos250",
+      "id": 630
+    }
+  ],
   "half_siblings": [],
   "plot_value": "2-9",
   "title": "",

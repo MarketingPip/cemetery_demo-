@@ -34,7 +34,16 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Geraldine Ann  Dundas Schenk\", \"birth_date\": \"1932-00-00\", \"death_date\": \"2019-00-00\", \"profile_url\": \"/memorial/238053974/geraldine_ann-schenk\"}]",
+  "siblings": [
+    {
+      "name": "Geraldine Ann  Dundas Schenk",
+      "birth_date": "1932-00-00",
+      "death_date": "2019-00-00",
+      "profile_url": "/memorial/238053974/geraldine_ann-schenk",
+      "image_url": "https://images.findagrave.com/photos/2023/219/238053974_d65b8944-75c4-4e97-b3bd-88b651200ba5.jpeg?v=1691445947&size=photos250",
+      "id": 921
+    }
+  ],
   "half_siblings": [],
   "plot_value": "",
   "title": "",

@@ -34,7 +34,30 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Mary  Pfaff Gower\", \"birth_date\": \"1886-00-00\", \"death_date\": \"1988-00-00\", \"profile_url\": \"/memorial/15563745/mary-gower\"}, {\"name\": \"Caroline Elizabeth  Pfaff Gower\", \"birth_date\": \"1889-00-00\", \"death_date\": \"1963-00-00\", \"profile_url\": \"/memorial/104983199/caroline_elizabeth-gower\"}, {\"name\": \"Oscar   Pfaff\", \"birth_date\": \"1899-00-00\", \"death_date\": \"1991-00-00\", \"profile_url\": \"/memorial/188136430/oscar-pfaff\"}]",
+  "siblings": [
+    {
+      "name": "Mary  Pfaff Gower",
+      "birth_date": "1886-00-00",
+      "death_date": "1988-00-00",
+      "profile_url": "/memorial/15563745/mary-gower",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563745_115703768465.jpg?size=photos250",
+      "id": 453
+    },
+    {
+      "name": "Caroline Elizabeth  Pfaff Gower",
+      "birth_date": "1889-00-00",
+      "death_date": "1963-00-00",
+      "profile_url": "/memorial/104983199/caroline_elizabeth-gower"
+    },
+    {
+      "name": "Oscar   Pfaff",
+      "birth_date": "1899-00-00",
+      "death_date": "1991-00-00",
+      "profile_url": "/memorial/188136430/oscar-pfaff",
+      "image_url": "https://images.findagrave.com/photos/2022/84/188136430_0ebd3239-2f0b-42a3-a543-78d7919b82f4.jpeg?size=photos250",
+      "id": 842
+    }
+  ],
   "half_siblings": [],
   "plot_value": "5-4",
   "title": "",

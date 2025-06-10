@@ -34,7 +34,32 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Barbara   Haist\", \"birth_date\": \"1860-00-00\", \"death_date\": \"1868-00-00\", \"profile_url\": \"/memorial/236911555/barbara-haist\"}, {\"name\": \"Henrich   Haist\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1872-00-00\", \"profile_url\": \"/memorial/236911589/henrich-haist\"}, {\"name\": \"Anna M.   Haist\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1878-00-00\", \"profile_url\": \"/memorial/236911484/anna_m-haist\"}]",
+  "siblings": [
+    {
+      "name": "Barbara   Haist",
+      "birth_date": "1860-00-00",
+      "death_date": "1868-00-00",
+      "profile_url": "/memorial/236911555/barbara-haist",
+      "image_url": "https://images.findagrave.com/photos/2022/111/236911555_8672ca10-a99f-4203-b119-46183423f6eb.jpeg?size=photos250",
+      "id": 481
+    },
+    {
+      "name": "Henrich   Haist",
+      "birth_date": "1867-00-00",
+      "death_date": "1872-00-00",
+      "profile_url": "/memorial/236911589/henrich-haist",
+      "image_url": "https://images.findagrave.com/photos/2022/111/236911589_074fe19f-0c8f-4aee-95ea-0071972d3cd6.jpeg?size=photos250",
+      "id": 491
+    },
+    {
+      "name": "Anna M.   Haist",
+      "birth_date": "1877-00-00",
+      "death_date": "1878-00-00",
+      "profile_url": "/memorial/236911484/anna_m-haist",
+      "image_url": "https://images.findagrave.com/photos/2022/111/236911484_227790ee-ce27-46d2-9ab9-35a3157c8618.jpeg?size=photos250",
+      "id": 478
+    }
+  ],
   "half_siblings": [],
   "plot_value": "4-9",
   "title": "",

@@ -34,7 +34,14 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Marion Dolores  Pfaff Berge\", \"birth_date\": \"1933-00-00\", \"death_date\": \"2022-00-00\", \"profile_url\": \"/memorial/237140263/marion_dolores-berge\"}]",
+  "siblings": [
+    {
+      "name": "Marion Dolores  Pfaff Berge",
+      "birth_date": "1933-00-00",
+      "death_date": "2022-00-00",
+      "profile_url": "/memorial/237140263/marion_dolores-berge"
+    }
+  ],
   "half_siblings": [],
   "plot_value": "Row 20-7",
   "title": "",

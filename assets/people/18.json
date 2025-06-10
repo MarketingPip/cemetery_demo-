@@ -31,7 +31,70 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"William Nicholas   Beaver\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1955-00-00\", \"profile_url\": \"/memorial/16671326/william_nicholas-beaver\"}, {\"name\": \"Henry Charles   Beaver\", \"birth_date\": \"1879-00-00\", \"death_date\": \"1968-00-00\", \"profile_url\": \"/memorial/15554242/henry_charles-beaver\"}, {\"name\": \"Herman Wesley   Beaver\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1939-00-00\", \"profile_url\": \"/memorial/16671209/herman_wesley-beaver\"}, {\"name\": \"Edwin   Beaver\", \"birth_date\": \"1885-00-00\", \"death_date\": \"1962-00-00\", \"profile_url\": \"/memorial/16575373/edwin-beaver\"}, {\"name\": \"Clara Maud   Beaver\", \"birth_date\": \"1887-00-00\", \"death_date\": \"1967-00-00\", \"profile_url\": \"/memorial/16671294/clara_maud-beaver\"}, {\"name\": \"Herbert V   Beaver\", \"birth_date\": \"1890-00-00\", \"death_date\": \"1970-00-00\", \"profile_url\": \"/memorial/16671266/herbert_v-beaver\"}, {\"name\": \"Pearl Fredericks   Beaver\", \"birth_date\": \"1895-00-00\", \"death_date\": null, \"profile_url\": \"/memorial/16671395/pearl_fredericks-beaver\"}, {\"name\": \"Infant daughter   Beaver\", \"birth_date\": null, \"death_date\": null, \"profile_url\": \"/memorial/239217912/infant_daughter-beaver\"}]",
+  "siblings": [
+    {
+      "name": "William Nicholas   Beaver",
+      "birth_date": "1878-00-00",
+      "death_date": "1955-00-00",
+      "profile_url": "/memorial/16671326/william_nicholas-beaver",
+      "image_url": "https://images.findagrave.com/photos/2006/319/16671326_116368739149.jpg?size=photos250",
+      "id": 38
+    },
+    {
+      "name": "Henry Charles   Beaver",
+      "birth_date": "1879-00-00",
+      "death_date": "1968-00-00",
+      "profile_url": "/memorial/15554242/henry_charles-beaver",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15554242_115694941640.jpg?size=photos250",
+      "id": 22
+    },
+    {
+      "name": "Herman Wesley   Beaver",
+      "birth_date": "1882-00-00",
+      "death_date": "1939-00-00",
+      "profile_url": "/memorial/16671209/herman_wesley-beaver",
+      "image_url": "https://images.findagrave.com/photos/2006/319/16671209_116368662026.jpg?size=photos250",
+      "id": 24
+    },
+    {
+      "name": "Edwin   Beaver",
+      "birth_date": "1885-00-00",
+      "death_date": "1962-00-00",
+      "profile_url": "/memorial/16575373/edwin-beaver"
+    },
+    {
+      "name": "Clara Maud   Beaver",
+      "birth_date": "1887-00-00",
+      "death_date": "1967-00-00",
+      "profile_url": "/memorial/16671294/clara_maud-beaver",
+      "image_url": "https://images.findagrave.com/photos/2006/319/16671294_116368715958.jpg?size=photos250",
+      "id": 15
+    },
+    {
+      "name": "Herbert V   Beaver",
+      "birth_date": "1890-00-00",
+      "death_date": "1970-00-00",
+      "profile_url": "/memorial/16671266/herbert_v-beaver",
+      "image_url": "https://images.findagrave.com/photos/2006/319/16671266_116368700517.jpg?size=photos250",
+      "id": 23
+    },
+    {
+      "name": "Pearl Fredericks   Beaver",
+      "birth_date": "1895-00-00",
+      "death_date": null,
+      "profile_url": "/memorial/16671395/pearl_fredericks-beaver",
+      "image_url": "https://images.findagrave.com/photos/2006/319/16671395_116368796785.jpg?size=photos250",
+      "id": 35
+    },
+    {
+      "name": "Infant daughter   Beaver",
+      "birth_date": null,
+      "death_date": null,
+      "profile_url": "/memorial/239217912/infant_daughter-beaver",
+      "image_url": "https://images.findagrave.com/photos/2022/115/239217912_fdf50dff-ed41-465f-badf-af261848fb3b.jpeg?size=photos250",
+      "id": 27
+    }
+  ],
   "half_siblings": [],
   "plot_value": "Row 12-8",
   "title": "",

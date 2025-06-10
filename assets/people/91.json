@@ -34,7 +34,24 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Adolph   Brown\", \"birth_date\": \"1857-00-00\", \"death_date\": \"1866-00-00\", \"profile_url\": \"/memorial/188035776/adolph-brown\"}, {\"name\": \"William H.   Brown\", \"birth_date\": \"1860-00-00\", \"death_date\": \"1947-00-00\", \"profile_url\": \"/memorial/188036013/william_h-brown\"}]",
+  "siblings": [
+    {
+      "name": "Adolph   Brown",
+      "birth_date": "1857-00-00",
+      "death_date": "1866-00-00",
+      "profile_url": "/memorial/188035776/adolph-brown",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188035776_12f295cc-3e3c-4f81-92b8-1192951f12b5.jpeg?size=photos250",
+      "id": 86
+    },
+    {
+      "name": "William H.   Brown",
+      "birth_date": "1860-00-00",
+      "death_date": "1947-00-00",
+      "profile_url": "/memorial/188036013/william_h-brown",
+      "image_url": "https://images.findagrave.com/photos/2022/112/188036013_48021f5d-695d-4f96-9bf2-036bd85ca7fb.jpeg?size=photos250",
+      "id": 120
+    }
+  ],
   "half_siblings": [],
   "plot_value": "Row 7-10",
   "title": "",

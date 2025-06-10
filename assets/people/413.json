@@ -31,7 +31,16 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Wilbert J.   Gaiser\", \"birth_date\": \"1892-00-00\", \"death_date\": \"1920-00-00\", \"profile_url\": \"/memorial/188113079/wilbert_j-gaiser\"}]",
+  "siblings": [
+    {
+      "name": "Wilbert J.   Gaiser",
+      "birth_date": "1892-00-00",
+      "death_date": "1920-00-00",
+      "profile_url": "/memorial/188113079/wilbert_j-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2022/115/188113079_7ac9af6f-6a5e-448f-8908-0b1d5d4f3f06.jpeg?size=photos250",
+      "id": 428
+    }
+  ],
   "half_siblings": [],
   "plot_value": "Row 12-5",
   "title": "",

@@ -34,7 +34,36 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Wilhelmina  Hoffman Stanley\", \"birth_date\": \"1854-00-00\", \"death_date\": \"1943-00-00\", \"profile_url\": \"/memorial/171870426/wilhelmina-stanley\"}, {\"name\": \"Christian   Hoffmann\", \"birth_date\": \"1862-00-00\", \"death_date\": \"1926-00-00\", \"profile_url\": \"/memorial/15977561/christian-hoffmann\"}, {\"name\": \"Eliza Ann   Hoffmann\", \"birth_date\": \"1866-00-00\", \"death_date\": \"1890-00-00\", \"profile_url\": \"/memorial/15977947/eliza_ann-hoffmann\"}, {\"name\": \"Wilhelm Henry   Hoffman\", \"birth_date\": \"1869-00-00\", \"death_date\": \"1942-00-00\", \"profile_url\": \"/memorial/184981119/wilhelm_henry-hoffman\"}]",
+  "siblings": [
+    {
+      "name": "Wilhelmina  Hoffman Stanley",
+      "birth_date": "1854-00-00",
+      "death_date": "1943-00-00",
+      "profile_url": "/memorial/171870426/wilhelmina-stanley"
+    },
+    {
+      "name": "Christian   Hoffmann",
+      "birth_date": "1862-00-00",
+      "death_date": "1926-00-00",
+      "profile_url": "/memorial/15977561/christian-hoffmann",
+      "image_url": "https://images.findagrave.com/photos/2006/275/15977561_115988080038.jpg?size=photos250",
+      "id": 563
+    },
+    {
+      "name": "Eliza Ann   Hoffmann",
+      "birth_date": "1866-00-00",
+      "death_date": "1890-00-00",
+      "profile_url": "/memorial/15977947/eliza_ann-hoffmann",
+      "image_url": "https://images.findagrave.com/photos/2006/275/15977947_115988366047.jpg?size=photos250",
+      "id": 566
+    },
+    {
+      "name": "Wilhelm Henry   Hoffman",
+      "birth_date": "1869-00-00",
+      "death_date": "1942-00-00",
+      "profile_url": "/memorial/184981119/wilhelm_henry-hoffman"
+    }
+  ],
   "half_siblings": [
     {
       "name": "Jane Deborah  Hoffman Benedict",

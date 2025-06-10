@@ -30,7 +30,14 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"David Leslie   Glanville\", \"birth_date\": \"1956-00-00\", \"death_date\": \"2024-00-00\", \"profile_url\": \"/memorial/263253992/david_leslie-glanville\"}]",
+  "siblings": [
+    {
+      "name": "David Leslie   Glanville",
+      "birth_date": "1956-00-00",
+      "death_date": "2024-00-00",
+      "profile_url": "/memorial/263253992/david_leslie-glanville"
+    }
+  ],
   "half_siblings": [],
   "plot_value": "5-9",
   "title": "",

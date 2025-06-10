@@ -34,7 +34,16 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Marie   Mangnus\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1885-00-00\", \"profile_url\": \"/memorial/236151868/marie-mangnus\"}]",
+  "siblings": [
+    {
+      "name": "Marie   Mangnus",
+      "birth_date": "1882-00-00",
+      "death_date": "1885-00-00",
+      "profile_url": "/memorial/236151868/marie-mangnus",
+      "image_url": "https://images.findagrave.com/photos/2022/110/236151868_1022069b-5dd3-4665-831d-016f2cf4ea30.jpeg?size=photos250",
+      "id": 699
+    }
+  ],
   "half_siblings": [],
   "plot_value": "Row 2-13",
   "title": "",

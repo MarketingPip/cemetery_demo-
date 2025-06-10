@@ -34,7 +34,22 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Susie  Wein Pope\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1930-00-00\", \"profile_url\": \"/memorial/227904713/susie-pope\"}, {\"name\": \"John F.   Wein\", \"birth_date\": \"1879-00-00\", \"death_date\": \"1946-00-00\", \"profile_url\": \"/memorial/15662677/john_f-wein\"}]",
+  "siblings": [
+    {
+      "name": "Susie  Wein Pope",
+      "birth_date": "1867-00-00",
+      "death_date": "1930-00-00",
+      "profile_url": "/memorial/227904713/susie-pope"
+    },
+    {
+      "name": "John F.   Wein",
+      "birth_date": "1879-00-00",
+      "death_date": "1946-00-00",
+      "profile_url": "/memorial/15662677/john_f-wein",
+      "image_url": "https://images.findagrave.com/photos/2006/250/15662677_115772409609.jpg?size=photos250",
+      "id": 1125
+    }
+  ],
   "half_siblings": [],
   "plot_value": "row 1-10",
   "title": "",

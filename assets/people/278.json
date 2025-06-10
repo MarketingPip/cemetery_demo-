@@ -34,7 +34,40 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Amanda Barbara   Finkbeiner\", \"birth_date\": \"1885-00-00\", \"death_date\": \"1914-00-00\", \"profile_url\": \"/memorial/15833644/amanda_barbara-finkbeiner\"}, {\"name\": \"Melissa   Finkbeiner\", \"birth_date\": \"1888-00-00\", \"death_date\": \"1912-00-00\", \"profile_url\": \"/memorial/15833617/melissa-finkbeiner\"}, {\"name\": \"Charles William   Finkbeiner\", \"birth_date\": \"1892-00-00\", \"death_date\": \"1918-00-00\", \"profile_url\": \"/memorial/15848198/charles_william-finkbeiner\"}, {\"name\": \"Henry Emerson   Finkbeiner\", \"birth_date\": \"1897-00-00\", \"death_date\": \"1913-00-00\", \"profile_url\": \"/memorial/15833630/henry_emerson-finkbeiner\"}]",
+  "siblings": [
+    {
+      "name": "Amanda Barbara   Finkbeiner",
+      "birth_date": "1885-00-00",
+      "death_date": "1914-00-00",
+      "profile_url": "/memorial/15833644/amanda_barbara-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/263/15833644_115885498506.jpg?size=photos250",
+      "id": 271
+    },
+    {
+      "name": "Melissa   Finkbeiner",
+      "birth_date": "1888-00-00",
+      "death_date": "1912-00-00",
+      "profile_url": "/memorial/15833617/melissa-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/263/15833617_115885476692.jpg?size=photos250",
+      "id": 351
+    },
+    {
+      "name": "Charles William   Finkbeiner",
+      "birth_date": "1892-00-00",
+      "death_date": "1918-00-00",
+      "profile_url": "/memorial/15848198/charles_william-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/264/15848198_115893633874.jpg?size=photos250",
+      "id": 285
+    },
+    {
+      "name": "Henry Emerson   Finkbeiner",
+      "birth_date": "1897-00-00",
+      "death_date": "1913-00-00",
+      "profile_url": "/memorial/15833630/henry_emerson-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/263/15833630_115885486829.jpg?size=photos250",
+      "id": 309
+    }
+  ],
   "half_siblings": [
     {
       "name": "Christena  Finkbeiner Dearing",

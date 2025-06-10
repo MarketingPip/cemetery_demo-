@@ -34,7 +34,16 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Lloyd Samuel   Lamport\", \"birth_date\": \"1915-00-00\", \"death_date\": \"2002-00-00\", \"profile_url\": \"/memorial/41012313/lloyd_samuel-lamport\"}]",
+  "siblings": [
+    {
+      "name": "Lloyd Samuel   Lamport",
+      "birth_date": "1915-00-00",
+      "death_date": "2002-00-00",
+      "profile_url": "/memorial/41012313/lloyd_samuel-lamport",
+      "image_url": "https://images.findagrave.com/photos/2022/83/41012313_bd463dea-8a93-4868-b489-15c39ada1d21.jpeg?size=photos250",
+      "id": 661
+    }
+  ],
   "half_siblings": [],
   "plot_value": "Row 9-10",
   "title": "",

@@ -34,7 +34,44 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"George A.   Gaiser\", \"birth_date\": \"1856-00-00\", \"death_date\": \"1899-00-00\", \"profile_url\": \"/memorial/188113009/george_a-gaiser\"}, {\"name\": \"Magdalena  Gaiser Finkbeiner\", \"birth_date\": \"1858-00-00\", \"death_date\": \"1927-00-00\", \"profile_url\": \"/memorial/16331358/magdalena-finkbeiner\"}, {\"name\": \"William B.   Gaiser\", \"birth_date\": \"1862-00-00\", \"death_date\": \"1934-00-00\", \"profile_url\": \"/memorial/188113083/william_b-gaiser\"}, {\"name\": \"Levi   Gaiser\", \"birth_date\": \"1865-00-00\", \"death_date\": \"1930-00-00\", \"profile_url\": \"/memorial/54691204/levi-gaiser\"}, {\"name\": \"John Noah   Gaiser\", \"birth_date\": \"1868-00-00\", \"death_date\": \"1930-00-00\", \"profile_url\": \"/memorial/54691203/john_noah-gaiser\"}]",
+  "siblings": [
+    {
+      "name": "George A.   Gaiser",
+      "birth_date": "1856-00-00",
+      "death_date": "1899-00-00",
+      "profile_url": "/memorial/188113009/george_a-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2022/116/188113009_42efb452-4909-4dd6-ab9d-c790c1ea5d24.jpeg?size=photos250",
+      "id": 399
+    },
+    {
+      "name": "Magdalena  Gaiser Finkbeiner",
+      "birth_date": "1858-00-00",
+      "death_date": "1927-00-00",
+      "profile_url": "/memorial/16331358/magdalena-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/298/16331358_116188127734.jpg?size=photos250",
+      "id": 343
+    },
+    {
+      "name": "William B.   Gaiser",
+      "birth_date": "1862-00-00",
+      "death_date": "1934-00-00",
+      "profile_url": "/memorial/188113083/william_b-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2022/115/188113083_b89bd9e4-80ef-4de7-b8df-6cabcfe637b2.jpeg?size=photos250",
+      "id": 431
+    },
+    {
+      "name": "Levi   Gaiser",
+      "birth_date": "1865-00-00",
+      "death_date": "1930-00-00",
+      "profile_url": "/memorial/54691204/levi-gaiser"
+    },
+    {
+      "name": "John Noah   Gaiser",
+      "birth_date": "1868-00-00",
+      "death_date": "1930-00-00",
+      "profile_url": "/memorial/54691203/john_noah-gaiser"
+    }
+  ],
   "half_siblings": [],
   "plot_value": "row 8-2",
   "title": "",

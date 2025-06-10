@@ -34,7 +34,24 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Henry   Wilhelm\", \"birth_date\": \"1861-00-00\", \"death_date\": \"1875-00-00\", \"profile_url\": \"/memorial/15833335/henry-wilhelm\"}, {\"name\": \"Louis   Wilhelm\", \"birth_date\": \"1876-00-00\", \"death_date\": \"1881-00-00\", \"profile_url\": \"/memorial/15833385/louis-wilhelm\"}]",
+  "siblings": [
+    {
+      "name": "Henry   Wilhelm",
+      "birth_date": "1861-00-00",
+      "death_date": "1875-00-00",
+      "profile_url": "/memorial/15833335/henry-wilhelm",
+      "image_url": "https://images.findagrave.com/photos/2006/263/15833335_115885258997.jpg?size=photos250",
+      "id": 1162
+    },
+    {
+      "name": "Louis   Wilhelm",
+      "birth_date": "1876-00-00",
+      "death_date": "1881-00-00",
+      "profile_url": "/memorial/15833385/louis-wilhelm",
+      "image_url": "https://images.findagrave.com/photos/2006/263/15833385_115885287861.jpg?size=photos250",
+      "id": 1165
+    }
+  ],
   "half_siblings": [],
   "plot_value": "6-5",
   "title": "",

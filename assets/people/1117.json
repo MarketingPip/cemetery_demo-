@@ -34,7 +34,16 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Samuel   Wein\", \"birth_date\": \"1883-00-00\", \"death_date\": \"1949-00-00\", \"profile_url\": \"/memorial/16414070/samuel-wein\"}]",
+  "siblings": [
+    {
+      "name": "Samuel   Wein",
+      "birth_date": "1883-00-00",
+      "death_date": "1949-00-00",
+      "profile_url": "/memorial/16414070/samuel-wein",
+      "image_url": "https://images.findagrave.com/photos/2006/304/16414070_116239920518.jpg?size=photos250",
+      "id": 1143
+    }
+  ],
   "half_siblings": [],
   "plot_value": "Row 9-6",
   "title": "",

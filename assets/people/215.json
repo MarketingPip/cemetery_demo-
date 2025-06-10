@@ -26,7 +26,16 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"John William   Fahner\", \"birth_date\": \"1951-00-00\", \"death_date\": \"2007-00-00\", \"profile_url\": \"/memorial/21860648/john_william-fahner\"}]",
+  "siblings": [
+    {
+      "name": "John William   Fahner",
+      "birth_date": "1951-00-00",
+      "death_date": "2007-00-00",
+      "profile_url": "/memorial/21860648/john_william-fahner",
+      "image_url": "https://images.findagrave.com/photos/2022/84/21860648_686fe2f5-c4d2-4a3c-a623-b2e72ba24558.jpeg?size=photos250",
+      "id": 224
+    }
+  ],
   "half_siblings": [],
   "plot_value": "",
   "title": "",

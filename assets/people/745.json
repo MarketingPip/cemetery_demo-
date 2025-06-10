@@ -43,7 +43,32 @@
       "profile_url": "/memorial/15791572/mary_ellen-morlock"
     }
   ],
-  "siblings": "[{\"name\": \"Matthew   Morlock\", \"birth_date\": \"1828-00-00\", \"death_date\": \"1923-00-00\", \"profile_url\": \"/memorial/15395989/matthew-morlock\"}, {\"name\": \"Louisa  Morlock Faist\", \"birth_date\": \"1833-00-00\", \"death_date\": \"1914-00-00\", \"profile_url\": \"/memorial/236920169/louisa-faist\"}, {\"name\": \"Gottlieb   Morlock\", \"birth_date\": \"1836-00-00\", \"death_date\": \"1910-00-00\", \"profile_url\": \"/memorial/15978080/gottlieb-morlock\"}]",
+  "siblings": [
+    {
+      "name": "Matthew   Morlock",
+      "birth_date": "1828-00-00",
+      "death_date": "1923-00-00",
+      "profile_url": "/memorial/15395989/matthew-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/228/15395989_115582472667.jpg?size=photos250",
+      "id": 757
+    },
+    {
+      "name": "Louisa  Morlock Faist",
+      "birth_date": "1833-00-00",
+      "death_date": "1914-00-00",
+      "profile_url": "/memorial/236920169/louisa-faist",
+      "image_url": "https://images.findagrave.com/photos/2022/112/236920169_1b723315-ef0f-4246-8657-1c88d7d0b248.jpeg?size=photos250",
+      "id": 265
+    },
+    {
+      "name": "Gottlieb   Morlock",
+      "birth_date": "1836-00-00",
+      "death_date": "1910-00-00",
+      "profile_url": "/memorial/15978080/gottlieb-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/275/15978080_115988462165.jpg?size=photos250",
+      "id": 740
+    }
+  ],
   "half_siblings": [],
   "plot_value": "row 1-5",
   "title": "",

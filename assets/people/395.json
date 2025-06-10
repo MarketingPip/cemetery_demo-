@@ -34,7 +34,16 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Ruth Madeline   Gaiser\", \"birth_date\": \"1915-00-00\", \"death_date\": \"1923-00-00\", \"profile_url\": \"/memorial/192783230/ruth_madeline-gaiser\"}]",
+  "siblings": [
+    {
+      "name": "Ruth Madeline   Gaiser",
+      "birth_date": "1915-00-00",
+      "death_date": "1923-00-00",
+      "profile_url": "/memorial/192783230/ruth_madeline-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2022/116/192783230_6a5ce40b-e125-4abe-97e3-386065cac306.jpeg?size=photos250",
+      "id": 423
+    }
+  ],
   "half_siblings": [],
   "plot_value": "15-1",
   "title": "",

@@ -34,7 +34,22 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Lawrence Oscar \\\"Lorne\\\"  Gaiser\", \"birth_date\": \"1906-00-00\", \"death_date\": \"1970-00-00\", \"profile_url\": \"/memorial/184443545/lawrence_oscar-gaiser\"}, {\"name\": \"Clara Agatha  Gaiser Lamport\", \"birth_date\": \"1908-00-00\", \"death_date\": \"1993-00-00\", \"profile_url\": \"/memorial/188113494/clara_agatha-lamport\"}]",
+  "siblings": [
+    {
+      "name": "Lawrence Oscar \"Lorne\"  Gaiser",
+      "birth_date": "1906-00-00",
+      "death_date": "1970-00-00",
+      "profile_url": "/memorial/184443545/lawrence_oscar-gaiser"
+    },
+    {
+      "name": "Clara Agatha  Gaiser Lamport",
+      "birth_date": "1908-00-00",
+      "death_date": "1993-00-00",
+      "profile_url": "/memorial/188113494/clara_agatha-lamport",
+      "image_url": "https://images.findagrave.com/photos/2022/116/188113494_b6ea3d6d-5c7a-46a8-8499-eb6dbefd21a6.jpeg?size=photos250",
+      "id": 657
+    }
+  ],
   "half_siblings": [],
   "plot_value": "Row 17-2",
   "title": "",

@@ -31,7 +31,48 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"William H.   Morlock\", \"birth_date\": \"1862-00-00\", \"death_date\": \"1948-00-00\", \"profile_url\": \"/memorial/15978472/william_h-morlock\"}, {\"name\": \"John Nicholas   Morlock\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1951-00-00\", \"profile_url\": \"/memorial/16539197/john_nicholas-morlock\"}, {\"name\": \"Charles Edward   Morlock\", \"birth_date\": \"1873-00-00\", \"death_date\": \"1968-00-00\", \"profile_url\": \"/memorial/15396172/charles_edward-morlock\"}, {\"name\": \"Albert Wesley   Morlock\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1965-00-00\", \"profile_url\": \"/memorial/15849051/albert_wesley-morlock\"}, {\"name\": \"Mary Ann  Morlock Braun\", \"birth_date\": \"1881-00-00\", \"death_date\": \"1968-00-00\", \"profile_url\": \"/memorial/15426343/mary_ann-braun\"}]",
+  "siblings": [
+    {
+      "name": "William H.   Morlock",
+      "birth_date": "1862-00-00",
+      "death_date": "1948-00-00",
+      "profile_url": "/memorial/15978472/william_h-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/275/15978472_115988713587.jpg?size=photos250",
+      "id": 762
+    },
+    {
+      "name": "John Nicholas   Morlock",
+      "birth_date": "1867-00-00",
+      "death_date": "1951-00-00",
+      "profile_url": "/memorial/16539197/john_nicholas-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/310/16539197_116291058274.jpg?size=photos250",
+      "id": 744
+    },
+    {
+      "name": "Charles Edward   Morlock",
+      "birth_date": "1873-00-00",
+      "death_date": "1968-00-00",
+      "profile_url": "/memorial/15396172/charles_edward-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/228/15396172_115582598038.jpg?size=photos250",
+      "id": 726
+    },
+    {
+      "name": "Albert Wesley   Morlock",
+      "birth_date": "1877-00-00",
+      "death_date": "1965-00-00",
+      "profile_url": "/memorial/15849051/albert_wesley-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/264/15849051_115894140994.jpg?size=photos250",
+      "id": 721
+    },
+    {
+      "name": "Mary Ann  Morlock Braun",
+      "birth_date": "1881-00-00",
+      "death_date": "1968-00-00",
+      "profile_url": "/memorial/15426343/mary_ann-braun",
+      "image_url": "https://images.findagrave.com/photos/2006/231/15426343_115607839986.jpg?size=photos250",
+      "id": 80
+    }
+  ],
   "half_siblings": [],
   "plot_value": "Row 8-11",
   "title": "",

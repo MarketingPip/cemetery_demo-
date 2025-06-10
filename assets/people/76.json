@@ -34,7 +34,14 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Mary Ellen  Braun Kelhofer\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1961-00-00\", \"profile_url\": \"/memorial/36747468/mary_ellen-kelhofer\"}]",
+  "siblings": [
+    {
+      "name": "Mary Ellen  Braun Kelhofer",
+      "birth_date": "1877-00-00",
+      "death_date": "1961-00-00",
+      "profile_url": "/memorial/36747468/mary_ellen-kelhofer"
+    }
+  ],
   "half_siblings": [],
   "plot_value": "4-2",
   "title": "",

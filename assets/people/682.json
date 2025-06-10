@@ -30,7 +30,20 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Kenneth John \\\"Ken\\\"  Lovie\", \"birth_date\": \"1941-00-00\", \"death_date\": \"2017-00-00\", \"profile_url\": \"/memorial/175104520/kenneth_john-lovie\"}, {\"name\": \"Stanley Wayne   Lovie\", \"birth_date\": \"1945-00-00\", \"death_date\": \"2014-00-00\", \"profile_url\": \"/memorial/155850898/stanley_wayne-lovie\"}]",
+  "siblings": [
+    {
+      "name": "Kenneth John \"Ken\"  Lovie",
+      "birth_date": "1941-00-00",
+      "death_date": "2017-00-00",
+      "profile_url": "/memorial/175104520/kenneth_john-lovie"
+    },
+    {
+      "name": "Stanley Wayne   Lovie",
+      "birth_date": "1945-00-00",
+      "death_date": "2014-00-00",
+      "profile_url": "/memorial/155850898/stanley_wayne-lovie"
+    }
+  ],
   "half_siblings": [],
   "plot_value": "",
   "title": "",

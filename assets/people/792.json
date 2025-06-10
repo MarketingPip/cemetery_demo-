@@ -34,7 +34,24 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Matilda   Oestreicher\", \"birth_date\": \"1894-00-00\", \"death_date\": \"1983-00-00\", \"profile_url\": \"/memorial/236912317/matilda-oestreicher\"}, {\"name\": \"Hannah Irene   Oestreicher\", \"birth_date\": \"1901-00-00\", \"death_date\": \"1902-00-00\", \"profile_url\": \"/memorial/236912368/hannah_irene-oestreicher\"}]",
+  "siblings": [
+    {
+      "name": "Matilda   Oestreicher",
+      "birth_date": "1894-00-00",
+      "death_date": "1983-00-00",
+      "profile_url": "/memorial/236912317/matilda-oestreicher",
+      "image_url": "https://images.findagrave.com/photos/2022/111/236912317_3a3eb89b-6577-40c9-9016-e9fce09d97d7.jpeg?size=photos250",
+      "id": 810
+    },
+    {
+      "name": "Hannah Irene   Oestreicher",
+      "birth_date": "1901-00-00",
+      "death_date": "1902-00-00",
+      "profile_url": "/memorial/236912368/hannah_irene-oestreicher",
+      "image_url": "https://images.findagrave.com/photos/2022/111/236912368_22c8fc53-56de-4937-a107-86a63958399d.jpeg?size=photos250",
+      "id": 801
+    }
+  ],
   "half_siblings": [],
   "plot_value": "4-11",
   "title": "",

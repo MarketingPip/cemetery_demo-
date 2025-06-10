@@ -34,7 +34,14 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Leah  Krine Northcott\", \"birth_date\": \"1856-00-00\", \"death_date\": \"1883-00-00\", \"profile_url\": \"/memorial/16577419/leah-northcott\"}]",
+  "siblings": [
+    {
+      "name": "Leah  Krine Northcott",
+      "birth_date": "1856-00-00",
+      "death_date": "1883-00-00",
+      "profile_url": "/memorial/16577419/leah-northcott"
+    }
+  ],
   "half_siblings": [
     {
       "name": "Paul   Messner Jr",

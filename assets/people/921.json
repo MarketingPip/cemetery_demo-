@@ -34,7 +34,16 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Donald S.   Dundas\", \"birth_date\": \"1947-00-00\", \"death_date\": \"2020-00-00\", \"profile_url\": \"/memorial/238051972/donald_s-dundas\"}]",
+  "siblings": [
+    {
+      "name": "Donald S.   Dundas",
+      "birth_date": "1947-00-00",
+      "death_date": "2020-00-00",
+      "profile_url": "/memorial/238051972/donald_s-dundas",
+      "image_url": "https://images.findagrave.com/photos/2022/86/238051972_a7541fc4-abf5-445f-acb0-e711817aed6d.jpeg?size=photos250",
+      "id": 159
+    }
+  ],
   "half_siblings": [],
   "plot_value": "",
   "title": "",

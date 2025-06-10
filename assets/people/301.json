@@ -31,7 +31,16 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Wesley P   Finkbeiner\", \"birth_date\": \"1894-00-00\", \"death_date\": \"1896-00-00\", \"profile_url\": \"/memorial/16581621/wesley_p-finkbeiner\"}]",
+  "siblings": [
+    {
+      "name": "Wesley P   Finkbeiner",
+      "birth_date": "1894-00-00",
+      "death_date": "1896-00-00",
+      "profile_url": "/memorial/16581621/wesley_p-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/312/16581621_116313812949.jpg?size=photos250",
+      "id": 369
+    }
+  ],
   "half_siblings": [],
   "plot_value": "Row 11-3",
   "title": "",

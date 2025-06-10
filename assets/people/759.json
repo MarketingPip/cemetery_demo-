@@ -34,7 +34,64 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Freeman Wesley   Morlock\", \"birth_date\": \"1888-00-00\", \"death_date\": \"1967-00-00\", \"profile_url\": \"/memorial/15640086/freeman_wesley-morlock\"}, {\"name\": \"Herbert Charles   Morlock\", \"birth_date\": \"1890-00-00\", \"death_date\": \"1948-00-00\", \"profile_url\": \"/memorial/15396077/herbert_charles-morlock\"}, {\"name\": \"Wilber Henry   Morlock\", \"birth_date\": \"1892-00-00\", \"death_date\": \"1919-00-00\", \"profile_url\": \"/memorial/15848245/wilber_henry-morlock\"}, {\"name\": \"Sybilla Charlotte  Morlock Gaiser\", \"birth_date\": \"1893-00-00\", \"death_date\": \"1949-00-00\", \"profile_url\": \"/memorial/15639747/sybilla_charlotte-gaiser\"}, {\"name\": \"Lorne Roy   Morlock\", \"birth_date\": \"1895-00-00\", \"death_date\": \"1964-00-00\", \"profile_url\": \"/memorial/16682023/lorne_roy-morlock\"}, {\"name\": \"Clinton G   Morlock\", \"birth_date\": \"1899-00-00\", \"death_date\": \"1942-00-00\", \"profile_url\": \"/memorial/15978598/clinton_g-morlock\"}, {\"name\": \"Clara  Morlock Hoffman\", \"birth_date\": \"1902-00-00\", \"death_date\": \"1988-00-00\", \"profile_url\": \"/memorial/15977764/clara-hoffman\"}]",
+  "siblings": [
+    {
+      "name": "Freeman Wesley   Morlock",
+      "birth_date": "1888-00-00",
+      "death_date": "1967-00-00",
+      "profile_url": "/memorial/15640086/freeman_wesley-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/248/15640086_115755811388.jpg?size=photos250",
+      "id": 736
+    },
+    {
+      "name": "Herbert Charles   Morlock",
+      "birth_date": "1890-00-00",
+      "death_date": "1948-00-00",
+      "profile_url": "/memorial/15396077/herbert_charles-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/228/15396077_115582534425.jpg?size=photos250",
+      "id": 742
+    },
+    {
+      "name": "Wilber Henry   Morlock",
+      "birth_date": "1892-00-00",
+      "death_date": "1919-00-00",
+      "profile_url": "/memorial/15848245/wilber_henry-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/264/15848245_115893707779.jpg?size=photos250",
+      "id": 761
+    },
+    {
+      "name": "Sybilla Charlotte  Morlock Gaiser",
+      "birth_date": "1893-00-00",
+      "death_date": "1949-00-00",
+      "profile_url": "/memorial/15639747/sybilla_charlotte-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2006/248/15639747_115755558879.jpg?size=photos250",
+      "id": 426
+    },
+    {
+      "name": "Lorne Roy   Morlock",
+      "birth_date": "1895-00-00",
+      "death_date": "1964-00-00",
+      "profile_url": "/memorial/16682023/lorne_roy-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/320/16682023_116378282878.jpg?size=photos250",
+      "id": 746
+    },
+    {
+      "name": "Clinton G   Morlock",
+      "birth_date": "1899-00-00",
+      "death_date": "1942-00-00",
+      "profile_url": "/memorial/15978598/clinton_g-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/275/15978598_115988780068.jpg?size=photos250",
+      "id": 731
+    },
+    {
+      "name": "Clara  Morlock Hoffman",
+      "birth_date": "1902-00-00",
+      "death_date": "1988-00-00",
+      "profile_url": "/memorial/15977764/clara-hoffman",
+      "image_url": "https://images.findagrave.com/photos/2006/275/15977764_115988215596.jpg?size=photos250",
+      "id": 561
+    }
+  ],
   "half_siblings": [],
   "plot_value": "Row 8-11",
   "title": "",

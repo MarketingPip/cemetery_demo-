@@ -31,7 +31,30 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Albert Francis   Beaver\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1956-00-00\", \"profile_url\": \"/memorial/199177595/albert_francis-beaver\"}, {\"name\": \"Edith   Beaver\", \"birth_date\": \"1880-00-00\", \"death_date\": \"1920-00-00\", \"profile_url\": \"/memorial/239200570/edith-beaver\"}, {\"name\": \"Norman   Beaver\", \"birth_date\": \"1884-00-00\", \"death_date\": \"1918-00-00\", \"profile_url\": \"/memorial/239188981/norman-beaver\"}]",
+  "siblings": [
+    {
+      "name": "Albert Francis   Beaver",
+      "birth_date": "1878-00-00",
+      "death_date": "1956-00-00",
+      "profile_url": "/memorial/199177595/albert_francis-beaver"
+    },
+    {
+      "name": "Edith   Beaver",
+      "birth_date": "1880-00-00",
+      "death_date": "1920-00-00",
+      "profile_url": "/memorial/239200570/edith-beaver",
+      "image_url": "https://images.findagrave.com/photos/2022/115/239200570_64698074-190a-4a0a-9f6a-16dbced2a544.jpeg?size=photos250",
+      "id": 16
+    },
+    {
+      "name": "Norman   Beaver",
+      "birth_date": "1884-00-00",
+      "death_date": "1918-00-00",
+      "profile_url": "/memorial/239188981/norman-beaver",
+      "image_url": "https://images.findagrave.com/photos/2022/115/239188981_3c114eb7-b431-42ef-9f88-a9681ab3311e.jpeg?size=photos250",
+      "id": 34
+    }
+  ],
   "half_siblings": [],
   "plot_value": "Row 11-14",
   "title": "",

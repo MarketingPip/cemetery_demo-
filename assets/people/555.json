@@ -31,7 +31,16 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Henry Donald   Hirtzel\", \"birth_date\": \"1914-00-00\", \"death_date\": \"2004-00-00\", \"profile_url\": \"/memorial/41012852/henry_donald-hirtzel\"}]",
+  "siblings": [
+    {
+      "name": "Henry Donald   Hirtzel",
+      "birth_date": "1914-00-00",
+      "death_date": "2004-00-00",
+      "profile_url": "/memorial/41012852/henry_donald-hirtzel",
+      "image_url": "https://images.findagrave.com/photos/2022/116/41012852_e78f6232-57a1-48d8-a51d-66d142fcb6ac.jpeg?size=photos250",
+      "id": 550
+    }
+  ],
   "half_siblings": [],
   "plot_value": "Row 17-3",
   "title": "",

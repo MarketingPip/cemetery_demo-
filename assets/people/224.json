@@ -31,7 +31,16 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Donald Ray   Fahner\", \"birth_date\": \"1959-00-00\", \"death_date\": \"2008-00-00\", \"profile_url\": \"/memorial/41420706/donald_ray-fahner\"}]",
+  "siblings": [
+    {
+      "name": "Donald Ray   Fahner",
+      "birth_date": "1959-00-00",
+      "death_date": "2008-00-00",
+      "profile_url": "/memorial/41420706/donald_ray-fahner",
+      "image_url": "https://images.findagrave.com/photos/2018/209/41420706_ea9eaa7a-ace9-46f4-80b6-46524b258375.jpeg?size=photos250",
+      "id": 215
+    }
+  ],
   "half_siblings": [],
   "plot_value": "",
   "title": "",

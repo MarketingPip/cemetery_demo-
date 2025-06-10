@@ -27,7 +27,14 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Leonard Noble   McLeod\", \"birth_date\": \"1949-00-00\", \"death_date\": \"1987-00-00\", \"profile_url\": \"/memorial/113236160/leonard_noble-mcleod\"}]",
+  "siblings": [
+    {
+      "name": "Leonard Noble   McLeod",
+      "birth_date": "1949-00-00",
+      "death_date": "1987-00-00",
+      "profile_url": "/memorial/113236160/leonard_noble-mcleod"
+    }
+  ],
   "half_siblings": [],
   "plot_value": "",
   "title": "",

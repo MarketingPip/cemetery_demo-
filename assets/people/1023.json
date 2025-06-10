@@ -34,7 +34,22 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Jacob C. \\\"Jake\\\"  Eilber\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1953-00-00\", \"profile_url\": \"/memorial/79714327/jacob_c-eilber\"}, {\"name\": \"Emma  Eilber Uncer\", \"birth_date\": \"1875-00-00\", \"death_date\": \"1950-00-00\", \"profile_url\": \"/memorial/231230160/emma-uncer\"}]",
+  "siblings": [
+    {
+      "name": "Jacob C. \"Jake\"  Eilber",
+      "birth_date": "1867-00-00",
+      "death_date": "1953-00-00",
+      "profile_url": "/memorial/79714327/jacob_c-eilber"
+    },
+    {
+      "name": "Emma  Eilber Uncer",
+      "birth_date": "1875-00-00",
+      "death_date": "1950-00-00",
+      "profile_url": "/memorial/231230160/emma-uncer",
+      "image_url": "https://images.findagrave.com/photos/2022/51/231230160_0ecadd63-78b4-4720-b564-bed2896e2eb4.jpeg?size=photos250",
+      "id": 1081
+    }
+  ],
   "half_siblings": [],
   "plot_value": "5-7",
   "title": "",

@@ -34,7 +34,60 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Bernhard   Finkbeiner\", \"birth_date\": \"1870-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236168945/bernhard-finkbeiner\"}, {\"name\": \"John   Finkbeiner\", \"birth_date\": \"1872-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236168967/john-finkbeiner\"}, {\"name\": \"Samuel   Finkbeiner\", \"birth_date\": \"1876-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236169004/samuel-finkbeiner\"}, {\"name\": \"Elizabeth   Finkbeiner\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236169042/elizabeth-finkbeiner\"}, {\"name\": \"Emma  Finkbeiner Beaver\", \"birth_date\": \"1880-00-00\", \"death_date\": \"1964-00-00\", \"profile_url\": \"/memorial/15554269/emma-beaver\"}, {\"name\": \"Lydia Magdalena  Finkbeiner Huxtable\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1957-00-00\", \"profile_url\": \"/memorial/142698013/lydia_magdalena-huxtable\"}, {\"name\": \"Wesley Albert   Finkbeiner\", \"birth_date\": \"1885-00-00\", \"death_date\": \"1959-00-00\", \"profile_url\": \"/memorial/154960232/wesley_albert-finkbeiner\"}]",
+  "siblings": [
+    {
+      "name": "Bernhard   Finkbeiner",
+      "birth_date": "1870-00-00",
+      "death_date": "1879-00-00",
+      "profile_url": "/memorial/236168945/bernhard-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2022/110/236168945_dafebb6e-e28e-469e-b47c-f16eed366fb9.jpeg?size=photos250",
+      "id": 277
+    },
+    {
+      "name": "John   Finkbeiner",
+      "birth_date": "1872-00-00",
+      "death_date": "1879-00-00",
+      "profile_url": "/memorial/236168967/john-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2022/110/236168967_b0246dcb-e812-4761-a18b-653ecfc84301.jpeg?size=photos250",
+      "id": 323
+    },
+    {
+      "name": "Samuel   Finkbeiner",
+      "birth_date": "1876-00-00",
+      "death_date": "1879-00-00",
+      "profile_url": "/memorial/236169004/samuel-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2022/110/236169004_5ded9b7f-6e0d-48a5-8e8f-eeba986f7b79.jpeg?size=photos250",
+      "id": 365
+    },
+    {
+      "name": "Elizabeth   Finkbeiner",
+      "birth_date": "1878-00-00",
+      "death_date": "1879-00-00",
+      "profile_url": "/memorial/236169042/elizabeth-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2022/110/236169042_2f157c5b-cbc9-4446-88f2-0580263fe84d.jpeg?size=photos250",
+      "id": 295
+    },
+    {
+      "name": "Emma  Finkbeiner Beaver",
+      "birth_date": "1880-00-00",
+      "death_date": "1964-00-00",
+      "profile_url": "/memorial/15554269/emma-beaver",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15554269_115694952851.jpg?size=photos250",
+      "id": 17
+    },
+    {
+      "name": "Lydia Magdalena  Finkbeiner Huxtable",
+      "birth_date": "1882-00-00",
+      "death_date": "1957-00-00",
+      "profile_url": "/memorial/142698013/lydia_magdalena-huxtable"
+    },
+    {
+      "name": "Wesley Albert   Finkbeiner",
+      "birth_date": "1885-00-00",
+      "death_date": "1959-00-00",
+      "profile_url": "/memorial/154960232/wesley_albert-finkbeiner"
+    }
+  ],
   "half_siblings": [],
   "plot_value": "3-8",
   "title": "",

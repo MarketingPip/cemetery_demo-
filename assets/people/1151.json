@@ -30,7 +30,28 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Marie  Wenzel Herrick\", \"birth_date\": \"1844-00-00\", \"death_date\": \"1931-00-00\", \"profile_url\": \"/memorial/49467165/marie-herrick\"}, {\"name\": \"William Henry   Wenzel\", \"birth_date\": \"1857-00-00\", \"death_date\": \"1924-00-00\", \"profile_url\": \"/memorial/70676033/william_henry-wenzel\"}, {\"name\": \"Andrew   Wenzel\", \"birth_date\": \"1859-00-00\", \"death_date\": \"1922-00-00\", \"profile_url\": \"/memorial/90235208/andrew-wenzel\"}]",
+  "siblings": [
+    {
+      "name": "Marie  Wenzel Herrick",
+      "birth_date": "1844-00-00",
+      "death_date": "1931-00-00",
+      "profile_url": "/memorial/49467165/marie-herrick"
+    },
+    {
+      "name": "William Henry   Wenzel",
+      "birth_date": "1857-00-00",
+      "death_date": "1924-00-00",
+      "profile_url": "/memorial/70676033/william_henry-wenzel",
+      "image_url": "https://images.findagrave.com/photos/2013/267/70676033_138016423803.jpg?size=photos250",
+      "id": 1153
+    },
+    {
+      "name": "Andrew   Wenzel",
+      "birth_date": "1859-00-00",
+      "death_date": "1922-00-00",
+      "profile_url": "/memorial/90235208/andrew-wenzel"
+    }
+  ],
   "half_siblings": [],
   "plot_value": "Row 10-1",
   "title": "",

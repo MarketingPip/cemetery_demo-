@@ -27,7 +27,32 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Leslie John   Pryce\", \"birth_date\": \"1920-00-00\", \"death_date\": \"1964-00-00\", \"profile_url\": \"/memorial/144537000/leslie_john-pryce\"}, {\"name\": \"Beatrice E.   Pryce\", \"birth_date\": \"1922-00-00\", \"death_date\": \"2006-00-00\", \"profile_url\": \"/memorial/143432323/beatrice_e-pryce\"}, {\"name\": \"Jean Agnes  Pryce Doerr\", \"birth_date\": \"1925-00-00\", \"death_date\": \"2018-00-00\", \"profile_url\": \"/memorial/254206399/jean_agnes-doerr\"}, {\"name\": \"Alvin William Thomas   Pryce\", \"birth_date\": \"1927-00-00\", \"death_date\": \"1987-00-00\", \"profile_url\": \"/memorial/150031731/alvin_william_thomas-pryce\"}]",
+  "siblings": [
+    {
+      "name": "Leslie John   Pryce",
+      "birth_date": "1920-00-00",
+      "death_date": "1964-00-00",
+      "profile_url": "/memorial/144537000/leslie_john-pryce"
+    },
+    {
+      "name": "Beatrice E.   Pryce",
+      "birth_date": "1922-00-00",
+      "death_date": "2006-00-00",
+      "profile_url": "/memorial/143432323/beatrice_e-pryce"
+    },
+    {
+      "name": "Jean Agnes  Pryce Doerr",
+      "birth_date": "1925-00-00",
+      "death_date": "2018-00-00",
+      "profile_url": "/memorial/254206399/jean_agnes-doerr"
+    },
+    {
+      "name": "Alvin William Thomas   Pryce",
+      "birth_date": "1927-00-00",
+      "death_date": "1987-00-00",
+      "profile_url": "/memorial/150031731/alvin_william_thomas-pryce"
+    }
+  ],
   "half_siblings": [],
   "plot_value": "",
   "title": "",

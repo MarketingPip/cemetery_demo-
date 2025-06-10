@@ -30,7 +30,20 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Ernest \\\"Ernie\\\"  Case\", \"birth_date\": \"1946-00-00\", \"death_date\": \"2023-00-00\", \"profile_url\": \"/memorial/255625031/ernest-case\"}, {\"name\": \"Kenneth Wayne \\\"Ken\\\"  Case\", \"birth_date\": \"1956-00-00\", \"death_date\": \"1983-00-00\", \"profile_url\": \"/memorial/198655074/kenneth_wayne-case\"}]",
+  "siblings": [
+    {
+      "name": "Ernest \"Ernie\"  Case",
+      "birth_date": "1946-00-00",
+      "death_date": "2023-00-00",
+      "profile_url": "/memorial/255625031/ernest-case"
+    },
+    {
+      "name": "Kenneth Wayne \"Ken\"  Case",
+      "birth_date": "1956-00-00",
+      "death_date": "1983-00-00",
+      "profile_url": "/memorial/198655074/kenneth_wayne-case"
+    }
+  ],
   "half_siblings": [],
   "plot_value": "",
   "title": "",

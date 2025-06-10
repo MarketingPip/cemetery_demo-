@@ -30,7 +30,28 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Almeda M.  Stanley Hewitt\", \"birth_date\": \"1876-00-00\", \"death_date\": \"1956-00-00\", \"profile_url\": \"/memorial/218880793/almeda_m-hewitt\"}, {\"name\": \"Mary (Mae) Venetta  Stanley Stretton\", \"birth_date\": \"1880-00-00\", \"death_date\": \"1951-00-00\", \"profile_url\": \"/memorial/249616877/mary_(mae)_venetta-stretton\"}, {\"name\": \"Charles H   Stanley\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1883-00-00\", \"profile_url\": \"/memorial/239188082/charles_h-stanley\"}]",
+  "siblings": [
+    {
+      "name": "Almeda M.  Stanley Hewitt",
+      "birth_date": "1876-00-00",
+      "death_date": "1956-00-00",
+      "profile_url": "/memorial/218880793/almeda_m-hewitt"
+    },
+    {
+      "name": "Mary (Mae) Venetta  Stanley Stretton",
+      "birth_date": "1880-00-00",
+      "death_date": "1951-00-00",
+      "profile_url": "/memorial/249616877/mary_(mae)_venetta-stretton"
+    },
+    {
+      "name": "Charles H   Stanley",
+      "birth_date": "1882-00-00",
+      "death_date": "1883-00-00",
+      "profile_url": "/memorial/239188082/charles_h-stanley",
+      "image_url": "https://images.findagrave.com/photos/2022/114/239188082_44e12c2f-a685-4500-a928-b6f3b969af48.jpeg?size=photos250",
+      "id": 1011
+    }
+  ],
   "half_siblings": [],
   "plot_value": "row 11-2",
   "title": "",

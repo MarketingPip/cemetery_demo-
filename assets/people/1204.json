@@ -34,7 +34,30 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Albertina Matilda  Wuerth Glanville\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1971-00-00\", \"profile_url\": \"/memorial/147359190/albertina_matilda-glanville\"}, {\"name\": \"Alfred Emanuel   Wuerth\", \"birth_date\": \"1891-00-00\", \"death_date\": \"1974-00-00\", \"profile_url\": \"/memorial/16550577/alfred_emanuel-wuerth\"}, {\"name\": \"Edgar E   Wuerth\", \"birth_date\": \"1896-00-00\", \"death_date\": \"1969-00-00\", \"profile_url\": \"/memorial/15553531/edgar_e-wuerth\"}]",
+  "siblings": [
+    {
+      "name": "Albertina Matilda  Wuerth Glanville",
+      "birth_date": "1878-00-00",
+      "death_date": "1971-00-00",
+      "profile_url": "/memorial/147359190/albertina_matilda-glanville"
+    },
+    {
+      "name": "Alfred Emanuel   Wuerth",
+      "birth_date": "1891-00-00",
+      "death_date": "1974-00-00",
+      "profile_url": "/memorial/16550577/alfred_emanuel-wuerth",
+      "image_url": "https://images.findagrave.com/photos/2006/311/16550577_116299628837.jpg?size=photos250",
+      "id": 1191
+    },
+    {
+      "name": "Edgar E   Wuerth",
+      "birth_date": "1896-00-00",
+      "death_date": "1969-00-00",
+      "profile_url": "/memorial/15553531/edgar_e-wuerth",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15553531_115694270295.jpg?size=photos250",
+      "id": 1194
+    }
+  ],
   "half_siblings": [],
   "plot_value": "row 10-9",
   "title": "",

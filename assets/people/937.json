@@ -34,7 +34,24 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Salome   Schmidt\", \"birth_date\": \"1866-00-00\", \"death_date\": \"1866-00-00\", \"profile_url\": \"/memorial/236187655/salome-schmidt\"}, {\"name\": \"Charles W.   Schmidt\", \"birth_date\": \"1873-00-00\", \"death_date\": \"1874-00-00\", \"profile_url\": \"/memorial/188136758/charles_w-schmidt\"}]",
+  "siblings": [
+    {
+      "name": "Salome   Schmidt",
+      "birth_date": "1866-00-00",
+      "death_date": "1866-00-00",
+      "profile_url": "/memorial/236187655/salome-schmidt",
+      "image_url": "https://images.findagrave.com/photos/2022/111/236187655_a28367a7-30eb-4a4a-8d13-68445133d764.jpeg?size=photos250",
+      "id": 939
+    },
+    {
+      "name": "Charles W.   Schmidt",
+      "birth_date": "1873-00-00",
+      "death_date": "1874-00-00",
+      "profile_url": "/memorial/188136758/charles_w-schmidt",
+      "image_url": "https://images.findagrave.com/photos/2022/111/188136758_861c85c7-07b3-4352-b647-7a766faa7233.jpeg?size=photos250",
+      "id": 936
+    }
+  ],
   "half_siblings": [],
   "plot_value": "4-8",
   "title": "",

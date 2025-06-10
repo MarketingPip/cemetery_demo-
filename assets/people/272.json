@@ -31,7 +31,28 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Russell E   Finkbeiner\", \"birth_date\": \"1913-00-00\", \"death_date\": \"1984-00-00\", \"profile_url\": \"/memorial/15553640/russell_e-finkbeiner\"}, {\"name\": \"Helen K  Finkbeiner Fawcett\", \"birth_date\": \"1915-00-00\", \"death_date\": \"1962-00-00\", \"profile_url\": \"/memorial/15294761/helen_k-fawcett\"}, {\"name\": \"Lillian Irene  Finkbeiner Hendry\", \"birth_date\": \"1921-00-00\", \"death_date\": \"2008-00-00\", \"profile_url\": \"/memorial/222449218/lillian_irene-hendry\"}]",
+  "siblings": [
+    {
+      "name": "Russell E   Finkbeiner",
+      "birth_date": "1913-00-00",
+      "death_date": "1984-00-00",
+      "profile_url": "/memorial/15553640/russell_e-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15553640_115694407157.jpg?size=photos250",
+      "id": 363
+    },
+    {
+      "name": "Helen K  Finkbeiner Fawcett",
+      "birth_date": "1915-00-00",
+      "death_date": "1962-00-00",
+      "profile_url": "/memorial/15294761/helen_k-fawcett"
+    },
+    {
+      "name": "Lillian Irene  Finkbeiner Hendry",
+      "birth_date": "1921-00-00",
+      "death_date": "2008-00-00",
+      "profile_url": "/memorial/222449218/lillian_irene-hendry"
+    }
+  ],
   "half_siblings": [],
   "plot_value": "Row 16-2",
   "title": "",

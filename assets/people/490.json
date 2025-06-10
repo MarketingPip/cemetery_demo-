@@ -34,7 +34,22 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Royal Howard   Haist\", \"birth_date\": \"1905-00-00\", \"death_date\": \"1979-00-00\", \"profile_url\": \"/memorial/15698467/royal_howard-haist\"}, {\"name\": \"Arthur Gerald \\\"Art\\\"  Haist\", \"birth_date\": \"1916-00-00\", \"death_date\": \"2002-00-00\", \"profile_url\": \"/memorial/15042881/arthur_gerald-haist\"}]",
+  "siblings": [
+    {
+      "name": "Royal Howard   Haist",
+      "birth_date": "1905-00-00",
+      "death_date": "1979-00-00",
+      "profile_url": "/memorial/15698467/royal_howard-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/253/15698467_115799061610.jpg?size=photos250",
+      "id": 508
+    },
+    {
+      "name": "Arthur Gerald \"Art\"  Haist",
+      "birth_date": "1916-00-00",
+      "death_date": "2002-00-00",
+      "profile_url": "/memorial/15042881/arthur_gerald-haist"
+    }
+  ],
   "half_siblings": [],
   "plot_value": "3-11",
   "title": "",

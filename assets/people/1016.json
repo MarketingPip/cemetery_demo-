@@ -34,7 +34,16 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Willis Stanley Ecron   Stewardson\", \"birth_date\": \"1941-00-00\", \"death_date\": \"2009-00-00\", \"profile_url\": \"/memorial/44646061/willis_stanley_ecron-stewardson\"}]",
+  "siblings": [
+    {
+      "name": "Willis Stanley Ecron   Stewardson",
+      "birth_date": "1941-00-00",
+      "death_date": "2009-00-00",
+      "profile_url": "/memorial/44646061/willis_stanley_ecron-stewardson",
+      "image_url": "https://images.findagrave.com/photos/2022/86/44646061_91790266-7313-4a24-8ec5-cccdbc71d29a.jpeg?size=photos250",
+      "id": 1020
+    }
+  ],
   "half_siblings": [
     {
       "name": "William A. \"Bill\"  Stewardson",

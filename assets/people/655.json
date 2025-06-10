@@ -30,7 +30,26 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Jean Campbell Stevenson  Lambie Andrews\", \"birth_date\": \"1898-00-00\", \"death_date\": \"1995-00-00\", \"profile_url\": \"/memorial/191434087/jean_campbell_stevenson-andrews\"}, {\"name\": \"Isabel   Lambie\", \"birth_date\": \"1909-00-00\", \"death_date\": \"1928-00-00\", \"profile_url\": \"/memorial/191381002/isabel-lambie\"}, {\"name\": \"Arthur Sheldon \\\"Art\\\"  Lambie\", \"birth_date\": \"1936-00-00\", \"death_date\": \"2015-00-00\", \"profile_url\": \"/memorial/201523724/arthur_sheldon-lambie\"}]",
+  "siblings": [
+    {
+      "name": "Jean Campbell Stevenson  Lambie Andrews",
+      "birth_date": "1898-00-00",
+      "death_date": "1995-00-00",
+      "profile_url": "/memorial/191434087/jean_campbell_stevenson-andrews"
+    },
+    {
+      "name": "Isabel   Lambie",
+      "birth_date": "1909-00-00",
+      "death_date": "1928-00-00",
+      "profile_url": "/memorial/191381002/isabel-lambie"
+    },
+    {
+      "name": "Arthur Sheldon \"Art\"  Lambie",
+      "birth_date": "1936-00-00",
+      "death_date": "2015-00-00",
+      "profile_url": "/memorial/201523724/arthur_sheldon-lambie"
+    }
+  ],
   "half_siblings": [],
   "plot_value": "",
   "title": "",

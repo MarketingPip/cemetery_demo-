@@ -31,7 +31,16 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Lydia   Gaiser\", \"birth_date\": \"1889-00-00\", \"death_date\": \"1897-00-00\", \"profile_url\": \"/memorial/239213966/lydia-gaiser\"}]",
+  "siblings": [
+    {
+      "name": "Lydia   Gaiser",
+      "birth_date": "1889-00-00",
+      "death_date": "1897-00-00",
+      "profile_url": "/memorial/239213966/lydia-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2022/115/239213966_9c81f6e0-3535-4c47-a6c1-0f8e5715ddba.jpeg?size=photos250",
+      "id": 413
+    }
+  ],
   "half_siblings": [],
   "plot_value": "Row 12-5",
   "title": "",

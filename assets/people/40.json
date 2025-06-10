@@ -31,7 +31,32 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Clara  Wenzel MacDonald\", \"birth_date\": \"1885-00-00\", \"death_date\": \"1943-00-00\", \"profile_url\": \"/memorial/158033806/clara-macdonald\"}, {\"name\": \"Martha  Wenzel Berg\", \"birth_date\": \"1887-00-00\", \"death_date\": \"1962-00-00\", \"profile_url\": \"/memorial/15580244/martha-berg\"}, {\"name\": \"Mabel  Wenzel Fahrner\", \"birth_date\": \"1895-00-00\", \"death_date\": \"1983-00-00\", \"profile_url\": \"/memorial/15580255/mabel-fahrner\"}]",
+  "siblings": [
+    {
+      "name": "Clara  Wenzel MacDonald",
+      "birth_date": "1885-00-00",
+      "death_date": "1943-00-00",
+      "profile_url": "/memorial/158033806/clara-macdonald",
+      "image_url": "https://images.findagrave.com/photos/2018/209/158033806_bd07104b-5bd6-41a2-a137-96f2f2baf427.jpeg?size=photos250",
+      "id": 683
+    },
+    {
+      "name": "Martha  Wenzel Berg",
+      "birth_date": "1887-00-00",
+      "death_date": "1962-00-00",
+      "profile_url": "/memorial/15580244/martha-berg",
+      "image_url": "https://images.findagrave.com/photos/2006/244/15580244_115720066867.jpg?size=photos250",
+      "id": 49
+    },
+    {
+      "name": "Mabel  Wenzel Fahrner",
+      "birth_date": "1895-00-00",
+      "death_date": "1983-00-00",
+      "profile_url": "/memorial/15580255/mabel-fahrner",
+      "image_url": "https://images.findagrave.com/photos/2006/244/15580255_115720080729.jpg?size=photos250",
+      "id": 253
+    }
+  ],
   "half_siblings": [],
   "plot_value": "Row 10-1",
   "title": "",

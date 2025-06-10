@@ -31,7 +31,16 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Chester W   Gaiser\", \"birth_date\": \"1891-00-00\", \"death_date\": \"1892-00-00\", \"profile_url\": \"/memorial/239203831/chester_w-gaiser\"}]",
+  "siblings": [
+    {
+      "name": "Chester W   Gaiser",
+      "birth_date": "1891-00-00",
+      "death_date": "1892-00-00",
+      "profile_url": "/memorial/239203831/chester_w-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2022/115/239203831_925be5ee-c3dd-4f55-a454-d8b3b0412641.jpeg?size=photos250",
+      "id": 393
+    }
+  ],
   "half_siblings": [],
   "plot_value": "Row 12-2",
   "title": "",

@@ -34,7 +34,36 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Charles Frederick   Fahrner\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1948-00-00\", \"profile_url\": \"/memorial/16681973/charles_frederick-fahrner\"}, {\"name\": \"David   Fahner\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1960-00-00\", \"profile_url\": \"/memorial/106275086/david-fahner\"}, {\"name\": \"Agnes  Fahrner Kuhn\", \"birth_date\": \"1884-00-00\", \"death_date\": \"1949-00-00\", \"profile_url\": \"/memorial/15554449/agnes-kuhn\"}, {\"name\": \"Eli   Fahner\", \"birth_date\": \"1886-00-00\", \"death_date\": \"1975-00-00\", \"profile_url\": \"/memorial/245426850/eli-fahner\"}]",
+  "siblings": [
+    {
+      "name": "Charles Frederick   Fahrner",
+      "birth_date": "1877-00-00",
+      "death_date": "1948-00-00",
+      "profile_url": "/memorial/16681973/charles_frederick-fahrner",
+      "image_url": "https://images.findagrave.com/photos/2006/320/16681973_116378253533.jpg?size=photos250",
+      "id": 237
+    },
+    {
+      "name": "David   Fahner",
+      "birth_date": "1882-00-00",
+      "death_date": "1960-00-00",
+      "profile_url": "/memorial/106275086/david-fahner"
+    },
+    {
+      "name": "Agnes  Fahrner Kuhn",
+      "birth_date": "1884-00-00",
+      "death_date": "1949-00-00",
+      "profile_url": "/memorial/15554449/agnes-kuhn",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15554449_115695064549.jpg?size=photos250",
+      "id": 640
+    },
+    {
+      "name": "Eli   Fahner",
+      "birth_date": "1886-00-00",
+      "death_date": "1975-00-00",
+      "profile_url": "/memorial/245426850/eli-fahner"
+    }
+  ],
   "half_siblings": [],
   "plot_value": "2-7",
   "title": "",

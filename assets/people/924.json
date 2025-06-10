@@ -34,7 +34,16 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Karl Nelson   Schink\", \"birth_date\": \"1885-00-00\", \"death_date\": \"1887-00-00\", \"profile_url\": \"/memorial/188136753/karl_nelson-schink\"}]",
+  "siblings": [
+    {
+      "name": "Karl Nelson   Schink",
+      "birth_date": "1885-00-00",
+      "death_date": "1887-00-00",
+      "profile_url": "/memorial/188136753/karl_nelson-schink",
+      "image_url": "https://images.findagrave.com/photos/2022/113/188136753_43be383c-7ef4-4c8f-8e7f-508a1b92e48b.jpeg?size=photos250",
+      "id": 933
+    }
+  ],
   "half_siblings": [],
   "plot_value": "row 8-3",
   "title": "",

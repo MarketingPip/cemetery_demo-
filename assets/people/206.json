@@ -30,7 +30,80 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Frederike Auguste \\\"Ricki and Frieda\\\" Ewald Klump\", \"birth_date\": \"1861-00-00\", \"death_date\": \"1941-00-00\", \"profile_url\": \"/memorial/14456307/frederike_auguste-klump\"}, {\"name\": \"Herman Friederich Wilhelm   Ewald\", \"birth_date\": \"1863-00-00\", \"death_date\": \"1863-00-00\", \"profile_url\": \"/memorial/138022182/herman_friederich_wilhelm-ewald\"}, {\"name\": \"Marie Auguste Wilhelmine \\\"Mary\\\" Ewald Young\", \"birth_date\": \"1864-00-00\", \"death_date\": \"1918-00-00\", \"profile_url\": \"/memorial/36398363/marie_auguste_wilhelmine-young\"}, {\"name\": \"Wilhelmina \\\"Minnie\\\" Ewald Brown\", \"birth_date\": \"1866-00-00\", \"death_date\": \"1934-00-00\", \"profile_url\": \"/memorial/138021634/wilhelmina-brown\"}, {\"name\": \"Emilie Auguste Luise \\\"Emily or Millie\\\" Ewald Kassermann\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1919-00-00\", \"profile_url\": \"/memorial/131018056/emilie_auguste_luise-kassermann\"}, {\"name\": \"William Christian Ludwig \\\"Bill\\\"  Ewald\", \"birth_date\": \"1869-00-00\", \"death_date\": \"1948-00-00\", \"profile_url\": \"/memorial/36397701/william_christian_ludwig-ewald\"}, {\"name\": \"Anna Caroline  Ewald Glombitza\", \"birth_date\": \"1871-00-00\", \"death_date\": \"1946-00-00\", \"profile_url\": \"/memorial/138022711/anna_caroline-glombitza\"}, {\"name\": \"Anna Caroline  Ewald Glombitza\", \"birth_date\": \"1871-00-00\", \"death_date\": \"1946-00-00\", \"profile_url\": \"/memorial/249614832/anna_caroline-glombitza\"}, {\"name\": \"Herman   Ewald\", \"birth_date\": \"1874-00-00\", \"death_date\": null, \"profile_url\": \"/memorial/138022904/herman-ewald\"}, {\"name\": \"Carl   Ewald\", \"birth_date\": \"1876-00-00\", \"death_date\": \"1882-00-00\", \"profile_url\": \"/memorial/136304057/carl-ewald\"}, {\"name\": \"Fred William   Ewald\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1961-00-00\", \"profile_url\": \"/memorial/36397696/fred_william-ewald\"}, {\"name\": \"Otto Wilhelm \\\"Art\\\"  Ewald\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1955-00-00\", \"profile_url\": \"/memorial/8682935/otto_wilhelm-ewald\"}]",
+  "siblings": [
+    {
+      "name": "Frederike Auguste \"Ricki and Frieda\" Ewald Klump",
+      "birth_date": "1861-00-00",
+      "death_date": "1941-00-00",
+      "profile_url": "/memorial/14456307/frederike_auguste-klump"
+    },
+    {
+      "name": "Herman Friederich Wilhelm   Ewald",
+      "birth_date": "1863-00-00",
+      "death_date": "1863-00-00",
+      "profile_url": "/memorial/138022182/herman_friederich_wilhelm-ewald"
+    },
+    {
+      "name": "Marie Auguste Wilhelmine \"Mary\" Ewald Young",
+      "birth_date": "1864-00-00",
+      "death_date": "1918-00-00",
+      "profile_url": "/memorial/36398363/marie_auguste_wilhelmine-young"
+    },
+    {
+      "name": "Wilhelmina \"Minnie\" Ewald Brown",
+      "birth_date": "1866-00-00",
+      "death_date": "1934-00-00",
+      "profile_url": "/memorial/138021634/wilhelmina-brown"
+    },
+    {
+      "name": "Emilie Auguste Luise \"Emily or Millie\" Ewald Kassermann",
+      "birth_date": "1867-00-00",
+      "death_date": "1919-00-00",
+      "profile_url": "/memorial/131018056/emilie_auguste_luise-kassermann"
+    },
+    {
+      "name": "William Christian Ludwig \"Bill\"  Ewald",
+      "birth_date": "1869-00-00",
+      "death_date": "1948-00-00",
+      "profile_url": "/memorial/36397701/william_christian_ludwig-ewald"
+    },
+    {
+      "name": "Anna Caroline  Ewald Glombitza",
+      "birth_date": "1871-00-00",
+      "death_date": "1946-00-00",
+      "profile_url": "/memorial/138022711/anna_caroline-glombitza"
+    },
+    {
+      "name": "Anna Caroline  Ewald Glombitza",
+      "birth_date": "1871-00-00",
+      "death_date": "1946-00-00",
+      "profile_url": "/memorial/249614832/anna_caroline-glombitza"
+    },
+    {
+      "name": "Herman   Ewald",
+      "birth_date": "1874-00-00",
+      "death_date": null,
+      "profile_url": "/memorial/138022904/herman-ewald"
+    },
+    {
+      "name": "Carl   Ewald",
+      "birth_date": "1876-00-00",
+      "death_date": "1882-00-00",
+      "profile_url": "/memorial/136304057/carl-ewald"
+    },
+    {
+      "name": "Fred William   Ewald",
+      "birth_date": "1877-00-00",
+      "death_date": "1961-00-00",
+      "profile_url": "/memorial/36397696/fred_william-ewald"
+    },
+    {
+      "name": "Otto Wilhelm \"Art\"  Ewald",
+      "birth_date": "1878-00-00",
+      "death_date": "1955-00-00",
+      "profile_url": "/memorial/8682935/otto_wilhelm-ewald"
+    }
+  ],
   "half_siblings": [],
   "plot_value": "3-12",
   "title": "",

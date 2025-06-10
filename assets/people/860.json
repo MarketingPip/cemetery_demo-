@@ -34,7 +34,16 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Harvey Ervin   Ratz\", \"birth_date\": \"1923-00-00\", \"death_date\": \"2015-00-00\", \"profile_url\": \"/memorial/150465137/harvey_ervin-ratz\"}]",
+  "siblings": [
+    {
+      "name": "Harvey Ervin   Ratz",
+      "birth_date": "1923-00-00",
+      "death_date": "2015-00-00",
+      "profile_url": "/memorial/150465137/harvey_ervin-ratz",
+      "image_url": "https://images.findagrave.com/photos/2023/227/150465137_529ab1f0-d47e-44a7-896e-454c0bdb8c4c.jpeg?size=photos250",
+      "id": 867
+    }
+  ],
   "half_siblings": [],
   "plot_value": "",
   "title": "",

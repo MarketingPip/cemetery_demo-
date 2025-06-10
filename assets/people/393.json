@@ -31,7 +31,16 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Borden L.   Gaiser\", \"birth_date\": \"1911-00-00\", \"death_date\": \"1973-00-00\", \"profile_url\": \"/memorial/188037502/borden_l-gaiser\"}]",
+  "siblings": [
+    {
+      "name": "Borden L.   Gaiser",
+      "birth_date": "1911-00-00",
+      "death_date": "1973-00-00",
+      "profile_url": "/memorial/188037502/borden_l-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2022/116/188037502_74457ff1-4f48-4fd9-a2d1-f1e3ae45480f.jpeg?size=photos250",
+      "id": 390
+    }
+  ],
   "half_siblings": [],
   "plot_value": "Row 12-2",
   "title": "",

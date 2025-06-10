@@ -34,7 +34,50 @@
   ],
   "spouses": [],
   "children": [],
-  "siblings": "[{\"name\": \"Alfred Herman   Neeb\", \"birth_date\": \"1907-00-00\", \"death_date\": \"1909-00-00\", \"profile_url\": \"/memorial/15650718/alfred_herman-neeb\"}, {\"name\": \"Erna E  Neeb MacDonald Allison\", \"birth_date\": \"1908-00-00\", \"death_date\": \"1998-00-00\", \"profile_url\": \"/memorial/271301726/erna_e-macdonald_allison\"}, {\"name\": \"Thelma  Neeb Pearce\", \"birth_date\": \"1913-00-00\", \"death_date\": \"1982-00-00\", \"profile_url\": \"/memorial/15803974/thelma-pearce\"}, {\"name\": \"Sydney   Neeb\", \"birth_date\": \"1919-00-00\", \"death_date\": \"2003-00-00\", \"profile_url\": \"/memorial/15117508/sydney-neeb\"}, {\"name\": \"Harvey   Neeb\", \"birth_date\": \"1920-00-00\", \"death_date\": \"1964-00-00\", \"profile_url\": \"/memorial/15650728/harvey-neeb\"}, {\"name\": \"Ward   Neeb\", \"birth_date\": \"1922-00-00\", \"death_date\": \"1985-00-00\", \"profile_url\": \"/memorial/15116965/ward-neeb\"}]",
+  "siblings": [
+    {
+      "name": "Alfred Herman   Neeb",
+      "birth_date": "1907-00-00",
+      "death_date": "1909-00-00",
+      "profile_url": "/memorial/15650718/alfred_herman-neeb",
+      "image_url": "https://images.findagrave.com/photos/2006/249/15650718_115764423732.jpg?size=photos250",
+      "id": 780
+    },
+    {
+      "name": "Erna E  Neeb MacDonald Allison",
+      "birth_date": "1908-00-00",
+      "death_date": "1998-00-00",
+      "profile_url": "/memorial/271301726/erna_e-macdonald_allison"
+    },
+    {
+      "name": "Thelma  Neeb Pearce",
+      "birth_date": "1913-00-00",
+      "death_date": "1982-00-00",
+      "profile_url": "/memorial/15803974/thelma-pearce"
+    },
+    {
+      "name": "Sydney   Neeb",
+      "birth_date": "1919-00-00",
+      "death_date": "2003-00-00",
+      "profile_url": "/memorial/15117508/sydney-neeb",
+      "image_url": "https://images.findagrave.com/photos/2006/213/15117508_115452463653.jpg?size=photos250",
+      "id": 785
+    },
+    {
+      "name": "Harvey   Neeb",
+      "birth_date": "1920-00-00",
+      "death_date": "1964-00-00",
+      "profile_url": "/memorial/15650728/harvey-neeb",
+      "image_url": "https://images.findagrave.com/photos/2006/249/15650728_115764431716.jpg?size=photos250",
+      "id": 783
+    },
+    {
+      "name": "Ward   Neeb",
+      "birth_date": "1922-00-00",
+      "death_date": "1985-00-00",
+      "profile_url": "/memorial/15116965/ward-neeb"
+    }
+  ],
   "half_siblings": [],
   "plot_value": "2-1",
   "title": "",
