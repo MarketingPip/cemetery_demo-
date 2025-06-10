@@ -44,6 +44,8 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
       if (!homePage) {
         record.parents = parseJsonField(record.parents);
         record.spouses = parseJsonField(record.spouses);
+        record.children = parseJsonField(record.children);
+        record.half_siblings = parseJsonField(record.half_siblings);
       }
 
       // Handle 'gps' field (replace single quotes and parse JSON string)
