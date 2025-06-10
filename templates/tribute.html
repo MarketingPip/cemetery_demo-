@@ -507,12 +507,18 @@ function renderFamily(family) {
     const childrenSection = renderSection('Children', Array.isArray(family.children) && family.children.length > 0 ? family.children : []);
 
     // Combine siblings and children into a grid layout if both sections exist
-    const gridSection = (siblingsSection || childrenSection) ? `
+let gridSection = '';
+
+if (siblingsSection && childrenSection) {
+    gridSection = `
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>${siblingsSection}</div>
             <div>${childrenSection}</div>
         </div>
-    ` : '';
+    `;
+} else if (siblingsSection || childrenSection) {
+    gridSection = siblingsSection || childrenSection;
+}
 
     // Combine all sections
     container.innerHTML = `
