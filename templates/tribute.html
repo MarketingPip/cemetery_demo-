@@ -183,7 +183,7 @@ permalink: /tribute/
         <div class="p-4 sm:p-6 space-y-4 overflow-y-auto flex-grow">
           <!-- Person Info with Share & Print Buttons -->
           <div class="flex flex-col sm:flex-row items-center">
-            <img id="tribute-image" alt="Tribute Photo" class="w-32 h-32 sm:w-40 sm:h-40 rounded-md mb-4 sm:mb-0 sm:mr-4 object-cover image-placeholder" src="/api/placeholder/400/300">
+            <img id="tribute-image" alt="Tribute Photo" class="w-32 h-32 sm:w-40 sm:h-40 rounded-md mb-4 sm:mb-0 sm:mr-4 object-cover image-placeholder lightbox" src="/api/placeholder/400/300">
             <div class="flex flex-col space-y-2 w-full">
               <p><strong>Birth Date:</strong> <span id="tribute-birth">N/A</span></p>
               <p><strong>Death Date:</strong> <span id="tribute-death">N/A</span></p>
@@ -434,7 +434,7 @@ function closeLightbox() {
 
 // Add lightbox functionality to all photos in the Photos tab
 function initLightBox(){    
-const photoItems = document.body.querySelectorAll("img");
+const photoItems = document.body.querySelectorAll(".lightbox");
 
 photoItems.forEach((img) => {
   // Add the new event listener
