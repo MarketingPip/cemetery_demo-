@@ -45,12 +45,12 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
       };
 
       // Handle 'parents' and 'spouses' fields when homePage is false
-    /*  if (!homePage) {
+     if (!homePage) {
         record.parents = parseJsonField(record.parents);
         record.spouses = parseJsonField(record.spouses);
         record.children = parseJsonField(record.children);
         record.half_siblings = parseJsonField(record.half_siblings);
-      }*/
+      }
 
       // Handle 'gps' field (replace single quotes and parse JSON string)
       if (record.gps && record.gps.trim().length) {
