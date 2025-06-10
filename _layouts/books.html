@@ -134,7 +134,8 @@ title: Books
   <div class="container mx-auto px-4">
     <h1 class="text-3xl font-bold mb-6 text-center">Books</h1>
 
-    {% assign books_by_year = site.books | sort: "date" | reverse %}
+    {% assign full_date = book.year | append: "-01-01" %}
+    {% assign book_year = full_date | date: "%Y" %}
     {% assign current_year = "" %}
 
     {% for book in books_by_year %}
