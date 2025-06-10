@@ -103,17 +103,17 @@ layout: default
       <div class="flex flex-col sm:flex-row items-start sm:items-center">
         {% if page.cover %}
           <figure class="sm:mr-6 mb-6 sm:mb-0 w-64 mx-auto sm:mx-0">
-            <img class="rounded shadow-md" alt="{{ page.title }} cover" src="{{ site.baseurl }}/images/covers/{{ page.cover }}" />
+            <img class="rounded shadow-md" alt="{{ page.title }} cover" onerror="this.onerror=null; this.src='https://openlibrary.org/images/icons/avatar_book-sm.png';" src="{{ site.baseurl }}/images/covers/{{ page.cover }}" />
             <figcaption class="text-center text-sm text-gray-600 mt-2">Cover of <em>{{ page.title }}</em></figcaption>
           </figure>
         {% elsif page.olid %}
           <figure class="sm:mr-6 mb-6 sm:mb-0 w-64 mx-auto sm:mx-0">
-            <img class="rounded shadow-md" alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false" />
+            <img class="rounded shadow-md" alt="{{ page.title }} cover" onerror="this.onerror=null; this.src='https://openlibrary.org/images/icons/avatar_book-sm.png';" src="http://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false" />
             <figcaption class="text-center text-sm text-gray-600 mt-2">Cover of <em>{{ page.title }}</em> on the <a class="underline text-blue-600" href="https://openlibrary.org/olid/{{ page.olid }}">Open Library</a>.</figcaption>
           </figure>
         {% elsif page.isbn %}
           <figure class="sm:mr-6 mb-6 sm:mb-0 w-64 mx-auto sm:mx-0">
-            <img class="rounded shadow-md" alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg?default=false" />
+            <img class="rounded shadow-md" alt="{{ page.title }} cover" onerror="this.onerror=null; this.src='https://openlibrary.org/images/icons/avatar_book-sm.png';" src="http://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg?default=false" />
             <figcaption class="text-center text-sm text-gray-600 mt-2">Cover of <em>{{ page.title }}</em> on the <a class="underline text-blue-600" href="https://openlibrary.org/isbn/{{ page.isbn }}">Open Library</a>.</figcaption>
           </figure>
         {% endif %}
@@ -123,17 +123,17 @@ layout: default
       <div class="flex flex-col sm:flex-row items-start sm:items-start">
         {% if page.cover %}
           <figure class="sm:mr-6 mb-6 sm:mb-0 w-64 mx-auto sm:mx-0">
-            <img class="rounded shadow-md" alt="{{ page.title }} cover" src="{{ site.baseurl }}/images/covers/{{ page.cover }}" />
+            <img class="rounded shadow-md" alt="{{ page.title }} cover" onerror="this.onerror=null; this.src='https://openlibrary.org/images/icons/avatar_book-sm.png';" src="{{ site.baseurl }}/images/covers/{{ page.cover }}" />
             <figcaption class="text-center text-sm text-gray-600 mt-2">Cover of <em>{{ page.title }}</em></figcaption>
           </figure>
         {% elsif page.olid %}
           <figure class="sm:mr-6 mb-6 sm:mb-0 w-64 mx-auto sm:mx-0">
-            <img class="rounded shadow-md" alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false" />
+            <img class="rounded shadow-md" alt="{{ page.title }} cover" onerror="this.onerror=null; this.src='https://openlibrary.org/images/icons/avatar_book-sm.png';" src="http://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false" />
             <figcaption class="text-center text-sm text-gray-600 mt-2">Cover of <em>{{ page.title }}</em> on the <a class="underline text-blue-600" href="https://openlibrary.org/olid/{{ page.olid }}">Open Library</a>.</figcaption>
           </figure>
         {% elsif page.isbn %}
           <figure class="sm:mr-6 mb-6 sm:mb-0 w-64 mx-auto sm:mx-0">
-            <img class="rounded shadow-md" alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg?default=false" />
+            <img class="rounded shadow-md" alt="{{ page.title }} cover" onerror="this.onerror=null; this.src='https://openlibrary.org/images/icons/avatar_book-sm.png';" src="http://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg?default=false" />
             <figcaption class="text-center text-sm text-gray-600 mt-2">Cover of <em>{{ page.title }}</em> on the <a class="underline text-blue-600" href="https://openlibrary.org/isbn/{{ page.isbn }}">Open Library</a>.</figcaption>
           </figure>
         {% endif %}
