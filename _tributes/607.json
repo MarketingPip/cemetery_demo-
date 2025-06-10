@@ -22,9 +22,16 @@
       "id": 606
     }
   ],
-  "children": "[{\"name\": \"Harold William   Jones\", \"birth_date\": \"1919-00-00\", \"death_date\": \"2017-00-00\", \"profile_url\": \"/memorial/237947789/harold_william-jones\"}]",
+  "children": [
+    {
+      "name": "Harold William   Jones",
+      "birth_date": "1919-00-00",
+      "death_date": "2017-00-00",
+      "profile_url": "/memorial/237947789/harold_william-jones"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 16-9",
   "title": "",
   "prefix": "",

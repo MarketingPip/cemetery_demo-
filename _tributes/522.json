@@ -16,9 +16,16 @@
   "image_credits_url": "/user/profile/47806284",
   "parents": [],
   "spouses": [],
-  "children": "[{\"name\": \"Michel   Hayter\", \"birth_date\": \"1963-00-00\", \"death_date\": \"2018-00-00\", \"profile_url\": \"/memorial/243087439/michel-hayter\"}]",
+  "children": [
+    {
+      "name": "Michel   Hayter",
+      "birth_date": "1963-00-00",
+      "death_date": "2018-00-00",
+      "profile_url": "/memorial/243087439/michel-hayter"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",

@@ -25,9 +25,16 @@
       "id": 408
     }
   ],
-  "children": "[{\"name\": \"Jean A.   Gaiser\", \"birth_date\": \"1926-00-00\", \"death_date\": \"1928-00-00\", \"profile_url\": \"/memorial/239154761/jean_a-gaiser\"}]",
+  "children": [
+    {
+      "name": "Jean A.   Gaiser",
+      "birth_date": "1926-00-00",
+      "death_date": "1928-00-00",
+      "profile_url": "/memorial/239154761/jean_a-gaiser"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 8-2",
   "title": "",
   "prefix": "",

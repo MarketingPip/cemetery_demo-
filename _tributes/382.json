@@ -25,9 +25,16 @@
       "id": 378
     }
   ],
-  "children": "[{\"name\": \"Mary Louise   Fritz\", \"birth_date\": \"1935-00-00\", \"death_date\": \"2016-00-00\", \"profile_url\": \"/memorial/239094352/mary_louise-fritz\"}]",
+  "children": [
+    {
+      "name": "Mary Louise   Fritz",
+      "birth_date": "1935-00-00",
+      "death_date": "2016-00-00",
+      "profile_url": "/memorial/239094352/mary_louise-fritz"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "5-6",
   "title": "",
   "prefix": "",

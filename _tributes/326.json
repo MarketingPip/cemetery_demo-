@@ -13,9 +13,16 @@
   "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [],
-  "children": "[{\"name\": \"Louella Lavina   Finkbeiner\", \"birth_date\": \"1901-00-00\", \"death_date\": \"1961-00-00\", \"profile_url\": \"/memorial/16671515/louella_lavina-finkbeiner\"}]",
+  "children": [
+    {
+      "name": "Louella Lavina   Finkbeiner",
+      "birth_date": "1901-00-00",
+      "death_date": "1961-00-00",
+      "profile_url": "/memorial/16671515/louella_lavina-finkbeiner"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 11-12",
   "title": "",
   "prefix": "",

@@ -33,9 +33,16 @@
     }
   ],
   "spouses": [],
-  "children": "[{\"name\": \"Kathleen Mae  Wurm Hastings\", \"birth_date\": \"1913-00-00\", \"death_date\": \"2005-00-00\", \"profile_url\": \"/memorial/148297658/kathleen_mae-hastings\"}]",
+  "children": [
+    {
+      "name": "Kathleen Mae  Wurm Hastings",
+      "birth_date": "1913-00-00",
+      "death_date": "2005-00-00",
+      "profile_url": "/memorial/148297658/kathleen_mae-hastings"
+    }
+  ],
   "siblings": "[{\"name\": \"Magdelina   Schwarz\", \"birth_date\": \"1870-00-00\", \"death_date\": \"1870-00-00\", \"profile_url\": \"/memorial/236170325/magdelina-schwarz\"}, {\"name\": \"Michael   Schwarz Jr\", \"birth_date\": \"1872-00-00\", \"death_date\": \"1910-00-00\", \"profile_url\": \"/memorial/188136852/michael-schwarz\"}]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "3-10",
   "title": "",
   "prefix": "",

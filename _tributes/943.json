@@ -20,9 +20,28 @@
       "profile_url": "/memorial/36398199/sopheronia-schneider"
     }
   ],
-  "children": "[{\"name\": \"Charles Marshall   Schneider\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1927-00-00\", \"profile_url\": \"/memorial/173290691/charles_marshall-schneider\"}, {\"name\": \"William M.   Taylor\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1943-00-00\", \"profile_url\": \"/memorial/36398289/william_m-taylor\"}, {\"name\": \"Arthur Franklin \\\"Frank\\\"  Taylor\", \"birth_date\": \"1880-00-00\", \"death_date\": \"1963-00-00\", \"profile_url\": \"/memorial/18085355/arthur_franklin-taylor\"}]",
+  "children": [
+    {
+      "name": "Charles Marshall   Schneider",
+      "birth_date": "1867-00-00",
+      "death_date": "1927-00-00",
+      "profile_url": "/memorial/173290691/charles_marshall-schneider"
+    },
+    {
+      "name": "William M.   Taylor",
+      "birth_date": "1867-00-00",
+      "death_date": "1943-00-00",
+      "profile_url": "/memorial/36398289/william_m-taylor"
+    },
+    {
+      "name": "Arthur Franklin \"Frank\"  Taylor",
+      "birth_date": "1880-00-00",
+      "death_date": "1963-00-00",
+      "profile_url": "/memorial/18085355/arthur_franklin-taylor"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 10-3",
   "title": "",
   "prefix": "",

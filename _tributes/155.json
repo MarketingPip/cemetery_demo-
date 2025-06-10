@@ -25,9 +25,22 @@
       "id": 157
     }
   ],
-  "children": "[{\"name\": \"Thomas Robert \\\"Bob\\\"  Dinney\", \"birth_date\": \"1962-00-00\", \"death_date\": \"2017-00-00\", \"profile_url\": \"/memorial/228109891/thomas_robert-dinney\"}, {\"name\": \"Shawn Michael   Dinney\", \"birth_date\": \"1969-00-00\", \"death_date\": \"1978-00-00\", \"profile_url\": \"/memorial/188036322/shawn_michael-dinney\"}]",
+  "children": [
+    {
+      "name": "Thomas Robert \"Bob\"  Dinney",
+      "birth_date": "1962-00-00",
+      "death_date": "2017-00-00",
+      "profile_url": "/memorial/228109891/thomas_robert-dinney"
+    },
+    {
+      "name": "Shawn Michael   Dinney",
+      "birth_date": "1969-00-00",
+      "death_date": "1978-00-00",
+      "profile_url": "/memorial/188036322/shawn_michael-dinney"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 27-7",
   "title": "",
   "prefix": "",

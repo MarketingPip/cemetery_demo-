@@ -22,9 +22,16 @@
       "id": 253
     }
   ],
-  "children": "[{\"name\": \"Orald   Hill\", \"birth_date\": \"1921-00-00\", \"death_date\": \"1921-00-00\", \"profile_url\": \"/memorial/15580219/orald-hill\"}]",
+  "children": [
+    {
+      "name": "Orald   Hill",
+      "birth_date": "1921-00-00",
+      "death_date": "1921-00-00",
+      "profile_url": "/memorial/15580219/orald-hill"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 16-1",
   "title": "",
   "prefix": "",

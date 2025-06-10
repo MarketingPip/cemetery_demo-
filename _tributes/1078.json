@@ -22,9 +22,16 @@
       "id": 1077
     }
   ],
-  "children": "[{\"name\": \"Ronald  Wayne Truemner\", \"birth_date\": \"1942-00-00\", \"death_date\": \"1989-00-00\", \"profile_url\": \"/memorial/15146103/ronald-truemner\"}]",
+  "children": [
+    {
+      "name": "Ronald  Wayne Truemner",
+      "birth_date": "1942-00-00",
+      "death_date": "1989-00-00",
+      "profile_url": "/memorial/15146103/ronald-truemner"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 21-7",
   "title": "",
   "prefix": "",

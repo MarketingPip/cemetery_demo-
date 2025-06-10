@@ -22,9 +22,16 @@
       "id": 354
     }
   ],
-  "children": "[{\"name\": \"Matilda  Finkbiner Wesley\", \"birth_date\": \"1886-00-00\", \"death_date\": \"1967-00-00\", \"profile_url\": \"/memorial/153246296/matilda-wesley\"}]",
+  "children": [
+    {
+      "name": "Matilda  Finkbiner Wesley",
+      "birth_date": "1886-00-00",
+      "death_date": "1967-00-00",
+      "profile_url": "/memorial/153246296/matilda-wesley"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 11-12",
   "title": "",
   "prefix": "",

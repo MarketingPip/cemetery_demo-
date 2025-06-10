@@ -25,9 +25,22 @@
       "id": 1002
     }
   ],
-  "children": "[{\"name\": \"Johann   Stabler\", \"birth_date\": \"1857-00-00\", \"death_date\": \"1864-00-00\", \"profile_url\": \"/memorial/102287992/johann-stabler\"}, {\"name\": \"Henry Thomas   Staebler\", \"birth_date\": \"1871-00-00\", \"death_date\": \"1871-00-00\", \"profile_url\": \"/memorial/272789932/henry_thomas-staebler\"}]",
+  "children": [
+    {
+      "name": "Johann   Stabler",
+      "birth_date": "1857-00-00",
+      "death_date": "1864-00-00",
+      "profile_url": "/memorial/102287992/johann-stabler"
+    },
+    {
+      "name": "Henry Thomas   Staebler",
+      "birth_date": "1871-00-00",
+      "death_date": "1871-00-00",
+      "profile_url": "/memorial/272789932/henry_thomas-staebler"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 8-5",
   "title": "",
   "prefix": "Rev",

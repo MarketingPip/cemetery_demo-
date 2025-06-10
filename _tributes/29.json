@@ -22,9 +22,34 @@
       "id": 31
     }
   ],
-  "children": "[{\"name\": \"Albert Francis   Beaver\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1956-00-00\", \"profile_url\": \"/memorial/199177595/albert_francis-beaver\"}, {\"name\": \"Edith   Beaver\", \"birth_date\": \"1880-00-00\", \"death_date\": \"1920-00-00\", \"profile_url\": \"/memorial/239200570/edith-beaver\"}, {\"name\": \"Norman   Beaver\", \"birth_date\": \"1884-00-00\", \"death_date\": \"1918-00-00\", \"profile_url\": \"/memorial/239188981/norman-beaver\"}, {\"name\": \"Nelson   Beaver\", \"birth_date\": \"1892-00-00\", \"death_date\": \"1898-00-00\", \"profile_url\": \"/memorial/239200395/nelson-beaver\"}]",
+  "children": [
+    {
+      "name": "Albert Francis   Beaver",
+      "birth_date": "1878-00-00",
+      "death_date": "1956-00-00",
+      "profile_url": "/memorial/199177595/albert_francis-beaver"
+    },
+    {
+      "name": "Edith   Beaver",
+      "birth_date": "1880-00-00",
+      "death_date": "1920-00-00",
+      "profile_url": "/memorial/239200570/edith-beaver"
+    },
+    {
+      "name": "Norman   Beaver",
+      "birth_date": "1884-00-00",
+      "death_date": "1918-00-00",
+      "profile_url": "/memorial/239188981/norman-beaver"
+    },
+    {
+      "name": "Nelson   Beaver",
+      "birth_date": "1892-00-00",
+      "death_date": "1898-00-00",
+      "profile_url": "/memorial/239200395/nelson-beaver"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 11-14",
   "title": "",
   "prefix": "",

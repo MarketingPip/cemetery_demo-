@@ -13,9 +13,22 @@
   "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [],
-  "children": "[{\"name\": \"Orald   Hill\", \"birth_date\": \"1921-00-00\", \"death_date\": \"1921-00-00\", \"profile_url\": \"/memorial/15580219/orald-hill\"}, {\"name\": \"Orville   Hill\", \"birth_date\": \"1921-00-00\", \"death_date\": \"1927-00-00\", \"profile_url\": \"/memorial/15580222/orville-hill\"}]",
+  "children": [
+    {
+      "name": "Orald   Hill",
+      "birth_date": "1921-00-00",
+      "death_date": "1921-00-00",
+      "profile_url": "/memorial/15580219/orald-hill"
+    },
+    {
+      "name": "Orville   Hill",
+      "birth_date": "1921-00-00",
+      "death_date": "1927-00-00",
+      "profile_url": "/memorial/15580222/orville-hill"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 16-1",
   "title": "",
   "prefix": "",

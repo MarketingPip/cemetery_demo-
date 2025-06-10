@@ -25,9 +25,16 @@
       "id": 80
     }
   ],
-  "children": "[{\"name\": \"Florence Morlock  Braun Sepa\", \"birth_date\": \"1910-00-00\", \"death_date\": \"2002-00-00\", \"profile_url\": \"/memorial/239219476/florence_morlock-sepa\"}]",
+  "children": [
+    {
+      "name": "Florence Morlock  Braun Sepa",
+      "birth_date": "1910-00-00",
+      "death_date": "2002-00-00",
+      "profile_url": "/memorial/239219476/florence_morlock-sepa"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "20-1",
   "title": "",
   "prefix": "",

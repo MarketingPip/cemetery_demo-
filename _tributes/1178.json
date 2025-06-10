@@ -31,9 +31,40 @@
     }
   ],
   "spouses": [],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[{\"name\": \"Gertrude Petronela  Winer Tremner\", \"birth_date\": \"1902-00-00\", \"death_date\": \"1967-00-00\", \"profile_url\": \"/memorial/240541894/gertrude_petronela-tremner\"}, {\"name\": \"Arnold Severne \\\"Seth\\\"  Winer\", \"birth_date\": \"1904-00-00\", \"death_date\": \"1972-00-00\", \"profile_url\": \"/memorial/15804130/arnold_severne-winer\"}, {\"name\": \"Phyllis Mary  Winer Chambers\", \"birth_date\": \"1906-00-00\", \"death_date\": \"1981-00-00\", \"profile_url\": \"/memorial/177979987/phyllis_mary-chambers\"}, {\"name\": \"Susan ALMA  Winer McLagan\", \"birth_date\": \"1909-00-00\", \"death_date\": \"1999-00-00\", \"profile_url\": \"/memorial/156306760/susan_alma-mclagan\"}, {\"name\": \"Ina Kathleen   Winer\", \"birth_date\": \"1915-00-00\", \"death_date\": \"1918-00-00\", \"profile_url\": \"/memorial/15804134/ina_kathleen-winer\"}]",
+  "half_siblings": [
+    {
+      "name": "Gertrude Petronela  Winer Tremner",
+      "birth_date": "1902-00-00",
+      "death_date": "1967-00-00",
+      "profile_url": "/memorial/240541894/gertrude_petronela-tremner"
+    },
+    {
+      "name": "Arnold Severne \"Seth\"  Winer",
+      "birth_date": "1904-00-00",
+      "death_date": "1972-00-00",
+      "profile_url": "/memorial/15804130/arnold_severne-winer"
+    },
+    {
+      "name": "Phyllis Mary  Winer Chambers",
+      "birth_date": "1906-00-00",
+      "death_date": "1981-00-00",
+      "profile_url": "/memorial/177979987/phyllis_mary-chambers"
+    },
+    {
+      "name": "Susan ALMA  Winer McLagan",
+      "birth_date": "1909-00-00",
+      "death_date": "1999-00-00",
+      "profile_url": "/memorial/156306760/susan_alma-mclagan"
+    },
+    {
+      "name": "Ina Kathleen   Winer",
+      "birth_date": "1915-00-00",
+      "death_date": "1918-00-00",
+      "profile_url": "/memorial/15804134/ina_kathleen-winer"
+    }
+  ],
   "plot_value": "row 1-3",
   "title": "",
   "prefix": "",

@@ -33,9 +33,40 @@
       "id": 884
     }
   ],
-  "children": "[{\"name\": \"Eva  Fahner Wein\", \"birth_date\": \"1847-00-00\", \"death_date\": \"1921-00-00\", \"profile_url\": \"/memorial/15662423/eva-wein\"}, {\"name\": \"Frederick J.   Fahner\", \"birth_date\": \"1849-00-00\", \"death_date\": \"1924-00-00\", \"profile_url\": \"/memorial/27178294/frederick_j-fahner\"}, {\"name\": \"Magdalena \\\"Lena\\\"  Fahner Kraft\", \"birth_date\": \"1853-00-00\", \"death_date\": \"1887-00-00\", \"profile_url\": \"/memorial/175610248/magdalena_%22lena%22-kraft\"}, {\"name\": \"John   Fahner\", \"birth_date\": \"1854-00-00\", \"death_date\": \"1942-00-00\", \"profile_url\": \"/memorial/176230513/john-fahner\"}, {\"name\": \"Christian   Fahrner\", \"birth_date\": \"1863-00-00\", \"death_date\": \"1952-00-00\", \"profile_url\": \"/memorial/236179174/christian-fahrner\"}]",
+  "children": [
+    {
+      "name": "Eva  Fahner Wein",
+      "birth_date": "1847-00-00",
+      "death_date": "1921-00-00",
+      "profile_url": "/memorial/15662423/eva-wein"
+    },
+    {
+      "name": "Frederick J.   Fahner",
+      "birth_date": "1849-00-00",
+      "death_date": "1924-00-00",
+      "profile_url": "/memorial/27178294/frederick_j-fahner"
+    },
+    {
+      "name": "Magdalena \"Lena\"  Fahner Kraft",
+      "birth_date": "1853-00-00",
+      "death_date": "1887-00-00",
+      "profile_url": "/memorial/175610248/magdalena_%22lena%22-kraft"
+    },
+    {
+      "name": "John   Fahner",
+      "birth_date": "1854-00-00",
+      "death_date": "1942-00-00",
+      "profile_url": "/memorial/176230513/john-fahner"
+    },
+    {
+      "name": "Christian   Fahrner",
+      "birth_date": "1863-00-00",
+      "death_date": "1952-00-00",
+      "profile_url": "/memorial/236179174/christian-fahrner"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 7-7",
   "title": "",
   "prefix": "",

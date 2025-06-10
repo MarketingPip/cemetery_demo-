@@ -33,9 +33,16 @@
       "id": 25
     }
   ],
-  "children": "[{\"name\": \"Son   Beaver\", \"birth_date\": \"1894-00-00\", \"death_date\": \"1894-00-00\", \"profile_url\": \"/memorial/236912036/son-beaver\"}]",
+  "children": [
+    {
+      "name": "Son   Beaver",
+      "birth_date": "1894-00-00",
+      "death_date": "1894-00-00",
+      "profile_url": "/memorial/236912036/son-beaver"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "4-10",
   "title": "",
   "prefix": "",

@@ -25,9 +25,22 @@
       "id": 935
     }
   ],
-  "children": "[{\"name\": \"Karl Nelson   Schink\", \"birth_date\": \"1885-00-00\", \"death_date\": \"1887-00-00\", \"profile_url\": \"/memorial/188136753/karl_nelson-schink\"}, {\"name\": \"Herbert   Schenk\", \"birth_date\": \"1896-00-00\", \"death_date\": \"1979-00-00\", \"profile_url\": \"/memorial/188136686/herbert-schenk\"}]",
+  "children": [
+    {
+      "name": "Karl Nelson   Schink",
+      "birth_date": "1885-00-00",
+      "death_date": "1887-00-00",
+      "profile_url": "/memorial/188136753/karl_nelson-schink"
+    },
+    {
+      "name": "Herbert   Schenk",
+      "birth_date": "1896-00-00",
+      "death_date": "1979-00-00",
+      "profile_url": "/memorial/188136686/herbert-schenk"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 8-3",
   "title": "",
   "prefix": "",

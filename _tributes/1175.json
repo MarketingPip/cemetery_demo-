@@ -33,9 +33,9 @@
     }
   ],
   "spouses": [],
-  "children": "[]",
+  "children": [],
   "siblings": "[{\"name\": \"Paul   Winer\", \"birth_date\": \"1858-00-00\", \"death_date\": \"1943-00-00\", \"profile_url\": \"/memorial/80329543/paul-winer\"}, {\"name\": \"Christina  Winer Link\", \"birth_date\": \"1860-00-00\", \"death_date\": \"1935-00-00\", \"profile_url\": \"/memorial/111609632/christina-link\"}, {\"name\": \"Mary A.  Winer Dick\", \"birth_date\": \"1862-00-00\", \"death_date\": \"1925-00-00\", \"profile_url\": \"/memorial/35779216/mary_a-dick\"}, {\"name\": \"Anna Jane  Winer Jones\", \"birth_date\": \"1864-00-00\", \"death_date\": \"1952-00-00\", \"profile_url\": \"/memorial/164646311/anna_jane-jones\"}, {\"name\": \"John   Weiner\", \"birth_date\": \"1865-00-00\", \"death_date\": \"1942-00-00\", \"profile_url\": \"/memorial/99467895/john-weiner\"}, {\"name\": \"William Edward   Winer\", \"birth_date\": \"1868-00-00\", \"death_date\": \"1948-00-00\", \"profile_url\": \"/memorial/15804132/william_edward-winer\"}, {\"name\": \"Frank Wesley   Winer\", \"birth_date\": \"1871-00-00\", \"death_date\": \"1945-00-00\", \"profile_url\": \"/memorial/165236119/frank_wesley-winer\"}, {\"name\": \"Ida  Winer Hohmeier\", \"birth_date\": \"1875-00-00\", \"death_date\": \"1951-00-00\", \"profile_url\": \"/memorial/152188653/ida-hohmeier\"}, {\"name\": \"C Nelson   Winer\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1954-00-00\", \"profile_url\": \"/memorial/163509312/c_nelson-winer\"}, {\"name\": \"Eliza  Winer Link\", \"birth_date\": null, \"death_date\": \"1937-00-00\", \"profile_url\": \"/memorial/111519468/eliza-link\"}]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "2-12",
   "title": "",
   "prefix": "",

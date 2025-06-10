@@ -25,9 +25,16 @@
       "id": 533
     }
   ],
-  "children": "[{\"name\": \"Frederick J   Hey\", \"birth_date\": \"1926-00-00\", \"death_date\": \"1933-00-00\", \"profile_url\": \"/memorial/188113191/frederick_j-hey\"}]",
+  "children": [
+    {
+      "name": "Frederick J   Hey",
+      "birth_date": "1926-00-00",
+      "death_date": "1933-00-00",
+      "profile_url": "/memorial/188113191/frederick_j-hey"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 21-1",
   "title": "",
   "prefix": "",

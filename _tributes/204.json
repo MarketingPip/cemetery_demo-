@@ -22,9 +22,16 @@
       "id": 203
     }
   ],
-  "children": "[{\"name\": \"Raymond Garfield   English\", \"birth_date\": \"1898-00-00\", \"death_date\": null, \"profile_url\": \"/memorial/253118573/raymond_garfield-english\"}]",
+  "children": [
+    {
+      "name": "Raymond Garfield   English",
+      "birth_date": "1898-00-00",
+      "death_date": null,
+      "profile_url": "/memorial/253118573/raymond_garfield-english"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 11-4",
   "title": "",
   "prefix": "",

@@ -25,9 +25,16 @@
       "id": 437
     }
   ],
-  "children": "[{\"name\": \"Margaret   Gibson\", \"birth_date\": \"1962-00-00\", \"death_date\": \"1972-00-00\", \"profile_url\": \"/memorial/191738097/margaret-gibson\"}]",
+  "children": [
+    {
+      "name": "Margaret   Gibson",
+      "birth_date": "1962-00-00",
+      "death_date": "1972-00-00",
+      "profile_url": "/memorial/191738097/margaret-gibson"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 4-6",
   "title": "",
   "prefix": "",

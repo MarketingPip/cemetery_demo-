@@ -33,9 +33,16 @@
     }
   ],
   "spouses": [],
-  "children": "[{\"name\": \"Cecilia Grace   Dinney\", \"birth_date\": \"1982-00-00\", \"death_date\": \"2018-00-00\", \"profile_url\": \"/memorial/228109917/cecilia_grace-dinney\"}]",
+  "children": [
+    {
+      "name": "Cecilia Grace   Dinney",
+      "birth_date": "1982-00-00",
+      "death_date": "2018-00-00",
+      "profile_url": "/memorial/228109917/cecilia_grace-dinney"
+    }
+  ],
   "siblings": "[{\"name\": \"Shawn Michael   Dinney\", \"birth_date\": \"1969-00-00\", \"death_date\": \"1978-00-00\", \"profile_url\": \"/memorial/188036322/shawn_michael-dinney\"}]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 27-7",
   "title": "",
   "prefix": "",

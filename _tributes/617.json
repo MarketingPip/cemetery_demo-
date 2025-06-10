@@ -25,9 +25,16 @@
       "id": 618
     }
   ],
-  "children": "[{\"name\": \"E. Bruce   Kienzle\", \"birth_date\": \"1889-00-00\", \"death_date\": \"1977-00-00\", \"profile_url\": \"/memorial/188113375/e_bruce-kienzle\"}]",
+  "children": [
+    {
+      "name": "E. Bruce   Kienzle",
+      "birth_date": "1889-00-00",
+      "death_date": "1977-00-00",
+      "profile_url": "/memorial/188113375/e_bruce-kienzle"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 10-5",
   "title": "",
   "prefix": "",

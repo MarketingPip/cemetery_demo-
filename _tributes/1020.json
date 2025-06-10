@@ -33,9 +33,16 @@
     }
   ],
   "spouses": [],
-  "children": "[]",
+  "children": [],
   "siblings": "[{\"name\": \"Glen Henry   Stewardson\", \"birth_date\": \"1943-00-00\", \"death_date\": \"2013-00-00\", \"profile_url\": \"/memorial/191737552/glen_henry-stewardson\"}]",
-  "half_siblings": "[{\"name\": \"William A. \\\"Bill\\\"  Stewardson\", \"birth_date\": \"1940-00-00\", \"death_date\": \"2015-00-00\", \"profile_url\": \"/memorial/191737488/william_a-stewardson\"}]",
+  "half_siblings": [
+    {
+      "name": "William A. \"Bill\"  Stewardson",
+      "birth_date": "1940-00-00",
+      "death_date": "2015-00-00",
+      "profile_url": "/memorial/191737488/william_a-stewardson"
+    }
+  ],
   "plot_value": "28-6",
   "title": "",
   "prefix": "",

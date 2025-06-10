@@ -25,9 +25,9 @@
     }
   ],
   "spouses": [],
-  "children": "[]",
+  "children": [],
   "siblings": "[{\"name\": \"John Wallace   Morlock\", \"birth_date\": \"1863-00-00\", \"death_date\": \"1933-00-00\", \"profile_url\": \"/memorial/66781225/john_wallace-morlock\"}, {\"name\": \"Mary Ellen   Morlock\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1903-00-00\", \"profile_url\": \"/memorial/15791572/mary_ellen-morlock\"}]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 1-5",
   "title": "",
   "prefix": "",

@@ -25,9 +25,16 @@
       "id": 926
     }
   ],
-  "children": "[{\"name\": \"Helen  Deloris Schenk\", \"birth_date\": \"1922-00-00\", \"death_date\": \"1941-00-00\", \"profile_url\": \"/memorial/191738682/helen-schenk\"}]",
+  "children": [
+    {
+      "name": "Helen  Deloris Schenk",
+      "birth_date": "1922-00-00",
+      "death_date": "1941-00-00",
+      "profile_url": "/memorial/191738682/helen-schenk"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "5-4",
   "title": "",
   "prefix": "",

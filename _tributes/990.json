@@ -22,9 +22,16 @@
       "id": 1000
     }
   ],
-  "children": "[{\"name\": \"Gerald W.   Smith\", \"birth_date\": \"1917-00-00\", \"death_date\": \"1995-00-00\", \"profile_url\": \"/memorial/188136945/gerald_w-smith\"}]",
+  "children": [
+    {
+      "name": "Gerald W.   Smith",
+      "birth_date": "1917-00-00",
+      "death_date": "1995-00-00",
+      "profile_url": "/memorial/188136945/gerald_w-smith"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 21-5",
   "title": "",
   "prefix": "",

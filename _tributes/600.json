@@ -22,9 +22,40 @@
       "id": 601
     }
   ],
-  "children": "[{\"name\": \"Alvin John \\\"Al\\\"  Flynn\", \"birth_date\": \"1926-00-00\", \"death_date\": \"2005-00-00\", \"profile_url\": \"/memorial/220497721/alvin_john-flynn\"}, {\"name\": \"Lillian Anna Laura  Jesney Kuhn\", \"birth_date\": \"1929-00-00\", \"death_date\": \"2008-00-00\", \"profile_url\": \"/memorial/41012220/lillian_anna_laura-kuhn\"}, {\"name\": \"Phyllis M.V.  Jesney Collett\", \"birth_date\": \"1931-00-00\", \"death_date\": \"2020-00-00\", \"profile_url\": \"/memorial/208918865/phyllis_mv-collett\"}, {\"name\": \"Betty Lou  Jesney Denomme\", \"birth_date\": \"1946-00-00\", \"death_date\": \"1966-00-00\", \"profile_url\": \"/memorial/155075624/betty_lou-denomme\"}, {\"name\": \"Leslie John \\\"Les\\\"  Jesney\", \"birth_date\": \"1947-00-00\", \"death_date\": \"2013-00-00\", \"profile_url\": \"/memorial/229628140/leslie_john-jesney\"}]",
+  "children": [
+    {
+      "name": "Alvin John \"Al\"  Flynn",
+      "birth_date": "1926-00-00",
+      "death_date": "2005-00-00",
+      "profile_url": "/memorial/220497721/alvin_john-flynn"
+    },
+    {
+      "name": "Lillian Anna Laura  Jesney Kuhn",
+      "birth_date": "1929-00-00",
+      "death_date": "2008-00-00",
+      "profile_url": "/memorial/41012220/lillian_anna_laura-kuhn"
+    },
+    {
+      "name": "Phyllis M.V.  Jesney Collett",
+      "birth_date": "1931-00-00",
+      "death_date": "2020-00-00",
+      "profile_url": "/memorial/208918865/phyllis_mv-collett"
+    },
+    {
+      "name": "Betty Lou  Jesney Denomme",
+      "birth_date": "1946-00-00",
+      "death_date": "1966-00-00",
+      "profile_url": "/memorial/155075624/betty_lou-denomme"
+    },
+    {
+      "name": "Leslie John \"Les\"  Jesney",
+      "birth_date": "1947-00-00",
+      "death_date": "2013-00-00",
+      "profile_url": "/memorial/229628140/leslie_john-jesney"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",

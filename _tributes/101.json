@@ -25,9 +25,16 @@
       "id": 117
     }
   ],
-  "children": "[{\"name\": \"Idella E.  Brown Burn\", \"birth_date\": \"1888-00-00\", \"death_date\": \"1974-00-00\", \"profile_url\": \"/memorial/209173829/idella_e-burn\"}]",
+  "children": [
+    {
+      "name": "Idella E.  Brown Burn",
+      "birth_date": "1888-00-00",
+      "death_date": "1974-00-00",
+      "profile_url": "/memorial/209173829/idella_e-burn"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 1-1",
   "title": "",
   "prefix": "",

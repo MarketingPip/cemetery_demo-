@@ -25,9 +25,16 @@
       "id": 683
     }
   ],
-  "children": "[{\"name\": \"Frederick   MacDonald\", \"birth_date\": \"1914-00-00\", \"death_date\": \"1981-00-00\", \"profile_url\": \"/memorial/188115017/frederick-macdonald\"}]",
+  "children": [
+    {
+      "name": "Frederick   MacDonald",
+      "birth_date": "1914-00-00",
+      "death_date": "1981-00-00",
+      "profile_url": "/memorial/188115017/frederick-macdonald"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 16, Lot 4",
   "title": "",
   "prefix": "",

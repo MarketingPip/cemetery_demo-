@@ -33,9 +33,16 @@
       "id": 723
     }
   ],
-  "children": "[{\"name\": \"Frederick John   Morlock\", \"birth_date\": \"1924-00-00\", \"death_date\": \"1993-00-00\", \"profile_url\": \"/memorial/15135166/frederick_john-morlock\"}]",
+  "children": [
+    {
+      "name": "Frederick John   Morlock",
+      "birth_date": "1924-00-00",
+      "death_date": "1993-00-00",
+      "profile_url": "/memorial/15135166/frederick_john-morlock"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 9-9",
   "title": "",
   "prefix": "",

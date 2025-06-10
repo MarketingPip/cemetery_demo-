@@ -22,9 +22,22 @@
       "id": 214
     }
   ],
-  "children": "[{\"name\": \"John William   Fahner\", \"birth_date\": \"1951-00-00\", \"death_date\": \"2007-00-00\", \"profile_url\": \"/memorial/21860648/john_william-fahner\"}, {\"name\": \"Donald Ray   Fahner\", \"birth_date\": \"1959-00-00\", \"death_date\": \"2008-00-00\", \"profile_url\": \"/memorial/41420706/donald_ray-fahner\"}]",
+  "children": [
+    {
+      "name": "John William   Fahner",
+      "birth_date": "1951-00-00",
+      "death_date": "2007-00-00",
+      "profile_url": "/memorial/21860648/john_william-fahner"
+    },
+    {
+      "name": "Donald Ray   Fahner",
+      "birth_date": "1959-00-00",
+      "death_date": "2008-00-00",
+      "profile_url": "/memorial/41420706/donald_ray-fahner"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",

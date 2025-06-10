@@ -25,9 +25,22 @@
       "id": 1017
     }
   ],
-  "children": "[{\"name\": \"Willis Stanley Ecron   Stewardson\", \"birth_date\": \"1941-00-00\", \"death_date\": \"2009-00-00\", \"profile_url\": \"/memorial/44646061/willis_stanley_ecron-stewardson\"}, {\"name\": \"Glen Henry   Stewardson\", \"birth_date\": \"1943-00-00\", \"death_date\": \"2013-00-00\", \"profile_url\": \"/memorial/191737552/glen_henry-stewardson\"}]",
+  "children": [
+    {
+      "name": "Willis Stanley Ecron   Stewardson",
+      "birth_date": "1941-00-00",
+      "death_date": "2009-00-00",
+      "profile_url": "/memorial/44646061/willis_stanley_ecron-stewardson"
+    },
+    {
+      "name": "Glen Henry   Stewardson",
+      "birth_date": "1943-00-00",
+      "death_date": "2013-00-00",
+      "profile_url": "/memorial/191737552/glen_henry-stewardson"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "28-6",
   "title": "",
   "prefix": "",

@@ -13,9 +13,16 @@
   "image_credits_url": "/user/profile/46583152",
   "parents": [],
   "spouses": [],
-  "children": "[{\"name\": \"Lawrence   Fahrner\", \"birth_date\": null, \"death_date\": \"2001-00-00\", \"profile_url\": \"/memorial/239219133/lawrence-fahrner\"}]",
+  "children": [
+    {
+      "name": "Lawrence   Fahrner",
+      "birth_date": null,
+      "death_date": "2001-00-00",
+      "profile_url": "/memorial/239219133/lawrence-fahrner"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 17-1",
   "title": "",
   "prefix": "",

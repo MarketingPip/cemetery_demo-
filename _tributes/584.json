@@ -22,9 +22,16 @@
       "id": 580
     }
   ],
-  "children": "[{\"name\": \"Dewitt Harvey   Holtzmann\", \"birth_date\": \"1893-00-00\", \"death_date\": \"1893-00-00\", \"profile_url\": \"/memorial/239124117/dewitt_harvey-holtzmann\"}]",
+  "children": [
+    {
+      "name": "Dewitt Harvey   Holtzmann",
+      "birth_date": "1893-00-00",
+      "death_date": "1893-00-00",
+      "profile_url": "/memorial/239124117/dewitt_harvey-holtzmann"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 14-4",
   "title": "",
   "prefix": "",

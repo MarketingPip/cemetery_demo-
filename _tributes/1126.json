@@ -25,9 +25,22 @@
       "id": 1130
     }
   ],
-  "children": "[{\"name\": \"Samuel   Wein\", \"birth_date\": \"1883-00-00\", \"death_date\": \"1949-00-00\", \"profile_url\": \"/memorial/16414070/samuel-wein\"}, {\"name\": \"Ezra   Wein\", \"birth_date\": \"1888-00-00\", \"death_date\": \"1924-00-00\", \"profile_url\": \"/memorial/16414049/ezra-wein\"}]",
+  "children": [
+    {
+      "name": "Samuel   Wein",
+      "birth_date": "1883-00-00",
+      "death_date": "1949-00-00",
+      "profile_url": "/memorial/16414070/samuel-wein"
+    },
+    {
+      "name": "Ezra   Wein",
+      "birth_date": "1888-00-00",
+      "death_date": "1924-00-00",
+      "profile_url": "/memorial/16414049/ezra-wein"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 9-6",
   "title": "",
   "prefix": "",

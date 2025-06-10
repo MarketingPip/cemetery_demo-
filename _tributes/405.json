@@ -30,9 +30,22 @@
       "id": 417
     }
   ],
-  "children": "[{\"name\": \"Martha Mary  Gaiser Ratz\", \"birth_date\": \"1888-00-00\", \"death_date\": \"1971-00-00\", \"profile_url\": \"/memorial/15639893/martha_mary-ratz\"}, {\"name\": \"Albert Adam   Gaiser\", \"birth_date\": \"1891-00-00\", \"death_date\": \"1974-00-00\", \"profile_url\": \"/memorial/15639713/albert_adam-gaiser\"}]",
+  "children": [
+    {
+      "name": "Martha Mary  Gaiser Ratz",
+      "birth_date": "1888-00-00",
+      "death_date": "1971-00-00",
+      "profile_url": "/memorial/15639893/martha_mary-ratz"
+    },
+    {
+      "name": "Albert Adam   Gaiser",
+      "birth_date": "1891-00-00",
+      "death_date": "1974-00-00",
+      "profile_url": "/memorial/15639713/albert_adam-gaiser"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 12-4",
   "title": "",
   "prefix": "",

@@ -25,9 +25,16 @@
       "id": 265
     }
   ],
-  "children": "[{\"name\": \"George Ezra   Faist\", \"birth_date\": \"1871-00-00\", \"death_date\": \"1956-00-00\", \"profile_url\": \"/memorial/188037270/george_ezra-faist\"}]",
+  "children": [
+    {
+      "name": "George Ezra   Faist",
+      "birth_date": "1871-00-00",
+      "death_date": "1956-00-00",
+      "profile_url": "/memorial/188037270/george_ezra-faist"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "6-2",
   "title": "",
   "prefix": "",

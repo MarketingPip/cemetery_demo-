@@ -27,9 +27,28 @@
     }
   ],
   "spouses": [],
-  "children": "[]",
+  "children": [],
   "siblings": "[{\"name\": \"Cornelia  Lang Crawford\", \"birth_date\": \"1853-00-00\", \"death_date\": \"1903-00-00\", \"profile_url\": \"/memorial/69052561/cornelia-crawford\"}, {\"name\": \"Kate  Lang Jackson\", \"birth_date\": \"1854-00-00\", \"death_date\": \"1934-00-00\", \"profile_url\": \"/memorial/70082590/kate-jackson\"}, {\"name\": \"Infant   Lang\", \"birth_date\": \"1858-00-00\", \"death_date\": \"1858-00-00\", \"profile_url\": \"/memorial/133559629/infant-lang\"}]",
-  "half_siblings": "[{\"name\": \"Jake   Lang\", \"birth_date\": \"1862-00-00\", \"death_date\": \"1912-00-00\", \"profile_url\": \"/memorial/49055308/jake-lang\"}, {\"name\": \"William   Lang\", \"birth_date\": \"1865-00-00\", \"death_date\": \"1949-00-00\", \"profile_url\": \"/memorial/123605014/william-lang\"}, {\"name\": \"Ella  Lang Houck\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1947-00-00\", \"profile_url\": \"/memorial/122944258/ella-houck\"}]",
+  "half_siblings": [
+    {
+      "name": "Jake   Lang",
+      "birth_date": "1862-00-00",
+      "death_date": "1912-00-00",
+      "profile_url": "/memorial/49055308/jake-lang"
+    },
+    {
+      "name": "William   Lang",
+      "birth_date": "1865-00-00",
+      "death_date": "1949-00-00",
+      "profile_url": "/memorial/123605014/william-lang"
+    },
+    {
+      "name": "Ella  Lang Houck",
+      "birth_date": "1867-00-00",
+      "death_date": "1947-00-00",
+      "profile_url": "/memorial/122944258/ella-houck"
+    }
+  ],
   "plot_value": "Grave unmarked. Please see notes below for burial details.",
   "title": "",
   "prefix": "",

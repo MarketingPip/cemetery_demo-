@@ -25,9 +25,16 @@
       "id": 383
     }
   ],
-  "children": "[{\"name\": \"Verda Maria   Fritz\", \"birth_date\": \"1896-00-00\", \"death_date\": \"1898-00-00\", \"profile_url\": \"/memorial/239160701/verda_maria-fritz\"}]",
+  "children": [
+    {
+      "name": "Verda Maria   Fritz",
+      "birth_date": "1896-00-00",
+      "death_date": "1898-00-00",
+      "profile_url": "/memorial/239160701/verda_maria-fritz"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 9-15",
   "title": "",
   "prefix": "",

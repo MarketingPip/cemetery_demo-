@@ -30,9 +30,9 @@
     }
   ],
   "spouses": [],
-  "children": "[]",
+  "children": [],
   "siblings": "[{\"name\": \"Clara  Wenzel MacDonald\", \"birth_date\": \"1885-00-00\", \"death_date\": \"1943-00-00\", \"profile_url\": \"/memorial/158033806/clara-macdonald\"}, {\"name\": \"Martha  Wenzel Berg\", \"birth_date\": \"1887-00-00\", \"death_date\": \"1962-00-00\", \"profile_url\": \"/memorial/15580244/martha-berg\"}, {\"name\": \"Mabel  Wenzel Fahrner\", \"birth_date\": \"1895-00-00\", \"death_date\": \"1983-00-00\", \"profile_url\": \"/memorial/15580255/mabel-fahrner\"}]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 10-1",
   "title": "",
   "prefix": "",

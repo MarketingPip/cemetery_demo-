@@ -25,9 +25,16 @@
       "id": 141
     }
   ],
-  "children": "[{\"name\": \"Fred   Coughtrey\", \"birth_date\": \"1952-00-00\", \"death_date\": \"1972-00-00\", \"profile_url\": \"/memorial/188036226/fred-coughtrey\"}]",
+  "children": [
+    {
+      "name": "Fred   Coughtrey",
+      "birth_date": "1952-00-00",
+      "death_date": "1972-00-00",
+      "profile_url": "/memorial/188036226/fred-coughtrey"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "24-3",
   "title": "",
   "prefix": "",

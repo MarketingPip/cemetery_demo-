@@ -31,9 +31,16 @@
       "profile_url": "/memorial/187330271/gideon_c-bier"
     }
   ],
-  "children": "[{\"name\": \"Myrtle  Lawson Sansone\", \"birth_date\": \"1901-00-00\", \"death_date\": \"1960-00-00\", \"profile_url\": \"/memorial/188136633/myrtle-sansone\"}]",
+  "children": [
+    {
+      "name": "Myrtle  Lawson Sansone",
+      "birth_date": "1901-00-00",
+      "death_date": "1960-00-00",
+      "profile_url": "/memorial/188136633/myrtle-sansone"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 8-8",
   "title": "",
   "prefix": "",

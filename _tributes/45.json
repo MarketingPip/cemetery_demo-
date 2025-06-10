@@ -22,9 +22,16 @@
       "id": 44
     }
   ],
-  "children": "[{\"name\": \"Ralph Lloyd   Bender\", \"birth_date\": \"1956-00-00\", \"death_date\": \"2017-00-00\", \"profile_url\": \"/memorial/186095508/ralph_lloyd-bender\"}]",
+  "children": [
+    {
+      "name": "Ralph Lloyd   Bender",
+      "birth_date": "1956-00-00",
+      "death_date": "2017-00-00",
+      "profile_url": "/memorial/186095508/ralph_lloyd-bender"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",

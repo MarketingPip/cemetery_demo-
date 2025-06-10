@@ -25,9 +25,28 @@
       "id": 319
     }
   ],
-  "children": "[{\"name\": \"Jacob   Finkbeiner\", \"birth_date\": \"1849-00-00\", \"death_date\": \"1861-00-00\", \"profile_url\": \"/memorial/16331140/jacob-finkbeiner\"}, {\"name\": \"Michael   Finkbeiner\", \"birth_date\": \"1856-00-00\", \"death_date\": \"1926-00-00\", \"profile_url\": \"/memorial/16671570/michael-finkbeiner\"}, {\"name\": \"Fredrick   Finkbeiner\", \"birth_date\": \"1858-00-00\", \"death_date\": \"1934-00-00\", \"profile_url\": \"/memorial/143602042/fredrick-finkbeiner\"}]",
+  "children": [
+    {
+      "name": "Jacob   Finkbeiner",
+      "birth_date": "1849-00-00",
+      "death_date": "1861-00-00",
+      "profile_url": "/memorial/16331140/jacob-finkbeiner"
+    },
+    {
+      "name": "Michael   Finkbeiner",
+      "birth_date": "1856-00-00",
+      "death_date": "1926-00-00",
+      "profile_url": "/memorial/16671570/michael-finkbeiner"
+    },
+    {
+      "name": "Fredrick   Finkbeiner",
+      "birth_date": "1858-00-00",
+      "death_date": "1934-00-00",
+      "profile_url": "/memorial/143602042/fredrick-finkbeiner"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "9-3",
   "title": "",
   "prefix": "",

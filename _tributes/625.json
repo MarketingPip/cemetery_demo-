@@ -25,9 +25,16 @@
       "id": 622
     }
   ],
-  "children": "[{\"name\": \"Margaret  Klumpp Lamport\", \"birth_date\": \"1871-00-00\", \"death_date\": \"1970-00-00\", \"profile_url\": \"/memorial/16539603/margaret-lamport\"}]",
+  "children": [
+    {
+      "name": "Margaret  Klumpp Lamport",
+      "birth_date": "1871-00-00",
+      "death_date": "1970-00-00",
+      "profile_url": "/memorial/16539603/margaret-lamport"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 9-10",
   "title": "",
   "prefix": "",

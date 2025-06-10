@@ -25,9 +25,22 @@
       "id": 242
     }
   ],
-  "children": "[{\"name\": \"Wallace   Fahrner\", \"birth_date\": \"1922-00-00\", \"death_date\": \"1987-00-00\", \"profile_url\": \"/memorial/236141703/wallace-fahrner\"}, {\"name\": \"Beatrice Elaine  Fahrner Ayres\", \"birth_date\": \"1928-00-00\", \"death_date\": \"2014-00-00\", \"profile_url\": \"/memorial/163944825/beatrice_elaine-ayres\"}]",
+  "children": [
+    {
+      "name": "Wallace   Fahrner",
+      "birth_date": "1922-00-00",
+      "death_date": "1987-00-00",
+      "profile_url": "/memorial/236141703/wallace-fahrner"
+    },
+    {
+      "name": "Beatrice Elaine  Fahrner Ayres",
+      "birth_date": "1928-00-00",
+      "death_date": "2014-00-00",
+      "profile_url": "/memorial/163944825/beatrice_elaine-ayres"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "4-10",
   "title": "",
   "prefix": "",

@@ -25,9 +25,64 @@
       "id": 1205
     }
   ],
-  "children": "[{\"name\": \"Catherine  Wuerth Haist\", \"birth_date\": \"1869-00-00\", \"death_date\": \"1947-00-00\", \"profile_url\": \"/memorial/16581433/catherine-haist\"}, {\"name\": \"Caroline M  Wuerth Morlock\", \"birth_date\": \"1872-00-00\", \"death_date\": \"1963-00-00\", \"profile_url\": \"/memorial/16539262/caroline_m-morlock\"}, {\"name\": \"Elizabeth Ann  Wuerth Faist\", \"birth_date\": \"1875-00-00\", \"death_date\": \"1967-00-00\", \"profile_url\": \"/memorial/188037238/elizabeth_ann-faist\"}, {\"name\": \"Emma   Wuerth\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1887-00-00\", \"profile_url\": \"/memorial/238061476/emma-wuerth\"}, {\"name\": \"Charles   Wuerth\", \"birth_date\": \"1883-00-00\", \"death_date\": \"1889-00-00\", \"profile_url\": \"/memorial/15848525/charles-wuerth\"}, {\"name\": \"Simon Sylvester   Wuerth\", \"birth_date\": \"1891-00-00\", \"death_date\": \"1983-00-00\", \"profile_url\": \"/memorial/15848637/simon_sylvester-wuerth\"}, {\"name\": \"Cornelia   Wuerth\", \"birth_date\": null, \"death_date\": null, \"profile_url\": \"/memorial/15848547/cornelia-wuerth\"}, {\"name\": \"Eva   Wuerth\", \"birth_date\": null, \"death_date\": null, \"profile_url\": \"/memorial/15848581/eva-wuerth\"}, {\"name\": \"Gottlieb   Wuerth\", \"birth_date\": null, \"death_date\": null, \"profile_url\": \"/memorial/15848598/gottlieb-wuerth\"}]",
+  "children": [
+    {
+      "name": "Catherine  Wuerth Haist",
+      "birth_date": "1869-00-00",
+      "death_date": "1947-00-00",
+      "profile_url": "/memorial/16581433/catherine-haist"
+    },
+    {
+      "name": "Caroline M  Wuerth Morlock",
+      "birth_date": "1872-00-00",
+      "death_date": "1963-00-00",
+      "profile_url": "/memorial/16539262/caroline_m-morlock"
+    },
+    {
+      "name": "Elizabeth Ann  Wuerth Faist",
+      "birth_date": "1875-00-00",
+      "death_date": "1967-00-00",
+      "profile_url": "/memorial/188037238/elizabeth_ann-faist"
+    },
+    {
+      "name": "Emma   Wuerth",
+      "birth_date": "1878-00-00",
+      "death_date": "1887-00-00",
+      "profile_url": "/memorial/238061476/emma-wuerth"
+    },
+    {
+      "name": "Charles   Wuerth",
+      "birth_date": "1883-00-00",
+      "death_date": "1889-00-00",
+      "profile_url": "/memorial/15848525/charles-wuerth"
+    },
+    {
+      "name": "Simon Sylvester   Wuerth",
+      "birth_date": "1891-00-00",
+      "death_date": "1983-00-00",
+      "profile_url": "/memorial/15848637/simon_sylvester-wuerth"
+    },
+    {
+      "name": "Cornelia   Wuerth",
+      "birth_date": null,
+      "death_date": null,
+      "profile_url": "/memorial/15848547/cornelia-wuerth"
+    },
+    {
+      "name": "Eva   Wuerth",
+      "birth_date": null,
+      "death_date": null,
+      "profile_url": "/memorial/15848581/eva-wuerth"
+    },
+    {
+      "name": "Gottlieb   Wuerth",
+      "birth_date": null,
+      "death_date": null,
+      "profile_url": "/memorial/15848598/gottlieb-wuerth"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "6-9",
   "title": "",
   "prefix": "",

@@ -33,9 +33,16 @@
     }
   ],
   "spouses": [],
-  "children": "[]",
+  "children": [],
   "siblings": "[{\"name\": \"Amanda Barbara   Finkbeiner\", \"birth_date\": \"1885-00-00\", \"death_date\": \"1914-00-00\", \"profile_url\": \"/memorial/15833644/amanda_barbara-finkbeiner\"}, {\"name\": \"Melissa   Finkbeiner\", \"birth_date\": \"1888-00-00\", \"death_date\": \"1912-00-00\", \"profile_url\": \"/memorial/15833617/melissa-finkbeiner\"}, {\"name\": \"Bertha   Finkbeiner\", \"birth_date\": \"1890-00-00\", \"death_date\": \"1911-00-00\", \"profile_url\": \"/memorial/15833604/bertha-finkbeiner\"}, {\"name\": \"Henry Emerson   Finkbeiner\", \"birth_date\": \"1897-00-00\", \"death_date\": \"1913-00-00\", \"profile_url\": \"/memorial/15833630/henry_emerson-finkbeiner\"}]",
-  "half_siblings": "[{\"name\": \"Christena  Finkbeiner Dearing\", \"birth_date\": \"1874-00-00\", \"death_date\": \"1949-00-00\", \"profile_url\": \"/memorial/16575937/christena-dearing\"}]",
+  "half_siblings": [
+    {
+      "name": "Christena  Finkbeiner Dearing",
+      "birth_date": "1874-00-00",
+      "death_date": "1949-00-00",
+      "profile_url": "/memorial/16575937/christena-dearing"
+    }
+  ],
   "plot_value": "6-8",
   "title": "",
   "prefix": "",

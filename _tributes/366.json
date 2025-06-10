@@ -23,9 +23,22 @@
       "profile_url": "/memorial/99610062/hazel-finkbeiner"
     }
   ],
-  "children": "[{\"name\": \"Shirley Jean  Finkbeiner Caldwell\", \"birth_date\": \"1925-00-00\", \"death_date\": \"2011-00-00\", \"profile_url\": \"/memorial/75627448/shirley_jean-caldwell\"}, {\"name\": \"Maxine Lucille  Finkbeiner Booth\", \"birth_date\": \"1927-00-00\", \"death_date\": \"2023-00-00\", \"profile_url\": \"/memorial/249273011/maxine_lucille-booth\"}]",
+  "children": [
+    {
+      "name": "Shirley Jean  Finkbeiner Caldwell",
+      "birth_date": "1925-00-00",
+      "death_date": "2011-00-00",
+      "profile_url": "/memorial/75627448/shirley_jean-caldwell"
+    },
+    {
+      "name": "Maxine Lucille  Finkbeiner Booth",
+      "birth_date": "1927-00-00",
+      "death_date": "2023-00-00",
+      "profile_url": "/memorial/249273011/maxine_lucille-booth"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "19-4",
   "title": "",
   "prefix": "",

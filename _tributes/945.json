@@ -33,9 +33,28 @@
       "id": 952
     }
   ],
-  "children": "[{\"name\": \"Mina Rose  Yager Stabler\", \"birth_date\": \"1888-00-00\", \"death_date\": \"1951-00-00\", \"profile_url\": \"/memorial/14185372/mina_rose-stabler\"}, {\"name\": \"Emerson Reuben   Schroeder\", \"birth_date\": \"1894-00-00\", \"death_date\": \"1996-00-00\", \"profile_url\": \"/memorial/269890004/emerson_reuben-schroeder\"}, {\"name\": \"Leonard Roland   Schroeder\", \"birth_date\": \"1896-00-00\", \"death_date\": \"1954-00-00\", \"profile_url\": \"/memorial/269665897/leonard_roland-schroeder\"}]",
+  "children": [
+    {
+      "name": "Mina Rose  Yager Stabler",
+      "birth_date": "1888-00-00",
+      "death_date": "1951-00-00",
+      "profile_url": "/memorial/14185372/mina_rose-stabler"
+    },
+    {
+      "name": "Emerson Reuben   Schroeder",
+      "birth_date": "1894-00-00",
+      "death_date": "1996-00-00",
+      "profile_url": "/memorial/269890004/emerson_reuben-schroeder"
+    },
+    {
+      "name": "Leonard Roland   Schroeder",
+      "birth_date": "1896-00-00",
+      "death_date": "1954-00-00",
+      "profile_url": "/memorial/269665897/leonard_roland-schroeder"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "4-5",
   "title": "",
   "prefix": "",

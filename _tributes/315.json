@@ -22,9 +22,16 @@
       "id": 331
     }
   ],
-  "children": "[{\"name\": \"Donald Leroy   Finkbeiner\", \"birth_date\": \"1936-00-00\", \"death_date\": \"2008-00-00\", \"profile_url\": \"/memorial/41028526/donald_leroy-finkbeiner\"}]",
+  "children": [
+    {
+      "name": "Donald Leroy   Finkbeiner",
+      "birth_date": "1936-00-00",
+      "death_date": "2008-00-00",
+      "profile_url": "/memorial/41028526/donald_leroy-finkbeiner"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 22-8",
   "title": "",
   "prefix": "",

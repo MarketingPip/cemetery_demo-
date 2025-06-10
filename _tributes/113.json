@@ -25,9 +25,34 @@
       "id": 90
     }
   ],
-  "children": "[{\"name\": \"Samuel   Brown\", \"birth_date\": \"1859-00-00\", \"death_date\": \"1916-00-00\", \"profile_url\": \"/memorial/188035997/samuel-brown\"}, {\"name\": \"Jonathan   Brown\", \"birth_date\": \"1861-00-00\", \"death_date\": \"1867-00-00\", \"profile_url\": \"/memorial/235702702/jonathan-brown\"}, {\"name\": \"Aaron   Braun\", \"birth_date\": \"1863-00-00\", \"death_date\": \"1947-00-00\", \"profile_url\": \"/memorial/215892310/aaron-braun\"}, {\"name\": \"Rev Edward Caleb   Braun\", \"birth_date\": \"1870-00-00\", \"death_date\": \"1936-00-00\", \"profile_url\": \"/memorial/65361572/edward_caleb-braun\"}]",
+  "children": [
+    {
+      "name": "Samuel   Brown",
+      "birth_date": "1859-00-00",
+      "death_date": "1916-00-00",
+      "profile_url": "/memorial/188035997/samuel-brown"
+    },
+    {
+      "name": "Jonathan   Brown",
+      "birth_date": "1861-00-00",
+      "death_date": "1867-00-00",
+      "profile_url": "/memorial/235702702/jonathan-brown"
+    },
+    {
+      "name": "Aaron   Braun",
+      "birth_date": "1863-00-00",
+      "death_date": "1947-00-00",
+      "profile_url": "/memorial/215892310/aaron-braun"
+    },
+    {
+      "name": "Rev Edward Caleb   Braun",
+      "birth_date": "1870-00-00",
+      "death_date": "1936-00-00",
+      "profile_url": "/memorial/65361572/edward_caleb-braun"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 1-1",
   "title": "",
   "prefix": "",

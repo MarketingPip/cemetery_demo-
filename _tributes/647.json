@@ -25,9 +25,16 @@
       "id": 648
     }
   ],
-  "children": "[{\"name\": \"Adam   Kuhn\", \"birth_date\": \"1861-00-00\", \"death_date\": \"1883-00-00\", \"profile_url\": \"/memorial/188113453/adam-kuhn\"}]",
+  "children": [
+    {
+      "name": "Adam   Kuhn",
+      "birth_date": "1861-00-00",
+      "death_date": "1883-00-00",
+      "profile_url": "/memorial/188113453/adam-kuhn"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 1-8",
   "title": "",
   "prefix": "",

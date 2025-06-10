@@ -25,9 +25,16 @@
       "id": 179
     }
   ],
-  "children": "[{\"name\": \"Christopher Friederich   Eilber\", \"birth_date\": \"1830-00-00\", \"death_date\": \"1919-00-00\", \"profile_url\": \"/memorial/188036509/christopher_friederich-eilber\"}]",
+  "children": [
+    {
+      "name": "Christopher Friederich   Eilber",
+      "birth_date": "1830-00-00",
+      "death_date": "1919-00-00",
+      "profile_url": "/memorial/188036509/christopher_friederich-eilber"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 5-7",
   "title": "",
   "prefix": "",

@@ -22,9 +22,16 @@
       "id": 1161
     }
   ],
-  "children": "[{\"name\": \"John E.   Wilhelm\", \"birth_date\": \"1895-00-00\", \"death_date\": \"1962-00-00\", \"profile_url\": \"/memorial/188139285/john_e-wilhelm\"}]",
+  "children": [
+    {
+      "name": "John E.   Wilhelm",
+      "birth_date": "1895-00-00",
+      "death_date": "1962-00-00",
+      "profile_url": "/memorial/188139285/john_e-wilhelm"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 18-1",
   "title": "",
   "prefix": "",

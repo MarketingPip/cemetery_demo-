@@ -25,9 +25,22 @@
       "id": 174
     }
   ],
-  "children": "[{\"name\": \"Caroline  Eilber Sweitzer\", \"birth_date\": \"1864-00-00\", \"death_date\": \"1922-00-00\", \"profile_url\": \"/memorial/231230083/caroline-sweitzer\"}, {\"name\": \"Emma  Eilber Uncer\", \"birth_date\": \"1875-00-00\", \"death_date\": \"1950-00-00\", \"profile_url\": \"/memorial/231230160/emma-uncer\"}]",
+  "children": [
+    {
+      "name": "Caroline  Eilber Sweitzer",
+      "birth_date": "1864-00-00",
+      "death_date": "1922-00-00",
+      "profile_url": "/memorial/231230083/caroline-sweitzer"
+    },
+    {
+      "name": "Emma  Eilber Uncer",
+      "birth_date": "1875-00-00",
+      "death_date": "1950-00-00",
+      "profile_url": "/memorial/231230160/emma-uncer"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "5-7",
   "title": "",
   "prefix": "",

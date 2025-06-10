@@ -16,9 +16,16 @@
   "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [],
-  "children": "[{\"name\": \"Christopher Friederich   Eilber\", \"birth_date\": \"1830-00-00\", \"death_date\": \"1919-00-00\", \"profile_url\": \"/memorial/188036509/christopher_friederich-eilber\"}]",
+  "children": [
+    {
+      "name": "Christopher Friederich   Eilber",
+      "birth_date": "1830-00-00",
+      "death_date": "1919-00-00",
+      "profile_url": "/memorial/188036509/christopher_friederich-eilber"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "5-7",
   "title": "",
   "prefix": "",

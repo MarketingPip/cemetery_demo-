@@ -25,9 +25,16 @@
       "id": 187
     }
   ],
-  "children": "[{\"name\": \"Bernice E.  Eilber Fritz\", \"birth_date\": \"1913-00-00\", \"death_date\": \"1990-00-00\", \"profile_url\": \"/memorial/188037430/bernice_e-fritz\"}]",
+  "children": [
+    {
+      "name": "Bernice E.  Eilber Fritz",
+      "birth_date": "1913-00-00",
+      "death_date": "1990-00-00",
+      "profile_url": "/memorial/188037430/bernice_e-fritz"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 9-11",
   "title": "",
   "prefix": "",

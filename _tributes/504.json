@@ -25,9 +25,28 @@
       "id": 492
     }
   ],
-  "children": "[{\"name\": \"Royal Howard   Haist\", \"birth_date\": \"1905-00-00\", \"death_date\": \"1979-00-00\", \"profile_url\": \"/memorial/15698467/royal_howard-haist\"}, {\"name\": \"Gordon   Haist\", \"birth_date\": \"1911-00-00\", \"death_date\": \"1979-00-00\", \"profile_url\": \"/memorial/15698481/gordon-haist\"}, {\"name\": \"Arthur Gerald \\\"Art\\\"  Haist\", \"birth_date\": \"1916-00-00\", \"death_date\": \"2002-00-00\", \"profile_url\": \"/memorial/15042881/arthur_gerald-haist\"}]",
+  "children": [
+    {
+      "name": "Royal Howard   Haist",
+      "birth_date": "1905-00-00",
+      "death_date": "1979-00-00",
+      "profile_url": "/memorial/15698467/royal_howard-haist"
+    },
+    {
+      "name": "Gordon   Haist",
+      "birth_date": "1911-00-00",
+      "death_date": "1979-00-00",
+      "profile_url": "/memorial/15698481/gordon-haist"
+    },
+    {
+      "name": "Arthur Gerald \"Art\"  Haist",
+      "birth_date": "1916-00-00",
+      "death_date": "2002-00-00",
+      "profile_url": "/memorial/15042881/arthur_gerald-haist"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "3-11",
   "title": "",
   "prefix": "",

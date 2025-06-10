@@ -22,9 +22,16 @@
       "id": 661
     }
   ],
-  "children": "[{\"name\": \"Dennis   Lamport\", \"birth_date\": \"1946-00-00\", \"death_date\": null, \"profile_url\": \"/memorial/239220491/dennis-lamport\"}]",
+  "children": [
+    {
+      "name": "Dennis   Lamport",
+      "birth_date": "1946-00-00",
+      "death_date": null,
+      "profile_url": "/memorial/239220491/dennis-lamport"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 13-4",
   "title": "",
   "prefix": "",

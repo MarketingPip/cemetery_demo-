@@ -33,9 +33,9 @@
     }
   ],
   "spouses": [],
-  "children": "[]",
+  "children": [],
   "siblings": "[{\"name\": \"Barbara   Haist\", \"birth_date\": \"1860-00-00\", \"death_date\": \"1868-00-00\", \"profile_url\": \"/memorial/236911555/barbara-haist\"}, {\"name\": \"Henrich   Haist\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1872-00-00\", \"profile_url\": \"/memorial/236911589/henrich-haist\"}, {\"name\": \"Karlina   Haist\", \"birth_date\": \"1874-00-00\", \"death_date\": \"1880-00-00\", \"profile_url\": \"/memorial/236911524/karlina-haist\"}]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "4-9",
   "title": "",
   "prefix": "",

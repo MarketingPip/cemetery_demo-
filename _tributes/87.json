@@ -25,9 +25,40 @@
       "id": 92
     }
   ],
-  "children": "[{\"name\": \"Mary Matilda   Brown\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1877-00-00\", \"profile_url\": \"/memorial/16444215/mary_matilda-brown\"}, {\"name\": \"Edward Thomas   Brown\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/16444298/edward_thomas-brown\"}, {\"name\": \"Simon Peter   Brown\", \"birth_date\": \"1881-00-00\", \"death_date\": \"1881-00-00\", \"profile_url\": \"/memorial/16444370/simon_peter-brown\"}, {\"name\": \"George Wesley   Brown\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1885-00-00\", \"profile_url\": \"/memorial/16444399/george_wesley-brown\"}, {\"name\": \"Emerson Bernard   Brown\", \"birth_date\": \"1896-00-00\", \"death_date\": \"1897-00-00\", \"profile_url\": \"/memorial/16444501/emerson_bernard-brown\"}]",
+  "children": [
+    {
+      "name": "Mary Matilda   Brown",
+      "birth_date": "1877-00-00",
+      "death_date": "1877-00-00",
+      "profile_url": "/memorial/16444215/mary_matilda-brown"
+    },
+    {
+      "name": "Edward Thomas   Brown",
+      "birth_date": "1878-00-00",
+      "death_date": "1879-00-00",
+      "profile_url": "/memorial/16444298/edward_thomas-brown"
+    },
+    {
+      "name": "Simon Peter   Brown",
+      "birth_date": "1881-00-00",
+      "death_date": "1881-00-00",
+      "profile_url": "/memorial/16444370/simon_peter-brown"
+    },
+    {
+      "name": "George Wesley   Brown",
+      "birth_date": "1882-00-00",
+      "death_date": "1885-00-00",
+      "profile_url": "/memorial/16444399/george_wesley-brown"
+    },
+    {
+      "name": "Emerson Bernard   Brown",
+      "birth_date": "1896-00-00",
+      "death_date": "1897-00-00",
+      "profile_url": "/memorial/16444501/emerson_bernard-brown"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 9-8",
   "title": "",
   "prefix": "",

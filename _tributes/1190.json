@@ -25,9 +25,22 @@
       "id": 1203
     }
   ],
-  "children": "[{\"name\": \"Fredrick Edwin   Wuerth\", \"birth_date\": \"1930-00-00\", \"death_date\": \"2008-00-00\", \"profile_url\": \"/memorial/186196144/fredrick_edwin-wuerth\"}, {\"name\": \"Florence   Wuerth\", \"birth_date\": null, \"death_date\": null, \"profile_url\": \"/memorial/15848721/florence-wuerth\"}]",
+  "children": [
+    {
+      "name": "Fredrick Edwin   Wuerth",
+      "birth_date": "1930-00-00",
+      "death_date": "2008-00-00",
+      "profile_url": "/memorial/186196144/fredrick_edwin-wuerth"
+    },
+    {
+      "name": "Florence   Wuerth",
+      "birth_date": null,
+      "death_date": null,
+      "profile_url": "/memorial/15848721/florence-wuerth"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "6-9",
   "title": "",
   "prefix": "",

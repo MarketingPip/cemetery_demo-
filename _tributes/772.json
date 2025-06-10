@@ -25,9 +25,16 @@
       "id": 771
     }
   ],
-  "children": "[{\"name\": \"Trueman Uriah   Motz\", \"birth_date\": \"1904-00-00\", \"death_date\": \"1905-00-00\", \"profile_url\": \"/memorial/15708060/trueman_uriah-motz\"}]",
+  "children": [
+    {
+      "name": "Trueman Uriah   Motz",
+      "birth_date": "1904-00-00",
+      "death_date": "1905-00-00",
+      "profile_url": "/memorial/15708060/trueman_uriah-motz"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "2-10",
   "title": "",
   "prefix": "",

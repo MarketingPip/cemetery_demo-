@@ -22,9 +22,16 @@
       "id": 342
     }
   ],
-  "children": "[{\"name\": \"Caroline Lavina  Finkbeiner Currey\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1970-00-00\", \"profile_url\": \"/memorial/36479056/caroline_lavina-currey\"}]",
+  "children": [
+    {
+      "name": "Caroline Lavina  Finkbeiner Currey",
+      "birth_date": "1877-00-00",
+      "death_date": "1970-00-00",
+      "profile_url": "/memorial/36479056/caroline_lavina-currey"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 11-11",
   "title": "",
   "prefix": "",

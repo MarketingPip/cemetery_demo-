@@ -23,9 +23,22 @@
       "profile_url": "/memorial/14622579/nicholas-beaver"
     }
   ],
-  "children": "[{\"name\": \"Christina  Beaver Schoellig\", \"birth_date\": \"1844-00-00\", \"death_date\": \"1866-00-00\", \"profile_url\": \"/memorial/14627864/christina-schoellig\"}, {\"name\": \"Nicholas   Beaver\", \"birth_date\": \"1849-00-00\", \"death_date\": \"1934-00-00\", \"profile_url\": \"/memorial/16671364/nicholas-beaver\"}]",
+  "children": [
+    {
+      "name": "Christina  Beaver Schoellig",
+      "birth_date": "1844-00-00",
+      "death_date": "1866-00-00",
+      "profile_url": "/memorial/14627864/christina-schoellig"
+    },
+    {
+      "name": "Nicholas   Beaver",
+      "birth_date": "1849-00-00",
+      "death_date": "1934-00-00",
+      "profile_url": "/memorial/16671364/nicholas-beaver"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 7-3",
   "title": "",
   "prefix": "",

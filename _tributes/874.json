@@ -25,9 +25,16 @@
       "id": 871
     }
   ],
-  "children": "[{\"name\": \"Paul Milton   Ratz\", \"birth_date\": \"1954-00-00\", \"death_date\": \"2011-00-00\", \"profile_url\": \"/memorial/188136502/paul_milton-ratz\"}]",
+  "children": [
+    {
+      "name": "Paul Milton   Ratz",
+      "birth_date": "1954-00-00",
+      "death_date": "2011-00-00",
+      "profile_url": "/memorial/188136502/paul_milton-ratz"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 17-9",
   "title": "",
   "prefix": "",

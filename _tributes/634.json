@@ -25,9 +25,22 @@
       "id": 717
     }
   ],
-  "children": "[{\"name\": \"Leah  Krine Northcott\", \"birth_date\": \"1856-00-00\", \"death_date\": \"1883-00-00\", \"profile_url\": \"/memorial/16577419/leah-northcott\"}, {\"name\": \"Samuel   Krein\", \"birth_date\": \"1879-00-00\", \"death_date\": \"1880-00-00\", \"profile_url\": \"/memorial/188113421/samuel-krein\"}]",
+  "children": [
+    {
+      "name": "Leah  Krine Northcott",
+      "birth_date": "1856-00-00",
+      "death_date": "1883-00-00",
+      "profile_url": "/memorial/16577419/leah-northcott"
+    },
+    {
+      "name": "Samuel   Krein",
+      "birth_date": "1879-00-00",
+      "death_date": "1880-00-00",
+      "profile_url": "/memorial/188113421/samuel-krein"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 5-1",
   "title": "",
   "prefix": "",

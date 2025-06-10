@@ -23,9 +23,16 @@
       "profile_url": "/memorial/94315676/mary_ann-smith"
     }
   ],
-  "children": "[{\"name\": \"Margaret Ellis  Link Werner\", \"birth_date\": \"1885-00-00\", \"death_date\": \"1981-00-00\", \"profile_url\": \"/memorial/103006164/margaret_ellis-werner\"}]",
+  "children": [
+    {
+      "name": "Margaret Ellis  Link Werner",
+      "birth_date": "1885-00-00",
+      "death_date": "1981-00-00",
+      "profile_url": "/memorial/103006164/margaret_ellis-werner"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 7-8",
   "title": "",
   "prefix": "",

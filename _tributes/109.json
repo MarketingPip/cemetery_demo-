@@ -25,9 +25,34 @@
       "id": 115
     }
   ],
-  "children": "[{\"name\": \"Bernard   Brown\", \"birth_date\": \"1858-00-00\", \"death_date\": \"1942-00-00\", \"profile_url\": \"/memorial/15965429/bernard-brown\"}, {\"name\": \"Jonathan   Brown\", \"birth_date\": \"1869-00-00\", \"death_date\": \"1872-00-00\", \"profile_url\": \"/memorial/15965849/jonathan-brown\"}, {\"name\": \"Daniel   Brown\", \"birth_date\": \"1872-00-00\", \"death_date\": \"1882-00-00\", \"profile_url\": \"/memorial/15966039/daniel-brown\"}, {\"name\": \"George Wesley   Brown\", \"birth_date\": \"1874-00-00\", \"death_date\": \"1965-00-00\", \"profile_url\": \"/memorial/10723063/george_wesley-brown\"}]",
+  "children": [
+    {
+      "name": "Bernard   Brown",
+      "birth_date": "1858-00-00",
+      "death_date": "1942-00-00",
+      "profile_url": "/memorial/15965429/bernard-brown"
+    },
+    {
+      "name": "Jonathan   Brown",
+      "birth_date": "1869-00-00",
+      "death_date": "1872-00-00",
+      "profile_url": "/memorial/15965849/jonathan-brown"
+    },
+    {
+      "name": "Daniel   Brown",
+      "birth_date": "1872-00-00",
+      "death_date": "1882-00-00",
+      "profile_url": "/memorial/15966039/daniel-brown"
+    },
+    {
+      "name": "George Wesley   Brown",
+      "birth_date": "1874-00-00",
+      "death_date": "1965-00-00",
+      "profile_url": "/memorial/10723063/george_wesley-brown"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 7-2",
   "title": "",
   "prefix": "",

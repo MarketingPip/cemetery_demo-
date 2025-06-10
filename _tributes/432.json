@@ -22,9 +22,22 @@
       "id": 409
     }
   ],
-  "children": "[{\"name\": \"Ruth Madeline   Gaiser\", \"birth_date\": \"1915-00-00\", \"death_date\": \"1923-00-00\", \"profile_url\": \"/memorial/192783230/ruth_madeline-gaiser\"}, {\"name\": \"Doris Alice   Gaiser\", \"birth_date\": \"1921-00-00\", \"death_date\": \"1921-00-00\", \"profile_url\": \"/memorial/192783313/doris_alice-gaiser\"}]",
+  "children": [
+    {
+      "name": "Ruth Madeline   Gaiser",
+      "birth_date": "1915-00-00",
+      "death_date": "1923-00-00",
+      "profile_url": "/memorial/192783230/ruth_madeline-gaiser"
+    },
+    {
+      "name": "Doris Alice   Gaiser",
+      "birth_date": "1921-00-00",
+      "death_date": "1921-00-00",
+      "profile_url": "/memorial/192783313/doris_alice-gaiser"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 15-1",
   "title": "",
   "prefix": "",

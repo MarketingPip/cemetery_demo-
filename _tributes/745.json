@@ -23,9 +23,28 @@
     }
   ],
   "spouses": [],
-  "children": "[{\"name\": \"John Wallace   Morlock\", \"birth_date\": \"1863-00-00\", \"death_date\": \"1933-00-00\", \"profile_url\": \"/memorial/66781225/john_wallace-morlock\"}, {\"name\": \"George E.   Morlock\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1878-00-00\", \"profile_url\": \"/memorial/15791519/george_e-morlock\"}, {\"name\": \"Mary Ellen   Morlock\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1903-00-00\", \"profile_url\": \"/memorial/15791572/mary_ellen-morlock\"}]",
+  "children": [
+    {
+      "name": "John Wallace   Morlock",
+      "birth_date": "1863-00-00",
+      "death_date": "1933-00-00",
+      "profile_url": "/memorial/66781225/john_wallace-morlock"
+    },
+    {
+      "name": "George E.   Morlock",
+      "birth_date": "1877-00-00",
+      "death_date": "1878-00-00",
+      "profile_url": "/memorial/15791519/george_e-morlock"
+    },
+    {
+      "name": "Mary Ellen   Morlock",
+      "birth_date": "1882-00-00",
+      "death_date": "1903-00-00",
+      "profile_url": "/memorial/15791572/mary_ellen-morlock"
+    }
+  ],
   "siblings": "[{\"name\": \"Matthew   Morlock\", \"birth_date\": \"1828-00-00\", \"death_date\": \"1923-00-00\", \"profile_url\": \"/memorial/15395989/matthew-morlock\"}, {\"name\": \"Louisa  Morlock Faist\", \"birth_date\": \"1833-00-00\", \"death_date\": \"1914-00-00\", \"profile_url\": \"/memorial/236920169/louisa-faist\"}, {\"name\": \"Gottlieb   Morlock\", \"birth_date\": \"1836-00-00\", \"death_date\": \"1910-00-00\", \"profile_url\": \"/memorial/15978080/gottlieb-morlock\"}]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 1-5",
   "title": "",
   "prefix": "",

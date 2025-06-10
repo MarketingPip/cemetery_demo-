@@ -22,9 +22,16 @@
       "id": 196
     }
   ],
-  "children": "[{\"name\": \"Beaulah F   Eilber\", \"birth_date\": \"1897-00-00\", \"death_date\": \"1898-00-00\", \"profile_url\": \"/memorial/239203453/beaulah_f-eilber\"}]",
+  "children": [
+    {
+      "name": "Beaulah F   Eilber",
+      "birth_date": "1897-00-00",
+      "death_date": "1898-00-00",
+      "profile_url": "/memorial/239203453/beaulah_f-eilber"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 12-1",
   "title": "",
   "prefix": "",

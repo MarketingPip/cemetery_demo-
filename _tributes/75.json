@@ -25,9 +25,16 @@
       "id": 74
     }
   ],
-  "children": "[{\"name\": \"Gottlieb K.   Braun\", \"birth_date\": \"1840-00-00\", \"death_date\": \"1930-00-00\", \"profile_url\": \"/memorial/40800650/gottlieb_k-braun\"}]",
+  "children": [
+    {
+      "name": "Gottlieb K.   Braun",
+      "birth_date": "1840-00-00",
+      "death_date": "1930-00-00",
+      "profile_url": "/memorial/40800650/gottlieb_k-braun"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "4-1",
   "title": "",
   "prefix": "",

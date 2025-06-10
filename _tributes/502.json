@@ -22,9 +22,52 @@
       "id": 488
     }
   ],
-  "children": "[{\"name\": \"Laura May  Haist Gaiser\", \"birth_date\": \"1891-00-00\", \"death_date\": \"1980-00-00\", \"profile_url\": \"/memorial/188113040/laura_may-gaiser\"}, {\"name\": \"Everett George   Haist\", \"birth_date\": \"1894-00-00\", \"death_date\": \"1995-00-00\", \"profile_url\": \"/memorial/18593987/everett_george-haist\"}, {\"name\": \"Wellington Roy   Haist\", \"birth_date\": \"1895-00-00\", \"death_date\": \"1970-00-00\", \"profile_url\": \"/memorial/15580371/wellington_roy-haist\"}, {\"name\": \"Herbert Frederick   Haist\", \"birth_date\": \"1896-00-00\", \"death_date\": \"1993-00-00\", \"profile_url\": \"/memorial/107777871/herbert_frederick-haist\"}, {\"name\": \"Losetta Matilda  Haist Fahrner\", \"birth_date\": \"1899-00-00\", \"death_date\": \"1987-00-00\", \"profile_url\": \"/memorial/15571752/losetta_matilda-fahrner\"}, {\"name\": \"Clara Anita  Haist Ratz\", \"birth_date\": \"1901-00-00\", \"death_date\": \"1997-00-00\", \"profile_url\": \"/memorial/15561361/clara_anita-ratz\"}, {\"name\": \"Alma Elizabeth  Haist Morlock\", \"birth_date\": \"1903-00-00\", \"death_date\": \"1943-00-00\", \"profile_url\": \"/memorial/16539058/alma_elizabeth-morlock\"}]",
+  "children": [
+    {
+      "name": "Laura May  Haist Gaiser",
+      "birth_date": "1891-00-00",
+      "death_date": "1980-00-00",
+      "profile_url": "/memorial/188113040/laura_may-gaiser"
+    },
+    {
+      "name": "Everett George   Haist",
+      "birth_date": "1894-00-00",
+      "death_date": "1995-00-00",
+      "profile_url": "/memorial/18593987/everett_george-haist"
+    },
+    {
+      "name": "Wellington Roy   Haist",
+      "birth_date": "1895-00-00",
+      "death_date": "1970-00-00",
+      "profile_url": "/memorial/15580371/wellington_roy-haist"
+    },
+    {
+      "name": "Herbert Frederick   Haist",
+      "birth_date": "1896-00-00",
+      "death_date": "1993-00-00",
+      "profile_url": "/memorial/107777871/herbert_frederick-haist"
+    },
+    {
+      "name": "Losetta Matilda  Haist Fahrner",
+      "birth_date": "1899-00-00",
+      "death_date": "1987-00-00",
+      "profile_url": "/memorial/15571752/losetta_matilda-fahrner"
+    },
+    {
+      "name": "Clara Anita  Haist Ratz",
+      "birth_date": "1901-00-00",
+      "death_date": "1997-00-00",
+      "profile_url": "/memorial/15561361/clara_anita-ratz"
+    },
+    {
+      "name": "Alma Elizabeth  Haist Morlock",
+      "birth_date": "1903-00-00",
+      "death_date": "1943-00-00",
+      "profile_url": "/memorial/16539058/alma_elizabeth-morlock"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 16-3",
   "title": "",
   "prefix": "",

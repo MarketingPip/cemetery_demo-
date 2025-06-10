@@ -22,9 +22,16 @@
       "id": 962
     }
   ],
-  "children": "[{\"name\": \"Claire Milton   Schwartz\", \"birth_date\": \"1934-00-00\", \"death_date\": \"2006-00-00\", \"profile_url\": \"/memorial/41013822/claire_milton-schwartz\"}]",
+  "children": [
+    {
+      "name": "Claire Milton   Schwartz",
+      "birth_date": "1934-00-00",
+      "death_date": "2006-00-00",
+      "profile_url": "/memorial/41013822/claire_milton-schwartz"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 15-6",
   "title": "",
   "prefix": "",

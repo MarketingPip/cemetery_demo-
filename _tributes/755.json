@@ -25,9 +25,16 @@
       "id": 721
     }
   ],
-  "children": "[{\"name\": \"Martin   Morlock\", \"birth_date\": \"1919-00-00\", \"death_date\": \"1976-00-00\", \"profile_url\": \"/memorial/15848830/martin-morlock\"}]",
+  "children": [
+    {
+      "name": "Martin   Morlock",
+      "birth_date": "1919-00-00",
+      "death_date": "1976-00-00",
+      "profile_url": "/memorial/15848830/martin-morlock"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 7-3",
   "title": "",
   "prefix": "",

@@ -33,9 +33,9 @@
     }
   ],
   "spouses": [],
-  "children": "[]",
+  "children": [],
   "siblings": "[{\"name\": \"Henry John   Kuhn\", \"birth_date\": \"1876-00-00\", \"death_date\": \"1943-00-00\", \"profile_url\": \"/memorial/15563798/henry_john-kuhn\"}, {\"name\": \"Samuel   Kuhn\", \"birth_date\": \"1881-00-00\", \"death_date\": \"1938-00-00\", \"profile_url\": \"/memorial/15554412/samuel-kuhn\"}]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 8-7",
   "title": "",
   "prefix": "",

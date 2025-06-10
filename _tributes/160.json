@@ -25,9 +25,22 @@
       "id": 161
     }
   ],
-  "children": "[{\"name\": \"Geraldine Ann  Dundas Schenk\", \"birth_date\": \"1932-00-00\", \"death_date\": \"2019-00-00\", \"profile_url\": \"/memorial/238053974/geraldine_ann-schenk\"}, {\"name\": \"Donald S.   Dundas\", \"birth_date\": \"1947-00-00\", \"death_date\": \"2020-00-00\", \"profile_url\": \"/memorial/238051972/donald_s-dundas\"}]",
+  "children": [
+    {
+      "name": "Geraldine Ann  Dundas Schenk",
+      "birth_date": "1932-00-00",
+      "death_date": "2019-00-00",
+      "profile_url": "/memorial/238053974/geraldine_ann-schenk"
+    },
+    {
+      "name": "Donald S.   Dundas",
+      "birth_date": "1947-00-00",
+      "death_date": "2020-00-00",
+      "profile_url": "/memorial/238051972/donald_s-dundas"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "19-4",
   "title": "",
   "prefix": "",

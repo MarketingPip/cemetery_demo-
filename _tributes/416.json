@@ -33,9 +33,9 @@
     }
   ],
   "spouses": [],
-  "children": "[]",
+  "children": [],
   "siblings": "[{\"name\": \"George A.   Gaiser\", \"birth_date\": \"1856-00-00\", \"death_date\": \"1899-00-00\", \"profile_url\": \"/memorial/188113009/george_a-gaiser\"}, {\"name\": \"Magdalena  Gaiser Finkbeiner\", \"birth_date\": \"1858-00-00\", \"death_date\": \"1927-00-00\", \"profile_url\": \"/memorial/16331358/magdalena-finkbeiner\"}, {\"name\": \"William B.   Gaiser\", \"birth_date\": \"1862-00-00\", \"death_date\": \"1934-00-00\", \"profile_url\": \"/memorial/188113083/william_b-gaiser\"}, {\"name\": \"Levi   Gaiser\", \"birth_date\": \"1865-00-00\", \"death_date\": \"1930-00-00\", \"profile_url\": \"/memorial/54691204/levi-gaiser\"}, {\"name\": \"John Noah   Gaiser\", \"birth_date\": \"1868-00-00\", \"death_date\": \"1930-00-00\", \"profile_url\": \"/memorial/54691203/john_noah-gaiser\"}]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 8-2",
   "title": "",
   "prefix": "",

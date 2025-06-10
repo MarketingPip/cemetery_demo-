@@ -30,9 +30,16 @@
     }
   ],
   "spouses": [],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[{\"name\": \"Orald   Hill\", \"birth_date\": \"1921-00-00\", \"death_date\": \"1921-00-00\", \"profile_url\": \"/memorial/15580219/orald-hill\"}]",
+  "half_siblings": [
+    {
+      "name": "Orald   Hill",
+      "birth_date": "1921-00-00",
+      "death_date": "1921-00-00",
+      "profile_url": "/memorial/15580219/orald-hill"
+    }
+  ],
   "plot_value": "Row 16-1",
   "title": "",
   "prefix": "",

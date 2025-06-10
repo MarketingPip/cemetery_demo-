@@ -25,9 +25,40 @@
       "id": 453
     }
   ],
-  "children": "[{\"name\": \"Vera Mary Elizabeth  Gower Bullock\", \"birth_date\": \"1905-00-00\", \"death_date\": \"2001-00-00\", \"profile_url\": \"/memorial/188036061/vera_mary_elizabeth-bullock\"}, {\"name\": \"Henry   Gower\", \"birth_date\": \"1906-00-00\", \"death_date\": \"1906-00-00\", \"profile_url\": \"/memorial/241152797/henry-gower\"}, {\"name\": \"Lydia \\\"Luella\\\"  Gower Taylor\", \"birth_date\": \"1908-00-00\", \"death_date\": \"2003-00-00\", \"profile_url\": \"/memorial/188138132/lydia_%22luella%22-taylor\"}, {\"name\": \"Milton Isaac   Gower\", \"birth_date\": \"1912-00-00\", \"death_date\": \"1986-00-00\", \"profile_url\": \"/memorial/15563013/milton_isaac-gower\"}, {\"name\": \"Alma Katherine  Gower Brunzlow\", \"birth_date\": \"1918-00-00\", \"death_date\": \"2024-00-00\", \"profile_url\": \"/memorial/269021463/alma_katherine-brunzlow\"}]",
+  "children": [
+    {
+      "name": "Vera Mary Elizabeth  Gower Bullock",
+      "birth_date": "1905-00-00",
+      "death_date": "2001-00-00",
+      "profile_url": "/memorial/188036061/vera_mary_elizabeth-bullock"
+    },
+    {
+      "name": "Henry   Gower",
+      "birth_date": "1906-00-00",
+      "death_date": "1906-00-00",
+      "profile_url": "/memorial/241152797/henry-gower"
+    },
+    {
+      "name": "Lydia \"Luella\"  Gower Taylor",
+      "birth_date": "1908-00-00",
+      "death_date": "2003-00-00",
+      "profile_url": "/memorial/188138132/lydia_%22luella%22-taylor"
+    },
+    {
+      "name": "Milton Isaac   Gower",
+      "birth_date": "1912-00-00",
+      "death_date": "1986-00-00",
+      "profile_url": "/memorial/15563013/milton_isaac-gower"
+    },
+    {
+      "name": "Alma Katherine  Gower Brunzlow",
+      "birth_date": "1918-00-00",
+      "death_date": "2024-00-00",
+      "profile_url": "/memorial/269021463/alma_katherine-brunzlow"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 16-7",
   "title": "",
   "prefix": "",

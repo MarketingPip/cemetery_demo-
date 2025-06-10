@@ -13,9 +13,16 @@
   "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [],
-  "children": "[{\"name\": \"Roger James   Bowers\", \"birth_date\": null, \"death_date\": \"1972-00-00\", \"profile_url\": \"/memorial/239240455/roger_james-bowers\"}]",
+  "children": [
+    {
+      "name": "Roger James   Bowers",
+      "birth_date": null,
+      "death_date": "1972-00-00",
+      "profile_url": "/memorial/239240455/roger_james-bowers"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 27-5",
   "title": "",
   "prefix": "",

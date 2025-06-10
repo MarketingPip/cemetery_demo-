@@ -22,9 +22,22 @@
       "id": 995
     }
   ],
-  "children": "[{\"name\": \"Allan \\\"Roy\\\"  Smith\", \"birth_date\": \"1942-00-00\", \"death_date\": \"2015-00-00\", \"profile_url\": \"/memorial/163913876/allan-smith\"}, {\"name\": \"Judith Anne  Smith Glavin\", \"birth_date\": \"1950-00-00\", \"death_date\": \"1997-00-00\", \"profile_url\": \"/memorial/155106902/judith_anne-glavin\"}]",
+  "children": [
+    {
+      "name": "Allan \"Roy\"  Smith",
+      "birth_date": "1942-00-00",
+      "death_date": "2015-00-00",
+      "profile_url": "/memorial/163913876/allan-smith"
+    },
+    {
+      "name": "Judith Anne  Smith Glavin",
+      "birth_date": "1950-00-00",
+      "death_date": "1997-00-00",
+      "profile_url": "/memorial/155106902/judith_anne-glavin"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",

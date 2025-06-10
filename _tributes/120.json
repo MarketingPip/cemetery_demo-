@@ -33,9 +33,9 @@
     }
   ],
   "spouses": [],
-  "children": "[]",
+  "children": [],
   "siblings": "[{\"name\": \"Adolph   Brown\", \"birth_date\": \"1857-00-00\", \"death_date\": \"1866-00-00\", \"profile_url\": \"/memorial/188035776/adolph-brown\"}, {\"name\": \"Charles   Brown\", \"birth_date\": \"1863-00-00\", \"death_date\": \"1893-00-00\", \"profile_url\": \"/memorial/188035798/charles-brown\"}]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 7-10",
   "title": "",
   "prefix": "",

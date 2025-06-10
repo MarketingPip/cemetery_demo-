@@ -22,9 +22,16 @@
       "id": 845
     }
   ],
-  "children": "[{\"name\": \"William Henry   Pfaff\", \"birth_date\": \"1926-00-00\", \"death_date\": \"2003-00-00\", \"profile_url\": \"/memorial/40131503/william_henry-pfaff\"}]",
+  "children": [
+    {
+      "name": "William Henry   Pfaff",
+      "birth_date": "1926-00-00",
+      "death_date": "2003-00-00",
+      "profile_url": "/memorial/40131503/william_henry-pfaff"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 22-2",
   "title": "",
   "prefix": "",

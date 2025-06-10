@@ -25,9 +25,16 @@
       "id": 494
     }
   ],
-  "children": "[{\"name\": \"Dorothea  Steinacher Weber\", \"birth_date\": \"1856-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/261955862/dorothea-weber\"}]",
+  "children": [
+    {
+      "name": "Dorothea  Steinacher Weber",
+      "birth_date": "1856-00-00",
+      "death_date": "1879-00-00",
+      "profile_url": "/memorial/261955862/dorothea-weber"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "4-9",
   "title": "",
   "prefix": "",
