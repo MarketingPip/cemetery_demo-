@@ -480,7 +480,7 @@ async function tributeData(tributeId) {
 function renderPerson(person) {
     return `
             <!-- Wrap the whole card in an anchor tag to make it clickable -->
-        <a href="../tribute?id=${person?.id}"
+        <a href="${person?.id ? `../tribute?id=${person.id}` : `{{base_url}}/redirect?nameFindAGrave&url=findagrave.com${encodeURIComponent(person.profile_url)}`}">View Tribute</a>
            title="View ${person.name}'s memorial page" 
            aria-label="Link to ${person.name}'s memorial page">
         <div class="flex items-start gap-4 mb-2">
