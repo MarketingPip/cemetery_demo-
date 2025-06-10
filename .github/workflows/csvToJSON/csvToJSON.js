@@ -8,6 +8,16 @@ function slugify(name, id) {
     .replace(/^-+|-+$/g, '')     // trim leading/trailing dashes
     + `-${id}`;
 }
+      // Helper function to parse JSON fields with error handling
+      const parseJsonField = (field, defaultValue = []) => {
+        try {
+          return field
+            ? JSON.parse(field.replace(/'/g, '"').replace(/None/g, 'null'))
+            : defaultValue;
+        } catch {
+          return defaultValue;
+        }
+      };
 
 const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
   try {
@@ -33,24 +43,14 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
 
     // Process each record asynchronously.
     const records = allRecords.map(async (record) => {
-      // Helper function to parse JSON fields with error handling
-      const parseJsonField = (field, defaultValue = []) => {
-        try {
-          return field
-            ? JSON.parse(field.replace(/'/g, '"').replace(/None/g, 'null'))
-            : defaultValue;
-        } catch {
-          return defaultValue;
-        }
-      };
 
-      // Handle 'parents' and 'spouses' fields when homePage is false
+   /*   // Handle 'parents' and 'spouses' fields when homePage is false
      if (!homePage) {
         record.parents = parseJsonField(record.parents);
         record.spouses = parseJsonField(record.spouses);
         record.children = parseJsonField(record.children);
         record.half_siblings = parseJsonField(record.half_siblings);
-      }
+      }*/
 
       // Handle 'gps' field (replace single quotes and parse JSON string)
       if (record.gps && record.gps.trim().length) {
