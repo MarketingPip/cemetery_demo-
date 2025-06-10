@@ -14,11 +14,6 @@ downloadableResources:
     link: "#download-symbols"
     icon: "fas fa-file-pdf"
     color: "text-green-600"
-  - title: "Hall, Roger. Ontario: Two Hundred Years in Pictures. 1945"
-    description: "A Picture History of Ontario"
-    link: "https://archive.org/download/ontariotwohundre00hall/ontariotwohundre00hall.pdf"
-    icon: "fas fa-file-pdf"
-    color: "text-green-600"    
 
 tools:
   - title: "Family Relationship Chart"
