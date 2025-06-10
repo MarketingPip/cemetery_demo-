@@ -139,6 +139,25 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
           }));
         }
 
+
+
+// Process children
+if (record.children && Array.isArray(record.children) && record.children.length) {
+  record.children = await Promise.all(record.children.map(async (child) => {
+    const childMemorialId = child.profile_url.split('/')[2];
+    const childRecord = allRecords.find(r => r.memorial_url.includes(childMemorialId));
+    if (childRecord) {
+      console.log(childRecord);
+      if (childRecord.image_url) {
+        child.image_url = childRecord.image_url;
+      }
+      child.id = childRecord.id;
+    }
+    return child;
+  }));
+}
+
+        
         // Write each non-homePage record to a separate JSON file in assets/people/[id]
         const recordDirectoryPath = './assets/people';
         await fs.mkdir(recordDirectoryPath, { recursive: true });
