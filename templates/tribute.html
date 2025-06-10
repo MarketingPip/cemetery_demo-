@@ -312,7 +312,7 @@ function parseJSON(json) {
   }
 }
     
-function renderMarkmap(parents, spouses, children, grandchildren, person) {
+function renderMarkmap(parents, spouses, children, grandchildren, siblings, person) {
   // Initialize the Markdown output
 
   let markdown = `# ${person.name}`;
@@ -345,6 +345,14 @@ function renderMarkmap(parents, spouses, children, grandchildren, person) {
     markdown += "\n";
   }
 
+
+    if (siblings && siblings.length) {
+    markdown += `- Siblings\n`;
+    siblings.forEach((gc) => {
+      markdown += `    - ${gc.name}\n`;
+    });
+    markdown += "\n";
+  }
   if (grandchildren && grandchildren.length) {
     markdown += `- Grandchildren:\n`;
     grandchildren.forEach((gc) => {
@@ -599,7 +607,7 @@ if (siblingsSection && childrenSection) {
 
      if(hasTreeData){
      tabs.familyTree.innerHTML = `<svg id="markmap" class="w-full h-64"></svg>`;
-     renderMarkmap(tribute.parents, tribute.spouses, parseJSON(tribute.children), parseJSON(tribute.grandchildren), tribute);  
+     renderMarkmap(tribute.parents, tribute.spouses, tribute.children, tribute.grandchildren, tribute.siblings, tribute);  
      }
       // Share Links
       const currentUrl = window.location.href;
