@@ -233,7 +233,7 @@ function generateRelationships(gender, maxGenerations = 4) {
     } else if (rel.type === 'collateral') {
       const g1 = rel.stepsToAncestor - Math.abs(rel.genDiff);
       const g2 = rel.stepsToAncestor;
-      const exponent = g1 + g2 - (rel.half ? 0 : 1);
+      const exponent = g1 + g2 - (rel.genDiff === 0 ? 1 : 0);
       fraction = `1 / ${Math.pow(2, exponent)}`;
     }
     return {
