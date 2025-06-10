@@ -153,19 +153,15 @@ layout: default
           <div class="mt-2 container mx-auto max-w-4xl">
     
     
-{% assign is_external_http = page.pdfFile contains 'http://' %}
-{% assign is_external_https = page.pdfFile contains 'https://' %}
-{% if is_external_http or is_external_https %}
+{% assign is_external = false %}
+{% if page.pdfFile and (page.pdfFile contains 'http://' or page.pdfFile contains 'https://') %}
   {% assign is_external = true %}
-{% else %}
-  {% assign is_external = false %}
 {% endif %}
-
 <a id="read-more"
    target="_blank"
    rel="noopener noreferrer"
    class="inline-block text-white bg-green-700 hover:bg-green-900 font-bold px-6 py-2 rounded transition duration-300"
-   href="{% if is_external %}{{ page.pdfFile }}b{% else %}{{ base_url }}/resources/books/{{ page.pdfFile }}a{% endif %}">
+   href="{% if is_external %}{{ page.pdfFile }}{% else %}{{ base_url }}/resources/books/{{ page.pdfFile }}a{% endif %}">
    View Book
    <i class="fas fa-external-link-alt ml-2"></i>
 </a>
