@@ -478,21 +478,29 @@ async function tributeData(tributeId) {
 
 // Function to render a single person (used for parents, spouse, siblings, children)
 function renderPerson(person) {
+    const tributeUrl = person?.id
+        ? `../tribute?id=${person.id}`
+        : `{{base_url}}/redirect?nameFindAGrave&url=findagrave.com${encodeURIComponent(person.profile_url)}`;
+
     return `
-            <!-- Wrap the whole card in an anchor tag to make it clickable -->
-        <a href="${person?.id ? `../tribute?id=${person.id}` : `{{base_url}}/redirect?nameFindAGrave&url=findagrave.com${encodeURIComponent(person.profile_url)}`}">View Tribute</a>
+        <!-- Wrap the whole card in an anchor tag to make it clickable -->
+        <a href="${tributeUrl}" 
            title="View ${person.name}'s memorial page" 
-           aria-label="Link to ${person.name}'s memorial page">
-        <div class="flex items-start gap-4 mb-2">
-            <img src="${person?.image_url || './../assets/images/placeholder.png'}" alt="${person?.name}" class="w-24 h-32 object-cover rounded-md border border-gray-700">
-            <div>
-                <p class="text-base md:text-lg font-medium">${person.name}</p>
-                <p class="text-sm md:text-base text-gray-400">${formatBirthDeathDates(person.birth_date, person.death_date)}</p>
+           aria-label="Link to ${person.name}'s memorial page"
+           class="block">
+            <div class="flex items-start gap-4 mb-2">
+                <img src="${person?.image_url || './../assets/images/placeholder.png'}" 
+                     alt="${person?.name}" 
+                     class="w-24 h-32 object-cover rounded-md border border-gray-700">
+                <div>
+                    <p class="text-base md:text-lg font-medium">${person.name}</p>
+                    <p class="text-sm md:text-base text-gray-400">${formatBirthDeathDates(person.birth_date, person.death_date)}</p>
+                </div>
             </div>
-        </div>
         </a>
     `;
 }
+
 
 // Function to render a section (e.g., Parents, Spouse, Siblings, Children)
 function renderSection(title, people) {
