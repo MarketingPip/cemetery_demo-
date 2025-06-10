@@ -124,6 +124,7 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
             const siblingMemorialId = sibling.profile_url.split('/')[2];
             const siblingRecord = allRecords.find(r => r.memorial_url.includes(siblingMemorialId));
             if (siblingRecord) {
+              console.log(siblingRecord)
               if (siblingRecord.image_url) {
                 sibling.image_url = siblingRecord.image_url;
               }
