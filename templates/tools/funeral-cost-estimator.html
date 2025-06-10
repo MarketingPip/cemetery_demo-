@@ -1,6 +1,7 @@
 ---
 permalink: /resources/tools/funeral-cost-estimator/
 ---
+{% assign base_url = site.baseurl | default: "" %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -68,7 +69,7 @@ permalink: /resources/tools/funeral-cost-estimator/
   <section class="bg-white py-12" id="estimator-intro">
     <div class="px-4 container mx-auto">
       <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Estimate Your Costs</h2>
-      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Use this tool to estimate burial and related costs at Crediton Cemetery based on our current price list. Prices exclude HST unless noted. For full details or to proceed, <a href="#contact" class="text-green-700 hover:text-green-900">contact us</a>.</p>
+      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Use this tool to estimate burial and related costs at Crediton Cemetery based on our current price list. Prices exclude HST unless noted. For full details or to proceed, <a href="{{base_url}}/contact" class="text-green-700 hover:text-green-900">contact us</a>.</p>
     </div>
   </section>
 
