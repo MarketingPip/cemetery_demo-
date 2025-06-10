@@ -642,7 +642,7 @@ function initializeMap(coordinates, locationName) {
             }
       if(tribute.gps){
        document.getElementById('location-content').innerHTML = `<div id="map" class="w-full h-64 rounded-lg"></div>`;
-       initializeMap(tribute.gps, tribute.name);
+       initializeMap([tribute.gps.latitude, tribute.gps.longitude], tribute.name);
       }
       // Resources
       const resourcesList = document.getElementById('resources-list');
