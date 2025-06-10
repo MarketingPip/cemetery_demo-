@@ -25,14 +25,15 @@
       "id": 207
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "3-12",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "Otto S. Ewald1894-1932his wife Mabel Fahrner1889-1972",
-  "id": 208
+  "id": 208,
+  "slug": "otto-samuel-ewald-208"
 }

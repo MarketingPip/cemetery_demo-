@@ -39,14 +39,15 @@
       "id": 652
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 17-1",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Fahrner",
   "inscription": "",
-  "id": 640
+  "id": 640,
+  "slug": "agnes-fahrner-kuhn-640"
 }

@@ -23,14 +23,15 @@
       "profile_url": "/memorial/155371990/mina_annie-wein"
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "5-11",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "WEINAlbert W. WeinAug. 15, 1885June 4, 1947father",
-  "id": 1108
+  "id": 1108,
+  "slug": "albert-w-wein-1108"
 }

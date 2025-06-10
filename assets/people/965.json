@@ -33,9 +33,9 @@
     }
   ],
   "spouses": [],
-  "children": "[]",
+  "children": [],
   "siblings": "[{\"name\": \"Michael   Schwarz Jr\", \"birth_date\": \"1872-00-00\", \"death_date\": \"1910-00-00\", \"profile_url\": \"/memorial/188136852/michael-schwarz\"}, {\"name\": \"Lydia  Schwartz Wurm\", \"birth_date\": \"1875-00-00\", \"death_date\": \"1924-00-00\", \"profile_url\": \"/memorial/15728684/lydia-wurm\"}]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "3-10",
   "title": "",
   "prefix": "",

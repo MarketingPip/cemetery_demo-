@@ -25,9 +25,9 @@
     }
   ],
   "spouses": [],
-  "children": "[]",
+  "children": [],
   "siblings": "[{\"name\": \"Agnes  Fahner Wein\", \"birth_date\": \"1835-00-00\", \"death_date\": \"1919-00-00\", \"profile_url\": \"/memorial/189806364/agnes-wein\"}, {\"name\": \"Tobias   Fahner\", \"birth_date\": \"1839-00-00\", \"death_date\": \"1906-00-00\", \"profile_url\": \"/memorial/188037143/tobias-fahner\"}, {\"name\": \"George   Fahrner\", \"birth_date\": \"1842-00-00\", \"death_date\": \"1918-00-00\", \"profile_url\": \"/memorial/188036992/george-fahrner\"}, {\"name\": \"Gottlieb   Fahner\", \"birth_date\": \"1846-00-00\", \"death_date\": \"1937-00-00\", \"profile_url\": \"/memorial/188037003/gottlieb-fahner\"}]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "3-5",
   "title": "",
   "prefix": "",

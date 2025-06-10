@@ -25,14 +25,28 @@
       "id": 225
     }
   ],
-  "children": "[{\"name\": \"Erma  Fahner Krueger\", \"birth_date\": \"1909-00-00\", \"death_date\": \"1979-00-00\", \"profile_url\": \"/memorial/188113434/erma-krueger\"}, {\"name\": \"Bernice Adileen  Fahner Jeffery\", \"birth_date\": \"1922-00-00\", \"death_date\": \"2002-00-00\", \"profile_url\": \"/memorial/16576817/bernice_adileen-jeffery\"}]",
+  "children": [
+    {
+      "name": "Erma  Fahner Krueger",
+      "birth_date": "1909-00-00",
+      "death_date": "1979-00-00",
+      "profile_url": "/memorial/188113434/erma-krueger"
+    },
+    {
+      "name": "Bernice Adileen  Fahner Jeffery",
+      "birth_date": "1922-00-00",
+      "death_date": "2002-00-00",
+      "profile_url": "/memorial/16576817/bernice_adileen-jeffery"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 8-10",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "FAHNERLydia Weindied Mar. 31, 1944 aged 63 yrs.wife of Henry Fahnerdied Nov. 19, 1964aged 86 yrs.their daughter Emmawife of Rose Kruegerdied June 5, 1979 aged 67 yrs.(back)Tobias Fahnerdied Aug. 20, 1906aged 67 yrs.Gone but not forgotten Sophia his wifedied Apr. 14, 1924 aged 74 yrs.at rest",
-  "id": 221
+  "id": 221,
+  "slug": "heinrich-edward-fahner-221"
 }

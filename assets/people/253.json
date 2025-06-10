@@ -47,14 +47,15 @@
       "id": 542
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 16-1",
   "title": "",
   "prefix": "",
   "photos": "[{'src': 'https://images.findagrave.com/photos/2025/65/15580255_96a1bb8f-932b-4ff3-96d3-3881417baafe.jpeg?size=photos250', 'contributor_text': 'Kimberly Fraser', 'contributor_href': 'https://www.findagrave.com/user/profile/46863018'}]",
   "maiden_name": "Wenzel",
   "inscription": "BERG-FAHRNERf.s. FATHER MOTHER",
-  "id": 253
+  "id": 253,
+  "slug": "mabel-wenzel-fahrner-253"
 }

@@ -22,14 +22,15 @@
       "id": 690
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",
   "photos": "[{'src': 'https://images.findagrave.com/photos/2022/84/15561417_86cb7b7d-23bd-461a-b856-3f20f6a32c91.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}]",
   "maiden_name": "",
   "inscription": "",
-  "id": 691
+  "id": 691,
+  "slug": "john-murdoch-mackay-691"
 }

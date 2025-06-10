@@ -25,14 +25,40 @@
       "id": 837
     }
   ],
-  "children": "[{\"name\": \"Mary  Pfaff Gower\", \"birth_date\": \"1886-00-00\", \"death_date\": \"1988-00-00\", \"profile_url\": \"/memorial/15563745/mary-gower\"}, {\"name\": \"Caroline Elizabeth  Pfaff Gower\", \"birth_date\": \"1889-00-00\", \"death_date\": \"1963-00-00\", \"profile_url\": \"/memorial/104983199/caroline_elizabeth-gower\"}, {\"name\": \"Oscar   Pfaff\", \"birth_date\": \"1899-00-00\", \"death_date\": \"1991-00-00\", \"profile_url\": \"/memorial/188136430/oscar-pfaff\"}, {\"name\": \"Herman Otto   Pfaff\", \"birth_date\": \"1901-00-00\", \"death_date\": \"1973-00-00\", \"profile_url\": \"/memorial/188136427/herman_otto-pfaff\"}]",
+  "children": [
+    {
+      "name": "Mary  Pfaff Gower",
+      "birth_date": "1886-00-00",
+      "death_date": "1988-00-00",
+      "profile_url": "/memorial/15563745/mary-gower"
+    },
+    {
+      "name": "Caroline Elizabeth  Pfaff Gower",
+      "birth_date": "1889-00-00",
+      "death_date": "1963-00-00",
+      "profile_url": "/memorial/104983199/caroline_elizabeth-gower"
+    },
+    {
+      "name": "Oscar   Pfaff",
+      "birth_date": "1899-00-00",
+      "death_date": "1991-00-00",
+      "profile_url": "/memorial/188136430/oscar-pfaff"
+    },
+    {
+      "name": "Herman Otto   Pfaff",
+      "birth_date": "1901-00-00",
+      "death_date": "1973-00-00",
+      "profile_url": "/memorial/188136427/herman_otto-pfaff"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "5-4",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Schmidt",
   "inscription": "PFAFFHenry C. Pfaff1859-1937his wife Elizabeth Schmidt1859-1947their son Herman Otto1901-1973",
-  "id": 833
+  "id": 833,
+  "slug": "elizabeth-schmidt-pfaff-833"
 }

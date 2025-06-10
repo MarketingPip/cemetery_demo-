@@ -25,14 +25,40 @@
       "id": 109
     }
   ],
-  "children": "[{\"name\": \"Bernard   Brown\", \"birth_date\": \"1858-00-00\", \"death_date\": \"1942-00-00\", \"profile_url\": \"/memorial/15965429/bernard-brown\"}, {\"name\": \"Jonathan   Brown\", \"birth_date\": \"1869-00-00\", \"death_date\": \"1872-00-00\", \"profile_url\": \"/memorial/15965849/jonathan-brown\"}, {\"name\": \"Daniel   Brown\", \"birth_date\": \"1872-00-00\", \"death_date\": \"1882-00-00\", \"profile_url\": \"/memorial/15966039/daniel-brown\"}, {\"name\": \"George Wesley   Brown\", \"birth_date\": \"1874-00-00\", \"death_date\": \"1965-00-00\", \"profile_url\": \"/memorial/10723063/george_wesley-brown\"}]",
+  "children": [
+    {
+      "name": "Bernard   Brown",
+      "birth_date": "1858-00-00",
+      "death_date": "1942-00-00",
+      "profile_url": "/memorial/15965429/bernard-brown"
+    },
+    {
+      "name": "Jonathan   Brown",
+      "birth_date": "1869-00-00",
+      "death_date": "1872-00-00",
+      "profile_url": "/memorial/15965849/jonathan-brown"
+    },
+    {
+      "name": "Daniel   Brown",
+      "birth_date": "1872-00-00",
+      "death_date": "1882-00-00",
+      "profile_url": "/memorial/15966039/daniel-brown"
+    },
+    {
+      "name": "George Wesley   Brown",
+      "birth_date": "1874-00-00",
+      "death_date": "1965-00-00",
+      "profile_url": "/memorial/10723063/george_wesley-brown"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 7-2",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Fees",
   "inscription": "BROWNIn memory of Mary B. Feeswife of John Browndied June 25, 1906aged 73 yrs. 6 mos. 28 ds.Sophia Kleinfeldtwife of B. Browndied Dec. 27, 1911aged 51 yrs. 6 mos. 9 days.Bernard Brown1858-1942Hier RuhteJonathanStarb Dec. 13, 1872Alter 2 Jahre 11 mo 12 tagalso DanielStarb July 4, 1882Alter 10 Jaher 2 mo.kinder von John & Mary BrownJohn BrownStarb Sept. 6, 1888Alter 69 Jaher 10 mos.f.s. Harold L. Brownmissing in action1924-1944",
-  "id": 115
+  "id": 115,
+  "slug": "mary-barbara-fees-brown-115"
 }

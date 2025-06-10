@@ -33,9 +33,9 @@
     }
   ],
   "spouses": [],
-  "children": "[]",
+  "children": [],
   "siblings": "[{\"name\": \"Matilda Lizzie  Witzel Lamport\", \"birth_date\": \"1881-00-00\", \"death_date\": \"1961-00-00\", \"profile_url\": \"/memorial/36933908/matilda_lizzie-lamport\"}, {\"name\": \"Barbara  Witzel Neeb\", \"birth_date\": \"1883-00-00\", \"death_date\": \"1940-00-00\", \"profile_url\": \"/memorial/15650701/barbara-neeb\"}, {\"name\": \"Ezra   Witzel\", \"birth_date\": \"1886-00-00\", \"death_date\": \"1937-00-00\", \"profile_url\": \"/memorial/190364441/ezra-witzel\"}, {\"name\": \"Ella  Witzel Heywood\", \"birth_date\": \"1890-00-00\", \"death_date\": \"1956-00-00\", \"profile_url\": \"/memorial/16576538/ella-heywood\"}, {\"name\": \"Thalma Witzel   Pfaff\", \"birth_date\": \"1891-00-00\", \"death_date\": \"1962-00-00\", \"profile_url\": \"/memorial/35821406/thalma_witzel-pfaff\"}, {\"name\": \"Edna Mae  Witzel Tilley\", \"birth_date\": \"1894-00-00\", \"death_date\": \"1974-00-00\", \"profile_url\": \"/memorial/46111142/edna_mae-tilley\"}]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "2-1",
   "title": "",
   "prefix": "",

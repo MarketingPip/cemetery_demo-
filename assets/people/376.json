@@ -25,14 +25,22 @@
       "id": 377
     }
   ],
-  "children": "[{\"name\": \"Joyce Eleanor  French Greenwood\", \"birth_date\": \"1932-00-00\", \"death_date\": \"1963-00-00\", \"profile_url\": \"/memorial/188113142/joyce_eleanor-greenwood\"}]",
+  "children": [
+    {
+      "name": "Joyce Eleanor  French Greenwood",
+      "birth_date": "1932-00-00",
+      "death_date": "1963-00-00",
+      "profile_url": "/memorial/188113142/joyce_eleanor-greenwood"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "19-11",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Oestreicher",
   "inscription": "",
-  "id": 376
+  "id": 376,
+  "slug": "eva-oestreicher-french-376"
 }

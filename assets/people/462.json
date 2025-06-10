@@ -25,14 +25,28 @@
       "id": 471
     }
   ],
-  "children": "[{\"name\": \"Wilhelmina  Guenther Fahrner\", \"birth_date\": \"1861-00-00\", \"death_date\": \"1925-00-00\", \"profile_url\": \"/memorial/236179135/wilhelmina-fahrner\"}, {\"name\": \"Henry   Guenther\", \"birth_date\": \"1862-00-00\", \"death_date\": \"1913-00-00\", \"profile_url\": \"/memorial/228555904/henry-guenther\"}]",
+  "children": [
+    {
+      "name": "Wilhelmina  Guenther Fahrner",
+      "birth_date": "1861-00-00",
+      "death_date": "1925-00-00",
+      "profile_url": "/memorial/236179135/wilhelmina-fahrner"
+    },
+    {
+      "name": "Henry   Guenther",
+      "birth_date": "1862-00-00",
+      "death_date": "1913-00-00",
+      "profile_url": "/memorial/228555904/henry-guenther"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "4-3",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Wolf",
   "inscription": "GUENTHERTobias Guentherborn Aug. 12, 1835died Mar. 26, 1920Catherine Wolf, his wifeborn Feb. 2, 1842died Feb. 20, 1925at restWilhelmina , wife of C. Fahrner1861-1925Christian Fahrner1863-1952",
-  "id": 462
+  "id": 462,
+  "slug": "catherine-wolf-guenther-462"
 }

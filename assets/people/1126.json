@@ -25,14 +25,28 @@
       "id": 1130
     }
   ],
-  "children": "[{\"name\": \"Samuel   Wein\", \"birth_date\": \"1883-00-00\", \"death_date\": \"1949-00-00\", \"profile_url\": \"/memorial/16414070/samuel-wein\"}, {\"name\": \"Ezra   Wein\", \"birth_date\": \"1888-00-00\", \"death_date\": \"1924-00-00\", \"profile_url\": \"/memorial/16414049/ezra-wein\"}]",
+  "children": [
+    {
+      "name": "Samuel   Wein",
+      "birth_date": "1883-00-00",
+      "death_date": "1949-00-00",
+      "profile_url": "/memorial/16414070/samuel-wein"
+    },
+    {
+      "name": "Ezra   Wein",
+      "birth_date": "1888-00-00",
+      "death_date": "1924-00-00",
+      "profile_url": "/memorial/16414049/ezra-wein"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 9-6",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "WEINIn memory of John G. Wein1851-1919his beloved wife Leah Beaver1859-1913their sons1888 Ezra 19241883 Samuel 1949",
-  "id": 1126
+  "id": 1126,
+  "slug": "john-george-wein-1126"
 }

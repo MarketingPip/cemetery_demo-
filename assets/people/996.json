@@ -25,14 +25,22 @@
       "id": 999
     }
   ],
-  "children": "[{\"name\": \"Corporal George   Smith\", \"birth_date\": \"1890-00-00\", \"death_date\": \"1918-00-00\", \"profile_url\": \"/memorial/151921397/george-smith\"}]",
+  "children": [
+    {
+      "name": "Corporal George   Smith",
+      "birth_date": "1890-00-00",
+      "death_date": "1918-00-00",
+      "profile_url": "/memorial/151921397/george-smith"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "14-2",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Eggert",
   "inscription": "",
-  "id": 996
+  "id": 996,
+  "slug": "nancy-eggert-smith-996"
 }

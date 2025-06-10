@@ -42,14 +42,15 @@
       "id": 1035
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "2-2",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "Lillian Gaiserborn Oct. 19, 1891died May 14, 1960wife of Garnet W. Sweitzerborn Jan 24, 1892died July 25, 1968",
-  "id": 1027
+  "id": 1027,
+  "slug": "garnet-william-sweitzer-1027"
 }

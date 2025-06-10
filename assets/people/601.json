@@ -35,14 +35,15 @@
       "id": 600
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Flynn",
   "inscription": "",
-  "id": 601
+  "id": 601,
+  "slug": "wilhelmine-flynn-jesney-601"
 }

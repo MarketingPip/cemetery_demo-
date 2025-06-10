@@ -25,14 +25,22 @@
       "id": 198
     }
   ],
-  "children": "[{\"name\": \"Jacque W.   England\", \"birth_date\": \"1922-00-00\", \"death_date\": \"1979-00-00\", \"profile_url\": \"/memorial/238056132/jacque_w-england\"}]",
+  "children": [
+    {
+      "name": "Jacque W.   England",
+      "birth_date": "1922-00-00",
+      "death_date": "1979-00-00",
+      "profile_url": "/memorial/238056132/jacque_w-england"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 27-8",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "ENGLANDLloyd EnglandDec. 21, 1895-Nov. 25, 1977his wife Beatrice Van AlstyneJune 16, 1895-June 21, 1982dear parents ofGerald T.Jacque W. 1922-1979Ruth E.",
-  "id": 200
+  "id": 200,
+  "slug": "lloyd-england-200"
 }

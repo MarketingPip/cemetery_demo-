@@ -20,14 +20,34 @@
       "profile_url": "/memorial/36398199/sopheronia-schneider"
     }
   ],
-  "children": "[{\"name\": \"Charles Marshall   Schneider\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1927-00-00\", \"profile_url\": \"/memorial/173290691/charles_marshall-schneider\"}, {\"name\": \"William M.   Taylor\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1943-00-00\", \"profile_url\": \"/memorial/36398289/william_m-taylor\"}, {\"name\": \"Arthur Franklin \\\"Frank\\\"  Taylor\", \"birth_date\": \"1880-00-00\", \"death_date\": \"1963-00-00\", \"profile_url\": \"/memorial/18085355/arthur_franklin-taylor\"}]",
+  "children": [
+    {
+      "name": "Charles Marshall   Schneider",
+      "birth_date": "1867-00-00",
+      "death_date": "1927-00-00",
+      "profile_url": "/memorial/173290691/charles_marshall-schneider"
+    },
+    {
+      "name": "William M.   Taylor",
+      "birth_date": "1867-00-00",
+      "death_date": "1943-00-00",
+      "profile_url": "/memorial/36398289/william_m-taylor"
+    },
+    {
+      "name": "Arthur Franklin \"Frank\"  Taylor",
+      "birth_date": "1880-00-00",
+      "death_date": "1963-00-00",
+      "profile_url": "/memorial/18085355/arthur_franklin-taylor"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 10-3",
   "title": "",
   "prefix": "",
   "photos": "[{'src': 'https://images.findagrave.com/photos/2020/221/173321208_e50a60f4-5987-40fd-b295-d1e74a65c593.jpeg?size=photos250', 'contributor_text': 'Kathleen Hodgins', 'contributor_href': 'https://www.findagrave.com/user/profile/47390529'}, {'src': 'https://images.findagrave.com/photos/2020/221/173321208_7f63607b-b389-41f4-b04f-3fff5b9224a6.jpeg?size=photos250', 'contributor_text': 'Kathleen Hodgins', 'contributor_href': 'https://www.findagrave.com/user/profile/47390529'}, {'src': 'https://images.findagrave.com/photos/2020/221/173321208_8ad7449e-b54b-4bc1-a71b-d653fa05cd2b.jpeg?v=1683488148&size=photos250', 'contributor_text': 'Kathleen Hodgins', 'contributor_href': 'https://www.findagrave.com/user/profile/47390529'}]",
   "maiden_name": "",
   "inscription": "HE HAS GONE TO MANSIONS OF REST",
-  "id": 943
+  "id": 943,
+  "slug": "john-mathew-schneider-943"
 }

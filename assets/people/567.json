@@ -25,14 +25,22 @@
       "id": 563
     }
   ],
-  "children": "[{\"name\": \"Charlie   Hoffmann\", \"birth_date\": \"1906-00-00\", \"death_date\": \"1981-00-00\", \"profile_url\": \"/memorial/15977736/charlie-hoffmann\"}]",
+  "children": [
+    {
+      "name": "Charlie   Hoffmann",
+      "birth_date": "1906-00-00",
+      "death_date": "1981-00-00",
+      "profile_url": "/memorial/15977736/charlie-hoffmann"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 7-11",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Balsden",
   "inscription": "HOFFMANNChristian Hofffannborn Aug. 1, 1862-died Apr. 14, 1926his wife Hannah BalsdenDec. 28, 1862-Mar. 2, 1937their son Charlieborn Oct. 20, 1906-died Apr. 11, 1981his wife Clara Morlockborn Jan. 4, 1902-died Apr. 30, 1988(back)Peter Hoffmannborn Mar.3, 1826-died Jan. 5, 1913his wife Johanna Callfasborn Mar. 10, 1835-died Feb. 5, 1918their daughtersEliza Ann Hoffmannborn May 11, 1866-died Apr. 15, 1890Mary Hoffmannwife of H. Stanleyborn Dec. 26, 1855-died July 19, 1891",
-  "id": 567
+  "id": 567,
+  "slug": "hannah-balsden-hoffmann-567"
 }

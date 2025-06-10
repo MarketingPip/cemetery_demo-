@@ -25,14 +25,15 @@
       "id": 900
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 10-7",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "GONE  BUT NOT FORGOTTENROESZLERat restGeorge Roeszlerborn Oct. 26, 1826died Feb. 19, 1882Rosena his wifeborn Mar. 11, 1822died May 28, 1913Gone but not forgotten",
-  "id": 907
+  "id": 907,
+  "slug": "rosena-roeszler-907"
 }

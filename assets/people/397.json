@@ -22,14 +22,22 @@
       "id": 414
     }
   ],
-  "children": "[{\"name\": \"Luella Agnes   Gaiser\", \"birth_date\": \"1892-00-00\", \"death_date\": \"1895-00-00\", \"profile_url\": \"/memorial/239205322/luella_agnes-gaiser\"}]",
+  "children": [
+    {
+      "name": "Luella Agnes   Gaiser",
+      "birth_date": "1892-00-00",
+      "death_date": "1895-00-00",
+      "profile_url": "/memorial/239205322/luella_agnes-gaiser"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 12-4",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "",
-  "id": 397
+  "id": 397,
+  "slug": "frederick-gaiser-397"
 }

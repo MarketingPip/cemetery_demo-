@@ -22,14 +22,28 @@
       "id": 345
     }
   ],
-  "children": "[{\"name\": \"Lilah  Finkbeiner Rosser\", \"birth_date\": \"1925-00-00\", \"death_date\": \"2009-00-00\", \"profile_url\": \"/memorial/36997313/lilah-rosser\"}, {\"name\": \"Audrey Eloise   Finkbeiner\", \"birth_date\": \"1927-00-00\", \"death_date\": \"2014-00-00\", \"profile_url\": \"/memorial/145204886/audrey_eloise-finkbeiner\"}]",
+  "children": [
+    {
+      "name": "Lilah  Finkbeiner Rosser",
+      "birth_date": "1925-00-00",
+      "death_date": "2009-00-00",
+      "profile_url": "/memorial/36997313/lilah-rosser"
+    },
+    {
+      "name": "Audrey Eloise   Finkbeiner",
+      "birth_date": "1927-00-00",
+      "death_date": "2014-00-00",
+      "profile_url": "/memorial/145204886/audrey_eloise-finkbeiner"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 15-8",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "",
-  "id": 336
+  "id": 336,
+  "slug": "lorne-finkbeiner-336"
 }

@@ -25,14 +25,22 @@
       "id": 399
     }
   ],
-  "children": "[{\"name\": \"Infants   Gaiser\", \"birth_date\": null, \"death_date\": null, \"profile_url\": \"/memorial/239217541/infants-gaiser\"}]",
+  "children": [
+    {
+      "name": "Infants   Gaiser",
+      "birth_date": null,
+      "death_date": null,
+      "profile_url": "/memorial/239217541/infants-gaiser"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 12-10",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "",
-  "id": 418
+  "id": 418,
+  "slug": "mary-s-gaiser-418"
 }

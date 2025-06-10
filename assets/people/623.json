@@ -25,14 +25,40 @@
       "id": 629
     }
   ],
-  "children": "[{\"name\": \"John   Klumpp\", \"birth_date\": \"1865-00-00\", \"death_date\": \"1952-00-00\", \"profile_url\": \"/memorial/15728813/john-klumpp\"}, {\"name\": \"Lydia  Klumpp Sweitzer\", \"birth_date\": \"1873-00-00\", \"death_date\": \"1916-00-00\", \"profile_url\": \"/memorial/16681816/lydia-sweitzer\"}, {\"name\": \"Martha   Klumpp\", \"birth_date\": \"1875-00-00\", \"death_date\": \"1877-00-00\", \"profile_url\": \"/memorial/16681836/martha-klumpp\"}, {\"name\": \"William   Klumpp\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1881-00-00\", \"profile_url\": \"/memorial/16681863/william-klumpp\"}]",
+  "children": [
+    {
+      "name": "John   Klumpp",
+      "birth_date": "1865-00-00",
+      "death_date": "1952-00-00",
+      "profile_url": "/memorial/15728813/john-klumpp"
+    },
+    {
+      "name": "Lydia  Klumpp Sweitzer",
+      "birth_date": "1873-00-00",
+      "death_date": "1916-00-00",
+      "profile_url": "/memorial/16681816/lydia-sweitzer"
+    },
+    {
+      "name": "Martha   Klumpp",
+      "birth_date": "1875-00-00",
+      "death_date": "1877-00-00",
+      "profile_url": "/memorial/16681836/martha-klumpp"
+    },
+    {
+      "name": "William   Klumpp",
+      "birth_date": "1878-00-00",
+      "death_date": "1881-00-00",
+      "profile_url": "/memorial/16681863/william-klumpp"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "2-9",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Heyrock",
   "inscription": "KLUMPPMichael Klumppborn 1831died 1926his wife Elizabeth Heyrockborn 1838died 1916Lydia Sweitzer (nee Klumpp)born 1873 died 1916Martha born 1875died 1877William born 1878died 1881John Klumppborn 1865died 1952his wife Lydia Fahrnerborn 1871died 1936their daughter Florenceborn 1893died 1894",
-  "id": 623
+  "id": 623,
+  "slug": "elizabeth-barbara-heyrock-klumpp-623"
 }

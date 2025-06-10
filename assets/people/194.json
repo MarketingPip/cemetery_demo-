@@ -25,14 +25,22 @@
       "id": 187
     }
   ],
-  "children": "[{\"name\": \"Bernice E.  Eilber Fritz\", \"birth_date\": \"1913-00-00\", \"death_date\": \"1990-00-00\", \"profile_url\": \"/memorial/188037430/bernice_e-fritz\"}]",
+  "children": [
+    {
+      "name": "Bernice E.  Eilber Fritz",
+      "birth_date": "1913-00-00",
+      "death_date": "1990-00-00",
+      "profile_url": "/memorial/188037430/bernice_e-fritz"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 9-11",
   "title": "",
   "prefix": "",
   "photos": "[{'src': 'https://images.findagrave.com/photos/2025/88/188036717_71c95ba7-3cd9-4fc3-9958-083b83a54a96.jpeg?size=photos250', 'contributor_text': 'Cheryl Clarridge', 'contributor_href': 'https://www.findagrave.com/user/profile/47667766'}]",
   "maiden_name": "Girvin",
   "inscription": "EILBERHenry Eilber1857-1943his wife Elizabeth Krattiger1858-1941Mary L. Girwin1888-1948wife of Herbert K. Eilber1881-1954IHR SOHNVON 2 TER EHEWesleyGes Sept. 27, 1886Alter 13 Jahr 3 monat 25 tagUNSERE ELTERNJohn KrattigerGes Fe. 3, 1869Alter 48 Jahr 8 monat.Seine GattinAnna MariaGes. Mar. 28, 1886Alter 51 Jahr 4 monat 20 tag.",
-  "id": 194
+  "id": 194,
+  "slug": "mary-l-girvin-eilber-194"
 }

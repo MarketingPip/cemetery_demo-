@@ -22,14 +22,28 @@
       "id": 275
     }
   ],
-  "children": "[{\"name\": \"Frederick George   Finkbeiner\", \"birth_date\": \"1886-00-00\", \"death_date\": \"1910-00-00\", \"profile_url\": \"/memorial/16581582/frederick_george-finkbeiner\"}, {\"name\": \"Wesley P   Finkbeiner\", \"birth_date\": \"1894-00-00\", \"death_date\": \"1896-00-00\", \"profile_url\": \"/memorial/16581621/wesley_p-finkbeiner\"}]",
+  "children": [
+    {
+      "name": "Frederick George   Finkbeiner",
+      "birth_date": "1886-00-00",
+      "death_date": "1910-00-00",
+      "profile_url": "/memorial/16581582/frederick_george-finkbeiner"
+    },
+    {
+      "name": "Wesley P   Finkbeiner",
+      "birth_date": "1894-00-00",
+      "death_date": "1896-00-00",
+      "profile_url": "/memorial/16581621/wesley_p-finkbeiner"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 11-3",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "",
-  "id": 324
+  "id": 324,
+  "slug": "john-finkbeiner-324"
 }

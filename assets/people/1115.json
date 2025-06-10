@@ -42,14 +42,15 @@
       "id": 1129
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 13-7",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "WEIN Emerson Wein1896-1994his wifeLaurene M. Hirtzel1906-1996",
-  "id": 1115
+  "id": 1115,
+  "slug": "emerson-wein-1115"
 }

@@ -25,14 +25,40 @@
       "id": 353
     }
   ],
-  "children": "[{\"name\": \"Christian   Finkbeiner\", \"birth_date\": \"1849-00-00\", \"death_date\": \"1878-00-00\", \"profile_url\": \"/memorial/15961756/christian-finkbeiner\"}, {\"name\": \"Jacob   Finkbeiner\", \"birth_date\": \"1852-00-00\", \"death_date\": \"1933-00-00\", \"profile_url\": \"/memorial/16668101/jacob-finkbeiner\"}, {\"name\": \"William   Finkbeiner\", \"birth_date\": \"1858-00-00\", \"death_date\": \"1937-00-00\", \"profile_url\": \"/memorial/15961995/william-finkbeiner\"}, {\"name\": \"Maria Anna \\\"Mary\\\" Finkbeiner Witzel\", \"birth_date\": \"1860-00-00\", \"death_date\": \"1927-00-00\", \"profile_url\": \"/memorial/35457385/maria_anna-witzel\"}]",
+  "children": [
+    {
+      "name": "Christian   Finkbeiner",
+      "birth_date": "1849-00-00",
+      "death_date": "1878-00-00",
+      "profile_url": "/memorial/15961756/christian-finkbeiner"
+    },
+    {
+      "name": "Jacob   Finkbeiner",
+      "birth_date": "1852-00-00",
+      "death_date": "1933-00-00",
+      "profile_url": "/memorial/16668101/jacob-finkbeiner"
+    },
+    {
+      "name": "William   Finkbeiner",
+      "birth_date": "1858-00-00",
+      "death_date": "1937-00-00",
+      "profile_url": "/memorial/15961995/william-finkbeiner"
+    },
+    {
+      "name": "Maria Anna \"Mary\" Finkbeiner Witzel",
+      "birth_date": "1860-00-00",
+      "death_date": "1927-00-00",
+      "profile_url": "/memorial/35457385/maria_anna-witzel"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 7-1",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Haist",
   "inscription": "FINKBEINERRoy H. Finkbeiner1897-1990his wife Lily M. Fahrner1888-1970William Finkbeiner1858-1937his wife Mary Wein1871-1958Michael Finkbeinerborn 25 Aug. 1825died 30 June 1892Barbara Finkbeinerborn 28 Nov. 1828died 5 Dec. 1896Christian Finkbeinerborn 12 Aug. 1849died 17 Aug. 1878aged 29 Jahre 5 tag.",
-  "id": 276
+  "id": 276,
+  "slug": "barbara-haist-finkbeiner-276"
 }

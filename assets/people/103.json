@@ -25,14 +25,15 @@
       "id": 100
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 9-7",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "BROWNIn memory of George Browndied May 6, 1908aged 86 yrs. 6 mos.In memory of Eva Catherinewife of George Brown died Jan. 7, 1900aged 77 yrs. 2 mos.BLESSED ARE THE DEAD WHICH DIED IN THE LORD",
-  "id": 103
+  "id": 103,
+  "slug": "george-brown-103"
 }

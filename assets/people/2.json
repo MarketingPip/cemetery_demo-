@@ -35,14 +35,15 @@
       "id": 3
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 17-10",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "",
-  "id": 2
+  "id": 2,
+  "slug": "arthur-james-amy-2"
 }

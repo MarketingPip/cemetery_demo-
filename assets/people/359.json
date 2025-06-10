@@ -16,9 +16,16 @@
   "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [],
-  "children": "[{\"name\": \"Kristopher   Finkbeiner\", \"birth_date\": \"1985-00-00\", \"death_date\": \"1995-00-00\", \"profile_url\": \"/memorial/15134864/kristopher-finkbeiner\"}]",
+  "children": [
+    {
+      "name": "Kristopher   Finkbeiner",
+      "birth_date": "1985-00-00",
+      "death_date": "1995-00-00",
+      "profile_url": "/memorial/15134864/kristopher-finkbeiner"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",

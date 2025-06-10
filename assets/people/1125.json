@@ -42,14 +42,15 @@
       "id": 1139
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 1-10",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "WEINSONJOHN. F. WEIN1879-1946HIS WIFE MARY M. FINKBEINER1879-1958HENRY WEIN BORN MAY 25, 1881DIED AUG. 18, 1908MATHEW WEINDIED MAY 7, 1912AGED 75 YRS. 4 DS.HIS WIFE EVA FAHNERDIED JAN. 10, 1912AGED 73 YRS. 4 MOS. 26 DS.SAMUEL WEIN1887-1964JOSEPH WEIN 1883-1968GORDON L. PASCOE1910-1986",
-  "id": 1125
+  "id": 1125,
+  "slug": "john-f-wein-1125"
 }

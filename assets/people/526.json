@@ -25,14 +25,15 @@
       "id": 527
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 7-4",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Eilber",
   "inscription": "HEITZMAN (old gray marble stone broken)In memory of Dorothea Eilberwife of Frederick Heitzmandied May 31, 1884Aged 39 years 16 days",
-  "id": 526
+  "id": 526,
+  "slug": "dorothea-eilber-heitzman-526"
 }

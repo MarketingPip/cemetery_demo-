@@ -22,14 +22,28 @@
       "id": 281
     }
   ],
-  "children": "[{\"name\": \"William Henry   Finkbeiner\", \"birth_date\": \"1879-00-00\", \"death_date\": \"1950-00-00\", \"profile_url\": \"/memorial/15554551/william_henry-finkbeiner\"}, {\"name\": \"Daniel C   Finkbeiner\", \"birth_date\": \"1887-00-00\", \"death_date\": \"1959-00-00\", \"profile_url\": \"/memorial/16581705/daniel_c-finkbeiner\"}]",
+  "children": [
+    {
+      "name": "William Henry   Finkbeiner",
+      "birth_date": "1879-00-00",
+      "death_date": "1950-00-00",
+      "profile_url": "/memorial/15554551/william_henry-finkbeiner"
+    },
+    {
+      "name": "Daniel C   Finkbeiner",
+      "birth_date": "1887-00-00",
+      "death_date": "1959-00-00",
+      "profile_url": "/memorial/16581705/daniel_c-finkbeiner"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "",
-  "id": 352
+  "id": 352,
+  "slug": "michael-finkbeiner-352"
 }

@@ -22,14 +22,22 @@
       "id": 646
     }
   ],
-  "children": "[{\"name\": \"Stuart Claire   Kuhn\", \"birth_date\": \"1909-00-00\", \"death_date\": \"1974-00-00\", \"profile_url\": \"/memorial/15554714/stuart_claire-kuhn\"}]",
+  "children": [
+    {
+      "name": "Stuart Claire   Kuhn",
+      "birth_date": "1909-00-00",
+      "death_date": "1974-00-00",
+      "profile_url": "/memorial/15554714/stuart_claire-kuhn"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 16-6",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Kienzle",
   "inscription": "",
-  "id": 638
+  "id": 638,
+  "slug": "ada-kienzle-kuhn-638"
 }

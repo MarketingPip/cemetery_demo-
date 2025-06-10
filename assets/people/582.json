@@ -25,14 +25,28 @@
       "id": 586
     }
   ],
-  "children": "[{\"name\": \"George H.   Holtzmann Jr\", \"birth_date\": \"1857-00-00\", \"death_date\": \"1913-00-00\", \"profile_url\": \"/memorial/188113296/george_h-holtzmann\"}, {\"name\": \"Emanuel   Holtzmann\", \"birth_date\": \"1859-00-00\", \"death_date\": \"1885-00-00\", \"profile_url\": \"/memorial/239123368/emanuel-holtzmann\"}]",
+  "children": [
+    {
+      "name": "George H.   Holtzmann Jr",
+      "birth_date": "1857-00-00",
+      "death_date": "1913-00-00",
+      "profile_url": "/memorial/188113296/george_h-holtzmann"
+    },
+    {
+      "name": "Emanuel   Holtzmann",
+      "birth_date": "1859-00-00",
+      "death_date": "1885-00-00",
+      "profile_url": "/memorial/239123368/emanuel-holtzmann"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 7-5",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "HOLTZMANNMary Linhartwife of Geoge Holtzmann Sr.died Mar. 1, 1901aged 68 yrs. 10 mos. 27 daysGeorge Holtzmann Sr.died Sept. 13, 1908aged 85 yrs. 6 mos. 7 ds. George H. Holtzmann Jr.died July 23, 1913aged 55 yrs. 11 mos. 23 ds.Leah Haist his wifedied Aug. 31, 1938aged 77 yrs. 2 mos.Emanuel Holtzmanndied 17 Dec. 1885aged 26 yrs. 2 mos. 17 ds.Catherine Holtzmanndied Feb. 1, 1894aged 30 yrs. 4 mos. 16 ds.Dewitt Harveyson of J.H. & Ellen Holtzmannborn July 13, 1893died Aug. 20, 1893",
-  "id": 582
+  "id": 582,
+  "slug": "george-holtzmann-sr-582"
 }

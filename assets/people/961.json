@@ -25,14 +25,22 @@
       "id": 960
     }
   ],
-  "children": "[{\"name\": \"Joseph Jacob   Swartz Sr\", \"birth_date\": \"1899-00-00\", \"death_date\": \"1983-00-00\", \"profile_url\": \"/memorial/69117691/joseph_jacob-swartz\"}]",
+  "children": [
+    {
+      "name": "Joseph Jacob   Swartz Sr",
+      "birth_date": "1899-00-00",
+      "death_date": "1983-00-00",
+      "profile_url": "/memorial/69117691/joseph_jacob-swartz"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "3-10",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Haist",
   "inscription": "SCHWARTZJacob SCHWARTZdied Jan. 28, 1931aged 69 yrs.Louisa Haist his wifedied Feb. 1, 1942aged 70 yrs.(end)Magdeline SCHWARTZborn July 16, 1870died Sept. 27, 1870aged 2 mos. 11 ds.(back)Michael SCHWARTZborn June 29, 1827died Sept. 22, 1878aged 51 yrs. 3 mos. 23 dys.Mary Magdelinawife of Michael SCHWARTZborn Feb. 14, 1834died Mar. 14, 1907aged 73 yrs. 1 mon.their sonMichaelborn June 2, 1872died Jan. 29, 1910aged 37 yrs. 7 mos. 27 dys.(end)Lydia SCHWARTZwife of E.D. WURM1875-1924",
-  "id": 961
+  "id": 961,
+  "slug": "louisa-haist-schwartz-961"
 }

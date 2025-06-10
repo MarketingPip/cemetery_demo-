@@ -25,14 +25,22 @@
       "id": 494
     }
   ],
-  "children": "[{\"name\": \"Dorothea  Steinacher Weber\", \"birth_date\": \"1856-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/261955862/dorothea-weber\"}]",
+  "children": [
+    {
+      "name": "Dorothea  Steinacher Weber",
+      "birth_date": "1856-00-00",
+      "death_date": "1879-00-00",
+      "profile_url": "/memorial/261955862/dorothea-weber"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "4-9",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "HAISTElizabethdied Aug. 248, 1881aged 46 yrs.Margarethadied Sept. 17, 1901aged 75 yrs.wives of Jacob HAISTJacob HAISTdied Feb. 16, 1912aged 85 yrs.Anna M. HAISTgestorben Marz. 17, 1878alter 9 mon.Karlina HAISTgestorben  Jan. 7, 1880alter 6 yahr.kinder von Jacob und Elizabeth HAISTBarbara HAISTgestorben  Aug. 6, 1868alter 8 yahr.Heinrich HAISTgestorben Dec. 17, 1872alter 5 yahr.kinder von Jacob & Elizabeth HAIST",
-  "id": 503
+  "id": 503,
+  "slug": "margaretha-haist-503"
 }

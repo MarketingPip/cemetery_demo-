@@ -42,14 +42,15 @@
       "id": 608
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "JONESJohn Herbert Jones1883-1982his wifeLillian Finkbeiner1895-1984Harold William Jones1919-2017his wifeMargaret Anna Love1923-2003",
-  "id": 604
+  "id": 604,
+  "slug": "harold-william-jones-604"
 }

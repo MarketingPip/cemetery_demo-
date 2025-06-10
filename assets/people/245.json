@@ -42,14 +42,15 @@
       "id": 241
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "4-4",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "FAHRNERElizabeth E. Sauer1884-1967wifeErwin G. Fahrner1891-1955husband",
-  "id": 245
+  "id": 245,
+  "slug": "ervin-g-fahrner-245"
 }

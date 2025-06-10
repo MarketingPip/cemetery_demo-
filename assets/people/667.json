@@ -20,14 +20,40 @@
       "profile_url": "/memorial/122943857/jacob-lang"
     }
   ],
-  "children": "[{\"name\": \"Cornelia  Lang Crawford\", \"birth_date\": \"1853-00-00\", \"death_date\": \"1903-00-00\", \"profile_url\": \"/memorial/69052561/cornelia-crawford\"}, {\"name\": \"Kate  Lang Jackson\", \"birth_date\": \"1854-00-00\", \"death_date\": \"1934-00-00\", \"profile_url\": \"/memorial/70082590/kate-jackson\"}, {\"name\": \"Christine   Lang\", \"birth_date\": \"1855-00-00\", \"death_date\": \"1861-00-00\", \"profile_url\": \"/memorial/133441240/christine-lang\"}, {\"name\": \"Infant   Lang\", \"birth_date\": \"1858-00-00\", \"death_date\": \"1858-00-00\", \"profile_url\": \"/memorial/133559629/infant-lang\"}]",
+  "children": [
+    {
+      "name": "Cornelia  Lang Crawford",
+      "birth_date": "1853-00-00",
+      "death_date": "1903-00-00",
+      "profile_url": "/memorial/69052561/cornelia-crawford"
+    },
+    {
+      "name": "Kate  Lang Jackson",
+      "birth_date": "1854-00-00",
+      "death_date": "1934-00-00",
+      "profile_url": "/memorial/70082590/kate-jackson"
+    },
+    {
+      "name": "Christine   Lang",
+      "birth_date": "1855-00-00",
+      "death_date": "1861-00-00",
+      "profile_url": "/memorial/133441240/christine-lang"
+    },
+    {
+      "name": "Infant   Lang",
+      "birth_date": "1858-00-00",
+      "death_date": "1858-00-00",
+      "profile_url": "/memorial/133559629/infant-lang"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Grave unmarked. Please see notes below regarding burial.",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Hoffman",
   "inscription": "",
-  "id": 667
+  "id": 667,
+  "slug": "margaret-hoffman-lang-667"
 }

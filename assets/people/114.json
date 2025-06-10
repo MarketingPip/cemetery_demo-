@@ -25,14 +25,34 @@
       "id": 85
     }
   ],
-  "children": "[{\"name\": \"Adolph   Brown\", \"birth_date\": \"1857-00-00\", \"death_date\": \"1866-00-00\", \"profile_url\": \"/memorial/188035776/adolph-brown\"}, {\"name\": \"William H.   Brown\", \"birth_date\": \"1860-00-00\", \"death_date\": \"1947-00-00\", \"profile_url\": \"/memorial/188036013/william_h-brown\"}, {\"name\": \"Charles   Brown\", \"birth_date\": \"1863-00-00\", \"death_date\": \"1893-00-00\", \"profile_url\": \"/memorial/188035798/charles-brown\"}]",
+  "children": [
+    {
+      "name": "Adolph   Brown",
+      "birth_date": "1857-00-00",
+      "death_date": "1866-00-00",
+      "profile_url": "/memorial/188035776/adolph-brown"
+    },
+    {
+      "name": "William H.   Brown",
+      "birth_date": "1860-00-00",
+      "death_date": "1947-00-00",
+      "profile_url": "/memorial/188036013/william_h-brown"
+    },
+    {
+      "name": "Charles   Brown",
+      "birth_date": "1863-00-00",
+      "death_date": "1893-00-00",
+      "profile_url": "/memorial/188035798/charles-brown"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 7-10",
   "title": "",
   "prefix": "",
   "photos": "[{'src': 'https://images.findagrave.com/photos/2025/79/239125707_3aa12304-a87c-4c7b-82ea-5bc0a26ef7b8.jpeg?size=photos250', 'contributor_text': 'Cheryl Clarridge', 'contributor_href': 'https://www.findagrave.com/user/profile/47667766'}]",
   "maiden_name": "",
   "inscription": "BROWNIn memory of Adam Brownborn Jan. 11, 1813-died July 22, 1869Margaret his wifeborn July 19, 1821-died May 15, 1906Adolphborn Nov. 16, 1857-died Feb. 24, 1866(back)Charles born Mar. 11, 1863-died Dec. 24, 1893Wm. H. Brown1860-1947",
-  "id": 114
+  "id": 114,
+  "slug": "margaret-brown-114"
 }

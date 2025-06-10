@@ -25,14 +25,15 @@
       "id": 1101
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 16-5",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Wein",
   "inscription": "",
-  "id": 1100
+  "id": 1100,
+  "slug": "emma-wein-webb-1100"
 }

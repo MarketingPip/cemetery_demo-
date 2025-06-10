@@ -22,14 +22,28 @@
       "id": 553
     }
   ],
-  "children": "[{\"name\": \"Henry Donald   Hirtzel\", \"birth_date\": \"1914-00-00\", \"death_date\": \"2004-00-00\", \"profile_url\": \"/memorial/41012852/henry_donald-hirtzel\"}, {\"name\": \"Maurice C.   Hirtzel\", \"birth_date\": \"1916-00-00\", \"death_date\": \"1983-00-00\", \"profile_url\": \"/memorial/188113242/maurice_c-hirtzel\"}]",
+  "children": [
+    {
+      "name": "Henry Donald   Hirtzel",
+      "birth_date": "1914-00-00",
+      "death_date": "2004-00-00",
+      "profile_url": "/memorial/41012852/henry_donald-hirtzel"
+    },
+    {
+      "name": "Maurice C.   Hirtzel",
+      "birth_date": "1916-00-00",
+      "death_date": "1983-00-00",
+      "profile_url": "/memorial/188113242/maurice_c-hirtzel"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 17-3",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "",
-  "id": 552
+  "id": 552,
+  "slug": "john-t-hirtzel-552"
 }

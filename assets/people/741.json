@@ -35,14 +35,15 @@
       "id": 758
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",
   "photos": "[{'src': 'https://images.findagrave.com/photos/2022/116/163227110_9f9f7776-2e31-418d-b407-90bd78e8f4f1.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}]",
   "maiden_name": "Hill",
   "inscription": "",
-  "id": 741
+  "id": 741,
+  "slug": "grace-labelle-hill-morlock-741"
 }

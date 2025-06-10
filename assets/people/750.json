@@ -25,14 +25,22 @@
       "id": 757
     }
   ],
-  "children": "[{\"name\": \"Ellen  Morlock Holtzmann\", \"birth_date\": \"1862-00-00\", \"death_date\": \"1959-00-00\", \"profile_url\": \"/memorial/15640007/ellen-holtzmann\"}]",
+  "children": [
+    {
+      "name": "Ellen  Morlock Holtzmann",
+      "birth_date": "1862-00-00",
+      "death_date": "1959-00-00",
+      "profile_url": "/memorial/15640007/ellen-holtzmann"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "20-3",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Beaver",
   "inscription": "",
-  "id": 750
+  "id": 750,
+  "slug": "magdalena-beaver-morlock-750"
 }

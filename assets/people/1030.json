@@ -25,14 +25,15 @@
       "id": 1045
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 27-4",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Riard",
   "inscription": "SWEITZER(salmon granite stone)Samuel Sweitzer1915-1977his wife Ida A. Riard1923-1989(back)SWEITZERBrian Sweitzer 1947-1981his wife Angela McAvany",
-  "id": 1030
+  "id": 1030,
+  "slug": "ida-a-riard-sweitzer-1030"
 }

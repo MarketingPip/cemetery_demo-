@@ -25,14 +25,15 @@
       "id": 89
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 8-8",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "BROWNJohnF. Brown1841-1925his wife Bertha Mellin1855-1934",
-  "id": 110
+  "id": 110,
+  "slug": "john-f-brown-110"
 }

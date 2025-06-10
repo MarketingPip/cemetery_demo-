@@ -22,14 +22,22 @@
       "id": 876
     }
   ],
-  "children": "[{\"name\": \"John M   Ratz\", \"birth_date\": \"1924-00-00\", \"death_date\": \"1979-00-00\", \"profile_url\": \"/memorial/15561401/john_m-ratz\"}]",
+  "children": [
+    {
+      "name": "John M   Ratz",
+      "birth_date": "1924-00-00",
+      "death_date": "1979-00-00",
+      "profile_url": "/memorial/15561401/john_m-ratz"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 17-9",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Fassold",
   "inscription": "",
-  "id": 857
+  "id": 857,
+  "slug": "ada-fassold-ratz-857"
 }

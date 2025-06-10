@@ -42,14 +42,15 @@
       "id": 201
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 27-9",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "ENGLANDJacque W. England1922-1979his wifePearl E. Vannatter1919-1998",
-  "id": 199
+  "id": 199,
+  "slug": "jacque-w-england-199"
 }

@@ -44,14 +44,15 @@
       "profile_url": "/memorial/199355184/ivan-grigg"
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",
   "photos": "[{'src': 'https://images.findagrave.com/photos/2022/84/237942400_777e1d4f-d90b-439e-a9e8-60a77048300f.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}]",
   "maiden_name": "Comfort",
   "inscription": "SWEITZERStuart M. Sweitzer1925-1976his beloved wifeDoris M. Comfort1927-2016Milton N. Sweitzer1916-1988his beloved wife Eva B. Comfort1926-2018",
-  "id": 1053
+  "id": 1053,
+  "slug": "eva-belva-comfort-sweitzer-grigg-1053"
 }

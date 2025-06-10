@@ -25,14 +25,28 @@
       "id": 1066
     }
   ],
-  "children": "[{\"name\": \"Ida Lily  Treitz Finkbeiner\", \"birth_date\": \"1884-00-00\", \"death_date\": \"1959-00-00\", \"profile_url\": \"/memorial/15554622/ida_lily-finkbeiner\"}, {\"name\": \"John Henry   Treitz\", \"birth_date\": \"1886-00-00\", \"death_date\": \"1965-00-00\", \"profile_url\": \"/memorial/157911885/john_henry-treitz\"}]",
+  "children": [
+    {
+      "name": "Ida Lily  Treitz Finkbeiner",
+      "birth_date": "1884-00-00",
+      "death_date": "1959-00-00",
+      "profile_url": "/memorial/15554622/ida_lily-finkbeiner"
+    },
+    {
+      "name": "John Henry   Treitz",
+      "birth_date": "1886-00-00",
+      "death_date": "1965-00-00",
+      "profile_url": "/memorial/157911885/john_henry-treitz"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 1-2",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "TREITZJohn Treitzdied Oct. 2, 1921 ae 70 yrsCaroline W. wife of John Treitzdied Dec.21, 1900 ae 42 ys. 4 mos. 1d dysWilliam O. Treitzdied Mar. 21, 1901 ae 78 yrs. 8 mos.Carrie Treitzdied April 2, 1892 ae 1 yr. 6 mos.Eizea Treitzdied March 18, 1887 ae 9 mos.John Treitzdied April 2, 1893 ae 76 yrs. 7 mos. 19 ds.his wife Catherine Finkbeinerdied Jan. 28, 1907 ae 86 yrs.Carolyn wife of John Kreindied July4, 1880 ae 25 yrs. 9 mos.f.s. also with Carolyn information",
-  "id": 1061
+  "id": 1061,
+  "slug": "caroline-treitz-1061"
 }

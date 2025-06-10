@@ -22,14 +22,22 @@
       "id": 1103
     }
   ],
-  "children": "[{\"name\": \"Robert Larry   Weber\", \"birth_date\": \"1954-00-00\", \"death_date\": \"1954-00-00\", \"profile_url\": \"/memorial/188138569/robert_larry-weber\"}]",
+  "children": [
+    {
+      "name": "Robert Larry   Weber",
+      "birth_date": "1954-00-00",
+      "death_date": "1954-00-00",
+      "profile_url": "/memorial/188138569/robert_larry-weber"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "",
-  "id": 1104
+  "id": 1104,
+  "slug": "walter-david-weber-1104"
 }

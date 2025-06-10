@@ -22,14 +22,22 @@
       "id": 44
     }
   ],
-  "children": "[{\"name\": \"Ralph Lloyd   Bender\", \"birth_date\": \"1956-00-00\", \"death_date\": \"2017-00-00\", \"profile_url\": \"/memorial/186095508/ralph_lloyd-bender\"}]",
+  "children": [
+    {
+      "name": "Ralph Lloyd   Bender",
+      "birth_date": "1956-00-00",
+      "death_date": "2017-00-00",
+      "profile_url": "/memorial/186095508/ralph_lloyd-bender"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",
   "photos": "[{'src': 'https://images.findagrave.com/photos/2022/84/160944435_016789f5-085f-43cb-8509-b863498d1172.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}]",
   "maiden_name": "Workman",
   "inscription": "",
-  "id": 45
+  "id": 45,
+  "slug": "phyllis-elizabeth-workman-bender-45"
 }

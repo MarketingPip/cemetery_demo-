@@ -25,14 +25,58 @@
       "id": 762
     }
   ],
-  "children": "[{\"name\": \"Herbert Charles   Morlock\", \"birth_date\": \"1890-00-00\", \"death_date\": \"1948-00-00\", \"profile_url\": \"/memorial/15396077/herbert_charles-morlock\"}, {\"name\": \"Wilber Henry   Morlock\", \"birth_date\": \"1892-00-00\", \"death_date\": \"1919-00-00\", \"profile_url\": \"/memorial/15848245/wilber_henry-morlock\"}, {\"name\": \"Sybilla Charlotte  Morlock Gaiser\", \"birth_date\": \"1893-00-00\", \"death_date\": \"1949-00-00\", \"profile_url\": \"/memorial/15639747/sybilla_charlotte-gaiser\"}, {\"name\": \"Lorne Roy   Morlock\", \"birth_date\": \"1895-00-00\", \"death_date\": \"1964-00-00\", \"profile_url\": \"/memorial/16682023/lorne_roy-morlock\"}, {\"name\": \"Raymond   Morlock\", \"birth_date\": \"1897-00-00\", \"death_date\": \"1898-00-00\", \"profile_url\": \"/memorial/15978236/raymond-morlock\"}, {\"name\": \"Clinton G   Morlock\", \"birth_date\": \"1899-00-00\", \"death_date\": \"1942-00-00\", \"profile_url\": \"/memorial/15978598/clinton_g-morlock\"}, {\"name\": \"Clara  Morlock Hoffman\", \"birth_date\": \"1902-00-00\", \"death_date\": \"1988-00-00\", \"profile_url\": \"/memorial/15977764/clara-hoffman\"}]",
+  "children": [
+    {
+      "name": "Herbert Charles   Morlock",
+      "birth_date": "1890-00-00",
+      "death_date": "1948-00-00",
+      "profile_url": "/memorial/15396077/herbert_charles-morlock"
+    },
+    {
+      "name": "Wilber Henry   Morlock",
+      "birth_date": "1892-00-00",
+      "death_date": "1919-00-00",
+      "profile_url": "/memorial/15848245/wilber_henry-morlock"
+    },
+    {
+      "name": "Sybilla Charlotte  Morlock Gaiser",
+      "birth_date": "1893-00-00",
+      "death_date": "1949-00-00",
+      "profile_url": "/memorial/15639747/sybilla_charlotte-gaiser"
+    },
+    {
+      "name": "Lorne Roy   Morlock",
+      "birth_date": "1895-00-00",
+      "death_date": "1964-00-00",
+      "profile_url": "/memorial/16682023/lorne_roy-morlock"
+    },
+    {
+      "name": "Raymond   Morlock",
+      "birth_date": "1897-00-00",
+      "death_date": "1898-00-00",
+      "profile_url": "/memorial/15978236/raymond-morlock"
+    },
+    {
+      "name": "Clinton G   Morlock",
+      "birth_date": "1899-00-00",
+      "death_date": "1942-00-00",
+      "profile_url": "/memorial/15978598/clinton_g-morlock"
+    },
+    {
+      "name": "Clara  Morlock Hoffman",
+      "birth_date": "1902-00-00",
+      "death_date": "1988-00-00",
+      "profile_url": "/memorial/15977764/clara-hoffman"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 8-11",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Haist",
   "inscription": "MORLOCK(front)FATHERWilliam H. Morlockdied Apr. 24, 1948aged 85 yrs 5 mos. 19ds.MOTHERLydia Haistwife of William H. Morlockdied Sept. 27, 1942aged 76 yrs. 3 ms. 29 ds.(end)Wilber H. Morlockdied Jan. 1, 1919aged 26 yrs. 10 ms. 6 ds.Clinton G. Morlockdied June 4, 1942aged 43 yrs. 1 mo.(end)Clara S. Morlockdied Apr. 10, 1871aged 6 yrs. 1 mo. 17 ds.Raymond A. Morlockdied May 23, 1898aged 8 mos. 8 ds.(back)Charlotte Beaverwife of Gottielb Morlockdied July 7, 1925aged 84 yrs. 9 mos. 27 ds.Gottielb Morlockdied Nov. 3, 1910aged 74 yrs. 5 ms. 29 ds.at rest",
-  "id": 748
+  "id": 748,
+  "slug": "lydia-haist-morlock-748"
 }

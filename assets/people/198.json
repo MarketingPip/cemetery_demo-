@@ -31,14 +31,28 @@
       "id": 200
     }
   ],
-  "children": "[{\"name\": \"Jacque W.   England\", \"birth_date\": \"1922-00-00\", \"death_date\": \"1979-00-00\", \"profile_url\": \"/memorial/238056132/jacque_w-england\"}, {\"name\": \"Son   England\", \"birth_date\": \"1934-00-00\", \"death_date\": \"1934-00-00\", \"profile_url\": \"/memorial/235884192/son-england\"}]",
+  "children": [
+    {
+      "name": "Jacque W.   England",
+      "birth_date": "1922-00-00",
+      "death_date": "1979-00-00",
+      "profile_url": "/memorial/238056132/jacque_w-england"
+    },
+    {
+      "name": "Son   England",
+      "birth_date": "1934-00-00",
+      "death_date": "1934-00-00",
+      "profile_url": "/memorial/235884192/son-england"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 27-8",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Van Alstyne",
   "inscription": "ENGLAND(salmon granite stone)Lloyd EnglandDec. 21, 1895-Nov. 25, 1977his wife Beatrice Van AlstyneJune 16, 1895-June 21, 1982dear parents ofGerald T.Jacque W. 1922-1979Ruth E.",
-  "id": 198
+  "id": 198,
+  "slug": "beatrice-alice-van-alstyne-england-198"
 }

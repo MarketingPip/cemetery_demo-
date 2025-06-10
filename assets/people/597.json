@@ -16,9 +16,16 @@
   "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [],
-  "children": "[{\"name\": \"Rick   Jefferies\", \"birth_date\": \"1964-00-00\", \"death_date\": \"2015-00-00\", \"profile_url\": \"/memorial/238052204/rick-jefferies\"}]",
+  "children": [
+    {
+      "name": "Rick   Jefferies",
+      "birth_date": "1964-00-00",
+      "death_date": "2015-00-00",
+      "profile_url": "/memorial/238052204/rick-jefferies"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",

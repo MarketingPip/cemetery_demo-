@@ -25,14 +25,28 @@
       "id": 78
     }
   ],
-  "children": "[{\"name\": \"Christian Wesley   Braun\", \"birth_date\": \"1870-00-00\", \"death_date\": \"1873-00-00\", \"profile_url\": \"/memorial/236178959/christian_wesley-braun\"}, {\"name\": \"Mary Ellen  Braun Kelhofer\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1961-00-00\", \"profile_url\": \"/memorial/36747468/mary_ellen-kelhofer\"}]",
+  "children": [
+    {
+      "name": "Christian Wesley   Braun",
+      "birth_date": "1870-00-00",
+      "death_date": "1873-00-00",
+      "profile_url": "/memorial/236178959/christian_wesley-braun"
+    },
+    {
+      "name": "Mary Ellen  Braun Kelhofer",
+      "birth_date": "1877-00-00",
+      "death_date": "1961-00-00",
+      "profile_url": "/memorial/36747468/mary_ellen-kelhofer"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "4-1",
   "title": "",
   "prefix": "",
   "photos": "[{'src': 'https://images.findagrave.com/photos/2006/260/15790889_115858609627.jpg?size=photos250', 'contributor_text': 'Scott Buschlen', 'contributor_href': 'https://www.findagrave.com/user/profile/46583152'}, {'src': 'https://images.findagrave.com/photos/2022/111/15790889_2f26e559-905d-44b5-b1ef-220de420e96f.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}]",
   "maiden_name": "Stahl",
   "inscription": "BRAUNBIS ZUM FROHEN WIEDERSEHN DROBENAnna MariaEhegattin Von Carl BraunStarb Den 2 Mai 1884Alter 80 Jahre und 2 monatsAUS KINDLICHER LIEBE GEWIDMETCarl BraunStarb Den 16 April 1882Alter 85 Jahre 11 monate 24 tageLydia Stahl BraunApril 23, 1851Oct. 8, 1931Gotiob K. BraunJan. 2, 1840Oct. 20, 1930",
-  "id": 79
+  "id": 79,
+  "slug": "lydia-stahl-braun-79"
 }

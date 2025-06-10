@@ -30,9 +30,16 @@
     }
   ],
   "spouses": [],
-  "children": "[{\"name\": \"Vicki Lynn   Collette\", \"birth_date\": \"1965-00-00\", \"death_date\": \"2019-00-00\", \"profile_url\": \"/memorial/208919423/vicki_lynn-collette\"}]",
+  "children": [
+    {
+      "name": "Vicki Lynn   Collette",
+      "birth_date": "1965-00-00",
+      "death_date": "2019-00-00",
+      "profile_url": "/memorial/208919423/vicki_lynn-collette"
+    }
+  ],
   "siblings": "[{\"name\": \"Alvin John \\\"Al\\\"  Flynn\", \"birth_date\": \"1926-00-00\", \"death_date\": \"2005-00-00\", \"profile_url\": \"/memorial/220497721/alvin_john-flynn\"}, {\"name\": \"Lillian Anna Laura  Jesney Kuhn\", \"birth_date\": \"1929-00-00\", \"death_date\": \"2008-00-00\", \"profile_url\": \"/memorial/41012220/lillian_anna_laura-kuhn\"}, {\"name\": \"Betty Lou  Jesney Denomme\", \"birth_date\": \"1946-00-00\", \"death_date\": \"1966-00-00\", \"profile_url\": \"/memorial/155075624/betty_lou-denomme\"}, {\"name\": \"Leslie John \\\"Les\\\"  Jesney\", \"birth_date\": \"1947-00-00\", \"death_date\": \"2013-00-00\", \"profile_url\": \"/memorial/229628140/leslie_john-jesney\"}]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",

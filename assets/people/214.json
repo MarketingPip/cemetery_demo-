@@ -22,14 +22,22 @@
       "id": 219
     }
   ],
-  "children": "[{\"name\": \"John William   Fahner\", \"birth_date\": \"1951-00-00\", \"death_date\": \"2007-00-00\", \"profile_url\": \"/memorial/21860648/john_william-fahner\"}]",
+  "children": [
+    {
+      "name": "John William   Fahner",
+      "birth_date": "1951-00-00",
+      "death_date": "2007-00-00",
+      "profile_url": "/memorial/21860648/john_william-fahner"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "",
-  "id": 214
+  "id": 214,
+  "slug": "clarence-w-toby-fahner-214"
 }

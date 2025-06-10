@@ -25,14 +25,22 @@
       "id": 380
     }
   ],
-  "children": "[{\"name\": \"Verda Maria   Fritz\", \"birth_date\": \"1896-00-00\", \"death_date\": \"1898-00-00\", \"profile_url\": \"/memorial/239160701/verda_maria-fritz\"}]",
+  "children": [
+    {
+      "name": "Verda Maria   Fritz",
+      "birth_date": "1896-00-00",
+      "death_date": "1898-00-00",
+      "profile_url": "/memorial/239160701/verda_maria-fritz"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 9-15",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "FRITZWilliam Fritzborn June 3, 1862-died July 11, 1908HE IS NOT DEAD BUT SLEEPETHMinniewife of William J. Fritzborn 1861-died 1936at rest",
-  "id": 383
+  "id": 383,
+  "slug": "william-j-fritz-383"
 }

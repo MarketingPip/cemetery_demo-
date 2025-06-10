@@ -35,14 +35,15 @@
       "id": 45
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "",
-  "id": 44
+  "id": 44,
+  "slug": "lloyd-bender-44"
 }

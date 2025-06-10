@@ -25,14 +25,22 @@
       "id": 554
     }
   ],
-  "children": "[{\"name\": \"Ivan   Hirtzel\", \"birth_date\": \"1892-00-00\", \"death_date\": \"1972-00-00\", \"profile_url\": \"/memorial/188113229/ivan-hirtzel\"}]",
+  "children": [
+    {
+      "name": "Ivan   Hirtzel",
+      "birth_date": "1892-00-00",
+      "death_date": "1972-00-00",
+      "profile_url": "/memorial/188113229/ivan-hirtzel"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 17-3",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "",
-  "id": 548
+  "id": 548,
+  "slug": "george-hirtzel-548"
 }

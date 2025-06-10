@@ -42,14 +42,15 @@
       "id": 261
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "6-2",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Wuerth",
   "inscription": "FAISTG. Ezra Faist1871-1956his wife Elizabeth Wuerth1875-1967",
-  "id": 259
+  "id": 259,
+  "slug": "elizabeth-ann-wuerth-faist-259"
 }

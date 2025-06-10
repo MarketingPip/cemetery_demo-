@@ -42,14 +42,15 @@
       "id": 664
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row-9-10",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Klumpp",
   "inscription": "LAMPORTSamuel G. Lamport1867-1944his wife Margaret Klumpp1871-1970Edith Elvira their daughter1901-1903(back)KLUMPPJohn Klumpp1834-1923his wife Agnes C. Zuefle1935-1906",
-  "id": 662
+  "id": 662,
+  "slug": "margaret-klumpp-lamport-662"
 }

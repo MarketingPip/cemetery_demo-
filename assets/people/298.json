@@ -22,14 +22,22 @@
       "id": 289
     }
   ],
-  "children": "[{\"name\": \"Allan Stewart   Finkbeiner\", \"birth_date\": \"1922-00-00\", \"death_date\": \"2008-00-00\", \"profile_url\": \"/memorial/39760664/allan_stewart-finkbeiner\"}]",
+  "children": [
+    {
+      "name": "Allan Stewart   Finkbeiner",
+      "birth_date": "1922-00-00",
+      "death_date": "2008-00-00",
+      "profile_url": "/memorial/39760664/allan_stewart-finkbeiner"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Treitz",
   "inscription": "",
-  "id": 298
+  "id": 298,
+  "slug": "estrella-treitz-finkbeiner-298"
 }

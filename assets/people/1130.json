@@ -38,14 +38,15 @@
       "id": 1126
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 9-6",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Beaver",
   "inscription": "WEINIn memory of John G. Wein1851-1919his beloved wife Leah Beaver1859-1913their sons1888 Ezra 19241883 Samuel 1949",
-  "id": 1130
+  "id": 1130,
+  "slug": "leah-beaver-wein-1130"
 }

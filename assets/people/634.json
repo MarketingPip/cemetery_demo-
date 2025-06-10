@@ -25,14 +25,28 @@
       "id": 717
     }
   ],
-  "children": "[{\"name\": \"Leah  Krine Northcott\", \"birth_date\": \"1856-00-00\", \"death_date\": \"1883-00-00\", \"profile_url\": \"/memorial/16577419/leah-northcott\"}, {\"name\": \"Samuel   Krein\", \"birth_date\": \"1879-00-00\", \"death_date\": \"1880-00-00\", \"profile_url\": \"/memorial/188113421/samuel-krein\"}]",
+  "children": [
+    {
+      "name": "Leah  Krine Northcott",
+      "birth_date": "1856-00-00",
+      "death_date": "1883-00-00",
+      "profile_url": "/memorial/16577419/leah-northcott"
+    },
+    {
+      "name": "Samuel   Krein",
+      "birth_date": "1879-00-00",
+      "death_date": "1880-00-00",
+      "profile_url": "/memorial/188113421/samuel-krein"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 5-1",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "KREIN(end)Elizabethwife of John KREINdied Mar. 23, 1912Aged 75 years 27 daysAsleep in Jesus(front)John KREINdied April 8, 1902aged 75 yrs. 7 mos.Samuel KREINdied April 25, 1880aged 1 yr. 1 month.(back)Paul Messnerdied May 12, 1875ae 45 yrs.John Messnerdied Oct. 4, 1864ae 4 yrs. 6 mos.Regina Messnerdied July 26, 1893ae 29 yrs. 10 mos.",
-  "id": 634
+  "id": 634,
+  "slug": "john-krein-634"
 }

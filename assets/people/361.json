@@ -25,14 +25,34 @@
       "id": 319
     }
   ],
-  "children": "[{\"name\": \"Jacob   Finkbeiner\", \"birth_date\": \"1849-00-00\", \"death_date\": \"1861-00-00\", \"profile_url\": \"/memorial/16331140/jacob-finkbeiner\"}, {\"name\": \"Michael   Finkbeiner\", \"birth_date\": \"1856-00-00\", \"death_date\": \"1926-00-00\", \"profile_url\": \"/memorial/16671570/michael-finkbeiner\"}, {\"name\": \"Fredrick   Finkbeiner\", \"birth_date\": \"1858-00-00\", \"death_date\": \"1934-00-00\", \"profile_url\": \"/memorial/143602042/fredrick-finkbeiner\"}]",
+  "children": [
+    {
+      "name": "Jacob   Finkbeiner",
+      "birth_date": "1849-00-00",
+      "death_date": "1861-00-00",
+      "profile_url": "/memorial/16331140/jacob-finkbeiner"
+    },
+    {
+      "name": "Michael   Finkbeiner",
+      "birth_date": "1856-00-00",
+      "death_date": "1926-00-00",
+      "profile_url": "/memorial/16671570/michael-finkbeiner"
+    },
+    {
+      "name": "Fredrick   Finkbeiner",
+      "birth_date": "1858-00-00",
+      "death_date": "1934-00-00",
+      "profile_url": "/memorial/143602042/fredrick-finkbeiner"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "9-3",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Schatz",
   "inscription": "FINKBEINERJacob FinkbeinerGestboren Den. Marz. 12, 1861 In Altervon 11 Jahr 6 monate 2 tage.Heir RuhtRosinaEhefrau von Jacob FinkbeinerGestboren Dec Feb. 3, 1882 In Altervon 54 Jahr 5 tagenRuhe uhrer a scheJacob Finkbeinergestboren den Apr. 8, 1900 In Altervon 79 Jahr. 6 mo. 18 tag.Magdalenawife of Christian Finkbeinerdied Dec. 8, 1927aged 69 yearsChristian Finkbeinerdied Dec. 12, 1933 aged 81 yrs.",
-  "id": 361
+  "id": 361,
+  "slug": "rosina-schatz-finkbeiner-361"
 }

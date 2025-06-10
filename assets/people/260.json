@@ -25,14 +25,22 @@
       "id": 262
     }
   ],
-  "children": "[{\"name\": \"Barbara A.  Faist Zophy\", \"birth_date\": \"1937-00-00\", \"death_date\": \"2022-00-00\", \"profile_url\": \"/memorial/243086864/barbara_a-zophy\"}]",
+  "children": [
+    {
+      "name": "Barbara A.  Faist Zophy",
+      "birth_date": "1937-00-00",
+      "death_date": "2022-00-00",
+      "profile_url": "/memorial/243086864/barbara_a-zophy"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "6-4",
   "title": "",
   "prefix": "Rev",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "FAISTThe Rev. Frederick M. FaistB.A.: B.D.1908-1982his wife Gwendolyn Arends1909-2001",
-  "id": 260
+  "id": 260,
+  "slug": "rev-frederick-morton-faist-260"
 }

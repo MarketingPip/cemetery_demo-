@@ -33,9 +33,9 @@
     }
   ],
   "spouses": [],
-  "children": "[]",
+  "children": [],
   "siblings": "[{\"name\": \"Henry   Wilhelm\", \"birth_date\": \"1861-00-00\", \"death_date\": \"1875-00-00\", \"profile_url\": \"/memorial/15833335/henry-wilhelm\"}, {\"name\": \"Catherine   Wilhelm\", \"birth_date\": \"1863-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/15833360/catherine-wilhelm\"}]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "6-5",
   "title": "",
   "prefix": "",

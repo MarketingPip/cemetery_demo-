@@ -25,14 +25,40 @@
       "id": 903
     }
   ],
-  "children": "[{\"name\": \"Rosina  Roeszler Wolfe\", \"birth_date\": \"1883-00-00\", \"death_date\": \"1963-00-00\", \"profile_url\": \"/memorial/188139369/rosina-wolfe\"}, {\"name\": \"Thomas C.   Roeszler\", \"birth_date\": \"1886-00-00\", \"death_date\": \"1933-00-00\", \"profile_url\": \"/memorial/188136605/thomas_c-roeszler\"}, {\"name\": \"Emerson   Roeszler\", \"birth_date\": \"1898-00-00\", \"death_date\": \"1984-00-00\", \"profile_url\": \"/memorial/188136582/emerson-roeszler\"}, {\"name\": \"Herbert C.   Roeszler\", \"birth_date\": \"1899-00-00\", \"death_date\": \"1900-00-00\", \"profile_url\": \"/memorial/188136591/herbert_c-roeszler\"}]",
+  "children": [
+    {
+      "name": "Rosina  Roeszler Wolfe",
+      "birth_date": "1883-00-00",
+      "death_date": "1963-00-00",
+      "profile_url": "/memorial/188139369/rosina-wolfe"
+    },
+    {
+      "name": "Thomas C.   Roeszler",
+      "birth_date": "1886-00-00",
+      "death_date": "1933-00-00",
+      "profile_url": "/memorial/188136605/thomas_c-roeszler"
+    },
+    {
+      "name": "Emerson   Roeszler",
+      "birth_date": "1898-00-00",
+      "death_date": "1984-00-00",
+      "profile_url": "/memorial/188136582/emerson-roeszler"
+    },
+    {
+      "name": "Herbert C.   Roeszler",
+      "birth_date": "1899-00-00",
+      "death_date": "1900-00-00",
+      "profile_url": "/memorial/188136591/herbert_c-roeszler"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 10-6",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "ROESZLERIn memory of Elizabethwife of John Roeszlerdied Sept. 9 , 1918in her 61 st yearJohn Roeszlerdied May 17, 1946in his 91 st yearEmerson, their son1898-1984Thomas C. their son1886-1933(back)Herbert C. Roeszler1899-1900Albert Wolfe1884-1959his wife Rosina Roeszler1883-1963Harold C. Wolfe1917-1990his wife Nita Mae Riley1926-1992",
-  "id": 898
+  "id": 898,
+  "slug": "elizabeth-roeszler-898"
 }

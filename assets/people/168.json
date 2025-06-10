@@ -22,14 +22,15 @@
       "id": 165
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 9-13",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "EGGERTHenry Eggert1831-1885his wife Christina Bohn1824-1896",
-  "id": 168
+  "id": 168,
+  "slug": "henry-eggert-168"
 }

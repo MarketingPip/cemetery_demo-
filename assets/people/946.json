@@ -25,14 +25,22 @@
       "id": 948
     }
   ],
-  "children": "[{\"name\": \"Lloyd Melvin   Schroeder\", \"birth_date\": \"1901-00-00\", \"death_date\": \"1969-00-00\", \"profile_url\": \"/memorial/189875783/lloyd_melvin-schroeder\"}]",
+  "children": [
+    {
+      "name": "Lloyd Melvin   Schroeder",
+      "birth_date": "1901-00-00",
+      "death_date": "1969-00-00",
+      "profile_url": "/memorial/189875783/lloyd_melvin-schroeder"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "3-3",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Lippert",
   "inscription": "SCHROEDERDaniel Schroeder1869-1937his wife Catherine Lippert1876-1948",
-  "id": 946
+  "id": 946,
+  "slug": "catherine-lippert-schroeder-946"
 }

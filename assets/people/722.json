@@ -42,14 +42,15 @@
       "id": 728
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 9-9",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Haist",
   "inscription": "MORLOCKAlma E. Haist1903-1943wife of Chester Gordon Morlock 1902-1993his wife Alma I. Smith1903-2006(back)John N. Morlock1867-1951his wife Caroline M. Wuerth1872-1963",
-  "id": 722
+  "id": 722,
+  "slug": "alma-elizabeth-haist-morlock-722"
 }

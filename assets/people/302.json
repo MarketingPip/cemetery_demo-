@@ -22,14 +22,22 @@
       "id": 354
     }
   ],
-  "children": "[{\"name\": \"Matilda  Finkbiner Wesley\", \"birth_date\": \"1886-00-00\", \"death_date\": \"1967-00-00\", \"profile_url\": \"/memorial/153246296/matilda-wesley\"}]",
+  "children": [
+    {
+      "name": "Matilda  Finkbiner Wesley",
+      "birth_date": "1886-00-00",
+      "death_date": "1967-00-00",
+      "profile_url": "/memorial/153246296/matilda-wesley"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 11-12",
   "title": "",
   "prefix": "",
   "photos": "[{'src': 'https://images.findagrave.com/photos/2006/319/16671456_116368962007.jpg?size=photos250', 'contributor_text': 'Scott Buschlen', 'contributor_href': 'https://www.findagrave.com/user/profile/46583152'}]",
   "maiden_name": "Geiger",
   "inscription": "",
-  "id": 302
+  "id": 302,
+  "slug": "fredericka-geiger-finkbeiner-302"
 }

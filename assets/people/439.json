@@ -25,14 +25,22 @@
       "id": 437
     }
   ],
-  "children": "[{\"name\": \"Margaret   Gibson\", \"birth_date\": \"1962-00-00\", \"death_date\": \"1972-00-00\", \"profile_url\": \"/memorial/191738097/margaret-gibson\"}]",
+  "children": [
+    {
+      "name": "Margaret   Gibson",
+      "birth_date": "1962-00-00",
+      "death_date": "1972-00-00",
+      "profile_url": "/memorial/191738097/margaret-gibson"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 4-6",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Haigh",
   "inscription": "GIBSONFred Gibson1931-2006his wife Mary Haigh1938-2008their daughterMargaret1962-1972f.s. Margaret",
-  "id": 439
+  "id": 439,
+  "slug": "mary-muriel-haigh-gibson-439"
 }

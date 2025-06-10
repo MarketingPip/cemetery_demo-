@@ -25,14 +25,22 @@
       "id": 495
     }
   ],
-  "children": "[{\"name\": \"August   Haist\", \"birth_date\": \"1839-00-00\", \"death_date\": \"1912-00-00\", \"profile_url\": \"/memorial/15697730/august-haist\"}]",
+  "children": [
+    {
+      "name": "August   Haist",
+      "birth_date": "1839-00-00",
+      "death_date": "1912-00-00",
+      "profile_url": "/memorial/15697730/august-haist"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "3-11",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "HAISTMartha Gaiser1873-1934beloved wife of Henry Haist1873-1963their sons1905 Royal H. 19791911 Gordon 1979August Haistdied July 21, 1912aged 72 yrs. 8 mos. 14 ds.Barbara, his wifedied Dec. 24, 1918aged 82 yrs. 27 ds.Jacob Haistdied Mar. 6, 1864aged 73 yrshis wife Ana Mariadied Nov. 29, 1881aged 86 yrs.",
-  "id": 477
+  "id": 477,
+  "slug": "ana-maria-haist-477"
 }

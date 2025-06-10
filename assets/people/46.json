@@ -22,14 +22,22 @@
       "id": 42
     }
   ],
-  "children": "[{\"name\": \"Garry William   Bender\", \"birth_date\": \"1943-00-00\", \"death_date\": \"1944-00-00\", \"profile_url\": \"/memorial/188035554/garry_william-bender\"}]",
+  "children": [
+    {
+      "name": "Garry William   Bender",
+      "birth_date": "1943-00-00",
+      "death_date": "1944-00-00",
+      "profile_url": "/memorial/188035554/garry_william-bender"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 15-9",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "",
-  "id": 46
+  "id": 46,
+  "slug": "william-h-bender-46"
 }

@@ -25,14 +25,22 @@
       "id": 617
     }
   ],
-  "children": "[{\"name\": \"E. Bruce   Kienzle\", \"birth_date\": \"1889-00-00\", \"death_date\": \"1977-00-00\", \"profile_url\": \"/memorial/188113375/e_bruce-kienzle\"}]",
+  "children": [
+    {
+      "name": "E. Bruce   Kienzle",
+      "birth_date": "1889-00-00",
+      "death_date": "1977-00-00",
+      "profile_url": "/memorial/188113375/e_bruce-kienzle"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 10-5",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Boyer",
   "inscription": "KIENZLEMagdalena Boyerwife of G. K. Kienzledied Nov. 28, 1911 ae 52 yrs. 8 mos. 4 ds.THERE ARE NO PARTINGS IN HEAVENGeorge K. Kienzleborn June 16, 1854 died Apr. 6, 1950(end)E. Bruce Kienzle1889-1977son",
-  "id": 618
+  "id": 618,
+  "slug": "magdelena-boyer-kienzle-618"
 }

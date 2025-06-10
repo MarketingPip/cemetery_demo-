@@ -42,14 +42,15 @@
       "id": 212
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 7-7",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "FAHNERJohn Fahner1854-1942his wife Catherine Gaiser1859-1936their sonEdwin1892-1959their daughter Pearl1894-1970Tobias Fahner Sr.died June 1, 1903aged 83 yrs. 7 mos. 15 ds.his wife Margrethadied Jan. 15, 1862 aged 37 yrs.",
-  "id": 223
+  "id": 223,
+  "slug": "john-fahner-223"
 }

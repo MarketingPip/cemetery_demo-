@@ -25,14 +25,22 @@
       "id": 142
     }
   ],
-  "children": "[{\"name\": \"Fred   Coughtrey\", \"birth_date\": \"1952-00-00\", \"death_date\": \"1972-00-00\", \"profile_url\": \"/memorial/188036226/fred-coughtrey\"}]",
+  "children": [
+    {
+      "name": "Fred   Coughtrey",
+      "birth_date": "1952-00-00",
+      "death_date": "1972-00-00",
+      "profile_url": "/memorial/188036226/fred-coughtrey"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Confurius",
   "inscription": "COUGHTREYEarl JosephDec. 11, 1923June 18. 1987Corrie J.(Confurius)Aug. 21, 1916Feb. 14, 2016In God we trust",
-  "id": 141
+  "id": 141,
+  "slug": "corrie-j-confurius-coughtrey-141"
 }

@@ -25,14 +25,28 @@
       "id": 696
     }
   ],
-  "children": "[{\"name\": \"John Wesley   Mangnus\", \"birth_date\": \"1881-00-00\", \"death_date\": \"1884-00-00\", \"profile_url\": \"/memorial/188115122/john_wesley-mangnus\"}, {\"name\": \"Marie   Mangnus\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1885-00-00\", \"profile_url\": \"/memorial/236151868/marie-mangnus\"}]",
+  "children": [
+    {
+      "name": "John Wesley   Mangnus",
+      "birth_date": "1881-00-00",
+      "death_date": "1884-00-00",
+      "profile_url": "/memorial/188115122/john_wesley-mangnus"
+    },
+    {
+      "name": "Marie   Mangnus",
+      "birth_date": "1882-00-00",
+      "death_date": "1885-00-00",
+      "profile_url": "/memorial/236151868/marie-mangnus"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "2-13",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Proechel",
   "inscription": "John Wesley Mangnusborn 1875 died 1881Marieborn 1882 died 1885Fredericka Mangnusborn 1850 died 1915Mrs. Gottfried MangnusGottifried Mangnusborn 1847 died 1925James Morris Mangnus",
-  "id": 695
+  "id": 695,
+  "slug": "fredericka-proechel-mangnus-695"
 }

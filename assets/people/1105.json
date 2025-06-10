@@ -39,14 +39,15 @@
       "id": 1110
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 14-9",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "",
-  "id": 1105
+  "id": 1105,
+  "slug": "aaron-wein-1105"
 }

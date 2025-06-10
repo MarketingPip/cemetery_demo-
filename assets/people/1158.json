@@ -25,14 +25,34 @@
       "id": 1159
     }
   ],
-  "children": "[{\"name\": \"Henry   Wilhelm\", \"birth_date\": \"1861-00-00\", \"death_date\": \"1875-00-00\", \"profile_url\": \"/memorial/15833335/henry-wilhelm\"}, {\"name\": \"Catherine   Wilhelm\", \"birth_date\": \"1863-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/15833360/catherine-wilhelm\"}, {\"name\": \"Louis   Wilhelm\", \"birth_date\": \"1876-00-00\", \"death_date\": \"1881-00-00\", \"profile_url\": \"/memorial/15833385/louis-wilhelm\"}]",
+  "children": [
+    {
+      "name": "Henry   Wilhelm",
+      "birth_date": "1861-00-00",
+      "death_date": "1875-00-00",
+      "profile_url": "/memorial/15833335/henry-wilhelm"
+    },
+    {
+      "name": "Catherine   Wilhelm",
+      "birth_date": "1863-00-00",
+      "death_date": "1879-00-00",
+      "profile_url": "/memorial/15833360/catherine-wilhelm"
+    },
+    {
+      "name": "Louis   Wilhelm",
+      "birth_date": "1876-00-00",
+      "death_date": "1881-00-00",
+      "profile_url": "/memorial/15833385/louis-wilhelm"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "6-5",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "(back)WILHELMEckhardt Wilhelm1829-1912his wife Elizabeth Rader1840-1909their children1861 Henry 18751863 Catherine 18791876 Louis 1881Katherine Kaufeld1820-1882(front)HAISTEzra Haist 1869-1928his wife Annie Wilhelm1873-1954",
-  "id": 1158
+  "id": 1158,
+  "slug": "eckhardt-wilhelm-1158"
 }

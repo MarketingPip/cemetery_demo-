@@ -22,14 +22,22 @@
       "id": 669
     }
   ],
-  "children": "[{\"name\": \"Myrtle  Lawson Sansone\", \"birth_date\": \"1901-00-00\", \"death_date\": \"1960-00-00\", \"profile_url\": \"/memorial/188136633/myrtle-sansone\"}]",
+  "children": [
+    {
+      "name": "Myrtle  Lawson Sansone",
+      "birth_date": "1901-00-00",
+      "death_date": "1960-00-00",
+      "profile_url": "/memorial/188136633/myrtle-sansone"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 8-8",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "LAWSONThomas B. Lawson1871-1916his wife Sophia Brown Bier1878-1934their daughter Myrtlewife of Michael Sansone1901-1960",
-  "id": 668
+  "id": 668,
+  "slug": "thomas-b-lawson-668"
 }

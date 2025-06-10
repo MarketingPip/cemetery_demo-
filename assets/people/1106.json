@@ -34,14 +34,15 @@
       "id": 1120
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 8-3",
   "title": "",
   "prefix": "",
   "photos": "[{'src': 'https://images.findagrave.com/photos/2018/137/189806364_4da55b95-5f0f-449a-832e-802e05818f7a.jpeg?size=photos250', 'contributor_text': 'Jean and Frank Andreae', 'contributor_href': 'https://www.findagrave.com/user/profile/48371821'}]",
   "maiden_name": "Fahner",
   "inscription": "WEINGodfried Weindied Sept. 14, 1916aged 82 yrs. 1 mo. 2 ds.There are no partings in heavenAgnes his wifedied Nov. 5, 1919aged 84 yrs. 8 ms. 28 ds.John Georgeson of Godfried & Agnes Weindied May 6, 1889aged 25 yrs. 9 mos. 6 ds.(back)Paul Schink 1854-1939his wife Wilhelmina Wein1863-1943their son Herbert1896-1979",
-  "id": 1106
+  "id": 1106,
+  "slug": "agnes-fahner-wein-1106"
 }

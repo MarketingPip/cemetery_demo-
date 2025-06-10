@@ -25,14 +25,22 @@
       "id": 819
     }
   ],
-  "children": "[{\"name\": \"William John   Parsons\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1936-00-00\", \"profile_url\": \"/memorial/235476888/william_john-parsons\"}]",
+  "children": [
+    {
+      "name": "William John   Parsons",
+      "birth_date": "1867-00-00",
+      "death_date": "1936-00-00",
+      "profile_url": "/memorial/235476888/william_john-parsons"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 11-13",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "Aged 53 years 19 days",
-  "id": 821
+  "id": 821,
+  "slug": "mary-ann-parsons-821"
 }

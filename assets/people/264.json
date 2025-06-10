@@ -25,14 +25,22 @@
       "id": 265
     }
   ],
-  "children": "[{\"name\": \"George Ezra   Faist\", \"birth_date\": \"1871-00-00\", \"death_date\": \"1956-00-00\", \"profile_url\": \"/memorial/188037270/george_ezra-faist\"}]",
+  "children": [
+    {
+      "name": "George Ezra   Faist",
+      "birth_date": "1871-00-00",
+      "death_date": "1956-00-00",
+      "profile_url": "/memorial/188037270/george_ezra-faist"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "6-2",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "J. Bernhardt FaistGest den Apr. 5, 1887Alter 59 Jahre 4 mo. und 13 tage.Louisa wife of J. B.  Faistdied Jan. 20, 1914ae 80 yrs. 10 mos. 28 ds.",
-  "id": 264
+  "id": 264,
+  "slug": "jacob-bernhardt-faist-264"
 }

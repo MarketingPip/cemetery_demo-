@@ -13,9 +13,16 @@
   "image_credits_url": "",
   "parents": [],
   "spouses": [],
-  "children": "[{\"name\": \"Arron John   Bullock\", \"birth_date\": \"1968-00-00\", \"death_date\": \"2007-00-00\", \"profile_url\": \"/memorial/41011929/arron_john-bullock\"}]",
+  "children": [
+    {
+      "name": "Arron John   Bullock",
+      "birth_date": "1968-00-00",
+      "death_date": "2007-00-00",
+      "profile_url": "/memorial/41011929/arron_john-bullock"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",

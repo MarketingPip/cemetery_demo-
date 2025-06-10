@@ -25,14 +25,28 @@
       "id": 157
     }
   ],
-  "children": "[{\"name\": \"Thomas Robert \\\"Bob\\\"  Dinney\", \"birth_date\": \"1962-00-00\", \"death_date\": \"2017-00-00\", \"profile_url\": \"/memorial/228109891/thomas_robert-dinney\"}, {\"name\": \"Shawn Michael   Dinney\", \"birth_date\": \"1969-00-00\", \"death_date\": \"1978-00-00\", \"profile_url\": \"/memorial/188036322/shawn_michael-dinney\"}]",
+  "children": [
+    {
+      "name": "Thomas Robert \"Bob\"  Dinney",
+      "birth_date": "1962-00-00",
+      "death_date": "2017-00-00",
+      "profile_url": "/memorial/228109891/thomas_robert-dinney"
+    },
+    {
+      "name": "Shawn Michael   Dinney",
+      "birth_date": "1969-00-00",
+      "death_date": "1978-00-00",
+      "profile_url": "/memorial/188036322/shawn_michael-dinney"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 27-7",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "DINNEY(black granite stone)Robert C. Dinney1937-1986his wife Grace Desjardine1941-1997their son Shawn Michael 1969-1979Thomas Robert1962-2017their sonsJason Charleshis wife Cynthia L. VisserDarrel Douglastheir granddaughtersCeceilia Grace1982-2018Tina Nicole(Dinney)Roulston(back)Donald V. Dinney1929-1985his wife Maria E. Clarke1931-2015Gary D. Dinneyhis wifeBonnietheir sonDonald G. Dinney",
-  "id": 155
+  "id": 155,
+  "slug": "robert-christopher-bob-dinney-155"
 }

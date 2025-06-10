@@ -22,14 +22,15 @@
       "id": 4
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Cox",
   "inscription": "",
-  "id": 5
+  "id": 5,
+  "slug": "beth-cox-attfield-5"
 }

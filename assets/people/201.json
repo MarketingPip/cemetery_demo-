@@ -25,14 +25,15 @@
       "id": 199
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 27-9",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Vannatter",
   "inscription": "ENGLAND(salmon marble stone)Jacque W. England1922-1979his wifePearl E. Vannatter1919-1998",
-  "id": 201
+  "id": 201,
+  "slug": "pearl-e-vannatter-england-201"
 }

@@ -25,14 +25,28 @@
       "id": 1106
     }
   ],
-  "children": "[{\"name\": \"John George   Wein\", \"birth_date\": \"1864-00-00\", \"death_date\": \"1889-00-00\", \"profile_url\": \"/memorial/188139133/john_george-wein\"}, {\"name\": \"Susan  Wein Bowman\", \"birth_date\": \"1868-00-00\", \"death_date\": \"1944-00-00\", \"profile_url\": \"/memorial/188035687/susan-bowman\"}]",
+  "children": [
+    {
+      "name": "John George   Wein",
+      "birth_date": "1864-00-00",
+      "death_date": "1889-00-00",
+      "profile_url": "/memorial/188139133/john_george-wein"
+    },
+    {
+      "name": "Susan  Wein Bowman",
+      "birth_date": "1868-00-00",
+      "death_date": "1944-00-00",
+      "profile_url": "/memorial/188035687/susan-bowman"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 8-3",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "WEINGodfried Weindied Sept. 14, 1916aged 82 yrs. 1 mo. 2 ds.There are no partings in heavenAgnes his wifedied Nov. 5, 1919aged 84 yrs. 8 ms. 28 ds.John Georgeson of Godfried & Agnes Weindied May 6, 1889aged 25 yrs. 9 mos. 6 ds.(back)Paul Schink 1854-1939his wife Wilhelmina Wein1863-1943their son Herbert1896-1979",
-  "id": 1120
+  "id": 1120,
+  "slug": "godfried-wein-1120"
 }

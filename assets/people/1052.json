@@ -22,14 +22,15 @@
       "id": 1039
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",
   "photos": "[{'src': 'https://images.findagrave.com/photos/2022/86/15134357_d888643b-9c72-45d1-9cb9-f93a8c30ed6f.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}]",
   "maiden_name": "",
   "inscription": "",
-  "id": 1052
+  "id": 1052,
+  "slug": "wray-william-sweitzer-1052"
 }

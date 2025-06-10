@@ -25,14 +25,52 @@
       "id": 740
     }
   ],
-  "children": "[{\"name\": \"William H.   Morlock\", \"birth_date\": \"1862-00-00\", \"death_date\": \"1948-00-00\", \"profile_url\": \"/memorial/15978472/william_h-morlock\"}, {\"name\": \"Clara S.F.   Morlock\", \"birth_date\": \"1865-00-00\", \"death_date\": \"1871-00-00\", \"profile_url\": \"/memorial/15978192/clara_sf-morlock\"}, {\"name\": \"John Nicholas   Morlock\", \"birth_date\": \"1867-00-00\", \"death_date\": \"1951-00-00\", \"profile_url\": \"/memorial/16539197/john_nicholas-morlock\"}, {\"name\": \"Charles Edward   Morlock\", \"birth_date\": \"1873-00-00\", \"death_date\": \"1968-00-00\", \"profile_url\": \"/memorial/15396172/charles_edward-morlock\"}, {\"name\": \"Albert Wesley   Morlock\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1965-00-00\", \"profile_url\": \"/memorial/15849051/albert_wesley-morlock\"}, {\"name\": \"Mary Ann  Morlock Braun\", \"birth_date\": \"1881-00-00\", \"death_date\": \"1968-00-00\", \"profile_url\": \"/memorial/15426343/mary_ann-braun\"}]",
+  "children": [
+    {
+      "name": "William H.   Morlock",
+      "birth_date": "1862-00-00",
+      "death_date": "1948-00-00",
+      "profile_url": "/memorial/15978472/william_h-morlock"
+    },
+    {
+      "name": "Clara S.F.   Morlock",
+      "birth_date": "1865-00-00",
+      "death_date": "1871-00-00",
+      "profile_url": "/memorial/15978192/clara_sf-morlock"
+    },
+    {
+      "name": "John Nicholas   Morlock",
+      "birth_date": "1867-00-00",
+      "death_date": "1951-00-00",
+      "profile_url": "/memorial/16539197/john_nicholas-morlock"
+    },
+    {
+      "name": "Charles Edward   Morlock",
+      "birth_date": "1873-00-00",
+      "death_date": "1968-00-00",
+      "profile_url": "/memorial/15396172/charles_edward-morlock"
+    },
+    {
+      "name": "Albert Wesley   Morlock",
+      "birth_date": "1877-00-00",
+      "death_date": "1965-00-00",
+      "profile_url": "/memorial/15849051/albert_wesley-morlock"
+    },
+    {
+      "name": "Mary Ann  Morlock Braun",
+      "birth_date": "1881-00-00",
+      "death_date": "1968-00-00",
+      "profile_url": "/memorial/15426343/mary_ann-braun"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 8-11",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Beaver",
   "inscription": "MORLOCK(front)FATHERWilliam H. Morlockdied Apr. 24, 1948aged 85 yrs 5 mos. 19ds.MOTHERLydia Haistwife of William H. Morlockdied Sept. 27, 1942aged 76 yrs. 3 ms. 29 ds.(end)Wilber H. Morlockdied Jan. 1, 1919aged 26 yrs. 10 ms. 6 ds.Clinton G. Morlockdied June 4, 1942aged 43 yrs. 1 mo.(end)Clara S. Morlockdied Apr. 10, 1871aged 6 yrs. 1 mo. 17 ds.Raymond A. Morlockdied May 23, 1898aged 8 mos. 8 ds.(back)Charlotte Beaverwife of Gottielb Morlockdied July 7, 1925aged 84 yrs. 9 mos. 27 ds.Gottielb Morlockdied Nov. 3, 1910aged 74 yrs. 5 ms. 29 ds.at rest",
-  "id": 727
+  "id": 727,
+  "slug": "charlotte-beaver-morlock-727"
 }

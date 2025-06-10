@@ -23,14 +23,22 @@
       "profile_url": "/memorial/15804132/william_edward-winer"
     }
   ],
-  "children": "[{\"name\": \"Norman   Winer\", \"birth_date\": \"1889-00-00\", \"death_date\": \"1908-00-00\", \"profile_url\": \"/memorial/15660715/norman-winer\"}]",
+  "children": [
+    {
+      "name": "Norman   Winer",
+      "birth_date": "1889-00-00",
+      "death_date": "1908-00-00",
+      "profile_url": "/memorial/15660715/norman-winer"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 1-3",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Sweitzer",
   "inscription": "",
-  "id": 1174
+  "id": 1174,
+  "slug": "elizabeth-sweitzer-winer-1174"
 }

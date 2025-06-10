@@ -25,14 +25,15 @@
       "id": 1100
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 16-5",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "IN HEAVEN WE PART NO MORE",
-  "id": 1101
+  "id": 1101,
+  "slug": "james-henry-webb-1101"
 }

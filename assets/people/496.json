@@ -39,14 +39,15 @@
       "id": 483
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 11-3",
   "title": "",
   "prefix": "",
   "photos": "[{'src': 'https://images.findagrave.com/photos/2011/46/16581414_129784595873.jpg?size=photos250', 'contributor_text': 'Kimberly Fraser', 'contributor_href': 'https://www.findagrave.com/user/profile/46863018'}]",
   "maiden_name": "",
   "inscription": "HAIST HIS WIFE THEIR DAUGHTER",
-  "id": 496
+  "id": 496,
+  "slug": "john-haist-496"
 }

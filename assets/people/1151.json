@@ -29,9 +29,9 @@
     }
   ],
   "spouses": [],
-  "children": "[]",
+  "children": [],
   "siblings": "[{\"name\": \"Marie  Wenzel Herrick\", \"birth_date\": \"1844-00-00\", \"death_date\": \"1931-00-00\", \"profile_url\": \"/memorial/49467165/marie-herrick\"}, {\"name\": \"William Henry   Wenzel\", \"birth_date\": \"1857-00-00\", \"death_date\": \"1924-00-00\", \"profile_url\": \"/memorial/70676033/william_henry-wenzel\"}, {\"name\": \"Andrew   Wenzel\", \"birth_date\": \"1859-00-00\", \"death_date\": \"1922-00-00\", \"profile_url\": \"/memorial/90235208/andrew-wenzel\"}]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 10-1",
   "title": "",
   "prefix": "",

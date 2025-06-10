@@ -13,9 +13,16 @@
   "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [],
-  "children": "[{\"name\": \"infant son   Schnarr\", \"birth_date\": null, \"death_date\": \"1880-00-00\", \"profile_url\": \"/memorial/239174559/infant_son-schnarr\"}]",
+  "children": [
+    {
+      "name": "infant son   Schnarr",
+      "birth_date": null,
+      "death_date": "1880-00-00",
+      "profile_url": "/memorial/239174559/infant_son-schnarr"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 10-4",
   "title": "",
   "prefix": "",

@@ -31,14 +31,15 @@
       "id": 445
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 11-10",
   "title": "",
   "prefix": "",
   "photos": "[{'src': 'https://images.findagrave.com/photos/2022/187/16627319_2a9340c7-8b17-4260-888b-9296ae30bb6e.jpeg?size=photos250', 'contributor_text': 'Chloe Lanterman', 'contributor_href': 'https://www.findagrave.com/user/profile/49771067'}]",
   "maiden_name": "Finkbeiner",
   "inscription": "",
-  "id": 444
+  "id": 444,
+  "slug": "elizabeth-m-finkbeiner-goetz-444"
 }

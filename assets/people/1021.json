@@ -38,14 +38,15 @@
       "id": 1026
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 1-3",
   "title": "",
   "prefix": "",
   "photos": "[{'src': 'https://images.findagrave.com/photos/2011/46/15660817_129788787981.jpg?size=photos250', 'contributor_text': 'Kimberly Fraser', 'contributor_href': 'https://www.findagrave.com/user/profile/46863018'}]",
   "maiden_name": "Kaercher",
   "inscription": "",
-  "id": 1021
+  "id": 1021,
+  "slug": "adeline-priscilla-kaercher-sweitzer-1021"
 }

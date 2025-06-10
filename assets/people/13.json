@@ -23,14 +23,28 @@
       "profile_url": "/memorial/14622579/nicholas-beaver"
     }
   ],
-  "children": "[{\"name\": \"Christina  Beaver Schoellig\", \"birth_date\": \"1844-00-00\", \"death_date\": \"1866-00-00\", \"profile_url\": \"/memorial/14627864/christina-schoellig\"}, {\"name\": \"Nicholas   Beaver\", \"birth_date\": \"1849-00-00\", \"death_date\": \"1934-00-00\", \"profile_url\": \"/memorial/16671364/nicholas-beaver\"}]",
+  "children": [
+    {
+      "name": "Christina  Beaver Schoellig",
+      "birth_date": "1844-00-00",
+      "death_date": "1866-00-00",
+      "profile_url": "/memorial/14627864/christina-schoellig"
+    },
+    {
+      "name": "Nicholas   Beaver",
+      "birth_date": "1849-00-00",
+      "death_date": "1934-00-00",
+      "profile_url": "/memorial/16671364/nicholas-beaver"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 7-3",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Yantz",
   "inscription": "MORLOCKMary C. Martin1875-1949wife of Albert Morlock1877-1966thier sonMartin B. Morlock1919-1976donated body to scienceCharlott Janswife of N. Beaverdied Aug. 4, 1907aged 92 years 6 mos. 16 ds.Magdalena Eilber1849-1936Heir RuhtCarl EilberGest Oct. 12, 1899Alter 74 Jahre 3 monate 20 tageHeir RuhtAgnesGaltin Von Carl EilberGest Oct. 18, 1896Alter 72 Jahre 2 monate 9 tage.",
-  "id": 13
+  "id": 13,
+  "slug": "charlotte-yantz-beaver-13"
 }

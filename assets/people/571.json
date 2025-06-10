@@ -25,14 +25,22 @@
       "id": 564
     }
   ],
-  "children": "[{\"name\": \"Robert   Hoffmann\", \"birth_date\": \"1958-00-00\", \"death_date\": \"2006-00-00\", \"profile_url\": \"/memorial/239127284/robert-hoffmann\"}]",
+  "children": [
+    {
+      "name": "Robert   Hoffmann",
+      "birth_date": "1958-00-00",
+      "death_date": "2006-00-00",
+      "profile_url": "/memorial/239127284/robert-hoffmann"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 7-11",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Coxen",
   "inscription": "HOFFMANNChristian Hoffmannborn Aug. 1, 1862-died Apr. 14, 1926his wife Hannah BalsdenDec. 28, 1862-Mar. 2, 1937their son Charlieborn Oct. 20, 1906-died Apr. 11, 1981his wife Clara Morlockborn Jan. 4, 1902-died Apr. 30, 1988(back)Peter Hoffmannborn Mar.3, 1826-died Jan. 5, 1913his wife Johanna Callfasborn Mar. 10, 1835-died Feb. 5, 1918their daughtersEliza Ann Hoffmannborn May 11, 1866-died Apr. 15, 1890Mary Hoffmannwife of H. Stanleyborn Dec. 26, 1855-died July 19, 1891(side)their sonClaire LeroyAug. 1, 1934Feb. 16, 2020his wifeWinona AdaCoxenMar. 28, 1937Dec. 27, 2019married Oct. 19, 1957their sonRobert AlanHoffmannOct. 20, 1958Apr. 10, 2006",
-  "id": 571
+  "id": 571,
+  "slug": "winona-coxen-hoffmann-571"
 }

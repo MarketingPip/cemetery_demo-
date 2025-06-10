@@ -38,14 +38,15 @@
       "id": 1177
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "2-12",
   "title": "",
   "prefix": "",
   "photos": "[{'src': 'https://images.findagrave.com/photos/2019/194/80331143_efb46c2d-5517-4dd7-8a2f-a75e21a55095.png?size=photos250', 'contributor_text': 'Terri (Haupt) Huizenga', 'contributor_href': 'https://www.findagrave.com/user/profile/48881555'}, {'src': 'https://images.findagrave.com/photos/2011/315/80331143_132116418452.jpg?size=photos250', 'contributor_text': 'Kmclean', 'contributor_href': 'https://www.findagrave.com/user/profile/47620333'}]",
   "maiden_name": "Schultz",
   "inscription": "MATHEW WINER DIED MAR 26, 1910AGED 71 YRS. 9 MOSHIS WIFE MARY SCHULTZDIED JUNE 2, 1911AGED 72 YRS. 2 MOSTHEIR DAU LILLY ANNDIED DEC 10, 1901AGED 20 YRS. 9 MOSGone But Not Forgotten",
-  "id": 1176
+  "id": 1176,
+  "slug": "mary-d-schultz-winer-1176"
 }

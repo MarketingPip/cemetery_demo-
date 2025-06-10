@@ -25,14 +25,70 @@
       "id": 870
     }
   ],
-  "children": "[{\"name\": \"Jacob Albert   Ratz\", \"birth_date\": \"1879-00-00\", \"death_date\": \"1951-00-00\", \"profile_url\": \"/memorial/15639873/jacob_albert-ratz\"}, {\"name\": \"William Henry   Ratz\", \"birth_date\": \"1880-00-00\", \"death_date\": \"1957-00-00\", \"profile_url\": \"/memorial/176218955/william_henry-ratz\"}, {\"name\": \"Simon V   Ratz\", \"birth_date\": \"1883-00-00\", \"death_date\": \"1947-00-00\", \"profile_url\": \"/memorial/16550848/simon_v-ratz\"}, {\"name\": \"Clara  Ratz McPherson\", \"birth_date\": \"1885-00-00\", \"death_date\": \"1971-00-00\", \"profile_url\": \"/memorial/178153905/clara-mcpherson\"}, {\"name\": \"Ida  Ratz Sweitzer\", \"birth_date\": \"1889-00-00\", \"death_date\": \"1920-00-00\", \"profile_url\": \"/memorial/16550965/ida-sweitzer\"}, {\"name\": \"Laura L  Ratz Sweitzer\", \"birth_date\": \"1891-00-00\", \"death_date\": \"1963-00-00\", \"profile_url\": \"/memorial/15187299/laura_l-sweitzer\"}, {\"name\": \"Milton Earl   Ratz\", \"birth_date\": \"1893-00-00\", \"death_date\": \"1954-00-00\", \"profile_url\": \"/memorial/15561385/milton_earl-ratz\"}, {\"name\": \"Roy Ervin   Ratz\", \"birth_date\": \"1897-00-00\", \"death_date\": \"1971-00-00\", \"profile_url\": \"/memorial/15561339/roy_ervin-ratz\"}, {\"name\": \"Gordon Marcius   Ratz\", \"birth_date\": \"1900-00-00\", \"death_date\": \"1908-00-00\", \"profile_url\": \"/memorial/16550888/gordon_marcius-ratz\"}]",
+  "children": [
+    {
+      "name": "Jacob Albert   Ratz",
+      "birth_date": "1879-00-00",
+      "death_date": "1951-00-00",
+      "profile_url": "/memorial/15639873/jacob_albert-ratz"
+    },
+    {
+      "name": "William Henry   Ratz",
+      "birth_date": "1880-00-00",
+      "death_date": "1957-00-00",
+      "profile_url": "/memorial/176218955/william_henry-ratz"
+    },
+    {
+      "name": "Simon V   Ratz",
+      "birth_date": "1883-00-00",
+      "death_date": "1947-00-00",
+      "profile_url": "/memorial/16550848/simon_v-ratz"
+    },
+    {
+      "name": "Clara  Ratz McPherson",
+      "birth_date": "1885-00-00",
+      "death_date": "1971-00-00",
+      "profile_url": "/memorial/178153905/clara-mcpherson"
+    },
+    {
+      "name": "Ida  Ratz Sweitzer",
+      "birth_date": "1889-00-00",
+      "death_date": "1920-00-00",
+      "profile_url": "/memorial/16550965/ida-sweitzer"
+    },
+    {
+      "name": "Laura L  Ratz Sweitzer",
+      "birth_date": "1891-00-00",
+      "death_date": "1963-00-00",
+      "profile_url": "/memorial/15187299/laura_l-sweitzer"
+    },
+    {
+      "name": "Milton Earl   Ratz",
+      "birth_date": "1893-00-00",
+      "death_date": "1954-00-00",
+      "profile_url": "/memorial/15561385/milton_earl-ratz"
+    },
+    {
+      "name": "Roy Ervin   Ratz",
+      "birth_date": "1897-00-00",
+      "death_date": "1971-00-00",
+      "profile_url": "/memorial/15561339/roy_ervin-ratz"
+    },
+    {
+      "name": "Gordon Marcius   Ratz",
+      "birth_date": "1900-00-00",
+      "death_date": "1908-00-00",
+      "profile_url": "/memorial/16550888/gordon_marcius-ratz"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 10-2",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Finkbeiner",
   "inscription": "RATZ (black granite)Gordon Marciusson of John & Barbara Ratzdied Oct. 18, 1908ae 8 yrs. 4 mos. 17 ds.Ida Ratzwife of William Sweitzerborn Apr. 10, 1889-died Jan. 10, 1920Gone but not forgotten(back)John Ratzborn Apr. 18, 1853-died June 21, 1942Barbara Finkbeinerwife of John Ratzborn Feb. 16, 1856-died Jan. 6, 1924in her 67th year.Simon V. Ratzborn Nov. 26, 1883-died Feb. 28, 1947",
-  "id": 858
+  "id": 858,
+  "slug": "barbara-finkbeiner-ratz-858"
 }

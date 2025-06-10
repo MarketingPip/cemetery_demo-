@@ -22,14 +22,22 @@
       "id": 1067
     }
   ],
-  "children": "[{\"name\": \"Charles   Treitz\", \"birth_date\": \"1859-00-00\", \"death_date\": \"1943-00-00\", \"profile_url\": \"/memorial/98543051/charles-treitz\"}]",
+  "children": [
+    {
+      "name": "Charles   Treitz",
+      "birth_date": "1859-00-00",
+      "death_date": "1943-00-00",
+      "profile_url": "/memorial/98543051/charles-treitz"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 1- Lot 2",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Finkbeiner",
   "inscription": "",
-  "id": 1063
+  "id": 1063,
+  "slug": "catherine-finkbeiner-treitz-1063"
 }

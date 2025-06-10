@@ -22,14 +22,15 @@
       "id": 122
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",
   "photos": "[{'src': 'https://images.findagrave.com/photos/2015/272/41012968_1443626355.jpg?size=photos250', 'contributor_text': 'Ellen', 'contributor_href': 'https://www.findagrave.com/user/profile/47890700'}, {'src': 'https://images.findagrave.com/photos/2015/272/41012968_1443625809.jpg?size=photos250', 'contributor_text': 'Peaceful1', 'contributor_href': 'https://www.findagrave.com/user/profile/46601306'}, {'src': 'https://images.findagrave.com/photos/2014/149/41012978_1401482382.jpg?size=photos250', 'contributor_text': 'Ellen', 'contributor_href': 'https://www.findagrave.com/user/profile/47890700'}]",
   "maiden_name": "",
   "inscription": "",
-  "id": 121
+  "id": 121,
+  "slug": "charles-edward-browning-121"
 }

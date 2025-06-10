@@ -22,14 +22,22 @@
       "id": 401
     }
   ],
-  "children": "[{\"name\": \"Orland Frederick   Gaiser\", \"birth_date\": \"1925-00-00\", \"death_date\": \"1951-00-00\", \"profile_url\": \"/memorial/188113057/orland_frederick-gaiser\"}]",
+  "children": [
+    {
+      "name": "Orland Frederick   Gaiser",
+      "birth_date": "1925-00-00",
+      "death_date": "1951-00-00",
+      "profile_url": "/memorial/188113057/orland_frederick-gaiser"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 15-10",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "",
-  "id": 411
+  "id": 411,
+  "slug": "lloyd-r-gaiser-411"
 }

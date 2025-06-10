@@ -33,9 +33,9 @@
     }
   ],
   "spouses": [],
-  "children": "[]",
+  "children": [],
   "siblings": "[{\"name\": \"Freeman Wesley   Morlock\", \"birth_date\": \"1888-00-00\", \"death_date\": \"1967-00-00\", \"profile_url\": \"/memorial/15640086/freeman_wesley-morlock\"}, {\"name\": \"Herbert Charles   Morlock\", \"birth_date\": \"1890-00-00\", \"death_date\": \"1948-00-00\", \"profile_url\": \"/memorial/15396077/herbert_charles-morlock\"}, {\"name\": \"Sybilla Charlotte  Morlock Gaiser\", \"birth_date\": \"1893-00-00\", \"death_date\": \"1949-00-00\", \"profile_url\": \"/memorial/15639747/sybilla_charlotte-gaiser\"}, {\"name\": \"Lorne Roy   Morlock\", \"birth_date\": \"1895-00-00\", \"death_date\": \"1964-00-00\", \"profile_url\": \"/memorial/16682023/lorne_roy-morlock\"}, {\"name\": \"Raymond   Morlock\", \"birth_date\": \"1897-00-00\", \"death_date\": \"1898-00-00\", \"profile_url\": \"/memorial/15978236/raymond-morlock\"}, {\"name\": \"Clinton G   Morlock\", \"birth_date\": \"1899-00-00\", \"death_date\": \"1942-00-00\", \"profile_url\": \"/memorial/15978598/clinton_g-morlock\"}, {\"name\": \"Clara  Morlock Hoffman\", \"birth_date\": \"1902-00-00\", \"death_date\": \"1988-00-00\", \"profile_url\": \"/memorial/15977764/clara-hoffman\"}]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 8-11",
   "title": "",
   "prefix": "",

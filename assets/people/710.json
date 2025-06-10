@@ -25,14 +25,15 @@
       "id": 711
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "2-5",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "MELLINIn Memory of Henry Mellindied Feb. 15, 1896 aged 67 yrs.his wife Sophiadied June 1, 1906 aged 71 yrs.",
-  "id": 710
+  "id": 710,
+  "slug": "henry-mellin-710"
 }

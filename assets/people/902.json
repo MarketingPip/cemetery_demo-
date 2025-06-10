@@ -33,9 +33,9 @@
     }
   ],
   "spouses": [],
-  "children": "[]",
+  "children": [],
   "siblings": "[{\"name\": \"Rosina  Roeszler Wolfe\", \"birth_date\": \"1883-00-00\", \"death_date\": \"1963-00-00\", \"profile_url\": \"/memorial/188139369/rosina-wolfe\"}, {\"name\": \"Thomas C.   Roeszler\", \"birth_date\": \"1886-00-00\", \"death_date\": \"1933-00-00\", \"profile_url\": \"/memorial/188136605/thomas_c-roeszler\"}, {\"name\": \"Emerson   Roeszler\", \"birth_date\": \"1898-00-00\", \"death_date\": \"1984-00-00\", \"profile_url\": \"/memorial/188136582/emerson-roeszler\"}]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 10-6",
   "title": "",
   "prefix": "",

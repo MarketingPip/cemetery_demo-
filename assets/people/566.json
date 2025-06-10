@@ -33,9 +33,23 @@
     }
   ],
   "spouses": [],
-  "children": "[{\"name\": \"Jane Deborah  Hoffman Benedict\", \"birth_date\": \"1874-00-00\", \"death_date\": \"1935-00-00\", \"profile_url\": \"/memorial/218961482/jane_deborah-benedict\"}]",
+  "children": [
+    {
+      "name": "Jane Deborah  Hoffman Benedict",
+      "birth_date": "1874-00-00",
+      "death_date": "1935-00-00",
+      "profile_url": "/memorial/218961482/jane_deborah-benedict"
+    }
+  ],
   "siblings": "[{\"name\": \"Wilhelmina  Hoffman Stanley\", \"birth_date\": \"1854-00-00\", \"death_date\": \"1943-00-00\", \"profile_url\": \"/memorial/171870426/wilhelmina-stanley\"}, {\"name\": \"Mary  Hoffmann Stanley\", \"birth_date\": \"1855-00-00\", \"death_date\": \"1891-00-00\", \"profile_url\": \"/memorial/15977964/mary-stanley\"}, {\"name\": \"Christian   Hoffmann\", \"birth_date\": \"1862-00-00\", \"death_date\": \"1926-00-00\", \"profile_url\": \"/memorial/15977561/christian-hoffmann\"}, {\"name\": \"Wilhelm Henry   Hoffman\", \"birth_date\": \"1869-00-00\", \"death_date\": \"1942-00-00\", \"profile_url\": \"/memorial/184981119/wilhelm_henry-hoffman\"}]",
-  "half_siblings": "[{\"name\": \"Jane Deborah  Hoffman Benedict\", \"birth_date\": \"1874-00-00\", \"death_date\": \"1935-00-00\", \"profile_url\": \"/memorial/218961482/jane_deborah-benedict\"}]",
+  "half_siblings": [
+    {
+      "name": "Jane Deborah  Hoffman Benedict",
+      "birth_date": "1874-00-00",
+      "death_date": "1935-00-00",
+      "profile_url": "/memorial/218961482/jane_deborah-benedict"
+    }
+  ],
   "plot_value": "row 7-11",
   "title": "",
   "prefix": "",

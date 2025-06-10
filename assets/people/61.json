@@ -25,14 +25,15 @@
       "id": 60
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "Charmaine Schenk BierlingJune 23, 1950 - Feb. 22, 2010W. John BierlingJuly 17, 1949-Mar. 26, 2019",
-  "id": 61
+  "id": 61,
+  "slug": "w-john-bierling-61"
 }

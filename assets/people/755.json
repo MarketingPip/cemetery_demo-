@@ -25,14 +25,22 @@
       "id": 721
     }
   ],
-  "children": "[{\"name\": \"Martin   Morlock\", \"birth_date\": \"1919-00-00\", \"death_date\": \"1976-00-00\", \"profile_url\": \"/memorial/15848830/martin-morlock\"}]",
+  "children": [
+    {
+      "name": "Martin   Morlock",
+      "birth_date": "1919-00-00",
+      "death_date": "1976-00-00",
+      "profile_url": "/memorial/15848830/martin-morlock"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 7-3",
   "title": "",
   "prefix": "",
   "photos": "[{'src': 'https://images.findagrave.com/photos/2006/264/15848956_115894093020.jpg?size=photos250', 'contributor_text': 'Scott Buschlen', 'contributor_href': 'https://www.findagrave.com/user/profile/46583152'}]",
   "maiden_name": "Martin",
   "inscription": "MORLOCKMary C. Martin1875-1949wife of Albert Morlock1877-1966thier sonMartin B. Morlock1919-1976donated body to scienceCharlott Janswife of N. Beaverdied Aug. 4, 1907aged 92 years 6 mos. 16 ds.Magdalena Eilber1849-1936Heir RuhtCarl EilberGest Oct. 12, 1899Alter 74 Jahre 3 monate 20 tageHeir RuhtAgnesGaltin Von Carl EilberGest Oct. 18, 1896Alter 72 Jahre 2 monate 9 tage.",
-  "id": 755
+  "id": 755,
+  "slug": "mary-catherine-martin-morlock-755"
 }

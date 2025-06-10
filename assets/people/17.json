@@ -30,9 +30,22 @@
     }
   ],
   "spouses": [],
-  "children": "[{\"name\": \"Howard Finkbeiner   Beaver\", \"birth_date\": \"1908-00-00\", \"death_date\": \"1973-00-00\", \"profile_url\": \"/memorial/15554293/howard_finkbeiner-beaver\"}, {\"name\": \"Eugene Harry   Beaver\", \"birth_date\": \"1916-00-00\", \"death_date\": \"1988-00-00\", \"profile_url\": \"/memorial/18593245/eugene_harry-beaver\"}]",
+  "children": [
+    {
+      "name": "Howard Finkbeiner   Beaver",
+      "birth_date": "1908-00-00",
+      "death_date": "1973-00-00",
+      "profile_url": "/memorial/15554293/howard_finkbeiner-beaver"
+    },
+    {
+      "name": "Eugene Harry   Beaver",
+      "birth_date": "1916-00-00",
+      "death_date": "1988-00-00",
+      "profile_url": "/memorial/18593245/eugene_harry-beaver"
+    }
+  ],
   "siblings": "[{\"name\": \"Bernhard   Finkbeiner\", \"birth_date\": \"1870-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236168945/bernhard-finkbeiner\"}, {\"name\": \"John   Finkbeiner\", \"birth_date\": \"1872-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236168967/john-finkbeiner\"}, {\"name\": \"Jacob   Finkbeiner\", \"birth_date\": \"1874-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236168918/jacob-finkbeiner\"}, {\"name\": \"Samuel   Finkbeiner\", \"birth_date\": \"1876-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236169004/samuel-finkbeiner\"}, {\"name\": \"Elizabeth   Finkbeiner\", \"birth_date\": \"1878-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236169042/elizabeth-finkbeiner\"}, {\"name\": \"Lydia Magdalena  Finkbeiner Huxtable\", \"birth_date\": \"1882-00-00\", \"death_date\": \"1957-00-00\", \"profile_url\": \"/memorial/142698013/lydia_magdalena-huxtable\"}, {\"name\": \"Wesley Albert   Finkbeiner\", \"birth_date\": \"1885-00-00\", \"death_date\": \"1959-00-00\", \"profile_url\": \"/memorial/154960232/wesley_albert-finkbeiner\"}]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 18-2",
   "title": "",
   "prefix": "",

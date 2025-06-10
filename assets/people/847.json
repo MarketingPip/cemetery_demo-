@@ -22,14 +22,15 @@
       "id": 849
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",
   "photos": "[{'src': 'https://images.findagrave.com/photos/2020/238/41012898_4396717e-b0a9-451c-bfaa-bda711da02de.jpeg?size=photos250', 'contributor_text': 'Forget Me Not Gravesite Caregivers', 'contributor_href': 'https://www.findagrave.com/user/profile/50071948'}]",
   "maiden_name": "Shank",
   "inscription": "",
-  "id": 847
+  "id": 847,
+  "slug": "evelyn-leona-shank-pickering-847"
 }

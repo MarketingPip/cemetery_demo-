@@ -33,14 +33,22 @@
       "id": 886
     }
   ],
-  "children": "[{\"name\": \"Christian   Fahrner\", \"birth_date\": \"1863-00-00\", \"death_date\": \"1952-00-00\", \"profile_url\": \"/memorial/236179174/christian-fahrner\"}]",
+  "children": [
+    {
+      "name": "Christian   Fahrner",
+      "birth_date": "1863-00-00",
+      "death_date": "1952-00-00",
+      "profile_url": "/memorial/236179174/christian-fahrner"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 10-12",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Rothfuss",
   "inscription": "RAUJacob Rau1816-1862Mary his wife1822-1905",
-  "id": 884
+  "id": 884,
+  "slug": "anna-maria-mary-rothfuss-rau-884"
 }

@@ -25,14 +25,22 @@
       "id": 1034
     }
   ],
-  "children": "[{\"name\": \"Milton Nyal   Sweitzer\", \"birth_date\": \"1918-00-00\", \"death_date\": \"1988-00-00\", \"profile_url\": \"/memorial/15187255/milton_nyal-sweitzer\"}]",
+  "children": [
+    {
+      "name": "Milton Nyal   Sweitzer",
+      "birth_date": "1918-00-00",
+      "death_date": "1988-00-00",
+      "profile_url": "/memorial/15187255/milton_nyal-sweitzer"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 20-5",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "SWEITZERMatthew C. Sweitzer1888-1963his beloved wifeLaura L. Ratz1891-1963f.s. FATHER MOTHER",
-  "id": 1042
+  "id": 1042,
+  "slug": "matthew-christian-sweitzer-1042"
 }

@@ -33,14 +33,22 @@
       "id": 723
     }
   ],
-  "children": "[{\"name\": \"Frederick John   Morlock\", \"birth_date\": \"1924-00-00\", \"death_date\": \"1993-00-00\", \"profile_url\": \"/memorial/15135166/frederick_john-morlock\"}]",
+  "children": [
+    {
+      "name": "Frederick John   Morlock",
+      "birth_date": "1924-00-00",
+      "death_date": "1993-00-00",
+      "profile_url": "/memorial/15135166/frederick_john-morlock"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 9-9",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "MORLOCKAlma E. Haist1903-1943wife of Chester Gordon Morlock 1902-1993his wife Alma I. Smith1903-2006(back)John N. Morlock1867-1951his wife Caroline M. Wuerth1872-1963",
-  "id": 728
+  "id": 728,
+  "slug": "chester-gordon-morlock-728"
 }

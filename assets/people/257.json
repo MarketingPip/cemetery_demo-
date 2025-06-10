@@ -42,14 +42,15 @@
       "id": 238
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "4-3",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Guenther",
   "inscription": "GUENTHERTobias Guentherborn Aug. 12, 1835died Mar. 26, 1920Catherine Wolf, his wifeborn Feb. 2, 1842died Feb. 20, 1925at restWilhelmina , wife of C. Fahrner1861-1925Christian Fahrner1863-1952",
-  "id": 257
+  "id": 257,
+  "slug": "wilhelmina-guenther-fahrner-257"
 }

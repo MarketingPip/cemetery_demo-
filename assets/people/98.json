@@ -22,14 +22,15 @@
       "id": 102
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 24-2",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Fremlin",
   "inscription": "BROWN",
-  "id": 98
+  "id": 98,
+  "slug": "ellen-fremlin-brown-98"
 }

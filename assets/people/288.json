@@ -22,14 +22,28 @@
       "id": 280
     }
   ],
-  "children": "[{\"name\": \"Minnie Amelia \\\"Mena\\\" Finkbeiner Humble\", \"birth_date\": \"1879-00-00\", \"death_date\": \"1946-00-00\", \"profile_url\": \"/memorial/16627307/minnie_amelia-humble\"}, {\"name\": \"Cathern   Finkbeiner\", \"birth_date\": \"1885-00-00\", \"death_date\": \"1949-00-00\", \"profile_url\": \"/memorial/16656106/cathern-finkbeiner\"}]",
+  "children": [
+    {
+      "name": "Minnie Amelia \"Mena\" Finkbeiner Humble",
+      "birth_date": "1879-00-00",
+      "death_date": "1946-00-00",
+      "profile_url": "/memorial/16627307/minnie_amelia-humble"
+    },
+    {
+      "name": "Cathern   Finkbeiner",
+      "birth_date": "1885-00-00",
+      "death_date": "1949-00-00",
+      "profile_url": "/memorial/16656106/cathern-finkbeiner"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 11-10",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "",
-  "id": 288
+  "id": 288,
+  "slug": "christian-f-finkbeiner-288"
 }

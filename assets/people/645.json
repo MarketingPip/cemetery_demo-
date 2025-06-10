@@ -35,14 +35,15 @@
       "id": 653
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 17-8",
   "title": "",
   "prefix": "",
   "photos": "[{'src': 'https://images.findagrave.com/photos/2011/23/64615878_129589187889.jpg?size=photos250', 'contributor_text': 'Scott Buschlen', 'contributor_href': 'https://www.findagrave.com/user/profile/46583152'}]",
   "maiden_name": "Boettger",
   "inscription": "",
-  "id": 645
+  "id": 645,
+  "slug": "grace-may-boettger-kuhn-645"
 }

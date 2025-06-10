@@ -38,14 +38,15 @@
       "id": 337
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 28-1",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "England",
   "inscription": "FINKBEINER (gray granite stone)Lorne RuebenMay 23, 1901-May 13, 1984his beloved wife Laura E. EnglandJuly 15, 1907-Nov. 10, 1994",
-  "id": 330
+  "id": 330,
+  "slug": "laura-ethel-england-finkbeiner-330"
 }

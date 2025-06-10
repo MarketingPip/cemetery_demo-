@@ -22,14 +22,22 @@
       "id": 1105
     }
   ],
-  "children": "[{\"name\": \"Wilmar Daniel   Wein\", \"birth_date\": \"1926-00-00\", \"death_date\": \"2019-00-00\", \"profile_url\": \"/memorial/198068689/wilmar_daniel-wein\"}]",
+  "children": [
+    {
+      "name": "Wilmar Daniel   Wein",
+      "birth_date": "1926-00-00",
+      "death_date": "2019-00-00",
+      "profile_url": "/memorial/198068689/wilmar_daniel-wein"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 14-9",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Truemner",
   "inscription": "",
-  "id": 1110
+  "id": 1110,
+  "slug": "cora-rosina-truemner-wein-1110"
 }

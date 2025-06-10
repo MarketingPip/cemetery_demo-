@@ -42,14 +42,15 @@
       "id": 638
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "16-6",
   "title": "",
   "prefix": "",
   "photos": "[{'src': 'https://images.findagrave.com/photos/2022/84/15563798_cc25ee7f-3691-4659-8ef5-f1ffbf826a32.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}]",
   "maiden_name": "",
   "inscription": "",
-  "id": 646
+  "id": 646,
+  "slug": "henry-john-kuhn-646"
 }

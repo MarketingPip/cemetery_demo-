@@ -25,14 +25,15 @@
       "id": 147
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",
   "photos": "[{'src': 'https://images.findagrave.com/photos/2018/209/164497077_037f9ab3-3116-422f-b9c5-4f601eecff36.jpeg?size=photos250', 'contributor_text': 'rossddickson', 'contributor_href': 'https://www.findagrave.com/user/profile/49188008'}]",
   "maiden_name": "",
   "inscription": "",
-  "id": 146
+  "id": 146,
+  "slug": "edward-alexander-cuillerier-146"
 }

@@ -22,14 +22,22 @@
       "id": 363
     }
   ],
-  "children": "[{\"name\": \"Carol Ann   Finkbeiner\", \"birth_date\": \"1949-00-00\", \"death_date\": \"1952-00-00\", \"profile_url\": \"/memorial/15553689/carol_ann-finkbeiner\"}]",
+  "children": [
+    {
+      "name": "Carol Ann   Finkbeiner",
+      "birth_date": "1949-00-00",
+      "death_date": "1952-00-00",
+      "profile_url": "/memorial/15553689/carol_ann-finkbeiner"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Ryckman",
   "inscription": "",
-  "id": 293
+  "id": 293,
+  "slug": "dorothy-ryckman-finkbeiner-293"
 }

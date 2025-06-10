@@ -25,14 +25,28 @@
       "id": 935
     }
   ],
-  "children": "[{\"name\": \"Karl Nelson   Schink\", \"birth_date\": \"1885-00-00\", \"death_date\": \"1887-00-00\", \"profile_url\": \"/memorial/188136753/karl_nelson-schink\"}, {\"name\": \"Herbert   Schenk\", \"birth_date\": \"1896-00-00\", \"death_date\": \"1979-00-00\", \"profile_url\": \"/memorial/188136686/herbert-schenk\"}]",
+  "children": [
+    {
+      "name": "Karl Nelson   Schink",
+      "birth_date": "1885-00-00",
+      "death_date": "1887-00-00",
+      "profile_url": "/memorial/188136753/karl_nelson-schink"
+    },
+    {
+      "name": "Herbert   Schenk",
+      "birth_date": "1896-00-00",
+      "death_date": "1979-00-00",
+      "profile_url": "/memorial/188136686/herbert-schenk"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 8-3",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "WEINGodfried Weindied Sept. 14, 1916aged 82 yrs. 1 mo. 2 ds.There are no partings in heavenAgnes his wifedied Nov. 5, 1919aged 84 yrs. 8 ms. 28 ds.John Georgeson of Godfried & Agnes Weindied May 6, 1889aged 25 yrs. 9 mos. 6 ds.(back)Paul Schink1854-1939his wife Wilhelmina Wein1863-1943their son Herbert1896-1979",
-  "id": 934
+  "id": 934,
+  "slug": "paul-schink-934"
 }

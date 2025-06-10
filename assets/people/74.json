@@ -25,14 +25,22 @@
       "id": 75
     }
   ],
-  "children": "[{\"name\": \"Gottlieb K.   Braun\", \"birth_date\": \"1840-00-00\", \"death_date\": \"1930-00-00\", \"profile_url\": \"/memorial/40800650/gottlieb_k-braun\"}]",
+  "children": [
+    {
+      "name": "Gottlieb K.   Braun",
+      "birth_date": "1840-00-00",
+      "death_date": "1930-00-00",
+      "profile_url": "/memorial/40800650/gottlieb_k-braun"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "4-1",
   "title": "",
   "prefix": "",
   "photos": "[{'src': 'https://images.findagrave.com/photos/2006/260/15790761_115858475433.jpg?size=photos250', 'contributor_text': 'Scott Buschlen', 'contributor_href': 'https://www.findagrave.com/user/profile/46583152'}]",
   "maiden_name": "Klumpp",
   "inscription": "BRAUNBIS ZUM FROHEN WIEDERSEHN DROBENAnna MariaEhegattin Von Carl BraunStarb Den 2 Mai 1884Alter 80 Jahre und 2 monatsAUS KINDLICHER LIEBE GEWIDMETCarl BraunStarb Den 16 April 1882Alter 85 Jahre 11 monate 24 tageLydia Stahl BraunApril 23, 1851Oct. 8, 1931Gotiob K. BraunJan. 2, 1840Oct. 20, 1930",
-  "id": 74
+  "id": 74,
+  "slug": "anna-maria-klumpp-braun-74"
 }

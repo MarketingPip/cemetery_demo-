@@ -25,14 +25,34 @@
       "id": 966
     }
   ],
-  "children": "[{\"name\": \"Magdelina   Schwarz\", \"birth_date\": \"1870-00-00\", \"death_date\": \"1870-00-00\", \"profile_url\": \"/memorial/236170325/magdelina-schwarz\"}, {\"name\": \"Michael   Schwarz Jr\", \"birth_date\": \"1872-00-00\", \"death_date\": \"1910-00-00\", \"profile_url\": \"/memorial/188136852/michael-schwarz\"}, {\"name\": \"Lydia  Schwartz Wurm\", \"birth_date\": \"1875-00-00\", \"death_date\": \"1924-00-00\", \"profile_url\": \"/memorial/15728684/lydia-wurm\"}]",
+  "children": [
+    {
+      "name": "Magdelina   Schwarz",
+      "birth_date": "1870-00-00",
+      "death_date": "1870-00-00",
+      "profile_url": "/memorial/236170325/magdelina-schwarz"
+    },
+    {
+      "name": "Michael   Schwarz Jr",
+      "birth_date": "1872-00-00",
+      "death_date": "1910-00-00",
+      "profile_url": "/memorial/188136852/michael-schwarz"
+    },
+    {
+      "name": "Lydia  Schwartz Wurm",
+      "birth_date": "1875-00-00",
+      "death_date": "1924-00-00",
+      "profile_url": "/memorial/15728684/lydia-wurm"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "3-10",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "SCHWARZJacob Schwarzdied Jan. 28, 1931aged 69 yrs.Louisa Haist, his wifedied Feb. 1, 1942aged 70 yrsMagdelina Schwarzborn July 16, 1870died Sept. 27, 1870aged 2 mos. 11 ds.Michael Schwarzborn June 29, 1827died Sept. 22, 1878aged 51 yrs. 3 mos. 23 dys.Mary Magdelina wife of Michael Schwarzborn Feb. 14, 1834died Mar. 14, 1907aged 73 yrs. 1 mon.their son Michaelborn June 2, 1872died Jan. 29, 1910aged 37 yrs. 7 mos. 27 dys.Lydia Schwarzwife of E.D. Wurm1875-1924",
-  "id": 968
+  "id": 968,
+  "slug": "michael-schwarz-sr-968"
 }

@@ -42,14 +42,15 @@
       "id": 79
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 4, Lot 1",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "BRAUNBIS ZUM FROHEN WIEDERSEHN DROBENAnna MariaEhegattin Von Carl BraunStarb Den 2 Mai 1884Alter 80 Jahre und 2 monatsAUS KINDLICHER LIEBE GEWIDMETCarl BraunStarb Den 16 April 1882Alter 85 Jahre 11 monate 24 tageLydia Stahl BraunApril 23, 1851Oct. 8, 1931Gotiob K. BraunJan. 2, 1840Oct. 20, 1930",
-  "id": 78
+  "id": 78,
+  "slug": "gottlieb-k-braun-78"
 }

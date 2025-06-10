@@ -42,14 +42,15 @@
       "id": 81
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "20-1",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Morlock",
   "inscription": "",
-  "id": 80
+  "id": 80,
+  "slug": "mary-ann-morlock-braun-80"
 }

@@ -16,9 +16,16 @@
   "image_credits_url": "/user/profile/49867182",
   "parents": [],
   "spouses": [],
-  "children": "[{\"name\": \"Leonard Leroy   Wein\", \"birth_date\": \"1955-00-00\", \"death_date\": \"1955-00-00\", \"profile_url\": \"/memorial/188139174/leonard_leroy-wein\"}]",
+  "children": [
+    {
+      "name": "Leonard Leroy   Wein",
+      "birth_date": "1955-00-00",
+      "death_date": "1955-00-00",
+      "profile_url": "/memorial/188139174/leonard_leroy-wein"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 19-8",
   "title": "",
   "prefix": "",

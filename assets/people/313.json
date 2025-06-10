@@ -22,14 +22,22 @@
       "id": 350
     }
   ],
-  "children": "[{\"name\": \"Randy Albert   Finkbeiner\", \"birth_date\": \"1955-00-00\", \"death_date\": \"1988-00-00\", \"profile_url\": \"/memorial/15649238/randy_albert-finkbeiner\"}]",
+  "children": [
+    {
+      "name": "Randy Albert   Finkbeiner",
+      "birth_date": "1955-00-00",
+      "death_date": "1988-00-00",
+      "profile_url": "/memorial/15649238/randy_albert-finkbeiner"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 13-3",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "McDougall",
   "inscription": "",
-  "id": 313
+  "id": 313,
+  "slug": "irene-f-mcdougall-finkbeiner-313"
 }

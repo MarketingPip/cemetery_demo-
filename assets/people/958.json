@@ -22,14 +22,22 @@
       "id": 962
     }
   ],
-  "children": "[{\"name\": \"Claire Milton   Schwartz\", \"birth_date\": \"1934-00-00\", \"death_date\": \"2006-00-00\", \"profile_url\": \"/memorial/41013822/claire_milton-schwartz\"}]",
+  "children": [
+    {
+      "name": "Claire Milton   Schwartz",
+      "birth_date": "1934-00-00",
+      "death_date": "2006-00-00",
+      "profile_url": "/memorial/41013822/claire_milton-schwartz"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 15-6",
   "title": "",
   "prefix": "",
   "photos": "[{'src': 'https://images.findagrave.com/photos/2022/83/15638449_51fe330c-9ad5-4aeb-ab9a-6bbe00ca01b9.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}]",
   "maiden_name": "Finkbeiner",
   "inscription": "",
-  "id": 958
+  "id": 958,
+  "slug": "alma-louise-finkbeiner-schwartz-958"
 }

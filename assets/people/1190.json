@@ -25,14 +25,28 @@
       "id": 1203
     }
   ],
-  "children": "[{\"name\": \"Fredrick Edwin   Wuerth\", \"birth_date\": \"1930-00-00\", \"death_date\": \"2008-00-00\", \"profile_url\": \"/memorial/186196144/fredrick_edwin-wuerth\"}, {\"name\": \"Florence   Wuerth\", \"birth_date\": null, \"death_date\": null, \"profile_url\": \"/memorial/15848721/florence-wuerth\"}]",
+  "children": [
+    {
+      "name": "Fredrick Edwin   Wuerth",
+      "birth_date": "1930-00-00",
+      "death_date": "2008-00-00",
+      "profile_url": "/memorial/186196144/fredrick_edwin-wuerth"
+    },
+    {
+      "name": "Florence   Wuerth",
+      "birth_date": null,
+      "death_date": null,
+      "profile_url": "/memorial/15848721/florence-wuerth"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "6-9",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Wein",
   "inscription": "WUERTHFrederick Wuerth1842-1927Wilhelmina his wife1848-1930Charles1883-1889Emma1878-1887Cornelia-Eva-Gottliebdied in infancySylvester Wuerth1891-1983his beloved wifeAlda M. Wein1892-1976their daughter Florenceno date",
-  "id": 1190
+  "id": 1190,
+  "slug": "alda-may-wein-wuerth-1190"
 }

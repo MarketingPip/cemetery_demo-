@@ -22,14 +22,28 @@
       "id": 431
     }
   ],
-  "children": "[{\"name\": \"Chester W   Gaiser\", \"birth_date\": \"1891-00-00\", \"death_date\": \"1892-00-00\", \"profile_url\": \"/memorial/239203831/chester_w-gaiser\"}, {\"name\": \"Borden L.   Gaiser\", \"birth_date\": \"1911-00-00\", \"death_date\": \"1973-00-00\", \"profile_url\": \"/memorial/188037502/borden_l-gaiser\"}]",
+  "children": [
+    {
+      "name": "Chester W   Gaiser",
+      "birth_date": "1891-00-00",
+      "death_date": "1892-00-00",
+      "profile_url": "/memorial/239203831/chester_w-gaiser"
+    },
+    {
+      "name": "Borden L.   Gaiser",
+      "birth_date": "1911-00-00",
+      "death_date": "1973-00-00",
+      "profile_url": "/memorial/188037502/borden_l-gaiser"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 12-2",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Schwartz",
   "inscription": "",
-  "id": 425
+  "id": 425,
+  "slug": "sarah-r-schwartz-gaiser-425"
 }

@@ -42,14 +42,15 @@
       "id": 1190
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "6-9",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "WUERTHFrederick Wuerth1842-1927Wilhelmina his wife1848-1930Charles1883-1889Emma1878-1887Cornelia-Eva-Gottliebdied in infancySylvester Wuerth1891-1983his beloved wifeAlda M. Wein1892-1976their daughter Florenceno date",
-  "id": 1203
+  "id": 1203,
+  "slug": "simon-sylvester-wuerth-1203"
 }

@@ -46,14 +46,15 @@
       "id": 954
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "4-5",
   "title": "",
   "prefix": "",
   "photos": "[{'src': 'https://images.findagrave.com/photos/2021/153/188136813_fc094923-f87e-47f1-8cd7-04b12df464e2.jpeg?size=photos250', 'contributor_text': 'Kathleen Hodgins', 'contributor_href': 'https://www.findagrave.com/user/profile/47390529'}, {'src': 'https://images.findagrave.com/photos/2021/153/188136813_4e49a973-a689-44e7-a432-8fe002e2a979.jpeg?size=photos250', 'contributor_text': 'Kathleen Hodgins', 'contributor_href': 'https://www.findagrave.com/user/profile/47390529'}, {'src': 'https://images.findagrave.com/photos/2021/153/188136813_d73a977b-2ca2-4e4c-a3be-a296e662aa26.jpeg?size=photos250', 'contributor_text': 'Kathleen Hodgins', 'contributor_href': 'https://www.findagrave.com/user/profile/47390529'}, {'src': 'https://images.findagrave.com/photos/2021/153/188136813_0e78f329-5ba8-464b-94d8-a35afecc008c.jpeg?size=photos250', 'contributor_text': 'Kathleen Hodgins', 'contributor_href': 'https://www.findagrave.com/user/profile/47390529'}, {'src': 'https://images.findagrave.com/photos/2022/311/188136813_b325064d-a77d-46ea-b898-a8c6a4331a10.png?size=photos250', 'contributor_text': 'Cay Bauman', 'contributor_href': 'https://www.findagrave.com/user/profile/49821024'}, {'src': 'https://images.findagrave.com/photos/2020/315/188136813_3621d344-7cc5-41ba-87dc-646dc0cab13a.png?size=photos250', 'contributor_text': 'Charles Riend', 'contributor_href': 'https://www.findagrave.com/user/profile/46537097'}, {'src': 'https://images.findagrave.com/photos/2022/111/188136813_ddf6189d-d793-48fb-b8c2-b7f499fa1efb.jpeg?size=photos250', 'contributor_text': 'patricia van horn', 'contributor_href': 'https://www.findagrave.com/user/profile/49867182'}]",
   "maiden_name": "",
   "inscription": "SCHROEDERIn Memory ofCaroline Schroederdied Jan. 21, 1898aged 31 yrs. 7 mos. 21 ds.In Memory of Gideon Yaegerdied Mar. 26, 1889Ae 29 yrs. 9 mos.John K. Schroeder1866-1944his wife Louise Wind1870-1952also 2 f.sJohn K. Schroeder1866-1944Louise Wind Schroeder1870-1952",
-  "id": 952
+  "id": 952,
+  "slug": "john-kaatz-schroeder-952"
 }

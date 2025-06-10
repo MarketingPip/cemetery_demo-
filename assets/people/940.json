@@ -25,14 +25,34 @@
       "id": 938
     }
   ],
-  "children": "[{\"name\": \"Salome   Schmidt\", \"birth_date\": \"1866-00-00\", \"death_date\": \"1866-00-00\", \"profile_url\": \"/memorial/236187655/salome-schmidt\"}, {\"name\": \"Charles W.   Schmidt\", \"birth_date\": \"1873-00-00\", \"death_date\": \"1874-00-00\", \"profile_url\": \"/memorial/188136758/charles_w-schmidt\"}, {\"name\": \"Clara L.   Schmidt\", \"birth_date\": \"1877-00-00\", \"death_date\": \"1879-00-00\", \"profile_url\": \"/memorial/236187806/clara_l-schmidt\"}]",
+  "children": [
+    {
+      "name": "Salome   Schmidt",
+      "birth_date": "1866-00-00",
+      "death_date": "1866-00-00",
+      "profile_url": "/memorial/236187655/salome-schmidt"
+    },
+    {
+      "name": "Charles W.   Schmidt",
+      "birth_date": "1873-00-00",
+      "death_date": "1874-00-00",
+      "profile_url": "/memorial/188136758/charles_w-schmidt"
+    },
+    {
+      "name": "Clara L.   Schmidt",
+      "birth_date": "1877-00-00",
+      "death_date": "1879-00-00",
+      "profile_url": "/memorial/236187806/clara_l-schmidt"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "4-8",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "SCHMIDTJohn M. Schmidt1831-1890his wife, Wilhelmina1837-1917Saloma Schmidt1866-1866Chas. W. Schmidt1873-1874Clara L. Schmidt1877-1879",
-  "id": 940
+  "id": 940,
+  "slug": "wilhelmina-schmidt-940"
 }

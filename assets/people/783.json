@@ -33,9 +33,9 @@
     }
   ],
   "spouses": [],
-  "children": "[]",
+  "children": [],
   "siblings": "[{\"name\": \"Alfred Herman   Neeb\", \"birth_date\": \"1907-00-00\", \"death_date\": \"1909-00-00\", \"profile_url\": \"/memorial/15650718/alfred_herman-neeb\"}, {\"name\": \"Erna E  Neeb MacDonald Allison\", \"birth_date\": \"1908-00-00\", \"death_date\": \"1998-00-00\", \"profile_url\": \"/memorial/271301726/erna_e-macdonald_allison\"}, {\"name\": \"Esther   Neeb\", \"birth_date\": \"1910-00-00\", \"death_date\": \"1968-00-00\", \"profile_url\": \"/memorial/15650736/esther-neeb\"}, {\"name\": \"Thelma  Neeb Pearce\", \"birth_date\": \"1913-00-00\", \"death_date\": \"1982-00-00\", \"profile_url\": \"/memorial/15803974/thelma-pearce\"}, {\"name\": \"Sydney   Neeb\", \"birth_date\": \"1919-00-00\", \"death_date\": \"2003-00-00\", \"profile_url\": \"/memorial/15117508/sydney-neeb\"}, {\"name\": \"Ward   Neeb\", \"birth_date\": \"1922-00-00\", \"death_date\": \"1985-00-00\", \"profile_url\": \"/memorial/15116965/ward-neeb\"}]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "2-1",
   "title": "",
   "prefix": "",

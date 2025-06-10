@@ -25,14 +25,22 @@
       "id": 626
     }
   ],
-  "children": "[{\"name\": \"Florence Hilda   Klumpp\", \"birth_date\": \"1893-00-00\", \"death_date\": \"1894-00-00\", \"profile_url\": \"/memorial/15728880/florence_hilda-klumpp\"}]",
+  "children": [
+    {
+      "name": "Florence Hilda   Klumpp",
+      "birth_date": "1893-00-00",
+      "death_date": "1894-00-00",
+      "profile_url": "/memorial/15728880/florence_hilda-klumpp"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "2-9",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Fahner",
   "inscription": "KLUMPPMichael Klumppborn 1831died 1926his wife Elizabeth Heyrockborn 1838died 1916Lydia Sweitzer (nee Klumpp)born 1873 died 1916Martha born 1875died 1877William born 1878died 1881John Klumppborn 1865died 1952his wife Lydia Fahrnerborn 1871died 1936their daughter Florenceborn 1893died 1894",
-  "id": 627
+  "id": 627,
+  "slug": "lydia-fahner-klumpp-627"
 }

@@ -22,14 +22,22 @@
       "id": 862
     }
   ],
-  "children": "[{\"name\": \"Glen William   Ratz\", \"birth_date\": \"1948-00-00\", \"death_date\": \"1970-00-00\", \"profile_url\": \"/memorial/188136487/glen_william-ratz\"}]",
+  "children": [
+    {
+      "name": "Glen William   Ratz",
+      "birth_date": "1948-00-00",
+      "death_date": "1970-00-00",
+      "profile_url": "/memorial/188136487/glen_william-ratz"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 20-4",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Isaac",
   "inscription": "",
-  "id": 877
+  "id": 877,
+  "slug": "nola-eliza-isaac-ratz-877"
 }

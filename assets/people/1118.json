@@ -25,14 +25,15 @@
       "id": 1142
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "3-2",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "WEINHier RuthGeorg F. WeinGest Den 4 Feb. 1880Alter 83 Jahr. 1 mo. 4 tag.Heir Ruth Regina WeinGest Den 5 Sep. 1886Alter 85 Jahr. 6 mo. 12 tag.",
-  "id": 1118
+  "id": 1118,
+  "slug": "georg-f-wein-1118"
 }

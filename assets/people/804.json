@@ -22,14 +22,34 @@
       "id": 796
     }
   ],
-  "children": "[{\"name\": \"Ruth  Oestreicher Wolfe\", \"birth_date\": \"1928-00-00\", \"death_date\": \"2013-00-00\", \"profile_url\": \"/memorial/139054376/ruth-wolfe\"}, {\"name\": \"Dorothy Elizabeth  Oestreicher Domm\", \"birth_date\": \"1929-00-00\", \"death_date\": \"2016-00-00\", \"profile_url\": \"/memorial/198938861/dorothy_elizabeth-domm\"}, {\"name\": \"Rev John Samuel   Oestreicher\", \"birth_date\": \"1934-00-00\", \"death_date\": \"2006-00-00\", \"profile_url\": \"/memorial/198940021/john_samuel-oestreicher\"}]",
+  "children": [
+    {
+      "name": "Ruth  Oestreicher Wolfe",
+      "birth_date": "1928-00-00",
+      "death_date": "2013-00-00",
+      "profile_url": "/memorial/139054376/ruth-wolfe"
+    },
+    {
+      "name": "Dorothy Elizabeth  Oestreicher Domm",
+      "birth_date": "1929-00-00",
+      "death_date": "2016-00-00",
+      "profile_url": "/memorial/198938861/dorothy_elizabeth-domm"
+    },
+    {
+      "name": "Rev John Samuel   Oestreicher",
+      "birth_date": "1934-00-00",
+      "death_date": "2006-00-00",
+      "profile_url": "/memorial/198940021/john_samuel-oestreicher"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 14-6",
   "title": "",
   "prefix": "Rev",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "",
-  "id": 804
+  "id": 804,
+  "slug": "rev-john-m-oestreicher-804"
 }

@@ -25,14 +25,22 @@
       "id": 59
     }
   ],
-  "children": "[{\"name\": \"John   Bertrand\", \"birth_date\": \"1889-00-00\", \"death_date\": \"1890-00-00\", \"profile_url\": \"/memorial/55150772/john-bertrand\"}]",
+  "children": [
+    {
+      "name": "John   Bertrand",
+      "birth_date": "1889-00-00",
+      "death_date": "1890-00-00",
+      "profile_url": "/memorial/55150772/john-bertrand"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "6-7",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "BERTRANDin memory ofA. Louis Bertrandborn Mar. 9, 1848died May 5, 1903Sarah Eilber his wifeborn May 14, 1854died Apr. 13, 1939John son of the abovedied June 15, 1890 ae 9 mos.(back)Mary Ellen Bertrand1881-1934Amelia Clara Bertrand1879-1942Matilda Bertrand1877-1970Madeline Bertrand1891-1972",
-  "id": 50
+  "id": 50,
+  "slug": "a-louis-bertrand-50"
 }

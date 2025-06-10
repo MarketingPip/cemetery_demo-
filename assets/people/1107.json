@@ -25,14 +25,15 @@
       "id": 1123
     }
   ],
-  "children": "[]",
+  "children": [],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 1-7",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "Klumpp",
   "inscription": "WEINJOHN WEIN SR.DIED DEC. 30, 1904 AE 77 YRS. 2 MS. 18 DS.AGNES KLUMPP HIS WIFEDIED DEC. 19, 1912 AE 82 YRS. 9 MS. 5DS.",
-  "id": 1107
+  "id": 1107,
+  "slug": "agnes-klumpp-wein-1107"
 }

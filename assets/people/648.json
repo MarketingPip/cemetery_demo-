@@ -25,14 +25,22 @@
       "id": 647
     }
   ],
-  "children": "[{\"name\": \"Adam   Kuhn\", \"birth_date\": \"1861-00-00\", \"death_date\": \"1883-00-00\", \"profile_url\": \"/memorial/188113453/adam-kuhn\"}]",
+  "children": [
+    {
+      "name": "Adam   Kuhn",
+      "birth_date": "1861-00-00",
+      "death_date": "1883-00-00",
+      "profile_url": "/memorial/188113453/adam-kuhn"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "row 1-8",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "KUHNJOHN KUHN 1822-1900JOHANNA WIFE OF JOHN KUHNSEPT. 23, 1819-APR. 15, 1885HIER RUHT ADAM KUHNSON OF JOHN & JOHANNA KUHNBORN FEB. 18, 1861 DIED APRIL 16, 1883",
-  "id": 648
+  "id": 648,
+  "slug": "john-kuhn-648"
 }

@@ -25,14 +25,34 @@
       "id": 114
     }
   ],
-  "children": "[{\"name\": \"Adolph   Brown\", \"birth_date\": \"1857-00-00\", \"death_date\": \"1866-00-00\", \"profile_url\": \"/memorial/188035776/adolph-brown\"}, {\"name\": \"William H.   Brown\", \"birth_date\": \"1860-00-00\", \"death_date\": \"1947-00-00\", \"profile_url\": \"/memorial/188036013/william_h-brown\"}, {\"name\": \"Charles   Brown\", \"birth_date\": \"1863-00-00\", \"death_date\": \"1893-00-00\", \"profile_url\": \"/memorial/188035798/charles-brown\"}]",
+  "children": [
+    {
+      "name": "Adolph   Brown",
+      "birth_date": "1857-00-00",
+      "death_date": "1866-00-00",
+      "profile_url": "/memorial/188035776/adolph-brown"
+    },
+    {
+      "name": "William H.   Brown",
+      "birth_date": "1860-00-00",
+      "death_date": "1947-00-00",
+      "profile_url": "/memorial/188036013/william_h-brown"
+    },
+    {
+      "name": "Charles   Brown",
+      "birth_date": "1863-00-00",
+      "death_date": "1893-00-00",
+      "profile_url": "/memorial/188035798/charles-brown"
+    }
+  ],
   "siblings": "[]",
-  "half_siblings": "[]",
+  "half_siblings": [],
   "plot_value": "Row 7-10",
   "title": "",
   "prefix": "",
   "photos": "[]",
   "maiden_name": "",
   "inscription": "BROWNIn memory of Adam Brownborn Jan. 11, 1813-died July 22, 1869Margaret his wifeborn July 19, 1821-died May 15, 1906Adolphborn Nov. 16, 1857-died Feb. 24, 1866(back)Charles born Mar. 11, 1863-died Dec. 24, 1893Wm. H. Brown1860-1947",
-  "id": 85
+  "id": 85,
+  "slug": "adam-brown-85"
 }
