@@ -2,7 +2,7 @@
 layout: review
 title: "Sixty Years in Upper Canada: With Autobiographical Recollections"
 author: Charles Clarke
-year: "Unknown"
+year: 1908
 isbn: "Unknown"
 pdfFile: https://archive.org/download/sixtyyearsinuppe00unse/sixtyyearsinuppe00unse.pdf
 olid: "OL7034146M"
