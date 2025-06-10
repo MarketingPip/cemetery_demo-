@@ -30,7 +30,17 @@ tools:
     link: "funeral-cost-estimator"
     icon: "fas fa-wrench"
     color: "text-green-600"
-
+  - title: "Common Ancestor Relationship Calculator"
+    description: "Calculate your relationship with a relative based on your shared ancestor"
+    link: "cousin-relationship-calculator"
+    icon: "fas fa-wrench"
+    color: "text-green-600"
+   - title: "Family Relationship Explorer"
+    description: "Help understand how someone is related to you"
+    link: "genealogy-tool"
+    icon: "fas fa-wrench"
+    color: "text-green-600"   
+    
 externalResources:
   - title: "Ontario Genealogical Society"
     description: "Resources and support for tracing family histories in Ontario."
