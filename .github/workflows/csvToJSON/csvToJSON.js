@@ -37,7 +37,8 @@ const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
       record.parents = parseJsonField(record.parents);
       record.spouses = parseJsonField(record.spouses);
       record.children = parseJsonField(record.children);
-      record.half_siblings = parseJsonField(record.half_siblings);  
+      record.half_siblings = parseJsonField(record.half_siblings);
+      record.siblings = parseJsonField(record.siblings);  
       return record;
     });
 
