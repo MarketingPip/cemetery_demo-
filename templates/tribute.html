@@ -640,7 +640,7 @@ function initializeMap(coordinates, locationName) {
                     .openPopup();
                 
                 setTimeout(() => map.invalidateSize(), 100);
-               window.dispatchEvent(new Event('resize')); // needs for weirdness in leaflet
+
             }
       if(tribute.gps){
        document.getElementById('location-content').innerHTML = `<div id="map" class="w-full h-64 rounded-lg"></div>`;
@@ -674,6 +674,9 @@ function initializeMap(coordinates, locationName) {
 
           button.classList.add('active');
           const targetId = button.getAttribute('data-tabs-target');
+          if(targetId === "#location-content"){
+            window.dispatchEvent(new Event('resize')); // needs for weirdness in leaflet
+          }
           document.querySelector(targetId).classList.remove('hidden');
         });
       });
