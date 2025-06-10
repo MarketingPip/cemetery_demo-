@@ -139,7 +139,7 @@ title: Books
   <!-- Map Section -->
 
 
-<section class="py-8">
+<section class="py-8 bg-white">
   <div class="container mx-auto px-4">
     <h1 class="text-3xl font-bold mb-6 text-center">Books</h1>
 
@@ -157,7 +157,7 @@ title: Books
         {% assign current_year = book_year %}
       {% endif %}
 
-      <div class="bg-white rounded-lg shadow p-4 flex flex-col items-center text-center">
+      <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md p-4 flex flex-col items-center text-center"> 
         <a href="{{ book.url | relative_url }}">
           {% if book.cover %}
             <img src="{{ site.baseurl }}/images/covers/{{ book.cover }}" alt="{{ book.title }} cover" onerror="this.onerror=null; this.src='https://openlibrary.org/images/icons/avatar_book-sm.png';" class="h-48 mb-2 object-contain" />
