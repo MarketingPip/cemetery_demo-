@@ -14,7 +14,11 @@ downloadableResources:
     link: "#download-symbols"
     icon: "fas fa-file-pdf"
     color: "text-green-600"
-
+  - title: "Free Family Tree Tips: 23 Secrets to Organize Your Genealogy"
+    description: "Tips & tricks to organize your genealogy research."
+    link: "https://www.pittsburgcogenealogical.org/C%20Educ/14%20The%20Organized%20Genealogist/family_tree_tips_23_secrets_organize_your_genealogy.pdf"
+    icon: "fas fa-file-pdf"
+    color: "text-green-600"
 tools:
   - title: "Family Relationship Chart"
     description: "Explore the relationships to you and your family"
