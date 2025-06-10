@@ -473,7 +473,7 @@ function renderPerson(person) {
         <a href="../tribute?id=${person?.id}"
            title="View ${person.name}'s memorial page" 
            aria-label="Link to ${person.name}'s memorial page">
-        <div class="flex items-start gap-4">
+        <div class="flex items-start gap-4 mb-2">
             <img src="${person?.image_url || './../assets/images/placeholder.png'}" alt="${person?.name}" class="w-24 h-32 object-cover rounded-md border border-gray-700">
             <div>
                 <p class="text-base md:text-lg font-medium">${person.name}</p>
