@@ -129,146 +129,163 @@ permalink: /resources/tools/genealogy-tool/
 
   <!-- Scripts -->
   <script>
-    // Core relationship templates (gender-specific labels)
-    const relationshipTemplates = {
-      male: [
-        { label: "My Father", standardTerm: "father", genDiff: 1, stepsToAncestor: 1 },
-        { label: "My Grandfather", standardTerm: "grandfather", genDiff: 2, stepsToAncestor: 2 },
-        { label: "My Great-Grandfather", standardTerm: "great-grandfather", genDiff: 3, stepsToAncestor: 3 },
-        { label: "My Son", standardTerm: "son", genDiff: -1, stepsToAncestor: 1 },
-        { label: "My Grandson", standardTerm: "grandson", genDiff: -2, stepsToAncestor: 2 },
-        { label: "My Great-Grandson", standardTerm: "great-grandson", genDiff: -3, stepsToAncestor: 3 },
-        { label: "My Brother", standardTerm: "brother", genDiff: 0, stepsToAncestor: 1 },
-        { label: "My Half-Brother (Same Mother)", standardTerm: "half-brother", genDiff: 0, stepsToAncestor: 1, half: true },
-        { label: "My Uncle (Father's Brother)", standardTerm: "uncle", genDiff: 1, stepsToAncestor: 2 },
-        { label: "My Nephew (Brother's Son)", standardTerm: "nephew", genDiff: -1, stepsToAncestor: 2 },
-        { label: "My Cousin (Father's Brother's Son)", standardTerm: "first cousin", genDiff: 0, stepsToAncestor: 2 },
-        { label: "My Father's Cousin", standardTerm: "first cousin once removed", genDiff: 1, stepsToAncestor: 3 },
-        { label: "My Grandfather's Brother", standardTerm: "great-uncle", genDiff: 2, stepsToAncestor: 3 },
-        { label: "My Great-Grandfather's Brother", standardTerm: "great-great-uncle", genDiff: 3, stepsToAncestor: 4 },
-        { label: "My Second Cousin (Father's Cousin's Son)", standardTerm: "second cousin", genDiff: 0, stepsToAncestor: 3 }
-      ],
-      female: [
-        { label: "My Mother", standardTerm: "mother", genDiff: 1, stepsToAncestor: 1 },
-        { label: "My Grandmother", standardTerm: "grandmother", genDiff: 2, stepsToAncestor: 2 },
-        { label: "My Great-Grandmother", standardTerm: "great-grandmother", genDiff: 3, stepsToAncestor: 3 },
-        { label: "My Daughter", standardTerm: "daughter", genDiff: -1, stepsToAncestor: 1 },
-        { label: "My Granddaughter", standardTerm: "granddaughter", genDiff: -2, stepsToAncestor: 2 },
-        { label: "My Great-Granddaughter", standardTerm: "great-granddaughter", genDiff: -3, stepsToAncestor: 3 },
-        { label: "My Sister", standardTerm: "sister", genDiff: 0, stepsToAncestor: 1 },
-        { label: "My Half-Sister (Same Mother)", standardTerm: "half-sister", genDiff: 0, stepsToAncestor: 1, half: true },
-        { label: "My Aunt (Mother's Sister)", standardTerm: "aunt", genDiff: 1, stepsToAncestor: 2 },
-        { label: "My Niece (Sister's Daughter)", standardTerm: "niece", genDiff: -1, stepsToAncestor: 2 },
-        { label: "My Cousin (Mother's Sister's Daughter)", standardTerm: "first cousin", genDiff: 0, stepsToAncestor: 2 },
-        { label: "My Mother's Cousin", standardTerm: "first cousin once removed", genDiff: 1, stepsToAncestor: 3 },
-        { label: "My Grandmother's Sister", standardTerm: "great-aunt", genDiff: 2, stepsToAncestor: 3 },
-        { label: "My Great-Grandmother's Sister", standardTerm: "great-great-aunt", genDiff: 3, stepsToAncestor: 4 },
-        { label: "My Second Cousin (Mother's Cousin's Daughter)", standardTerm: "second cousin", genDiff: 0, stepsToAncestor: 3 }
-      ]
+// Core relationship templates (gender-specific labels)
+const relationshipTemplates = {
+  male: [
+    { label: "My Father", standardTerm: "father", genDiff: 1, stepsToAncestor: 1, type: 'lineal' },
+    { label: "My Grandfather", standardTerm: "grandfather", genDiff: 2, stepsToAncestor: 2, type: 'lineal' },
+    { label: "My Great-Grandfather", standardTerm: "great-grandfather", genDiff: 3, stepsToAncestor: 3, type: 'lineal' },
+    { label: "My Son", standardTerm: "son", genDiff: -1, stepsToAncestor: 1, type: 'lineal' },
+    { label: "My Grandson", standardTerm: "grandson", genDiff: -2, stepsToAncestor: 2, type: 'lineal' },
+    { label: "My Great-Grandson", standardTerm: "great-grandson", genDiff: -3, stepsToAncestor: 3, type: 'lineal' },
+    { label: "My Brother", standardTerm: "brother", genDiff: 0, stepsToAncestor: 1, type: 'collateral' },
+    { label: "My Half-Brother", standardTerm: "half-brother", genDiff: 0, stepsToAncestor: 1, half: true, type: 'collateral' },
+    { label: "My Uncle", standardTerm: "uncle", genDiff: 1, stepsToAncestor: 2, type: 'collateral' },
+    { label: "My Nephew", standardTerm: "nephew", genDiff: -1, stepsToAncestor: 2, type: 'collateral' },
+    { label: "My Cousin", standardTerm: "first cousin", genDiff: 0, stepsToAncestor: 2, type: 'collateral' },
+    { label: "My Father's Cousin", standardTerm: "first cousin once removed", genDiff: 1, stepsToAncestor: 3, type: 'collateral' },
+    { label: "My Grandfather's Brother", standardTerm: "great-uncle", genDiff: 2, stepsToAncestor: 3, type: 'collateral' },
+    { label: "My Great-Grandfather's Brother", standardTerm: "great-great-uncle", genDiff: 3, stepsToAncestor: 4, type: 'collateral' },
+    { label: "My Second Cousin", standardTerm: "second cousin", genDiff: 0, stepsToAncestor: 3, type: 'collateral' }
+  ],
+  female: [
+    { label: "My Mother", standardTerm: "mother", genDiff: 1, stepsToAncestor: 1, type: 'lineal' },
+    { label: "My Grandmother", standardTerm: "grandmother", genDiff: 2, stepsToAncestor: 2, type: 'lineal' },
+    { label: "My Great-Grandmother", standardTerm: "great-grandmother", genDiff: 3, stepsToAncestor: 3, type: 'lineal' },
+    { label: "My Daughter", standardTerm: "daughter", genDiff: -1, stepsToAncestor: 1, type: 'lineal' },
+    { label: "My Granddaughter", standardTerm: "granddaughter", genDiff: -2, stepsToAncestor: 2, type: 'lineal' },
+    { label: "My Great-Granddaughter", standardTerm: "great-granddaughter", genDiff: -3, stepsToAncestor: 3, type: 'lineal' },
+    { label: "My Sister", standardTerm: "sister", genDiff: 0, stepsToAncestor: 1, type: 'collateral' },
+    { label: "My Half-Sister", standardTerm: "half-sister", genDiff: 0, stepsToAncestor: 1, half: true, type: 'collateral' },
+    { label: "My Aunt", standardTerm: "aunt", genDiff: 1, stepsToAncestor: 2, type: 'collateral' },
+    { label: "My Niece", standardTerm: "niece", genDiff: -1, stepsToAncestor: 2, type: 'collateral' },
+    { label: "My Cousin", standardTerm: "first cousin", genDiff: 0, stepsToAncestor: 2, type: 'collateral' },
+    { label: "My Mother's Cousin", standardTerm: "first cousin once removed", genDiff: 1, stepsToAncestor: 3, type: 'collateral' },
+    { label: "My Grandmother's Sister", standardTerm: "great-aunt", genDiff: 2, stepsToAncestor: 3, type: 'collateral' },
+    { label: "My Great-Grandmother's Sister", standardTerm: "great-great-aunt", genDiff: 3, stepsToAncestor: 4, type: 'collateral' },
+    { label: "My Second Cousin", standardTerm: "second cousin", genDiff: 0, stepsToAncestor: 3, type: 'collateral' }
+  ]
+};
+
+// Function to generate additional relationships dynamically
+function generateRelationships(gender, maxGenerations = 4) {
+  const base = gender === "male" ? relationshipTemplates.male : relationshipTemplates.female;
+  const relationships = [...base];
+  const prefixes = ["Great-", "Great-Great-", "Great-Great-Great-"];
+  
+  for (let i = 1; i <= maxGenerations - 3; i++) {
+    const greats = prefixes[i - 1] || "";
+    relationships.push({
+      label: `My ${greats}Great-Grandfather`,
+      standardTerm: `${greats.toLowerCase()}great-grandfather`,
+      genDiff: 3 + i,
+      stepsToAncestor: 3 + i,
+      type: 'lineal'
+    });
+    relationships.push({
+      label: `My ${greats}Great-Grandson`,
+      standardTerm: `${greats.toLowerCase()}great-grandson`,
+      genDiff: -(3 + i),
+      stepsToAncestor: 3 + i,
+      type: 'lineal'
+    });
+    if (gender === "female") {
+      relationships.push({
+        label: `My ${greats}Great-Grandmother`,
+        standardTerm: `${greats.toLowerCase()}great-grandmother`,
+        genDiff: 3 + i,
+        stepsToAncestor: 3 + i,
+        type: 'lineal'
+      });
+      relationships.push({
+        label: `My ${greats}Great-Granddaughter`,
+        standardTerm: `${greats.toLowerCase()}great-granddaughter`,
+        genDiff: -(3 + i),
+        stepsToAncestor: 3 + i,
+        type: 'lineal'
+      });
+    }
+  }
+
+  for (let cousinLevel = 1; cousinLevel <= 3; cousinLevel++) {
+    for (let removed = 1; removed <= 2; removed++) {
+      relationships.push({
+        label: `My ${cousinLevel === 1 ? "First" : cousinLevel === 2 ? "Second" : "Third"} Cousin ${removed} Time${removed > 1 ? "s" : ""} Removed (Older)`,
+        standardTerm: `${cousinLevel === 1 ? "first" : cousinLevel === 2 ? "second" : "third"} cousin ${removed} time${removed > 1 ? "s" : ""} removed`,
+        genDiff: removed,
+        stepsToAncestor: cousinLevel + 1 + removed,
+        type: 'collateral'
+      });
+      relationships.push({
+        label: `My ${cousinLevel === 1 ? "First" : cousinLevel === 2 ? "Second" : "Third"} Cousin ${removed} Time${removed > 1 ? "s" : ""} Removed (Younger)`,
+        standardTerm: `${cousinLevel === 1 ? "first" : cousinLevel === 2 ? "second" : "third"} cousin ${removed} time${removed > 1 ? "s" : ""} removed`,
+        genDiff: -removed,
+        stepsToAncestor: cousinLevel + 1 + removed,
+        type: 'collateral'
+      });
+    }
+  }
+
+  return relationships.map(rel => {
+    let fraction;
+    if (rel.type === 'lineal') {
+      fraction = `1 / ${Math.pow(2, Math.abs(rel.genDiff))}`;
+    } else if (rel.type === 'collateral') {
+      const g1 = rel.stepsToAncestor - Math.abs(rel.genDiff);
+      const g2 = rel.stepsToAncestor;
+      const exponent = g1 + g2 - (rel.half ? 0 : 1);
+      fraction = `1 / ${Math.pow(2, exponent)}`;
+    }
+    return {
+      label: rel.label,
+      details: {
+        standardTerm: rel.standardTerm,
+        generationDifference: rel.genDiff,
+        generationsToAncestor: rel.stepsToAncestor,
+        fraction: fraction
+      }
     };
+  });
+}
 
-    // Function to generate additional relationships dynamically
-    function generateRelationships(gender, maxGenerations = 4) {
-      const base = gender === "male" ? relationshipTemplates.male : relationshipTemplates.female;
-      const relationships = [...base];
-      const prefixes = ["Great-", "Great-Great-", "Great-Great-Great-"];
-      
-      for (let i = 1; i <= maxGenerations - 3; i++) {
-        const greats = prefixes[i - 1] || "";
-        relationships.push({
-          label: `My ${greats}Great-Grandfather`,
-          standardTerm: `${greats.toLowerCase()}great-grandfather`,
-          genDiff: 3 + i,
-          stepsToAncestor: 3 + i
-        });
-        relationships.push({
-          label: `My ${greats}Great-Grandson`,
-          standardTerm: `${greats.toLowerCase()}great-grandson`,
-          genDiff: -(3 + i),
-          stepsToAncestor: 3 + i
-        });
-        if (gender === "female") {
-          relationships.push({
-            label: `My ${greats}Great-Grandmother`,
-            standardTerm: `${greats.toLowerCase()}great-grandmother`,
-            genDiff: 3 + i,
-            stepsToAncestor: 3 + i
-          });
-          relationships.push({
-            label: `My ${greats}Great-Granddaughter`,
-            standardTerm: `${greats.toLowerCase()}great-granddaughter`,
-            genDiff: -(3 + i),
-            stepsToAncestor: 3 + i
-          });
-        }
-      }
-
-      for (let cousinLevel = 1; cousinLevel <= 3; cousinLevel++) {
-        for (let removed = 1; removed <= 2; removed++) {
-          relationships.push({
-            label: `My ${cousinLevel === 1 ? "First" : cousinLevel === 2 ? "Second" : "Third"} Cousin ${removed} Time${removed > 1 ? "s" : ""} Removed (Older)`,
-            standardTerm: `${cousinLevel === 1 ? "first" : cousinLevel === 2 ? "second" : "third"} cousin ${removed} time${removed > 1 ? "s" : ""} removed`,
-            genDiff: removed,
-            stepsToAncestor: cousinLevel + 1 + removed
-          });
-          relationships.push({
-            label: `My ${cousinLevel === 1 ? "First" : cousinLevel === 2 ? "Second" : "Third"} Cousin ${removed} Time${removed > 1 ? "s" : ""} Removed (Younger)`,
-            standardTerm: `${cousinLevel === 1 ? "first" : cousinLevel === 2 ? "second" : "third"} cousin ${removed} time${removed > 1 ? "s" : ""} removed`,
-            genDiff: -removed,
-            stepsToAncestor: cousinLevel + 1 + removed
-          });
-        }
-      }
-
-      return relationships.map(rel => ({
-        label: rel.label,
-        details: {
-          standardTerm: rel.standardTerm,
-          generationDifference: rel.genDiff,
-          generationsToAncestor: rel.stepsToAncestor,
-          fraction: rel.half ? `1/${2 ** (rel.stepsToAncestor + 1)}` : `1/${2 ** (rel.stepsToAncestor * 2 - 1)}`
-        }
-      }));
+// Function to generate breakdown text
+function generateBreakdown(label, genDiff, standardTerm) {
+  const generations = Math.abs(genDiff);
+  let breakdown = `${label} is ${generations} generation${generations !== 1 ? "s" : ""} ${genDiff >= 0 ? "removed from you" : "younger than you"}. `;
+  
+  if (genDiff > 0) {
+    if (standardTerm.includes("grand")) {
+      breakdown += `They are the ${standardTerm.replace("great-", "").replace("grand", "grandparent")} of your ${generations === 2 ? "parent" : generations === 3 ? "grandparent" : "ancestor"}. `;
+    } else if (standardTerm.includes("uncle") || standardTerm.includes("aunt")) {
+      breakdown += `They are the ${standardTerm} of your ${generations === 1 ? "parent" : generations === 2 ? "grandparent" : "great-grandparent"}. `;
+    } else if (standardTerm.includes("cousin")) {
+      breakdown += `They share a common ancestor ${generations + 1} generations back. `;
     }
-
-    // Function to generate breakdown text
-    function generateBreakdown(label, genDiff, standardTerm) {
-      const generations = Math.abs(genDiff);
-      let breakdown = `${label} is ${generations} generation${generations !== 1 ? "s" : ""} ${genDiff >= 0 ? "removed from you" : "younger than you"}. `;
-      
-      if (genDiff > 0) {
-        if (standardTerm.includes("grand")) {
-          breakdown += `They are the ${standardTerm.replace("great-", "").replace("grand", "grandparent")} of your ${generations === 2 ? "parent" : generations === 3 ? "grandparent" : "ancestor"}. `;
-        } else if (standardTerm.includes("uncle") || standardTerm.includes("aunt")) {
-          breakdown += `They are the ${standardTerm} of your ${generations === 1 ? "parent" : generations === 2 ? "grandparent" : "great-grandparent"}. `;
-        } else if (standardTerm.includes("cousin")) {
-          breakdown += `They share a common ancestor ${generations + 1} generations back. `;
-        }
-      } else if (genDiff < 0) {
-        if (standardTerm.includes("grand")) {
-          breakdown += `They are the ${standardTerm.replace("great-", "").replace("grand", "grandchild")} of your ${generations === 2 ? "child" : generations === 3 ? "grandchild" : "descendant"}. `;
-        } else if (standardTerm.includes("nephew") || standardTerm.includes("niece")) {
-          breakdown += `They are the ${standardTerm} of your ${generations === 1 ? "sibling" : "relative"}. `;
-        } else if (standardTerm.includes("cousin")) {
-          breakdown += `They share a common ancestor ${generations + 1} generations back. `;
-        }
-      } else {
-        breakdown += `They are in your generation. `;
-      }
-
-      breakdown += "Here's a breakdown:<br>";
-      breakdown += "Your Generation: You are the current generation.<br>";
-      if (genDiff > 0) {
-        for (let i = 1; i <= generations; i++) {
-          breakdown += `${i === 1 ? "Parent" : i === 2 ? "Grandparent" : `${"Great-".repeat(i - 2)}Grandparent`}: Your ${i === 1 ? "parents are one generation back" : i === 2 ? "grandparents are two generations back" : `${"great-".repeat(i - 2)}grandparents are ${i} generations back`}.<br>`;
-        }
-      } else if (genDiff < 0) {
-        for (let i = 1; i <= generations; i++) {
-          breakdown += `${i === 1 ? "Child" : i === 2 ? "Grandchild" : `${"Great-".repeat(i - 2)}Grandchild`}: Your ${i === 1 ? "children are one generation forward" : i === 2 ? "grandchildren are two generations forward" : `${"great-".repeat(i - 2)}grandchildren are ${i} generations forward`}.<br>`;
-        }
-      }
-      return breakdown;
+  } else if (genDiff < 0) {
+    if (standardTerm.includes("grand")) {
+      breakdown += `They are the ${standardTerm.replace("great-", "").replace("grand", "grandchild")} of your ${generations === 2 ? "child" : generations === 3 ? "grandchild" : "descendant"}. `;
+    } else if (standardTerm.includes("nephew") || standardTerm.includes("niece")) {
+      breakdown += `They are the ${standardTerm} of your ${generations === 1 ? "sibling" : "relative"}. `;
+    } else if (standardTerm.includes("cousin")) {
+      breakdown += `They share a common ancestor ${generations + 1} generations back. `;
     }
+  } else {
+    breakdown += `They are in your generation. `;
+  }
+
+  breakdown += "Here's a breakdown:<br>";
+  breakdown += "Your Generation: You are the current generation.<br>";
+  if (genDiff > 0) {
+    for (let i = 1; i <= generations; i++) {
+      breakdown += `${i === 1 ? "Parent" : i === 2 ? "Grandparent" : `${"Great-".repeat(i - 2)}Grandparent`}: Your ${i === 1 ? "parents are one generation back" : i === 2 ? "grandparents are two generations back" : `${"great-".repeat(i - 2)}grandparents are ${i} generations back`}.<br>`;
+    }
+  } else if (genDiff < 0) {
+    for (let i = 1; i <= generations; i++) {
+      breakdown += `${i === 1 ? "Child" : i === 2 ? "Grandchild" : `${"Great-".repeat(i - 2)}Grandchild`}: Your ${i === 1 ? "children are one generation forward" : i === 2 ? "grandchildren are two generations forward" : `${"great-".repeat(i - 2)}grandchildren are ${i} generations forward`}.<br>`;
+    }
+  }
+  return breakdown;
+}
 
     // Get name and gender from URL parameters
     const urlParams = new URLSearchParams(window.location.search);
