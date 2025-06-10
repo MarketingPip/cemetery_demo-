@@ -35,7 +35,7 @@ tools:
     link: "cousin-relationship-calculator"
     icon: "fas fa-wrench"
     color: "text-green-600"
-   - title: "Family Relationship Explorer"
+  - title: "Family Relationship Explorer"
     description: "Help understand how someone is related to you"
     link: "genealogy-tool"
     icon: "fas fa-wrench"
