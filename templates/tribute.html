@@ -480,7 +480,7 @@ async function tributeData(tributeId) {
 function renderPerson(person) {
     const tributeUrl = person?.id
         ? `../tribute?id=${person.id}`
-        : `{{base_url}}/redirect?nameFindAGrave&url=findagrave.com${encodeURIComponent(person.profile_url)}`;
+        : `{{base_url}}/redirect?page=FindAGrave&url=https://findagrave.com${encodeURIComponent(person.profile_url)}`;
 
     return `
         <!-- Wrap the whole card in an anchor tag to make it clickable -->
