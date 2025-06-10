@@ -44,19 +44,25 @@
       "name": "Theodore Otto   Wuerth",
       "birth_date": "1880-00-00",
       "death_date": "1881-00-00",
-      "profile_url": "/memorial/16550478/theodore_otto-wuerth"
+      "profile_url": "/memorial/16550478/theodore_otto-wuerth",
+      "image_url": "https://images.findagrave.com/photos/2006/311/16550478_116299534365.jpg?size=photos250",
+      "id": 1204
     },
     {
       "name": "Alfred Emanuel   Wuerth",
       "birth_date": "1891-00-00",
       "death_date": "1974-00-00",
-      "profile_url": "/memorial/16550577/alfred_emanuel-wuerth"
+      "profile_url": "/memorial/16550577/alfred_emanuel-wuerth",
+      "image_url": "https://images.findagrave.com/photos/2006/311/16550577_116299628837.jpg?size=photos250",
+      "id": 1191
     },
     {
       "name": "Edgar E   Wuerth",
       "birth_date": "1896-00-00",
       "death_date": "1969-00-00",
-      "profile_url": "/memorial/15553531/edgar_e-wuerth"
+      "profile_url": "/memorial/15553531/edgar_e-wuerth",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15553531_115694270295.jpg?size=photos250",
+      "id": 1194
     }
   ],
   "siblings": [],

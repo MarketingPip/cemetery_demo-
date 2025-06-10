@@ -30,13 +30,17 @@
       "name": "John George   Wein",
       "birth_date": "1864-00-00",
       "death_date": "1889-00-00",
-      "profile_url": "/memorial/188139133/john_george-wein"
+      "profile_url": "/memorial/188139133/john_george-wein",
+      "image_url": "https://images.findagrave.com/photos/2022/113/188139133_9e58a1aa-c9b2-41d3-bffb-debbd1f0aedc.jpeg?size=photos250",
+      "id": 1127
     },
     {
       "name": "Susan  Wein Bowman",
       "birth_date": "1868-00-00",
       "death_date": "1944-00-00",
-      "profile_url": "/memorial/188035687/susan-bowman"
+      "profile_url": "/memorial/188035687/susan-bowman",
+      "image_url": "https://images.findagrave.com/photos/2022/83/188035687_a669f98b-d88d-488c-8230-3d994805e414.jpeg?size=photos250",
+      "id": 72
     }
   ],
   "siblings": [],

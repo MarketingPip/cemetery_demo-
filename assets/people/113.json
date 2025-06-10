@@ -30,13 +30,17 @@
       "name": "Samuel   Brown",
       "birth_date": "1859-00-00",
       "death_date": "1916-00-00",
-      "profile_url": "/memorial/188035997/samuel-brown"
+      "profile_url": "/memorial/188035997/samuel-brown",
+      "image_url": "https://images.findagrave.com/photos/2022/110/188035997_181db55a-59f5-464c-9fc7-33536f4290ca.jpeg?size=photos250",
+      "id": 117
     },
     {
       "name": "Jonathan   Brown",
       "birth_date": "1861-00-00",
       "death_date": "1867-00-00",
-      "profile_url": "/memorial/235702702/jonathan-brown"
+      "profile_url": "/memorial/235702702/jonathan-brown",
+      "image_url": "https://images.findagrave.com/photos/2022/110/235702702_3f6ecac0-f012-4632-b352-aaea3f349d58.jpeg?size=photos250",
+      "id": 111
     },
     {
       "name": "Aaron   Braun",

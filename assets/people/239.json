@@ -30,7 +30,9 @@
       "name": "Charles Frederick   Fahrner",
       "birth_date": "1877-00-00",
       "death_date": "1948-00-00",
-      "profile_url": "/memorial/16681973/charles_frederick-fahrner"
+      "profile_url": "/memorial/16681973/charles_frederick-fahrner",
+      "image_url": "https://images.findagrave.com/photos/2006/320/16681973_116378253533.jpg?size=photos250",
+      "id": 237
     },
     {
       "name": "David   Fahner",
@@ -42,7 +44,9 @@
       "name": "Agnes  Fahrner Kuhn",
       "birth_date": "1884-00-00",
       "death_date": "1949-00-00",
-      "profile_url": "/memorial/15554449/agnes-kuhn"
+      "profile_url": "/memorial/15554449/agnes-kuhn",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15554449_115695064549.jpg?size=photos250",
+      "id": 640
     },
     {
       "name": "Eli   Fahner",
@@ -54,7 +58,9 @@
       "name": "Della   Fahrner",
       "birth_date": "1889-00-00",
       "death_date": "1983-00-00",
-      "profile_url": "/memorial/236145624/della-fahrner"
+      "profile_url": "/memorial/236145624/della-fahrner",
+      "image_url": "https://images.findagrave.com/photos/2022/110/236145624_b7f4f2e4-8c5f-4f27-bcc3-0153d8622753.jpeg?size=photos250",
+      "id": 240
     }
   ],
   "siblings": [],

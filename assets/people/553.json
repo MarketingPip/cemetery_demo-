@@ -30,13 +30,17 @@
       "name": "Henry Donald   Hirtzel",
       "birth_date": "1914-00-00",
       "death_date": "2004-00-00",
-      "profile_url": "/memorial/41012852/henry_donald-hirtzel"
+      "profile_url": "/memorial/41012852/henry_donald-hirtzel",
+      "image_url": "https://images.findagrave.com/photos/2022/116/41012852_e78f6232-57a1-48d8-a51d-66d142fcb6ac.jpeg?size=photos250",
+      "id": 550
     },
     {
       "name": "Maurice C.   Hirtzel",
       "birth_date": "1916-00-00",
       "death_date": "1983-00-00",
-      "profile_url": "/memorial/188113242/maurice_c-hirtzel"
+      "profile_url": "/memorial/188113242/maurice_c-hirtzel",
+      "image_url": "https://images.findagrave.com/photos/2022/116/188113242_da97deb7-dbe1-48c9-aaf4-1ba8ac654a38.jpeg?size=photos250",
+      "id": 555
     }
   ],
   "siblings": [],

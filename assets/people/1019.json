@@ -30,13 +30,17 @@
       "name": "Willis Stanley Ecron   Stewardson",
       "birth_date": "1941-00-00",
       "death_date": "2009-00-00",
-      "profile_url": "/memorial/44646061/willis_stanley_ecron-stewardson"
+      "profile_url": "/memorial/44646061/willis_stanley_ecron-stewardson",
+      "image_url": "https://images.findagrave.com/photos/2022/86/44646061_91790266-7313-4a24-8ec5-cccdbc71d29a.jpeg?size=photos250",
+      "id": 1020
     },
     {
       "name": "Glen Henry   Stewardson",
       "birth_date": "1943-00-00",
       "death_date": "2013-00-00",
-      "profile_url": "/memorial/191737552/glen_henry-stewardson"
+      "profile_url": "/memorial/191737552/glen_henry-stewardson",
+      "image_url": "https://images.findagrave.com/photos/2018/209/191737552_cfc927ad-b4fb-4c4d-800f-2654c7a1a323.jpeg?size=photos250",
+      "id": 1016
     }
   ],
   "siblings": [],

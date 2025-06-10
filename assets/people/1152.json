@@ -30,25 +30,33 @@
       "name": "Dora E  Wenzel Behnke",
       "birth_date": "1883-00-00",
       "death_date": "1923-00-00",
-      "profile_url": "/memorial/172918443/dora_e-behnke"
+      "profile_url": "/memorial/172918443/dora_e-behnke",
+      "image_url": "https://images.findagrave.com/photos/2022/114/172918443_d627647e-7a56-4648-8ced-f50cc8e298d4.jpeg?size=photos250",
+      "id": 40
     },
     {
       "name": "Clara  Wenzel MacDonald",
       "birth_date": "1885-00-00",
       "death_date": "1943-00-00",
-      "profile_url": "/memorial/158033806/clara-macdonald"
+      "profile_url": "/memorial/158033806/clara-macdonald",
+      "image_url": "https://images.findagrave.com/photos/2018/209/158033806_bd07104b-5bd6-41a2-a137-96f2f2baf427.jpeg?size=photos250",
+      "id": 683
     },
     {
       "name": "Martha  Wenzel Berg",
       "birth_date": "1887-00-00",
       "death_date": "1962-00-00",
-      "profile_url": "/memorial/15580244/martha-berg"
+      "profile_url": "/memorial/15580244/martha-berg",
+      "image_url": "https://images.findagrave.com/photos/2006/244/15580244_115720066867.jpg?size=photos250",
+      "id": 49
     },
     {
       "name": "Mabel  Wenzel Fahrner",
       "birth_date": "1895-00-00",
       "death_date": "1983-00-00",
-      "profile_url": "/memorial/15580255/mabel-fahrner"
+      "profile_url": "/memorial/15580255/mabel-fahrner",
+      "image_url": "https://images.findagrave.com/photos/2006/244/15580255_115720080729.jpg?size=photos250",
+      "id": 253
     }
   ],
   "siblings": [],

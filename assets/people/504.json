@@ -30,13 +30,17 @@
       "name": "Royal Howard   Haist",
       "birth_date": "1905-00-00",
       "death_date": "1979-00-00",
-      "profile_url": "/memorial/15698467/royal_howard-haist"
+      "profile_url": "/memorial/15698467/royal_howard-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/253/15698467_115799061610.jpg?size=photos250",
+      "id": 508
     },
     {
       "name": "Gordon   Haist",
       "birth_date": "1911-00-00",
       "death_date": "1979-00-00",
-      "profile_url": "/memorial/15698481/gordon-haist"
+      "profile_url": "/memorial/15698481/gordon-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/253/15698481_115799057884.jpg?size=photos250",
+      "id": 490
     },
     {
       "name": "Arthur Gerald \"Art\"  Haist",

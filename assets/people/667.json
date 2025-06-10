@@ -37,13 +37,15 @@
       "name": "Christine   Lang",
       "birth_date": "1855-00-00",
       "death_date": "1861-00-00",
-      "profile_url": "/memorial/133441240/christine-lang"
+      "profile_url": "/memorial/133441240/christine-lang",
+      "id": 665
     },
     {
       "name": "Infant   Lang",
       "birth_date": "1858-00-00",
       "death_date": "1858-00-00",
-      "profile_url": "/memorial/133559629/infant-lang"
+      "profile_url": "/memorial/133559629/infant-lang",
+      "id": 666
     }
   ],
   "siblings": [],

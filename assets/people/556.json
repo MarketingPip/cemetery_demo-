@@ -38,7 +38,9 @@
       "name": "Henry   Hirtzel",
       "birth_date": "1857-00-00",
       "death_date": "1880-00-00",
-      "profile_url": "/memorial/179830535/henry-hirtzel"
+      "profile_url": "/memorial/179830535/henry-hirtzel",
+      "image_url": "https://images.findagrave.com/photos/2022/110/179830535_b9c2cd03-2e67-4b3b-a24d-e7fdd64e6c72.jpeg?size=photos250",
+      "id": 549
     },
     {
       "name": "Elizabeth  Hirtzel Beaver",
@@ -68,7 +70,9 @@
       "name": "Samuel   Hirtzel",
       "birth_date": "1879-00-00",
       "death_date": "1879-00-00",
-      "profile_url": "/memorial/179830619/samuel-hirtzel"
+      "profile_url": "/memorial/179830619/samuel-hirtzel",
+      "image_url": "https://images.findagrave.com/photos/2022/110/179830619_020790c7-9dcb-477e-998e-d73890006fa5.jpeg?size=photos250",
+      "id": 557
     }
   ],
   "siblings": [],

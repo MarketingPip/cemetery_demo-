@@ -36,13 +36,17 @@
       "name": "John F.   Wein",
       "birth_date": "1879-00-00",
       "death_date": "1946-00-00",
-      "profile_url": "/memorial/15662677/john_f-wein"
+      "profile_url": "/memorial/15662677/john_f-wein",
+      "image_url": "https://images.findagrave.com/photos/2006/250/15662677_115772409609.jpg?size=photos250",
+      "id": 1125
     },
     {
       "name": "Henry   Wein",
       "birth_date": "1881-00-00",
       "death_date": "1908-00-00",
-      "profile_url": "/memorial/15662484/henry-wein"
+      "profile_url": "/memorial/15662484/henry-wein",
+      "image_url": "https://images.findagrave.com/photos/2006/250/15662484_115772198299.jpg?size=photos250",
+      "id": 1122
     }
   ],
   "siblings": [],

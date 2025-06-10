@@ -27,7 +27,9 @@
       "name": "Laura May  Haist Gaiser",
       "birth_date": "1891-00-00",
       "death_date": "1980-00-00",
-      "profile_url": "/memorial/188113040/laura_may-gaiser"
+      "profile_url": "/memorial/188113040/laura_may-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2022/116/188113040_d2306a72-7257-4c46-aff9-216fbde335fe.jpeg?size=photos250",
+      "id": 409
     },
     {
       "name": "Everett George   Haist",
@@ -39,7 +41,9 @@
       "name": "Wellington Roy   Haist",
       "birth_date": "1895-00-00",
       "death_date": "1970-00-00",
-      "profile_url": "/memorial/15580371/wellington_roy-haist"
+      "profile_url": "/memorial/15580371/wellington_roy-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/244/15580371_115720166829.jpg?size=photos250",
+      "id": 509
     },
     {
       "name": "Herbert Frederick   Haist",
@@ -51,19 +55,25 @@
       "name": "Losetta Matilda  Haist Fahrner",
       "birth_date": "1899-00-00",
       "death_date": "1987-00-00",
-      "profile_url": "/memorial/15571752/losetta_matilda-fahrner"
+      "profile_url": "/memorial/15571752/losetta_matilda-fahrner",
+      "image_url": "https://images.findagrave.com/photos/2006/243/15571752_115711892289.jpg?size=photos250",
+      "id": 252
     },
     {
       "name": "Clara Anita  Haist Ratz",
       "birth_date": "1901-00-00",
       "death_date": "1997-00-00",
-      "profile_url": "/memorial/15561361/clara_anita-ratz"
+      "profile_url": "/memorial/15561361/clara_anita-ratz",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15561361_115699703832.jpg?size=photos250",
+      "id": 859
     },
     {
       "name": "Alma Elizabeth  Haist Morlock",
       "birth_date": "1903-00-00",
       "death_date": "1943-00-00",
-      "profile_url": "/memorial/16539058/alma_elizabeth-morlock"
+      "profile_url": "/memorial/16539058/alma_elizabeth-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/310/16539058_116290971009.jpg?size=photos250",
+      "id": 722
     }
   ],
   "siblings": [],

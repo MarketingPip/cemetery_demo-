@@ -30,13 +30,17 @@
       "name": "Wesley   Trevithick",
       "birth_date": "1873-00-00",
       "death_date": "1886-00-00",
-      "profile_url": "/memorial/188138311/wesley-trevithick"
+      "profile_url": "/memorial/188138311/wesley-trevithick",
+      "image_url": "https://images.findagrave.com/photos/2022/113/238902855_348c370a-99b0-430e-8783-a3edf9278c82.jpeg?size=photos250",
+      "id": 1072
     },
     {
       "name": "Herbert Krattiger   Eilber",
       "birth_date": "1881-00-00",
       "death_date": "1954-00-00",
-      "profile_url": "/memorial/188036635/herbert_krattiger-eilber"
+      "profile_url": "/memorial/188036635/herbert_krattiger-eilber",
+      "image_url": "https://images.findagrave.com/photos/2022/113/188036635_b41fe48e-2557-4629-a9c9-cc8f1b35b249.jpeg?size=photos250",
+      "id": 187
     }
   ],
   "siblings": [],

@@ -33,13 +33,17 @@
       "name": "Eleanor   Haist",
       "birth_date": "1929-00-00",
       "death_date": "1936-00-00",
-      "profile_url": "/memorial/15580421/eleanor-haist"
+      "profile_url": "/memorial/15580421/eleanor-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/244/15580421_115720203727.jpg?size=photos250",
+      "id": 485
     },
     {
       "name": "Roy Allen   Haist",
       "birth_date": "1931-00-00",
       "death_date": "1931-00-00",
-      "profile_url": "/memorial/15580428/roy_allen-haist"
+      "profile_url": "/memorial/15580428/roy_allen-haist",
+      "image_url": "https://images.findagrave.com/photos/2006/244/15580428_115720210421.jpg?size=photos250",
+      "id": 507
     }
   ],
   "siblings": [],

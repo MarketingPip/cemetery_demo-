@@ -30,19 +30,25 @@
       "name": "Magdelina   Schwarz",
       "birth_date": "1870-00-00",
       "death_date": "1870-00-00",
-      "profile_url": "/memorial/236170325/magdelina-schwarz"
+      "profile_url": "/memorial/236170325/magdelina-schwarz",
+      "image_url": "https://images.findagrave.com/photos/2022/110/236170325_6b6211d7-1c2d-4549-9d57-31df575ed924.jpeg?size=photos250",
+      "id": 965
     },
     {
       "name": "Michael   Schwarz Jr",
       "birth_date": "1872-00-00",
       "death_date": "1910-00-00",
-      "profile_url": "/memorial/188136852/michael-schwarz"
+      "profile_url": "/memorial/188136852/michael-schwarz",
+      "image_url": "https://images.findagrave.com/photos/2022/110/188136852_a8bfb9c3-15df-498e-9725-60c06b99c3d9.jpeg?size=photos250",
+      "id": 967
     },
     {
       "name": "Lydia  Schwartz Wurm",
       "birth_date": "1875-00-00",
       "death_date": "1924-00-00",
-      "profile_url": "/memorial/15728684/lydia-wurm"
+      "profile_url": "/memorial/15728684/lydia-wurm",
+      "image_url": "https://images.findagrave.com/photos/2006/256/15728684_115824677900.jpg?size=photos250",
+      "id": 1206
     }
   ],
   "siblings": [],

@@ -30,13 +30,17 @@
       "name": "John Wesley   Mangnus",
       "birth_date": "1881-00-00",
       "death_date": "1884-00-00",
-      "profile_url": "/memorial/188115122/john_wesley-mangnus"
+      "profile_url": "/memorial/188115122/john_wesley-mangnus",
+      "image_url": "https://images.findagrave.com/photos/2022/110/188115122_56d14662-1eb6-494f-9154-2fcbe3d04d5d.jpeg?size=photos250",
+      "id": 698
     },
     {
       "name": "Marie   Mangnus",
       "birth_date": "1882-00-00",
       "death_date": "1885-00-00",
-      "profile_url": "/memorial/236151868/marie-mangnus"
+      "profile_url": "/memorial/236151868/marie-mangnus",
+      "image_url": "https://images.findagrave.com/photos/2022/110/236151868_1022069b-5dd3-4665-831d-016f2cf4ea30.jpeg?size=photos250",
+      "id": 699
     }
   ],
   "siblings": [],

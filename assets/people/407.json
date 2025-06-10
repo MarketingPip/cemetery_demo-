@@ -33,13 +33,17 @@
       "name": "Clara Agatha  Gaiser Lamport",
       "birth_date": "1908-00-00",
       "death_date": "1993-00-00",
-      "profile_url": "/memorial/188113494/clara_agatha-lamport"
+      "profile_url": "/memorial/188113494/clara_agatha-lamport",
+      "image_url": "https://images.findagrave.com/photos/2022/116/188113494_b6ea3d6d-5c7a-46a8-8499-eb6dbefd21a6.jpeg?size=photos250",
+      "id": 657
     },
     {
       "name": "William John   Gaiser",
       "birth_date": "1910-00-00",
       "death_date": "1974-00-00",
-      "profile_url": "/memorial/239219785/william_john-gaiser"
+      "profile_url": "/memorial/239219785/william_john-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2022/116/239219785_7ac8a5b2-01a5-4288-8613-4c79d69a1715.jpeg?size=photos250",
+      "id": 434
     }
   ],
   "siblings": [],

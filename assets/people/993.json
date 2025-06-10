@@ -21,7 +21,9 @@
       "name": "John F.   Smith",
       "birth_date": "1865-00-00",
       "death_date": "1954-00-00",
-      "profile_url": "/memorial/15821352/john_f-smith"
+      "profile_url": "/memorial/15821352/john_f-smith",
+      "image_url": "https://images.findagrave.com/photos/2006/262/15821352_115876474290.jpg?size=photos250",
+      "id": 991
     }
   ],
   "siblings": [],

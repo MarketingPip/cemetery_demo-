@@ -30,13 +30,17 @@
       "name": "Karl Nelson   Schink",
       "birth_date": "1885-00-00",
       "death_date": "1887-00-00",
-      "profile_url": "/memorial/188136753/karl_nelson-schink"
+      "profile_url": "/memorial/188136753/karl_nelson-schink",
+      "image_url": "https://images.findagrave.com/photos/2022/113/188136753_43be383c-7ef4-4c8f-8e7f-508a1b92e48b.jpeg?size=photos250",
+      "id": 933
     },
     {
       "name": "Herbert   Schenk",
       "birth_date": "1896-00-00",
       "death_date": "1979-00-00",
-      "profile_url": "/memorial/188136686/herbert-schenk"
+      "profile_url": "/memorial/188136686/herbert-schenk",
+      "image_url": "https://images.findagrave.com/photos/2022/113/239154345_8f6dd833-43a3-44b2-bd5b-4baa89541261.jpeg?size=photos250",
+      "id": 924
     }
   ],
   "siblings": [],

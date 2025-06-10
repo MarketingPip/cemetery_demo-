@@ -44,7 +44,9 @@
       "name": "Catherine Annie Maria  Messner Motz",
       "birth_date": "1869-00-00",
       "death_date": "1941-00-00",
-      "profile_url": "/memorial/16626989/catherine_annie_maria-motz"
+      "profile_url": "/memorial/16626989/catherine_annie_maria-motz",
+      "image_url": "https://images.findagrave.com/photos/2006/315/16626989_116339358589.jpg?size=photos250",
+      "id": 766
     },
     {
       "name": "Jacob   Messner",
@@ -56,7 +58,9 @@
       "name": "Samuel   Krein",
       "birth_date": "1879-00-00",
       "death_date": "1880-00-00",
-      "profile_url": "/memorial/188113421/samuel-krein"
+      "profile_url": "/memorial/188113421/samuel-krein",
+      "image_url": "https://images.findagrave.com/photos/2022/111/188113421_298c7935-86ed-4fef-992d-55af3046b3c6.jpeg?size=photos250",
+      "id": 635
     }
   ],
   "siblings": [],

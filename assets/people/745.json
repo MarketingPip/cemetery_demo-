@@ -34,13 +34,17 @@
       "name": "George E.   Morlock",
       "birth_date": "1877-00-00",
       "death_date": "1878-00-00",
-      "profile_url": "/memorial/15791519/george_e-morlock"
+      "profile_url": "/memorial/15791519/george_e-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/260/15791519_115859140357.jpg?size=photos250",
+      "id": 737
     },
     {
       "name": "Mary Ellen   Morlock",
       "birth_date": "1882-00-00",
       "death_date": "1903-00-00",
-      "profile_url": "/memorial/15791572/mary_ellen-morlock"
+      "profile_url": "/memorial/15791572/mary_ellen-morlock",
+      "image_url": "https://images.findagrave.com/photos/2006/260/15791572_115859167231.jpg?size=photos250",
+      "id": 756
     }
   ],
   "siblings": [

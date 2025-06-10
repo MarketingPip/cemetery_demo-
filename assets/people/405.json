@@ -35,13 +35,17 @@
       "name": "Martha Mary  Gaiser Ratz",
       "birth_date": "1888-00-00",
       "death_date": "1971-00-00",
-      "profile_url": "/memorial/15639893/martha_mary-ratz"
+      "profile_url": "/memorial/15639893/martha_mary-ratz",
+      "image_url": "https://images.findagrave.com/photos/2006/248/15639893_115755686493.jpg?size=photos250",
+      "id": 875
     },
     {
       "name": "Albert Adam   Gaiser",
       "birth_date": "1891-00-00",
       "death_date": "1974-00-00",
-      "profile_url": "/memorial/15639713/albert_adam-gaiser"
+      "profile_url": "/memorial/15639713/albert_adam-gaiser",
+      "image_url": "https://images.findagrave.com/photos/2006/248/15639713_115755540999.jpg?size=photos250",
+      "id": 389
     }
   ],
   "siblings": [],

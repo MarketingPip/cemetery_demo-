@@ -50,7 +50,9 @@
       "name": "Henry   Motz",
       "birth_date": "1861-00-00",
       "death_date": "1939-00-00",
-      "profile_url": "/memorial/16626938/henry-motz"
+      "profile_url": "/memorial/16626938/henry-motz",
+      "image_url": "https://images.findagrave.com/photos/2006/315/16626938_116339315620.jpg?size=photos250",
+      "id": 769
     },
     {
       "name": "Henry   Motz",
@@ -80,7 +82,9 @@
       "name": "Josiah S.   Motz",
       "birth_date": "1872-00-00",
       "death_date": "1944-00-00",
-      "profile_url": "/memorial/15708092/josiah_s-motz"
+      "profile_url": "/memorial/15708092/josiah_s-motz",
+      "image_url": "https://images.findagrave.com/photos/2006/254/15708092_115807395949.jpg?size=photos250",
+      "id": 771
     },
     {
       "name": "Henry   Moatz",

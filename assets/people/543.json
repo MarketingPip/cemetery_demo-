@@ -18,13 +18,17 @@
       "name": "Orald   Hill",
       "birth_date": "1921-00-00",
       "death_date": "1921-00-00",
-      "profile_url": "/memorial/15580219/orald-hill"
+      "profile_url": "/memorial/15580219/orald-hill",
+      "image_url": "https://images.findagrave.com/photos/2006/244/15580219_115720039991.jpg?size=photos250",
+      "id": 544
     },
     {
       "name": "Orville   Hill",
       "birth_date": "1921-00-00",
       "death_date": "1927-00-00",
-      "profile_url": "/memorial/15580222/orville-hill"
+      "profile_url": "/memorial/15580222/orville-hill",
+      "image_url": "https://images.findagrave.com/photos/2006/244/15580222_115720046124.jpg?size=photos250",
+      "id": 545
     }
   ],
   "siblings": [],

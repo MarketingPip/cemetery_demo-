@@ -30,31 +30,41 @@
       "name": "Simon   Sweitzer",
       "birth_date": "1882-00-00",
       "death_date": "1957-00-00",
-      "profile_url": "/memorial/236152226/simon-sweitzer"
+      "profile_url": "/memorial/236152226/simon-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2022/110/236152226_0b2c0b04-d16f-47bc-95dd-92e0121a1268.jpeg?size=photos250",
+      "id": 1047
     },
     {
       "name": "Louisa F.   Sweitzer",
       "birth_date": "1883-00-00",
       "death_date": "1889-00-00",
-      "profile_url": "/memorial/15684666/louisa_f-sweitzer"
+      "profile_url": "/memorial/15684666/louisa_f-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/252/15684666_115790867308.jpg?size=photos250",
+      "id": 1036
     },
     {
       "name": "Maryann   Sweitzer",
       "birth_date": "1885-00-00",
       "death_date": "1885-00-00",
-      "profile_url": "/memorial/15684744/maryann-sweitzer"
+      "profile_url": "/memorial/15684744/maryann-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/252/15684744_115790929677.jpg?size=photos250",
+      "id": 1041
     },
     {
       "name": "William H.   Sweitzer",
       "birth_date": "1887-00-00",
       "death_date": "1969-00-00",
-      "profile_url": "/memorial/15187530/william_h-sweitzer"
+      "profile_url": "/memorial/15187530/william_h-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/219/15187530_115505314250.jpg?size=photos250",
+      "id": 1051
     },
     {
       "name": "Victoria M.   Sweitzer",
       "birth_date": "1895-00-00",
       "death_date": "1896-00-00",
-      "profile_url": "/memorial/15684685/victoria_m-sweitzer"
+      "profile_url": "/memorial/15684685/victoria_m-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/252/15684685_115790884242.jpg?size=photos250",
+      "id": 1049
     }
   ],
   "siblings": [],

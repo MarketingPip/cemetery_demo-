@@ -30,25 +30,33 @@
       "name": "Christian   Finkbeiner",
       "birth_date": "1849-00-00",
       "death_date": "1878-00-00",
-      "profile_url": "/memorial/15961756/christian-finkbeiner"
+      "profile_url": "/memorial/15961756/christian-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/273/15961756_115976089491.jpg?size=photos250",
+      "id": 287
     },
     {
       "name": "Jacob   Finkbeiner",
       "birth_date": "1852-00-00",
       "death_date": "1933-00-00",
-      "profile_url": "/memorial/16668101/jacob-finkbeiner"
+      "profile_url": "/memorial/16668101/jacob-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/318/16668101_116365245517.jpg?size=photos250",
+      "id": 321
     },
     {
       "name": "William   Finkbeiner",
       "birth_date": "1858-00-00",
       "death_date": "1937-00-00",
-      "profile_url": "/memorial/15961995/william-finkbeiner"
+      "profile_url": "/memorial/15961995/william-finkbeiner",
+      "image_url": "https://images.findagrave.com/photos/2006/273/15961995_115976214651.jpg?size=photos250",
+      "id": 370
     },
     {
       "name": "Maria Anna \"Mary\" Finkbeiner Witzel",
       "birth_date": "1860-00-00",
       "death_date": "1927-00-00",
-      "profile_url": "/memorial/35457385/maria_anna-witzel"
+      "profile_url": "/memorial/35457385/maria_anna-witzel",
+      "image_url": "https://images.findagrave.com/photos/2020/227/35457385_863de4de-29af-4ec5-977d-caaa2ef749e1.jpeg?size=photos250",
+      "id": 1181
     }
   ],
   "siblings": [],

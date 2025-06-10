@@ -30,13 +30,17 @@
       "name": "Edward William   Sweitzer",
       "birth_date": "1878-00-00",
       "death_date": "1957-00-00",
-      "profile_url": "/memorial/15660853/edward_william-sweitzer"
+      "profile_url": "/memorial/15660853/edward_william-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/249/15660853_115769175750.jpg?size=photos250",
+      "id": 1026
     },
     {
       "name": "Joseph   Sweitzer",
       "birth_date": "1882-00-00",
       "death_date": "1885-00-00",
-      "profile_url": "/memorial/15660572/joseph-sweitzer"
+      "profile_url": "/memorial/15660572/joseph-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2006/249/15660572_115768941093.jpg?size=photos250",
+      "id": 1033
     }
   ],
   "siblings": [],

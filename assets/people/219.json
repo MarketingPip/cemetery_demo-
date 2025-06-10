@@ -27,13 +27,17 @@
       "name": "John William   Fahner",
       "birth_date": "1951-00-00",
       "death_date": "2007-00-00",
-      "profile_url": "/memorial/21860648/john_william-fahner"
+      "profile_url": "/memorial/21860648/john_william-fahner",
+      "image_url": "https://images.findagrave.com/photos/2022/84/21860648_686fe2f5-c4d2-4a3c-a623-b2e72ba24558.jpeg?size=photos250",
+      "id": 224
     },
     {
       "name": "Donald Ray   Fahner",
       "birth_date": "1959-00-00",
       "death_date": "2008-00-00",
-      "profile_url": "/memorial/41420706/donald_ray-fahner"
+      "profile_url": "/memorial/41420706/donald_ray-fahner",
+      "image_url": "https://images.findagrave.com/photos/2018/209/41420706_ea9eaa7a-ace9-46f4-80b6-46524b258375.jpeg?size=photos250",
+      "id": 215
     }
   ],
   "siblings": [],

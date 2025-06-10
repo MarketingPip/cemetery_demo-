@@ -30,13 +30,17 @@
       "name": "Edith Elvira   Lamport",
       "birth_date": "1901-00-00",
       "death_date": "1903-00-00",
-      "profile_url": "/memorial/16539631/edith_elvira-lamport"
+      "profile_url": "/memorial/16539631/edith_elvira-lamport",
+      "image_url": "https://images.findagrave.com/photos/2006/310/16539631_116291358678.jpg?size=photos250",
+      "id": 659
     },
     {
       "name": "Lloyd Samuel   Lamport",
       "birth_date": "1915-00-00",
       "death_date": "2002-00-00",
-      "profile_url": "/memorial/41012313/lloyd_samuel-lamport"
+      "profile_url": "/memorial/41012313/lloyd_samuel-lamport",
+      "image_url": "https://images.findagrave.com/photos/2022/83/41012313_bd463dea-8a93-4868-b489-15c39ada1d21.jpeg?size=photos250",
+      "id": 661
     }
   ],
   "siblings": [],

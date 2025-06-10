@@ -30,13 +30,17 @@
       "name": "Thomas Robert \"Bob\"  Dinney",
       "birth_date": "1962-00-00",
       "death_date": "2017-00-00",
-      "profile_url": "/memorial/228109891/thomas_robert-dinney"
+      "profile_url": "/memorial/228109891/thomas_robert-dinney",
+      "image_url": "https://images.findagrave.com/photos/2021/154/228109891_ce629494-0054-4fd8-8568-4f57e5ebbf38.jpeg?size=photos250",
+      "id": 158
     },
     {
       "name": "Shawn Michael   Dinney",
       "birth_date": "1969-00-00",
       "death_date": "1978-00-00",
-      "profile_url": "/memorial/188036322/shawn_michael-dinney"
+      "profile_url": "/memorial/188036322/shawn_michael-dinney",
+      "image_url": "https://images.findagrave.com/photos/2021/154/188036322_6ceffbca-8933-48b6-b3b1-f28b09cb8ec0.jpeg?size=photos250",
+      "id": 156
     }
   ],
   "siblings": [],

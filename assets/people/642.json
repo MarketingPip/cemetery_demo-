@@ -30,19 +30,25 @@
       "name": "Henry John   Kuhn",
       "birth_date": "1876-00-00",
       "death_date": "1943-00-00",
-      "profile_url": "/memorial/15563798/henry_john-kuhn"
+      "profile_url": "/memorial/15563798/henry_john-kuhn",
+      "image_url": "https://images.findagrave.com/photos/2006/242/15563798_115703823212.jpg?size=photos250",
+      "id": 646
     },
     {
       "name": "Samuel   Kuhn",
       "birth_date": "1881-00-00",
       "death_date": "1938-00-00",
-      "profile_url": "/memorial/15554412/samuel-kuhn"
+      "profile_url": "/memorial/15554412/samuel-kuhn",
+      "image_url": "https://images.findagrave.com/photos/2006/241/15554412_115695053876.jpg?size=photos250",
+      "id": 652
     },
     {
       "name": "Caroline   Kuhn",
       "birth_date": "1884-00-00",
       "death_date": "1973-00-00",
-      "profile_url": "/memorial/16330289/caroline-kuhn"
+      "profile_url": "/memorial/16330289/caroline-kuhn",
+      "image_url": "https://images.findagrave.com/photos/2006/298/16330289_116187344355.jpg?size=photos250",
+      "id": 641
     }
   ],
   "siblings": [],

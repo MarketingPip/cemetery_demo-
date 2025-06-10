@@ -30,25 +30,33 @@
       "name": "Rosina  Roeszler Wolfe",
       "birth_date": "1883-00-00",
       "death_date": "1963-00-00",
-      "profile_url": "/memorial/188139369/rosina-wolfe"
+      "profile_url": "/memorial/188139369/rosina-wolfe",
+      "image_url": "https://images.findagrave.com/photos/2022/114/188139369_9ae760d0-3b54-45fc-8f4d-644bff6c1f85.jpeg?size=photos250",
+      "id": 1188
     },
     {
       "name": "Thomas C.   Roeszler",
       "birth_date": "1886-00-00",
       "death_date": "1933-00-00",
-      "profile_url": "/memorial/188136605/thomas_c-roeszler"
+      "profile_url": "/memorial/188136605/thomas_c-roeszler",
+      "image_url": "https://images.findagrave.com/photos/2022/114/188136605_afd4a19c-fdb8-4c62-a5dc-3a6fedba4b3d.jpeg?size=photos250",
+      "id": 908
     },
     {
       "name": "Emerson   Roeszler",
       "birth_date": "1898-00-00",
       "death_date": "1984-00-00",
-      "profile_url": "/memorial/188136582/emerson-roeszler"
+      "profile_url": "/memorial/188136582/emerson-roeszler",
+      "image_url": "https://images.findagrave.com/photos/2022/114/188136582_171bc80c-5322-4837-901e-62ccf7c5c27f.jpeg?size=photos250",
+      "id": 899
     },
     {
       "name": "Herbert C.   Roeszler",
       "birth_date": "1899-00-00",
       "death_date": "1900-00-00",
-      "profile_url": "/memorial/188136591/herbert_c-roeszler"
+      "profile_url": "/memorial/188136591/herbert_c-roeszler",
+      "image_url": "https://images.findagrave.com/photos/2022/114/188136591_c63c9c21-713d-4b97-a1b2-ce63b266f75a.jpeg?size=photos250",
+      "id": 902
     }
   ],
   "siblings": [],

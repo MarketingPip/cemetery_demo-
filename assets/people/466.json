@@ -27,13 +27,17 @@
       "name": "John Matthew   Guenther",
       "birth_date": "1944-00-00",
       "death_date": "1969-00-00",
-      "profile_url": "/memorial/188113152/john_matthew-guenther"
+      "profile_url": "/memorial/188113152/john_matthew-guenther",
+      "image_url": "https://images.findagrave.com/photos/2022/84/188113152_259f75d9-612e-4046-bd29-5db731936923.jpeg?size=photos250",
+      "id": 465
     },
     {
       "name": "Janet Louise   Guenther",
       "birth_date": "1955-00-00",
       "death_date": "1970-00-00",
-      "profile_url": "/memorial/237944436/janet_louise-guenther"
+      "profile_url": "/memorial/237944436/janet_louise-guenther",
+      "image_url": "https://images.findagrave.com/photos/2022/84/237944436_fbf6772c-1ff2-40f5-a269-e2da6f935dd2.jpeg?size=photos250",
+      "id": 464
     }
   ],
   "siblings": [],

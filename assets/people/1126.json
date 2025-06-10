@@ -30,13 +30,17 @@
       "name": "Samuel   Wein",
       "birth_date": "1883-00-00",
       "death_date": "1949-00-00",
-      "profile_url": "/memorial/16414070/samuel-wein"
+      "profile_url": "/memorial/16414070/samuel-wein",
+      "image_url": "https://images.findagrave.com/photos/2006/304/16414070_116239920518.jpg?size=photos250",
+      "id": 1143
     },
     {
       "name": "Ezra   Wein",
       "birth_date": "1888-00-00",
       "death_date": "1924-00-00",
-      "profile_url": "/memorial/16414049/ezra-wein"
+      "profile_url": "/memorial/16414049/ezra-wein",
+      "image_url": "https://images.findagrave.com/photos/2006/304/16414049_116239897155.jpg?size=photos250",
+      "id": 1117
     }
   ],
   "siblings": [],

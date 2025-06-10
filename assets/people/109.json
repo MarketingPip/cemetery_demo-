@@ -30,19 +30,25 @@
       "name": "Bernard   Brown",
       "birth_date": "1858-00-00",
       "death_date": "1942-00-00",
-      "profile_url": "/memorial/15965429/bernard-brown"
+      "profile_url": "/memorial/15965429/bernard-brown",
+      "image_url": "https://images.findagrave.com/photos/2006/274/15965429_115979875007.jpg?size=photos250",
+      "id": 88
     },
     {
       "name": "Jonathan   Brown",
       "birth_date": "1869-00-00",
       "death_date": "1872-00-00",
-      "profile_url": "/memorial/15965849/jonathan-brown"
+      "profile_url": "/memorial/15965849/jonathan-brown",
+      "image_url": "https://images.findagrave.com/photos/2006/274/15965849_115980094760.jpg?size=photos250",
+      "id": 112
     },
     {
       "name": "Daniel   Brown",
       "birth_date": "1872-00-00",
       "death_date": "1882-00-00",
-      "profile_url": "/memorial/15966039/daniel-brown"
+      "profile_url": "/memorial/15966039/daniel-brown",
+      "image_url": "https://images.findagrave.com/photos/2006/274/15966039_115980211869.jpg?size=photos250",
+      "id": 94
     },
     {
       "name": "George Wesley   Brown",

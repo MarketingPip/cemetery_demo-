@@ -36,19 +36,25 @@
       "name": "Mary  Hoffmann Stanley",
       "birth_date": "1855-00-00",
       "death_date": "1891-00-00",
-      "profile_url": "/memorial/15977964/mary-stanley"
+      "profile_url": "/memorial/15977964/mary-stanley",
+      "image_url": "https://images.findagrave.com/photos/2006/275/15977964_115988379079.jpg?size=photos250",
+      "id": 1012
     },
     {
       "name": "Christian   Hoffmann",
       "birth_date": "1862-00-00",
       "death_date": "1926-00-00",
-      "profile_url": "/memorial/15977561/christian-hoffmann"
+      "profile_url": "/memorial/15977561/christian-hoffmann",
+      "image_url": "https://images.findagrave.com/photos/2006/275/15977561_115988080038.jpg?size=photos250",
+      "id": 563
     },
     {
       "name": "Eliza Ann   Hoffmann",
       "birth_date": "1866-00-00",
       "death_date": "1890-00-00",
-      "profile_url": "/memorial/15977947/eliza_ann-hoffmann"
+      "profile_url": "/memorial/15977947/eliza_ann-hoffmann",
+      "image_url": "https://images.findagrave.com/photos/2006/275/15977947_115988366047.jpg?size=photos250",
+      "id": 566
     },
     {
       "name": "Wilhelm Henry   Hoffman",

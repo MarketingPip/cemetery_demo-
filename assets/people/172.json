@@ -30,13 +30,17 @@
       "name": "Caroline  Eilber Sweitzer",
       "birth_date": "1864-00-00",
       "death_date": "1922-00-00",
-      "profile_url": "/memorial/231230083/caroline-sweitzer"
+      "profile_url": "/memorial/231230083/caroline-sweitzer",
+      "image_url": "https://images.findagrave.com/photos/2022/51/231230083_d21b70a1-32b4-4f8e-9984-fbc5d124d8b9.jpeg?size=photos250",
+      "id": 1023
     },
     {
       "name": "Emma  Eilber Uncer",
       "birth_date": "1875-00-00",
       "death_date": "1950-00-00",
-      "profile_url": "/memorial/231230160/emma-uncer"
+      "profile_url": "/memorial/231230160/emma-uncer",
+      "image_url": "https://images.findagrave.com/photos/2022/51/231230160_0ecadd63-78b4-4720-b564-bed2896e2eb4.jpeg?size=photos250",
+      "id": 1081
     }
   ],
   "siblings": [],
