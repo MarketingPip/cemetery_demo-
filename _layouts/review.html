@@ -153,9 +153,9 @@ layout: default
         <div class="flex-1">
           <div class="prose max-w-none text-gray-800">
            <p><strong>ISBN:</strong> {{ page.isbn | default: "Unknown" }}</p>
+           <p><strong>Open Library ID:</strong> {{ page.olid | default: "Unknown" }}</p>
            <p><strong>Author(s):</strong> {{ page.author | default: "Unknown" }}</p>
            <p><strong>Published:</strong> {{ page.year | default: "Unknown" }}</p>
-
             <p><strong>Description:</strong></p>
             <blockquote>{{ content }}</blockquote>
           </div>
