@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Humours of '37: Grave, Gay and Grim – Rebellion Times in the Canadas"
-author: "Unknown"
+author: Robina and Kathleen MacFarlane Lizars
 year: "1897"
 olid: OL6586556M
 pdfFile: https://archive.org/download/humoursof37grave00unse/humoursof37grave00unse.pdf
