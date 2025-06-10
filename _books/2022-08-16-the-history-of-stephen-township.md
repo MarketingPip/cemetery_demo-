@@ -4,6 +4,7 @@ title: "The history of Stephen Township"
 author: Susan Muriel Mack
 year: 1993
 isbn: 0920298877
+pdfFile: History of Stephen Township.pdf
 ---
 **Description**
 
