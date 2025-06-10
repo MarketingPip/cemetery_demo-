@@ -209,6 +209,42 @@ title: Resources
 </section>
 
 
+   <!-- Books Section -->
+<section class="bg-gray-50 py-12" id="books">
+  <div class="px-4 container mx-auto">
+    <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Books</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+      
+{% assign limited_books = site.books | slice: 0, 6 %}
+{% for book in limited_books %}
+  <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md p-4 flex flex-col items-center text-center"> 
+    <a href="{{ book.url | relative_url }}">
+      {% if book.cover %}
+        <img src="{{ site.baseurl }}/images/covers/{{ book.cover }}" alt="{{ book.title }} cover" onerror="this.onerror=null; this.src='https://openlibrary.org/images/icons/avatar_book-sm.png';" class="h-48 mb-2 object-contain" />
+      {% elsif book.olid %}
+        <img src="https://covers.openlibrary.org/b/olid/{{ book.olid }}-L.jpg?default=false" alt="{{ book.title }} cover" onerror="this.onerror=null; this.src='https://openlibrary.org/images/icons/avatar_book-sm.png';" class="h-48 mb-2 object-contain" />
+      {% elsif book.isbn %}
+        <img src="https://covers.openlibrary.org/b/isbn/{{ book.isbn }}-L.jpg?default=false" onerror="this.onerror=null; this.src='https://openlibrary.org/images/icons/avatar_book-sm.png';" alt="{{ book.title }} cover" class="h-48 mb-2 object-contain" />
+      {% else %}
+        <div class="h-48 flex items-center justify-center bg-gray-200 mb-2 w-full text-sm text-gray-500">
+          No cover
+        </div>
+      {% endif %}
+    </a>
+    <h3 class="font-semibold text-lg mb-1">{{ book.title }}</h3>
+  </div>
+{% endfor %}
+
+      
+    </div>
+  </div>
+
+  <div class="container mt-8 mx-auto px-4 text-center">
+      
+       <a href="{{ base_url }}/resources/books/" class="bg-green-700 hover:bg-green-900 text-white font-bold py-3 px-6 rounded-lg transition">View All </a>
+    </div>
+</section>
+
   
   <!-- Visiting Section -->
   <section class="bg-white py-12" id="visiting">
