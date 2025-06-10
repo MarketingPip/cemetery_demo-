@@ -11,6 +11,8 @@ permalink: /tribute/
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="canonical" href="{{site.url}}{{ base_url }}{{ page.permalink }}" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
   <style>
     .hero-image {
       background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
@@ -619,9 +621,28 @@ if (siblingsSection && childrenSection) {
       renderFamily(tribute);
       
 
-
+function initializeMap(coordinates, locationName) {
+                const mapContainer = document.getElementById('map');
+                if (!mapContainer){
+                  return;
+                }
+                
+                map = L.map('map').setView(coordinates, 13);
+                
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                }).addTo(map);
+                
+                L.marker(coordinates)
+                    .addTo(map)
+                    .bindPopup(locationName)
+                    .openPopup();
+                
+                setTimeout(() => map.invalidateSize(), 100);
+            }
       if(tribute.gps){
        document.getElementById('location-content').innerHTML = `<div id="map" class="w-full h-64 rounded-lg"></div>`;
+       initializeMap(tribute.gps, tribute.name);
       }
       // Resources
       const resourcesList = document.getElementById('resources-list');
