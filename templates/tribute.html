@@ -640,6 +640,7 @@ function initializeMap(coordinates, locationName) {
                     .openPopup();
                 
                 setTimeout(() => map.invalidateSize(), 100);
+               window.dispatchEvent(new Event('resize')); // needs for weirdness in leaflet
             }
       if(tribute.gps){
        document.getElementById('location-content').innerHTML = `<div id="map" class="w-full h-64 rounded-lg"></div>`;
