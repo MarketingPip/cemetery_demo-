@@ -1,7 +1,8 @@
+---
 layout: review
 title: "Vanished Villages of Middlesex"
 author: "Jennifer Grainger"
-year: "Unknown"
+year: 2002
 isbn: "Unknown"
 pdfFile: "vdoc.pub_vanished-villages-of-middlesex.pdf"
 olid: "OL3627635M"
