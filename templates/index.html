@@ -1410,16 +1410,29 @@ function debounce(func, wait) {
       });
     }
 
-    
 
+function handleOverlayClick() {
+    overlay.classList.add('hidden');
+    // Remove the event listener after the first click
+    overlay.removeEventListener('click', handleOverlayClick);
+}
+
+
+
+	  
+const overlay = document.getElementById('nav-overlay');
 const menu = document.getElementById('mobile-menu');
 document.getElementById('menu-toggle').addEventListener('click', () => {
   if (menu.classList.contains('translate-x-full')) {
     menu.classList.remove('translate-x-full');
     menu.classList.add('translate-x-0');
+    // Add event listener to the overlay
+    overlay.addEventListener('click', handleOverlayClick);
+    overlay.classList.remove('hidden');	  
   } else {
     menu.classList.remove('translate-x-0');
     menu.classList.add('translate-x-full');
+    overlay.removeEventListener('click', handleOverlayClick);	  
   }
 });
 
