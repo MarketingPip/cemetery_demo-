@@ -1415,7 +1415,8 @@ const menu = document.getElementById('mobile-menu');
 	  
 function handleOverlayClick() {
     overlay.classList.add('hidden');
-    menu.classList.remove('translate-x-0');	
+    menu.classList.remove('translate-x-0');
+    menu.classList.add('translate-x-full');
     // Remove the event listener after the first click
     overlay.removeEventListener('click', handleOverlayClick);
 }
@@ -1434,6 +1435,7 @@ document.getElementById('menu-toggle').addEventListener('click', () => {
   } else {
     menu.classList.remove('translate-x-0');
     menu.classList.add('translate-x-full');
+    overlay.classList.add('hidden');	  
     overlay.removeEventListener('click', handleOverlayClick);	  
   }
 });
