@@ -146,7 +146,7 @@
       </div>
       <div class="flex space-x-4">
            {% assign author_slug = page.author | slugify %}
-          <a href="{{ site.authors[author_slug].social.facebook }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-facebook-f"></i></a>
+          <a href="{{ page.social.facebook }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-facebook-f"></i></a>
           <a href="{{ site.authors[author_slug].social.twitter }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-twitter"></i></a>
           <a href="{{ site.authors[author_slug].social.linkedin }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-linkedin-in"></i></a>
       </div>
