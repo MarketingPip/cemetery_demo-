@@ -426,13 +426,12 @@ async function loadAutoComplete(lastNames, firstNames) {
 
 
      getCemeteryData().then(data => {
-    records = data; // Array of objects with CSV headers as keys
    // init();
     //fadeOutAndHide('#preload');
     enableAllResources(); // enable all disabled CSS and scripts for leaflet. 
     loadDatePicker();
    // loadLeaflet();
-    loadAutoComplete(getNames(records), getNames(records, true)); 
+    loadAutoComplete(getNames(data), getNames(data, true)); 
     //renderMap()
 });
     
