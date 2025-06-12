@@ -1,6 +1,5 @@
 ---
 layout: author
-title: Jane Doe - Blog Author | Crediton Cemetery Heritage Portal
 author: jane-doe
 name: Jane Doe
 role: Historical Preservation Specialist
