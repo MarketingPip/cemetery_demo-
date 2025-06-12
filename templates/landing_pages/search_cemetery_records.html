@@ -2,6 +2,7 @@
 permalink: /search-crediton-cemetery-records/
 title: Search Crediton Ontario Cemetery Records
 ---
+{% assign base_url = site.baseurl | default: "" %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -274,7 +275,7 @@ title: Search Crediton Ontario Cemetery Records
             
             // Simulate brief loading then redirect
             setTimeout(() => {
-                window.location.href = redirectUrl;
+                window.location.href = `{{base_url}}${redirectUrl}`;
             }, 500);
         });
 
