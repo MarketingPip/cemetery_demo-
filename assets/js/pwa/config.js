@@ -1,4 +1,4 @@
-{% assign base_url = site.baseurl | default: "" %}
+const base_url = `https://marketingpip.github.io/cemetery_demo-/`
 /**
  * JFA PWA Toolkit
  * https://github.com/jfadev/jfa-pwa-toolkit
@@ -22,9 +22,9 @@ const PWA_CONFIG = {
     // Service Worker config
     sw: {
         // Main service worker filepath (always root of project)
-        filepath: '{{base_url}}/sw.js',
+        filepath: `${base_url}/sw.js`,
         // Route of offline page
-        offline_route: '{{base_url}}/offline/',
+        offline_route: `${base_url}/offline/`,
     },
 
     // Push manager config
@@ -48,7 +48,7 @@ const PWA_CONFIG = {
                 // A string representing an extra content to display within the notification
                 body: '',
                 // he URL of an image to be used as an icon by the notification
-                icon: '/pwa/icons/firefox/firefox-general-64-64.png',
+                icon: `${base_url}/assets/js/pwa/icons/firefox/firefox-general-64-64.png`,
                 // A vibration pattern to run with the display of the notification.
                 // A vibration pattern can be an array with as few as one member.
                 // The values are times in milliseconds where the even indices (0, 2, 4, etc.)
@@ -154,17 +154,17 @@ const PWA_CONFIG = {
        //     '/page1.html',
         //    '/page2.html',
             // '/page3.html', (not precached)
-            '{{base_url}}/',
+            `${base_url}/`,
           //  './offline/index.html',
             'https://marketingpip.github.io/cemetery_demo-/offline/index.html',
-             '{{base_url}}/offline/',
-            '{{base_url}}/assets/js/pwa/pwa.js',
-            '{{base_url}}/index.html',
+             `${base_url}/offline/`,
+            `${base_url}/assets/js/pwa/pwa.js`,
+           `${base_url}/index.html`,
       /*      './offline.html',
              
             '/offline.html',
             './offline/',
-            './about-us/',
+            `${base_url}/about-us/`,
             './faq/',
             './resources/',
             './volunteer/',
@@ -180,11 +180,12 @@ const PWA_CONFIG = {
            // 'https://fonts.googleapis.com/icon?family=Material+Icons',
          //   'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css',
            // 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js',
-            '{{base_url}}/assets/cemetery_data.json',
+            `${base_url}/about-us/`,
+            `${base_url}/assets/cemetery_data.json`,
             'https://marketingpip.github.io/cemetery_demo-/assets/js/pwa/pwa.js',
             'https://marketingpip.github.io/cemetery_demo-/assets/js/pwa/sw.js',
-            '{{base_url}}/assets/js/pwa/pwa.js',
-            '{{base_url}}/sw.js'
+            `${base_url}/assets/js/pwa/pwa.js`,
+            `${base_url}/sw.js`
         ],
     }
 }
