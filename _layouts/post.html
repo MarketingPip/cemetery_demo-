@@ -1,5 +1,6 @@
 {% if page.published != false %}
 {% assign base_url = site.baseurl | default: "" %}
+{% assign author_slug = page.author | slugify %}     
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -72,7 +73,14 @@
 <section class="flex items-center justify-center hero-image text-center text-white" id="blog-hero">
   <div class="px-4 container mx-auto">
     <h1 class="font-bold text-4xl mb-4 md:text-6xl">{{ page.title }}</h1>
-    <p class="mb-8 md:text-2xl text-xl">{{ page.date | date: "%B %d, %Y" }} | By {{ page.author }}</p>
+   {% assign author_slug = page.author | slugify %}
+{% for author in site.authors %}
+  {% if author.slug == author_slug %}
+    <p class="mb-8 md:text-2xl text-xl">{{ page.date | date: "%B %d, %Y" }} | By {{ author.name }}</p>
+    {% break %} <!-- Exit the loop after finding the matching author -->
+  {% endif %}
+{% endfor %}
+
   </div>
 </section>
 
@@ -138,11 +146,12 @@
 
     <div class="mt-12 pt-6 border-t border-gray-200 flex items-center justify-between">
       <div class="flex items-center space-x-4">
-        <img alt="{{ page.author }}" class="w-12 h-12 rounded-full object-cover" src="{{ site.authors[page.author].image  | default: '/api/placeholder/100/100' }}">
-        <div>
-   {% assign author_slug = page.author | slugify %}       
+
+  
       {% for author in site.authors %}
   {% if author.slug == author_slug %}
+<img alt="{{ author.name }}" class="w-12 h-12 rounded-full object-cover" src="{{ author.image  | default: '/api/placeholder/100/100' }}">
+        <div>    
     <a class="text-gray-700 font-semibold hover:text-gray-900" href="{{ site.baseurl }}/blog/authors/{{ author.slug }}">{{ author.name }}</a>
     <p class="text-gray-700 text-sm">{{ author.role | default: "Heritage Volunteer" }}</p>
     {% break %} <!-- Exit the loop after finding the matching author -->
