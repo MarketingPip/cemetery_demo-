@@ -146,13 +146,15 @@
       </div>
       <div class="flex space-x-4">
 {% assign author_slug = page.author | slugify %}
-{% assign author_filename = page.slug %}
+{% for author in site.authors %}
+  {% if author.slug == author_slug %}
+    <a href="{{ author.social.facebook }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-facebook-f"></i></a>
+    <a href="{{ author.social.twitter }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-twitter"></i></a>
+    <a href="{{ author.social.linkedin }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-linkedin-in"></i></a>
+    {% break %} <!-- Exit the loop once the first match is found -->
+  {% endif %}
+{% endfor %}
 
-{% if author_slug == author_filename %}
-  <a href="{{ page.social.facebook }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-facebook-f"></i></a>
-  <a href="{{ page.social.twitter }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-twitter"></i></a>
-  <a href="{{ page.social.linkedin }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-linkedin-in"></i></a>
-{% endif %}
 
       </div>
     </div>
