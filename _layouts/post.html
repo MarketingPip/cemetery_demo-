@@ -147,7 +147,6 @@
       <div class="flex space-x-4">
           {% assign author_slug = page.author | slugify %}
 {% for author in site.authors %}
-        {{author}}
   {% if author.slug == author_slug %}
     <a href="{{ author.social.facebook }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-facebook-f"></i></a>
     <a href="{{ author.social.twitter }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-twitter"></i></a>
