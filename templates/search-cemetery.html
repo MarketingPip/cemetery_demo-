@@ -221,6 +221,37 @@ async function loadDatePicker() {
 }
 
  
+function checkAndSetNameFromURL() {
+  const urlParams = new URLSearchParams(window.location.search);
+
+  // Define the form fields and their corresponding query parameters
+  const formFields = [
+    { param: 'surname', fieldId: 'surname' },
+    { param: 'given-name', fieldId: 'given-name' },
+    { param: 'year-from', fieldId: 'year-from' },
+    { param: 'year-to', fieldId: 'year-to' }
+  ];
+
+  // Loop through each form field and check for the corresponding URL parameter
+  formFields.forEach(({ param, fieldId }) => {
+    const paramValue = urlParams.get(param);  // Get the value from the URL params
+    if (paramValue) {
+      const inputField = document.getElementById(fieldId); // Get the form field by ID
+      if (inputField) {
+        inputField.value = paramValue;  // Set the value of the input field
+
+        // Scroll the input field into view smoothly
+        inputField.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+  });
+
+  // Trigger form submit if any field was updated
+  const searchForm = document.getElementById('search-form'); // Assuming the form has id="search-form"
+  if (searchForm) {
+    searchForm.requestSubmit();
+  }
+}
     
    // Debounce function
 function debounce(func, wait) {
@@ -589,27 +620,6 @@ function fadeOutAndHide(elementId, hide = true) {
    
 
 
-function checkAndSetNameFromURL() {
-  const urlParams = new URLSearchParams(window.location.search);
-  const name = urlParams.get('name');
-
-  if (name) {
-    const surnameInput = document.getElementById('surname');
-    const searchForm = document.getElementById('search-form');  // Assuming your form has id="searchForm"
-
-    if (surnameInput) {
-      surnameInput.value = name;
-
-      // Scroll input into view smoothly
-      surnameInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      
-      // Trigger form submit
-      if (searchForm) {
-        searchForm.requestSubmit();
-      }
-    }
-  }
-}
 
   
    // Initialize the app
