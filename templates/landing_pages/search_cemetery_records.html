@@ -36,6 +36,8 @@ title: Search Crediton Ontario Cemetery Records
         }
     </style>
    <link rel="preload" href="{{base_url}}/assets/cemetery_data.json" as="fetch"/>	 
+<!-- CSS for datepicker -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.3.4/dist/css/datepicker.min.css" disabled />
 </head>
 <body class="bg-gray-50 min-h-screen">
     <!-- Navigation -->
@@ -236,7 +238,24 @@ title: Search Crediton Ontario Cemetery Records
     </section>
   <!-- Footer -->
 {% include footer.html %}
-    <script>
+    <script type="module">
+     
+document.addEventListener("DOMContentLoaded", function () {
+     
+  function enableAllResources() {
+  document.querySelectorAll('link[disabled], script[disabled]').forEach(el => {
+    el.removeAttribute('disabled');
+  });
+}     
+// Lazy load datepicker only when needed
+async function loadDatePicker() {
+  const { Datepicker } = await import("https://esm.sh/vanillajs-datepicker");
+  const datepicker = new Datepicker(document.getElementById("year-from"), { pickLevel: 2, format: "yyyy" });
+  const datepicker2 = new Datepicker(document.getElementById("year-to"), { pickLevel: 2, format: "yyyy" });
+}
+enableAllResources();  
+loadDatePicker();  
+
         // Mobile menu toggle
         document.getElementById('menu-toggle').addEventListener('click', function() {
             const mobileMenu = document.getElementById('mobile-menu');
@@ -316,6 +335,7 @@ title: Search Crediton Ontario Cemetery Records
         document.querySelectorAll('.bg-gray-50, .bg-white').forEach(el => {
             observer.observe(el);
         });
+    });       
     </script>
 </body>
 </html>
