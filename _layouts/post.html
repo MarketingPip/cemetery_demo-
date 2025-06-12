@@ -150,7 +150,7 @@
   
       {% for author in site.authors %}
   {% if author.slug == author_slug %}
-<img alt="{{ author.name }}" class="w-12 h-12 rounded-full object-cover" src="{{ author.image  | default: '/api/placeholder/100/100' }}">
+<img alt="{{ author.name }}" class="w-12 h-12 rounded-full object-cover" src="{{ author.image | default: 'https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_960_720.png' }}">
         <div>    
     <a class="text-gray-700 font-semibold hover:text-gray-900" href="{{ site.baseurl }}/blog/authors/{{ author.slug }}">{{ author.name }}</a>
     <p class="text-gray-700 text-sm">{{ author.role | default: "Heritage Volunteer" }}</p>
