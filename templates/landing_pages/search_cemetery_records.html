@@ -371,8 +371,8 @@ async function loadAutoComplete(lastNames, firstNames) {
             // Redirect to actual search page with query parameters
             const queryString = params.toString();
             const redirectUrl = queryString ? 
-                `/search_cemetery?${queryString}` : 
-                `/search_cemetery`;
+                `/search-cemetery?${queryString}` : 
+                `/search-cemetery`;
             
             // Show loading state
             const submitButton = e.target.querySelector('button[type="submit"]');
