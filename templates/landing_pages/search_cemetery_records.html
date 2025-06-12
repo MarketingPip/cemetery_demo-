@@ -35,6 +35,27 @@ title: Search Crediton Ontario Cemetery Records
             50% { box-shadow: 0 0 0 20px rgba(34, 197, 94, 0); }
         }
     </style>
+
+    <style>
+  .autocomp {
+			background: #f8f8f8;
+			border-radius: 0 0 5px 5px;
+			border: 1px solid #ccc;
+			border-top: 0;
+			box-shadow: 2px 2px 2px #eee;
+			text-align: left;
+		}
+		.autocomp-item {
+			padding-bottom: 5px;
+			padding: 10px;
+			cursor: pointer;
+		}
+		.autocomp-item:hover,
+		.autocomp-sel {
+			background: #f1f1f1;
+			font-weight: bold;
+		}
+</style>
    <link rel="preload" href="{{base_url}}/assets/cemetery_data.json" as="fetch"/>	 
 <!-- CSS for datepicker -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.3.4/dist/css/datepicker.min.css" disabled />
@@ -241,7 +262,52 @@ title: Search Crediton Ontario Cemetery Records
     <script type="module">
      
 document.addEventListener("DOMContentLoaded", function () {
-     
+
+       async function getCemeteryData() {
+    try {
+        const response = await fetch('./../assets/cemetery_data.json');
+        if (!response.ok) {
+            throw new Error(`Failed to fetch: ${response.status} ${response.statusText}`);
+        }
+        
+        const csvText = await response.json();
+        return csvText;
+    } catch (error) {
+        console.error('Error fetching cemetery data:', error);
+        return [];
+    }
+}
+
+function getNames(data, getFirst = false) {
+  const suffixes = new Set(["jr", "sr", "ii", "iii", "iv", "v"]);
+
+  return new Set(
+    data.map(entry => {
+      if (!entry.name) return null;
+
+      const parts = entry.name.trim().split(/\s+/);
+
+      if (getFirst) {
+        // Find first actual name (skip initials like "H.")
+        for (let i = 0; i < parts.length; i++) {
+          const cleaned = parts[i].replace(/\./g, '');
+          if (cleaned.length > 1) return cleaned;
+        }
+        return null;
+      } else {
+        // Get last non-suffix part
+        for (let i = parts.length - 1; i >= 0; i--) {
+          const word = parts[i].replace(/\./g, '').toLowerCase();
+          if (!suffixes.has(word)) {
+            return parts[i].replace(/[^a-zA-Z'-]/g, '');
+          }
+        }
+        return null;
+      }
+    }).filter(Boolean)
+  );
+}
+    
   function enableAllResources() {
   document.querySelectorAll('link[disabled], script[disabled]').forEach(el => {
     el.removeAttribute('disabled');
@@ -253,9 +319,31 @@ async function loadDatePicker() {
   const datepicker = new Datepicker(document.getElementById("year-from"), { pickLevel: 2, format: "yyyy" });
   const datepicker2 = new Datepicker(document.getElementById("year-to"), { pickLevel: 2, format: "yyyy" });
 }
-enableAllResources();  
-loadDatePicker();  
 
+async function loadAutoComplete(lastNames, firstNames) {
+  const { autocomp } = await import("https://esm.sh/@knadh/autocomp");
+
+  const createAutoComplete = (selector, names) => {
+    autocomp(document.querySelector(selector), {
+      onQuery: async (query) =>
+        [...names].filter(name =>
+          name.toLowerCase().startsWith(query.toLowerCase())
+        ).slice(0, 10),
+
+      onSelect: (val) => val,
+
+      onRender: (name) => {
+        const el = document.createElement("span");
+        el.textContent = name;
+        return el;
+      }
+    });
+  };
+
+  createAutoComplete("#surname", lastNames);
+  createAutoComplete("#given-name", firstNames);
+}
+    
         // Mobile menu toggle
         document.getElementById('menu-toggle').addEventListener('click', function() {
             const mobileMenu = document.getElementById('mobile-menu');
@@ -335,6 +423,19 @@ loadDatePicker();
         document.querySelectorAll('.bg-gray-50, .bg-white').forEach(el => {
             observer.observe(el);
         });
+
+
+     getCemeteryData().then(data => {
+    records = data; // Array of objects with CSV headers as keys
+   // init();
+    //fadeOutAndHide('#preload');
+    enableAllResources(); // enable all disabled CSS and scripts for leaflet. 
+    loadDatePicker();
+   // loadLeaflet();
+    loadAutoComplete(getNames(records), getNames(records, true)); 
+    //renderMap()
+});
+    
     });       
     </script>
 </body>
