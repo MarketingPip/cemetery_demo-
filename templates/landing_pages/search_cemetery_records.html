@@ -264,8 +264,8 @@ title: Search Crediton Ontario Cemetery Records
             // Redirect to actual search page with query parameters
             const queryString = params.toString();
             const redirectUrl = queryString ? 
-                `/seach_cemetery?${queryString}` : 
-                `/seach_cemetery`;
+                `/search_cemetery?${queryString}` : 
+                `/search_cemetery`;
             
             // Show loading state
             const submitButton = e.target.querySelector('button[type="submit"]');
