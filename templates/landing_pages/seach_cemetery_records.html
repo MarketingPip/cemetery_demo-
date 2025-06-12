@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="robots" content="noindex, nofollow"> <!-- This will hide the page from indexing -->
+    <title>Search Cemetery Records - Crediton Cemetery Heritage Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #374151 0%, #1f2937 50%, #111827 100%);
+        }
+        .search-card {
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.95);
+        }
+        .fade-in {
+            animation: fadeIn 0.8s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .pulse-green {
+            animation: pulseGreen 2s infinite;
+        }
+        @keyframes pulseGreen {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.4); }
+            50% { box-shadow: 0 0 0 20px rgba(34, 197, 94, 0); }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <!-- Navigation -->
+    <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-40">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-tree text-green-400"></i>
+                <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
+            </div>
+            <div class="hidden md:flex space-x-6">
+                <a href="/cemetery_demo-" class="hover:text-green-400 transition">Home</a>
+                <a href="/cemetery_demo-#map" class="hover:text-green-400 transition">Interactive Map</a>
+                <a href="/cemetery_demo-/exhibits" class="hover:text-green-400 transition">Virtual Exhibits</a>
+                <a href="/cemetery_demo-/search-cemetery" class="hover:text-green-400 transition">Search Records</a>
+                <a href="/cemetery_demo-#timeline" class="hover:text-green-400 transition">Historical Timeline</a>
+                <a href="/cemetery_demo-/donate" class="hover:text-green-400 transition">Support Us</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-toggle" class="focus:outline-none" aria-label="Navigation Menu Toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-gray-700 px-4 py-3 space-y-2">
+            <a href="/cemetery_demo-" class="block hover:text-green-400 transition">Home</a>
+            <a href="/cemetery_demo-#map" class="block hover:text-green-400 transition">Interactive Map</a>
+            <a href="/cemetery_demo-/exhibits" class="block hover:text-green-400 transition">Virtual Exhibits</a>
+            <a href="/cemetery_demo-/search-cemetery" class="block hover:text-green-400 transition">Search Records</a>
+            <a href="/cemetery_demo-#timeline" class="block hover:text-green-400 transition">Historical Timeline</a>
+            <a href="/cemetery_demo-/donate" class="block hover:text-green-400 transition">Support Us</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Search -->
+    <section class="hero-gradient relative overflow-hidden">
+        <!-- Background decorative elements -->
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-10 left-10 w-32 h-32 border border-green-400 rounded-full"></div>
+            <div class="absolute bottom-10 right-10 w-48 h-48 border border-green-400 rounded-full"></div>
+            <div class="absolute top-1/2 left-1/4 w-16 h-16 bg-green-400 rounded-full blur-xl"></div>
+        </div>
+
+        <div class="container mx-auto px-4 py-20 relative z-10">
+            <div class="text-center mb-12 fade-in">
+                <div class="inline-flex items-center justify-center w-20 h-20 bg-green-400 rounded-full mb-6 pulse-green">
+                    <i class="fas fa-search text-gray-800 text-2xl"></i>
+                </div>
+                <h1 class="text-5xl md:text-6xl font-bold text-white mb-4">
+                    Search Cemetery Records
+                </h1>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+                    Discover the stories and histories preserved within Crediton Cemetery. 
+                    Search our comprehensive database of records, dates, and family connections.
+                </p>
+            </div>
+
+            <!-- Search Form -->
+            <div class="max-w-4xl mx-auto fade-in">
+                <div class="search-card rounded-2xl shadow-2xl p-8 mb-8">
+                    <form id="search-form" class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <!-- Surname Field -->
+                            <div class="space-y-2">
+                                <label for="surname" class="block text-gray-700 font-semibold text-sm uppercase tracking-wide">
+                                    <i class="fas fa-user mr-2 text-green-600"></i>Surname
+                                </label>
+                                <input 
+                                    type="text" 
+                                    id="surname" 
+                                    name="surname" 
+                                    class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-green-500 focus:ring-2 focus:ring-green-200 transition-all duration-200 bg-white" 
+                                    placeholder="Enter family name"
+                                    autocomplete="off"
+                                >
+                            </div>
+
+                            <!-- Given Name Field -->
+                            <div class="space-y-2">
+                                <label for="given-name" class="block text-gray-700 font-semibold text-sm uppercase tracking-wide">
+                                    <i class="fas fa-id-card mr-2 text-green-600"></i>Given Name
+                                </label>
+                                <input 
+                                    type="text" 
+                                    id="given-name" 
+                                    name="given-name" 
+                                    class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-green-500 focus:ring-2 focus:ring-green-200 transition-all duration-200 bg-white" 
+                                    placeholder="Enter first name"
+                                    autocomplete="off"
+                                >
+                            </div>
+
+                            <!-- Year Range Field -->
+                            <div class="space-y-2">
+                                <label for="year-range" class="block text-gray-700 font-semibold text-sm uppercase tracking-wide">
+                                    <i class="fas fa-calendar-alt mr-2 text-green-600"></i>Year Range
+                                </label>
+                                <div class="flex items-center space-x-3">
+                                    <input 
+                                        type="number" 
+                                        id="year-from" 
+                                        name="year-from" 
+                                        placeholder="From" 
+                                        min="1800" 
+                                        max="2025"
+                                        class="flex-1 px-3 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-green-500 focus:ring-2 focus:ring-green-200 transition-all duration-200 bg-white text-center"
+                                    >
+                                    <span class="text-gray-400 font-bold">—</span>
+                                    <input 
+                                        type="number" 
+                                        id="year-to" 
+                                        name="year-to" 
+                                        placeholder="To" 
+                                        min="1800" 
+                                        max="2025"
+                                        class="flex-1 px-3 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-green-500 focus:ring-2 focus:ring-green-200 transition-all duration-200 bg-white text-center"
+                                    >
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Search Button -->
+                        <div class="text-center pt-4">
+                            <button 
+                                type="submit" 
+                                class="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-12 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-4 focus:ring-green-200 text-lg"
+                            >
+                                <i class="fas fa-search mr-3"></i>
+                                Search Cemetery Records
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Search Tips -->
+                <div class="bg-white/80 rounded-xl p-6 shadow-lg fade-in">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-3 flex items-center">
+                        <i class="fas fa-lightbulb text-yellow-500 mr-2"></i>
+                        Search Tips
+                    </h3>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm text-gray-600">
+                        <div class="flex items-start space-x-2">
+                            <i class="fas fa-check-circle text-green-500 mt-1 flex-shrink-0"></i>
+                            <span>Leave fields blank to search all records</span>
+                        </div>
+                        <div class="flex items-start space-x-2">
+                            <i class="fas fa-check-circle text-green-500 mt-1 flex-shrink-0"></i>
+                            <span>Use partial names for broader results</span>
+                        </div>
+                        <div class="flex items-start space-x-2">
+                            <i class="fas fa-check-circle text-green-500 mt-1 flex-shrink-0"></i>
+                            <span>Year ranges help narrow down results</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Database Info Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">About Our Records</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Our comprehensive database contains detailed information about individuals interred at Crediton Cemetery, 
+                    including historical records, family connections, and links to additional resources.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center p-6 bg-gray-50 rounded-lg">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-database text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Comprehensive Records</h3>
+                    <p class="text-gray-600">Detailed burial records with dates, locations, and family information.</p>
+                </div>
+
+                <div class="text-center p-6 bg-gray-50 rounded-lg">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-history text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Historical Context</h3>
+                    <p class="text-gray-600">Rich historical information and connections to local heritage.</p>
+                </div>
+
+                <div class="text-center p-6 bg-gray-50 rounded-lg">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-link text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">External Resources</h3>
+                    <p class="text-gray-600">Links to genealogy sites, historical documents, and family trees.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Form submission handler
+        document.getElementById('search-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form values
+            const surname = document.getElementById('surname').value.trim();
+            const givenName = document.getElementById('given-name').value.trim();
+            const yearFrom = document.getElementById('year-from').value.trim();
+            const yearTo = document.getElementById('year-to').value.trim();
+            
+            // Build query parameters
+            const params = new URLSearchParams();
+            
+            if (surname) params.append('surname', surname);
+            if (givenName) params.append('given-name', givenName);
+            if (yearFrom) params.append('year-from', yearFrom);
+            if (yearTo) params.append('year-to', yearTo);
+            
+            // Redirect to actual search page with query parameters
+            const queryString = params.toString();
+            const redirectUrl = queryString ? 
+                `/cemetery_demo-/search-results?${queryString}` : 
+                `/cemetery_demo-/search-results`;
+            
+            // Show loading state
+            const submitButton = e.target.querySelector('button[type="submit"]');
+            const originalText = submitButton.innerHTML;
+            submitButton.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i>Searching...';
+            submitButton.disabled = true;
+            
+            // Simulate brief loading then redirect
+            setTimeout(() => {
+                window.location.href = redirectUrl;
+            }, 500);
+        });
+
+        // Input validation and formatting
+        document.getElementById('year-from').addEventListener('input', function(e) {
+            const value = parseInt(e.target.value);
+            const yearTo = document.getElementById('year-to');
+            
+            if (value && yearTo.value && parseInt(yearTo.value) < value) {
+                yearTo.value = value;
+            }
+        });
+
+        document.getElementById('year-to').addEventListener('input', function(e) {
+            const value = parseInt(e.target.value);
+            const yearFrom = document.getElementById('year-from');
+            
+            if (value && yearFrom.value && parseInt(yearFrom.value) > value) {
+                yearFrom.value = value;
+            }
+        });
+
+        // Add subtle animations on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        document.querySelectorAll('.bg-gray-50, .bg-white').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
