@@ -605,16 +605,17 @@ if (siblingsSection && childrenSection) {
                   }
 
 
-    const hasTreeData =
-  tribute.parents.length > 0 ||
-  tribute.spouses.length > 0 ||
-  tribute.children.length > 0 ||
-  tribute.grandchildren.length > 0;
+const hasTreeData = 
+  (tribute.parents && tribute.parents.length > 0) ||
+  (tribute.spouses && tribute.spouses.length > 0) ||
+  (tribute.children && tribute.children.length > 0) ||
+  (tribute.grandchildren && tribute.grandchildren.length > 0);
+
   
 
      if(hasTreeData){
      tabs.familyTree.innerHTML = `<svg id="markmap" class="w-full h-64"></svg>`;
-     renderMarkmap(tribute.parents, tribute.spouses, tribute.children, tribute.grandchildren, tribute.siblings, tribute);  
+     renderMarkmap(tribute.parents, tribute?.spouses, tribute?.children, tribute?.grandchildren, tribute?.siblings, tribute);  
      }
       // Share Links
       const currentUrl = window.location.href;
