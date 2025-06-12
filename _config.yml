@@ -78,7 +78,7 @@ collections:
     permalink: /blog/authors/:path/
   blog:
     output: true
-    permalink: /blog/:title
+    permalink: /blog/:slug/
   books:
     output: true
     permalink: /resources/:collection/:title/
