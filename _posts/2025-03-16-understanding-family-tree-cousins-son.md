@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Understanding the Family Tree: Why Your Cousin's Son is Not Your Second Cousin"
-author: "Jane Doe"
+author: "jane-doe"
 date: 2025-03-15 22:39:53
 hero_image: "/path/to/hero-image.jpg"
 author_image: "/path/to/author-image.jpg"
