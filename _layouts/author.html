@@ -158,7 +158,6 @@
        {% assign filename = post.url | split: "/" | last %}
 {% assign filename_without_extension = filename | remove: ".md" | remove: ".html" %}
          <a href="{{ site.url }}{{ 'blog' | relative_url }}/{{ filename_without_extension }}"  title="Read blog post from {{page.name}}" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
-        <a href="{{ site.url }}{{ 'blog' | relative_url }}/{{ post.title }}"  title="Read blog post from {{page.name}}" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
       </div>
     </div>
   {% endif %}
