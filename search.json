@@ -1,0 +1,18 @@
+---
+layout: none
+permalink: /search.json
+---
+[
+  {% assign pages_and_posts = site.posts | concat: site.pages %}
+  {% for item in pages_and_posts %}
+    {% unless item.robots == "noindex, nofollow" %}
+      {
+        "title"    : "{{ item.title | escape }}",
+        "category" : "{{ item.category | default: 'Uncategorized' }}",
+        "tags"     : "{{ item.tags | join: ', ' }}",
+        "url"      : "{{ site.baseurl }}{{ item.url }}",
+        "date"     : "{{ item.date | date: '%Y-%m-%d' }}"
+      } {% unless forloop.last %},{% endunless %}
+    {% endunless %}
+  {% endfor %}
+]
