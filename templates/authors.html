@@ -120,7 +120,7 @@ title: Authors
           <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"></path>
           </svg>
-          <a href="{{ site.baseurl }}/resources/" class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">Blog</a>
+          <a href="{{ site.baseurl }}/blog/" class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">Blog</a>
         </div>
       </li>
       <li aria-current="page">
@@ -158,13 +158,11 @@ title: Authors
       {% endif %}
 
       <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md p-4 flex flex-col items-center text-center">
-        <a href="{{ site.baseurl }}/authors/{{ author.author }}">
-          {% if author.image %}
+        <a href="{{ site.baseurl }}/authors/{{ author.slug }}">
+          {% if author.author_image %}
             <img src="{{ site.baseurl }}{{ author.image }}" alt="{{ author.name }}" class="h-48 mb-2 object-cover rounded-full" />
           {% else %}
-            <div class="h-48 flex items-center justify-center bg-gray-200 mb-2 w-full text-sm text-gray-500">
-              No image
-            </div>
+            <img src="https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_960_720.png" alt="{{ author.name }} placeholder avatar" class="h-48 mb-2 object-cover rounded-full" />
           {% endif %}
         </a>
         <h3 class="font-semibold text-lg mb-1">{{ author.name }}</h3>
@@ -205,28 +203,32 @@ title: Authors
 <section class="bg-gray-50 py-12">
   <div class="container mx-auto px-4">
     <div class="max-w-4xl mx-auto">
-      <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">About the Book Collection</h2>
+      <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Become an Author for Our Heritage Portal</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div class="bg-white p-6 rounded-lg shadow-md">
           <h3 class="text-xl font-semibold text-gray-800 mb-4">
-            <i class="fas fa-book text-blue-600 mr-2"></i>Historical & Cultural Works
+            <i class="fas fa-pen text-blue-600 mr-2"></i>Why Contribute to Our Heritage Portal?
           </h3>
           <p class="text-gray-600">
-            This curated library includes local histories, biographies, genealogical records, and other significant publications related to the heritage of Huron County and surrounding areas.
+            Our portal aims to preserve the rich history and cultural heritage of our community. By contributing as an author, you help ensure that important stories, historical events, genealogical records, and local traditions are shared, documented, and passed down to future generations. Whether you're a historian, local expert, or passionate storyteller, your insights can enrich our collective knowledge.
           </p>
         </div>
         <div class="bg-white p-6 rounded-lg shadow-md">
           <h3 class="text-xl font-semibold text-gray-800 mb-4">
-            <i class="fas fa-archive text-green-600 mr-2"></i>Preservation & Access
+            <i class="fas fa-file-alt text-green-600 mr-2"></i>How to Submit Your Article
           </h3>
           <p class="text-gray-600">
-            The books featured here support research, education, and preservation. Many are rare or out-of-print titles, digitized or cataloged to provide easier access for future generations.
+            We welcome contributions that highlight local histories, cultural practices, personal stories, and more. To submit your article, simply provide your idea or completed manuscript through our contact form. We encourage well-researched content that promotes historical awareness, genealogical research, and the preservation of cultural legacies. After submitting, our team will review your work and get back to you with feedback or approval.
           </p>
         </div>
+      </div>
+      <div class="text-center mt-8">
+        <a href="{{base_url}}/contact-us/" class="bg-blue-600 text-white py-3 px-8 rounded-lg hover:bg-blue-700 transition duration-300">Submit Your Heritage Story</a>
       </div>
     </div>
   </div>
 </section>
+
 
 
 <!-- Footer -->
