@@ -158,9 +158,9 @@ title: Authors
       {% endif %}
 
       <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md p-4 flex flex-col items-center text-center">
-        <a href="{{ site.baseurl }}/authors/{{ author.slug }}">
+        <a href="{{ site.baseurl }}/blog/authors/{{ author.slug }}">
           {% if author.author_image %}
-            <img src="{{ site.baseurl }}{{ author.image }}" alt="{{ author.name }}" class="h-48 mb-2 object-cover rounded-full" />
+            <img src="{{ site.baseurl }}{{ author.author_image }}" alt="{{ author.name }}" class="h-48 mb-2 object-cover rounded-full" />
           {% else %}
             <img src="https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_960_720.png" alt="{{ author.name }} placeholder avatar" class="h-48 mb-2 object-cover rounded-full" />
           {% endif %}
