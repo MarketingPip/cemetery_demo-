@@ -1,32 +1,40 @@
 module Jekyll
-  class PersonTag < Liquid::Tag
-    def initialize(tag_name, id, tokens)
-      super
-      # Capture the ID passed in the tag (i.e. "92" from {{ person 92 }})
-      @id = id.strip
-    end
+  class AltAuthorPageGenerator < Generator
+    safe true
+    priority :high
 
-    def render(context)
-      # Construct the file path for the person JSON
-      file_path = File.join(Dir.pwd, "assets", "people", "{@id}.json")
+    def generate(site)
+      # Get the authors collection
+      authors = site.collections['authors'].docs
 
-      # Check if the file exists
-      if File.exist?(file_path)
-        # Read the file content
-        json_content = File.read(file_path)
-        # Parse the JSON content
-        data = JSON.parse(json_content)
-        
-        # You can then format or display the data as needed.
-        # For example, we return the name of the person from the JSON data.
-        return data["name"] # Assuming JSON has a "name" key
-      else
-        # If the file does not exist, return an error message or empty string
-        return "Person not found"
+      authors.each do |author|
+        # Check if the author should generate a tutorial page
+          # Create a new page for the tutorials path
+          site.pages << AltAuthorPage.new(site, author)
       end
     end
   end
-end
 
-# Register the tag so that Liquid can use it
-Liquid::Template.register_tag('person', Jekyll::PersonTag)
+  class AltAuthorPage < Page
+    def initialize(site, author)
+      @site = site
+      @author = author
+
+      # Define the path for the new page (e.g., /tutorials/authors/author1/)
+      author_id = author.slug
+      @dir = "exhibits/authors"
+      @name = "#{author_id}/index.html"
+
+      # Process the page
+      process(@name)
+
+      # Copy front matter from the original author document
+      @data = author.data.dup
+      @data['layout'] ||= 'author' # Set a specific layout for tutorial pages
+      @data['permalink'] = "/exhibits/authors/#{author_id}/"
+
+      # Optional: Store content or leave it empty to rely on the layout
+      @content = author.content
+    end
+  end
+end
