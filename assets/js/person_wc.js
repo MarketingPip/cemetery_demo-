@@ -30,13 +30,13 @@
       }
 
       renderPersonData(data) {
-        const { name, birth_date, death_date, image_url } = data;
+        const { name, birth_date, death_date, image_url, id } = data;
         const formattedBirthDate = birth_date ? birth_date.split('-')[0] : 'Unknown';
         const formattedDeathDate = death_date ? death_date.split('-')[0] : 'Unknown';
         const imageSrc = image_url || 'https://via.placeholder.com/150';
 
         this.innerHTML = `
-          <a>
+          <a href="https://marketingpip.github.io/cemetery_demo-/tribute/?id=${id}">
           <div class="flex items-start gap-4 mb-2">
             <img src="${imageSrc}" alt="${name}" class="w-24 h-32 object-cover rounded-md border border-gray-700">
             <div>
