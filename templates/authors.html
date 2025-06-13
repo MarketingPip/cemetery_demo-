@@ -148,50 +148,7 @@ title: Authors
     {% assign current_letter = "" %}
 
     {% for author in authors_by_letter %}
-      {% assign first_letter = author.name | slice: 0, 1 | upcase %}
-
-      {% if first_letter != current_letter %}
-        {% unless forloop.first %}</div>{% endunless %}
-        <h2 class="text-2xl font-semibold mt-10 mb-4" id="letter-{{ first_letter }}">{{ first_letter }}</h2>
-        <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-        {% assign current_letter = first_letter %}
-      {% endif %}
-
-      <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md p-4 flex flex-col items-center text-center">
-        <a href="{{ site.baseurl }}/authors/{{ author.author }}">
-          {% if author.image %}
-            <img src="{{ site.baseurl }}{{ author.image }}" alt="{{ author.name }}" class="h-48 mb-2 object-cover rounded-full" />
-          {% else %}
-            <div class="h-48 flex items-center justify-center bg-gray-200 mb-2 w-full text-sm text-gray-500">
-              No image
-            </div>
-          {% endif %}
-        </a>
-        <h3 class="font-semibold text-lg mb-1">{{ author.name }}</h3>
-        <p class="text-sm text-gray-500 mb-2">{{ author.role }}</p>
-
-        {% if author.social %}
-          <div class="flex justify-center space-x-4">
-            {% if author.social.facebook %}
-              <a href="{{ author.social.facebook }}" target="_blank" class="text-blue-600 hover:text-blue-800">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            {% endif %}
-            {% if author.social.twitter %}
-              <a href="{{ author.social.twitter }}" target="_blank" class="text-blue-400 hover:text-blue-600">
-                <i class="fab fa-twitter"></i>
-              </a>
-            {% endif %}
-            {% if author.social.linkedin %}
-              <a href="{{ author.social.linkedin }}" target="_blank" class="text-blue-700 hover:text-blue-900">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            {% endif %}
-          </div>
-        {% endif %}
-      </div>
-
-      {% if forloop.last %}</div>{% endif %}
+      <p>{{author.slug}}</p>
     {% endfor %}
   </div>
 </section>
