@@ -82,9 +82,6 @@ collections:
   books:
     output: true
     permalink: /resources/:collection/:title/
-  authors:
-    output: true
-    permalink: /exhibits/authors/:path/
     
 # Plugins
 plugins:
