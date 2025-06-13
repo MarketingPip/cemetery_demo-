@@ -29,8 +29,8 @@
 {% if page.next %}
   <link rel="next" href="{{ 'blog' | relative_url }}{{ page.next.url }}">
 {% endif %}
-
-
+<!-- CSS for Markdown -->
+ <link rel="stylesheet" href="{{base_url}}/assets/css/markdown.css">
 </head>
 <body class="bg-gray-100 font-sans">
 
@@ -140,7 +140,7 @@
       <p class="text-gray-600 italic text-center">{{ page.image_caption | default: "A recently uncovered photograph of a pioneer family, circa 1850s." }}</p>
     </div>
 
-    <div class="space-y-6">
+    <div class="space-y-6 markdown">
       {{ content }}
     </div>
 
