@@ -664,20 +664,24 @@ html {
         Explore our digital exhibits showcasing the rich history and heritage of Crediton Cemetery and its community.
       </p>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+ {% assign exhibit_posts = site.posts | where: "category", "exhibit" | limit: 3 %}
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      {% for post in exhibit_posts %}
         <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-          <img data-src="https://placeholder.pagebee.io/api/random/400/300" alt="Pioneers of Crediton" class="lazyload w-full h-56 object-cover">
+          <img data-src="{{ post.featured_image | default: 'https://placeholder.pagebee.io/api/random/400/300' }}" alt="{{ post.title }}" class="lazyload w-full h-56 object-cover">
           <div class="p-4">
-            <h3 class="font-bold text-xl mb-2">Pioneers of Crediton</h3>
+            <h3 class="font-bold text-xl mb-2">{{ post.title }}</h3>
             <p class="text-gray-600 mb-4">
-              Discover the stories of the founding families who established Crediton in the 1850s.
-              This exhibit features rare photographs, documents, and personal accounts.
+              {{ post.excerpt | truncatewords: 30 }}
             </p>
-            <button id="exhibit-1-btn" class="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded transition">
+            <a href="{{ post.url }}" class="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded transition">
               View Exhibit
-            </button>
+            </a>
           </div>
         </div>
+      {% endfor %}
+ 
 
         <div class="bg-white rounded-lg shadow-lg overflow-hidden">
           <img data-src="https://placeholder.pagebee.io/api/random/400/300" alt="Architectural Heritage" class="lazyload w-full h-56 object-cover">
