@@ -1,6 +1,7 @@
 ---
 layout: null
 permalink: /feed.xml
+robots: "noindex, nofollow"  # You can mark pages to exclude here (or in the front matter of individual pages)
 ---
 
 <?xml version="1.0" encoding="UTF-8" ?>
