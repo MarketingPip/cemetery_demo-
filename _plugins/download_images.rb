@@ -36,7 +36,7 @@ module Jekyll
 
       Jekyll.logger.debug "Processing item: #{item.path || item.url}"
       # Improved regex to capture full URLs including query parameters
-      image_urls = item.content.scan(/(?:src|href)=["']?(https?:\/\/[^"'\s]+\.(?:jpg|jpeg|webp|png|gif|svg)(?:\?[^"'\s]*)?)/i)
+      image_urls = item.content.scan(/(?:src|href)=["']?(https?:\/\/[^"'\s]+(?:\{{2}[^\}]*\}{2})?[^"'\s]*\.(?:jpg|jpeg|webp|png|gif|svg)(?:\?[^\s"']*)?)["']?/i)
 
       if image_urls.empty?
         Jekyll.logger.debug "No image URLs found in: #{item.path || item.url}"
