@@ -1,0 +1,204 @@
+{% if page.published != false %}
+{% assign base_url = site.baseurl | default: "" %}
+{% assign author_slug = page.author | slugify %}     
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>{{ page.title }} | {{site.title}}</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="{{base_url}}/assets/js/person_wc.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url({{ page.hero_image | default: "https://img1.wsimg.comf/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg" }});
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40vh;
+    }
+  </style>
+{% seo %}
+  
+ 
+
+{% if page.previous %}
+  <link rel="prev" href="{{ 'blog' | relative_url }}{{ page.previous.url }}">
+{% endif %}
+
+{% if page.next %}
+  <link rel="next" href="{{ 'blog' | relative_url }}{{ page.next.url }}">
+{% endif %}
+<!-- CSS for Markdown -->
+ <link rel="stylesheet" href="{{base_url}}/assets/css/markdown.css">
+</head>
+<body class="bg-gray-100 font-sans">
+
+<!-- Navigation -->
+<nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
+  <div class="px-4 py-3 container mx-auto">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center space-x-2">
+        <i class="fas fa-tree text-green-400"></i>
+        <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
+      </div>
+      <div class="hidden md:flex space-x-6">
+        <a class="transition hover:text-green-400" href="#home">Home</a>
+        <a class="transition hover:text-green-400" href="#map">Interactive Map</a>
+        <a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a>
+        <a class="transition hover:text-green-400" href="#search">Search Records</a>
+        <a class="transition hover:text-green-400" href="#timeline">Historical Timeline</a>
+        <a class="transition hover:text-green-400" href="#donate">Support Us</a>
+      </div>
+      <div class="md:hidden">
+        <button class="focus:outline-none" id="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="hidden md:hidden" id="mobile-menu">
+    <div class="px-4 container mx-auto flex flex-col py-2 space-y-3">
+      <a class="transition hover:text-green-400 block" href="#home">Home</a>
+      <a class="transition hover:text-green-400 block" href="#map">Interactive Map</a>
+      <a class="transition hover:text-green-400 block" href="#exhibits">Virtual Exhibits</a>
+      <a class="transition hover:text-green-400 block" href="#search">Search Records</a>
+      <a class="transition hover:text-green-400 block" href="#timeline">Historical Timeline</a>
+      <a class="transition hover:text-green-400 block" href="#donate">Support Us</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="flex items-center justify-center hero-image text-center text-white" id="blog-hero">
+  <div class="px-4 container mx-auto">
+    <h1 class="font-bold text-4xl mb-4 md:text-6xl">{{ page.title }}</h1>
+   {% assign author_slug = page.author | slugify %}
+{% for author in site.authors %}
+  {% if author.slug == author_slug %}
+    <p class="mb-8 md:text-2xl text-xl">{{ page.date | date: "%B %d, %Y" }} | By {{ author.name }}</p>
+    {% break %} <!-- Exit the loop after finding the matching author -->
+  {% endif %}
+{% endfor %}
+
+  </div>
+</section>
+
+<!-- Breadcrumbs with Previous and Next Article -->
+<nav class="flex justify-between items-center px-4 py-3 container mx-auto" aria-label="Breadcrumb">
+  <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
+      <li class="inline-flex items-center">
+        <a href="{{ base_url }}" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white">
+          <svg class="w-3 h-3 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+            <path d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z"/>
+          </svg>
+          Home
+        </a>
+      </li>
+      <li>
+        <div class="flex items-center">
+          <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+          </svg>
+          <a href="{{ base_url }}/blog" class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">Blog</a>
+        </div>
+      </li>
+      <li aria-current="page">
+        <div class="flex items-center">
+          <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+          </svg>
+          <span class="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">{{ page.title }}</span>
+        </div>
+      </li>
+  </ol>
+
+ <!-- Previous & Next Buttons -->
+    <div class="flex space-x-4 ml-auto">
+      {% if page.previous %}
+        {% assign prev_slug = page.previous.url| split: '/' | last %}
+        <a href="{{ 'blog' | relative_url }}/{{ prev_slug }}" class="text-gray-600 hover:text-gray-800 transition">
+          <span class="inline sm:hidden">←</span>
+          <span class="hidden sm:inline">← Previous Article</span>
+        </a>
+      {% endif %}
+      {% if page.next %}
+      {% assign next_slug = page.next.url | split: '/' | last %}
+        <a href="{{ 'blog' | relative_url }}/{{ next_slug }}" class="text-gray-600 hover:text-gray-800 transition">
+          <span class="inline sm:hidden">→</span>
+          <span class="hidden sm:inline">Next Article →</span>
+        </a>
+      {% endif %}
+    </div>
+</nav>
+
+<!-- Blog Post Content Section -->
+<section class="bg-white py-12" id="blog-content">
+  <div class="px-4 container mx-auto max-w-4xl">
+    <div class="mb-12">
+      <img alt="Historical Artifact" class="w-full h-96 object-cover rounded-lg shadow-md mb-6" src="{{ page.image | default: '/api/placeholder/800/600' }}">
+      <p class="text-gray-600 italic text-center">{{ page.image_caption | default: "A recently uncovered photograph of a pioneer family, circa 1850s." }}</p>
+    </div>
+
+    <div class="space-y-6 markdown">
+      {{ content }}
+    </div>
+
+    <div class="mt-12 pt-6 border-t border-gray-200 flex items-center justify-between">
+      <div class="flex items-center space-x-4">
+
+  
+      {% for author in site.authors %}
+  {% if author.slug == author_slug %}
+<img alt="{{ author.name }}" class="w-12 h-12 rounded-full object-cover" src="{{ author.author_image | default: 'https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_960_720.png' }}">
+        <div>    
+    <a class="text-gray-700 font-semibold hover:text-gray-900" href="{{ site.baseurl }}/blog/authors/{{ author.slug }}">{{ author.name }}</a>
+    <p class="text-gray-700 text-sm">{{ author.role | default: "Heritage Volunteer" }}</p>
+    {% break %} <!-- Exit the loop after finding the matching author -->
+  {% endif %}
+{% endfor %}
+        </div>
+      </div>
+      <div class="flex space-x-4">
+
+{% for author in site.authors %}
+  {% if author.slug == author_slug %}
+    <a href="{{ author.social.facebook }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-facebook-f"></i></a>
+    <a href="{{ author.social.twitter }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-twitter"></i></a>
+    <a href="{{ author.social.linkedin }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-linkedin-in"></i></a>
+    {% break %} <!-- Exit the loop once the first match is found -->
+  {% endif %}
+{% endfor %}
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Related Content Section -->
+<section class="bg-gray-100 py-12">
+  <div class="px-4 container mx-auto text-center">
+    <h2 class="font-bold text-3xl text-gray-800 mb-6">Explore More</h2>
+    <p class="text-gray-600 mx-auto max-w-3xl mb-8">Dive deeper into Crediton’s history with related exhibits and posts, or share your own insights with us.</p>
+    <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 justify-center">
+      <a href="{{ base_url }}/exhibits" class="font-bold text-white transition bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg">View Exhibits</a>
+      <a href="{{ base_url }}/contact-us" class="font-bold text-white transition bg-gray-700 hover:bg-gray-800 px-6 py-3 rounded-lg">Contribute a Story</a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+{% include footer.html %}
+
+<script>
+  document.getElementById('menu-toggle').addEventListener('click', () => {
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileMenu.classList.toggle('hidden');
+  });
+</script>
+
+</body>
+</html>
+{% endif %}
