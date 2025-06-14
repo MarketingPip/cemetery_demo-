@@ -82,7 +82,9 @@ collections:
   books:
     output: true
     permalink: /resources/:collection/:title/
-    
+  exhibits:
+    output: true
+    permalink: /exhibits/:slug/    
 # Plugins
 plugins:
  # - octopress-minify-html
