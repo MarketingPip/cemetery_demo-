@@ -1362,7 +1362,7 @@ function debounce(func, wait) {
       if (startPage > 1) {
         const ellipsis = document.createElement('span');
         ellipsis.textContent = '...';
-        ellipsis.classList.add('px-3', 'py-1', 'text-gray-700');
+        ellipsis.classList.add('px-3', 'py-1', 'text-gray-700', 'hidden', 'sm:inline');
         pageNumbers.appendChild(ellipsis);
       }
 
@@ -1386,7 +1386,7 @@ function debounce(func, wait) {
       if (endPage < pageCount) {
         const ellipsis = document.createElement('span');
         ellipsis.textContent = '...';
-        ellipsis.classList.add('px-3', 'py-1', 'text-gray-700' 'hidden', 'sm:inline');
+        ellipsis.classList.add('px-3', 'py-1', 'text-gray-700', 'hidden', 'sm:inline');
         pageNumbers.appendChild(ellipsis);
       }
     }
