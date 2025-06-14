@@ -1711,16 +1711,16 @@ function smoothLeafletDebounce() {
 
   
 markers.on('click', function (a) {
-   smoothLeafletDebounce()
+//   smoothLeafletDebounce()
 });
 
 markers.on('clusterclick', function (a) {
-    smoothLeafletDebounce()
+   // smoothLeafletDebounce()
 });
   
 // Popup open handler for lazy loading
 map.on('popupopen', function (e) {
-   _debounceCancel = true;
+ //  _debounceCancel = true;
   // smoothLeafletDebounce()	
   const popup = e.popup;
 
@@ -1737,9 +1737,9 @@ map.on('popupclose', function (e) {
 
 // Update markers function
 function updateMarkers() {
-    if( _debounceCancel){
+ /*   if( _debounceCancel){
       return;
-    };
+    };*/ 
     const bounds = map.getBounds();
     markers.clearLayers();
 
@@ -1763,7 +1763,7 @@ function updateMarkers() {
 
 // Add debounced event listeners
 const debouncedUpdate = debounce(updateMarkers, 250);
-map.on('moveend', debouncedUpdate);
+map.on('moveend', updateMarkers);
 
 // Initial setup
 map.addLayer(markers);
