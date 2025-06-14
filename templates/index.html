@@ -1748,7 +1748,7 @@ function updateMarkers() {
         latitude = parseFloat(latitude);
         longitude = parseFloat(longitude);
 
-        if (latitude && longitude && bounds.contains([latitude, longitude])) {
+        if (latitude && longitude) {
             const marker = L.marker([latitude, longitude])
                 .bindPopup(L.popup({
                     ...customOptions,
