@@ -113,13 +113,13 @@ title: Blog
       <span class="px-3 py-1 rounded border border-gray-300 text-gray-700 opacity-50 cursor-not-allowed">Previous</span>
     {% endif %}
 
-    <div id="page-numbers" class="flex space-x-2">
-      {% for page in (1..paginator.total_pages) %}
-        <a href="{{ paginator.path | replace: ':num', page }}" class="px-3 py-1 border rounded text-gray-700 hover:bg-gray-50 {% if paginator.page == page %} bg-gray-300 {% endif %}">
-          {{ page }}
-        </a>
-      {% endfor %}
-    </div>
+<div id="page-numbers" class="flex space-x-2">
+  {% for page in (1..paginator.total_pages) %}
+    <a href="{{ '/exhibits/page' | append: page | prepend: site.baseurl }}" class="px-3 py-1 border rounded text-gray-700 hover:bg-gray-50 {% if paginator.page == page %} bg-gray-300 {% endif %}">
+      {{ page }}
+    </a>
+  {% endfor %}
+</div>
 
     {% if paginator.next_page %}
       <a href="{{ paginator.next_page_path }}" class="px-3 py-1 rounded border border-gray-300 text-gray-700 hover:bg-gray-50">Next</a>
