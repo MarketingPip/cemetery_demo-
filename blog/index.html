@@ -115,27 +115,21 @@ title: Blog
     <span class="px-4 py-2 rounded-lg bg-gray-200 text-gray-400 cursor-not-allowed">Previous</span>
   {% endif %}
 
-  <!-- Page Numbers -->
-  <div id="page-numbers" class="flex space-x-2">
-    {% assign max_pages = 5 %}
-    
-    {% assign start_page = paginator.page > max_pages / 2 ? paginator.page - max_pages / 2 : 1 %}
-    {% assign end_page = paginator.page + max_pages / 2 > paginator.total_pages ? paginator.total_pages : paginator.page + max_pages / 2 %}
-    
-    <!-- Display the page range around the current page -->
-    {% for page in (start_page..end_page) %}
-      {% if page == 1 %}
-        <a href="{{ '/blog/' | prepend: site.baseurl }}" class="px-3 py-1 border rounded-lg text-gray-700 hover:bg-gray-50 {% if paginator.page == page %} bg-gray-300 {% endif %}">
-          {{ page }}
-        </a>
-       {% else %}
-        <a href="{{ '/blog/page' | append: page | prepend: site.baseurl }}" class="px-3 py-1 border rounded-lg text-gray-700 hover:bg-gray-50 {% if paginator.page == page %} bg-gray-300 {% endif %}">
-          {{ page }}
-        </a>
-      {% endif %}
-    {% endfor %}
+<!-- Page Numbers -->
+<div id="page-numbers" class="flex space-x-2">
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == 1 %}
+      <a href="{{ '/blog/' | prepend: site.baseurl }}" class="px-3 py-1 border rounded-lg text-gray-700 hover:bg-gray-50 {% if paginator.page == page %} bg-gray-300 {% endif %}">
+        {{ page }}
+      </a>
+    {% else %}
+      <a href="{{ '/blog/page' | append: page | prepend: site.baseurl }}" class="px-3 py-1 border rounded-lg text-gray-700 hover:bg-gray-50 {% if paginator.page == page %} bg-gray-300 {% endif %}">
+        {{ page }}
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>
 
-  </div>
 
   <!-- Next Button -->
   {% if paginator.next_page %}
