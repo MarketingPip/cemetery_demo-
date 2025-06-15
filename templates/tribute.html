@@ -189,6 +189,7 @@ permalink: /tribute/
             <div class="flex flex-col space-y-2 w-full">
               <p><strong>Birth Date:</strong> <span id="tribute-birth">N/A</span></p>
               <p><strong>Death Date:</strong> <span id="tribute-death">N/A</span></p>
+              <p><strong>Age:</strong> <span id="tribute-age">N/A</span></p>
               <p><strong>Cemetery:</strong> <span id="tribute-cemetery">Crediton Cemetery</span></p>
               <p><strong>Location:</strong> <span id="tribute-location">Crediton</span></p>
               <!-- Share & Print Buttons -->
@@ -514,6 +515,59 @@ function renderSection(title, people) {
     `;
 }
 
+
+// Age Helpers
+
+function calculateAge(birthDate, endDate) {
+  const birthYear = parseInt(birthDate.substring(0, 4));
+  const birthMonth = parseInt(birthDate.substring(5, 7));
+  const birthDay = parseInt(birthDate.substring(8, 10));
+
+  const endYear = endDate ? parseInt(endDate.substring(0, 4)) : new Date().getFullYear();
+  const endMonth = endDate ? parseInt(endDate.substring(5, 7)) : new Date().getMonth() + 1;
+  const endDay = endDate ? parseInt(endDate.substring(8, 10)) : new Date().getDate();
+
+  let age = endYear - birthYear;
+
+  if (endMonth < birthMonth || (endMonth === birthMonth && endDay < birthDay)) {
+    age--;
+  }
+
+  return age;
+}
+
+function formatDate(birthDate, deathDate) {
+  // Function to handle the date logic (check empty, null, or placeholder)
+  function handleDate(date) {
+    // If date is empty or null, return "Unknown"
+    if (!date || date === "") {
+      return "Unknown";
+    }
+
+    // Return the date if it's valid
+    return date;
+  }
+
+  // Handle both birth and death dates
+  const birth = handleDate(birthDate);
+  const death = handleDate(deathDate);
+
+  // Calculate age if both dates are valid
+  if (birth !== "Unknown" && death !== "Unknown") {
+    const age = calculateAge(birth, death);
+
+    // Check if the birth or death date contained -00-00, if so, prepend "About"
+    if (birth.includes("-00-00") || death.includes("-00-00")) {
+      return `About ${age}`;
+    }
+
+    return age; // Return age as a number
+  }
+
+  // If any date is "Unknown", return "Unknown"
+  return "Unknown";
+}    
+  
 // Main function to render the entire family
 function renderFamily(family) {
     const container = document.getElementById('family-members-container');
@@ -594,6 +648,7 @@ if (siblingsSection && childrenSection) {
       document.getElementById('tribute-image').alt = `Photo of ${tribute.name}`;
       document.getElementById('tribute-birth').textContent = tribute.birth_date;
       document.getElementById('tribute-death').textContent = tribute.death_date;
+      document.getElementById('tribute-age').textContent = formatDate(tribute.birth_date,tribute.death_date);
       document.getElementById('tribute-cemetery').textContent = tribute.cemetery;
       document.getElementById('tribute-location').textContent = tribute.location;
       document.getElementById('tribute-bio').innerHTML = `<strong>Bio:</strong> ${tribute.bio ? tribute.bio : 'Bio not available'}`;
