@@ -85,24 +85,50 @@ title: Blog
 
   <!-- Exhibits Section -->
 <section class="bg-white py-12" id="exhibits">
-  <div class="px-4 container mx-auto">
-    <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Our Exhibits</h2>
-    <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Discover a variety of exhibits that bring Crediton’s past to life. Each showcase offers a unique perspective on the community’s heritage, from its founding families to its artistic monuments.</p>
-    
-    <div id="exhibit-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <!-- Exhibit Cards will be injected here -->
+<div class="px-4 container mx-auto">
+  <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Our Exhibits</h2>
+  <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Discover a variety of exhibits that bring Crediton’s past to life. Each showcase offers a unique perspective on the community’s heritage, from its founding families to its artistic monuments.</p>
+
+  <!-- Exhibit Grid -->
+  <div id="exhibit-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {% for exhibit in paginator.posts %}
+      <div>
+        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden exhibit-card">
+          <img alt="{{ exhibit.title }}" class="w-full h-48 object-cover" src="{{ exhibit.image_url | default: 'https://placeholder.pagebee.io/api/random/400/300' }}">
+          <div class="p-6">
+            <h3 class="font-bold text-xl mb-2">{{ exhibit.title }}</h3>
+            <p class="text-gray-600 mb-4">{{ exhibit.excerpt }}</p>
+            <a href="{{ exhibit.url }}" class="font-bold text-green-700 hover:text-green-900 transition">View Exhibit</a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- Pagination Controls -->
+  <div class="flex justify-center space-x-2 items-center mt-8" id="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="px-3 py-1 rounded border border-gray-300 text-gray-700 hover:bg-gray-50">Previous</a>
+    {% else %}
+      <span class="px-3 py-1 rounded border border-gray-300 text-gray-700 opacity-50 cursor-not-allowed">Previous</span>
+    {% endif %}
+
+    <div id="page-numbers" class="flex space-x-2">
+      {% for page in (1..paginator.total_pages) %}
+        <a href="{{ paginator.path | replace: ':num', page }}" class="px-3 py-1 border rounded text-gray-700 hover:bg-gray-50 {% if paginator.page == page %} bg-gray-300 {% endif %}">
+          {{ page }}
+        </a>
+      {% endfor %}
     </div>
 
-    <!-- Pagination Controls -->
-<div class="flex justify-center space-x-2 items-center mt-8" id="pagination">
-  <button id="prev-page" class="px-3 py-1 rounded border border-gray-300 text-gray-700 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed" disabled>Previous</button>
-  <div id="page-numbers" class="flex space-x-2">
-    <!-- Page Numbers will be dynamically injected here -->
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="px-3 py-1 rounded border border-gray-300 text-gray-700 hover:bg-gray-50">Next</a>
+    {% else %}
+      <span class="px-3 py-1 rounded border border-gray-300 text-gray-700 opacity-50 cursor-not-allowed">Next</span>
+    {% endif %}
   </div>
-  <button id="next-page" class="px-3 py-1 rounded border border-gray-300 text-gray-700 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed">Next</button>
-</div>
 
-  </div>
+</div>
 </section>
 
 
@@ -131,164 +157,6 @@ title: Blog
       mobileMenu.classList.toggle('hidden');
     });
 
-const exhibits = [
-  {
-    title: "Pioneers of Crediton",
-    description: "Discover the stories of the founding families who established Crediton in the 1850s. This exhibit features rare photographs, documents, and personal accounts.",
-    link: "early-pioneers",
-    image: "https://placeholder.pagebee.io/api/random/400/300"
-  },
-  {
-    title: "Architectural Heritage",
-    description: "Explore the artistic and symbolic elements found in Crediton’s historic monuments and markers, reflecting changing attitudes toward death and remembrance.",
-    link: "architecture-of-crediton",
-    image: "https://placeholder.pagebee.io/api/random/400/300"
-  },
-  {
-    title: "War Veterans",
-    description: "Honor the memory of local veterans from various conflicts who are interred at Crediton Cemetery, including their service records and personal stories.",
-    link: "veterans-of-crediton-ontario",
-    image: "https://placeholder.pagebee.io/api/random/400/300"
-  },
-  {
-    title: "Lulu Odell Gaiser: A Trailblazer in Science and Education",
-    description: "Discover the life and legacy of Lulu Odell Gaiser, a pioneer in plant pathology and a leader in academic advocacy for women.",
-    link: "lulu-odell-gaiser",
-    image: "https://rbg-1c124.kxcdn.com/app/uploads/Gaiser.jpg?x14255"
-  },
-  {
-    title: "The Haist Family and the Arrival of the First Car in Crediton",
-    description: "In 1909, the Haist family brought the first automobile to Crediton, sparking excitement in the village.",
-    link: "haist-1909-crediton-ontario-first-car",
-    image: "https://rbg-1c124.kxcdn.com/app/uploads/Gaiser.jpg?x14255"
-  },
-  {
-    title: "Henry Eilber: Ontario Businessman and Politician",
-    description: "Learn about Henry Eilber's contributions to Ontario politics, business, and community leadership.",
-    link: "henry-eilber-home",
-    image: "https://www.southhuron.ca/media/maqpfocj/eilber-house.png"
-  }
-];
-
-
-      
- 
-// Initialize pagination and exhibit grid
-function initPagination({ 
-  records, 
-  recordsPerPage, 
-  currentPage, 
-  updateGridCallback, 
-  paginationContainerId 
-}) {
-  const paginationContainer = document.getElementById(paginationContainerId);
-  const pageNumbers = paginationContainer.querySelector('#page-numbers');
-  const prevPageBtn = paginationContainer.querySelector('#prev-page');
-  const nextPageBtn = paginationContainer.querySelector('#next-page');
-
-  function updatePaginationControls() {
-    const pageCount = Math.ceil(records.length / recordsPerPage);
-    pageNumbers.innerHTML = '';
-
-    prevPageBtn.disabled = currentPage === 1;
-    nextPageBtn.disabled = currentPage === pageCount || pageCount === 0;
-
-    const pageNumberWindowSize = 5;
-    let startPage = Math.max(1, currentPage - Math.floor(pageNumberWindowSize / 2));
-    let endPage = Math.min(pageCount, startPage + pageNumberWindowSize - 1);
-
-    if (endPage - startPage < pageNumberWindowSize - 1) {
-      startPage = Math.max(1, endPage - pageNumberWindowSize + 1);
-    }
-
-    if (startPage > 1) {
-      const ellipsis = document.createElement('span');
-      ellipsis.textContent = '...';
-      ellipsis.classList.add('px-3', 'py-1', 'text-gray-700');
-      pageNumbers.appendChild(ellipsis);
-    }
-
-    for (let i = startPage; i <= endPage; i++) {
-      const pageBtn = document.createElement('button');
-      pageBtn.textContent = i;
-      pageBtn.classList.add('px-3', 'py-1', 'border', 'rounded', 'text-gray-700', 'hover:bg-gray-50');
-      if (i === currentPage) {
-        pageBtn.classList.add('bg-gray-300');
-      }
-      pageBtn.addEventListener('click', () => {
-        currentPage = i;
-        updateGrid();
-        updatePaginationControls();
-      });
-      pageNumbers.appendChild(pageBtn);
-    }
-
-    if (endPage < pageCount) {
-      const ellipsis = document.createElement('span');
-      ellipsis.textContent = '...';
-      ellipsis.classList.add('px-3', 'py-1', 'text-gray-700');
-      pageNumbers.appendChild(ellipsis);
-    }
-  }
-
-  function updateGrid() {
-    const startIndex = (currentPage - 1) * recordsPerPage;
-    const endIndex = startIndex + recordsPerPage;
-    const recordsToDisplay = records.slice(startIndex, endIndex);
-
-    updateGridCallback(recordsToDisplay);
-  }
-
-  prevPageBtn.addEventListener('click', () => {
-    if (currentPage > 1) {
-      currentPage--;
-      updateGrid();
-      updatePaginationControls();
-    }
-  });
-
-  nextPageBtn.addEventListener('click', () => {
-    const pageCount = Math.ceil(records.length / recordsPerPage);
-    if (currentPage < pageCount) {
-      currentPage++;
-      updateGrid();
-      updatePaginationControls();
-    }
-  });
-
-  updateGrid();
-  updatePaginationControls();
-}
-
-// Callback function to update the exhibit grid
-function updateExhibitGrid(exhibitsToDisplay) {
-  const exhibitGrid = document.getElementById('exhibit-grid');
-  exhibitGrid.innerHTML = '';  // Clear existing exhibits
-
-  exhibitsToDisplay.forEach(exhibit => {
-    const exhibitCard = document.createElement('div');
-    exhibitCard.innerHTML = `
-      <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden exhibit-card">
-        <img alt="${exhibit.title}" class="w-full h-48 object-cover" src="${exhibit.image}">
-        <div class="p-6">
-          <h3 class="font-bold text-xl mb-2">${exhibit.title}</h3>
-          <p class="text-gray-600 mb-4">${exhibit.description}</p>
-          <a href="exhibits/${exhibit.link}" class="font-bold text-green-700 hover:text-green-900 transition">View Exhibit</a>
-        </div>
-      </div>
-    `;
-    exhibitGrid.appendChild(exhibitCard);
-  });
-}
-
-// Initialize the pagination for exhibits
-initPagination({
-  records: exhibits,
-  recordsPerPage: 3,  // Set number of exhibits per page
-  currentPage: 1,     // Initial page
-  updateGridCallback: updateExhibitGrid, // Callback to update exhibit grid
-  paginationContainerId: 'pagination'   // ID of the pagination container
-});
   </script>
 </body>
 </html>
