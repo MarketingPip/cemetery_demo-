@@ -79,9 +79,9 @@ collections:
   authors:
     output: true
     permalink: /blog/authors/:path/
-  blog:
-    output: true
-    permalink: /blog/:slug/
+#  blog:
+#    output: true
+#   permalink: /blog/:slug/
   books:
     output: true
     permalink: /resources/:collection/:title/
@@ -94,6 +94,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-assets
   - jekyll-seo-tag
+  - jekyll-paginate
  
 assets:
   compress: true  # Enable CSS and JS compression
