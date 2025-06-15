@@ -17,7 +17,7 @@ module Jekyll
 
       # Create a tag page for each tag
       all_tags.each do |tag|
-        dir = "blog/#{tag}"
+        dir = "blog/tag/#{tag}"
         name = "index.html"
         Jekyll.logger.info "Creating page for tag '#{tag}' at '#{dir}/#{name}'"
 
