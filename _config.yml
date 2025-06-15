@@ -88,6 +88,12 @@ collections:
   exhibits:
     output: true
     permalink: /exhibits/:slug/    
+    pagination:
+      enabled: true
+      per_page: 5
+      paginate_path: "/exhibits/page:num/"
+      index_file: "index.html"
+      layout: "exhibits_index"    
 # Plugins
 plugins:
  # - octopress-minify-html
