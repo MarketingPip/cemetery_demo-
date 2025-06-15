@@ -128,8 +128,7 @@ title: Blog
         <a href="{{ '/blog/' | prepend: site.baseurl }}" class="px-3 py-1 border rounded-lg text-gray-700 hover:bg-gray-50 {% if paginator.page == page %} bg-gray-300 {% endif %}">
           {{ page }}
         </a>
-      {% endif %}
-      {% if page != 1 %}
+       {% else %}
         <a href="{{ '/blog/page' | append: page | prepend: site.baseurl }}" class="px-3 py-1 border rounded-lg text-gray-700 hover:bg-gray-50 {% if paginator.page == page %} bg-gray-300 {% endif %}">
           {{ page }}
         </a>
