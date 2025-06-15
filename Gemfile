@@ -13,6 +13,7 @@ gem 'jekyll-minifier'
 gem 'jekyll-sitemap'
 gem 'jekyll-seo-tag'
 gem 'httpparty'
+gem 'jekyll-paginate'
 
 # If you're using any CSS preprocessors (like Sass), you can add this:
 # gem 'sassc'
