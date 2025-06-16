@@ -1637,7 +1637,7 @@ const getPopupContent = (record) => `
                     <b>Born:</b> ${record.birth_date || 'N/A'}<br>
                     <b>Passed:</b> ${record.death_date || 'N/A'}
                 </p>
-                <a href="${record.memorial_url || '#'}" class="text-blue-600 hover:" target="_blank">View Memorial</a>
+                <a href="tribute?id=${record.id || '#'}" class="text-blue-600 hover:" target="_blank">View Memorial</a>
             </div>
         </div>
         <div class="h-full w-full">
