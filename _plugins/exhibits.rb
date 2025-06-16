@@ -49,7 +49,7 @@ module Jekyll
 
         # Set layout to the exhibits index template
         page.data['layout'] = File.basename(template, '.*')
-
+        page.data['title'] = "Exhibits"
         # Read and render the template content
         template_path = File.join(site.source, template)
         template_content = File.read(template_path)
