@@ -1,6 +1,6 @@
 ---
 layout: null
-permalink: /api
+permalink: /exhibits
 pagination:
   permalink: ''
   enabled: true
@@ -10,7 +10,7 @@ pagination:
 
 <h1>Exhibits</h1>
 <ul>
-{% for item in paginator.items %}
+{% for item in paginator.exhibits%}
   <li>{{ item.title }}</li>
 {% endfor %}
 </ul>
