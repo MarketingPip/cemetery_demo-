@@ -50,6 +50,14 @@ module Jekyll
         # Set layout to the exhibits index template
         page.data['layout'] = File.basename(template, '.*')
 
+        # Read and render the template content
+        template_path = File.join(site.source, template)
+        template_content = File.read(template_path)
+        page.content = template_content
+
+        # Render the page content using Liquid to ensure compatibility
+        page.render(site.layouts, site.site_payload)
+
         # Add the page to the site
         site.pages << page
       end
