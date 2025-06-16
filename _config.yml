@@ -73,6 +73,11 @@ feed_update_period: daily
 feed_update_frequency: 1
 
 paginate: 2 # Number of items per page (adjust as needed)
+pagination: 
+  - paginate:
+      path:       /exhibits/page:num/
+      per_page:   2
+
 paginate_path: "/blog/page:num/" # Path for pagination (for example, /page2/, /page3/, etc.)
 
 collections:
@@ -88,19 +93,13 @@ collections:
   exhibits:
     output: true
     permalink: /exhibits/:slug/    
-    pagination:
-      enabled: true
-      per_page: 5
-      paginate_path: "/exhibits/page:num/"
-      index_file: "index.html"
-      layout: "exhibits_index"    
 # Plugins
 plugins:
  # - octopress-minify-html
   - jekyll-sitemap
   - jekyll-assets
   - jekyll-seo-tag
-  - jekyll-paginate
+  - jekyll-paginator
  
 assets:
   compress: true  # Enable CSS and JS compression
