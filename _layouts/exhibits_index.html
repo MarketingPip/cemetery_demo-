@@ -10,9 +10,12 @@ pagination:
 
 <h1>Exhibits</h1>
 <ul>
-{% for item in paginator.exhibits%}
-  <li>{{ item.title }}</li>
-{% endfor %}
+  {% for exhibit in page.exhibits %}
+    <li>
+      <a href="{{ exhibit.url }}">{{ exhibit.title }}</a>
+      <p>{{ exhibit.date | date: "%B %d, %Y" }}</p>
+    </li>
+  {% endfor %}
 </ul>
 
 {% if paginator.total_pages > 1 %}
