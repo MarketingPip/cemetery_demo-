@@ -73,10 +73,6 @@ feed_update_period: daily
 feed_update_frequency: 1
 
 paginate: 2 # Number of items per page (adjust as needed)
-pagination: 
-  - paginate:
-      path:       /exhibits/page:num/
-      per_page:   2
 
 paginate_path: "/blog/page:num/" # Path for pagination (for example, /page2/, /page3/, etc.)
 
@@ -99,7 +95,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-assets
   - jekyll-seo-tag
-  - jekyll-paginator
+  - jekyll-paginate
  
 assets:
   compress: true  # Enable CSS and JS compression
