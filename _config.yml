@@ -95,7 +95,11 @@ defaults:
       path: "assets/people"
     values:
       people: true
-    
+  - scope:
+      path: "resources/**/*.pdf"
+    values:
+     sitemap: false    
+     
 # Plugins
 plugins:
  # - octopress-minify-html
