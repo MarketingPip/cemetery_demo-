@@ -89,6 +89,13 @@ collections:
   exhibits:
     output: true
     permalink: /exhibits/:slug/    
+
+defaults:
+  - scope:
+      path: "assets/people"
+    values:
+      people: true
+    
 # Plugins
 plugins:
  # - octopress-minify-html
