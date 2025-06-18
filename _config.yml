@@ -79,7 +79,7 @@ paginate_path: "/blog/page:num/" # Path for pagination (for example, /page2/, /p
 collections:
   authors:
     output: true
-    permalink: /blog/authors/:path/
+    permalink: /authors/:path/
 #  blog:
 #    output: true
 #   permalink: /blog/:slug/
