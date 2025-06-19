@@ -65,19 +65,22 @@ layout: post
 title: "test"
 author: "jane-doe"
 date: 2025-03-15 22:39:53
+expire_date: 2025-03-15
 hero_image: "/path/to/hero-image.jpg"
 author_image: "/path/to/author-image.jpg"
 image: "/path/to/post-image.jpg"
 image_caption: "A recently uncovered photograph of a pioneer family, circa 1850s."
+redirect-to: /deleted
 ---
 Hey guys!-
 ```
 
-* **author**: The author identifier (e.g., `"jane-doe"`). This should match the `author` field in the author markdown file.
+* **author**: Required: The author identifier (e.g., `"jane-doe"`). This should exactly match the filename of the corresponding author markdown file in the `_authors` directory.
 * **hero\_image**: Optional image for the blog post's hero section.
-* **author\_image**: Optional image for the author's section within the post.
 * **image**: Optional image for the blog post.
 * **image\_caption**: Optional caption for the post image.
+* **expire\_date**: *(Optional)* The date when the post should expire or be archived.
+* **redirect\_to**: *(Optional)* A URL or path to which this post should redirect if accessed. **Note**: Expired posts will automatically be redirected to `"/deleted"`
 
 ### File Structure
 
