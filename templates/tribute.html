@@ -421,9 +421,11 @@ photoItems.forEach((img) => {
 function exhibitMentions(exhibitsData, targetId) {
   if (!Array.isArray(exhibitsData.exhibits)) return null;
 
+  const idStr = String(targetId);
+
   const matches = exhibitsData.exhibits.filter(exhibit =>
     Array.isArray(exhibit.idMentions) &&
-    exhibit.idMentions.includes(targetId)
+    exhibit.idMentions.some(id => String(id) === idStr)
   );
 
   return matches.length ? matches : null;
