@@ -6,20 +6,22 @@ permalink: /search.json
   {% assign pages_and_posts = site.posts | concat: site.pages %}
   {% assign items = "" %}
   {% for item in pages_and_posts %}
-    {% if item.robots != "noindex, nofollow" and (item.addToSearch == true or item.addToSearch == nil) %}
-      {% capture item_json %}
-        {
-          "title"    : "{{ item.title | escape }}",
-          "category" : "{{ item.category | default: 'Uncategorized' }}",
-          "tags"     : "{{ item.tags | join: ', ' }}",
-          "url"      : "{{ site.baseurl }}{{ item.url }}",
-          "date"     : "{{ item.date | date: '%Y-%m-%d' }}"
-        }
-      {% endcapture %}
-      {% assign items = items | append: item_json %}
-      {% unless forloop.last %}
-        {% assign items = items | append: ',' %}
-      {% endunless %}
+    {% if item.robots != "noindex, nofollow" %}
+      {% if item.addToSearch == true or item.addToSearch == nil %}
+        {% capture item_json %}
+          {
+            "title"    : "{{ item.title | escape }}",
+            "category" : "{{ item.category | default: 'Uncategorized' }}",
+            "tags"     : "{{ item.tags | join: ', ' }}",
+            "url"      : "{{ site.baseurl }}{{ item.url }}",
+            "date"     : "{{ item.date | date: '%Y-%m-%d' }}"
+          }
+        {% endcapture %}
+        {% assign items = items | append: item_json %}
+        {% unless forloop.last %}
+          {% assign items = items | append: ',' %}
+        {% endunless %}
+      {% endif %}
     {% endif %}
   {% endfor %}
   {{ items }}
