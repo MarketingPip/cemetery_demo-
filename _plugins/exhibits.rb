@@ -19,7 +19,7 @@ module Jekyll
       return unless site.collections['exhibits']
 
       exhibits = site.collections['exhibits'].docs.sort_by { |doc| doc.date }.reverse
-      per_page = site.config['exhibits_per_page'] || 10
+      per_page = site.config['paginate'] || 10
       total_pages = (exhibits.size.to_f / per_page).ceil
       template = site.config['exhibits_index_template'] || '_layouts/exhibits_index.html'
 
