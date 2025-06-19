@@ -719,7 +719,7 @@ function initializeMap(coordinates, locationName) {
 
        if (exhibits) {
   tribute.resources.push(
-    ...matches.map(ex => ({
+    ...exhibits.map(ex => ({
       url: `/exhibits/${ex.exhibit}`,
       title: "Referenced in Exhibit"
     }))
