@@ -21,7 +21,7 @@ module Jekyll
       @author = author
 
       # Define the path for the new page (e.g., /tutorials/authors/author1/)
-      author_id = author.slug
+      author_id = author.data['slug']
       @dir = "exhibits/authors"
       @name = "#{author_id}/index.html"
 
