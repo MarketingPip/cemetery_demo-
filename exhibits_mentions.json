@@ -4,7 +4,7 @@ permalink: /exhibits_mentions.json
 ---
 {
   "exhibits": [
-    {% assign exhibits_with_mentions = site.exhibits | where_exp: "exhibit", "exhibit.peopleMentioned" %}
+    {% assign exhibits_with_mentions = site.exhibits | where_exp: "exhibit", "exhibit.idMentions" %}
     {% for exhibit in exhibits_with_mentions %}
       {
         "exhibit": "{{ exhibit.slug }}",
