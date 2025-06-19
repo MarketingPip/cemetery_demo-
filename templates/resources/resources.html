@@ -138,8 +138,8 @@ title: Resources
   <div class="px-4 container mx-auto">
     <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Downloadable Resources</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
-      
-      {% for resource in site.data.resources.downloadableResources %}
+      {% assign limited_resources = site.data.resources.downloadableResources | slice: 0, 3 %}
+      {% for resource in limited_resources %}
         <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md resource-card p-6">
           <div class="flex items-center mb-4">
             <i class="{{ resource.icon }} {{ resource.color }} text-2xl mr-4"></i>
@@ -164,8 +164,8 @@ title: Resources
   <div class="px-4 container mx-auto">
     <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">External Resources</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-      
-      {% for link in site.data.resources.externalResources %}
+      {% assign limited_externalResources = site.data.resources.externalResources | slice: 0, 6 %}
+      {% for link in limited_externalResources %}
         <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md resource-card p-6">
           <div class="flex items-center mb-4">
             <i class="{{ link.icon }} {{ link.color }} text-2xl mr-4"></i>
@@ -191,8 +191,8 @@ title: Resources
   <div class="px-4 container mx-auto">
     <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Tools</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
-      
-      {% for tool in site.data.resources.tools %}
+      {% assign limited_tools = site.data.resources.tools | slice: 0, 3 %}
+      {% for tool in limited_tools %}
         <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md tool-card p-6">
           <div class="flex items-center mb-4">
             <i class="{{ tool.icon }} {{ tool.color }} text-2xl mr-4"></i>
