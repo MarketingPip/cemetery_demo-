@@ -7,15 +7,9 @@ permalink: /exhibits_mentions.json
     {% assign exhibits_with_mentions = site.exhibits | where_exp: "exhibit", "exhibit.idMentions" %}
     {% for exhibit in exhibits_with_mentions %}
       {
-        "exhibit": "{{ exhibit.slug }}",
-        "idMentions": [
-          {% for id in exhibit.idMentions %}
-            "{{ id }}"
-            {% if forloop.last == false %},{% endif %}
-          {% endfor %}
-        ]
-      }
-      {% if forloop.last == false %},{% endif %}
+        "exhibit": "{{ exhibit.slug | escape }}",
+        "idMentions": [{% for id in exhibit.idMentions %}"{{ id | escape }}"{% unless forloop.last %}, {% endunless %}{% endfor %}]
+      }{% unless forloop.last %}, {% endunless %}
     {% endfor %}
   ]
 }
