@@ -369,7 +369,7 @@ function populateFamilyMemorialLink(familyName) {
     
     // Construct the URL for the search link (replace with actual base URL if needed)
     const url = new URL(seeOtherLink.href);  // Existing URL in the href attribute
-    url.searchParams.set('family', familyName);  // Assuming you want to search by family name
+    url.searchParams.set('surname', familyName);  // Assuming you want to search by family name
     
     // Update the href attribute with the new URL
     seeOtherLink.href = url.toString();
