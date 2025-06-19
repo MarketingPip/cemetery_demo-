@@ -1,0 +1,18 @@
+---
+layout: none
+permalink: /authors.json
+---
+{
+  "authors": [
+    {% assign authors_by_letter = site.authors | sort: "name" | uniq: "slug" %}
+    {% for author in authors_by_letter %}
+      {
+        "username": "{{ author.slug }}",
+        "name": "{{ author.name }}",
+        "author_name": "{{ author.author_name }}",
+        "image": "{{ author.author_image }}"
+      }
+      {% if forloop.last == false %},{% endif %}
+    {% endfor %}
+  ]
+}
