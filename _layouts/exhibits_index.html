@@ -14,6 +14,11 @@ title: Exhibits
     <meta name="description" content="Explore the rich history and stories of Crediton Cemetery through curated virtual exhibits, showcasing the heritage and notable figures in Crediton, Ontario.">
     <meta name="keywords" content="Crediton Cemetery, Virtual Exhibits, Historical Cemetery, Heritage, Ontario, Pioneers, War Veterans, Lulu Odell Gaiser, Historical Monuments, Art and Architecture">
     <meta name="author" content="Crediton Cemetery Heritage Portal Team">
+      {% if paginator and paginator.page == 1 %}
+    <meta name="robots" content="index, follow" />
+  {% else %}
+    <meta name="robots" content="noindex, follow" />
+  {% endif %}
 
     <!-- Title of the page for SEO -->
     <title>{{page.title}} | {{site.title}}</title>
