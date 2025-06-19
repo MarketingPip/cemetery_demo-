@@ -669,7 +669,7 @@ html {
         Explore our digital exhibits showcasing the rich history and heritage of Crediton Cemetery and its community.
       </p>
 
- {% assign exhibit_posts = site.posts | where: "category", "exhibit" | limit: 3 %}
+{% assign exhibit_posts = site.exhibits | sort: 'date' | reverse | limit: 3 %}
     
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
       {% for post in exhibit_posts %}
