@@ -23,39 +23,7 @@ permalink: /404.html
 </head>
 <body class="bg-gray-100 font-sans">
   <!-- Navigation -->
-  <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
-    <div class="px-4 py-3 container mx-auto">
-      <div class="flex items-center justify-between">
-        <div class="flex items-center space-x-2">
-          <i class="fas fa-tree text-green-400"></i>
-          <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
-        </div>
-        <div class="hidden md:flex space-x-6">
-          <a class="transition hover:text-green-400" href="#home">Home</a>
-          <a class="transition hover:text-green-400" href="#map">Interactive Map</a>
-          <a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a>
-          <a class="transition hover:text-green-400" href="#search">Search Records</a>
-          <a class="transition hover:text-green-400" href="#timeline">Historical Timeline</a>
-          <a class="transition hover:text-green-400" href="#donate">Support Us</a>
-        </div>
-        <div class="md:hidden">
-          <button class="focus:outline-none" id="menu-toggle">
-            <i class="fas fa-bars"></i>
-          </button>
-        </div>
-      </div>
-    </div>
-    <div class="hidden md:hidden" id="mobile-menu">
-      <div class="px-4 container mx-auto flex flex-col py-2 space-y-3">
-        <a class="transition hover:text-green-400 block" href="#home">Home</a>
-        <a class="transition hover:text-green-400 block" href="#map">Interactive Map</a>
-        <a class="transition hover:text-green-400 block" href="#exhibits">Virtual Exhibits</a>
-        <a class="transition hover:text-green-400 block" href="#search">Search Records</a>
-        <a class="transition hover:text-green-400 block" href="#timeline">Historical Timeline</a>
-        <a class="transition hover:text-green-400 block" href="#donate">Support Us</a>
-      </div>
-    </div>
-  </nav>
+{% include navigation.html %}
 
   <!-- Hero Section -->
   <section class="flex items-center justify-center hero-image text-center text-white" id="404-hero">
@@ -74,8 +42,8 @@ permalink: /404.html
         <p class="text-gray-600 mb-8">The page you’re looking for doesn’t exist or may have been moved. Don’t worry—let’s get you back on track. Here are some options to explore:</p>
         
         <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 justify-center mb-12">
-          <a href="index" class="font-bold text-white transition bg-green-700 hover:bg-green-900 px-6 py-3 rounded-lg">Return to Home</a>
-          <a href="contact-us" class="font-bold text-white transition bg-gray-700 hover:bg-gray-800 px-6 py-3 rounded-lg">Contact Us</a>
+          <a href="{{base_url}/" class="font-bold text-white transition bg-green-700 hover:bg-green-900 px-6 py-3 rounded-lg">Return to Home</a>
+          <a href="{{base_url}}contact-us" class="font-bold text-white transition bg-gray-700 hover:bg-gray-800 px-6 py-3 rounded-lg">Contact Us</a>
         </div>
 
         <p class="text-gray-600">Still can’t find what you need? Reach out to us, and we’ll help you navigate Crediton Cemetery’s heritage.</p>
@@ -87,31 +55,6 @@ permalink: /404.html
 {% include footer.html %}
 
   <!-- Mobile Menu Toggle Script -->
-
-  <script>
-function redirectToHome() {
-    // Get the current URL
-    const currentUrl = window.location.href;
-
-    // Split the URL into parts by "/"
-    const parts = currentUrl.split('/');
-
-    // Check if the URL contains 'github.io', is not already on a 404 page, and has more than 3 parts
-    if (currentUrl.indexOf('github.io') !== -1 && currentUrl.indexOf('404.html') === -1 && parts.length != 3) {
-        // The URL has more than 3 parts (like https://username.github.io/repo_name/sub/404.html)
-        // Redirect to 404.html
-        const repoName = parts[3];  // Extract the repository name
-        const baseUrl = `https://${parts[2]}/${repoName}/404.html`;
-        window.location.href = baseUrl;  // Redirect to 404.html
-    } else {
-        // If the URL is already on 404.html or has exactly two or three parts, do nothing
-        console.log("Either on 404.html or URL has 2 or 3 parts, no redirect.");
-    }
-}
-
-
-    redirectToHome() 
-</script>
   <script>
     document.getElementById('menu-toggle').addEventListener('click', () => {
       const mobileMenu = document.getElementById('mobile-menu');
