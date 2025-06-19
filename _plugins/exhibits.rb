@@ -31,7 +31,7 @@ module Jekyll
       (1..total_pages).each do |page_number|
         offset = (page_number - 1) * per_page
         page_exhibits = exhibits.slice(offset, per_page)
-        dir = page_number == 1 ? 'exhibits' : "exhibits/page#{page_number}"
+        dir = page_number == 1 ? 'exhibits/' : "exhibits/page#{page_number}"
         name = 'index.html'
 
         page = PaginationPage.new(site, site.source, dir, name, template)
