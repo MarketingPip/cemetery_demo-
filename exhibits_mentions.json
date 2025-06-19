@@ -1,0 +1,21 @@
+---
+layout: none
+permalink: /exhibits_mentions.json
+---
+{
+  "exhibits": [
+    {% assign exhibits_with_mentions = site.exhibits | where_exp: "exhibit", "exhibit.peopleMentioned" %}
+    {% for exhibit in exhibits_with_mentions %}
+      {
+        "exhibit": "{{ exhibit.slug }}",
+        "idMentions": [
+          {% for id in exhibit.peopleMentioned %}
+            "{{ id }}"
+            {% if forloop.last == false %},{% endif %}
+          {% endfor %}
+        ]
+      }
+      {% if forloop.last == false %},{% endif %}
+    {% endfor %}
+  ]
+}
