@@ -174,8 +174,11 @@ layout: default
     
     
 {% assign is_external = false %}
-{% if page.pdfFile and (page.pdfFile contains 'http://' or page.pdfFile contains 'https://') %}
-  {% assign is_external = true %}
+
+{% if page.pdfFile %}
+  {% if page.pdfFile contains 'http://' or page.pdfFile contains 'https://' %}
+    {% assign is_external = true %}
+  {% endif %}
 {% endif %}
 <a id="read-more"
    target="_blank"
