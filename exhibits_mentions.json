@@ -9,7 +9,7 @@ permalink: /exhibits_mentions.json
       {
         "exhibit": "{{ exhibit.slug }}",
         "idMentions": [
-          {% for id in exhibit.peopleMentioned %}
+          {% for id in exhibit.idMentions %}
             "{{ id }}"
             {% if forloop.last == false %},{% endif %}
           {% endfor %}
