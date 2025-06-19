@@ -4,7 +4,7 @@ permalink: /authors.json
 ---
 {
   "authors": [
-    {% for author in authors_by_letter %}
+    {% for author in site.authors %}
       {
         "username": "{{ author.slug }}",
         "name": "{{ author.name }}",
