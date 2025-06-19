@@ -117,8 +117,8 @@
   <!-- Blog Posts Section -->
   <section class="bg-gray-100 py-12" id="author-posts">
     <div class="px-4 container mx-auto">
-      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Posts by {{ page.name }}</h2>
-      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Explore {{ page.name }}’s contributions to our blog.</p>
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Contributions by {{ page.name }}</h2>
+      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Explore {{ page.name }}’s contributions to our website.</p>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
        {% for post in page.posts limit:10 %}
@@ -158,7 +158,7 @@
       </div>
 
       <div class="text-center mt-12">
-        <a href="{{ site.url }}{{ 'blog' | relative_url }}" class="font-bold text-white transition bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg">View All Blog Posts</a>
+        <a href="{{ site.url }}{{ 'blog' | relative_url }}" class="font-bold text-white transition bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg">View All {{ page.name }}'s Work</a>
       </div>
     </div>
   </section>
