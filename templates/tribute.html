@@ -197,6 +197,11 @@ permalink: /tribute/
             <h3 class="text-lg font-semibold">Is this person in your family tree?</h3>
             <p class="text-sm">Learn more about how you are connected <a href="../resources/tools/genealogy-tool" id="gene-link" class="text-blue-600 hover:text-blue-800" title="Relationship Explorer">here</a>.</p>
           </div>
+
+           <div>
+            <h3 class="text-lg font-semibold">Want to see more <strong class="family-name"></strong> memorials?</h3>
+            <p class="text-sm">Find more people with this surname <a href="../search-cemetery" id="see-other" class="text-blue-600 hover:text-blue-800" title="Relationship Explorer">here</a>.</p>
+          </div>
           
           <!-- Tabs Container -->
           <div class="mt-6">
@@ -352,6 +357,27 @@ function renderMarkmap(parents, spouses, children, grandchildren, siblings, pers
   return Markmap.create("#markmap", {}, root);
 }
 
+function populateFamilyMemorialLink(familyName) {
+  // Get the elements by their classes or IDs
+  const familyNameElement = document.querySelector('.family-name');
+  const seeOtherLink = document.getElementById('see-other');
+  
+  // Check if the elements exist
+  if (familyNameElement && seeOtherLink) {
+    // Update the family name in the <strong> tag
+    familyNameElement.textContent = familyName;
+    
+    // Construct the URL for the search link (replace with actual base URL if needed)
+    const url = new URL(seeOtherLink.href);  // Existing URL in the href attribute
+    url.searchParams.set('family', familyName);  // Assuming you want to search by family name
+    
+    // Update the href attribute with the new URL
+    seeOtherLink.href = url.toString();
+  } else {
+    console.error('Required elements not found.');
+  }
+}
+    
     
 function populateGenealogyLink(name, gender) {
   // Get the link element by ID
@@ -683,7 +709,7 @@ const hasTreeData =
 
       // Gene Link 
       populateGenealogyLink(tribute.name, 'm');
-
+      populateFamilyMemorialLink(tribute.name.split(' ').pop());
       // Populate Family Tree HTML View
       renderFamily(tribute);
       
