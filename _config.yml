@@ -72,7 +72,7 @@ feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
 
-paginate: 2 # Number of items per page (adjust as needed)
+paginate: 6 # Number of items per page (adjust as needed)
 
 paginate_path: "/blog/page:num/" # Path for pagination (for example, /page2/, /page3/, etc.)
 
