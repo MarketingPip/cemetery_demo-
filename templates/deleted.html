@@ -24,40 +24,8 @@ sitemap: false
   </style>
 </head>
 <body class="bg-gray-100 font-sans">
-  <!-- Navigation -->
-  <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
-    <div class="px-4 py-3 container mx-auto">
-      <div class="flex items-center justify-between">
-        <div class="flex items-center space-x-2">
-          <i class="fas fa-tree text-green-400"></i>
-          <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
-        </div>
-        <div class="hidden md:flex space-x-6">
-          <a class="transition hover:text-green-400" href="#home">Home</a>
-          <a class="transition hover:text-green-400" href="#map">Interactive Map</a>
-          <a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a>
-          <a class="transition hover:text-green-400" href="#search">Search Records</a>
-          <a class="transition hover:text-green-400" href="#timeline">Historical Timeline</a>
-          <a class="transition hover:text-green-400" href="#donate">Support Us</a>
-        </div>
-        <div class="md:hidden">
-          <button class="focus:outline-none" id="menu-toggle">
-            <i class="fas fa-bars"></i>
-          </button>
-        </div>
-      </div>
-    </div>
-    <div class="hidden md:hidden" id="mobile-menu">
-      <div class="px-4 container mx-auto flex flex-col py-2 space-y-3">
-        <a class="transition hover:text-green-400 block" href="#home">Home</a>
-        <a class="transition hover:text-green-400 block" href="#map">Interactive Map</a>
-        <a class="transition hover:text-green-400 block" href="#exhibits">Virtual Exhibits</a>
-        <a class="transition hover:text-green-400 block" href="#search">Search Records</a>
-        <a class="transition hover:text-green-400 block" href="#timeline">Historical Timeline</a>
-        <a class="transition hover:text-green-400 block" href="#donate">Support Us</a>
-      </div>
-    </div>
-  </nav>
+ <!-- Navigation -->
+{% include navigation.html %}
 
   <!-- Hero Section -->
   <section class="flex items-center justify-center hero-image text-center text-white" id="deleted-hero">
