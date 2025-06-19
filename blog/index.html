@@ -13,6 +13,11 @@ title: Blog
     <meta name="keywords" content="Crediton Cemetery, Virtual Exhibits, Historical Cemetery, Heritage, Ontario, Pioneers, War Veterans, Lulu Odell Gaiser, Historical Monuments, Art and Architecture">
     <meta name="author" content="Crediton Cemetery Heritage Portal Team">
 
+      {% if paginator and paginator.page == 1 %}
+    <meta name="robots" content="index, follow" />
+  {% else %}
+    <meta name="robots" content="noindex, follow" />
+  {% endif %}
     <!-- Title of the page for SEO -->
     <title>{{page.title}} | {{site.title}}</title>
      <link rel="canonical" href="{{site.url}}{{ base_url }}{{ page.permalink }}" />
@@ -22,6 +27,9 @@ title: Blog
     <!-- Font Awesome for icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
+
+
+    
     <!-- Custom styles -->
   <style>
     .hero-image {
@@ -36,6 +44,9 @@ title: Blog
       box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
     }
   </style>
+
+
+    
 </head>
 <body class="bg-gray-50 font-sans">
  <!-- Navigation -->
