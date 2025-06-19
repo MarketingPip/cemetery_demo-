@@ -417,6 +417,39 @@ photoItems.forEach((img) => {
   });
  });
 }     
+
+function exhibitMentions(exhibitsData, targetId) {
+  if (!Array.isArray(exhibitsData.exhibits)) return null;
+
+  const matches = exhibitsData.exhibits.filter(exhibit =>
+    Array.isArray(exhibit.idMentions) &&
+    exhibit.idMentions.includes(targetId)
+  );
+
+  return matches.length ? matches : null;
+}
+
+
+async function getExhibits(tributeId) {
+  const url = `./../exhibits_mentions.json`; // Replace with the actual API URL
+
+  try {
+    // Fetch the JSON data from the URL
+    const response = await fetch(url);
+
+    // Check if the response status is OK (200-299 range)
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+
+    // Parse the response as JSON
+    const data = await response.json();
+    return exhibitMentions(data, tributeId); // Return the data so it can be used elsewhere
+  } catch (error) {
+    return null; // Return null or handle the error as appropriate
+  }
+}
+
     
 async function tributeData(tributeId) {
   const url = `./../assets/people/${tributeId}.json`; // Replace with the actual API URL
@@ -678,7 +711,18 @@ function initializeMap(coordinates, locationName) {
       // Resources
       const resourcesList = document.getElementById('resources-list');
       tribute.resources = [{url:tribute.memorial_url, title:"Find A Grave Tribute"}]; 
-      
+
+        
+      const exhibits = await getExhibits(tribute.id)
+
+       if (exhibits) {
+  tribute.resources.push(
+    ...matches.map(ex => ({
+      url: `/exhibits/${ex.exhibit}`,
+      title: "Referenced in Exhibit"
+    }))
+  );
+}
       resourcesList.innerHTML = '';
       if (tribute.resources && tribute.resources.length > 0) {
         tribute.resources.forEach(resource => {
