@@ -1,0 +1,153 @@
+---
+permalink: /resources/tools/
+title: Tools
+---
+{% assign base_url = site.baseurl | default: "" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>{{page.title}} | {{site.title}}</title>
+  <link rel="canonical" href="{{site.url}}{{ base_url }}{{ page.permalink }}" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40vh;
+    }
+    .resource-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    }
+
+    a[href$=".pdf"]:after {
+    content: "PDF";
+    background: #e83333;
+    border-radius: 0.0625rem;
+    color: #fff;
+    margin-left: 0.5rem;
+    display: inline-block;
+    padding: 0 0.5rem;
+    font: 400 1rem Open Sans,Helvetica,Arial,sans-serif;
+    height: 1.4rem;
+    line-height: 1.5rem;
+    vertical-align: baseline;
+}    
+  </style>
+</head>
+<body class="bg-gray-50 font-sans">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
+    <div class="px-4 py-3 container mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+          <i class="fas fa-tree text-green-400"></i>
+          <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <a class="transition hover:text-green-400" href="#home">Home</a>
+          <a class="transition hover:text-green-400" href="#map">Interactive Map</a>
+          <a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a>
+          <a class="transition hover:text-green-400" href="#search">Search Records</a>
+          <a class="transition hover:text-green-400" href="#timeline">Historical Timeline</a>
+          <a class="transition hover:text-green-400" href="#donate">Support Us</a>
+        </div>
+        <div class="md:hidden">
+          <button class="focus:outline-none" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden md:hidden" id="mobile-menu">
+      <div class="px-4 container mx-auto flex flex-col py-2 space-y-3">
+        <a class="transition hover:text-green-400 block" href="#home">Home</a>
+        <a class="transition hover:text-green-400 block" href="#map">Interactive Map</a>
+        <a class="transition hover:text-green-400 block" href="#exhibits">Virtual Exhibits</a>
+        <a class="transition hover:text-green-400 block" href="#search">Search Records</a>
+        <a class="transition hover:text-green-400 block" href="#timeline">Historical Timeline</a>
+        <a class="transition hover:text-green-400 block" href="#donate">Support Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex items-center justify-center hero-image text-center text-white" id="resources-hero">
+    <div class="px-4 container mx-auto">
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl">Resources</h1>
+      <p class="mb-8 md:text-2xl text-xl">Tools, guides, and links for exploring Crediton Cemetery’s history.</p>
+    </div>
+  </section>
+
+   {% include breadcrumbs/single.html %}
+  <!-- Resources Intro Section -->
+  <section class="bg-white py-12" id="resources-intro">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Explore Our Tools</h2>
+      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Whether you’re a researcher, genealogist, educator, or visitor, we’ve compiled resources to help you learn more about Crediton Cemetery and its heritage. Have a resource to share? <a href="{{ base_url }}/contact-us" class="text-green-700 hover:text-green-900">Contact us</a>.</p>
+    </div>
+  </section>
+
+<section class="bg-gray-50 py-12" id="external-links">
+  <div class="px-4 container mx-auto">
+    <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Tools</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+      
+      {% for link in site.data.resources.tools %}
+        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md resource-card p-6">
+          <div class="flex items-center mb-4">
+            <i class="{{ link.icon }} {{ link.color }} text-2xl mr-4"></i>
+            <h3 class="font-bold text-xl text-gray-800">{{ link.title }}</h3>
+          </div>
+          <p class="text-gray-600 mb-4">{{ link.description }}</p>
+          <a href="{{ link.link }}" target="_blank" rel="noopener noreferrer" class="font-bold text-green-700 hover:text-green-900 transition">Visit Site</a>
+        </div>
+      {% endfor %}
+      
+    </div>
+  </div>
+</section>
+
+
+
+  
+  <!-- Visiting Section -->
+  <section class="bg-white py-12" id="visiting">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Visiting Crediton Cemetery</h2>
+      <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8">
+        <div class="md:w-1/2">
+          <p class="text-gray-600 mb-4"><strong>Hours:</strong> Open daily from dawn to dusk.</p>
+          <p class="text-gray-600 mb-4"><strong>Location:</strong> <a href="https://www.google.com/maps?daddr=40+Victoria+Avenue+West,+Crediton,+Ontario,+Canada" target="_blank"  class="text-blue-600 hover:text-blue-800 items-center"> 40 Victoria Avenue West, Crediton, Ontario, N0M 1M0.</a></p>
+          <p class="text-gray-600 mb-4"><strong>Directions:</strong><a href="https://www.google.com/maps?daddr=40+Victoria+Avenue+West,+Crediton,+Ontario,+Canada" target="_blank" class="text-blue-600 hover:text-blue-800 items-center">
+                Get Directions <i class="fas fa-external-link-alt ml-1"></i></a>
+          </p>
+          <p class="text-gray-600">Check our <a href="{{ base_url }}/events" class="text-green-700 hover:text-green-900" title="Find events in Crediton, Ontario, Canada">Events</a> page for guided tours or special visits. Questions? <a href="{{ base_url }}/contact-us" class="text-green-700 hover:text-green-900">Contact us</a>.</p>
+        </div>
+        <div id="cemetery-map" class="w-full md:w-1/2 h-64 object-cover rounded-lg shadow-md z-10"></div>
+      </div>
+    </div>
+  </section>
+
+<!-- Footer -->
+{% include footer.html %}
+
+
+
+
+  <!-- Mobile Menu Toggle Script -->
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', () => {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+    
+ 
+  </script>
+</body>
+</html>
