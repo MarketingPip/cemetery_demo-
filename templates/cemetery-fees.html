@@ -1,0 +1,206 @@
+---
+permalink: /cemetery-fees/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Cemetery Fees | Crediton Cemetery Heritage Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40vh;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 1rem;
+      border-bottom: 1px solid #e5e7eb; /* Tailwind's gray-200 */
+    }
+    th {
+      background-color: #f3f4f6; /* Tailwind's gray-100 */
+      text-align: left;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 font-sans">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
+    <div class="px-4 py-3 container mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+          <i class="fas fa-tree text-green-400"></i>
+          <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <a class="transition hover:text-green-400" href="#home">Home</a>
+          <a class="transition hover:text-green-400" href="#map">Interactive Map</a>
+          <a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a>
+          <a class="transition hover:text-green-400" href="#search">Search Records</a>
+          <a class="transition hover:text-green-400" href="#timeline">Historical Timeline</a>
+          <a class="transition hover:text-green-400" href="#donate">Support Us</a>
+        </div>
+        <div class="md:hidden">
+          <button class="focus:outline-none" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden md:hidden" id="mobile-menu">
+      <div class="px-4 container mx-auto flex flex-col py-2 space-y-3">
+        <a class="transition hover:text-green-400 block" href="#home">Home</a>
+        <a class="transition hover:text-green-400 block" href="#map">Interactive Map</a>
+        <a class="transition hover:text-green-400 block" href="#exhibits">Virtual Exhibits</a>
+        <a class="transition hover:text-green-400 block" href="#search">Search Records</a>
+        <a class="transition hover:text-green-400 block" href="#timeline">Historical Timeline</a>
+        <a class="transition hover:text-green-400 block" href="#donate">Support Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex items-center justify-center hero-image text-center text-white" id="fees-hero">
+    <div class="px-4 container mx-auto">
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl">Cemetery Fees</h1>
+      <p class="mb-8 md:text-2xl text-xl">Current rates effective July 10, 2022.</p>
+    </div>
+  </section>
+
+  <!-- Fees Intro Section -->
+  <section class="bg-white py-12" id="fees-intro">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Fee Information</h2>
+      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Below are the current fees for Crediton Cemetery services and purchases, effective as of July 10, 2022. No HST is payable at this time. Fees are due at the time of burial unless otherwise noted. For questions or payment arrangements, please <a href="#contact" class="text-green-700 hover:text-green-900">contact us</a>.</p>
+    </div>
+  </section>
+
+  <!-- Interment Charges Section -->
+ <section class="bg-gray-50 py-12" id="interment-charges">
+  <div class="px-4 container mx-auto">
+    <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Interment Charges</h2>
+    <div class="max-w-4xl mx-auto">
+      {% if site.data.cemetery_fees.interment_charges.size > 0 %}
+        <table>
+          <thead>
+            <tr>
+              <th>Service</th>
+              <th>Fee</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for charge in site.data.cemetery_fees.interment_charges %}
+              <tr>
+                <td>{{ charge.service }}</td>
+                <td>{{ charge.fee }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      {% else %}
+        <p class="text-center text-gray-500">Interment Charges information is currently unavailable.</p>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+
+  <!-- Purchase of Graves Section -->
+<section class="bg-white py-12" id="grave-purchase">
+  <div class="px-4 container mx-auto">
+    <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Purchase of Graves</h2>
+    <div class="max-w-4xl mx-auto">
+      {% if site.data.cemetery_fees.grave_purchase.size > 0 %}
+        <table>
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Fee</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for grave in site.data.cemetery_fees.grave_purchase %}
+              <tr>
+                <td>{{ grave.item }}</td>
+                <td>{{ grave.fee }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      {% else %}
+        <p class="text-center text-gray-500">Grave Purchase information is currently unavailable.</p>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+
+  <!-- Care & Maintenance Section -->
+ <section class="bg-gray-50 py-12" id="care-maintenance">
+  <div class="px-4 container mx-auto">
+    <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Care & Maintenance</h2>
+    <p class="text-gray-600 mx-auto text-center max-w-3xl mb-8">Required under the <em>Funeral, Burial and Cremation Services Act, 2002</em>, the following amounts must be paid to the cemetery operator before a marker is installed. Contributions are remitted to an irrevocable cemetery care and maintenance trust fund, with income used for perpetual care and maintenance expenses.</p>
+    <div class="max-w-4xl mx-auto">
+      {% if site.data.cemetery_fees.care_maintenance.size > 0 %}
+        <table>
+          <thead>
+            <tr>
+              <th>Marker Type</th>
+              <th>Fee</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for item in site.data.cemetery_fees.care_maintenance %}
+              <tr>
+                <td>{{ item.marker_type }}</td>
+                <td>{{ item.fee }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      {% else %}
+        <p class="text-center text-gray-500">Care & Maintenance information is currently unavailable.</p>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+  <section class="bg-white py-12">
+    <div class="px-4 container mx-auto text-center">
+      <h2 class="font-bold text-3xl text-gray-800 mb-6">Need Assistance?</h2>
+      <p class="text-gray-600 mx-auto max-w-3xl mb-8">For payment details, availability, or further inquiries, please reach out to our team.</p>
+      <a href="#contact" class="font-bold text-white transition bg-green-700 hover:bg-green-900 px-6 py-3 rounded-lg">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="px-4 container mx-auto text-center">
+      <p>© 2025 Crediton Cemetery Heritage Portal. All rights reserved.</p>
+      <div class="flex justify-center mt-4 space-x-6">
+        <a class="hover:text-white text-gray-400" href="#">Privacy Policy</a>
+        <a class="hover:text-white text-gray-400" href="#">Terms of Service</a>
+        <a class="hover:text-white text-gray-400" href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Menu Toggle Script -->
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', () => {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
