@@ -1,0 +1,197 @@
+---
+permalink: /past-sponsors/
+title: Past Sponsors
+---
+
+{% assign base_url = site.baseurl | default: "" %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Past Sponsors | Crediton Cemetery Heritage Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(/api/placeholder/1200/600);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 50vh;
+    }
+    .sponsor-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, .15);
+    }
+    .sponsor-logo {
+      transition: all 0.3s ease;
+      filter: grayscale(0.3);
+    }
+    .sponsor-logo:hover {
+      filter: grayscale(0);
+      transform: scale(1.05);
+    }
+    .tier-badge {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      z-index: 10;
+    }
+    .heritage-gradient {
+      background: linear-gradient(135deg, #f59e0b, #d97706);
+    }
+    .community-gradient {
+      background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+    }
+    .friend-gradient {
+      background: linear-gradient(135deg, #10b981, #059669);
+    }
+  </style>
+
+  <body class="bg-gray-50 font-sans">
+    <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
+      <div class="px-4 py-3 container mx-auto">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center space-x-2">
+            <i class="fas fa-tree text-green-400"></i>
+            <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
+          </div>
+          <div class="hidden md:flex space-x-6">
+            <a class="transition hover:text-green-400" href="#home">Home</a>
+            <a class="transition hover:text-green-400" href="#map">Interactive Map</a>
+            <a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a>
+            <a class="transition hover:text-green-400" href="#search">Search Records</a>
+            <a class="transition hover:text-green-400" href="#timeline">Historical Timeline</a>
+            <a class="transition hover:text-green-400" href="#board">Board Members</a>
+            <a class="transition hover:text-green-400" href="#donate">Support Us</a>
+            <a class="transition hover:text-green-400 font-bold text-green-400" href="#past-sponsors">Past Sponsors</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    {% assign today = 'now' | date: "%Y-%m-%d" %}  <!-- Get today's date -->
+  
+<section class="flex items-center justify-center hero-image text-center text-white">
+  <div class="px-4 container mx-auto">
+    <h1 class="font-bold text-4xl mb-4 md:text-6xl">Our Past Sponsors</h1>
+    <p class="mb-8 md:text-2xl text-xl opacity-90">We are thankful for the support of those who helped us preserve heritage in previous years.</p>
+  </div>
+</section>
+
+<section class="bg-white py-12" id="past-sponsors">
+  <div class="px-4 container mx-auto">
+    <h2 class="font-bold text-3xl text-gray-800 mb-4 text-center">Past Sponsors</h2>
+    <p class="text-gray-600 text-center mb-12 max-w-2xl mx-auto">These community-minded businesses and organizations have contributed to the preservation of Crediton's history in years past. We thank them for their invaluable support.</p>
+
+    <!-- Heritage Sponsors -->
+    <div class="mb-16">
+      <div class="flex items-center justify-center mb-8">
+        <div class="heritage-gradient px-6 py-2 rounded-full text-white font-bold text-lg">
+          <i class="fas fa-crown mr-2"></i>Heritage Sponsors
+        </div>
+      </div>
+      {% if site.data.sponsors.heritage.size > 0 %}
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {% for sponsor in site.data.sponsors.heritage %}
+          {% if sponsor.sponsor_endDate < today %}
+          <div class="relative bg-white rounded-lg shadow-lg p-8 sponsor-card border-t-4 border-amber-500">
+            <div class="tier-badge heritage-gradient text-white px-3 py-1 rounded-full text-sm font-bold"> Heritage </div>
+            <div class="flex items-center justify-center mb-6">
+              <div class="sponsor-logo bg-gray-100 p-4 rounded-lg w-32 h-20 flex items-center justify-center">
+                <img src="/assets/images/{{ sponsor.logo }}" alt="{{ sponsor.name }} Logo" class="w-full h-auto">
+              </div>
+            </div>
+            <h3 class="font-bold text-xl text-center mb-4">{{ sponsor.name }}</h3>
+            <p class="text-gray-600 text-center mb-4">{{ sponsor.description }}</p>
+            <div class="text-center">
+              <span class="inline-block bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-sm font-medium"> Since {{ sponsor.since }} </span>
+            </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      {% else %}
+      <p class="text-center text-gray-500">No Heritage Sponsors from previous years.</p>
+      {% endif %}
+    </div>
+
+    <!-- Community Sponsors -->
+    <div class="mb-16">
+      <div class="flex items-center justify-center mb-8">
+        <div class="community-gradient px-6 py-2 rounded-full text-white font-bold text-lg">
+          <i class="fas fa-users mr-2"></i>Community Sponsors
+        </div>
+      </div>
+      {% if site.data.sponsors.community.size > 0 %}
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {% for sponsor in site.data.sponsors.community %}
+          {% if sponsor.sponsor_endDate < today %}
+          <div class="relative bg-white rounded-lg shadow-lg p-6 sponsor-card border-t-4 border-blue-500">
+            <div class="tier-badge community-gradient text-white px-3 py-1 rounded-full text-sm font-bold"> Community </div>
+            <div class="flex items-center justify-center mb-4">
+              <div class="sponsor-logo bg-gray-100 p-3 rounded-lg w-24 h-16 flex items-center justify-center">
+                <img src="/assets/images/{{ sponsor.logo }}" alt="{{ sponsor.name }} Logo" class="w-full h-auto">
+              </div>
+            </div>
+            <h3 class="font-bold text-lg text-center mb-3">{{ sponsor.name }}</h3>
+            <p class="text-gray-600 text-center text-sm mb-3">{{ sponsor.description }}</p>
+            <div class="text-center">
+              <span class="inline-block bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs"> Since {{ sponsor.since }} </span>
+            </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      {% else %}
+      <p class="text-center text-gray-500">No Community Sponsors from previous years.</p>
+      {% endif %}
+    </div>
+
+    <!-- Friend Sponsors -->
+    <div class="mb-16">
+      <div class="flex items-center justify-center mb-8">
+        <div class="friend-gradient px-6 py-2 rounded-full text-white font-bold text-lg">
+          <i class="fas fa-handshake mr-2"></i>Friend Sponsors
+        </div>
+      </div>
+      {% if site.data.sponsors.friend.size > 0 %}
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        {% for sponsor in site.data.sponsors.friend %}
+          {% if sponsor.sponsor_endDate < today %}
+          <div class="relative bg-white rounded-lg shadow-md p-4 sponsor-card border-t-4 border-green-500">
+            <div class="tier-badge friend-gradient text-white px-2 py-1 rounded-full text-xs font-bold"> Friend </div>
+            <div class="flex items-center justify-center mb-3">
+              <div class="sponsor-logo bg-gray-100 p-2 rounded w-20 h-12 flex items-center justify-center">
+                <img src="/assets/images/{{ sponsor.logo }}" alt="{{ sponsor.name }} Logo" class="w-full h-auto">
+              </div>
+            </div>
+            <h3 class="font-medium text-sm text-center mb-2">{{ sponsor.name }}</h3>
+            <p class="text-gray-500 text-center text-xs">{{ sponsor.description }}</p>
+            <div class="text-center">
+              <span class="inline-block bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs"> Since {{ sponsor.since }} </span>
+            </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      {% else %}
+      <p class="text-center text-gray-500">No Friend Sponsors from previous years.</p>
+      {% endif %}
+    </div>
+
+    <!-- Call to Action -->
+    <div class="text-center mt-12">
+      <a href="#contact" class="bg-green-500 text-white font-bold text-lg py-3 px-8 rounded-md hover:bg-green-600 transition">Become a Sponsor</a>
+    </div>
+  </div>
+</section>
+
+    <footer class="bg-gray-800 text-white py-6">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2025 Crediton Cemetery Heritage Portal. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
