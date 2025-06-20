@@ -1,4 +1,17 @@
 {
   "grave_records": 1209,
-  "average_age": 63.48511383537653
+  "average_age": 63.48511383537653,
+  "earliestBirth": "1791-09-04",
+  "earliestDeath": "1858-10-20",
+  "latestDeath": "2024-03-26",
+  "longestLivedPerson": {
+    "id": 123,
+    "gps": null,
+    "name": "Alma Katherine Gower Brunzlow",
+    "birth_date": "1918-10-18",
+    "death_date": "2024-03-26",
+    "location": "Crediton",
+    "image_url": "https://images.findagrave.com/photos/2024/93/269021463_38fc0763-86ef-4010-a29d-67bc07075061.jpeg?size=photos250"
+  },
+  "longestLivedYears": "105"
 }
