@@ -19,6 +19,48 @@ function slugify(name, id) {
         }
       };
 
+
+function calculateAge(birthDate, endDate) {
+  const birthYear = parseInt(birthDate.substring(0, 4));
+  const birthMonth = parseInt(birthDate.substring(5, 7));
+  const birthDay = parseInt(birthDate.substring(8, 10));
+
+  const endYear = endDate ? parseInt(endDate.substring(0, 4)) : new Date().getFullYear();
+  const endMonth = endDate ? parseInt(endDate.substring(5, 7)) : new Date().getMonth() + 1;
+  const endDay = endDate ? parseInt(endDate.substring(8, 10)) : new Date().getDate();
+
+  let age = endYear - birthYear;
+
+  if (endMonth < birthMonth || (endMonth === birthMonth && endDay < birthDay)) {
+    age--;
+  }
+
+  return age;
+}
+
+function calculateAverageAge(data) {
+  let totalAge = 0;
+  let count = 0;
+
+  // Iterate through each record
+  data.forEach(record => {
+    // Only calculate age if the birth_date is valid
+    if (record.birth_date !== "" && record.death_date !== "") {
+      
+
+      // Calculate age using the provided function
+      const ageAtDeath = calculateAge(record.birth_date, record.death_date);
+
+      // Add the valid age to totalAge and increment the count
+      totalAge += ageAtDeath;
+      count++;
+    } 
+  });
+
+  // Return the average age, or 0 if no valid data
+  return count > 0 ? totalAge / count : 0;
+}
+
 const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
   try {
     // Step 1: Read the CSV file asynchronously
@@ -181,7 +223,7 @@ if (record.children && Array.isArray(record.children) && record.children.length)
       // Write the final JSON array to the output file
       await fs.writeFile(outputFilePath, JSON.stringify(processedRecords, null, 2), 'utf8');
 
-      const cemetery_stats = {grave_records:processedRecords.length}
+      const cemetery_stats = {grave_records:processedRecords.length, average_age:calculateAverageAge(processedRecords)}
 
       await fs.writeFile('./_data/cemetery_stats.json', JSON.stringify(cemetery_stats, null, 2), 'utf8');
       
