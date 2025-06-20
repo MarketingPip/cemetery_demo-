@@ -4,6 +4,33 @@
   "earliestBirth": "1791-09-04",
   "earliestDeath": "1858-10-20",
   "latestDeath": "2024-03-26",
+  "earliestBirthPerson": {
+    "id": 179,
+    "gps": null,
+    "name": "Frederick Eilber",
+    "birth_date": "1791-09-04",
+    "death_date": "1875-11-10",
+    "location": "Crediton",
+    "image_url": "https://images.findagrave.com/photos/2022/121/188036561_b4790ace-5788-494b-8993-0ad345273ccb.jpeg?size=photos250"
+  },
+  "earliestDeathPerson": {
+    "id": 667,
+    "gps": null,
+    "name": "Margaret Hoffman Lang",
+    "birth_date": "1819-12-20",
+    "death_date": "1858-10-20",
+    "location": "Crediton",
+    "image_url": ""
+  },
+  "latestDeathPerson": {
+    "id": 123,
+    "gps": null,
+    "name": "Alma Katherine Gower Brunzlow",
+    "birth_date": "1918-10-18",
+    "death_date": "2024-03-26",
+    "location": "Crediton",
+    "image_url": "https://images.findagrave.com/photos/2024/93/269021463_38fc0763-86ef-4010-a29d-67bc07075061.jpeg?size=photos250"
+  },
   "longestLivedPerson": {
     "id": 123,
     "gps": null,
