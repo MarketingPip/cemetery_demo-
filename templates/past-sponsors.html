@@ -95,7 +95,8 @@ title: Past Sponsors
       {% if site.data.sponsors.heritage.size > 0 %}
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         {% for sponsor in site.data.sponsors.heritage %}
-          {% if sponsor.sponsor_endDate < today %}
+          {% assign sponsor_end_date = sponsor.sponsor_endDate | date: "%Y-%m-%d" %}
+          {% if sponsor_end_date < today %}
           <div class="relative bg-white rounded-lg shadow-lg p-8 sponsor-card border-t-4 border-amber-500">
             <div class="tier-badge heritage-gradient text-white px-3 py-1 rounded-full text-sm font-bold"> Heritage </div>
             <div class="flex items-center justify-center mb-6">
@@ -127,7 +128,8 @@ title: Past Sponsors
       {% if site.data.sponsors.community.size > 0 %}
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         {% for sponsor in site.data.sponsors.community %}
-          {% if sponsor.sponsor_endDate < today %}
+          {% assign sponsor_end_date = sponsor.sponsor_endDate | date: "%Y-%m-%d" %}
+          {% if sponsor_end_date < today %}
           <div class="relative bg-white rounded-lg shadow-lg p-6 sponsor-card border-t-4 border-blue-500">
             <div class="tier-badge community-gradient text-white px-3 py-1 rounded-full text-sm font-bold"> Community </div>
             <div class="flex items-center justify-center mb-4">
@@ -159,7 +161,8 @@ title: Past Sponsors
       {% if site.data.sponsors.friend.size > 0 %}
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
         {% for sponsor in site.data.sponsors.friend %}
-          {% if sponsor.sponsor_endDate < today %}
+          {% assign sponsor_end_date = sponsor.sponsor_endDate | date: "%Y-%m-%d" %}
+          {% if sponsor_end_date < today %}
           <div class="relative bg-white rounded-lg shadow-md p-4 sponsor-card border-t-4 border-green-500">
             <div class="tier-badge friend-gradient text-white px-2 py-1 rounded-full text-xs font-bold"> Friend </div>
             <div class="flex items-center justify-center mb-3">
