@@ -19,6 +19,15 @@ function slugify(name, id) {
         }
       };
 
+function yearsOfHistory(providedYear) {
+  const currentYear = new Date().getFullYear(); // Get the current year
+  const difference = currentYear - providedYear; // Subtract the provided year from the current year
+  
+    // Round down to the nearest 50
+  const roundedDifference = Math.floor(difference / 50) * 50;
+  
+  return {yearsOfHistory:difference, yearsOfHistory:roundedDifference };
+}
 
 function calculateAge(birthDate, endDate) {
   const birthYear = parseInt(birthDate.substring(0, 4));
