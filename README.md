@@ -101,6 +101,75 @@ my-jekyll-site/
 └── index.md
 ```
 
+
+### Add a Book
+
+Create a markdown file in the `_books` directory with the following structure:
+
+#### `_books/a-great-book.md`
+
+```yaml
+---
+layout: review
+title: "Illustrated Historical Atlas of the County of Huron, Ont."
+author: "H. Belden & Co."
+year:  1879
+pdfFile: https://archive.org/download/McGillLibrary-rbsc_county-atlas-maps-huron-ontario_elfG1148H8H31879-22413/rbsc_county-atlas-maps-huron-ontario_elfG1148H8H31879.pdf
+olid: "OL23514979M"
+---
+*Illustrated Historical Atlas of the County of Huron, Ont.* by H. Belden & Co. offers a rich visual and historical record of the County of Huron, Ontario, showcasing maps, illustrations, and detailed descriptions of the region’s geography, settlements, and prominent citizens. Published in the 19th century, this atlas serves as a valuable resource for historians, genealogists, and researchers interested in the development and history of Huron County.
+```
+
+### Explanation:
+
+* **layout**: This specifies the layout for this page. In this case, it's set to `review`, which will render it as a review page.
+
+* **title**: The title of the book you’re reviewing.
+
+* **author**: The name of the book’s author.
+
+* **year**: The year the book was published.
+
+* **cover**: The path to the book cover image. You can either:
+
+  * Use a self-hosted cover by placing the image in the `/assets/covers` directory and specifying its filename.
+  * Or, use an Open Library URL by including either the Open Library ID (`olid`) or ISBN number.
+
+
+* **pdfFile**: The URL to PDF file, if hosted locally put the PDF file into `resources\books`.
+---
+
+### Optional: Using Open Library API for Cover Image
+
+If you prefer using Open Library's covers, you can search the book on Open Library, grab its `olid` or `isbn`, and use it like this:
+
+#### Example with Open Library ID:
+
+```yaml
+olid: "7243520-L"  # Use the book's Open Library ID
+```
+
+#### Example with ISBN:
+
+```yaml
+isbn: "9780156439619-L"  # Use the ISBN for the book
+```
+
+---
+
+### Example Book File Structure
+
+If you're organizing multiple books, you can create the markdown files inside a `_books` folder like this:
+
+```
+/_books
+  /a-great-book.md
+  /another-book.md
+  /yet-another-book.md
+```
+
+By adding files like this, you can list books on your site dynamically, pull in the metadata (such as status, title, and dates), and render them using a template or layout that handles these front matter variables.
+
 ### How to Set Up
 
 1. **Install Jekyll**:
