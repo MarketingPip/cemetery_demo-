@@ -50,28 +50,9 @@ title: Past Sponsors
   </style>
 
   <body class="bg-gray-50 font-sans">
-    <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
-      <div class="px-4 py-3 container mx-auto">
-        <div class="flex items-center justify-between">
-          <div class="flex items-center space-x-2">
-            <i class="fas fa-tree text-green-400"></i>
-            <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
-          </div>
-          <div class="hidden md:flex space-x-6">
-            <a class="transition hover:text-green-400" href="#home">Home</a>
-            <a class="transition hover:text-green-400" href="#map">Interactive Map</a>
-            <a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a>
-            <a class="transition hover:text-green-400" href="#search">Search Records</a>
-            <a class="transition hover:text-green-400" href="#timeline">Historical Timeline</a>
-            <a class="transition hover:text-green-400" href="#board">Board Members</a>
-            <a class="transition hover:text-green-400" href="#donate">Support Us</a>
-            <a class="transition hover:text-green-400 font-bold text-green-400" href="#past-sponsors">Past Sponsors</a>
-          </div>
-        </div>
-      </div>
-    </nav>
+{% include navigation.html %}
 
-    {% assign today = 'now' | date: "%Y-%m-%d" %}  <!-- Get today's date -->
+{% assign today = 'now' | date: "%Y-%m-%d" %}  <!-- Get today's date -->
   
 <section class="flex items-center justify-center hero-image text-center text-white">
   <div class="px-4 container mx-auto">
@@ -79,7 +60,7 @@ title: Past Sponsors
     <p class="mb-8 md:text-2xl text-xl opacity-90">We are thankful for the support of those who helped us preserve heritage in previous years.</p>
   </div>
 </section>
-
+{% include breadcrumbs/single.html %}  
 <section class="bg-white py-12" id="past-sponsors">
   <div class="px-4 container mx-auto">
     <h2 class="font-bold text-3xl text-gray-800 mb-4 text-center">Past Sponsors</h2>
