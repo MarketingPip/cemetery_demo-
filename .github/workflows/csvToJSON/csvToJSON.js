@@ -68,8 +68,10 @@ function getEarliestAndLatestData(data) {
   let earliestDeath = null;
   let latestDeath = null;
   let longestLivedPerson = null;
+  let latestDeathPerson;
+  let earliestBirthPerson;
   let longestLivedYears = 0;
-
+ let earliestDeathPerson = null;
   // Iterate through the data array
   data.forEach(record => {
     // Parse the dates
@@ -82,18 +84,30 @@ function getEarliestAndLatestData(data) {
     // Earliest Birth
     if (!earliestBirth || birthDate < earliestBirth) {
       earliestBirth = birthDate;
+      earliestBirthPerson = record; // Store the person with the earliest birth
     }
 
-    // Earliest Death
+        // Earliest Death
     if (deathDate && (!earliestDeath || deathDate < earliestDeath)) {
       earliestDeath = deathDate;
     }
-
-    // Latest Death
-    if (deathDate && (!latestDeath || deathDate > latestDeath)) {
-      latestDeath = deathDate;
+    
+    // Earliest Death (Keep the person with the earliest death date)
+    if (deathDate && (!earliestDeathPerson || deathDate < new Date(earliestDeathPerson.death_date))) {
+      earliestDeathPerson = record;
     }
 
+    // Latest Death (Keep the person with the latest death date)
+    if (deathDate && (!latestDeath || deathDate > latestDeath)) {
+      latestDeath = deathDate;
+      latestDeathPerson = record; // Store the person with the latest death
+    }
+
+    
+       // Earliest Death (Keep the person with the earliest death date)
+    if (deathDate && (!earliestDeathPerson || deathDate < new Date(earliestDeathPerson.death_date))) {
+      earliestDeathPerson = record;
+    }
     // Longest Life (calculate how long each person lived)
     if (deathDate) {
       const livedYears = (deathDate - birthDate) / (1000 * 60 * 60 * 24 * 365.25); // Convert milliseconds to years
@@ -108,6 +122,12 @@ function getEarliestAndLatestData(data) {
     earliestBirth: earliestBirth ? earliestBirth.toISOString().substring(0, 10) : null,
     earliestDeath: earliestDeath ? earliestDeath.toISOString().substring(0, 10) : null,
     latestDeath: latestDeath ? latestDeath.toISOString().substring(0, 10) : null,
+    earliestBirthPerson: earliestBirthPerson, // Person with the earliest birth
+    earliestDeathPerson: earliestDeathPerson, // Person with the earliest death
+    latestDeathPerson: latestDeathPerson,     // Person with the latest death
+
+    earliestDeathPerson,
+    latestDeathPerson,
     longestLivedPerson: longestLivedPerson,
     longestLivedYears: longestLivedYears.toFixed(0)
   };
