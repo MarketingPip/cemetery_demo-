@@ -141,6 +141,9 @@ resources:
     url: "support-us"      
   - name: "Blog"
     url: "blog"   
+  - name: "Cemetery Fees"
+    url: "cemetery-fees"   
+
 
 policys:
   - name: "Privacy Policy"
