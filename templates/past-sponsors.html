@@ -99,16 +99,10 @@ title: Past Sponsors
           {% if sponsor_end_date < today %}
           <div class="relative bg-white rounded-lg shadow-lg p-8 sponsor-card border-t-4 border-amber-500">
             <div class="tier-badge heritage-gradient text-white px-3 py-1 rounded-full text-sm font-bold"> Heritage </div>
-            <div class="flex items-center justify-center mb-6">
-              <div class="sponsor-logo bg-gray-100 p-4 rounded-lg w-32 h-20 flex items-center justify-center">
-                <img src="/assets/images/{{ sponsor.logo }}" alt="{{ sponsor.name }} Logo" class="w-full h-auto">
-              </div>
-            </div>
+    
             <h3 class="font-bold text-xl text-center mb-4">{{ sponsor.name }}</h3>
             <p class="text-gray-600 text-center mb-4">{{ sponsor.description }}</p>
-            <div class="text-center">
-              <span class="inline-block bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-sm font-medium"> Since {{ sponsor.since }} </span>
-            </div>
+           
           </div>
           {% endif %}
         {% endfor %}
@@ -132,16 +126,9 @@ title: Past Sponsors
           {% if sponsor_end_date < today %}
           <div class="relative bg-white rounded-lg shadow-lg p-6 sponsor-card border-t-4 border-blue-500">
             <div class="tier-badge community-gradient text-white px-3 py-1 rounded-full text-sm font-bold"> Community </div>
-            <div class="flex items-center justify-center mb-4">
-              <div class="sponsor-logo bg-gray-100 p-3 rounded-lg w-24 h-16 flex items-center justify-center">
-                <img src="/assets/images/{{ sponsor.logo }}" alt="{{ sponsor.name }} Logo" class="w-full h-auto">
-              </div>
-            </div>
+  
             <h3 class="font-bold text-lg text-center mb-3">{{ sponsor.name }}</h3>
             <p class="text-gray-600 text-center text-sm mb-3">{{ sponsor.description }}</p>
-            <div class="text-center">
-              <span class="inline-block bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs"> Since {{ sponsor.since }} </span>
-            </div>
           </div>
           {% endif %}
         {% endfor %}
@@ -165,16 +152,10 @@ title: Past Sponsors
           {% if sponsor_end_date < today %}
           <div class="relative bg-white rounded-lg shadow-md p-4 sponsor-card border-t-4 border-green-500">
             <div class="tier-badge friend-gradient text-white px-2 py-1 rounded-full text-xs font-bold"> Friend </div>
-            <div class="flex items-center justify-center mb-3">
-              <div class="sponsor-logo bg-gray-100 p-2 rounded w-20 h-12 flex items-center justify-center">
-                <img src="/assets/images/{{ sponsor.logo }}" alt="{{ sponsor.name }} Logo" class="w-full h-auto">
-              </div>
-            </div>
+    
             <h3 class="font-medium text-sm text-center mb-2">{{ sponsor.name }}</h3>
             <p class="text-gray-500 text-center text-xs">{{ sponsor.description }}</p>
-            <div class="text-center">
-              <span class="inline-block bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs"> Since {{ sponsor.since }} </span>
-            </div>
+    
           </div>
           {% endif %}
         {% endfor %}
@@ -186,7 +167,7 @@ title: Past Sponsors
 
     <!-- Call to Action -->
     <div class="text-center mt-12">
-      <a href="#contact" class="bg-green-500 text-white font-bold text-lg py-3 px-8 rounded-md hover:bg-green-600 transition">Become a Sponsor</a>
+      <a href="{{base_url}}/sponsors/#become-sponsor" class="bg-green-500 text-white font-bold text-lg py-3 px-8 rounded-md hover:bg-green-600 transition">Become a Sponsor</a>
     </div>
   </div>
 </section>
