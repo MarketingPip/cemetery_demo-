@@ -1,0 +1,41 @@
+heritage:
+  - name: "Heritage Community Bank"
+    logo: "heritage-bank-logo.png"
+    description: "Supporting local heritage preservation since 1952. Proud to help maintain Crediton's historical legacy for future generations."
+    since: 2020
+  - name: "Crediton Memorial Company"
+    logo: "memorial-co-logo.png"
+    description: "Family-owned memorial specialists dedicated to honoring memories with dignity and craftsmanship for over 75 years."
+    since: 2019
+
+community:
+  - name: "Johnson & Associates Law"
+    logo: "law-firm-logo.png"
+    description: "Providing legal services to families and preserving important community records."
+    since: 2021
+  - name: "Green Thumb Garden Center"
+    logo: "garden-center-logo.png"
+    description: "Supplying plants and landscaping expertise to maintain beautiful cemetery grounds."
+    since: 2022
+  - name: "Digital Heritage Solutions"
+    logo: "tech-solutions-logo.png"
+    description: "Technology partner supporting our digital archives and online presence."
+    since: 2023
+
+friend:
+  - name: "Main Street Café"
+    logo: "cafe-logo.png"
+    description: ""
+    since: 2023
+  - name: "Petals & Blooms"
+    logo: "florist-logo.png"
+    description: ""
+    since: 2022
+  - name: "Town Hardware"
+    logo: "hardware-logo.png"
+    description: ""
+    since: 2024
+  - name: "Chapter & Verse"
+    logo: "bookstore-logo.png"
+    description: ""
+    since: 2024
