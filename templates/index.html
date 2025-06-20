@@ -2,6 +2,8 @@
 permalink: /
 ---
 {% assign base_url = site.baseurl | default: "" %}
+{% assign grave_records = site.data.cemetery_stats.grave_records %}
+{% assign rounded_grave_records = grave_records | divided_by: 100 | floor | times: 100 %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -436,7 +438,7 @@ html {
 
 <div class="grid grid-cols-2 gap-4 text-center">
             <div class="bg-gray-50 p-4 rounded-lg">
-              <span class="block text-3xl font-bold text-green-800 mb-2">500+</span>
+              <span class="block text-3xl font-bold text-green-800 mb-2">{{rounded_grave_records}}+</span>
               <span class="text-gray-600">Grave Records</span>
             </div>
             <div class="bg-gray-50 p-4 rounded-lg">
