@@ -180,6 +180,11 @@ if (record.children && Array.isArray(record.children) && record.children.length)
 
       // Write the final JSON array to the output file
       await fs.writeFile(outputFilePath, JSON.stringify(processedRecords, null, 2), 'utf8');
+
+      const cemetery_stats = {grave_records:processedRecords.length}
+
+      await fs.writeFile('./_data/cemetery_stats.json', JSON.stringify(cemetery_stats, null, 2), 'utf8');
+      
       console.log(`Data successfully written to ${outputFilePath}`);
       return processedRecords;
     }
