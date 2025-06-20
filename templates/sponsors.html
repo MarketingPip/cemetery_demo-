@@ -81,6 +81,7 @@ title: Sponsors
           <i class="fas fa-crown mr-2"></i>Heritage Sponsors
         </div>
       </div>
+      {% assign found_heritage = false %}
       {% if site.data.sponsors.heritage.size > 0 %}
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           {% for sponsor in site.data.sponsors.heritage %}
@@ -103,12 +104,14 @@ title: Sponsors
                   </span>
                 </div>
               </div>
+              {% assign found_heritage = true %}
             {% endif %}
           {% endfor %}
         </div>
-      {% else %}
-        <p class="text-center text-gray-500">No Heritage Sponsors at the moment.</p>
-      {% endif %}
+      {% endunless %}
+      {% unless found_heritage %}
+        <p class="text-center text-gray-500">No Heritage Sponsors from previous years.</p>
+      {% endunless %}
     </div>
 
     <!-- Community Sponsors -->
@@ -118,6 +121,7 @@ title: Sponsors
           <i class="fas fa-users mr-2"></i>Community Sponsors
         </div>
       </div>
+      {% assign found_community = false %}
       {% if site.data.sponsors.community.size > 0 %}
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           {% for sponsor in site.data.sponsors.community %}
@@ -140,12 +144,14 @@ title: Sponsors
                   </span>
                 </div>
               </div>
+              {% assign found_community = true %}
             {% endif %}
           {% endfor %}
         </div>
-      {% else %}
-        <p class="text-center text-gray-500">No Community Sponsors at the moment.</p>
-      {% endif %}
+      {% endunless %}
+      {% unless found_community %}
+        <p class="text-center text-gray-500">No Community Sponsors from previous years.</p>
+      {% endunless %}
     </div>
 
     <!-- Friend Sponsors -->
@@ -155,6 +161,7 @@ title: Sponsors
           <i class="fas fa-handshake mr-2"></i>Friend Sponsors
         </div>
       </div>
+      {% assign found_friend = false %}
       {% if site.data.sponsors.friend.size > 0 %}
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
           {% for sponsor in site.data.sponsors.friend %}
@@ -176,19 +183,23 @@ title: Sponsors
                   </span>
                 </div>
               </div>
+              {% assign found_friend = true %}
             {% endif %}
           {% endfor %}
         </div>
-      {% else %}
-        <p class="text-center text-gray-500">No Friend Sponsors at the moment.</p>
-      {% endif %}
+      {% endunless %}
+      {% unless found_friend %}
+        <p class="text-center text-gray-500">No Friend Sponsors from previous years.</p>
+      {% endunless %}
     </div>
   </div>
 
   <div class="container mt-8 mx-auto px-4 text-center">
     <a href="{{base_url}}/past-sponsors" class="bg-green-700 hover:bg-green-900 text-white font-bold py-3 px-6 rounded-lg transition">View Past Sponsors </a>
   </div>
+  
 </section>
+
 
 
 
