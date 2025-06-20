@@ -36,11 +36,11 @@
         const imageSrc = image_url || 'https://via.placeholder.com/150';
 
         this.innerHTML = `
-          <a href="https://marketingpip.github.io/cemetery_demo-/tribute/?id=${id}">
+          <a style="text-decoration: none; color: inherit; cursor: pointer;" href="https://marketingpip.github.io/cemetery_demo-/tribute/?id=${id}">
           <div class="flex items-start gap-4 mb-2">
             <img src="${imageSrc}" alt="${name}" class="w-24 h-32 object-cover rounded-md border border-gray-700">
             <div>
-              <p class="text-base md:text-lg font-medium">${name}</p>
+              <p class="text-base md:text-lg text-white font-medium">${name}</p>
               <p class="text-sm md:text-base text-gray-400">${formattedBirthDate} - ${formattedDeathDate}</p>
             </div>
           </div>
