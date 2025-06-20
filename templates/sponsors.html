@@ -1,3 +1,7 @@
+---
+permalink: /sponsors/
+title: Sponsors
+---
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
@@ -99,7 +103,7 @@
     </div>
   </section>
 
- <section class="bg-white py-12" id="current-sponsors">
+<section class="bg-white py-12" id="current-sponsors">
   <div class="px-4 container mx-auto">
     <h2 class="font-bold text-3xl text-gray-800 mb-4 text-center">Our Current Sponsors</h2>
     <p class="text-gray-600 text-center mb-12 max-w-2xl mx-auto">We are grateful to these community partners who share our commitment to preserving Crediton's heritage and supporting our mission.</p>
@@ -111,27 +115,31 @@
           <i class="fas fa-crown mr-2"></i>Heritage Sponsors
         </div>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {% for sponsor in site.data.sponsors.heritage %}
-        <div class="relative bg-white rounded-lg shadow-lg p-8 sponsor-card border-t-4 border-amber-500">
-          <div class="tier-badge heritage-gradient text-white px-3 py-1 rounded-full text-sm font-bold">
-            Heritage
-          </div>
-          <div class="flex items-center justify-center mb-6">
-            <div class="sponsor-logo bg-gray-100 p-4 rounded-lg w-32 h-20 flex items-center justify-center">
-              <img src="/assets/images/{{ sponsor.logo }}" alt="{{ sponsor.name }} Logo" class="w-full h-auto">
+      {% if site.data.sponsors.heritage.size > 0 %}
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {% for sponsor in site.data.sponsors.heritage %}
+          <div class="relative bg-white rounded-lg shadow-lg p-8 sponsor-card border-t-4 border-amber-500">
+            <div class="tier-badge heritage-gradient text-white px-3 py-1 rounded-full text-sm font-bold">
+              Heritage
+            </div>
+            <div class="flex items-center justify-center mb-6">
+              <div class="sponsor-logo bg-gray-100 p-4 rounded-lg w-32 h-20 flex items-center justify-center">
+                <img src="/assets/images/{{ sponsor.logo }}" alt="{{ sponsor.name }} Logo" class="w-full h-auto">
+              </div>
+            </div>
+            <h3 class="font-bold text-xl text-center mb-4">{{ sponsor.name }}</h3>
+            <p class="text-gray-600 text-center mb-4">{{ sponsor.description }}</p>
+            <div class="text-center">
+              <span class="inline-block bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-sm font-medium">
+                Since {{ sponsor.since }}
+              </span>
             </div>
           </div>
-          <h3 class="font-bold text-xl text-center mb-4">{{ sponsor.name }}</h3>
-          <p class="text-gray-600 text-center mb-4">{{ sponsor.description }}</p>
-          <div class="text-center">
-            <span class="inline-block bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-sm font-medium">
-              Since {{ sponsor.since }}
-            </span>
-          </div>
+          {% endfor %}
         </div>
-        {% endfor %}
-      </div>
+      {% else %}
+        <p class="text-center text-gray-500">No Heritage Sponsors at the moment.</p>
+      {% endif %}
     </div>
 
     <!-- Community Sponsors -->
@@ -141,27 +149,31 @@
           <i class="fas fa-users mr-2"></i>Community Sponsors
         </div>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {% for sponsor in site.data.sponsors.community %}
-        <div class="relative bg-white rounded-lg shadow-lg p-6 sponsor-card border-t-4 border-blue-500">
-          <div class="tier-badge community-gradient text-white px-3 py-1 rounded-full text-sm font-bold">
-            Community
-          </div>
-          <div class="flex items-center justify-center mb-4">
-            <div class="sponsor-logo bg-gray-100 p-3 rounded-lg w-24 h-16 flex items-center justify-center">
-              <img src="/assets/images/{{ sponsor.logo }}" alt="{{ sponsor.name }} Logo" class="w-full h-auto">
+      {% if site.data.sponsors.community.size > 0 %}
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {% for sponsor in site.data.sponsors.community %}
+          <div class="relative bg-white rounded-lg shadow-lg p-6 sponsor-card border-t-4 border-blue-500">
+            <div class="tier-badge community-gradient text-white px-3 py-1 rounded-full text-sm font-bold">
+              Community
+            </div>
+            <div class="flex items-center justify-center mb-4">
+              <div class="sponsor-logo bg-gray-100 p-3 rounded-lg w-24 h-16 flex items-center justify-center">
+                <img src="/assets/images/{{ sponsor.logo }}" alt="{{ sponsor.name }} Logo" class="w-full h-auto">
+              </div>
+            </div>
+            <h3 class="font-bold text-lg text-center mb-3">{{ sponsor.name }}</h3>
+            <p class="text-gray-600 text-center text-sm mb-3">{{ sponsor.description }}</p>
+            <div class="text-center">
+              <span class="inline-block bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs">
+                Since {{ sponsor.since }}
+              </span>
             </div>
           </div>
-          <h3 class="font-bold text-lg text-center mb-3">{{ sponsor.name }}</h3>
-          <p class="text-gray-600 text-center text-sm mb-3">{{ sponsor.description }}</p>
-          <div class="text-center">
-            <span class="inline-block bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs">
-              Since {{ sponsor.since }}
-            </span>
-          </div>
+          {% endfor %}
         </div>
-        {% endfor %}
-      </div>
+      {% else %}
+        <p class="text-center text-gray-500">No Community Sponsors at the moment.</p>
+      {% endif %}
     </div>
 
     <!-- Friend Sponsors -->
@@ -171,29 +183,34 @@
           <i class="fas fa-handshake mr-2"></i>Friend Sponsors
         </div>
       </div>
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-        {% for sponsor in site.data.sponsors.friend %}
-        <div class="relative bg-white rounded-lg shadow-md p-4 sponsor-card border-t-4 border-green-500">
-          <div class="tier-badge friend-gradient text-white px-2 py-1 rounded-full text-xs font-bold">
-            Friend
-          </div>
-          <div class="flex items-center justify-center mb-3">
-            <div class="sponsor-logo bg-gray-100 p-2 rounded w-20 h-12 flex items-center justify-center">
-              <img src="/assets/images/{{ sponsor.logo }}" alt="{{ sponsor.name }} Logo" class="w-full h-auto">
+      {% if site.data.sponsors.friend.size > 0 %}
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          {% for sponsor in site.data.sponsors.friend %}
+          <div class="relative bg-white rounded-lg shadow-md p-4 sponsor-card border-t-4 border-green-500">
+            <div class="tier-badge friend-gradient text-white px-2 py-1 rounded-full text-xs font-bold">
+              Friend
+            </div>
+            <div class="flex items-center justify-center mb-3">
+              <div class="sponsor-logo bg-gray-100 p-2 rounded w-20 h-12 flex items-center justify-center">
+                <img src="/assets/images/{{ sponsor.logo }}" alt="{{ sponsor.name }} Logo" class="w-full h-auto">
+              </div>
+            </div>
+            <h4 class="font-bold text-sm text-center mb-2">{{ sponsor.name }}</h4>
+            <div class="text-center">
+              <span class="inline-block bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs">
+                {{ sponsor.since }}
+              </span>
             </div>
           </div>
-          <h4 class="font-bold text-sm text-center mb-2">{{ sponsor.name }}</h4>
-          <div class="text-center">
-            <span class="inline-block bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs">
-              {{ sponsor.since }}
-            </span>
-          </div>
+          {% endfor %}
         </div>
-        {% endfor %}
-      </div>
+      {% else %}
+        <p class="text-center text-gray-500">No Friend Sponsors at the moment.</p>
+      {% endif %}
     </div>
   </div>
 </section>
+
 
 
   <section class="bg-gray-100 py-12" id="become-sponsor">
