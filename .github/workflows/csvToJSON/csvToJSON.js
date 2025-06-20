@@ -61,6 +61,58 @@ function calculateAverageAge(data) {
   return count > 0 ? totalAge / count : 0;
 }
 
+
+function getEarliestAndLatestData(data) {
+  // Initialize variables to store results
+  let earliestBirth = null;
+  let earliestDeath = null;
+  let latestDeath = null;
+  let longestLivedPerson = null;
+  let longestLivedYears = 0;
+
+  // Iterate through the data array
+  data.forEach(record => {
+    // Parse the dates
+    const birthDate = new Date(record.birth_date);
+    const deathDate = record.death_date && record.death_date !== "00-00-00" ? new Date(record.death_date) : null;
+    
+    // Skip invalid birth dates (birthDate must be a valid date)
+    if (isNaN(birthDate.getTime())) return;
+
+    // Earliest Birth
+    if (!earliestBirth || birthDate < earliestBirth) {
+      earliestBirth = birthDate;
+    }
+
+    // Earliest Death
+    if (deathDate && (!earliestDeath || deathDate < earliestDeath)) {
+      earliestDeath = deathDate;
+    }
+
+    // Latest Death
+    if (deathDate && (!latestDeath || deathDate > latestDeath)) {
+      latestDeath = deathDate;
+    }
+
+    // Longest Life (calculate how long each person lived)
+    if (deathDate) {
+      const livedYears = (deathDate - birthDate) / (1000 * 60 * 60 * 24 * 365.25); // Convert milliseconds to years
+      if (livedYears > longestLivedYears) {
+        longestLivedYears = livedYears;
+        longestLivedPerson = record;
+      }
+    }
+  });
+
+  return {
+    earliestBirth: earliestBirth ? earliestBirth.toISOString().substring(0, 10) : null,
+    earliestDeath: earliestDeath ? earliestDeath.toISOString().substring(0, 10) : null,
+    latestDeath: latestDeath ? latestDeath.toISOString().substring(0, 10) : null,
+    longestLivedPerson: longestLivedPerson,
+    longestLivedYears: longestLivedYears.toFixed(0)
+  };
+}
+
 const convertCsvToJson = async (filePath, outputFilePath, homePage = true) => {
   try {
     // Step 1: Read the CSV file asynchronously
@@ -223,7 +275,7 @@ if (record.children && Array.isArray(record.children) && record.children.length)
       // Write the final JSON array to the output file
       await fs.writeFile(outputFilePath, JSON.stringify(processedRecords, null, 2), 'utf8');
 
-      const cemetery_stats = {grave_records:processedRecords.length, average_age:calculateAverageAge(processedRecords)}
+      const cemetery_stats = {grave_records:processedRecords.length, average_age:calculateAverageAge(processedRecords), ...getEarliestAndLatestData(processedRecords)}
 
       await fs.writeFile('./_data/cemetery_stats.json', JSON.stringify(cemetery_stats, null, 2), 'utf8');
       
