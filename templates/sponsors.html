@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<title>Corporate Sponsors | Crediton Cemetery Heritage Portal</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<style>
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(/api/placeholder/1200/600);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+  }
+  
+  .sponsor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .15);
+  }
+  
+  .sponsor-logo {
+    transition: all 0.3s ease;
+    filter: grayscale(0.3);
+  }
+  
+  .sponsor-logo:hover {
+    filter: grayscale(0);
+    transform: scale(1.05);
+  }
+  
+  .tier-badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    z-index: 10;
+  }
+  
+  .heritage-gradient {
+    background: linear-gradient(135deg, #f59e0b, #d97706);
+  }
+  
+  .community-gradient {
+    background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+  }
+  
+  .friend-gradient {
+    background: linear-gradient(135deg, #10b981, #059669);
+  }
+</style>
+
+<body class="bg-gray-50 font-sans">
+  <nav class="bg-gray-800 text-white shadow-lg sticky top-0 z-50">
+    <div class="px-4 py-3 container mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+          <i class="fas fa-tree text-green-400"></i>
+          <span class="font-bold text-xl">Crediton Cemetery Heritage Portal</span>
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <a class="transition hover:text-green-400" href="#home">Home</a>
+          <a class="transition hover:text-green-400" href="#map">Interactive Map</a>
+          <a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a>
+          <a class="transition hover:text-green-400" href="#search">Search Records</a>
+          <a class="transition hover:text-green-400" href="#timeline">Historical Timeline</a>
+          <a class="transition hover:text-green-400" href="#board">Board Members</a>
+          <a class="transition hover:text-green-400" href="#donate">Support Us</a>
+          <a class="transition hover:text-green-400 font-bold text-green-400" href="#sponsors">Sponsors</a>
+        </div>
+        <div class="md:hidden">
+          <button class="focus:outline-none" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden md:hidden" id="mobile-menu">
+      <div class="px-4 container mx-auto flex flex-col py-2 space-y-3">
+        <a class="transition hover:text-green-400 block" href="#home">Home</a>
+        <a class="transition hover:text-green-400 block" href="#map">Interactive Map</a>
+        <a class="transition hover:text-green-400 block" href="#exhibits">Virtual Exhibits</a>
+        <a class="transition hover:text-green-400 block" href="#search">Search Records</a>
+        <a class="transition hover:text-green-400 block" href="#timeline">Historical Timeline</a>
+        <a class="transition hover:text-green-400 block" href="#board">Board Members</a>
+        <a class="transition hover:text-green-400 block" href="#donate">Support Us</a>
+        <a class="transition hover:text-green-400 block font-bold text-green-400" href="#sponsors">Sponsors</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="flex items-center justify-center hero-image text-center text-white">
+    <div class="px-4 container mx-auto">
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl">Our Valued Partners</h1>
+      <p class="mb-8 md:text-2xl text-xl opacity-90">Thank you to the businesses and organizations supporting heritage preservation</p>
+      <div class="flex flex-col md:flex-row md:space-x-4 md:space-y-0 space-y-4 justify-center">
+        <a class="font-bold text-white transition bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg" href="#become-sponsor">Become a Sponsor</a>
+        <a class="font-bold text-white transition px-6 py-3 rounded-lg bg-gray-700 hover:bg-gray-800" href="#current-sponsors">View Our Sponsors</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white py-12" id="current-sponsors">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-4 text-center">Our Current Sponsors</h2>
+      <p class="text-gray-600 text-center mb-12 max-w-2xl mx-auto">We are grateful to these community partners who share our commitment to preserving Crediton's heritage and supporting our mission.</p>
+      
+      <!-- Heritage Sponsors -->
+      <div class="mb-16">
+        <div class="flex items-center justify-center mb-8">
+          <div class="heritage-gradient px-6 py-2 rounded-full text-white font-bold text-lg">
+            <i class="fas fa-crown mr-2"></i>Heritage Sponsors
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="relative bg-white rounded-lg shadow-lg p-8 sponsor-card border-t-4 border-amber-500">
+            <div class="tier-badge heritage-gradient text-white px-3 py-1 rounded-full text-sm font-bold">
+              Heritage
+            </div>
+            <div class="flex items-center justify-center mb-6">
+              <div class="sponsor-logo bg-gray-100 p-4 rounded-lg w-32 h-20 flex items-center justify-center">
+                <span class="text-gray-600 font-bold text-lg">Heritage Bank</span>
+              </div>
+            </div>
+            <h3 class="font-bold text-xl text-center mb-4">Heritage Community Bank</h3>
+            <p class="text-gray-600 text-center mb-4">Supporting local heritage preservation since 1952. Proud to help maintain Crediton's historical legacy for future generations.</p>
+            <div class="text-center">
+              <span class="inline-block bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-sm font-medium">
+                Since 2020
+              </span>
+            </div>
+          </div>
+          
+          <div class="relative bg-white rounded-lg shadow-lg p-8 sponsor-card border-t-4 border-amber-500">
+            <div class="tier-badge heritage-gradient text-white px-3 py-1 rounded-full text-sm font-bold">
+              Heritage
+            </div>
+            <div class="flex items-center justify-center mb-6">
+              <div class="sponsor-logo bg-gray-100 p-4 rounded-lg w-32 h-20 flex items-center justify-center">
+                <span class="text-gray-600 font-bold text-lg">Memorial Co.</span>
+              </div>
+            </div>
+            <h3 class="font-bold text-xl text-center mb-4">Crediton Memorial Company</h3>
+            <p class="text-gray-600 text-center mb-4">Family-owned memorial specialists dedicated to honoring memories with dignity and craftsmanship for over 75 years.</p>
+            <div class="text-center">
+              <span class="inline-block bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-sm font-medium">
+                Since 2019
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Community Sponsors -->
+      <div class="mb-16">
+        <div class="flex items-center justify-center mb-8">
+          <div class="community-gradient px-6 py-2 rounded-full text-white font-bold text-lg">
+            <i class="fas fa-users mr-2"></i>Community Sponsors
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="relative bg-white rounded-lg shadow-lg p-6 sponsor-card border-t-4 border-blue-500">
+            <div class="tier-badge community-gradient text-white px-3 py-1 rounded-full text-sm font-bold">
+              Community
+            </div>
+            <div class="flex items-center justify-center mb-4">
+              <div class="sponsor-logo bg-gray-100 p-3 rounded-lg w-24 h-16 flex items-center justify-center">
+                <span class="text-gray-600 font-bold text-sm">Law Firm</span>
+              </div>
+            </div>
+            <h3 class="font-bold text-lg text-center mb-3">Johnson & Associates Law</h3>
+            <p class="text-gray-600 text-center text-sm mb-3">Providing legal services to families and preserving important community records.</p>
+            <div class="text-center">
+              <span class="inline-block bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs">
+                Since 2021
+              </span>
+            </div>
+          </div>
+
+          <div class="relative bg-white rounded-lg shadow-lg p-6 sponsor-card border-t-4 border-blue-500">
+            <div class="tier-badge community-gradient text-white px-3 py-1 rounded-full text-sm font-bold">
+              Community
+            </div>
+            <div class="flex items-center justify-center mb-4">
+              <div class="sponsor-logo bg-gray-100 p-3 rounded-lg w-24 h-16 flex items-center justify-center">
+                <span class="text-gray-600 font-bold text-sm">Garden Center</span>
+              </div>
+            </div>
+            <h3 class="font-bold text-lg text-center mb-3">Green Thumb Garden Center</h3>
+            <p class="text-gray-600 text-center text-sm mb-3">Supplying plants and landscaping expertise to maintain beautiful cemetery grounds.</p>
+            <div class="text-center">
+              <span class="inline-block bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs">
+                Since 2022
+              </span>
+            </div>
+          </div>
+
+          <div class="relative bg-white rounded-lg shadow-lg p-6 sponsor-card border-t-4 border-blue-500">
+            <div class="tier-badge community-gradient text-white px-3 py-1 rounded-full text-sm font-bold">
+              Community
+            </div>
+            <div class="flex items-center justify-center mb-4">
+              <div class="sponsor-logo bg-gray-100 p-3 rounded-lg w-24 h-16 flex items-center justify-center">
+                <span class="text-gray-600 font-bold text-sm">Tech Solutions</span>
+              </div>
+            </div>
+            <h3 class="font-bold text-lg text-center mb-3">Digital Heritage Solutions</h3>
+            <p class="text-gray-600 text-center text-sm mb-3">Technology partner supporting our digital archives and online presence.</p>
+            <div class="text-center">
+              <span class="inline-block bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs">
+                Since 2023
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Friend Sponsors -->
+      <div class="mb-16">
+        <div class="flex items-center justify-center mb-8">
+          <div class="friend-gradient px-6 py-2 rounded-full text-white font-bold text-lg">
+            <i class="fas fa-handshake mr-2"></i>Friend Sponsors
+          </div>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div class="relative bg-white rounded-lg shadow-md p-4 sponsor-card border-t-4 border-green-500">
+            <div class="tier-badge friend-gradient text-white px-2 py-1 rounded-full text-xs font-bold">
+              Friend
+            </div>
+            <div class="flex items-center justify-center mb-3">
+              <div class="sponsor-logo bg-gray-100 p-2 rounded w-20 h-12 flex items-center justify-center">
+                <span class="text-gray-600 font-bold text-xs">Café</span>
+              </div>
+            </div>
+            <h4 class="font-bold text-sm text-center mb-2">Main Street Café</h4>
+            <div class="text-center">
+              <span class="inline-block bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs">
+                2023
+              </span>
+            </div>
+          </div>
+
+          <div class="relative bg-white rounded-lg shadow-md p-4 sponsor-card border-t-4 border-green-500">
+            <div class="tier-badge friend-gradient text-white px-2 py-1 rounded-full text-xs font-bold">
+              Friend
+            </div>
+            <div class="flex items-center justify-center mb-3">
+              <div class="sponsor-logo bg-gray-100 p-2 rounded w-20 h-12 flex items-center justify-center">
+                <span class="text-gray-600 font-bold text-xs">Florist</span>
+              </div>
+            </div>
+            <h4 class="font-bold text-sm text-center mb-2">Petals & Blooms</h4>
+            <div class="text-center">
+              <span class="inline-block bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs">
+                2022
+              </span>
+            </div>
+          </div>
+
+          <div class="relative bg-white rounded-lg shadow-md p-4 sponsor-card border-t-4 border-green-500">
+            <div class="tier-badge friend-gradient text-white px-2 py-1 rounded-full text-xs font-bold">
+              Friend
+            </div>
+            <div class="flex items-center justify-center mb-3">
+              <div class="sponsor-logo bg-gray-100 p-2 rounded w-20 h-12 flex items-center justify-center">
+                <span class="text-gray-600 font-bold text-xs">Hardware</span>
+              </div>
+            </div>
+            <h4 class="font-bold text-sm text-center mb-2">Town Hardware</h4>
+            <div class="text-center">
+              <span class="inline-block bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs">
+                2024
+              </span>
+            </div>
+          </div>
+
+          <div class="relative bg-white rounded-lg shadow-md p-4 sponsor-card border-t-4 border-green-500">
+            <div class="tier-badge friend-gradient text-white px-2 py-1 rounded-full text-xs font-bold">
+              Friend
+            </div>
+            <div class="flex items-center justify-center mb-3">
+              <div class="sponsor-logo bg-gray-100 p-2 rounded w-20 h-12 flex items-center justify-center">
+                <span class="text-gray-600 font-bold text-xs">Bookstore</span>
+              </div>
+            </div>
+            <h4 class="font-bold text-sm text-center mb-2">Chapter & Verse</h4>
+            <div class="text-center">
+              <span class="inline-block bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs">
+                2024
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-gray-100 py-12" id="become-sponsor">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Become a Sponsor</h2>
+      <p class="text-gray-600 text-center mb-12 max-w-3xl mx-auto">Join our community of supporters and help preserve Crediton's heritage while gaining valuable brand exposure and community recognition.</p>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Heritage Sponsor -->
+        <div class="bg-white rounded-lg shadow-lg p-8 text-center border-t-4 border-amber-500 relative overflow-hidden">
+          <div class="absolute top-0 right-0 heritage-gradient text-white px-4 py-2 rounded-bl-lg">
+            <i class="fas fa-crown"></i>
+          </div>
+          <h3 class="mb-4 font-semibold text-2xl text-amber-700">Heritage Sponsor</h3>
+          <p class="text-4xl font-bold text-gray-800 mb-6">$5,000<span class="text-lg text-gray-600">/year</span></p>
+          
+          <div class="text-left mb-8">
+            <h4 class="font-semibold text-lg mb-4 text-gray-800">Premium Benefits:</h4>
+            <ul class="space-y-3">
+              <li class="flex items-start">
+                <i class="fas fa-check text-green-600 mr-3 mt-1"></i>
+                <span class="text-gray-600">Prominent logo placement on website homepage</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check text-green-600 mr-3 mt-1"></i>
+                <span class="text-gray-600">Recognition at all cemetery events and ceremonies</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check text-green-600 mr-3 mt-1"></i>
+                <span class="text-gray-600">Quarterly impact reports with visitor statistics</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check text-green-600 mr-3 mt-1"></i>
+                <span class="text-gray-600">Dedicated sponsor page with company profile</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check text-green-600 mr-3 mt-1"></i>
+                <span class="text-gray-600">Social media promotion and mentions</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check text-green-600 mr-3 mt-1"></i>
+                <span class="text-gray-600">Invitation to exclusive donor events</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check text-green-600 mr-3 mt-1"></i>
+                <span class="text-gray-600">Tax deduction certificate</span>
+              </li>
+            </ul>
+          </div>
+          <button class="font-bold text-white transition bg-amber-600 hover:bg-amber-700 px-6 py-3 rounded-lg w-full">
+            Become Heritage Sponsor
+          </button>
+        </div>
+
+        <!-- Community Sponsor -->
+        <div class="bg-white rounded-lg shadow-lg p-8 text-center border-t-4 border-blue-500 relative overflow-hidden">
+          <div class="absolute top-0 right-0 community-gradient text-white px-4 py-2 rounded-bl-lg">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3 class="mb-4 font-semibold text-2xl text-blue-700">Community Sponsor</h3>
+          <p class="text-4xl font-bold text-gray-800 mb-6">$2,500<span class="text-lg text-gray-600">/year</span></p>
+          
+          <div class="text-left mb-8">
+            <h4 class="font-semibold text-lg mb-4 text-gray-800">Great Benefits:</h4>
+            <ul class="space-y-3">
+              <li class="flex items-start">
+                <i class="fas fa-check text-green-600 mr-3 mt-1"></i>
+                <span class="text-gray-600">Logo placement on dedicated sponsors page</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check text-green-600 mr-3 mt-1"></i>
+                <span class="text-gray-600">Recognition at major cemetery events</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check text-green-600 mr-3 mt-1"></i>
+                <span class="text-gray-600">Annual impact report with key metrics</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check text-green-600 mr-3 mt-1"></i>
+                <span class="text-gray-600">Social media mentions and thank you posts</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check text-green-600 mr-3 mt-1"></i>
+                <span class="text-gray-600">Newsletter acknowledgment</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check text-green-600 mr-3 mt-1"></i>
+                <span class="text-gray-600">Tax deduction certificate</span>
+              </li>
+            </ul>
+          </div>
+          <button class="font-bold text-white transition bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg w-full">
+            Become Community Sponsor
+          </button>
+        </div>
+
+        <!-- Friend Sponsor -->
+        <div class="bg-white rounded-lg shadow-lg p-8 text-center border-t-4 border-green-500 relative overflow-hidden">
+          <div class="absolute top-0 right-0 friend-gradient text-white px-4 py-2 rounded-bl-lg">
+            <i class="fas fa-handshake"></i>
+          </div>
+          <h3 class="mb-4 font-semibold text-2xl text-green-700">Friend Sponsor</h3>
+          <p class="text-4xl font-bold text-gray-800 mb-6">$1,000<span class="text-lg text-gray-600">/year</span></p>
+          
+          <div class="text-left mb-8">
+            <h4 class="font-semibold text-lg mb-4 text-gray-800">Essential Benefits:</h4>
+            <ul class="space-y-3">
+              <li class="flex items-start">
+                <i class="fas fa-check text-green-600 mr-3 mt-1"></i>
+                <span class="text-gray-600">Name listed on sponsors page</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check text-green-600 mr-3 mt-1"></i>
+                <span class="text-gray-600">Recognition in quarterly newsletters</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check text-green-600 mr-3 mt-1"></i>
+                <span class="text-gray-600">Annual report acknowledgment</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check text-green-600 mr-3 mt-1"></i>
+                <span class="text-gray-600">Tax deduction certificate</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check text-green-600 mr-3 mt-1"></i>
+                <span class="text-gray-600">Supporting local heritage preservation</span>
+              </li>
+            </ul>
+          </div>
+          <button class="font-bold text-white transition bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg w-full">
+            Become Friend Sponsor
+          </button>
+        </div>
+      </div>
+      
+      <div class="mt-12 text-center">
+        <div class="bg-white rounded-lg shadow-lg p-8 max-w-2xl mx-auto">
+          <h3 class="font-bold text-2xl mb-4">Custom Sponsorship Packages</h3>
+          <p class="text-gray-600 mb-6">Need a sponsorship package tailored to your business needs? We're happy to work with you to create a custom arrangement that benefits both your organization and our heritage preservation mission.</p>
+          <a class="font-bold text-white transition bg-gray-800 hover:bg-gray-900 px-8 py-3 rounded-lg inline-block" href="#contact">
+            <i class="fas fa-phone mr-2"></i>Contact Us for Custom Package
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white py-12" id="why-sponsor">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Why Sponsor Us?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="text-center">
+          <div class="rounded-full bg-green-100 p-6 mx-auto w-20 h-20 flex items-center justify-center mb-4">
+            <i class="fas fa-heart text-green-600 text-3xl"></i>
+          </div>
+          <h3 class="font-bold text-xl mb-3">Community Impact</h3>
+          <p class="text-gray-600">Make a meaningful difference in preserving local heritage and supporting community values.</p>
+        </div>
+        
+        <div class="text-center">
+          <div class="rounded-full bg-blue-100 p-6 mx-auto w-20 h-20 flex items-center justify-center mb-4">
+            <i class="fas fa-eye text-blue-600 text-3xl"></i>
+          </div>
+          <h3 class="font-bold text-xl mb-3">Brand Visibility</h3>
+          <p class="text-gray-600">Gain exposure to thousands of annual visitors and community members who value heritage.</p>
+        </div>
+        
+        <div class="text-center">
+          <div class="rounded-full bg-purple-100 p-6 mx-auto w-20 h-20 flex items-center justify-center mb-4">
+            <i class="fas fa-handshake text-purple-600 text-3xl"></i>
+          </div>
+          <h3 class="font-bold text-xl mb-3">Business Networking</h3>
+          <p class="text-gray-600">Connect with other community-minded businesses and local leaders through our events.</p>
+        </div>
+        
+        <div class="text-center">
+          <div class="rounded-full bg-amber-100 p-6 mx-auto w-20 h-20 flex items-center justify-center mb-4">
+            <i class="fas fa-star text-amber-600 text-3xl"></i>
+          </div>
+          <h3 class="font-bold text-xl mb-3">Legacy Building</h3>
+          <p class="text-gray-600">Leave a lasting legacy by supporting the preservation of our community's history.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-green-600 text-white py-12" id="contact">
+    <div class="px-4 container mx-auto text-center">
+      <h2 class="font-bold text-3xl mb-4">Ready to Partner With Us?</h2>
+      <p class="text-xl mb-8 opacity-90">Contact us today to discuss sponsorship opportunities and how we can work together</p>
+      <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8 mb-8">
+        <div class="flex items-center">
+          <i class="fas fa-envelope mr-3 text-2xl"></i>
+          <span class="text-lg">sponsors@creditoncemetery.org</span>
+        </div>
+        <div class="flex items-center">
+          <i class="fas fa-phone mr-3 text-2xl"></i>
+          <span class="text-lg">(555) 123-4567</span>
+        </div>
+      </div>
+      <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4">
+        <a class="font-bold text-green-600 transition bg-white hover:bg-gray-100 px-8 py-3 rounded-lg inline-block" href="#become-sponsor">
+          <i class="fas fa-star mr-2"></i>View Sponsorship Packages
+        </a>
+  <a class="font-bold text-green-600 transition bg-white hover:bg-gray-100 px-8 py-3 rounded-lg inline-block" href="#donate-now">Make a Donation Today</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="px-4 container mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div>
+          <div class="flex items-center space-x-2 mb-4">
+            <i class="fas fa-tree text-green-400"></i>
+            <span class="font-bold text-lg">Crediton Cemetery</span>
+          </div>
+          <p class="text-gray-300">Preserving heritage, honoring memories, and connecting communities through history.</p>
+        </div>
+        <div>
+          <h3 class="font-bold mb-4">Quick Links</h3>
+          <ul class="space-y-2 text-gray-300">
+            <li><a class="transition hover:text-green-400" href="#home">Home</a></li>
+            <li><a class="transition hover:text-green-400" href="#map">Interactive Map</a></li>
+            <li><a class="transition hover:text-green-400" href="#exhibits">Virtual Exhibits</a></li>
+            <li><a class="transition hover:text-green-400" href="#search">Search Records</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-bold mb-4">Support</h3>
+          <ul class="space-y-2 text-gray-300">
+            <li><a class="transition hover:text-green-400" href="#donate-now">Donate</a></li>
+            <li><a class="transition hover:text-green-400" href="#volunteer">Volunteer</a></li>
+            <li><a class="transition hover:text-green-400" href="#sponsors">Sponsor</a></li>
+            <li><a class="transition hover:text-green-400" href="#memorial">Memorial Options</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-bold mb-4">Contact Info</h3>
+          <div class="space-y-2 text-gray-300">
+            <p><i class="fas fa-map-marker-alt mr-2"></i>123 Heritage Lane, Crediton</p>
+            <p><i class="fas fa-phone mr-2"></i>(555) 123-4567</p>
+            <p><i class="fas fa-envelope mr-2"></i>info@creditoncemetery.org</p>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
+        <p>&copy; 2025 Crediton Cemetery Heritage Portal. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  </body>
+</html>
