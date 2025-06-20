@@ -2,6 +2,7 @@
 permalink: /sponsors/
 title: Sponsors
 ---
+{% assign base_url = site.baseurl | default: "" %}
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
@@ -350,7 +351,7 @@ title: Sponsors
         <div class="bg-white rounded-lg shadow-lg p-8 max-w-2xl mx-auto">
           <h3 class="font-bold text-2xl mb-4">Custom Sponsorship Packages</h3>
           <p class="text-gray-600 mb-6">Need a sponsorship package tailored to your business needs? We're happy to work with you to create a custom arrangement that benefits both your organization and our heritage preservation mission.</p>
-          <a class="font-bold text-white transition bg-gray-800 hover:bg-gray-900 px-8 py-3 rounded-lg inline-block" href="#contact">
+          <a class="font-bold text-white transition bg-gray-800 hover:bg-gray-900 px-8 py-3 rounded-lg inline-block" href="{{base_url}}/contact-us">
             <i class="fas fa-phone mr-2"></i>Contact Us for Custom Package
           </a>
         </div>
@@ -378,13 +379,13 @@ title: Sponsors
           <p class="text-gray-600">Gain exposure to thousands of annual visitors and community members who value heritage.</p>
         </div>
         
-        <div class="text-center">
+      <!--  <div class="text-center">
           <div class="rounded-full bg-purple-100 p-6 mx-auto w-20 h-20 flex items-center justify-center mb-4">
             <i class="fas fa-handshake text-purple-600 text-3xl"></i>
           </div>
           <h3 class="font-bold text-xl mb-3">Business Networking</h3>
           <p class="text-gray-600">Connect with other community-minded businesses and local leaders through our events.</p>
-        </div>
+        </div> --> 
         
         <div class="text-center">
           <div class="rounded-full bg-amber-100 p-6 mx-auto w-20 h-20 flex items-center justify-center mb-4">
@@ -415,7 +416,7 @@ title: Sponsors
         <a class="font-bold text-green-600 transition bg-white hover:bg-gray-100 px-8 py-3 rounded-lg inline-block" href="#become-sponsor">
           <i class="fas fa-star mr-2"></i>View Sponsorship Packages
         </a>
-  <a class="font-bold text-green-600 transition bg-white hover:bg-gray-100 px-8 py-3 rounded-lg inline-block" href="#donate-now">Make a Donation Today</a>
+  <a class="font-bold text-green-600 transition bg-white hover:bg-gray-100 px-8 py-3 rounded-lg inline-block" href="{{base_url}}/support-us">Make a Donation Today</a>
       </div>
     </div>
   </section>
