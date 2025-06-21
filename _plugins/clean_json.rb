@@ -9,7 +9,7 @@ module Jekyll
       # Iterate through each file in the site source
       site.pages.each do |page|
         # Check if the current page has the clean_json flag set to true
-        if if page.extname == '.json' && page.data['clean_json'] == true
+        if page.extname == '.json' && page.data['clean_json'] == true
           clean_json_file(page)
         end
       end
