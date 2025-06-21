@@ -1,6 +1,7 @@
 ---
 layout: none
 permalink: /exhibits_mentions.json
+clean_json: true
 ---
 {
   "exhibits": [
