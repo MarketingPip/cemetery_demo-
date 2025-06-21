@@ -1,4 +1,9 @@
- class PersonInfo extends HTMLElement {
+---
+layout: none
+---
+{% assign base_url = site.baseurl | default: "" %}
+
+class PersonInfo extends HTMLElement {
       constructor() {
         super();
       }
@@ -11,7 +16,7 @@
 
       async fetchData(id) {
         try {
-          const response = await fetch(`https://marketingpip.github.io/cemetery_demo-/assets/people/${id}.json`);  // Replace with your actual API URL
+          const response = await fetch(`{{base_url}}/assets/people/${id}.json`);  // Replace with your actual API URL
           if (!response.ok) throw new Error('Not found');
           
           const data = await response.json();
@@ -36,7 +41,7 @@
         const imageSrc = image_url || 'https://via.placeholder.com/150';
 
         this.innerHTML = `
-          <a style="text-decoration: none; color: inherit; cursor: pointer;" href="https://marketingpip.github.io/cemetery_demo-/tribute/?id=${id}">
+          <a style="text-decoration: none; color: inherit; cursor: pointer;" href="{{base_url}}/tribute/?id=${id}">
           <div class="flex items-start gap-4 mb-2">
             <img src="${imageSrc}" alt="${name}" class="w-24 h-32 object-cover rounded-md border border-gray-700">
             <div>
