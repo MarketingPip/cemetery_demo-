@@ -170,6 +170,119 @@ If you're organizing multiple books, you can create the markdown files inside a 
 
 By adding files like this, you can list books on your site dynamically, pull in the metadata (such as status, title, and dates), and render them using a template or layout that handles these front matter variables.
 
+
+### How to Add a Sponsor to the Website
+
+To add a new sponsor, follow these steps to add their information to the appropriate category in the `_data/sponsors.yml` file.
+
+---
+
+### **1. Locate the Sponsors File**
+
+All sponsor data is stored in the `/_data/sponsors.yml` file. If you’re adding a new sponsor, open this file in a text editor.
+
+---
+
+### **2. Determine the Category**
+
+There are three categories of sponsors: **Heritage**, **Community**, and **Friend**. Each category has different types of sponsors with different levels of involvement.
+
+* **Heritage Sponsors**: These are key contributors to preserving historical landmarks and legacy projects.
+* **Community Sponsors**: These are local businesses or organizations helping preserve the community's history.
+* **Friend Sponsors**: These are smaller contributors who support in various ways.
+
+---
+
+### **3. Add Sponsor Details**
+
+Each sponsor entry includes the following properties:
+
+* **name**: The name of the sponsor.
+* **logo**: The filename of the logo image, stored in the `/assets/images/` directory.
+* **description**: A short description of the sponsor’s involvement or contribution.
+* **since**: The year the sponsor started their involvement.
+* **sponsor\_endDate**: The end date of the sponsorship (if applicable). If the sponsorship has no end date or is ongoing, leave this blank.
+
+### **4. Add a New Sponsor**
+
+Add the new sponsor’s information under the correct category in the YAML file. Below is the template to follow.
+
+```yaml
+heritage:
+  - name: "Heritage Community Bank"
+    logo: "heritage-bank-logo.png"
+    description: "Supporting local heritage preservation since 1952. Proud to help maintain Crediton's historical legacy for future generations."
+    since: 2020
+    sponsor_endDate: 2025-12-12
+  - name: "Crediton Memorial Company"
+    logo: "memorial-co-logo.png"
+    description: "Family-owned memorial specialists dedicated to honoring memories with dignity and craftsmanship for over 75 years."
+    since: 2019
+
+community:
+  - name: "Johnson & Associates Law"
+    logo: "law-firm-logo.png"
+    description: "Providing legal services to families and preserving important community records."
+    since: 2021
+  - name: "Green Thumb Garden Center"
+    logo: "garden-center-logo.png"
+    description: "Supplying plants and landscaping expertise to maintain beautiful cemetery grounds."
+    since: 2022
+  - name: "Digital Heritage Solutions"
+    logo: "tech-solutions-logo.png"
+    description: "Technology partner supporting our digital archives and online presence."
+    since: 2023
+
+friend:
+  - name: "Main Street Café"
+    logo: "cafe-logo.png"
+    description: ""
+    since: 2023
+  - name: "Petals & Blooms"
+    logo: "florist-logo.png"
+    description: ""
+    since: 2022
+  - name: "Town Hardware"
+    logo: "hardware-logo.png"
+    description: ""
+    since: 2024
+  - name: "Chapter & Verse"
+    logo: "bookstore-logo.png"
+    description: ""
+    since: 2024
+```
+
+### **5. Save the File**
+
+After adding the sponsor details, save the changes to the `sponsors.yml` file.
+
+---
+
+### **6. Upload Sponsor's Logo**
+
+Make sure the sponsor's logo image is uploaded to the `/assets/images/` directory. The image file should be referenced by its filename, e.g., `"heritage-bank-logo.png"`.
+
+---
+
+### **7. Refresh the Website**
+
+Once the sponsor information is added and the file is saved, refresh the website or redeploy if necessary. The new sponsor will appear on the appropriate sponsor section of the site.
+
+---
+
+### **Important Notes**
+
+* If the sponsor's **end date** has passed, it will not be displayed in the "Current Sponsors" section but rather in the "Past Sponsors" section.
+* If the **description** field is left empty, the site may show a blank space or omit that text.
+* Ensure the **logo** is properly sized and formatted for web use (JPEG, PNG, or SVG are recommended).
+
+---
+
+### **Removing a Sponsor**
+
+To remove a sponsor, simply delete their entry from the appropriate section in the `sponsors.yml` file and ensure their logo file is also removed from the `/assets/images/` directory if no longer needed.
+
+
 ### How to Set Up
 
 1. **Install Jekyll**:
