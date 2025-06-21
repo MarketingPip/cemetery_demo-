@@ -1,4 +1,8 @@
-const base_url = `https://marketingpip.github.io/cemetery_demo-/`
+---
+layout: none
+---
+{% assign base_url = site.baseurl | default: "" %}
+const base_url = `{{base_url}}`
 /**
  * JFA PWA Toolkit
  * https://github.com/jfadev/jfa-pwa-toolkit
@@ -14,7 +18,7 @@ const PWA_CONFIG = {
     // App config
     app: {
         // App name
-        name: 'Crediton Cemetery Heritage Portal (PWA)',
+        name: '{{site.title}} (PWA)',
         // App version
         version: 'v1',
     },
@@ -41,7 +45,7 @@ const PWA_CONFIG = {
         // Notification config
         notification: {
             // Title of notifications from the server
-            title: 'Your App Name',
+            title: '{{site.title}}',
             // Options object same that showNotification() options
             // (https://developer.mozilla.org/es/docs/Web/API/ServiceWorkerRegistration/showNotification)
             options: {
