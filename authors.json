@@ -1,6 +1,7 @@
 ---
 layout: none
 permalink: /authors.json
+clean_json: true
 ---
 {
   "authors": [
