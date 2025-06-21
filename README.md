@@ -283,6 +283,107 @@ Once the sponsor information is added and the file is saved, refresh the website
 To remove a sponsor, simply delete their entry from the appropriate section in the `sponsors.yml` file and ensure their logo file is also removed from the `/assets/images/` directory if no longer needed.
 
 
+
+
+### How to Add a New Exhibit 
+
+This guide will walk you through how to add a new exhibit to the website. Each exhibit can contain information about a historical display, including related persons (via `idMentions`), images, and descriptions.
+
+---
+
+### **Steps to Add a New Exhibit**
+
+#### **1. Create a New Exhibit File**
+
+To add a new exhibit, you need to create a new YAML file in your exhibits folder (typically found in the `_exhibits` directory). The filename should be descriptive and typically in a format like `exhibit-name.md` or `exhibit-name.yml`.
+
+**Example:**
+
+* `pioneers-of-crediton.md`
+* `historical-cemeteries.yml`
+
+---
+
+#### **2. Define the Exhibit Front Matter**
+
+Each exhibit needs front matter, which is metadata about the exhibit. Below is the structure of the front matter for an exhibit:
+
+```yaml
+---
+layout: exhibit
+title: "Exhibit Title"              # Title of the exhibit
+author: "author-name"               # Name of the exhibit author
+date: 2025-03-15 22:39:53          # Date of exhibit creation (use the current date)
+hero_image: "/path/to/hero-image.jpg"  # Optional: Hero image for the exhibit (full-width)  
+image: "/path/to/post-image.jpg"    # Optional: Main image related to the exhibit 
+image_caption: "Image caption here" # Optional: Caption for the main image  
+idMentions:                         # Optional: List of person IDs related to the exhibit (links to tribute pages)
+  - 1
+ 
+---
+```
+
+**Explanation of Front Matter Fields:**
+
+* **layout**: Should always be `exhibit` to designate this file as an exhibit.
+* **title**: The name of the exhibit.
+* **author**: The person who created or curated the exhibit.
+* **date**: The date the exhibit was created or published. Use `YYYY-MM-DD HH:MM:SS` format.
+* **hero\_image**: The main image that will be displayed at the top of the exhibit (optional).
+ 
+* **image**: A supplementary image related to the exhibit (optional).
+* **image\_caption**: A caption for the main image (optional).
+ 
+* **idMentions**: A list of person IDs from the **`people.yml`** file that this exhibit is associated with. This is used to link the exhibit to a person's tribute page. This field is optional but can be used to link the exhibit to individuals, such as those involved in the event or story being exhibited.
+
+---
+
+#### **3. Write the Exhibit Content**
+
+After the front matter, you can write the main content of the exhibit. You can use Markdown for formatting text, adding images, and links.
+
+**Example Content:**
+
+```markdown
+This exhibit tells the story of the pioneering families that helped establish Crediton, showcasing rare photographs, documents, and personal stories from the 1850s. It highlights the contributions of families such as the Doe family and others who made a lasting impact on the community.
+
+![Pioneer Family](images/pioneer-family.jpg)
+
+This newly discovered photograph provides a glimpse into life in Crediton in the mid-1800s. It is one of the many treasures featured in this exhibit.
+```
+
+You can include additional Markdown elements such as headings, paragraphs, images, lists, and links, just like writing a regular blog post.
+
+---
+
+#### **4. Linking the Exhibit to People (`idMentions`)**
+
+If you want to link specific people to the exhibit, you can use the **`idMentions`** field in the front matter.
+
+* **What is `idMentions`?**
+  The **`idMentions`** field is a list of person IDs (such as `1`, `248`) that are linked to this exhibit. The IDs should correspond to the ID of the person(s) tribute.
+
+
+**Example**:
+If the exhibit is about a family and you want to link it to specific individuals, add their IDs under **`idMentions`**.
+
+```yaml
+idMentions:
+  - 1
+  - 24 
+```
+
+In this example, the exhibit is linked to two persons: one with the ID `1` and the other with the ID `24`. You can add as many IDs as needed. 
+
+
+
+
+#### **5. Publish the Exhibit** 
+
+Once you've created your exhibit file with the proper front matter and content, save it and commit it to your repository. The exhibit will be automatically generated on the site.
+
+After pushing your changes, the new exhibit will be live on your website, and the related persons will be linked to the exhibit.
+
 ### How to Set Up
 
 1. **Install Jekyll**:
