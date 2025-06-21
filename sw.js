@@ -13,7 +13,7 @@ layout: none
  */
 
 try{
-const PWA_ROOT = '{{site.url}}{{base_url}}/assets/js/pwa';
+const PWA_ROOT = '{{base_url}}/assets/js/pwa';
 
 // Import configs
 importScripts(PWA_ROOT + '/config.js');
