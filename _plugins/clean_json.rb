@@ -9,7 +9,7 @@ module Jekyll
       # Iterate through each file in the site source
       site.pages.each do |page|
         # Check if the current page has the clean_json flag set to true
-        if page.extname == '.json' && page.data['clean_json'] == true
+        if page.data['clean_json'] == true
           clean_json_file(page)
         end
       end
@@ -23,7 +23,18 @@ module Jekyll
 
       # Ensure the file is a JSON file and exists
       if File.exist?(file_path) && file_path.end_with?('.json')
-        json_content = File.read(file_path)
+        # Read the file content
+        file_content = File.read(file_path)
+
+        # Check if the file starts with '---' (YAML front matter)
+        if file_content.start_with?('---')
+          # Remove YAML front matter (everything between the first and last '---')
+          front_matter_end = file_content.index('---', 3)
+          json_content = file_content[(front_matter_end + 3)..-1].strip
+        else
+          # No front matter, treat the entire file as JSON
+          json_content = file_content.strip
+        end
 
         # Parse JSON and then re-encode it to remove excessive whitespace
         begin
