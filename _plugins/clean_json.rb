@@ -1,39 +1,58 @@
 require 'jekyll'
+require 'json'
+require 'yaml'
 
 module Jekyll
   class CleanJsonWhitespace < Jekyll::Generator
     priority :low
 
     def generate(site)
-      # Check if clean_json is true in the config file
-      return unless site.config['clean_json']
-
       # Find all JSON files in the site
       json_files = Dir.glob(File.join(site.source, '**', '*.json'))
 
-      # Iterate through each JSON file and clean the whitespace
+      # Iterate through each JSON file and clean the whitespace if 'clean_json' flag in front matter is true
       json_files.each do |file_path|
-        clean_json_file(file_path)
+        clean_json_file(file_path, site)
       end
     end
 
     private
 
     # This method will clean up whitespace in the given JSON file
-    def clean_json_file(file_path)
+    def clean_json_file(file_path, site)
       # Read the content of the JSON file
-      json_content = File.read(file_path)
+      file_content = File.read(file_path)
 
-      # Parse JSON and then re-encode it to remove excessive whitespace
-      begin
-        parsed_json = JSON.parse(json_content)
-        cleaned_json = JSON.pretty_generate(parsed_json, indent: '  ')  # Custom indentation
+      # Extract the front matter (YAML block)
+      front_matter, json_content = file_content.split("\n---\n", 2)
+      
+      # Parse the front matter
+      front_matter_data = YAML.safe_load(front_matter)
 
-        # Write the cleaned JSON back to the file
-        File.open(file_path, 'w') { |f| f.write(cleaned_json) }
-        puts "Cleaned JSON file: #{file_path}"
-      rescue JSON::ParserError => e
-        puts "Failed to parse JSON in file #{file_path}: #{e.message}"
+      # Check if 'clean_json' is set to true in the front matter
+      if front_matter_data['clean_json'] == true
+
+        # Rebuild the front matter without the clean_json flag
+        cleaned_front_matter = front_matter_data.to_yaml(:line_width => -1).sub(/\A---\n/, '---\n')
+
+        # Parse JSON content
+        begin
+          parsed_json = JSON.parse(json_content)
+          
+          # Clean up whitespace and re-encode the JSON
+          cleaned_json = JSON.pretty_generate(parsed_json, indent: '  ')  # Custom indentation
+
+          # Combine the cleaned front matter and cleaned JSON content
+          cleaned_file_content = "#{cleaned_front_matter}---\n#{cleaned_json}"
+
+          # Write the cleaned content back to the file
+          File.open(file_path, 'w') { |f| f.write(cleaned_file_content) }
+          puts "Cleaned JSON file: #{file_path}"
+        rescue JSON::ParserError => e
+          puts "Failed to parse JSON in file #{file_path}: #{e.message}"
+        end
+      else
+        puts "Skipping file (no clean_json flag or not true): #{file_path}"
       end
     end
   end
