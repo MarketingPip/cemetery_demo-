@@ -8,7 +8,7 @@ title: Sponsors
 <html lang="en">
 <meta charset="UTF-8">
 <meta content="width=device-width, initial-scale=1" name="viewport">
-<title>Corporate Sponsors | Crediton Cemetery Heritage Portal</title>
+<title>{{page.title}} | Crediton Cemetery Heritage Portal</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 <style>
@@ -101,7 +101,7 @@ title: Sponsors
       </div>
 
       {% unless found_heritage %}
-        <p class="text-center text-gray-500">No Heritage Sponsors from previous years.</p>
+        <p class="text-center text-gray-500">No Current Heritage Sponsors.</p>
       {% endunless %}
     </div>
 
@@ -130,7 +130,7 @@ title: Sponsors
       </div>
 
       {% unless found_community %}
-        <p class="text-center text-gray-500">No Community Sponsors from previous years.</p>
+        <p class="text-center text-gray-500">No Current Community Sponsors.</p>
       {% endunless %}
     </div>
 
@@ -159,13 +159,13 @@ title: Sponsors
       </div>
 
       {% unless found_friend %}
-        <p class="text-center text-gray-500">No Friend Sponsors from previous years.</p>
+        <p class="text-center text-gray-500">No Current Friend Sponsors.</p>
       {% endunless %}
     </div>
 
     <!-- Call to Action -->
     <div class="text-center mt-12">
-      <a href="{{base_url}}/sponsors/#become-sponsor" class="bg-green-500 text-white font-bold text-lg py-3 px-8 rounded-md hover:bg-green-600 transition">Become a Sponsor</a>
+      <a href="{{base_url}}/past-sponsors/" class="bg-green-500 text-white font-bold text-lg py-3 px-8 rounded-md hover:bg-green-600 transition">View Past Sponsors</a>
     </div>
   
 </section>
