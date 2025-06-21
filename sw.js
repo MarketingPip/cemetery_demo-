@@ -1,3 +1,8 @@
+---
+layout: none
+---
+{% assign base_url = site.baseurl | default: "" %}
+
 /**
  * JFA PWA Toolkit
  * https://github.com/jfadev/jfa-pwa-toolkit
@@ -8,7 +13,7 @@
  */
 
 try{
-const PWA_ROOT = './assets/js/pwa';
+const PWA_ROOT = '{{base_url}}/assets/js/pwa';
 
 // Import configs
 importScripts(PWA_ROOT + '/config.js');
