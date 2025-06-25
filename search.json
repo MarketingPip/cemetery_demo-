@@ -1,6 +1,7 @@
 ---
 layout: none
 permalink: /search.json
+clean_json: true
 ---
 [
   {% assign pages_and_posts = site.posts | concat: site.pages %}
