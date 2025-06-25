@@ -37,8 +37,11 @@ module Jekyll
           return
         end
 
+        # Render the content if there are Liquid tags in the file
+        rendered_content = Jekyll::Renderer.new(site, page).run
+
         # Strip off YAML front matter if it exists
-        json_content = remove_front_matter(file_content)
+        json_content = remove_front_matter(rendered_content)
 
         # Parse the JSON and reformat it to remove excessive whitespace
         parsed_json = JSON.parse(json_content)
