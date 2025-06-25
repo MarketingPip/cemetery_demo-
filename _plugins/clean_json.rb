@@ -10,7 +10,7 @@ module Jekyll
       site.pages.each do |page|
         # Check if the page has the 'clean_json' flag and if it's a JSON file
         if page.data['clean_json'] == true && page.path.end_with?('.json')
-          clean_json_file(page)
+          clean_json_file(page, site)
         end
       end
     end
@@ -18,22 +18,29 @@ module Jekyll
     private
 
     # Method to clean the JSON file by removing extra whitespaces
-    def clean_json_file(page)
-      file_path = File.join(page.site.source, page.path)
+    def clean_json_file(page, site)
+      file_path = File.join(site.source, page.path)
 
-      # Read the rendered content (post-Jekyll build, with Liquid processed)
-      file_content = page.output
-
-      # Strip off YAML front matter if it exists
-      if file_content.start_with?('---')
-        front_matter_end = file_content.index('---', 3)
-        json_content = file_content[(front_matter_end + 3)..-1].strip
-      else
-        json_content = file_content.strip
+      # Check if the file exists and is readable
+      unless File.exist?(file_path) && File.readable?(file_path)
+        puts "File does not exist or is not readable: #{file_path}"
+        return
       end
 
-      # Parse the JSON and reformat it to remove excessive whitespace
+      # Read the file content directly from the file system
       begin
+        file_content = File.read(file_path)
+
+        # Check if the content is nil or empty
+        if file_content.nil? || file_content.empty?
+          puts "File is empty: #{file_path}"
+          return
+        end
+
+        # Strip off YAML front matter if it exists
+        json_content = remove_front_matter(file_content)
+
+        # Parse the JSON and reformat it to remove excessive whitespace
         parsed_json = JSON.parse(json_content)
         cleaned_json = JSON.pretty_generate(parsed_json, indent: '  ')  # Custom indentation
 
@@ -42,6 +49,23 @@ module Jekyll
         puts "Cleaned JSON file: #{file_path}"
       rescue JSON::ParserError => e
         puts "Failed to parse JSON in file #{file_path}: #{e.message}"
+      rescue StandardError => e
+        puts "Error reading or writing file #{file_path}: #{e.message}"
+      end
+    end
+
+    # Helper method to remove front matter from the file content
+    def remove_front_matter(content)
+      if content.start_with?('---')
+        front_matter_end = content.index('---', 3)
+        # Avoid stripping too early; search for the second `---` that marks the end of the front matter
+        if front_matter_end
+          content[(front_matter_end + 3)..-1].strip
+        else
+          content.strip
+        end
+      else
+        content.strip
       end
     end
   end
