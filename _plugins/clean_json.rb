@@ -21,6 +21,12 @@ module Jekyll
     def clean_json_file(page, site)
       file_path = File.join(site.source, page.path)
 
+      # Ensure that the page has the proper permalink (if applicable)
+      if page.permalink
+        # Use permalink in case it's a custom URL structure
+        file_path = File.join(site.source, page.permalink.sub(/^\//, ''))
+      end
+
       # Check if the file exists and is readable
       unless File.exist?(file_path) && File.readable?(file_path)
         puts "File does not exist or is not readable: #{file_path}"
@@ -61,7 +67,7 @@ module Jekyll
     def remove_front_matter(content)
       if content.start_with?('---')
         front_matter_end = content.index('---', 3)
-        # Avoid stripping too early; search for the second `---` that marks the end of the front matter
+        # Avoid stripping too early; search for the second --- that marks the end of the front matter
         if front_matter_end
           content[(front_matter_end + 3)..-1].strip
         else
