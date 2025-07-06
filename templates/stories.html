@@ -383,43 +383,56 @@ title: Stories
         let selectedGrave = null;
 
         // Initialize the application
-        function initApp() {
-            if (window.innerWidth <= 768) {
-                initMobileView();
-            } else {
-                initDesktopView();
-            }  
-            
-            // Handle window resize
-            window.addEventListener('resize', function() {
-                if (window.innerWidth <= 768) {
-                    document.querySelector('.desktop-layout').style.display = 'none';
-                    document.querySelector('.mobile-layout').style.display = 'flex'; 
-                   if(selectedGrave){
-                   showMobileDetailView(currentGraveIndex);
-                   }
-                    if (!mobileMap) {
-                         
-                       
-                       
-                        initMobileView();
-                    }
-                } else {
-                    document.querySelector('.desktop-layout').style.display = 'flex';
-                    document.querySelector('.mobile-layout').style.display = 'none';             
-                    if(selectedGrave){
-                       showDetailView(currentGraveIndex);
-                    }
-                   
-                    if (!map) {
-                        
-                      
-                         
-                        initDesktopView();
-                    }
-                }
-            });
+function initApp() {
+    const desktopLayout = document.querySelector('.desktop-layout');
+    const mobileLayout = document.querySelector('.mobile-layout');
+
+    function switchToMobile() {
+        if (desktopLayout) desktopLayout.style.display = 'none';
+        if (mobileLayout) mobileLayout.style.display = 'flex';
+
+        if (selectedGrave) {
+            showMobileDetailView(currentGraveIndex);
         }
+
+        if (!mobileMap) {
+            initMobileView();
+        }
+    }
+
+    function switchToDesktop() {
+        if (desktopLayout) desktopLayout.style.display = 'flex';
+        if (mobileLayout) mobileLayout.style.display = 'none';
+
+        if (selectedGrave) {
+            showDetailView(currentGraveIndex);
+        }
+
+        if (!map) {
+            initDesktopView();
+        }
+    }
+
+    // Initial setup
+    if (window.innerWidth <= 768) {
+        switchToMobile();
+    } else {
+        switchToDesktop();
+    }
+
+    // Debounced resize handler
+    let resizeTimeout;
+    window.addEventListener('resize', function () {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(function () {
+            if (window.innerWidth <= 768) {
+                switchToMobile();
+            } else {
+                switchToDesktop();
+            }
+        }, 150);
+    });
+}
 
         function initDesktopView() {
             // Initialize desktop map
@@ -604,7 +617,10 @@ title: Stories
         }
 
         // Initialize the app when the page loads
-        initApp();
+        // Wait for DOM ready
+document.addEventListener('DOMContentLoaded', function () {
+    initApp();
+});
     </script>
 </body>
 </html>
