@@ -583,10 +583,10 @@ function initApp() {
             
             document.getElementById('mobileSidebar').classList.add('hidden');
             document.getElementById('mobileDetailView').classList.remove('hidden');
-
+            const id = index + 1
                document.querySelectorAll('.grave-marker').forEach(marker => {
                 marker.classList.remove('selected');
-                if (parseInt(marker.dataset.id) === index) {
+                if (parseInt(marker.dataset.id) === id) {
                     marker.classList.add('selected');
                 }
             });
