@@ -1,0 +1,610 @@
+---
+permalink: /stories/
+title: Stories
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Cemetery Map</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+           .leaflet-popup-content-wrapper {
+            border-radius: 8px;
+        }
+        .grave-marker {
+            background: white;
+            border: 2px solid #3b82f6;
+            border-radius: 4px;
+            width: 32px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: bold;
+            color: #1e40af;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        .grave-marker.selected {
+            background: #3b82f6;
+            color: white;
+        }
+        .thumbnail-item {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .thumbnail-item:hover {
+            transform: scale(1.02);
+        }
+        .thumbnail-item.selected {
+            ring: 2px;
+            ring-color: #3b82f6;
+            transform: scale(1.02);
+        }
+        .thumbnail-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            padding: 16px;
+        }
+        
+        /* Desktop styles */
+        .map-container {
+            height: 100vh;
+            width: 100%;
+        }
+        .sidebar {
+            width: 384px;
+            background: white;
+            overflow-y: auto;
+            height: 100vh;
+        }
+        .detail-view {
+            width: 384px;
+            background: #1e293b;
+            color: white;
+            height: 100vh;
+            overflow-y: auto;
+        }
+        
+        /* Mobile styles */
+        @media (max-width: 768px) {
+            .desktop-layout {
+                display: none;
+            }
+            
+            .mobile-layout {
+                display: flex;
+                flex-direction: column;
+                height: 100vh;
+            }
+            
+            .mobile-map {
+                height: 50vh;
+                width: 100%;
+            }
+            
+            .mobile-detail {
+                height: 50vh;
+                background: #1e293b;
+                color: white;
+                overflow-y: auto;
+                position: relative;
+            }
+            
+            .mobile-sidebar {
+                height: 50vh;
+                background: white;
+                overflow-y: auto;
+            }
+            
+            .thumbnail-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 8px;
+                padding: 12px;
+            }
+            
+            .mobile-detail .detail-image {
+                max-height: 120px;
+                object-fit: cover;
+            }
+            
+            .mobile-detail .detail-content {
+                padding: 12px;
+            }
+            
+            .mobile-detail h1 {
+                font-size: 1.25rem;
+                margin-bottom: 0.5rem;
+            }
+            
+            .mobile-detail .detail-description {
+                font-size: 0.875rem;
+                line-height: 1.4;
+            }
+        }
+        
+        @media (min-width: 769px) {
+            .mobile-layout {
+                display: none;
+            }
+        }
+        
+        .nav-button {
+            background: rgba(0, 0, 0, 0.7);
+            border: none;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .nav-button:hover {
+            background: rgba(0, 0, 0, 0.9);
+        }
+        .nav-button:disabled {
+            background: rgba(0, 0, 0, 0.3);
+            cursor: not-allowed;
+        }
+        
+        .selected-panel {
+            position: absolute;
+            bottom: 16px;
+            left: 16px;
+            right: 16px;
+            background: rgba(30, 41, 59, 0.95);
+            color: white;
+            padding: 16px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 h-screen overflow-hidden">
+    <!-- Desktop Layout -->
+    <div class="desktop-layout flex h-full">
+        <!-- Sidebar with thumbnails -->
+        <div class="sidebar" id="sidebar">
+            <div class="p-4 border-b">
+                <h2 class="text-lg font-bold text-gray-800">Cemetery Records</h2>
+            </div>
+            <div class="thumbnail-grid" id="thumbnailGrid">
+                <!-- Thumbnails will be populated by JavaScript -->
+            </div>
+        </div>
+        
+        <!-- Detail View -->
+        <div class="detail-view hidden" id="detailView">
+            <!-- Header with navigation -->
+            <div class="flex items-center justify-between p-4 border-b border-gray-600">
+                <div class="flex items-center space-x-4">
+                    <div class="bg-blue-600 text-white px-3 py-1 rounded text-sm font-bold" id="detailNumber">3</div>
+                    <div class="flex space-x-2">
+                        <button class="nav-button" id="prevButton" onclick="navigateGrave(-1)">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M15 18l-6-6 6-6"/>
+                            </svg>
+                        </button>
+                        <button class="nav-button" id="nextButton" onclick="navigateGrave(1)">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 18l6-6-6-6"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <button class="nav-button" onclick="closeDetailView()">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 6L6 18M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+            
+            <!-- Detail Content -->
+            <div class="p-4">
+                <h1 class="text-2xl font-bold mb-2" id="detailName">ALLEN CHRISTIAN REDWOOD</h1>
+                <p class="text-gray-300 mb-4" id="detailDates">(1872-1922)</p>
+                
+                <!-- Image -->
+                <div class="mb-4">
+                    <img id="detailImage" src="" alt="" class="w-full rounded-lg shadow-lg">
+                </div>
+                
+                <!-- Description -->
+                <div class="text-gray-200 leading-relaxed" id="detailDescription">
+                    A Civil War writer, illustrator and soldier for the Confederate army. Redwood depicted battles and everyday life in the military with astonishing accuracy and detail. He is credited with the popularization of the "Johnny Reb" character in his sketches.
+                </div>
+            </div>
+        </div>
+        
+        <!-- Map Container -->
+        <div class="flex-1 relative">
+            <div id="map" class="map-container z-10"></div>
+            
+            <!-- Selected Person Panel (for map clicks) -->
+            <div id="selectedPanel" class="absolute bottom-4 left-4 bg-blue-900 text-white p-4 rounded-lg shadow-lg w-80 hidden z-40">
+                <div class="flex justify-between items-start mb-2">
+                    <span id="selectedNumber" class="bg-blue-700 px-2 py-1 rounded text-sm font-bold"></span>
+                    <button onclick="closeSelectedPanel()" class="text-white hover:text-gray-300 text-xl">×</button>
+                </div>
+                <h3 id="selectedName" class="text-xl font-bold mb-2"></h3>
+                <p id="selectedDates" class="text-sm mb-3"></p>
+                <p id="selectedDescription" class="text-sm leading-relaxed"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Layout -->
+    <div class="mobile-layout hidden">
+        <!-- Mobile Map (Top Half) -->
+        <div class="mobile-map relative">
+            <div id="mapMobile" class="w-full h-full"></div>
+            
+            <!-- Map controls for mobile -->
+            <div class="absolute top-4 right-4 flex flex-col space-y-2 z-40">
+                <button class="nav-button" onclick="showMobileSidebar()">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 12h18m-9 6h9m-9-12h9"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Sidebar (Bottom Half - initially shown) -->
+        <div class="mobile-sidebar" id="mobileSidebar">
+            <div class="p-4 border-b">
+                <h2 class="text-lg font-bold text-gray-800">Cemetery Records</h2>
+            </div>
+            <div class="thumbnail-grid" id="thumbnailGridMobile">
+                <!-- Thumbnails will be populated by JavaScript -->
+            </div>
+        </div>
+        
+        <!-- Mobile Detail View (Bottom Half - shown when item selected) -->
+        <div class="mobile-detail hidden" id="mobileDetailView">
+            <!-- Header with navigation -->
+            <div class="flex items-center justify-between p-4 border-b border-gray-600">
+                <div class="flex items-center space-x-4">
+                    <div class="bg-blue-600 text-white px-3 py-1 rounded text-sm font-bold" id="mobileDetailNumber">3</div>
+                    <div class="flex space-x-2">
+                        <button class="nav-button" id="mobilePrevButton" onclick="navigateGraveMobile(-1)">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M15 18l-6-6 6-6"/>
+                            </svg>
+                        </button>
+                        <button class="nav-button" id="mobileNextButton" onclick="navigateGraveMobile(1)">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 18l6-6-6-6"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <button class="nav-button" onclick="closeMobileDetailView()">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 6L6 18M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+            
+            <!-- Detail Content -->
+            <div class="p-4 flex-1 overflow-y-auto">
+                <h1 class="text-2xl font-bold mb-2" id="mobileDetailName">ALLEN CHRISTIAN REDWOOD</h1>
+                <p class="text-gray-300 mb-4" id="mobileDetailDates">(1872-1922)</p>
+                
+                <!-- Image -->
+                <div class="mb-4">
+                    <img id="mobileDetailImage" src="" alt="" class="w-full rounded-lg shadow-lg">
+                </div>
+                
+                <!-- Description -->
+                <div class="text-gray-200 leading-relaxed" id="mobileDetailDescription">
+                    A Civil War writer, illustrator and soldier for the Confederate army. Redwood depicted battles and everyday life in the military with astonishing accuracy and detail. He is credited with the popularization of the "Johnny Reb" character in his sketches.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Sample data for demonstration
+        const graveData = [
+            {
+                id: 1,
+                name: "JOHN WILLIAM SMITH",
+                dates: "(1845-1912)",
+                lat: 51.505,
+                lng: -0.09,
+                image: "https://picsum.photos/300/200?random=1",
+                description: "A prominent merchant and philanthropist who contributed significantly to the local community development."
+            },
+            {
+                id: 2,
+                name: "MARY ELIZABETH JOHNSON",
+                dates: "(1858-1923)",
+                lat: 51.506,
+                lng: -0.091,
+                image: "https://picsum.photos/300/200?random=2",
+                description: "An accomplished pianist and music teacher who taught many local children and established the first music school in the area."
+            },
+            {
+                id: 3,
+                name: "ALLEN CHRISTIAN REDWOOD",
+                dates: "(1872-1922)",
+                lat: 51.507,
+                lng: -0.092,
+                image: "https://picsum.photos/300/200?random=3",
+                description: "A Civil War writer, illustrator and soldier for the Confederate army. Redwood depicted battles and everyday life in the military with astonishing accuracy and detail. He is credited with the popularization of the 'Johnny Reb' character in his sketches."
+            },
+            {
+                id: 4,
+                name: "ROBERT JAMES WILSON",
+                dates: "(1834-1901)",
+                lat: 51.508,
+                lng: -0.093,
+                image: "https://picsum.photos/300/200?random=4",
+                description: "A decorated military officer who served in multiple campaigns and later became a respected judge."
+            },
+            {
+                id: 5,
+                name: "SARAH CATHERINE BROWN",
+                dates: "(1862-1934)",
+                lat: 51.509,
+                lng: -0.094,
+                image: "https://picsum.photos/300/200?random=5",
+                description: "A pioneering nurse who worked tirelessly during the influenza pandemic and established the first local hospital."
+            },
+            {
+                id: 6,
+                name: "THOMAS EDWARD DAVIS",
+                dates: "(1841-1918)",
+                lat: 51.510,
+                lng: -0.095,
+                image: "https://picsum.photos/300/200?random=6",
+                description: "An innovative engineer who designed several important bridges and infrastructure projects in the region."
+            }
+        ];
+
+        let map, mobileMap;
+        let markers = [];
+        let mobileMarkers = [];
+        let currentGraveIndex = 0;
+        let selectedGrave = null;
+
+        // Initialize the application
+        function initApp() {
+            if (window.innerWidth <= 768) {
+                initMobileView();
+            } else {
+                initDesktopView();
+            }  
+            
+            // Handle window resize
+            window.addEventListener('resize', function() {
+                if (window.innerWidth <= 768) {
+                    document.querySelector('.desktop-layout').style.display = 'none';
+                    document.querySelector('.mobile-layout').style.display = 'flex'; 
+                   if(selectedGrave){
+                   showMobileDetailView(currentGraveIndex);
+                   }
+                    if (!mobileMap) {
+                         
+                       
+                       
+                        initMobileView();
+                    }
+                } else {
+                    document.querySelector('.desktop-layout').style.display = 'flex';
+                    document.querySelector('.mobile-layout').style.display = 'none';             
+                    if(selectedGrave){
+                       showDetailView(currentGraveIndex);
+                    }
+                   
+                    if (!map) {
+                        
+                      
+                         
+                        initDesktopView();
+                    }
+                }
+            });
+        }
+
+        function initDesktopView() {
+            // Initialize desktop map
+            map = L.map('map').setView([51.505, -0.09], 13);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+            
+            // Add markers to desktop map
+            graveData.forEach((grave, index) => {
+              
+              
+              const markerHtml = `<div class="grave-marker" data-id="${grave.id}">${grave.id}</div>`;
+            const marker = L.marker([grave.lat, grave.lng], {
+                icon: L.divIcon({
+                    html: markerHtml,
+                    className: 'custom-div-icon',
+                    iconSize: [32, 40],
+                    iconAnchor: [16, 40]
+                })
+            }).addTo(map); 
+                marker.on('click', () => showDetailView(index));
+                markers.push(marker);
+            });
+            
+            // Populate desktop thumbnails
+            populateThumbnails('thumbnailGrid', false);
+        }
+
+        function initMobileView() {
+            // Initialize mobile map
+            mobileMap = L.map('mapMobile').setView([51.505, -0.09], 13);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(mobileMap);
+            
+            // Add markers to mobile map
+            graveData.forEach((grave, index) => {
+                const marker = L.marker([grave.lat, grave.lng]).addTo(mobileMap);
+                marker.on('click', () => selectGraveFromMapMobile(index));
+                mobileMarkers.push(marker);
+            });
+            
+            // Populate mobile thumbnails
+            populateThumbnails('thumbnailGridMobile', true);
+        }
+
+        function populateThumbnails(containerId, isMobile) {
+            const container = document.getElementById(containerId);
+            container.innerHTML = '';
+            
+            graveData.forEach((grave, index) => {
+                const item = document.createElement('div');
+                item.className = 'thumbnail-item';
+                item.innerHTML = `
+                    <div class="relative">
+                        <div class="absolute top-2 left-2 bg-blue-600 text-white px-2 py-1 rounded text-xs font-bold z-10">${grave.id}</div>
+                        <img src="${grave.image}" alt="${grave.name}" class="w-full h-24 object-cover">
+                    </div>
+                    <div class="p-3">
+                        <div class="text-sm font-bold text-gray-800 mb-1">${grave.name}</div>
+                        <div class="text-xs text-gray-600">${grave.dates}</div>
+                    </div>
+                
+                `;
+                
+                item.addEventListener('click', () => {
+                  selectedGrave = true
+                    if (isMobile) {
+                        showMobileDetailView(index);
+                    } else {
+                        showDetailView(index);
+                    }
+                });
+                
+                container.appendChild(item);
+            });
+        }
+
+        // Desktop functions
+        function showDetailView(index) {
+            currentGraveIndex = index;
+            const grave = graveData[index];
+            
+            document.getElementById('detailNumber').textContent = grave.id;
+            document.getElementById('detailName').textContent = grave.name;
+            document.getElementById('detailDates').textContent = grave.dates;
+            document.getElementById('detailImage').src = grave.image;
+            document.getElementById('detailDescription').textContent = grave.description;
+            
+            document.getElementById('sidebar').classList.add('hidden');
+            document.getElementById('detailView').classList.remove('hidden');
+            const id = index + 1
+            // Update marker styles
+            document.querySelectorAll('.grave-marker').forEach(marker => {
+                marker.classList.remove('selected');
+                if (parseInt(marker.dataset.id) === id) {
+                    marker.classList.add('selected');
+                }
+            });
+
+            // Update thumbnail styles
+            document.querySelectorAll('.thumbnail-item').forEach(thumb => {
+                thumb.classList.remove('selected');
+                if (parseInt(thumb.dataset.id) === id) {
+                    thumb.classList.add('selected');
+                }
+            });
+          
+            updateNavigationButtons();
+          
+           
+        }
+
+        function closeDetailView() {
+            document.getElementById('detailView').classList.add('hidden');
+            document.getElementById('sidebar').classList.remove('hidden');
+        }
+
+        function navigateGrave(direction) {
+            currentGraveIndex += direction;
+            if (currentGraveIndex < 0) currentGraveIndex = graveData.length - 1;
+            if (currentGraveIndex >= graveData.length) currentGraveIndex = 0;
+            showDetailView(currentGraveIndex);
+        }
+
+        
+
+        function closeSelectedPanel() {
+            document.getElementById('selectedPanel').classList.add('hidden');
+            selectedGrave = null;
+        }
+
+        // Mobile functions
+        function showMobileDetailView(index) {
+            currentGraveIndex = index;
+            const grave = graveData[index];
+            
+            document.getElementById('mobileDetailNumber').textContent = grave.id;
+            document.getElementById('mobileDetailName').textContent = grave.name;
+            document.getElementById('mobileDetailDates').textContent = grave.dates;
+            document.getElementById('mobileDetailImage').src = grave.image;
+            document.getElementById('mobileDetailDescription').textContent = grave.description;
+            
+            document.getElementById('mobileSidebar').classList.add('hidden');
+            document.getElementById('mobileDetailView').classList.remove('hidden');
+            
+            updateMobileNavigationButtons();
+        }
+
+        function closeMobileDetailView() {
+            document.getElementById('mobileDetailView').classList.add('hidden');
+            document.getElementById('mobileSidebar').classList.remove('hidden');
+        }
+
+        function showMobileSidebar() {
+            document.getElementById('mobileDetailView').classList.add('hidden');
+            document.getElementById('mobileSidebar').classList.remove('hidden');
+        }
+
+        function navigateGraveMobile(direction) {
+            currentGraveIndex += direction;
+            if (currentGraveIndex < 0) currentGraveIndex = graveData.length - 1;
+            if (currentGraveIndex >= graveData.length) currentGraveIndex = 0;
+            showMobileDetailView(currentGraveIndex);
+        }
+
+        function selectGraveFromMapMobile(index) {
+            showMobileDetailView(index);
+        }
+
+        function updateNavigationButtons() {
+            const prevButton = document.getElementById('prevButton');
+            const nextButton = document.getElementById('nextButton');
+            
+            prevButton.disabled = false;
+            nextButton.disabled = false;
+        }
+
+        function updateMobileNavigationButtons() {
+            const prevButton = document.getElementById('mobilePrevButton');
+            const nextButton = document.getElementById('mobileNextButton');
+            
+            prevButton.disabled = false;
+            nextButton.disabled = false;
+        }
+
+        // Initialize the app when the page loads
+        document.addEventListener('DOMContentLoaded', initApp);
+    </script>
+</body>
+</html>
