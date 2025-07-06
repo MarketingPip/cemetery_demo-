@@ -467,7 +467,7 @@ function initApp() {
             
             // Add markers to mobile map
             graveData.forEach((grave, index) => {
-                  const markerHtml = `<div class="grave-marker" data-id="${grave.index}">${grave.index}</div>`;
+                  const markerHtml = `<div class="grave-marker" data-id="${grave.id}">${grave.id}</div>`;
             const marker = L.marker([grave.lat, grave.lng], {
                 icon: L.divIcon({
                     html: markerHtml,
