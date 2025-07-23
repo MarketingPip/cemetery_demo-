@@ -1,18 +1,17 @@
-{% assign base_url = site.baseurl | default: "" %}
 - question: "How do I find a specific grave or record?"
-  answer: "Use our <a href=\"#search\" class=\"text-green-700 hover:text-green-900\">Search Records</a> page to look up names, dates, or keywords. You can also explore the <a href=\"{{base_url}}/#cemetery-map\" class=\"text-green-700 hover:text-green-900\">Interactive Map</a> for a visual guide to the cemetery layout. If you need assistance, feel free to <a href=\"#contact\" class=\"text-green-700 hover:text-green-900\">reach out</a>."
+  answer: "Use our <a href=\"#search\" class=\"text-green-700 hover:text-green-900\">Search Records</a> page to look up names, dates, or keywords. You can also explore the <a href=\"#map\" class=\"text-green-700 hover:text-green-900\">Interactive Map</a> for a visual guide to the cemetery layout. If you need assistance, feel free to <a href=\"#contact\" class=\"text-green-700 hover:text-green-900\">reach out</a>."
   
 - question: "Can I contribute family records or stories?"
-  answer: "Yes! We welcome contributions to enrich our archives. You can submit stories or records via our <a href=\"{{base_url}}/contact-us\" class=\"text-green-700 hover:text-green-900\">Contact Us</a> page or join as a volunteer to help with research and data entry—learn more on our <a href=\"#volunteer\" class=\"text-green-700 hover:text-green-900\">Volunteer</a> page."
+  answer: "Yes! We welcome contributions to enrich our archives. You can submit stories or records via our <a href=\"#contact\" class=\"text-green-700 hover:text-green-900\">Contact Us</a> page or join as a volunteer to help with research and data entry—learn more on our <a href=\"#volunteer\" class=\"text-green-700 hover:text-green-900\">Volunteer</a> page."
   
 - question: "Are donations tax-deductible?"
-  answer: "Yes, donations to the Crediton Cemetery Heritage Fund are tax-deductible in Canada. After donating via e-transfer, PayPal, or mail (see our <a href=\"{{base_url}}/donate\" class=\"text-green-700 hover:text-green-900\">Donate</a> page), you’ll receive a tax receipt by email or mail, depending on your method."
+  answer: "Yes, donations to the Crediton Cemetery Heritage Fund are tax-deductible in Canada. After donating via e-transfer, PayPal, or mail (see our <a href=\"#donate\" class=\"text-green-700 hover:text-green-900\">Donate</a> page), you’ll receive a tax receipt by email or mail, depending on your method."
   
 - question: "How can I volunteer with the portal?"
-  answer: "We’d love your help! Opportunities include research, photography, data entry, and event support. Visit our <a href=\"{{base_url}}/volunteer\" class=\"text-green-700 hover:text-green-900\">Volunteer</a> page for details and to get in touch with our coordinator."
+  answer: "We’d love your help! Opportunities include research, photography, data entry, and event support. Visit our <a href=\"#volunteer\" class=\"text-green-700 hover:text-green-900\">Volunteer</a> page for details and to get in touch with our coordinator."
   
 - question: "Can I visit Crediton Cemetery in person?"
-  answer: "Absolutely! The cemetery is open to the public daily from dawn to dusk. For directions or more info, <a href=\"{{base_url}}/contact-us\" class=\"text-green-700 hover:text-green-900\">contact us</a>. Check our <a href=\"{{base_url}}/events\" class=\"text-green-700 hover:text-green-900\">Events</a> page for guided tours or special visits."
+  answer: "Absolutely! The cemetery is open to the public daily from dawn to dusk. For directions or more info, <a href=\"#contact\" class=\"text-green-700 hover:text-green-900\">contact us</a>. Check our <a href=\"#events\" class=\"text-green-700 hover:text-green-900\">Events</a> page for guided tours or special visits."
   
 - question: "What if I spot an error in a record or exhibit?"
-  answer: "We strive for accuracy but appreciate your vigilance. Please report any errors via our <a href=\"{{base_url}}/contact-us\" class=\"text-green-700 hover:text-green-900\">Contact Us</a> page, and our team will review and update as needed."
+  answer: "We strive for accuracy but appreciate your vigilance. Please report any errors via our <a href=\"#contact\" class=\"text-green-700 hover:text-green-900\">Contact Us</a> page, and our team will review and update as needed."
