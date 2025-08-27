@@ -1,76 +1,127 @@
+# _plugins/download_images.rb
 require 'open-uri'
 require 'fileutils'
-require 'digest'
-require 'nokogiri'
+require 'uri'
 
 module Jekyll
-  class DownloadImagesPostBuild
-    # Hook into site post_write
-    Jekyll::Hooks.register :site, :post_write do |site|
-      Jekyll.logger.info "DownloadImages:", "Starting post-build image download..."
+  class DownloadImages < Generator
+    safe true
+    priority :high
 
-      site_output_path = site.dest
+    def generate(site)
+      Jekyll.logger.info "Starting image download process..."
+
       download_folder = site.config['download_images_folder'] || 'assets/images'
-      local_download_path = File.join(site.source, download_folder)
+      source_path = File.join(site.source, download_folder)
 
-      FileUtils.mkdir_p(local_download_path) unless File.directory?(local_download_path)
-
-      Dir.glob(File.join(site_output_path, "**", "*.html")) do |html_file|
-        process_html_file(html_file, local_download_path, site_output_path, site, download_folder)
+      begin
+        FileUtils.mkdir_p(source_path) unless File.directory?(source_path)
+        Jekyll.logger.info "Source directory ensured: #{source_path}"
+      rescue StandardError => e
+        Jekyll.logger.error "Failed to create source directory '#{source_path}': #{e.message}"
+        return
       end
 
-      Jekyll.logger.info "DownloadImages:", "Finished downloading images."
+      (site.pages + site.posts.docs).each do |item|
+        process_item(item, download_folder, source_path, site)
+      end
+
+      Jekyll.logger.info "Image download process complete."
     end
 
-    def self.process_html_file(html_file, local_download_path, site_output_path, site, download_folder)
-      html = File.read(html_file)
-      doc = Nokogiri::HTML(html)
+    private
 
-      doc.css('img').each do |img_tag|
-        url = img_tag['src']
-        next unless url =~ %r{^https?://.*\.(jpg|jpeg|png|gif|webp|svg)(\?.*)?$}i
+    def process_item(item, download_folder, source_path, site)
+      return unless item.content
 
+      Jekyll.logger.debug "Processing item: #{item.path || item.url}"
+      # Improved regex to capture full URLs including query parameters
+      image_urls = item.content.scan(/(?:src|href)=["']?(https?:\/\/[^"'\s]+(?:\{{2}[^\}]*\}{2})?[^"'\s]*\.(?:jpg|jpeg|webp|png|gif|svg)(?:\?[^\s"']*)?)["']?/i)
+
+      if image_urls.empty?
+        Jekyll.logger.debug "No image URLs found in: #{item.path || item.url}"
+        return
+      end
+
+      image_urls.each do |url_match|
+        image_url = url_match[0]
+        Jekyll.logger.info "Found image URL: #{image_url}"
         begin
-          downloaded_path, relative_path = download_image(url, local_download_path, site, download_folder)
-          next unless downloaded_path
-
-          # Update the HTML image src to point to the local version
-          img_tag['src'] = relative_path
-
-        rescue => e
-          Jekyll.logger.warn "DownloadImages:", "Failed to download #{url}: #{e.message}"
+          download_and_replace(image_url, item, download_folder, source_path, site)
+        rescue StandardError => e
+          Jekyll.logger.error "Error processing '#{image_url}' in '#{item.path || item.url}': #{e.message}"
         end
       end
-
-      # Save modified HTML
-      File.write(html_file, doc.to_html)
     end
 
-    def self.download_image(url, download_path, site, download_folder)
-      uri = URI.parse(url)
+    def download_and_replace(image_url, item, download_folder, source_path, site)
+      uri = URI.parse(image_url)
       base_filename = File.basename(uri.path)
       query_string = uri.query
-
+      
+      # Generate unique filename including query parameters if present
       file_name = if query_string
         ext = File.extname(base_filename)
         base = File.basename(base_filename, ext)
-        hash = Digest::MD5.hexdigest(query_string)[0..7]
-        "#{base}_#{hash}#{ext}"
+        query_hash = Digest::MD5.hexdigest(query_string)[0..7] # Short hash of query params
+        sanitize_filename("#{base}_#{query_hash}#{ext}")
       else
-        base_filename
+        sanitize_filename(base_filename)
       end
 
-      local_file_path = File.join(download_path, file_name)
-      relative_url_path = File.join('/', download_folder, file_name)
-
-      return [local_file_path, relative_url_path] if File.exist?(local_file_path)
-
-      URI.open(url, 'rb', { "User-Agent" => "JekyllImageDownloader/#{Jekyll::VERSION}" }) do |image|
-        File.open(local_file_path, 'wb') { |f| f.write(image.read) }
-        Jekyll.logger.info "Downloaded image: #{url} → #{relative_url_path}"
+      download_path = File.join(source_path, file_name)
+      relative_path = File.join('/', download_folder, file_name)
+      
+      if ENV['JEKYLL_ENV'] == 'production' && site.config['gh_repo_name'] && !site.config['gh_repo_name'].empty?
+        relative_path = "/#{site.config['gh_repo_name']}#{relative_path}"
       end
 
-      [local_file_path, relative_url_path]
+      unless File.exist?(download_path)
+        download_image(image_url, download_path)
+        if File.exist?(download_path)
+          Jekyll.logger.info "Successfully downloaded '#{image_url}' to '#{download_path}'"
+          site.static_files << Jekyll::StaticFile.new(site, site.source, download_folder, file_name)
+          Jekyll.logger.debug "Added to static files: #{relative_path}"
+        else
+          Jekyll.logger.error "Download appeared to succeed but file not found at: #{download_path}"
+          return
+        end
+      else
+        Jekyll.logger.debug "Image already exists at: #{download_path}"
+        unless site.static_files.any? { |sf| sf.path == download_path }
+          site.static_files << Jekyll::StaticFile.new(site, site.source, download_folder, file_name)
+          Jekyll.logger.debug "Registered existing file: #{relative_path}"
+        end
+      end
+
+      item.content.gsub!(image_url, relative_path)
+      Jekyll.logger.debug "Replaced URL with: #{relative_path}"
+    end
+
+    def download_image(image_url, download_path)
+      Jekyll.logger.debug "Attempting to download: #{image_url} to #{download_path}"
+
+      URI.open(image_url, 'rb', {
+        read_timeout: 10,
+        "User-Agent" => "Jekyll Image Downloader/#{Jekyll::VERSION}"
+      }) do |image|
+        File.open(download_path, 'wb') do |file|
+          bytes_written = file.write(image.read)
+          Jekyll.logger.debug "Wrote #{bytes_written} bytes to #{download_path}"
+        end
+      end
+    rescue OpenURI::HTTPError => e
+      Jekyll.logger.error "HTTP error downloading '#{image_url}': #{e.message}"
+      raise
+    rescue Errno::EACCES => e
+      Jekyll.logger.error "Permission denied saving to '#{download_path}': #{e.message}"
+      raise
+    end
+
+    def sanitize_filename(file_name)
+      ext = File.extname(file_name)
+      base = File.basename(file_name, ext)
+      "#{base.gsub(/[^0-9A-Za-z.\-]/, '_')}#{ext}"
     end
   end
 end
