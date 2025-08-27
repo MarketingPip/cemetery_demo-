@@ -130,9 +130,9 @@ permalink: /resources/books/
           {% if book.cover %}
             <img src="{{ site.baseurl }}/images/covers/{{ book.cover }}" alt="{{ book.title }} cover" onerror="this.onerror=null; this.src='https://openlibrary.org/images/icons/avatar_book-sm.png';" class="h-48 mb-2 object-contain" />
           {% elsif book.olid %}
-            <img src="https://covers.openlibrary.org/b/olid/{{ book.olid }}.jpg?default=false" alt="{{ book.title }} cover" onerror="this.onerror=null; this.src='https://openlibrary.org/images/icons/avatar_book-sm.png';" class="h-48 mb-2 object-contain" />
+            <img src="https://covers.openlibrary.org/b/olid/{{ book.olid }}-L.jpg?default=false" alt="{{ book.title }} cover" onerror="this.onerror=null; this.src='https://openlibrary.org/images/icons/avatar_book-sm.png';" class="h-48 mb-2 object-contain" />
           {% elsif book.isbn %}
-            <img src="https://covers.openlibrary.org/b/isbn/{{ book.isbn }}.jpg?default=false" onerror="this.onerror=null; this.src='https://openlibrary.org/images/icons/avatar_book-sm.png';" alt="{{ book.title }} cover" class="h-48 mb-2 object-contain" />
+            <img src="https://covers.openlibrary.org/b/isbn/{{ book.isbn }}-L.jpg?default=false" onerror="this.onerror=null; this.src='https://openlibrary.org/images/icons/avatar_book-sm.png';" alt="{{ book.title }} cover" class="h-48 mb-2 object-contain" />
           {% else %}
             <div class="h-48 flex items-center justify-center bg-gray-200 mb-2 w-full text-sm text-gray-500">
               No cover
