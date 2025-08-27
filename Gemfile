@@ -14,6 +14,7 @@ gem 'jekyll-sitemap'
 gem 'jekyll-seo-tag'
 gem 'httpparty'
 gem 'jekyll-paginate'
+gem 'nokogiri'
 
 # If you're using any CSS preprocessors (like Sass), you can add this:
 # gem 'sassc'
