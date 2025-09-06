@@ -103,49 +103,8 @@
 
 <!-- Blog Post Content Section -->
 <section class="bg-white py-12 flex" id="blog-content">
-
-<!--- TOC ----> 
-  <div class="w-full sm:w-1/4 hidden sm:flex">
-    <nav id="toc-sidebar" class="sticky top-0">
-      <ul class="space-y-2">
-        <li>
-          <a class="block px-4 py-2 text-blue-600 hover:underline" href="#adding-a-table-of-contents">
-            Adding a Table of Contents
-          </a>
-          <ul class="ml-4 space-y-1">
-            <li>
-              <a class="block px-4 py-1 text-blue-500 hover:underline" href="#example-of-sub-heading-1">
-                Example of Sub-Heading 1
-              </a>
-            </li>
-            <li>
-              <a class="block px-4 py-1 text-blue-500 hover:underline" href="#example-of-another-sub-heading-1">
-                Example of another Sub-Heading 1
-              </a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a class="block px-4 py-2 text-blue-600 hover:underline" href="#customizing-your-table-of-contents">
-            Customizing Your Table of Contents
-          </a>
-          <ul class="ml-4 space-y-1">
-            <li>
-              <a class="block px-4 py-1 text-blue-500 hover:underline" href="#example-of-sub-heading-2">
-                Example of Sub-Heading 2
-              </a>
-            </li>
-            <li>
-              <a class="block px-4 py-1 text-blue-500 hover:underline" href="#example-of-another-sub-heading-2">
-                Example of another Sub-Heading 2
-              </a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
-  </div>
-  
+     {% if page.toc and page.toc.sidebar %}
+        {% if page.toc.sidebar == 'right' %}
   <div class="px-4 container mx-auto max-w-4xl">
     <div class="mb-12">
       <img alt="Historical Artifact" class="w-full h-96 object-cover rounded-lg shadow-md mb-6" src="{{ page.image | default: '/api/placeholder/800/600' }}">
@@ -186,6 +145,182 @@
       </div>
     </div>
   </div>
+        <!--- TOC Right ----> 
+    <div class="w-full sm:w-1/4 hidden sm:flex">
+    <nav id="toc-sidebar" class="sticky top-0">
+      <ul class="space-y-2">
+        <li>
+          <a class="block px-4 py-2 text-blue-600 hover:underline" href="#adding-a-table-of-contents">
+            Adding a Table of Contents
+          </a>
+          <ul class="ml-4 space-y-1">
+            <li>
+              <a class="block px-4 py-1 text-blue-500 hover:underline" href="#example-of-sub-heading-1">
+                Example of Sub-Heading 1
+              </a>
+            </li>
+            <li>
+              <a class="block px-4 py-1 text-blue-500 hover:underline" href="#example-of-another-sub-heading-1">
+                Example of another Sub-Heading 1
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a class="block px-4 py-2 text-blue-600 hover:underline" href="#customizing-your-table-of-contents">
+            Customizing Your Table of Contents
+          </a>
+          <ul class="ml-4 space-y-1">
+            <li>
+              <a class="block px-4 py-1 text-blue-500 hover:underline" href="#example-of-sub-heading-2">
+                Example of Sub-Heading 2
+              </a>
+            </li>
+            <li>
+              <a class="block px-4 py-1 text-blue-500 hover:underline" href="#example-of-another-sub-heading-2">
+                Example of another Sub-Heading 2
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+        {% else %}
+         <!--- TOC Left ----> 
+
+  <div class="w-full sm:w-1/4 hidden sm:flex">
+    <nav id="toc-sidebar" class="sticky top-0">
+      <ul class="space-y-2">
+        <li>
+          <a class="block px-4 py-2 text-blue-600 hover:underline" href="#adding-a-table-of-contents">
+            Adding a Table of Contents
+          </a>
+          <ul class="ml-4 space-y-1">
+            <li>
+              <a class="block px-4 py-1 text-blue-500 hover:underline" href="#example-of-sub-heading-1">
+                Example of Sub-Heading 1
+              </a>
+            </li>
+            <li>
+              <a class="block px-4 py-1 text-blue-500 hover:underline" href="#example-of-another-sub-heading-1">
+                Example of another Sub-Heading 1
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a class="block px-4 py-2 text-blue-600 hover:underline" href="#customizing-your-table-of-contents">
+            Customizing Your Table of Contents
+          </a>
+          <ul class="ml-4 space-y-1">
+            <li>
+              <a class="block px-4 py-1 text-blue-500 hover:underline" href="#example-of-sub-heading-2">
+                Example of Sub-Heading 2
+              </a>
+            </li>
+            <li>
+              <a class="block px-4 py-1 text-blue-500 hover:underline" href="#example-of-another-sub-heading-2">
+                Example of another Sub-Heading 2
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="px-4 container mx-auto max-w-4xl">
+    <div class="mb-12">
+      <img alt="Historical Artifact" class="w-full h-96 object-cover rounded-lg shadow-md mb-6" src="{{ page.image | default: '/api/placeholder/800/600' }}">
+      <p class="text-gray-600 italic text-center">{{ page.image_caption | default: "A recently uncovered photograph of a pioneer family, circa 1850s." }}</p>
+    </div>
+
+    <div class="space-y-6 markdown">
+      {{ content }}
+    </div>
+
+    <div class="mt-12 pt-6 border-t border-gray-200 flex items-center justify-between">
+      <div class="flex items-center space-x-4">
+
+  
+      {% for author in site.authors %}
+  {% if author.slug == author_slug %}
+<img alt="{{ author.name }}" class="w-12 h-12 rounded-full object-cover" src="{{ author.author_image | default: 'https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_960_720.png' }}">
+        <div>    
+    <a class="text-gray-700 font-semibold hover:text-gray-900" href="{{ site.baseurl }}/authors/{{ author.slug }}">{{ author.name }}</a>
+    <p class="text-gray-700 text-sm">{{ author.role | default: "Heritage Volunteer" }}</p>
+    {% break %} <!-- Exit the loop after finding the matching author -->
+  {% endif %}
+{% endfor %}
+        </div>
+      </div>
+      <div class="flex space-x-4">
+
+{% for author in site.authors %}
+  {% if author.slug == author_slug %}
+    <a href="{{ author.social.facebook }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-facebook-f"></i></a>
+    <a href="{{ author.social.twitter }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-twitter"></i></a>
+    <a href="{{ author.social.linkedin }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-linkedin-in"></i></a>
+    {% break %} <!-- Exit the loop once the first match is found -->
+  {% endif %}
+{% endfor %}
+
+
+      </div>
+    </div>
+  </div>
+        {% endif %}
+      {% else %}
+  <!--- No TOC ---> 
+
+  <div class="px-4 container mx-auto max-w-4xl">
+    <div class="mb-12">
+      <img alt="Historical Artifact" class="w-full h-96 object-cover rounded-lg shadow-md mb-6" src="{{ page.image | default: '/api/placeholder/800/600' }}">
+      <p class="text-gray-600 italic text-center">{{ page.image_caption | default: "A recently uncovered photograph of a pioneer family, circa 1850s." }}</p>
+    </div>
+
+    <div class="space-y-6 markdown">
+      {{ content }}
+    </div>
+
+    <div class="mt-12 pt-6 border-t border-gray-200 flex items-center justify-between">
+      <div class="flex items-center space-x-4">
+
+  
+      {% for author in site.authors %}
+  {% if author.slug == author_slug %}
+<img alt="{{ author.name }}" class="w-12 h-12 rounded-full object-cover" src="{{ author.author_image | default: 'https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_960_720.png' }}">
+        <div>    
+    <a class="text-gray-700 font-semibold hover:text-gray-900" href="{{ site.baseurl }}/authors/{{ author.slug }}">{{ author.name }}</a>
+    <p class="text-gray-700 text-sm">{{ author.role | default: "Heritage Volunteer" }}</p>
+    {% break %} <!-- Exit the loop after finding the matching author -->
+  {% endif %}
+{% endfor %}
+        </div>
+      </div>
+      <div class="flex space-x-4">
+
+{% for author in site.authors %}
+  {% if author.slug == author_slug %}
+    <a href="{{ author.social.facebook }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-facebook-f"></i></a>
+    <a href="{{ author.social.twitter }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-twitter"></i></a>
+    <a href="{{ author.social.linkedin }}" class="text-gray-600 hover:text-green-600"><i class="fab fa-linkedin-in"></i></a>
+    {% break %} <!-- Exit the loop once the first match is found -->
+  {% endif %}
+{% endfor %}
+
+
+      </div>
+    </div>
+  </div>
+
+  
+      {% endif %}
+  
+
+
+  
+  
 </section>
 
 <!-- Related Content Section -->
