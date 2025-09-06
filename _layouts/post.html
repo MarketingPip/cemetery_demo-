@@ -103,6 +103,7 @@
 
 <!-- Blog Post Content Section -->
 <section class="bg-white py-12 flex" id="blog-content">
+  {% include toc.html html=content %}
      {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == 'right' %}
   <div class="px-4 container mx-auto max-w-4xl">
