@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "toc-sidebar"
 author: "jane-doe"
 date: 2025-03-15 22:39:53
