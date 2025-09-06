@@ -2,7 +2,7 @@
 layout: post
 title: "toc-sidebar"
 author: "jane-doe"
-date: 2025-03-15 22:39:53
+date: 2025-03-16 22:39:53
 hero_image: "/path/to/hero-image.jpg"
 author_image: "/path/to/author-image.jpg"
 image: "/path/to/post-image.jpg"
