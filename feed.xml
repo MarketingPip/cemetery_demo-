@@ -30,8 +30,8 @@ robots: "noindex, nofollow"  # You can mark pages to exclude here (or in the fro
 
       <!-- Properly formatted pubDate for each post -->
 {% assign file_date = post.path | file_creation_date %}
-
-{% if file_date %}
+{% assign test_year = file_date | date: "%Y" %}
+{% if test_year != "" and file_date %}
   <pubDate>{{ file_date }}</pubDate>
 {% elsif post.date %}
 {% assign parsed_date = post.date | date: "%Y-%m-%d %H:%M:%S" %}
