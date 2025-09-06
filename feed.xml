@@ -29,14 +29,18 @@ robots: "noindex, nofollow"  # You can mark pages to exclude here (or in the fro
       <dc:creator>{{ post.author }}</dc:creator>
 
       <!-- Properly formatted pubDate for each post -->
-      {% assign file_date = post.path | file_creation_date %}
-{% assign frontmatter_date = post.date %}
+{% assign file_date = post.path | file_creation_date %}
+{% assign file_date_valid = file_date | date: "%Y" %}
 
-{% if file_date %}
-      <pubDate>{{ file_date | date_to_rfc822 }}</pubDate>
-{% elsif frontmatter_date %}
-      <pubDate>{{ frontmatter_date | date_to_rfc822 }}</pubDate>
+{% assign frontmatter_date = post.date %}
+{% assign frontmatter_date_valid = frontmatter_date | date: "%Y" %}
+
+{% if file_date_valid != "" %}
+     <pubDate>{{ file_date | date_to_rfc822 }}</pubDate>
+{% elsif frontmatter_date_valid != "" %}
+     <pubDate>{{ frontmatter_date | date_to_rfc822 }}</pubDate>
 {% endif %}
+
 
       <guid>{{ site.url }}{{ post.url | relative_url }}</guid>
     </item>
