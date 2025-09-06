@@ -31,8 +31,7 @@ robots: "noindex, nofollow"  # You can mark pages to exclude here (or in the fro
       <!-- Properly formatted pubDate for each post -->
 {% assign raw_file_date = post.path | file_creation_date %}
 
-{% if raw_file_date and raw_file_date != '' and raw_file_date != '1970-01-01 00:00:00 +0000' %}
-  {% assign file_date = raw_file_date | date_to_rfc822 %}
+{% if raw_file_date and raw_file_date contains '.md' == false %}
   <pubDate>{{ file_date }}</pubDate>
 {% elsif post.date %}
   <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
