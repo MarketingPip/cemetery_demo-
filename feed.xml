@@ -35,11 +35,18 @@ robots: "noindex, nofollow"  # You can mark pages to exclude here (or in the fro
 {% assign frontmatter_date = post.date %}
 {% assign frontmatter_date_valid = frontmatter_date | date: "%Y" %}
 
-{% if file_date_valid != "" %}
-     <pubDate>{{ file_date | date_to_rfc822 }}</pubDate>
-{% elsif frontmatter_date_valid != "" %}
-     <pubDate>{{ frontmatter_date | date_to_rfc822 }}</pubDate>
+{% assign fallback_date = post.date | date: "%Y-%m-%d %H:%M:%S" %}
+{% assign fallback_valid = fallback_date | date: "%Y" %}
+
+{% assign file_date = post.path | file_creation_date %}
+{% assign file_valid = file_date | date: "%Y" %}
+
+{% if file_valid != "" %}
+  <pubDate>{{ file_date | date_to_rfc822 }}</pubDate>
+{% elsif fallback_valid != "" %}
+  <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 {% endif %}
+
 
 
       <guid>{{ site.url }}{{ post.url | relative_url }}</guid>
