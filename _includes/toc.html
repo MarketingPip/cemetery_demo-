@@ -1,0 +1,33 @@
+<fieldset class="my-6 border border-gray-300 p-4 rounded">
+  <legend class="font-bold text-lg mb-2">Table Of Contents</legend>
+
+  {% assign headings = include.html | split:"<h" %}
+  {% assign groups = "" %}
+
+  {% assign toc = "" %}
+  {% assign current_h2 = "" %}
+  {% assign current_list = "" %}
+
+  {% for h in headings %}
+    {% if h contains "2" %}
+      {% assign text = h | split: ">" | last | split: "</h2" | first %}
+      {% assign id = text | downcase | replace: " ", "_" | replace: ".", "" %}
+      {% assign current_h2 = text %}
+      {% assign current_list = "" %}
+    {% endif %}
+
+    {% if h contains "3" %}
+      {% assign text = h | split: ">" | last | split: "</h3" | first %}
+      {% assign id = text | downcase | replace: " ", "_" | replace: ".", "" %}
+      {% assign current_list = current_list | append: "<li><a href='#" | append: id | append: "'>" | append: text | append: "</a></li>" %}
+    {% endif %}
+
+    {% if h contains "2" %}
+      {% if current_h2 != "" and current_list != "" %}
+        {% assign toc = toc | append: "<ul><li><a href='#" | append: current_h2 | append: "'><b>" | append: current_h2 | append: "</b></a><ul>" | append: current_list | append: "</ul></li></ul>" %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  {{ toc | raw }}
+</fieldset>
