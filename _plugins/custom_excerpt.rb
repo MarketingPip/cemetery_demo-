@@ -4,7 +4,7 @@ Jekyll::Hooks.register :documents, :post_render do |doc|
   next unless doc.respond_to?(:content) && doc.content && doc.output
 
   # Remove <h1>–<h6> headings from the rendered HTML
-  cleaned = doc.output.gsub(/<h[1-6][^>]*>.*?<\/h[1-6]>/im, '')
+  cleaned = doc.content.gsub(/<h[1-6][^>]*>.*?<\/h[1-6]>/im, '')
 
   # Strip any remaining HTML tags
   cleaned = cleaned.gsub(/<\/?[^>]*>/, '')
