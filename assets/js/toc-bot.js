@@ -10,5 +10,7 @@ tocbot.init({
   itemClass: 'toc-link',                   // classes for <li> (add if needed)
   linkClass: 'toc-link',    // classes for links
   isCollapsedClass: 'hidden',      // classes for collapsed lists
-   activeLinkClass: 'active'
+   activeLinkClass: 'active',
+   scrollSmooth: true,
+  headingsOffset: 64 + 16 * 2,
 });
