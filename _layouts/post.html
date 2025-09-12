@@ -32,6 +32,11 @@
 {% endif %}
 <!-- CSS for Markdown -->
  <link rel="stylesheet" href="{{base_url}}/assets/css/markdown.css">
+
+     {% if page.toc %}
+     <script src="{{base_url}}/assets/js/toc-bot.js"></script>
+     {% endif %}
+  
 </head>
 <body class="bg-gray-100 font-sans">
 
@@ -146,46 +151,9 @@
     </div>
   </div>
         <!--- TOC Right ----> 
-    <div class="w-full sm:w-1/4 hidden sm:flex">
-    <nav id="toc-sidebar" class="sticky top-0">
-      <ul class="space-y-2">
-        <li>
-          <a class="block px-4 py-2 text-blue-600 hover:underline" href="#adding-a-table-of-contents">
-            Adding a Table of Contents
-          </a>
-          <ul class="ml-4 space-y-1">
-            <li>
-              <a class="block px-4 py-1 text-blue-500 hover:underline" href="#example-of-sub-heading-1">
-                Example of Sub-Heading 1
-              </a>
-            </li>
-            <li>
-              <a class="block px-4 py-1 text-blue-500 hover:underline" href="#example-of-another-sub-heading-1">
-                Example of another Sub-Heading 1
-              </a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a class="block px-4 py-2 text-blue-600 hover:underline" href="#customizing-your-table-of-contents">
-            Customizing Your Table of Contents
-          </a>
-          <ul class="ml-4 space-y-1">
-            <li>
-              <a class="block px-4 py-1 text-blue-500 hover:underline" href="#example-of-sub-heading-2">
-                Example of Sub-Heading 2
-              </a>
-            </li>
-            <li>
-              <a class="block px-4 py-1 text-blue-500 hover:underline" href="#example-of-another-sub-heading-2">
-                Example of another Sub-Heading 2
-              </a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
-  </div>
+     <nav id="toc-sidebar" class="sticky top-24 self-start w-full">
+      <!-- TOC Content Goes Here -->
+     </nav> 
         {% else %}
          <!--- TOC Left ----> 
 
