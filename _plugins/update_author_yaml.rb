@@ -71,21 +71,35 @@ module Jekyll
     end
 
     def update_site_data(site, filename, data, content)
-      doc = site.collections['authors'].docs.find { |d| d.basename == File.basename(filename, '.md') }
-      if doc
-        doc.data.merge!(data)
-        doc.content = content || ''
+      collection = site.collections['authors']
+      basename = File.basename(filename, '.md')
+      author_path = File.join(site.source, '_authors', filename)
+
+      # Find existing doc by path or basename
+      existing_doc = collection.docs.find do |d|
+        d.path == author_path || d.basename_without_ext == basename
+      end
+
+      if existing_doc
+        existing_doc.data.merge!(data)
+        existing_doc.content = content || ''
         Jekyll.logger.info "Updated in-memory doc for #{filename}"
       else
         new_doc = Jekyll::Document.new(
-          File.join(site.source, '_authors', filename),
-          { site: site, collection: site.collections['authors'] }
+          author_path,
+          { site: site, collection: collection }
         )
         new_doc.read
         new_doc.data.merge!(data)
         new_doc.content = content || ''
-        site.collections['authors'].docs << new_doc
-        Jekyll.logger.info "Added new in-memory doc for #{filename}"
+
+        # Prevent duplicates before adding
+        unless collection.docs.any? { |d| d.path == new_doc.path }
+          collection.docs << new_doc
+          Jekyll.logger.info "Added new in-memory doc for #{filename}"
+        else
+          Jekyll.logger.warn "Skipped duplicate doc for #{filename}"
+        end
       end
     end
 
@@ -106,7 +120,14 @@ module Jekyll
         { site: site, collection: site.collections['authors'] }
       )
       new_doc.read
-      site.collections['authors'].docs << new_doc
+
+      # Add to collection only if not already present
+      unless site.collections['authors'].docs.any? { |d| d.path == new_doc.path }
+        site.collections['authors'].docs << new_doc
+        Jekyll.logger.info "Added new in-memory doc for #{author_name}"
+      else
+        Jekyll.logger.warn "Skipped adding duplicate doc for #{author_name}"
+      end
     end
 
     def parse_front_matter(content)
