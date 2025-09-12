@@ -1,0 +1,18 @@
+.toc-link {
+  display: block;
+  padding-left: 1rem;  /* px-4 */
+  padding-right: 1rem;
+  padding-top: 0.5rem; /* py-2 */
+  padding-bottom: 0.5rem;
+  color: #2563eb; /* text-blue-600 (Tailwind default) */
+  
+}
+
+.toc-link:hover {
+  text-decoration: underline; /* Optional, but included for clarity */
+}
+
+.toc-link.active {
+  text-decoration: underline; /* Optional, but included for clarity */
+  font-weight: bold;
+}
