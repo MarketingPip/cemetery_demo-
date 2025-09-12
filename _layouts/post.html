@@ -152,16 +152,21 @@
     </div>
   </div>
         <!--- TOC Right ----> 
+      <div class="w-full sm:w-1/4 hidden sm:flex">
+
      <nav id="toc-sidebar" class="sticky top-24 self-start w-full">
       <!-- TOC Content Goes Here -->
-     </nav> 
+     </nav>
+     </div>   
         {% else %}
          <!--- TOC Left ----> 
+      <div class="w-full sm:w-1/4 hidden sm:flex">
+
      <nav id="toc-sidebar" class="sticky top-24 self-start w-full">
       <!-- TOC Content Goes Here -->
      </nav> 
-  
-  </div>
+    </div>
+        
   <div class="px-4 container mx-auto max-w-4xl">
     <div class="mb-12">
       <img alt="Historical Artifact" class="w-full h-96 object-cover rounded-lg shadow-md mb-6" src="{{ page.image | default: '/api/placeholder/800/600' }}">
