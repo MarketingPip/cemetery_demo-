@@ -8,7 +8,9 @@
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <title>{{ page.title }} | {{site.title}}</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  {% if content matches '<person-info(\s+[^>]*)?>' %}
   <script src="{{base_url}}/assets/js/person_wc.js"></script>
+  {% endif %}
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   <style>
     .hero-image {
