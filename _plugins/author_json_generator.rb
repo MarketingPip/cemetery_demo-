@@ -5,8 +5,7 @@ module Jekyll
     priority :low
 
     def generate(site)
-      # Get all authors from _data/authors.yml
-      authors = site.data['authors'] || {}
+      authors = site.collections['authors'] || {}
 
       authors.each do |author_id, author_data|
         # Find all posts by this author
