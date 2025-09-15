@@ -5,18 +5,25 @@ module Jekyll
     priority :low
 
     def generate(site)
-      authors = site.collections['authors'] || {}
+      # Use authors collection instead of data file
+      authors_collection = site.collections['authors']
+      return unless authors_collection
 
-      authors.each do |author_id, author_data|
+      authors_collection.docs.each do |author_doc|
+        author_id = author_doc.basename_without_ext
+
+        # Get author front matter
+        author_data = author_doc.data
+
         # Find all posts by this author
         posts = site.posts.docs.select do |post|
           post.data['author'] == author_id
         end
 
-        # Prepare author JSON structure
+        # Create JSON object
         json = {
           id: author_id,
-          name: author_data['name'],
+          name: author_data['name'] || author_data['title'],
           bio: author_data['bio'],
           website: author_data['website'],
           posts: posts.map do |post|
@@ -29,8 +36,10 @@ module Jekyll
           end
         }.to_json
 
-        # Create the virtual page
+        # Virtual page path
         path = "api/authors/#{author_id}.json"
+
+        # Create the virtual page
         page = PageWithoutAFile.new(site, site.source, File.dirname(path), File.basename(path))
         page.content = json
         page.data['layout'] = nil
