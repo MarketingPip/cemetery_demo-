@@ -104,7 +104,7 @@ defaults:
       type: "posts"
     values:
       layout: "post_api"
-      permalink: "/api/posts/title.json"     
+      permalink: "/api/posts/:title.json"     
 # Plugins
 plugins:
  # - octopress-minify-html
