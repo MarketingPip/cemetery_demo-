@@ -17,9 +17,8 @@ module Jekyll
 
         # Make directories if needed
         FileUtils.mkdir_p(File.dirname(filename))
-
-        # Write the file
-        File.write(filename, json)
+        # Register it as a static file so Jekyll knows to include it
+        site.static_files << PostJSONFile.new(site, site.dest, dir, filename)
       end
     end
   end
