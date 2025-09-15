@@ -99,7 +99,12 @@ defaults:
       path: "resources/**/*.pdf"
     values:
      sitemap: false    
-     
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post_api"
+      permalink: "/api/posts/title.json"     
 # Plugins
 plugins:
  # - octopress-minify-html
