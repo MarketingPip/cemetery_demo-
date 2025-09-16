@@ -7,7 +7,8 @@ This is a Jekyll-based blog template that supports multiple authors. Each author
 - **Multi-Author Support**: Easily add multiple authors with dedicated pages.
 - **CSV to JSON Conversion**: Convert a CSV file to JSON to integrate external data.
 - **Post Assignment to Authors**: Assign authors to blog posts by referencing their author file.
-
+- **JSON API Endpoints**: Automatically generate RESTful JSON endpoints for posts, authors, categories, and tags.
+  
 ## Example Usage
 
 ### CSV to JSON Conversion
@@ -384,6 +385,223 @@ Once you've created your exhibit file with the proper front matter and content, 
 
 After pushing your changes, the new exhibit will be live on your website, and the related persons will be linked to the exhibit.
 
+# 📚 Jekyll API Endpoints
+
+Static JSON API powered by custom Jekyll generators.
+
+## 📝 Posts
+
+### 🔹 `GET /api/posts.json`
+
+Returns **all posts** (non-paginated).
+
+**Example Response:**
+
+```json
+[
+  {
+    "id": "my-post-title",
+    "title": "My Post Title",
+    "date": "2025-09-15",
+    "url": "/2025/09/15/my-post-title",
+    "excerpt": "This post is about...",
+    "categories": ["tech"],
+    "tags": ["jekyll", "api"],
+    "author": "john-doe"
+  }
+]
+```
+
+---
+
+### 🔹 `GET /api/posts/:slug.json`
+
+Returns full content and metadata for a specific post.
+
+**Example:**
+
+```
+GET /api/posts/my-post-title.json
+```
+
+**Example Response:**
+
+```json
+{
+  "id": "my-post-title",
+  "title": "My Post Title",
+  "date": "2025-09-15",
+  "url": "/2025/09/15/my-post-title",
+  "excerpt": "This post is about...",
+  "categories": ["tech"],
+  "tags": ["jekyll", "api"],
+  "author": "john-doe",
+  "content": "<h2>Full HTML content...</h2>"
+}
+```
+
+---
+
+## 👤 Authors
+
+### 🔹 `GET /api/authors.json`
+
+List all authors, including post count and link to full profile.
+
+**Example Response:**
+
+```json
+[
+  {
+    "id": "john-doe",
+    "name": "John Doe",
+    "bio": "A mysterious writer",
+    "website": "https://johndoe.com",
+    "count": 4,
+    "url": "/api/authors/john-doe.json"
+  }
+]
+```
+
+---
+
+### 🔹 `GET /api/authors/:id.json`
+
+Returns author info and their posts.
+
+**Example:**
+
+```
+GET /api/authors/john-doe.json
+```
+
+**Example Response:**
+
+```json
+{
+  "id": "john-doe",
+  "name": "John Doe",
+  "bio": "A mysterious writer",
+  "website": "https://johndoe.com",
+  "count": 4,
+  "posts": [
+    {
+      "title": "Intro to Ruby",
+      "date": "2025-09-14",
+      "url": "/2025/09/14/intro-to-ruby",
+      "excerpt": "A short guide...",
+      "categories": ["tech"],
+      "tags": ["ruby"]
+    }
+  ]
+}
+```
+
+---
+
+## 🏷 Tags
+
+### 🔹 `GET /api/tags.json`
+
+List all tags with post counts and URLs.
+
+**Example Response:**
+
+```json
+[
+  {
+    "id": "jekyll",
+    "slug": "jekyll",
+    "count": 3,
+    "url": "/api/tags/jekyll.json"
+  }
+]
+```
+
+---
+
+### 🔹 `GET /api/tags/:id.json`
+
+Returns all posts with the given tag.
+
+**Example:**
+
+```
+GET /api/tags/jekyll.json
+```
+
+**Example Response:**
+
+```json
+{
+  "id": "jekyll",
+  "count": 3,
+  "posts": [
+    {
+      "title": "Building a Jekyll Plugin",
+      "date": "2025-09-12",
+      "url": "/2025/09/12/jekyll-plugin",
+      "excerpt": "Learn how to build plugins...",
+      "categories": ["dev"],
+      "author": "john-doe"
+    }
+  ]
+}
+```
+
+---
+
+## 📂 Categories
+
+### 🔹 `GET /api/categories.json`
+
+List all categories with post counts and links.
+
+**Example Response:**
+
+```json
+[
+  {
+    "id": "Tech",
+    "slug": "tech",
+    "count": 5,
+    "url": "/api/categories/tech.json"
+  }
+]
+```
+
+---
+
+### 🔹 `GET /api/categories/:id.json`
+
+Returns all posts in the given category.
+
+**Example:**
+
+```
+GET /api/categories/tech.json
+```
+
+**Example Response:**
+
+```json
+{
+  "id": "Tech",
+  "count": 5,
+  "posts": [
+    {
+      "title": "Intro to Ruby",
+      "date": "2025-09-14",
+      "url": "/2025/09/14/intro-to-ruby",
+      "excerpt": "A short guide...",
+      "tags": ["ruby"],
+      "author": "john-doe"
+    }
+  ]
+}
+```
+
+
 ### How to Set Up
 
 1. **Install Jekyll**:
@@ -400,6 +618,7 @@ After pushing your changes, the new exhibit will be live on your website, and th
 
 3. **Convert CSV to JSON**:
    To convert your CSV file to JSON, you can create a custom script or use a library. The file paths in the example usage above (`inputFilePath` and `outputFilePath`) should point to your CSV and JSON files respectively.
+
 
 ## Contributing
 
