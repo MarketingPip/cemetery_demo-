@@ -64,12 +64,12 @@
     "count": 105
   },
   "most_common_death_month": {
-    "month": "0",
-    "count": 559
+    "month": "January",
+    "count": 63
   },
   "most_common_birth_month": {
-    "month": "0",
-    "count": 671
+    "month": "March",
+    "count": 51
   },
   "youngestPerson": {
     "id": 472,
