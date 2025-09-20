@@ -73,16 +73,12 @@ permalink: /statistics/
             <p class="text-lg font-bold">{{ stats.longestLivedYears }}</p>
           </div>
           <div class="p-6 bg-gray-50 rounded-xl shadow">
-            <p class="text-gray-500">Youngest Person</p>
-            <p class="text-lg font-bold">{{ stats.youngestPerson.name }}</p>
-          </div>
-          <div class="p-6 bg-gray-50 rounded-xl shadow">
             <p class="text-gray-500">Most Common Death Month</p>
-            <p class="text-lg font-bold">{{ stats.most_common_death_month.month | plus:1 }}</p>
+            <p class="text-lg font-bold">{{ stats.most_common_death_month.month }}</p>
           </div>
           <div class="p-6 bg-gray-50 rounded-xl shadow">
             <p class="text-gray-500">Most Common Birth Month</p>
-            <p class="text-lg font-bold">{{ stats.most_common_birth_month.month | plus:1 }}</p>
+            <p class="text-lg font-bold">{{ stats.most_common_birth_month.month }}</p>
           </div>
         </div>
 
@@ -115,7 +111,7 @@ permalink: /statistics/
 
           <!-- Youngest Death -->
           <div class="p-6 bg-gray-50 rounded-xl shadow text-center">
-            <h4 class="font-bold text-lg mb-2">Youngest Death</h4>
+            <h4 class="font-bold text-lg mb-2">Earliest Death (by age)</h4>
             {% if stats.youngestPerson.image_url != "" %}
             <img src="{{ stats.youngestPerson.image_url }}" alt="{{ stats.youngestPerson.name }}" class="w-32 h-32 object-cover rounded-full mx-auto mb-4">
             {% else %}
