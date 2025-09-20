@@ -3,11 +3,17 @@
   "average_age": 63.48511383537653,
   "median_age": 72,
   "age_distribution": {
-    "<20": 131,
-    "20–39": 81,
-    "40–59": 136,
-    "60–79": 417,
-    "80+": 377
+    "0–9": 109,
+    "10–19": 22,
+    "20–29": 48,
+    "30–39": 33,
+    "40–49": 47,
+    "50–59": 89,
+    "60–69": 143,
+    "70–79": 274,
+    "80–89": 276,
+    "90–99": 92,
+    "100+": 9
   },
   "earliestBirth": "1791-09-04",
   "earliestDeath": "1858-10-20",
@@ -49,14 +55,14 @@
     "image_url": "https://images.findagrave.com/photos/2024/93/269021463_38fc0763-86ef-4010-a29d-67bc07075061.jpeg?size=photos250"
   },
   "longestLivedYears": "105",
-  "topYear": [
-    "1979",
-    16
-  ],
-  "topDecade": [
-    "1970",
-    105
-  ],
+  "topYear": {
+    "year": 1979,
+    "count": 16
+  },
+  "topDecade": {
+    "decade": 1970,
+    "count": 105
+  },
   "most_common_death_month": {
     "month": "0",
     "count": 559
@@ -65,21 +71,7 @@
     "month": "0",
     "count": 671
   },
-  "youngestAge": 0,
   "youngestPerson": {
-    "id": 97,
-    "gps": {
-      "latitude": "43.2984883",
-      "longitude": "-81.5528191"
-    },
-    "name": "Edward Thomas Brown",
-    "birth_date": "1878-10-06",
-    "death_date": "1879-06-11",
-    "location": "Crediton",
-    "image_url": "https://images.findagrave.com/photos/2006/306/16444298_116256992924.jpg?size=photos250"
-  },
-  "shortestLifespanDays": null,
-  "shortestPerson": {
     "id": 472,
     "gps": null,
     "name": "Arriah Faith Guetter",
