@@ -509,8 +509,8 @@ async function tributeData(tributeId) {
 // Function to render a single person (used for parents, spouse, siblings, children)
 function renderPerson(person) {
     const tributeUrl = (person?.id !== undefined && person?.id !== null)
-    ? `../tribute?id=${person.id}`
-    : `{{ base_url | escape }}redirect?page=FindAGrave&url=https://findagrave.com${encodeURIComponent(person.profile_url)}`;
+    ? `{{ base_url }}/tribute?id=${person.id}`
+    : `{{ base_url }}/redirect?page=FindAGrave&url=https://findagrave.com${encodeURIComponent(person.profile_url)}`;
 
     return `
         <!-- Wrap the whole card in an anchor tag to make it clickable -->
