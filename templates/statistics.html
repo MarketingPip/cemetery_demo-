@@ -193,8 +193,8 @@ permalink: /statistics/
     {% assign age_ranges = stats.age_distribution | keys %}
     {% for item in age_ranges %}
       <tr>
-        <td>{{ item[0] }}</td> <!-- item[0] is the key -->
-        <td>{{ item[1] }}</td> <!-- item[1] is the value -->
+        <td class="py-2 px-4 font-medium text-gray-800">{{ item[0] }}</td> <!-- item[0] is the key -->
+        <td class="py-2 px-4 text-gray-600">{{ item[1] }}</td> <!-- item[1] is the value -->
       </tr>
     {% endfor %}
   </tbody>
