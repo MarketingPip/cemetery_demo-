@@ -78,17 +78,26 @@ function mostBurialsByYearAndDecade(data) {
   return { topYear, topDecade };
 }
 
-function mostCommonMonth(data, key) {
-  const months = {};
+function mostCommonMonth(data, dateField) {
+  const monthNames = [
+    'January','February','March','April','May','June',
+    'July','August','September','October','November','December'
+  ];
+
+  const counts = {};
+
   data.forEach(r => {
-    const date = r[key];
-    if (date) {
-      const m = parseInt(date.substring(5, 7));
-      if (!isNaN(m)) months[m] = (months[m] || 0) + 1;
-    }
+    if (!r[dateField]) return;
+    const monthIndex = new Date(r[dateField]).getMonth(); // 0–11
+    if (isNaN(monthIndex)) return;
+    const monthName = monthNames[monthIndex];
+    counts[monthName] = (counts[monthName] || 0) + 1;
   });
-  const top = Object.entries(months).sort((a, b) => b[1] - a[1])[0];
-  return top ? { month: top[0], count: top[1] } : null;
+
+  const topEntry = Object.entries(counts).sort((a, b) => b[1] - a[1])[0];
+  return topEntry
+    ? { month: topEntry[0], count: topEntry[1] }
+    : null;
 }
 
 // precise lifespan in days (returns integer days) and safe null handling
