@@ -51,6 +51,10 @@ permalink: /statistics/
             <p class="text-2xl font-bold">{{ stats.average_age | round: 1 }}</p>
           </div>
           <div class="p-6 bg-gray-50 rounded-xl shadow">
+            <p class="text-gray-500">Median Age</p>
+            <p class="text-2xl font-bold">{{ stats.median_age }}</p>
+          </div>
+          <div class="p-6 bg-gray-50 rounded-xl shadow">
             <p class="text-gray-500">Earliest Birth</p>
             <p class="text-lg font-bold">{{ stats.earliestBirth }}</p>
           </div>
@@ -65,6 +69,18 @@ permalink: /statistics/
           <div class="p-6 bg-gray-50 rounded-xl shadow">
             <p class="text-gray-500">Longest Lived (Years)</p>
             <p class="text-lg font-bold">{{ stats.longestLivedYears }}</p>
+          </div>
+          <div class="p-6 bg-gray-50 rounded-xl shadow">
+            <p class="text-gray-500">Youngest Person</p>
+            <p class="text-lg font-bold">{{ stats.youngestPerson.name }}</p>
+          </div>
+          <div class="p-6 bg-gray-50 rounded-xl shadow">
+            <p class="text-gray-500">Most Common Death Month</p>
+            <p class="text-lg font-bold">{{ stats.most_common_death_month.month | plus:1 }}</p>
+          </div>
+          <div class="p-6 bg-gray-50 rounded-xl shadow">
+            <p class="text-gray-500">Most Common Birth Month</p>
+            <p class="text-lg font-bold">{{ stats.most_common_birth_month.month | plus:1 }}</p>
           </div>
         </div>
 
@@ -103,19 +119,46 @@ permalink: /statistics/
             <p class="text-sm text-gray-500">{{ stats.latestDeathPerson.location }}</p>
           </div>
         </div>
+
+        <!-- Top Years / Decades -->
+        <h3 class="mt-12 text-2xl font-bold text-gray-800">Time Trends</h3>
+        <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-3 mt-6">
+          <div class="p-6 bg-gray-50 rounded-xl shadow">
+            <p class="text-gray-500">Year with Most Deaths</p>
+            <p class="text-lg font-bold">{{ stats.topYear.year }} — {{ stats.topYear.count }} burials</p>
+          </div>
+          <div class="p-6 bg-gray-50 rounded-xl shadow">
+            <p class="text-gray-500">Decade with Most Deaths</p>
+            <p class="text-lg font-bold">{{ stats.topDecade.decade }}s — {{ stats.topDecade.count }} burials</p>
+          </div>
+        </div>
+
+        <!-- Common Names -->
+        <h3 class="mt-12 text-2xl font-bold text-gray-800">Common Names</h3>
+        <div class="grid gap-8 mt-6 sm:grid-cols-1 md:grid-cols-2">
+          <div class="p-6 bg-gray-50 rounded-xl shadow">
+            <h4 class="font-bold mb-2">First Names</h4>
+            <ul class="list-disc pl-6 text-left">
+              {% for item in stats.commonFirstNames %}
+              <li>{{ item.name }} — {{ item.count }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="p-6 bg-gray-50 rounded-xl shadow">
+            <h4 class="font-bold mb-2">Surnames</h4>
+            <ul class="list-disc pl-6 text-left">
+              {% for item in stats.commonSurnames %}
+              <li>{{ item.surname }} — {{ item.count }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
 
   <!-- Footer -->
 {% include footer.html %}
-
-  <!-- Mobile Menu Toggle Script -->
-  <script>
-    document.getElementById('menu-toggle').addEventListener('click', () => {
-      const mobileMenu = document.getElementById('mobile-menu');
-      mobileMenu.classList.toggle('hidden');
-    });
-  </script>
 </body>
 </html>
