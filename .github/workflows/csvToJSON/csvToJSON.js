@@ -14,43 +14,67 @@ function calculateMedianAge(data) {
     : ages[mid];
 }
 
-function getAgeDistribution(data) {
-  const bins = {
-    '<20': 0,
-    '20–39': 0,
-    '40–59': 0,
-    '60–79': 0,
-    '80+': 0
-  };
+function getAgeDistribution(data, binSize = 10) {
+  // First, calculate all ages in years
+  const ages = data
+    .filter(r => r.birth_date && r.death_date)
+    .map(r => calculateAge(r.birth_date, r.death_date))
+    .filter(age => age !== null);
 
-  data.forEach(r => {
-    if (r.birth_date && r.death_date) {
-      const age = calculateAge(r.birth_date, r.death_date);
-      if (age < 20) bins['<20']++;
-      else if (age < 40) bins['20–39']++;
-      else if (age < 60) bins['40–59']++;
-      else if (age < 80) bins['60–79']++;
-      else bins['80+']++;
-    }
+  if (!ages.length) return {};
+
+  const maxAge = Math.max(...ages);
+
+  // Generate bins dynamically
+  const ageRanges = [];
+  for (let start = 0; start <= maxAge; start += binSize) {
+    const end = start + binSize - 1;
+    const label = end >= maxAge ? `${start}+` : `${start}–${end}`;
+    ageRanges.push({ label, min: start, max: end });
+  }
+
+  // Initialize bins
+  const bins = ageRanges.reduce((acc, r) => {
+    acc[r.label] = 0;
+    return acc;
+  }, {});
+
+  // Populate bins
+  ages.forEach(age => {
+    const range = ageRanges.find(r => age >= r.min && age <= r.max);
+    if (range) bins[range.label]++;
   });
+
   return bins;
 }
 
 function mostBurialsByYearAndDecade(data) {
   const years = {};
   const decades = {};
+
   data.forEach(r => {
     if (r.death_date) {
       const y = parseInt(r.death_date.substring(0, 4));
       if (!isNaN(y)) {
         years[y] = (years[y] || 0) + 1;
+
         const d = Math.floor(y / 10) * 10;
         decades[d] = (decades[d] || 0) + 1;
       }
     }
   });
-  const topYear = Object.entries(years).sort((a, b) => b[1] - a[1])[0];
-  const topDecade = Object.entries(decades).sort((a, b) => b[1] - a[1])[0];
+
+  const topYearEntry = Object.entries(years).sort((a, b) => b[1] - a[1])[0];
+  const topDecadeEntry = Object.entries(decades).sort((a, b) => b[1] - a[1])[0];
+
+  const topYear = topYearEntry
+    ? { year: parseInt(topYearEntry[0]), count: topYearEntry[1] }
+    : null;
+
+  const topDecade = topDecadeEntry
+    ? { decade: parseInt(topDecadeEntry[0]), count: topDecadeEntry[1] }
+    : null;
+
   return { topYear, topDecade };
 }
 
@@ -67,40 +91,45 @@ function mostCommonMonth(data, key) {
   return top ? { month: top[0], count: top[1] } : null;
 }
 
-function youngestAndShortest(data) {
-  let youngest = null;
-  let youngestPerson = null;
-  let shortest = null;
-  let shortestPerson = null;
+// precise lifespan in days (returns integer days) and safe null handling
+function calculateLifespanDays(birthDateStr, endDateStr) {
+  if (!birthDateStr) return null;
+  const birth = new Date(birthDateStr);
+  const end = endDateStr ? new Date(endDateStr) : new Date();
+  if (isNaN(birth.getTime()) || isNaN(end.getTime())) return null;
+  const diffMs = end - birth;
+  const days = Math.floor(diffMs / (1000 * 60 * 60 * 24)); // integer days
+  return days >= 0 ? days : null;
+}
+
+// (Optional) fractional years from days for human-friendly readout
+function daysToYears(days) {
+  if (days === null) return null;
+  return +(days / 365.25).toFixed(4); // 4 decimals, e.g. 0.0055 years
+}
+
+// Youngest person at death
+function youngestPerson(data) {
+  let minDays = null;
+  let minPerson = null;
 
   data.forEach(r => {
-    if (r.birth_date && r.death_date) {
-      const birth = new Date(r.birth_date);
-      const death = new Date(r.death_date);
-      if (!isNaN(birth.getTime()) && !isNaN(death.getTime())) {
-        const age = calculateAge(r.birth_date, r.death_date);
+    if (!r.birth_date || !r.death_date) return;
 
-        if (youngest === null || age < youngest) {
-          youngest = age;
-          youngestPerson = r;
-        }
+    const days = calculateLifespanDays(r.birth_date, r.death_date);
+    if (days === null) return;
 
-        const lifespanDays = (death - birth) / (1000 * 60 * 60 * 24);
-        if (shortest === null || lifespanDays < shortest) {
-          shortest = lifespanDays;
-          shortestPerson = r;
-        }
-      }
+    if (minDays === null || days < minDays) {
+      minDays = days;
+      minPerson = r;
     }
   });
 
   return {
-    youngestAge: youngest,
-    youngestPerson,
-    shortestLifespanDays: shortest ? shortest.toFixed(0) : null,
-    shortestPerson
+    youngestPerson: minPerson
   };
 }
+
 
 function topNames(data) {
   const firsts = {};
@@ -442,7 +471,7 @@ if (record.children && Array.isArray(record.children) && record.children.length)
   ...mostBurialsByYearAndDecade(processedRecords),
   most_common_death_month: mostCommonMonth(processedRecords, 'death_date'),
   most_common_birth_month: mostCommonMonth(processedRecords, 'birth_date'),
-  ...youngestAndShortest(processedRecords),
+  ...youngestPerson(processedRecords),
   ...topNames(processedRecords)
 };
 
