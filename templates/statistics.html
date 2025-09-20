@@ -101,7 +101,7 @@ permalink: /statistics/
 
           <!-- Earliest Death -->
           <div class="p-6 bg-gray-50 rounded-xl shadow text-center">
-            <h4 class="font-bold text-lg mb-2">Earliest Death</h4>
+            <h4 class="font-bold text-lg mb-2">Earliest Death (by year)</h4>
             {% if stats.earliestDeathPerson.image_url != "" %}
             <img src="{{ stats.earliestDeathPerson.image_url }}" alt="{{ stats.earliestDeathPerson.name }}" class="w-32 h-32 object-cover rounded-full mx-auto mb-4">
             {% else %}
@@ -112,6 +112,20 @@ permalink: /statistics/
             <p class="text-sm text-gray-500">{{ stats.earliestDeathPerson.location }}</p>
           </div>
 
+
+          <!-- Youngest Death -->
+          <div class="p-6 bg-gray-50 rounded-xl shadow text-center">
+            <h4 class="font-bold text-lg mb-2">Youngest Death</h4>
+            {% if stats.youngestPerson.image_url != "" %}
+            <img src="{{ stats.youngestPerson.image_url }}" alt="{{ stats.youngestPerson.name }}" class="w-32 h-32 object-cover rounded-full mx-auto mb-4">
+            {% else %}
+            <i class="fas fa-user text-gray-400 text-6xl mb-4"></i>
+            {% endif %}
+            <p class="font-semibold">{{ stats.youngestPerson.name }}</p>
+            <p class="text-sm text-gray-600">{{ stats.youngestPerson.birth_date }} – {{ stats.youngestPerson.death_date }}</p>
+            <p class="text-sm text-gray-500">{{ stats.youngestPerson.location }}</p>
+          </div>
+          
           <!-- Latest Death / Longest Lived -->
           <div class="p-6 bg-gray-50 rounded-xl shadow text-center">
             <h4 class="font-bold text-lg mb-2">Latest Death & Longest Lived</h4>
@@ -119,6 +133,14 @@ permalink: /statistics/
             <p class="font-semibold">{{ stats.latestDeathPerson.name }}</p>
             <p class="text-sm text-gray-600">{{ stats.latestDeathPerson.birth_date }} – {{ stats.latestDeathPerson.death_date }}</p>
             <p class="text-sm text-gray-500">{{ stats.latestDeathPerson.location }}</p>
+          </div>
+
+           <div class="p-6 bg-gray-50 rounded-xl shadow text-center">
+            <h4 class="font-bold text-lg mb-2">Longest Lived</h4>
+            <img src="{{ stats.longestLivedPerson.image_url }}" alt="{{ stats.longestLivedPerson.name }}" class="w-32 h-32 object-cover rounded-full mx-auto mb-4">
+            <p class="font-semibold">{{ stats.longestLivedPerson.name }}</p>
+            <p class="text-sm text-gray-600">{{ stats.longestLivedPerson.birth_date }} – {{ stats.longestLivedPerson.death_date }}</p>
+            <p class="text-sm text-gray-500">{{ stats.longestLivedPerson.location }}</p>
           </div>
         </div>
 
@@ -167,7 +189,7 @@ permalink: /statistics/
       </tr>
     </thead>
     <tbody>
-      {% assign ranges = stats.age_distribution | keys | sort %}
+      {% assign ranges = stats.age_distribution | sort_natural %}
       {% for range in ranges %}
       <tr class="border-t">
         <td class="py-2 px-4 font-medium text-gray-800">{{ range }}</td>
@@ -177,6 +199,7 @@ permalink: /statistics/
     </tbody>
   </table>
 </div>
+
 
 
       </div>
