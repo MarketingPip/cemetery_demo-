@@ -189,8 +189,8 @@ permalink: /statistics/
       </tr>
     </thead>
     <tbody>
-      {% assign ranges = stats.age_distribution | sort_natural %}
-      {% for range in ranges %}
+      {% assign age_ranges = stats.age_distribution | keys %}
+      {% for range in age_ranges %}
       <tr class="border-t">
         <td class="py-2 px-4 font-medium text-gray-800">{{ range }}</td>
         <td class="py-2 px-4 text-gray-600">{{ stats.age_distribution[range] }}</td>
@@ -199,6 +199,7 @@ permalink: /statistics/
     </tbody>
   </table>
 </div>
+
 
 
 
