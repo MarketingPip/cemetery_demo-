@@ -189,16 +189,13 @@ permalink: /statistics/
       </tr>
     </thead>
 <tbody>
-  {% capture age_distribution %}{{ stats.age_distribution | jsonify }}{% endcapture %}
-  {% assign age_distribution_array = age_distribution | parse_json %}
-
-  {% for item in age_distribution_array %}
-    <tr class="border-t">
-      <td class="py-2 px-4 font-medium text-gray-800">{{ item[0] }}</td>
-      <td class="py-2 px-4 text-gray-600">{{ item[1] }}</td>
-    </tr>
-  {% endfor %}
-</tbody>
+    {% for age_range in stats.age_distribution %}
+      <tr>
+        <td>{{ age_range }}</td>
+        <td>{{ site.data.age_distribution.age_distribution[age_range] }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
 
   </table>
 </div>
