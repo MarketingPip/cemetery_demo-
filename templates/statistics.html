@@ -156,26 +156,27 @@ permalink: /statistics/
           </div>
         </div>
 
-        <!-- Age Distribution -->
-        <h3 class="mt-12 text-2xl font-bold text-gray-800">Age Distribution</h3>
-        <div class="overflow-x-auto mt-6">
-          <table class="min-w-full border border-gray-200 rounded-lg">
-            <thead class="bg-gray-100">
-              <tr>
-                <th class="py-3 px-4 text-left text-gray-600 font-semibold">Age Range</th>
-                <th class="py-3 px-4 text-left text-gray-600 font-semibold">Count</th>
-              </tr>
-            </thead>
-            <tbody>
-              {% for range, count in stats.age_distribution %}
-              <tr class="border-t">
-                <td class="py-2 px-4 font-medium text-gray-800">{{ range }}</td>
-                <td class="py-2 px-4 text-gray-600">{{ count }}</td>
-              </tr>
-              {% endfor %}
-            </tbody>
-          </table>
-        </div>
+<!-- Age Distribution -->
+<h3 class="mt-12 text-2xl font-bold text-gray-800">Age Distribution</h3>
+<div class="overflow-x-auto mt-6">
+  <table class="min-w-full border border-gray-200 rounded-lg">
+    <thead class="bg-gray-100">
+      <tr>
+        <th class="py-3 px-4 text-left text-gray-600 font-semibold">Age Range</th>
+        <th class="py-3 px-4 text-left text-gray-600 font-semibold">Count</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for range in stats.age_distribution %}
+      <tr class="border-t">
+        <td class="py-2 px-4 font-medium text-gray-800">{{ range }}</td>
+        <td class="py-2 px-4 text-gray-600">{{ stats.age_distribution[range] }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
 
       </div>
     </div>
