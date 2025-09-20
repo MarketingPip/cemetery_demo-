@@ -188,11 +188,12 @@ permalink: /statistics/
         <th class="py-3 px-4 text-left text-gray-600 font-semibold">Count</th>
       </tr>
     </thead>
-<tbody>
-    {% for age_range in stats.age_distribution %}
+  <tbody>
+    {% assign age_ranges = stats.age_distribution | keys %}
+    {% for age_range in age_ranges %}
       <tr>
         <td>{{ age_range }}</td>
-        <td>{{ site.data.age_distribution.age_distribution[age_range] }}</td>
+        <td>{{ stats.age_distribution[age_range] }}</td>
       </tr>
     {% endfor %}
   </tbody>
