@@ -1,0 +1,121 @@
+---
+permalink: /statistics/
+---
+{% assign base_url = site.baseurl | default: "" %}
+{% assign stats = site.data.cemetery_stats %}
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Cemetery Statistics | {{site.title}}</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="canonical" href="{{site.url}}{{ base_url }}{{ page.permalink }}" />
+  <style>
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40vh;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Navigation -->
+{% include navigation.html %}
+
+  <!-- Hero Section -->
+  <section class="flex items-center justify-center hero-image text-center text-white">
+    <div class="px-4 container mx-auto">
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl">Cemetery Statistics</h1>
+      <p class="mb-8 md:text-2xl text-xl">A look at Crediton Cemetery’s historical records.</p>
+    </div>
+  </section>
+
+  <!-- Stats Content Section -->
+  <section class="bg-white py-12">
+    <div class="px-4 container mx-auto text-center">
+      <div class="max-w-4xl mx-auto">
+        <i class="fas fa-database text-green-600 text-6xl mb-6"></i>
+        <h2 class="font-bold text-3xl text-gray-800 mb-6">Graveyard Records Overview</h2>
+
+        <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-3 text-left">
+          <div class="p-6 bg-gray-50 rounded-xl shadow">
+            <p class="text-gray-500">Total Records</p>
+            <p class="text-2xl font-bold">{{ stats.grave_records }}</p>
+          </div>
+          <div class="p-6 bg-gray-50 rounded-xl shadow">
+            <p class="text-gray-500">Average Age</p>
+            <p class="text-2xl font-bold">{{ stats.average_age | round: 1 }}</p>
+          </div>
+          <div class="p-6 bg-gray-50 rounded-xl shadow">
+            <p class="text-gray-500">Earliest Birth</p>
+            <p class="text-lg font-bold">{{ stats.earliestBirth }}</p>
+          </div>
+          <div class="p-6 bg-gray-50 rounded-xl shadow">
+            <p class="text-gray-500">Earliest Death</p>
+            <p class="text-lg font-bold">{{ stats.earliestDeath }}</p>
+          </div>
+          <div class="p-6 bg-gray-50 rounded-xl shadow">
+            <p class="text-gray-500">Latest Death</p>
+            <p class="text-lg font-bold">{{ stats.latestDeath }}</p>
+          </div>
+          <div class="p-6 bg-gray-50 rounded-xl shadow">
+            <p class="text-gray-500">Longest Lived (Years)</p>
+            <p class="text-lg font-bold">{{ stats.longestLivedYears }}</p>
+          </div>
+        </div>
+
+        <!-- Highlight People -->
+        <h3 class="mt-12 text-2xl font-bold text-gray-800">Notable Records</h3>
+        <div class="grid gap-8 mt-6 sm:grid-cols-1 md:grid-cols-3">
+          
+          <!-- Earliest Birth -->
+          <div class="p-6 bg-gray-50 rounded-xl shadow text-center">
+            <h4 class="font-bold text-lg mb-2">Earliest Birth</h4>
+            <img src="{{ stats.earliestBirthPerson.image_url }}" alt="{{ stats.earliestBirthPerson.name }}" class="w-32 h-32 object-cover rounded-full mx-auto mb-4">
+            <p class="font-semibold">{{ stats.earliestBirthPerson.name }}</p>
+            <p class="text-sm text-gray-600">{{ stats.earliestBirthPerson.birth_date }} – {{ stats.earliestBirthPerson.death_date }}</p>
+            <p class="text-sm text-gray-500">{{ stats.earliestBirthPerson.location }}</p>
+          </div>
+
+          <!-- Earliest Death -->
+          <div class="p-6 bg-gray-50 rounded-xl shadow text-center">
+            <h4 class="font-bold text-lg mb-2">Earliest Death</h4>
+            {% if stats.earliestDeathPerson.image_url != "" %}
+              <img src="{{ stats.earliestDeathPerson.image_url }}" alt="{{ stats.earliestDeathPerson.name }}" class="w-32 h-32 object-cover rounded-full mx-auto mb-4">
+            {% else %}
+              <i class="fas fa-user text-gray-400 text-6xl mb-4"></i>
+            {% endif %}
+            <p class="font-semibold">{{ stats.earliestDeathPerson.name }}</p>
+            <p class="text-sm text-gray-600">{{ stats.earliestDeathPerson.birth_date }} – {{ stats.earliestDeathPerson.death_date }}</p>
+            <p class="text-sm text-gray-500">{{ stats.earliestDeathPerson.location }}</p>
+          </div>
+
+          <!-- Latest Death / Longest Lived -->
+          <div class="p-6 bg-gray-50 rounded-xl shadow text-center">
+            <h4 class="font-bold text-lg mb-2">Latest Death & Longest Lived</h4>
+            <img src="{{ stats.latestDeathPerson.image_url }}" alt="{{ stats.latestDeathPerson.name }}" class="w-32 h-32 object-cover rounded-full mx-auto mb-4">
+            <p class="font-semibold">{{ stats.latestDeathPerson.name }}</p>
+            <p class="text-sm text-gray-600">{{ stats.latestDeathPerson.birth_date }} – {{ stats.latestDeathPerson.death_date }}</p>
+            <p class="text-sm text-gray-500">{{ stats.latestDeathPerson.location }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+{% include footer.html %}
+
+  <!-- Mobile Menu Toggle Script -->
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', () => {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
