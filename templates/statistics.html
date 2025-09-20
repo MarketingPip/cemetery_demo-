@@ -3,8 +3,9 @@ permalink: /statistics/
 ---
 {% assign base_url = site.baseurl | default: "" %}
 {% assign stats = site.data.cemetery_stats %}
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -22,9 +23,10 @@ permalink: /statistics/
     }
   </style>
 </head>
+
 <body class="bg-gray-100 font-sans">
   <!-- Navigation -->
-{% include navigation.html %}
+  {% include navigation.html %}
 
   <!-- Hero Section -->
   <section class="flex items-center justify-center hero-image text-center text-white">
@@ -87,7 +89,7 @@ permalink: /statistics/
         <!-- Highlight People -->
         <h3 class="mt-12 text-2xl font-bold text-gray-800">Notable Records</h3>
         <div class="grid gap-8 mt-6 sm:grid-cols-1 md:grid-cols-3">
-          
+
           <!-- Earliest Birth -->
           <div class="p-6 bg-gray-50 rounded-xl shadow text-center">
             <h4 class="font-bold text-lg mb-2">Earliest Birth</h4>
@@ -101,9 +103,9 @@ permalink: /statistics/
           <div class="p-6 bg-gray-50 rounded-xl shadow text-center">
             <h4 class="font-bold text-lg mb-2">Earliest Death</h4>
             {% if stats.earliestDeathPerson.image_url != "" %}
-              <img src="{{ stats.earliestDeathPerson.image_url }}" alt="{{ stats.earliestDeathPerson.name }}" class="w-32 h-32 object-cover rounded-full mx-auto mb-4">
+            <img src="{{ stats.earliestDeathPerson.image_url }}" alt="{{ stats.earliestDeathPerson.name }}" class="w-32 h-32 object-cover rounded-full mx-auto mb-4">
             {% else %}
-              <i class="fas fa-user text-gray-400 text-6xl mb-4"></i>
+            <i class="fas fa-user text-gray-400 text-6xl mb-4"></i>
             {% endif %}
             <p class="font-semibold">{{ stats.earliestDeathPerson.name }}</p>
             <p class="text-sm text-gray-600">{{ stats.earliestDeathPerson.birth_date }} – {{ stats.earliestDeathPerson.death_date }}</p>
@@ -154,11 +156,33 @@ permalink: /statistics/
           </div>
         </div>
 
+        <!-- Age Distribution -->
+        <h3 class="mt-12 text-2xl font-bold text-gray-800">Age Distribution</h3>
+        <div class="overflow-x-auto mt-6">
+          <table class="min-w-full border border-gray-200 rounded-lg">
+            <thead class="bg-gray-100">
+              <tr>
+                <th class="py-3 px-4 text-left text-gray-600 font-semibold">Age Range</th>
+                <th class="py-3 px-4 text-left text-gray-600 font-semibold">Count</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for range, count in stats.age_distribution %}
+              <tr class="border-t">
+                <td class="py-2 px-4 font-medium text-gray-800">{{ range }}</td>
+                <td class="py-2 px-4 text-gray-600">{{ count }}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-{% include footer.html %}
+  {% include footer.html %}
 </body>
+
 </html>
