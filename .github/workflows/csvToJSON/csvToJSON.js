@@ -1,6 +1,135 @@
 import fs from 'fs/promises';
 import Papa from 'papaparse';
 
+function calculateMedianAge(data) {
+  const ages = data
+    .filter(r => r.birth_date && r.death_date)
+    .map(r => calculateAge(r.birth_date, r.death_date))
+    .sort((a, b) => a - b);
+
+  if (ages.length === 0) return null;
+  const mid = Math.floor(ages.length / 2);
+  return ages.length % 2 === 0
+    ? (ages[mid - 1] + ages[mid]) / 2
+    : ages[mid];
+}
+
+function getAgeDistribution(data) {
+  const bins = {
+    '<20': 0,
+    '20–39': 0,
+    '40–59': 0,
+    '60–79': 0,
+    '80+': 0
+  };
+
+  data.forEach(r => {
+    if (r.birth_date && r.death_date) {
+      const age = calculateAge(r.birth_date, r.death_date);
+      if (age < 20) bins['<20']++;
+      else if (age < 40) bins['20–39']++;
+      else if (age < 60) bins['40–59']++;
+      else if (age < 80) bins['60–79']++;
+      else bins['80+']++;
+    }
+  });
+  return bins;
+}
+
+function mostBurialsByYearAndDecade(data) {
+  const years = {};
+  const decades = {};
+  data.forEach(r => {
+    if (r.death_date) {
+      const y = parseInt(r.death_date.substring(0, 4));
+      if (!isNaN(y)) {
+        years[y] = (years[y] || 0) + 1;
+        const d = Math.floor(y / 10) * 10;
+        decades[d] = (decades[d] || 0) + 1;
+      }
+    }
+  });
+  const topYear = Object.entries(years).sort((a, b) => b[1] - a[1])[0];
+  const topDecade = Object.entries(decades).sort((a, b) => b[1] - a[1])[0];
+  return { topYear, topDecade };
+}
+
+function mostCommonMonth(data, key) {
+  const months = {};
+  data.forEach(r => {
+    const date = r[key];
+    if (date) {
+      const m = parseInt(date.substring(5, 7));
+      if (!isNaN(m)) months[m] = (months[m] || 0) + 1;
+    }
+  });
+  const top = Object.entries(months).sort((a, b) => b[1] - a[1])[0];
+  return top ? { month: top[0], count: top[1] } : null;
+}
+
+function youngestAndShortest(data) {
+  let youngest = null;
+  let youngestPerson = null;
+  let shortest = null;
+  let shortestPerson = null;
+
+  data.forEach(r => {
+    if (r.birth_date && r.death_date) {
+      const birth = new Date(r.birth_date);
+      const death = new Date(r.death_date);
+      if (!isNaN(birth.getTime()) && !isNaN(death.getTime())) {
+        const age = calculateAge(r.birth_date, r.death_date);
+
+        if (youngest === null || age < youngest) {
+          youngest = age;
+          youngestPerson = r;
+        }
+
+        const lifespanDays = (death - birth) / (1000 * 60 * 60 * 24);
+        if (shortest === null || lifespanDays < shortest) {
+          shortest = lifespanDays;
+          shortestPerson = r;
+        }
+      }
+    }
+  });
+
+  return {
+    youngestAge: youngest,
+    youngestPerson,
+    shortestLifespanDays: shortest ? shortest.toFixed(0) : null,
+    shortestPerson
+  };
+}
+
+function topNames(data) {
+  const firsts = {};
+  const lasts = {};
+  data.forEach(r => {
+    if (r.name) {
+      const parts = r.name.trim().split(/\s+/);
+      if (parts.length) {
+        const first = parts[0];
+        const last = parts[parts.length - 1];
+        firsts[first] = (firsts[first] || 0) + 1;
+        lasts[last] = (lasts[last] || 0) + 1;
+      }
+    }
+  });
+  const commonFirstNames = Object.entries(firsts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 10)
+    .map(([name, count]) => ({ name, count }));
+
+  const commonSurnames = Object.entries(lasts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 10)
+    .map(([surname, count]) => ({ surname, count }));
+
+  return { commonFirstNames, commonSurnames };
+}
+
+
 function slugify(name, id) {
   return name
     .toLowerCase()
@@ -304,7 +433,18 @@ if (record.children && Array.isArray(record.children) && record.children.length)
       // Write the final JSON array to the output file
       await fs.writeFile(outputFilePath, JSON.stringify(processedRecords, null, 2), 'utf8');
 
-      const cemetery_stats = {grave_records:processedRecords.length, average_age:calculateAverageAge(processedRecords), ...getEarliestAndLatestData(processedRecords)}
+      const cemetery_stats = {
+  grave_records: processedRecords.length,
+  average_age: calculateAverageAge(processedRecords),
+  median_age: calculateMedianAge(processedRecords),
+  age_distribution: getAgeDistribution(processedRecords),
+  ...getEarliestAndLatestData(processedRecords),
+  ...mostBurialsByYearAndDecade(processedRecords),
+  most_common_death_month: mostCommonMonth(processedRecords, 'death_date'),
+  most_common_birth_month: mostCommonMonth(processedRecords, 'birth_date'),
+  ...youngestAndShortest(processedRecords),
+  ...topNames(processedRecords)
+};
 
       await fs.writeFile('./_data/cemetery_stats.json', JSON.stringify(cemetery_stats, null, 2), 'utf8');
       
