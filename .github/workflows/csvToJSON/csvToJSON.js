@@ -15,30 +15,26 @@ function calculateMedianAge(data) {
 }
 
 function countFamiliesByRelationships(data) {
-
-  console.log("counting families");
-
-  console.log(data[0]);
   const visited = new Set();
   let familyCount = 0;
 
-  // Build lookup table: id -> record
-  const recordById = new Map();
+  // Build lookup by memorial URL for all records
+  const recordByUrl = new Map();
   data.forEach(r => {
-    if (r.id != null) recordById.set(r.id, r);
+    if (r.memorial_url) recordByUrl.set(r.memorial_url, r);
   });
 
   function dfs(person) {
-    if (!person || visited.has(person.id)) return;
-    visited.add(person.id);
+    if (!person || visited.has(person.memorial_url)) return;
+    visited.add(person.memorial_url);
 
     const relativeTypes = ['parents', 'children', 'siblings', 'spouses'];
 
     relativeTypes.forEach(type => {
       if (Array.isArray(person[type])) {
         person[type].forEach(rel => {
-          if (rel && rel.id != null) {
-            const relRecord = recordById.get(rel.id);
+          if (rel && rel.profile_url) {
+            const relRecord = recordByUrl.get(rel.profile_url);
             dfs(relRecord);
           }
         });
@@ -47,7 +43,7 @@ function countFamiliesByRelationships(data) {
   }
 
   data.forEach(person => {
-    if (person.id != null && !visited.has(person.id)) {
+    if (person.memorial_url && !visited.has(person.memorial_url)) {
       familyCount++;
       dfs(person);
     }
