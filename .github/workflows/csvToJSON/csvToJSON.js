@@ -234,22 +234,22 @@ function yearsOfHistory(providedYear) {
   return {yearsOfHistory:difference, yearsOfHistory:roundedDifference };
 }
 
-function calculateAge(birthDate, endDate) {
-  const birthYear = parseInt(birthDate.substring(0, 4));
-  const birthMonth = parseInt(birthDate.substring(5, 7));
-  const birthDay = parseInt(birthDate.substring(8, 10));
+function calculateAge(birthDateStr, endDateStr) {
+  const birth = parsePartialDate(birthDateStr);
+  if (!birth) return null;
 
-  const endYear = endDate ? parseInt(endDate.substring(0, 4)) : new Date().getFullYear();
-  const endMonth = endDate ? parseInt(endDate.substring(5, 7)) : new Date().getMonth() + 1;
-  const endDay = endDate ? parseInt(endDate.substring(8, 10)) : new Date().getDate();
+  const end = endDateStr ? parsePartialDate(endDateStr) : new Date();
+  if (!end) return null;
 
-  let age = endYear - birthYear;
+  let age = end.getFullYear() - birth.getFullYear();
 
-  if (endMonth < birthMonth || (endMonth === birthMonth && endDay < birthDay)) {
+  // Adjust if end date is before birthday in that year
+  if (end.getMonth() < birth.getMonth() || 
+      (end.getMonth() === birth.getMonth() && end.getDate() < birth.getDate())) {
     age--;
   }
 
-  return age;
+  return age >= 0 ? age : null;
 }
 
 function calculateAverageAge(data) {
