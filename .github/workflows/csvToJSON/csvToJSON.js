@@ -50,6 +50,37 @@ function getAgeDistribution(data, binSize = 10) {
   return bins;
 }
 
+function leastBurialsByYearAndDecade(data) { 
+  const years = {};
+  const decades = {};
+
+  data.forEach(r => {
+    if (r.death_date) {
+      const y = parseInt(r.death_date.substring(0, 4));
+      if (!isNaN(y)) {
+        years[y] = (years[y] || 0) + 1;
+
+        const d = Math.floor(y / 10) * 10;
+        decades[d] = (decades[d] || 0) + 1;
+      }
+    }
+  });
+
+  const leastYearEntry = Object.entries(years).sort((a, b) => a[1] - b[1])[0];
+  const leastDecadeEntry = Object.entries(decades).sort((a, b) => a[1] - b[1])[0];
+
+  const leastYear = leastYearEntry
+    ? { year: parseInt(leastYearEntry[0]), count: leastYearEntry[1] }
+    : null;
+
+  const leastDecade = leastDecadeEntry
+    ? { decade: parseInt(leastDecadeEntry[0]), count: leastDecadeEntry[1] }
+    : null;
+
+  return { leastYear, leastDecade };
+}
+
+    
 function mostBurialsByYearAndDecade(data) {
   const years = {};
   const decades = {};
@@ -483,6 +514,7 @@ if (record.children && Array.isArray(record.children) && record.children.length)
   age_distribution: getAgeDistribution(processedRecords),
   ...getEarliestAndLatestData(processedRecords),
   ...mostBurialsByYearAndDecade(processedRecords),
+  ...leastBurialsByYearAndDecade(processedRecords),
   most_common_death_month: mostCommonMonth(processedRecords, 'death_date'),
   most_common_birth_month: mostCommonMonth(processedRecords, 'birth_date'),
   ...youngestPerson(processedRecords),
