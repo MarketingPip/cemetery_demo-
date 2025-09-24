@@ -14,144 +14,7 @@ function calculateMedianAge(data) {
     : ages[mid];
 }
 
-// Helper: normalize a name (lowercase, remove punctuation, collapse spaces)
-function normalizeName(name) {
-  if (!name) return null;
-  return String(name)
-    .toLowerCase()
-    .replace(/[^\w\s'-]/g, '')   // remove punctuation except apostrophe/hyphen
-    .replace(/\s+/g, ' ')
-    .trim();
-}
 
-// Helper: extract year from partial date like "1810-00-00" or "1810-05-00"
-function getYearFromDate(dateStr) {
-  if (!dateStr) return null;
-  const parts = String(dateStr).split('-');
-  const y = parseInt(parts[0], 10);
-  return Number.isFinite(y) ? y : null;
-}
-
-// Resolve a relative descriptor (may have name, birth_date, death_date, id) to a record in dataset
-function buildResolvers(data) {
-  const byId = new Map();
-  const byName = new Map();         // normalizedName -> [records]
-  const byNameBirth = new Map();    // name|birthYear -> record (only if unique)
-  const byNameDeath = new Map();    // name|deathYear -> record (only if unique)
-
-  data.forEach(r => {
-    if (r.id != null) byId.set(r.id, r);
-
-    const n = normalizeName(r.name);
-    if (n) {
-      const arr = byName.get(n) || [];
-      arr.push(r);
-      byName.set(n, arr);
-
-      const by = getYearFromDate(r.birth_date);
-      if (by) {
-        const key = `${n}|b:${by}`;
-        // only store if unique so it remains reliable
-        if (!byNameBirth.has(key)) byNameBirth.set(key, r);
-        else byNameBirth.set(key, null);
-      }
-
-      const dy = getYearFromDate(r.death_date);
-      if (dy) {
-        const key = `${n}|d:${dy}`;
-        if (!byNameDeath.has(key)) byNameDeath.set(key, r);
-        else byNameDeath.set(key, null);
-      }
-    }
-  });
-
-  return { byId, byName, byNameBirth, byNameDeath };
-}
-
-function resolveRelativeToRecord(rel, resolvers) {
-  if (!rel) return null;
-  const { byId, byName, byNameBirth, byNameDeath } = resolvers;
-
-  // 1) If relative carries an id, use it
-  if (rel.id != null && byId.has(rel.id)) return byId.get(rel.id);
-
-  // 2) Normalize relative name
-  const n = normalizeName(rel.name);
-  if (!n) return null;
-
-  // 3) If birth year is present, try strict name+birthYear lookup
-  const by = getYearFromDate(rel.birth_date);
-  if (by) {
-    const key = `${n}|b:${by}`;
-    const found = byNameBirth.get(key);
-    if (found) return found;
-    // if explicit null (ambiguous) continue to other heuristics
-  }
-
-  // 4) If death year present, try strict name+deathYear lookup
-  const dy = getYearFromDate(rel.death_date);
-  if (dy) {
-    const key = `${n}|d:${dy}`;
-    const found = byNameDeath.get(key);
-    if (found) return found;
-  }
-
-  // 5) If name is unique in dataset, accept it
-  const arr = byName.get(n);
-  if (Array.isArray(arr) && arr.length === 1) return arr[0];
-
-  // 6) No reliable match
-  return null;
-}
-
-// Main function: clusters families using only relationship arrays (no memorial/profile_url)
-function countFamiliesByRelationships(data) {
-  const resolvers = buildResolvers(data);
-  const visited = new Set();         // visited by record.id (if available) else by internal index
-  const families = [];
-  const relativeTypes = ['parents', 'children', 'siblings', 'spouses'];
-
-  // Helper to get unique key for visited set (prefer id, fallback to name|birth|death)
-  function personKey(record) {
-    if (!record) return null;
-    if (record.id != null) return `id:${record.id}`;
-    // fallback composite key
-    const n = normalizeName(record.name) || '';
-    const by = getYearFromDate(record.birth_date) || '';
-    const dy = getYearFromDate(record.death_date) || '';
-    return `key:${n}|b${by}|d${dy}`;
-  }
-
-  function dfs(record, collector) {
-    if (!record) return;
-    const key = personKey(record);
-    if (!key || visited.has(key)) return;
-    visited.add(key);
-    collector.push(record);
-
-    // walk relatives and resolve to actual records
-    relativeTypes.forEach(type => {
-      const arr = Array.isArray(record[type]) ? record[type] : [];
-      arr.forEach(rel => {
-        const resolved = resolveRelativeToRecord(rel, resolvers);
-        if (resolved) dfs(resolved, collector);
-      });
-    });
-  }
-
-  // Iterate over all records, start a new family for each unvisited person
-  data.forEach(record => {
-    const key = personKey(record);
-    if (!key) return;
-    if (!visited.has(key)) {
-      const members = [];
-      dfs(record, members);
-      if (members.length) families.push(members);
-    }
-  });
-
-  return { familyCount: families.length, families };
-}
 
 function getAgeDistribution(data, binSize = 10) {
   // First, calculate all ages in years
@@ -623,8 +486,7 @@ if (record.children && Array.isArray(record.children) && record.children.length)
   most_common_death_month: mostCommonMonth(processedRecords, 'death_date'),
   most_common_birth_month: mostCommonMonth(processedRecords, 'birth_date'),
   ...youngestPerson(processedRecords),
-  ...topNames(processedRecords),
-  number_of_families: countFamiliesByRelationships(processedRecords)
+  ...topNames(processedRecords)
 };
 
       await fs.writeFile('./_data/cemetery_stats.json', JSON.stringify(cemetery_stats, null, 2), 'utf8');
