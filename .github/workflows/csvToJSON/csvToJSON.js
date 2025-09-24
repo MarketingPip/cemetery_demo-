@@ -18,19 +18,33 @@ function countFamiliesByRelationships(data) {
   const families = new Set();
   const visited = new Set();
 
+  // Build a lookup table by id for fast access
+  const recordById = new Map();
+  data.forEach(r => {
+    if (r.id != null) recordById.set(r.id, r);
+  });
+
   function dfs(person, familyId) {
     if (!person || visited.has(person.id)) return;
     visited.add(person.id);
     families.add(familyId);
 
-    // Explore all relatives
-    const relatives = [
-      ...(person.parents || []),
-      ...(person.children || []),
-      ...(person.siblings || []),
-      ...(person.spouses || [])
-    ];
-    relatives.forEach(rel => dfs(rel, familyId));
+    // Gather all relative IDs
+    const relativeIds = [];
+
+    ['parents', 'children', 'siblings', 'spouses'].forEach(relType => {
+      if (Array.isArray(person[relType])) {
+        person[relType].forEach(rel => {
+          if (rel.id != null) relativeIds.push(rel.id);
+        });
+      }
+    });
+
+    // Recurse on actual records
+    relativeIds.forEach(relId => {
+      const relRecord = recordById.get(relId);
+      dfs(relRecord, familyId);
+    });
   }
 
   let nextFamilyId = 1;
