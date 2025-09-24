@@ -14,6 +14,36 @@ function calculateMedianAge(data) {
     : ages[mid];
 }
 
+function countFamiliesByRelationships(data) {
+  const families = new Set();
+  const visited = new Set();
+
+  function dfs(person, familyId) {
+    if (!person || visited.has(person.id)) return;
+    visited.add(person.id);
+    families.add(familyId);
+
+    // Explore all relatives
+    const relatives = [
+      ...(person.parents || []),
+      ...(person.children || []),
+      ...(person.siblings || []),
+      ...(person.spouses || [])
+    ];
+    relatives.forEach(rel => dfs(rel, familyId));
+  }
+
+  let nextFamilyId = 1;
+  data.forEach(person => {
+    if (!visited.has(person.id)) {
+      dfs(person, nextFamilyId);
+      nextFamilyId++;
+    }
+  });
+
+  return nextFamilyId - 1; // number of distinct family clusters
+}
+
 function getAgeDistribution(data, binSize = 10) {
   // First, calculate all ages in years
   const ages = data
@@ -481,7 +511,8 @@ if (record.children && Array.isArray(record.children) && record.children.length)
   most_common_death_month: mostCommonMonth(processedRecords, 'death_date'),
   most_common_birth_month: mostCommonMonth(processedRecords, 'birth_date'),
   ...youngestPerson(processedRecords),
-  ...topNames(processedRecords)
+  ...topNames(processedRecords),
+  number_of_families: countFamiliesByRelationships(processedRecords)
 };
 
       await fs.writeFile('./_data/cemetery_stats.json', JSON.stringify(cemetery_stats, null, 2), 'utf8');
