@@ -15,47 +15,41 @@ function calculateMedianAge(data) {
 }
 
 function countFamiliesByRelationships(data) {
-  const families = new Set();
   const visited = new Set();
+  let familyCount = 0;
 
-  // Build a lookup table by id for fast access
+  // Build lookup table: id -> record
   const recordById = new Map();
   data.forEach(r => {
     if (r.id != null) recordById.set(r.id, r);
   });
 
-  function dfs(person, familyId) {
+  function dfs(person) {
     if (!person || visited.has(person.id)) return;
     visited.add(person.id);
-    families.add(familyId);
 
-    // Gather all relative IDs
-    const relativeIds = [];
+    const relativeTypes = ['parents', 'children', 'siblings', 'spouses'];
 
-    ['parents', 'children', 'siblings', 'spouses'].forEach(relType => {
-      if (Array.isArray(person[relType])) {
-        person[relType].forEach(rel => {
-          if (rel.id != null) relativeIds.push(rel.id);
+    relativeTypes.forEach(type => {
+      if (Array.isArray(person[type])) {
+        person[type].forEach(rel => {
+          if (rel && rel.id != null) {
+            const relRecord = recordById.get(rel.id);
+            dfs(relRecord);
+          }
         });
       }
     });
-
-    // Recurse on actual records
-    relativeIds.forEach(relId => {
-      const relRecord = recordById.get(relId);
-      dfs(relRecord, familyId);
-    });
   }
 
-  let nextFamilyId = 1;
   data.forEach(person => {
-    if (!visited.has(person.id)) {
-      dfs(person, nextFamilyId);
-      nextFamilyId++;
+    if (person.id != null && !visited.has(person.id)) {
+      familyCount++;
+      dfs(person);
     }
   });
 
-  return nextFamilyId - 1; // number of distinct family clusters
+  return familyCount;
 }
 
 function getAgeDistribution(data, binSize = 10) {
