@@ -94,6 +94,7 @@ permalink: /statistics/
             <p class="font-semibold">{{ stats.earliestBirthPerson.name }}</p>
             <p class="text-sm text-gray-600">{{ stats.earliestBirthPerson.birth_date }} – {{ stats.earliestBirthPerson.death_date }}</p>
             <p class="text-sm text-gray-500">{{ stats.earliestBirthPerson.location }}</p>
+            <a href="{{base_url}}/tribute?id={{ stats.earliestBirthPerson.id }}" class="text-blue-600 hover:text-blue-800">View Details</a>
           </div>
 
           <!-- Earliest Death -->
@@ -107,6 +108,7 @@ permalink: /statistics/
             <p class="font-semibold">{{ stats.earliestDeathPerson.name }}</p>
             <p class="text-sm text-gray-600">{{ stats.earliestDeathPerson.birth_date }} – {{ stats.earliestDeathPerson.death_date }}</p>
             <p class="text-sm text-gray-500">{{ stats.earliestDeathPerson.location }}</p>
+            <a href="{{base_url}}/tribute?id={{ stats.earliestDeathPerson.id }}" class="text-blue-600 hover:text-blue-800">View Details</a>
           </div>
 
 
@@ -121,6 +123,7 @@ permalink: /statistics/
             <p class="font-semibold">{{ stats.youngestPerson.name }}</p>
             <p class="text-sm text-gray-600">{{ stats.youngestPerson.birth_date }} – {{ stats.youngestPerson.death_date }}</p>
             <p class="text-sm text-gray-500">{{ stats.youngestPerson.location }}</p>
+            <a href="{{base_url}}/tribute?id={{ stats.youngestPerson.id }}" class="text-blue-600 hover:text-blue-800">View Details</a>
           </div>
           
           <!-- Latest Death / Longest Lived -->
@@ -130,6 +133,7 @@ permalink: /statistics/
             <p class="font-semibold">{{ stats.latestDeathPerson.name }}</p>
             <p class="text-sm text-gray-600">{{ stats.latestDeathPerson.birth_date }} – {{ stats.latestDeathPerson.death_date }}</p>
             <p class="text-sm text-gray-500">{{ stats.latestDeathPerson.location }}</p>
+            <a href="{{base_url}}/tribute?id={{ stats.latestDeathPerson.id }}" class="text-blue-600 hover:text-blue-800">View Details</a>
           </div>
 
            <div class="p-6 bg-gray-50 rounded-xl shadow text-center">
@@ -138,6 +142,7 @@ permalink: /statistics/
             <p class="font-semibold">{{ stats.longestLivedPerson.name }}</p>
             <p class="text-sm text-gray-600">{{ stats.longestLivedPerson.birth_date }} – {{ stats.longestLivedPerson.death_date }}</p>
             <p class="text-sm text-gray-500">{{ stats.longestLivedPerson.location }}</p>
+            <a href="{{base_url}}/tribute?id={{ stats.longestLivedPerson.id }}" class="text-blue-600 hover:text-blue-800">View Details</a>
           </div>
         </div>
 
