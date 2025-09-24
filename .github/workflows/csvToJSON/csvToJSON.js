@@ -15,6 +15,10 @@ function calculateMedianAge(data) {
 }
 
 function countFamiliesByRelationships(data) {
+
+  console.log("counting families");
+
+  console.log(data[0]);
   const visited = new Set();
   let familyCount = 0;
 
@@ -520,7 +524,7 @@ if (record.children && Array.isArray(record.children) && record.children.length)
   most_common_birth_month: mostCommonMonth(processedRecords, 'birth_date'),
   ...youngestPerson(processedRecords),
   ...topNames(processedRecords),
-  number_of_families: countFamiliesByRelationships(allRecords)
+  number_of_families: countFamiliesByRelationships(processedRecords)
 };
 
       await fs.writeFile('./_data/cemetery_stats.json', JSON.stringify(cemetery_stats, null, 2), 'utf8');
