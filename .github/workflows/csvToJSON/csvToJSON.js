@@ -276,55 +276,61 @@ function calculateAverageAge(data) {
 }
 
 
+function parsePartialDate(dateStr) {
+  if (!dateStr || dateStr === "00-00-00") return null;
+
+  const parts = dateStr.split('-');
+  if (parts.length !== 3) return null;
+
+  let [year, month, day] = parts.map(p => parseInt(p, 10));
+
+  if (isNaN(year)) return null;
+  if (!month || month === 0) month = 1; // default to January
+  if (!day || day === 0) day = 1;       // default to 1st
+
+  return new Date(year, month - 1, day);
+}
+
 function getEarliestAndLatestData(data) {
-  // Initialize variables to store results
   let earliestBirth = null;
   let earliestDeath = null;
   let latestDeath = null;
   let longestLivedPerson = null;
-  let latestDeathPerson;
-  let earliestBirthPerson;
   let longestLivedYears = 0;
- let earliestDeathPerson = null;
-  // Iterate through the data array
-  data.forEach(record => {
-    // Parse the dates
-    const birthDate = new Date(record.birth_date);
-    const deathDate = record.death_date && record.death_date !== "00-00-00" ? new Date(record.death_date) : null;
-    
-    // Skip invalid birth dates (birthDate must be a valid date)
-    if (isNaN(birthDate.getTime())) return;
+  let earliestBirthPerson = null;
+  let earliestDeathPerson = null;
+  let latestDeathPerson = null;
 
-    // Earliest Birth
+  data.forEach(record => {
+    const birthDate = parsePartialDate(record.birth_date);
+    const deathDate = parsePartialDate(record.death_date);
+
+    if (!birthDate) return;
+
+    // Earliest birth
     if (!earliestBirth || birthDate < earliestBirth) {
       earliestBirth = birthDate;
-      earliestBirthPerson = record; // Store the person with the earliest birth
+      earliestBirthPerson = record;
     }
 
-        // Earliest Death
+    // Earliest death
     if (deathDate && (!earliestDeath || deathDate < earliestDeath)) {
       earliestDeath = deathDate;
     }
-    
-    // Earliest Death (Keep the person with the earliest death date)
-    if (deathDate && (!earliestDeathPerson || deathDate < new Date(earliestDeathPerson.death_date))) {
+
+    if (deathDate && (!earliestDeathPerson || deathDate < parsePartialDate(earliestDeathPerson.death_date))) {
       earliestDeathPerson = record;
     }
 
-    // Latest Death (Keep the person with the latest death date)
+    // Latest death
     if (deathDate && (!latestDeath || deathDate > latestDeath)) {
       latestDeath = deathDate;
-      latestDeathPerson = record; // Store the person with the latest death
+      latestDeathPerson = record;
     }
 
-    
-       // Earliest Death (Keep the person with the earliest death date)
-    if (deathDate && (!earliestDeathPerson || deathDate < new Date(earliestDeathPerson.death_date))) {
-      earliestDeathPerson = record;
-    }
-    // Longest Life (calculate how long each person lived)
+    // Longest life
     if (deathDate) {
-      const livedYears = (deathDate - birthDate) / (1000 * 60 * 60 * 24 * 365.25); // Convert milliseconds to years
+      const livedYears = (deathDate - birthDate) / (1000 * 60 * 60 * 24 * 365.25);
       if (livedYears > longestLivedYears) {
         longestLivedYears = livedYears;
         longestLivedPerson = record;
@@ -336,13 +342,10 @@ function getEarliestAndLatestData(data) {
     earliestBirth: earliestBirth ? earliestBirth.toISOString().substring(0, 10) : null,
     earliestDeath: earliestDeath ? earliestDeath.toISOString().substring(0, 10) : null,
     latestDeath: latestDeath ? latestDeath.toISOString().substring(0, 10) : null,
-    earliestBirthPerson: earliestBirthPerson, // Person with the earliest birth
-    earliestDeathPerson: earliestDeathPerson, // Person with the earliest death
-    latestDeathPerson: latestDeathPerson,     // Person with the latest death
-
+    earliestBirthPerson,
     earliestDeathPerson,
     latestDeathPerson,
-    longestLivedPerson: longestLivedPerson,
+    longestLivedPerson,
     longestLivedYears: longestLivedYears.toFixed(0)
   };
 }
