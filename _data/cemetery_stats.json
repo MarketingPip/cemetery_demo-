@@ -15,26 +15,29 @@
     "90–99": 92,
     "100+": 9
   },
-  "earliestBirth": "1791-09-04",
-  "earliestDeath": "1858-10-20",
+  "earliestBirth": "1791-01-01",
+  "earliestDeath": "1835-11-24",
   "latestDeath": "2024-03-26",
   "earliestBirthPerson": {
-    "id": 179,
-    "gps": null,
-    "name": "Frederick Eilber",
-    "birth_date": "1791-09-04",
-    "death_date": "1875-11-10",
+    "id": 495,
+    "gps": {
+      "latitude": "43.2984324",
+      "longitude": "-81.552802"
+    },
+    "name": "Jacob Haist",
+    "birth_date": "1791-00-00",
+    "death_date": "1864-03-06",
     "location": "Crediton",
-    "image_url": "https://images.findagrave.com/photos/2022/121/188036561_b4790ace-5788-494b-8993-0ad345273ccb.jpeg?size=photos250"
+    "image_url": "https://images.findagrave.com/photos/2022/111/236171167_20156052-9234-47a7-9863-bc83a2c6b551.jpeg?size=photos250"
   },
   "earliestDeathPerson": {
-    "id": 667,
+    "id": 976,
     "gps": null,
-    "name": "Margaret Hoffman Lang",
-    "birth_date": "1819-12-20",
-    "death_date": "1858-10-20",
+    "name": "Barbara Shulz",
+    "birth_date": "1810-00-00",
+    "death_date": "1835-11-24",
     "location": "Crediton",
-    "image_url": ""
+    "image_url": "https://images.findagrave.com/photos/2022/115/239217654_3938c149-2c16-4d25-a6fe-b4ed019f05d1.jpeg?size=photos250"
   },
   "latestDeathPerson": {
     "id": 123,
@@ -46,15 +49,15 @@
     "image_url": "https://images.findagrave.com/photos/2024/93/269021463_38fc0763-86ef-4010-a29d-67bc07075061.jpeg?size=photos250"
   },
   "longestLivedPerson": {
-    "id": 123,
+    "id": 445,
     "gps": null,
-    "name": "Alma Katherine Gower Brunzlow",
-    "birth_date": "1918-10-18",
-    "death_date": "2024-03-26",
+    "name": "Reuben Albert Justus Goetz",
+    "birth_date": "1879-00-00",
+    "death_date": "1987-00-00",
     "location": "Crediton",
-    "image_url": "https://images.findagrave.com/photos/2024/93/269021463_38fc0763-86ef-4010-a29d-67bc07075061.jpeg?size=photos250"
+    "image_url": "https://images.findagrave.com/photos/2006/315/16627347_116339810315.jpg?size=photos250"
   },
-  "longestLivedYears": "105",
+  "longestLivedYears": "108",
   "topYear": {
     "year": 1979,
     "count": 16
