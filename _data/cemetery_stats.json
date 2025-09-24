@@ -66,6 +66,14 @@
     "decade": 1970,
     "count": 105
   },
+  "leastYear": {
+    "year": 1835,
+    "count": 1
+  },
+  "leastDecade": {
+    "decade": 1830,
+    "count": 1
+  },
   "most_common_death_month": {
     "month": "January",
     "count": 63
