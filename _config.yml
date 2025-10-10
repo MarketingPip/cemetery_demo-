@@ -152,7 +152,7 @@ policys:
 
 json_api:
   posts: true
-  authors: false
+  authors: true
   categories: true
   tags: true
     
