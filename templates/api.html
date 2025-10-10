@@ -1,0 +1,213 @@
+---
+permalink: /api/
+title: API Documentation
+---
+{% assign base_url = site.baseurl | default: "" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta charset and viewport settings for responsive design -->
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <!-- SEO Meta Tags -->
+   <!-- <meta name="description" content="Volunteer with Crediton Cemetery to help preserve its legacy through research, photography, data entry, and event support. Join our community-driven efforts!"> -->
+    <meta name="keywords" content="Volunteer, Crediton Cemetery, Heritage Preservation, Historical Research, Photography, Data Entry, Community Events, Ontario">
+    <meta name="author" content="Crediton Cemetery Heritage Portal Team">
+
+    <!-- Title of the page for SEO -->
+    <title>{{page.title}} | {{site.title}}</title>
+    <link rel="canonical" href="{{site.url}}{{ base_url }}{{ page.permalink }}" />
+
+    <!-- TailwindCSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+  <style>
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40vh;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 font-sans">
+  <!-- Navigation -->
+{% include navigation.html %}
+
+  <!-- Hero Section -->
+  <section class="flex items-center justify-center hero-image text-center text-white">
+    <div class="px-4 container mx-auto">
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl">API Documentation</h1>
+      <p class="mb-8 md:text-2xl text-xl">Access posts, authors, tags, and categories via JSON endpoints.</p>
+    </div>
+  </section>
+
+   {% include breadcrumbs/single.html %}  
+
+
+
+  <!-- API Docs Section -->
+  <section class="bg-white py-12">
+    <div class="px-4 container mx-auto max-w-4xl">
+      <div class="space-y-12">
+
+        <!-- Posts -->
+        <div>
+          <h2 class="text-2xl font-bold mb-4">📝 Posts</h2>
+
+          <p class="font-semibold">🔹 GET <code>/api/posts.json</code></p>
+          <p class="mb-2 text-gray-600">Returns all posts (non-paginated).</p>
+          <pre>[
+  {
+    "id": "my-post-title",
+    "title": "My Post Title",
+    "date": "2025-09-15",
+    "url": "/2025/09/15/my-post-title",
+    "excerpt": "This post is about...",
+    "categories": ["tech"],
+    "tags": ["jekyll", "api"],
+    "author": "john-doe"
+  }
+]</pre>
+
+          <p class="mt-6 font-semibold">🔹 GET <code>/api/posts/:slug.json</code></p>
+          <p class="mb-2 text-gray-600">Returns full content and metadata for a specific post.</p>
+          <pre>{
+  "id": "my-post-title",
+  "title": "My Post Title",
+  "date": "2025-09-15",
+  "url": "/2025/09/15/my-post-title",
+  "excerpt": "This post is about...",
+  "categories": ["tech"],
+  "tags": ["jekyll", "api"],
+  "author": "john-doe",
+  "content": "<h2>Full HTML content...</h2>"
+}</pre>
+        </div>
+
+        <!-- Authors -->
+        <div>
+          <h2 class="text-2xl font-bold mb-4">👤 Authors</h2>
+
+          <p class="font-semibold">🔹 GET <code>/api/authors.json</code></p>
+          <p class="mb-2 text-gray-600">List all authors, including post count and profile link.</p>
+          <pre>[
+  {
+    "id": "john-doe",
+    "name": "John Doe",
+    "bio": "A mysterious writer",
+    "website": "https://johndoe.com",
+    "count": 4,
+    "url": "/api/authors/john-doe.json"
+  }
+]</pre>
+
+          <p class="mt-6 font-semibold">🔹 GET <code>/api/authors/:id.json</code></p>
+          <p class="mb-2 text-gray-600">Returns author info and their posts.</p>
+          <pre>{
+  "id": "john-doe",
+  "name": "John Doe",
+  "bio": "A mysterious writer",
+  "website": "https://johndoe.com",
+  "count": 4,
+  "posts": [
+    {
+      "title": "Intro to Ruby",
+      "date": "2025-09-14",
+      "url": "/2025/09/14/intro-to-ruby",
+      "excerpt": "A short guide...",
+      "categories": ["tech"],
+      "tags": ["ruby"]
+    }
+  ]
+}</pre>
+        </div>
+
+        <!-- Tags -->
+        <div>
+          <h2 class="text-2xl font-bold mb-4">🏷 Tags</h2>
+
+          <p class="font-semibold">🔹 GET <code>/api/tags.json</code></p>
+          <p class="mb-2 text-gray-600">List all tags with post counts and URLs.</p>
+          <pre>[
+  {
+    "id": "jekyll",
+    "slug": "jekyll",
+    "count": 3,
+    "url": "/api/tags/jekyll.json"
+  }
+]</pre>
+
+          <p class="mt-6 font-semibold">🔹 GET <code>/api/tags/:id.json</code></p>
+          <p class="mb-2 text-gray-600">Returns all posts with the given tag.</p>
+          <pre>{
+  "id": "jekyll",
+  "count": 3,
+  "posts": [
+    {
+      "title": "Building a Jekyll Plugin",
+      "date": "2025-09-12",
+      "url": "/2025/09/12/jekyll-plugin",
+      "excerpt": "Learn how to build plugins...",
+      "categories": ["dev"],
+      "author": "john-doe"
+    }
+  ]
+}</pre>
+        </div>
+
+        <!-- Categories -->
+        <div>
+          <h2 class="text-2xl font-bold mb-4">📂 Categories</h2>
+
+          <p class="font-semibold">🔹 GET <code>/api/categories.json</code></p>
+          <p class="mb-2 text-gray-600">List all categories with post counts and links.</p>
+          <pre>[
+  {
+    "id": "Tech",
+    "slug": "tech",
+    "count": 5,
+    "url": "/api/categories/tech.json"
+  }
+]</pre>
+
+          <p class="mt-6 font-semibold">🔹 GET <code>/api/categories/:id.json</code></p>
+          <p class="mb-2 text-gray-600">Returns all posts in the given category.</p>
+          <pre>{
+  "id": "Tech",
+  "count": 5,
+  "posts": [
+    {
+      "title": "Intro to Ruby",
+      "date": "2025-09-14",
+      "url": "/2025/09/14/intro-to-ruby",
+      "excerpt": "A short guide...",
+      "tags": ["ruby"],
+      "author": "john-doe"
+    }
+  ]
+}</pre>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+<!-- Footer -->
+{% include footer.html %}
+
+  <!-- Mobile Menu Toggle Script -->
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', () => {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
