@@ -32,7 +32,7 @@ module Jekyll
           # Create a new virtual page
           page = Jekyll::PageWithoutAFile.new(site, site.source, dir, name)
           page.data = {
-            "layout" => "person",
+            "layout" => "none",
             "title" => person_data["name"] || slug.capitalize,
             "person" => person_data,
             "permalink" => "/people/#{slug}/",
