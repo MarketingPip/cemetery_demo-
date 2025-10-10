@@ -37,7 +37,7 @@ module Jekyll
             "slug" => slug,
             "permalink" => "/people/#{slug}/",
             "robots" => "noindex"
-          }
+          })
 
           page.content = "" # Layout will render based on person data
           site.pages << page
