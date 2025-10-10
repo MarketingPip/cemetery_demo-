@@ -672,11 +672,11 @@ if (siblingsSection && childrenSection) {
       document.title = `${tribute.name} (${formattedDates.replaceAll(" ", "")}) | Crediton Cemetery Heritage Portal`;
       document.getElementById('tribute-dates').textContent = formattedDates;
       document.getElementById('tribute-header-name').textContent = tribute.name;
-      document.getElementById('tribute-image').src = tribute.image_url;
+      document.getElementById('tribute-image').src = (tribute.image_url && tribute.image_url !== "") ? tribute.image_url : './../assets/images/placeholder.png';
       document.getElementById('tribute-image').setAttribute('data-fullsize', tribute.image_url); // temp
       document.getElementById('tribute-image').alt = `Photo of ${tribute.name}`;
-      document.getElementById('tribute-birth').textContent = tribute.birth_date;
-      document.getElementById('tribute-death').textContent = tribute.death_date;
+      document.getElementById('tribute-birth').textContent = (tribute.birth_date && tribute.birth_date !== "") ? tribute.birth_date : "Unknown";
+      document.getElementById('tribute-death').textContent = (tribute.death_date && tribute.death_date !== "") ? tribute.death_date : "Unknown";
       document.getElementById('tribute-age').textContent = formatDate(tribute.birth_date,tribute.death_date);
       document.getElementById('tribute-cemetery').textContent = tribute.cemetery;
       document.getElementById('tribute-location').textContent = tribute.location;
