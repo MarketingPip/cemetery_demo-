@@ -31,10 +31,10 @@ module Jekyll
 
           # Create a new virtual page
           page = Jekyll::PageWithoutAFile.new(site, site.source, dir, name)
-          page.data = {
-            "layout" => "none",
+          page.data = person_data.merge({
+            "layout" => "tribute",
             "title" => person_data["name"] || slug.capitalize,
-            "person" => person_data,
+            "slug" => slug,
             "permalink" => "/people/#{slug}/",
             "robots" => "noindex"
           }
