@@ -519,7 +519,7 @@ function renderPerson(person) {
            aria-label="Link to ${person.name}'s memorial page"
            class="block">
             <div class="flex items-start gap-4 mb-2">
-                <img src="${person?.image_url || './../assets/images/placeholder.png'}" 
+                <img src="${person?.image_url && person.image_url !== "" ? person.image_url : '{{ base_url }}/assets/images/placeholder.png'}" 
                      alt="${person?.name}" 
                      class="w-24 h-32 object-cover rounded-md border border-gray-700">
                 <div>
