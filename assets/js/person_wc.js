@@ -38,7 +38,7 @@ class PersonInfo extends HTMLElement {
         const { name, birth_date, death_date, image_url, id } = data;
         const formattedBirthDate = birth_date ? birth_date.split('-')[0] : 'Unknown';
         const formattedDeathDate = death_date ? death_date.split('-')[0] : 'Unknown';
-        const imageSrc = image_url || 'https://via.placeholder.com/150';
+        const imageSrc = image_url && image_url !== "" ? image_url : '{{base_url}}/assets/images/placeholder.png';
 
         this.innerHTML = `
           <a style="text-decoration: none; color: inherit; cursor: pointer;" href="{{base_url}}/tribute/?id=${id}">
