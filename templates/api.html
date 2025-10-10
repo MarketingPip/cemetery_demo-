@@ -34,6 +34,15 @@ title: API Documentation
       background-size: cover;
       height: 40vh;
     }
+
+     pre {
+      background: #1e293b;
+      color: #e2e8f0;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      font-size: 0.875rem;
+      overflow-x: auto;
+    }   
   </style>
 </head>
 <body class="bg-gray-50 font-sans">
@@ -57,6 +66,9 @@ title: API Documentation
     <div class="px-4 container mx-auto max-w-4xl">
       <div class="space-y-12">
 
+
+
+           {% if site.json_api.posts %}
         <!-- Posts -->
         <div>
           <h2 class="text-2xl font-bold mb-4">📝 Posts</h2>
@@ -90,7 +102,9 @@ title: API Documentation
   "content": "<h2>Full HTML content...</h2>"
 }</pre>
         </div>
+        {% endif %}  
 
+         {% if site.json_api.authors %} 
         <!-- Authors -->
         <div>
           <h2 class="text-2xl font-bold mb-4">👤 Authors</h2>
@@ -128,7 +142,9 @@ title: API Documentation
   ]
 }</pre>
         </div>
-
+        {% endif %}
+          
+        {% if site.json_api.tags %}  
         <!-- Tags -->
         <div>
           <h2 class="text-2xl font-bold mb-4">🏷 Tags</h2>
@@ -161,7 +177,9 @@ title: API Documentation
   ]
 }</pre>
         </div>
+       {% endif %}   
 
+        {% if site.json_api.categories %}  
         <!-- Categories -->
         <div>
           <h2 class="text-2xl font-bold mb-4">📂 Categories</h2>
@@ -194,6 +212,7 @@ title: API Documentation
   ]
 }</pre>
         </div>
+        {% endif %}  
 
       </div>
     </div>
