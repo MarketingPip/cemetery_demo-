@@ -149,6 +149,12 @@ policys:
     url: "privacy-policy"
   - name: "Terms of Service"
     url: "terms-of-service"
+
+json_api:
+  posts: true
+  authors: false
+  categories: true
+  tags: true
     
 social:
   - name: "Github"
