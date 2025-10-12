@@ -47,8 +47,9 @@ module Jekyll
 
       # Define the path for the new page (e.g., /exhibits/authors/author1/all/)
       author_id = author.data['slug']
+      author_name = author.data['name']
       @dir = "authors/#{author_id}/all"
-      @name = "#{author_id}/index.html"
+      @name = "#{author_name}"
 
       # Process the page
       process(@name)
