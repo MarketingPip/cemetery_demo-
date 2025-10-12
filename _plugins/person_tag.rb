@@ -8,7 +8,7 @@ module Jekyll
       authors = site.collections['authors'].docs
 
       authors.each do |author|
-        # Create a new page for the author
+        # Create a new page for the author using Jekyll::PageWithoutAFile
         site.pages << AltAuthorPage.new(site, author)
 
         # Create another page for the 'all' subdirectory using 'author_all' layout
@@ -17,7 +17,7 @@ module Jekyll
     end
   end
 
-  class AltAuthorPage < Page
+  class AltAuthorPage
     def initialize(site, author)
       @site = site
       @author = author
@@ -27,40 +27,47 @@ module Jekyll
       @dir = "exhibits/authors"
       @name = "#{author_id}/index.html"
 
-      # Process the page
-      process(@name)
+      # Create the new page using Jekyll::PageWithoutAFile
+      page = Jekyll::PageWithoutAFile.new(site, site.source, @dir, @name)
 
-      # Copy front matter from the original author document
-      @data = author.data.dup
-      @data['layout'] ||= 'author' # Set a specific layout for author pages
-      @data['permalink'] = "/exhibits/authors/#{author_id}/"
+      # Merge the original author data with any additional data
+      page.data = author.data.merge({
+        'layout' => 'author',  # Layout for the author page
+        'permalink' => "/exhibits/authors/#{author_id}/"
+      })
 
-      # Optional: Store content or leave it empty to rely on the layout
-      @content = author.content
+      # Optionally, add more dynamic data for the page here
+      page.content = author.content
+
+      # Add the page to the site
+      site.pages << page
     end
   end
 
-  class AltAuthorAllPage < Page
+  class AltAuthorAllPage
     def initialize(site, author)
       @site = site
       @author = author
 
-      # Define the path for the new page (e.g., /exhibits/authors/author1/all/)
+      # Define the path for the "all" page (e.g., /authors/author1/all/)
       author_id = author.data['slug']
-      author_name = author.data['name']
       @dir = "authors/#{author_id}/all"
-      @name = "#{author_id}/index.html"
+      @name = "index.html"  # Ensure the page is named 'index.html'
 
-      # Process the page
-      process(@name)
+      # Create the new page using Jekyll::PageWithoutAFile
+      page = Jekyll::PageWithoutAFile.new(site, site.source, @dir, @name)
 
-      # Copy front matter from the original author document and adjust layout
-      @data = author.data.dup
-      @data['layout'] = 'author_all'  # Use 'author_all' layout
-      @data['permalink'] = "/authors/#{author_id}/all/"
+      # Merge the original author data with any additional data
+      page.data = author.data.merge({
+        'layout' => 'author_all',  # Layout for the 'all' page
+        'permalink' => "/authors/#{author_id}/all/"
+      })
 
-      # Optional: You can add custom content for this "all" page, or rely on the layout.
-      @content = author.content
+      # Optionally, add more dynamic data for the "all" page
+      page.content = author.content
+
+      # Add the page to the site
+      site.pages << page
     end
   end
 end
