@@ -49,7 +49,7 @@ module Jekyll
       author_id = author.data['slug']
       author_name = author.data['name']
       @dir = "authors/#{author_id}/all"
-      @name = "#{author_name}"
+      @name = "#{author_id}/index.html"
 
       # Process the page
       process(@name)
