@@ -47,7 +47,7 @@ module Jekyll
 
       # Define the path for the new page (e.g., /exhibits/authors/author1/all/)
       author_id = author.data['slug']
-      @dir = "exhibits/authors/#{author_id}/all"
+      @dir = "authors/#{author_id}/all"
       @name = "index.html"
 
       # Process the page
@@ -56,7 +56,7 @@ module Jekyll
       # Copy front matter from the original author document and adjust layout
       @data = author.data.dup
       @data['layout'] = 'author_all'  # Use 'author_all' layout
-      @data['permalink'] = "/exhibits/authors/#{author_id}/all/"
+      @data['permalink'] = "/authors/#{author_id}/all/"
 
       # Optional: You can add custom content for this "all" page, or rely on the layout.
       @content = author.content
