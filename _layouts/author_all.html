@@ -1,0 +1,193 @@
+{% assign base_url = site.baseurl | default: "" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>{{ page.name }} | {{site.title}}</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40vh;
+    }
+    .post-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    }
+  </style>
+ {% seo %} 
+</head>
+<body class="bg-gray-100 font-sans">
+   <!-- Navigation -->
+{% include navigation.html %}
+
+  <!-- Hero Section -->
+  <section class="flex items-center justify-center hero-image text-center text-white" id="author-hero">
+    <div class="px-4 container mx-auto">
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl">{{ page.name }}</h1>
+      <p class="mb-8 md:text-2xl text-xl">{{ page.bio }}</p>
+    </div>
+  </section>
+
+<!-- Breadcrumbs for Author Page -->
+<nav class="flex justify-between items-center px-4 py-3 container mx-auto" aria-label="Breadcrumb">
+  <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
+      <li class="inline-flex items-center">
+        <a href="{{ base_url }}/" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white">
+          <svg class="w-3 h-3 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+            <path d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z"/>
+          </svg>
+          Home
+        </a>
+      </li>
+     <div class="flex items-center">
+          <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+          </svg>
+          <a href="{{ base_url }}/authors/" class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">Authors</a>
+        </div>
+      </li>
+      <li aria-current="page">
+        <div class="flex items-center">
+          <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+          </svg>
+          <span class="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">{{ page.name }}</span>
+        </div>
+      </li>
+  </ol>
+
+</nav>
+  
+ <!-- Author Profile Section -->
+<section class="bg-white py-12" id="author-profile">
+  <div class="px-4 container mx-auto">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+      <img alt="{{ page.author | capitalize }}" class="w-56 h-56 rounded-full object-cover shadow-lg" src="{{ page.author_image | default: 'https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_960_720.png' }}">
+      <div class="text-center md:text-left max-w-lg">
+        <h2 class="font-bold text-4xl text-gray-800 mb-4">About {{ page.name }}</h2>
+        <p class="text-gray-700 mb-6">{{ page.bio }}</p>
+        <div class="flex justify-center md:justify-start space-x-6">
+          <a href="{{ page.social.facebook }}" class="text-gray-600 hover:text-blue-600"><i class="fab fa-facebook-f"></i></a>
+          <a href="{{ page.social.twitter }}" class="text-gray-600 hover:text-blue-600"><i class="fab fa-twitter"></i></a>
+          <a href="{{ page.social.linkedin }}" class="text-gray-600 hover:text-blue-600"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Blog Posts Section -->
+<section class="bg-gray-100 py-16" id="author-posts">
+  <div class="px-4 container mx-auto">
+    <h2 class="font-bold text-4xl text-gray-800 mb-10 text-center">Contributions by {{ page.name }}</h2>
+    <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Explore the amazing contributions made by {{ page.name }} on our platform.</p>
+
+    <div id="posts-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Posts will be loaded here dynamically -->
+    </div>
+
+    <div id="load-more-container" class="text-center mt-12">
+      <button id="load-more" class="font-bold text-white transition bg-green-600 hover:bg-green-700 px-8 py-4 rounded-lg text-lg">Show More Posts</button>
+    </div>
+  </div>
+</section>
+
+<script>
+  // List of all posts (you can either use JSON or embed these posts in a script tag)
+  const allPosts = [
+    {% assign author_slug = page.author %}
+    {% assign author_posts = site.posts | where: "author", author_slug %}
+    {% for post in author_posts %}
+      {
+        "title": "{{ post.title }}",
+        "url": "{{ post.url }}",
+        "excerpt": "{{ post.excerpt | strip_html | truncate: 150 }}",
+        "image": "{{ post.image | relative_url }}",
+        "date": "{{ post.date | date: '%B %d, %Y' }}"
+      },
+    {% endfor %}
+  ];
+
+  let postIndex = 0; // Start index to load posts from
+  const postsPerPage = 6; // Number of posts to load initially or when the "Show More" button is clicked
+  const loadMoreButton = document.getElementById('load-more');
+  const postsContainer = document.getElementById('posts-container');
+
+  // Function to display posts
+  function loadPosts() {
+    const postsToLoad = allPosts.slice(postIndex, postIndex + postsPerPage);
+    postsToLoad.forEach(post => {
+      const postElement = document.createElement('div');
+      postElement.classList.add('transition', 'transform', 'hover:scale-105', 'bg-white', 'shadow-xl', 'rounded-xl', 'overflow-hidden', 'post-card', 'hover:bg-gray-50');
+
+      postElement.innerHTML = `
+        ${post.image ? `<img alt="${post.title}" class="w-full h-56 object-cover" src="${post.image}">` : `<div class="w-full h-56 bg-gray-200"></div>`}
+        <div class="p-6">
+          <h3 class="font-semibold text-2xl text-gray-800 mb-4">${post.title}</h3>
+          <p class="text-gray-500 text-sm mb-2">${post.date}</p>
+          <p class="text-gray-700 mb-4">${post.excerpt}</p>
+          <a href="${post.url}" class="font-bold text-green-600 hover:text-green-700 transition duration-300">Read More</a>
+        </div>
+      `;
+      postsContainer.appendChild(postElement);
+    });
+    postIndex += postsPerPage; // Move the index forward
+
+    // Hide "Show More" button if all posts have been loaded
+    if (postIndex >= allPosts.length) {
+      loadMoreButton.style.display = 'none';
+    }
+  }
+
+  // Load the initial set of posts when the page loads
+  loadPosts();
+
+  // Add event listener for the "Show More" button
+  loadMoreButton.addEventListener('click', loadPosts);
+</script>
+
+
+
+  
+
+<!-- Footer -->
+{% include footer.html %}
+
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "dateCreated": "{{ page.date_created | date_to_xmlschema }}",
+  "dateModified": "{{ page.date_modified | date_to_xmlschema }}",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "{{ page.name }}",
+    "alternateName": "{{ page.username }}",
+    "identifier": "{{ page.name }}",
+    "description": "{{ page.bio | escape }}",
+    "image": "{% if page.author_image %}{{ page.author_image }}{% else %}https://example.com/default-avatar.jpg{% endif %}",
+    "sameAs": [
+      {% if page.social.facebook %}"{{ page.social.facebook }}"{% endif %}
+      {% if page.social.twitter %}{% if page.social.facebook %}, {% endif %}"{{ page.social.twitter }}"{% endif %}
+      {% if page.social.linkedin %}{% if page.social.facebook or page.social.twitter %}, {% endif %}"{{ page.social.linkedin }}"{% endif %}
+    ]
+  }
+}
+</script>
+
+  <!-- Mobile Menu Toggle Script -->
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', () => {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
