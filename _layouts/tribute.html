@@ -9,6 +9,8 @@
   {% assign birth_year = "Unknown" %}
 {% endif %}
 
+{% assign person_name =  page.title %}
+
 {% if death_date %}
   {% assign death_year = death_date | date: "%Y" %}
 {% else %}
@@ -19,7 +21,7 @@
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <title> {{page.title}} ({{ birth_year }} - {{ death_year }}) | {{site.title}}</title>
+  <title> {{person_name}} ({{ birth_year }} - {{ death_year }}) | {{site.title}}</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="canonical" href="{{site.url}}{{ base_url }}{{ page.permalink }}" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
@@ -101,7 +103,7 @@
   <!-- Hero Section -->
   <section class="flex items-center justify-center hero-image text-center text-white" id="tribute-hero">
     <div class="px-4 container mx-auto">
-      <h1 class="font-bold text-4xl mb-4 md:text-6xl" id="tribute-name">{{page.name}}</h1>
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl" id="tribute-name">{{ person_name }}</h1>
       <p class="mb-8 md:text-2xl text-xl" id="tribute-dates">{{ birth_year }} - {{ death_year }}</p>
     </div>
   </section>
@@ -131,7 +133,7 @@
           <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"></path>
           </svg>
-          <span class="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400 current-page-name">{{page.name}}</span>
+          <span class="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400 current-page-name">{{ person_name }}</span>
         </div>
       </li>
     </ol>
