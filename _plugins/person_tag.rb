@@ -4,14 +4,10 @@ module Jekyll
     priority :high
 
     def generate(site)
-      # Get the authors collection
       authors = site.collections['authors'].docs
 
       authors.each do |author|
-        # Create a new page for the author
         site.pages << AltAuthorPage.new(site, author)
-
-        # Create another page for the 'all' subdirectory using 'author_all' layout
         site.pages << AltAuthorAllPage.new(site, author)
       end
     end
@@ -20,47 +16,47 @@ module Jekyll
   class AltAuthorPage < Page
     def initialize(site, author)
       @site = site
-      @author = author
-
-      # Define the path for the new page (e.g., /exhibits/authors/author1/)
+      @base = site.source
       author_id = author.data['slug']
       @dir = "exhibits/authors"
       @name = "#{author_id}/index.html"
 
-      # Process the page
       process(@name)
 
-      # Copy front matter from the original author document
+      # Copy front matter from the author file
       @data = author.data.dup
-      @data['layout'] ||= 'author' # Set a specific layout for author pages
+      @data['layout'] ||= 'author'
       @data['permalink'] = "/exhibits/authors/#{author_id}/"
-
-      # Optional: Store content or leave it empty to rely on the layout
+      @data['title'] ||= author.data['name']
       @content = author.content
+
+      # Add posts written by this author
+      @data['posts'] = site.posts.docs.select do |post|
+        post.data['author'] == author_id
+      end
     end
   end
 
   class AltAuthorAllPage < Page
     def initialize(site, author)
       @site = site
-      @author = author
-
-      # Define the path for the new page (e.g., /exhibits/authors/author1/all/)
+      @base = site.source
       author_id = author.data['slug']
-      author_name = author.data['name']
       @dir = "authors/#{author_id}/all"
-      @name = "#{author_name}"
+      @name = "index.html"
 
-      # Process the page
       process(@name)
 
-      # Copy front matter from the original author document and adjust layout
       @data = author.data.dup
-      @data['layout'] = 'author_all'  # Use 'author_all' layout
+      @data['layout'] = 'author_all'
       @data['permalink'] = "/authors/#{author_id}/all/"
-
-      # Optional: You can add custom content for this "all" page, or rely on the layout.
+      @data['title'] = author.data['name']
       @content = author.content
+
+      # Add posts written by this author
+      @data['posts'] = site.posts.docs.select do |post|
+        post.data['author'] == author_id
+      end
     end
   end
 end
