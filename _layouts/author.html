@@ -121,7 +121,7 @@
             {% endif %}
 
             {% if item.excerpt %}
-              <p class="text-gray-600 mb-4">{{ item.excerpt | truncate: 150 }}</p> 
+              <p class="text-gray-600 mb-4">{{ item.excerpt | default: item.content | strip_html | truncate: 150 }}</p> 
             {% endif %}
 
             <a href="{{ item.url }}" title="Read more from {{ author.name }}" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
