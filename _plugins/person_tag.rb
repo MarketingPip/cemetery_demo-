@@ -60,6 +60,7 @@ module Jekyll
       # Merge the original author data with any additional data
       page.data = author.data.merge({
         'layout' => 'author_all',  # Layout for the 'all' page
+        'title' => author.data['name'],  # Layout for the 'all' page
         'permalink' => "/authors/#{author_id}/all/"
       })
 
