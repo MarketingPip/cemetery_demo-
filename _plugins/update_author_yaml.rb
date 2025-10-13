@@ -11,7 +11,7 @@ module Jekyll
       authors_dir = File.join(site.source, '_authors')
       site.collections['authors'] ||= Jekyll::Collection.new(site, 'authors')
 
-      # Handle blog posts
+      # Handle posts
       site.posts.docs.each do |post|
         author_name = post.data['author']
         next unless author_name
@@ -37,10 +37,18 @@ module Jekyll
 
           slug = exhibit.data['slug'] || File.basename(exhibit.relative_path, '.md')
 
+          # Safely format date
+          date_str = nil
+          begin
+            date_str = exhibit.data['date'].strftime('%Y-%m-%d')
+          rescue
+            date_str = nil
+          end
+
           exhibit_info = {
             'title' => exhibit.data['title'],
             'url' => "/exhibits/#{slug}",
-            'date' => exhibit.data['date'].strftime('%Y-%m-%d') rescue nil,
+            'date' => date_str,
             'location' => exhibit.data['location'] || ''
           }
 
