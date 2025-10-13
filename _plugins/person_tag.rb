@@ -51,6 +51,7 @@ module Jekyll
       @data['layout'] = 'author_all'
       @data['permalink'] = "/authors/#{author_id}/all/"
       @data['title'] = author.data['name']
+      @data['name'] = author.data['name']  # Keeps "Jane Doe" in the page data
       @content = author.content
 
       # Add posts written by this author
