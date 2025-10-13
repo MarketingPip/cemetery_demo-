@@ -25,7 +25,7 @@ module Jekyll
 
       site.posts.docs.each do |post|
         slug = post.data['slug'] || post.slug
-        json_path = "api/posts/#{slug}"
+        json_path = "api/posts/#{slug}.json"
 
         post_data = {
           id: slug,
@@ -45,7 +45,7 @@ module Jekyll
       end
 
       index_json = all_posts_data.sort_by { |p| p[:date] }.reverse.to_json
-      create_json_page(site, "api/posts", index_json)
+      create_json_page(site, "api/posts.json", index_json)
     end
 
     # ---------------------------------
@@ -83,7 +83,7 @@ module Jekyll
           posts: post_data
         }.to_json
 
-        path = "api/authors/#{author_id}"
+        path = "api/authors/#{author_id}.json"
         create_json_page(site, path, author_json)
 
         all_authors_json << {
@@ -92,12 +92,12 @@ module Jekyll
           bio: author_data['bio'],
           website: author_data['website'],
           count: posts.length,
-          url: "/api/authors/#{author_id}"
+          url: "/api/authors/#{author_id}.json"
         }
       end
 
       index_json = all_authors_json.sort_by { |a| a[:name].to_s.downcase }.to_json
-      create_json_page(site, "api/authors", index_json)
+      create_json_page(site, "api/authors.json", index_json)
     end
 
     # ---------------------------------
@@ -134,19 +134,19 @@ module Jekyll
           posts: post_data
         }.to_json
 
-        path = "api/categories/#{slug}"
+        path = "api/categories/#{slug}.json"
         create_json_page(site, path, category_json)
 
         all_categories_json << {
           id: category,
           slug: slug,
           count: posts.length,
-          url: "/api/categories/#{slug}"
+          url: "/api/categories/#{slug}.json"
         }
       end
 
       index_json = all_categories_json.sort_by { |c| c[:id].downcase }.to_json
-      create_json_page(site, "api/categories", index_json)
+      create_json_page(site, "api/categories.json", index_json)
     end
 
     # ---------------------------------
@@ -183,19 +183,19 @@ module Jekyll
           posts: post_data
         }.to_json
 
-        path = "api/tags/#{slug}"
+        path = "api/tags/#{slug}.json"
         create_json_page(site, path, tag_json)
 
         all_tags_json << {
           id: tag,
           slug: slug,
           count: posts.length,
-          url: "/api/tags/#{slug}"
+          url: "/api/tags/#{slug}.json"
         }
       end
 
       tags_index_json = all_tags_json.sort_by { |t| t[:id] }.to_json
-      create_json_page(site, "api/tags", tags_index_json)
+      create_json_page(site, "api/tags.json", tags_index_json)
     end
 
     # ---------------------------------
