@@ -104,6 +104,8 @@ module Jekyll
           end
         end
 
+        parsed[:data]['posts'] ||= []
+        parsed[:data]['exhibits'] ||= []
         parsed_content = parsed[:content] || ''
         yaml_content = parsed[:data].to_yaml.sub(/^---\n/, '')
         new_content = "---\n#{yaml_content}---\n#{parsed_content}"
