@@ -136,9 +136,9 @@
 {% endfor %}
 
 {% if is_exhibit %}
-  <a href="{{ site.url }}{{ '/exhibit/' | relative_url }}{{ filename_without_extension }}" title="View exhibit from {{ page.name }}" class="font-bold text-green-600 hover:text-green-700 transition">View Exhibit</a>
+  <a href="{{ base_url }}/exhibit/{{ filename_without_extension }}" title="View exhibit from {{ page.name }}" class="font-bold text-green-600 hover:text-green-700 transition">View Exhibit</a>
 {% else %}
-  <a href="{{ site.url }}{{ '/blog/' | relative_url }}{{ filename_without_extension }}" title="Read blog post from {{ page.name }}" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
+  <a href="{{ base_url }}/blog/{{ filename_without_extension }}" title="Read blog post from {{ page.name }}" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
 {% endif %}
 
 
@@ -156,7 +156,7 @@
       </div>
 
       <div class="text-center mt-12">
-        <a href="{{ site.url }}{{ 'blog' | relative_url }}" class="font-bold text-white transition bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg">View All {{ page.name }}'s Work</a>
+        <a href="{{ base_url }}/authors/{{ author_slug }}/all" class="font-bold text-white transition bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg">View All {{ page.name }}'s Work</a>
       </div>
     </div>
   </section>
