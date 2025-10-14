@@ -104,7 +104,7 @@
   // List of all posts (you can either use JSON or embed these posts in a script tag)
   const allPosts = [
     {% assign author_slug = page.author %}
-    {% assign author_content = site.posts | where: "author", author_slug | concat: site.exhibits | where: "author", author_slug %}
+    {% assign author_posts = site.posts | where: "author", author_slug | concat: site.exhibits | where: "author", author_slug %}
     {% for post in author_posts %}
       {
         "title": "{{ post.title }}",
