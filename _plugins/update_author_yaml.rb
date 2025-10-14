@@ -49,7 +49,7 @@ module Jekyll
             'title' => exhibit.data['title'],
             'url' => "/exhibits/#{slug}",
             'date' => date_str,
-            'excerpt' => (exhibit.data['excerpt'] || '').to_s[0, 100]
+            'excerpt' => (exhibit.data['excerpt'] || '').to_s[0, 100],
             'location' => exhibit.data['location'] || ''
           }
 
