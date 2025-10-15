@@ -129,11 +129,13 @@
 {% assign filename_without_extension = filename | remove: ".md" | remove: ".html" %}
 
 {% assign is_exhibit = false %}
-{% for exhibit in exhibits %}
+{% for exhibit in site.exhibits %}
   {% if exhibit.url == post.url %}
     {% assign is_exhibit = true %}
   {% endif %}
 {% endfor %}
+
+        
 
 {% if is_exhibit %}
   <a href="{{ base_url }}/exhibit/{{ filename_without_extension }}" title="View exhibit from {{ page.name }}" class="font-bold text-green-600 hover:text-green-700 transition">View Exhibit</a>
