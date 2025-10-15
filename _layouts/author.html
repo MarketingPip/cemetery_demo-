@@ -89,10 +89,18 @@
       <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Explore {{ page.name }}’s contributions to our website.</p>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-       {% for post in page.posts limit:10 %}
-  {% assign expire_date = post.expire_date %}
-  {% assign today = 'now' | date: "%Y-%m-%d" %}
+{% assign today = 'now' | date: "%Y-%m-%d" %}
 
+{% assign posts = page.posts | default: [] %}
+{% assign exhibits = page.exhibits | default: [] %}
+
+{% assign combined = posts | concat: exhibits %}
+{% assign sorted_combined = combined | sort: "date" | reverse %}
+{% assign limited_combined = sorted_combined | slice: 0, 10 %}
+
+{% for post in limited_combined %}
+  {% assign expire_date = post.expire_date %}
+  
   {% if expire_date %}
     {% assign expire_date = expire_date | date: "%Y-%m-%d" %}
   {% endif %}
