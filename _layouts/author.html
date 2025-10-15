@@ -1,5 +1,7 @@
 {% assign base_url = site.baseurl | default: "" %}
-{% assign author_slug = page.author | slugify %}     
+{% assign url_segments = page.url | split: '/' %}
+{% assign last_slug = url_segments.last | slugify %}
+{% assign author_slug = last_slug %}     
 <!DOCTYPE html>
 <html lang="en">
 <head>
