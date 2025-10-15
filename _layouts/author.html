@@ -101,53 +101,54 @@
     {% assign sorted = combined | sort: "date" | reverse %}
     {% assign limited = sorted | slice: 0, 10 %}
 
-    {% for item in limited %}
-      {% assign expire_date = item.expire_date | date: "%Y-%m-%d" %}
-      {% assign published = item.published | default: true %}
+    {% if limited.size > 0 %}
+      {% for item in limited %}
+        {% assign expire_date = item.expire_date | date: "%Y-%m-%d" %}
+        {% assign published = item.published | default: true %}
 
-      {% if expire_date == "" or expire_date == nil or expire_date >= today and published != false %}
-        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden post-card">
-          {% if item.image %}
-            <img alt="{{ item.title | escape }}" class="w-full h-48 object-cover" src="{{ item.image | relative_url }}">
-          {% else %}
-            <div class="w-full h-48 bg-gray-200"></div>
-          {% endif %}
-
-          <div class="p-6">
-            <h3 class="font-bold text-xl mb-2">{{ item.title | escape }}</h3>
-
-            {% if item.date %}
-              <p class="text-gray-600 text-sm mb-2">{{ item.date | date: "%B %d, %Y" }}</p>
+        {% if expire_date == "" or expire_date == nil or expire_date >= today and published != false %}
+          <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden post-card">
+            {% if item.image %}
+              <img alt="{{ item.title | escape }}" class="w-full h-48 object-cover" src="{{ item.image | relative_url }}">
+            {% else %}
+              <div class="w-full h-48 bg-gray-200"></div>
             {% endif %}
 
-            {% if item.excerpt %}
-              <p class="text-gray-600 mb-4">{{ item.excerpt | default: item.content | strip_html | truncate: 150 }}</p> 
-            {% endif %}
+            <div class="p-6">
+              <h3 class="font-bold text-xl mb-2">{{ item.title | escape }}</h3>
 
+              {% if item.date %}
+                <p class="text-gray-600 text-sm mb-2">{{ item.date | date: "%B %d, %Y" }}</p>
+              {% endif %}
 
-            {% assign filename = item.url | split: "/" | last %}
-{% assign filename_without_extension = filename | remove: ".md" | remove: ".html" %}
+              {% if item.excerpt %}
+                <p class="text-gray-600 mb-4">{{ item.excerpt | default: item.content | strip_html | truncate: 150 }}</p>
+              {% endif %}
 
-{% assign is_exhibit = false %}
-{% for exhibit in exhibits %}
-  {% if exhibit.url == item.url %}
-    {% assign is_exhibit = true %}
-  {% endif %}
-{% endfor %}
+              {% assign filename = item.url | split: "/" | last %}
+              {% assign filename_without_extension = filename | remove: ".md" | remove: ".html" %}
 
-{% if is_exhibit %}
-  <a href="{{ base_url }}/exhibit/{{ filename_without_extension }}" title="View exhibit from {{ page.name }}" class="font-bold text-green-600 hover:text-green-700 transition">View Exhibit</a>
-{% else %}
-  <a href="{{ base_url }}/blog/{{ filename_without_extension }}" title="Read blog post from {{ page.name }}" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
-{% endif %}
+              {% assign is_exhibit = false %}
+              {% for exhibit in exhibits %}
+                {% if exhibit.url == item.url %}
+                  {% assign is_exhibit = true %}
+                {% endif %}
+              {% endfor %}
 
-
-
-            
+              {% if is_exhibit %}
+                <a href="{{ base_url }}/exhibit/{{ filename_without_extension }}" title="View exhibit from {{ page.name }}" class="font-bold text-green-600 hover:text-green-700 transition">View Exhibit</a>
+              {% else %}
+                <a href="{{ base_url }}/blog/{{ filename_without_extension }}" title="Read blog post from {{ page.name }}" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
+              {% endif %}
+            </div>
           </div>
-        </div>
-      {% endif %}
-    {% endfor %}
+        {% endif %}
+      {% endfor %}
+    {% else %}
+      <div class="col-span-1 md:col-span-2 lg:col-span-3 text-center py-8 bg-gray-200 rounded-lg">
+        <p class="text-xl text-gray-500">No contributions available from {{ page.name }} at this time.</p>
+      </div>
+    {% endif %}
 
   {% endif %}
 {% endfor %}
