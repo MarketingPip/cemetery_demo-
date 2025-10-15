@@ -88,15 +88,20 @@
       <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Contributions by {{ page.name }}</h2>
       <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Explore {{ page.name }}’s contributions to our website.</p>
 
+{% assign exhibits = page.exhibits | default: [] %}
+
+{% assign exhibits_json = exhibits | json %}
+
+      {{exhibits_json}}
+      
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 {% assign today = 'now' | date: "%Y-%m-%d" %}
 
 {% assign posts = page.posts | default: [] %}
-{% assign exhibits = page.exhibits | default: [] %}
 
-{% assign combined = posts | concat: exhibits %}
-{% assign sorted_combined = combined | sort: "date" | reverse %}
-{% assign limited_combined = sorted_combined | slice: 0, 10 %}
+{% assign sorted_posts = posts | sort: "date" | reverse %}
+{% assign limited_posts = sorted_posts | slice: 0, 10 %}
+
 
 {% for post in limited_combined %}
   {% assign expire_date = post.expire_date %}
