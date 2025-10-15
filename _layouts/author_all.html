@@ -83,21 +83,82 @@
   </div>
 </section>
 
-<!-- Blog Posts Section -->
-<section class="bg-gray-100 py-16" id="author-posts">
-  <div class="px-4 container mx-auto">
-    <h2 class="font-bold text-4xl text-gray-800 mb-10 text-center">Contributions by {{ person_name }}</h2>
-    <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Explore the amazing contributions made by {{ person_name }} on our platform.</p>
 
-    <div id="posts-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-      <!-- Posts will be loaded here dynamically -->
+
+  <!-- Blog Posts Section -->
+  <section class="bg-gray-100 py-12" id="author-posts">
+    <div class="px-4 container mx-auto">
+      <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Contributions by {{ page.name }}</h2>
+      <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Explore {{ page.name }}’s contributions to our website.</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            {% assign author_slug = page.author %}
+    {% assign author_posts = site.posts | where: "author", author_slug | concat: site.exhibits | where: "author", author_slug | sort: "date" | reverse %}
+
+ 
+
+
+        
+        
+       {% for post in author_posts limit:10 %}
+  {% assign expire_date = post.expire_date %}
+  {% assign today = 'now' | date: "%Y-%m-%d" %}
+
+  {% if expire_date %}
+    {% assign expire_date = expire_date | date: "%Y-%m-%d" %}
+  {% endif %}
+
+  {% if expire_date == nil or expire_date == "" or expire_date >= today and published != false %}
+    <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden post-card">
+      {% if post.image %}
+        <img alt="{{ post.title | escape }}" class="w-full h-48 object-cover" src="{{ post.image | relative_url }}">
+      {% else %}
+        <div class="w-full h-48 bg-gray-200"></div>
+      {% endif %}
+      
+      <div class="p-6">
+        <h3 class="font-bold text-xl mb-2">{{ post.title | escape }}</h3>
+        
+        {% if post.date %}
+          <p class="text-gray-600 text-sm mb-2">{{ post.date | date: "%B %d, %Y" }}</p>
+        {% endif %}
+        
+        {% if post.excerpt %}
+          <p class="text-gray-600 mb-4">{{ post.excerpt | strip_html | truncate: 150 }}</p>
+        {% endif %}
+
+            {% assign filename = item.url | split: "/" | last %}
+{% assign filename_without_extension = filename | remove: ".md" | remove: ".html" %}
+
+{% assign is_exhibit = false %}
+{% for exhibit in exhibits %}
+  {% if exhibit.url == item.url %}
+    {% assign is_exhibit = true %}
+  {% endif %}
+{% endfor %}
+
+{% if is_exhibit %}
+  <a href="{{ base_url }}/exhibit/{{ filename_without_extension }}" title="View exhibit from {{ page.name }}" class="font-bold text-green-600 hover:text-green-700 transition">View Exhibit</a>
+{% else %}
+  <a href="{{ base_url }}/blog/{{ filename_without_extension }}" title="Read blog post from {{ page.name }}" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
+{% endif %}
+        
+        
+      </div>
     </div>
+  {% endif %}
+{% endfor %}
+
+      </div>
 
     <div id="load-more-container" class="text-center mt-12">
       <button id="load-more" class="font-bold text-white transition bg-green-600 hover:bg-green-700 px-8 py-4 rounded-lg text-lg">Show More Posts</button>
     </div>
-  </div>
-</section>
+    </div>
+  </section>
+  
+
 
 
   
