@@ -125,12 +125,12 @@
           <p class="text-gray-600 mb-4">{{ post.excerpt | strip_html | truncate: 150 }}</p>
         {% endif %}
 
-            {% assign filename = item.url | split: "/" | last %}
+            {% assign filename = post.url | split: "/" | last %}
 {% assign filename_without_extension = filename | remove: ".md" | remove: ".html" %}
 
 {% assign is_exhibit = false %}
 {% for exhibit in exhibits %}
-  {% if exhibit.url == item.url %}
+  {% if exhibit.url == post.url %}
     {% assign is_exhibit = true %}
   {% endif %}
 {% endfor %}
