@@ -91,7 +91,11 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
             {% assign author_slug = page.author %}
-    {% assign author_posts = site.posts | where: "author", author_slug | concat: site.exhibits | where: "author", author_slug %}
+    {% assign author_posts = site.posts | where: "author", author_slug | concat: site.exhibits | where: "author", author_slug | sort: "date" | reverse %}
+
+ 
+
+
         
         
        {% for post in author_posts limit:10 %}
@@ -120,9 +124,24 @@
         {% if post.excerpt %}
           <p class="text-gray-600 mb-4">{{ post.excerpt | strip_html | truncate: 150 }}</p>
         {% endif %}
-       {% assign filename = post.url | split: "/" | last %}
+
+            {% assign filename = item.url | split: "/" | last %}
 {% assign filename_without_extension = filename | remove: ".md" | remove: ".html" %}
-         <a href="{{ site.url }}{{ 'blog' | relative_url }}/{{ filename_without_extension }}"  title="Read blog post from {{page.name}}" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
+
+{% assign is_exhibit = false %}
+{% for exhibit in exhibits %}
+  {% if exhibit.url == item.url %}
+    {% assign is_exhibit = true %}
+  {% endif %}
+{% endfor %}
+
+{% if is_exhibit %}
+  <a href="{{ base_url }}/exhibit/{{ filename_without_extension }}" title="View exhibit from {{ page.name }}" class="font-bold text-green-600 hover:text-green-700 transition">View Exhibit</a>
+{% else %}
+  <a href="{{ base_url }}/blog/{{ filename_without_extension }}" title="Read blog post from {{ page.name }}" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
+{% endif %}
+        
+        
       </div>
     </div>
   {% endif %}
@@ -131,7 +150,7 @@
       </div>
 
       <div class="text-center mt-12">
-        <a href="{{ site.url }}{{ 'blog' | relative_url }}" class="font-bold text-white transition bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg">View All {{ page.name }}'s Work</a>
+        <a href="{{ base_url }}/authors/{{ author_slug }}/all" class="font-bold text-white transition bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg">View All {{ page.name }}'s Work</a>
       </div>
     </div>
   </section>
