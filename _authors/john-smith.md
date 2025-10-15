@@ -1,7 +1,6 @@
 ---
 layout: author
 name: Jane Doe
-author: john-smith
 role: Historical Preservation Specialist
 bio: >-
   Jane is an expert in heritage conservation and has contributed extensively to
