@@ -1,5 +1,4 @@
 {% assign base_url = site.baseurl | default: "" %}
-{% assign author_slug = page.author | slugify %}  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -90,74 +89,44 @@
       <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Explore {{ page.name }}’s contributions to our website.</p>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-{% assign today = 'now' | date: "%Y-%m-%d" %}
+       {% for post in page.posts limit:10 %}
+  {% assign expire_date = post.expire_date %}
+  {% assign today = 'now' | date: "%Y-%m-%d" %}
 
-{% for author in site.authors %}
-  {% if author.slug == author_slug %}
+  {% if expire_date %}
+    {% assign expire_date = expire_date | date: "%Y-%m-%d" %}
+  {% endif %}
 
-    {% assign posts = author.posts | default: [] %}
-    {% assign exhibits = author.exhibits | default: [] %}
-    {% assign combined = posts | concat: exhibits %}
-    {% assign sorted = combined | sort: "date" | reverse %}
-    {% assign limited = sorted | slice: 0, 10 %}
-
-    {% if limited.size > 0 %}
-      {% for item in limited %}
-        {% assign expire_date = item.expire_date | date: "%Y-%m-%d" %}
-        {% assign published = item.published | default: true %}
-
-        {% if expire_date == "" or expire_date == nil or expire_date >= today and published != false %}
-          <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden post-card">
-            {% if item.image %}
-              <img alt="{{ item.title | escape }}" class="w-full h-48 object-cover" src="{{ item.image | relative_url }}">
-            {% else %}
-              <div class="w-full h-48 bg-gray-200"></div>
-            {% endif %}
-
-            <div class="p-6">
-              <h3 class="font-bold text-xl mb-2">{{ item.title | escape }}</h3>
-
-              {% if item.date %}
-                <p class="text-gray-600 text-sm mb-2">{{ item.date | date: "%B %d, %Y" }}</p>
-              {% endif %}
-
-              {% if item.excerpt %}
-                <p class="text-gray-600 mb-4">{{ item.excerpt | default: item.content | strip_html | truncate: 150 }}</p>
-              {% endif %}
-
-              {% assign filename = item.url | split: "/" | last %}
-              {% assign filename_without_extension = filename | remove: ".md" | remove: ".html" %}
-
-              {% assign is_exhibit = false %}
-              {% for exhibit in exhibits %}
-                {% if exhibit.url == item.url %}
-                  {% assign is_exhibit = true %}
-                {% endif %}
-              {% endfor %}
-
-              {% if is_exhibit %}
-                <a href="{{ base_url }}/exhibit/{{ filename_without_extension }}" title="View exhibit from {{ page.name }}" class="font-bold text-green-600 hover:text-green-700 transition">View Exhibit</a>
-              {% else %}
-                <a href="{{ base_url }}/blog/{{ filename_without_extension }}" title="Read blog post from {{ page.name }}" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
-              {% endif %}
-            </div>
-          </div>
+  {% if expire_date == nil or expire_date == "" or expire_date >= today and published != false %}
+    <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden post-card">
+      {% if post.image %}
+        <img alt="{{ post.title | escape }}" class="w-full h-48 object-cover" src="{{ post.image | relative_url }}">
+      {% else %}
+        <div class="w-full h-48 bg-gray-200"></div>
+      {% endif %}
+      
+      <div class="p-6">
+        <h3 class="font-bold text-xl mb-2">{{ post.title | escape }}</h3>
+        
+        {% if post.date %}
+          <p class="text-gray-600 text-sm mb-2">{{ post.date | date: "%B %d, %Y" }}</p>
         {% endif %}
-      {% endfor %}
-    {% else %}
-      <div class="col-span-1 md:col-span-2 lg:col-span-3 text-center py-8 bg-gray-200 rounded-lg">
-        <p class="text-xl text-gray-500">No contributions available from {{ page.name }} at this time.</p>
+        
+        {% if post.excerpt %}
+          <p class="text-gray-600 mb-4">{{ post.excerpt | strip_html | truncate: 150 }}</p>
+        {% endif %}
+       {% assign filename = post.url | split: "/" | last %}
+{% assign filename_without_extension = filename | remove: ".md" | remove: ".html" %}
+         <a href="{{ site.url }}{{ 'blog' | relative_url }}/{{ filename_without_extension }}"  title="Read blog post from {{page.name}}" class="font-bold text-green-600 hover:text-green-700 transition">Read More</a>
       </div>
-    {% endif %}
-
+    </div>
   {% endif %}
 {% endfor %}
-
 
       </div>
 
       <div class="text-center mt-12">
-        <a href="{{ base_url }}/authors/{{ author_slug }}/all" class="font-bold text-white transition bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg">View All {{ page.name }}'s Work</a>
+        <a href="{{ site.url }}{{ 'blog' | relative_url }}" class="font-bold text-white transition bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg">View All {{ page.name }}'s Work</a>
       </div>
     </div>
   </section>
