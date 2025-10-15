@@ -91,7 +91,7 @@
       <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Contributions by {{ page.name }}</h2>
       <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Explore {{ page.name }}’s contributions to our website.</p>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="posts-container">
 
             {% assign author_slug = page.author %}
     {% assign author_posts = site.posts | where: "author", author_slug | concat: site.exhibits | where: "author", author_slug | sort: "date" | reverse %}
@@ -178,42 +178,49 @@
     {% endfor %}
   ];
 
-  let postIndex = 0; // Start index to load posts from
-  const postsPerPage = 6; // Number of posts to load initially or when the "Show More" button is clicked
-  const loadMoreButton = document.getElementById('load-more');
-  const postsContainer = document.getElementById('posts-container');
+  
+let postIndex = 0; // Will be updated based on existing DOM elements
+const postsPerPage = 6;
+const loadMoreButton = document.getElementById('load-more');
+const postsContainer = document.getElementById('posts-container');
 
-  // Function to display posts
-  function loadPosts() {
-    const postsToLoad = allPosts.slice(postIndex, postIndex + postsPerPage);
-    postsToLoad.forEach(post => {
-      const postElement = document.createElement('div');
-      postElement.classList.add('transition', 'transform', 'hover:scale-105', 'bg-white', 'shadow-xl', 'rounded-xl', 'overflow-hidden', 'post-card', 'hover:bg-gray-50');
+// Initialize postIndex to skip already rendered posts
+postIndex = postsContainer.querySelectorAll('.post-card').length;
 
-      postElement.innerHTML = `
-        ${post.image ? `<img alt="${post.title}" class="w-full h-56 object-cover" src="${post.image}">` : `<div class="w-full h-56 bg-gray-200"></div>`}
-        <div class="p-6">
-          <h3 class="font-semibold text-2xl text-gray-800 mb-4">${post.title}</h3>
-          <p class="text-gray-500 text-sm mb-2">${post.date}</p>
-          <p class="text-gray-700 mb-4">${post.excerpt}</p>
-          <a href="{{base_url}}${post.url}" class="font-bold text-green-600 hover:text-green-700 transition duration-300">Read More</a>
-        </div>
-      `;
-      postsContainer.appendChild(postElement);
-    });
-    postIndex += postsPerPage; // Move the index forward
+// Function to display posts
+function loadPosts() {
+  const postsToLoad = allPosts.slice(postIndex, postIndex + postsPerPage);
+  
+  postsToLoad.forEach(post => {
+    const postElement = document.createElement('div');
+    postElement.classList.add(
+      'transition', 'transform', 'hover:scale-105',
+      'bg-white', 'shadow-xl', 'rounded-xl',
+      'overflow-hidden', 'post-card', 'hover:bg-gray-50'
+    );
 
-    // Hide "Show More" button if all posts have been loaded
-    if (postIndex >= allPosts.length) {
-      loadMoreButton.style.display = 'none';
-    }
+    postElement.innerHTML = `
+      ${post.image ? `<img alt="${post.title}" class="w-full h-56 object-cover" src="${post.image}">` : `<div class="w-full h-56 bg-gray-200"></div>`}
+      <div class="p-6">
+        <h3 class="font-semibold text-2xl text-gray-800 mb-4">${post.title}</h3>
+        <p class="text-gray-500 text-sm mb-2">${post.date}</p>
+        <p class="text-gray-700 mb-4">${post.excerpt}</p>
+        <a href="/cemetery_demo-${post.url}" class="font-bold text-green-600 hover:text-green-700 transition duration-300">Read More</a>
+      </div>
+    `;
+    
+    postsContainer.appendChild(postElement);
+  });
+
+  postIndex += postsPerPage;
+
+  if (postIndex >= allPosts.length) {
+    loadMoreButton.style.display = 'none';
   }
+}
 
-  // Load the initial set of posts when the page loads
-  loadPosts();
-
-  // Add event listener for the "Show More" button
-  loadMoreButton.addEventListener('click', loadPosts);
+// Load additional posts when "Show More" is clicked
+loadMoreButton.addEventListener('click', loadPosts);
 </script>
 
 
