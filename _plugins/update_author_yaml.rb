@@ -113,9 +113,14 @@ module Jekyll
     end
 
     def create_author_file(site, author_path, author_name, post_info = nil, exhibit_info = nil)
+
+      posts = post_info ? [post_info] : []
+      exhibits = exhibit_info ? [exhibit_info] : []
+      combined_posts_exhibits = posts + exhibits
+
       data = {
         'name'     => author_name,
-        'posts'    => post_info ? [post_info] : [],
+        'posts'    => combined_posts_exhibits,
         'exhibits' => exhibit_info ? [exhibit_info] : []
       }
 
