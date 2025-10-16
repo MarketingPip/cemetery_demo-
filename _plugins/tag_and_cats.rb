@@ -34,8 +34,7 @@ module Jekyll
     def paginate_group(site, docs, type, key)
       is_category = key == 'categories'
       label = is_category ? 'category' : 'tag'
-      # template = site.config["#{type}_index_template"] || "_layouts/#{type}_index.html"
-      template = "_layouts/tag.html"
+      template = site.config["#{type}_index_template"] || "_layouts/#{type}_index.html"
       per_page = site.config['paginate'] || 10
 
       unless File.exist?(File.join(site.source, template))
@@ -72,11 +71,9 @@ module Jekyll
               'previous_page' => page_number > 1 ? page_number - 1 : nil,
               'next_page' => page_number < pages ? page_number + 1 : nil
             }
-            
-            page.data['layout'] = "tag"
+            page.data['layout'] = File.basename(template, '.*')
             page.data['title'] = "#{type.capitalize} - #{label.capitalize}: #{group_key.capitalize}"
             page.data[label] = group_key
-            Jekyll.logger.info "Pagination", "Wrote page: /#{dir}/index.html"
 
             site.pages << page
           end
