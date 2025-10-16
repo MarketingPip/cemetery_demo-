@@ -72,9 +72,11 @@ module Jekyll
               'previous_page' => page_number > 1 ? page_number - 1 : nil,
               'next_page' => page_number < pages ? page_number + 1 : nil
             }
-            page.data['layout'] = key
+            
+            page.data['layout'] = "tag"
             page.data['title'] = "#{type.capitalize} - #{label.capitalize}: #{group_key.capitalize}"
             page.data[label] = group_key
+            Jekyll.logger.info "Pagination", "Wrote page: /#{dir}/index.html"
 
             site.pages << page
           end
