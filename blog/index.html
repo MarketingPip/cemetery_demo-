@@ -71,18 +71,40 @@ title: Blog
 
   <!-- Exhibit Grid -->
   <div id="exhibit-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-    {% for exhibit in paginator.posts %}
-      <div>
-        <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden exhibit-card">
-          <img alt="{{ exhibit.title }}" class="w-full h-48 object-cover" src="{{ exhibit.image_url | default: 'https://placeholder.pagebee.io/api/random/400/300' }}">
-          <div class="p-6">
-            <h3 class="font-bold text-xl mb-2">{{ exhibit.title }}</h3>
-            <p class="text-gray-600 mb-4">{{ exhibit.excerpt }}</p>
-            <a href="{{ exhibit.url  | prepend: site.baseurl }}" class="font-bold text-green-700 hover:text-green-900 transition">View Article</a>
-          </div>
+{% for exhibit in paginator.posts %}
+  <div>
+    <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden exhibit-card">
+
+      {% if exhibit.image_url %}
+        <!-- ✅ Actual Image -->
+        <img 
+          alt="{{ exhibit.title }}" 
+          class="w-full h-48 object-cover" 
+          src="{{ exhibit.image_url }}">
+      {% else %}
+        <!-- ❌ Placeholder when no image -->
+        <div class="h-48 w-full bg-gray-100 flex flex-col items-center justify-center text-gray-400 space-y-2">
+          <!-- Icon -->
+          <svg class="w-12 h-12" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 15l5-5c.5-.5 1.5-.5 2 0l5 5" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M14 10l4 4" />
+          </svg>
+          <span class="text-sm italic text-gray-500">No image available</span>
         </div>
+      {% endif %}
+
+      <!-- Exhibit/Post Content -->
+      <div class="p-6">
+        <h3 class="font-bold text-xl mb-2">{{ exhibit.title }}</h3>
+        <p class="text-gray-600 mb-4">{{ exhibit.excerpt }}</p>
+        <a href="{{ exhibit.url | prepend: site.baseurl }}" class="font-bold text-green-700 hover:text-green-900 transition">
+          View Article
+        </a>
       </div>
-    {% endfor %}
+    </div>
+  </div>
+{% endfor %}
   </div>
 
   <!-- Pagination Controls -->
