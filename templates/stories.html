@@ -320,26 +320,25 @@ title: Stories
     <script type="module">
 
 
-        function formatPersonData(raw) {
+function formatPersonData(raw, index = 0) {
   const formatDate = (birth, death) => {
     const clean = (d) => (d && d !== "0000-00-00" ? d.split("-")[0] : "?");
     return `(${clean(birth)}–${clean(death)})`;
   };
 
-  const id = raw?.id ?? Math.floor(Math.random() * 1000000); // fallback random ID
-
   return {
-    id,
+    id: index,
     name: raw?.name ? raw.name.toUpperCase() : "UNKNOWN",
     dates: formatDate(raw?.birth_date, raw?.death_date),
     lat: parseFloat(raw?.gps?.latitude) || 0,
     lng: parseFloat(raw?.gps?.longitude) || 0,
-    image: raw?.image_url || `https://picsum.photos/300/200?random=${id}`,
+    image: raw?.image_url || `https://picsum.photos/300/200?random=${index}`,
     description: raw?.part_bio?.trim() ||
                  extractShortBio(raw?.bio) ||
                  "No biography available."
   };
 }
+
 
 
 function extractShortBio(bio) {
@@ -395,10 +394,9 @@ async function loadFormattedPeople(count = 6) {
     const people = await fetchRandomPeople(count);
 
     const formatted = people
-      .map(formatPersonData)
+      .map((person, index) => formatPersonData(person, index))
       .filter(person => isValidCoordinate(person.lat, person.lng));
 
-    console.log(formatted);
     return formatted;
   } catch (error) {
     console.error("Error loading people:", error);
@@ -409,7 +407,7 @@ async function loadFormattedPeople(count = 6) {
 
 
 
-        const graveData = await loadFormattedPeople();
+        let graveData;
 
         
         // Sample data for demonstration
@@ -531,7 +529,7 @@ function initApp() {
 
         function initDesktopView() {
             // Initialize desktop map
-            map = L.map.setView([43.29868, -81.55274], 13);
+            map = L.map('map').setView(([43.29868, -81.55274], 13);
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
             
             // Add markers to desktop map
@@ -557,7 +555,7 @@ function initApp() {
 
         function initMobileView() {
             // Initialize mobile map
-            mobileMap = L.map('mapMobile').setView([51.505, -0.09], 13);
+            mobileMap = L.map('mapMobile').setView(([43.29868, -81.55274], 13);
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(mobileMap);
             
             // Add markers to mobile map
@@ -728,7 +726,8 @@ function initApp() {
 
         // Initialize the app when the page loads
         // Wait for DOM ready
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', async function () {
+    graveData = await loadFormattedPeople();
     initApp();
 });
     </script>
