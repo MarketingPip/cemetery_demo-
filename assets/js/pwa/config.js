@@ -111,7 +111,7 @@ const PWA_CONFIG = {
             // Force the response to come from the network
             networkonly: {
                 // Enable/disable network only routes caching
-                active: false,
+                active: true,
                 // Matching routes with a Regular Expression
                 // regex: /\/(?:login|logout)\//,
             },
@@ -152,7 +152,7 @@ const PWA_CONFIG = {
     // Precache config
     precache: {
         // Enable/disable precaching
-        active: true,
+        active: false,
         // Routes to
         routes: [
        //     '/page1.html',
