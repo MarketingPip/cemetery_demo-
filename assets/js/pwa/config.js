@@ -159,7 +159,7 @@ const PWA_CONFIG = {
         //    '/page2.html',
             // '/page3.html', (not precached)
             `${base_url}/`,
-            `/offline`,
+            `./offline`,
           //  './offline/index.html',
             'https://marketingpip.github.io/cemetery_demo-/offline/index.html',
              `${base_url}/offline/`,
