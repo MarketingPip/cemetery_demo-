@@ -86,6 +86,7 @@ title: Blog
   </div>
 
   <!-- Pagination Controls -->
+ {% if paginator.total_pages > 1 %}     
 <div class="flex justify-center items-center mt-8 space-x-2" id="pagination">
   
   <!-- Previous Button -->
@@ -122,6 +123,7 @@ title: Blog
 
 
 </div>
+ {% endif %}
 </section>
 
 
