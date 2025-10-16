@@ -123,9 +123,8 @@ include:
 
 # Page Tags
 
-tag_page_layout: tag_page
-tag_page_dir: blog/tag
-
+exhibits_index_template: _layouts/exhibits_index.html
+blog_index_template: _layouts/blog_index.html
 
 
 # Footer
