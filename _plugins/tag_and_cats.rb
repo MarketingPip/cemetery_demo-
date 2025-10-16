@@ -34,7 +34,8 @@ module Jekyll
     def paginate_group(site, docs, type, key)
       is_category = key == 'categories'
       label = is_category ? 'category' : 'tag'
-      template = site.config["#{type}_index_template"] || "_layouts/#{type}_index.html"
+      # template = site.config["#{type}_index_template"] || "_layouts/#{type}_index.html"
+      template = "_layouts/tag.html"
       per_page = site.config['paginate'] || 10
 
       unless File.exist?(File.join(site.source, template))
