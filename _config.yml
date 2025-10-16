@@ -142,6 +142,8 @@ resources:
     url: "blog"   
   - name: "Cemetery Fees"
     url: "cemetery-fees"   
+  - name: "Statistics"
+    url: "statistics"       
 
 
 policys:
