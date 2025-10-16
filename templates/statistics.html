@@ -1,5 +1,6 @@
 ---
 permalink: /statistics/
+title: Cemetery Statistics
 ---
 {% assign base_url = site.baseurl | default: "" %}
 {% assign stats = site.data.cemetery_stats %}
@@ -9,7 +10,7 @@ permalink: /statistics/
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <title>Cemetery Statistics | {{site.title}}</title>
+  <title>{{page.title}} | {{site.title}}</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   <link rel="canonical" href="{{site.url}}{{ base_url }}{{ page.permalink }}" />
