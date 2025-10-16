@@ -1,11 +1,8 @@
 <div class="flex flex-wrap mt-2 gap-2">
-  <a href="#" class="bg-blue-100 text-blue-800 dark:bg-blue-200 dark:text-blue-900 hover:bg-blue-200 dark:hover:bg-blue-300 px-3 py-1 rounded-full text-sm font-medium transition">
-    Technology
-  </a>
-  <a href="#" class="bg-blue-100 text-blue-800 dark:bg-blue-200 dark:text-blue-900 hover:bg-blue-200 dark:hover:bg-blue-300 px-3 py-1 rounded-full text-sm font-medium transition">
-    Design
-  </a>
-  <a href="#" class="bg-blue-100 text-blue-800 dark:bg-blue-200 dark:text-blue-900 hover:bg-blue-200 dark:hover:bg-blue-300 px-3 py-1 rounded-full text-sm font-medium transition">
-    Programming
-  </a>
+ {% for category in page.categories %}
+    <a href="{{ site.baseurl }}/categories/{{ category | slugify }}/" 
+       class="bg-blue-100 text-blue-800 dark:bg-blue-200 dark:text-blue-900 hover:bg-blue-200 dark:hover:bg-blue-300 px-3 py-1 rounded-full text-sm font-medium transition">
+      {{ category }}
+    </a>
+  {% endfor %}
 </div>
