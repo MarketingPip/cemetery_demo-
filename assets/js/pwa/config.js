@@ -111,7 +111,7 @@ const PWA_CONFIG = {
             // Force the response to come from the network
             networkonly: {
                 // Enable/disable network only routes caching
-                active: true,
+                active: false,
                 // Matching routes with a Regular Expression
                 // regex: /\/(?:login|logout)\//,
             },
@@ -152,13 +152,14 @@ const PWA_CONFIG = {
     // Precache config
     precache: {
         // Enable/disable precaching
-        active: false,
+        active: true,
         // Routes to
         routes: [
        //     '/page1.html',
         //    '/page2.html',
             // '/page3.html', (not precached)
             `${base_url}/`,
+            `/offline`,
           //  './offline/index.html',
             'https://marketingpip.github.io/cemetery_demo-/offline/index.html',
              `${base_url}/offline/`,
