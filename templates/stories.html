@@ -317,8 +317,103 @@ title: Stories
         </div>
     </div>
 
-    <script>
+    <script type="module">
+
+
+        function formatPersonData(raw) {
+  const formatDate = (birth, death) => {
+    const clean = (d) => (d && d !== "0000-00-00" ? d.split("-")[0] : "?");
+    return `(${clean(birth)}–${clean(death)})`;
+  };
+
+  const id = raw?.id ?? Math.floor(Math.random() * 1000000); // fallback random ID
+
+  return {
+    id,
+    name: raw?.name ? raw.name.toUpperCase() : "UNKNOWN",
+    dates: formatDate(raw?.birth_date, raw?.death_date),
+    lat: parseFloat(raw?.gps?.latitude) || 0,
+    lng: parseFloat(raw?.gps?.longitude) || 0,
+    image: raw?.image_url || `https://picsum.photos/300/200?random=${id}`,
+    description: raw?.part_bio?.trim() ||
+                 extractShortBio(raw?.bio) ||
+                 "No biography available."
+  };
+}
+
+
+function extractShortBio(bio) {
+  if (!bio || typeof bio !== "string") return "";
+
+  const cleanBio = bio
+    .replace(/<[^>]*>/g, ' ')  // strip HTML
+    .replace(/\s+/g, ' ')      // normalize spaces
+    .trim();
+
+  const end = cleanBio.indexOf('.') + 1;
+  return end > 20 ? cleanBio.slice(0, end) : cleanBio.slice(0, 100) + '...';
+}
+
+
+
+async function fetchRandomPeople(count = 6, maxId = 1200) {
+  // Create an array of unique random IDs
+  const uniqueRandomIds = Array.from(new Set(
+    Array.from({ length: count * 3 }, () => Math.floor(Math.random() * maxId) + 1)
+  )).slice(0, count);
+
+
+  const fetchPromises = uniqueRandomIds.map(id =>
+    fetch(`https://marketingpip.github.io/cemetery_demo-/assets/people/${id}.json`)
+      .then(res => res.ok ? res.json() : null)
+      .catch(err => {
+        console.error(`Error fetching ID ${id}:`, err);
+        return null;
+      })
+  );
+
+  const results = await Promise.all(fetchPromises);
+
+  return results.filter(Boolean);
+}
+
+function isValidCoordinate(lat, lng) {
+  // Remove objects with missing, 0, or invalid (NaN) coordinates
+  return (
+    typeof lat === 'number' &&
+    typeof lng === 'number' &&
+    !isNaN(lat) &&
+    !isNaN(lng) &&
+    lat !== 0 &&
+    lng !== 0
+  );
+}
+
+
+async function loadFormattedPeople(count = 6) {
+  try {
+    const people = await fetchRandomPeople(count);
+
+    const formatted = people
+      .map(formatPersonData)
+      .filter(person => isValidCoordinate(person.lat, person.lng));
+
+    console.log(formatted);
+    return formatted;
+  } catch (error) {
+    console.error("Error loading people:", error);
+    return [];
+  }
+}
+
+
+
+
+        const graveData = await loadFormattedPeople();
+
+        
         // Sample data for demonstration
+        /*
         const graveData = [
             {
                 id: 1,
@@ -374,7 +469,7 @@ title: Stories
                 image: "https://picsum.photos/300/200?random=6",
                 description: "An innovative engineer who designed several important bridges and infrastructure projects in the region."
             }
-        ];
+        ]; */
 
         let map, mobileMap;
         let markers = [];
