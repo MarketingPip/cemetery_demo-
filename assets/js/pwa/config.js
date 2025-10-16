@@ -125,7 +125,7 @@ const PWA_CONFIG = {
             },
             // Network first request strategy.
             networkfirst: {
-                active: false,
+                active: true,
                 regex: /.*/,
             },
             // Cache first request strategy.
@@ -152,7 +152,7 @@ const PWA_CONFIG = {
     // Precache config
     precache: {
         // Enable/disable precaching
-        active: false,
+        active: true,
         // Routes to
         routes: [
        //     '/page1.html',
