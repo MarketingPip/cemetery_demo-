@@ -111,7 +111,7 @@ const PWA_CONFIG = {
             // Force the response to come from the network
             networkonly: {
                 // Enable/disable network only routes caching
-                active: true,
+                active: false,
                 // Matching routes with a Regular Expression
                 // regex: /\/(?:login|logout)\//,
             },
