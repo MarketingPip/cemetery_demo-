@@ -49,14 +49,12 @@
         © {{ site.time | date: '%Y' }} <a href="{{ site.url }}" class="hover:underline">{{ site.title }}</a>. All Rights Reserved.
       </span>
       <div class="flex mt-4 sm:justify-center sm:mt-0">
-        {% for social in site.social %}
-          <a href="{{ social.url }}" class="hover:text-white text-gray-400 transition-colors duration-300 ms-5">
-            <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
-              <path fill-rule="evenodd" d="{{ social.icon }}"></path>
-            </svg>
-            <span class="sr-only">{{ social.name }}</span>
-          </a>
-        {% endfor %}
+{% for social in site.social %}
+  <a href="{{ social.url }}" class="hover:text-white text-gray-400 transition-colors duration-300 ms-5" aria-label="{{ social.name }}">
+    <i class="{{ social.icon }} w-4 h-4" aria-hidden="true"></i>
+    <span class="sr-only">{{ social.name }}</span>
+  </a>
+{% endfor %}
       </div>
     </div>
   </div>
