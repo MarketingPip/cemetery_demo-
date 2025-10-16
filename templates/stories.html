@@ -326,8 +326,10 @@ function formatPersonData(raw, index = 0) {
     return `(${clean(birth)}–${clean(death)})`;
   };
 
+   const id = raw?.id ?? Math.floor(Math.random() * 1000000); // fallback random ID
+    
   return {
-    id: index,
+    id,
     name: raw?.name ? raw.name.toUpperCase() : "UNKNOWN",
     dates: formatDate(raw?.birth_date, raw?.death_date),
     lat: parseFloat(raw?.gps?.latitude) || 0,
