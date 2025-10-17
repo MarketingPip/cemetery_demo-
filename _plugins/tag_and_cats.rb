@@ -13,12 +13,11 @@ module Jekyll
 
   class CategoryTagPaginationGenerator < Generator
     safe true
-    priority :high
 
     def generate(site)
       collections_to_paginate = {
         'exhibits' => site.collections['exhibits'],
-        'blog' => site.collections['posts'] || site.collections['blog']
+        'blog' => site.collections['posts']
       }.compact
 
       collections_to_paginate.each do |type, collection|
