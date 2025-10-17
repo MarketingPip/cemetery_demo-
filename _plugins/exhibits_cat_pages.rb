@@ -12,6 +12,7 @@ module Jekyll
 
       # Collect all unique tags
       all_tags = site.exhibits.docs.flat_map { |p| p.data['category'] || [] }.uniq
+      return if all_tags.empty?
       Jekyll.logger.info "Found tags: #{all_tags.join(', ')}"
 
       all_tags.each do |tag|
