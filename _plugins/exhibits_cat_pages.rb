@@ -11,11 +11,11 @@ module Jekyll
       Jekyll.logger.info "Starting tag page generation with pagination..."
 
       # Collect all unique tags
-      all_tags = site.exhibits.flat_map { |p| p.data['category'] || [] }.uniq
+      all_tags = site.exhibits.doc.flat_map { |p| p.data['category'] || [] }.uniq
       Jekyll.logger.info "Found tags: #{all_tags.join(', ')}"
 
       all_tags.each do |tag|
-        tagged_posts = site.exhibits.select { |p| (p.data['category'] || []).include?(tag) }
+        tagged_posts = site.exhibits.doc.select { |p| (p.data['category'] || []).include?(tag) }
         tagged_posts.sort_by! { |p| -p.date.to_f }
 
         total_pages = (tagged_posts.size.to_f / POSTS_PER_PAGE).ceil
