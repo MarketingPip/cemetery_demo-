@@ -43,7 +43,7 @@ module Jekyll
       begin
         page = Jekyll::PageWithoutAFile.new(site, site.source, dir, name)
         page.data = {
-          'layout' => 'tag_page',
+          'layout' => 'tag',
           'tag' => tag,
           'robots' => 'noindex',
           'paginator' => {
