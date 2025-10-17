@@ -160,9 +160,12 @@
 
       </div>
 
+      {% assign post_count = author_posts | size %}
+      {% if post_count > 3 %}
       <div class="text-center mt-12">
         <a href="{{ base_url }}/authors/{{ author_slug }}/all" class="font-bold text-white transition bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg">View All {{ page.name }}'s Work</a>
       </div>
+      {% endif %}
     </div>
   </section>
 
