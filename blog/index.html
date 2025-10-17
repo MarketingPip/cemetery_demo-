@@ -80,7 +80,7 @@ title: Blog
         <img 
           alt="{{ exhibit.title }}" 
           class="w-full h-48 object-cover" 
-          src="{{ exhibit.image }}">
+          src="{{base_url}}{{ exhibit.image }}">
       {% else %}
         <!-- ❌ Placeholder when no image -->
         <div class="h-48 w-full bg-gray-100 flex flex-col items-center justify-center text-gray-400 space-y-2">
