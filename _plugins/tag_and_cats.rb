@@ -76,6 +76,7 @@ module Jekyll
             page.data[label] = group_key
 
             site.pages << page
+            Jekyll.logger.info "Pagination:", "Wrote /#{dir}/index.html"
           end
         end
       end
