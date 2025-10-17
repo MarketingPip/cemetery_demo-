@@ -37,8 +37,7 @@ module Jekyll
         next if docs.empty?
 
         per_page = site.config['paginate'] || 10
-        # template_path = site.config["#{type}_index_template"] || TEMPLATE_DEFAULTS[type]
-        template_path = TEMPLATE_DEFAULTS[type]
+        template_path = site.config["#{type}_index_template"] || TEMPLATE_DEFAULTS[type]
         full_template_path = File.join(site.source, template_path)
 
         unless File.exist?(full_template_path)
@@ -63,7 +62,7 @@ module Jekyll
     def collect_terms(docs, key)
       all_terms = []
       docs.each do |doc|
-        values = Array(doc.data[key] || doc.data[key.singularize])
+        values = Array(doc.data[key] || doc.data[key.chomp('s')])
         all_terms.concat(values.map(&:to_s))
       end
       all_terms.uniq.compact.reject(&:empty?)
@@ -73,9 +72,11 @@ module Jekyll
     # Generates paginated pages for each term (category/tag)
     #
     def generate_grouped_pages(site, type, group_key, terms, docs, per_page, template_path)
+      singular = group_key.end_with?('s') ? group_key.chomp('s') : group_key
+
       terms.each do |term|
         term_docs = docs.select do |doc|
-          values = Array(doc.data[group_key] || doc.data[group_key.singularize])
+          values = Array(doc.data[group_key] || doc.data[singular])
           values.map(&:to_s).include?(term)
         end
 
@@ -94,7 +95,7 @@ module Jekyll
           page.data[type] = paged_docs
           page.data['layout'] = File.basename(template_path, '.*')
           page.data['title'] = "#{type.capitalize} #{group_key.capitalize}: #{term.capitalize}"
-          page.data[group_key.singularize] = term
+          page.data[singular] = term
           page.data['robots'] = 'noindex'
           page.data['paginator'] = {
             'page' => page_number,
