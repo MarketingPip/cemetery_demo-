@@ -123,7 +123,7 @@ include:
 
 # Page Tags
 
-exhibits_index_template: _layouts/tag.html
+exhibits_index_template: _layouts/exhibits_index.html
 blog_index_template: _layouts/tag.html
 
 
