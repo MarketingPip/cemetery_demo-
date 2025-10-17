@@ -1,67 +1,95 @@
-# Filename: _plugins/generate_tag_pages.rb
 module Jekyll
-  class GenerateTagPages < Generator
-    safe true
-    priority :low
+  class PaginationPage < Page
+    def initialize(site, base, dir, name, template_path)
+      @site = site
+      @base = base
+      @dir  = dir
+      @name = name
 
-    # Configure how many posts per page
-    POSTS_PER_PAGE = 10
-
-    def generate(site)
-      Jekyll.logger.info "Starting tag page generation with pagination..."
-
-      # Collect all unique tags
-      all_tags = site.posts.docs.flat_map { |p| p.data['tags'] || [] }.uniq
-      Jekyll.logger.info "Found tags: #{all_tags.join(', ')}"
-
-      all_tags.each do |tag|
-        tagged_posts = site.posts.docs.select { |p| (p.data['tags'] || []).include?(tag) }
-        tagged_posts.sort_by! { |p| -p.date.to_f }
-
-        total_pages = (tagged_posts.size.to_f / POSTS_PER_PAGE).ceil
-        Jekyll.logger.info "Generating #{total_pages} pages for tag '#{tag}'"
-
-        (1..total_pages).each do |page_num|
-          paginate(site, tag, tagged_posts, page_num, total_pages)
-        end
-      end
-
-      Jekyll.logger.info "Tag page generation complete."
+      process(name)
+      read_yaml(File.dirname(template_path), File.basename(template_path))
     end
+  end
+end
 
-    def paginate(site, tag, tagged_posts, page_num, total_pages)
-      # Slice posts for this page
-      start_index = (page_num - 1) * POSTS_PER_PAGE
-      end_index = start_index + POSTS_PER_PAGE - 1
-      page_posts = tagged_posts[start_index..end_index] || []
+# --- Hook to generate exhibits category + tag pagination only ---
+Jekyll::Hooks.register :site, :post_read do |site|
+  next unless site.collections['posts']
 
-      dir = page_num == 1 ? "blog/tag/#{tag}" : "blog/tag/#{tag}/page#{page_num}"
-      name = "index.html"
+  exhibits = site.collections['posts'].docs.sort_by { |doc| doc.date }.reverse
+  per_page = site.config['paginate'] || 10
+  template = '_layouts/tag.html'
 
-      Jekyll.logger.info "Creating #{dir}/#{name}"
+  unless File.exist?(File.join(site.source, template))
+    Jekyll.logger.warn "Exhibits Pagination:", "Template #{template} not found."
+    next
+  end
 
-      begin
-        page = Jekyll::PageWithoutAFile.new(site, site.source, dir, name)
-        page.data = {
-          'layout' => 'tag',
-          'tag' => tag,
-          'robots' => 'noindex',
-          'paginator' => {
-            'page' => page_num,
-            'per_page' => POSTS_PER_PAGE,
-            'total_pages' => total_pages,
-            'total_posts' => tagged_posts.size,
-            'previous_page' => (page_num > 1 ? page_num - 1 : nil),
-            'next_page' => (page_num < total_pages ? page_num + 1 : nil),
-            'posts' => page_posts
-          }
-        }
-        page.content = ''
-        site.pages << page
-      rescue StandardError => e
-        Jekyll.logger.error "Error creating paginated page for tag '#{tag}': #{e.message}"
-        raise
-      end
+  # --- 1️⃣ Category pagination ---
+  all_categories = exhibits.flat_map { |doc| doc.data['categories'] || [] }.uniq
+  all_categories.each do |category|
+    categorized = exhibits.select { |doc| (doc.data['categories'] || []).include?(category) }
+    next if categorized.empty?
+
+    total_pages = (categorized.size.to_f / per_page).ceil
+    (1..total_pages).each do |page_number|
+      offset = (page_number - 1) * per_page
+      page_exhibits = categorized.slice(offset, per_page)
+      dir = page_number == 1 ?
+              "blog/categories/#{Jekyll::Utils.slugify(category)}" :
+              "blog/categories/#{Jekyll::Utils.slugify(category)}/page#{page_number}"
+
+      page = Jekyll::PaginationPage.new(site, site.source, dir, 'index.html', template)
+      page.data['exhibits'] = page_exhibits
+      page.data['category'] = category
+      page.data['paginator'] = {
+        'page' => page_number,
+        'per_page' => per_page,
+        'total_pages' => total_pages,
+        'total_exhibits' => categorized.size,
+        'previous_page' => page_number > 1 ? page_number - 1 : nil,
+        'next_page' => page_number < total_pages ? page_number + 1 : nil,
+        'posts' => page_exhibits
+      }
+      page.data['layout'] = File.basename(template, '.*')
+      page.data['title'] = "Exhibits in category '#{category}'"
+
+      Jekyll::Hooks.trigger :pages, :post_init, page
+      site.pages << page
+    end
+  end
+
+  # --- 2️⃣ Tag pagination ---
+  all_tags = exhibits.flat_map { |doc| doc.data['tags'] || [] }.uniq
+  all_tags.each do |tag|
+    tagged = exhibits.select { |doc| (doc.data['tags'] || []).include?(tag) }
+    next if tagged.empty?
+
+    total_pages = (tagged.size.to_f / per_page).ceil
+    (1..total_pages).each do |page_number|
+      offset = (page_number - 1) * per_page
+      page_exhibits = tagged.slice(offset, per_page)
+      dir = page_number == 1 ?
+              "blog/tag/#{Jekyll::Utils.slugify(tag)}" :
+              "blog/tag/#{Jekyll::Utils.slugify(tag)}/page#{page_number}"
+
+      page = Jekyll::PaginationPage.new(site, site.source, dir, 'index.html', template)
+      page.data['exhibits'] = page_exhibits
+      page.data['tag'] = tag
+      page.data['paginator'] = {
+        'page' => page_number,
+        'per_page' => per_page,
+        'total_pages' => total_pages,
+        'total_exhibits' => tagged.size,
+        'previous_page' => page_number > 1 ? page_number - 1 : nil,
+        'next_page' => page_number < total_pages ? page_number + 1 : nil,
+        'posts' => page_exhibits
+      }
+      page.data['layout'] = File.basename(template, '.*')
+      page.data['title'] = "Exhibits tagged with '#{tag}'"
+
+      Jekyll::Hooks.trigger :pages, :post_init, page
+      site.pages << page
     end
   end
 end
