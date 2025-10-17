@@ -61,6 +61,7 @@ class ExhibitsCategoryPage < Jekyll::Page
     self.read_yaml(File.join(base, '_layouts'), "tag.html")
     self.data['layout'] = 'tag'
     self.data['title'] = "Exhibits in category '#{category}'"
+    self.data['tag'] = category
     self.data['pagination'] = {
       'enabled' => true,
       'collection' => 'exhibits',
