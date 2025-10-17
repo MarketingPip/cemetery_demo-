@@ -40,6 +40,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
               "exhibits/categories/#{Jekyll::Utils.slugify(category)}/page#{page_number}"
 
       page = Jekyll::PaginationPage.new(site, site.source, dir, 'index.html', template)
+      page.data['exhibits'] = page_exhibits
       page.data['category'] = category
       page.data['paginator'] = {
         'page' => page_number,
