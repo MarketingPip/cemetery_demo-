@@ -1,62 +1,66 @@
+# Filename: _plugins/generate_tag_pages.rb
 module Jekyll
-  class PaginationPage < Page
-    def initialize(site, base, dir, name, template_path)
-      @site = site
-      @base = base
-      @dir  = dir
-      @name = name
-
-      process(name)
-      read_yaml(File.dirname(template_path), File.basename(template_path))
-    end
-  end
-
-  class TagsPaginationGenerator < Generator
+  class GenerateTagPages < Generator
     safe true
-    priority :high
+    priority :low
+
+    # Configure how many posts per page
+    POSTS_PER_PAGE = 10
 
     def generate(site)
-      # Collect all unique tags from posts
+      Jekyll.logger.info "Starting tag page generation with pagination..."
+
+      # Collect all unique tags
       all_tags = site.posts.docs.flat_map { |p| p.data['tags'] || [] }.uniq
-      return if all_tags.empty?
-
-      per_page = site.config['paginate'] || 10
-      template =  '_layouts/tag.html'
-
-      unless File.exist?(File.join(site.source, template))
-        Jekyll.logger.warn "Tags Pagination: Template #{template} not found."
-        return
-      end
+      Jekyll.logger.info "Found tags: #{all_tags.join(', ')}"
 
       all_tags.each do |tag|
         tagged_posts = site.posts.docs.select { |p| (p.data['tags'] || []).include?(tag) }
         tagged_posts.sort_by! { |p| -p.date.to_f }
 
-        total_pages = (tagged_posts.size.to_f / per_page).ceil
+        total_pages = (tagged_posts.size.to_f / POSTS_PER_PAGE).ceil
+        Jekyll.logger.info "Generating #{total_pages} pages for tag '#{tag}'"
 
-        (1..total_pages).each do |page_number|
-          offset = (page_number - 1) * per_page
-          page_posts = tagged_posts.slice(offset, per_page)
-          dir = page_number == 1 ? "blog/tag/#{tag}" : "blog/tag/#{tag}/page#{page_number}"
-          name = 'index.html'
+        (1..total_pages).each do |page_num|
+          paginate(site, tag, tagged_posts, page_num, total_pages)
+        end
+      end
 
-          page = PaginationPage.new(site, site.source, dir, name, template)
+      Jekyll.logger.info "Tag page generation complete."
+    end
 
-          page.data['posts'] = page_posts
-          page.data['tag'] = tag
-          page.data['paginator'] = {
-            'page' => page_number,
-            'per_page' => per_page,
+    def paginate(site, tag, tagged_posts, page_num, total_pages)
+      # Slice posts for this page
+      start_index = (page_num - 1) * POSTS_PER_PAGE
+      end_index = start_index + POSTS_PER_PAGE - 1
+      page_posts = tagged_posts[start_index..end_index] || []
+
+      dir = page_num == 1 ? "blog/tag/#{tag}" : "blog/tag/#{tag}/page#{page_num}"
+      name = "index.html"
+
+      Jekyll.logger.info "Creating #{dir}/#{name}"
+
+      begin
+        page = Jekyll::PageWithoutAFile.new(site, site.source, dir, name)
+        page.data = {
+          'layout' => 'tag',
+          'tag' => tag,
+          'robots' => 'noindex',
+          'paginator' => {
+            'page' => page_num,
+            'per_page' => POSTS_PER_PAGE,
             'total_pages' => total_pages,
             'total_posts' => tagged_posts.size,
-            'previous_page' => page_number > 1 ? page_number - 1 : nil,
-            'next_page' => page_number < total_pages ? page_number + 1 : nil
+            'previous_page' => (page_num > 1 ? page_num - 1 : nil),
+            'next_page' => (page_num < total_pages ? page_num + 1 : nil),
+            'posts' => page_posts
           }
-          page.data['layout'] = File.basename(template, '.*')
-          page.data['title'] = "Posts tagged with '#{tag}'"
-
-          site.pages << page
-        end
+        }
+        page.content = ''
+        site.pages << page
+      rescue StandardError => e
+        Jekyll.logger.error "Error creating paginated page for tag '#{tag}': #{e.message}"
+        raise
       end
     end
   end
