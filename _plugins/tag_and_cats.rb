@@ -1,4 +1,7 @@
 module Jekyll
+  #
+  # Represents a generated paginated index page.
+  #
   class PaginationPage < Page
     def initialize(site, base, dir, name, template_path)
       @site = site
@@ -11,74 +14,109 @@ module Jekyll
     end
   end
 
-  class CategoryTagPaginationGenerator < Generator
+  #
+  # Generates paginated pages for exhibits and blog collections by category and tag.
+  #
+  class AdvancedPaginationGenerator < Generator
     safe true
+    priority :high
+
+    COLLECTIONS = %w[exhibits blog].freeze
+    TEMPLATE_DEFAULTS = {
+      'exhibits' => '_layouts/tag.html',
+      'blog' => '_layouts/tag.html'
+    }.freeze
 
     def generate(site)
-      collections_to_paginate = {
-        'exhibits' => site.collections['exhibits'],
-        'blog' => site.collections['posts']
-      }.compact
+      COLLECTIONS.each do |type|
+        collection = site.collections[type]
+        next unless collection
 
-      collections_to_paginate.each do |type, collection|
         docs = collection.docs.sort_by { |doc| doc.date || Time.at(0) }.reverse
+        next if docs.empty?
 
-        paginate_group(site, docs, type, 'categories')
-        paginate_group(site, docs, type, 'tag')
+        per_page = site.config['paginate'] || 10
+        template_path = TEMPLATE_DEFAULTS[type]
+        full_template_path = File.join(site.source, template_path)
+
+        unless File.exist?(full_template_path)
+          Jekyll.logger.warn "Pagination:", "Template not found for #{type}: #{template_path}"
+          next
+        end
+
+        # Generate for categories and tags
+        generate_for_group(site, type, docs, per_page, template_path, 'categories')
+        generate_for_group(site, type, docs, per_page, template_path, 'tags')
       end
     end
 
     private
 
-    def paginate_group(site, docs, type, key)
-      is_category = key == 'categories'
-      label = is_category ? 'category' : 'tag'
-      template = site.config["#{type}_index_template"] || "_layouts/#{type}_index.html"
-      per_page = site.config['paginate'] || 10
+    #
+    # Generate paginated pages for each category or tag group.
+    #
+    def generate_for_group(site, type, docs, per_page, template_path, group_key)
+      groups = build_groups(docs, group_key)
+      return if groups.empty?
 
-      unless File.exist?(File.join(site.source, template))
-        Jekyll.logger.warn "Pagination: Template #{template} not found."
-        return
-      end
+      groups.each do |label, group_docs|
+        total_pages = (group_docs.size.to_f / per_page).ceil
 
-      # Group docs by category or tag
-      grouped = docs.group_by do |doc|
-        items = doc.data[key] || []
-        items = [items] unless items.is_a?(Array)
-        items.map { |i| i.strip.downcase }
-      end
+        (1..total_pages).each do |page_number|
+          offset = (page_number - 1) * per_page
+          page_items = group_docs.slice(offset, per_page) || []
 
-      grouped.each do |group_keys, docs_in_group|
-        group_keys.each do |group_key|
-          pages = (docs_in_group.size.to_f / per_page).ceil
+          dir = base_path(type, group_key, label, page_number)
+          name = 'index.html'
+          page = PaginationPage.new(site, site.source, dir, name, template_path)
 
-          (1..pages).each do |page_number|
-            offset = (page_number - 1) * per_page
-            paged_docs = docs_in_group.slice(offset, per_page)
-            base_path = "#{type}/#{label}/#{group_key}"
-            dir = page_number == 1 ? base_path : "#{base_path}/page#{page_number}"
-            name = 'index.html'
+          # Data for Liquid
+          page.data[type] = page_items
+          page.data['layout'] = File.basename(template_path, '.*')
+          page.data['title'] = "#{label.capitalize} #{group_key.singularize.capitalize}"
+          page.data['paginator'] = {
+            'page' => page_number,
+            'per_page' => per_page,
+            'total_pages' => total_pages,
+            'total_items' => group_docs.size,
+            'previous_page' => (page_number > 1 ? page_number - 1 : nil),
+            'next_page' => (page_number < total_pages ? page_number + 1 : nil)
+          }
 
-            page = PaginationPage.new(site, site.source, dir, name, template)
-
-            page.data[type] = paged_docs
-            page.data['paginator'] = {
-              'page' => page_number,
-              'per_page' => per_page,
-              'total_pages' => pages,
-              'total_items' => docs_in_group.size,
-              'previous_page' => page_number > 1 ? page_number - 1 : nil,
-              'next_page' => page_number < pages ? page_number + 1 : nil
-            }
-            page.data['layout'] = File.basename(template, '.*')
-            page.data['title'] = "#{type.capitalize} - #{label.capitalize}: #{group_key.capitalize}"
-            page.data[label] = group_key
-
-            site.pages << page
-            Jekyll.logger.info "Pagination:", "Wrote /#{dir}/index.html"
-          end
+          site.pages << page
         end
       end
+    end
+
+    #
+    # Build hash of { label => [docs] } for categories or tags.
+    #
+    def build_groups(docs, key)
+      groups = {}
+      docs.each do |doc|
+        values = Array(doc.data[key] || doc.data[key.singularize])
+        values.each do |v|
+          groups[v] ||= []
+          groups[v] << doc
+        end
+      end
+      groups
+    end
+
+    #
+    # Build URL directory path for paginated pages.
+    #
+    def base_path(type, group_key, label, page_number)
+      path = "#{type}/#{group_key}/#{slugify(label)}"
+      path += "/page#{page_number}" if page_number > 1
+      path
+    end
+
+    #
+    # Convert category/tag to URL-friendly slug.
+    #
+    def slugify(label)
+      label.to_s.downcase.strip.gsub(' ', '-').gsub(/[^a-z0-9\-]/, '')
     end
   end
 end
