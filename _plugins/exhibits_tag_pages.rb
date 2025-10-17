@@ -66,7 +66,7 @@ class ExhibitsCategoryPage < Jekyll::Page
       'collection' => 'exhibits',
       'sort_field' => 'date',
       'sort_reverse' => true,
-      'category' => category
+      'tag' => category
     }
 
     self.process(@name)
