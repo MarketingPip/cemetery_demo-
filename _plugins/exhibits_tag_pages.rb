@@ -1,81 +1,93 @@
-# _plugins/exhibits_tag_and_category_pages.rb
+module Jekyll
+  class PaginationPage < Page
+    def initialize(site, base, dir, name, template_path)
+      @site = site
+      @base = base
+      @dir  = dir
+      @name = name
 
-# Hook after site reads all content
+      process(name)
+      read_yaml(File.dirname(template_path), File.basename(template_path))
+    end
+  end
+end
+
+# --- Hook to generate exhibits category + tag pagination only ---
 Jekyll::Hooks.register :site, :post_read do |site|
   next unless site.collections['exhibits']
 
-  exhibits = site.collections['exhibits'].docs
+  exhibits = site.collections['exhibits'].docs.sort_by { |doc| doc.date }.reverse
+  per_page = site.config['paginate'] || 10
+  template = '_layouts/tag.html'
 
-  # --- Generate tag pages ---
-  all_tags = exhibits.flat_map { |p| p.data['tags'] || [] }.uniq
-  all_tags.each do |tag|
-    site.pages << ExhibitsTagPage.new(site, site.source, '', tag)
+  unless File.exist?(File.join(site.source, template))
+    Jekyll.logger.warn "Exhibits Pagination:", "Template #{template} not found."
+    next
   end
 
-  # --- Generate category pages ---
-  all_categories = exhibits.flat_map { |p| p.data['categories'] || [] }.uniq
+  # --- 1️⃣ Category pagination ---
+  all_categories = exhibits.flat_map { |doc| doc.data['categories'] || [] }.uniq
   all_categories.each do |category|
-    site.pages << ExhibitsCategoryPage.new(site, site.source, '', category)
-  end
-end
+    categorized = exhibits.select { |doc| (doc.data['categories'] || []).include?(category) }
+    next if categorized.empty?
 
-# --- Tag Page ---
-class ExhibitsTagPage < Jekyll::Page
-  def initialize(site, base, dir, tag)
-    @site = site
-    @base = base
-    @dir  = dir
-    @name = 'index.html'
-    @url = "/exhibits/tag/#{Jekyll::Utils.slugify(tag)}/"
+    total_pages = (categorized.size.to_f / per_page).ceil
+    (1..total_pages).each do |page_number|
+      offset = (page_number - 1) * per_page
+      page_exhibits = categorized.slice(offset, per_page)
+      dir = page_number == 1 ?
+              "exhibits/categories/#{Jekyll::Utils.slugify(category)}" :
+              "exhibits/categories/#{Jekyll::Utils.slugify(category)}/page#{page_number}"
 
-    self.read_yaml(File.join(base, '_layouts'), "tag.html")
-    self.data['layout'] = 'tag'
-    self.data['title'] = "Exhibits tagged with '#{tag}'"
-    self.data['pagination'] = {
-      'enabled' => true,
-      'collection' => 'exhibits',
-      'sort_field' => 'date',
-      'sort_reverse' => true,
-      'tag' => tag
-    }
+      page = Jekyll::PaginationPage.new(site, site.source, dir, 'index.html', template)
+      page.data['exhibits'] = page_exhibits
+      page.data['category'] = category
+      page.data['paginator'] = {
+        'page' => page_number,
+        'per_page' => per_page,
+        'total_pages' => total_pages,
+        'total_exhibits' => categorized.size,
+        'previous_page' => page_number > 1 ? page_number - 1 : nil,
+        'next_page' => page_number < total_pages ? page_number + 1 : nil
+      }
+      page.data['layout'] = File.basename(template, '.*')
+      page.data['title'] = "Exhibits in category '#{category}'"
 
-    self.process(@name)
-
-    data.default_proc = proc do |_, key|
-      site.frontmatter_defaults.find(File.join(dir, name), type, key)
+      Jekyll::Hooks.trigger :pages, :post_init, page
+      site.pages << page
     end
-
-    Jekyll::Hooks.trigger :pages, :post_init, self
   end
-end
 
-# --- Category Page ---
-class ExhibitsCategoryPage < Jekyll::Page
-  def initialize(site, base, dir, category)
-    @site = site
-    @base = base
-    @dir  = dir
-    @name = 'index.html'
-    @url = "/exhibits/categories/#{Jekyll::Utils.slugify(category)}/"
+  # --- 2️⃣ Tag pagination ---
+  all_tags = exhibits.flat_map { |doc| doc.data['tags'] || [] }.uniq
+  all_tags.each do |tag|
+    tagged = exhibits.select { |doc| (doc.data['tags'] || []).include?(tag) }
+    next if tagged.empty?
 
-    self.read_yaml(File.join(base, '_layouts'), "tag.html")
-    self.data['layout'] = 'tag'
-    self.data['title'] = "Exhibits in category '#{category}'"
-    self.data['tag'] = category
-    self.data['pagination'] = {
-      'enabled' => true,
-      'collection' => 'exhibits',
-      'sort_field' => 'date',
-      'sort_reverse' => true,
-      'tag' => category
-    }
+    total_pages = (tagged.size.to_f / per_page).ceil
+    (1..total_pages).each do |page_number|
+      offset = (page_number - 1) * per_page
+      page_exhibits = tagged.slice(offset, per_page)
+      dir = page_number == 1 ?
+              "exhibits/tag/#{Jekyll::Utils.slugify(tag)}" :
+              "exhibits/tag/#{Jekyll::Utils.slugify(tag)}/page#{page_number}"
 
-    self.process(@name)
+      page = Jekyll::PaginationPage.new(site, site.source, dir, 'index.html', template)
+      page.data['exhibits'] = page_exhibits
+      page.data['tag'] = tag
+      page.data['paginator'] = {
+        'page' => page_number,
+        'per_page' => per_page,
+        'total_pages' => total_pages,
+        'total_exhibits' => tagged.size,
+        'previous_page' => page_number > 1 ? page_number - 1 : nil,
+        'next_page' => page_number < total_pages ? page_number + 1 : nil
+      }
+      page.data['layout'] = File.basename(template, '.*')
+      page.data['title'] = "Exhibits tagged with '#{tag}'"
 
-    data.default_proc = proc do |_, key|
-      site.frontmatter_defaults.find(File.join(dir, name), type, key)
+      Jekyll::Hooks.trigger :pages, :post_init, page
+      site.pages << page
     end
-
-    Jekyll::Hooks.trigger :pages, :post_init, self
   end
 end
