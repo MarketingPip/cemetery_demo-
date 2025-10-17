@@ -123,8 +123,8 @@ include:
 
 # Page Tags
 
-exhibits_index_template: _layouts/exhibits_index.html
-blog_index_template: _layouts/blog_index.html
+exhibits_index_template: _layouts/tag.html
+blog_index_template: _layouts/tag.html
 
 
 # Footer
