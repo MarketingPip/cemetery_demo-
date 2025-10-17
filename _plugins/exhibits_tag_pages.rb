@@ -53,6 +53,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
       }
       page.data['layout'] = File.basename(template, '.*')
       page.data['title'] = "Exhibits in category '#{category}'"
+      page.data['tag'] = category
 
       Jekyll::Hooks.trigger :pages, :post_init, page
       site.pages << page
