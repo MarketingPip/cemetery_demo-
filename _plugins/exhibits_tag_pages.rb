@@ -84,6 +84,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
         "exhibits/categories/#{Jekyll::Utils.slugify(category)}/page#{page_number}"
 
       page = Jekyll::PaginationPage.new(site, site.source, dir, 'index.html', template)
+      category_template = '_layouts/category.html'
       page.data['category'] = { 'name' => category, 'count' => category_counts[category] }
       page.data['posts'] = page_posts
       page.data['title'] = "Exhibits in category '#{category}'"
@@ -95,7 +96,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
         'previous_page' => page_number > 1 ? page_number - 1 : nil,
         'next_page' => page_number < total_pages ? page_number + 1 : nil
       }
-      page.data['layout'] = File.basename(template, '.*')
+      page.data['layout'] = File.basename(category_template, '.*')
 
       Jekyll::Hooks.trigger :pages, :post_init, page
       site.pages << page
