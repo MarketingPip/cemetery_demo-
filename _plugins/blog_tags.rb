@@ -14,7 +14,7 @@ end
 
 # --- Generate paginated category and tag index pages for the 'blog' collection ---
 Jekyll::Hooks.register :site, :post_read do |site|
-  collection = site.collections['blog']
+  collection = site.collections['posts']
   next unless collection
 
   posts = collection.docs.sort_by { |doc| doc.date }.reverse
