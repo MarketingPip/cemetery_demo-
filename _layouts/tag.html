@@ -9,8 +9,8 @@ layout: null
     <meta content="width=device-width, initial-scale=1" name="viewport">
 
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Explore the rich history and stories of Crediton Cemetery through curated virtual exhibits, showcasing the heritage and notable figures in Crediton, Ontario.">
-    <meta name="keywords" content="Crediton Cemetery, Virtual Exhibits, Historical Cemetery, Heritage, Ontario, Pioneers, War Veterans, Lulu Odell Gaiser, Historical Monuments, Art and Architecture">
+    <meta name="description" content="Explore the rich history and stories of Crediton Cemetery through curated virtual tags, showcasing the heritage and notable figures in Crediton, Ontario.">
+    <meta name="keywords" content="Crediton Cemetery, Virtual tags, Historical Cemetery, Heritage, Ontario, Pioneers, War Veterans, Lulu Odell Gaiser, Historical Monuments, Art and Architecture">
     <meta name="author" content="Crediton Cemetery Heritage Portal Team">
 
       {% if paginator and paginator.page == 1 %}
@@ -39,7 +39,7 @@ layout: null
       background-size: cover;
       height: 40vh;
     }
-    .exhibit-card:hover {
+    .tag-card:hover {
       transform: translateY(-5px);
       box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
     }
@@ -54,33 +54,33 @@ layout: null
 {% include navigation.html %}
   
   <!-- Hero Section -->
-  <section class="flex items-center justify-center hero-image text-center text-white" id="exhibits-hero">
+  <section class="flex items-center justify-center hero-image text-center text-white" id="tags-hero">
     <div class="px-4 container mx-auto">
-      <h1 class="font-bold text-4xl mb-4 md:text-6xl">Posts Tagged: "{{ page.tag }}</h1>
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl">Posts Tagged: "{{ page.tag.name }}</h1>
       <p class="mb-8 md:text-2xl text-xl">Explore our latest articles and stories from the {{ site.title }} blog. Dive into topics ranging from history, culture, personal stories, and more. Stay updated with our newest posts.</p>
     </div>
   </section>
 
    {% include breadcrumbs/single.html %}  
 
-  <!-- Exhibits Section -->
-<section class="bg-white py-12" id="exhibits">
+  <!-- tags Section -->
+<section class="bg-white py-12" id="tags">
 <div class="px-4 container mx-auto">
   <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Latest Posts</h2>
   <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Explore a variety of insightful articles covering heritage, history, genealogical research tips, and more. Whether you're delving into your family history or learning about the community's rich past, there's something for everyone here.</p>
 
-  <!-- Exhibit Grid -->
-  <div id="exhibit-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-{% for exhibit in page.exhibits %}
+  <!-- tag Grid -->
+  <div id="tag-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+{% for tag in page.tags %}
   <div>
-    <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden exhibit-card">
+    <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden tag-card">
 
-      {% if exhibit.image %}
+      {% if tag.image %}
         <!-- ✅ Actual Image -->
         <img 
-          alt="{{ exhibit.title }}" 
+          alt="{{ tag.title }}" 
           class="w-full h-48 object-cover" 
-          src="{{base_url}}{{ exhibit.image }}">
+          src="{{base_url}}{{ tag.image }}">
       {% else %}
         <!-- ❌ Placeholder when no image -->
         <div class="h-48 w-full bg-gray-100 flex flex-col items-center justify-center text-gray-400 space-y-2">
@@ -94,11 +94,11 @@ layout: null
         </div>
       {% endif %}
 
-      <!-- Exhibit/Post Content -->
+      <!-- tag/Post Content -->
       <div class="p-6">
-        <h3 class="font-bold text-xl mb-2">{{ exhibit.title }}</h3>
-        <p class="text-gray-600 mb-4">{{ exhibit.excerpt }}</p>
-        <a href="{{ exhibit.url | prepend: site.baseurl }}" class="font-bold text-green-700 hover:text-green-900 transition">
+        <h3 class="font-bold text-xl mb-2">{{ tag.title }}</h3>
+        <p class="text-gray-600 mb-4">{{ tag.excerpt }}</p>
+        <a href="{{ tag.url | prepend: site.baseurl }}" class="font-bold text-green-700 hover:text-green-900 transition">
           View Article
         </a>
       </div>
@@ -159,7 +159,7 @@ layout: null
       <p class="text-gray-600 mx-auto max-w-3xl mb-8">Want to publish on our blog? Contact us and submit your content!</p>
       <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 justify-center">
         <a href="{{ site.url }}{{ "contact-us" | relative_url }}" class="font-bold text-white transition bg-green-700 hover:bg-green-900 px-6 py-3 rounded-lg">Submit Content</a>
-        <a href="{{ site.url }}{{ "exhibits" | relative_url }}" class="font-bold text-white transition bg-gray-700 hover:bg-gray-800 px-6 py-3 rounded-lg">Explore Exhibits</a>
+        <a href="{{ site.url }}{{ "tags" | relative_url }}" class="font-bold text-white transition bg-gray-700 hover:bg-gray-800 px-6 py-3 rounded-lg">Explore tags</a>
       </div>
     </div>
   </section>
