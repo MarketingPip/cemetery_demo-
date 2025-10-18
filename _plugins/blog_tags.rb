@@ -86,6 +86,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
       page = Jekyll::PaginationPage.new(site, site.source, dir, 'index.html', template)
       page.data['category'] = { 'name' => category, 'count' => category_counts[category] }
       page.data['posts'] = page_posts
+      category_template = '_layouts/category.html'
       page.data['title'] = "Posts in category '#{category}'"
       page.data['paginator'] = {
         'page' => page_number,
@@ -95,7 +96,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
         'previous_page' => page_number > 1 ? page_number - 1 : nil,
         'next_page' => page_number < total_pages ? page_number + 1 : nil
       }
-      page.data['layout'] = File.basename(template, '.*')
+      page.data['layout'] = File.basename(category_template, '.*')
 
       Jekyll::Hooks.trigger :pages, :post_init, page
       site.pages << page
