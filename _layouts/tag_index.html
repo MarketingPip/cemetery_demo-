@@ -77,14 +77,14 @@ title: tags
 
         <!-- Tag Name + Count -->
         <div>
-          <h3 class="text-lg font-semibold text-gray-800 capitalize">{{ tag }}</h3>
-          <p class="text-sm text-gray-500">{{ tag.posts | size }} posts</p>
+          <h3 class="text-lg font-semibold text-gray-800 capitalize">{{ tag.name }}</h3>
+          <p class="text-sm text-gray-500">{{ tag.count }} posts</p>
         </div>
       </div>
 
       <!-- View Tag Button -->
       <div class="mt-6">
-        <a href="{{ tag | prepend: site.baseurl }}"
+        <a href="{{ base_url }}/blog/tags/{{ tag.name }}"
            class="inline-block px-4 py-2 text-sm font-medium text-white bg-green-600 rounded-md shadow hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2 transition">
           View tag
         </a>
