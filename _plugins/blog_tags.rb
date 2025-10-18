@@ -27,9 +27,22 @@ Jekyll::Hooks.register :site, :post_read do |site|
   end
 
   # ===========================================================
-  # 1️⃣ /blog/categories/ — paginated list of all categories
+  # 1️⃣ Collect all categories and tags with counts
   # ===========================================================
-  all_categories = posts.flat_map { |doc| doc.data['categories'] || [] }.uniq.sort
+  category_counts = Hash.new(0)
+  tag_counts = Hash.new(0)
+
+  posts.each do |doc|
+    (doc.data['categories'] || []).each { |c| category_counts[c] += 1 }
+    (doc.data['tags'] || []).each { |t| tag_counts[t] += 1 }
+  end
+
+  all_categories = category_counts.keys.sort
+  all_tags = tag_counts.keys.sort
+
+  # ===========================================================
+  # 2️⃣ /blog/categories/ — paginated list of all categories
+  # ===========================================================
   total_category_pages = (all_categories.size.to_f / per_page).ceil
 
   (1..total_category_pages).each do |page_number|
@@ -37,11 +50,10 @@ Jekyll::Hooks.register :site, :post_read do |site|
     page_categories = all_categories.slice(offset, per_page)
 
     dir = page_number == 1 ? "blog/categories" : "blog/categories/page#{page_number}"
-    name = 'index.html'
 
-    page = Jekyll::PaginationPage.new(site, site.source, dir, name, template)
+    page = Jekyll::PaginationPage.new(site, site.source, dir, 'index.html', template)
     cat_template = '_layouts/category_index.html'
-    page.data['categories'] = page_categories
+    page.data['categories'] = page_categories.map { |c| { 'name' => c, 'count' => category_counts[c] } }
     page.data['title'] = "All Blog Categories"
     page.data['paginator'] = {
       'page' => page_number,
@@ -58,7 +70,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
   end
 
   # ===========================================================
-  # 2️⃣ /blog/categories/<category>/ — paginated posts by category
+  # 3️⃣ /blog/categories/<category>/ — paginated posts by category
   # ===========================================================
   all_categories.each do |category|
     categorized_posts = posts.select { |doc| (doc.data['categories'] || []).include?(category) }
@@ -67,12 +79,12 @@ Jekyll::Hooks.register :site, :post_read do |site|
     (1..total_pages).each do |page_number|
       offset = (page_number - 1) * per_page
       page_posts = categorized_posts.slice(offset, per_page)
-      dir = page_number == 1 ? 
+      dir = page_number == 1 ?
         "blog/categories/#{Jekyll::Utils.slugify(category)}" :
         "blog/categories/#{Jekyll::Utils.slugify(category)}/page#{page_number}"
 
       page = Jekyll::PaginationPage.new(site, site.source, dir, 'index.html', template)
-      page.data['category'] = category
+      page.data['category'] = { 'name' => category, 'count' => category_counts[category] }
       page.data['posts'] = page_posts
       page.data['title'] = "Posts in category '#{category}'"
       page.data['paginator'] = {
@@ -91,9 +103,8 @@ Jekyll::Hooks.register :site, :post_read do |site|
   end
 
   # ===========================================================
-  # 3️⃣ /blog/tags/ — paginated list of all tags
+  # 4️⃣ /blog/tags/ — paginated list of all tags
   # ===========================================================
-  all_tags = posts.flat_map { |doc| doc.data['tags'] || [] }.uniq.sort
   total_tag_pages = (all_tags.size.to_f / per_page).ceil
 
   (1..total_tag_pages).each do |page_number|
@@ -104,7 +115,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
 
     page = Jekyll::PaginationPage.new(site, site.source, dir, 'index.html', template)
     tag_template = '_layouts/tag_index.html'
-    page.data['tags'] = page_tags
+    page.data['tags'] = page_tags.map { |t| { 'name' => t, 'count' => tag_counts[t] } }
     page.data['title'] = "All Blog Tags"
     page.data['paginator'] = {
       'page' => page_number,
@@ -121,7 +132,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
   end
 
   # ===========================================================
-  # 4️⃣ /blog/tags/<tag>/ — paginated posts by tag
+  # 5️⃣ /blog/tags/<tag>/ — paginated posts by tag
   # ===========================================================
   all_tags.each do |tag|
     tagged_posts = posts.select { |doc| (doc.data['tags'] || []).include?(tag) }
@@ -130,12 +141,12 @@ Jekyll::Hooks.register :site, :post_read do |site|
     (1..total_pages).each do |page_number|
       offset = (page_number - 1) * per_page
       page_posts = tagged_posts.slice(offset, per_page)
-      dir = page_number == 1 ? 
+      dir = page_number == 1 ?
         "blog/tags/#{Jekyll::Utils.slugify(tag)}" :
         "blog/tags/#{Jekyll::Utils.slugify(tag)}/page#{page_number}"
 
       page = Jekyll::PaginationPage.new(site, site.source, dir, 'index.html', template)
-      page.data['tag'] = tag
+      page.data['tag'] = { 'name' => tag, 'count' => tag_counts[tag] }
       page.data['posts'] = page_posts
       page.data['title'] = "Posts tagged with '#{tag}'"
       page.data['paginator'] = {
