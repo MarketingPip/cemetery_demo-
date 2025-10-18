@@ -1,0 +1,175 @@
+---
+layout: null
+permalink: /categorys/
+title: categorys
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta charset and viewport settings for responsive design -->
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <!-- SEO Meta categorys -->
+    <meta name="description" content="Explore the rich history and stories of Crediton Cemetery through curated virtual categorys, showcasing the hericategorye and notable figures in Crediton, Ontario.">
+    <meta name="keywords" content="Crediton Cemetery, Virtual categorys, Historical Cemetery, Hericategorye, Ontario, Pioneers, War Veterans, Lulu Odell Gaiser, Historical Monuments, Art and Architecture">
+    <meta name="author" content="Crediton Cemetery Hericategorye Portal Team">
+      {% if paginator and paginator.page == 1 %}
+    <meta name="robots" content="index, follow" />
+  {% else %}
+    <meta name="robots" content="noindex, follow" />
+  {% endif %}
+
+    <!-- Title of the page for SEO -->
+    <title>{{page.title}} | {{site.title}}</title>
+     <link rel="canonical" href="{{site.url}}{{ base_url }}{{ page.permalink }}" />
+    <!-- TailwindCSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+  <style>
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40vh;
+    }
+    .category-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    }
+  </style>
+</head>
+<body class="bg-gray-50 font-sans">
+  <!-- Navigation -->
+{% include navigation.html %}
+  
+  <!-- Hero Section -->
+  <section class="flex items-center justify-center hero-image text-center text-white" id="categorys-hero">
+    <div class="px-4 container mx-auto">
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl">Virtual categorys</h1>
+      <p class="mb-8 md:text-2xl text-xl">Explore the rich history and stories of Crediton Cemetery through our curated virtual categorys. Dive into the lives, art, and legacies preserved within our grounds.</p>
+    </div>
+  </section>
+
+   {% include breadcrumbs/single.html %}  
+
+  <!-- categorys Section -->
+<section class="bg-white py-12" id="categorys">
+<div class="px-4 container mx-auto">
+  <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Our categorys</h2>
+  <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Discover a variety of categorys that bring Crediton’s past to life. Each showcase offers a unique perspective on the community’s hericategorye, from its founding families to its artistic monuments.</p>
+
+  <!-- category Grid -->
+  <div id="category-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+{% for category in page.categories %}
+  <div>
+    <div class="transition bg-white hover:shadow-lg rounded-lg shadow-md overflow-hidden category-card">
+
+      {% if category.image %}
+        <!-- ✅ Show actual image -->
+        <img 
+          alt="{{ category.title }}" 
+          class="w-full h-48 object-cover" 
+          src="{{ category.image_url }}">
+      {% else %}
+        <!-- ❌ Fallback placeholder when no image -->
+        <div class="h-48 w-full bg-gray-100 flex flex-col items-center justify-center text-gray-400 space-y-2">
+          <!-- Icon -->
+          <svg class="w-12 h-12" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 15l5-5c.5-.5 1.5-.5 2 0l5 5" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M14 10l4 4" />
+          </svg>
+          <!-- Text -->
+          <span class="text-sm italic text-gray-500">No image available</span>
+        </div>
+      {% endif %}
+
+      <!-- category Content -->
+      <div class="p-6">
+        <h3 class="font-bold text-xl mb-2">{{ category.title }}</h3>
+        <p class="text-gray-600 mb-4">{{ category.excerpt }}</p>
+        <a href="{{ category.url | prepend: site.baseurl }}" class="font-bold text-green-700 hover:text-green-900 transition">
+          View category
+        </a>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+  </div>
+
+  <!-- Pagination Controls -->
+{% if paginator.total_pages > 1 %}  
+<div class="flex justify-center items-center mt-8 space-x-2" id="pagination">
+  
+  <!-- Previous Button -->
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="px-4 py-2 rounded-lg bg-gray-200 text-gray-700 hover:bg-gray-300 transition">Previous</a>
+  {% else %}
+    <span class="px-4 py-2 rounded-lg bg-gray-200 text-gray-400 cursor-not-allowed">Previous</span>
+  {% endif %}
+
+<!-- Page Numbers -->
+<div id="page-numbers" class="flex space-x-2">
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == 1 %}
+      <a href="{{ '/blog/' | prepend: site.baseurl }}" class="px-3 py-1 border rounded-lg text-gray-700 hover:bg-gray-50 {% if paginator.page == page %} bg-gray-300 {% endif %}">
+        {{ page }}
+      </a>
+    {% else %}
+      <a href="{{ '/blog/page' | append: page | prepend: site.baseurl }}" class="px-3 py-1 border rounded-lg text-gray-700 hover:bg-gray-50 {% if paginator.page == page %} bg-gray-300 {% endif %}">
+        {{ page }}
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>
+
+
+  <!-- Next Button -->
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="px-4 py-2 rounded-lg bg-gray-200 text-gray-700 hover:bg-gray-300 transition">Next</a>
+  {% else %}
+    <span class="px-4 py-2 rounded-lg bg-gray-200 text-gray-400 cursor-not-allowed">Next</span>
+  {% endif %}
+</div>
+
+{% endif %}
+
+</div>
+  
+</section>
+
+
+
+
+
+  <!-- Contribute Section -->
+  <section class="bg-gray-50 py-12">
+    <div class="px-4 container mx-auto text-center">
+      <h2 class="font-bold text-3xl text-gray-800 mb-6">Contribute to Our categorys</h2>
+      <p class="text-gray-600 mx-auto max-w-3xl mb-8">Have photographs, documents, or stories to share? Help us expand our virtual categorys by contributing your family history or community insights.</p>
+      <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 justify-center">
+        <a href="{{ site.url }}{{ "blog" | relative_url }}" class="font-bold text-white transition bg-green-700 hover:bg-green-900 px-6 py-3 rounded-lg">Explore Blog Posts</a>
+        <a href="{{ site.url }}{{ "contact-us" | relative_url }}" class="font-bold text-white transition bg-gray-700 hover:bg-gray-800 px-6 py-3 rounded-lg">Submit Content</a>
+      </div>
+    </div>
+  </section>
+
+<!-- Footer -->
+{% include footer.html %}
+
+  <!-- Mobile Menu Toggle Script -->
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', () => {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+
+  </script>
+</body>
+</html>
