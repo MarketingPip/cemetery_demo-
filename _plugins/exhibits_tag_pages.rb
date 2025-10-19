@@ -56,7 +56,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
     page.data['categories'] = page_categories.map { |c| { 'name' => c, 'count' => category_counts[c] } }
     page.data['title'] = "All Exhibits Categories"
     page.data['type'] = "exhibits"
-    page['paginator'] = {
+    self.data['paginator'] = {
       'page' => page_number,
       'per_page' => per_page,
       'total_pages' => total_category_pages,
