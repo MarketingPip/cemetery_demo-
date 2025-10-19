@@ -3,6 +3,13 @@ layout: null
 permalink: /categorys/
 title: categorys
 ---
+
+{% if page.data.type == "exhibits" %}
+  {% assign section = "exhibits" %}
+{% else %}
+  {% assign section = "blog" %}
+{% endif %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,7 +58,7 @@ title: categorys
   <!-- Hero Section -->
   <section class="flex items-center justify-center hero-image text-center text-white" id="categorys-hero">
     <div class="px-4 container mx-auto">
-      <h1 class="font-bold text-4xl mb-4 md:text-6xl">Virtual categorys</h1>
+      <h1 class="font-bold text-4xl mb-4 md:text-6xl">All {{ section | capitalize }} Categories</h1>
       <p class="mb-8 md:text-2xl text-xl">Explore the rich history and stories of Crediton Cemetery through our curated virtual categorys. Dive into the lives, art, and legacies preserved within our grounds.</p>
     </div>
   </section>
@@ -72,7 +79,7 @@ title: categorys
           <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"></path>
           </svg>
-          <a href="{{ site.baseurl }}/blog/" class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">Blog</a>
+          <a href="{{ site.baseurl }}/{{ section }}/" class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">{{ section | capitalize }}</a>
         </div>
       </li>
       <li aria-current="page">
@@ -92,7 +99,7 @@ title: categorys
   <!-- categorys Section -->
 <section class="bg-white py-12" id="categorys">
 <div class="px-4 container mx-auto">
-  <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Our categorys</h2>
+  <h2 class="font-bold text-3xl text-gray-800 mb-8 text-center">Our {{ section | capitalize }}</h2>
   <p class="text-gray-600 mx-auto text-center max-w-3xl mb-12">Discover a variety of categorys that bring Crediton’s past to life. Each showcase offers a unique perspective on the community’s hericategorye, from its founding families to its artistic monuments.</p>
 
   <!-- category Grid -->
@@ -115,7 +122,7 @@ title: categorys
 
       <!-- View category Button -->
       <div class="mt-6">
-        <a href="{{ base_url }}/blog/categorys/{{ category.name }}"
+        <a href="{{ base_url }}/{{ section }}/categorys/{{ category.name }}"
            class="inline-block px-4 py-2 text-sm font-medium text-white bg-green-600 rounded-md shadow hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2 transition">
           View category
         </a>
