@@ -4,8 +4,8 @@ Jekyll::Hooks.register :site, :post_read do |site|
   next unless site.posts && site.posts.docs
 
   site.posts.docs.each do |post|
-    if post.data['categories'].nil? || post.data['categories'].empty?
-      post.data['categories'] = ['uncategorized']
+    if post.data['category'].nil? || post.data['category'].empty?
+      post.data['category'] = ['uncategorized']
       Jekyll.logger.info "SetUncategorized:", "Post '#{post.data['title']}' had no categories — set to 'uncategorized'."
     end
   end
