@@ -14,7 +14,7 @@ title: Exhibits
     <meta name="description" content="Explore the rich history and stories of Crediton Cemetery through curated virtual exhibits, showcasing the heritage and notable figures in Crediton, Ontario.">
     <meta name="keywords" content="Crediton Cemetery, Virtual Exhibits, Historical Cemetery, Heritage, Ontario, Pioneers, War Veterans, Lulu Odell Gaiser, Historical Monuments, Art and Architecture">
     <meta name="author" content="Crediton Cemetery Heritage Portal Team">
-      {% if paginator and paginator.page == 1 %}
+      {% if page.paginator and page.paginator.page == 1 %}
     <meta name="robots" content="index, follow" />
   {% else %}
     <meta name="robots" content="noindex, follow" />
@@ -104,25 +104,25 @@ title: Exhibits
   </div>
 
   <!-- Pagination Controls -->
-{% if paginator.total_pages > 1 %}  
+{% if page.paginator.total_pages > 1 %}  
 <div class="flex justify-center items-center mt-8 space-x-2" id="pagination">
   
   <!-- Previous Button -->
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="px-4 py-2 rounded-lg bg-gray-200 text-gray-700 hover:bg-gray-300 transition">Previous</a>
+  {% if page.paginator.previous_page %}
+    <a href="{{ page.paginator.previous_page_path | prepend: site.baseurl }}" class="px-4 py-2 rounded-lg bg-gray-200 text-gray-700 hover:bg-gray-300 transition">Previous</a>
   {% else %}
     <span class="px-4 py-2 rounded-lg bg-gray-200 text-gray-400 cursor-not-allowed">Previous</span>
   {% endif %}
 
 <!-- Page Numbers -->
 <div id="page-numbers" class="flex space-x-2">
-  {% for page in (1..paginator.total_pages) %}
+  {% for page in (1..page.paginator.total_pages) %}
     {% if page == 1 %}
-      <a href="{{ '/blog/' | prepend: site.baseurl }}" class="px-3 py-1 border rounded-lg text-gray-700 hover:bg-gray-50 {% if paginator.page == page %} bg-gray-300 {% endif %}">
+      <a href="{{ '/blog/' | prepend: site.baseurl }}" class="px-3 py-1 border rounded-lg text-gray-700 hover:bg-gray-50 {% if page.paginator.page == page %} bg-gray-300 {% endif %}">
         {{ page }}
       </a>
     {% else %}
-      <a href="{{ '/blog/page' | append: page | prepend: site.baseurl }}" class="px-3 py-1 border rounded-lg text-gray-700 hover:bg-gray-50 {% if paginator.page == page %} bg-gray-300 {% endif %}">
+      <a href="{{ '/blog/page' | append: page | prepend: site.baseurl }}" class="px-3 py-1 border rounded-lg text-gray-700 hover:bg-gray-50 {% if page.paginator.page == page %} bg-gray-300 {% endif %}">
         {{ page }}
       </a>
     {% endif %}
@@ -131,8 +131,8 @@ title: Exhibits
 
 
   <!-- Next Button -->
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="px-4 py-2 rounded-lg bg-gray-200 text-gray-700 hover:bg-gray-300 transition">Next</a>
+  {% if page.paginator.next_page %}
+    <a href="{{ page.paginator.next_page_path | prepend: site.baseurl }}" class="px-4 py-2 rounded-lg bg-gray-200 text-gray-700 hover:bg-gray-300 transition">Next</a>
   {% else %}
     <span class="px-4 py-2 rounded-lg bg-gray-200 text-gray-400 cursor-not-allowed">Next</span>
   {% endif %}
