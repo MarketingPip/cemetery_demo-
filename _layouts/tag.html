@@ -53,7 +53,7 @@ layout: null
   <!-- Navigation -->
 {% include navigation.html %}
 
-{% if page.data.type == "exhibits" %}
+{% if page.type == "exhibits" %}
   {% assign section = "exhibits" %}
 {% else %}
   {% assign section = "blog" %}
@@ -63,7 +63,7 @@ layout: null
   <section class="flex items-center justify-center hero-image text-center text-white" id="tags-hero">
     <div class="px-4 container mx-auto">
       
-        {% if page.data.type == "exhibits" %}
+        {% if page.type == "exhibits" %}
 <h1 class="font-bold text-4xl mb-4 md:text-6xl">Exhibits Tagged: "{{ page.tag.name }}"</h1>
 {% else %}
  <h1 class="font-bold text-4xl mb-4 md:text-6xl">Posts Tagged: "{{ page.tag.name }}</h1>
