@@ -1,15 +1,19 @@
 module Jekyll
   class SetUncategorized < Generator
     safe true
+    priority :low # ensure it runs after other generators
 
     def generate(site)
-      # Iterate over the posts in the site
       site.posts.docs.each do |post|
-        # If the post doesn't have categories or if it's an empty array
-        if post.data['categories'].nil? || post.data['categories'].empty?
-          # Set the category to 'uncategorized'
+        categories = post.data['categories']
+
+        # Normalize categories to an array
+        categories = [categories].flatten.compact if categories
+
+        # If categories are nil, empty, or blank, set to ['uncategorized']
+        if categories.nil? || categories.empty? || categories.all? { |c| c.to_s.strip.empty? }
           post.data['categories'] = ['uncategorized']
-          puts "Post '#{post.data['title']}' has no categories. Setting to 'uncategorized'."
+          puts "📌 Post '#{post.data['title'] || post.basename}' set to category 'uncategorized'."
         end
       end
     end
