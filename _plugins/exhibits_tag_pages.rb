@@ -55,6 +55,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
     cat_template = '_layouts/category_index.html'
     page.data['categories'] = page_categories.map { |c| { 'name' => c, 'count' => category_counts[c] } }
     page.data['title'] = "All Exhibits Categories"
+    page.data['type'] = "exhibits"
     page.data['paginator'] = {
       'page' => page_number,
       'per_page' => per_page,
@@ -87,6 +88,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
       category_template = '_layouts/category.html'
       page.data['category'] = { 'name' => category, 'count' => category_counts[category] }
       page.data['posts'] = page_posts
+      page.data['type'] = "exhibits"
       page.data['title'] = "Exhibits in category '#{category}'"
       page.data['paginator'] = {
         'page' => page_number,
@@ -117,6 +119,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
     page = Jekyll::PaginationPage.new(site, site.source, dir, 'index.html', template)
     tag_template = '_layouts/tag_index.html'
     page.data['tags'] = page_tags.map { |t| { 'name' => t, 'count' => tag_counts[t] } }
+    page.data['type'] = "exhibits"
     page.data['title'] = "All exhibits Tags"
     page.data['paginator'] = {
       'page' => page_number,
@@ -150,6 +153,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
       page.data['tag'] = { 'name' => tag, 'count' => tag_counts[tag] }
       page.data['posts'] = page_posts
       page.data['title'] = "Posts tagged with '#{tag}'"
+      page.data['type'] = "exhibits"
       page.data['paginator'] = {
         'page' => page_number,
         'per_page' => per_page,
