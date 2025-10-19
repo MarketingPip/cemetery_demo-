@@ -25,6 +25,7 @@ title: categorys
     <meta name="robots" content="index, follow" />
   {% else %}
     <meta name="robots" content="noindex, follow" />
+  {{ paginator | jsonify }}
   {% endif %}
 
     <!-- Title of the page for SEO -->
