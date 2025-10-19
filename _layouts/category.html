@@ -63,9 +63,9 @@ layout: null
   <section class="flex items-center justify-center hero-image text-center text-white" id="categorys-hero">
     <div class="px-4 container mx-auto">
         {% if page.type == "exhibits" %}
-  <h1 class="font-bold text-4xl mb-4 md:text-6xl">Exhibits in: "{{ page.category.name }}"</h1>
+  <h1 class="font-bold text-4xl mb-4 md:text-6xl">Exhibits in: "{{ page.category.name  | capitalize }}"</h1>
 {% else %}
-  <h1 class="font-bold text-4xl mb-4 md:text-6xl">Posts in: "{{ page.category.name }}"</h1>
+  <h1 class="font-bold text-4xl mb-4 md:text-6xl">Posts in: "{{ page.category.name  | capitalize }}"</h1>
 {% endif %}
 
       <p class="mb-8 md:text-2xl text-xl">Explore our latest articles and stories from the {{ site.title }} blog. Dive into topics ranging from history, culture, personal stories, and more. Stay updated with our newest posts.</p>
