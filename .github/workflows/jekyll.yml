@@ -58,7 +58,6 @@ jobs:
       - name: Setup Node
         run: |
           npm install -g purgecss
-          purgecss -c purgecss.config.js
 
       - name: Compress Images in _site/assets
         uses: MarketingPipeline/Image-Optimizer-Action@main
