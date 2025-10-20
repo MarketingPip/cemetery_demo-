@@ -123,16 +123,8 @@
       {{ content }}
     </div>
 
-{% if page.categories %}
-  {{ page.categories }}
-{% endif %}
-
-{% if page.category %}
-  {{ page.category }}
-{% endif %}
-
-{% if post.category %}
-  {{ post.category }}
+{% if page.categories and categories != empty %}
+  {% include pills.html %}
 {% endif %}
 
 
@@ -193,6 +185,11 @@
       {{ content }}
     </div>
 
+    
+{% if page.categories and categories != empty %}
+  {% include pills.html %}
+{% endif %}
+
     <div class="mt-12 pt-6 border-t border-gray-200 flex items-center justify-between">
       <div class="flex items-center space-x-4">
 
@@ -236,6 +233,12 @@
     <div class="space-y-6 markdown">
       {{ content }}
     </div>
+
+
+    
+{% if page.categories and categories != empty %}
+  {% include pills.html %}
+{% endif %}
 
     <div class="mt-12 pt-6 border-t border-gray-200 flex items-center justify-between">
       <div class="flex items-center space-x-4">
