@@ -123,18 +123,18 @@
       {{ content }}
     </div>
 
-    {% if page.categories %}
-      {% page.categories %}
-   {% endif %}
+{% if page.categories %}
+  {{ page.categories }}
+{% endif %}
 
+{% if page.category %}
+  {{ page.category }}
+{% endif %}
 
-        {% if page.category %}
-      {% page.category %}
-   {% endif %}
+{% if post.category %}
+  {{ post.category }}
+{% endif %}
 
-            {% if post.category %}
-      {% post.category %}
-   {% endif %}
 
 
     <div class="mt-12 pt-6 border-t border-gray-200 flex items-center justify-between">
