@@ -33,10 +33,12 @@
   <link rel="next" href="{{ 'blog' | relative_url }}{{ page.next.url }}">
 {% endif %}
 <!-- CSS for Markdown -->
- <link rel="stylesheet" href="{{base_url}}/assets/css/markdown.css">
+ <link rel="stylesheet" href="{{ '/assets/css/markdown.css' | relative_url }}">
 
+
+    
      {% if page.toc %}
-     <link href="{{base_url}}/assets/css/tocbot.css" rel="stylesheet">
+     <link href="{{ '/assets/css/tocbot.css' | relative_url }}" rel="stylesheet">
      <script type="module" src="{{base_url}}/assets/js/toc-bot.js"></script>
      {% endif %}
   
