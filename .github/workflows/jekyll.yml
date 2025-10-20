@@ -47,16 +47,18 @@ jobs:
         uses: actions/configure-pages@v5
 
 
-      # Install Node as this is needed for PurgeCSS
-      - name: Setup Node
-        run: |
-          npm install -g purgecss
-          purgecss -c purgecss.config.js
 
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+
+
+      # Install Node as this is needed for PurgeCSS
+      - name: Setup Node
+        run: |
+          npm install -g purgecss
+          purgecss -c purgecss.config.js
 
       - name: Compress Images in _site/assets
         uses: MarketingPipeline/Image-Optimizer-Action@main
