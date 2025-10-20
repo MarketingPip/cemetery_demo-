@@ -106,6 +106,7 @@ plugins:
   - jekyll-assets
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-purge-css
  
 assets:
   compress: true  # Enable CSS and JS compression
