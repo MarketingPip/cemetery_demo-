@@ -124,7 +124,16 @@
     </div>
 
     {% if page.categories %}
-      {% include pills.html %}
+      {% page.categories %}
+   {% endif %}
+
+
+        {% if page.category %}
+      {% page.category %}
+   {% endif %}
+
+            {% if post.category %}
+      {% post.category %}
    {% endif %}
 
 
