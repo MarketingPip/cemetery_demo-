@@ -21,6 +21,9 @@ group :jekyll_plugins do
  gem "jekyll-tailwindcss"
 end
 
+# gem versions track against tailwind releases
+gem "tailwindcss-ruby", "~> 3.4"
+
 # If you're using any CSS preprocessors (like Sass), you can add this:
 # gem 'sassc'
 
