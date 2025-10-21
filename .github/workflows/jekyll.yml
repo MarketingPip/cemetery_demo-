@@ -53,6 +53,12 @@ jobs:
           npm install tailwindcss@3.4.17 postcss autoprefixer
           npx tailwindcss -i ./assets/css/_tailwind.css -o ./assets/css/tailwind.css --minify
 
+
+      - name: Set up Node.js environment
+        uses: actions/setup-node@v2
+        with:
+          node-version: '20'
+
       - name: Build project using Webpack/Rollup
         run: |
           npm i
