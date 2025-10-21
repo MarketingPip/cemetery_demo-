@@ -62,7 +62,7 @@ jobs:
       - name: Build project using Webpack/Rollup
         run: |
           npm i
-          npm install markmap-lib markmap-view tocbot leaflet.markercluster leaflet --save
+          npm install markmap-lib markmap-view tocbot leaflet.markercluster leaflet vanillajs-datepicker @knadh/autocomp --save
           npm run build
 
       - name: Build with Jekyll
