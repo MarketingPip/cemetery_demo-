@@ -32,20 +32,22 @@ permalink: /
   <!-- Favicon for Branding -->
   <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
   
-  <!-- Tailwind CSS (for styling) -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  
-   
+  <!-- TailwindCSS for styling -->
+  <link href="{{ '/assets/css/tailwind.css' | relative_url }}" rel="stylesheet">
+ 
+
+ 
+	
 <!-- ✅ Font Awesome Icons (latest, non-blocking) -->
 <link
   rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  href="{{ '/assets/css/font-awesome.css' | relative_url }}"
   media="print"
   onload="this.media='all'"
   integrity="..." crossorigin="anonymous"
 />
 <noscript>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="{{ '/assets/css/font-awesome.css' | relative_url }}">
 </noscript>
 
 <!-- ✅ PapaParse for CSV parsing (uncomment if used) -->
