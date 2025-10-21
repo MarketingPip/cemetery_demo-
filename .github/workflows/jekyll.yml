@@ -50,8 +50,8 @@ jobs:
       - name: Setup Node
         run: |
           npm install -g purgecss
-          npm install tailwindcss@3.4.17 postcss autoprefixer @tailwindcss/cli
-          npx @tailwindcss/cli -i ./assets/css/_tailwind.css -o ./assets/css/tailwind.css --watch
+          npm install tailwindcss@3.4.17 postcss autoprefixer
+          npx tailwindcss -i ./assets/css/_tailwind.css -o ./assets/css/tailwind.css --watch --minify
 
 
       - name: Build with Jekyll
