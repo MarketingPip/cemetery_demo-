@@ -64,6 +64,7 @@ exclude:
   - requirements.txt
   - package.json
   - vendor
+  - _webpack
 # Timezone for timestamp conversion
 timezone: UTC
 
