@@ -3,6 +3,9 @@
     "csv-to-json": "file:.github/workflows/csvToJSON",
     "update-author-posts": "file:.github/workflows/updateAuthors"
   },
+  "scripts": {
+    "build": "webpack --config ./src/webpack.config.babel.js"
+  },
   "devDependencies": {
     "@babel/core": "^7.24.8",
     "@babel/plugin-syntax-top-level-await": "^7.14.5",
