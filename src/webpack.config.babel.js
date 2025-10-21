@@ -8,7 +8,7 @@ import TerserPlugin from 'terser-webpack-plugin';
 module.exports = {
   entry: {
     // Define multiple entry points
-    main: './src/index.js',
+    main_page: './src/main_page.js',
     tribute_page: './src/tribute_page.js',
     toc_bot: './src/toc-bot.js',  // Another entry point
     // Add more files if needed
