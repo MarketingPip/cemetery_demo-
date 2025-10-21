@@ -106,7 +106,7 @@ plugins:
   - jekyll-assets
   - jekyll-seo-tag
   - jekyll-paginate
-#  - jekyll-purge-css
+  - jekyll-purge-css
 
 
 tailwindcss:
