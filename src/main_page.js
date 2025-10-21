@@ -40,14 +40,11 @@ const stephen_township =  {"type":"FeatureCollection","features":[{"type":"Featu
     
 // Lazy load datepicker only when needed
 async function loadDatePicker() {
-  const { Datepicker } = await import("https://esm.sh/vanillajs-datepicker");
   const datepicker = new Datepicker(document.getElementById("year-from"), { pickLevel: 2, format: "yyyy" });
   const datepicker2 = new Datepicker(document.getElementById("year-to"), { pickLevel: 2, format: "yyyy" });
 }
 
 async function loadAutoComplete(lastNames, firstNames) {
-  const { autocomp } = await import("https://esm.sh/@knadh/autocomp");
-
   const createAutoComplete = (selector, names) => {
     autocomp(document.querySelector(selector), {
       onQuery: async (query) =>
@@ -556,17 +553,11 @@ const geojsonData = {
 
   // Lazy load leaflet
 async function loadLeaflet() {
-  const L = (await import("https://esm.sh/leaflet")).default;
-  window.L = L;
-  await import("https://esm.sh/leaflet.markercluster");
-  renderMap(L);
+  renderMap();
 }
 
   
 function renderMap(pkg){ 
-
-const L = pkg
-
   
 const map = L.map("cemetery-map", {
     preferCanvas: true
