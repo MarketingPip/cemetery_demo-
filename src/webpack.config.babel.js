@@ -15,7 +15,7 @@ module.exports = {
   },
   output: {
     // Output configuration for different JS files
-    path: path.resolve(__dirname, '_site/assets/js'),
+    path: path.resolve(__dirname, '../_site/assets/js'),  // Adjusted to point to the root-level _site folder
     filename: '[name].min.js', // This creates unique file names based on the content
   },
   module: {
