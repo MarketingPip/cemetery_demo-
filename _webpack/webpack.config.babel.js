@@ -8,8 +8,8 @@ import CopyPlugin from 'copy-webpack-plugin';
 module.exports = {
   entry: {
     // Define multiple entry points
-    main_page: './src/main_page.js',
-    tribute_page: './src/tribute_page.js',
+    main_page: './_webpack/main_page.js',
+    tribute_page: './_webpack/tribute_page.js',
     toc_bot: './src/toc-bot.js',  // Another entry point
     // Add more files if needed
   },
