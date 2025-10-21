@@ -9,7 +9,7 @@ gem 'jekyll', '~> 4.0'
 gem 'jekyll-assets'
 
 # gem versions track against tailwind releases
-gem "tailwindcss-ruby", "~> 3.4.17"
+# gem "tailwindcss-ruby", "~> 3.4.17"
 
 # Optional: Use `jekyll-asset-minifier` for asset minification.
 gem 'jekyll-minifier'
