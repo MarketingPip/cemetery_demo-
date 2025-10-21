@@ -10,8 +10,10 @@ title: FAQ
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <title>{{page.title}} | {{site.title}}</title>
   <link rel="canonical" href="{{site.url}}{{ base_url }}{{ page.permalink }}" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <!-- TailwindCSS for styling -->
+  <link href="{{ '/assets/css/tailwind.css' | relative_url }}" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link href="{{ '/assets/css/font-awesome.css' | relative_url }}" rel="stylesheet">
   <style>
     .hero-image {
       background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img1.wsimg.com/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true/qt=q:55);
