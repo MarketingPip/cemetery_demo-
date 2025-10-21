@@ -48,11 +48,11 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         {
-          from: 'node_modules/@fortawesome/fontawesome-free/css/all.min.css',
+          from: '../node_modules/@fortawesome/fontawesome-free/css/all.min.css',
           to: '../assets/css/font-awesome.css', // The custom output path
         },
         {
-          from: 'node_modules/@fortawesome/fontawesome-free/webfonts',
+          from: '../node_modules/@fortawesome/fontawesome-free/webfonts',
           to: '../assets/webfonts', // Copy the webfonts as well
         },
       ],
