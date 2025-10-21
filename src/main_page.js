@@ -1,9 +1,9 @@
    
-  import L from "https://esm.sh/leaflet";
-  import "https://esm.sh/leaflet.markercluster";  
-  import { Datepicker } from "https://esm.sh/vanillajs-datepicker";
+  import L from "leaflet";
+  import "leaflet.markercluster";  
+  import { Datepicker } from "vanillajs-datepicker";
     
- import  { autocomp } from "https://esm.sh/@knadh/autocomp";  
+ import  { autocomp } from "@knadh/autocomp";  
 	  
 function getNames(data, getFirst = false) {
   const suffixes = new Set(["jr", "sr", "ii", "iii", "iv", "v"]);
