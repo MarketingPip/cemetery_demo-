@@ -50,8 +50,8 @@ jobs:
       - name: Setup Node
         run: |
           npm install -g purgecss
-          npm install tailwindcss @tailwindcss/cli
-          npx @tailwindcss/cli -i ./assets/css/tailwind.css -o ./assets/tailwind.css --watch
+          npm install tailwindcss@3.4.17 @tailwindcss/cli
+          npx @tailwindcss/cli -i ./assets/css/tailwind.css -o ./assets/css/tailwind.css --watch
 
 
       - name: Build with Jekyll
