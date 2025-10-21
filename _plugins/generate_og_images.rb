@@ -1,8 +1,8 @@
-# _plugins/generate_og_images.rb
 require 'fileutils'
 require 'open3'
 require 'set'
 require 'tmpdir'
+require 'parallel'
 
 module Jekyll
   class GenerateOgImages < Generator
@@ -32,8 +32,11 @@ module Jekyll
         return
       end
 
-      site.posts.docs.each { |post| process_post(post, site, output_dir, og_folder, template_path) }
-      site.pages.each { |page| process_post(page, site, output_dir, og_folder, template_path, false) }
+      # Parallelize post processing
+      posts_to_process = site.posts.docs + site.pages
+      Parallel.each(posts_to_process, in_threads: 4) do |post|
+        process_post(post, site, output_dir, og_folder, template_path)
+      end
 
       Jekyll.logger.info "Open Graph image generation complete."
     end
