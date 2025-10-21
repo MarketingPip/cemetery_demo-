@@ -50,7 +50,7 @@ jobs:
       - name: Setup Node
         run: |
           npm install -g purgecss
-          npm install tailwindcss@3.4.17 @tailwindcss/cli
+          npm install tailwindcss@3.4.17 @tailwindcss/cli@0.1.9
           npx @tailwindcss/cli -i ./assets/css/_tailwind.css -o ./assets/css/tailwind.css --watch
 
 
