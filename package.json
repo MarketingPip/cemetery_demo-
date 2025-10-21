@@ -4,7 +4,7 @@
     "update-author-posts": "file:.github/workflows/updateAuthors"
   },
   "scripts": {
-    "build": "webpack --config ./src/webpack.config.babel.js"
+    "build": "webpack --config ./_webpack/webpack.config.babel.js"
   },
   "devDependencies": {
     "@babel/core": "^7.24.8",
