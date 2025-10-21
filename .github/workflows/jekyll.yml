@@ -62,6 +62,7 @@ jobs:
       - name: Build project using Webpack/Rollup
         run: |
           npm i
+          npm install markmap-lib markmap-view tocbot --save
           npm run build
 
       - name: Build with Jekyll
