@@ -106,7 +106,18 @@ plugins:
   - jekyll-assets
   - jekyll-seo-tag
   - jekyll-paginate
- 
+  - jekyll-purge-css
+
+
+# -----------------------------------------------------------------------------
+# Jekyll PurgeCSS
+# -----------------------------------------------------------------------------
+
+PurgeCSS:
+  content: ["_site/**/*.html", "_site/**/*.js"]
+  css: ["_site/assets/css/*.css", "!_site/assets/css/tailwind.css"]
+  output: _site/assets/css/
+  
 assets:
   compress: true  # Enable CSS and JS compression
   minify: true    # Enable HTML minification
