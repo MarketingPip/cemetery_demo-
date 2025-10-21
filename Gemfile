@@ -8,6 +8,9 @@ gem 'jekyll', '~> 4.0'
 # Optional: Use the `jekyll-assets` gem for asset management (CSS/JS).
 gem 'jekyll-assets'
 
+# gem versions track against tailwind releases
+gem "tailwindcss-ruby", "~> 3.4.17"
+
 # Optional: Use `jekyll-asset-minifier` for asset minification.
 gem 'jekyll-minifier'
 gem 'jekyll-sitemap'
@@ -21,8 +24,7 @@ group :jekyll_plugins do
  gem "jekyll-tailwindcss"
 end
 
-# gem versions track against tailwind releases
-gem "tailwindcss-ruby", "~> 3.4"
+
 
 # If you're using any CSS preprocessors (like Sass), you can add this:
 # gem 'sassc'
