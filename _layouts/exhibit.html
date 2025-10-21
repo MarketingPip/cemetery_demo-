@@ -7,9 +7,17 @@
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <title>{{ page.title }} | {{site.title}}</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+ 
   <script src="{{base_url}}/assets/js/person_wc.js"></script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+  <!-- TailwindCSS for styling -->
+  <link href="{{ '/assets/css/tailwind.css' | relative_url }}" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link href="{{ '/assets/css/font-awesome.css' | relative_url }}" rel="stylesheet">
+
+  <!-- CSS for Markdown -->
+  <link href="{{ '/assets/css/markdown.css' | relative_url }}" rel="stylesheet">
+  
   <style>
     .hero-image {
       background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url({{ page.hero_image | default: "https://img1.wsimg.comf/isteam/ip/72bd652d-031b-4cff-ac67-358b94057a77/CREDITON%20CEMETERY.jpg" }});
@@ -30,8 +38,8 @@
 {% if page.next %}
   <link rel="next" href="{{ 'blog' | relative_url }}{{ page.next.url }}">
 {% endif %}
-<!-- CSS for Markdown -->
- <link rel="stylesheet" href="{{base_url}}/assets/css/markdown.css">
+
+ 
 </head>
 <body class="bg-gray-100 font-sans">
 
