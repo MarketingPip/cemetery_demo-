@@ -11,6 +11,7 @@ module.exports = {
     "./_exhibits/*.{html,md}",
     "./_posts/*.md",
     "./*.{html,md}",
+    './**/*.js'
   ],
   // ...
 };
