@@ -51,7 +51,7 @@ jobs:
         run: |
           npm install -g purgecss
           npm install tailwindcss@3.4.17 @tailwindcss/cli
-          npx @tailwindcss/cli -i ./assets/css/tailwind.css -o ./assets/css/tailwind.css --watch
+          npx @tailwindcss/cli -i ./assets/css/_tailwind.css -o ./assets/css/tailwind.css --watch
 
 
       - name: Build with Jekyll
