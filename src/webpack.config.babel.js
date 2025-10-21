@@ -49,11 +49,11 @@ module.exports = {
       patterns: [
         {
           from: 'node_modules/@fortawesome/fontawesome-free/css/all.min.css',
-          to: '../assets/css/font-awesome.css', // The custom output path
+          to: '../css/font-awesome.css', // The custom output path
         },
         {
           from: 'node_modules/@fortawesome/fontawesome-free/webfonts',
-          to: '../assets/webfonts', // Copy the webfonts as well
+          to: '../webfonts', // Copy the webfonts as well
         },
       ],
     }),
