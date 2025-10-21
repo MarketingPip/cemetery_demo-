@@ -2,7 +2,7 @@
 import fs from 'fs';
 import path from 'path';
 import TerserPlugin from 'terser-webpack-plugin';
- 
+import CopyPlugin from 'copy-webpack-plugin'; 
 
 
 module.exports = {
@@ -45,6 +45,18 @@ module.exports = {
   },
 
   plugins: [
+    new CopyPlugin({
+      patterns: [
+        {
+          from: 'node_modules/@fortawesome/fontawesome-free/css/all.min.css',
+          to: 'assets/css/font-awesome.css', // The custom output path
+        },
+        {
+          from: 'node_modules/@fortawesome/fontawesome-free/webfonts',
+          to: 'assets/webfonts', // Copy the webfonts as well
+        },
+      ],
+    }),
   ],
   resolve: {
     extensions: ['.js'], // Resolve .js files
