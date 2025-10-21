@@ -16,7 +16,7 @@ gem 'jekyll-seo-tag'
 gem 'httpparty'
 gem 'jekyll-paginate'
 gem 'nokogiri'
-# gem 'jekyll-purge-css', :git => "https://github.com/MUmarShahbaz/jekyll-purge-css.git"
+gem 'jekyll-purge-css', :git => "https://github.com/MUmarShahbaz/jekyll-purge-css.git"
 
 
 
