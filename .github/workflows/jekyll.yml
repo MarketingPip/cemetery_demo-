@@ -59,18 +59,16 @@ jobs:
         with:
           node-version: '20'
 
-
-
-      - name: Build with Jekyll
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-        env:
-          JEKYLL_ENV: production
-
       - name: Build project using Webpack/Rollup
         run: |
           npm i
           npm install markmap-lib markmap-view tocbot leaflet.markercluster leaflet vanillajs-datepicker @knadh/autocomp --save
           npm run build
+
+      - name: Build with Jekyll
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
 
       - name: Compress Images in _site/assets
         uses: MarketingPipeline/Image-Optimizer-Action@main
