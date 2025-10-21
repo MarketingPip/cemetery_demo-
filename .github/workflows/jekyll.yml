@@ -53,6 +53,11 @@ jobs:
           npm install tailwindcss@3.4.17 postcss autoprefixer
           npx tailwindcss -i ./assets/css/_tailwind.css -o ./assets/css/tailwind.css --minify
 
+      - name: Build project using Webpack/Rollup
+        run: |
+          npm i
+          npm run build
+
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
