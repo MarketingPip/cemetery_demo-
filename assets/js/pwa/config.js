@@ -1,4 +1,8 @@
- const base_url = `https://marketingpip.github.io/cemetery_demo-/`
+---
+layout: none
+---
+{% assign base_url = site.baseurl | default: "" %}
+const base_url = `{{base_url}}`
 /**
  * JFA PWA Toolkit
  * https://github.com/jfadev/jfa-pwa-toolkit
@@ -107,7 +111,7 @@ const PWA_CONFIG = {
             // Force the response to come from the network
             networkonly: {
                 // Enable/disable network only routes caching
-                active: false,
+                active: true,
                 // Matching routes with a Regular Expression
                 // regex: /\/(?:login|logout)\//,
             },
@@ -121,7 +125,7 @@ const PWA_CONFIG = {
             },
             // Network first request strategy.
             networkfirst: {
-                active: true,
+                active: false,
                 regex: /.*/,
             },
             // Cache first request strategy.
@@ -148,14 +152,13 @@ const PWA_CONFIG = {
     // Precache config
     precache: {
         // Enable/disable precaching
-        active: true,
+        active: false,
         // Routes to
         routes: [
        //     '/page1.html',
         //    '/page2.html',
             // '/page3.html', (not precached)
             `${base_url}/`,
-            `./offline`,
           //  './offline/index.html',
             'https://marketingpip.github.io/cemetery_demo-/offline/index.html',
              `${base_url}/offline/`,
