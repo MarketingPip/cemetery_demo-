@@ -33,9 +33,9 @@ permalink: /
   <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
   
   <!-- TailwindCSS for styling -->
-<link rel="preload" href="{{ '/assets/css/tailwind.css' | relative_url }}" as="style" crossorigin="anonymous">
-	
-  <link href="{{ '/assets/css/tailwind.css' | relative_url }}" rel="stylesheet">
+<style>
+    {{ "/assets/css/tailwind.css" | relative_url | file.read }}
+</style>
  
 
  
