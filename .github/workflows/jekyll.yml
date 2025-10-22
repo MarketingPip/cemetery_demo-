@@ -46,14 +46,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      # Install Node as this is needed for PurgeCSS
-      - name: Setup Node
-        run: |
-          npm install --save @fortawesome/fontawesome-free
-          npm install --save copy-webpack-plugin
-          npm install -g purgecss
-          npm install tailwindcss@3.4.17 postcss autoprefixer
-          npx tailwindcss -i ./assets/css/_tailwind.css -o ./assets/css/tailwind.css --minify
+
 
 
       - name: Set up Node.js environment
@@ -64,8 +57,18 @@ jobs:
       - name: Build project using Webpack/Rollup
         run: |
           npm i
+          npm install --save @fortawesome/fontawesome-free
+          npm install --save copy-webpack-plugin
           npm install markmap-lib markmap-view tocbot leaflet.markercluster leaflet vanillajs-datepicker @knadh/autocomp --save
           npm run build
+
+
+      - name: Compile Tailwind & Purge CSS
+        run: |
+          npm install -g purgecss
+          npm install tailwindcss@3.4.17 postcss autoprefixer
+          npx tailwindcss -i ./assets/css/_tailwind.css -o ./assets/css/tailwind.css --minify
+
 
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
