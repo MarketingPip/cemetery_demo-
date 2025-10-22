@@ -11,7 +11,8 @@ module.exports = {
     main_page: './_webpack/main_page.js',
     tribute_page: './_webpack/tribute_page.js',
     toc_bot: './_webpack/toc-bot.js',  // Another entry point
-    tribute_page2: './_webpack/tribute_page2.js'
+    tribute_page2: './_webpack/tribute_page2.js',
+    pwa: './_webpack/pwa.js'
     // Add more files if needed
   },
   output: {
