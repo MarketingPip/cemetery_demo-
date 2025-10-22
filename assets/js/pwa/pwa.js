@@ -9,7 +9,7 @@
  * @param {Object} PWA_CONFIG   PWA global configs
  * @param {Object} notification Notification native class.
  */
-export const PWA = ((PWA_CONFIG, notification) => {
+const PWA = ((PWA_CONFIG, notification) => {
 
     /**
      * Service Workers
