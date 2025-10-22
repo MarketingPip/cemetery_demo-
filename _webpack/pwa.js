@@ -1,2 +1,2 @@
-import "../assets/pwa/config.js"
-import "../assets/pwa/pwa.js"
+import "../assets/js/pwa/config.js"
+import "../assets/js/pwa/pwa.js"
