@@ -2,7 +2,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
-/* Import any other required critical CSS files  */
-@import './font-awesome.css';
