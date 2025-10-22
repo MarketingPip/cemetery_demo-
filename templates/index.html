@@ -107,7 +107,14 @@ permalink: /
    <!-- Preload for font ---> 
   <link rel="preload" href="{{base_url}}/assets/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
 
+<!-- Preconnect for Tailwind CSS -->
+<link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
 
+<!-- Preconnect for Font Awesome -->
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+
+<!-- Preconnect for PapaParse -->
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 
 <!-- Preconnect for Leaflet -->
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
@@ -182,11 +189,10 @@ permalink: /
 <!--<link rel="icon" type="image/png" sizes="512x512" href="./assets/js/pwa/icons/android/android-chrome-512x512.png">!-->
  
   <link rel="manifest" href="./assets/js/pwa/manifest.json"></link>
- <!-- <script type="text/javascript" src="./assets/js/pwa/config.js"></script>
-   <script type="text/javascript" src="./assets/js/pwa/pwa.js"></script>
-  <script type="text/javascript" src="./assets/js/pageTransition.js"></script>!--> 
+  <script type="text/javascript" src="./assets/js/pwa/config.js"></script>
+  <script type="text/javascript" src="./assets/js/pwa/pwa.js"></script>
+  <script type="text/javascript" src="./assets/js/pageTransition.js"></script>
 
-  <script type="text/javascript" src="./assets/js/pwa.min.js"></script>
 
   <link rel="preload" href="./assets/cemetery_data.json" as="fetch" crossOrigin="anonymous"/>	
   <style>
@@ -1001,7 +1007,7 @@ html {
 <script>
     
 // Register Service Worker
-// PWA.ServiceWorker.register();   
+PWA.ServiceWorker.register();   
 </script>
    
 
