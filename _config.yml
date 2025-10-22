@@ -118,6 +118,22 @@ PurgeCSS:
   content: ["_site/**/*.html", "_site/**/*.js"]
   css: ["_site/assets/css/font-awesome.css"] ## Only purge font awesome, purgeCSS will break with tailwind. 
   output: _site/assets/css/
+
+
+# -----------------------------------------------------------------------------
+# Jekyll Archives
+# -----------------------------------------------------------------------------
+
+jekyll-archives:
+  posts:
+    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    permalinks:
+      year: "/blog/:year/"
+      tags: "/blog/:type/:name/"
+      categories: "/blog/:type/:name/"
+  books:
+    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+
   
 assets:
   compress: true  # Enable CSS and JS compression
