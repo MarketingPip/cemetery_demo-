@@ -1,8 +1,4 @@
----
-layout: none
----
-{% assign base_url = site.baseurl | default: "" %}
-const base_url = `{{base_url}}`
+ const base_url = `https://marketingpip.github.io/cemetery_demo-/`
 /**
  * JFA PWA Toolkit
  * https://github.com/jfadev/jfa-pwa-toolkit
