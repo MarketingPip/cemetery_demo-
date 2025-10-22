@@ -9,7 +9,7 @@
  *
  * Global Configs
  */
-const PWA_CONFIG = {
+export const PWA_CONFIG = {
 
     // App config
     app: {
