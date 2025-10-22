@@ -35,7 +35,9 @@ permalink: /
   <!-- TailwindCSS for styling -->
   <link href="{{ '/assets/css/tailwind.css' | relative_url }}" rel="stylesheet">
  
-
+  <style>
+    {{ '/assets/css/tailwind.css' | file_read }}
+  </style>
  
 	
 <!-- ✅ Font Awesome Icons (latest, non-blocking) -->
