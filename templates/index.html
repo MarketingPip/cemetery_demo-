@@ -193,9 +193,19 @@ permalink: /
 <!--<link rel="icon" type="image/png" sizes="512x512" href="./assets/js/pwa/icons/android/android-chrome-512x512.png">!-->
  
   <link rel="manifest" href="./assets/js/pwa/manifest.json"></link>
-  <script type="text/javascript" src="./assets/js/pwa/config.js"></script>
-  <script type="text/javascript" src="./assets/js/pwa/pwa.js"></script>
-  <script type="text/javascript" src="./assets/js/pageTransition.js"></script>
+
+
+   <script type="text/javascript">
+   {% file_read /assets/js/pwa/config.js  %}
+  </script>		
+	
+  <script type="text/javascript">
+   {% file_read /assets/js/pwa/pwa.js  %}
+  </script>
+
+ 
+	
+  <script type="text/javascript" src="./assets/js/pageTransition.js" defer></script>
 
 
   <link rel="preload" href="./assets/cemetery_data.json" as="fetch" crossOrigin="anonymous"/>	
