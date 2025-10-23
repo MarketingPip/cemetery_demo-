@@ -4,7 +4,7 @@ import path from 'path';
 import TerserPlugin from 'terser-webpack-plugin';
 import CopyPlugin from 'copy-webpack-plugin'; 
 
-import LiquidJsPlugin from "./LiquidJsPlugin.js"; // Render liquid template in JS files
+import LiquidJsPlugin from "./webpack_liquid.js"; // Render liquid template in JS files
 
 module.exports = {
   entry: {
