@@ -1,8 +1,10 @@
 import fs from "fs";
 import path from "path";
-import { sources } from "webpack";
 import Liquid from "liquid-node";
 import yaml from "js-yaml";
+import webpack from "webpack";
+const { sources } = webpack;
+
 
 export default class LiquidJsPlugin {
   constructor(options = {}) {
