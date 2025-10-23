@@ -661,6 +661,15 @@ The setup copies the CSS and webfonts from `node_modules` to the site’s assets
 
 This allows you to use Font Awesome classes in your HTML, while keeping the fonts and CSS bundled correctly by Webpack.
 
+
+### JavaScript Minification
+
+All other JavaScript files in your Jekyll site (outside of `_webpack` builds) are automatically minified using **Jekyll Terser**.  
+
+- Terser processes these JS files during the Jekyll build.  
+- The resulting files are minified, reducing file size and improving load performance.  
+- `_webpack`-generated files are **not affected** by Jekyll Terser, since they are already minified via Webpack.
+
 ### How to Set Up
 
 1. **Install Jekyll**:
