@@ -111,6 +111,15 @@ plugins:
   - jekyll-minifier
   - jekyll-terser
 
+# -----------------------------------------------------------------------------
+# Jekyll Minifier
+# -----------------------------------------------------------------------------
+
+jekyll-minifier:
+  compress_javascript: false # set to false since we are using terser as the js minifier
+  compress_css: false
+  exclude: ["robots.txt", "search.json", "assets/js/pwa/manifest.json"]
+
 
 # -----------------------------------------------------------------------------
 # Jekyll PurgeCSS
