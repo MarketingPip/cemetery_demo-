@@ -70,11 +70,13 @@
 
 
    <script type="text/javascript">
-   {% file_read {{baseurl}}/assets/js/pwa/config.js  %}
+{% capture config_js_path %}{{ base_url }}/assets/js/pwa/config.js{% endcapture %}
+  {% file_read config_js_path %}
   </script>		
 	
   <script type="text/javascript">
-   {% file_read {{baseurl}}/assets/js/pwa/pwa.js  %}
+ {% capture pwa_js_path %}{{ base_url }}/assets/js/pwa/pwa.js{% endcapture %}
+  {% file_read pwa_js_path %}
   </script>
 
 
