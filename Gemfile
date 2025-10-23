@@ -20,7 +20,7 @@ gem 'jekyll-purge-css', :git => "https://github.com/MUmarShahbaz/jekyll-purge-cs
 gem 'parallel'
 gem 'jekyll-archives-v2'
 gem 'jekyll-terser', :git => "https://github.com/RobertoJBeltran/jekyll-terser.git"
-
+gem 'mini_magick'
 
 
 # If you're using any CSS preprocessors (like Sass), you can add this:
