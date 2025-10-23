@@ -36,7 +36,7 @@ permalink: /
   <link href="{{ '/assets/css/tailwind.css' | relative_url }}" rel="stylesheet">
  
   <style>
-    {{ '/assets/css/tailwind.css' | file_read }}
+    {% file_read '/assets/css/tailwind.css'  %}
   </style>
 
 
