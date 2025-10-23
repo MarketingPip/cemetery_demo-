@@ -127,11 +127,9 @@ permalink: /
 
       <!-- JFA PWA Toolkit -->
 
-{% capture base_path %}
-{{ base_url }}
-{% endcapture %}
+{% capture base_path %}{{ base_url }}{% endcapture %}
 	
-{% include pwa.html base_url=base_path %}
+{% include pwa.html base_url={{ base_url}} %}
  
 	
   <script type="text/javascript" src="./assets/js/pageTransition.js" defer></script>
