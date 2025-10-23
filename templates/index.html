@@ -29,30 +29,11 @@ permalink: /
   <!-- Title -->
   <title>{{site.title}} | Preserving Local History and Genealogy</title>
 
-  <!-- Favicon for Branding -->
-  <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
-  
-  <!-- TailwindCSS for styling -->
-  <!-- <link href="{{ '/assets/css/tailwind.css' | relative_url }}" rel="stylesheet"> -->
- 
-  <style>
-    {% file_read /assets/css/tailwind.css  %}
-  </style>
 
 
-
+ {% include head_content.html base_url=base_url %}
 	
-<!-- ✅ Font Awesome Icons (latest, non-blocking) -->
-<link
-  rel="stylesheet"
-  href="{{ '/assets/css/font-awesome.css' | relative_url }}"
-  media="print"
-  onload="this.media='all'"
-  integrity="..." crossorigin="anonymous"
-/>
-<noscript>
-  <link rel="stylesheet" href="{{ '/assets/css/font-awesome.css' | relative_url }}">
-</noscript>
+
 
 <!-- ✅ PapaParse for CSV parsing (uncomment if used) -->
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" defer></script> -->
@@ -107,10 +88,7 @@ permalink: /
 -->
 
 <!-- Optional: Add your inline custom styles below -->
-	
-   <!-- Preload for font ---> 
-  <link rel="preload" href="{{base_url}}/assets/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
- <link rel="preload" href="{{base_url}}/assets/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+
 <!-- Preconnect for Tailwind CSS -->
 <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
 
@@ -125,11 +103,9 @@ permalink: /
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 <link rel="preconnect" href="https://unpkg.com" crossorigin>
 
-      <!-- JFA PWA Toolkit -->
-
-{% capture base_path %}{{ base_url }}{% endcapture %}
+ 
 	
-{% include pwa.html base_url=base_url %}
+
  
 	
   <script type="text/javascript" src="./assets/js/pageTransition.js" defer></script>
