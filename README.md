@@ -13,6 +13,7 @@ This is a Jekyll-based blog template that supports multiple authors. Each author
 - **Webpack**: Bundles and minifies JavaScript, manages Font Awesome, and allows custom entry points.
 - **Font Awesome Support**: Only the icons actually used in your site are included, reducing CSS size.
 - **Assets & Performance**: Tailwind CSS with PurgeCSS, Webpack-bundled JS, and Font Awesome including only used icons for optimized size and load speed.
+- **High Performance**: Optimized assets and build process deliver **excellent Lighthouse scores** for performance, accessibility, SEO, and best practices.
 - **PWA Support**: Enables offline access and app-like installation for your site.
   
 ## Example Usage
