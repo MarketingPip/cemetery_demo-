@@ -685,6 +685,87 @@ This site includes **Progressive Web App (PWA)** support via [Google Workbox](ht
 - The site can be installed on mobile devices or desktops, giving it an app-like experience.  
 - PWA features work seamlessly alongside Webpack, Tailwind, and other build tools in this project.
 
+
+Here’s a polished **“Assets & Build”** section for your README that explains exactly how Tailwind, PurgeCSS, Webpack, Font Awesome, and Jekyll Terser work together to achieve high performance and Lighthouse scores:
+
+````markdown
+### Assets & Build
+
+The site uses a modern, optimized front-end workflow to ensure fast load times, minimal asset sizes, and excellent Lighthouse scores.
+
+#### Tailwind CSS
+- Utility-first CSS framework for rapid styling.
+- Input file: `assets/css/_tailwind.css` (required).
+- Build command:
+  ```bash
+  npx tailwindcss -i ./assets/css/_tailwind.css -o ./assets/css/tailwind.css --minify
+````
+
+* PurgeCSS is used **only on Font Awesome CSS** to remove unused styles, preventing conflicts with Tailwind.
+
+#### Webpack
+
+* Bundles and minifies JavaScript files defined in `_webpack/webpack.config.js`.
+* Handles custom entry points and outputs minified JS to `assets/js/[name].min.js`.
+* Manages Font Awesome: copies `all.min.css` to `assets/css/font-awesome.css` and webfonts to `assets/webfonts/`.
+* Ensures only used Font Awesome icons are included, reducing CSS size.
+
+#### Jekyll Terser
+
+* Minifies all other JavaScript files outside of `_webpack`.
+* Automatically applied during the Jekyll build for smaller, optimized JS files.
+
+#### PWA Support
+
+* Service worker caches HTML, CSS, JS, and images for offline access.
+* Site can be installed on mobile or desktop devices for an app-like experience.
+
+#### Performance
+
+* Tailwind + PurgeCSS + Webpack + Terser + optimized Font Awesome results in **highly optimized assets**.
+* Achieves **excellent Lighthouse scores** for performance, accessibility, SEO, and best practices.
+
+```mermaid
+flowchart TD
+    A[_tailwind.css] --> B[Tailwind CSS Build]
+    B --> C[tailwind.css]
+    C --> D[assets/css/]
+    E[Font Awesome CSS] --> F[PurgeCSS only Font Awesome]
+    F --> D
+    E --> G[assets/webfonts/]
+
+    H[JavaScript _webpack entries] --> I[Webpack Bundling]
+    I --> J[assets/js/name.min.js]
+
+    K[Other JS Files] --> L[Jekyll Terser]
+    L --> J
+
+    D & J --> M[PWA Service Worker caches]
+    M --> N[Offline and app-like experience]
+```
+
+
+```mermaid
+flowchart TD
+    A[_tailwind.css] --> B[Tailwind CSS Build]
+    B --> C[tailwind.css]
+    C --> D[assets/css/]
+
+    E[Font Awesome source] --> F[Webpack Copy Plugin]
+    F --> G[assets/css/font-awesome.css]
+    F --> H[assets/webfonts/]
+    G --> I[PurgeCSS only Font Awesome]
+
+    J[JavaScript _webpack entries] --> K[Webpack Bundling]
+    K --> L[assets/js/name.min.js]
+
+    M[Other JS Files] --> N[Jekyll Terser]
+    N --> L
+
+    D & I & L --> O[PWA Service Worker caches]
+    O --> P[Offline and app-like experience]
+```
+
 ### How to Set Up
 
 1. **Install Jekyll**:
