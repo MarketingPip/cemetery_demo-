@@ -75,7 +75,7 @@ jobs:
       - name: Compress Images in _site/assets
         uses: MarketingPipeline/Image-Optimizer-Action@main
         with:
-          filename: assets/
+          filename: _site/assets/
           recursion: true
 
       - name: Upload artifact
