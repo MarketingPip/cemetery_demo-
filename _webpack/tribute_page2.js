@@ -566,7 +566,7 @@ const map = L.map("cemetery-map", {
 }).setView([51.505, -0.09], 13);
 
       // Base layers
-      const osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      const osmLayer = L.tileLayer('https://serveproxy.com/?url=https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         //maxZoom: 19,
         attribution: '© OpenStreetMap contributors',
 	updateWhenIdle: true      
