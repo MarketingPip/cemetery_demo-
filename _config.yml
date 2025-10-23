@@ -110,6 +110,7 @@ plugins:
   - jekyll-purge-css
   - jekyll-minifier
   - jekyll-terser
+  - jekyll-archives-v2
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
