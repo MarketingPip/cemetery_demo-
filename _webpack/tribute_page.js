@@ -1,3 +1,4 @@
+{% assign base_url = site.baseurl | default: "" %}
 
 import * as markmap from "markmap-lib";
 import { Markmap, loadCSS, loadJS } from "markmap-view";
