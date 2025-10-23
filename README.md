@@ -601,6 +601,65 @@ GET /api/categories/tech.json
 }
 ```
 
+### Webpack
+
+Webpack is used to bundle JavaScript files that include `import` or `export` statements.  
+The configuration can be found in the `_webpack` directory, where you can also define additional entry points as needed.  
+
+For a detailed overview of the build process, see the [Webpack README](_webpack/README.md).
+
+
+### Tailwind CSS
+
+Tailwind is used to generate the site’s CSS using utility classes.  
+The build process installs Tailwind and its required PostCSS tools:
+
+```bash
+npm install tailwindcss@3.4.17 postcss autoprefixer
+npx tailwindcss -i ./assets/css/_tailwind.css -o ./assets/css/tailwind.css --minify
+````
+
+The file **`/assets/css/_tailwind.css`** is required as the input source.
+It typically includes the base Tailwind directives:
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+When you run the Tailwind build command, it processes `_tailwind.css`, applies PostCSS and Autoprefixer, and outputs a minified stylesheet to **`/assets/css/tailwind.css`**, which is the file included in your Jekyll site.
+
+### PurgeCSS
+
+PurgeCSS is used to remove unused CSS from specific stylesheets, keeping file sizes smaller.  
+
+In this setup, PurgeCSS is **only applied to Font Awesome** to avoid breaking Tailwind:
+
+```yaml
+PurgeCSS:
+  content: ["_site/**/*.html", "_site/**/*.js"]
+  css: ["_site/assets/css/font-awesome.css"] # Only purge Font Awesome; PurgeCSS will break Tailwind
+  output: _site/assets/css/
+````
+
+* `content` specifies the HTML and JS files to scan for used classes.
+* `css` lists the stylesheets to purge — here, only **Font Awesome** is targeted.
+* `output` defines where the purged CSS is saved.
+
+> ⚠️ Tailwind CSS is **not purged** because removing unused classes can break its utility-based design.
+
+
+### Font Awesome
+
+Font Awesome icons are included and managed via Webpack then purged via PurgeCSS.  
+
+The setup copies the CSS and webfonts from `node_modules` to the site’s assets:
+
+- `all.min.css` → `assets/css/font-awesome.css`  
+- `webfonts/` → `assets/webfonts/`  
+
+This allows you to use Font Awesome classes in your HTML, while keeping the fonts and CSS bundled correctly by Webpack.
 
 ### How to Set Up
 
