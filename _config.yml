@@ -65,6 +65,9 @@ exclude:
   - package.json
   - vendor
   - _webpack
+  - postcss.config.js
+  - tailwind.config.js
+  - package-lock.json
 # Timezone for timestamp conversion
 timezone: UTC
 
