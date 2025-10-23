@@ -7,7 +7,12 @@ This is a Jekyll-based blog template that supports multiple authors. Each author
 - **Multi-Author Support**: Easily add multiple authors with dedicated pages.
 - **CSV to JSON Conversion**: Convert a CSV file to JSON to integrate external data.
 - **Post Assignment to Authors**: Assign authors to blog posts by referencing their author file.
+- **Category & Tag Support**: Organize posts with categories and tags for easy navigation and filtering.
 - **JSON API Endpoints**: Automatically generate RESTful JSON endpoints for posts, authors, categories, and tags.
+- **Tailwind CSS & PurgeCSS**: Utility-first CSS with minimized output via PurgeCSS for optimal performance.
+- **Webpack**: Bundles and minifies JavaScript, manages Font Awesome, and allows custom entry points.
+- **Font Awesome Support**: Only the icons actually used in your site are included, reducing CSS size.
+- **PWA Support**: Enables offline access and app-like installation for your site.
   
 ## Example Usage
 
@@ -669,6 +674,15 @@ All other JavaScript files in your Jekyll site (outside of `_webpack` builds) ar
 - Terser processes these JS files during the Jekyll build.  
 - The resulting files are minified, reducing file size and improving load performance.  
 - `_webpack`-generated files are **not affected** by Jekyll Terser, since they are already minified via Webpack.
+
+### PWA Support
+
+This site includes **Progressive Web App (PWA)** support via [Google Workbox](https://github.com/GoogleChrome/workbox).  
+
+- It provides offline functionality, allowing the site to load even without an internet connection.  
+- A service worker manages caching of assets like HTML, CSS, JS, and images.  
+- The site can be installed on mobile devices or desktops, giving it an app-like experience.  
+- PWA features work seamlessly alongside Webpack, Tailwind, and other build tools in this project.
 
 ### How to Set Up
 
