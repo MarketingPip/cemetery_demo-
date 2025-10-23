@@ -35,8 +35,11 @@ module Jekyll
           body_content = content
         end
 
-        # Expand any variables within the body content (like liquid variables)
+        # First, expand any Jekyll context variables (like site.baseurl, site.title, etc.)
         expanded_content = context.evaluate(body_content)
+
+        # If any variables like `base_url` are set in the file (e.g., {% assign base_url = site.baseurl %}), handle that too
+        expanded_content = context.evaluate(expanded_content)
 
         # Cache the result
         @@cache[@file_path] = expanded_content
@@ -49,7 +52,6 @@ module Jekyll
     end
   end
 end
-
 
 # Register the tag with Jekyll
 Liquid::Template.register_tag('file_read', Jekyll::FileReadTag)
