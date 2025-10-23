@@ -19,6 +19,7 @@ gem 'nokogiri'
 gem 'jekyll-purge-css', :git => "https://github.com/MUmarShahbaz/jekyll-purge-css.git"
 gem 'parallel'
 gem 'jekyll-archives-v2'
+gem 'jekyll-terser', :git => "https://github.com/RobertoJBeltran/jekyll-terser.git"
 
 
 
