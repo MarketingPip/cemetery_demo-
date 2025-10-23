@@ -38,7 +38,7 @@ module Jekyll
       # Construct full file paths
       full_image_path = File.join(Dir.pwd, image_path)
       file_extension = File.extname(image_path).downcase
-      optimized_image_path = File.join(optimized_dir, File.basename(image_path, '.*') + '.webp')
+      optimized_image_path = File.join(Dir.pwd, '_site', optimized_dir, File.basename(image_path, '.*') + '.webp')
 
       # Only process images if they exist
       if File.exist?(full_image_path)
