@@ -35,11 +35,9 @@ module Jekyll
           body_content = content
         end
 
-        # First, expand any Jekyll context variables (like site.baseurl, site.title, etc.)
-        expanded_content = context.evaluate(body_content)
-
-        # If any variables like `base_url` are set in the file (e.g., {% assign base_url = site.baseurl %}), handle that too
-        expanded_content = context.evaluate(expanded_content)
+        # Fully evaluate the Liquid content (this includes handling {% assign %} and other tags)
+        # This is key because we want to process things like `{% assign base_url = site.baseurl %}`
+        expanded_content = context.registers[:site].liquid_renderer.file(file_path).render!(context)
 
         # Cache the result
         @@cache[@file_path] = expanded_content
