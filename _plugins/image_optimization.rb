@@ -8,7 +8,7 @@ module Jekyll
 
     def generate(site)
       # Set directories for images to optimize
-      image_dir = site.config['image_dir'] || 'assets/images'
+      image_dir = 'assets/images'
       optimized_dir = 'assets/images/optimized'
 
       # Create optimized directory if it doesn't exist
@@ -38,7 +38,7 @@ module Jekyll
       # Construct full file paths
       full_image_path = File.join(Dir.pwd, image_path)
       file_extension = File.extname(image_path).downcase
-      optimized_image_path = File.join(Dir.pwd, '_site', optimized_dir, File.basename(image_path, '.*') + '.webp')
+      optimized_image_path = File.join(Dir.pwd, optimized_dir, File.basename(image_path, '.*') + '.webp')
 
       # Only process images if they exist
       if File.exist?(full_image_path)
