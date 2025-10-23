@@ -139,13 +139,18 @@ PurgeCSS:
 jekyll-archives:
   posts:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    layout:  tag
     permalinks:
       year: "/blog/:year/"
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-
+    layout:  tag
+    permalinks:
+      year: "/resources/books/:year/"
+      tags: "/resources/books/:type/:name/"
+      categories: "/resources/books/:type/:name/"
 # -----------------------------------------------------------------------------
 # Terser
 # -----------------------------------------------------------------------------
