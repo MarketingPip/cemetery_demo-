@@ -143,7 +143,7 @@ jekyll-archives:
 
 jekyll-minifier:
   compress_javascript: false # set to false since we are using terser as the js minifier
-  exclude: ["robots.txt", "search.json", "assets/js/pwa/manifest.json"]
+  exclude: ["robots.txt", "search.json", "assets/js/pwa/manifest.json", "_site/**/*.js", "assets/js/*.min.js", "assets/css/tailwind.css", "assets/css/font-awesome.css"]
 
 # -----------------------------------------------------------------------------
 # Terser
