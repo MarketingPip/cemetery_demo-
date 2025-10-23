@@ -1,13 +1,13 @@
 import fs from "fs";
 import path from "path";
 import { sources } from "webpack";
-import { Engine, LocalFileSystem } from "liquid-node";
+import Liquid from "liquid-node";
 import yaml from "js-yaml";
 
 export default class LiquidJsPlugin {
   constructor(options = {}) {
     this.options = options;
-    this.engine = new Engine();
+    this.engine = new Liquid.Engine();
   }
 
   loadJekyllData() {
@@ -32,7 +32,7 @@ export default class LiquidJsPlugin {
         },
         async (assets) => {
           const root = path.resolve(this.options.context || compiler.context);
-          this.engine.registerFileSystem(new LocalFileSystem(root));
+          this.engine.registerFileSystem(new Liquid.LocalFileSystem(root));
 
           if (typeof this.options.filters === "object") {
             this.engine.registerFilters(this.options.filters);
