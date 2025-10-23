@@ -12,7 +12,7 @@ clean_json: true
         {% capture item_json %}
           {
             "title"    : "{{ item.title | escape }}",
-            "category" : "{{ item.category | default: 'Uncategorized' }}",
+            "category" : "{{ item.category.name | default: 'Uncategorized' }}",
             "tags"     : "{{ item.tags | join: ', ' }}",
             "url"      : "{{ site.baseurl }}{{ item.url }}",
             "date"     : "{{ item.date | date: '%Y-%m-%d' }}"
