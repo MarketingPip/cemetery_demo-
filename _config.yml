@@ -108,6 +108,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-purge-css
+  - jekyll-minifier
+  - jekyll-terser
 
 
 # -----------------------------------------------------------------------------
@@ -133,6 +135,23 @@ jekyll-archives:
       categories: "/blog/:type/:name/"
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+
+
+# -----------------------------------------------------------------------------
+# Jekyll Minifier
+# -----------------------------------------------------------------------------
+
+jekyll-minifier:
+  compress_javascript: false # set to false since we are using terser as the js minifier
+  exclude: ["robots.txt"]
+
+# -----------------------------------------------------------------------------
+# Terser
+# -----------------------------------------------------------------------------
+
+terser:
+  compress:
+    drop_console: true
 
   
 assets:
