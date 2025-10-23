@@ -12,6 +12,7 @@ This is a Jekyll-based blog template that supports multiple authors. Each author
 - **Tailwind CSS & PurgeCSS**: Utility-first CSS with minimized output via PurgeCSS for optimal performance.
 - **Webpack**: Bundles and minifies JavaScript, manages Font Awesome, and allows custom entry points.
 - **Font Awesome Support**: Only the icons actually used in your site are included, reducing CSS size.
+- **Assets & Performance**: Tailwind CSS with PurgeCSS, Webpack-bundled JS, and Font Awesome including only used icons for optimized size and load speed.
 - **PWA Support**: Enables offline access and app-like installation for your site.
   
 ## Example Usage
