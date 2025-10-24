@@ -152,7 +152,7 @@ const PWA_CONFIG = {
     // Precache config
     precache: {
         // Enable/disable precaching
-        active: false,
+        active: true,
         // Routes to
         routes: [
        //     '/page1.html',
