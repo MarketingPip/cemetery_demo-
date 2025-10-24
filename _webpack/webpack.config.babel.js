@@ -4,7 +4,6 @@ import path from 'path';
 import TerserPlugin from 'terser-webpack-plugin';
 import CopyPlugin from 'copy-webpack-plugin'; 
 
-import LiquidJsPlugin from "./webpack_liquid.js"; // Render liquid template in JS files
 
 module.exports = {
   entry: {
@@ -48,14 +47,6 @@ module.exports = {
   },
 
   plugins: [
-    new LiquidJsPlugin({
-      jekyllConfig: "../_config.yml", // Path to Jekyll config
-      context: path.resolve(__dirname, ".."), // Base folder for Liquid templates
-      // Optional: custom filters
-      filters: {
-        upcase: (v) => v.toUpperCase(),
-      },
-    }),
     new CopyPlugin({
       patterns: [
         {
