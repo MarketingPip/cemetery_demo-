@@ -25,6 +25,7 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
+        include: path.resolve(__dirname, "_webpack"), // JS files with Liquid templates
         use: [
           {
             loader: path.resolve("./liquid-loader.js")
