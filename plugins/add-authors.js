@@ -144,7 +144,7 @@ export const plugin = {
       `,
       (ctx) => {
         // Load authors when tab is activated
-        loadAuthors();
+        loadAuthors(context);
       }
     );
 
@@ -275,7 +275,7 @@ export const plugin = {
     }
 
     // Load authors from repository
-    async function loadAuthors() {
+    async function loadAuthors(pluginContext) {
       const loadingEl = document.getElementById('loading-authors');
       const listEl = document.getElementById('authors-list');
       const noAuthorsEl = document.getElementById('no-authors');
@@ -285,18 +285,8 @@ export const plugin = {
       noAuthorsEl.classList.add('hidden');
 
       try {
-        const config = JSON.parse(localStorage.getItem('jekyll_config') || '{}');
-        if (!config.token || !config.owner || !config.repo) {
-          context.showAlert('Please configure GitHub settings first', 'error');
-          loadingEl.classList.add('hidden');
-          return;
-        }
- 
 
-        // For now, use Octokit directly
-        const octokitModule = await import('https://cdn.skypack.dev/@octokit/core');
-        const { Octokit } = octokitModule;
-        const octokit = new Octokit({ auth: config.token });
+        const octokit = pluginContext.getOctokit
 
         const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
           owner: config.owner,
@@ -354,7 +344,7 @@ export const plugin = {
         btn.addEventListener('click', async (e) => {
           const path = e.currentTarget.dataset.path;
           const sha = e.currentTarget.dataset.sha;
-          await editAuthor(path, sha);
+          await editAuthor(path, sha, pluginContext);
         });
       });
 
@@ -363,7 +353,7 @@ export const plugin = {
           const path = e.currentTarget.dataset.path;
           const sha = e.currentTarget.dataset.sha;
           const name = e.currentTarget.dataset.name;
-          await deleteAuthor(path, sha, name);
+          await deleteAuthor(path, sha, name, pluginContext);
         });
       });
     }
@@ -404,12 +394,9 @@ export const plugin = {
     }
 
     // Edit author
-    async function editAuthor(path, sha) {
+    async function editAuthor(path, sha, pluginContext) {
       try {
-        const config = JSON.parse(localStorage.getItem('jekyll_config') || '{}');
-        const octokitModule = await import('https://cdn.skypack.dev/@octokit/core');
-        const { Octokit } = octokitModule;
-        const octokit = new Octokit({ auth: config.token });
+        const octokit = pluginContext.getOctokit
 
         const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
           owner: config.owner,
@@ -443,16 +430,13 @@ export const plugin = {
     }
 
     // Delete author
-    async function deleteAuthor(path, sha, name) {
+    async function deleteAuthor(path, sha, name, pluginContext) {
       if (!confirm(`Are you sure you want to delete author "${formatAuthorName(name)}"?`)) {
         return;
       }
 
       try {
-        const config = JSON.parse(localStorage.getItem('jekyll_config') || '{}');
-        const octokitModule = await import('https://cdn.skypack.dev/@octokit/core');
-        const { Octokit } = octokitModule;
-        const octokit = new Octokit({ auth: config.token });
+        const octokit = pluginContext.getOctokit;
 
         await octokit.request('DELETE /repos/{owner}/{repo}/contents/{path}', {
           owner: config.owner,
@@ -463,14 +447,14 @@ export const plugin = {
         });
 
         context.showAlert('Author deleted successfully', 'success');
-        await loadAuthors();
+        await loadAuthors(pluginContext);
       } catch (error) {
         context.showAlert('Error deleting author: ' + error.message, 'error');
       }
     }
 
     // Save author
-    async function saveAuthor() {
+    async function saveAuthor(pluginContext) {
       const els = getFormElements();
       const name = els.name.value.trim();
       const slug = els.slug.value.trim();
@@ -504,10 +488,7 @@ export const plugin = {
       const path = `_authors/${filename}`;
 
       try {
-        const config = JSON.parse(localStorage.getItem('jekyll_config') || '{}');
-        const octokitModule = await import('https://cdn.skypack.dev/@octokit/core');
-        const { Octokit } = octokitModule;
-        const octokit = new Octokit({ auth: config.token });
+        const octokit = pluginContext.getOctokit
 
         let sha = currentEditAuthor?.sha;
 
@@ -539,7 +520,7 @@ export const plugin = {
         context.showAlert(`Author ${action} successfully!`, 'success');
         
         hideAuthorForm();
-        await loadAuthors();
+        await loadAuthors(pluginContext);
       } catch (error) {
         context.showAlert('Error saving author: ' + error.message, 'error');
       }
@@ -571,10 +552,19 @@ export const plugin = {
         showAuthorForm(false);
       });
 
-      document.getElementById('refresh-authors-btn')?.addEventListener('click', loadAuthors);
+      // Add event listener with argument
+document.getElementById('refresh-authors-btn')?.addEventListener('click', (event) => {
+  // Pass an additional argument (e.g., 'admin') to the loadAuthors function
+  loadAuthors(pluginContext);
+});
+
+document.getElementById('save-author-btn')?.addEventListener('click', (event) => {
+  // Pass an additional argument (e.g., 'admin') to the loadAuthors function
+  saveAuthor(pluginContext);
+});      
+
       document.getElementById('cancel-author-btn')?.addEventListener('click', hideAuthorForm);
       document.getElementById('clear-author-btn')?.addEventListener('click', clearAuthorForm);
-      document.getElementById('save-author-btn')?.addEventListener('click', saveAuthor);
     }, 500);
 
     context.showAlert('Author Manager plugin loaded! Go to the Authors tab to manage author profiles.', 'success');
