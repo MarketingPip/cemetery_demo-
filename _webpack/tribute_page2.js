@@ -496,16 +496,37 @@ const geojsonData = {
   ]
 };
 
+ // IntersectionObserver callback
+function createObserver(arg) {
+  return function(entries, observer) {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        renderMap(arg);
+        observer.unobserve(entry.target);
+      }
+    });
+  }
+}
 
+ 
+
+
+
+	
   // Lazy load leaflet
 async function loadLeaflet() {
   const L = (await import("leaflet")).default;
   window.L = L;
   await import("leaflet.markercluster");
-  renderMap(L);
+  const mapElement = document.getElementById('cemetery-map');
+  const observer = new IntersectionObserver(createObserver(L), { threshold: 0.1 });	
+  observer.observe(mapElement);	
 }
 
-  
+
+
+
+	
 function renderMap(pkg){ 
 
 const L = pkg
