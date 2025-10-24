@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import Liquid from "liquid-node";
+import Liquid from "liquid";
 import yaml from "js-yaml";
 import webpack from "webpack";
 const { sources } = webpack;
