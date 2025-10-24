@@ -496,17 +496,15 @@ const geojsonData = {
   ]
 };
 
- // IntersectionObserver callback
-function createObserver(arg) {
-  return function(entries, observer) {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        renderMap(arg);
-        observer.unobserve(entry.target);
-      }
-    });
-  }
-}
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      // Perform actions like lazy loading
+	  renderMap(window.L);	
+      observer.unobserve(entry.target); // Stop observing after it's visible
+    } 
+  });
+});
 
  
 
@@ -519,8 +517,7 @@ async function loadLeaflet() {
   window.L = L;
   await import("leaflet.markercluster");
   const mapElement = document.getElementById('cemetery-map');
-  const observer = new IntersectionObserver(createObserver(L), { threshold: 0.1 });	
-  observer.observe(mapElement);	
+  observer.observe(mapElement);
 }
 
 
