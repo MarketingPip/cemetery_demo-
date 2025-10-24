@@ -1,3 +1,6 @@
+document.addEventListener("DOMContentLoaded", () => {
+
+
 const overlay = document.getElementById('nav-overlay');
 const menu = document.getElementById('mobile-menu');
 
@@ -40,3 +43,6 @@ document.querySelectorAll('#mobile-menu a[href^="#"]').forEach(link => {
     document.getElementById('mobile-menu').classList.add('translate-x-full');
   });
 });
+
+
+});  
