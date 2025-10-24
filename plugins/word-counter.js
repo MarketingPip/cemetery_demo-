@@ -1,5 +1,5 @@
 // Example: word-counter.js
-export const plugin = {
+const plugin = {
   name: "Word Counter",
   version: "1.0.0",
   description: "Adds word count display to editor",
