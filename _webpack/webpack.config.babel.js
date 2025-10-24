@@ -4,8 +4,6 @@ import path from 'path';
 import TerserPlugin from 'terser-webpack-plugin';
 import CopyPlugin from 'copy-webpack-plugin'; 
 
-import LiquidJsPlugin from "./webpack_liquid.js"; // Render liquid template in JS files
-
 module.exports = {
   entry: {
     // Define multiple entry points
@@ -23,15 +21,6 @@ module.exports = {
   },
   module: {
     rules: [
-      {
-        test: /\.js$/,
-        include: path.resolve(__dirname, "_webpack"), // JS files with Liquid templates
-        use: [
-          {
-            loader: path.resolve("./liquid-loader.js")
-          }
-        ]
-      },
       {
         test: /\.js$/,  // Use Babel for all JS files
         exclude: /node_modules/,
