@@ -1,5 +1,6 @@
 ---
 layout: none
+permalink: /sw.js
 ---
 {% assign base_url = site.baseurl | default: "" %}
 
