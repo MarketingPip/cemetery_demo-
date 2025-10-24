@@ -24,6 +24,14 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.js$/,
+        use: [
+          {
+            loader: path.resolve("./liquid-loader.js")
+          }
+        ]
+      },
+      {
         test: /\.js$/,  // Use Babel for all JS files
         exclude: /node_modules/,
         use: {
