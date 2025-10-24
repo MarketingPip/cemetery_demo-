@@ -1,3 +1,5 @@
+import {fadeOutAndHide} from "../assets/js/fadeOutAndHide.js"
+
 function getNames(data, getFirst = false) {
   const suffixes = new Set(["jr", "sr", "ii", "iii", "iv", "v"]);
 
@@ -377,58 +379,6 @@ function debounce(func, wait) {
       });
     }
 
-const overlay = document.getElementById('nav-overlay');
-const menu = document.getElementById('mobile-menu');
-
-function handleOverlayClick() {
-  overlay.classList.add('hidden');
-  menu.classList.remove('translate-x-0');
-  menu.classList.add('translate-x-full');
-  overlay.removeEventListener('click', handleOverlayClick);
-}
-
-document.getElementById('menu-toggle').addEventListener('click', () => {
-  if (menu.classList.contains('translate-x-full')) {
-    menu.classList.remove('translate-x-full');
-    menu.classList.add('translate-x-0');
-    overlay.addEventListener('click', handleOverlayClick);
-    overlay.classList.remove('hidden');
-  } else {
-    menu.classList.remove('translate-x-0');
-    menu.classList.add('translate-x-full');
-    overlay.classList.add('hidden');
-    overlay.removeEventListener('click', handleOverlayClick);
-  }
-});
-
-window.addEventListener('resize', () => {
-  const desktopWidth = 1024;
-  const isMenuOpen = !overlay.classList.contains('hidden') && menu.classList.contains('translate-x-0');
-
-  if (window.innerWidth >= desktopWidth && isMenuOpen) {
-    overlay.classList.add('hidden');
-    menu.classList.remove('translate-x-0');
-    menu.classList.add('translate-x-full');
-    overlay.removeEventListener('click', handleOverlayClick);
-  }
-});
-
-// Close menu when clicking any link with #
-document.querySelectorAll('#mobile-menu a[href^="#"]').forEach(link => {
-  link.addEventListener('click', () => {
-    document.getElementById('mobile-menu').classList.add('translate-x-full');
-  });
-});
-
-/* Handle Dropdown Toggle
-
-document.querySelectorAll('[data-dropdown-toggle]').forEach(button => {
-  button.addEventListener('click', () => {
-    const dropdown = button.nextElementSibling;
-    dropdown.classList.toggle('hidden');
-  });
-});
-*/
 
     
 document.addEventListener("DOMContentLoaded", function () {
@@ -774,55 +724,8 @@ L.geoJSON(geojsonData, {
  
 
 
-
-
-// Select the button
-const backToTopBtn = document.getElementById("backToTopBtn");
-
-// Show/hide the button when scrolling
-window.addEventListener("scroll", () => {
-  if (window.scrollY > 300) {
-    backToTopBtn.classList.remove("hidden");
-    backToTopBtn.classList.add("opacity-100");
-  } else {
-    backToTopBtn.classList.add("hidden");
-    backToTopBtn.classList.remove("opacity-100");
-  }
-});
-
-// Smooth scroll to top when clicked
-backToTopBtn.addEventListener("click", () => {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth"
-  });
-});
-
   
   
-  // page loader
- 
-function fadeOutAndHide(elementId, hide = true) {
-    const element = document.querySelector(elementId);
-
-    if (element) {
-        // Apply Tailwind fade-out classes
-        element.classList.add('opacity-0', 'transition-opacity', 'duration-500');
-
-        // Listen for the end of the transition
-        const onTransitionEnd = () => {
-            if (hide) {
-                // Hide the element after the transition ends
-                element.classList.add('hidden');
-            }
-            // Remove the event listener after the transition ends
-            element.removeEventListener('transitionend', onTransitionEnd);
-        };
-
-        // Add the event listener for the transitionend event
-        element.addEventListener('transitionend', onTransitionEnd);
-    }
-}
 
 
   function enableAllResources() {
