@@ -291,19 +291,7 @@ export const plugin = {
           loadingEl.classList.add('hidden');
           return;
         }
-
-        const response = await fetch(`https://api.anthropic.com/v1/messages`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            model: 'claude-sonnet-4-20250514',
-            max_tokens: 1000,
-            messages: [{
-              role: 'user',
-              content: `Using GitHub API, fetch all files from _authors folder in ${config.owner}/${config.repo}. Return only a JSON array of file objects with name, path, and sha properties. Token: ${config.token}`
-            }]
-          })
-        });
+ 
 
         // For now, use Octokit directly
         const octokitModule = await import('https://cdn.skypack.dev/@octokit/core');
