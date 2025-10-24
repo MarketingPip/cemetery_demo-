@@ -111,7 +111,6 @@ permalink: /
   <script type="text/javascript" src="./assets/js/pageTransition.js" defer></script>
 
   <!-- Required for main page leaflet & table for cemetery data -->
-  <link rel="preload" as="script" href="{{ '/assets/js/tribute_page2.min.js' | relative_url }}">	
   <link rel="preload" href="./assets/cemetery_data.json" as="fetch" crossOrigin="anonymous"/>	
   <style>
 
@@ -915,14 +914,15 @@ html {
   <!-- Footer -->
 {% include footer.html %}
 
-<script type="module"  src="{{ '/assets/js/lazysizes.min.js' | relative_url }}" async> </script>
-  
+
+<script>
+    {% file_read /assets/js/lazysizes.min.js  %}
+</script>	
  
 
-	
-  <script type="module" src="{{ '/assets/js/tribute_page2.min.js' | relative_url }}" defer> </script>
-
-   
+<script>
+    {% file_read /assets/js/tribute_page2.min.js  %}
+</script>
 
     
   <!-- Back to Top Button -->
