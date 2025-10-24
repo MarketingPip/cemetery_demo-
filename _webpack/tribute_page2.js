@@ -516,7 +516,7 @@ async function loadLeaflet() {
   const L = (await import("leaflet")).default;
   window.L = L;
   await import("leaflet.markercluster");
-  const mapElement = document.getElementById('cemetery-map');
+  const mapElement = document.getElementById('map');
   observer.observe(mapElement);
 }
 
