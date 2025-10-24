@@ -686,7 +686,6 @@ This site includes **Progressive Web App (PWA)** support via [Google Workbox](ht
 - The site can be installed on mobile devices or desktops, giving it an app-like experience.  
 - PWA features work seamlessly alongside Webpack, Tailwind, and other build tools in this project.
 
-Here’s a refined version for your README that mentions “critical” CSS/JS:
 
 ### Inline Critical CSS & JS in Jekyll
 
