@@ -686,10 +686,27 @@ This site includes **Progressive Web App (PWA)** support via [Google Workbox](ht
 - The site can be installed on mobile devices or desktops, giving it an app-like experience.  
 - PWA features work seamlessly alongside Webpack, Tailwind, and other build tools in this project.
 
+Here’s a refined version for your README that mentions “critical” CSS/JS:
 
-Here’s a polished **“Assets & Build”** section for your README that explains exactly how Tailwind, PurgeCSS, Webpack, Font Awesome, and Jekyll Terser work together to achieve high performance and Lighthouse scores:
+### Inline Critical CSS & JS in Jekyll
 
-````markdown
+For small or critical assets, you can inline CSS or JS directly in your pages using the custom Jekyll `file_read` tag:
+
+```html
+<!-- Inline critical JS -->
+<script>
+  {% file_read /assets/js/nav_menu.js %}
+</script>
+
+<!-- Inline critical CSS -->
+<style>
+  {% file_read /assets/css/styles.css %}
+</style>
+````
+
+Inlining critical code can improve page load performance by reducing additional HTTP requests.
+
+
 ### Assets & Build
 
 The site uses a modern, optimized front-end workflow to ensure fast load times, minimal asset sizes, and excellent Lighthouse scores.
@@ -700,7 +717,7 @@ The site uses a modern, optimized front-end workflow to ensure fast load times, 
 - Build command:
   ```bash
   npx tailwindcss -i ./assets/css/_tailwind.css -o ./assets/css/tailwind.css --minify
-````
+  ````
 
 * PurgeCSS is used **only on Font Awesome CSS** to remove unused styles, preventing conflicts with Tailwind.
 
