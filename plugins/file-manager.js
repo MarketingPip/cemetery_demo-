@@ -8,7 +8,7 @@ export const plugin = {
       '<div id="preview-area" class="prose"></div>',
       async (ctx) => {
         const currentEditPost = this.context.currentEditPost;
-        const content = ctx.getFormData().content || this.currentFile;
+        const content = ctx.getFormData().content || this.currentContent;
 
         if (currentEditPost && currentEditPost.path) {
           const fileExtension = currentEditPost.path.split('.').pop().toLowerCase();
@@ -39,7 +39,7 @@ export const plugin = {
 
     // Adding the "File Manager" tab
     context.addTab('file-manager', '📂 File Manager',
-      '<div id="file-manager-container"><p>Loading...</p></div>',
+      '<div id="file-manager-container" class="p-4"><p>Loading...</p></div>',
       async (ctx) => {
         const { octokit, config } = context.getOctokit();
         const owner = config.owner;
@@ -68,31 +68,47 @@ export const plugin = {
           const fileManagerContainer = document.getElementById('file-manager-container');
           fileManagerContainer.innerHTML = ''; // Clear previous content
 
+          const fileListContainer = document.createElement('div');
+          fileListContainer.className = 'space-y-4';
+
           if (files.length === 0) {
             fileManagerContainer.innerHTML = '<p>No files or folders found in this directory.</p>';
             return;
           }
 
+          // "Go Up" Button to navigate to the parent folder
+          if (path) {
+            const goUpButton = document.createElement('button');
+            goUpButton.className = 'bg-blue-600 text-white px-4 py-2 rounded-md mb-4';
+            goUpButton.innerHTML = '⬆️ Go Up';
+            goUpButton.addEventListener('click', () => {
+              const parentPath = path.split('/').slice(0, -1).join('/');
+              renderFileManager(parentPath); // Go up to the parent folder
+            });
+            fileListContainer.appendChild(goUpButton);
+          }
+
           const fileList = document.createElement('ul');
-          fileList.className = 'file-list';
+          fileList.className = 'file-list space-y-2';
 
           files.forEach(file => {
             const fileItem = document.createElement('li');
-            fileItem.className = 'file-item';
+            fileItem.className = 'file-item flex justify-between items-center p-2 bg-gray-100 hover:bg-gray-200 rounded-md transition-colors';
+
             const isFolder = file.type === 'dir';
             const fileName = file.name;
             
             // Folder item: Render clickable folder
             if (isFolder) {
               fileItem.innerHTML = `
-                <span class="file-name">${fileName}/</span>
-                <button class="view-file-btn" data-path="${file.path}">View Folder</button>
+                <span class="file-name font-semibold">${fileName}/</span>
+                <button class="view-file-btn bg-blue-500 hover:bg-blue-600 text-white px-2 py-1 rounded-md text-sm" data-path="${file.path}">View Folder</button>
               `;
             } else {
               // File item: Render clickable file
               fileItem.innerHTML = `
                 <span class="file-name">${fileName}</span>
-                <button class="view-file-btn" data-path="${file.path}">View</button>
+                <button class="view-file-btn bg-green-500 hover:bg-green-600 text-white px-2 py-1 rounded-md text-sm" data-path="${file.path}">View</button>
               `;
             }
 
@@ -106,14 +122,15 @@ export const plugin = {
                 renderFileManager(path); // Recurse into the folder
               } else {
                 const fileContent = await getFileContent(path);
-                await showFilePreview(fileContent);
+                showFilePreview(fileContent);
               }
             });
 
             fileList.appendChild(fileItem);
           });
 
-          fileManagerContainer.appendChild(fileList);
+          fileListContainer.appendChild(fileList);
+          fileManagerContainer.appendChild(fileListContainer);
         };
 
         // Get file content from GitHub
@@ -131,6 +148,7 @@ export const plugin = {
               return decodedContent;
             }
 
+            this.context.currentEditPost = {path}
             return data.content; // Return content directly if not encoded
           } catch (error) {
             console.error('Error fetching file content:', error);
@@ -139,7 +157,7 @@ export const plugin = {
         };
 
         // Show file content in preview area
-        const showFilePreview = async (content) => {
+        const showFilePreview = (content) => {
           if (!content) {
             document.getElementById('preview-area').innerHTML = `
               <p><strong>Unable to load content.</strong></p>
@@ -150,11 +168,7 @@ export const plugin = {
           // Dynamically import the markdown parser (if content is markdown)
           const { marked } = await import('https://esm.sh/marked');
           const htmlContent = marked(content);
-
-          this.currentFile =  htmlContent
-
-          // Update preview area
-          document.getElementById('preview-area').innerHTML = htmlContent;
+          this.currentContent = htmlContent
         };
 
         // Load the file manager UI initially for the root directory
