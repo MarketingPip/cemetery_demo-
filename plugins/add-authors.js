@@ -8,8 +8,7 @@ export const plugin = {
     let currentEditAuthor = null;
     let authors = [];
 
-    this.octokit = context.getOctokit
-
+    this.octokit = context
     // Create the Authors tab
     const tab = context.addTab(
       'authors',
