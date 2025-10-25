@@ -46,6 +46,7 @@ export const plugin = {
 
     // Helper: Load Jekyll config
     async function loadConfig(pluginContext) {
+      console.log(pluginContext);
       const loadingEl = document.getElementById('loading-config');
       const listEl = document.getElementById('config-list');
       const noConfigEl = document.getElementById('no-config');
