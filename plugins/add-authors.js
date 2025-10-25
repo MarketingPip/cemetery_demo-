@@ -289,7 +289,7 @@ export const plugin = {
 
       try {
 
-        const { octokit, config } = pluginContext
+        const { octokit, config } = pluginContext.getOctokit()
 
         const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
           owner: config.owner,
@@ -399,7 +399,7 @@ export const plugin = {
     // Edit author
     async function editAuthor(path, sha, pluginContext) {
       try {
-        const { octokit, config } = pluginContext
+        const { octokit, config } = pluginContext.getOctokit()
 
         const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
           owner: config.owner,
@@ -439,7 +439,7 @@ export const plugin = {
       }
 
       try {
-        const { octokit, config } = pluginContext
+        const { octokit, config } = pluginContext.getOctokit()
 
         await octokit.request('DELETE /repos/{owner}/{repo}/contents/{path}', {
           owner: config.owner,
@@ -491,7 +491,7 @@ export const plugin = {
       const path = `_authors/${filename}`;
 
       try {
-        const { octokit, config } = pluginContext
+        const { octokit, config } = pluginContext.getOctokit()
 
         let sha = currentEditAuthor?.sha;
 
