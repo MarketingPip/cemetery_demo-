@@ -93,7 +93,7 @@ export const plugin = {
     // Listen for any event or trigger to refresh the author field
     // Example: You can listen for an event or hook here to know when the user returns to the author tab
     context.on('tab-switch', (tabName) => {
-      if (tabName === 'authors') {
+      if (tabName === 'create') {
         refreshAuthorField();  // Refresh the author list when navigating back to the author tab
       }
     });
