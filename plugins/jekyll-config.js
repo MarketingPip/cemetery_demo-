@@ -183,7 +183,7 @@ export const plugin = {
 
     // Refresh config
     document.getElementById('refresh-config-btn')?.addEventListener('click', (event) => {
-      loadConfig(this.octokit);
+      loadConfig(this.context);
     });
 
     context.showAlert('Jekyll Config Manager plugin loaded! Go to the Config tab to manage and update your Jekyll settings.', 'success');
