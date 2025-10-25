@@ -3,39 +3,6 @@ export const plugin = {
   async init(context) {
     this.context = context;
 
-    // Adding the "Preview" tab
-    context.addTab('preview', '👁️ Preview',
-      '<div id="preview-area" class="prose"></div>',
-      async (ctx) => {
-        const currentEditPost = this.context.currentEditPost;
-        const content = ctx.getFormData().content || this.currentContent;
-
-        if (currentEditPost && currentEditPost.path) {
-          const fileExtension = currentEditPost.path.split('.').pop().toLowerCase();
-
-          if (fileExtension === 'md' || !fileExtension) {
-            const { marked } = await import('https://esm.sh/marked');
-            const htmlContent = marked(content);
-            document.getElementById('preview-area').innerHTML = htmlContent;
-          } else {
-            document.getElementById('preview-area').innerHTML = `
-              <p><strong>Preview unavailable:</strong> The file type is not supported for live preview.</p>
-            `;
-          }
-        } else {
-          if (content) {
-            const { marked } = await import('https://esm.sh/marked');
-            const htmlContent = marked(content);
-            document.getElementById('preview-area').innerHTML = htmlContent;
-          } else {
-            document.getElementById('preview-area').innerHTML = `
-              <p><strong>No content available for preview.</strong></p>
-            `;
-          }
-        }
-      }
-    );
-
     // Adding the "File Manager" tab
     context.addTab('file-manager', '📂 File Manager',
       '<div id="file-manager-container" class="p-4"><p>Loading...</p></div>',
@@ -135,8 +102,7 @@ export const plugin = {
         currentFolderPath = path; // Update current path
         renderFileManager(path); // Recurse into the folder
       } else {
-        const fileContent = await getFileContent(path);
-        showFilePreview(fileContent);
+        await this.context.viewFile(path)
       }
     });
 
