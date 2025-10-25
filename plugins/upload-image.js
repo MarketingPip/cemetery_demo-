@@ -52,6 +52,7 @@ const uploadImage = async (file) => {
     // Ensure unique file name
     while (fileExists) {
       uploadPath = `assets/images/${baseName} (${counter}).${extension}`;
+      fileName = `${baseName} (${counter}).${extension}`;
       fileExists = await checkIfFileExists(uploadPath);
       counter++;
     }
@@ -68,7 +69,7 @@ const uploadImage = async (file) => {
     });
 
     // Return the URL to access the uploaded image
-    return response.data.content.download_url;
+    return fileName;
   } catch (error) {
     console.error('Error uploading image:', error);
     context.showAlert('Error uploading image. Please try again.', 'error');
@@ -166,8 +167,10 @@ const uploadImage = async (file) => {
         imagePath = null;  // Use a default image if needed
       }
 
+      if(imagePath){
       // Add the image field to the front matter
       frontMatter += `image: "${imagePath}"\n`;
+      }
       return frontMatter;
     };
 
