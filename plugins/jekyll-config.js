@@ -5,6 +5,7 @@ export const plugin = {
   
   async init(context) {
     let config = {};
+    let sha = '';  // Add a variable to store the SHA of the config file
 
     this.context = context;
     // Tab to show Jekyll config settings
@@ -65,7 +66,8 @@ export const plugin = {
         });
 
         const decodedConfig = atob(data.content); // Decode base64 content
-        
+        sha = data.sha; // Store the SHA of the file for later use in the update
+
         // Dynamically import `js-yaml` via ESM CDN
         const yaml = await import('https://cdn.esm.sh/js-yaml@4.1.0/dist/js-yaml.js');
 
@@ -113,7 +115,7 @@ export const plugin = {
             </div>
           </div>
         </div>
-      `).join('');
+      `).join('');  // Join the inner HTML for the config list
 
       // Attach event listeners to "Edit" buttons
       document.querySelectorAll('.edit-config').forEach(btn => {
@@ -163,12 +165,14 @@ export const plugin = {
         const yaml = await import('https://cdn.esm.sh/js-yaml@4.1.0/dist/js-yaml.js');
         const encodedConfig = btoa(yaml.dump(newConfigContent)); // Encode to base64
 
+        // Use the SHA value we fetched earlier to ensure we're updating the correct file
         await octokit.request('PUT /repos/{owner}/{repo}/contents/_config.yml', {
           owner: config.owner,
           repo: config.repo,
           path: '_config.yml',
           message: `Update config setting: ${configKey}`,
           content: encodedConfig,
+          sha: sha  // Provide the SHA for the file
         });
 
         context.showAlert('Config updated successfully!', 'success');
