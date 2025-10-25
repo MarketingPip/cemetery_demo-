@@ -103,6 +103,7 @@ export const plugin = {
       document.getElementById('image-url-or-upload').addEventListener('change', (event) => {
         const selectedOption = event.target.value;
 
+        this.selectedImage = selectedOption
         // Toggle the visibility of the URL input or the upload input
         document.getElementById('url-input-section').classList.toggle('hidden', selectedOption !== 'url');
         document.getElementById('upload-input-section').classList.toggle('hidden', selectedOption !== 'upload');
