@@ -557,12 +557,12 @@ export const plugin = {
       // Add event listener with argument
 document.getElementById('refresh-authors-btn')?.addEventListener('click', (event) => {
   // Pass an additional argument (e.g., 'admin') to the loadAuthors function
-  loadAuthors(pluginContext);
+  loadAuthors(this.octokit);
 });
 
 document.getElementById('save-author-btn')?.addEventListener('click', (event) => {
   // Pass an additional argument (e.g., 'admin') to the loadAuthors function
-  saveAuthor(pluginContext);
+  saveAuthor(this.octokit);
 });      
 
       document.getElementById('cancel-author-btn')?.addEventListener('click', hideAuthorForm);
