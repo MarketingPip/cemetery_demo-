@@ -50,7 +50,7 @@ export const plugin = {
             fileItem.querySelector('.view-file-btn').addEventListener('click', async (e) => {
               const path = e.target.getAttribute('data-path');
               const fileContent = await getFileContent(path);
-              showFilePreview(fileContent);
+              await showFilePreview(fileContent);
             });
 
             fileList.appendChild(fileItem);
@@ -82,7 +82,7 @@ export const plugin = {
         };
 
         // Show file content in preview area
-        const showFilePreview = (content) => {
+        const showFilePreview = async (content) => {
           if (!content) {
             document.getElementById('preview-area').innerHTML = `
               <p><strong>Unable to load content.</strong></p>
@@ -91,7 +91,7 @@ export const plugin = {
           }
 
           // Dynamically import the markdown parser (if content is markdown)
-          const { marked } = import('https://esm.sh/marked');
+          const { marked } = await import('https://esm.sh/marked');
           const htmlContent = marked(content);
 
           // Update preview area
