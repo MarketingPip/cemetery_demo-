@@ -301,7 +301,7 @@ export const plugin = {
         if (authors.length === 0) {
           noAuthorsEl.classList.remove('hidden');
         } else {
-          displayAuthors(authors);
+          displayAuthors(authors, pluginContext);
           listEl.classList.remove('hidden');
         }
       } catch (error) {
@@ -317,7 +317,7 @@ export const plugin = {
     }
 
     // Display authors in grid
-    function displayAuthors(authorsList) {
+    function displayAuthors(authorsList, pluginContext) {
       const listEl = document.getElementById('authors-list');
       
       listEl.innerHTML = authorsList.map(author => `
