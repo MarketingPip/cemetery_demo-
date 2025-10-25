@@ -892,83 +892,65 @@ export const plugin = {
     }
 
     // Load and execute a plugin
- async function loadPlugin(pluginPath, fileName) {
-  try {
-    const { octokit, config } = getOctokit();
+    async function loadPlugin(pluginPath, pluginName) {
+      try {
+        const { octokit, config } = getOctokit();
+        
+        showAlert(`Loading plugin: ${pluginName}...`, 'info');
 
-    showAlert(`Loading plugins from file: ${fileName}...`, 'info');
+        const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+          owner: config.owner,
+          repo: config.repo,
+          path: pluginPath
+        });
 
-    const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
-      owner: config.owner,
-      repo: config.repo,
-      path: pluginPath
-    });
+        const content = decodeURIComponent(escape(atob(data.content)));
 
-    const content = decodeURIComponent(escape(atob(data.content)));
+        // Create a data URL for the module
+        const blob = new Blob([content], { type: 'text/javascript' });
+        const url = URL.createObjectURL(blob);
 
-    // Create a data URL for the module
-    const blob = new Blob([content], { type: 'text/javascript' });
-    const url = URL.createObjectURL(blob);
+        try {
+          const module = await import(url);
+          console.log(module)
+          if (!module.plugin) {
+            throw new Error('Plugin must export a "plugin" object');
+          }
 
-    try {
-      const module = await import(url);
-      console.log(module);
+          const plugin = module.plugin;
 
-      // Determine the export format (supports .plugin, .plugins, or default export)
-      let plugins = [];
+          // Validate plugin structure
+          if (!plugin.name) plugin.name = pluginName;
+          if (!plugin.init || typeof plugin.init !== 'function') {
+            throw new Error('Plugin must have an init() function');
+          }
 
-      // Check if the module exports 'plugin', 'plugins', or 'default'
-      if (module.plugins) {
-        plugins = Array.isArray(module.plugins) ? module.plugins : [module.plugins];
-      } else if (module.plugin) {
-        plugins = [module.plugin]; // Single plugin exported as 'plugin'
-      } else if (module.default) {
-        plugins = Array.isArray(module.default) ? module.default : [module.default];
-      }
+          // Initialize the plugin
+          plugin.init(pluginContext);
 
-      // If no plugins were found in any of the exports
-      if (plugins.length === 0) {
-        throw new Error('Module does not export plugins or a plugin');
-      }
+          // Add action button if plugin provides one
+          if (plugin.action && plugin.action.label && plugin.action.handler) {
+            pluginContext.addPluginAction(plugin.action.label, plugin.action.handler);
+          }
 
-      // Iterate over each plugin exported from the module
-      for (const plugin of plugins) {
-        if (!plugin.name) plugin.name = fileName; // Default name if not provided
+          // Store loaded plugin
+          loadedPlugins[pluginName] = plugin;
+          
+          // Save to storage
+          const loadedPluginsData = storage.get(LOADED_PLUGINS_KEY) || {};
+          loadedPluginsData[pluginName] = true;
+          storage.set(LOADED_PLUGINS_KEY, loadedPluginsData);
 
-        if (!plugin.init || typeof plugin.init !== 'function') {
-          throw new Error(`Plugin ${plugin.name} must have an init() function`);
+          showAlert(`Plugin "${plugin.name}" loaded successfully!`, 'success');
+          loadPluginsList(); // Refresh the list
+        } finally {
+          URL.revokeObjectURL(url);
         }
-
-        // Initialize the plugin
-        plugin.init(pluginContext);
-
-        // Add action button if plugin provides one
-        if (plugin.action && plugin.action.label && plugin.action.handler) {
-          pluginContext.addPluginAction(plugin.action.label, plugin.action.handler);
-        }
-
-        // Store loaded plugin
-        loadedPlugins[plugin.name] = plugin;
-
-        // Save to storage
-        const loadedPluginsData = storage.get(LOADED_PLUGINS_KEY) || {};
-        loadedPluginsData[plugin.name] = true;
-        storage.set(LOADED_PLUGINS_KEY, loadedPluginsData);
-
-        showAlert(`Plugin "${plugin.name}" loaded successfully!`, 'success');
-      }
-
-      loadPluginsList(); // Refresh the list
-    } finally {
-      URL.revokeObjectURL(url);
+      } catch (error) {
+        console.error('Error loading plugin:', error);
+        showAlert(`Error loading plugin: ${error.message}`, 'error');
+      } 
     }
-
-  } catch (error) {
-    console.error('Error loading plugins:', error);
-    showAlert(`Error loading plugins: ${error.message}`, 'error');
-  }
-}
-
 
     // Unload a plugin 
     function unloadPlugin(pluginName) {
