@@ -1,0 +1,20 @@
+name: Echo Input Workflow
+
+on:
+  workflow_dispatch:
+    inputs:
+      message:
+        description: 'Message to Echo'
+        required: true
+        default: 'Hello, GitHub Actions!'
+        
+jobs:
+  echo-job:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Echo the input message
+        run: echo "The message is: ${{ github.event.inputs.message }}"
