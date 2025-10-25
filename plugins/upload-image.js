@@ -140,7 +140,7 @@ export const plugin = {
     context.frontMatterPlugins.push(imagePlugin);
 
     // Listen for the post published event
-    context.on('postPublished', async () => {
+    context.on('postSubmit', async () => {
       // Update front matter to include the image path if an image was selected (uploaded or URL)
       if (this.selectedImage) {
         await handleImageInput()
