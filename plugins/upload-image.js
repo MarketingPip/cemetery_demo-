@@ -24,6 +24,10 @@ export const plugin = {
           repo: config.repo,
           path: path,
         });
+
+        if(data?.status === "404"){
+          return false
+        }
         return data.name; // File exists, return data
       } catch (error) {
         return null; // File doesn't exist
