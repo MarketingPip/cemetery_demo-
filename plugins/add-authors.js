@@ -145,6 +145,7 @@ export const plugin = {
         </div>
       `,
       (ctx) => {
+        console.log(this.octokit + "hmm")
         // Load authors when tab is activated
         loadAuthors(this.octokit);
       }
