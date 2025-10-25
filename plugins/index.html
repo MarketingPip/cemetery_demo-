@@ -724,13 +724,14 @@ export const plugin = {
           : (frontMatter.tags || '');
         els.content.value = bodyContent.trim();
 
-        currentEditPost = { path, sha, frontMatter };
+        currentEditPost = { path, sha, frontMatter }; 
         els.editorModeIcon.textContent = '✏️';
         els.editorModeText.textContent = 'Edit Post';
         els.publishPost.textContent = '💾 Update Post';
         els.cancelEdit.classList.remove('hidden');
-
-        switchTab('create');
+ 
+        pluginContext.currentEditPost = currentEditPost;
+        switchTab('create'); 
         showAlert('Post loaded for editing', 'info');
       } catch (error) {
         console.error('Error loading post:', error);
@@ -745,6 +746,7 @@ export const plugin = {
       els.editorModeText.textContent = 'Create New Post';
       els.publishPost.textContent = '🚀 Publish Post';
       els.cancelEdit.classList.add('hidden');
+      pluginContext.currentEditPost = currentEditPost;
       clearForm();
     });
 
