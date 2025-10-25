@@ -62,132 +62,140 @@ export const plugin = {
         };
 
         // Render the file manager UI
-        const renderFileManager = async (path = '') => {
-          currentFolderPath = path; // Update current path whenever we render
-          const files = await getFiles(path);
-          const fileManagerContainer = document.getElementById('file-manager-container');
-          fileManagerContainer.innerHTML = ''; // Clear previous content
+    const renderFileManager = async (path = '') => {
+  currentFolderPath = path; // Update current path whenever we render
+  const files = await getFiles(path);
+  const fileManagerContainer = document.getElementById('file-manager-container');
+  
+  // Force reflow to ensure the DOM is properly updated
+  fileManagerContainer.offsetHeight; // This forces a reflow
 
-          const fileListContainer = document.createElement('div');
-          fileListContainer.className = 'space-y-4';
+  fileManagerContainer.innerHTML = ''; // Clear previous content
 
-          if (files.length === 0) {
-            fileManagerContainer.innerHTML = '<p>No files or folders found in this directory.</p>';
-            return;
-          }
+  const fileListContainer = document.createElement('div');
+  fileListContainer.className = 'space-y-4';
 
-          // "Go Up" Button to navigate to the parent folder
-          if (path) {
-            const goUpButton = document.createElement('button');
-            goUpButton.className = 'bg-blue-600 text-white px-4 py-2 rounded-md mb-4';
-            goUpButton.innerHTML = '⬆️ Go Up';
-            goUpButton.addEventListener('click', () => {
-              const parentPath = path.split('/').slice(0, -1).join('/');
-              renderFileManager(parentPath); // Go up to the parent folder
-            });
-            fileListContainer.appendChild(goUpButton);
-          }
+  if (files.length === 0) {
+    fileManagerContainer.innerHTML = '<p>No files or folders found in this directory.</p>';
+    return;
+  }
 
-          const fileList = document.createElement('ul');
-          fileList.className = 'file-list space-y-2';
+  // "Go Up" Button to navigate to the parent folder
+  if (path) {
+    const goUpButton = document.createElement('button');
+    goUpButton.className = 'bg-blue-600 text-white px-4 py-2 rounded-md mb-4';
+    goUpButton.innerHTML = '⬆️ Go Up';
+    goUpButton.addEventListener('click', () => {
+      const parentPath = path.split('/').slice(0, -1).join('/');
+      renderFileManager(parentPath); // Go up to the parent folder
+    });
+    fileListContainer.appendChild(goUpButton);
+  }
 
-          files.forEach(file => {
-            const fileItem = document.createElement('li');
-            fileItem.className = 'file-item flex justify-between items-center p-2 bg-gray-100 hover:bg-gray-200 rounded-md transition-colors';
+  const fileList = document.createElement('ul');
+  fileList.className = 'file-list space-y-2';
 
-            const isFolder = file.type === 'dir';
-            const fileName = file.name;
+  files.forEach(file => {
+    const fileItem = document.createElement('li');
+    fileItem.className = 'file-item flex justify-between items-center p-2 bg-gray-100 hover:bg-gray-200 rounded-md transition-colors';
 
-            // Folder item: Render clickable folder
-            if (isFolder) {
-              fileItem.innerHTML = `
-                <span class="file-name font-semibold">${fileName}/</span>
-                <button class="view-file-btn bg-blue-500 hover:bg-blue-600 text-white px-2 py-1 rounded-md text-sm" data-path="${file.path}">View Folder</button>
-                <button class="delete-file-btn bg-red-600 hover:bg-red-700 text-white px-2 py-1 rounded-md text-sm" data-path="${file.path}">🗑️ Delete</button>
-              `;
-            } else {
-              // File item: Render clickable file
-              fileItem.innerHTML = `
-                <span class="file-name">${fileName}</span>
-                <button class="view-file-btn bg-green-500 hover:bg-green-600 text-white px-2 py-1 rounded-md text-sm" data-path="${file.path}">View</button>
-                <button class="delete-file-btn bg-red-600 hover:bg-red-700 text-white px-2 py-1 rounded-md text-sm" data-path="${file.path}">🗑️ Delete</button>
-              `;
-            }
+    const isFolder = file.type === 'dir';
+    const fileName = file.name;
 
-            // Handle file preview
-            fileItem.querySelector('.view-file-btn').addEventListener('click', async (e) => {
-              const path = e.target.getAttribute('data-path');
+    // Folder item: Render clickable folder
+    if (isFolder) {
+      fileItem.innerHTML = `
+        <span class="file-name font-semibold">${fileName}/</span>
+        <button class="view-file-btn bg-blue-500 hover:bg-blue-600 text-white px-2 py-1 rounded-md text-sm" data-path="${file.path}">View Folder</button>
+        <button class="delete-file-btn bg-red-600 hover:bg-red-700 text-white px-2 py-1 rounded-md text-sm" data-path="${file.path}">🗑️ Delete</button>
+      `;
+    } else {
+      // File item: Render clickable file
+      fileItem.innerHTML = `
+        <span class="file-name">${fileName}</span>
+        <button class="view-file-btn bg-green-500 hover:bg-green-600 text-white px-2 py-1 rounded-md text-sm" data-path="${file.path}">View</button>
+        <button class="delete-file-btn bg-red-600 hover:bg-red-700 text-white px-2 py-1 rounded-md text-sm" data-path="${file.path}">🗑️ Delete</button>
+      `;
+    }
 
-              // If it's a folder, render its contents and change the current folder
-              if (isFolder) {
-                currentFolderPath = path; // Update current path
-                renderFileManager(path); // Recurse into the folder
-              } else {
-                const fileContent = await getFileContent(path);
-                showFilePreview(fileContent);
-              }
-            });
+    // Handle file preview
+    fileItem.querySelector('.view-file-btn').addEventListener('click', async (e) => {
+      const path = e.target.getAttribute('data-path');
 
-            // Handle file/folder deletion
-            fileItem.querySelector('.delete-file-btn').addEventListener('click', async (e) => {
-              const path = e.target.getAttribute('data-path');
-              const confirmDelete = confirm(`Are you sure you want to delete "${fileName}"?`);
-              if (confirmDelete) {
-                await deleteFileOrFolder(path);
-              }
-            });
+      // If it's a folder, render its contents and change the current folder
+      if (isFolder) {
+        currentFolderPath = path; // Update current path
+        renderFileManager(path); // Recurse into the folder
+      } else {
+        const fileContent = await getFileContent(path);
+        showFilePreview(fileContent);
+      }
+    });
 
-            fileList.appendChild(fileItem);
-          });
+    // Handle file/folder deletion
+    fileItem.querySelector('.delete-file-btn').addEventListener('click', async (e) => {
+      const path = e.target.getAttribute('data-path');
+      const confirmDelete = confirm(`Are you sure you want to delete "${fileName}"?`);
+      if (confirmDelete) {
+        await deleteFileOrFolder(path);
+      }
+    });
 
-          fileListContainer.appendChild(fileList);
-          fileManagerContainer.appendChild(fileListContainer);
-        };
+    fileList.appendChild(fileItem);
+  });
 
-        // Delete file or folder from GitHub
-        const deleteFileOrFolder = async (path) => {
-          const { octokit, config } = context.getOctokit();
-          const owner = config.owner;
-          const repo = config.repo;
+  fileListContainer.appendChild(fileList);
+  fileManagerContainer.appendChild(fileListContainer);
 
-          try {
-            // Fetch the file/folder metadata to get the SHA
-            const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
-              owner,
-              repo,
-              path,
-            });
+  // Force reflow again after rendering (useful for desktop layouts)
+  fileManagerContainer.offsetHeight; // Another force reflow
+};
 
-            const sha = data.sha; // SHA of the file to delete
+// Delete file or folder from GitHub
+const deleteFileOrFolder = async (path) => {
+  const { octokit, config } = context.getOctokit();
+  const owner = config.owner;
+  const repo = config.repo;
 
-            // If it's a directory (folder), first delete all files inside it
-            if (data.type === 'dir') {
-              const files = await getFiles(path); // Get all files inside the folder
-              for (let file of files) {
-                await deleteFileOrFolder(file.path); // Recursively delete files in the folder
-              }
-            }
+  try {
+    // Fetch the file/folder metadata to get the SHA
+    const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+      owner,
+      repo,
+      path,
+    });
 
-            // Now delete the file or folder (with the correct SHA)
-            const deleteResponse = await octokit.request('DELETE /repos/{owner}/{repo}/contents/{path}', {
-              owner,
-              repo,
-              path,
-              message: `Delete file or folder: ${path}`,
-              sha, // Pass the SHA for deletion
-            });
+    const sha = data.sha; // SHA of the file to delete
 
-            console.log(`Deleted: ${path}`);
-            alert(`"${path}" has been deleted successfully.`);
+    // If it's a directory (folder), first delete all files inside it
+    if (data.type === 'dir') {
+      const files = await getFiles(path); // Get all files inside the folder
+      for (let file of files) {
+        await deleteFileOrFolder(file.path); // Recursively delete files in the folder
+      }
+    }
 
-            // After deletion, refresh the file manager for the current folder
-            await renderFileManager(currentFolderPath); // Wait for render to finish
+    // Now delete the file or folder (with the correct SHA)
+    const deleteResponse = await octokit.request('DELETE /repos/{owner}/{repo}/contents/{path}', {
+      owner,
+      repo,
+      path,
+      message: `Delete file or folder: ${path}`,
+      sha, // Pass the SHA for deletion
+    });
 
-          } catch (error) {
-            console.error('Error deleting file or folder:', error);
-            alert(`Failed to delete "${path}".`);
-          }
-        };
+    console.log(`Deleted: ${path}`);
+    alert(`"${path}" has been deleted successfully.`);
+
+    // After deletion, refresh the file manager for the current folder
+    await renderFileManager(currentFolderPath); // Wait for render to finish
+
+  } catch (error) {
+    console.error('Error deleting file or folder:', error);
+    alert(`Failed to delete "${path}".`);
+  }
+};
+
 
         // Get file content from GitHub
         const getFileContent = async (path) => {
