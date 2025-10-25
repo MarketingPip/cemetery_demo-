@@ -1,3 +1,7 @@
+export const test = function(){
+console.log("boo")
+}
+
 // author-manager.js - Plugin for managing Jekyll author files
 export const plugin = {
   name: "Author Manager",
