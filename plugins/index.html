@@ -446,11 +446,20 @@ export const plugin = {
   },
 
   // Emit an event to all listeners
-  emit: function(event, data) {
+  emit: async function (event, data) {
     if (this._listeners[event]) {
-      this._listeners[event].forEach(listener => listener(data));
+      // Wait for all listeners to finish before proceeding
+      await Promise.all(
+        this._listeners[event].map(async (listener) => {
+          try {
+            await listener(data); // Execute each listener and wait for it to complete
+          } catch (error) {
+            console.error(`Error in listener for event "${event}":`, error);
+          }
+        })
+      );
     }
-  }
+  }, 
 };
 
     // Tab switching 
@@ -706,11 +715,11 @@ export const plugin = {
       try {
         const { octokit, config } = getOctokit();
         
-        const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+        const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', { 
           owner: config.owner,
-          repo: config.repo,
+          repo: config.repo, 
           path
-        });
+        });  
 
         const content = decodeURIComponent(escape(atob(data.content)));
         const { frontMatter, content: bodyContent } = parseFrontMatter(content);
@@ -748,7 +757,7 @@ export const plugin = {
       els.cancelEdit.classList.add('hidden');
       pluginContext.currentEditPost = currentEditPost;
       clearForm();
-    });
+    });    
 
     // Delete post
     async function deletePost(path, sha, name) {
@@ -1009,6 +1018,7 @@ export const plugin = {
 
     // Publish or update post
     async function publishPost() {
+      await pluginContext.emit('postSubmit');
       try {
         const { octokit, config } = getOctokit();
       } catch (error) {
