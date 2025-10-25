@@ -8,19 +8,57 @@ export const plugin = {
     const { octokit, config } = context.getOctokit();
     this.selectedImage = null; // Store the selected image URL or uploaded image path
 
-    // Function to upload image to assets/images
+    // Function to convert file to base64 (required for GitHub content upload API)
+    const toBase64 = (file) => new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.readAsDataURL(file);
+      reader.onload = () => resolve(reader.result.split(',')[1]);
+      reader.onerror = error => reject(error);
+    });
+
+    // Function to check if file exists in the assets/images folder
+    const checkIfFileExists = async (path) => {
+      try {
+        const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+          owner: config.owner,
+          repo: config.repo,
+          path: path,
+        });
+        return data; // File exists, return data
+      } catch (error) {
+        return null; // File doesn't exist
+      }
+    };
+
+    // Function to upload image to assets/images and handle duplicate file names
     const uploadImage = async (file) => {
-      const formData = new FormData();
-      formData.append('file', file);
+      let fileName = file.name;
+      let uploadPath = `assets/images/${fileName}`;
 
-      const uploadPath = `assets/images/${file.name}`;
+      // Check if file already exists, if it does, try appending a number to the filename
+      const fileExists = await checkIfFileExists(uploadPath);
+      if (fileExists) {
+        // Generate a new file name with a number appended to the base name
+        let counter = 1;
+        const baseName = fileName.replace(/\.[^/.]+$/, "");
+        const extension = fileName.split('.').pop();
+        uploadPath = `assets/images/${baseName} (${counter}).${extension}`;
 
+        // Increment the counter and check again until a unique filename is found
+        const nextFileExists = await checkIfFileExists(uploadPath);
+        if (!nextFileExists) {
+          // If the file with the new name doesn't exist, proceed with uploading
+          return await uploadImage(file, uploadPath);
+        }
+      }
+
+      // Upload the image after ensuring the file name is unique
       try {
         const response = await octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
           owner: config.owner,
           repo: config.repo,
           path: uploadPath,
-          message: `Upload image: ${file.name}`,
+          message: `Upload image: ${fileName}`,
           content: await toBase64(file)
         });
 
@@ -32,14 +70,6 @@ export const plugin = {
         return null;
       }
     };
-
-    // Convert file to base64 (required for GitHub content upload API)
-    const toBase64 = (file) => new Promise((resolve, reject) => {
-      const reader = new FileReader();
-      reader.readAsDataURL(file);
-      reader.onload = () => resolve(reader.result.split(',')[1]);
-      reader.onerror = error => reject(error);
-    });
 
     // Handle image URL or upload selection
     const handleImageInput = async () => {
@@ -102,13 +132,12 @@ export const plugin = {
       // Show the appropriate input section based on the selected option
       document.getElementById('image-url-or-upload').addEventListener('change', (event) => {
         const selectedOption = event.target.value;
+        this.selectedImage = selectedOption;
 
-        this.selectedImage = selectedOption
         // Toggle the visibility of the URL input or the upload input
         document.getElementById('url-input-section').classList.toggle('hidden', selectedOption !== 'url');
         document.getElementById('upload-input-section').classList.toggle('hidden', selectedOption !== 'upload');
       });
-
     };
 
     // Initialize or refresh the image form
@@ -146,7 +175,7 @@ export const plugin = {
       console.log(this.selectedImage)
       // Update front matter to include the image path if an image was selected (uploaded or URL)
       if (this.selectedImage) {
-        await handleImageInput()
+        await handleImageInput();
         context.showAlert(`Image "${this.selectedImage}" added to the post.`, 'success');
       }
     });
