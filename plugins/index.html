@@ -818,18 +818,18 @@ export const plugin = {
         els.loadingPlugins.classList.add('hidden');
       } catch (error) {
         console.error('Error loading plugins:', error);
-        if (error.status === 404) {
+        if (error.status === 404) { 
           els.noPlugins.classList.remove('hidden');
         } else {
-          showAlert('Error loading plugins: ' + error.message, 'error');
+          showAlert('Error loading plugins: ' + error.message, 'error'); 
         }
         els.loadingPlugins.classList.add('hidden');
       }
-    }
+    } 
 
     // Display plugins in list
     function displayPlugins(plugins) {
-      const loadedPluginsData = storage.get(LOADED_PLUGINS_KEY) || {};
+      const loadedPluginsData = storage.get(LOADED_PLUGINS_KEY) || {}; 
       
       els.pluginsList.innerHTML = plugins.map(plugin => {
         const isLoaded = loadedPluginsData[plugin.name];
@@ -1023,7 +1023,7 @@ export const plugin = {
         const { octokit, config } = getOctokit();
       } catch (error) {
         showAlert(error.message, 'error');
-        return;
+        return; 
       }
 
       const title = els.title.value.trim();
@@ -1082,7 +1082,7 @@ export const plugin = {
 
         const action = currentEditPost ? 'updated' : 'published';
         showAlert(`Post ${action} successfully!`, 'success');
-        
+        await pluginContext.emit('postUploaded'); 
         currentEditPost = null;
         els.editorModeIcon.textContent = '✍️';
         els.editorModeText.textContent = 'Create New Post';
