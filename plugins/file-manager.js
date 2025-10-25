@@ -144,37 +144,48 @@ export const plugin = {
           fileManagerContainer.appendChild(fileListContainer);
         };
 
-        // Delete file or folder from GitHub
-        const deleteFileOrFolder = async (path) => {
-          const { octokit, config } = context.getOctokit();
-          const owner = config.owner;
-          const repo = config.repo;
 
-          try {
-            // Check if it's a directory (folder)
-            const files = await getFiles(path);
-            if (files.length > 0) {
-              // If it's a folder, delete all files inside it first
-              for (let file of files) {
-                await deleteFileOrFolder(file.path); // Recursively delete files in folder
-              }
-            }
+       // Delete file or folder from GitHub
+const deleteFileOrFolder = async (path) => {
+  const { octokit, config } = context.getOctokit();
+  const owner = config.owner;
+  const repo = config.repo;
 
-            // Now delete the file or empty directory
-            const { data } = await octokit.request('DELETE /repos/{owner}/{repo}/contents/{path}', {
-              owner,
-              repo,
-              path,
-              message: `Delete file or folder: ${path}`,
-            });
+  try {
+    // Fetch the file/folder metadata to get the SHA
+    const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+      owner,
+      repo,
+      path,
+    });
 
-            console.log(`Deleted: ${path}`);
-            alert(`"${path}" has been deleted successfully.`);
-          } catch (error) {
-            console.error('Error deleting file or folder:', error);
-            alert(`Failed to delete "${path}".`);
-          }
-        };
+    const sha = data.sha; // SHA of the file to delete
+
+    // If it's a directory (folder), first delete all files inside it
+    if (data.type === 'dir') {
+      const files = await getFiles(path); // Get all files inside the folder
+      for (let file of files) {
+        await deleteFileOrFolder(file.path); // Recursively delete files in the folder
+      }
+    }
+
+    // Now delete the file or folder (with the correct SHA)
+    const deleteResponse = await octokit.request('DELETE /repos/{owner}/{repo}/contents/{path}', {
+      owner,
+      repo,
+      path,
+      message: `Delete file or folder: ${path}`,
+      sha, // Pass the SHA for deletion
+    });
+
+    console.log(`Deleted: ${path}`);
+    alert(`"${path}" has been deleted successfully.`);
+  } catch (error) {
+    console.error('Error deleting file or folder:', error);
+    alert(`Failed to delete "${path}".`);
+  }
+};
+
 
         // Get file content from GitHub
         const getFileContent = async (path) => {
