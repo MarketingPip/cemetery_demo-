@@ -1,12 +1,13 @@
 ---
 layout: author
-author: jane-doe
 name: Jane Doe
+author: jane-doe
 role: Historical Preservation Specialist
 bio: >-
   Jane is an expert in heritage conservation and has contributed extensively to
   local history projects.
-image: /images/authors/jane_doe.jpg
+  
+  Just a test
 social:
   facebook: 'https://facebook.com/jane_doe'
   twitter: 'https://twitter.com/jane_doe'
