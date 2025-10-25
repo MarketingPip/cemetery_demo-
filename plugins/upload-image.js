@@ -25,11 +25,13 @@ export const plugin = {
           path: path,
         });
 
-        if(data?.status === "404"){
-          return false
-        }
         return data.name; // File exists, return data
       } catch (error) {
+
+        if(error.status === 404){
+          return false;
+        }
+        
         return null; // File doesn't exist
       }
     };
