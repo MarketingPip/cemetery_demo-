@@ -14,7 +14,6 @@ export const plugin = {
           const fileExtension = currentEditPost.path.split('.').pop().toLowerCase();
 
           if (fileExtension === 'md' || !fileExtension) {
-            // Dynamically import the markdown parser
             const { marked } = await import('https://esm.sh/marked');
             const htmlContent = marked(content);
             document.getElementById('preview-area').innerHTML = htmlContent;
@@ -97,18 +96,20 @@ export const plugin = {
 
             const isFolder = file.type === 'dir';
             const fileName = file.name;
-            
+
             // Folder item: Render clickable folder
             if (isFolder) {
               fileItem.innerHTML = `
                 <span class="file-name font-semibold">${fileName}/</span>
                 <button class="view-file-btn bg-blue-500 hover:bg-blue-600 text-white px-2 py-1 rounded-md text-sm" data-path="${file.path}">View Folder</button>
+                <button class="delete-file-btn bg-red-600 hover:bg-red-700 text-white px-2 py-1 rounded-md text-sm" data-path="${file.path}">🗑️ Delete</button>
               `;
             } else {
               // File item: Render clickable file
               fileItem.innerHTML = `
                 <span class="file-name">${fileName}</span>
                 <button class="view-file-btn bg-green-500 hover:bg-green-600 text-white px-2 py-1 rounded-md text-sm" data-path="${file.path}">View</button>
+                <button class="delete-file-btn bg-red-600 hover:bg-red-700 text-white px-2 py-1 rounded-md text-sm" data-path="${file.path}">🗑️ Delete</button>
               `;
             }
 
@@ -126,11 +127,53 @@ export const plugin = {
               }
             });
 
+            // Handle file/folder deletion
+            fileItem.querySelector('.delete-file-btn').addEventListener('click', async (e) => {
+              const path = e.target.getAttribute('data-path');
+              const confirmDelete = confirm(`Are you sure you want to delete "${fileName}"?`);
+              if (confirmDelete) {
+                await deleteFileOrFolder(path);
+                renderFileManager(currentFolderPath); // Refresh the current folder view
+              }
+            });
+
             fileList.appendChild(fileItem);
           });
 
           fileListContainer.appendChild(fileList);
           fileManagerContainer.appendChild(fileListContainer);
+        };
+
+        // Delete file or folder from GitHub
+        const deleteFileOrFolder = async (path) => {
+          const { octokit, config } = context.getOctokit();
+          const owner = config.owner;
+          const repo = config.repo;
+
+          try {
+            // Check if it's a directory (folder)
+            const files = await getFiles(path);
+            if (files.length > 0) {
+              // If it's a folder, delete all files inside it first
+              for (let file of files) {
+                await deleteFileOrFolder(file.path); // Recursively delete files in folder
+              }
+            }
+
+            // Now delete the file or empty directory
+            const { data } = await octokit.request('DELETE /repos/{owner}/{repo}/contents/{path}', {
+              owner,
+              repo,
+              path,
+              message: `Delete file or folder: ${path}`,
+            });
+
+            console.log(`Deleted: ${path}`);
+            alert(`"${path}" has been deleted successfully.`);
+          } catch (error) {
+            console.error('Error deleting file or folder:', error);
+            alert(`Failed to delete "${path}".`);
+          }
         };
 
         // Get file content from GitHub
@@ -143,12 +186,11 @@ export const plugin = {
             });
 
             if (data.encoding === 'base64') {
-              // Decode content if it's base64 encoded
               const decodedContent = atob(data.content);
               return decodedContent;
             }
 
-            this.context.currentEditPost = {path}
+            this.context.currentEditPost = { path };
             return data.content; // Return content directly if not encoded
           } catch (error) {
             console.error('Error fetching file content:', error);
@@ -165,10 +207,9 @@ export const plugin = {
             return;
           }
 
-          // Dynamically import the markdown parser (if content is markdown)
           const { marked } = await import('https://esm.sh/marked');
           const htmlContent = marked(content);
-          this.currentContent = htmlContent
+          this.currentContent = htmlContent;
         };
 
         // Load the file manager UI initially for the root directory
