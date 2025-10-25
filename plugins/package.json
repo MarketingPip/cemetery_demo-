@@ -1,0 +1,5 @@
+{
+  "autoload": {
+    "plugins": ["add-authors.js"]
+  }
+}
