@@ -8,7 +8,7 @@ export const plugin = {
       '<div id="preview-area" class="prose"></div>',
       async (ctx) => {
         const currentEditPost = this.context.currentEditPost;
-        const content = ctx.getFormData().content;
+        const content = ctx.getFormData().content || this.currentFile;
 
         if (currentEditPost && currentEditPost.path) {
           const fileExtension = currentEditPost.path.split('.').pop().toLowerCase();
@@ -150,6 +150,8 @@ export const plugin = {
           // Dynamically import the markdown parser (if content is markdown)
           const { marked } = await import('https://esm.sh/marked');
           const htmlContent = marked(content);
+
+          this.currentFile =  htmlContent
 
           // Update preview area
           document.getElementById('preview-area').innerHTML = htmlContent;
