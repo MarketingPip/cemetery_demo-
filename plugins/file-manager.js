@@ -177,15 +177,17 @@ const deleteFileOrFolder = async (path) => {
       sha, // Pass the SHA for deletion
     });
 
-    await renderFileManager(currentFolderPath); // Refresh the current folder view
     console.log(`Deleted: ${path}`);
     alert(`"${path}" has been deleted successfully.`);
+
+    // After deletion, refresh the file manager for the current folder
+    renderFileManager(); // Re-render the file manager view to reflect the update
+
   } catch (error) {
     console.error('Error deleting file or folder:', error);
     alert(`Failed to delete "${path}".`);
   }
 };
-
 
         // Get file content from GitHub
         const getFileContent = async (path) => {
