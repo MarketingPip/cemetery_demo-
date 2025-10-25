@@ -6,6 +6,7 @@ export const plugin = {
   init(context) {
     let workflows = [];
 
+    this.context = context
     // Tab to show workflows
     const tab = context.addTab(
       'workflows',
@@ -39,7 +40,7 @@ export const plugin = {
         </div>
       `,
       (ctx) => {
-        loadWorkflows(this.octokit);
+        loadWorkflows(this.context);
       }
     );
 
@@ -94,7 +95,7 @@ export const plugin = {
             </button>
           </div>
         </div>
-      `).join('');
+      `).join(''); 
 
       // Attach event listeners to "Run" buttons
       document.querySelectorAll('.run-workflow').forEach(btn => {
