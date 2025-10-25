@@ -150,8 +150,7 @@ const uploadImage = async (file) => {
     function resetImageUpload(){
       document.getElementById('image-url-or-upload').value = null;
       document.getElementById('image-url-or-upload').selectedIndex = 0;
-      document.getElementById('upload-input-section').classList.toggle('hidden'); 
-      this.selectedImage = null;
+      document.getElementById('upload-input-section').classList.toggle('hidden');
     }
     
     // Initialize or refresh the image form
@@ -197,6 +196,7 @@ const uploadImage = async (file) => {
     context.on('postUploaded', async () => {
       // Post was successfully uploaded. Clear variables for the next post etc.
        resetImageUpload()
+      this.selectedImage = null;
     });
     
   }
