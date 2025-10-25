@@ -8,6 +8,8 @@ export const plugin = {
     let currentEditAuthor = null;
     let authors = [];
 
+    this.octokit = context.getOctokit
+
     // Create the Authors tab
     const tab = context.addTab(
       'authors',
@@ -286,7 +288,7 @@ export const plugin = {
 
       try {
 
-        const { octokit, config } = pluginContext.getOctokit
+        const { octokit, config } = this.octokit
 
         const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
           owner: config.owner,
@@ -396,7 +398,7 @@ export const plugin = {
     // Edit author
     async function editAuthor(path, sha, pluginContext) {
       try {
-        const { octokit, config } = pluginContext.getOctokit
+        const { octokit, config } = this.octokit
 
         const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
           owner: config.owner,
@@ -436,7 +438,7 @@ export const plugin = {
       }
 
       try {
-        const { octokit, config } = pluginContext.getOctokit;
+        const { octokit, config } = this.octokit
 
         await octokit.request('DELETE /repos/{owner}/{repo}/contents/{path}', {
           owner: config.owner,
@@ -488,7 +490,7 @@ export const plugin = {
       const path = `_authors/${filename}`;
 
       try {
-        const { octokit, config } = pluginContext.getOctokit
+        const { octokit, config } = this.octokit
 
         let sha = currentEditAuthor?.sha;
 
