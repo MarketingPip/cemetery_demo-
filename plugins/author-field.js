@@ -7,7 +7,7 @@ export const plugin = {
     // Get Octokit instance
     const { octokit, config } = context.getOctokit();
 
-
+    this.context = context
    
     // Function to fetch authors from the _authors folder
     const getAuthors = async () => {
@@ -60,7 +60,7 @@ export const plugin = {
       const authorSelect = document.getElementById('author-select');
       authorSelect.addEventListener('change', () => {
         const selectedAuthor = authorSelect.value;
-        console.log(context.currentEditPost.frontMatter)
+        console.log(this.currentEditPost.frontMatter)
         if (selectedAuthor) {
           context.showAlert(`Author selected: ${selectedAuthor}`, 'success');
         }
