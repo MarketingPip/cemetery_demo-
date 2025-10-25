@@ -347,98 +347,116 @@ export const plugin = {
 
     // Plugin Context API
     const pluginContext = {
-      elements: els,
-      showAlert,
-      getFormData: () => ({
-        title: els.title.value.trim(),
-        categories: els.categories.value.trim(),
-        tags: els.tags.value.trim(),
-        content: els.content.value.trim()
-      }),
-      setFormData: (data) => {
-        if (data.title !== undefined) els.title.value = data.title;
-        if (data.categories !== undefined) els.categories.value = data.categories;
-        if (data.tags !== undefined) els.tags.value = data.tags;
-        if (data.content !== undefined) els.content.value = data.content;
-      },
-      addPluginAction: (label, handler) => {
-        const btn = document.createElement('button');
-        btn.className = 'bg-purple-600 hover:bg-purple-700 text-white px-3 py-2 rounded-lg text-sm transition duration-200';
-        btn.textContent = label;
-        btn.addEventListener('click', () => handler(pluginContext));
-        els.pluginActions.appendChild(btn);
-        els.pluginActions.classList.remove('hidden');
-      },
-      addTab: (tabId, tabLabel, contentHTML, onActivate) => {
-        // Create tab button
-        const tabBtn = document.createElement('button');
-        tabBtn.id = `tab-${tabId}`;
-        tabBtn.className = 'tab px-6 py-3 font-semibold transition-colors hover:text-indigo-600 whitespace-nowrap';
-        tabBtn.textContent = tabLabel;
-        els.tabsContainer.appendChild(tabBtn);
+  elements: els,
+  showAlert,
+  getFormData: () => ({
+    title: els.title.value.trim(),
+    categories: els.categories.value.trim(),
+    tags: els.tags.value.trim(),
+    content: els.content.value.trim()
+  }),
+  setFormData: (data) => {
+    if (data.title !== undefined) els.title.value = data.title;
+    if (data.categories !== undefined) els.categories.value = data.categories;
+    if (data.tags !== undefined) els.tags.value = data.tags;
+    if (data.content !== undefined) els.content.value = data.content;
+  },
+  addPluginAction: (label, handler) => {
+    const btn = document.createElement('button');
+    btn.className = 'bg-purple-600 hover:bg-purple-700 text-white px-3 py-2 rounded-lg text-sm transition duration-200';
+    btn.textContent = label;
+    btn.addEventListener('click', () => handler(pluginContext));
+    els.pluginActions.appendChild(btn);
+    els.pluginActions.classList.remove('hidden');
+  },
+  addTab: (tabId, tabLabel, contentHTML, onActivate) => {
+    // Create tab button
+    const tabBtn = document.createElement('button');
+    tabBtn.id = `tab-${tabId}`;
+    tabBtn.className = 'tab px-6 py-3 font-semibold transition-colors hover:text-indigo-600 whitespace-nowrap';
+    tabBtn.textContent = tabLabel;
+    els.tabsContainer.appendChild(tabBtn);
 
-        // Create content section
-        const contentSection = document.createElement('div');
-        contentSection.id = `${tabId}-section`;
-        contentSection.className = 'hidden glass-effect rounded-xl shadow-lg p-6 mb-6 tab-content-section';
-        contentSection.innerHTML = contentHTML;
-        
-        // Insert before footer
-        const footer = document.querySelector('footer');
-        footer.parentNode.insertBefore(contentSection, footer);
+    // Create content section
+    const contentSection = document.createElement('div');
+    contentSection.id = `${tabId}-section`;
+    contentSection.className = 'hidden glass-effect rounded-xl shadow-lg p-6 mb-6 tab-content-section';
+    contentSection.innerHTML = contentHTML;
+    
+    // Insert before footer
+    const footer = document.querySelector('footer');
+    footer.parentNode.insertBefore(contentSection, footer);
 
-        // Store custom tab info
-        customTabs[tabId] = {
-          button: tabBtn,
-          section: contentSection,
-          onActivate: onActivate
-        };
-
-        // Add click handler
-        tabBtn.addEventListener('click', () => switchTab(tabId));
-
-        return {
-          button: tabBtn,
-          section: contentSection,
-          update: (newHTML) => {
-            contentSection.innerHTML = newHTML;
-          }
-        };
-      },
-      switchTab: (tabId) => {
-        switchTab(tabId);
-      },
-      removeTab: (tabId) => {
-        if (customTabs[tabId]) {
-          customTabs[tabId].button.remove();
-          customTabs[tabId].section.remove();
-          delete customTabs[tabId];
-        }
-      },
-      utils: {
-        createButton: (text, className, onClick) => {
-          const btn = document.createElement('button');
-          btn.textContent = text;
-          btn.className = className;
-          btn.addEventListener('click', onClick);
-          return btn;
-        },
-        createElement: (tag, className, innerHTML) => {
-          const el = document.createElement(tag);
-          if (className) el.className = className;
-          if (innerHTML) el.innerHTML = innerHTML;
-          return el;
-        }, 
-          
-      },
-       getOctokit: getOctokit,
-       currentEditPost,
-       frontMatterPlugins:[]
-         
+    // Store custom tab info
+    customTabs[tabId] = {
+      button: tabBtn,
+      section: contentSection,
+      onActivate: onActivate
     };
 
-    // Tab switching
+    // Add click handler
+    tabBtn.addEventListener('click', () => switchTab(tabId));
+
+    return {
+      button: tabBtn,
+      section: contentSection,
+      update: (newHTML) => {
+        contentSection.innerHTML = newHTML;
+      }
+    };
+  },
+  switchTab: (tabId) => {
+    switchTab(tabId);
+  },
+  removeTab: (tabId) => {
+    if (customTabs[tabId]) {
+      customTabs[tabId].button.remove();
+      customTabs[tabId].section.remove();
+      delete customTabs[tabId];
+    }
+  },
+  utils: {
+    createButton: (text, className, onClick) => {
+      const btn = document.createElement('button');
+      btn.textContent = text;
+      btn.className = className;
+      btn.addEventListener('click', onClick);
+      return btn;
+    },
+    createElement: (tag, className, innerHTML) => {
+      const el = document.createElement(tag);
+      if (className) el.className = className;
+      if (innerHTML) el.innerHTML = innerHTML;
+      return el;
+    }
+  },
+  getOctokit: getOctokit,
+  currentEditPost,
+  frontMatterPlugins: [],
+  
+  // Event Emitter implementation
+  _listeners: {},
+  
+  // Register an event listener
+  on: function(event, listener) {
+    if (!this._listeners[event]) {
+      this._listeners[event] = [];
+    }
+    this._listeners[event].push(listener);
+  },
+
+  // Emit an event to all listeners
+  emit: function(event, data) {
+    if (this._listeners[event]) {
+      this._listeners[event].forEach(listener => listener(data));
+    }
+  }
+};
+
+    // Tab switching 
     function switchTab(tab) {
+      pluginContext.emit('tab-switch', tab);
+
       document.querySelectorAll('.tab').forEach(t => t.classList.remove('tab-active'));
       document.querySelectorAll('.tab-content-section').forEach(s => s.classList.add('hidden'));
 
