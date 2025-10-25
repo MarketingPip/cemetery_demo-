@@ -45,7 +45,7 @@ export const plugin = {
     );
 
     // Helper: Load Jekyll config
-    async function loadConfig(this.context) {
+    async function loadConfig() {
       const loadingEl = document.getElementById('loading-config');
       const listEl = document.getElementById('config-list');
       const noConfigEl = document.getElementById('no-config');
@@ -85,7 +85,7 @@ export const plugin = {
     }
 
     // Display config settings
-    function displayConfig(configData, this.context) {
+    function displayConfig(configData) {
       const listEl = document.getElementById('config-list');
       
       listEl.innerHTML = Object.keys(configData).map(key => `
@@ -128,7 +128,7 @@ export const plugin = {
         btn.addEventListener('click', async (e) => {
           const configKey = e.currentTarget.dataset.configKey;
           const updatedValue = collectInput(configKey);
-          await updateConfig(configKey, updatedValue, this.context);
+          await updateConfig(configKey, updatedValue);
         });
       });
     }
@@ -151,7 +151,7 @@ export const plugin = {
     }
 
     // Update the Jekyll config with the new value
-    async function updateConfig(configKey, updatedValue, this.context) {
+    async function updateConfig(configKey, updatedValue) {
       try {
         const { octokit, config } = this.context.getOctokit();
 
