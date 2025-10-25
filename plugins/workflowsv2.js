@@ -128,6 +128,7 @@ export const plugin = {
 
     // Generate the input fields for a workflow
     function generateInputsForm(workflow) {
+      console.log(workflow)
       if (!workflow.workflow_dispatch || !workflow.workflow_dispatch.inputs) {
         return ''; // No inputs defined for this workflow
       }
