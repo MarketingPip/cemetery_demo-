@@ -456,77 +456,85 @@ export const plugin = {
     }
 
     // Save author
-    async function saveAuthor(pluginContext) {
-      const els = getFormElements();
-      const name = els.name.value.trim();
-      const slug = els.slug.value.trim();
+   async function saveAuthor(pluginContext) {
+  const els = getFormElements();
+  const name = els.name.value.trim();
+  const slug = els.slug.value.trim();
 
-      if (!name || !slug) {
-        context.showAlert('Name and slug are required', 'error');
-        return;
-      }
+  if (!name || !slug) {
+    context.showAlert('Name and slug are required', 'error');
+    return;
+  }
 
-      // Validate slug format
-      if (!/^[a-z0-9-]+$/.test(slug)) {
-        context.showAlert('Slug must contain only lowercase letters, numbers, and hyphens', 'error');
-        return;
-      }
+  // Validate slug format
+  if (!/^[a-z0-9-]+$/.test(slug)) {
+    context.showAlert('Slug must contain only lowercase letters, numbers, and hyphens', 'error');
+    return;
+  }
 
-      const authorData = {
-        name,
-        slug,
-        role: els.role.value.trim(),
-        bio: els.bio.value.trim(),
-        facebook: els.facebook.value.trim(),
-        twitter: els.twitter.value.trim(),
-        linkedin: els.linkedin.value.trim(),
-        github: els.github.value.trim(),
-        website: els.website.value.trim(),
-        email: els.email.value.trim()
-      };
+  const authorData = {
+    name,
+    slug,
+    role: els.role.value.trim(),
+    bio: els.bio.value.trim(),
+    facebook: els.facebook.value.trim(),
+    twitter: els.twitter.value.trim(),
+    linkedin: els.linkedin.value.trim(),
+    github: els.github.value.trim(),
+    website: els.website.value.trim(),
+    email: els.email.value.trim()
+  };
 
-      const content = generateAuthorFrontMatter(authorData);
-      const filename = `${slug}.md`;
-      const path = `_authors/${filename}`;
+  const content = generateAuthorFrontMatter(authorData);
+  const filename = `${slug}.md`;
+  const path = `_authors/${filename}`;
 
+  try {
+    const { octokit, config } = pluginContext.getOctokit()
+
+    let sha = currentEditAuthor?.sha;
+
+    // Check if the author file already exists (for new authors)
+    if (!currentEditAuthor) {
       try {
-        const { octokit, config } = pluginContext.getOctokit()
-
-        let sha = currentEditAuthor?.sha;
-
-        // Check if file exists (for new authors)
-        if (!currentEditAuthor) {
-          try {
-            const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
-              owner: config.owner,
-              repo: config.repo,
-              path
-            });
-            sha = data.sha;
-          } catch (err) {
-            if (err.status !== 404) throw err;
-          }
-        }
-
-        // Save author file
-        await octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
+        const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
           owner: config.owner,
           repo: config.repo,
-          path: currentEditAuthor ? currentEditAuthor.path : path,
-          message: currentEditAuthor ? `Update author: ${name}` : `Add author: ${name}`,
-          content: btoa(unescape(encodeURIComponent(content))),
-          sha
+          path
         });
 
-        const action = currentEditAuthor ? 'updated' : 'created';
-        context.showAlert(`Author ${action} successfully!`, 'success');
-        
-        hideAuthorForm();
-        await loadAuthors(pluginContext);
-      } catch (error) {
-        context.showAlert('Error saving author: ' + error.message, 'error');
+        // If the file exists, show an error
+        if (data) {
+          context.showAlert(`An author file with the slug "${slug}" already exists. Please choose a different slug.`, 'error');
+          return;
+        }
+
+        sha = data.sha;
+      } catch (err) {
+        if (err.status !== 404) throw err; // File not found, continue to save
       }
     }
+
+    // Save the author file
+    await octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
+      owner: config.owner,
+      repo: config.repo,
+      path: currentEditAuthor ? currentEditAuthor.path : path,
+      message: currentEditAuthor ? `Update author: ${name}` : `Add author: ${name}`,
+      content: btoa(unescape(encodeURIComponent(content))),
+      sha
+    });
+
+    const action = currentEditAuthor ? 'updated' : 'created';
+    context.showAlert(`Author ${action} successfully!`, 'success');
+    
+    hideAuthorForm();
+    await loadAuthors(pluginContext);
+  } catch (error) {
+    context.showAlert('Error saving author: ' + error.message, 'error');
+  }
+}
+
 
     // Auto-generate slug from name
     setTimeout(() => {
