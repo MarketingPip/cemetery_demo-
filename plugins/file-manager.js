@@ -157,7 +157,7 @@ export const plugin = {
         };
 
         // Show file content in preview area
-        const showFilePreview = (content) => {
+        const showFilePreview = async (content) => {
           if (!content) {
             document.getElementById('preview-area').innerHTML = `
               <p><strong>Unable to load content.</strong></p>
