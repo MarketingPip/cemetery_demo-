@@ -146,6 +146,13 @@ const uploadImage = async (file) => {
       });
     };
 
+
+    function resetImageUpload(){
+      this.selectedImage = null;
+      document.getElementById('image-url-or-upload').value = null;
+      document.querySelector('#image-url-or-upload').selectedIndex = 0;
+    }
+    
     // Initialize or refresh the image form
     createImageForm();
 
@@ -179,11 +186,10 @@ const uploadImage = async (file) => {
 
     // Listen for the post published event
     context.on('postSubmit', async () => {
-      console.log("called")
-      console.log(this.selectedImage)
       // Update front matter to include the image path if an image was selected (uploaded or URL)
       if (this.selectedImage) {
         await handleImageInput();
+        resetImageUpload()
         context.showAlert(`Image "${this.selectedImage}" added to the post.`, 'success');
       }
     });
