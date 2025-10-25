@@ -1,53 +1,20 @@
-# ----------------------- #
-#          Jekyll         #
-# ----------------------- #
-# All of these settings are required
-
-
-title: "Crediton Cemetery Heritage Portal"
-description: "A platform for exploring and preserving the history of Crediton Cemetery."
-
-# Set this to true to disable plugins
-# safe:               false
-# Enables or disables Jekyll from recreating the site when files are modified.
-# regeneration:       true
-# Changes the port that the Jekyll server will run on
-# port:               4000
-# Sets site.url, useful for environment switching
-url:                https://marketingpip.github.io
-# Changes the directory where Jekyll will look to transform files
-# source:             ./
-# Changes the directory where Jekyll will write files to
-# destination:        _site
-# Changes the directory where Jekyll will look for plugins
-plugins_dir:        _plugins
-baseurl: "/"
-
-logo: "assets/images/Crediton_Heritage_Logo3.svg" # Replace with your logo URL
-## env: production
-
-# Optional: You can define where your posts are located (if in a custom folder)
-#posts_dir: "pages/blog"
-posts_dir: "_posts"
-
-# Inclusion of recent posts in sidebar
-# recent_posts:       false
-# Inclusion/exclusion of future dated posts
-future:             false
-# Produces an index for related posts. Install rb-gsl and libgsl to speed this up
-lsi:                false
-# Uses [engine] instead of Maruku
+title: ''
+description: A platform for exploring and preserving the history of Crediton Cemetery.
+url: https://marketingpip.github.io
+plugins_dir: _plugins
+baseurl: /
+logo: assets/images/Crediton_Heritage_Logo3.svg
+posts_dir: _posts
+future: false
+lsi: false
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: false
   syntax_highlighter_opts:
-    disable : true
+    disable: true
 highlighter: none
-# Controls the URLs that posts are generated with.
 permalink: /blog/:title/
-# permalink:          /:year/:month/:day/:title/
-# A list of directories and files to exclude from the conversion
 exclude:
   - pages
   - pages/blog
@@ -68,44 +35,32 @@ exclude:
   - postcss.config.js
   - tailwind.config.js
   - package-lock.json
-# Timezone for timestamp conversion
 timezone: UTC
-
-# RSS Feeds
 feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
-
-paginate: 6 # Number of items per page (adjust as needed)
-
-paginate_path: "/blog/page:num/" # Path for pagination (for example, /page2/, /page3/, etc.)
-
+paginate: 6
+paginate_path: /blog/page:num/
 collections:
   authors:
     output: true
     permalink: /authors/:path/
-#  blog:
-#    output: true
-#   permalink: /blog/:slug/
   books:
     output: true
     permalink: /resources/:collection/:slug/
   exhibits:
     output: true
-    permalink: /exhibits/:slug/    
-
+    permalink: /exhibits/:slug/
 defaults:
   - scope:
-      path: "assets/people"
+      path: assets/people
     values:
       people: true
   - scope:
-      path: "resources/**/*.pdf"
+      path: resources/**/*.pdf
     values:
-     sitemap: false
-# Plugins
+      sitemap: false
 plugins:
- # - octopress-minify-html
   - jekyll-sitemap
   - jekyll-assets
   - jekyll-seo-tag
@@ -114,103 +69,74 @@ plugins:
   - jekyll-minifier
   - jekyll-terser
   - jekyll-archives-v2
-
-# -----------------------------------------------------------------------------
-# Jekyll Minifier
-# -----------------------------------------------------------------------------
-
 jekyll-minifier:
-  compress_javascript: false # set to false since we are using terser as the js minifier
+  compress_javascript: false
   compress_css: false
-  exclude: ["robots.txt", "search.json", "assets/js/pwa/manifest.json"]
-
-
-# -----------------------------------------------------------------------------
-# Jekyll PurgeCSS
-# -----------------------------------------------------------------------------
-
+  exclude:
+    - robots.txt
+    - search.json
+    - assets/js/pwa/manifest.json
 PurgeCSS:
-  content: ["_site/**/*.html", "_site/**/*.js"]
-  css: ["_site/assets/css/font-awesome.css"] ## Only purge font awesome, purgeCSS will break with tailwind. 
+  content:
+    - _site/**/*.html
+    - _site/**/*.js
+  css:
+    - _site/assets/css/font-awesome.css
   output: _site/assets/css/
-
-
-# -----------------------------------------------------------------------------
-# Jekyll Archives
-# -----------------------------------------------------------------------------
-
 jekyll-archives:
   posts:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-    layout:  tag
+    enabled:
+      - year
+      - tags
+      - categories
+    layout: tag
     permalinks:
-      year: "/blog/:year/"
-# -----------------------------------------------------------------------------
-# Terser
-# -----------------------------------------------------------------------------
-
+      year: /blog/:year/
 terser:
   compress:
     drop_console: true
-
-  
 assets:
-  compress: true  # Enable CSS and JS compression
-  minify: true    # Enable HTML minification
-
-gh_repo_name: cemetery_demo- # required for downloading images
-
-download_images_folder: "assets/images"
-
+  compress: true
+  minify: true
+gh_repo_name: cemetery_demo-
+download_images_folder: assets/images
 og_template: _includes/og-template.html
-
-# Ensure assets/images is copied into the build directory
 include:
   - assets
-
-# Page Tags
-
 exhibits_index_template: _layouts/exhibits_index.html
 blog_index_template: _layouts/tag.html
-
-
-# Footer
 resources:
-  - name: "Resources"
-    url: "resources"
-  - name: "Frequently Asked Questions"
-    url: "faq"
-  - name: "Contact Us"
-    url: "contact-us"
-  - name: "Support Us"
-    url: "support-us"      
-  - name: "Blog"
-    url: "blog"   
-  - name: "Cemetery Fees"
-    url: "cemetery-fees"   
-  - name: "Statistics"
-    url: "statistics"       
-
-
+  - name: Resources
+    url: resources
+  - name: Frequently Asked Questions
+    url: faq
+  - name: Contact Us
+    url: contact-us
+  - name: Support Us
+    url: support-us
+  - name: Blog
+    url: blog
+  - name: Cemetery Fees
+    url: cemetery-fees
+  - name: Statistics
+    url: statistics
 policys:
-  - name: "Privacy Policy"
-    url: "privacy-policy"
-  - name: "Terms of Service"
-    url: "terms-of-service"
-
+  - name: Privacy Policy
+    url: privacy-policy
+  - name: Terms of Service
+    url: terms-of-service
 json_api:
   posts: true
   authors: true
   categories: true
   tags: true
-    
 social:
-  - name: "Github"
-    url: "https://github.com/themesberg/flowbite"
-    icon: "fab fa-github"
-  - name: "Discord"
-    url: "https://discord.gg/4eeurUVvTy"
-    icon: "fab fa-discord"
-  - name: "Twitter"
-    url: "https://twitter.com/"
-    icon: "fab fa-twitter"
+  - name: Github
+    url: https://github.com/themesberg/flowbite
+    icon: fab fa-github
+  - name: Discord
+    url: https://discord.gg/4eeurUVvTy
+    icon: fab fa-discord
+  - name: Twitter
+    url: https://twitter.com/
+    icon: fab fa-twitter
