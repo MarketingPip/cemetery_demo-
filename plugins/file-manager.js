@@ -44,7 +44,7 @@ export const plugin = {
         const owner = config.owner;
         const repo = config.repo;
 
-        let currentFolderPath = null; // Tracks the current folder path being viewed
+        let currentFolderPath = ''; // Always initialize with an empty string
 
         // Fetch all files and folders in a given path
         const getFiles = async (path = '') => {
@@ -63,6 +63,7 @@ export const plugin = {
 
         // Render the file manager UI
         const renderFileManager = async (path = '') => {
+          currentFolderPath = path; // Update current path whenever we render
           const files = await getFiles(path);
           const fileManagerContainer = document.getElementById('file-manager-container');
           fileManagerContainer.innerHTML = ''; // Clear previous content
@@ -143,52 +144,50 @@ export const plugin = {
           fileManagerContainer.appendChild(fileListContainer);
         };
 
+        // Delete file or folder from GitHub
+        const deleteFileOrFolder = async (path) => {
+          const { octokit, config } = context.getOctokit();
+          const owner = config.owner;
+          const repo = config.repo;
 
-       // Delete file or folder from GitHub
-const deleteFileOrFolder = async (path) => {
-  const { octokit, config } = context.getOctokit();
-  const owner = config.owner;
-  const repo = config.repo;
+          try {
+            // Fetch the file/folder metadata to get the SHA
+            const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+              owner,
+              repo,
+              path,
+            });
 
-  try {
-    // Fetch the file/folder metadata to get the SHA
-    const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
-      owner,
-      repo,
-      path,
-    });
+            const sha = data.sha; // SHA of the file to delete
 
-    const sha = data.sha; // SHA of the file to delete
+            // If it's a directory (folder), first delete all files inside it
+            if (data.type === 'dir') {
+              const files = await getFiles(path); // Get all files inside the folder
+              for (let file of files) {
+                await deleteFileOrFolder(file.path); // Recursively delete files in the folder
+              }
+            }
 
-    // If it's a directory (folder), first delete all files inside it
-    if (data.type === 'dir') {
-      const files = await getFiles(path); // Get all files inside the folder
-      for (let file of files) {
-        await deleteFileOrFolder(file.path); // Recursively delete files in the folder
-      }
-    }
+            // Now delete the file or folder (with the correct SHA)
+            const deleteResponse = await octokit.request('DELETE /repos/{owner}/{repo}/contents/{path}', {
+              owner,
+              repo,
+              path,
+              message: `Delete file or folder: ${path}`,
+              sha, // Pass the SHA for deletion
+            });
 
-    // Now delete the file or folder (with the correct SHA)
-    const deleteResponse = await octokit.request('DELETE /repos/{owner}/{repo}/contents/{path}', {
-      owner,
-      repo,
-      path,
-      message: `Delete file or folder: ${path}`,
-      sha, // Pass the SHA for deletion
-    });
+            console.log(`Deleted: ${path}`);
+            alert(`"${path}" has been deleted successfully.`);
 
-    console.log(`Deleted: ${path}`);
-    alert(`"${path}" has been deleted successfully.`);
+            // After deletion, refresh the file manager for the current folder
+            await renderFileManager(currentFolderPath); // Wait for render to finish
 
-    console.log(currentFolderPath)
-    // After deletion, refresh the file manager for the current folder
-    renderFileManager(currentFolderPath); // Re-render the file manager view to reflect the update
-
-  } catch (error) {
-    console.error('Error deleting file or folder:', error);
-    alert(`Failed to delete "${path}".`);
-  }
-};
+          } catch (error) {
+            console.error('Error deleting file or folder:', error);
+            alert(`Failed to delete "${path}".`);
+          }
+        };
 
         // Get file content from GitHub
         const getFileContent = async (path) => {
@@ -227,7 +226,7 @@ const deleteFileOrFolder = async (path) => {
         };
 
         // Load the file manager UI initially for the root directory
-        renderFileManager();
+        await renderFileManager(); // Wait for the initial render
       }
     );
   }
