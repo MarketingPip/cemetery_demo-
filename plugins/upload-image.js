@@ -151,6 +151,7 @@ const uploadImage = async (file) => {
       document.getElementById('image-url-or-upload').value = null;
       document.getElementById('image-url-or-upload').selectedIndex = 0;
       document.getElementById('upload-input-section').classList.toggle('hidden'); 
+      this.selectedImage = null;
     }
     
     // Initialize or refresh the image form
@@ -189,9 +190,14 @@ const uploadImage = async (file) => {
       // Update front matter to include the image path if an image was selected (uploaded or URL)
       if (this.selectedImage) {
         await handleImageInput();
-        resetImageUpload()
         context.showAlert(`Image "${this.selectedImage}" added to the post.`, 'success');
       }
     });
+
+    context.on('postUploaded', async () => {
+      // Post was successfully uploaded. Clear variables for the next post etc.
+       resetImageUpload()
+    });
+    
   }
 };
