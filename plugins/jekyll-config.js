@@ -129,7 +129,8 @@ export const plugin = {
       document.querySelectorAll('.config-inputs-form button').forEach(btn => {
         btn.addEventListener('click', async (e) => {
           const configKey = e.currentTarget.dataset.configKey;
-          const updatedValue = collectInput(configKey);
+          const inputSelector = document.querySelector(`[jekyll-data-config-input="${configKey}"]`);
+          const updatedValue = inputSelector.value;
           await updateConfig(configKey, updatedValue, pluginContext);
         });
       });
@@ -140,7 +141,7 @@ export const plugin = {
       return `
         <div class="flex items-center space-x-2">
           <label for="${configKey}" class="text-sm font-medium text-gray-600">Update ${configKey}</label>
-          <input type="text" id="${configKey}" name="${configKey}" class="border border-gray-300 p-2 rounded-md w-full" 
+          <input type="text" id="${configKey}" jekyll-data-config-input="${configKey}" name="${configKey}" class="border border-gray-300 p-2 rounded-md w-full" 
                  value="${currentValue}" placeholder="Enter new value">
         </div>
       `;
