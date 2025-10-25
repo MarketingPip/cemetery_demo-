@@ -6,9 +6,9 @@ export const plugin = {
   init(context) {
     // Get Octokit instance
     const { octokit, config } = context.getOctokit();
+    this.context = context;
+    this.selectedAuthor = null;  // Store the selected author
 
-    this.context = context
-   
     // Function to fetch authors from the _authors folder
     const getAuthors = async () => {
       const authors = [];
@@ -22,8 +22,7 @@ export const plugin = {
 
         // Extract filenames (assuming each file represents an author)
         data.forEach(file => {
-          // You can customize this based on your file naming convention
-          const authorName = file.name.replace(/\.[^/.]+$/, "");  // Remove file extension (e.g., `.md`, `.txt`)
+          const authorName = file.name.replace(/\.[^/.]+$/, "");  // Remove file extension
           authors.push(authorName);
         });
       } catch (error) {
@@ -32,18 +31,19 @@ export const plugin = {
       return authors;
     };
 
+    // Author Plugin to inject selected author into front matter
+    const authorPlugin = (frontMatter, existingFrontMatter) => {
+      const author = this.selectedAuthor || existingFrontMatter.author || 'Unknown Author';
+      frontMatter += `author: "${author}"\n`;
+      return frontMatter;
+    };
 
-
-      const authorPlugin = (frontMatter, existingFrontMatter) => {
-  const author = this.selectedAuthor || existingFrontMatter.author || 'Unknown Author';
-  frontMatter += `author: "${author}"\n`;
-  return frontMatter;
-};
-    
     // Create the custom author field form
     const createAuthorField = async () => {
+      // Fetch authors and generate the dropdown
       const authors = await getAuthors();
 
+      // Select the section where the form will be inserted
       const authorFieldSection = document.createElement('div');
       authorFieldSection.id = 'author-field-section';
       authorFieldSection.className = 'space-y-4 p-4 bg-blue-50 border border-blue-200 rounded-lg';
@@ -60,31 +60,48 @@ export const plugin = {
         </div>
       `;
 
-
-
-      
-      // Insert the form into the editor
+      // Insert the form into the editor (below the tags field)
       const tagsField = context.elements.tags.parentElement.parentElement;
       tagsField.parentNode.insertBefore(authorFieldSection, tagsField.nextSibling);
-      
-      // Handle author selection
+
+      // Update the selected author whenever the user makes a selection
       const authorSelect = document.getElementById('author-select');
       authorSelect.addEventListener('change', () => {
         const selectedAuthor = authorSelect.value;
-        this.selectedAuthor = selectedAuthor;
-
-        
+        this.selectedAuthor = selectedAuthor;  // Update the selected author
         if (selectedAuthor) {
           context.showAlert(`Author selected: ${selectedAuthor}`, 'success');
         }
       });
     };
 
-    // Initialize the form when plugin is loaded
+    // Refetch authors when the user navigates back to the author tab
+    const refreshAuthorField = async () => {
+      // Clear the existing dropdown (if it exists)
+      const authorFieldSection = document.getElementById('author-field-section');
+      if (authorFieldSection) {
+        authorFieldSection.remove();  // Remove the old author field section
+      }
+
+      // Create the author field again with updated authors
+      await createAuthorField();
+    };
+
+    // Initialize or refresh the author field when the plugin is loaded
     createAuthorField();
 
+    // Listen for any event or trigger to refresh the author field
+    // Example: You can listen for an event or hook here to know when the user returns to the author tab
+    context.on('tab-switch', (tabName) => {
+      if (tabName === 'authors') {
+        refreshAuthorField();  // Refresh the author list when navigating back to the author tab
+      }
+    });
+
+    // Add the author plugin to the front matter plugins array
     context.frontMatterPlugins.push(authorPlugin);
     
+    // Show an alert that the plugin has been loaded
     context.showAlert('Author Selector loaded! Choose an author from the dropdown.', 'success');
   }
 };
