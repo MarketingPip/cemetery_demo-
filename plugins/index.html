@@ -997,11 +997,28 @@ function isTextFile(pluginPath) {
         
         const { octokit, config } = getOctokit();
          
-        const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
-          owner: config.owner,
-          repo: config.repo,
-          path: pluginPath
-        });
+        let data;
+        
+        if (pluginPath.endsWith('.csv')) {
+  // Construct the raw file URL directly
+  const rawUrl = `https://raw.githubusercontent.com/${config.owner}/${config.repo}/main/${pluginPath}`;
+  
+  // Fetch the content directly from the raw URL (no need to call the GitHub API)
+  const csvContentResponse = await fetch(rawUrl);
+  const csvContent = await csvContentResponse.text();  // Get the CSV content
+
+  data = csvContent;  // Use the CSV content here
+
+} else {
+  // Use octokit to fetch content for other files
+  const { _data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+    owner: config.owner,
+    repo: config.repo,
+    path: pluginPath
+  });
+
+  data = _data
+}
 
         
         
@@ -1023,7 +1040,16 @@ function isTextFile(pluginPath) {
       </div>
     `;
   } else {
-    const content = decodeURIComponent(escape(atob(data.content)));
+     
+    let content;
+    
+    if(!pluginPath.endsWith('.csv')){
+      
+      content = decodeURIComponent(escape(atob(data.content)));
+      
+    } else{
+      content = data
+    }
     // If it's not an image, render it as a text code block
     viewer.innerHTML = `
       <div class="bg-white rounded-lg shadow-2xl max-w-4xl w-full max-h-[90vh] overflow-hidden">
