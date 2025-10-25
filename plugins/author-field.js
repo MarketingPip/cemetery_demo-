@@ -32,6 +32,14 @@ export const plugin = {
       return authors;
     };
 
+
+
+      const authorPlugin = (frontMatter, existingFrontMatter) => {
+  const author = this.selectedAuthor || existingFrontMatter.author || 'Unknown Author';
+  frontMatter += `author: "${author}"\n`;
+  return frontMatter;
+};
+    
     // Create the custom author field form
     const createAuthorField = async () => {
       const authors = await getAuthors();
@@ -51,6 +59,9 @@ export const plugin = {
           </select>
         </div>
       `;
+
+
+
       
       // Insert the form into the editor
       const tagsField = context.elements.tags.parentElement.parentElement;
@@ -60,7 +71,9 @@ export const plugin = {
       const authorSelect = document.getElementById('author-select');
       authorSelect.addEventListener('change', () => {
         const selectedAuthor = authorSelect.value;
-        console.log(this.currentEditPost.frontMatter)
+        this.selectedAuthor = selectedAuthor;
+
+        
         if (selectedAuthor) {
           context.showAlert(`Author selected: ${selectedAuthor}`, 'success');
         }
@@ -70,6 +83,8 @@ export const plugin = {
     // Initialize the form when plugin is loaded
     createAuthorField();
 
+    context.frontMatterPlugins.push(authorPlugin);
+    
     context.showAlert('Author Selector loaded! Choose an author from the dropdown.', 'success');
   }
 };
