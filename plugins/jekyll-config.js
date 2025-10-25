@@ -45,7 +45,7 @@ export const plugin = {
     );
 
     // Helper: Load Jekyll config
-    async function loadConfig(pluginContext) {
+    async function loadConfig(this.context) {
       const loadingEl = document.getElementById('loading-config');
       const listEl = document.getElementById('config-list');
       const noConfigEl = document.getElementById('no-config');
@@ -55,7 +55,7 @@ export const plugin = {
       noConfigEl.classList.add('hidden');
 
       try {
-        const { octokit, config } = pluginContext.getOctokit();
+        const { octokit, config } = this.context.getOctokit();
         
         // Fetch the Jekyll config (e.g., _config.yml or other YAML file)
         const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/_config.yml', {
@@ -74,7 +74,7 @@ export const plugin = {
         if (!config) {
           noConfigEl.classList.remove('hidden');
         } else {
-          displayConfig(config, pluginContext);
+          displayConfig(config, this.context);
           listEl.classList.remove('hidden');
         }
       } catch (error) {
@@ -85,7 +85,7 @@ export const plugin = {
     }
 
     // Display config settings
-    function displayConfig(configData, pluginContext) {
+    function displayConfig(configData, this.context) {
       const listEl = document.getElementById('config-list');
       
       listEl.innerHTML = Object.keys(configData).map(key => `
@@ -128,7 +128,7 @@ export const plugin = {
         btn.addEventListener('click', async (e) => {
           const configKey = e.currentTarget.dataset.configKey;
           const updatedValue = collectInput(configKey);
-          await updateConfig(configKey, updatedValue, pluginContext);
+          await updateConfig(configKey, updatedValue, this.context);
         });
       });
     }
@@ -151,9 +151,9 @@ export const plugin = {
     }
 
     // Update the Jekyll config with the new value
-    async function updateConfig(configKey, updatedValue, pluginContext) {
+    async function updateConfig(configKey, updatedValue, this.context) {
       try {
-        const { octokit, config } = pluginContext.getOctokit();
+        const { octokit, config } = this.context.getOctokit();
 
         // Update the Jekyll config file (e.g., _config.yml)
         const newConfigContent = { ...config, [configKey]: updatedValue };
@@ -178,7 +178,7 @@ export const plugin = {
 
     // Refresh config
     document.getElementById('refresh-config-btn')?.addEventListener('click', (event) => {
-      loadConfig(this.octokit);
+      loadConfig(this.context);
     });
 
     context.showAlert('Jekyll Config Manager plugin loaded! Go to the Config tab to manage and update your Jekyll settings.', 'success');
