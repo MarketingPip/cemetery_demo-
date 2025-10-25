@@ -178,6 +178,7 @@ const deleteFileOrFolder = async (path) => {
       sha, // Pass the SHA for deletion
     });
 
+    await renderFileManager(currentFolderPath);
     console.log(`Deleted: ${path}`);
     alert(`"${path}" has been deleted successfully.`);
   } catch (error) {
