@@ -56,7 +56,7 @@ export const plugin = {
       noConfigEl.classList.add('hidden');
 
       try {
-        const { octokit, config } = pluginContext.getOctokit();
+        let { octokit, config } = pluginContext.getOctokit();
         
         // Fetch the Jekyll config (e.g., _config.yml or other YAML file)
         const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/_config.yml', {
