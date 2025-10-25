@@ -133,7 +133,7 @@ export const plugin = {
               const confirmDelete = confirm(`Are you sure you want to delete "${fileName}"?`);
               if (confirmDelete) {
                 await deleteFileOrFolder(path);
-                renderFileManager(currentFolderPath); // Refresh the current folder view
+                await renderFileManager(currentFolderPath); // Refresh the current folder view
               }
             });
 
@@ -178,7 +178,7 @@ const deleteFileOrFolder = async (path) => {
       sha, // Pass the SHA for deletion
     });
 
-    await renderFileManager(currentFolderPath);
+    
     console.log(`Deleted: ${path}`);
     alert(`"${path}" has been deleted successfully.`);
   } catch (error) {
