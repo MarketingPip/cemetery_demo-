@@ -47,19 +47,27 @@ export const plugin = {
         let currentFolderPath = ''; // Always initialize with an empty string
 
         // Fetch all files and folders in a given path
-        const getFiles = async (path = '') => {
-          try {
-            const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
-              owner,
-              repo,
-              path,
-            });
-            return data;
-          } catch (error) {
-            console.error('Error fetching repository contents:', error);
-            return [];
-          }
-        };
+       const getFiles = async (path = '') => {
+  try {
+    const { octokit, config } = context.getOctokit();
+    const owner = config.owner;
+    const repo = config.repo;
+
+    const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+      owner,
+      repo,
+      path,
+      headers: {
+        'If-None-Match': ''  // Disable ETag caching by setting If-None-Match to an empty string
+      }
+    });
+
+    return data;
+  } catch (error) {
+    console.error('Error fetching repository contents:', error);
+    return [];
+  }
+};
 
         // Render the file manager UI
     const renderFileManager = async (path = '') => {
@@ -163,6 +171,9 @@ const deleteFileOrFolder = async (path) => {
       owner,
       repo,
       path,
+      headers: {
+        'If-None-Match': ''  // Disable ETag caching by setting If-None-Match to an empty string
+      }
     });
 
     const sha = data.sha; // SHA of the file to delete
@@ -182,10 +193,13 @@ const deleteFileOrFolder = async (path) => {
       path,
       message: `Delete file or folder: ${path}`,
       sha, // Pass the SHA for deletion
+      headers: {
+        'If-None-Match': ''  // Disable ETag caching by setting If-None-Match to an empty string
+      }
     });
 
     console.log(`Deleted: ${path}`);
-   // alert(`"${path}" has been deleted successfully.`);
+    alert(`"${path}" has been deleted successfully.`);
 
     // After deletion, refresh the file manager for the current folder
     await renderFileManager(currentFolderPath); // Wait for render to finish
