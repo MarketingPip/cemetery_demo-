@@ -161,6 +161,7 @@ export const plugin = {
         // Update the Jekyll config file (e.g., _config.yml)
         const newConfigContent = { ...config, [configKey]: updatedValue };
 
+        console.log(newConfigContent)
         // Dynamically import `js-yaml` for stringifying the YAML content
         const yaml = await import('https://cdn.esm.sh/js-yaml@4.1.0/dist/js-yaml.js');
         const encodedConfig = btoa(yaml.dump(newConfigContent)); // Encode to base64
