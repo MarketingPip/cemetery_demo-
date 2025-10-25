@@ -185,7 +185,7 @@ const deleteFileOrFolder = async (path) => {
     });
 
     console.log(`Deleted: ${path}`);
-    alert(`"${path}" has been deleted successfully.`);
+   // alert(`"${path}" has been deleted successfully.`);
 
     // After deletion, refresh the file manager for the current folder
     await renderFileManager(currentFolderPath); // Wait for render to finish
