@@ -1,3 +1,71 @@
+/* This should use another yaml parser like example below since current parser removes comments
+
+import { parseDocument, YAMLMap, YAMLSeq } from 'https://esm.sh/yaml';
+
+// Sample YAML string (could be any YAML with nested keys)
+const yamlString = `
+site:
+  title: "My Awesome Site"
+  description: "A description of my awesome site"
+  author:
+    name: "John Doe"
+    email: "john@example.com"
+  metadata:
+    created: 2022-01-01
+    updated: 2022-10-01
+    tags:
+      - "Tech"
+      - "Web"
+`;
+
+// Parse YAML string into a document
+const document = parseDocument(yamlString);
+
+// Function to modify a nested VALUE in the parsed YAML document
+function modifyValue(node, path, newValue) {
+  // Convert path into an array (in case it's a string like 'site.title')
+  const keys = path.split('.');
+  
+  // Recursively navigate through the nested structure
+  let currentNode = node;
+  
+  // Traverse the path to get to the target map
+  for (let i = 0; i < keys.length - 1; i++) {
+    if (currentNode instanceof YAMLMap && currentNode.has(keys[i])) {
+      currentNode = currentNode.get(keys[i]); // Move deeper into the structure
+    } else {
+      return; // If the key doesn't exist, exit
+    }
+  }
+  
+  // Now `currentNode` should be the final map that contains the target key
+  if (currentNode instanceof YAMLMap) {
+    const lastKey = keys[keys.length - 1]; // The key we want to modify
+    // Set the new value for the key
+    currentNode.set(lastKey, newValue);
+  }
+}
+
+// Function to update the YAML document (it returns the modified document as a string)
+function updateYAML(yamlString, keyToModify, newValue) {
+  const document = parseDocument(yamlString);
+ 
+  // Modify the desired key in the document recursively
+  modifyValue(document.contents, keyToModify, newValue);
+  
+  // Return the modified YAML string
+  return document.toString();
+}
+
+// Test: Update 'site.title' and 'author.name'
+const updatedYaml = updateYAML(yamlString, 'site.title', 'Updated Site Title');
+const updatedYaml2 = updateYAML(updatedYaml, 'site.author.name', 'Jane Doe');
+
+// Output the updated YAML
+console.log(updatedYaml2);
+
+*/ 
+
 export const plugin = {
   name: "Jekyll Config Manager",
   version: "1.0.0",
