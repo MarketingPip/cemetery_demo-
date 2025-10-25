@@ -154,7 +154,7 @@ export const plugin = {
     // Update the Jekyll config with the new value
     async function updateConfig(configKey, updatedValue, pluginContext) {
       try {
-        const { octokit, config } = pluginContext.getOctokit();
+        let { octokit, config } = pluginContext.getOctokit();
 
         // Update the Jekyll config file (e.g., _config.yml)
         const newConfigContent = { ...config, [configKey]: updatedValue };
