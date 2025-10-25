@@ -92,10 +92,6 @@ export const plugin = {
             <label for="image-upload" class="block text-sm font-medium text-gray-700 mb-1">Upload Image</label>
             <input type="file" id="image-upload" class="w-full px-4 py-2 border border-gray-300 rounded-lg">
           </div>
-
-          <button id="image-submit-btn" type="button" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md w-full">
-            Submit Image
-          </button>
         </div>
       `;
 
@@ -112,27 +108,43 @@ export const plugin = {
         document.getElementById('upload-input-section').classList.toggle('hidden', selectedOption !== 'upload');
       });
 
-      // Handle the image form submission
-      document.getElementById('image-submit-btn').addEventListener('click', handleImageInput);
     };
 
     // Initialize or refresh the image form
     createImageForm();
 
+    // Add the image plugin to update the front matter with the image path (always update with either URL or path)
+    const imagePlugin = (frontMatter, existingFrontMatter) => {
+      let imagePath;
+
+      // If an image URL was provided or uploaded, use it
+      if (this.selectedImage) {
+        // If it's an uploaded image, it will have a path like /assets/images/imagename
+        if (!this.selectedImage.startsWith('http')) {
+          imagePath = `/assets/images/${this.selectedImage.split('/').pop()}`;
+        } else {
+          // If it's a URL, use the URL directly
+          imagePath = this.selectedImage;
+        }
+      } else {
+        // If no image URL or file is provided, set a default image (optional)
+        imagePath = null;  // Use a default image if needed
+      }
+
+      // Add the image field to the front matter
+      frontMatter += `image: "${imagePath}"\n`;
+      return frontMatter;
+    };
+
+    // Add the image plugin to the front matter plugins array
+    context.frontMatterPlugins.push(imagePlugin);
+
     // Listen for the post published event
     context.on('postPublished', async () => {
+      // Update front matter to include the image path if an image was selected (uploaded or URL)
       if (this.selectedImage) {
-        // If an image was selected/uploaded, add it to the post content
+        await handleImageInput()
         context.showAlert(`Image "${this.selectedImage}" added to the post.`, 'success');
-        
-        // Add the image to the post's front matter or content, depending on the plugin's architecture
-        // Assuming it adds it to the front matter or content as `image: "path_to_image"`
-        const frontMatter = context.getFormData().frontMatter || '';
-        const updatedFrontMatter = `${frontMatter}\nimage: "${this.selectedImage}"\n`;
-
-        context.setFormData({
-          frontMatter: updatedFrontMatter
-        });
       }
     });
   }
