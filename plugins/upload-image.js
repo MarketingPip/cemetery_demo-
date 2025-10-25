@@ -148,7 +148,6 @@ const uploadImage = async (file) => {
 
 
     function resetImageUpload(){
-      this.selectedImage = null;
       document.getElementById('image-url-or-upload').value = null;
       document.getElementById('image-url-or-upload').selectedIndex = 0;
     }
@@ -190,6 +189,7 @@ const uploadImage = async (file) => {
       if (this.selectedImage) {
         await handleImageInput();
         resetImageUpload()
+        this.selectedImage = null;
         context.showAlert(`Image "${this.selectedImage}" added to the post.`, 'success');
       }
     });
