@@ -44,7 +44,7 @@ export const plugin = {
         const owner = config.owner;
         const repo = config.repo;
 
-        let currentFolderPath = ''; // Tracks the current folder path being viewed
+        let currentFolderPath = null; // Tracks the current folder path being viewed
 
         // Fetch all files and folders in a given path
         const getFiles = async (path = '') => {
@@ -180,8 +180,9 @@ const deleteFileOrFolder = async (path) => {
     console.log(`Deleted: ${path}`);
     alert(`"${path}" has been deleted successfully.`);
 
+    console.log(currentFolderPath)
     // After deletion, refresh the file manager for the current folder
-    renderFileManager(); // Re-render the file manager view to reflect the update
+    renderFileManager(currentFolderPath); // Re-render the file manager view to reflect the update
 
   } catch (error) {
     console.error('Error deleting file or folder:', error);
