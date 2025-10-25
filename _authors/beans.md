@@ -1,7 +1,5 @@
 ---
 layout: author
-name: Cool
+name: beans
 author: beans
-bio: >-
-  sd
 ---
