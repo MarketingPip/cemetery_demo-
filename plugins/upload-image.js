@@ -141,6 +141,8 @@ export const plugin = {
 
     // Listen for the post published event
     context.on('postSubmit', async () => {
+      console.log("called")
+      console.log(this.selectedImage)
       // Update front matter to include the image path if an image was selected (uploaded or URL)
       if (this.selectedImage) {
         await handleImageInput()
