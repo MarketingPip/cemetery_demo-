@@ -16,66 +16,65 @@ export const plugin = {
       reader.onerror = error => reject(error);
     });
 
-    // Function to check if file exists in the assets/images folder
-    const checkIfFileExists = async (path) => {
-      try {
-        const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
-          owner: config.owner,
-          repo: config.repo,
-          path: path,
-        });
+   // Function to check if a file exists in the assets/images folder
+const checkIfFileExists = async (path) => {
+  try {
+    const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+      owner: config.owner,
+      repo: config.repo,
+      path: path,
+    });
 
-        return data.name; // File exists, return data
-      } catch (error) {
+    return data ? true : false; // File exists
+  } catch (error) {
+    if (error.status === 404) {
+      return false; // File does not exist
+    }
 
-        if(error.status === 404){
-          return false;
-        }
-        
-        return null; // File doesn't exist
-      }
-    };
+    console.error("Error checking file existence:", error);
+    return null; // Handle other errors
+  }
+};
 
-    // Function to upload image to assets/images and handle duplicate file names
-    const uploadImage = async (file) => {
-      let fileName = file.name;
-      let uploadPath = `assets/images/${fileName}`;
+// Function to upload image to assets/images and handle duplicate file names
+const uploadImage = async (file) => {
+  let fileName = file.name;
+  let uploadPath = `assets/images/${fileName}`;
 
-      // Check if file already exists, if it does, try appending a number to the filename
-      const fileExists = await checkIfFileExists(uploadPath);
-      if (fileExists) {
-        // Generate a new file name with a number appended to the base name
-        let counter = 1;
-        const baseName = fileName.replace(/\.[^/.]+$/, "");
-        const extension = fileName.split('.').pop();
-        uploadPath = `assets/images/${baseName} (${counter}).${extension}`;
+  // Check if file already exists, if it does, try appending a number to the filename
+  let fileExists = await checkIfFileExists(uploadPath);
+  if (fileExists) {
+    // Generate a new file name with a number appended to the base name
+    let counter = 1;
+    const baseName = fileName.replace(/\.[^/.]+$/, "");
+    const extension = fileName.split('.').pop();
 
-        // Increment the counter and check again until a unique filename is found
-        const nextFileExists = await checkIfFileExists(uploadPath);
-        if (!nextFileExists) {
-          // If the file with the new name doesn't exist, proceed with uploading
-          return await uploadImage(file, uploadPath);
-        }
-      }
+    // Ensure unique file name
+    while (fileExists) {
+      uploadPath = `assets/images/${baseName} (${counter}).${extension}`;
+      fileExists = await checkIfFileExists(uploadPath);
+      counter++;
+    }
+  }
 
-      // Upload the image after ensuring the file name is unique
-      try {
-        const response = await octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
-          owner: config.owner,
-          repo: config.repo,
-          path: uploadPath,
-          message: `Upload image: ${fileName}`,
-          content: await toBase64(file)
-        });
+  // Upload the image after ensuring the file name is unique
+  try {
+    const response = await octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
+      owner: config.owner,
+      repo: config.repo,
+      path: uploadPath,
+      message: `Upload image: ${fileName}`,
+      content: await toBase64(file),
+    });
 
-        // Return the URL to access the uploaded image
-        return response.data.content.download_url;
-      } catch (error) {
-        console.error('Error uploading image:', error);
-        context.showAlert('Error uploading image. Please try again.', 'error');
-        return null;
-      }
-    };
+    // Return the URL to access the uploaded image
+    return response.data.content.download_url;
+  } catch (error) {
+    console.error('Error uploading image:', error);
+    context.showAlert('Error uploading image. Please try again.', 'error');
+    return null;
+  }
+};
 
     // Handle image URL or upload selection
     const handleImageInput = async () => {
