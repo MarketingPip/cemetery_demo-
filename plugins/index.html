@@ -621,6 +621,7 @@ const easyMDE = new EasyMDE({
 
     // Generate Jekyll front matter
   function generateFrontMatter(title, categories, tags, existingFrontMatter = {}, plugins = []) {
+    
   // Determine the date
   let date;
   if (existingFrontMatter.date instanceof Date) {
@@ -630,66 +631,34 @@ const easyMDE = new EasyMDE({
   } else {
     date = new Date().toISOString();
   }
-
-  // Base front matter fields
-  const baseFrontMatter = {
-    layout: existingFrontMatter.layout || 'post',
-    title,
-    date
-  };
-
-  // Optional fields
+    
+  let frontMatter = '---\n';
+  
+  // Base Front Matter Fields
+  frontMatter += `layout: ${els.layout.value || existingFrontMatter.layout || 'post'}\n`;
+  frontMatter += `title: "${title}"\n`;
+  frontMatter += `date: ${date}\n`;
+  
   if (categories) {
     const cats = categories.split(',').map(c => c.trim()).filter(Boolean);
-    if (cats.length) baseFrontMatter.categories = cats;
+    frontMatter += `categories: [${cats.join(', ')}]\n`;
   }
-
+  
   if (tags) {
     const tagList = tags.split(',').map(t => t.trim()).filter(Boolean);
-    if (tagList.length) baseFrontMatter.tags = tagList;
+    frontMatter += `tags: [${tagList.join(', ')}]\n`;
   }
-
-  // Merge extra existing front matter (excluding already set fields)
-  const extraFrontMatter = { ...existingFrontMatter };
-  delete extraFrontMatter.layout;
-  delete extraFrontMatter.title;
-  delete extraFrontMatter.date;
-
-  const finalFrontMatter = { ...baseFrontMatter, ...extraFrontMatter };
-
-  // Convert front matter object to YAML-like string
-  const stringifyYAML = (obj, indent = 0) => {
-    let yaml = '';
-    const pad = '  '.repeat(indent);
-
-    for (const key in obj) {
-      const value = obj[key];
-
-      if (value && typeof value === 'object' && !Array.isArray(value)) {
-        yaml += `${pad}${key}:\n${stringifyYAML(value, indent + 1)}`;
-      } else if (Array.isArray(value)) {
-        yaml += `${pad}${key}: [${value.join(', ')}]\n`;
-      } else {
-        yaml += `${pad}${key}: ${value}\n`;
-      }
-    }
-    return yaml;
-  };
-
-  let frontMatterStr = '---\n';
-  frontMatterStr += stringifyYAML(finalFrontMatter);
   
-  // Apply plugins if any
+  // Apply plugins to extend front matter
   plugins.forEach(plugin => {
     if (typeof plugin === 'function') {
-      frontMatterStr = plugin(frontMatterStr, existingFrontMatter);
+      frontMatter = plugin(frontMatter, existingFrontMatter);
     }
   });
-
-  frontMatterStr += '---\n\n';
-  return frontMatterStr;
+  
+  frontMatter += '---\n\n';
+  return frontMatter;
 }
-
 
 
     // Generate filename
