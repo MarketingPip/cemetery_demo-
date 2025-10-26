@@ -1,5 +1,6 @@
 export const plugin = {
   name: "Live Preview & File Manager",
+  rendered:false,
   async init(context) {
     this.context = context;
 
@@ -14,8 +15,6 @@ export const plugin = {
         this.currentRepo = repo;
         this.currentOwner = owner;
         let currentFolderPath = ''; // Always initialize with an empty string
-        let rendered = false;
-
         // Fetch all files and folders in a given path
        const getFiles = async (path = '') => {
   try {
@@ -129,7 +128,7 @@ export const plugin = {
 
   this.owner = owner;
   this.repo = repo;
-  rendered = true;    
+  this.rendered = true;    
       
 };
 
@@ -222,7 +221,7 @@ const deleteFileOrFolder = async (path) => {
         };
 
         // Load the file manager UI initially for the root directory
-        if(!rendered){
+        if(!this.rendered){
         console.log("false")
         await renderFileManager(); // Wait for the initial render
         }
