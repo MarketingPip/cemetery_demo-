@@ -100,6 +100,14 @@ export const plugin = {
 
     // Add the author plugin to the front matter plugins array
     context.frontMatterPlugins.push(authorPlugin);
+
+        // Listen for the post published event
+    context.on('postSubmit', async () => {
+      // Update front matter to include the image path if an image was selected (uploaded or URL)
+      if (!this.selectedAuthor) {
+        throw new Error(`Author selected is required`);
+      }
+    });
     
     // Show an alert that the plugin has been loaded
     context.showAlert('Author Selector loaded! Choose an author from the dropdown.', 'success');
