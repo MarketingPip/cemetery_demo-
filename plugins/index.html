@@ -269,6 +269,8 @@ export const plugin = {
     
     // Import EasyMDE and its CSS
 import EasyMDE from "https://esm.sh/easymde";
+    
+    import _frontMatter from "https://esm.sh/front-matter"
 // Function to check if a file is a text file based on its extension  
 function isTextFile(pluginPath) {
   // Split the path by dots ('.') and pop the last part to get the file extension
@@ -602,33 +604,10 @@ const easyMDE = new EasyMDE({
 
     // Parse front matter
     function parseFrontMatter(content) {
-      const match = content.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
-      if (!match) return { frontMatter: {}, content };
-
-      const frontMatterText = match[1];
-      const bodyContent = match[2];
-      const frontMatter = {};
-
-      frontMatterText.split('\n').forEach(line => {
-        const colonIndex = line.indexOf(':');
-        if (colonIndex > -1) {
-          const key = line.substring(0, colonIndex).trim();
-          let value = line.substring(colonIndex + 1).trim();
-          
-          if ((value.startsWith('"') && value.endsWith('"')) || 
-              (value.startsWith("'") && value.endsWith("'"))) {
-            value = value.slice(1, -1);
-          }
-          
-          if (value.startsWith('[') && value.endsWith(']')) {
-            value = value.slice(1, -1).split(',').map(v => v.trim());
-          }
-          
-          frontMatter[key] = value;
-        }
-      });
-
-      return { frontMatter, content: bodyContent };
+      
+       const {attributes, body } = _frontMatter(content)
+      
+      return { frontMatter:attributes, content: body };
     }
 
     // Generate Jekyll front matter
@@ -770,6 +749,9 @@ const easyMDE = new EasyMDE({
         const content = decodeURIComponent(escape(atob(data.content)));
         const { frontMatter, content: bodyContent } = parseFrontMatter(content);
 
+        
+        console.log(frontMatter)
+        
         els.title.value = frontMatter.title || '';
         els.categories.value = Array.isArray(frontMatter.categories) 
           ? frontMatter.categories.join(', ') 
