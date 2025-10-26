@@ -505,7 +505,7 @@ const easyMDE = new EasyMDE({
           try {
             await listener(data); // Execute each listener and wait for it to complete
           } catch (error) {
-            console.error(`Error in listener for event "${event}":`, error);
+            throw error
           }
         })
       );
@@ -656,7 +656,7 @@ function generateFrontMatter(title, categories, tags, existingFrontMatter = {}, 
     if (typeof plugin === 'function') {
       plugin(frontMatterObj, existingFrontMatter);
     }
-  });
+  }); 
   
   // Helper function to format nested objects as YAML
   function formatYamlValue(value, indent = 0) {
@@ -1193,8 +1193,9 @@ viewer.innerHTML = `
 
     // Publish or update post
     async function publishPost() {
-      await pluginContext.emit('postSubmit');
+      
       try {
+        await pluginContext.emit('postSubmit');
         const { octokit, config } = getOctokit();
       } catch (error) {
         showAlert(error.message, 'error');
