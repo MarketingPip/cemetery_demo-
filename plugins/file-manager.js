@@ -223,6 +223,7 @@ const deleteFileOrFolder = async (path) => {
 
         // Load the file manager UI initially for the root directory
         if(!rendered){
+        console.log("false")
         await renderFileManager(); // Wait for the initial render
         }
       }
