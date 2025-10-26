@@ -9,7 +9,7 @@ export const plugin = {
     this.selectedImage = null; // Store the selected image URL or uploaded image path
 
 
-    console.log(context.plugin_variables[this.name])
+    console.log(context.plugin_variables)
     
     // Function to convert file to base64 (required for GitHub content upload API)
     const toBase64 = (file) => new Promise((resolve, reject) => {
