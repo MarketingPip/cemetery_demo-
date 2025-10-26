@@ -176,7 +176,7 @@ const uploadImage = async (file) => {
 
       if(imagePath){
       // Add the image field to the front matter
-      frontMatter += `image: "${imagePath}"\n`;
+      frontMatter.image = imagePath
       }
       return frontMatter;
     };
