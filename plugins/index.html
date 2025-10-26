@@ -525,7 +525,8 @@ setFormData: (data) => {
     }
   }, 
       
-  viewFile:viewPlugin    
+  viewFile:viewPlugin,
+  plugin_variables:{}
 };
 
     // Tab switching 
@@ -1037,7 +1038,7 @@ els.published.checked = frontMatter.published || false; // Set published checkbo
 
         try {
           const module = await import(url);
-          console.log(module)
+          //console.log(module)
           if (!module.plugin) {
             throw new Error('Plugin must export a "plugin" object');
           }
@@ -1064,8 +1065,8 @@ els.published.checked = frontMatter.published || false; // Set published checkbo
           // Save to storage
           const loadedPluginsData = storage.get(LOADED_PLUGINS_KEY) || {};
           loadedPluginsData[pluginName] = true;
-          storage.set(LOADED_PLUGINS_KEY, loadedPluginsData);
-
+          storage.set(LOADED_PLUGINS_KEY, loadedPluginsData);  
+ 
           showAlert(`Plugin "${plugin.name}" loaded successfully!`, 'success');
           loadPluginsList(); // Refresh the list
         } finally {
@@ -1354,7 +1355,7 @@ async function autoLoadPlugins(hotStart = false) {
     return;
   }
   
-  console.log("run");
+ 
   
   try {
     const { octokit, config } = getOctokit();
@@ -1371,9 +1372,17 @@ async function autoLoadPlugins(hotStart = false) {
       if (pkgResponse.data && pkgResponse.data.content) {
         const decoded = atob(pkgResponse.data.content);
         const pkg = JSON.parse(decoded);
-        // Look for an autoload.plugins array in package.json
+        // Look for an autoload.plugins array in package.json 
+        
+        if(pkg.pluginsVariables){
+           pluginContext.plugin_variables = pkg.pluginsVariables
+          }
         if (pkg.autoload && Array.isArray(pkg.autoload.plugins)) {
           autoloadPlugins = pkg.autoload.plugins;
+           storage.get(LOADED_PLUGINS_KEY);
+          
+
+            
           console.log('Found autoload plugins in package.json:', autoloadPlugins);
         }
       }
