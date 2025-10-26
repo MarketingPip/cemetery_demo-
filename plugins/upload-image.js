@@ -9,7 +9,9 @@ export const plugin = {
     this.selectedImage = null; // Store the selected image URL or uploaded image path
 
 
-    console.log(context.plugin_variables)
+    if(context.plugin_variables[this.name] && context.plugin_variables[this.name].assetsPath){
+     console.log(`Set custom asset path to ${context.plugin_variables[this.name].assetsPath}`)
+    }
     
     // Function to convert file to base64 (required for GitHub content upload API)
     const toBase64 = (file) => new Promise((resolve, reject) => {
