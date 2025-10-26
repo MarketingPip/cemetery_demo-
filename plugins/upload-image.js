@@ -8,6 +8,9 @@ export const plugin = {
     const { octokit, config } = context.getOctokit();
     this.selectedImage = null; // Store the selected image URL or uploaded image path
 
+
+    console.log(plugin_variables[this.name])
+    
     // Function to convert file to base64 (required for GitHub content upload API)
     const toBase64 = (file) => new Promise((resolve, reject) => {
       const reader = new FileReader();
