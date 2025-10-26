@@ -620,8 +620,7 @@ const easyMDE = new EasyMDE({
     }
 
     // Generate Jekyll front matter
-  function generateFrontMatter(title, categories, tags, existingFrontMatter = {}, plugins = []) {
-    
+function generateFrontMatter(title, categories, tags, existingFrontMatter = {}, plugins = []) {
   // Determine the date
   let date;
   if (existingFrontMatter.date instanceof Date) {
@@ -631,30 +630,88 @@ const easyMDE = new EasyMDE({
   } else {
     date = new Date().toISOString();
   }
-    
-  let frontMatter = '---\n';
   
-  // Base Front Matter Fields
-  frontMatter += `layout: ${els.layout.value || existingFrontMatter.layout || 'post'}\n`;
-  frontMatter += `title: "${title}"\n`;
-  frontMatter += `date: ${date}\n`;
+  // Build a unified front matter object
+  const frontMatterObj = {
+    ...existingFrontMatter, // Start with all existing fields
+    layout: els.layout.value || existingFrontMatter.layout || 'post',
+    title: title,
+    date: date
+  };
   
+  // Handle categories
   if (categories) {
     const cats = categories.split(',').map(c => c.trim()).filter(Boolean);
-    frontMatter += `categories: [${cats.join(', ')}]\n`;
+    frontMatterObj.categories = cats;
   }
   
+  // Handle tags
   if (tags) {
     const tagList = tags.split(',').map(t => t.trim()).filter(Boolean);
-    frontMatter += `tags: [${tagList.join(', ')}]\n`;
+    frontMatterObj.tags = tagList;
   }
   
-  // Apply plugins to extend front matter
+  // Apply plugins to modify the front matter object
   plugins.forEach(plugin => {
     if (typeof plugin === 'function') {
-      frontMatter = plugin(frontMatter, existingFrontMatter);
+      plugin(frontMatterObj, existingFrontMatter);
     }
   });
+  
+  // Helper function to format nested objects as YAML
+  function formatYamlValue(value, indent = 0) {
+    const indentStr = '  '.repeat(indent);
+    
+    if (value === undefined || value === null) {
+      return null;
+    }
+    
+    if (Array.isArray(value)) {
+      return `[${value.join(', ')}]`;
+    }
+    
+    if (typeof value === 'object' && !(value instanceof Date)) {
+      let result = '\n';
+      for (const [key, val] of Object.entries(value)) {
+        const formattedVal = formatYamlValue(val, indent + 1);
+        if (formattedVal === null) continue;
+        
+        if (typeof formattedVal === 'string' && formattedVal.startsWith('\n')) {
+          result += `${indentStr}  ${key}:${formattedVal}`;
+        } else {
+          result += `${indentStr}  ${key}: ${formattedVal}\n`;
+        }
+      }
+      return result.trimEnd() + '\n';
+    }
+    
+    if (typeof value === 'string') {
+      // Quote strings that contain special characters or are title/description
+      if (value.includes(':') || value.includes('#') || value.includes('"')) {
+        return `"${value.replace(/"/g, '\\"')}"`;
+      }
+      return value;
+    }
+    
+    return value;
+  }
+  
+  // Convert object to YAML string
+  let frontMatter = '---\n';
+  
+  for (const [key, value] of Object.entries(frontMatterObj)) {
+    const formattedVal = formatYamlValue(value);
+    if (formattedVal === null) continue;
+    
+    // Special handling for title - always quote it
+    if (key === 'title') {
+      frontMatter += `${key}: "${value}"\n`;
+    } else if (typeof formattedVal === 'string' && formattedVal.startsWith('\n')) {
+      frontMatter += `${key}:${formattedVal}`;
+    } else {
+      frontMatter += `${key}: ${formattedVal}\n`;
+    }
+  }
   
   frontMatter += '---\n\n';
   return frontMatter;
