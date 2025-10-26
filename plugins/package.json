@@ -1,5 +1,5 @@
 {
   "autoload": {
-    "plugins": ["add-authors.js"]
+    "plugins": ["add-authors.js","author-field.js", "file-manager.js"]
   }
 }
