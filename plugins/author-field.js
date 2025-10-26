@@ -34,7 +34,7 @@ export const plugin = {
     // Author Plugin to inject selected author into front matter
     const authorPlugin = (frontMatter, existingFrontMatter) => {
       const author = this.selectedAuthor || existingFrontMatter.author || 'Unknown Author';
-      frontMatter += `author: "${author}"\n`;
+      frontMatter.author = author
       return frontMatter;
     };
 
