@@ -11,6 +11,9 @@ export const plugin = {
         const owner = config.owner;
         const repo = config.repo;
 
+        this.currentRepo = repo;
+        this.currentOwner = owner;
+        this.rendered = false;
         let currentFolderPath = ''; // Always initialize with an empty string
 
         // Fetch all files and folders in a given path
@@ -123,6 +126,11 @@ export const plugin = {
 
   // Force reflow again after rendering (useful for desktop layouts)
   fileManagerContainer.offsetHeight; // Another force reflow
+
+  this.owner = owner;
+  this.repo = repo;
+  this.rendered = true;    
+      
 };
 
 // Delete file or folder from GitHub
@@ -214,7 +222,9 @@ const deleteFileOrFolder = async (path) => {
         };
 
         // Load the file manager UI initially for the root directory
+        if(!this.rendered){
         await renderFileManager(); // Wait for the initial render
+        }
       }
     );
   }
