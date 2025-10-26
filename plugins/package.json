@@ -1,5 +1,10 @@
 {
   "autoload": {
     "plugins": ["add-authors.js","author-field.js", "file-manager.js"]
+  },
+  "pluginsVariables": {
+    "Image Upload Form": {
+      "assetsPath": "/global/path/to/authors"
+    }
   }
 }
