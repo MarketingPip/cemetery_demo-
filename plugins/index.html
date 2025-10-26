@@ -1246,7 +1246,13 @@ viewer.innerHTML = `
 
 // Update only non-null properties in frontMatter
 Object.entries(jekyll).forEach(([key, value]) => {
-  if (value !== null && currentEditPost?.frontMatter) {
+  if (value !== null) {
+   
+    if(!currentEditPost){
+      currentEditPost = {}
+      currentEditPost.frontMatter = {}
+    }
+    
     currentEditPost.frontMatter[key] = value;
   }
 });
