@@ -1,7 +1,9 @@
 export const plugin = {
   name: "Live Preview & File Manager",
   rendered:false,
-  async init(context) {
+  listeners:[],
+   
+  async init(context) { 
     this.context = context;
 
     // Adding the "File Manager" tab
@@ -39,14 +41,21 @@ export const plugin = {
 };
 
         // Render the file manager UI
-    const renderFileManager = async (path = '') => {
-  currentFolderPath = path; // Update current path whenever we render
+  const renderFileManager = async (path = '') => {
+  currentFolderPath = path;
   const files = await getFiles(path);
   const fileManagerContainer = document.getElementById('file-manager-container');
-  
-  // Force reflow to ensure the DOM is properly updated
-  fileManagerContainer.offsetHeight; // This forces a reflow
 
+  // 🧹 Remove previous event listeners if any
+  if (this.listeners && this.listeners.length > 0) {
+    this.listeners.forEach(({ element, type, handler }) => {
+      element.removeEventListener(type, handler);
+    });
+  }
+  this.listeners = []; // Reset the list
+
+  // Force reflow to ensure DOM updates properly
+  fileManagerContainer.offsetHeight;
   fileManagerContainer.innerHTML = ''; // Clear previous content
 
   const fileListContainer = document.createElement('div');
@@ -62,10 +71,16 @@ export const plugin = {
     const goUpButton = document.createElement('button');
     goUpButton.className = 'bg-blue-600 text-white px-4 py-2 rounded-md mb-4';
     goUpButton.innerHTML = '⬆️ Go Up';
-    goUpButton.addEventListener('click', () => {
+
+    const goUpHandler = () => {
       const parentPath = path.split('/').slice(0, -1).join('/');
-      renderFileManager(parentPath); // Go up to the parent folder
-    });
+      renderFileManager(parentPath);
+    };
+    goUpButton.addEventListener('click', goUpHandler);
+
+    // Store listener for later cleanup
+    this.listeners.push({ element: goUpButton, type: 'click', handler: goUpHandler });
+
     fileListContainer.appendChild(goUpButton);
   }
 
@@ -79,7 +94,6 @@ export const plugin = {
     const isFolder = file.type === 'dir';
     const fileName = file.name;
 
-    // Folder item: Render clickable folder
     if (isFolder) {
       fileItem.innerHTML = `
         <span class="file-name font-semibold">${fileName}/</span>
@@ -87,7 +101,6 @@ export const plugin = {
         <button class="delete-file-btn bg-red-600 hover:bg-red-700 text-white px-2 py-1 rounded-md text-sm" data-path="${file.path}">🗑️ Delete</button>
       `;
     } else {
-      // File item: Render clickable file
       fileItem.innerHTML = `
         <span class="file-name">${fileName}</span>
         <button class="view-file-btn bg-green-500 hover:bg-green-600 text-white px-2 py-1 rounded-md text-sm" data-path="${file.path}">View</button>
@@ -95,27 +108,29 @@ export const plugin = {
       `;
     }
 
-    // Handle file preview
-    fileItem.querySelector('.view-file-btn').addEventListener('click', async (e) => {
+    // 🟢 View / open file or folder
+    const viewBtn = fileItem.querySelector('.view-file-btn');
+    const viewHandler = async (e) => {
       const path = e.target.getAttribute('data-path');
-
-      // If it's a folder, render its contents and change the current folder
       if (isFolder) {
-        currentFolderPath = path; // Update current path
-        renderFileManager(path); // Recurse into the folder
+        currentFolderPath = path;
+        renderFileManager(path);
       } else {
-        await this.context.viewFile(path)
+        await this.context.viewFile(path);
       }
-    });
+    };
+    viewBtn.addEventListener('click', viewHandler);
+    this.listeners.push({ element: viewBtn, type: 'click', handler: viewHandler });
 
-    // Handle file/folder deletion
-    fileItem.querySelector('.delete-file-btn').addEventListener('click', async (e) => {
+    // 🔴 Delete file or folder
+    const deleteBtn = fileItem.querySelector('.delete-file-btn');
+    const deleteHandler = async (e) => {
       const path = e.target.getAttribute('data-path');
       const confirmDelete = confirm(`Are you sure you want to delete "${fileName}"?`);
-      if (confirmDelete) {
-        await deleteFileOrFolder(path);
-      }
-    });
+      if (confirmDelete) await deleteFileOrFolder(path);
+    };
+    deleteBtn.addEventListener('click', deleteHandler);
+    this.listeners.push({ element: deleteBtn, type: 'click', handler: deleteHandler });
 
     fileList.appendChild(fileItem);
   });
@@ -123,14 +138,14 @@ export const plugin = {
   fileListContainer.appendChild(fileList);
   fileManagerContainer.appendChild(fileListContainer);
 
-  // Force reflow again after rendering (useful for desktop layouts)
-  fileManagerContainer.offsetHeight; // Another force reflow
+  // Force reflow again after rendering
+  fileManagerContainer.offsetHeight;
 
   this.owner = owner;
   this.repo = repo;
-  this.rendered = true;    
-      
+  this.rendered = true;
 };
+
 
 // Delete file or folder from GitHub
 const deleteFileOrFolder = async (path) => {
@@ -222,7 +237,6 @@ const deleteFileOrFolder = async (path) => {
 
         // Load the file manager UI initially for the root directory
         if(!this.rendered){
-        console.log("false")
         await renderFileManager(); // Wait for the initial render
         }
       }
