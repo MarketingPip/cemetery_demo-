@@ -357,7 +357,7 @@ const easyMDE = new EasyMDE({
       title: document.getElementById('title'),
       categories: document.getElementById('categories'),
       tags: document.getElementById('tags'),
-      content: document.getElementById('content'),
+      content: easyMDE,
       alert: document.getElementById('alert'),
       saveConfig: document.getElementById('save-config'),
       publishPost: document.getElementById('publish-post'),
@@ -777,7 +777,8 @@ const easyMDE = new EasyMDE({
         els.tags.value = Array.isArray(frontMatter.tags) 
           ? frontMatter.tags.join(', ') 
           : (frontMatter.tags || '');
-        els.content.value = bodyContent.trim();
+        console.log(bodyContent)
+        els.content.value(bodyContent.trim());
 
         currentEditPost = { path, sha, frontMatter }; 
         els.editorModeIcon.textContent = '✏️';
@@ -788,6 +789,7 @@ const easyMDE = new EasyMDE({
         pluginContext.currentEditPost = currentEditPost;
         switchTab('create'); 
         showAlert('Post loaded for editing', 'info');
+        window.dispatchEvent(new Event("resize")); // trigger immediately for MDE
       } catch (error) {
         console.error('Error loading post:', error);
         showAlert('Error loading post: ' + error.message, 'error');
@@ -1141,7 +1143,7 @@ viewer.innerHTML = `
       }
 
       const title = els.title.value.trim();
-      const content = els.content.value.trim();
+      const content = els.content.value().trim();
 
       if (!title || !content) {
         showAlert('Please provide both title and content', 'error');
@@ -1217,7 +1219,7 @@ viewer.innerHTML = `
       els.title.value = '';
       els.categories.value = '';
       els.tags.value = '';
-      els.content.value = '';
+      els.content.value('');
     }
 
     // Event listeners
