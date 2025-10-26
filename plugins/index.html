@@ -250,9 +250,9 @@ export const plugin = {
       <p>Powered by Octokit • Data stored securely in your browser</p>
     </footer>
   </div>
-
-  <script type="module">
-    import { Octokit } from "https://cdn.skypack.dev/@octokit/core";
+ 
+  <script type="module"> 
+      import { Octokit } from "https://cdn.skypack.dev/@octokit/core";
 
     import textExtensions from 'https://esm.sh/text-extensions';
 
@@ -557,7 +557,9 @@ function isTextFile(pluginPath) {
 
       storage.set(CONFIG_KEY, config);
       
- 
+       
+      await autoLoadPlugins(true)
+      
       showAlert('Configuration saved successfully!', 'success');
     });//
 
@@ -1200,31 +1202,94 @@ viewer.innerHTML = `
     loadConfig();
 
     // Auto-load previously loaded plugins on startup
-    async function autoLoadPlugins() {
-      const loadedPluginsData = storage.get(LOADED_PLUGINS_KEY);
-      if (!loadedPluginsData || Object.keys(loadedPluginsData).length === 0) {
-        return;
-      }
+  // Store loaded plugins globally to prevent duplicate loads
+const loadedPluginRegistry = new Map(); // Key: "owner/repo/path", Value: true
 
-      try {
-        const { octokit, config } = getOctokit();
-        const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
-          owner: config.owner,
-          repo: config.repo,
-          path: config.pluginsFolder || 'plugins'
-        });
-
-        const plugins = data.filter(file => file.name.endsWith('.js'));
-        
-        for (const plugin of plugins) {
-          if (loadedPluginsData[plugin.name]) {
-            await loadPlugin(plugin.path, plugin.name);
-          }
+async function autoLoadPlugins(hotStart = false) {
+  const loadedPluginsData = storage.get(LOADED_PLUGINS_KEY);
+  
+  // If not hot start and no cached plugins, exit early
+  if (!hotStart && (!loadedPluginsData || Object.keys(loadedPluginsData).length === 0)) {
+    return;
+  }
+  
+  console.log("run");
+  
+  try {
+    const { octokit, config } = getOctokit();
+    
+    // --- Step 1: Try to load the package.json ---
+    let autoloadPlugins = [];
+    try {
+      const pkgResponse = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+        owner: config.owner,
+        repo: config.repo,
+        path: 'plugins/package.json'
+      });
+      
+      if (pkgResponse.data && pkgResponse.data.content) {
+        const decoded = atob(pkgResponse.data.content);
+        const pkg = JSON.parse(decoded);
+        // Look for an autoload.plugins array in package.json
+        if (pkg.autoload && Array.isArray(pkg.autoload.plugins)) {
+          autoloadPlugins = pkg.autoload.plugins;
+          console.log('Found autoload plugins in package.json:', autoloadPlugins);
         }
-      } catch (error) {
-        console.log('Could not auto-load plugins:', error.message);
+      }
+    } catch (err) {
+      console.warn('No package.json autoload config found or could not parse:', err.message);
+    }
+    
+    // --- Step 2: Fetch plugin folder files ---
+    const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+      owner: config.owner,
+      repo: config.repo,
+      path: config.pluginsFolder || 'plugins'
+    });
+    
+    // Only include JS files
+    const pluginFiles = data.filter(file => file.name.endsWith('.js'));
+    
+    // --- Step 3: Load plugins based on cache or package.json ---
+    for (const file of pluginFiles) {
+      const pluginName = file.name;
+      const pluginPath = file.path;
+      
+      // Create unique registry key based on owner/repo/path
+      const registryKey = `${config.owner}/${config.repo}/${pluginPath}`;
+      
+      // Skip if already loaded
+      if (loadedPluginRegistry.has(registryKey)) {
+        console.log(`Plugin already loaded, skipping: ${registryKey}`);
+        continue;
+      }
+      
+      // Check if plugin should be loaded:
+      // 1. It's in the cache (loadedPluginsData)
+      // 2. It's in package.json autoload AND not already in cache
+      const isInCache = loadedPluginsData && loadedPluginsData[pluginName];
+      const isInPackageJson = autoloadPlugins.some(p => 
+        p === pluginPath || p === pluginName || p.endsWith(pluginName)
+      );
+      
+      if (isInCache || (!isInCache && isInPackageJson)) {
+        await loadPlugin(pluginPath, pluginName);
+        // Mark as loaded in registry
+        loadedPluginRegistry.set(registryKey, true);
+        console.log(`Loaded and registered: ${registryKey}`);
       }
     }
+  } catch (error) {
+    console.error('Could not auto-load plugins:', error.message);
+    throw error;
+  }
+}
+
+// Optional: Function to clear registry if needed (e.g., on logout or repo change)
+function clearPluginRegistry() {
+  loadedPluginRegistry.clear();
+  console.log('Plugin registry cleared');
+}
 
     // Try to auto-load plugins after a short delay 
     setTimeout(autoLoadPlugins, 1000);
