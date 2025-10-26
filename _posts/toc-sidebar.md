@@ -9,7 +9,6 @@ image: /path/to/post-image.jpg
 image_caption: A recently uncovered photograph of a pioneer family, circa 1850s.
 toc:
   sidebar: left
-author: "jane-doe"
 ---
 
 ## Table Of Contents Demo
