@@ -109,8 +109,7 @@ title: Authors
   <div class="container mx-auto px-4">
     <h1 class="text-3xl font-bold mb-6 text-center">Authors</h1>
 
-   {% assign authors_array = site.authors | map: "last" %}
-   {% assign authors_by_letter = authors_array | sort: "name" %}
+    {% assign authors_by_letter = site.authors | sort: "name" | uniq: "slug" %}
     {% assign current_letter = "" %}
 
     {% for author in authors_by_letter %}
