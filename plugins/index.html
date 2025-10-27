@@ -1322,15 +1322,30 @@ Object.entries(jekyll).forEach(([key, value]) => {
         
     }
 
-    // Clear form
+/**
+ * Function to clear all form fields, including dynamic ones added by plugins.
+ */
 function clearForm() {
+  // Clear predefined fields
   els.title.value = '';
   els.categories.value = '';
   els.tags.value = '';
   els.content.value = '';
-  els.excerpt.value = '';            // Clear excerpt field
-  els.date.value = '';               // Clear date field
-  els.published.checked = false;     // Uncheck published checkbox
+  els.excerpt.value = '';  // Clear excerpt field
+  els.date.value = '';     // Clear date field
+  els.published.checked = false;  // Uncheck published checkbox
+
+  // Clear dynamic fields added by plugins
+  pluginContext.customFields.forEach(field => {
+    if (field.type === 'checkbox') {
+      field.checked = false;  // For checkboxes
+    } else if (field.type === 'radio') {
+      field.checked = false;  // For radio buttons
+    } else {
+      field.value = '';  // For text input, textarea, etc.
+    }
+  });
+  
 }
 
 
