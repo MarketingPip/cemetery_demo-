@@ -1,0 +1,1489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Manage Jekyll blog posts directly from your browser">
+  <meta name="theme-color" content="#4f46e5">
+  <title>Jekyll Post Manager</title>
+  <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogIkpla3lsbCBQb3N0IE1hbmFnZXIiLAogICJzaG9ydF9uYW1lIjogIkpla3lsbCIsCiAgImRlc2NyaXB0aW9uIjogIk1hbmFnZSBKZWt5bGwgYmxvZyBwb3N0cyIsCiAgInN0YXJ0X3VybCI6ICIvIiwKICAiZGlzcGxheSI6ICJzdGFuZGFsb25lIiwKICAiYmFja2dyb3VuZF9jb2xvciI6ICIjZmZmZmZmIiwKICAidGhlbWVfY29sb3IiOiAiIzRmNDZlNSIsCiAgImljb25zIjogW10KfQ==">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-slide-in { animation: slideIn 0.3s ease-out; }
+    .glass-effect {
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(10px);
+    }
+    .tab-active {
+      border-bottom: 3px solid #4f46e5;
+      color: #4f46e5;
+    }
+    .plugin-badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: 600;
+      margin-left: 8px;
+    }
+    
+   .editor-toolbar > button.fullscreen.no-disable.no-mobile {
+  display:none;
+}
+
+.editor-toolbar > button.side-by-side.no-disable.no-mobile {
+  display:none;
+}
+  </style>
+</head>
+<body class="bg-gradient-to-br from-indigo-50 via-white to-purple-50 min-h-screen">
+  <div class="container mx-auto px-4 py-8 max-w-6xl">
+    <!-- Header -->
+    <header class="text-center mb-8 animate-slide-in">
+      <h1 class="text-4xl font-bold text-indigo-600 mb-2">📝 Jekyll Post Manager</h1>
+      <p class="text-gray-600">Create, view, and edit posts in your GitHub repository</p>
+    </header>
+
+    <!-- Status Alert -->
+    <div id="alert" class="hidden mb-6 p-4 rounded-lg animate-slide-in"></div>
+
+    <!-- Tabs -->
+    <div class="mb-6">
+      <div id="tabs-container" class="flex gap-4 border-b border-gray-200 overflow-x-auto">
+        <button id="tab-config" class="tab px-6 py-3 font-semibold transition-colors hover:text-indigo-600 whitespace-nowrap">
+          ⚙️ Config
+        </button>
+        <button id="tab-create" class="tab px-6 py-3 font-semibold transition-colors hover:text-indigo-600 tab-active whitespace-nowrap">
+          ✍️ Create
+        </button>
+        <button id="tab-manage" class="tab px-6 py-3 font-semibold transition-colors hover:text-indigo-600 whitespace-nowrap">
+          📚 Manage Posts
+        </button>
+        <button id="tab-plugins" class="tab px-6 py-3 font-semibold transition-colors hover:text-indigo-600 whitespace-nowrap">
+          🧩 Plugins
+        </button>
+      </div>
+    </div>
+
+    <!-- Configuration Section -->
+    <div id="config-section" class="hidden glass-effect rounded-xl shadow-lg p-6 mb-6 tab-content-section">
+      <h2 class="text-2xl font-semibold text-gray-800 mb-4">⚙️ GitHub Configuration</h2>
+      <div class="space-y-4">
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">GitHub Token</label>
+          <input type="password" id="token" placeholder="ghp_xxxxxxxxxxxxx" 
+                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+          <p class="text-xs text-gray-500 mt-1">Create a token at github.com/settings/tokens with repo access</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Repository Owner</label>
+            <input type="text" id="owner" placeholder="username" 
+                   class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Repository Name</label>
+            <input type="text" id="repo" placeholder="my-blog" 
+                   class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+          </div>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">Posts Folder</label>
+          <input type="text" id="folder" placeholder="_posts" value="_posts"
+                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">Plugins Folder (optional)</label>
+          <input type="text" id="plugins-folder" placeholder="plugins" value="plugins"
+                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+          <p class="text-xs text-gray-500 mt-1">Folder in your repository where plugin files are stored</p>
+        </div>
+        <button id="save-config" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 rounded-lg transition duration-200">
+          💾 Save Configuration
+        </button>
+      </div>
+    </div>
+
+    <!-- Post Editor -->
+    <div id="editor-section" class="glass-effect rounded-xl shadow-lg p-6 mb-6 tab-content-section">
+      <div class="flex justify-between items-center mb-4">
+        <h2 class="text-2xl font-semibold text-gray-800">
+          <span id="editor-mode-icon">✍️</span>
+          <span id="editor-mode-text">Create New Post</span>
+        </h2>
+        <button id="cancel-edit" class="hidden text-gray-600 hover:text-gray-800 font-medium">
+          ← Back to Create
+        </button>
+      </div>
+      <div class="space-y-4">
+          <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">Post Layout</label>
+          <input type="text" id="post-layout" placeholder="post" value="post" 
+                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">Post Title</label>
+          <input type="text" id="title" placeholder="My Awesome Blog Post" 
+                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Categories (comma separated)</label>
+            <input type="text" id="categories" placeholder="tech, tutorial" 
+                   class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Tags (comma separated)</label>
+            <input type="text" id="tags" placeholder="javascript, web" 
+                   class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+          </div>
+        </div>
+        <!-- Excerpt Field -->
+<div>
+  <label class="block text-sm font-medium text-gray-700 mb-1">Post Excerpt</label>
+  <input type="text" id="excerpt" placeholder="A brief summary of the post" 
+         class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+</div>
+
+<!-- Date Field -->
+<div>
+  <label class="block text-sm font-medium text-gray-700 mb-1">Post Date</label>
+  <input type="date" id="date" 
+         class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+</div>
+
+<!-- Published Field -->
+<div>
+  <label class="block text-sm font-medium text-gray-700 mb-1">Published</label>
+  <input type="checkbox" id="published" class="h-5 w-5 text-indigo-500 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2" checked>
+  <span class="ml-2 text-sm text-gray-700">Mark as Published</span>
+</div>
+
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">Post Content (Markdown)</label> 
+          <textarea id="content" rows="12" placeholder="Write your post content here using Markdown..."  
+                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent font-mono text-sm"></textarea>
+        </div>
+        <div id="plugin-actions" class="hidden flex flex-wrap gap-2 p-3 bg-purple-50 rounded-lg border border-purple-200">
+          <p class="w-full text-sm font-medium text-purple-700 mb-1">🧩 Plugin Actions:</p>
+          <!-- Plugin buttons will be inserted here -->
+        </div>
+        <div class="flex gap-3">
+          <button id="publish-post" class="flex-1 bg-green-600 hover:bg-green-700 text-white font-semibold py-3 rounded-lg transition duration-200">
+            🚀 Publish Post
+          </button>
+          <button id="clear-form" class="px-6 bg-gray-300 hover:bg-gray-400 text-gray-700 font-semibold py-3 rounded-lg transition duration-200">
+            🗑️ Clear
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Manage Posts Section -->
+    <div id="manage-section" class="hidden tab-content-section">
+      <div class="glass-effect rounded-xl shadow-lg p-6 mb-6">
+        <div class="flex justify-between items-center mb-4">
+          <h2 class="text-2xl font-semibold text-gray-800">📚 Your Posts</h2>
+          <button id="refresh-posts" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition duration-200">
+            🔄 Refresh
+          </button>
+        </div>
+        
+        <div id="loading-posts" class="hidden text-center py-12">
+          <div class="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600"></div>
+          <p class="mt-4 text-gray-600">Loading posts...</p>
+        </div>
+
+        <div id="posts-list" class="space-y-3">
+          <!-- Posts will be loaded here -->
+        </div>
+
+        <div id="no-posts" class="hidden text-center py-12 text-gray-500">
+          <p class="text-lg">No posts found in your repository.</p>
+          <p class="text-sm mt-2">Create your first post using the Create tab!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Plugins Section -->
+    <div id="plugins-section" class="hidden tab-content-section">
+      <div class="glass-effect rounded-xl shadow-lg p-6 mb-6">
+        <div class="flex justify-between items-center mb-4">
+          <h2 class="text-2xl font-semibold text-gray-800">🧩 Available Plugins</h2>
+          <button id="refresh-plugins" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition duration-200">
+            🔄 Refresh
+          </button>
+        </div>
+
+        <div class="mb-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+          <h3 class="font-semibold text-blue-900 mb-2">📖 How to Create Plugins</h3>
+          <p class="text-sm text-blue-800 mb-3">Create JavaScript files in your repository's plugin folder (default: <code class="bg-blue-100 px-2 py-1 rounded">plugins/</code>)</p>
+          
+          <details class="text-sm text-blue-800">
+            <summary class="cursor-pointer font-medium hover:text-blue-600">View Example Plugin</summary>
+            <pre class="mt-3 p-3 bg-white rounded border border-blue-200 overflow-x-auto text-xs"><code>// Example: word-counter.js
+export const plugin = {
+  name: "Word Counter",
+  version: "1.0.0",
+  description: "Adds word count display to editor",
+  
+  init(context) {
+    // Create word count display
+    const counter = document.createElement('div');
+    counter.id = 'word-counter';
+    counter.className = 'text-sm text-gray-600 mt-2';
+    counter.textContent = 'Words: 0';
+    
+    // Insert after content textarea
+    const textarea = context.elements.content;
+    textarea.parentNode.insertBefore(counter, textarea.nextSibling);
+    
+    // Update on input
+    textarea.addEventListener('input', () => {
+      const words = textarea.value.trim().split(/\s+/).length;
+      counter.textContent = \`Words: \${words}\`;
+    });
+    
+    context.showAlert('Word Counter plugin loaded!', 'success');
+  },
+  
+  // Optional: Add custom action button
+  action: {
+    label: "📊 Count Words",
+    handler(context) {
+      const words = context.elements.content.value.trim().split(/\s+/).length;
+      alert(\`Total words: \${words}\`);
+    }
+  }
+};</code></pre>
+          </details>
+        </div>
+        
+        <div id="loading-plugins" class="hidden text-center py-12">
+          <div class="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600"></div>
+          <p class="mt-4 text-gray-600">Loading plugins...</p>
+        </div>
+
+        <div id="plugins-list" class="space-y-3">
+          <!-- Plugins will be loaded here -->
+        </div>
+
+        <div id="no-plugins" class="hidden text-center py-12 text-gray-500">
+          <p class="text-lg">No plugins found in your repository.</p>
+          <p class="text-sm mt-2">Create a <code class="bg-gray-200 px-2 py-1 rounded">plugins/</code> folder and add your custom plugins!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-gray-500 text-sm">
+      <p>Powered by Octokit • Data stored securely in your browser</p>
+    </footer>
+  </div>
+ 
+  <script type="module"> 
+      import { Octokit } from "https://cdn.skypack.dev/@octokit/core";
+
+    import textExtensions from 'https://esm.sh/text-extensions';
+
+    import isImage from 'https://esm.sh/is-image';
+   
+    import yaml from "https://esm.sh/js-yaml";
+    
+    import _frontMatter from "https://esm.sh/front-matter"
+// Function to check if a file is a text file based on its extension  
+function isTextFile(pluginPath) {
+  // Split the path by dots ('.') and pop the last part to get the file extension
+  const extension = pluginPath.split('.').pop();
+
+  // Check if the extension exists in the textExtensions array
+  return textExtensions.includes(extension);
+}
+     
+    
+    // Storage wrapper
+    class Storage {
+      constructor() {
+        this.memory = {};
+        this.available = this.checkAvailability();
+      }
+
+      checkAvailability() {
+        try {
+          const test = '__storage_test__';
+          localStorage.setItem(test, test);
+          localStorage.removeItem(test);
+          return true;
+        } catch (e) {
+          return false;
+        }
+      }
+
+      set(key, value) {
+        const data = JSON.stringify(value);
+        if (this.available) {
+          localStorage.setItem(key, data);
+        } else {
+          this.memory[key] = data;
+        }
+      }
+
+      get(key) {
+        let data;
+        if (this.available) {
+          data = localStorage.getItem(key);
+        } else {
+          data = this.memory[key];
+        }
+        return data ? JSON.parse(data) : null;
+      }
+
+      remove(key) {
+        if (this.available) {
+          localStorage.removeItem(key);
+        } else {
+          delete this.memory[key];
+        }
+      }
+    }
+
+    const storage = new Storage();
+    const CONFIG_KEY = 'jekyll_config';
+    const LOADED_PLUGINS_KEY = 'loaded_plugins';
+    let currentEditPost = null;
+    let loadedPlugins = {};
+    let customTabs = {}; // Store custom tabs created by plugins
+
+    // UI Elements
+    const els = {
+      token: document.getElementById('token'),
+      owner: document.getElementById('owner'),
+      repo: document.getElementById('repo'),
+      folder: document.getElementById('folder'),
+      pluginsFolder: document.getElementById('plugins-folder'),   
+      title: document.getElementById('title'),
+      layout: document.getElementById('post-layout'),
+      excerpt: document.getElementById('excerpt'),
+      date: document.getElementById('date'),
+      published: document.getElementById('published'),
+      categories: document.getElementById('categories'),
+      tags: document.getElementById('tags'),
+      content: document.getElementById('content'),
+      alert: document.getElementById('alert'),
+      saveConfig: document.getElementById('save-config'),
+      publishPost: document.getElementById('publish-post'),
+      clearForm: document.getElementById('clear-form'),
+      configSection: document.getElementById('config-section'),
+      editorSection: document.getElementById('editor-section'),
+      manageSection: document.getElementById('manage-section'),
+      pluginsSection: document.getElementById('plugins-section'),
+      tabsContainer: document.getElementById('tabs-container'),
+      tabConfig: document.getElementById('tab-config'),
+      tabCreate: document.getElementById('tab-create'),
+      tabManage: document.getElementById('tab-manage'),
+      tabPlugins: document.getElementById('tab-plugins'),
+      postsList: document.getElementById('posts-list'),
+      loadingPosts: document.getElementById('loading-posts'),
+      noPosts: document.getElementById('no-posts'),
+      refreshPosts: document.getElementById('refresh-posts'),
+      pluginsList: document.getElementById('plugins-list'),
+      loadingPlugins: document.getElementById('loading-plugins'),
+      noPlugins: document.getElementById('no-plugins'),
+      refreshPlugins: document.getElementById('refresh-plugins'),
+      editorModeIcon: document.getElementById('editor-mode-icon'),
+      editorModeText: document.getElementById('editor-mode-text'),
+      cancelEdit: document.getElementById('cancel-edit'),
+      pluginActions: document.getElementById('plugin-actions')
+    };
+
+    // Plugin Context API
+    const pluginContext = {
+  elements: els,
+  showAlert,
+getFormData: () => ({
+  title: els.title.value.trim(),
+  categories: els.categories.value.trim(),
+  tags: els.tags.value.trim(),
+  content: els.content.value.trim(),
+  layout: els.layout.value.trim(),
+  excerpt: els.excerpt.value.trim(),   
+  date: els.date.value.trim(),         
+  published: els.published.checked
+}),
+
+setFormData: (data) => {
+  if (data.title !== undefined) els.title.value = data.title;
+  if (data.categories !== undefined) els.categories.value = data.categories;
+  if (data.layout !== undefined) els.layout.value = data.layout;
+  if (data.tags !== undefined) els.tags.value = data.tags;
+  if (data.content !== undefined) els.content.value = data.content;
+  if (data.excerpt !== undefined) els.excerpt.value = data.excerpt;
+  if (data.date !== undefined) els.date.value = data.date;
+  if (data.published !== undefined) els.published.checked = data.published;
+},
+  addPluginAction: (label, handler) => {
+    const btn = document.createElement('button');
+    btn.className = 'bg-purple-600 hover:bg-purple-700 text-white px-3 py-2 rounded-lg text-sm transition duration-200';
+    btn.textContent = label;
+    btn.addEventListener('click', () => handler(pluginContext));
+    els.pluginActions.appendChild(btn);
+    els.pluginActions.classList.remove('hidden');
+  },
+  addTab: (tabId, tabLabel, contentHTML, onActivate) => {
+    // Create tab button
+    const tabBtn = document.createElement('button');
+    tabBtn.id = `tab-${tabId}`;
+    tabBtn.className = 'tab px-6 py-3 font-semibold transition-colors hover:text-indigo-600 whitespace-nowrap';
+    tabBtn.textContent = tabLabel;
+    els.tabsContainer.appendChild(tabBtn);
+
+    // Create content section
+    const contentSection = document.createElement('div');
+    contentSection.id = `${tabId}-section`;
+    contentSection.className = 'hidden glass-effect rounded-xl shadow-lg p-6 mb-6 tab-content-section';
+    contentSection.innerHTML = contentHTML;
+    
+    // Insert before footer
+    const footer = document.querySelector('footer');
+    footer.parentNode.insertBefore(contentSection, footer);
+
+    // Store custom tab info
+    customTabs[tabId] = {
+      button: tabBtn,
+      section: contentSection,
+      onActivate: onActivate
+    };
+
+    // Add click handler
+    tabBtn.addEventListener('click', () => switchTab(tabId));
+
+    return {
+      button: tabBtn,
+      section: contentSection,
+      update: (newHTML) => {
+        contentSection.innerHTML = newHTML;
+      }
+    };
+  },
+  switchTab: (tabId) => {
+    switchTab(tabId);
+  },
+  removeTab: (tabId) => {
+    if (customTabs[tabId]) {
+      customTabs[tabId].button.remove();
+      customTabs[tabId].section.remove();
+      delete customTabs[tabId];
+    }
+  },
+  utils: {
+    createButton: (text, className, onClick) => {
+      const btn = document.createElement('button');
+      btn.textContent = text;
+      btn.className = className;
+      btn.addEventListener('click', onClick);
+      return btn;
+    },
+    createElement: (tag, className, innerHTML) => {
+      const el = document.createElement(tag);
+      if (className) el.className = className;
+      if (innerHTML) el.innerHTML = innerHTML;
+      return el;
+    }
+  },
+  getOctokit: getOctokit,
+  currentEditPost,
+  frontMatterPlugins: [],
+  
+  // Event Emitter implementation
+  _listeners: {},
+  
+  // Register an event listener
+  on: function(event, listener) {
+    if (!this._listeners[event]) {
+      this._listeners[event] = [];
+    }
+    this._listeners[event].push(listener);
+  },
+
+  // Emit an event to all listeners
+  emit: async function (event, data) {
+    if (this._listeners[event]) {
+      // Wait for all listeners to finish before proceeding
+      await Promise.all(
+        this._listeners[event].map(async (listener) => {
+          try {
+            await listener(data); // Execute each listener and wait for it to complete
+          } catch (error) {
+            throw error
+          }
+        })
+      );
+    }
+  }, 
+      
+  viewFile:viewPlugin,
+  plugin_variables:{}
+};
+
+    // Tab switching 
+    function switchTab(tab) {
+      pluginContext.emit('tab-switch', tab);
+
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('tab-active'));
+      document.querySelectorAll('.tab-content-section').forEach(s => s.classList.add('hidden'));
+
+      if (tab === 'config') {
+        els.tabConfig.classList.add('tab-active');
+        els.configSection.classList.remove('hidden');
+      } else if (tab === 'create') {
+        els.tabCreate.classList.add('tab-active');
+        els.editorSection.classList.remove('hidden');
+      } else if (tab === 'manage') {
+        els.tabManage.classList.add('tab-active');
+        els.manageSection.classList.remove('hidden');
+        loadPosts();
+      } else if (tab === 'plugins') {
+        els.tabPlugins.classList.add('tab-active');
+        els.pluginsSection.classList.remove('hidden');
+        loadPluginsList();
+      } else if (customTabs[tab]) {
+        // Handle custom plugin tabs
+        customTabs[tab].button.classList.add('tab-active');
+        customTabs[tab].section.classList.remove('hidden');
+        
+        // Call onActivate callback if prov ided
+        if (customTabs[tab].onActivate) { 
+          customTabs[tab].onActivate(pluginContext);
+        } 
+      }
+    }
+
+    els.tabConfig.addEventListener('click', () => switchTab('config'));
+    els.tabCreate.addEventListener('click', () => switchTab('create'));
+    els.tabManage.addEventListener('click', () => switchTab('manage'));
+    els.tabPlugins.addEventListener('click', () => switchTab('plugins'));
+
+    // Load saved configuration
+    function loadConfig() {
+      const config = storage.get(CONFIG_KEY);
+      if (config) {
+        els.token.value = config.token || '';
+        els.owner.value = config.owner || '';
+        els.repo.value = config.repo || '';
+        els.folder.value = config.folder || '_posts';
+        els.pluginsFolder.value = config.pluginsFolder || 'plugins';
+      }
+    }
+
+    // Show alert message
+    function showAlert(message, type = 'info') {
+      const colors = {
+        success: 'bg-green-100 border-green-400 text-green-800',
+        error: 'bg-red-100 border-red-400 text-red-800',
+        info: 'bg-blue-100 border-blue-400 text-blue-800',
+        warning: 'bg-yellow-100 border-yellow-400 text-yellow-800'
+      };
+      els.alert.className = `mb-6 p-4 rounded-lg animate-slide-in border-l-4 ${colors[type]}`;
+      els.alert.textContent = message;
+      els.alert.classList.remove('hidden');
+      setTimeout(() => els.alert.classList.add('hidden'), 5000);
+    }
+
+    // Save configuration
+    els.saveConfig.addEventListener('click', async () => {
+      const config = {
+        token: els.token.value.trim(),
+        owner: els.owner.value.trim(),
+        repo: els.repo.value.trim(),
+        folder: els.folder.value.trim() || '_posts',
+        pluginsFolder: els.pluginsFolder.value.trim() || 'plugins'
+      };
+
+      if (!config.token || !config.owner || !config.repo) {
+        showAlert('Please fill in all required fields', 'error');
+        return;
+      }
+
+      storage.set(CONFIG_KEY, config);
+      
+       
+      await autoLoadPlugins(true)
+      
+      showAlert('Configuration saved successfully!', 'success');
+    });//
+
+    // Get Octokit instance
+    function getOctokit() {
+      const config = storage.get(CONFIG_KEY);
+      if (!config || !config.token) {
+        throw new Error('Please configure GitHub settings first');
+      }
+      return { octokit: new Octokit({ auth: config.token }), config };
+    }
+
+    // Parse front matter
+    function parseFrontMatter(content) {
+      
+       const {attributes, body } = _frontMatter(content)
+      
+      return { frontMatter:attributes, content: body };
+    }
+
+    // Generate Jekyll front matter
+function generateFrontMatter(jsonObject, plugins = [], existingFrontMatter = {}) {
+  try {
+    // Clone the jsonObject to avoid mutating the original
+    let frontMatterObj = { ...jsonObject, ...existingFrontMatter };
+
+    // Apply plugins to modify the front matter object
+    plugins.forEach(plugin => {
+      if (typeof plugin === 'function') {
+        plugin(frontMatterObj, existingFrontMatter);
+      }
+    });
+
+    // Convert modified front matter object to YAML format
+    const yamlContent = yaml.dump(frontMatterObj);
+    
+    // Wrap the YAML content in front matter delimiters
+    const frontMatter = `---\n${yamlContent}---\n`;
+
+    return frontMatter;
+  } catch (e) {
+    console.error("Error converting JSON to front matter:", e);
+    return '';
+  }
+}
+
+
+    // Generate filename
+    function generateFilename(title) {
+      const date = new Date().toISOString().split('T')[0];
+      const slug = title
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-|-$/g, '');
+      return `${date}-${slug}.md`;
+    }
+
+    // Load posts from repository 
+    async function loadPosts() {
+      els.loadingPosts.classList.remove('hidden');
+      els.postsList.classList.add('hidden');
+      els.noPosts.classList.add('hidden');
+
+      try {  
+        const { octokit, config } = getOctokit();
+        
+        const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+          owner: config.owner,
+          repo: config.repo,
+          path: config.folder
+        });
+
+        if (!data || data.length === 0) {
+          els.noPosts.classList.remove('hidden');
+          els.loadingPosts.classList.add('hidden');
+          return;
+        }
+
+        const posts = data
+          .filter(file => file.name.endsWith('.md') || file.name.endsWith('.markdown'))
+          .sort((a, b) => b.name.localeCompare(a.name));
+
+        displayPosts(posts);
+        els.postsList.classList.remove('hidden');
+        els.loadingPosts.classList.add('hidden');
+      } catch (error) {
+        console.error('Error loading posts:', error);
+        showAlert('Error loading posts: ' + error.message, 'error');
+        els.loadingPosts.classList.add('hidden');
+      }
+    }
+
+    // Display posts in list
+    function displayPosts(posts) {
+      els.postsList.innerHTML = posts.map(post => `
+        <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
+          <div class="flex justify-between items-start">
+            <div class="flex-1">
+              <h3 class="font-semibold text-lg text-gray-800">${formatPostTitle(post.name)}</h3>
+              <p class="text-sm text-gray-500 mt-1">${post.name}</p>
+            </div>
+            <div class="flex gap-2 ml-4">
+              <button class="edit-post bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition duration-200 text-sm" data-path="${post.path}" data-sha="${post.sha}">
+                ✏️ Edit
+              </button>
+              <button class="delete-post bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg transition duration-200 text-sm" data-path="${post.path}" data-sha="${post.sha}" data-name="${post.name}">
+                🗑️ Delete
+              </button>
+            </div>
+          </div>
+        </div>
+      `).join('');
+
+      document.querySelectorAll('.edit-post').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const path = e.currentTarget.dataset.path;
+          const sha = e.currentTarget.dataset.sha;
+          editPost(path, sha);
+        });
+      });
+ 
+      document.querySelectorAll('.delete-post').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const path = e.currentTarget.dataset.path;
+          const sha = e.currentTarget.dataset.sha;
+          const name = e.currentTarget.dataset.name;
+          deletePost(path, sha, name);
+        });
+      });
+    }
+
+    // Format post title from filename
+    function formatPostTitle(filename) {
+      return filename
+        .replace(/^\d{4}-\d{2}-\d{2}-/, '')
+        .replace(/\.(md|markdown)$/, '')
+        .replace(/-/g, ' ')
+        .replace(/\b\w/g, c => c.toUpperCase());
+    }
+
+    // Edit post
+    async function editPost(path, sha) {
+      try {
+        const { octokit, config } = getOctokit();
+        
+        const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', { 
+          owner: config.owner,
+          repo: config.repo, 
+          path
+        });  
+
+        const content = decodeURIComponent(escape(atob(data.content)));
+        const { frontMatter, content: bodyContent } = parseFrontMatter(content);
+
+        
+        
+        
+        els.title.value = frontMatter.title || '';
+        els.layout.value = frontMatter.layout || '';
+        els.categories.value = Array.isArray(frontMatter.categories) 
+          ? frontMatter.categories.join(', ') 
+          : (frontMatter.categories || '');
+        els.tags.value = Array.isArray(frontMatter.tags) 
+          ? frontMatter.tags.join(', ') 
+          : (frontMatter.tags || '');
+        
+       
+els.excerpt.value = frontMatter.excerpt || '';         // Set excerpt field
+els.date.value = frontMatter.date || '';               // Set date field (ensure it's in the correct format, e.g., YYYY-MM-DD)
+els.published.checked = frontMatter.published || false; // Set published checkbox (defaults to false if undefined)
+
+        els.content.value = bodyContent.trim();
+
+        currentEditPost = { path, sha, frontMatter }; 
+        els.editorModeIcon.textContent = '✏️';
+        els.editorModeText.textContent = 'Edit Post';
+        els.publishPost.textContent = '💾 Update Post';
+        els.cancelEdit.classList.remove('hidden');
+ 
+        pluginContext.currentEditPost = currentEditPost;
+        switchTab('create'); 
+        showAlert('Post loaded for editing', 'info');
+        window.dispatchEvent(new Event("resize")); // trigger immediately for MDE
+      } catch (error) {
+        console.error('Error loading post:', error);
+        showAlert('Error loading post: ' + error.message, 'error');
+      }
+    }
+
+    // Cancel edit mode
+    els.cancelEdit.addEventListener('click', () => {
+      currentEditPost = null;
+      els.editorModeIcon.textContent = '✍️';
+      els.editorModeText.textContent = 'Create New Post';
+      els.publishPost.textContent = '🚀 Publish Post';
+      els.cancelEdit.classList.add('hidden');
+      pluginContext.currentEditPost = currentEditPost;
+      clearForm();
+    });    
+
+    // Delete post
+    async function deletePost(path, sha, name) {
+      if (!confirm(`Are you sure you want to delete "${name}"? This action cannot be undone.`)) {
+        return;
+      }
+
+      try {
+        const { octokit, config } = getOctokit();
+        
+        await octokit.request('DELETE /repos/{owner}/{repo}/contents/{path}', {
+          owner: config.owner,
+          repo: config.repo,
+          path,
+          message: `Delete post: ${name}`,
+          sha
+        });
+
+        showAlert('Post deleted successfully', 'success');
+        loadPosts();
+      } catch (error) {
+        console.error('Error deleting post:', error);
+        showAlert('Error deleting post: ' + error.message, 'error');
+      }
+    }
+
+    // Load plugins list from repository
+    async function loadPluginsList() {
+      els.loadingPlugins.classList.remove('hidden');
+      els.pluginsList.classList.add('hidden');
+      els.noPlugins.classList.add('hidden');
+
+      try {
+        const { octokit, config } = getOctokit();
+        
+        const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+          owner: config.owner,
+          repo: config.repo,
+          path: config.pluginsFolder || 'plugins'
+        });
+
+        if (!data || data.length === 0) {
+          els.noPlugins.classList.remove('hidden');
+          els.loadingPlugins.classList.add('hidden');
+          return;
+        }
+
+        const plugins = data.filter(file => file.name.endsWith('.js'));
+        
+        if (plugins.length === 0) {
+          els.noPlugins.classList.remove('hidden');
+          els.loadingPlugins.classList.add('hidden');
+          return;
+        }
+
+        displayPlugins(plugins);  
+        els.pluginsList.classList.remove('hidden');  
+        els.loadingPlugins.classList.add('hidden');       
+      } catch (error) {        
+        console.error('Error loading plugins:', error); 
+        if (error.status === 404) { 
+          els.noPlugins.classList.remove('hidden');  
+        } else {
+          showAlert('Error loading plugins: ' + error.message, 'error'); 
+        }
+        els.loadingPlugins.classList.add('hidden');
+      } 
+    } 
+
+    // Display plugins in list
+    function displayPlugins(plugins) {
+      const loadedPluginsData = storage.get(LOADED_PLUGINS_KEY) || {}; 
+      
+      els.pluginsList.innerHTML = plugins.map(plugin => {
+        const isLoaded = loadedPluginsData[plugin.name];
+        const pluginInfo = loadedPlugins[plugin.name];
+        
+        return `
+          <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
+            <div class="flex justify-between items-start">
+              <div class="flex-1">
+                <div class="flex items-center">
+                  <h3 class="font-semibold text-lg text-gray-800">${plugin.name}</h3>
+                  ${isLoaded ? '<span class="plugin-badge bg-green-100 text-green-800">✓ Loaded</span>' : ''}
+                </div>
+                ${pluginInfo ? `
+                  <p class="text-sm text-gray-600 mt-1">${pluginInfo.description || 'No description'}</p>
+                  <p class="text-xs text-gray-500 mt-1">Version: ${pluginInfo.version || '1.0.0'}</p>
+                ` : `<p class="text-sm text-gray-500 mt-1">${plugin.path}</p>`}
+              </div>
+              <div class="flex gap-2 ml-4">
+                ${isLoaded ? `
+                  <button class="unload-plugin bg-orange-600 hover:bg-orange-700 text-white px-4 py-2 rounded-lg transition duration-200 text-sm" data-name="${plugin.name}">
+                    🔌 Unload
+                  </button>
+                ` : `
+                  <button class="load-plugin bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition duration-200 text-sm" data-path="${plugin.path}" data-name="${plugin.name}">
+                    🚀 Load
+                  </button>
+                `}
+                <button class="view-plugin bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded-lg transition duration-200 text-sm" data-path="${plugin.path}">
+                  👁️ View
+                </button>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      // Attach event listeners
+      document.querySelectorAll('.load-plugin').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const path = e.currentTarget.dataset.path;
+          const name = e.currentTarget.dataset.name;
+          loadPlugin(path, name);
+        });
+      });
+
+      document.querySelectorAll('.unload-plugin').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const name = e.currentTarget.dataset.name;
+          unloadPlugin(name);
+        });
+      });
+
+      document.querySelectorAll('.view-plugin').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const path = e.currentTarget.dataset.path;
+          viewPlugin(path);
+        });
+      });
+    }
+
+    // Load and execute a plugin
+    async function loadPlugin(pluginPath, pluginName) {
+      try {
+        const { octokit, config } = getOctokit();
+        
+        showAlert(`Loading plugin: ${pluginName}...`, 'info');
+
+        const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+          owner: config.owner,
+          repo: config.repo,
+          path: pluginPath
+        });
+
+        const content = decodeURIComponent(escape(atob(data.content)));
+
+        // Create a data URL for the module
+        const blob = new Blob([content], { type: 'text/javascript' });
+        const url = URL.createObjectURL(blob);
+
+        try {
+          const module = await import(url);
+          //console.log(module)
+          if (!module.plugin) {
+            throw new Error('Plugin must export a "plugin" object');
+          }
+
+          const plugin = module.plugin;
+
+          // Validate plugin structure
+          if (!plugin.name) plugin.name = pluginName;
+          if (!plugin.init || typeof plugin.init !== 'function') {
+            throw new Error('Plugin must have an init() function');
+          }
+
+          // Initialize the plugin
+          plugin.init(pluginContext);
+
+          // Add action button if plugin provides one
+          if (plugin.action && plugin.action.label && plugin.action.handler) {
+            pluginContext.addPluginAction(plugin.action.label, plugin.action.handler);
+          }
+
+          // Store loaded plugin
+          loadedPlugins[pluginName] = plugin;
+          
+          // Save to storage
+          const loadedPluginsData = storage.get(LOADED_PLUGINS_KEY) || {};
+          loadedPluginsData[pluginName] = true;
+          storage.set(LOADED_PLUGINS_KEY, loadedPluginsData);  
+ 
+          showAlert(`Plugin "${plugin.name}" loaded successfully!`, 'success');
+          loadPluginsList(); // Refresh the list
+        } finally {
+          URL.revokeObjectURL(url);
+        }
+      } catch (error) {
+        console.error('Error loading plugin:', error);
+        showAlert(`Error loading plugin: ${error.message}`, 'error');
+      } 
+    }
+
+    // Unload a plugin 
+    function unloadPlugin(pluginName) {
+      if (confirm(`Unload plugin "${pluginName}"? You'll need to reload the page for changes to take full effect.`)) {
+        delete loadedPlugins[pluginName];
+        
+        const loadedPluginsData = storage.get(LOADED_PLUGINS_KEY) || {};
+        delete loadedPluginsData[pluginName];
+        storage.set(LOADED_PLUGINS_KEY, loadedPluginsData);
+
+        showAlert(`Plugin "${pluginName}" unloaded. Reload the page for full effect.`, 'warning');
+        loadPluginsList();
+      }
+    }
+
+    // View plugin source code
+// View plugin source code with Ace Editor for text files
+async function viewPlugin(pluginPath, sha=null) {
+  try {
+    const textfile = isTextFile(pluginPath);
+    const _isImage = isImage(pluginPath);
+
+    if (!_isImage && !textfile) {
+      throw new Error("File extension is not supported");
+    }
+
+    const { octokit, config } = getOctokit();
+
+    let data;
+
+    if (pluginPath.endsWith(".csv")) {
+      const rawUrl = `https://raw.githubusercontent.com/${config.owner}/${config.repo}/main/${pluginPath}`;
+      const csvContentResponse = await fetch(rawUrl);
+      const csvContent = await csvContentResponse.text();
+      data = csvContent;
+    } else {
+      const _octokit = await octokit.request("GET /repos/{owner}/{repo}/contents/{path}", {
+        owner: config.owner,
+        repo: config.repo,
+        path: pluginPath,
+      });
+      data = _octokit.data;
+    }
+
+    const viewer = document.createElement("div");
+    viewer.className = "fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4";
+
+    if (_isImage) {
+      const fileExtension = pluginPath.split(".").pop().toLowerCase();
+      viewer.innerHTML = `
+        <div class="bg-white rounded-lg shadow-2xl max-w-4xl w-full max-h-[90vh] overflow-hidden h-full">
+          <div class="flex justify-between items-center p-4 border-b">
+            <h3 class="text-xl font-semibold">${pluginPath}</h3>
+            <button class="close-viewer text-gray-600 hover:text-gray-800 text-2xl">&times;</button>
+          </div>
+          <div class="p-4 overflow-auto max-h-[calc(90vh-80px)] bg-gray-50">
+            ${
+              fileExtension === "svg"
+                ? `<div class="svg-container" style="max-width: 100%; max-height: calc(90vh - 80px);">${atob(
+                    data.content
+                  )}</div>`
+                : `<img src="data:image/${fileExtension};base64,${data.content}" alt="${pluginPath}" class="max-w-full max-h-[calc(90vh-80px)] object-contain" />`
+            }
+          </div>
+        </div>
+      `;
+    } else {
+      const content = pluginPath.endsWith(".csv") ? data : decodeURIComponent(escape(atob(data.content)));
+
+      viewer.innerHTML = `
+        <div class="bg-white rounded-lg shadow-2xl max-w-5xl w-full max-h-[90vh] flex flex-col overflow-hidden h-full">
+          <div class="flex justify-between items-center p-4 border-b space-x-2">
+            <h3 class="text-xl font-semibold">${pluginPath}</h3>
+            <div class="ml-auto flex space-x-2">
+              <button class="save-file-btn bg-green-500 hover:bg-green-600 text-white px-3 py-1 rounded-md text-sm">💾 Save</button>
+              <button class="close-viewer text-gray-600 hover:text-gray-800 text-2xl">&times;</button>
+            </div>
+          </div>
+          <div id="ace-editor" class="flex-1 h-full w-full bg-gray-50"></div>
+        </div>
+      `;
+
+      // Import Ace Editor dynamically
+      const ace = (await import("https://esm.sh/ace-builds/src-noconflict/ace.js")).default;
+      await import("https://esm.sh/ace-builds/src-noconflict/ext-language_tools.js");
+      await import("https://esm.sh/ace-builds/src-noconflict/mode-javascript.js");
+      await import("https://esm.sh/ace-builds/src-noconflict/mode-yaml.js");
+      await import("https://esm.sh/ace-builds/src-noconflict/mode-json.js");
+      await import("https://esm.sh/ace-builds/src-noconflict/theme-monokai.js");
+
+      document.body.appendChild(viewer);
+
+      const ext = pluginPath.split(".").pop().toLowerCase();
+      const modeMap = {
+        js: "ace/mode/javascript",
+        json: "ace/mode/json",
+        yml: "ace/mode/yaml",
+        yaml: "ace/mode/yaml",
+        csv: "ace/mode/plain_text",
+        html: "ace/mode/html",
+        css: "ace/mode/css",
+        txt: "ace/mode/text",
+        md: "ace/mode/markdown",
+      };
+      const mode = modeMap[ext] || "ace/mode/text";
+
+      const editor = ace.edit("ace-editor");
+      editor.setTheme("ace/theme/monokai");
+      editor.session.setMode(mode);
+      editor.setValue(content, -1);
+      editor.setOptions({
+        fontSize: "14px",
+        enableBasicAutocompletion: true,
+        enableLiveAutocompletion: true,
+        showPrintMargin: false,
+      });
+
+      window.currentAceEditor = editor;
+
+      // Save file button handler
+      const saveBtn = viewer.querySelector(".save-file-btn");
+      
+      if(!sha){
+        saveBtn.classList.add("hidden")
+      }else{
+        saveBtn.classList.remove("hidden")
+        //
+        
+         saveBtn.addEventListener("click", async () => {
+        const newContent = editor.getValue();
+        try {
+          await saveGithubFile({path:pluginPath, content:newContent, sha}); // implement this function to push changes to GitHub or local
+          showAlert(`Saved ${pluginPath}`, "success");
+          document.body.removeChild(viewer);
+        } catch (err) {
+          console.error("Error saving file:", err);
+          showAlert(`Error saving file: ${err.message}`, "error");
+        }
+      });
+      }
+     
+    }
+
+    // Viewer close handlers
+    viewer.querySelector(".close-viewer").addEventListener("click", () => {
+      document.body.removeChild(viewer);
+    });
+    viewer.addEventListener("click", (e) => {
+      if (e.target === viewer) document.body.removeChild(viewer);
+    });
+  } catch (error) {
+    console.error("Error viewing plugin:", error);
+    showAlert("Error viewing plugin: " + error.message, "error");
+  }
+}
+
+
+
+    // Escape HTML for display
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    // Publish or update post
+    async function publishPost() {
+      
+      try {
+        await pluginContext.emit('postSubmit');
+        const { octokit, config } = getOctokit();
+      
+
+      const title = els.title.value.trim();
+      const content = els.content.value.trim();
+      const layout = els.layout.value.trim();  
+
+      if (!title || !content || !layout) {
+        showAlert('Please provide both title, layout and content', 'error');
+        return;
+      }
+
+      
+      
+      let path, sha;
+      if (currentEditPost) {
+        path = currentEditPost.path;
+        sha = currentEditPost.sha;
+      } else {
+        const filename = generateFilename(title);
+        path = `${config.folder}/${filename}`;
+      }
+
+        function formatDate(d) {
+  let date;
+  if(d){
+    date = new Date(d);
+  }
+          
+   if(!d){
+    date = new Date();
+  }         
+  return date.toLocaleString('sv-SE') + ' ' + date.toTimeString().match(/[-+]\d{4}/)[0];
+}
+
+        
+      
+      const jekyll = {
+   title,
+  categories:els.categories.value || null,
+  tags:els.tags.value || null,      
+  published: els.published.checked,
+  excerpt: els.excerpt.value || null,
+  date:  formatDate(els.date.value) || formatDate()
+}; 
+
+// Update only non-null properties in frontMatter
+Object.entries(jekyll).forEach(([key, value]) => {
+  if (value !== null || value && value.trim() != "") {
+  
+    if(!currentEditPost){
+      currentEditPost = {}
+      currentEditPost.frontMatter = {}
+    }
+    
+    currentEditPost.frontMatter[key] = value;
+  }
+});
+
+       
+        
+      const frontMatter = generateFrontMatter(
+        {},
+        pluginContext.frontMatterPlugins,
+        currentEditPost?.frontMatter,
+      );
+      
+      
+      
+      const fullContent = frontMatter + content;
+
+      els.publishPost.disabled = true;
+      els.publishPost.textContent = currentEditPost ? '⏳ Updating...' : '⏳ Publishing...';
+
+      try {
+        if (!currentEditPost) {
+          try {
+            const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+              owner: config.owner,
+              repo: config.repo,
+              path
+            });
+            sha = data.sha;
+          } catch (err) {
+            if (err.status !== 404) throw err;
+          }
+        }
+
+        const response = await octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
+          owner: config.owner,
+          repo: config.repo,
+          path,
+          message: currentEditPost ? `Update post: ${title}` : `Add post: ${title}`,
+          content: btoa(unescape(encodeURIComponent(fullContent))),
+          sha
+        });
+
+        const action = currentEditPost ? 'updated' : 'published';
+        showAlert(`Post ${action} successfully!`, 'success');
+        await pluginContext.emit('postUploaded'); 
+        currentEditPost = null;
+        els.editorModeIcon.textContent = '✍️';
+        els.editorModeText.textContent = 'Create New Post';
+        els.cancelEdit.classList.add('hidden');
+        
+        clearForm();
+      } catch (error) {
+        console.error('Error publishing post:', error);
+        showAlert(`Error: ${error.message || 'Failed to publish post'}`, 'error');
+      } finally {
+        els.publishPost.disabled = false;
+        els.publishPost.textContent = currentEditPost ? '💾 Update Post' : '🚀 Publish Post';
+      }
+        
+   } catch (error) {
+        showAlert(error.message, 'error');
+        return; 
+      }     
+        
+    }
+
+/**
+ * Save or update a file on GitHub using Octokit.
+ *
+ * @param {Object} params
+ * @param {string} params.path - Full file path in the repo (e.g., "_posts/2025-10-27-test.md").
+ * @param {string} params.content - File content as UTF-8 text.
+ * @param {string} [params.sha] - File SHA if updating (omit for new file).
+ * @param {string} [params.message] - Optional custom commit message.
+ *
+ * @returns {Promise<Object>} GitHub API response
+ */
+async function saveGithubFile({ path, content, sha = null, message = null }) {
+  try {
+    const { octokit, config } = getOctokit();
+
+    // 🧩 Extract filename from path
+    const fileName = path.split('/').pop();
+
+    // 🧠 Default commit message
+    const commitMessage =
+      message || (sha ? `Update file: ${fileName}` : `Add file: ${fileName}`);
+
+    // 🔐 Encode content in base64
+    const encodedContent = btoa(unescape(encodeURIComponent(content)));
+
+    // 🚀 Send request to GitHub API
+    const response = await octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
+      owner: config.owner,
+      repo: config.repo,
+      path,
+      message: commitMessage,
+      content: encodedContent,
+      sha: sha || undefined,
+    });
+
+    console.log(`✅ Successfully saved ${fileName}`);
+    return response.data;
+  } catch (error) {
+    console.error(`❌ Error saving file to GitHub (${path}):`, error);
+    throw new Error(error.message || 'Failed to save file to GitHub');
+  }
+}
+    
+    
+/**
+ * Function to clear all form fields, including dynamic ones added by plugins.
+ */
+function clearForm() {
+  // Clear predefined fields
+  els.title.value = '';
+  els.categories.value = '';
+  els.tags.value = '';
+  els.content.value = '';
+  els.excerpt.value = '';  // Clear excerpt field
+  els.date.value = '';     // Clear date field
+  els.published.checked = false;  // Uncheck published checkbox
+
+  // Clear dynamic fields added by plugins
+  if(pluginContext.customFields && pluginContext.customFields.length != 0){
+  pluginContext.customFields.forEach(field => {
+    if (field.type === 'checkbox') {
+      field.checked = false;  // For checkboxes
+    } else if (field.type === 'radio') {
+      field.checked = false;  // For radio buttons
+    } else {
+      field.value = '';  // For text input, textarea, etc.
+    }
+  });
+ } 
+}
+
+
+    // Event listeners
+    els.publishPost.addEventListener('click', publishPost);
+    els.clearForm.addEventListener('click', clearForm);
+    els.refreshPosts.addEventListener('click', loadPosts);
+    els.refreshPlugins.addEventListener('click', loadPluginsList);
+
+    // Load config on startup
+    loadConfig();
+
+    // Auto-load previously loaded plugins on startup
+  // Store loaded plugins globally to prevent duplicate loads
+const loadedPluginRegistry = new Map(); // Key: "owner/repo/path", Value: true
+
+async function autoLoadPlugins(hotStart = false) {
+  const loadedPluginsData = storage.get(LOADED_PLUGINS_KEY);
+  
+  // If not hot start and no cached plugins, exit early
+  if (!hotStart && (!loadedPluginsData || Object.keys(loadedPluginsData).length === 0)) {
+    return;
+  }
+  
+ 
+  
+  try {
+    const { octokit, config } = getOctokit();
+    
+    // --- Step 1: Try to load the package.json ---
+    let autoloadPlugins = [];
+    try {
+      const pkgResponse = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+        owner: config.owner,
+        repo: config.repo,
+        path: 'plugins/package.json'
+      });
+      
+      if (pkgResponse.data && pkgResponse.data.content) {
+        const decoded = atob(pkgResponse.data.content);
+        const pkg = JSON.parse(decoded);
+        // Look for an autoload.plugins array in package.json 
+        
+        if(pkg.pluginsVariables){
+           pluginContext.plugin_variables = pkg.pluginsVariables
+          }
+        if (pkg.autoload && Array.isArray(pkg.autoload.plugins)) {
+          autoloadPlugins = pkg.autoload.plugins;
+           storage.get(LOADED_PLUGINS_KEY);
+          
+
+            
+          console.log('Found autoload plugins in package.json:', autoloadPlugins);
+        }
+      }
+    } catch (err) {
+      console.warn('No package.json autoload config found or could not parse:', err.message);
+    }
+    
+    // --- Step 2: Fetch plugin folder files ---
+    const { data } = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+      owner: config.owner,
+      repo: config.repo,
+      path: config.pluginsFolder || 'plugins'
+    });
+    
+    // Only include JS files
+    const pluginFiles = data.filter(file => file.name.endsWith('.js'));
+    
+    // --- Step 3: Load plugins based on cache or package.json ---
+    for (const file of pluginFiles) {
+      const pluginName = file.name;
+      const pluginPath = file.path;
+      
+      // Create unique registry key based on owner/repo/path
+      const registryKey = `${config.owner}/${config.repo}/${pluginPath}`;
+      
+      // Skip if already loaded
+      if (loadedPluginRegistry.has(registryKey)) {
+        console.log(`Plugin already loaded, skipping: ${registryKey}`);
+        continue;
+      }
+      
+      // Check if plugin should be loaded:
+      // 1. It's in the cache (loadedPluginsData)
+      // 2. It's in package.json autoload AND not already in cache
+      const isInCache = loadedPluginsData && loadedPluginsData[pluginName];
+      const isInPackageJson = autoloadPlugins.some(p => 
+        p === pluginPath || p === pluginName || p.endsWith(pluginName)
+      );
+      
+      if (isInCache || (!isInCache && isInPackageJson)) {
+        await loadPlugin(pluginPath, pluginName);
+        // Mark as loaded in registry
+        loadedPluginRegistry.set(registryKey, true);
+        console.log(`Loaded and registered: ${registryKey}`);
+      }
+    }
+  } catch (error) {
+    console.error('Could not auto-load plugins:', error.message);
+    throw error;
+  }
+}
+
+// Optional: Function to clear registry if needed (e.g., on logout or repo change)
+function clearPluginRegistry() {
+  loadedPluginRegistry.clear();
+  console.log('Plugin registry cleared');
+}
+ 
+    // Try to auto-load plugins after a short delay  
+    setTimeout(autoLoadPlugins, 1000);
+
+    // Register service worker for PWA
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('data:application/json;base64,')
+        .catch(err => console.log('SW registration skipped'));
+    }
+  </script>
+</body> 
+</html> 
