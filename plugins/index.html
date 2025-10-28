@@ -293,6 +293,7 @@ export const plugin = {
 
     import isImage from 'https://esm.sh/is-image';
    
+    import yaml from "https://esm.sh/js-yaml";
     
     import _frontMatter from "https://esm.sh/front-matter"
 // Function to check if a file is a text file based on its extension  
@@ -634,101 +635,29 @@ setFormData: (data) => {
     }
 
     // Generate Jekyll front matter
-function generateFrontMatter(title, categories, tags, existingFrontMatter = {}, plugins = []) {
-  // Determine the date
-  let date;
-  if (existingFrontMatter.date instanceof Date) {
-    date = existingFrontMatter.date.toISOString();
-  } else if (existingFrontMatter.date) {
-    date = existingFrontMatter.date;
-  } else {
-    date = new Date().toISOString();
-  }
-  
-  // Build a unified front matter object
-  const frontMatterObj = {
-    ...existingFrontMatter, // Start with all existing fields
-    layout: els.layout.value || existingFrontMatter.layout || 'post',
-    title: title,
-    date: date
-  };
-  
-  // Handle categories
-  if (categories) {
-    const cats = categories.split(',').map(c => c.trim()).filter(Boolean);
-    frontMatterObj.categories = cats;
-  }
-  
-  // Handle tags
-  if (tags) {
-    const tagList = tags.split(',').map(t => t.trim()).filter(Boolean);
-    frontMatterObj.tags = tagList;
-  }
-  
-  // Apply plugins to modify the front matter object
-  plugins.forEach(plugin => {
-    if (typeof plugin === 'function') {
-      plugin(frontMatterObj, existingFrontMatter);
-    }
-  }); 
-  
-  // Helper function to format nested objects as YAML
-  function formatYamlValue(value, indent = 0) {
-    const indentStr = '  '.repeat(indent);
-    
-    if (value === undefined || value === null) {
-      return null;
-    }
-    
-    if (Array.isArray(value)) {
-      return `[${value.join(', ')}]`;
-    }
-    
-    if (typeof value === 'object' && !(value instanceof Date)) {
-      let result = '\n';
-      for (const [key, val] of Object.entries(value)) {
-        const formattedVal = formatYamlValue(val, indent + 1);
-        if (formattedVal === null) continue;
-        
-        if (typeof formattedVal === 'string' && formattedVal.startsWith('\n')) {
-          result += `${indentStr}  ${key}:${formattedVal}`;
-        } else {
-          result += `${indentStr}  ${key}: ${formattedVal}\n`;
-        }
+function generateFrontMatter(jsonObject, plugins = [], existingFrontMatter = {}) {
+  try {
+    // Clone the jsonObject to avoid mutating the original
+    let frontMatterObj = { ...jsonObject, ...existingFrontMatter };
+
+    // Apply plugins to modify the front matter object
+    plugins.forEach(plugin => {
+      if (typeof plugin === 'function') {
+        plugin(frontMatterObj, existingFrontMatter);
       }
-      return result.trimEnd() + '\n';
-    }
+    });
+
+    // Convert modified front matter object to YAML format
+    const yamlContent = yaml.dump(frontMatterObj);
     
-    if (typeof value === 'string') {
-      // Quote strings that contain special characters or are title/description
-      if (value.includes(':') || value.includes('#') || value.includes('"')) {
-        return `"${value.replace(/"/g, '\\"')}"`;
-      }
-      return value;
-    }
-    
-    return value;
+    // Wrap the YAML content in front matter delimiters
+    const frontMatter = `---\n${yamlContent}---\n`;
+
+    return frontMatter;
+  } catch (e) {
+    console.error("Error converting JSON to front matter:", e);
+    return '';
   }
-  
-  // Convert object to YAML string
-  let frontMatter = '---\n';
-  
-  for (const [key, value] of Object.entries(frontMatterObj)) {
-    const formattedVal = formatYamlValue(value);
-    if (formattedVal === null) continue;
-    
-    // Special handling for title - always quote it
-    if (key === 'title') {
-      frontMatter += `${key}: "${value}"\n`;
-    } else if (typeof formattedVal === 'string' && formattedVal.startsWith('\n')) {
-      frontMatter += `${key}:${formattedVal}`;
-    } else {
-      frontMatter += `${key}: ${formattedVal}\n`;
-    }
-  }
-  
-  frontMatter += '---\n\n';
-  return frontMatter;
 }
 
 
@@ -1238,17 +1167,33 @@ viewer.innerHTML = `
         path = `${config.folder}/${filename}`;
       }
 
+        function formatDate(d) {
+  let date;
+  if(d){
+    date = new Date(d);
+  }
+          
+   if(!d){
+    date = new Date();
+  }         
+  return date.toLocaleString('sv-SE') + ' ' + date.toTimeString().match(/[-+]\d{4}/)[0];
+}
+
+        
       
       const jekyll = {
+   title,
+  categories:els.categories.value || null,
+  tags:els.tags.value || null,      
   published: els.published.checked,
   excerpt: els.excerpt.value || null,
-  date: els.date.value || null
+  date:  formatDate(els.date.value) || formatDate()
 }; 
 
 // Update only non-null properties in frontMatter
 Object.entries(jekyll).forEach(([key, value]) => {
-  if (value !== null) {
-   
+  if (value !== null || value && value.trim() != "") {
+  
     if(!currentEditPost){
       currentEditPost = {}
       currentEditPost.frontMatter = {}
@@ -1261,11 +1206,9 @@ Object.entries(jekyll).forEach(([key, value]) => {
        
         
       const frontMatter = generateFrontMatter(
-        title,
-        els.categories.value,
-        els.tags.value,
+        {},
+        pluginContext.frontMatterPlugins,
         currentEditPost?.frontMatter,
-        pluginContext.frontMatterPlugins
       );
       
       
@@ -1336,6 +1279,7 @@ function clearForm() {
   els.published.checked = false;  // Uncheck published checkbox
 
   // Clear dynamic fields added by plugins
+  if(pluginContext.customFields && pluginContext.customFields.length != 0){
   pluginContext.customFields.forEach(field => {
     if (field.type === 'checkbox') {
       field.checked = false;  // For checkboxes
@@ -1345,7 +1289,7 @@ function clearForm() {
       field.value = '';  // For text input, textarea, etc.
     }
   });
-  
+ } 
 }
 
 
