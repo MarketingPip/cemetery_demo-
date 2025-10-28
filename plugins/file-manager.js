@@ -98,16 +98,16 @@ export const plugin = {
       fileItem.innerHTML = `
         <span class="file-name font-semibold">${fileName}/</span>
         <div class="flex gap-2">
-          <button class="view-file-btn bg-blue-500 hover:bg-blue-600 text-white px-2 py-1 rounded-md text-sm" data-path="${file.path}">View Folder</button>
-          <button class="delete-file-btn bg-red-600 hover:bg-red-700 text-white px-2 py-1 rounded-md text-sm" data-path="${file.path}">🗑️ Delete</button>
+          <button class="view-file-btn bg-blue-500 hover:bg-blue-600 text-white px-2 py-1 rounded-md text-sm" data-path="${file.path}" data-sha="${file.sha}">View Folder</button>
+          <button class="delete-file-btn bg-red-600 hover:bg-red-700 text-white px-2 py-1 rounded-md text-sm" data-path="${file.path}" data-sha="${file.sha}">🗑️ Delete</button>
         </div>
       `;
     } else {
       fileItem.innerHTML = `
         <span class="file-name">${fileName}</span>
         <div class="flex gap-2">
-          <button class="view-file-btn bg-green-500 hover:bg-green-600 text-white px-2 py-1 rounded-md text-sm" data-path="${file.path}">View</button>
-          <button class="delete-file-btn bg-red-600 hover:bg-red-700 text-white px-2 py-1 rounded-md text-sm" data-path="${file.path}">🗑️ Delete</button>
+          <button class="view-file-btn bg-green-500 hover:bg-green-600 text-white px-2 py-1 rounded-md text-sm" data-path="${file.path}" data-sha="${file.sha}">View</button>
+          <button class="delete-file-btn bg-red-600 hover:bg-red-700 text-white px-2 py-1 rounded-md text-sm" data-path="${file.path}" data-sha="${file.sha}">🗑️ Delete</button>
         </div>
       `;
     }
@@ -116,11 +116,12 @@ export const plugin = {
     const viewBtn = fileItem.querySelector('.view-file-btn');
     const viewHandler = async (e) => {
       const path = e.target.getAttribute('data-path');
+      const sha = e.target.getAttribute('data-sha');
       if (isFolder) {
         currentFolderPath = path;
         renderFileManager(path);
       } else {
-        await this.context.viewFile(path);
+        await this.context.viewFile(path, sha);
       }
     };
     viewBtn.addEventListener('click', viewHandler);
