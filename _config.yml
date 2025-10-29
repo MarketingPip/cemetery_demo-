@@ -114,6 +114,7 @@ plugins:
   - jekyll-minifier
   - jekyll-terser
   - jekyll-archives-v2
+  - jekyll-collection-pages
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
