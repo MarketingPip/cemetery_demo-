@@ -21,7 +21,7 @@ gem 'parallel'
 gem 'jekyll-archives-v2'
 gem 'jekyll-terser', :git => "https://github.com/RobertoJBeltran/jekyll-terser.git"
 gem 'mini_magick'
-gem 'jekyll-collection-pages'
+gem 'jekyll-collection-pages', :git => "https://github.com/athackst/jekyll-collection-pages.git"
 
 
 # If you're using any CSS preprocessors (like Sass), you can add this:
